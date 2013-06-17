@@ -9,3 +9,8 @@ Release notes taken from /usr/share/doc/mandriva-release-common
 drakx/perl-install/install/share/meta-task taken from package meta-task. I set up a submodule; hope it works.
 
 Must run images/make_boot_img before doing python dvd...
+
+[15:16:50] <Xu_R> proyvind: So I converted the distribution.py script to use urllib2 so that I could run it... but what steps are you using to generate the final iso? 
+[15:17:19] <Xu_R> I've tried it, but I'm unsure where stage1 & stage2 is coming from..
+[18:10:32] <proyvind> Xu_R: look at make rules under images/ & perl-install/install/
+
