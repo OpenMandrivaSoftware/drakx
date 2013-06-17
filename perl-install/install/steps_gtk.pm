@@ -549,7 +549,6 @@ sub installPackages {
     local $::noborderWhenEmbedded = 1;
     my $w = ugtk2->new(N("Installing"));
     state $show_advertising;
-    state $video_game;
     my $show_release_notes;
 
     my $pkg_log_widget = gtknew('TextView', editable => 0);
@@ -577,11 +576,6 @@ sub installPackages {
     };
 
     my $cancel = gtknew('Button', text => N("Cancel"), clicked => sub { $install::pkgs::cancel_install = 1 });
-    my $bossbutton = gtknew('Button', text_ref => \$video_game, 
-			 format => sub { $video_game ? N("Bored?") : N("Boss button") },
-			 clicked => sub {
-			     gtkval_modify(\$video_game, !$video_game);
-			 });
 
     my $details = gtknew('Button', text_ref => \$show_advertising, 
 			 format => sub { $show_advertising ? N("Details") : N("No details") },
@@ -595,22 +589,8 @@ sub installPackages {
                            clicked => sub { $show_release_notes = 1 });
 
     ugtk2::gtkadd($w->{window}, my $box = gtknew('VBox', children_tight => [ 
-	my $frame = gtknew('Frame', show_ref => \$show_advertising),
-	# TODO: allow for both advertising and game?
-	#gtknew('Image_using_pixmap', file_ref => \$advertising_image, show_ref => \$show_advertising),
+	gtknew('Image_using_pixmap', file_ref => \$advertising_image, show_ref => \$show_advertising),
     ]));
-
-    my $digger = new Gtk2::Socket;
-    $frame->add ($digger);
-    $frame->set_size_request (640, 400);
-    $w->{window}->show_all;
-    my $xid = $digger->window->get_xid;
-
-    my $digger_pid = fork();
-    if (!$digger_pid) {
-	    exec "/usr/games/digger", "/X:$xid", "/Q";
-    }
-    # TODO: kill pid after finished installing packages rather than leaving zombie process
 
     $box->pack_end(gtkshow(gtknew('VBox', border_width => 7, spacing => 3, children_loose => [
 	gtknew('ScrolledWindow', child => $pkg_log_widget, 
@@ -625,7 +605,7 @@ sub installPackages {
 	gtknew('HButtonBox', spacing => 0, layout => 'edge', children_loose => [
             if_($release_notes, $rel_notes),
             gtknew('HButtonBox', spacing => 5, layout => 'end',
-                   children_loose => [ $cancel, $bossbutton, $details ]),
+                   children_loose => [ $cancel, $details ]),
              ]),
     ])), 0, 1, 0);
     
