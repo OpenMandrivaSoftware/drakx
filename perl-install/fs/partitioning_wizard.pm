@@ -141,7 +141,7 @@ sub partitionWizardSolutions {
                     $min_win += partition_table::raw::cylinder_size($hd);
 
                     if ($part->{size} <= $min_linux_all + $min_win) {
-#                die N("Your Microsoft Windows® partition is too fragmented. Please reboot your computer under Microsoft Windows®, run the ``defrag'' utility, then restart the Mandriva Linux installation.");
+#                die N("Your Microsoft Windows® partition is too fragmented. Please reboot your computer under Microsoft Windows®, run the ``defrag'' utility, then restart the OpenMandriva LX installation.");
                         undef $part;
                     } else {
                         $part->{resize_fat} = $resize_fat;
@@ -354,7 +354,7 @@ sub create_display_box {
 
             my $update_size_labels = sub {
                 $win_size_label->set_label(" Windows (" . formatXiB($entry->{req_size}, 512) . ")");
-                $mdv_size_label->set_label(" Mandriva (" . formatXiB($entry->{size} - $entry->{req_size}, 512) . ")");
+                $mdv_size_label->set_label(" OpenMandriva LX (" . formatXiB($entry->{size} - $entry->{req_size}, 512) . ")");
                 0;
             };
             my $update_req_size = sub {

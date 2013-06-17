@@ -535,7 +535,7 @@ sub setupBootloader__general {
 
     if (bootloader::main_method($prev_method) eq 'lilo' && 
 	bootloader::main_method($b->{method}) eq 'grub') {
-	log::l("switching for lilo to grub, ensure we don't read lilo.conf anymore");
+	log::l("switching from lilo to grub, ensure we don't read lilo.conf anymore");
 	renamef("$::prefix/etc/lilo.conf", "$::prefix/etc/lilo.conf.unused");
     }
     1;
@@ -1024,7 +1024,7 @@ sub autologin {
 	$in->ask_from_(
 		       { title => N("Autologin"),
 			 messages => N("I can set up your computer to automatically log on one user.") },
-		       [ { text => N("Use this feature"), val => \$use_autologin, type => 'bool' },
+		       [ { text => N("Use this feature?"), val => \$use_autologin, type => 'bool' },
 			 { label => N("Choose the default user:"), val => \$o->{autologin}, list => \@users, disabled => sub { !$use_autologin } },
 			 { label => N("Choose the window manager to run:"), val => \$o->{desktop}, list => \@wm, disabled => sub { !$use_autologin } } ]
 		      );
@@ -1146,7 +1146,7 @@ sub selectLanguage_install {
     my ($in, $locale) = @_;
 
     my $common = { 
-		   title => N("Please choose a language to use"),
+		   title => N("Please choose a language to use:"),
 		   interactive_help_id => 'selectLanguage' };
 
     my $lang = $locale->{lang};
@@ -1174,7 +1174,7 @@ sub selectLanguage_install {
     my $non_utf8 = 0;
     add2hash($common, { cancel => '',
 			focus_first => 1,
-			advanced_messages => formatAlaTeX(N("Mandriva Linux can support multiple languages. Select
+			advanced_messages => formatAlaTeX(N("OpenMandriva LX can support multiple languages. Select
 the languages you would like to install. They will be available
 when your installation is complete and you restart your system.")),
 			advanced_label => N("Multiple languages"),
@@ -1209,8 +1209,8 @@ sub selectLanguage_standalone {
     my ($in, $locale) = @_;
 
     my $old_lang = $locale->{lang};
-    my $common = { messages => N("Please choose a language to use"),
-		   title => N("Language choice"),
+    my $common = { messages => N("Please choose a language to use:"),
+		   title => N("Language"),
 		   interactive_help_id => 'selectLanguage' };
 
     my @langs = sort { lang::l2name($a) cmp lang::l2name($b) } lang::list_langs(exclude_non_installed => 1);
@@ -1265,9 +1265,9 @@ sub selectCountry {
 
     $in->ask_from_(
 		  { title => N("Country / Region"), 
-		    messages => N("Please choose your country"),
+		    messages => N("Please choose your country:"),
 		    interactive_help_id => 'misc-params.html#drakxid-selectCountry',
-		    if_(@best, advanced_messages => N("Here is the full list of available countries")),
+		    if_(@best, advanced_messages => N("Here is the full list of available countries:")),
 		    advanced_label => @best ? N("Other Countries") : N("Advanced"),
 		  },
 		  [ if_(@best, { val => \$country, type => 'list', format => \&lang::c2name,
@@ -1526,7 +1526,7 @@ sub ask_for_X_restart {
         system('killall', 'Xorg');
     }
     else {
-        $in->ask_okcancel('', N("You need to log out and back in again for changes to take effect"), 1) or return;
+        $in->ask_okcancel('', N("You need to log out and back in again for changes to take effect."), 1) or return;
         ask_window_manager_to_logout_then_do($wm, $pid, 'killall Xorg');
     }
 }
@@ -1561,7 +1561,7 @@ sub configure_timezone {
     my ($in, $timezone, $ask_gmt, $o_hide_ntp) = @_;
 
     require timezone;
-    my $selected_timezone = $in->ask_from_treelist(N("Timezone"), N("Which is your timezone?"), '/', [ timezone::getTimeZones() ], $timezone->{timezone}) or return;
+    my $selected_timezone = $in->ask_from_treelist(N("Timezone"), N("What is your current timezone?"), '/', [ timezone::getTimeZones() ], $timezone->{timezone}) or return;
     $timezone->{timezone} = $selected_timezone;
 
     configure_time_more($in, $timezone, $o_hide_ntp)
@@ -1587,7 +1587,7 @@ sub configure_time_more {
                        title => N("Date, Clock & Time Zone Settings"), 
                  }, [
 	  { label => N("Date, Clock & Time Zone Settings"), title => 1 },
-	  { label => N("What is the best time?") },
+	  { label => N("What is your current time?") },
 	  { val => \$timezone->{UTC},
             type => 'list', list => [ 0, 1 ], format => sub {
                 $_[0] ?

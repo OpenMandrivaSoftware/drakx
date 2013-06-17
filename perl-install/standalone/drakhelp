@@ -49,5 +49,5 @@ if (-f $instpath) {
 } else {
     $ugtk2::wm_icon = "help";
     my $in = interactive->vnew;
-    $in->ask_warn(N("Mandriva Linux Help Center"), N("No Help entry for %s\n", $idlabel));
+    $in->ask_warn(N("OpenMandriva LX Help Center"), N("No Help entry for %s\n", $idlabel));
 }

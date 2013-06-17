@@ -1042,7 +1042,7 @@ sub suggest {
 	{
 	 defaultos => "linux",
 	 entries => [],
-	 'init-message' => "Welcome to Mandriva Linux!",
+	 'init-message' => "Welcome to OpenMandriva LX!",
 	 delay => 30,	#- OpenFirmware delay
 	 timeout => 50,
 	 enableofboot => 1,

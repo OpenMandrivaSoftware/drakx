@@ -14,11 +14,11 @@ filedeps = srcdir + "file-deps"
 
 
 media = []
-for m in "main", "contrib":
+for m in "main", "contrib", "non-free":
     media.append(Media(m))
 
 includelist = []
-for l in ["basesystem_mini", "languages"]:
+for l in ["basesystem_mini", "languages", "firmware_nonfree"]:
     includelist.append(srcdir + "lists/" + l)
 
 includelist32 = includelist + [srcdir + "lists/" + "kernel32"]

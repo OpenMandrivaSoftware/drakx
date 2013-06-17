@@ -1,1 +1,1 @@
-$title = N("Mandriva Linux 2012 Alpha (Tenacious Underdog)");
+$title = N("OpenMandriva LX 2013.0");

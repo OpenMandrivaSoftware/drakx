@@ -209,8 +209,8 @@ sub selectLanguage {
   
     $o->ask_warn('',
 formatAlaTeX(N("Your system is low on resources. You may have some problem installing
-Mandriva Linux. If that occurs, you can try a text install instead. For this,
-press `F1' when booting on CDROM, then enter `text'."))) if availableRamMB() < 70; # 70MB
+OpenMandriva LX. If that occurs, you can try a text install instead. To do this,
+press `F1' at the boot menu, then enter `text'."))) if availableRamMB() < 70; # 70MB
 
 }
 
@@ -249,8 +249,8 @@ sub reallyChooseDesktop {
     my $w = ugtk2->new($title);
 
     my %tips = (
-        KDE    => N("Install Mandriva KDE Desktop"),
-        GNOME  => N("Install Mandriva GNOME Desktop"),
+        KDE    => N("Install KDE Desktop Environment"),
+        GNOME  => N("Install GNOME Desktop Environment"),
         Custom => N("Custom install"),
     );
     my $prev;

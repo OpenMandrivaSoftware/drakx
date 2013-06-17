@@ -1,0 +1,7 @@
+Still TODO: /home/rxu/work/drakx/advertising/
+Also: abf.rosalinux.ru/soft/draklive-install is much more updated, use?
+Modify drakx/images/python/*.py for version update
+drakx/mdk-stage1/config-stage1.h must be updated with new mirror manager (grep -ir mandriva.com through whole drakx folder...)
+steps_interactive.pm is hardcoding version, is this ok?
+drakx/perl-install/install/pixmaps/ has banners and images
+svnweb.mageia.org/soft?view=revision&revision=797 has a lot of good banner redesign

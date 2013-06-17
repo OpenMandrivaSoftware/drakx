@@ -185,12 +185,12 @@ sub ask_mirror {
     require mirror;
 
     my $mirrors = eval {
-	my $_w = $o->wait_message('', N("Contacting Mandriva Linux web site to get the list of available mirrors..."));
+	my $_w = $o->wait_message('', N("Connecting to OpenMandriva to get the list of available mirrors..."));
 	mirror::list($o->{product_id}, $type);
     };
     my $err = $@;
     if (!$mirrors) {
-	$o->ask_warn('', N("Failed contacting Mandriva Linux web site to get the list of available mirrors") . "\n$err");
+	$o->ask_warn('', N("Failed to get the list of available mirrors.") . "\n$err");
 	return ask_url($o, $o_url);
     }
 
