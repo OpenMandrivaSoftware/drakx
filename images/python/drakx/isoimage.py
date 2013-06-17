@@ -10,10 +10,10 @@ class IsoImage(object):
 
         os.system("rm -rf "+destdir)
         os.mkdir(destdir)
-        os.system("ln -sr ../grub/boot/alt* %s/" % destdir)
+        os.system("bash -c 'ln -sr ../grub/boot/alt* %s/'" % destdir)
         os.symlink("/boot/memtest.bin", destdir+"/memtest")
         os.mkdir(grubdir)
-        os.system("ln -sr ../grub/boot/grub/* %s/" % grubdir)
+        os.system("bash -c 'ln -sr ../grub/boot/grub/* %s/'" % grubdir)
         for f in ['autorun.inf', 'dosutils']:
             os.symlink("%s/%s" % (repopath, f), "%s/%s" % (config.outdir, f))
 

@@ -4,7 +4,7 @@ from drakx.media import Media
 from drakx.distribution import Distribution
 import os
 
-config = ReleaseConfig("2013.0", "Oxygen", "LXDE", subversion="Alpha", medium="CD")
+config = ReleaseConfig("2013.0", "Oxygen", "EE", subversion="Alpha", medium="CD")
 os.system("rm -rf "+config.outdir)
 
 srcdir = "./"

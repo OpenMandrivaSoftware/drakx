@@ -7,3 +7,5 @@ drakx/perl-install/install/pixmaps/ has banners and images
 svnweb.mageia.org/soft?view=revision&revision=797 has a lot of good banner redesign
 Release notes taken from /usr/share/doc/mandriva-release-common
 drakx/perl-install/install/share/meta-task taken from package meta-task. I set up a submodule; hope it works.
+
+Must run images/make_boot_img before doing python dvd...
