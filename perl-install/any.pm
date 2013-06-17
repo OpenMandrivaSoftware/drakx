@@ -1138,7 +1138,7 @@ sub reboot() {
 	$o->exit;
     } else {
 	# when refusing license in finish-install:
-	exec("/sbin/reboot");
+	exec("/bin/reboot");
     }
 }
 
