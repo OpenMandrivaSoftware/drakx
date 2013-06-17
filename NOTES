@@ -5,3 +5,4 @@ drakx/mdk-stage1/config-stage1.h must be updated with new mirror manager (grep -
 steps_interactive.pm is hardcoding version, is this ok?
 drakx/perl-install/install/pixmaps/ has banners and images
 svnweb.mageia.org/soft?view=revision&revision=797 has a lot of good banner redesign
+Release notes taken from /usr/share/doc/mandriva-release-common
