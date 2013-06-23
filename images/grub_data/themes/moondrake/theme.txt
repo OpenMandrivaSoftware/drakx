@@ -1,5 +1,5 @@
 title-color: "#ff12fc"
-title-text: "Moondrake GNU/Linux"
+title-text: "OpenMandriva LX"
 desktop-color: "#ffffff"
 desktop-image: "background.jpg"
 message-color: "#000000"

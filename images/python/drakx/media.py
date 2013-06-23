@@ -5,7 +5,10 @@ class Media(object):
         self.name = name
 
     def getSynthesis(self):
-        return "/media/%s/release/media_info/synthesis.hdlist.cz" % self.name
+        return "/%s/release/media_info/synthesis.hdlist.cz" % self.name
+    
+    def getLocalName(self):
+	return "%s.synthesis.hdlist.cz" % self.name
 
     def getSize(self):
         return self.size/1024/1024

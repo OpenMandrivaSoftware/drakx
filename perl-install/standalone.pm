@@ -1,7 +1,6 @@
 package standalone; # $Id$
 
 use c;
-use strict;
 use subs qw(exit);
 use common qw(N N_ if_ backtrace);
 use Config;
@@ -62,8 +61,8 @@ default mode: offer to configure autologin feature"),
 
 OPTIONS:
   --help            - print this help message.
-  --report          - program should be one of Mandriva Linux tools
-  --incident        - program should be one of Mandriva Linux tools"),
+  --report          - program should be an OpenMandriva LX administrative tool
+  --incident        - program should be an OpenMandriva LX administrative tool"),
            'drakconnect' => N_("[--add]
   --add             - \"add a network interface\" wizard
   --del             - \"delete a network interface\" wizard
@@ -86,15 +85,15 @@ OPTIONS:
            'draksec' => "[--debug]
 --debug: print debugging information",
            'drakTermServ' => N_("[OPTIONS]...
-Mandriva Linux Terminal Server Configurator
+Terminal Server Configurator
 --enable         : enable MTS
 --disable        : disable MTS
 --start          : start MTS
 --stop           : stop MTS
---adduser        : add an existing system user to MTS (requires username)
---deluser        : delete an existing system user from MTS (requires username)
---addclient      : add a client machine to MTS (requires MAC address, IP, nbi image name)
---delclient      : delete a client machine from MTS (requires MAC address, IP, nbi image name)"),
+--adduser        : add an existing system user to TS (requires username)
+--deluser        : delete an existing system user from TS (requires username)
+--addclient      : add a client machine to TS (requires MAC address, IP, nbi image name)
+--delclient      : delete a client machine from TS (requires MAC address, IP, nbi image name)"),
 	      'drakxtv' => "[--no-guess]",
 	      'drakupdate_fstab' => " [--add | --del] <device>\n",
 	      'keyboardrake' => N_("[keyboard]"),
@@ -110,7 +109,7 @@ Network & Internet connection and monitoring application
 --quiet : do not be interactive. To be used with (dis)connect."),
 	      'printerdrake' => " [--skiptest] [--cups] [--lprng] [--lpd] [--pdq]",
 	      'rpmdrake' => N_("[OPTION]...
-  --no-confirmation      do not ask first confirmation question in Mandriva Update mode
+  --no-confirmation      do not ask first confirmation question in Online Update mode
   --no-verify-rpm        do not verify packages signatures
   --changelog-first      display changelog before filelist in the description window
   --merge-all-rpmnew     propose to merge all .rpmnew/.rpmsave files found"),
@@ -142,6 +141,7 @@ sub real_version() {
 sub version() {
     print 'Drakxtools version ' . real_version() . '
 Copyright (C) 1999-2008 Mandriva by <install@mandriva.com>
+Copyright (C) 2013 OpenMandriva Association
 ',  $::license, "\n";
 }
 

@@ -1,7 +1,5 @@
 package diskdrake::dav; # $Id$
 
-use diagnostics;
-use strict;
 use diskdrake::interactive;
 use common;
 

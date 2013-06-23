@@ -1,7 +1,5 @@
 package diskdrake::removable; # $Id$
 
-use diagnostics;
-use strict;
 use diskdrake::interactive;
 use common;
 use fs;

@@ -1,7 +1,5 @@
 package run_program; # $Id$
 
-use diagnostics;
-use strict;
 use c;
 
 use MDK::Common;
@@ -10,7 +8,7 @@ use log;
 
 1;
 
-my $default_timeout = 10 * 60;
+my $default_timeout = 30 * 60;
 
 sub set_default_timeout {
     my ($seconds) = @_;

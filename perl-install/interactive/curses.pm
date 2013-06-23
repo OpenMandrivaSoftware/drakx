@@ -5,10 +5,6 @@
 
 package interactive::curses; # $Id$
 
-use diagnostics;
-use strict;
-use vars qw(@ISA);
-
 @ISA = qw(interactive);
 
 use interactive;

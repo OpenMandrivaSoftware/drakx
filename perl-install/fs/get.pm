@@ -1,8 +1,5 @@
 package fs::get; # $Id$
 
-use diagnostics;
-use strict;
-
 use partition_table;
 use fs::type;
 use fs::loopback;
@@ -118,6 +115,13 @@ sub mntpoint2part {
 sub has_mntpoint {
     my ($mntpoint, $all_hds) = @_;
     mntpoint2part($mntpoint, [ really_all_fstab($all_hds) ]);
+}
+sub root_from_mounted() {
+    foreach (`df -P`) {
+	next if m!^[^/]!; # ignore tootfs
+	my ($fs, undef, undef, undef, undef, $mntpnt) = split(/\s+/);
+	return $fs if $mntpnt eq '/';
+    }
 }
 sub root_ {
     my ($fstab, $o_boot) = @_;

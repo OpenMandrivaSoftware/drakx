@@ -1,9 +1,5 @@
 package partition_table::sun; # $Id$
 
-use diagnostics;
-use strict;
-use vars qw(@ISA);
-
 @ISA = qw(partition_table::raw);
 
 use common;

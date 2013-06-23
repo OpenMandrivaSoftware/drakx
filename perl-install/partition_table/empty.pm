@@ -5,10 +5,6 @@ package partition_table::empty; # $Id$
 #- suited
 
 
-use diagnostics;
-use strict;
-use vars qw(@ISA);
-
 @ISA = qw(partition_table::raw);
 
 use common;

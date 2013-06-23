@@ -1,8 +1,5 @@
 package security::various; # $Id$
 
-use diagnostics;
-use strict;
-
 use common;
 
 sub config_security_user {

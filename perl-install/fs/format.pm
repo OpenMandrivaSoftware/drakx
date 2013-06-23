@@ -1,7 +1,5 @@
 package fs::format; # $Id$
 
-use diagnostics;
-use strict;
 use String::ShellQuote;
 
 use run_program;

@@ -1,8 +1,5 @@
 package fs::any; # $Id$
 
-use diagnostics;
-use strict;
-
 use common;
 use fsedit;
 use fs::mount_point;

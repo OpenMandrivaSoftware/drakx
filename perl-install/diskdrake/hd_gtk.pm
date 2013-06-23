@@ -1,8 +1,5 @@
 package diskdrake::hd_gtk; # $Id$
 
-use diagnostics;
-use strict;
-
 use common;
 use mygtk2 qw(gtknew);
 use ugtk2 qw(:helpers :wrappers :create);
@@ -112,8 +109,8 @@ sub main {
     $notebook_widget->signal_connect(realize => $update_all);
     $w->sync;
     $done_button->grab_focus;
-    $in->ask_from_list_(N("Read carefully"), N("Please make a backup of your data first"), 
-			[ N_("Exit"), N_("Continue") ], N_("Continue")) eq N_("Continue") or return
+    $in->ask_from_list_(N("Warning"), N("Please make a backup of your data first."), 
+			[ N_("Exit"), N_("Continue") ], N_("Continue")) eq N_("Continue") or $in->exit(0)
       if $::isStandalone;
 
     undef $initializing;

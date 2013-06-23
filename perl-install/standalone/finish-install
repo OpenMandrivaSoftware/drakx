@@ -183,7 +183,7 @@ sub ask_services() {
 	my $services = {
 		'smb'        => { STATE => 0, NAME => "Samba",    DESCRIPTION => N("Windows-compatible sharing system") },
 #		'mdmonitor'  => { STATE => 0, NAME => "Linux MD", DESCRIPTION => N("Software RAID support") },
-		'openvpn'    => { STATE => 0, NAME => "OpenVPN",  DESCRIPTION => N("Virtual Private Network") },
+#		'openvpn'    => { STATE => 0, NAME => "OpenVPN",  DESCRIPTION => N("Virtual Private Network") },
 		'sshd'       => { STATE => 0, NAME => "sshd",     DESCRIPTION => N("OpenSSH server") },
 		'cups'       => { STATE => 0, NAME => "CUPS",     DESCRIPTION => N("Print server") },
 #		'nfs-server' => { STATE => 0, NAME => "NFS",      DESCRIPTION => N("Network File System server") },
@@ -205,7 +205,7 @@ sub ask_services() {
 	}
 
 	# Display the dialog
-	$in->ask_from_({ messages => N("Please, specify which services should run at start-up:"),
+	$in->ask_from_({ messages => N("Do you have any services that you want to run when starting up?"),
 			 title => N("Services") },
 			 $checkboxes
 	);

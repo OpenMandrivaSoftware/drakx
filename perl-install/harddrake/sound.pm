@@ -14,7 +14,6 @@ package harddrake::sound;
 #    o ensure sound is not user (either dsp/midi/sequencer/mixer)
 #    o fix sound/alsa services
 
-use strict;
 use common;
 use run_program;
 use modules;
@@ -427,25 +426,33 @@ sub trouble {
     $in->ask_warn(N("Sound troubleshooting"),
                   formatAlaTeX(
                                #-PO: keep the double empty lines between sections, this is formatted a la LaTeX
-                               N("The classic bug sound tester is to run the following commands:
+                               N("Below are some basic tips to help debug audio problems. For up-to-date information, visit:
 
+http://wiki.openmandriva.org/ (The OpenMandriva Wiki)
 
-- \"lspcidrake -v | fgrep -i AUDIO\" will tell you which driver your card uses
+General recommendations:
+
+- \"kmix\" (KDE), \"gnome-control-center sound\" (GNOME), and \"pauvucontrol\" (others) will launch graphical applications that allow you to view your sound devices and adjust volume levels.
+
+- \"ps aux | grep pulseaudio\" will check that PulseAudio is running.
+
+- \"pactl stat\" will check that the PulseAudio daemon is working correctly.
+
+- \"pactl list sink-inputs\" will tell you which programs are currently playing sound via PulseAudio.
+
+- \"systemctl status osspd.service\" will give you information about the OSS Proxy Daemon, which is installed with the \"ossp\" package. It is used for legacy applications.
+
+- \"pacmd ls\" will give you a LOT of debug information about the current state of your sound system.
+
+- \"lspcidrake -v | grep -i audio\" will tell you which low-level driver your card uses by default.
 by default
 
-- \"grep sound-slot /etc/modprobe.conf\" will tell you what driver it
-currently uses
+- \"/usr/sbin/lsmod | grep snd\" will enable you to check if sound-related modules are loaded on your system.
 
-- \"/sbin/lsmod\" will enable you to check if its module (driver) is
-loaded or not
+- \"alsamixer -c 0\" will give you a text-based mixer to the low-level controls for the first soundcard.
+    For the second, third, etc. soundcard, use 1, 2, etc. instead of 0.
 
-- \"/sbin/chkconfig --list sound\" and \"/sbin/chkconfig --list alsa\" will
-tell you if sound and alsa services are configured to be run on
-initlevel 3
-
-- \"aumix -q\" will tell you if the sound volume is muted or not
-
-- \"/sbin/fuser -v /dev/dsp\" will tell which program uses the sound card.
+- \"/usr/sbin/fuser -v /dev/snd.pcm* /dev/dsp\" will tell you which programs are using the sound card directly (normally, only PulseAudio).
 ")));
 }
 

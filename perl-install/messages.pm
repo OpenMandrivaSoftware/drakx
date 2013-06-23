@@ -1,8 +1,5 @@
 package messages; # $Id$
 
-use diagnostics;
-use strict;
-
 use common;
 
 sub main_license() {
@@ -10,101 +7,101 @@ sub main_license() {
 #-PO: keep the double empty lines between sections, this is formatted a la LaTeX
 N("Introduction
 
-The operating system and the different components available in the Mandriva Linux distribution 
-shall be called the \"Software Products\" hereafter. The Software Products include, but are not 
-restricted to, the set of programs, methods, rules and documentation related to the operating 
-system and the different components of the Mandriva Linux distribution, and any applications 
-distributed with these products provided by Mandriva's licensors or suppliers.
+The operating system and the different components available in the OpenMandriva LX distribution
+shall be called the \"Software Products\" hereafter. The Software Products include, but are not
+restricted to, the set of programs, methods, rules and documentation related to the operating
+system and the different components of the OpenMandriva LX distribution, and any applications
+distributed with these products provided by OpenMandriva's licensors or suppliers.
 
 
 1. License Agreement
 
-Please read this document carefully. This document is a license agreement between you and  
-Mandriva S.A. which applies to the Software Products.
-By installing, duplicating or using any of the Software Products in any manner, you explicitly 
-accept and fully agree to conform to the terms and conditions of this License. 
-If you disagree with any portion of the License, you are not allowed to install, duplicate or use 
-the Software Products. 
-Any attempt to install, duplicate or use the Software Products in a manner which does not comply 
-with the terms and conditions of this License is void and will terminate your rights under this 
-License. Upon termination of the License,  you must immediately destroy all copies of the 
+Please read this document carefully. This document is a license agreement between you and
+the OpenMandriva Association which applies to the Software Products.
+By installing, duplicating or using any of the Software Products in any manner, you explicitly
+accept and fully agree to conform to the terms and conditions of this License.
+If you disagree with any portion of the License, you are not allowed to install, duplicate or use
+the Software Products.
+Any attempt to install, duplicate or use the Software Products in a manner which does not comply
+with the terms and conditions of this License is void and will terminate your rights under this
+License. Upon termination of the License,  you must immediately destroy all copies of the
 Software Products.
 
 
 2. Limited Warranty
 
-The Software Products and attached documentation are provided \"as is\", with no warranty, to the 
+The Software Products and attached documentation are provided \"as is\", with no warranty, to the
 extent permitted by law.
-Neither Mandriva S.A. nor its licensors or suppliers will, in any circumstances and to the extent 
-permitted by law, be liable for any special, incidental, direct or indirect damages whatsoever 
-(including without limitation damages for loss of business, interruption of business, financial 
-loss, legal fees and penalties resulting from a court judgment, or any other consequential loss) 
-arising out of  the use or inability to use the Software Products, even if Mandriva S.A. or its 
-licensors or suppliers have been advised of the possibility or occurrence of such damages.
+Neither the OpenMandriva Association nor its licensors or suppliers will, in any circumstances
+and to the extent permitted by law, be liable for any special, incidental, direct or indirect damages
+whatsoever (including without limitation damages for loss of business, interruption of business, financial
+loss, legal fees and penalties resulting from a court judgment, or any other consequential loss)
+arising out of  the use or inability to use the Software Products, even if the OpenMandriva Association
+or its licensors or suppliers have been advised of the possibility or occurrence of such damages.
 
 LIMITED LIABILITY LINKED TO POSSESSING OR USING PROHIBITED SOFTWARE IN SOME COUNTRIES
 
-To the extent permitted by law, neither Mandriva S.A. nor its licensors, suppliers or
-distributors will, in any circumstances, be liable for any special, incidental, direct or indirect 
-damages whatsoever (including without limitation damages for loss of business, interruption of 
-business, financial loss, legal fees and penalties resulting from a court judgment, or any 
-other consequential loss) arising out of the possession and use of software components or 
-arising out of  downloading software components from one of Mandriva Linux sites which are 
+To the extent permitted by law, neither the OpenMandriva Association nor its licensors, suppliers or
+distributors will, in any circumstances, be liable for any special, incidental, direct or indirect
+damages whatsoever (including without limitation damages for loss of business, interruption of
+business, financial loss, legal fees and penalties resulting from a court judgment, or any
+other consequential loss) arising out of the possession and use of software components or
+arising out of  downloading software components from one of OpenMandriva GNU/Linux sites which are
 prohibited or restricted in some countries by local laws.
-This limited liability applies to, but is not restricted to, the strong cryptography components 
+This limited liability applies to, but is not restricted to, the strong cryptography components
 included in the Software Products.
-However, because some jurisdictions do not allow the exclusion or limitation or liability for 
-consequential or incidental damages, the above limitation may not apply to you.  
+However, because some jurisdictions do not allow the exclusion or limitation or liability for
+consequential or incidental damages, the above limitation may not apply to you.
 %s
 
 3. The GPL License and Related Licenses
 
 The Software Products consist of components created by different persons or entities. %s
-Most of these licenses allow you to use, duplicate, adapt or redistribute the components which 
-they cover. Please read carefully the terms and conditions of the license agreement for each component 
-before using any component. Any question on a component license should be addressed to the component 
-licensor or supplier and not to Mandriva.
-The programs developed by Mandriva S.A. are governed by the GPL License. Documentation written 
-by Mandriva S.A. is governed by a specific license. Please refer to the documentation for 
+Most of these licenses allow you to use, duplicate, adapt or redistribute the components which
+they cover. Please read carefully the terms and conditions of the license agreement for each component
+before using any component. Any question on a component license should be addressed to the component
+licensor or supplier and not to the OpenMandriva Association.
+The programs developed by OpenMandriva are governed by the GPL License. Documentation written
+by OpenMandriva is governed by a specific license. Please refer to the documentation for
 further details.
 
 
 4. Intellectual Property Rights
 
-All rights to the components of the Software Products belong to their respective authors and are 
+All rights to the components of the Software Products belong to their respective authors and are
 protected by intellectual property and copyright laws applicable to software programs.
-Mandriva S.A. and its suppliers and licensors reserves their rights to modify or adapt the Software 
+OpenMandriva and its suppliers and licensors reserves their rights to modify or adapt the Software
 Products, as a whole or in parts, by all means and for all purposes.
-\"Mandriva\", \"Mandriva Linux\" and associated logos are trademarks of Mandriva S.A.  
+\"OpenMandriva\", \"OpenMandriva GNU/Linux\", \"OpenMandriva LX\", and associated logos are trademarks of the OpenMandriva association.
 
 
-5. Governing Laws 
+5. Governing Laws
 
-If any portion of this agreement is held void, illegal or inapplicable by a court judgment, this 
-portion is excluded from this contract. You remain bound by the other applicable sections of the 
+If any portion of this agreement is held void, illegal or inapplicable by a court judgment, this
+portion is excluded from this contract. You remain bound by the other applicable sections of the
 agreement.
 The terms and conditions of this License are governed by the Laws of France.
-All disputes on the terms of this license will preferably be settled out of court. As a last 
+All disputes on the terms of this license will preferably be settled out of court. As a last
 resort, the dispute will be referred to the appropriate Courts of Law of Paris - France.
-For any question on this document, please contact Mandriva S.A.",
-$us ? "\n\n" . N("You agree not to (i) sell, export, re-export, transfer, divert, disclose technical data, or 
-dispose of, any Software to any person, entity, or destination prohibited by US export laws 
-or regulations including, without limitation, Cuba, Iran, North Korea, Sudan and Syria; or 
+For any question on this document, please contact OpenMandriva.",
+$us ? "\n\n" . N("You agree not to (i) sell, export, re-export, transfer, divert, disclose technical data, or
+dispose of, any Software to any person, entity, or destination prohibited by US export laws
+or regulations including, without limitation, Cuba, Iran, North Korea, Sudan and Syria; or
 (ii) use any Software for any use prohibited by the laws or regulations of the United States.
 
-U.S. GOVERNMENT RESTRICTED RIGHTS. 
+U.S. GOVERNMENT RESTRICTED RIGHTS.
 
-The Software Products and any accompanying documentation are and shall be deemed to be 
-\"commercial computer software\" and \"commercial computer software documentation,\" respectively, 
-as defined in DFAR 252.227-7013 and as described in FAR 12.212. Any use, modification, reproduction, 
-release, performance, display or disclosure of the Software and any accompanying documentation 
-by the United States Government shall be governed solely by the terms of this Agreement and any 
-other applicable licence agreements and shall be prohibited except to the extent expressly permitted 
+The Software Products and any accompanying documentation are and shall be deemed to be
+\"commercial computer software\" and \"commercial computer software documentation,\" respectively,
+as defined in DFAR 252.227-7013 and as described in FAR 12.212. Any use, modification, reproduction,
+release, performance, display or disclosure of the Software and any accompanying documentation
+by the United States Government shall be governed solely by the terms of this Agreement and any
+other applicable licence agreements and shall be prohibited except to the extent expressly permitted
 by the terms of this Agreement.") . "\n" : '',
-$google ? N("Most of these components, but excluding the applications and software provided by Google Inc. or 
-its subsidiaries (\"Google Software\"), are governed under the terms and conditions of the GNU 
+$google ? N("Most of these components, but excluding the applications and software provided by Google Inc. or
+its subsidiaries (\"Google Software\"), are governed under the terms and conditions of the GNU
 General Public Licence, hereafter called \"GPL\", or of similar licenses.")
- : N("Most of these components are governed under the terms and conditions of the GNU 
+ : N("Most of these components are governed under the terms and conditions of the GNU
 General Public Licence, hereafter called \"GPL\", or of similar licenses."));
 }
 
@@ -151,16 +148,16 @@ N("Congratulations, installation is complete.
 Remove the boot media and press Enter to reboot.
 
 
-For information on fixes which are available for this release of Mandriva Linux,
-consult the Errata available from:
+For information on fixes which are available for this release of OpenMandriva LX,
+consult the Errata available at our wiki:
 
 
 %s
 
 
-Information on configuring your system is available in the post
-install chapter of the Official Mandriva Linux User's Guide.",
-'http://www.mandriva.com/en/security/advisories');
+Information on configuring your newly installed OpenMandriva LX system
+is also available at our wiki.",
+'http://wiki.openmandriva.org/');
 }
 
 1;

@@ -1,11 +1,11 @@
-import shutil,os,perl,string,fnmatch,re,time
+import shutil,os,perl,string,fnmatch,re,time,urllib2
 from drakx.common import *
 perl.require("URPM")
 perl.require("urpm")
 perl.require("urpm::select")
 
 class Distribution(object):
-    def __init__(self, config, arch, media, includelist, excludelist, rpmsrate, compssusers, filedeps, suggests = False, synthfilter = ".cz:gzip -9", stage1=None, stage2="../mdkinst.cpio.xz", advertising="/usr/lib/drakx-installer/root/install/extra/advertising/"):
+    def __init__(self, config, arch, media, includelist, excludelist, rpmsrate, compssusers, filedeps, suggests = False, synthfilter = ".cz:gzip -9", stage1=None, stage2="../mdkinst.cpio.xz", advertising="../../advertising/"):
         self.arch = arch
         self.media = {}
         for m in media:
@@ -60,8 +60,13 @@ class Distribution(object):
 
         for m in self.media.keys():
             synthesis = repopath + "/" + self.media[m].getSynthesis()
-            print color("Parsing synthesis for %s: %s" % (m, synthesis), GREEN)
-            urpm.parse_synthesis(synthesis) 
+            print color("Retrieving synthesis for %s: %s" % (m, synthesis), GREEN)
+            synthesisfile = urllib2.urlopen(synthesis)
+            output = open(self.media[m].getLocalName(), 'wb')
+            output.write(synthesisfile.read())
+            output.close()
+            print color("Parsing synthesis for %s: %s" % (m, self.media[m].getLocalName()), GREEN)
+            urpm.parse_synthesis(self.media[m].getLocalName())
 
         perlexc = perl.eval("@excludes = ();")
         perlexc = perl.get_ref("@excludes")
@@ -225,7 +230,7 @@ class Distribution(object):
         rootfiles = ['COPYING', 'index.htm', 'install.htm', 'INSTALL.txt', 'LICENSE-APPS.txt', 'LICENSE.txt',
                 'README.txt', 'release-notes.html', 'release-notes.txt', 'doc', 'misc']
         for f in rootfiles:
-            os.symlink("%s/%s" % (repopath, f), "%s/%s" % (outdir, f))
+            os.symlink("%s" % f, "%s/%s" % (outdir, f))
 
         f = open(outdir+"/product.id", "w")
         # unsure about relevance of all these fields, will just hardcode those seeming irrelevant for now..
@@ -243,18 +248,30 @@ class Distribution(object):
                     print color("skipping2: " + pkg.name(), YELLOW, RESET, DIM)
                     continue
 
-                source = "%s/media/%s/release/%s.rpm" % (repopath, m.name, pkg.fullname())
-                if os.path.exists(source):
-                    target = "%s/media/%s/%s.rpm" % (outdir, m.name, pkg.fullname())
-                    if not os.path.islink(target):
-                        pkgs.append(source)
-                        os.symlink(source, target)
-                        s = os.stat(source)
-                        m.size += s.st_size
+                source = "%s/%s/release/%s.rpm" % (repopath, m.name, pkg.fullname())
+                try:
+		    remotefile = urllib2.urlopen(source)
+		except urllib2.URLError as urlerr:
+		    continue
+		target = "%s/media/%s/%s.rpm" % (outdir, m.name, pkg.fullname())
+		if not os.path.exists(target):
+		    pkgs.append(source)
+		    targetout = open(target, 'wb')
+		    targetout.write(remotefile.read())
+		    targetout.close()
+		    s = os.stat(target)
+		    m.size += s.st_size
             self.media[m.name].pkgs = pkgs
             if not os.path.exists("%s/media/%s/media_info" % (outdir, m.name)):
                 os.mkdir("%s/media/%s/media_info" % (outdir, m.name))
-            os.symlink("%s/media/%s/release/media_info/pubkey" % (repopath, m.name), "%s/media/%s/media_info/pubkey" % (outdir, m.name))
+            
+            try:
+		remotepubkey = urllib2.urlopen("%s/%s/release/media_info/pubkey" % (repopath, m.name))
+		targetpubkey = open("%s/media/%s/media_info/pubkey" % (outdir, m.name), 'wb')
+		targetpubkey.write(remotepubkey.read())
+		targetpubkey.close()
+	    except urllib2.URLError as urlerr:
+		print color("Couldn't retrieve pubkey for %s; ignoring..." % m.name, YELLOW)
 
         print color("Writing %s/media/media_info/media.cfg" % outdir, GREEN)
         if not os.path.exists("%s/media/media_info" % outdir):
@@ -277,7 +294,7 @@ class Distribution(object):
         f.write(mediaCfg)
         f.close()
         os.system("gendistrib "+outdir)
-        os.system("rm %s/media/media_info/{MD5SUM,*.cz}" % outdir)
+        os.system("bash -c 'rm %s/media/media_info/{MD5SUM,*.cz}'" % outdir)
 
         for m in media:
             # workaround for urpmi spaghetti code which hardcodes .cz
@@ -285,7 +302,7 @@ class Distribution(object):
                 os.symlink("synthesis.hdlist%s" % ext, "%s/media/%s/media_info/synthesis.hdlist.cz" % (outdir, m.name))
 
             os.unlink("%s/media/%s/media_info/hdlist.cz" % (outdir, m.name))
-            os.system("cd %s/media/%s/media_info/; md5sum * > MD5SUM" % (outdir, m.name))
+            os.system("bash -c 'cd %s/media/%s/media_info/; md5sum * > MD5SUM'" % (outdir, m.name))
 
             smartopts = "-o sync-urpmi-medialist=no --data-dir %s/smartdata" % os.getenv("PWD")
             os.system("smart channel --yes %s --add %s type=urpmi baseurl=%s/%s/media/%s/ hdlurl=media_info/synthesis.hdlist%s" %
@@ -313,19 +330,19 @@ class Distribution(object):
         print color("Copying first stage installer: %s -> %s/install/images/all.cpio.xz" % (stage1, outdir), GREEN)
         os.mkdir("%s/install" % outdir)
         os.mkdir("%s/install/images" % outdir)
-        os.system("ln -sr %s %s/install/images/all.cpio.xz" % (stage1, outdir))
+        os.system("cp -rv %s %s/install/images/all.cpio.xz" % (stage1, outdir))
 
         print color("Copying second stage installer: %s -> %s/install/stage2/mdkinst.cpio.xz" % (stage2, outdir), GREEN)
         os.mkdir("%s/install/stage2" % outdir)
-        os.system("ln -sr %s %s/install/stage2/mdkinst.cpio.xz" % (stage2, outdir))
-        os.system("ln -sr ../VERSION %s/install/stage2/VERSION" % outdir)
+        os.system("cp -rv %s %s/install/stage2/mdkinst.cpio.xz" % (stage2, outdir))
+        os.system("cp -rv ../VERSION %s/install/stage2/VERSION" % outdir)
 
         print color("Copying advertising: %s -> %s/install/extra/advertising" % (advertising, outdir), GREEN)
         os.mkdir("%s/install/extra" % outdir)
-        os.system("ln -sr %s %s/install/extra/advertising" % (advertising, outdir))
+        os.system("cp -rv %s %s/install/extra/advertising" % (advertising, outdir))
 
         print color("Generating %s/media/media_info/MD5SUM" % outdir, GREEN)
-        os.system("cd %s/media/media_info/; md5sum * > MD5SUM" % outdir)
+        os.system("bash -c 'cd %s/media/media_info/; md5sum * > MD5SUM'" % outdir)
 
         self.pkgs = []
         def get_pkgs(pkg):

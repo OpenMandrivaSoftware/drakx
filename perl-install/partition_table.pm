@@ -1,8 +1,5 @@
 package partition_table; # $Id$
 
-use diagnostics;
-use strict;
-
 use common;
 use fs::type;
 use partition_table::raw;

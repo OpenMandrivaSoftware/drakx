@@ -2,9 +2,6 @@ package partition_table::dmcrypt; # $Id: $
 
 # dmcrypt on full disk
 
-use diagnostics;
-use strict;
-
 our @ISA = qw(partition_table::readonly);
 
 use common;

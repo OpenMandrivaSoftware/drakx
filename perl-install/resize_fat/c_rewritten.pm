@@ -1,7 +1,5 @@
 package resize_fat::c_rewritten; # $Id$
 
-use strict;
-
 require DynaLoader;
 
 our @ISA = qw(DynaLoader Exporter);

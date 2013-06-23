@@ -1,7 +1,5 @@
 package mirror; # $Id$
 
-use diagnostics;
-use strict;
 use feature 'state';
 
 use common;

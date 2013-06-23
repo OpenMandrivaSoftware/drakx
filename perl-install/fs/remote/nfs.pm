@@ -1,8 +1,5 @@
 package fs::remote::nfs; # $Id$
 
-use strict;
-use diagnostics;
-
 use common;
 use fs::remote;
 use network::tools;

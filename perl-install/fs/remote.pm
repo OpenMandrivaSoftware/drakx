@@ -1,8 +1,5 @@
 package fs::remote; # $Id$
 
-use strict;
-use diagnostics;
-
 use fs::mount_options;
 
 

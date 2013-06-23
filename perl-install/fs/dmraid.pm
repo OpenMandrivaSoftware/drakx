@@ -1,8 +1,5 @@
 package fs::dmraid; # $Id$
 
-use diagnostics;
-use strict;
-
 #-######################################################################################
 #- misc imports
 #-######################################################################################
@@ -44,6 +41,7 @@ sub _raid_devices_raw() {
     log::l("_raid_devices_raw");
     my %vgs;
     my %pv2vg = map {
+	chomp();
 	log::l("got: $_");
 	my %l; @l{qw(name size stride level status subsets devs spares)} = split(':');
 	$vgs{$l{name}} = 1 if defined $l{spares};
@@ -51,7 +49,7 @@ sub _raid_devices_raw() {
 	    log::l("$2 => $1");
 	    { $2 => $1 }
         }
-    } call_dmraid('-d', '-s', '-c', '-c');
+    } call_dmraid(qw(-d -s -c -c));
     map {
 	chomp;
 	log::l("got: $_");
@@ -61,7 +59,7 @@ sub _raid_devices_raw() {
 	    $l{vg} = $pv2vg{$l{pv}};
 	}
 	if_(defined $l{size}, \%l);
-    } call_dmraid('-r', '-c', '-c');
+    } call_dmraid(qw(-r -c -c));
 }
 
 sub _raid_devices() {
@@ -116,7 +114,12 @@ sub vgs() {
 
 	#- device should exist, created by dmraid(8) using libdevmapper
 	#- if it doesn't, we suppose it's not in use
-	if_(-e "/dev/$dev", $vg); 
+	if (-e "/dev/$dev") {
+	  $vg;
+	} else {
+	  log::l("ignoring $dev as /dev/$dev doesn't exist");
+	  ();
+	}
 
     } grep { 
 	if ($_->{status} eq 'ok') {

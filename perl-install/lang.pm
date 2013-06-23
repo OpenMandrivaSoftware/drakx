@@ -1,7 +1,5 @@
 package lang; # $Id$
 
-use diagnostics;
-use strict;
 use common;
 use utf8;
 use log;

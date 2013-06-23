@@ -1,8 +1,5 @@
 package fs; # $Id$
 
-use diagnostics;
-use strict;
-
 use common;
 use log;
 use devices;

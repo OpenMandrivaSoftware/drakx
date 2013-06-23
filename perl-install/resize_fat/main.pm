@@ -2,9 +2,6 @@ package resize_fat::main; # $Id$
 
 # This is mainly a perl rewrite of the work of Andrew Clausen (libresize)
 
-use diagnostics;
-use strict;
-
 use log;
 use common;
 use resize_fat::boot_sector;

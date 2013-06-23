@@ -1,8 +1,5 @@
 package partition_table::readonly; # $Id: $
 
-use diagnostics;
-use strict;
-
 our @ISA = qw(partition_table::raw);
 
 use common;

@@ -2,8 +2,6 @@
 # -*- coding: utf-8 -*-
 
 use utf8;
-use strict;
-use diagnostics;
 use lib qw(/usr/lib/libDrakX);
 use standalone;
 use MDK::Common; # help perl_checker

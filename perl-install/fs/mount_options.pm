@@ -1,8 +1,5 @@
 package fs::mount_options; # $Id$
 
-use diagnostics;
-use strict;
-
 use common;
 use fs::type;
 use fs::get;

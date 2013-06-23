@@ -1,8 +1,5 @@
 package diskdrake::smbnfs_gtk; # $Id$
 
-use diagnostics;
-use strict;
-
 use fs::get;
 use diskdrake::interactive;
 use common;

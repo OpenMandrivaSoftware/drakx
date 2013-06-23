@@ -1,8 +1,5 @@
 package diskdrake::resize_ext2; # $Id$
 
-use diagnostics;
-use strict;
-
 use run_program;
 use common;
 

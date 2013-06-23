@@ -1,7 +1,5 @@
 package harddrake::v4l;
 
-use strict;
-
 use common;
 use detect_devices;
 use log;

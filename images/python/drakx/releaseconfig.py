@@ -1,5 +1,5 @@
 class ReleaseConfig(object):
-    def __init__(self, version, codename, product, subversion = None, outdir="out", branch = "devel", repopath = None, medium = "DVD", vendor = "Moondrake", distribution = "Moondrake GNU/Linux"):
+    def __init__(self, version, codename, product, subversion = None, outdir="out", branch = "Devel", repopath = None, medium = "DVD", vendor = "OpenMandriva Association", distribution = "OpenMandriva LX"):
         self.version = version
         self.codename = codename
         self.product = product
@@ -10,10 +10,11 @@ class ReleaseConfig(object):
         self.outdir = outdir
         self.branch = branch
         if (not repopath):
-            self.repopath += "%s/%s" % (branch, version)
+	    self.repopath = "http://abf-downloads.rosalinux.ru/cooker/repository/"
+        #    self.repopath += "%s/%s" % (branch, version)
         else:
             self.repopath = repopath
 
-    repopath = "/mnt/BIG/distrib/"
+    repopath = "/mnt/BIG/repo/"
 
 # vim:ts=4:sw=4:et

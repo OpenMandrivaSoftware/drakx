@@ -1,7 +1,5 @@
 package modules; # $Id$
 
-use strict;
-
 use common;
 use detect_devices;
 use run_program;

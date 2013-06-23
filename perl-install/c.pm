@@ -1,7 +1,5 @@
 package c; # $Id$
 
-use vars qw($AUTOLOAD);
-
 use c::stuff;
 use MDK::Common;
 

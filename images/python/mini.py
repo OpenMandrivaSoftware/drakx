@@ -4,7 +4,7 @@ from drakx.media import Media
 from drakx.distribution import Distribution
 import os
 
-config = ReleaseConfig("2013", "Aspiring Vaporware", "LXDE", subversion="Alpha 3", medium="CD")
+config = ReleaseConfig("2013.0", "Oxygen", "Free", subversion="Alpha", medium="CD")
 os.system("rm -rf "+config.outdir)
 
 srcdir = "./"
@@ -14,11 +14,11 @@ filedeps = srcdir + "file-deps"
 
 
 media = []
-for m in "main", "contrib", "non-free":
+for m in "main", "contrib":
     media.append(Media(m))
 
 includelist = []
-for l in ["basesystem_mini", "languages", "firmware_nonfree"]:
+for l in ["basesystem_mini", "languages"]:
     includelist.append(srcdir + "lists/" + l)
 
 includelist32 = includelist + [srcdir + "lists/" + "kernel32"]
@@ -33,4 +33,4 @@ i586 = Distribution(config, "i586", media, includelist32, excludelist, rpmsrate,
 
 distrib=[i586,x86_64]
 
-image = IsoImage(config, distrib, maxsize=800)
+image = IsoImage(config, distrib, maxsize=700)

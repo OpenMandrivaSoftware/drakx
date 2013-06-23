@@ -1,9 +1,5 @@
 package interactive::http; # $Id$
 
-use diagnostics;
-use strict;
-use vars qw(@ISA);
-
 @ISA = qw(interactive);
 
 use CGI;

@@ -6,7 +6,6 @@ package services; # $Id$
 #- misc imports
 #-######################################################################################
 
-use strict;
 use common;
 use run_program;
 

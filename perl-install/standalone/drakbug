@@ -18,8 +18,6 @@
 # along with this program; if not, write to the Free Software
 # Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
 
-use strict;
-use diagnostics;
 use lib qw(/usr/lib/libDrakX);
 use any;
 use standalone;
@@ -59,18 +57,18 @@ if (!check_for_xserver()) {
 mygtk2::init();
 
 $ugtk2::wm_icon = 'drakbug-16';
-my $window = ugtk2->new(N("Mandriva Linux Bug Report Tool"), center => 1);
+my $window = ugtk2->new(N("OpenMandriva LX Bug Reporting"), center => 1);
 $window->{rwindow}->set_border_width(5);
 $window->{window}->signal_connect("delete_event", sub { ugtk2->exit(0) });
 
 my $mdk_app = { 
-	       N("Mandriva Linux Control Center") => 'drakconf',
+	       N("OpenMandriva LX Control Center") => 'drakconf',
 	       N("First Time Wizard") => 'drakfw',
 	       N("Synchronization tool") => 'draksync',  
 	       N("Standalone Tools") => 'drakxtools',
 	       "harddrake" => 'harddrake2',
-	       N("Mandriva Online") => 'mdkonline',
-	       N("Mandriva Online") => 'mdkapplet',
+	       N("OpenMandriva Online") => 'mdkonline',
+	       N("OpenMandriva Online") => 'mdkapplet',
 	       N("Remote Control") => 'rfbdrake',
 	       N("Software Manager") => 'rpmdrake',
 	       N("Windows Migration tool") => 'transfugdrake',
@@ -86,17 +84,17 @@ my $mandrake_release = chomp_(cat_('/etc/mandrakelinux-release'));
 #- unused for now
 #- (my $mandrake_version) = $mandrake_release =~ /(\d+\.\d+)/;
 
-if ($mandrake_release =~ /(official|community)/i) {
+if ($mandrake_release =~ /(official|community|OpenMandriva)/i) {
     $distrocode = $mandrake_release;
     $distrocode =~ s/^.*?(\d+\.\d+) \((\w+)\).*$/$1-\l$2/;
 } else {
     $distrocode = "cooker";
 }
-my $bugzilla_url = 'http://qa.mandriva.com/enter_bug.cgi';
+my $bugzilla_url = 'http://issues.openmandriva.org/enter_bug.cgi';
 my $wizard_name = "Bugzilla";
 
 $table = create_packtable({ col_spacings => 5, row_spacings => 10 },
-		          [ gtknew('Label_Left', text => N("Select Mandriva Tool:")), $comb_app = Gtk2::ComboBox->new_text, $comb_app->set_wrap_width(3) ],
+		          [ gtknew('Label_Left', text => N("Select Tool:")), $comb_app = Gtk2::ComboBox->new_text, $comb_app->set_wrap_width(3) ],
                           [ gtknew('Label_Left', text => N("or Application Name\n(or Full Path):")), 
 			  gtkpack_(Gtk2::HBox->new(0, 5),
 				   1, $com_app = gtkset_editable(Gtk2::Entry->new, 1), 
@@ -151,9 +149,8 @@ gtkadd($window->{window},
                                          join(", ", map { N("'%s'", $_) } @commands)) .
                                      if_(is_a_boot_issue(),
                                          "\n" .
-                                         N("You should also attach the following files: %s as well as %s.",
-                                           '/etc/modprobe.conf, /etc/fstab, /boot/grub/menu.lst, /boot/grub/devices.map',
-                                           '/etc/lilo.conf',
+                                         N("You should also attach the following files if you have them: %s.",
+                                           '/etc/modprobe.conf, /etc/fstab, /boot/grub2/grub.cfg',
                                        )
                                      )
                                ]
@@ -237,7 +234,7 @@ sub get_top_of_trace {
 
 sub report_bug_to_bugzilla() {
     my $p = $package->get_text;
-    my ($product, $version) = $p =~ /^(.*)-([^-]+-[^-]+(mdk|mdv.*))$/; # FIXME: fragile!
+    my ($product, $version) = $p =~ /^(.*)-([^-]+-[^-]+(mdk|mdv|omv.*))$/; # FIXME: fragile!
     my $app = $comb_app->entry->get_text;
     my $_component = $app ?
       if_(member($app, @all_drakxtools), $app) || $mdk_app->{$app} :
@@ -264,8 +261,8 @@ sub report_bug_to_bugzilla() {
     my $options = join('&',
                        ($product || $version ? 'cf_rpmpkg=' . join('-', $product, $version) : ()),
                        'version=' . ($rel_data->{branch} eq 'Devel' ? 'Cooker' : $rel_data->{version}),
-                       'component=Core%20Packages',
-                       'classification=Mandriva%20Linux',
+                       'component=Software',
+                       'product=OpenMandriva%20LX',
                        "rep_platform=$arch",
                        if_($incident,
                            join('', "short_desc=$prog%20",
