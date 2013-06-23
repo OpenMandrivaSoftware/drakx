@@ -1,7 +1,5 @@
 package fs::wild_device; # $Id$
 
-use diagnostics;
-use strict;
 use devices;
 use common;
 

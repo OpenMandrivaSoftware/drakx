@@ -1,9 +1,5 @@
 package resize_fat::dir_entry; # $Id$
 
-use diagnostics;
-use strict;
-
-
 my $DELETED_FLAG      = 0xe5;
 
 my $_READ_ONLY_ATTR   = 0x01;

@@ -1,8 +1,5 @@
 package fs::mount; # $Id$
 
-use diagnostics;
-use strict;
-
 use run_program;
 use common;
 use fs::type;

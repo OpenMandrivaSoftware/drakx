@@ -1,8 +1,5 @@
 package log; # $Id$
 
-use diagnostics;
-use strict;
-
 use c;
 
 my ($LOG);

@@ -1,7 +1,6 @@
 package wizards;
 # $Id$
 
-use strict;
 use c;
 use common;
 # perl_checker: require interactive

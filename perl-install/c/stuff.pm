@@ -1,8 +1,5 @@
 package c::stuff; # $Id$
 
-use strict;
-use vars qw($VERSION @ISA);
-
 require DynaLoader;
 
 @ISA = qw(DynaLoader);

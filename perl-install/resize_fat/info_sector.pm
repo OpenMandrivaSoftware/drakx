@@ -1,8 +1,5 @@
 package resize_fat::info_sector; # $Id$
 
-use diagnostics;
-use strict;
-
 use common;
 use resize_fat::io;
 

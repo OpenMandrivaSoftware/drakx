@@ -1,8 +1,5 @@
 package bootloader; # $Id$
 
-use diagnostics;
-use strict;
-
 #-######################################################################################
 #- misc imports
 #-######################################################################################
@@ -135,15 +132,15 @@ sub mkinitrd {
 }
 
 sub rebuild_initrd {
-    my ($kernel_version, $bootloader, $entry, $initrd) = @_;
+#    my ($kernel_version, $bootloader, $entry, $initrd) = @_;
 
-    my $old = $::prefix . $entry->{initrd} . '.old';
-    unlink $old;
-    rename "$::prefix$initrd", $old;
-    if (!mkinitrd($kernel_version, $bootloader, $entry, $initrd)) {
-	log::l("rebuilding initrd failed, putting back the old one");
-	rename $old, "$::prefix$initrd";
-    }
+#    my $old = $::prefix . $entry->{initrd} . '.old';
+#    unlink $old;
+#    rename "$::prefix$initrd", $old;
+#    if (!mkinitrd($kernel_version, $bootloader, $entry, $initrd)) {
+#	log::l("rebuilding initrd failed, putting back the old one");
+#	rename $old, "$::prefix$initrd";
+#    }
 }
 
 sub remove_boot_splash {
@@ -230,14 +227,14 @@ sub read_grub2 {
     $bootloader{timeout} = $h{GRUB_TIMEOUT};
     $bootloader{entries} = [];
     my $entry;
-    foreach (cat_("$::prefix/boot/grub2/grub.cfg")) {
+    foreach (cat_utf8("$::prefix/boot/grub2/grub.cfg")) {
 	next if /^#/;
 	if (/menuentry\s+['"]([^']+)["']/) {
 	    push @{$bootloader{entries}}, $entry if $entry;
 	    $entry = { label => $1 };
-	} elsif (/linux\s+(\S+)\s+(.*)?/) {
+	} elsif (/linux\s+(\S+)\s+(.*)?/ || /module\s+(\S+vmlinu\S+)\s+(.*)?/) {
 	    @$entry{qw(kernel_or_dev append)} = ($1, $2);
-	} elsif (/initrd\s+(\S+)/) {
+	} elsif (/initrd\s+(\S+)/ || /module\s+(\S+initrd\S+)\s+(.*)?/) {
 	    $entry->{initrd} = $1;
 	}
     }
@@ -765,6 +762,10 @@ sub add_kernel {
 
     if (!$b_no_initrd) {
 	$v->{initrd} = mkinitrd($kernel_str->{version}, $bootloader, $v, "/boot/$initrd_long");
+    } else {
+	# we just setup a copy of the universal initrd, and we need to add proper info
+	# to the bootloader configuration
+	$v->{initrd} = '/boot/initrd.img';
     }
 
     if (!$b_nolink) {
@@ -777,7 +778,7 @@ sub add_kernel {
 	    _do_the_symlink($bootloader, $v->{kernel_or_dev}, $vmlinuz_long);
 	}
 
-	if ($v->{initrd}) {
+	if ($v->{initrd} && !$b_no_initrd) {
 	    $v->{initrd} = '/boot/' . kernel_str2initrd_short($kernel_str);
 	    if (arch() =~ /mips/) {
 		log::l("link $::prefix/boot/$initrd_long -> $::prefix$v->{initrd}");
@@ -1091,15 +1092,15 @@ sub suggest {
 		if_($options{vga_fb}, vga => $options{vga_fb}), #- using framebuffer
 		if_($options{vga_fb} && $options{splash}, append => "splash"),
 		if_($options{quiet}, append => "splash quiet"),
-	       });
+	       }, "", 1);
 
 	if ($options{vga_fb} && $e->{label} eq 'linux') {
-	    add_kernel($bootloader, $kernel, { root => $root, label => 'linux-nonfb' });
+	    add_kernel($bootloader, $kernel, { root => $root, label => 'linux-nonfb' }, "", 1);
 	}
     }
 
     add_kernel($bootloader, $kernels[0],
-	       { root => $root, label => 'failsafe', append => 'failsafe' })
+	       { root => $root, label => 'failsafe', append => 'failsafe' }, "", 1)
       if @kernels;
 
     if (arch() =~ /ppc/) {
@@ -2082,7 +2083,7 @@ sub ensure_pkg_is_installed {
     if (member($main_method, qw(grub grub2 lilo))) {
 	$do_pkgs->ensure_binary_is_installed($pkg{$main_method} || $main_method, $h{$main_method} || $main_method, 1) or return 0;
 	if ($bootloader->{method} eq 'grub-graphic') {
-	    $do_pkgs->ensure_is_installed('mandriva-gfxboot-theme', '/usr/share/gfxboot/themes/Mandriva/boot/message', 1) or return 0;
+	    $do_pkgs->ensure_is_installed('OpenMandriva-gfxboot-theme', '/usr/share/gfxboot/themes/OpenMandriva/boot/message', 1) or return 0;
 	}
     }
     1;
@@ -2193,7 +2194,7 @@ sub find_other_distros_grub_conf {
 	    } else {
 		log::l("could not recognise the distribution for $e->{grub_conf} in $e->{bootpart}{device}");
 	    }
-	    $e->{name} = $e->{menuentry} || "Linux $e->{bootpart}{device}";
+	    $e->{name} || "Linux $e->{bootpart}{device}";
 	    push @found, $e;
 	}
     }

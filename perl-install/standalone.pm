@@ -1,7 +1,6 @@
 package standalone; # $Id$
 
 use c;
-use strict;
 use subs qw(exit);
 use common qw(N N_ if_ backtrace);
 use Config;
@@ -110,7 +109,7 @@ Network & Internet connection and monitoring application
 --quiet : do not be interactive. To be used with (dis)connect."),
 	      'printerdrake' => " [--skiptest] [--cups] [--lprng] [--lpd] [--pdq]",
 	      'rpmdrake' => N_("[OPTION]...
-  --no-confirmation      do not ask first confirmation question in Mandriva Update mode
+  --no-confirmation      do not ask first confirmation question in Online Update mode
   --no-verify-rpm        do not verify packages signatures
   --changelog-first      display changelog before filelist in the description window
   --merge-all-rpmnew     propose to merge all .rpmnew/.rpmsave files found"),

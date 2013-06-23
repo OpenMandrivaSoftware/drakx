@@ -1,5 +1,4 @@
 #!/usr/bin/perl -T
-use strict;
 
 ########################################
 # config files
@@ -206,7 +205,6 @@ sub remove {
 ################################################################################
 package nfs_exports;
 
-use vars qw(@ISA $conf_file $default_options);
 BEGIN { @ISA = 'exports' }
 
 sub read() {
@@ -287,7 +285,6 @@ sub update_server() {
 ################################################################################
 package smb_exports;
 
-use vars qw(@ISA $conf_file);
 BEGIN { @ISA = 'exports' }
 
 sub read() {

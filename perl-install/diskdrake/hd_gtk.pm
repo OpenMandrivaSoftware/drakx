@@ -1,8 +1,5 @@
 package diskdrake::hd_gtk; # $Id$
 
-use diagnostics;
-use strict;
-
 use common;
 use mygtk2 qw(gtknew);
 use ugtk2 qw(:helpers :wrappers :create);

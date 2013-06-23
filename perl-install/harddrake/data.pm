@@ -1,6 +1,5 @@
 package harddrake::data;
 
-use strict;
 use detect_devices;
 use common;
 use modules;

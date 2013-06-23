@@ -1,8 +1,5 @@
 package fs::remote::davfs; # $Id: smb.pm 231184 2007-10-24 14:36:29Z pixel $
 
-use strict;
-use diagnostics;
-
 use common;
 use fs::mount_options;
 

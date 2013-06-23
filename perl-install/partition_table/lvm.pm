@@ -2,9 +2,6 @@ package partition_table::lvm; # $Id: $
 
 # LVM on full disk
 
-use diagnostics;
-use strict;
-
 our @ISA = qw(partition_table::readonly);
 
 use common;

@@ -5,9 +5,6 @@ use lib qw(/usr/lib/libDrakX);
 # prevent firing up drakbug (doesn't work w/o X11):
 BEGIN { $ENV{DISABLE_DRAKBUG} = 1 }
 
-use strict;
-use diagnostics;
-
 # fix translating reasons for 2nd stage warning
 use lang;
 BEGIN {

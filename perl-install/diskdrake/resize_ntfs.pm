@@ -1,8 +1,5 @@
 package diskdrake::resize_ntfs;
 
-use diagnostics;
-use strict;
-
 use run_program;
 use common;
 # perl_checker: require interactive

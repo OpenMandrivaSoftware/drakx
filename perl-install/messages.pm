@@ -1,8 +1,5 @@
 package messages; # $Id$
 
-use diagnostics;
-use strict;
-
 use common;
 
 sub main_license() {
@@ -10,10 +7,10 @@ sub main_license() {
 #-PO: keep the double empty lines between sections, this is formatted a la LaTeX
 N("Introduction
 
-The operating system and the different components available in the OpenMandriva GNU/Linux distribution
+The operating system and the different components available in the OpenMandriva LX distribution
 shall be called the \"Software Products\" hereafter. The Software Products include, but are not
 restricted to, the set of programs, methods, rules and documentation related to the operating
-system and the different components of the OpenMandriva GNU/Linux distribution, and any applications
+system and the different components of the OpenMandriva LX distribution, and any applications
 distributed with these products provided by OpenMandriva's licensors or suppliers.
 
 
@@ -75,7 +72,7 @@ All rights to the components of the Software Products belong to their respective
 protected by intellectual property and copyright laws applicable to software programs.
 OpenMandriva and its suppliers and licensors reserves their rights to modify or adapt the Software
 Products, as a whole or in parts, by all means and for all purposes.
-\"OpenMandriva\", \"OpenMandriva GNU/Linux\" and associated logos are trademarks of the OpenMandriva association.
+\"OpenMandriva\", \"OpenMandriva GNU/Linux\", \"OpenMandriva LX\", and associated logos are trademarks of the OpenMandriva association.
 
 
 5. Governing Laws
@@ -152,14 +149,14 @@ Remove the boot media and press Enter to reboot.
 
 
 For information on fixes which are available for this release of OpenMandriva LX,
-consult the Errata available from:
+consult the Errata available at our wiki:
 
 
 %s
 
 
-You can learn more about configuring your newly installed OpenMandriva LX system
-at our OpenMandriva wiki.",
+Information on configuring your newly installed OpenMandriva LX system
+is also available at our wiki.",
 'http://wiki.openmandriva.org/');
 }
 

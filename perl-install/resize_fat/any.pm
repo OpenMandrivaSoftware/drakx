@@ -1,9 +1,5 @@
 package resize_fat::any; # $Id$
 
-use diagnostics;
-use strict;
-use vars qw($FREE $FILE $DIRECTORY $UNMOVEABLE);
-
 use common;
 use resize_fat::fat;
 use resize_fat::directory;

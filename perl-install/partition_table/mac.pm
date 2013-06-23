@@ -1,8 +1,6 @@
 package partition_table::mac; # $Id$
 
-use diagnostics;
 #use strict;   - fixed other PPC code to comply, but program bails on empty partition table - sbenedict
-use vars qw(@ISA $freepart $bootstrap_part $macos_part $new_bootstrap);
 
 @ISA = qw(partition_table::raw);
 

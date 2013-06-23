@@ -3,7 +3,6 @@ package security::help;
 # They were then reworked in order to be targeted for end users, not msec developpers
 
 
-use strict;
 use common;
 
 our %help = (

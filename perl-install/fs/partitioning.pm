@@ -1,8 +1,5 @@
 package fs::partitioning; # $Id$
 
-use diagnostics;
-use strict;
-
 use common;
 use fs::format;
 use fs::type;

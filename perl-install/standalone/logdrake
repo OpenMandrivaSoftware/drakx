@@ -21,7 +21,6 @@
 #
 # TODO: consider switching from TreeView to gtkhtml
 
-use strict;
 use lib qw(/usr/lib/libDrakX);
 use standalone;     #- warning, standalone must be loaded very first, for 'explanations'
 use c;

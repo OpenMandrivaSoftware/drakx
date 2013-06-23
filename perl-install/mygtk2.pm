@@ -1,7 +1,5 @@
 package mygtk2;
 
-use diagnostics;
-use strict;
 use feature 'state';
 
 our @ISA = qw(Exporter);

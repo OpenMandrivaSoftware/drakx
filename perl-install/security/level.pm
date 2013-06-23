@@ -1,6 +1,5 @@
 package security::level;
 
-use strict;
 use common;
 use run_program;
 # perl_checker: require interactive

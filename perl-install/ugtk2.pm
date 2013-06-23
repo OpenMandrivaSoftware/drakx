@@ -1,8 +1,5 @@
 package ugtk2;
 
-use diagnostics;
-use strict;
-use vars qw(@ISA %EXPORT_TAGS @EXPORT_OK @icon_paths $wm_icon $grab $border); #- leave it on one line, for automatic removal of the line at package creation
 use locale;
 
 @ISA = qw(Exporter);

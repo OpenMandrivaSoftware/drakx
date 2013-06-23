@@ -1,7 +1,5 @@
 package diskdrake::interactive; # $Id$
 
-use diagnostics;
-use strict;
 use utf8;
 
 use common;

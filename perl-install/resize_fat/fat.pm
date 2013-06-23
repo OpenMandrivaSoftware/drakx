@@ -1,8 +1,5 @@
 package resize_fat::fat; # $Id$
 
-use diagnostics;
-use strict;
-
 use resize_fat::any;
 use resize_fat::io;
 use resize_fat::c_rewritten qw(next set_next);

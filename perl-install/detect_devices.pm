@@ -1,9 +1,5 @@
 package detect_devices; # $Id$
 
-use diagnostics;
-use strict;
-use vars qw($pcitable_addons $usbtable_addons);
-
 #-######################################################################################
 #- misc imports
 #-######################################################################################

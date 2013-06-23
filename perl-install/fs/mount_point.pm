@@ -1,8 +1,5 @@
 package fs::mount_point; # $Id$
 
-use diagnostics;
-use strict;
-
 use common;
 use any;
 use fs::type;

@@ -79,8 +79,6 @@
 # directory to install fonts /usr/lib/X11/fonts/
 # -->> /usr/lib/X11/fonts/drakfont
 
-use strict;
-use diagnostics;
 use utf8;
 
 use lib qw(/usr/lib/libDrakX);

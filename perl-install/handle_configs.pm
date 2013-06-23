@@ -2,9 +2,6 @@ package handle_configs;
 
 # $Id$
 
-use diagnostics;
-use strict;
-
 use common;
 
 sub searchstr {

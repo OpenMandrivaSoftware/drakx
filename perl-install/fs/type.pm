@@ -1,8 +1,5 @@
 package fs::type; # $Id$
 
-use diagnostics;
-use strict;
-
 use common;
 use devices;
 

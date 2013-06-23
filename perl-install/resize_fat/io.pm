@@ -1,8 +1,5 @@
 package resize_fat::io; # $Id$
 
-use diagnostics;
-use strict;
-
 use resize_fat::fat;
 use c;
 

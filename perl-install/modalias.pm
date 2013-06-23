@@ -3,7 +3,6 @@ package modalias;
 # TODO:
 # - be faster (Elapsed time: lspcidrake.pl ~ 0.28s instead of 0.12s for old lspcidrake
 
-use strict;
 use MDK::Common;
 use c;
 

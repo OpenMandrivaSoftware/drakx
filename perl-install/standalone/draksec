@@ -20,11 +20,9 @@
 #
 #*****************************************************************************
 
-use strict;
 use lib qw(/usr/lib/libDrakX);
 use common;
 use standalone;
-use vars qw($MODE %options);
 use interactive;
 use mygtk2 qw(gtknew gtkset);
 use ugtk2 qw(:helpers :wrappers :ask :create);
@@ -143,7 +141,7 @@ sub set_auth_value {
 my %descr = (
     
     rpmdrake => N("Software Management"),
-    mandrivaupdate => N("Software Update"),
+    mandrivaupdate => N("Online Update"),
     'drakrpm-edit-media' => N("Software Media Manager"),
     drak3d => N("Configure 3D Desktop effects"),
     xfdrake => N("Graphical Server Configuration"),

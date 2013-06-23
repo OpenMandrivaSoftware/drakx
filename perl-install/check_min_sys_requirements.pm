@@ -1,9 +1,13 @@
 package check_min_sys_requirements;
 
-use strict;
-use warnings;
 use common;
 use utf8;
+use Exporter;
+
+$VERSION = 1.0;
+@ISA = qw(Exporter);
+
+@EXPORT = qw(&get_live_system_size &check_min_sys_requirements);
 
 my $min_sys_conf_file = '/etc/minsysreqs';
 
@@ -54,9 +58,17 @@ sub min_system_requirements {
             if ($parameter eq "hdd") {
                $_[1]= $size;
             }
+            if ($parameter eq "imagesize") {
+	       $_[2]= $size;
+	    }
          }
     }
-}    
+}
+
+sub get_live_system_size {
+  min_system_requirements($unused1, $unused2, $imagesize);
+  return $imagesize;
+}
 
 
 sub check_min_sys_requirements {

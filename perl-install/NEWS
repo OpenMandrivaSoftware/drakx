@@ -1,3 +1,33 @@
+Version 14.42 - 22 June 2013 [rxu]
+
+- merge branding changes for OpenMandriva LX
+- removed "use diagnostics" and "use strict" from a lot of perl-install files
+- drakbug:
+  o fix for new bugzilla url (issues.openmandriva.org)
+- fs:
+  o improve logging when device is not found
+
+Version 14.41 - 9 April 2013, by Per Øyvind Karlsen
+
+- rebrand to Moondrake
+
+Version 14.40 - 6 April 2013, by Per Øyvind Karlsen
+
+- diskdrake:
+  o fix removing LVM entries when saving /etc/fstab (mga#5811)
+- drakboot:
+  o assume grub2.cfg is UTF-8 encoded
+  o read back xen conf from grub 2
+  o set entries type when reading back grub2 conf, thus fixing
+    switching back to grub-legacy (mga#9563)
+  o fix other Mga OS names in menu (mga#8710)
+- draksound:
+  o update draksound troubleshooting text (mga#4162)
+- bootloader-config:
+  o fix adding bogus bootloader entries (root=/dev/) when silently
+    failing to lookup / partition (mga#8717)
+  o try harder to lookup / partition y looking at mounted points (mga#8717)
+
 Version 14.39 - 31 March 2013, by Per Øyvind Karlsen
 
 - fix detecting Xen hard disks (mga#9546)

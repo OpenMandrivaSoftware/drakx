@@ -1,8 +1,5 @@
 package devices; # $Id$
 
-use diagnostics;
-use strict;
-
 use common;
 use run_program;
 use log;

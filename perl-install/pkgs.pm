@@ -1,7 +1,5 @@
 package pkgs; # $Id$
 
-use strict;
-
 use common;
 use run_program;
 use detect_devices;
@@ -261,6 +259,9 @@ sub remove_unused_packages {
     # Packages to not remove even if they seem unused
     my @wanted_hardware_packages = qw(gnome-bluetooth gnome-phone-manager kbluetooth kppp ppp wireless-tools wpa_supplicant);
     @unused_hardware_packages = difference2(\@unused_hardware_packages, \@wanted_hardware_packages);
+    
+    my @wanted_locale_packages = qw(locales-en);
+    @unselected_locales = difference2(\@unselected_locales, \@wanted_locale_packages);
 
     @unused_hardware_packages || @unselected_locales or return;
 
@@ -284,12 +285,17 @@ sub remove_unused_packages {
     ) && ($hardware || $locales) or return;
 
     #- we should have some gurpme
-    $wait = $in->wait_message(N("Please wait"), N("Removing packages..."));
+    $wait = $in->wait_message(N("Please wait"), N("Removing packages (this may take some time)..."));
     run_program::rooted($o_prefix, 'urpme', '--auto',
 		     if_($hardware, @unused_hardware_packages),
 		     if_($locales, @unselected_locales),
 	);
     #- use script from One to list language files (/usr/share/locale mainly) and remove them?
+}
+
+sub remove_unused_locale_packages {
+    my ($in, $do_pkgs, $o_prefix) = @_;
+    remove_unused_packages($in, $do_pkgs, $o_prefix);
 }
 
 1;

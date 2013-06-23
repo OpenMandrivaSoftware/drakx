@@ -18,8 +18,6 @@
 # along with this program; if not, write to the Free Software
 # Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
 
-use strict;
-use diagnostics;
 use lib qw(/usr/lib/libDrakX);
 use any;
 use standalone;
@@ -82,7 +80,7 @@ my @all_drakxtools = qw(adduserdrake diskdrake drakautoinst drakboot drakbug dra
 push @generic_tool, @all_drakxtools, qw(MandrivaUpdate drakbackup drakconnect drakfirewall drakhosts drakmenustyle draknfs draksambashare drakgw drakroam drakvpn keyboarddrake msec mousedrake net_monitor printerdrake urpmi userdrake XFdrake);
 
 my $kernel_release = chomp_(`uname -r`);
-my $mandrake_release = chomp_(cat_('/etc/mandriva-release'));
+my $mandrake_release = chomp_(cat_('/etc/mandrakelinux-release'));
 #- unused for now
 #- (my $mandrake_version) = $mandrake_release =~ /(\d+\.\d+)/;
 
@@ -151,7 +149,7 @@ gtkadd($window->{window},
                                          join(", ", map { N("'%s'", $_) } @commands)) .
                                      if_(is_a_boot_issue(),
                                          "\n" .
-                                         N("You should also attach the following files: %s as well as %s.",
+                                         N("You should also attach the following files if you have them: %s.",
                                            '/etc/modprobe.conf, /etc/fstab, /boot/grub2/grub.cfg',
                                        )
                                      )

@@ -1,8 +1,5 @@
 package fs::remote::smb; # $Id$
 
-use strict;
-use diagnostics;
-
 use common;
 use fs::mount_options;
 use fs::remote;
