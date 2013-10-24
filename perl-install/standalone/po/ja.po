@@ -179,13 +179,13 @@ msgstr "プログラム \"%s\" が以下のエラーでクラッシュしまし�
 
 #: drakbug:62
 #, c-format
-msgid "Mandriva Linux Bug Report Tool"
-msgstr "Mandriva Linux バグ報告ツール"
+msgid "OpenMandriva Lx Bug Report Tool"
+msgstr "OpenMandriva Lx バグ報告ツール"
 
 #: drakbug:67
 #, c-format
-msgid "Mandriva Linux Control Center"
-msgstr "Mandriva Linux コントロールセンター"
+msgid "OpenMandriva Lx Control Center"
+msgstr "OpenMandriva Lx コントロールセンター"
 
 #: drakbug:68
 #, c-format
@@ -683,8 +683,8 @@ msgstr "フォントインストーラ"
 
 #: drakfont:527 harddrake2:238
 #, c-format
-msgid "Mandriva Linux"
-msgstr "Mandriva Linux"
+msgid "OpenMandriva Lx"
+msgstr "OpenMandriva Lx"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
@@ -865,8 +865,8 @@ msgstr ""
 
 #: drakhelp:52
 #, c-format
-msgid "Mandriva Linux Help Center"
-msgstr "Mandriva Linux ヘルプセンター"
+msgid "OpenMandriva Lx Help Center"
+msgstr "OpenMandriva Lx ヘルプセンター"
 
 #: drakhelp:52
 #, c-format
@@ -2455,8 +2455,8 @@ msgstr ", "
 
 #: logdrake:51
 #, c-format
-msgid "Mandriva Linux Tools Logs"
-msgstr "Mandriva Linux ツールのログ"
+msgid "OpenMandriva Lx Tools Logs"
+msgstr "OpenMandriva Lx ツールのログ"
 
 #: logdrake:65
 #, c-format

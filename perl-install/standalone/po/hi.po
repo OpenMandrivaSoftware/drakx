@@ -169,12 +169,12 @@ msgstr ""
 
 #: drakbug:62
 #, fuzzy, c-format
-msgid "Mandriva Linux Bug Report Tool"
+msgid "OpenMandriva Lx Bug Report Tool"
 msgstr "मैनड्रिव दोष रिपोर्ट औज़ार"
 
 #: drakbug:67
 #, c-format
-msgid "Mandriva Linux Control Center"
+msgid "OpenMandriva Lx Control Center"
 msgstr "मैनड्रिव नियंत्रण केन्द्र"
 
 #: drakbug:68
@@ -664,7 +664,7 @@ msgstr "संसाधन नहीं किया गया है"
 
 #: drakfont:527 harddrake2:238
 #, c-format
-msgid "Mandriva Linux"
+msgid "OpenMandriva Lx"
 msgstr "मैनड्रैकलिनक्स"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
@@ -844,7 +844,7 @@ msgstr ""
 
 #: drakhelp:52
 #, fuzzy, c-format
-msgid "Mandriva Linux Help Center"
+msgid "OpenMandriva Lx Help Center"
 msgstr "मैनड्रिव नियंत्रण केन्द्र"
 
 #: drakhelp:52
@@ -2430,7 +2430,7 @@ msgstr ", "
 
 #: logdrake:51
 #, fuzzy, c-format
-msgid "Mandriva Linux Tools Logs"
+msgid "OpenMandriva Lx Tools Logs"
 msgstr "मैनड्रिव टूल्स लॉग्स"
 
 #: logdrake:65

@@ -187,13 +187,13 @@ msgstr "程式 \"%s\" 發生了錯誤，錯誤訊息如下："
 
 #: drakbug:62
 #, c-format
-msgid "Mandriva Linux Bug Report Tool"
-msgstr "Mandriva Linux 臭蟲回報工具"
+msgid "OpenMandriva Lx Bug Report Tool"
+msgstr "OpenMandriva Lx 臭蟲回報工具"
 
 #: drakbug:67
 #, c-format
-msgid "Mandriva Linux Control Center"
-msgstr "Mandriva Linux 控制中心"
+msgid "OpenMandriva Lx Control Center"
+msgstr "OpenMandriva Lx 控制中心"
 
 #: drakbug:68
 #, c-format
@@ -687,8 +687,8 @@ msgstr "字型安裝程式"
 
 #: drakfont:527 harddrake2:238
 #, c-format
-msgid "Mandriva Linux"
-msgstr "Mandriva Linux"
+msgid "OpenMandriva Lx"
+msgstr "OpenMandriva Lx"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
@@ -865,8 +865,8 @@ msgstr " --doc <link>          - 連結到其他的網頁 (VM 的歡迎程式)\n
 
 #: drakhelp:52
 #, c-format
-msgid "Mandriva Linux Help Center"
-msgstr "Mandriva Linux 協助中心"
+msgid "OpenMandriva Lx Help Center"
+msgstr "OpenMandriva Lx 協助中心"
 
 #: drakhelp:52
 #, c-format
@@ -2449,7 +2449,7 @@ msgstr "，"
 
 #: logdrake:51
 #, c-format
-msgid "Mandriva Linux Tools Logs"
+msgid "OpenMandriva Lx Tools Logs"
 msgstr "Mandriva 工具紀錄"
 
 #: logdrake:65

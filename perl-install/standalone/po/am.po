@@ -168,13 +168,13 @@ msgstr ""
 
 #: drakbug:62
 #, fuzzy, c-format
-msgid "Mandriva Linux Bug Report Tool"
+msgid "OpenMandriva Lx Bug Report Tool"
 msgstr "አንቀጹን መሀል ኩልኩል አድርግ"
 
 #: drakbug:67
 #, c-format
-msgid "Mandriva Linux Control Center"
-msgstr "የMandriva Linux ቁጥጥር ማእከል"
+msgid "OpenMandriva Lx Control Center"
+msgstr "የOpenMandriva Lx ቁጥጥር ማእከል"
 
 #: drakbug:68
 #, fuzzy, c-format
@@ -652,7 +652,7 @@ msgstr "አልተገኘም"
 
 #: drakfont:527 harddrake2:238
 #, fuzzy, c-format
-msgid "Mandriva Linux"
+msgid "OpenMandriva Lx"
 msgstr "Mandriva Online"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
@@ -823,7 +823,7 @@ msgstr ""
 
 #: drakhelp:52
 #, fuzzy, c-format
-msgid "Mandriva Linux Help Center"
+msgid "OpenMandriva Lx Help Center"
 msgstr "አንቀጹን መሀል ኩልኩል አድርግ"
 
 #: drakhelp:52
@@ -2357,7 +2357,7 @@ msgstr ""
 
 #: logdrake:51
 #, fuzzy, c-format
-msgid "Mandriva Linux Tools Logs"
+msgid "OpenMandriva Lx Tools Logs"
 msgstr "/መሣሪያዎች/የነበረው ቀለሞች"
 
 #: logdrake:65

@@ -182,13 +182,13 @@ msgstr "A(z) \"%s\" program leállt a következő hibával:"
 
 #: drakbug:62
 #, c-format
-msgid "Mandriva Linux Bug Report Tool"
-msgstr "Mandriva Linux hibabejelentő program"
+msgid "OpenMandriva Lx Bug Report Tool"
+msgstr "OpenMandriva Lx hibabejelentő program"
 
 #: drakbug:67
 #, c-format
-msgid "Mandriva Linux Control Center"
-msgstr "Mandriva Linux Vezérlőközpont"
+msgid "OpenMandriva Lx Control Center"
+msgstr "OpenMandriva Lx Vezérlőközpont"
 
 #: drakbug:68
 #, c-format
@@ -690,8 +690,8 @@ msgstr "Betűtípus-telepítő"
 
 #: drakfont:527 harddrake2:238
 #, c-format
-msgid "Mandriva Linux"
-msgstr "Mandriva Linux"
+msgid "OpenMandriva Lx"
+msgstr "OpenMandriva Lx"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
@@ -872,8 +872,8 @@ msgstr ""
 
 #: drakhelp:52
 #, c-format
-msgid "Mandriva Linux Help Center"
-msgstr "Mandriva Linux segítségrendszer"
+msgid "OpenMandriva Lx Help Center"
+msgstr "OpenMandriva Lx segítségrendszer"
 
 #: drakhelp:52
 #, c-format
@@ -1340,7 +1340,7 @@ msgstr ""
 "gépbe.\n"
 "\n"
 "\n"
-"A Mandriva Linux hardver-adatbázisa a következő helyen található:\n"
+"A OpenMandriva Lx hardver-adatbázisa a következő helyen található:\n"
 "\n"
 "\n"
 "http://www.mandrivalinux.com/en/hardware.php3"
@@ -1588,7 +1588,7 @@ msgstr ""
 "gépbe.\n"
 "\n"
 "\n"
-"A Mandriva Linux hardver-adatbázisa a következő helyen található:\n"
+"A OpenMandriva Lx hardver-adatbázisa a következő helyen található:\n"
 "\n"
 "\n"
 "http://www.mandrivalinux.com/en/hardware.php3"
@@ -2471,8 +2471,8 @@ msgstr ", "
 
 #: logdrake:51
 #, c-format
-msgid "Mandriva Linux Tools Logs"
-msgstr "Mandriva Linux-eszközök naplói"
+msgid "OpenMandriva Lx Tools Logs"
+msgstr "OpenMandriva Lx-eszközök naplói"
 
 #: logdrake:65
 #, c-format

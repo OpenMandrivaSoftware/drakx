@@ -180,13 +180,13 @@ msgstr "Programmet \"%s\" er gået ned med den følgende fejl:"
 
 #: drakbug:62
 #, c-format
-msgid "Mandriva Linux Bug Report Tool"
-msgstr "Mandriva Linux' værktøj til fejlrapportering"
+msgid "OpenMandriva Lx Bug Report Tool"
+msgstr "OpenMandriva Lx' værktøj til fejlrapportering"
 
 #: drakbug:67
 #, c-format
-msgid "Mandriva Linux Control Center"
-msgstr "Mandriva Linux Kontrolcenter"
+msgid "OpenMandriva Lx Control Center"
+msgstr "OpenMandriva Lx Kontrolcenter"
 
 #: drakbug:68
 #, c-format
@@ -688,8 +688,8 @@ msgstr "Installeringsprogram for skrifttyper"
 
 #: drakfont:527 harddrake2:238
 #, c-format
-msgid "Mandriva Linux"
-msgstr "Mandriva Linux"
+msgid "OpenMandriva Lx"
+msgstr "OpenMandriva Lx"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
@@ -868,8 +868,8 @@ msgstr ""
 
 #: drakhelp:52
 #, c-format
-msgid "Mandriva Linux Help Center"
-msgstr "Mandriva Linux hjælpecentral"
+msgid "OpenMandriva Lx Help Center"
+msgstr "OpenMandriva Lx hjælpecentral"
 
 #: drakhelp:52
 #, c-format
@@ -2467,8 +2467,8 @@ msgstr ", "
 
 #: logdrake:51
 #, c-format
-msgid "Mandriva Linux Tools Logs"
-msgstr "Mandriva Linux' værktøj-logger"
+msgid "OpenMandriva Lx Tools Logs"
+msgstr "OpenMandriva Lx' værktøj-logger"
 
 #: logdrake:65
 #, c-format

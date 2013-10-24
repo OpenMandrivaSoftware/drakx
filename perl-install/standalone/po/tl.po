@@ -173,13 +173,13 @@ msgstr ""
 
 #: drakbug:62
 #, fuzzy, c-format
-msgid "Mandriva Linux Bug Report Tool"
+msgid "OpenMandriva Lx Bug Report Tool"
 msgstr "Mandriva Bug Report Tool"
 
 #: drakbug:67
 #, c-format
-msgid "Mandriva Linux Control Center"
-msgstr "Mandriva Linux Control Center"
+msgid "OpenMandriva Lx Control Center"
+msgstr "OpenMandriva Lx Control Center"
 
 #: drakbug:68
 #, c-format
@@ -675,8 +675,8 @@ msgstr "Hindi naka-install"
 
 #: drakfont:527 harddrake2:238
 #, c-format
-msgid "Mandriva Linux"
-msgstr "Mandriva Linux"
+msgid "OpenMandriva Lx"
+msgstr "OpenMandriva Lx"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
@@ -855,7 +855,7 @@ msgstr ""
 
 #: drakhelp:52
 #, fuzzy, c-format
-msgid "Mandriva Linux Help Center"
+msgid "OpenMandriva Lx Help Center"
 msgstr "Mandriva Control Center"
 
 #: drakhelp:52
@@ -2451,7 +2451,7 @@ msgstr ", "
 
 #: logdrake:51
 #, fuzzy, c-format
-msgid "Mandriva Linux Tools Logs"
+msgid "OpenMandriva Lx Tools Logs"
 msgstr "Mandriva Tools Logs"
 
 #: logdrake:65

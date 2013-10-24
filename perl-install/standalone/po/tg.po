@@ -186,13 +186,13 @@ msgstr ""
 
 #: drakbug:62
 #, c-format
-msgid "Mandriva Linux Bug Report Tool"
-msgstr "Mandriva Linux Асбоби Сохтани Маърӯза оиди Хатогӣ"
+msgid "OpenMandriva Lx Bug Report Tool"
+msgstr "OpenMandriva Lx Асбоби Сохтани Маърӯза оиди Хатогӣ"
 
 #: drakbug:67
 #, c-format
-msgid "Mandriva Linux Control Center"
-msgstr "Маркази Идораи Mandriva Linux"
+msgid "OpenMandriva Lx Control Center"
+msgstr "Маркази Идораи OpenMandriva Lx"
 
 #: drakbug:68
 #, c-format
@@ -691,8 +691,8 @@ msgstr "Коргузорӣ нашудааст"
 
 #: drakfont:527 harddrake2:238
 #, c-format
-msgid "Mandriva Linux"
-msgstr "Mandriva Linux"
+msgid "OpenMandriva Lx"
+msgstr "OpenMandriva Lx"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
@@ -874,8 +874,8 @@ msgstr ""
 
 #: drakhelp:52
 #, c-format
-msgid "Mandriva Linux Help Center"
-msgstr "Маркази Идораи Mandriva Linux"
+msgid "OpenMandriva Lx Help Center"
+msgstr "Маркази Идораи OpenMandriva Lx"
 
 #: drakhelp:52
 #, c-format
@@ -2474,8 +2474,8 @@ msgstr ", "
 
 #: logdrake:51
 #, c-format
-msgid "Mandriva Linux Tools Logs"
-msgstr "Шарҳдиҳандаҳои Асбобҳои Mandriva Linux"
+msgid "OpenMandriva Lx Tools Logs"
+msgstr "Шарҳдиҳандаҳои Асбобҳои OpenMandriva Lx"
 
 #: logdrake:65
 #, c-format

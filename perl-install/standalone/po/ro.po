@@ -216,13 +216,13 @@ msgstr "Programul „%s” a crăpat cu următoarea eroare:"
 
 #: drakbug:62
 #, c-format
-msgid "Mandriva Linux Bug Report Tool"
-msgstr "Unealta de raportat erori Mandriva Linux"
+msgid "OpenMandriva Lx Bug Report Tool"
+msgstr "Unealta de raportat erori OpenMandriva Lx"
 
 #: drakbug:67
 #, c-format
-msgid "Mandriva Linux Control Center"
-msgstr "Centrul de control Mandriva Linux"
+msgid "OpenMandriva Lx Control Center"
+msgstr "Centrul de control OpenMandriva Lx"
 
 #: drakbug:68
 #, c-format
@@ -725,8 +725,8 @@ msgstr "Instalator de fonturi."
 
 #: drakfont:527 harddrake2:238
 #, c-format
-msgid "Mandriva Linux"
-msgstr "Mandriva Linux"
+msgid "OpenMandriva Lx"
+msgstr "OpenMandriva Lx"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
@@ -911,8 +911,8 @@ msgstr ""
 
 #: drakhelp:52
 #, c-format
-msgid "Mandriva Linux Help Center"
-msgstr "Centrul de ajutor Mandriva Linux"
+msgid "OpenMandriva Lx Help Center"
+msgstr "Centrul de ajutor OpenMandriva Lx"
 
 #: drakhelp:52
 #, c-format
@@ -2513,8 +2513,8 @@ msgstr ", "
 
 #: logdrake:51
 #, c-format
-msgid "Mandriva Linux Tools Logs"
-msgstr "Juralele uneltelor Mandriva Linux"
+msgid "OpenMandriva Lx Tools Logs"
+msgstr "Juralele uneltelor OpenMandriva Lx"
 
 #: logdrake:65
 #, c-format

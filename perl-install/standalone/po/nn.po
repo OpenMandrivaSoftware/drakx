@@ -175,12 +175,12 @@ msgstr "Programmet «%s» krasja med følgjande feil:"
 
 #: drakbug:62
 #, c-format
-msgid "Mandriva Linux Bug Report Tool"
-msgstr "Feilrapporteringsverktøy for Mandriva Linux"
+msgid "OpenMandriva Lx Bug Report Tool"
+msgstr "Feilrapporteringsverktøy for OpenMandriva Lx"
 
 #: drakbug:67
 #, c-format
-msgid "Mandriva Linux Control Center"
+msgid "OpenMandriva Lx Control Center"
 msgstr "Kontrollsenter"
 
 #: drakbug:68
@@ -681,8 +681,8 @@ msgstr "Skriftinstallering."
 
 #: drakfont:527 harddrake2:238
 #, c-format
-msgid "Mandriva Linux"
-msgstr "Mandriva Linux"
+msgid "OpenMandriva Lx"
+msgstr "OpenMandriva Lx"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
@@ -860,8 +860,8 @@ msgstr ""
 
 #: drakhelp:52
 #, c-format
-msgid "Mandriva Linux Help Center"
-msgstr "Mandriva Linux-hjelpesenter"
+msgid "OpenMandriva Lx Help Center"
+msgstr "OpenMandriva Lx-hjelpesenter"
 
 #: drakhelp:52
 #, c-format
@@ -2456,8 +2456,8 @@ msgstr ", "
 
 #: logdrake:51
 #, c-format
-msgid "Mandriva Linux Tools Logs"
-msgstr "Loggverktøy for Mandriva Linux"
+msgid "OpenMandriva Lx Tools Logs"
+msgstr "Loggverktøy for OpenMandriva Lx"
 
 #: logdrake:65
 #, c-format

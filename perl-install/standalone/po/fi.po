@@ -184,13 +184,13 @@ msgstr "Ohjelma \"%s\" kaatui virheeseen:"
 
 #: drakbug:62
 #, c-format
-msgid "Mandriva Linux Bug Report Tool"
-msgstr "Mandriva Linux virheenraportointityökalu"
+msgid "OpenMandriva Lx Bug Report Tool"
+msgstr "OpenMandriva Lx virheenraportointityökalu"
 
 #: drakbug:67
 #, c-format
-msgid "Mandriva Linux Control Center"
-msgstr "Mandriva Linux Ohjauskeskus"
+msgid "OpenMandriva Lx Control Center"
+msgstr "OpenMandriva Lx Ohjauskeskus"
 
 #: drakbug:68
 #, c-format
@@ -690,8 +690,8 @@ msgstr "Kirjasinten asennus."
 
 #: drakfont:527 harddrake2:238
 #, c-format
-msgid "Mandriva Linux"
-msgstr "Mandriva Linux"
+msgid "OpenMandriva Lx"
+msgstr "OpenMandriva Lx"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
@@ -871,8 +871,8 @@ msgstr ""
 
 #: drakhelp:52
 #, c-format
-msgid "Mandriva Linux Help Center"
-msgstr "Mandriva Linuxin ohjeet"
+msgid "OpenMandriva Lx Help Center"
+msgstr "OpenMandriva Lxin ohjeet"
 
 #: drakhelp:52
 #, c-format
@@ -1337,7 +1337,7 @@ msgstr ""
 "on oikein kytketty.\n"
 "\n"
 "\n"
-"Mandriva Linuxin laitteistotietokanta löytyy osoitteesta:\n"
+"OpenMandriva Lxin laitteistotietokanta löytyy osoitteesta:\n"
 "\n"
 "\n"
 "http://www.mandrivalinux.com/en/hardware.php3"
@@ -1583,7 +1583,7 @@ msgstr ""
 "kortti on oikein kytketty.\n"
 "\n"
 "\n"
-"Mandriva Linuxin laitteistotietokanta löytyy osoitteesta:\n"
+"OpenMandriva Lxin laitteistotietokanta löytyy osoitteesta:\n"
 "\n"
 "\n"
 "http://www.mandrivalinux.com/en/hardware.php"
@@ -2462,8 +2462,8 @@ msgstr ", "
 
 #: logdrake:51
 #, c-format
-msgid "Mandriva Linux Tools Logs"
-msgstr "Mandriva Linuxin työkalujen lokit"
+msgid "OpenMandriva Lx Tools Logs"
+msgstr "OpenMandriva Lxin työkalujen lokit"
 
 #: logdrake:65
 #, c-format

@@ -171,13 +171,13 @@ msgstr ""
 
 #: drakbug:62
 #, c-format
-msgid "Mandriva Linux Bug Report Tool"
-msgstr "Mandriva Linux uchun xato haqida xabar qiluvchi vosita"
+msgid "OpenMandriva Lx Bug Report Tool"
+msgstr "OpenMandriva Lx uchun xato haqida xabar qiluvchi vosita"
 
 #: drakbug:67
 #, c-format
-msgid "Mandriva Linux Control Center"
-msgstr "Mandriva Linux boshqaruv markazi"
+msgid "OpenMandriva Lx Control Center"
+msgstr "OpenMandriva Lx boshqaruv markazi"
 
 #: drakbug:68
 #, c-format
@@ -656,8 +656,8 @@ msgstr "Shrift oʻrnatgich."
 
 #: drakfont:527 harddrake2:238
 #, c-format
-msgid "Mandriva Linux"
-msgstr "Mandriva Linux"
+msgid "OpenMandriva Lx"
+msgstr "OpenMandriva Lx"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
@@ -833,8 +833,8 @@ msgstr ""
 
 #: drakhelp:52
 #, c-format
-msgid "Mandriva Linux Help Center"
-msgstr "Mandriva Linux yordam markazi"
+msgid "OpenMandriva Lx Help Center"
+msgstr "OpenMandriva Lx yordam markazi"
 
 #: drakhelp:52
 #, c-format
@@ -2384,8 +2384,8 @@ msgstr ", "
 
 #: logdrake:51
 #, c-format
-msgid "Mandriva Linux Tools Logs"
-msgstr "Mandriva Linux vositalarining logi"
+msgid "OpenMandriva Lx Tools Logs"
+msgstr "OpenMandriva Lx vositalarining logi"
 
 #: logdrake:65
 #, c-format

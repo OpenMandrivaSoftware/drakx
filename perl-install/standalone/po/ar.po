@@ -180,12 +180,12 @@ msgstr ""
 
 #: drakbug:62
 #, c-format
-msgid "Mandriva Linux Bug Report Tool"
+msgid "OpenMandriva Lx Bug Report Tool"
 msgstr "أداة تقرير العيوب في ماندريبا لينكس"
 
 #: drakbug:67
 #, c-format
-msgid "Mandriva Linux Control Center"
+msgid "OpenMandriva Lx Control Center"
 msgstr "مركز تحكّم ماندريبا لينكس"
 
 #: drakbug:68
@@ -685,7 +685,7 @@ msgstr "غير مثبت"
 
 #: drakfont:527 harddrake2:238
 #, c-format
-msgid "Mandriva Linux"
+msgid "OpenMandriva Lx"
 msgstr "ﻡﺎﻧﺩﺮﻴﺑﺍ ﻞﻴﻨﻜﺳ"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
@@ -862,7 +862,7 @@ msgstr " --doc <link>          - رابط بصفحة وب أخرى ( لـWM welc
 
 #: drakhelp:52
 #, c-format
-msgid "Mandriva Linux Help Center"
+msgid "OpenMandriva Lx Help Center"
 msgstr "مركز مساعدة ماندريبا لينكس"
 
 #: drakhelp:52
@@ -2452,7 +2452,7 @@ msgstr "، "
 
 #: logdrake:51
 #, c-format
-msgid "Mandriva Linux Tools Logs"
+msgid "OpenMandriva Lx Tools Logs"
 msgstr "سجلات أدوات ماندريبا لينكس"
 
 #: logdrake:65

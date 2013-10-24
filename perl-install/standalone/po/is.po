@@ -1,5 +1,5 @@
 # Icelandic translation of libDrakX-standalone.po
-# Translation file for Mandriva Linux graphic install, DrakX
+# Translation file for OpenMandriva Lx graphic install, DrakX
 # Copyright (C) 1999,2003, 2005, 2006, 2007, 2008, 2009 Free Software Foundation, Inc.
 # Copyright (C) 1999 Mandriva
 #
@@ -180,13 +180,13 @@ msgstr "Forritið \"%s\" hrundi með eftirfarandi villu:"
 
 #: drakbug:62
 #, c-format
-msgid "Mandriva Linux Bug Report Tool"
-msgstr "Mandriva Linux villutilkynningar-tól"
+msgid "OpenMandriva Lx Bug Report Tool"
+msgstr "OpenMandriva Lx villutilkynningar-tól"
 
 #: drakbug:67
 #, c-format
-msgid "Mandriva Linux Control Center"
-msgstr "Mandriva Linux Stjórnborð"
+msgid "OpenMandriva Lx Control Center"
+msgstr "OpenMandriva Lx Stjórnborð"
 
 #: drakbug:68
 #, c-format
@@ -686,8 +686,8 @@ msgstr "Leturinnsetning."
 
 #: drakfont:527 harddrake2:238
 #, c-format
-msgid "Mandriva Linux"
-msgstr "Mandriva Linux"
+msgid "OpenMandriva Lx"
+msgstr "OpenMandriva Lx"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
@@ -866,8 +866,8 @@ msgstr ""
 
 #: drakhelp:52
 #, c-format
-msgid "Mandriva Linux Help Center"
-msgstr "Mandriva Linux hjálparmiðstöð"
+msgid "OpenMandriva Lx Help Center"
+msgstr "OpenMandriva Lx hjálparmiðstöð"
 
 #: drakhelp:52
 #, c-format
@@ -2459,8 +2459,8 @@ msgstr ", "
 
 #: logdrake:51
 #, c-format
-msgid "Mandriva Linux Tools Logs"
-msgstr "Mandriva Linux tólaannálar"
+msgid "OpenMandriva Lx Tools Logs"
+msgstr "OpenMandriva Lx tólaannálar"
 
 #: logdrake:65
 #, c-format

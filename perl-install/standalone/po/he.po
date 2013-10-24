@@ -181,12 +181,12 @@ msgstr "התכנית \"%s\" קרסה עם השגיאה הבאה:"
 
 #: drakbug:62
 #, c-format
-msgid "Mandriva Linux Bug Report Tool"
+msgid "OpenMandriva Lx Bug Report Tool"
 msgstr "כלי דיווח התקלות של מנדריבה לינוקס"
 
 #: drakbug:67
 #, c-format
-msgid "Mandriva Linux Control Center"
+msgid "OpenMandriva Lx Control Center"
 msgstr "מרכז הבקרה של מנדריבה לינוקס"
 
 #: drakbug:68
@@ -685,7 +685,7 @@ msgstr "מתקין גופנים"
 
 #: drakfont:527 harddrake2:238
 #, c-format
-msgid "Mandriva Linux"
+msgid "OpenMandriva Lx"
 msgstr "מנדריבה לינוקס"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
@@ -863,7 +863,7 @@ msgstr ""
 
 #: drakhelp:52
 #, c-format
-msgid "Mandriva Linux Help Center"
+msgid "OpenMandriva Lx Help Center"
 msgstr "מרכז הבקרה של מנדריבה לינוקס"
 
 #: drakhelp:52
@@ -2453,7 +2453,7 @@ msgstr ", "
 
 #: logdrake:51
 #, c-format
-msgid "Mandriva Linux Tools Logs"
+msgid "OpenMandriva Lx Tools Logs"
 msgstr "כלי רישום של מנדריבה לינוקס"
 
 #: logdrake:65

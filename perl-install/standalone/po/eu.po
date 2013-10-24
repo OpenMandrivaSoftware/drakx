@@ -1,5 +1,5 @@
 # translation of libDrakX-standalone.po to Euskara
-# EUSKARA: Mandriva Linux translation.
+# EUSKARA: OpenMandriva Lx translation.
 # Copyright (C) 2002,2003, 2004, 2005, 2007, 2008, 2009 Free Software Foundation, Inc.
 #
 # Iñigo Salvador Azurmendi <xalba@euskalnet.net>, 2001-2002,2003,2004, 2005, 2007, 2008, 2009, 2010, 2011konso.
@@ -179,13 +179,13 @@ msgstr "\"%s\" programa kraskatu egin da ondorengo akatsarekin:"
 
 #: drakbug:62
 #, c-format
-msgid "Mandriva Linux Bug Report Tool"
-msgstr "Mandriva Linux-en programa-erroreen berri emateko tresna"
+msgid "OpenMandriva Lx Bug Report Tool"
+msgstr "OpenMandriva Lx-en programa-erroreen berri emateko tresna"
 
 #: drakbug:67
 #, c-format
-msgid "Mandriva Linux Control Center"
-msgstr "Mandriva Linux-en kontrol-zentroa"
+msgid "OpenMandriva Lx Control Center"
+msgstr "OpenMandriva Lx-en kontrol-zentroa"
 
 #: drakbug:68
 #, c-format
@@ -687,8 +687,8 @@ msgstr "Letra-tipo instalatzailea."
 
 #: drakfont:527 harddrake2:238
 #, c-format
-msgid "Mandriva Linux"
-msgstr "Mandriva Linux"
+msgid "OpenMandriva Lx"
+msgstr "OpenMandriva Lx"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
@@ -867,8 +867,8 @@ msgstr ""
 
 #: drakhelp:52
 #, c-format
-msgid "Mandriva Linux Help Center"
-msgstr "Mandriva Linux Laguntza Gunea"
+msgid "OpenMandriva Lx Help Center"
+msgstr "OpenMandriva Lx Laguntza Gunea"
 
 #: drakhelp:52
 #, c-format
@@ -2465,8 +2465,8 @@ msgstr ", "
 
 #: logdrake:51
 #, c-format
-msgid "Mandriva Linux Tools Logs"
-msgstr "Mandriva Linux Tresnen Erregistroak"
+msgid "OpenMandriva Lx Tools Logs"
+msgstr "OpenMandriva Lx Tresnen Erregistroak"
 
 #: logdrake:65
 #, c-format

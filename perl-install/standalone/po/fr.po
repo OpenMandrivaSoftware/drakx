@@ -1,5 +1,5 @@
 # translation of DrakX-fr.po to Français
-# Translation file of Mandriva Linux graphic install
+# Translation file of OpenMandriva Lx graphic install
 # Copyright (C) 1999,2000,2001,2002,2003,2004,2005,2006 Mandriva
 #
 # Veuillez ne pas mettre à jour ce fichier à moins d'être
@@ -246,13 +246,13 @@ msgstr "Le programme « %s » a planté avec l'erreur suivante :"
 
 #: drakbug:62
 #, c-format
-msgid "Mandriva Linux Bug Report Tool"
-msgstr "Outil de signalement de bogue Mandriva Linux"
+msgid "OpenMandriva Lx Bug Report Tool"
+msgstr "Outil de signalement de bogue OpenMandriva Lx"
 
 #: drakbug:67
 #, c-format
-msgid "Mandriva Linux Control Center"
-msgstr "Centre de Contrôle Mandriva Linux"
+msgid "OpenMandriva Lx Control Center"
+msgstr "Centre de Contrôle OpenMandriva Lx"
 
 #: drakbug:68
 #, c-format
@@ -760,8 +760,8 @@ msgstr "Installation de polices."
 
 #: drakfont:527 harddrake2:238
 #, c-format
-msgid "Mandriva Linux"
-msgstr "Mandriva Linux"
+msgid "OpenMandriva Lx"
+msgstr "OpenMandriva Lx"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
@@ -955,8 +955,8 @@ msgstr ""
 
 #: drakhelp:52
 #, c-format
-msgid "Mandriva Linux Help Center"
-msgstr "Le centre d'aide de Mandriva Linux"
+msgid "OpenMandriva Lx Help Center"
+msgstr "Le centre d'aide de OpenMandriva Lx"
 
 #: drakhelp:52
 #, c-format
@@ -2562,8 +2562,8 @@ msgstr ", "
 
 #: logdrake:51
 #, c-format
-msgid "Mandriva Linux Tools Logs"
-msgstr "Actions des Outils Mandriva Linux"
+msgid "OpenMandriva Lx Tools Logs"
+msgstr "Actions des Outils OpenMandriva Lx"
 
 #: logdrake:65
 #, c-format

@@ -169,13 +169,13 @@ msgstr ""
 
 #: drakbug:62
 #, fuzzy, c-format
-msgid "Mandriva Linux Bug Report Tool"
+msgid "OpenMandriva Lx Bug Report Tool"
 msgstr "Konekti al la interreto"
 
 #: drakbug:67
 #, c-format
-msgid "Mandriva Linux Control Center"
-msgstr "Mandriva Linux-Regejo"
+msgid "OpenMandriva Lx Control Center"
+msgstr "OpenMandriva Lx-Regejo"
 
 #: drakbug:68
 #, c-format
@@ -655,8 +655,8 @@ msgstr "Eliru instalprogramon"
 
 #: drakfont:527 harddrake2:238
 #, c-format
-msgid "Mandriva Linux"
-msgstr "Mandriva Linux"
+msgid "OpenMandriva Lx"
+msgstr "OpenMandriva Lx"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
@@ -826,7 +826,7 @@ msgstr ""
 
 #: drakhelp:52
 #, fuzzy, c-format
-msgid "Mandriva Linux Help Center"
+msgid "OpenMandriva Lx Help Center"
 msgstr "Irigilo por la Mandrajka helpo"
 
 #: drakhelp:52
@@ -2360,7 +2360,7 @@ msgstr ", "
 
 #: logdrake:51
 #, fuzzy, c-format
-msgid "Mandriva Linux Tools Logs"
+msgid "OpenMandriva Lx Tools Logs"
 msgstr "Konekti al la interreto"
 
 #: logdrake:65

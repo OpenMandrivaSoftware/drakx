@@ -187,13 +187,13 @@ msgstr "O programa \"%s\" foi finalizado com o seguinte erro:"
 
 #: drakbug:62
 #, c-format
-msgid "Mandriva Linux Bug Report Tool"
-msgstr "Ferramenta de Relatório de Erros do Mandriva Linux"
+msgid "OpenMandriva Lx Bug Report Tool"
+msgstr "Ferramenta de Relatório de Erros do OpenMandriva Lx"
 
 #: drakbug:67
 #, c-format
-msgid "Mandriva Linux Control Center"
-msgstr "Centro de Controle Mandriva Linux"
+msgid "OpenMandriva Lx Control Center"
+msgstr "Centro de Controle OpenMandriva Lx"
 
 #: drakbug:68
 #, c-format
@@ -695,8 +695,8 @@ msgstr "Instalador de fontes"
 
 #: drakfont:527 harddrake2:238
 #, c-format
-msgid "Mandriva Linux"
-msgstr "Mandriva Linux"
+msgid "OpenMandriva Lx"
+msgstr "OpenMandriva Lx"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
@@ -878,8 +878,8 @@ msgstr ""
 
 #: drakhelp:52
 #, c-format
-msgid "Mandriva Linux Help Center"
-msgstr "Centro de Ajuda Mandriva Linux"
+msgid "OpenMandriva Lx Help Center"
+msgstr "Centro de Ajuda OpenMandriva Lx"
 
 #: drakhelp:52
 #, c-format
@@ -2483,8 +2483,8 @@ msgstr ", "
 
 #: logdrake:51
 #, c-format
-msgid "Mandriva Linux Tools Logs"
-msgstr "Logs das ferramentas Mandriva Linux"
+msgid "OpenMandriva Lx Tools Logs"
+msgstr "Logs das ferramentas OpenMandriva Lx"
 
 #: logdrake:65
 #, c-format

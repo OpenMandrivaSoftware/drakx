@@ -168,12 +168,12 @@ msgstr ""
 
 #: drakbug:62
 #, fuzzy, c-format
-msgid "Mandriva Linux Bug Report Tool"
-msgstr "Дастасаваньне для кіраваньня карыстальнікамі Mandriva Linux"
+msgid "OpenMandriva Lx Bug Report Tool"
+msgstr "Дастасаваньне для кіраваньня карыстальнікамі OpenMandriva Lx"
 
 #: drakbug:67
 #, fuzzy, c-format
-msgid "Mandriva Linux Control Center"
+msgid "OpenMandriva Lx Control Center"
 msgstr "Цэнтар кіраваньня"
 
 #: drakbug:68
@@ -652,8 +652,8 @@ msgstr "Заканчэнне ўсталявання"
 
 #: drakfont:527 harddrake2:238
 #, c-format
-msgid "Mandriva Linux"
-msgstr "Mandriva Linux"
+msgid "OpenMandriva Lx"
+msgstr "OpenMandriva Lx"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
@@ -823,7 +823,7 @@ msgstr ""
 
 #: drakhelp:52
 #, fuzzy, c-format
-msgid "Mandriva Linux Help Center"
+msgid "OpenMandriva Lx Help Center"
 msgstr "Цэнтар кіраваньня"
 
 #: drakhelp:52
@@ -1150,7 +1150,7 @@ msgstr "Мэнэджэр сэрвісаў"
 #: draksec:146
 #, fuzzy, c-format
 msgid "Mandriva Update"
-msgstr "Mandriva Linux"
+msgstr "OpenMandriva Lx"
 
 #: draksec:147
 #, fuzzy, c-format
@@ -2361,7 +2361,7 @@ msgstr ", "
 
 #: logdrake:51
 #, fuzzy, c-format
-msgid "Mandriva Linux Tools Logs"
+msgid "OpenMandriva Lx Tools Logs"
 msgstr "Цэнтар кіраваньня"
 
 #: logdrake:65

@@ -175,13 +175,13 @@ msgstr ""
 
 #: drakbug:62
 #, fuzzy, c-format
-msgid "Mandriva Linux Bug Report Tool"
-msgstr "Mandriva Linux Bug Report алатка"
+msgid "OpenMandriva Lx Bug Report Tool"
+msgstr "OpenMandriva Lx Bug Report алатка"
 
 #: drakbug:67
 #, c-format
-msgid "Mandriva Linux Control Center"
-msgstr "Mandriva Linux контролен центар"
+msgid "OpenMandriva Lx Control Center"
+msgstr "OpenMandriva Lx контролен центар"
 
 #: drakbug:68
 #, c-format
@@ -671,8 +671,8 @@ msgstr "Не е инсталиран"
 
 #: drakfont:527 harddrake2:238
 #, c-format
-msgid "Mandriva Linux"
-msgstr "Mandriva Linux"
+msgid "OpenMandriva Lx"
+msgstr "OpenMandriva Lx"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
@@ -842,8 +842,8 @@ msgstr ""
 
 #: drakhelp:52
 #, fuzzy, c-format
-msgid "Mandriva Linux Help Center"
-msgstr "Mandriva Linux контролен центар"
+msgid "OpenMandriva Lx Help Center"
+msgstr "OpenMandriva Lx контролен центар"
 
 #: drakhelp:52
 #, c-format
@@ -2428,8 +2428,8 @@ msgstr ", "
 
 #: logdrake:51
 #, c-format
-msgid "Mandriva Linux Tools Logs"
-msgstr "Логови за алтките на Mandriva Linux"
+msgid "OpenMandriva Lx Tools Logs"
+msgstr "Логови за алтките на OpenMandriva Lx"
 
 #: logdrake:65
 #, c-format

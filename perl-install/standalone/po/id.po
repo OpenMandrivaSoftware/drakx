@@ -1,4 +1,4 @@
-# Instalator Grafis Mandriva Linux
+# Instalator Grafis OpenMandriva Lx
 # Copyright (C) 1999 Mandriva
 # Budi Rachmanto <rac@mandrivalinux.org>, 2001-2003
 # Linux Indonesia <http://www.linux.or.id>, 1999-2001
@@ -183,13 +183,13 @@ msgstr "Program \"%s\" crash dengan kesalahan berikut:"
 
 #: drakbug:62
 #, c-format
-msgid "Mandriva Linux Bug Report Tool"
-msgstr "Aplikasi Pelapor Kesalahan Mandriva Linux"
+msgid "OpenMandriva Lx Bug Report Tool"
+msgstr "Aplikasi Pelapor Kesalahan OpenMandriva Lx"
 
 #: drakbug:67
 #, c-format
-msgid "Mandriva Linux Control Center"
-msgstr "Pusat Kontrol Mandriva Linux"
+msgid "OpenMandriva Lx Control Center"
+msgstr "Pusat Kontrol OpenMandriva Lx"
 
 #: drakbug:68
 #, c-format
@@ -685,8 +685,8 @@ msgstr "Installer font."
 
 #: drakfont:527 harddrake2:238
 #, c-format
-msgid "Mandriva Linux"
-msgstr "Mandriva Linux"
+msgid "OpenMandriva Lx"
+msgstr "OpenMandriva Lx"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
@@ -866,8 +866,8 @@ msgstr ""
 
 #: drakhelp:52
 #, c-format
-msgid "Mandriva Linux Help Center"
-msgstr "Pusat Bantuan Mandriva Linux"
+msgid "OpenMandriva Lx Help Center"
+msgstr "Pusat Bantuan OpenMandriva Lx"
 
 #: drakhelp:52
 #, c-format
@@ -2461,8 +2461,8 @@ msgstr ", "
 
 #: logdrake:51
 #, c-format
-msgid "Mandriva Linux Tools Logs"
-msgstr "Log Aplikasi Mandriva Linux"
+msgid "OpenMandriva Lx Tools Logs"
+msgstr "Log Aplikasi OpenMandriva Lx"
 
 #: logdrake:65
 #, c-format

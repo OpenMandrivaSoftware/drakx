@@ -179,13 +179,13 @@ msgstr ""
 
 #: drakbug:62
 #, c-format
-msgid "Mandriva Linux Bug Report Tool"
-msgstr "Mandriva Linux alat za prijavu bugova"
+msgid "OpenMandriva Lx Bug Report Tool"
+msgstr "OpenMandriva Lx alat za prijavu bugova"
 
 #: drakbug:67
 #, c-format
-msgid "Mandriva Linux Control Center"
-msgstr "Mandriva Linux Kontrolni centar"
+msgid "OpenMandriva Lx Control Center"
+msgstr "OpenMandriva Lx Kontrolni centar"
 
 #: drakbug:68
 #, c-format
@@ -683,8 +683,8 @@ msgstr "Instalacija fontova."
 
 #: drakfont:527 harddrake2:238
 #, c-format
-msgid "Mandriva Linux"
-msgstr "Mandriva Linux"
+msgid "OpenMandriva Lx"
+msgstr "OpenMandriva Lx"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
@@ -863,8 +863,8 @@ msgstr ""
 
 #: drakhelp:52
 #, c-format
-msgid "Mandriva Linux Help Center"
-msgstr "Mandriva Linux Centar za pomoć"
+msgid "OpenMandriva Lx Help Center"
+msgstr "OpenMandriva Lx Centar za pomoć"
 
 #: drakhelp:52
 #, c-format
@@ -2461,8 +2461,8 @@ msgstr ", "
 
 #: logdrake:51
 #, c-format
-msgid "Mandriva Linux Tools Logs"
-msgstr "Dnevnici Mandriva Linux alata"
+msgid "OpenMandriva Lx Tools Logs"
+msgstr "Dnevnici OpenMandriva Lx alata"
 
 #: logdrake:65
 #, c-format

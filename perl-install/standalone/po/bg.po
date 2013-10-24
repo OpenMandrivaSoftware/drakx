@@ -182,13 +182,13 @@ msgstr "Програмата \"%s\" спря работа поради след�
 
 #: drakbug:62
 #, c-format
-msgid "Mandriva Linux Bug Report Tool"
-msgstr "Инструмент за докладване на грешки на Mandriva Linux"
+msgid "OpenMandriva Lx Bug Report Tool"
+msgstr "Инструмент за докладване на грешки на OpenMandriva Lx"
 
 #: drakbug:67
 #, c-format
-msgid "Mandriva Linux Control Center"
-msgstr "Контролен център на Mandriva Linux"
+msgid "OpenMandriva Lx Control Center"
+msgstr "Контролен център на OpenMandriva Lx"
 
 #: drakbug:68
 #, c-format
@@ -682,8 +682,8 @@ msgstr "Не е инсталиран"
 
 #: drakfont:527 harddrake2:238
 #, c-format
-msgid "Mandriva Linux"
-msgstr "Mandriva Linux"
+msgid "OpenMandriva Lx"
+msgstr "OpenMandriva Lx"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
@@ -853,8 +853,8 @@ msgstr ""
 
 #: drakhelp:52
 #, fuzzy, c-format
-msgid "Mandriva Linux Help Center"
-msgstr "Контролен център на Mandriva Linux"
+msgid "OpenMandriva Lx Help Center"
+msgstr "Контролен център на OpenMandriva Lx"
 
 #: drakhelp:52
 #, c-format
@@ -2397,7 +2397,7 @@ msgstr ", "
 
 #: logdrake:51
 #, fuzzy, c-format
-msgid "Mandriva Linux Tools Logs"
+msgid "OpenMandriva Lx Tools Logs"
 msgstr "Самостоятелни инструменти"
 
 #: logdrake:65
@@ -2767,7 +2767,7 @@ msgstr ""
 #: scannerdrake:99
 #, fuzzy, c-format
 msgid "The %s is not supported by this version of %s."
-msgstr "%s не се подържа от тази версия на Mandriva Linux."
+msgstr "%s не се подържа от тази версия на OpenMandriva Lx."
 
 #: scannerdrake:102 scannerdrake:113
 #, fuzzy, c-format
@@ -2812,7 +2812,7 @@ msgstr ""
 #: scannerdrake:140
 #, fuzzy, c-format
 msgid "The %s is not supported under Linux."
-msgstr "%s не се подържа от тази версия на Mandriva Linux."
+msgstr "%s не се подържа от тази версия на OpenMandriva Lx."
 
 #: scannerdrake:167 scannerdrake:181
 #, c-format
@@ -3231,7 +3231,7 @@ msgstr ""
 #: service_harddrake:173
 #, fuzzy, c-format
 msgid "The graphics card '%s' is no longer supported by driver '%s'"
-msgstr "%s не се подържа от тази версия на Mandriva Linux."
+msgstr "%s не се подържа от тази версия на OpenMandriva Lx."
 
 #: service_harddrake:183
 #, c-format

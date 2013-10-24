@@ -176,12 +176,12 @@ msgstr ""
 
 #: drakbug:62
 #, c-format
-msgid "Mandriva Linux Bug Report Tool"
+msgid "OpenMandriva Lx Bug Report Tool"
 msgstr "ম্যান্ড্রিব লিনাক্স ত্রুটি রিপোর্টকারী টুল"
 
 #: drakbug:67
 #, c-format
-msgid "Mandriva Linux Control Center"
+msgid "OpenMandriva Lx Control Center"
 msgstr "ম্যান্ড্রিব লিনাক্স নিয়ন্ত্রন (control) সেন্টার"
 
 #: drakbug:68
@@ -681,8 +681,8 @@ msgstr "ইনস্টল করা নেই"
 
 #: drakfont:527 harddrake2:238
 #, c-format
-msgid "Mandriva Linux"
-msgstr "ম্যান্ড্রিব লিনাক্স (Mandriva Linux)"
+msgid "OpenMandriva Lx"
+msgstr "ম্যান্ড্রিব লিনাক্স (OpenMandriva Lx)"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
@@ -860,8 +860,8 @@ msgstr " --doc <link>          - অন্য ওয়েব পেজে সং�
 
 #: drakhelp:52
 #, c-format
-msgid "Mandriva Linux Help Center"
-msgstr "Mandriva Linux সাহায্যকেন্দ্র"
+msgid "OpenMandriva Lx Help Center"
+msgstr "OpenMandriva Lx সাহায্যকেন্দ্র"
 
 #: drakhelp:52
 #, c-format
@@ -2456,8 +2456,8 @@ msgstr ", "
 
 #: logdrake:51
 #, c-format
-msgid "Mandriva Linux Tools Logs"
-msgstr "Mandriva Linux টুলসমুহের লগ"
+msgid "OpenMandriva Lx Tools Logs"
+msgstr "OpenMandriva Lx টুলসমুহের লগ"
 
 #: logdrake:65
 #, c-format

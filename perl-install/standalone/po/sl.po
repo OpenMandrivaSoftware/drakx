@@ -181,13 +181,13 @@ msgstr "Program »%s« se je sesul s tem sporočilom o napaki:"
 
 #: drakbug:62
 #, c-format
-msgid "Mandriva Linux Bug Report Tool"
-msgstr "Mandriva Linuxovo orodje za poročanje o hroščih"
+msgid "OpenMandriva Lx Bug Report Tool"
+msgstr "OpenMandriva Lxovo orodje za poročanje o hroščih"
 
 #: drakbug:67
 #, c-format
-msgid "Mandriva Linux Control Center"
-msgstr "Nadzorno središče Mandriva Linux"
+msgid "OpenMandriva Lx Control Center"
+msgstr "Nadzorno središče OpenMandriva Lx"
 
 #: drakbug:68
 #, c-format
@@ -694,8 +694,8 @@ msgstr "Orodje za nameščanje pisav"
 
 #: drakfont:527 harddrake2:238
 #, c-format
-msgid "Mandriva Linux"
-msgstr "Mandriva Linux "
+msgid "OpenMandriva Lx"
+msgstr "OpenMandriva Lx "
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
@@ -872,8 +872,8 @@ msgstr " --doc <link>          - povezava na drugo spletno stran\n"
 
 #: drakhelp:52
 #, c-format
-msgid "Mandriva Linux Help Center"
-msgstr "Mandriva Linuxovo središče za pomoč"
+msgid "OpenMandriva Lx Help Center"
+msgstr "OpenMandriva Lxovo središče za pomoč"
 
 #: drakhelp:52
 #, c-format
@@ -2471,8 +2471,8 @@ msgstr ", "
 
 #: logdrake:51
 #, c-format
-msgid "Mandriva Linux Tools Logs"
-msgstr "Orodja Mandriva Linuxa"
+msgid "OpenMandriva Lx Tools Logs"
+msgstr "Orodja OpenMandriva Lxa"
 
 #: logdrake:65
 #, c-format

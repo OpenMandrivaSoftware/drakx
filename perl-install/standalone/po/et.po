@@ -177,13 +177,13 @@ msgstr "Programm \"%s\" jooksis kokku järgmise veaga:"
 
 #: drakbug:62
 #, c-format
-msgid "Mandriva Linux Bug Report Tool"
-msgstr "Mandriva Linuxi vigadest teatamise tööriist"
+msgid "OpenMandriva Lx Bug Report Tool"
+msgstr "OpenMandriva Lxi vigadest teatamise tööriist"
 
 #: drakbug:67
 #, c-format
-msgid "Mandriva Linux Control Center"
-msgstr "Mandriva Linuxi juhtimiskeskus"
+msgid "OpenMandriva Lx Control Center"
+msgstr "OpenMandriva Lxi juhtimiskeskus"
 
 #: drakbug:68
 #, c-format
@@ -682,8 +682,8 @@ msgstr "Fondipaigaldaja."
 
 #: drakfont:527 harddrake2:238
 #, c-format
-msgid "Mandriva Linux"
-msgstr "Mandriva Linux"
+msgid "OpenMandriva Lx"
+msgstr "OpenMandriva Lx"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
@@ -862,8 +862,8 @@ msgstr ""
 
 #: drakhelp:52
 #, c-format
-msgid "Mandriva Linux Help Center"
-msgstr "Mandriva Linuxi abikeskus"
+msgid "OpenMandriva Lx Help Center"
+msgstr "OpenMandriva Lxi abikeskus"
 
 #: drakhelp:52
 #, c-format
@@ -2453,8 +2453,8 @@ msgstr ", "
 
 #: logdrake:51
 #, c-format
-msgid "Mandriva Linux Tools Logs"
-msgstr "Mandriva Linuxi tööriistade logi"
+msgid "OpenMandriva Lx Tools Logs"
+msgstr "OpenMandriva Lxi tööriistade logi"
 
 #: logdrake:65
 #, c-format

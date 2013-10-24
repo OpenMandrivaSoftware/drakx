@@ -175,12 +175,12 @@ msgstr ""
 
 #: drakbug:62
 #, c-format
-msgid "Mandriva Linux Bug Report Tool"
+msgid "OpenMandriva Lx Bug Report Tool"
 msgstr "ਮੈਂਡਰਿਵ-ਲੀਨਕਸ ਬੱਗ ਰਿਪੋਰਟ ਸੰਦ"
 
 #: drakbug:67
 #, c-format
-msgid "Mandriva Linux Control Center"
+msgid "OpenMandriva Lx Control Center"
 msgstr "ਮੈਂਡਰਿਵ-ਲੀਨਕਸ ਕੰਟਰੋਲ ਸੈਂਟਰ"
 
 #: drakbug:68
@@ -673,7 +673,7 @@ msgstr "ਇੰਸਟਾਲ ਨਹੀਂ"
 
 #: drakfont:527 harddrake2:238
 #, fuzzy, c-format
-msgid "Mandriva Linux"
+msgid "OpenMandriva Lx"
 msgstr "ਮੈਂਡਰਿਵ-ਆਨਲਾਈਨ"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
@@ -850,7 +850,7 @@ msgstr " --doc <link>          - ਹੋਰ ਵੈਬ ਸਫਿਆਂ ਨੂੰ �
 
 #: drakhelp:52
 #, c-format
-msgid "Mandriva Linux Help Center"
+msgid "OpenMandriva Lx Help Center"
 msgstr "ਮੈਂਡਰਿਵ-ਲੀਨਕਸ ਸਹਾਇਤਾ ਕੇਂਦਰ"
 
 #: drakhelp:52
@@ -2435,7 +2435,7 @@ msgstr ", "
 
 #: logdrake:51
 #, c-format
-msgid "Mandriva Linux Tools Logs"
+msgid "OpenMandriva Lx Tools Logs"
 msgstr "ਮੈਂਡਰਿਵ-ਲੀਨਕਸ ਸੰਦ ਲਾਗ"
 
 #: logdrake:65

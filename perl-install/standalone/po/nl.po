@@ -182,13 +182,13 @@ msgstr "Het programma ‘%s’ is vastgelopen met de volgende fout:"
 
 #: drakbug:62
 #, c-format
-msgid "Mandriva Linux Bug Report Tool"
-msgstr "Mandriva Linux foutrapportage-programma"
+msgid "OpenMandriva Lx Bug Report Tool"
+msgstr "OpenMandriva Lx foutrapportage-programma"
 
 #: drakbug:67
 #, c-format
-msgid "Mandriva Linux Control Center"
-msgstr "Mandriva Linux Configuratiecentrum"
+msgid "OpenMandriva Lx Control Center"
+msgstr "OpenMandriva Lx Configuratiecentrum"
 
 #: drakbug:68
 #, c-format
@@ -692,8 +692,8 @@ msgstr "Installatieprogramma voor lettertypen"
 
 #: drakfont:527 harddrake2:238
 #, c-format
-msgid "Mandriva Linux"
-msgstr "Mandriva Linux"
+msgid "OpenMandriva Lx"
+msgstr "OpenMandriva Lx"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
@@ -878,8 +878,8 @@ msgstr ""
 
 #: drakhelp:52
 #, c-format
-msgid "Mandriva Linux Help Center"
-msgstr "Mandriva Linux Hulpcentrum"
+msgid "OpenMandriva Lx Help Center"
+msgstr "OpenMandriva Lx Hulpcentrum"
 
 #: drakhelp:52
 #, c-format
@@ -2480,8 +2480,8 @@ msgstr ", "
 
 #: logdrake:51
 #, c-format
-msgid "Mandriva Linux Tools Logs"
-msgstr "Logboek van Mandriva Linux-hulpprogramma's"
+msgid "OpenMandriva Lx Tools Logs"
+msgstr "Logboek van OpenMandriva Lx-hulpprogramma's"
 
 #: logdrake:65
 #, c-format

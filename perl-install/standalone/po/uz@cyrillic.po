@@ -171,13 +171,13 @@ msgstr ""
 
 #: drakbug:62
 #, c-format
-msgid "Mandriva Linux Bug Report Tool"
-msgstr "Mandriva Linux учун хато ҳақида хабар қилувчи восита"
+msgid "OpenMandriva Lx Bug Report Tool"
+msgstr "OpenMandriva Lx учун хато ҳақида хабар қилувчи восита"
 
 #: drakbug:67
 #, c-format
-msgid "Mandriva Linux Control Center"
-msgstr "Mandriva Linux бошқарув маркази"
+msgid "OpenMandriva Lx Control Center"
+msgstr "OpenMandriva Lx бошқарув маркази"
 
 #: drakbug:68
 #, c-format
@@ -655,8 +655,8 @@ msgstr "Шрифт ўрнатгич."
 
 #: drakfont:527 harddrake2:238
 #, c-format
-msgid "Mandriva Linux"
-msgstr "Mandriva Linux"
+msgid "OpenMandriva Lx"
+msgstr "OpenMandriva Lx"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
@@ -831,8 +831,8 @@ msgstr ""
 
 #: drakhelp:52
 #, c-format
-msgid "Mandriva Linux Help Center"
-msgstr "Mandriva Linux ёрдам маркази"
+msgid "OpenMandriva Lx Help Center"
+msgstr "OpenMandriva Lx ёрдам маркази"
 
 #: drakhelp:52
 #, c-format
@@ -2381,8 +2381,8 @@ msgstr ", "
 
 #: logdrake:51
 #, c-format
-msgid "Mandriva Linux Tools Logs"
-msgstr "Mandriva Linux воситаларининг логи"
+msgid "OpenMandriva Lx Tools Logs"
+msgstr "OpenMandriva Lx воситаларининг логи"
 
 #: logdrake:65
 #, c-format

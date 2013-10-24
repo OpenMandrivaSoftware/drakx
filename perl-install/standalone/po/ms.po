@@ -168,13 +168,13 @@ msgstr ""
 
 #: drakbug:62
 #, fuzzy, c-format
-msgid "Mandriva Linux Bug Report Tool"
-msgstr "Alatan Mengurus Pengguna Mandriva Linux"
+msgid "OpenMandriva Lx Bug Report Tool"
+msgstr "Alatan Mengurus Pengguna OpenMandriva Lx"
 
 #: drakbug:67
 #, c-format
-msgid "Mandriva Linux Control Center"
-msgstr "Pusat Kawalan Mandriva Linux"
+msgid "OpenMandriva Lx Control Center"
+msgstr "Pusat Kawalan OpenMandriva Lx"
 
 #: drakbug:68
 #, c-format
@@ -654,8 +654,8 @@ msgstr "Pemasang Fon"
 
 #: drakfont:527 harddrake2:238
 #, c-format
-msgid "Mandriva Linux"
-msgstr "Mandriva Linux"
+msgid "OpenMandriva Lx"
+msgstr "OpenMandriva Lx"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
@@ -830,8 +830,8 @@ msgstr ""
 
 #: drakhelp:52
 #, fuzzy, c-format
-msgid "Mandriva Linux Help Center"
-msgstr "Selamat datang ke Mandriva Linux"
+msgid "OpenMandriva Lx Help Center"
+msgstr "Selamat datang ke OpenMandriva Lx"
 
 #: drakhelp:52
 #, fuzzy, c-format
@@ -1155,7 +1155,7 @@ msgstr "Pengurusan Perisian"
 #: draksec:146
 #, fuzzy, c-format
 msgid "Mandriva Update"
-msgstr "Mandriva Linux Update"
+msgstr "OpenMandriva Lx Update"
 
 #: draksec:147
 #, c-format
@@ -2370,8 +2370,8 @@ msgstr ", "
 
 #: logdrake:51
 #, fuzzy, c-format
-msgid "Mandriva Linux Tools Logs"
-msgstr "Selamat datang ke Mandriva Linux"
+msgid "OpenMandriva Lx Tools Logs"
+msgstr "Selamat datang ke OpenMandriva Lx"
 
 #: logdrake:65
 #, fuzzy, c-format

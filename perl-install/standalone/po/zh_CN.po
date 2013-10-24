@@ -11,7 +11,7 @@ msgstr ""
 "POT-Creation-Date: 2013-03-31 17:23+0200\n"
 "PO-Revision-Date: 2009-04-09 11:56+0800\n"
 "Last-Translator: Funda Wang <fundawang@linux.net.cn>\n"
-"Language-Team: Mandriva Linux i18n Team <cooker-i18n@mandrivalinux.org>\n"
+"Language-Team: OpenMandriva Lx i18n Team <cooker-i18n@mandrivalinux.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -175,13 +175,13 @@ msgstr "“%s”程序已崩溃，并抛出如下错误："
 
 #: drakbug:62
 #, c-format
-msgid "Mandriva Linux Bug Report Tool"
-msgstr "Mandriva Linux 故障报告工具"
+msgid "OpenMandriva Lx Bug Report Tool"
+msgstr "OpenMandriva Lx 故障报告工具"
 
 #: drakbug:67
 #, c-format
-msgid "Mandriva Linux Control Center"
-msgstr "Mandriva Linux 控制中心"
+msgid "OpenMandriva Lx Control Center"
+msgstr "OpenMandriva Lx 控制中心"
 
 #: drakbug:68
 #, c-format
@@ -673,8 +673,8 @@ msgstr "字体安装程序。"
 
 #: drakfont:527 harddrake2:238
 #, c-format
-msgid "Mandriva Linux"
-msgstr "Mandriva Linux"
+msgid "OpenMandriva Lx"
+msgstr "OpenMandriva Lx"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
@@ -849,8 +849,8 @@ msgstr " --doc <link>          - 链接到其他网页 ( 给 WM 欢迎的前端�
 
 #: drakhelp:52
 #, c-format
-msgid "Mandriva Linux Help Center"
-msgstr "Mandriva Linux 帮助中心"
+msgid "OpenMandriva Lx Help Center"
+msgstr "OpenMandriva Lx 帮助中心"
 
 #: drakhelp:52
 #, c-format
@@ -2434,8 +2434,8 @@ msgstr "、"
 
 #: logdrake:51
 #, c-format
-msgid "Mandriva Linux Tools Logs"
-msgstr "Mandriva Linux 工具日志"
+msgid "OpenMandriva Lx Tools Logs"
+msgstr "OpenMandriva Lx 工具日志"
 
 #: logdrake:65
 #, c-format

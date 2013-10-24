@@ -174,13 +174,13 @@ msgstr ""
 
 #: drakbug:62
 #, fuzzy, c-format
-msgid "Mandriva Linux Bug Report Tool"
-msgstr "Mandriva Linux Xəta Raportlama Vasitəsi"
+msgid "OpenMandriva Lx Bug Report Tool"
+msgstr "OpenMandriva Lx Xəta Raportlama Vasitəsi"
 
 #: drakbug:67
 #, c-format
-msgid "Mandriva Linux Control Center"
-msgstr "Mandriva Linux İdarə Mərkəzi"
+msgid "OpenMandriva Lx Control Center"
+msgstr "OpenMandriva Lx İdarə Mərkəzi"
 
 #: drakbug:68
 #, c-format
@@ -672,8 +672,8 @@ msgstr "Qurulmayıb"
 
 #: drakfont:527 harddrake2:238
 #, c-format
-msgid "Mandriva Linux"
-msgstr "Mandriva Linux"
+msgid "OpenMandriva Lx"
+msgstr "OpenMandriva Lx"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
@@ -852,8 +852,8 @@ msgstr ""
 
 #: drakhelp:52
 #, fuzzy, c-format
-msgid "Mandriva Linux Help Center"
-msgstr "Mandriva Linux İdarə Mərkəzi"
+msgid "OpenMandriva Lx Help Center"
+msgstr "OpenMandriva Lx İdarə Mərkəzi"
 
 #: drakhelp:52
 #, c-format
@@ -2432,8 +2432,8 @@ msgstr ", "
 
 #: logdrake:51
 #, fuzzy, c-format
-msgid "Mandriva Linux Tools Logs"
-msgstr "Mandriva Linux Vasitələrinin İzahatı"
+msgid "OpenMandriva Lx Tools Logs"
+msgstr "OpenMandriva Lx Vasitələrinin İzahatı"
 
 #: logdrake:65
 #, c-format
@@ -2801,7 +2801,7 @@ msgstr "Quraşdırılmış darayıcıların siyahısı yenidən yaradılır ..."
 #: scannerdrake:99
 #, fuzzy, c-format
 msgid "The %s is not supported by this version of %s."
-msgstr "%s Mandriva Linuxun bu buraxılışı tərəfindən dəstəklənmir."
+msgstr "%s OpenMandriva Lxun bu buraxılışı tərəfindən dəstəklənmir."
 
 #: scannerdrake:102 scannerdrake:113
 #, fuzzy, c-format
@@ -2847,7 +2847,7 @@ msgstr ""
 #: scannerdrake:140
 #, fuzzy, c-format
 msgid "The %s is not supported under Linux."
-msgstr "%s Mandriva Linuxun bu buraxılışı tərəfindən dəstəklənmir."
+msgstr "%s OpenMandriva Lxun bu buraxılışı tərəfindən dəstəklənmir."
 
 #: scannerdrake:167 scannerdrake:181
 #, c-format
@@ -2969,7 +2969,7 @@ msgid ""
 "section."
 msgstr ""
 "%s system-config-printer tərəfindən quraşdırılmalıdır.\n"
-"system-config-printer'ni Mandriva Linux İdarə Mərkəzindəki Avadanlıq "
+"system-config-printer'ni OpenMandriva Lx İdarə Mərkəzindəki Avadanlıq "
 "bölməsindən işə sala bilərsiniz."
 
 #: scannerdrake:318
@@ -3272,7 +3272,7 @@ msgstr ""
 #: service_harddrake:173
 #, fuzzy, c-format
 msgid "The graphics card '%s' is no longer supported by driver '%s'"
-msgstr "%s Mandriva Linuxun bu buraxılışı tərəfindən dəstəklənmir."
+msgstr "%s OpenMandriva Lxun bu buraxılışı tərəfindən dəstəklənmir."
 
 #: service_harddrake:183
 #, c-format

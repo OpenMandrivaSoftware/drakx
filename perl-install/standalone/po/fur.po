@@ -169,13 +169,13 @@ msgstr ""
 
 #: drakbug:62
 #, c-format
-msgid "Mandriva Linux Bug Report Tool"
+msgid "OpenMandriva Lx Bug Report Tool"
 msgstr ""
 
 #: drakbug:67
 #, c-format
-msgid "Mandriva Linux Control Center"
-msgstr "Centri di Control Mandriva Linux"
+msgid "OpenMandriva Lx Control Center"
+msgstr "Centri di Control OpenMandriva Lx"
 
 #: drakbug:68
 #, c-format
@@ -653,8 +653,8 @@ msgstr ""
 
 #: drakfont:527 harddrake2:238
 #, c-format
-msgid "Mandriva Linux"
-msgstr "Mandriva Linux"
+msgid "OpenMandriva Lx"
+msgstr "OpenMandriva Lx"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
@@ -824,8 +824,8 @@ msgstr ""
 
 #: drakhelp:52
 #, fuzzy, c-format
-msgid "Mandriva Linux Help Center"
-msgstr "Centri jutoris Mandriva Linux"
+msgid "OpenMandriva Lx Help Center"
+msgstr "Centri jutoris OpenMandriva Lx"
 
 #: drakhelp:52
 #, c-format
@@ -1147,7 +1147,7 @@ msgstr "Gjestôr Software"
 #: draksec:146
 #, fuzzy, c-format
 msgid "Mandriva Update"
-msgstr "Mandriva Linux"
+msgstr "OpenMandriva Lx"
 
 #: draksec:147
 #, c-format
@@ -2358,7 +2358,7 @@ msgstr ""
 
 #: logdrake:51
 #, c-format
-msgid "Mandriva Linux Tools Logs"
+msgid "OpenMandriva Lx Tools Logs"
 msgstr ""
 
 #: logdrake:65

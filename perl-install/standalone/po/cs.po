@@ -177,13 +177,13 @@ msgstr "Program \"%s\" havaroval s následující chybou:"
 
 #: drakbug:62
 #, c-format
-msgid "Mandriva Linux Bug Report Tool"
-msgstr "Nástroj distribuce Mandriva Linux pro hlášení chyb"
+msgid "OpenMandriva Lx Bug Report Tool"
+msgstr "Nástroj distribuce OpenMandriva Lx pro hlášení chyb"
 
 #: drakbug:67
 #, c-format
-msgid "Mandriva Linux Control Center"
-msgstr "Ovládací centrum Mandriva Linux"
+msgid "OpenMandriva Lx Control Center"
+msgstr "Ovládací centrum OpenMandriva Lx"
 
 #: drakbug:68
 #, c-format
@@ -688,8 +688,8 @@ msgstr "Instalace písma."
 
 #: drakfont:527 harddrake2:238
 #, c-format
-msgid "Mandriva Linux"
-msgstr "Mandriva Linux"
+msgid "OpenMandriva Lx"
+msgstr "OpenMandriva Lx"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
@@ -868,8 +868,8 @@ msgstr ""
 
 #: drakhelp:52
 #, c-format
-msgid "Mandriva Linux Help Center"
-msgstr "Centrum nápovědy Mandriva Linux"
+msgid "OpenMandriva Lx Help Center"
+msgstr "Centrum nápovědy OpenMandriva Lx"
 
 #: drakhelp:52
 #, c-format
@@ -2466,8 +2466,8 @@ msgstr ", "
 
 #: logdrake:51
 #, c-format
-msgid "Mandriva Linux Tools Logs"
-msgstr "Záznamy nástrojů Mandriva Linuxu"
+msgid "OpenMandriva Lx Tools Logs"
+msgstr "Záznamy nástrojů OpenMandriva Lxu"
 
 #: logdrake:65
 #, c-format

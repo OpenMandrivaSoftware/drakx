@@ -183,13 +183,13 @@ msgstr "El programa \"%s\" se ha detenido con el error siguiente:"
 
 #: drakbug:62
 #, c-format
-msgid "Mandriva Linux Bug Report Tool"
-msgstr "Herramienta de reporte de errores de Mandriva Linux"
+msgid "OpenMandriva Lx Bug Report Tool"
+msgstr "Herramienta de reporte de errores de OpenMandriva Lx"
 
 #: drakbug:67
 #, c-format
-msgid "Mandriva Linux Control Center"
-msgstr "Centro de control de Mandriva Linux"
+msgid "OpenMandriva Lx Control Center"
+msgstr "Centro de control de OpenMandriva Lx"
 
 #: drakbug:68
 #, c-format
@@ -693,8 +693,8 @@ msgstr "Instalador de tipografías."
 
 #: drakfont:527 harddrake2:238
 #, c-format
-msgid "Mandriva Linux"
-msgstr "Mandriva Linux"
+msgid "OpenMandriva Lx"
+msgstr "OpenMandriva Lx"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
@@ -878,8 +878,8 @@ msgstr ""
 
 #: drakhelp:52
 #, c-format
-msgid "Mandriva Linux Help Center"
-msgstr "Centro de ayuda de Mandriva Linux"
+msgid "OpenMandriva Lx Help Center"
+msgstr "Centro de ayuda de OpenMandriva Lx"
 
 #: drakhelp:52
 #, c-format
@@ -2488,8 +2488,8 @@ msgstr ", "
 
 #: logdrake:51
 #, c-format
-msgid "Mandriva Linux Tools Logs"
-msgstr "Registros de las Herramientas Mandriva Linux"
+msgid "OpenMandriva Lx Tools Logs"
+msgstr "Registros de las Herramientas OpenMandriva Lx"
 
 #: logdrake:65
 #, c-format

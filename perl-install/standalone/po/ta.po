@@ -172,12 +172,12 @@ msgstr ""
 
 #: drakbug:62
 #, fuzzy, c-format
-msgid "Mandriva Linux Bug Report Tool"
+msgid "OpenMandriva Lx Bug Report Tool"
 msgstr "டிரேக்பிழை  அறிவிப்பாளன் கருவி"
 
 #: drakbug:67
 #, c-format
-msgid "Mandriva Linux Control Center"
+msgid "OpenMandriva Lx Control Center"
 msgstr "மாண்ட்ேரக் கட்டுப்பட்டு மையம்"
 
 #: drakbug:68
@@ -656,7 +656,7 @@ msgstr "நிறுவப்படவில்ைல"
 
 #: drakfont:527 harddrake2:238
 #, c-format
-msgid "Mandriva Linux"
+msgid "OpenMandriva Lx"
 msgstr "மான்ட்ரிவ லினக்ஸ்"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
@@ -827,7 +827,7 @@ msgstr ""
 
 #: drakhelp:52
 #, fuzzy, c-format
-msgid "Mandriva Linux Help Center"
+msgid "OpenMandriva Lx Help Center"
 msgstr "மாண்ட்ேரக் கட்டுப்பட்டு மையம்"
 
 #: drakhelp:52
@@ -2367,7 +2367,7 @@ msgstr ", "
 
 #: logdrake:51
 #, fuzzy, c-format
-msgid "Mandriva Linux Tools Logs"
+msgid "OpenMandriva Lx Tools Logs"
 msgstr "மாண்ட்ேரக் கட்டுப்பாடு மையம்"
 
 #: logdrake:65

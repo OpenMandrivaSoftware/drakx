@@ -167,13 +167,13 @@ msgstr ""
 
 #: drakbug:62
 #, fuzzy, c-format
-msgid "Mandriva Linux Bug Report Tool"
+msgid "OpenMandriva Lx Bug Report Tool"
 msgstr "Bainteach le hIdirlíon"
 
 #: drakbug:67
 #, c-format
-msgid "Mandriva Linux Control Center"
-msgstr "Ionad Rialaithe Mandriva Linux"
+msgid "OpenMandriva Lx Control Center"
+msgstr "Ionad Rialaithe OpenMandriva Lx"
 
 #: drakbug:68
 #, fuzzy, c-format
@@ -193,7 +193,7 @@ msgstr ""
 #: drakbug:72 drakbug:73
 #, fuzzy, c-format
 msgid "Mandriva Online"
-msgstr "Ionad Rialaithe Mandriva Linux"
+msgstr "Ionad Rialaithe OpenMandriva Lx"
 
 #: drakbug:74
 #, c-format
@@ -651,8 +651,8 @@ msgstr "Gan Suiteáil"
 
 #: drakfont:527 harddrake2:238
 #, c-format
-msgid "Mandriva Linux"
-msgstr "Mandriva Linux"
+msgid "OpenMandriva Lx"
+msgstr "OpenMandriva Lx"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
@@ -822,7 +822,7 @@ msgstr ""
 
 #: drakhelp:52
 #, fuzzy, c-format
-msgid "Mandriva Linux Help Center"
+msgid "OpenMandriva Lx Help Center"
 msgstr "Bainteach le hIdirlíon"
 
 #: drakhelp:52
@@ -1145,7 +1145,7 @@ msgstr "Bainistíocht Bhogearraí"
 #: draksec:146
 #, fuzzy, c-format
 msgid "Mandriva Update"
-msgstr "Ionad Rialaithe Mandriva Linux"
+msgstr "Ionad Rialaithe OpenMandriva Lx"
 
 #: draksec:147
 #, fuzzy, c-format
@@ -2356,7 +2356,7 @@ msgstr ", "
 
 #: logdrake:51
 #, fuzzy, c-format
-msgid "Mandriva Linux Tools Logs"
+msgid "OpenMandriva Lx Tools Logs"
 msgstr "Bainteach le hIdirlíon"
 
 #: logdrake:65

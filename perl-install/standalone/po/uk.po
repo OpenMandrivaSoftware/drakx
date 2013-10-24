@@ -184,12 +184,12 @@ msgstr "Програма \"%s\" завершила свою роботу ава�
 
 #: drakbug:62
 #, c-format
-msgid "Mandriva Linux Bug Report Tool"
-msgstr "Програма створення звітів про помилки Mandriva Linux"
+msgid "OpenMandriva Lx Bug Report Tool"
+msgstr "Програма створення звітів про помилки OpenMandriva Lx"
 
 #: drakbug:67
 #, c-format
-msgid "Mandriva Linux Control Center"
+msgid "OpenMandriva Lx Control Center"
 msgstr "Центр керування Мандріва Лінакс"
 
 #: drakbug:68
@@ -691,8 +691,8 @@ msgstr "Встановлювач шрифтів."
 
 #: drakfont:527 harddrake2:238
 #, c-format
-msgid "Mandriva Linux"
-msgstr "Mandriva Linux"
+msgid "OpenMandriva Lx"
+msgstr "OpenMandriva Lx"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
@@ -872,7 +872,7 @@ msgstr ""
 
 #: drakhelp:52
 #, c-format
-msgid "Mandriva Linux Help Center"
+msgid "OpenMandriva Lx Help Center"
 msgstr "Центр довідки Мандріва лінакса"
 
 #: drakhelp:52
@@ -2468,8 +2468,8 @@ msgstr ", "
 
 #: logdrake:51
 #, c-format
-msgid "Mandriva Linux Tools Logs"
-msgstr "Журнал інструментів Mandriva Linux"
+msgid "OpenMandriva Lx Tools Logs"
+msgstr "Журнал інструментів OpenMandriva Lx"
 
 #: logdrake:65
 #, c-format

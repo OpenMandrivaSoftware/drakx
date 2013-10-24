@@ -187,13 +187,13 @@ msgstr "Программа \"%s\" аварийно завершила свою �
 
 #: drakbug:62
 #, c-format
-msgid "Mandriva Linux Bug Report Tool"
-msgstr "Утилита создания отчёта об ошибке Mandriva Linux"
+msgid "OpenMandriva Lx Bug Report Tool"
+msgstr "Утилита создания отчёта об ошибке OpenMandriva Lx"
 
 #: drakbug:67
 #, c-format
-msgid "Mandriva Linux Control Center"
-msgstr "Центр управления Mandriva Linux"
+msgid "OpenMandriva Lx Control Center"
+msgstr "Центр управления OpenMandriva Lx"
 
 #: drakbug:68
 #, c-format
@@ -694,8 +694,8 @@ msgstr "Программа установки шрифтов."
 
 #: drakfont:527 harddrake2:238
 #, c-format
-msgid "Mandriva Linux"
-msgstr "Mandriva Linux"
+msgid "OpenMandriva Lx"
+msgstr "OpenMandriva Lx"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
@@ -875,8 +875,8 @@ msgstr ""
 
 #: drakhelp:52
 #, c-format
-msgid "Mandriva Linux Help Center"
-msgstr "Центр справки Mandriva Linux"
+msgid "OpenMandriva Lx Help Center"
+msgstr "Центр справки OpenMandriva Lx"
 
 #: drakhelp:52
 #, c-format
@@ -2474,8 +2474,8 @@ msgstr ", "
 
 #: logdrake:51
 #, c-format
-msgid "Mandriva Linux Tools Logs"
-msgstr "Журналы утилит Mandriva Linux"
+msgid "OpenMandriva Lx Tools Logs"
+msgstr "Журналы утилит OpenMandriva Lx"
 
 #: logdrake:65
 #, c-format
