@@ -1,7 +1,7 @@
 #!/bin/bash
 
-TITLE="Mandriva Installer"
-BACKTITLE="Mandriva"
+TITLE="OpenMandriva Installer"
+BACKTITLE="OpenMandriva"
 MIN_DISKSIZE=5000000
 
 debug="/dev/null"
