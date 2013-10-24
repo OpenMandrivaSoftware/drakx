@@ -1,7 +1,7 @@
 title-color: "#ff12fc"
-title-text: "OpenMandriva LX"
+title-text: "OpenMandriva Lx"
 desktop-color: "#ffffff"
-desktop-image: "background.jpg"
+desktop-image: "background.png"
 message-color: "#000000"
 message-bg-color: "#ffffff"
 terminal-font: "Fixed Regular 13"
@@ -13,7 +13,7 @@ terminal-font: "Fixed Regular 13"
     height = 40%
     item_color = "#888888"
     selected_item_color = "#000044"
-    selected_item_pixmap_style = "star_*.png"
+    selected_item_pixmap_style = "openmandriva.png"
     item_height = 32
     item_spacing = 16
     item_padding = 4
@@ -31,6 +31,6 @@ terminal-font: "Fixed Regular 13"
     num_ticks = 300
     start_angle = -56
     ticks_disappear = true
-    center_bitmap = "star_shade_w.png"
+    center_bitmap = "openmandriva_grey.png"
     tick_bitmap = "tick.png"
 }
