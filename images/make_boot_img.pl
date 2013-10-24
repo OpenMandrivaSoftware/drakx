@@ -230,9 +230,9 @@ sub grub {
     my ($dir, $kernels) = @_;
 
     _ "install -m644 grub_data/grub.cfg -D $dir/boot/grub/grub.cfg";
-    _ "install -m644 grub_data/themes/moondrake/theme.txt -D $dir/boot/grub/themes/moondrake/theme.txt";
-    _ "install -m644 grub_data/themes/moondrake/star_w.png -D $dir/boot/grub/themes/moondrake/star_w.png";
-    _ "install -m644 /usr/share/gfxboot/themes/Mandriva/install/back.jpg -D $dir/boot/grub/themes/moondrake/background.jpg";
+    _ "install -m644 grub_data/themes/OpenMandriva/theme.txt -D $dir/boot/grub/themes/OpenMandriva/theme.txt";
+    _ "install -m644 grub_data/themes/OpenMandriva/openmandriva.png -D $dir/boot/grub/themes/OpenMandriva/openmandriva.png";
+    _ "install -m644 /usr/share/mdk/backgrounds/default.png -D $dir/boot/grub/themes/OpenMandriva/background.png";
     mkdir_p("$dir/boot/grub/fonts/");
     _ "grub2-mkfont -o $dir/boot/grub/fonts/dejavu.pf2 /usr/share/fonts/TTF/dejavu/DejaVuSans-Bold.ttf";
 
