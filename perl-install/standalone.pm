@@ -61,8 +61,8 @@ default mode: offer to configure autologin feature"),
 
 OPTIONS:
   --help            - print this help message.
-  --report          - program should be an OpenMandriva LX administrative tool
-  --incident        - program should be an OpenMandriva LX administrative tool"),
+  --report          - program should be an OpenMandriva Lx administrative tool
+  --incident        - program should be an OpenMandriva Lx administrative tool"),
            'drakconnect' => N_("[--add]
   --add             - \"add a network interface\" wizard
   --del             - \"delete a network interface\" wizard

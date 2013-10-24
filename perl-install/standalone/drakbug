@@ -57,12 +57,12 @@ if (!check_for_xserver()) {
 mygtk2::init();
 
 $ugtk2::wm_icon = 'drakbug-16';
-my $window = ugtk2->new(N("OpenMandriva LX Bug Reporting"), center => 1);
+my $window = ugtk2->new(N("OpenMandriva Lx Bug Reporting"), center => 1);
 $window->{rwindow}->set_border_width(5);
 $window->{window}->signal_connect("delete_event", sub { ugtk2->exit(0) });
 
 my $mdk_app = { 
-	       N("OpenMandriva LX Control Center") => 'drakconf',
+	       N("OpenMandriva Lx Control Center") => 'drakconf',
 	       N("First Time Wizard") => 'drakfw',
 	       N("Synchronization tool") => 'draksync',  
 	       N("Standalone Tools") => 'drakxtools',

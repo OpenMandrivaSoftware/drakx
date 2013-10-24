@@ -105,7 +105,7 @@ my $common_opts = { col_spacings => 10, row_spacings => 5, mcc => 1 };
 ######################## AUTH ###################################
 my %progs;
 
-my $auth_string = N("Configure access to OpenMandriva LX administrative tools");
+my $auth_string = N("Configure access to OpenMandriva Lx administrative tools");
 
 my %auth = (
       no_passwd => N("No password needed"),

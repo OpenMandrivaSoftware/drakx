@@ -139,7 +139,7 @@ sub partitionWizardSolutions {
                     $min_win += partition_table::raw::cylinder_size($hd);
 
                     if ($part->{size} <= $min_linux_all + $min_win) {
-#                die N("Your Microsoft Windows® partition is too fragmented. Please reboot your computer under Microsoft Windows®, run the ``defrag'' utility, then restart the OpenMandriva LX installation.");
+#                die N("Your Microsoft Windows® partition is too fragmented. Please reboot your computer under Microsoft Windows®, run the ``defrag'' utility, then restart the OpenMandriva Lx installation.");
                         undef $part;
                     } else {
                         $part->{resize_fat} = $resize_fat;
@@ -169,7 +169,7 @@ sub partitionWizardSolutions {
                           $part = $in->ask_from_listf_raw({ messages => N("Which partition do you want to resize?"),
                                                                interactive_help_id => 'resizeFATChoose',
                                                              }, \&partition_table::description, \@ok_for_resize_fat) or return;
-                          $part->{size} > $part->{min_linux} + $part->{min_win} or die N("Your Microsoft Windows® partition is too fragmented. Please reboot your computer under Microsoft Windows®, run the ``defrag'' utility, then restart the OpenMandriva LX installation.");
+                          $part->{size} > $part->{min_linux} + $part->{min_win} or die N("Your Microsoft Windows® partition is too fragmented. Please reboot your computer under Microsoft Windows®, run the ``defrag'' utility, then restart the OpenMandriva Lx installation.");
                       } else {
                           $part = top(grep { $_->{req_size} } @ok_for_resize_fat);
                       }
@@ -352,7 +352,7 @@ sub create_display_box {
 
             my $update_size_labels = sub {
                 $win_size_label->set_label(" Windows (" . formatXiB($entry->{req_size}, 512) . ")");
-                $mdv_size_label->set_label(" OpenMandriva LX (" . formatXiB($entry->{size} - $entry->{req_size}, 512) . ")");
+                $mdv_size_label->set_label(" OpenMandriva Lx (" . formatXiB($entry->{size} - $entry->{req_size}, 512) . ")");
                 0;
             };
             my $update_req_size = sub {

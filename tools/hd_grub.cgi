@@ -60,7 +60,7 @@ sub print_form {
     print
       p(),
       start_form(-name => 'form', -action => $cgi_name, -method => 'get'),
-      ul("Please choose the partition where OpenMandriva LX is copied.",
+      ul("Please choose the partition where OpenMandriva Lx is copied.",
 	 li(popup_menu(-name => "hd", -default => 'hd0', 
 		       -values => [ 'hd0' .. 'hd3' ],
 		       -labels => { hd0 => '1st BIOS hard drive (usually hda or sda)',
@@ -94,7 +94,7 @@ sub print_form {
 				  })),
        ),
       p(),
-      ul("Please enter the directory containing the OpenMandriva LX Distribution (relative to the partition chosen above)",
+      ul("Please enter the directory containing the OpenMandriva Lx Distribution (relative to the partition chosen above)",
 	 li(textfield(-name => 'directory', -default => '/cooker/i586', size => 40)),
 	 ),
       p(submit(-name => 'Go')),
