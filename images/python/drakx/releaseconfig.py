@@ -1,5 +1,5 @@
 class ReleaseConfig(object):
-    def __init__(self, version, codename, product, subversion = None, outdir="out", branch = "Devel", repopath = None, medium = "DVD", vendor = "OpenMandriva Association", distribution = "OpenMandriva LX"):
+    def __init__(self, version, codename, product, subversion = None, outdir="out", branch = "Devel", repopath = None, medium = "DVD", vendor = "OpenMandriva Association", distribution = "OpenMandriva Lx"):
         self.version = version
         self.codename = codename
         self.product = product
