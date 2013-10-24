@@ -28,7 +28,7 @@ use scanner;
 use handle_configs;
 use services;
 
-my $distroname = "OpenMandriva LX";
+my $distroname = "OpenMandriva Lx";
 my $shortdistroname = "OpenMandriva";
 
 foreach (@ARGV) {

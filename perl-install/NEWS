@@ -1,6 +1,6 @@
 Version 14.42 - 22 June 2013 [rxu]
 
-- merge branding changes for OpenMandriva LX
+- merge branding changes for OpenMandriva Lx
 - removed "use diagnostics" and "use strict" from a lot of perl-install files
 - drakbug:
   o fix for new bugzilla url (issues.openmandriva.org)

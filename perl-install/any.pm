@@ -1174,7 +1174,7 @@ sub selectLanguage_install {
 			focus_first => 1,
 			advanced_messages => formatAlaTeX(N("%s can support multiple languages. Select
 the languages you would like to install. They will be available
-when your installation is complete and you restart your system.", "OpenMandriva LX")),
+when your installation is complete and you restart your system.", "OpenMandriva Lx")),
 			advanced_label => N("Multiple languages"),
 			advanced_title => N("Select Additional Languages"),
 		    });

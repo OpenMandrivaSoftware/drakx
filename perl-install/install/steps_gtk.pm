@@ -209,7 +209,7 @@ sub selectLanguage {
   
     $o->ask_warn('',
 formatAlaTeX(N("Your system is low on resources. You may have some problem installing
-OpenMandriva LX. If that occurs, you can try a text install instead. To do this,
+OpenMandriva Lx. If that occurs, you can try a text install instead. To do this,
 press `F1' at the boot menu, then enter `text'."))) if availableRamMB() < 70; # 70MB
 
 }

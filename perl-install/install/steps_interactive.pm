@@ -218,7 +218,7 @@ safely be upgraded to %s.
 A new installation replacing your previous one is recommended.
 
 Warning : you should backup all your personal data before choosing \"New
-Installation\".", 'OpenMandriva LX') },
+Installation\".", 'OpenMandriva Lx') },
 		  [ { val => \$choice, type => 'list', list => \@choices, format => \&translate } ]);
 
     log::l("_warn_unsafe_upgrade: got $choice");
