@@ -31,7 +31,7 @@ sub menu_lst {
 timeout 0
 default 0
 
-title OpenMandriva Installation
+title OpenMandriva Lx Installation
 
 root ($hd,$grub_partition_number)
 kernel $directory/isolinux/alt0/vmlinuz $default_append $default_acpi $default_vga automatic=method:disk,partition:$hd_linux$partition_number,directory:$directory
