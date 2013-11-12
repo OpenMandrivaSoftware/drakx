@@ -8,7 +8,7 @@ sub draw_bg_pixbuf($$) {
     my ($w, $h) = $gdk_window->get_size;
     if (!defined($::bg_pixbuf_orig)) {
         eval {
-	    $::bg_pixbuf_orig = Gtk2::Gdk::Pixbuf->new_from_file('/usr/share/mdk/backgrounds/default.jpg');
+	    $::bg_pixbuf_orig = Gtk2::Gdk::Pixbuf->new_from_file('/usr/share/mdk/backgrounds/default.png');
         };
 	if (!$::bg_pixbuf_orig) {
 	    print STDERR "Failed to load image file!\n";
