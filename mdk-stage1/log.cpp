@@ -31,6 +31,8 @@
 
 #include "log.h"
 
+extern "C" {
+
 static FILE * logfile = NULL;
 
 
@@ -80,4 +82,6 @@ void close_log(void)
 		log_message("stage1: disconnecting life support systems");
 		fclose(logfile);
 	}
+}
+
 }

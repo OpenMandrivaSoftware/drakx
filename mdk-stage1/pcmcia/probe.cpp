@@ -413,6 +413,7 @@ int tcic_probe(void)
 } /* tcic_probe */
 
 
+extern "C" {
 const char * pcmcia_probe(void)
 {
 	if (!pci_probe())
@@ -425,4 +426,5 @@ const char * pcmcia_probe(void)
 #endif
 	else
 		return NULL;
+}
 }
