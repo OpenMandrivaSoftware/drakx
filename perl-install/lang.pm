@@ -3,6 +3,7 @@ package lang; # $Id$
 use common;
 use utf8;
 use log;
+use services;
 
 #- key: lang name (locale name for some (~5) special cases needing
 #-      extra distinctions)
@@ -1081,7 +1082,7 @@ sub lang_changed {
 
 sub read {
     my ($b_user_only) = @_;
-    my ($f1, $f2, $f3) = ("$::prefix$ENV{HOME}/.i18n", "$::prefix/etc/sysconfig/i18n", "$::prefix/etc/locale.conf");
+    my ($f1, $f2, $f3) = ("$::prefix$ENV{HOME}/.i18n", "$::prefix$ENV{HOME}/.config/locale.conf", "$::prefix/etc/locale.conf");
     my %h = getVarsFromSh($b_user_only && -e $f1 ? $f1 : $f2 && $f3);
     my $locale = system_locales_to_ourlocale($h{LC_MESSAGES} || 'en_US', $h{LC_MONETARY} || 'en_US');
     
@@ -1131,6 +1132,7 @@ sub write_and_install {
 	$do_pkgs->ensure_are_installed(\@packages, 1);
     }
     &write($locale, $b_user_only, $b_dont_touch_kde_files);
+    services::restart("systemd-localed");
 }
 
 sub write { 
@@ -1188,7 +1190,7 @@ sub write {
         add2hash($h, { CONSOLE_NOT_LOCALIZED => 'yes' });
     }
 
-    my $file = $b_user_only ? "$ENV{HOME}/.i18n" : '/etc/sysconfig/i18n' && '/etc/locale.conf';
+    my $file = $b_user_only ? "$ENV{HOME}/.i18n" : "$ENV{HOME}/.config/locale.conf" && '/etc/locale.conf';
     log::explanations(qq(Setting l10n configuration in "$file"));
     setVarsInShMode($::prefix . $file, 0644, $h);
 
