@@ -54,7 +54,7 @@ sub write {
     set_ntp_server($t->{ntp});
 
     my $tz_prefix = get_timezone_prefix();
-    eval { cp_af($tz_prefix . '/' . $t->{timezone}, "$::prefix/etc/localtime") };
+    run_program::run('timedatectl', 'set-timezone', $t->{timezone});
     $@ and log::l("installing /etc/localtime failed");
     setVarsInSh("$::prefix/etc/sysconfig/clock", {
 	ZONE => $t->{timezone},
