@@ -156,6 +156,7 @@ my %descr = (
     xfdrake => N("Graphical Server Configuration"),
     drakmouse => N("Mouse Configuration"),
     drakkeyboard => N("Keyboard Configuration"),
+    system-config-printer => N("Printer Configuration"),
     drakups => N("UPS Configuration"),
     drakconnect => N("Network Configuration"),
     drakhosts => N("Hosts definitions"),
