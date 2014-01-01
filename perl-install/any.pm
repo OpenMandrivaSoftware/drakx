@@ -1098,6 +1098,7 @@ sub get_release_notes {
     my ($in) = @_;
     my $ext = $in->isa('interactive::gtk') ? '.html' : '.txt';
     my $separator = $in->isa('interactive::gtk') ? "\n\n" : '';
+    my $lang = (($ENV{'LC_MESSAGES'} =~ m/ru_RU/) ? 'ru' : 'en');
 
     my $release_notes = join($separator, grep { $_ } map {
         if ($::isInstall) {
