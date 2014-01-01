@@ -51,6 +51,8 @@ typedef __uint8_t u8;
 # define HID_MAX_USAGES 1024
 #include <linux/hiddev.h>
 
+#include <libldetect.h>
+
 #include <string.h>
 
 #define SECTORSIZE 512
@@ -68,7 +70,17 @@ print '
 void log_message(const char * s, ...) {
    va_list args;
    va_list args_copy;
-   FILE * logtty = fopen("/var/log/stage2.log", "a");
+   FILE * logtty = fopen("/dev/tty3", "w");
+   if (!logtty)
+      return;
+   fprintf(logtty, "* ");
+   va_start(args, s);
+   vfprintf(logtty, s, args);
+   fprintf(logtty, "\n");
+   fclose(logtty);
+   va_end(args);
+
+   logtty = fopen("/tmp/ddebug.log", "a");
    if (!logtty)
       return;
    fprintf(logtty, "* ");
@@ -83,6 +95,18 @@ void log_perror(const char *msg) {
    log_message("%s: %s", msg, strerror(errno));
 }
 
+HV* common_pciusb_hash_init(struct pciusb_entry *e) {
+   HV *rh = (HV *)sv_2mortal((SV *)newHV()); 
+   hv_store(rh, "vendor",         6, newSViv(e->vendor),     0);
+   hv_store(rh, "subvendor",      9, newSViv(e->subvendor),  0);
+   hv_store(rh, "id",             2, newSViv(e->device),     0);
+   hv_store(rh, "subid",          5, newSViv(e->subdevice),  0);
+   hv_store(rh, "driver",         6, newSVpv(e->module ? e->module : "unknown", 0), 0);
+   hv_store(rh, "description",   11, newSVpv(e->text, 0),    0); 
+   hv_store(rh, "pci_bus",        7, newSViv(e->pci_bus),    0);
+   hv_store(rh, "pci_device",    10, newSViv(e->pci_device), 0);
+   return rh;
+}
 
 ';
 
@@ -241,6 +265,69 @@ _exit(status)
 void
 usleep(microseconds)
   unsigned long microseconds
+
+
+char*
+get_pci_description(int vendor_id,int device_id)
+
+void
+pci_probe()
+  PPCODE:
+    struct pciusb_entries entries = pci_probe();
+    char buf[2048];
+    int i;
+
+    EXTEND(SP, entries.nb);
+    for (i = 0; i < entries.nb; i++) {
+      struct pciusb_entry *e = &entries.entries[i];
+      HV * rh = common_pciusb_hash_init(e);
+      hv_store(rh, "pci_domain",    10, newSViv(e->pci_domain),      0);
+      hv_store(rh, "pci_function",  12, newSViv(e->pci_function),    0);
+      hv_store(rh, "pci_revision",  12, newSViv(e->pci_revision),    0);
+      hv_store(rh, "is_pciexpress", 13, newSViv(e->is_pciexpress),   0);
+      hv_store(rh, "nice_media_type", 15, newSVpv(e->class, 0),      0);
+      hv_store(rh, "media_type",    10, newSVpv(pci_class2text(e->class_id), 0), 0); 
+      PUSHs(newRV((SV *)rh));
+    }
+    pciusb_free(&entries);
+
+void
+usb_probe()
+  PPCODE:
+    struct pciusb_entries entries = usb_probe();
+    char buf[2048];
+    int i;
+
+    EXTEND(SP, entries.nb);
+    for (i = 0; i < entries.nb; i++) {
+      struct pciusb_entry *e = &entries.entries[i];
+      struct usb_class_text class_text = usb_class2text(e->class_id);
+      snprintf(buf, sizeof(buf), "%s|%s|%s", class_text.usb_class_text, class_text.usb_sub_text, class_text.usb_prot_text);
+      HV * rh = common_pciusb_hash_init(e);
+      hv_store(rh, "usb_port",       8, newSViv(e->usb_port),   0);
+      hv_store(rh, "media_type",    10, newSVpv(buf, 0),        0);
+      PUSHs(newRV((SV *)rh));
+    }
+    pciusb_free(&entries);
+
+void
+dmi_probe()
+  PPCODE:
+    //dmidecode_file = "/usr/share/ldetect-lst/dmidecode.Laptop.Dell-Latitude-C810";
+    //dmidecode_file = "../../soft/ldetect-lst/test/dmidecode.Laptop.Sony-Vaio-GRX316MP";
+
+    struct dmi_entries entries = dmi_probe();
+    char buf[2048];
+    int i;
+
+    EXTEND(SP, entries.nb);
+    for (i = 0; i < entries.nb; i++) {
+      HV * rh = (HV *)sv_2mortal((SV *)newHV()); 
+      hv_store(rh, "driver",       6, newSVpv(entries.entries[i].module, 0),     0); 
+      hv_store(rh, "description", 11, newSVpv(entries.entries[i].constraints, 0),  0); 
+      PUSHs(newRV((SV *)rh));
+    }
+    dmi_entries_free(entries);
 
 
 unsigned int

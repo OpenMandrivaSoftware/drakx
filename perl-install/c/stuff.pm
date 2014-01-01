@@ -1,4 +1,7 @@
-package c::stuff; # $Id$
+package c::stuff; # $Id: stuff.pm 214710 2005-12-15 09:14:01Z prigaux $
+
+
+
 
 require DynaLoader;
 
