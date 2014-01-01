@@ -176,7 +176,7 @@ sub selectInstallClass {
 	    }
 
 	    $o->{previous_release} = $p;
-	    $o->{isUpgrade} = (find { $p->{release_file} =~ /$_/ } 'mandriva', 'mandrake', 'conectiva', 'redhat') || 'unknown';
+	    $o->{isUpgrade} = (find { $p->{release_file} =~ /$_/ } 'openmandriva', 'mandriva', 'mandrake', 'conectiva', 'redhat') || 'unknown';
 	    $o->{upgrade_by_removing_pkgs_matching} ||= {
 		conectiva => 'cl',
 		redhat => '.', #- everything!
@@ -212,7 +212,7 @@ sub _warn_unsafe_upgrade {
     );
 
     my $choice;
-    $o->ask_from_({ messages => N("The installer has detected that your current Mandriva Linux system could not
+    $o->ask_from_({ messages => N("The installer has detected that your current OpenMandriva Lx system could not
 safely be upgraded to %s.
 
 A new installation replacing your previous one is recommended.
