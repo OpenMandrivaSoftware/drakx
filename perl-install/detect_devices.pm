@@ -700,7 +700,9 @@ sub is_wireless_interface {
     #-   wlan-ng (prism2_*) need some special tweaks to support it
     #- use sysfs as fallback to detect wireless interfaces,
     #- i.e interfaces for which get_wireless_stats() is available
-    c::isNetDeviceWirelessAware($interface) || -e "/sys/class/net/$interface/wireless";
+    c::isNetDeviceWirelessAware($interface)
+        || -e "/sys/class/net/$interface/wireless"
+        || -e "/sys/class/net/$interface/phy80211";
 }
 
 sub get_all_net_devices() {
@@ -1269,7 +1271,7 @@ sub usbKeyboard2country_code {
     my ($usb_kbd) = @_;
     my ($F, $tmp);
     # usbfs is deprecated, so this will be broken if not mounted, but the code seems unused anyways..(?)
-    sysopen($F, sprintf("/proc/bus/usb/%03d/%03d", $usb_kbd->{pci_bus}, $usb_kbd->{pci_device}), 0) and
+    sysopen($F, sprintf("/sys/kernel/debug/usb/%03d/%03d", $usb_kbd->{pci_bus}, $usb_kbd->{pci_device}), 0) and
       sysseek $F, 0x28, 0 and
       sysread $F, $tmp, 1 and
       unpack("C", $tmp);
