@@ -430,29 +430,36 @@ sub trouble {
 
 http://wiki.openmandriva.org/ (The OpenMandriva Wiki)
 
-General recommendations:
+- General Recommendation: Enable PulseAudio. If you have opted to not to use PulseAudio, we would strongly advise you enable it. For the vast majority of desktop use cases, PulseAudio is the recommended and best supported option.
 
-- \"kmix\" (KDE), \"gnome-control-center sound\" (GNOME), and \"pauvucontrol\" (others) will launch graphical applications that allow you to view your sound devices and adjust volume levels.
+- \"kmix\" (KDE), \"gnome-control-center sound\" (GNOME) and \"pauvucontrol\" (generic) will launch graphical applications to allow you to view your sound devices and adjust volume levels
+
 
 - \"ps aux | grep pulseaudio\" will check that PulseAudio is running.
 
-- \"pactl stat\" will check that the PulseAudio daemon is working correctly.
+
+- \"pactl stat\" will check that you can connect to the PulseAudio daemon correctly.
+
 
 - \"pactl list sink-inputs\" will tell you which programs are currently playing sound via PulseAudio.
 
-- \"systemctl status osspd.service\" will give you information about the OSS Proxy Daemon, which is installed with the \"ossp\" package. It is used for legacy applications.
 
-- \"pacmd ls\" will give you a LOT of debug information about the current state of your sound system.
+- \"systemctl status osspd.service\" will tell you the current state of the OSS Proxy Daemon. This is used to enable sound from legacy applications which use the OSS sound API. You should install the \"ossp\" package if you need this functionality.
+
+
+- \"pacmd ls\" will give you a LOT of debug information about the current state of your audio.
+
 
 - \"lspcidrake -v | grep -i audio\" will tell you which low-level driver your card uses by default.
-by default
 
-- \"/usr/sbin/lsmod | grep snd\" will enable you to check if sound-related modules are loaded on your system.
 
-- \"alsamixer -c 0\" will give you a text-based mixer to the low-level controls for the first soundcard.
-    For the second, third, etc. soundcard, use 1, 2, etc. instead of 0.
+- \"/usr/sbin/lsmod | grep snd\" will enable you to check which sound related kernel modules (drivers) are loaded.
 
-- \"/usr/sbin/fuser -v /dev/snd.pcm* /dev/dsp\" will tell you which programs are using the sound card directly (normally, only PulseAudio).
+
+- \"alsamixer -c 0\" will give you a text-based mixer to the low level ALSA mixer controls for first sound card
+
+
+- \"/usr/sbin/fuser -v /dev/snd/pcm* /dev/dsp\" will tell which programs are currently using the sound card directly (normally this should only show PulseAudio)
 ")));
 }
 
