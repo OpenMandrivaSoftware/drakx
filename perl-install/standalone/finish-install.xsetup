@@ -5,8 +5,8 @@
 if [ -f /etc/sysconfig/finish-install -a -x /usr/sbin/finish-install ]; then
     . /etc/sysconfig/finish-install
     if [ "$FINISH_INSTALL" = yes ]; then
-	if [ -r /etc/sysconfig/i18n ]; then
-	    . /etc/sysconfig/i18n
+	if [ -r /etc/locale.conf ]; then
+	    . /etc/locale.conf
 	    export LANGUAGE LC_ADDRESS LC_COLLATE LC_NAME LC_NUMERIC LC_MEASUREMENT LC_TIME \
 	    LANG LC_IDENTIFICATION LC_MESSAGES LC_CTYPE LC_TELEPHONE LC_MONETARY LC_PAPER
 	fi
