@@ -462,17 +462,17 @@ sub setupBootloader__general {
             { text => N("Enable APIC"), val => \$enable_apic, type => 'bool', advanced => 1,
               disabled => sub { !$enable_lapic } }, 
             { text => N("Enable Local APIC"), val => \$enable_lapic, type => 'bool', advanced => 1 },
-            { label => N("Security"), title => 1 },
-	    { label => N("Password"), val => \$b->{password}, hidden => 1,
-	      validate => sub { 
-		  my $ok = $b->{password} eq $b->{password2}
-                    or $in->ask_warn('', [ N("The passwords do not match"), N("Please try again") ]);
-		  my $ok2 = !($b->{password} && $b->{method} eq 'grub-graphic')
-                    or $in->ask_warn('', N("You cannot use a password with %s",
-                                           bootloader::method2text($b->{method})));
-		  $ok && $ok2;
-	      } },
-            { label => N("Password (again)"), val => \$b->{password2}, hidden => 1 },
+#            { label => N("Security"), title => 1 },
+#	    { label => N("Password"), val => \$b->{password}, hidden => 1,
+#	      validate => sub { 
+#		  my $ok = $b->{password} eq $b->{password2}
+#                    or $in->ask_warn('', [ N("The passwords do not match"), N("Please try again") ]);
+#		  my $ok2 = !($b->{password} && $b->{method} eq 'grub-graphic')
+#                    or $in->ask_warn('', N("You cannot use a password with %s",
+#                                           bootloader::method2text($b->{method})));
+#		  $ok && $ok2;
+#	      } },
+#            { label => N("Password (again)"), val => \$b->{password2}, hidden => 1 },
             { text => N("Clean /tmp at each boot"), val => \$clean_tmp, type => 'bool', advanced => 1 },
         ]) or return 0;
     } else {
