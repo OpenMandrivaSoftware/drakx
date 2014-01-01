@@ -10,7 +10,6 @@ use devices;
 use run_program;
 use modules;
 use c;
-use LDetect;
 use feature 'state';
 
 #-#####################################################################################
@@ -845,12 +844,11 @@ my (@pci, @usb);
 
 sub pci_probe__real() {
     add_addons($pcitable_addons, map {
-	my %l;
-	@l{qw(vendor id subvendor subid pci_domain pci_bus pci_device pci_function pci_revision is_pciexpress media_type nice_media_type driver description)} = split "\t";
-	$l{bus} = 'PCI';
-	$l{sysfs_device} = '/sys/bus/pci/devices/' . get_pci_sysfs_path(\%l);
-	\%l;
-    } LDetect::pci_probe());
+	my $l = $_;
+	$l->{bus} = 'PCI';
+	$l->{sysfs_device} = '/sys/bus/pci/devices/' . get_pci_sysfs_path($l);
+	$l;
+    } c::pci_probe());
 }
 sub pci_probe() {
     state $done;
@@ -867,13 +865,12 @@ sub usb_probe__real() {
     -e "/sys/kernel/debug/usb/devices" or return;
 
     add_addons($usbtable_addons, map {
-	my %l;
-	@l{qw(vendor id media_type driver description pci_bus pci_device usb_port)} = split "\t";
-	$l{media_type} = join('|', grep { $_ ne '(null)' } split('\|', $l{media_type}));
-	$l{sysfs_device} = "/sys/bus/usb/devices/$l{pci_bus}-" . ($l{usb_port} + 1);
-	$l{bus} = 'USB';
-	\%l;
-    } LDetect::usb_probe());
+	my $l = $_;
+	$l->{media_type} = join('|', grep { $_ ne '(null)' } split('\|', $l->{media_type}));
+	$l->{sysfs_device} = "/sys/bus/usb/devices/$l->{pci_bus}-" . ($l->{usb_port} + 1);
+	$l->{bus} = 'USB';
+	$l;
+    } c::usb_probe());
 }
 sub usb_probe() {
     if ($::isStandalone && @usb) {
@@ -963,9 +960,7 @@ sub dmi_probe() {
     if (arch() !~ /86/) {
         return [];
     }
-    $dmi_probe ||= [ map {
-	/(.*?)\t(.*)/ && { bus => 'DMI', driver => $1, description => $2 };
-    } $> ? () : LDetect::dmi_probe() ];
+    $dmi_probe ||= $> ? [] : [ c::dmi_probe() ];
     @$dmi_probe;
 }
 
