@@ -1,7 +1,7 @@
-package c::stuff; # $Id: stuff.pm 214710 2005-12-15 09:14:01Z prigaux $
-
-
-
+package c::stuff; # $Id$
+ 
+use strict;
+use vars qw($VERSION @ISA);
 
 require DynaLoader;
 
