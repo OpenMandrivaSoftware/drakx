@@ -26,6 +26,7 @@ use standalone;     #- warning, standalone must be loaded very first, for 'expla
 use c;
 use common;
 use interactive;
+use do_pkgs;
 use mygtk2 qw(gtknew); #- do not import gtkadd which conflicts with ugtk2 version
 use ugtk2 qw(:create :dialogs :helpers :wrappers);
 
@@ -42,12 +43,16 @@ foreach (@ARGV) {
     /^--alert$/ and do { alert_config(); quit() };
 }
 
+if (!$::testing) {
+   do_pkgs_standalone->new($in)->ensure_is_installed("syslog-daemon", "/etc/systemd/system/syslog.service") or exit(0);
+}
+
 my $isTail = $isFile;
 $| = 1 if $isTail;
 my $h = chomp_(`hostname -s`);
 
 $ugtk2::wm_icon = "logdrake";
-my $explain_title = N("OpenMandriva Lx Administrative Tool Logs");
+my $explain_title = N("%s Tools Logs", N("OpenMandriva Lx"));
 my $my_win = ugtk2->new($isExplain ? $explain_title : N("Logs"));
 
 unless ($::isEmbedded) {
