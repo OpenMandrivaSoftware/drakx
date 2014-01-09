@@ -11,7 +11,7 @@ use devices;
 use run_program;
 use modules;
 use c;
-use LDetect
+use LDetect;
 use feature 'state';
 
 #-#####################################################################################
