@@ -233,10 +233,16 @@ sub read_grub2 {
 	    push @{$bootloader{entries}}, $entry if $entry;
 	    $entry = { label => $1 };
 	} elsif (/linux\s+(\S+)\s+(.*)?/ || /module\s+(\S+vmlinu\S+)\s+(.*)?/) {
+        $entry->{type} = 'image';
 	    @$entry{qw(kernel_or_dev append)} = ($1, $2);
 	} elsif (/initrd\s+(\S+)/ || /module\s+(\S+initrd\S+)\s+(.*)?/) {
 	    $entry->{initrd} = $1;
 	}
+    }
+
+    # get default entry:
+    foreach (run_program::rooted_get_stdout($::prefix, qw(grub2-editenv list))) {
+	$bootloader{default} = $1 if /saved_entry=(.*)/;
     }
 
     $bootloader{method} = 'grub2';
@@ -1804,6 +1810,11 @@ sub write_grub2 {
 
     my $grub2_cfg = '/boot/grub2/grub.cfg';
     run_program::rooted($::prefix, 'grub2-mkconfig', '2>', \$error, '-o', $grub2_cfg) or die "grub2-mkconfig failed: $error";
+
+    # set default entry:
+    eval {
+	run_program::rooted($::prefix, 'grub2-set-default', '2>', \$error, $bootloader->{default}) or die "grub2-mkconfig failed: $error";
+    };
 }
 
 sub write_grub {

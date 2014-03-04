@@ -59,7 +59,7 @@ typedef __uint8_t u8;
 ';
 
 $Config{archname} =~ /i.86/ and print '
-char *pcmcia_probe(void);
+const char *pcmcia_probe(void);
 ';
 
 print '
@@ -99,7 +99,7 @@ MODULE = c::stuff		PACKAGE = c::stuff
 ';
 
 $Config{archname} =~ /i.86/ and print '
-char *
+const char *
 pcmcia_probe()
 ';
 
@@ -243,6 +243,7 @@ usleep(microseconds)
   unsigned long microseconds
 
 
+
 unsigned int
 getpagesize()
 
@@ -291,7 +292,7 @@ get_netdevices()
      ifc.ifc_buf = NULL;
      for (;;) {
           ifc.ifc_len = sizeof(struct ifreq) * numreqs;
-          ifc.ifc_buf = realloc(ifc.ifc_buf, ifc.ifc_len);
+          ifc.ifc_buf = (char*)realloc(ifc.ifc_buf, ifc.ifc_len);
 
           if (ioctl(s, SIOCGIFCONF, &ifc) < 0) {
                perror("SIOCGIFCONF");
@@ -438,7 +439,7 @@ EVIocGBitKey (char *file)
 
 		fd = open (file, O_RDONLY);
 		if (fd < 0) {
-			perror("Cannot open /dev/input/eventX");
+			warn("Cannot open %s: %s\n", file, strerror(errno));
 			return;
 		}
 

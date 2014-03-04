@@ -147,13 +147,13 @@ sub prep_net_suppl_media {
     return if our $net_suppl_media_configured && network::tools::has_network_connection();
     $net_suppl_media_configured = 1;
 
-    # needed so that one can install basesystem before adding suppl network media:
+    # needed so that one can install basesystem-minimal before adding suppl network media:
     install::media::update_media($o->{packages});
     require urpm::media;
     urpm::media::configure($o->{packages});
 
-    #- install basesystem now
-    $o->do_pkgs->ensure_is_installed('basesystem', undef, 1);
+    #- install basesystem-minimal now
+    $o->do_pkgs->ensure_is_installed('basesystem-minimal', undef, 1);
 
     # in case of no network install:
     $o->{net} ||= {};
@@ -642,13 +642,13 @@ sub default_packages {
     }
 
     add_n_log("/proc/cmdline=~/brltty=/", "brltty") if cat_("/proc/cmdline") =~ /brltty=/;
-    add_n_log("method==nfs", "nfs-utils-clients") if $o->{method} eq "nfs";
+    add_n_log("method==nfs", "nfs-utils") if $o->{method} eq "nfs";
     add_n_log("have RAID", "mdadm") if !is_empty_array_ref($o->{all_hds}{raids});
     add_n_log("have LVM", "lvm2") if !is_empty_array_ref($o->{all_hds}{lvms});
     add_n_log("have crypted DM", "cryptsetup") if !is_empty_array_ref($o->{all_hds}{dmcrypts});
     add_n_log("some disks are fake RAID", qw(mdadm dmraid)) if any { fs::type::is_dmraid($_) } @{$o->{all_hds}{hds}};
     add_n_log("CPU needs microcode", "microcode_ctl") if detect_devices::hasCPUMicrocode();
-    add_n_log("CPU needs cpufreq", 'cpufreq') if detect_devices::hasCPUFreq();
+    add_n_log("CPU needs cpufreq", 'cpupower') if detect_devices::hasCPUFreq();
     add_n_log("APM support needed", 'apmd') if -e "/proc/apm";
     add_n_log("needed by hardware", detect_devices::probe_name('Pkg'));
     my @ltmp = map { $_->{BOOTPROTO} eq 'dhcp' ? $_->{DHCP_CLIENT} || 'dhcpcd' : () } values %{$o->{net}{ifcfg}};
@@ -1037,7 +1037,7 @@ sub generate_automatic_stage1_params {
 sub find_root_parts {
     my ($fstab, $prefix) = @_;
 
-    grep { $_->{release} =~ /\b(mandrake|mandrakelinux|mandriva|conectiva)\b/i } 
+    grep { $_->{release} =~ /\b(mandrake|mandrakelinux|openmandriva|mandriva|conectiva)\b/i } 
       _find_root_parts($fstab, $prefix);
 }
 

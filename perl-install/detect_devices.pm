@@ -1,4 +1,5 @@
 package detect_devices; # $Id$
+use vars qw($pcitable_addons $usbtable_addons);
 
 #-######################################################################################
 #- misc imports
@@ -30,7 +31,7 @@ sub get() {
     #- 2. The first SCSI device if SCSI exists. Or
     #- 3. The first RAID device if RAID exists.
 
-    getIDE(), getSCSI(), getXenBlk(), getVirtIO(), getDAC960(), getCompaqSmartArray(), getATARAID();
+    getIDE(), getSCSI(), getMmcBlk(), getXenBlk(), getVirtIO(), getDAC960(), getCompaqSmartArray(), getATARAID();
 }
 sub hds()         { grep { may_be_a_hd($_) } get() }
 sub tapes()       { grep { $_->{media_type} eq 'tape' } get() }
@@ -398,6 +399,14 @@ sub getVirtIO() {
     glob("/sys/bus/virtio/devices/*/block/*");
 }
 
+sub getMmcBlk() {
+    -d '/sys/bus/mmc/devices' or return;
+    map {
+	    { device => basename($_), info => "MMC block device", media_type => 'hd', bus => 'mmc' };
+    }
+    glob("/sys/bus/mmc/devices/*/block/*");
+}
+
 # cpu_name : arch() =~ /^alpha/ ? "cpu	" :
 # arch() =~ /^ppc/ ? "processor" : "vendor_id"
 
@@ -554,11 +563,16 @@ sub getInputDevices() {
 	    #- KEY=30000 0 0 0 0 0 0 0 0  #=> BTN_LEFT BTN_RIGHT
 	    #- KEY=70000 0 0 0 0 0 0 0 0  #=> BTN_LEFT BTN_RIGHT BTN_MIDDLE
 	    #- KEY=1f0000 0 0 0 0 0 0 0 0 #=> BTN_LEFT BTN_RIGHT BTN_MIDDLE BTN_SIDE BTN_EXTRA
-	    if (! -f "/dev/input/$event") {
+	    if (!$> && ! -f "/dev/input/$event") {
 		    devices::make("/dev/input/$event");
 	    }
-	    my @KEYS = c::EVIocGBitKey("/dev/input/$event");
-	    $device->{SIDE} = 1 if $KEYS[0] & (1 << 0x13);
+	    if (-r "/dev/input/$event") {
+		my @KEYS = c::EVIocGBitKey("/dev/input/$event");
+		$device->{SIDE} = 1 if $KEYS[0] & (1 << 0x13);
+	    } else {
+		my $KEY = hex($1);
+		$device->{SIDE} = 1 if $KEY & (1 << 0x13);
+	    }
 
         } elsif (/^\s*$/) {
 	    push @devices, $device if $device;
@@ -700,7 +714,9 @@ sub is_wireless_interface {
     #-   wlan-ng (prism2_*) need some special tweaks to support it
     #- use sysfs as fallback to detect wireless interfaces,
     #- i.e interfaces for which get_wireless_stats() is available
-    c::isNetDeviceWirelessAware($interface) || -e "/sys/class/net/$interface/wireless";
+    c::isNetDeviceWirelessAware($interface)
+        || -e "/sys/class/net/$interface/wireless"
+        || -e "/sys/class/net/$interface/phy80211";
 }
 
 sub get_all_net_devices() {
@@ -843,12 +859,10 @@ my (@pci, @usb);
 
 sub pci_probe__real() {
     add_addons($pcitable_addons, map {
-	my %l;
-	@l{qw(vendor id subvendor subid pci_domain pci_bus pci_device pci_function pci_revision is_pciexpress media_type nice_media_type driver description)} = split "\t";
-	$l{$_} = hex $l{$_} foreach qw(vendor id subvendor subid);
-	$l{bus} = 'PCI';
-	$l{sysfs_device} = '/sys/bus/pci/devices/' . get_pci_sysfs_path(\%l);
-	\%l;
+	my $l = $_;
+	$l->{bus} = 'PCI';
+	$l->{sysfs_device} = '/sys/bus/pci/devices/' . get_pci_sysfs_path($l);
+	$l;
     } LDetect::pci_probe());
 }
 sub pci_probe() {
@@ -866,13 +880,11 @@ sub usb_probe__real() {
     -e "/sys/kernel/debug/usb/devices" or return;
 
     add_addons($usbtable_addons, map {
-	my %l;
-	@l{qw(vendor id media_type driver description pci_bus pci_device usb_port)} = split "\t";
-	$l{media_type} = join('|', grep { $_ ne '(null)' } split('\|', $l{media_type}));
-	$l{$_} = hex $l{$_} foreach qw(vendor id);
-	$l{sysfs_device} = "/sys/bus/usb/devices/$l{pci_bus}-" . ($l{usb_port} + 1);
-	$l{bus} = 'USB';
-	\%l;
+	my $l = $_;
+	$l->{media_type} = join('|', grep { $_ ne '(null)' } split('\|', $l->{media_type}));
+	$l->{sysfs_device} = "/sys/bus/usb/devices/$l->{pci_bus}-" . ($l->{usb_port} + 1);
+	$l->{bus} = 'USB';
+	$l;
     } LDetect::usb_probe());
 }
 sub usb_probe() {
@@ -963,9 +975,7 @@ sub dmi_probe() {
     if (arch() !~ /86/) {
         return [];
     }
-    $dmi_probe ||= [ map {
-	/(.*?)\t(.*)/ && { bus => 'DMI', driver => $1, description => $2 };
-    } $> ? () : LDetect::dmi_probe() ];
+    $dmi_probe ||= $> ? [] : [ LDetect::dmi_probe() ];
     @$dmi_probe;
 }
 
@@ -988,10 +998,17 @@ sub matching_driver__regexp {
     my ($regexp) = @_;
     grep { $_->{driver} =~ /$regexp/i } probeall();
 }
-
+sub matching_card__regexp {
+    my ($regexp) = @_;
+    grep { $_->{card} =~ /$regexp/i } probeall();
+}
 sub matching_driver {
     my (@list) = @_;
     grep { member($_->{driver}, @list) } probeall();
+}
+sub matching_card {
+    my (@list) = @_;
+    grep { member($_->{card}, @list) } probeall();
 }
 sub probe_name {
     my ($name) = @_;
@@ -1204,7 +1221,7 @@ sub is_virtualbox() {
 }
 
 sub is_vmware() {
-    any { $_->{driver} =~ /Card:VMware/ } detect_devices::pci_probe();
+    any { $_->{card} =~ /Card:VMware/ } detect_devices::pci_probe();
 }
 
 sub is_netbook_nettop() {
@@ -1269,7 +1286,7 @@ sub usbKeyboard2country_code {
     my ($usb_kbd) = @_;
     my ($F, $tmp);
     # usbfs is deprecated, so this will be broken if not mounted, but the code seems unused anyways..(?)
-    sysopen($F, sprintf("/proc/bus/usb/%03d/%03d", $usb_kbd->{pci_bus}, $usb_kbd->{pci_device}), 0) and
+    sysopen($F, sprintf("/sys/kernel/debug/usb/%03d/%03d", $usb_kbd->{pci_bus}, $usb_kbd->{pci_device}), 0) and
       sysseek $F, 0x28, 0 and
       sysread $F, $tmp, 1 and
       unpack("C", $tmp);

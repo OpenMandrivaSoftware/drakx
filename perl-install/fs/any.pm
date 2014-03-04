@@ -56,8 +56,7 @@ sub set_cdrom_symlink {
 	my $alias = basename($_->{mntpoint}) or next;
 	log::l("using alias $alias for $_->{device}");
 	$_->{device_alias} = $alias;
-	symlink($_->{device}, "/dev/$alias") if $::prefix; # do create the symlink to have it during install (otherwise fs::wild_device::from_part will give a non accessible device)
-	symlink($_->{device}, "$::prefix/dev/$alias");
+	symlink($_->{device}, "/dev/$alias");
     }
 }
 
@@ -79,7 +78,7 @@ sub create_minimal_files() {
       qw(dev etc etc/profile.d etc/rpm etc/sysconfig etc/sysconfig/console 
 	etc/sysconfig/network-scripts etc/sysconfig/console/consolefonts 
 	etc/sysconfig/console/consoletrans
-	home mnt tmp var var/tmp var/lib var/lib/rpm var/lib/urpmi);
+	home mnt run tmp var var/tmp var/lib var/lib/rpm var/lib/urpmi);
     mkdir "$::prefix/$_", 0700 foreach qw(root root/tmp root/drakx);
 
     devices::make("$::prefix/dev/null");

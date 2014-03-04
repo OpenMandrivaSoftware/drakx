@@ -142,7 +142,7 @@ sub install_acpi_pkgs {
     my $acpi = bootloader::get_append_with_key($b, 'acpi');
     my $use_acpi = !member($acpi, 'off', 'ht');
     if ($use_acpi) {
-	$do_pkgs->ensure_files_are_installed([ [ 'acpi', '/usr/bin/acpi' ], [ 'acpid', '/usr/sbin/acpid' ] ], $::isInstall);
+	$do_pkgs->ensure_files_are_installed([ [ qw(acpi acpi) ], [ qw(acpid acpid) ] ], $::isInstall);
     }
     require services;
     services::set_status($_, $use_acpi, $::isInstall) foreach qw(acpi acpid);
@@ -687,7 +687,7 @@ sub get_autologin() {
     my %desktop_to_dm = (
         GNOME => 'gdm',
         KDE4 => 'kdm',
-        xfce4 => 'gdm',
+        xfce4 => 'slim',
         LXDE => 'lxdm',
     );
     my %dm_canonical = (
@@ -988,11 +988,18 @@ sub sessions_with_order() {
 sub urpmi_add_all_media {
     my ($in, $o_previous_release) = @_;
 
-    my $binary = find { whereis_binary($_, $::prefix) } if_(check_for_xserver(), 'gurpmi.addmedia'), 'urpmi.addmedia' or return;
-    
+    my $binary = find { whereis_binary($_, $::prefix) } if_(check_for_xserver(), 'gurpmi.addmedia'), 'urpmi.addmedia';
+    if (!$binary) {
+	log::l("urpmi.addmedia not found!");
+	return;
+    }
+
     #- configure urpmi media if network is up
     require network::tools;
-    return if !network::tools::has_network_connection();
+    if (!network::tools::has_network_connection()) {
+	log::l("no network connexion!");
+	return;
+    }
     my $wait;
     my @options = ('--distrib', '--mirrorlist', '$MIRRORLIST');
     if ($binary eq 'urpmi.addmedia') {
@@ -1080,6 +1087,7 @@ sub get_release_notes {
     my ($in) = @_;
     my $ext = $in->isa('interactive::gtk') ? '.html' : '.txt';
     my $separator = $in->isa('interactive::gtk') ? "\n\n" : '';
+    my $lang = (($ENV{'LC_MESSAGES'} =~ m/ru_RU/) ? 'ru' : 'en');
 
     my $release_notes = join($separator, grep { $_ } map {
         if ($::isInstall) {

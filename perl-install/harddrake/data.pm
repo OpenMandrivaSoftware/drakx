@@ -383,7 +383,7 @@ our @tree =
       string => N("Bluetooth devices"),
       icon => "hw_network.png",
       configurator => "",
-      detector => sub { f(detect_devices::probe_category('bus/bluetooth')), f(grep { $_->{description} =~ /Bluetooth Dongle/ } @devices) },
+      detector => sub { f(detect_devices::probe_category('bus/bluetooth')), f(grep { $_->{description} =~ /Bluetooth Dongle|WLAN/ } @devices) },
       checked_on_boot => 1,
      },
 
@@ -476,7 +476,7 @@ our @tree =
       detector => sub {
           f(grep { $_->{description} =~ /Keyboard/i || $_->{media_type} =~ /Subclass\|Keyboard/i ||
                      # USB devices are filtered out since we already catch them through probeall():
-                     $_->{bus} ne 'usb' && $_->{driver} =~ /^event|kbd/ && $_->{description} !~ /PC Speaker/;
+                     $_->{bus} ne 'usb' && $_->{driver} =~ /^event|kbd|^usbhid/ && $_->{description} !~ /PC Speaker/;
                  } @devices);
       },
       checked_on_boot => 0,

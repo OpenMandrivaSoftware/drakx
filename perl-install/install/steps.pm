@@ -466,6 +466,9 @@ Consoles 1,3,4,7 may also contain interesting information";
 
     #-  why not? cuz weather is nice today :-) [pixel]
     common::sync(); common::sync();
+    
+    #- generate mchnie id after installation
+    run_program::rooted($::prefix, "systemd-machine-id-setup");
 
     #- generate /etc/lvmtab needed for rc.sysinit
     run_program::rooted($::prefix, 'lvm2', 'vgscan') if -e '/etc/lvmtab';
@@ -489,7 +492,7 @@ Consoles 1,3,4,7 may also contain interesting information";
 
     #- make sure some services have been enabled (or a catastrophic restart will occur).
     #- these are normally base package post install scripts or important services to start.
-    foreach my $service (qw(netfs network rsyslog networkmanager)) {
+    foreach my $service (qw(netfs network networkmanager)) {
 	if (-f "$::prefix/lib/systemd/system/$service.service") {
 	    log::l("use systemctl enable $service.service");
 	    run_program::rooted($::prefix, "systemctl", "enable", $service . ".service");
@@ -705,7 +708,14 @@ sub configureTimezone {
     my ($o) = @_;
     install::any::preConfigureTimezone($o);
 
-    $o->pkg_install('ntp') if $o->{timezone}{ntp};
+    if ($o->{timezone}{ntp}) {
+        # We prefer chrony, but we'll deal with ntpd for the sake of upgrades
+        my $pkg = install::pkgs::packageByName($o->{packages}, 'chrony');
+        unless ($pkg && $pkg->flag_installed) {
+            $pkg = install::pkgs::packageByName($o->{packages}, 'ntp');
+            $o->pkg_install('chrony') unless ($pkg && $pkg->flag_installed);
+       }
+    }
 
     require timezone;
     timezone::write($o->{timezone});
