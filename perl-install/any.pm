@@ -123,8 +123,7 @@ sub add_users {
 	    addGdmIcon($_->{name}, $icon);
 	}
 	else {
-	    addKdmIcon($_->{name}, $icon);
-	    addUserFaceIcon($_->{name}, $icon);
+	    addKdmIcon($_->{name}, delete $_->{auto_icon} || $_->{icon});
 	}
     }
 }
