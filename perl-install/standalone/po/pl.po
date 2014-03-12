@@ -1183,7 +1183,7 @@ msgstr "Poziom bezpieczeństwa i kontrola"
 
 #: draksec:110
 #, c-format
-msgid "Configure authentication required to access Mandriva tools"
+msgid "Configure authentication required to access OpenMandriva tools"
 msgstr ""
 "Skonfiguruj dane niezbędne do uwierzytelniania dostępu do narzędzi Mandrivy"
 

@@ -1124,7 +1124,7 @@ msgstr "பாதுகாப்பு நிலை"
 
 #: draksec:110
 #, c-format
-msgid "Configure authentication required to access Mandriva tools"
+msgid "Configure authentication required to access OpenMandriva tools"
 msgstr ""
 
 #: draksec:113

@@ -1192,7 +1192,7 @@ msgstr "Επίπεδο ασφαλείας και περιοδικοί έλεγχ
 
 #: draksec:110
 #, c-format
-msgid "Configure authentication required to access Mandriva tools"
+msgid "Configure authentication required to access OpenMandriva tools"
 msgstr ""
 "Ρύθμισε την πιστοποίηση που απαιτείται για την πρόσβαση στα εργαλεία Mandriva"
 

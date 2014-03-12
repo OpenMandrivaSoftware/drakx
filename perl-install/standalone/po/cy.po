@@ -1170,7 +1170,7 @@ msgstr "Lefel Diogelwch a Gwiriadau"
 
 #: draksec:110
 #, c-format
-msgid "Configure authentication required to access Mandriva tools"
+msgid "Configure authentication required to access OpenMandriva tools"
 msgstr "Mae angen dilysu ffurfweddiad i gael mynediad at offer Mandriva"
 
 #: draksec:113

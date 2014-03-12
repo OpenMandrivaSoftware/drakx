@@ -1178,7 +1178,7 @@ msgstr "Güvenlik Seviyesi ve Denetlemeler"
 
 #: draksec:110
 #, c-format
-msgid "Configure authentication required to access Mandriva tools"
+msgid "Configure authentication required to access OpenMandriva tools"
 msgstr "Mandriva araçlarına erişebilmek için gerekli doğrulamayı yapılandırın"
 
 #: draksec:113

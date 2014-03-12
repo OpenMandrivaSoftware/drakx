@@ -1174,7 +1174,7 @@ msgstr "Úroveň zabezpečení a kontroly"
 
 #: draksec:110
 #, c-format
-msgid "Configure authentication required to access Mandriva tools"
+msgid "Configure authentication required to access OpenMandriva tools"
 msgstr "Nastavení ověřování vyžadovaného pro přístup k nástrojům Mandriva"
 
 #: draksec:113

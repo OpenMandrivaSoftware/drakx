@@ -1173,7 +1173,7 @@ msgstr "Segurtasun maila eta egiaztapenak"
 
 #: draksec:110
 #, c-format
-msgid "Configure authentication required to access Mandriva tools"
+msgid "Configure authentication required to access OpenMandriva tools"
 msgstr "Konfiguratu Mandriva tresnak atzitzeko beharrezko autentikazioa"
 
 #: draksec:113
