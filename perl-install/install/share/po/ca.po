@@ -382,7 +382,7 @@ msgstr "Auxiliars per configurar el servidor"
 #: ../../advertising/MandrivaOne-advert-8.pl:1
 #: ../../advertising/MandrivaOne-advert-9.pl:1
 #, c-format
-msgid "Mandriva Linux 2012 Alpha (Tenacious Underdog)"
+msgid "OpenMandriva Lx 2012 Alpha (Tenacious Underdog)"
 msgstr ""
 
 #: any.pm:110
@@ -433,18 +433,18 @@ msgstr ""
 #: any.pm:188
 #, c-format
 msgid ""
-"Contacting Mandriva Linux web site to get the list of available mirrors..."
+"Contacting OpenMandriva Lx web site to get the list of available mirrors..."
 msgstr ""
-"S'està contactant amb el servidor Mandriva Linux per obtenir la llista de "
+"S'està contactant amb el servidor OpenMandriva Lx per obtenir la llista de "
 "rèpliques disponibles..."
 
 #: any.pm:193
 #, fuzzy, c-format
 msgid ""
-"Failed contacting Mandriva Linux web site to get the list of available "
+"Failed contacting OpenMandriva Lx web site to get the list of available "
 "mirrors"
 msgstr ""
-"S'està contactant amb el servidor Mandriva Linux per obtenir la llista de "
+"S'està contactant amb el servidor OpenMandriva Lx per obtenir la llista de "
 "rèpliques disponibles..."
 
 #: any.pm:203
@@ -799,8 +799,8 @@ msgstr "S'està entrant en el pas '%s'\n"
 
 #: steps_curses.pm:22
 #, c-format
-msgid "Mandriva Linux Installation %s"
-msgstr "Instal·lació del Mandriva Linux %s"
+msgid "OpenMandriva Lx Installation %s"
+msgstr "Instal·lació del OpenMandriva Lx %s"
 
 #: steps_curses.pm:32
 #, c-format
@@ -816,12 +816,12 @@ msgstr ""
 #, c-format
 msgid ""
 "Your system is low on resources. You may have some problem installing\n"
-"Mandriva Linux. If that occurs, you can try a text install instead. For "
+"OpenMandriva Lx. If that occurs, you can try a text install instead. For "
 "this,\n"
 "press `F1' when booting on CDROM, then enter `text'."
 msgstr ""
 "El vostre sistema està baix de recursos; podeu tenir algun problema en\n"
-"instal·lar el Mandriva Linux. Si això passa, podeu provar d'instal·lar-lo "
+"instal·lar el OpenMandriva Lx. Si això passa, podeu provar d'instal·lar-lo "
 "en\n"
 "mode text. Per fer-ho, premeu 'F1' en arrencar des del CD-ROM i escriviu "
 "'text'."
@@ -1138,7 +1138,7 @@ msgstr ""
 #: steps_interactive.pm:215
 #, c-format
 msgid ""
-"Installer has detected that your installed Mandriva Linux system could not\n"
+"Installer has detected that your installed OpenMandriva Lx system could not\n"
 "safely be upgraded to %s.\n"
 "\n"
 "New installation replacing your previous one is recommended.\n"

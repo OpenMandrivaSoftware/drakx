@@ -168,12 +168,12 @@ msgstr ""
 
 #: drakbug:62
 #, c-format
-msgid "Mandriva Linux Bug Report Tool"
+msgid "OpenMandriva Lx Bug Report Tool"
 msgstr ""
 
 #: drakbug:67
 #, c-format
-msgid "Mandriva Linux Control Center"
+msgid "OpenMandriva Lx Control Center"
 msgstr ""
 
 #: drakbug:68
@@ -193,7 +193,7 @@ msgstr ""
 
 #: drakbug:72 drakbug:73
 #, c-format
-msgid "Mandriva Online"
+msgid "OpenMandriva Online"
 msgstr ""
 
 #: drakbug:74
@@ -218,7 +218,7 @@ msgstr ""
 
 #: drakbug:99
 #, c-format
-msgid "Select Mandriva Tool:"
+msgid "Select OpenMandriva Tool:"
 msgstr ""
 
 #: drakbug:100
@@ -642,7 +642,7 @@ msgstr ""
 
 #: drakfont:523 harddrake2:234
 #, c-format
-msgid "Copyright (C) %s by Mandriva"
+msgid "Copyright (C) %s by OpenMandriva"
 msgstr ""
 
 #: drakfont:525
@@ -652,7 +652,7 @@ msgstr ""
 
 #: drakfont:527 harddrake2:238
 #, c-format
-msgid "Mandriva Linux"
+msgid "OpenMandriva Lx"
 msgstr ""
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
@@ -796,7 +796,7 @@ msgstr ""
 #, c-format
 msgid ""
 " drakhelp 0.1\n"
-"Copyright (C) %s Mandriva.\n"
+"Copyright (C) %s OpenMandriva.\n"
 "This is free software and may be redistributed under the terms of the GNU "
 "GPL.\n"
 "\n"
@@ -823,7 +823,7 @@ msgstr ""
 
 #: drakhelp:52
 #, c-format
-msgid "Mandriva Linux Help Center"
+msgid "OpenMandriva Lx Help Center"
 msgstr ""
 
 #: drakhelp:52
@@ -1120,7 +1120,7 @@ msgstr ""
 
 #: draksec:110
 #, c-format
-msgid "Configure authentication required to access Mandriva tools"
+msgid "Configure authentication required to access OpenMandriva tools"
 msgstr ""
 
 #: draksec:113
@@ -1145,7 +1145,7 @@ msgstr ""
 
 #: draksec:146
 #, c-format
-msgid "Mandriva Update"
+msgid "OpenMandriva Update"
 msgstr ""
 
 #: draksec:147
@@ -1274,7 +1274,7 @@ msgid ""
 "You can visit our hardware database at:\n"
 "\n"
 "\n"
-"http://www.mandrivalinux.com/en/hardware.php3"
+"http://openmandriva.org"
 msgstr ""
 
 #: draksound:58
@@ -1498,7 +1498,7 @@ msgid ""
 "You can visit our hardware database at:\n"
 "\n"
 "\n"
-"http://www.mandrivalinux.com/en/hardware.php3"
+"http://openmandriva.org"
 msgstr ""
 
 #: finish-install:57
@@ -2357,7 +2357,7 @@ msgstr ""
 
 #: logdrake:51
 #, c-format
-msgid "Mandriva Linux Tools Logs"
+msgid "OpenMandriva Lx Tools Logs"
 msgstr ""
 
 #: logdrake:65

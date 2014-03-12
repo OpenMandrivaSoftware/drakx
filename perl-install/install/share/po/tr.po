@@ -386,7 +386,7 @@ msgstr "Sunucuyu yapılandırmak için Sihirbazlar"
 #: ../../advertising/MandrivaOne-advert-8.pl:1
 #: ../../advertising/MandrivaOne-advert-9.pl:1
 #, c-format
-msgid "Mandriva Linux 2012 Alpha (Tenacious Underdog)"
+msgid "OpenMandriva Lx 2012 Alpha (Tenacious Underdog)"
 msgstr ""
 
 #: any.pm:110
@@ -441,18 +441,18 @@ msgstr "URL bağlantı adresi ftp:// veya http:// ile başlamak zorundadır."
 #: any.pm:188
 #, c-format
 msgid ""
-"Contacting Mandriva Linux web site to get the list of available mirrors..."
+"Contacting OpenMandriva Lx web site to get the list of available mirrors..."
 msgstr ""
-"Yansı adreslerini almak için Mandriva Linux web sayfasına bağlantı "
+"Yansı adreslerini almak için OpenMandriva Lx web sayfasına bağlantı "
 "kuruluyor..."
 
 #: any.pm:193
 #, c-format
 msgid ""
-"Failed contacting Mandriva Linux web site to get the list of available "
+"Failed contacting OpenMandriva Lx web site to get the list of available "
 "mirrors"
 msgstr ""
-"Yansı adreslerini almak için Mandriva Linux web sayfasına bağlantı kurma "
+"Yansı adreslerini almak için OpenMandriva Lx web sayfasına bağlantı kurma "
 "başarısız"
 
 #: any.pm:203
@@ -811,8 +811,8 @@ msgstr "`%s' adımına başlanıyor\n"
 
 #: steps_curses.pm:22
 #, c-format
-msgid "Mandriva Linux Installation %s"
-msgstr "Mandriva Linux Kurulum %s"
+msgid "OpenMandriva Lx Installation %s"
+msgstr "OpenMandriva Lx Kurulum %s"
 
 #: steps_curses.pm:32
 #, c-format
@@ -828,11 +828,11 @@ msgstr "Xorg sunucusunun başlaması yavaş. Lütfen bekleyin..."
 #, c-format
 msgid ""
 "Your system is low on resources. You may have some problem installing\n"
-"Mandriva Linux. If that occurs, you can try a text install instead. For "
+"OpenMandriva Lx. If that occurs, you can try a text install instead. For "
 "this,\n"
 "press `F1' when booting on CDROM, then enter `text'."
 msgstr ""
-"Sistem kaynaklarınız kısıtlı. Mandriva Linux'yi kurarken sorunlarınız\n"
+"Sistem kaynaklarınız kısıtlı. OpenMandriva Lx'yi kurarken sorunlarınız\n"
 "olabilir. Bu durum oluşursa, metin tabanlı kurulumu deneyebilirsiniz.\n"
 "Bunun için CDROM'dan açtıktan sonra `F1'e basın, ve komut satırına\n"
 "`text' yazın."
@@ -1151,7 +1151,7 @@ msgstr "Önceki kurulumu güncelle (önerilmez)"
 #: steps_interactive.pm:215
 #, c-format
 msgid ""
-"Installer has detected that your installed Mandriva Linux system could not\n"
+"Installer has detected that your installed OpenMandriva Lx system could not\n"
 "safely be upgraded to %s.\n"
 "\n"
 "New installation replacing your previous one is recommended.\n"
@@ -1159,7 +1159,7 @@ msgid ""
 "Warning : you should backup all your personal data before choosing \"New\n"
 "Installation\"."
 msgstr ""
-"Kurulum aracı, halihazırda kurulu olan Mandriva Linux sisteminizin güvenli "
+"Kurulum aracı, halihazırda kurulu olan OpenMandriva Lx sisteminizin güvenli "
 "bir\n"
 " biçimde %s sistemine yükseltilemeyeceğini algıladı.\n"
 " \n"
@@ -1671,13 +1671,13 @@ msgstr "Çıkış"
 #~ msgid "Your desktop on a USB key"
 #~ msgstr "Masaüstünüz bir USB anahtarda"
 
-#~ msgid "The 100%% open source Mandriva Linux distribution"
-#~ msgstr "100%% açık kaynaklı Mandriva Linux Dağıtımı"
+#~ msgid "The 100%% open source OpenMandriva Lx distribution"
+#~ msgstr "100%% açık kaynaklı OpenMandriva Lx Dağıtımı"
 
 #~ msgid "Explore Linux easily with Mandriva One"
 #~ msgstr "Mandriva One ile Linux' u zahmetsizce keşfedin"
 
-#~ msgid "A full Mandriva Linux desktop, with support"
+#~ msgid "A full OpenMandriva Lx desktop, with support"
 #~ msgstr "Tam bir Mandriva masaüstü ve desteği"
 
 #~ msgid "Mandriva: distributions for everybody's needs"

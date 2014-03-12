@@ -2,7 +2,7 @@
 # translation of nb.po to
 # translation of DrakX-nb.po to
 # KTranslator Generated File
-# Translation file of Mandriva Linux graphic install
+# Translation file of OpenMandriva Lx graphic install
 # Copyright (C) 1999 Mandriva
 #
 # Terje Bjerkelia <terje@bjerkelia.com>, 1999-2000.
@@ -393,7 +393,7 @@ msgstr "Veivisere til å sette opp tjener"
 #: ../../advertising/MandrivaOne-advert-8.pl:1
 #: ../../advertising/MandrivaOne-advert-9.pl:1
 #, c-format
-msgid "Mandriva Linux 2012 Alpha (Tenacious Underdog)"
+msgid "OpenMandriva Lx 2012 Alpha (Tenacious Underdog)"
 msgstr ""
 
 #: any.pm:110
@@ -448,18 +448,18 @@ msgstr "URL må starte med ftp:// eller http://"
 #: any.pm:188
 #, c-format
 msgid ""
-"Contacting Mandriva Linux web site to get the list of available mirrors..."
+"Contacting OpenMandriva Lx web site to get the list of available mirrors..."
 msgstr ""
-"Kontakter nettstedet til Mandriva Linux for å få listen over tilgjengelige "
+"Kontakter nettstedet til OpenMandriva Lx for å få listen over tilgjengelige "
 "speil … "
 
 #: any.pm:193
 #, c-format
 msgid ""
-"Failed contacting Mandriva Linux web site to get the list of available "
+"Failed contacting OpenMandriva Lx web site to get the list of available "
 "mirrors"
 msgstr ""
-"Klarte ikke å kontakte nettstedet til Mandriva Linux for å få listen over "
+"Klarte ikke å kontakte nettstedet til OpenMandriva Lx for å få listen over "
 "tilgjengelige speil"
 
 #: any.pm:203
@@ -819,8 +819,8 @@ msgstr "Entrer trinn `%s'\n"
 
 #: steps_curses.pm:22
 #, c-format
-msgid "Mandriva Linux Installation %s"
-msgstr "Mandriva Linux-installasjon %s"
+msgid "OpenMandriva Lx Installation %s"
+msgstr "OpenMandriva Lx-installasjon %s"
 
 #: steps_curses.pm:32
 #, c-format
@@ -836,12 +836,12 @@ msgstr "Xorg-tjeneren er treg å starte. Vennligst vent … "
 #, c-format
 msgid ""
 "Your system is low on resources. You may have some problem installing\n"
-"Mandriva Linux. If that occurs, you can try a text install instead. For "
+"OpenMandriva Lx. If that occurs, you can try a text install instead. For "
 "this,\n"
 "press `F1' when booting on CDROM, then enter `text'."
 msgstr ""
 "Systemet ditt har lite ressurser. Du kan muligens oppleve noen problemer\n"
-"ved installering av Mandriva Linux. Hvis dette skjer kan du prøve "
+"ved installering av OpenMandriva Lx. Hvis dette skjer kan du prøve "
 "installasjon i tekstmodus\n"
 "i stedet. Trykk `F1' ved oppstart av CD-ROM, skriv så `text'."
 
@@ -1163,7 +1163,7 @@ msgstr "Oppgrader forrige versjon (ikke anbefalt)"
 #: steps_interactive.pm:215
 #, c-format
 msgid ""
-"Installer has detected that your installed Mandriva Linux system could not\n"
+"Installer has detected that your installed OpenMandriva Lx system could not\n"
 "safely be upgraded to %s.\n"
 "\n"
 "New installation replacing your previous one is recommended.\n"
@@ -1171,7 +1171,7 @@ msgid ""
 "Warning : you should backup all your personal data before choosing \"New\n"
 "Installation\"."
 msgstr ""
-"Installasjonsprogrammet har oppdaga at den gamle utgava av Mandriva Linux "
+"Installasjonsprogrammet har oppdaga at den gamle utgava av OpenMandriva Lx "
 "som du har installert ikke kan trygt oppgraderes til %s.\n"
 "\n"
 "Du bør velge en nyinstallering, som da vil erstatta den gamle versjonen.\n"
@@ -1677,14 +1677,14 @@ msgstr "Avslutt"
 #~ msgid "Your desktop on a USB key"
 #~ msgstr "Skrivebordet på en minnepinne"
 
-#~ msgid "The 100%% open source Mandriva Linux distribution"
-#~ msgstr "Mandriva Linux-distribusjonen med 100 %% åpen kildekode"
+#~ msgid "The 100%% open source OpenMandriva Lx distribution"
+#~ msgstr "OpenMandriva Lx-distribusjonen med 100 %% åpen kildekode"
 
 #~ msgid "Explore Linux easily with Mandriva One"
 #~ msgstr "Utforsk Linux med Mandriva One"
 
-#~ msgid "A full Mandriva Linux desktop, with support"
-#~ msgstr "Et fullt Mandriva Linux-skrivebord – med brukerstøtte"
+#~ msgid "A full OpenMandriva Lx desktop, with support"
+#~ msgstr "Et fullt OpenMandriva Lx-skrivebord – med brukerstøtte"
 
 #~ msgid "Mandriva: distributions for everybody's needs"
 #~ msgstr "Mandriva: Distribusjoner for alle behov"

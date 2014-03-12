@@ -382,7 +382,7 @@ msgstr "Varázslók a kiszolgáló beállítására"
 #: ../../advertising/MandrivaOne-advert-8.pl:1
 #: ../../advertising/MandrivaOne-advert-9.pl:1
 #, c-format
-msgid "Mandriva Linux 2012 Alpha (Tenacious Underdog)"
+msgid "OpenMandriva Lx 2012 Alpha (Tenacious Underdog)"
 msgstr ""
 
 #: any.pm:110
@@ -438,15 +438,15 @@ msgstr "Az URL-nek ftp:// vagy http:// előtaggal kell kezdődnie"
 #: any.pm:188
 #, c-format
 msgid ""
-"Contacting Mandriva Linux web site to get the list of available mirrors..."
+"Contacting OpenMandriva Lx web site to get the list of available mirrors..."
 msgstr ""
-"Kapcsolódás a Mandriva Linux webkiszolgálójához; az elérhető "
+"Kapcsolódás a OpenMandriva Lx webkiszolgálójához; az elérhető "
 "tükörkiszolgálók listájának lekérdezése..."
 
 #: any.pm:193
 #, c-format
 msgid ""
-"Failed contacting Mandriva Linux web site to get the list of available "
+"Failed contacting OpenMandriva Lx web site to get the list of available "
 "mirrors"
 msgstr ""
 "Nem sikerült lekérdezni az elérhető tükörkiszolgálók listáját a Mandriva "
@@ -813,8 +813,8 @@ msgstr "A következő lépés: \"%s\"\n"
 
 #: steps_curses.pm:22
 #, c-format
-msgid "Mandriva Linux Installation %s"
-msgstr "Mandriva Linux telepítés %s"
+msgid "OpenMandriva Lx Installation %s"
+msgstr "OpenMandriva Lx telepítés %s"
 
 #: steps_curses.pm:32
 #, c-format
@@ -830,12 +830,12 @@ msgstr "Az Xorg kiszolgáló lassan indul. Kérem várjon..."
 #, c-format
 msgid ""
 "Your system is low on resources. You may have some problem installing\n"
-"Mandriva Linux. If that occurs, you can try a text install instead. For "
+"OpenMandriva Lx. If that occurs, you can try a text install instead. For "
 "this,\n"
 "press `F1' when booting on CDROM, then enter `text'."
 msgstr ""
 "A rendszer gyenge erőforrásokkal rendelkezik. Előfordulhat, hogy problémái\n"
-"lesznek a Mandriva Linux telepítésével. Ha így történik, próbálkozzon\n"
+"lesznek a OpenMandriva Lx telepítésével. Ha így történik, próbálkozzon\n"
 "szöveges módú telepítéssel: CD-ről való rendszerindítást követően nyomjon\n"
 "\"F1\"-et, majd írja be azt, hogy \"text\"."
 
@@ -1170,7 +1170,7 @@ msgstr "Előző telepítés frissítése (nem ajánlott)"
 #: steps_interactive.pm:215
 #, c-format
 msgid ""
-"Installer has detected that your installed Mandriva Linux system could not\n"
+"Installer has detected that your installed OpenMandriva Lx system could not\n"
 "safely be upgraded to %s.\n"
 "\n"
 "New installation replacing your previous one is recommended.\n"
@@ -1178,7 +1178,7 @@ msgid ""
 "Warning : you should backup all your personal data before choosing \"New\n"
 "Installation\"."
 msgstr ""
-"A Telepítő olyan előzőleg telepített Mandriva Linux rendszert talált, \n"
+"A Telepítő olyan előzőleg telepített OpenMandriva Lx rendszert talált, \n"
 "melyet nem biztonságos frissíteni %s-re.\n"
 "\n"
 "Ajánlott egy új telepítéssel lecserélni a régi rendszert.\n"
@@ -1686,14 +1686,14 @@ msgstr "Kilépés"
 #~ msgid "Your desktop on a USB key"
 #~ msgstr "Az Ön munkaasztala egy USB kulcson"
 
-#~ msgid "The 100%% open source Mandriva Linux distribution"
-#~ msgstr "A 100%%-ban nyílt forráskódú Mandriva Linux disztribúció"
+#~ msgid "The 100%% open source OpenMandriva Lx distribution"
+#~ msgstr "A 100%%-ban nyílt forráskódú OpenMandriva Lx disztribúció"
 
 #~ msgid "Explore Linux easily with Mandriva One"
 #~ msgstr "A Linux könnyed kipróbálása: Mandriva One"
 
-#~ msgid "A full Mandriva Linux desktop, with support"
-#~ msgstr "Egy teljes Mandriva Linux munkaasztal, támogatással"
+#~ msgid "A full OpenMandriva Lx desktop, with support"
+#~ msgstr "Egy teljes OpenMandriva Lx munkaasztal, támogatással"
 
 #~ msgid "Mandriva: distributions for everybody's needs"
 #~ msgstr "Mandriva: disztribúciók minden igényre"

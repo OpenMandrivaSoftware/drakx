@@ -374,7 +374,7 @@ msgstr "Vegvisarar for tenaroppsett"
 #: ../../advertising/MandrivaOne-advert-8.pl:1
 #: ../../advertising/MandrivaOne-advert-9.pl:1
 #, c-format
-msgid "Mandriva Linux 2012 Alpha (Tenacious Underdog)"
+msgid "OpenMandriva Lx 2012 Alpha (Tenacious Underdog)"
 msgstr ""
 
 #: any.pm:110
@@ -429,16 +429,16 @@ msgstr "Adresser må starta med «ftp://» eller «http://»."
 #: any.pm:188
 #, c-format
 msgid ""
-"Contacting Mandriva Linux web site to get the list of available mirrors..."
-msgstr "Kontaktar Mandriva Linux-nettstaden for oversikt over speglar …"
+"Contacting OpenMandriva Lx web site to get the list of available mirrors..."
+msgstr "Kontaktar OpenMandriva Lx-nettstaden for oversikt over speglar …"
 
 #: any.pm:193
 #, c-format
 msgid ""
-"Failed contacting Mandriva Linux web site to get the list of available "
+"Failed contacting OpenMandriva Lx web site to get the list of available "
 "mirrors"
 msgstr ""
-"Klarte ikkje få kontakt med Mandriva Linux-nettstaden for å henta oversikt "
+"Klarte ikkje få kontakt med OpenMandriva Lx-nettstaden for å henta oversikt "
 "over tilgjengelege speglar."
 
 #: any.pm:203
@@ -795,8 +795,8 @@ msgstr "Køyrer steg «%s»\n"
 
 #: steps_curses.pm:22
 #, c-format
-msgid "Mandriva Linux Installation %s"
-msgstr "Mandriva Linux-installering %s"
+msgid "OpenMandriva Lx Installation %s"
+msgstr "OpenMandriva Lx-installering %s"
 
 #: steps_curses.pm:32
 #, c-format
@@ -812,7 +812,7 @@ msgstr "X.Org-tenaren tek tid å starta. Vent litt …"
 #, c-format
 msgid ""
 "Your system is low on resources. You may have some problem installing\n"
-"Mandriva Linux. If that occurs, you can try a text install instead. For "
+"OpenMandriva Lx. If that occurs, you can try a text install instead. For "
 "this,\n"
 "press `F1' when booting on CDROM, then enter `text'."
 msgstr ""
@@ -1139,7 +1139,7 @@ msgstr "Oppgrader førre installasjon (ikkje tilrådd)"
 #: steps_interactive.pm:215
 #, c-format
 msgid ""
-"Installer has detected that your installed Mandriva Linux system could not\n"
+"Installer has detected that your installed OpenMandriva Lx system could not\n"
 "safely be upgraded to %s.\n"
 "\n"
 "New installation replacing your previous one is recommended.\n"
@@ -1147,7 +1147,7 @@ msgid ""
 "Warning : you should backup all your personal data before choosing \"New\n"
 "Installation\"."
 msgstr ""
-"Installasjonsprogrammet har oppdaga at den gamle utgåva av Mandriva Linux "
+"Installasjonsprogrammet har oppdaga at den gamle utgåva av OpenMandriva Lx "
 "som du har installert ikkje kan trygt oppgraderast til %s.\n"
 "\n"
 "Du bør velja ei nyinstallering, som då vil erstatta den gamle versjonen.\n"
@@ -1654,14 +1654,14 @@ msgstr "Avslutt"
 #~ msgid "Your desktop on a USB key"
 #~ msgstr "Skrivebordet på ein minnepinne"
 
-#~ msgid "The 100%% open source Mandriva Linux distribution"
-#~ msgstr "Mandriva Linux-distribusjonen med 100 %% open kjeldekode"
+#~ msgid "The 100%% open source OpenMandriva Lx distribution"
+#~ msgstr "OpenMandriva Lx-distribusjonen med 100 %% open kjeldekode"
 
 #~ msgid "Explore Linux easily with Mandriva One"
 #~ msgstr "Utforsk Linux med Mandriva One"
 
-#~ msgid "A full Mandriva Linux desktop, with support"
-#~ msgstr "Eit fullt Mandriva Linux-skrivebord – med brukarstøtte"
+#~ msgid "A full OpenMandriva Lx desktop, with support"
+#~ msgstr "Eit fullt OpenMandriva Lx-skrivebord – med brukarstøtte"
 
 #~ msgid "Mandriva: distributions for everybody's needs"
 #~ msgstr "Mandriva: Distribusjonar for alle behov"

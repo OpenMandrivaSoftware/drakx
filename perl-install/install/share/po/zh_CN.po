@@ -11,7 +11,7 @@ msgstr ""
 "POT-Creation-Date: 2013-03-31 17:24+0200\n"
 "PO-Revision-Date: 2009-04-09 11:49+0800\n"
 "Last-Translator: Funda Wang <fundawang@linux.net.cn>\n"
-"Language-Team: Mandriva Linux i18n Team <cooker-i18n@mandrivalinux.org>\n"
+"Language-Team: OpenMandriva Lx i18n Team <cooker-i18n@mandrivalinux.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -371,7 +371,7 @@ msgstr "服务器配置向导"
 #: ../../advertising/MandrivaOne-advert-8.pl:1
 #: ../../advertising/MandrivaOne-advert-9.pl:1
 #, c-format
-msgid "Mandriva Linux 2012 Alpha (Tenacious Underdog)"
+msgid "OpenMandriva Lx 2012 Alpha (Tenacious Underdog)"
 msgstr ""
 
 #: any.pm:110
@@ -426,15 +426,15 @@ msgstr "URL 必须以 ftp:// 或 http:// 开始"
 #: any.pm:188
 #, c-format
 msgid ""
-"Contacting Mandriva Linux web site to get the list of available mirrors..."
-msgstr "正在连接 Mandriva Linux 网站获得可用镜像的列表..."
+"Contacting OpenMandriva Lx web site to get the list of available mirrors..."
+msgstr "正在连接 OpenMandriva Lx 网站获得可用镜像的列表..."
 
 #: any.pm:193
 #, c-format
 msgid ""
-"Failed contacting Mandriva Linux web site to get the list of available "
+"Failed contacting OpenMandriva Lx web site to get the list of available "
 "mirrors"
-msgstr "连接 Mandriva Linux 网站以获得可用镜像的列表失败"
+msgstr "连接 OpenMandriva Lx 网站以获得可用镜像的列表失败"
 
 #: any.pm:203
 #, c-format
@@ -789,8 +789,8 @@ msgstr "进入步骤“%s”\n"
 
 #: steps_curses.pm:22
 #, c-format
-msgid "Mandriva Linux Installation %s"
-msgstr "Mandriva Linux 安装 %s"
+msgid "OpenMandriva Lx Installation %s"
+msgstr "OpenMandriva Lx 安装 %s"
 
 #: steps_curses.pm:32
 #, c-format
@@ -806,11 +806,11 @@ msgstr "Xorg 启动很慢，请稍候..."
 #, c-format
 msgid ""
 "Your system is low on resources. You may have some problem installing\n"
-"Mandriva Linux. If that occurs, you can try a text install instead. For "
+"OpenMandriva Lx. If that occurs, you can try a text install instead. For "
 "this,\n"
 "press `F1' when booting on CDROM, then enter `text'."
 msgstr ""
-"您系统的资源过低。您在安装 Mandriva Linux 的过程中可能遇到问题。\n"
+"您系统的资源过低。您在安装 OpenMandriva Lx 的过程中可能遇到问题。\n"
 "如果您真的遇到问题的话，可以试试文本安装。要进入文本安装，请在启动时按“F1”，"
 "然后输入“text”。"
 
@@ -1128,7 +1128,7 @@ msgstr "升级先前的安装(不推荐)"
 #: steps_interactive.pm:215
 #, c-format
 msgid ""
-"Installer has detected that your installed Mandriva Linux system could not\n"
+"Installer has detected that your installed OpenMandriva Lx system could not\n"
 "safely be upgraded to %s.\n"
 "\n"
 "New installation replacing your previous one is recommended.\n"
@@ -1136,7 +1136,7 @@ msgid ""
 "Warning : you should backup all your personal data before choosing \"New\n"
 "Installation\"."
 msgstr ""
-"安装程序检测到您所安装的 Mandriva Linux 系统无法安全升级到 %s。\n"
+"安装程序检测到您所安装的 OpenMandriva Lx 系统无法安全升级到 %s。\n"
 "\n"
 "我们建议您进行全新安装，以便替换您先前的系统。\n"
 "\n"
@@ -1626,14 +1626,14 @@ msgstr "退出"
 #~ msgid "Your desktop on a USB key"
 #~ msgstr "U 盘上的桌面"
 
-#~ msgid "The 100%% open source Mandriva Linux distribution"
-#~ msgstr "100%% 开放源代码的 Mandriva Linux 发行版"
+#~ msgid "The 100%% open source OpenMandriva Lx distribution"
+#~ msgstr "100%% 开放源代码的 OpenMandriva Lx 发行版"
 
 #~ msgid "Explore Linux easily with Mandriva One"
 #~ msgstr "用 Mandriva One 轻松探索 Linux"
 
-#~ msgid "A full Mandriva Linux desktop, with support"
-#~ msgstr "Mandriva Linux 桌面旗舰产品，附带完善的售后服务支持"
+#~ msgid "A full OpenMandriva Lx desktop, with support"
+#~ msgstr "OpenMandriva Lx 桌面旗舰产品，附带完善的售后服务支持"
 
 #~ msgid "Mandriva: distributions for everybody's needs"
 #~ msgstr "Mandriva 在手，应用无忧"

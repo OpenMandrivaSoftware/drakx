@@ -368,7 +368,7 @@ msgstr "การคอนฟิกเครื่องพิมพ์"
 #: ../../advertising/MandrivaOne-advert-8.pl:1
 #: ../../advertising/MandrivaOne-advert-9.pl:1
 #, c-format
-msgid "Mandriva Linux 2012 Alpha (Tenacious Underdog)"
+msgid "OpenMandriva Lx 2012 Alpha (Tenacious Underdog)"
 msgstr ""
 
 #: any.pm:110
@@ -419,13 +419,13 @@ msgstr ""
 #: any.pm:188
 #, fuzzy, c-format
 msgid ""
-"Contacting Mandriva Linux web site to get the list of available mirrors..."
+"Contacting OpenMandriva Lx web site to get the list of available mirrors..."
 msgstr "กำลังติดต่อกับมิลเรอร์ไซต์เพื่อหารายการของแพ็คเก็จที่มีให้"
 
 #: any.pm:193
 #, fuzzy, c-format
 msgid ""
-"Failed contacting Mandriva Linux web site to get the list of available "
+"Failed contacting OpenMandriva Lx web site to get the list of available "
 "mirrors"
 msgstr "กำลังติดต่อกับมิลเรอร์ไซต์เพื่อหารายการของแพ็คเก็จที่มีให้"
 
@@ -777,7 +777,7 @@ msgstr "เข้าสู่ขั้นตอน `%s'\n"
 
 #: steps_curses.pm:22
 #, c-format
-msgid "Mandriva Linux Installation %s"
+msgid "OpenMandriva Lx Installation %s"
 msgstr "การติดตั้งลีนุกซ์-แมนเดรก %s"
 
 #: steps_curses.pm:32
@@ -794,12 +794,12 @@ msgstr ""
 #, c-format
 msgid ""
 "Your system is low on resources. You may have some problem installing\n"
-"Mandriva Linux. If that occurs, you can try a text install instead. For "
+"OpenMandriva Lx. If that occurs, you can try a text install instead. For "
 "this,\n"
 "press `F1' when booting on CDROM, then enter `text'."
 msgstr ""
 "เครื่องของคุณมีทรัพยากรค่อนข้างต่ำคุณอาจมีปัญหาติดตั้ง \n"
-"Mandriva Linux  ถ้าเป็นเช่นนั้น กรุณาทดลองติดตั้งแบบ text \n"
+"OpenMandriva Lx  ถ้าเป็นเช่นนั้น กรุณาทดลองติดตั้งแบบ text \n"
 "กรุณากด F1 ขณะ boot จาก cdrom แล้วพิมพ์ text"
 
 #: steps_gtk.pm:241 steps_gtk.pm:776
@@ -1111,7 +1111,7 @@ msgstr ""
 #: steps_interactive.pm:215
 #, c-format
 msgid ""
-"Installer has detected that your installed Mandriva Linux system could not\n"
+"Installer has detected that your installed OpenMandriva Lx system could not\n"
 "safely be upgraded to %s.\n"
 "\n"
 "New installation replacing your previous one is recommended.\n"

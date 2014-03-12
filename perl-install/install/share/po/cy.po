@@ -5,7 +5,7 @@
 # Rhoslyn Prys <rprys@yahoo.com>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: Mandriva Linux\n"
+"Project-Id-Version: OpenMandriva Lx\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-03-31 17:24+0200\n"
 "PO-Revision-Date: 2009-10-01 16:09+0100\n"
@@ -382,7 +382,7 @@ msgstr "Dewiniaid i ffurfweddu gweinydd"
 #: ../../advertising/MandrivaOne-advert-8.pl:1
 #: ../../advertising/MandrivaOne-advert-9.pl:1
 #, c-format
-msgid "Mandriva Linux 2012 Alpha (Tenacious Underdog)"
+msgid "OpenMandriva Lx 2012 Alpha (Tenacious Underdog)"
 msgstr ""
 
 #: any.pm:110
@@ -438,16 +438,16 @@ msgstr "Rhaid i'r URL gychwyn gyda ftp:// neu http://"
 #: any.pm:188
 #, c-format
 msgid ""
-"Contacting Mandriva Linux web site to get the list of available mirrors..."
-msgstr "Cysylltu â safle gwe Mandriva Linux i estyn y rhestr o ddrychau..."
+"Contacting OpenMandriva Lx web site to get the list of available mirrors..."
+msgstr "Cysylltu â safle gwe OpenMandriva Lx i estyn y rhestr o ddrychau..."
 
 #: any.pm:193
 #, c-format
 msgid ""
-"Failed contacting Mandriva Linux web site to get the list of available "
+"Failed contacting OpenMandriva Lx web site to get the list of available "
 "mirrors"
 msgstr ""
-"Methwyd cysylltu â safle gwe Mandriva Linux i estyn y rhestr o ddrychau"
+"Methwyd cysylltu â safle gwe OpenMandriva Lx i estyn y rhestr o ddrychau"
 
 #: any.pm:203
 #, c-format
@@ -806,8 +806,8 @@ msgstr "Cychwyn cam '%s\"\n"
 
 #: steps_curses.pm:22
 #, c-format
-msgid "Mandriva Linux Installation %s"
-msgstr "Gosod Mandriva Linux %s"
+msgid "OpenMandriva Lx Installation %s"
+msgstr "Gosod OpenMandriva Lx %s"
 
 #: steps_curses.pm:32
 #, c-format
@@ -823,12 +823,12 @@ msgstr "Mae gweinydd Xorg yn araf ei gychwyn. Arhoswch..."
 #, c-format
 msgid ""
 "Your system is low on resources. You may have some problem installing\n"
-"Mandriva Linux. If that occurs, you can try a text install instead. For "
+"OpenMandriva Lx. If that occurs, you can try a text install instead. For "
 "this,\n"
 "press `F1' when booting on CDROM, then enter `text'."
 msgstr ""
 "Mae eich system yn brin o adnoddau. Efallai bod gennych broblem wrth osod\n"
-"Mandriva Linux. Os yw hynny'n digwydd, defnyddiwch y gosod testun  yn lle\n"
+"OpenMandriva Lx. Os yw hynny'n digwydd, defnyddiwch y gosod testun  yn lle\n"
 "hynny. I wneud hynny pwyswch 'F1' wrth gychwyn ar CD-ROM, ac yna teipio "
 "'text'."
 
@@ -1079,7 +1079,7 @@ msgid ""
 "available once the system is fully installed."
 msgstr ""
 "Mae gennych y dewis i gopïo cynnwys y CD ar i'r disg caled cyn gosod "
-"Mandriva Linux.\n"
+"OpenMandriva Lx.\n"
 "Bydd yna'n parhau o'r disg caled a bydd y pecynnau ar gael unwaith i'r "
 "system gael ei osod yn gyflawn."
 
@@ -1148,7 +1148,7 @@ msgstr "Diweddaru'r gosodiad blaenorol (argymell i beidio)"
 #: steps_interactive.pm:215
 #, c-format
 msgid ""
-"Installer has detected that your installed Mandriva Linux system could not\n"
+"Installer has detected that your installed OpenMandriva Lx system could not\n"
 "safely be upgraded to %s.\n"
 "\n"
 "New installation replacing your previous one is recommended.\n"
@@ -1157,7 +1157,7 @@ msgid ""
 "Installation\"."
 msgstr ""
 "Mae'r gosodwr wedi canfod nad yw hi'n ddiogel diweddaru eich system \n"
-"Mandriva Linux i %s.\n"
+"OpenMandriva Lx i %s.\n"
 "\n"
 "Mae gosod o'r newydd yn cael ei argymell.\n"
 "\n"
@@ -1658,14 +1658,14 @@ msgstr "Gorffen"
 #~ msgid "Your desktop on a USB key"
 #~ msgstr "Eich bwrdd gwaith ar allwedd USB"
 
-#~ msgid "The 100%% open source Mandriva Linux distribution"
-#~ msgstr "Mandriva Linux - y dosbarthiad cod agored 100%%"
+#~ msgid "The 100%% open source OpenMandriva Lx distribution"
+#~ msgstr "OpenMandriva Lx - y dosbarthiad cod agored 100%%"
 
 #~ msgid "Explore Linux easily with Mandriva One"
 #~ msgstr "Arbrofi rhwydd gyda Mandriva One"
 
-#~ msgid "A full Mandriva Linux desktop, with support"
-#~ msgstr "Bwrdd gwaith Mandriva Linux llawn, gyda chefnogaeth"
+#~ msgid "A full OpenMandriva Lx desktop, with support"
+#~ msgstr "Bwrdd gwaith OpenMandriva Lx llawn, gyda chefnogaeth"
 
 #~ msgid "Mandriva: distributions for everybody's needs"
 #~ msgstr "Mandriva: dosbarthiad ar gyfer angen pawb"

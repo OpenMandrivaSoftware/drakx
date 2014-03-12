@@ -382,7 +382,7 @@ msgstr "Мастеры настройки сервера"
 #: ../../advertising/MandrivaOne-advert-8.pl:1
 #: ../../advertising/MandrivaOne-advert-9.pl:1
 #, c-format
-msgid "Mandriva Linux 2012 Alpha (Tenacious Underdog)"
+msgid "OpenMandriva Lx 2012 Alpha (Tenacious Underdog)"
 msgstr ""
 
 #: any.pm:110
@@ -438,18 +438,18 @@ msgstr "Адрес должен начинаться с ftp:// или http://"
 #: any.pm:188
 #, c-format
 msgid ""
-"Contacting Mandriva Linux web site to get the list of available mirrors..."
+"Contacting OpenMandriva Lx web site to get the list of available mirrors..."
 msgstr ""
-"Устанавливается соединение с веб-сайтом Mandriva Linux для загрузки списка "
+"Устанавливается соединение с веб-сайтом OpenMandriva Lx для загрузки списка "
 "доступных пакетов..."
 
 #: any.pm:193
 #, c-format
 msgid ""
-"Failed contacting Mandriva Linux web site to get the list of available "
+"Failed contacting OpenMandriva Lx web site to get the list of available "
 "mirrors"
 msgstr ""
-"Не удалось соединиться с веб-сайтом Mandriva Linux, чтобы загрузить список "
+"Не удалось соединиться с веб-сайтом OpenMandriva Lx, чтобы загрузить список "
 "доступных зеркал"
 
 #: any.pm:203
@@ -809,8 +809,8 @@ msgstr "Выполняется переход на этап `%s'\n"
 
 #: steps_curses.pm:22
 #, c-format
-msgid "Mandriva Linux Installation %s"
-msgstr "Установка Mandriva Linux %s"
+msgid "OpenMandriva Lx Installation %s"
+msgstr "Установка OpenMandriva Lx %s"
 
 #: steps_curses.pm:32
 #, c-format
@@ -826,11 +826,11 @@ msgstr "Xorg-сервер долго запускается. Подождите.
 #, c-format
 msgid ""
 "Your system is low on resources. You may have some problem installing\n"
-"Mandriva Linux. If that occurs, you can try a text install instead. For "
+"OpenMandriva Lx. If that occurs, you can try a text install instead. For "
 "this,\n"
 "press `F1' when booting on CDROM, then enter `text'."
 msgstr ""
-"Системе не хватает ресурсов. Во время установки Mandriva Linux могут\n"
+"Системе не хватает ресурсов. Во время установки OpenMandriva Lx могут\n"
 "возникнуть проблемы. В этом случае можно попробовать установку в\n"
 "текстовом режиме. Для этого после загрузки с диска нажмите `F1',\n"
 "а затем наберите 'text'."
@@ -1152,7 +1152,7 @@ msgstr "Обновление предыдущей установки (не ре�
 #: steps_interactive.pm:215
 #, c-format
 msgid ""
-"Installer has detected that your installed Mandriva Linux system could not\n"
+"Installer has detected that your installed OpenMandriva Lx system could not\n"
 "safely be upgraded to %s.\n"
 "\n"
 "New installation replacing your previous one is recommended.\n"
@@ -1160,7 +1160,7 @@ msgid ""
 "Warning : you should backup all your personal data before choosing \"New\n"
 "Installation\"."
 msgstr ""
-"Установщик обнаружил, что существующая установка Mandriva Linux не\n"
+"Установщик обнаружил, что существующая установка OpenMandriva Lx не\n"
 "может быть безопасно обновлена на %s.\n"
 "\n"
 "Рекомедуется заново установить систему, заменив существующую.\n"
@@ -1669,14 +1669,14 @@ msgstr "Выход"
 #~ msgid "Your desktop on a USB key"
 #~ msgstr "Рабочая система на USB-брелоке"
 
-#~ msgid "The 100%% open source Mandriva Linux distribution"
-#~ msgstr "100%% открытый дистрибутив Mandriva Linux"
+#~ msgid "The 100%% open source OpenMandriva Lx distribution"
+#~ msgstr "100%% открытый дистрибутив OpenMandriva Lx"
 
 #~ msgid "Explore Linux easily with Mandriva One"
 #~ msgstr "Открой Linux с Mandriva One"
 
-#~ msgid "A full Mandriva Linux desktop, with support"
-#~ msgstr "Полный дистрибутив Mandriva Linux с поддержкой"
+#~ msgid "A full OpenMandriva Lx desktop, with support"
+#~ msgstr "Полный дистрибутив OpenMandriva Lx с поддержкой"
 
 #~ msgid "Mandriva: distributions for everybody's needs"
 #~ msgstr "Mandriva: дистрибутив для каждого"

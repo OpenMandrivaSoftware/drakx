@@ -390,7 +390,7 @@ msgstr "Assistenten zur Servereinrichtung"
 #: ../../advertising/MandrivaOne-advert-8.pl:1
 #: ../../advertising/MandrivaOne-advert-9.pl:1
 #, c-format
-msgid "Mandriva Linux 2012 Alpha (Tenacious Underdog)"
+msgid "OpenMandriva Lx 2012 Alpha (Tenacious Underdog)"
 msgstr ""
 
 #: any.pm:110
@@ -446,18 +446,18 @@ msgstr "Die URL muss mit ftp:// oder http:// beginnen"
 #: any.pm:188
 #, c-format
 msgid ""
-"Contacting Mandriva Linux web site to get the list of available mirrors..."
+"Contacting OpenMandriva Lx web site to get the list of available mirrors..."
 msgstr ""
-"Kontaktiere Mandriva Linux Web-Server, um eine Liste verfügbarer Pakete zu "
+"Kontaktiere OpenMandriva Lx Web-Server, um eine Liste verfügbarer Pakete zu "
 "erhalten..."
 
 #: any.pm:193
 #, c-format
 msgid ""
-"Failed contacting Mandriva Linux web site to get the list of available "
+"Failed contacting OpenMandriva Lx web site to get the list of available "
 "mirrors"
 msgstr ""
-"Kontaktieren Sie die Mandriva Linux Webseiten, um eine Liste verfügbaren "
+"Kontaktieren Sie die OpenMandriva Lx Webseiten, um eine Liste verfügbaren "
 "Mirrors zu erhalten"
 
 #: any.pm:203
@@ -816,8 +816,8 @@ msgstr "Beginn von Schritt „%s“\n"
 
 #: steps_curses.pm:22
 #, c-format
-msgid "Mandriva Linux Installation %s"
-msgstr "Mandriva Linux-Installation %s"
+msgid "OpenMandriva Lx Installation %s"
+msgstr "OpenMandriva Lx-Installation %s"
 
 #: steps_curses.pm:32
 #, c-format
@@ -833,7 +833,7 @@ msgstr "Xorg Server braucht lange zum Starten. Bitte warten Sie..."
 #, c-format
 msgid ""
 "Your system is low on resources. You may have some problem installing\n"
-"Mandriva Linux. If that occurs, you can try a text install instead. For "
+"OpenMandriva Lx. If that occurs, you can try a text install instead. For "
 "this,\n"
 "press `F1' when booting on CDROM, then enter `text'."
 msgstr ""
@@ -1165,7 +1165,7 @@ msgstr "Vorhergehende Installation aktualisieren (nicht empfohlen)"
 #: steps_interactive.pm:215
 #, c-format
 msgid ""
-"Installer has detected that your installed Mandriva Linux system could not\n"
+"Installer has detected that your installed OpenMandriva Lx system could not\n"
 "safely be upgraded to %s.\n"
 "\n"
 "New installation replacing your previous one is recommended.\n"
@@ -1173,7 +1173,7 @@ msgid ""
 "Warning : you should backup all your personal data before choosing \"New\n"
 "Installation\"."
 msgstr ""
-"Der Installer hat festgestellt, dass Ihr Mandriva Linux System nicht\n"
+"Der Installer hat festgestellt, dass Ihr OpenMandriva Lx System nicht\n"
 "sicher zu %s aktualisiert werden kann.\n"
 "\n"
 "Eine Neuinstallation, die Ihre bisherige ersetzt, wird empfohlen.\n"
@@ -1681,15 +1681,15 @@ msgstr "Verlassen"
 #~ msgid "Your desktop on a USB key"
 #~ msgstr "Ihr Desktop auf einem USB-Speicher"
 
-#~ msgid "The 100%% open source Mandriva Linux distribution"
+#~ msgid "The 100%% open source OpenMandriva Lx distribution"
 #~ msgstr "Die 100%% Open Source Mandrivalinux-Distribution"
 
 #, fuzzy
 #~ msgid "Explore Linux easily with Mandriva One"
 #~ msgstr "Der leichte Weg, Linux kennen zu lernen mit der Mandriva One"
 
-#~ msgid "A full Mandriva Linux desktop, with support"
-#~ msgstr "Ein vollständiger Mandriva Linux Desktop inklusive Support"
+#~ msgid "A full OpenMandriva Lx desktop, with support"
+#~ msgstr "Ein vollständiger OpenMandriva Lx Desktop inklusive Support"
 
 #~ msgid "Bad package"
 #~ msgstr "Ungültiges Paket"

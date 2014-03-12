@@ -379,7 +379,7 @@ msgstr "Čarovniki za nastavitev strežnikov"
 #: ../../advertising/MandrivaOne-advert-8.pl:1
 #: ../../advertising/MandrivaOne-advert-9.pl:1
 #, c-format
-msgid "Mandriva Linux 2012 Alpha (Tenacious Underdog)"
+msgid "OpenMandriva Lx 2012 Alpha (Tenacious Underdog)"
 msgstr ""
 
 #: any.pm:110
@@ -434,18 +434,18 @@ msgstr "Lokacija se mora začeti z ftp:// ali s http://"
 #: any.pm:188
 #, c-format
 msgid ""
-"Contacting Mandriva Linux web site to get the list of available mirrors..."
+"Contacting OpenMandriva Lx web site to get the list of available mirrors..."
 msgstr ""
-"Vzpostavljanje povezave s spletno stranjo Mandriva Linux in pridobivanje "
+"Vzpostavljanje povezave s spletno stranjo OpenMandriva Lx in pridobivanje "
 "seznama dosegljivih zrcalnih strežnikov ..."
 
 #: any.pm:193
 #, c-format
 msgid ""
-"Failed contacting Mandriva Linux web site to get the list of available "
+"Failed contacting OpenMandriva Lx web site to get the list of available "
 "mirrors"
 msgstr ""
-"Vzpostavljanje povezave s spletno stranjo Mandriva Linux in pridobivanje "
+"Vzpostavljanje povezave s spletno stranjo OpenMandriva Lx in pridobivanje "
 "seznama dosegljivih zrcalnih strežnikov nista uspela"
 
 #: any.pm:203
@@ -806,8 +806,8 @@ msgstr "Pričetek koraka »%s«\n"
 
 #: steps_curses.pm:22
 #, c-format
-msgid "Mandriva Linux Installation %s"
-msgstr "Namestitev Mandriva Linuxa %s"
+msgid "OpenMandriva Lx Installation %s"
+msgstr "Namestitev OpenMandriva Lxa %s"
 
 #: steps_curses.pm:32
 #, c-format
@@ -823,12 +823,12 @@ msgstr "Grafični strežnik se zaganja počasi. Prosimo, počakajte ..."
 #, c-format
 msgid ""
 "Your system is low on resources. You may have some problem installing\n"
-"Mandriva Linux. If that occurs, you can try a text install instead. For "
+"OpenMandriva Lx. If that occurs, you can try a text install instead. For "
 "this,\n"
 "press `F1' when booting on CDROM, then enter `text'."
 msgstr ""
 "Vaš sistem ni zelo zmogljiv. Lahko, da boste imeli pri namestitvi\n"
-"Mandriva Linuxa težave. V tem primeru lahko poskusite z namestitvijo\n"
+"OpenMandriva Lxa težave. V tem primeru lahko poskusite z namestitvijo\n"
 "v besedilnem načinu.\n"
 "Po zagonu z namestitvenega nosilca pritisnite »F1« in vnesite »text«."
 
@@ -1152,7 +1152,7 @@ msgstr "Nadgradite obstoječo namestitev (ni priporočeno)"
 #: steps_interactive.pm:215
 #, c-format
 msgid ""
-"Installer has detected that your installed Mandriva Linux system could not\n"
+"Installer has detected that your installed OpenMandriva Lx system could not\n"
 "safely be upgraded to %s.\n"
 "\n"
 "New installation replacing your previous one is recommended.\n"
@@ -1666,14 +1666,14 @@ msgstr "Izhod"
 #~ msgid "Your desktop on a USB key"
 #~ msgstr "Vaše namizje na USB ključku"
 
-#~ msgid "The 100%% open source Mandriva Linux distribution"
-#~ msgstr "100 %% odprto-kodna distribucija Mandriva Linux"
+#~ msgid "The 100%% open source OpenMandriva Lx distribution"
+#~ msgstr "100 %% odprto-kodna distribucija OpenMandriva Lx"
 
 #~ msgid "Explore Linux easily with Mandriva One"
 #~ msgstr "Z Mandriva One je odkrivanje Linuxa preprosto"
 
-#~ msgid "A full Mandriva Linux desktop, with support"
-#~ msgstr "Popolno namizje Mandriva Linux, s podporo"
+#~ msgid "A full OpenMandriva Lx desktop, with support"
+#~ msgstr "Popolno namizje OpenMandriva Lx, s podporo"
 
 #~ msgid "Mandriva: distributions for everybody's needs"
 #~ msgstr "Mandriva: distribucije za potrebe vsakogar"

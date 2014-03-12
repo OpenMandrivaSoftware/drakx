@@ -380,7 +380,7 @@ msgstr "Serverni moslash uchun yordamchilar"
 #: ../../advertising/MandrivaOne-advert-8.pl:1
 #: ../../advertising/MandrivaOne-advert-9.pl:1
 #, c-format
-msgid "Mandriva Linux 2012 Alpha (Tenacious Underdog)"
+msgid "OpenMandriva Lx 2012 Alpha (Tenacious Underdog)"
 msgstr ""
 
 #: any.pm:110
@@ -435,18 +435,18 @@ msgstr "Manzil ftp:// yoki http:// bilan boshlanishi kerak"
 #: any.pm:188
 #, c-format
 msgid ""
-"Contacting Mandriva Linux web site to get the list of available mirrors..."
+"Contacting OpenMandriva Lx web site to get the list of available mirrors..."
 msgstr ""
-"Mavjud boʻlgan oynalarning roʻyxatini olish uchun Mandriva Linux sayti bilan "
+"Mavjud boʻlgan oynalarning roʻyxatini olish uchun OpenMandriva Lx sayti bilan "
 "aloqa oʻrnatilmoqda..."
 
 #: any.pm:193
 #, c-format
 msgid ""
-"Failed contacting Mandriva Linux web site to get the list of available "
+"Failed contacting OpenMandriva Lx web site to get the list of available "
 "mirrors"
 msgstr ""
-"Mavjud boʻlgan oynalarning roʻyxatini olish uchun Mandriva Linux sayti bilan "
+"Mavjud boʻlgan oynalarning roʻyxatini olish uchun OpenMandriva Lx sayti bilan "
 "aloqa oʻrnatib boʻlmadi"
 
 #: any.pm:203
@@ -806,8 +806,8 @@ msgstr "%s bosqichga oʻtilmoqda\n"
 
 #: steps_curses.pm:22
 #, c-format
-msgid "Mandriva Linux Installation %s"
-msgstr "Mandriva Linux OTni oʻrnatish %s"
+msgid "OpenMandriva Lx Installation %s"
+msgstr "OpenMandriva Lx OTni oʻrnatish %s"
 
 #: steps_curses.pm:32
 #, c-format
@@ -823,11 +823,11 @@ msgstr "Xorg dasturi juda sekin ishga tushyapti. Iltimos kutib turing..."
 #, c-format
 msgid ""
 "Your system is low on resources. You may have some problem installing\n"
-"Mandriva Linux. If that occurs, you can try a text install instead. For "
+"OpenMandriva Lx. If that occurs, you can try a text install instead. For "
 "this,\n"
 "press `F1' when booting on CDROM, then enter `text'."
 msgstr ""
-"Tizimda resurslar yetishmaydi. Mandriva Linux tizimini oʻrnatish mobaynida\n"
+"Tizimda resurslar yetishmaydi. OpenMandriva Lx tizimini oʻrnatish mobaynida\n"
 "muammoga duch kelishingiz mumkin. Agar shunday boʻlsa, matn usulida "
 "oʻrnatish vositasidan foydalanib koʻring,\n"
 "Buning uchun diskdan yuklanayotganda `F1' tugmasini bosing va `text' deb "
@@ -1149,7 +1149,7 @@ msgstr "Oldingi oʻrnatishni yangilash (tavsiya etilmaydi)"
 #: steps_interactive.pm:215
 #, c-format
 msgid ""
-"Installer has detected that your installed Mandriva Linux system could not\n"
+"Installer has detected that your installed OpenMandriva Lx system could not\n"
 "safely be upgraded to %s.\n"
 "\n"
 "New installation replacing your previous one is recommended.\n"
@@ -1366,7 +1366,7 @@ msgid ""
 "Do you want to install the updates?"
 msgstr ""
 "Hozir sizda yangilangan paketlarni yozib olib oʻrnatish imkoniyati mavjud.\n"
-"Ular hozir siz oʻrnatgan Mandriva Linux tizimi chiqqanidan soʻng\n"
+"Ular hozir siz oʻrnatgan OpenMandriva Lx tizimi chiqqanidan soʻng\n"
 "yangilangan. Ularda har xil xavfsizlik va dasturlar bilan bogʻliq\n"
 "xatoliklar tuzatilgan boʻlishi mumkin.\n"
 "\n"
@@ -1653,14 +1653,14 @@ msgstr "Chiqish"
 #~ msgid "Your desktop on a USB key"
 #~ msgstr "Sizning ish stolingiz USB kalitda"
 
-#~ msgid "The 100%% open source Mandriva Linux distribution"
-#~ msgstr "100%% ochiq kodli Mandriva Linux distributivi"
+#~ msgid "The 100%% open source OpenMandriva Lx distribution"
+#~ msgstr "100%% ochiq kodli OpenMandriva Lx distributivi"
 
 #~ msgid "Explore Linux easily with Mandriva One"
 #~ msgstr "Mandriva One yordamida Linux'ni osongina kashf eting"
 
-#~ msgid "A full Mandriva Linux desktop, with support"
-#~ msgstr "Toʻliq Mandriva Linux ish stoli, qoʻllab-quvvatlash bilan"
+#~ msgid "A full OpenMandriva Lx desktop, with support"
+#~ msgstr "Toʻliq OpenMandriva Lx ish stoli, qoʻllab-quvvatlash bilan"
 
 #~ msgid "Mandriva: distributions for everybody's needs"
 #~ msgstr "Mandriva: barchaga moʻljallangan distributiv"

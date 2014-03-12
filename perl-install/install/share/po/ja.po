@@ -373,7 +373,7 @@ msgstr "サーバ設定ウィザード"
 #: ../../advertising/MandrivaOne-advert-8.pl:1
 #: ../../advertising/MandrivaOne-advert-9.pl:1
 #, c-format
-msgid "Mandriva Linux 2012 Alpha (Tenacious Underdog)"
+msgid "OpenMandriva Lx 2012 Alpha (Tenacious Underdog)"
 msgstr ""
 
 #: any.pm:110
@@ -428,16 +428,16 @@ msgstr "URL は ftp:// または http:// で始まらなければなりません
 #: any.pm:188
 #, c-format
 msgid ""
-"Contacting Mandriva Linux web site to get the list of available mirrors..."
-msgstr "Mandriva Linux のサイトに接続してミラーのリストを取得しています..."
+"Contacting OpenMandriva Lx web site to get the list of available mirrors..."
+msgstr "OpenMandriva Lx のサイトに接続してミラーのリストを取得しています..."
 
 #: any.pm:193
 #, c-format
 msgid ""
-"Failed contacting Mandriva Linux web site to get the list of available "
+"Failed contacting OpenMandriva Lx web site to get the list of available "
 "mirrors"
 msgstr ""
-"Mandriva Linux ウェブサイトへの接続に失敗したため、利用可能なミラーのリストを"
+"OpenMandriva Lx ウェブサイトへの接続に失敗したため、利用可能なミラーのリストを"
 "取得できませんでした"
 
 #: any.pm:203
@@ -796,8 +796,8 @@ msgstr "%s を開始\n"
 
 #: steps_curses.pm:22
 #, c-format
-msgid "Mandriva Linux Installation %s"
-msgstr "Mandriva Linux のインストール %s"
+msgid "OpenMandriva Lx Installation %s"
+msgstr "OpenMandriva Lx のインストール %s"
 
 #: steps_curses.pm:32
 #, c-format
@@ -813,11 +813,11 @@ msgstr "Xorg サーバの起動には時間がかかります。お待ちくだ�
 #, c-format
 msgid ""
 "Your system is low on resources. You may have some problem installing\n"
-"Mandriva Linux. If that occurs, you can try a text install instead. For "
+"OpenMandriva Lx. If that occurs, you can try a text install instead. For "
 "this,\n"
 "press `F1' when booting on CDROM, then enter `text'."
 msgstr ""
-"システムのリソースが十分でないため、Mandriva Linux のインストール中に\n"
+"システムのリソースが十分でないため、OpenMandriva Lx のインストール中に\n"
 "問題が発生する可能性があります。その場合は次の要領でテキストモードによる\n"
 "インストールを試してみてください。\n"
 "CD-ROM から起動 -> F1 を押す -> 'text' と入力"
@@ -1139,7 +1139,7 @@ msgstr "既存のシステムをアップグレード (非推奨)"
 #: steps_interactive.pm:215
 #, c-format
 msgid ""
-"Installer has detected that your installed Mandriva Linux system could not\n"
+"Installer has detected that your installed OpenMandriva Lx system could not\n"
 "safely be upgraded to %s.\n"
 "\n"
 "New installation replacing your previous one is recommended.\n"
@@ -1147,7 +1147,7 @@ msgid ""
 "Warning : you should backup all your personal data before choosing \"New\n"
 "Installation\"."
 msgstr ""
-"インストーラは既にインストールされている Mandriva Linux を\n"
+"インストーラは既にインストールされている OpenMandriva Lx を\n"
 "安全に %s にアップグレードできませんでした。\n"
 "\n"
 "アップグレードせずに新しくインストールすることをお勧めします。\n"

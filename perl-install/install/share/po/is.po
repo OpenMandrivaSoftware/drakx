@@ -1,5 +1,5 @@
 # Icelandic translation of DrakX.po
-# Translation file for Mandriva Linux graphic install, DrakX
+# Translation file for OpenMandriva Lx graphic install, DrakX
 # Copyright (C) 1999,2003, 2005, 2006, 2007, 2008, 2009 Free Software Foundation, Inc.
 #
 #
@@ -377,7 +377,7 @@ msgstr "Ráðgjafar til að stilla miðlara"
 #: ../../advertising/MandrivaOne-advert-8.pl:1
 #: ../../advertising/MandrivaOne-advert-9.pl:1
 #, c-format
-msgid "Mandriva Linux 2012 Alpha (Tenacious Underdog)"
+msgid "OpenMandriva Lx 2012 Alpha (Tenacious Underdog)"
 msgstr ""
 
 #: any.pm:110
@@ -432,18 +432,18 @@ msgstr "Slóð verður að byrja á ftp:// eða http://"
 #: any.pm:188
 #, c-format
 msgid ""
-"Contacting Mandriva Linux web site to get the list of available mirrors..."
+"Contacting OpenMandriva Lx web site to get the list of available mirrors..."
 msgstr ""
-"Hef samband við Mandriva Linux vefinn til að sækja lista yfir fáanlega "
+"Hef samband við OpenMandriva Lx vefinn til að sækja lista yfir fáanlega "
 "spegla..."
 
 #: any.pm:193
 #, c-format
 msgid ""
-"Failed contacting Mandriva Linux web site to get the list of available "
+"Failed contacting OpenMandriva Lx web site to get the list of available "
 "mirrors"
 msgstr ""
-"Mistókst að tengjast við Mandriva Linux vefinn til að sækja lista yfir "
+"Mistókst að tengjast við OpenMandriva Lx vefinn til að sækja lista yfir "
 "fáanlega spegla"
 
 #: any.pm:203
@@ -803,8 +803,8 @@ msgstr "Byrja skref `%s'\n"
 
 #: steps_curses.pm:22
 #, c-format
-msgid "Mandriva Linux Installation %s"
-msgstr "Mandriva Linux uppsetning %s"
+msgid "OpenMandriva Lx Installation %s"
+msgstr "OpenMandriva Lx uppsetning %s"
 
 #: steps_curses.pm:32
 #, c-format
@@ -820,12 +820,12 @@ msgstr "Xorg miðlari er seinn að ræsa. Bíddu við..."
 #, c-format
 msgid ""
 "Your system is low on resources. You may have some problem installing\n"
-"Mandriva Linux. If that occurs, you can try a text install instead. For "
+"OpenMandriva Lx. If that occurs, you can try a text install instead. For "
 "this,\n"
 "press `F1' when booting on CDROM, then enter `text'."
 msgstr ""
 "Ef vélin þín er vanbúin að einhverju leyti þá getur þú átt\n"
-"í vandræðum með að setja upp Mandriva Linux.\n"
+"í vandræðum með að setja upp OpenMandriva Lx.\n"
 "Ef svo er, þá gætir þú reynt að nota texta-uppsetningu.\n"
 "Til þess að gera það, ýttu á F1 þegar þú ræsir af\n"
 "geisladisknum og sláðu síðan inn `text'."
@@ -1146,7 +1146,7 @@ msgstr "Uppfæra fyrri uppsetningu (ekki mælt með)"
 #: steps_interactive.pm:215
 #, c-format
 msgid ""
-"Installer has detected that your installed Mandriva Linux system could not\n"
+"Installer has detected that your installed OpenMandriva Lx system could not\n"
 "safely be upgraded to %s.\n"
 "\n"
 "New installation replacing your previous one is recommended.\n"
@@ -1155,7 +1155,7 @@ msgid ""
 "Installation\"."
 msgstr ""
 "Uppsetningarforritið hefur ályktað að ekki sé hægt með öryggi að uppfæra "
-"Mandriva Linux kerfið þitt í %s.\n"
+"OpenMandriva Lx kerfið þitt í %s.\n"
 "\n"
 "Mælt er með að setja inn nýja uppsetningu sem kemur í stað þeirrar fyrri.\n"
 "\n"
@@ -1658,14 +1658,14 @@ msgstr "Hætta"
 #~ msgid "Your desktop on a USB key"
 #~ msgstr "Vinnustöðin þín á USB lykli"
 
-#~ msgid "The 100%% open source Mandriva Linux distribution"
+#~ msgid "The 100%% open source OpenMandriva Lx distribution"
 #~ msgstr "Mandriva uppsetningin með 100%% frjálsum, opnum hugbúnaði"
 
 #~ msgid "Explore Linux easily with Mandriva One"
 #~ msgstr "Kannaðu Linux með Mandriva One"
 
-#~ msgid "A full Mandriva Linux desktop, with support"
-#~ msgstr "Full Mandriva Linux vinnustöð, með þjónustu"
+#~ msgid "A full OpenMandriva Lx desktop, with support"
+#~ msgstr "Full OpenMandriva Lx vinnustöð, með þjónustu"
 
 #~ msgid "Mandriva: distributions for everybody's needs"
 #~ msgstr "Mandriva: dreifingar við allra hæfi"

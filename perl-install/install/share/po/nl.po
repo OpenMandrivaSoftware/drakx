@@ -383,7 +383,7 @@ msgstr "Wizards om server te configureren"
 #: ../../advertising/MandrivaOne-advert-8.pl:1
 #: ../../advertising/MandrivaOne-advert-9.pl:1
 #, c-format
-msgid "Mandriva Linux 2012 Alpha (Tenacious Underdog)"
+msgid "OpenMandriva Lx 2012 Alpha (Tenacious Underdog)"
 msgstr ""
 
 #: any.pm:110
@@ -439,18 +439,18 @@ msgstr "URL dient te starten met ftp:// of http://"
 #: any.pm:188
 #, c-format
 msgid ""
-"Contacting Mandriva Linux web site to get the list of available mirrors..."
+"Contacting OpenMandriva Lx web site to get the list of available mirrors..."
 msgstr ""
-"Bezig te verbinden met de Mandriva Linux-website om de lijst met beschikbare "
+"Bezig te verbinden met de OpenMandriva Lx-website om de lijst met beschikbare "
 "mirrors op te halen…"
 
 #: any.pm:193
 #, c-format
 msgid ""
-"Failed contacting Mandriva Linux web site to get the list of available "
+"Failed contacting OpenMandriva Lx web site to get the list of available "
 "mirrors"
 msgstr ""
-"Het verbinden met de Mandriva Linux-website om de lijst met beschikbare "
+"Het verbinden met de OpenMandriva Lx-website om de lijst met beschikbare "
 "mirrors op te halen is mislukt"
 
 #: any.pm:203
@@ -810,8 +810,8 @@ msgstr "Overgang naar stap `%s'\n"
 
 #: steps_curses.pm:22
 #, c-format
-msgid "Mandriva Linux Installation %s"
-msgstr "Mandriva Linux installatie %s"
+msgid "OpenMandriva Lx Installation %s"
+msgstr "OpenMandriva Lx installatie %s"
 
 #: steps_curses.pm:32
 #, c-format
@@ -827,12 +827,12 @@ msgstr "De Xorg-server start langzaam. Even geduld…"
 #, c-format
 msgid ""
 "Your system is low on resources. You may have some problem installing\n"
-"Mandriva Linux. If that occurs, you can try a text install instead. For "
+"OpenMandriva Lx. If that occurs, you can try a text install instead. For "
 "this,\n"
 "press `F1' when booting on CDROM, then enter `text'."
 msgstr ""
 "Uw systeem heeft weinig bronnen beschikbaar. U zou problemen kunnen\n"
-"ondervinden bij het installeren van Mandriva Linux. Als dit gebeurt,\n"
+"ondervinden bij het installeren van OpenMandriva Lx. Als dit gebeurt,\n"
 "kunt u een tekstinstallatie proberen. Om dit te doen, drukt u op `F1'\n"
 "terwijl de CDROM opstart, en dan voert u `text' in."
 
@@ -1155,7 +1155,7 @@ msgstr "Bestaande installatie opwaarderen (niet aanbevolen)"
 #: steps_interactive.pm:215
 #, c-format
 msgid ""
-"Installer has detected that your installed Mandriva Linux system could not\n"
+"Installer has detected that your installed OpenMandriva Lx system could not\n"
 "safely be upgraded to %s.\n"
 "\n"
 "New installation replacing your previous one is recommended.\n"
@@ -1672,14 +1672,14 @@ msgstr "Afsluiten"
 #~ msgid "Your desktop on a USB key"
 #~ msgstr "Uw bureaublad op een USB-stick"
 
-#~ msgid "The 100%% open source Mandriva Linux distribution"
-#~ msgstr "De 100%% opensource Mandriva Linux-distributie"
+#~ msgid "The 100%% open source OpenMandriva Lx distribution"
+#~ msgstr "De 100%% opensource OpenMandriva Lx-distributie"
 
 #~ msgid "Explore Linux easily with Mandriva One"
 #~ msgstr "Gemakkelijk Linux verkennen met Mandriva One"
 
-#~ msgid "A full Mandriva Linux desktop, with support"
-#~ msgstr "Een volledig Mandriva Linux-bureaublad, met ondersteuning"
+#~ msgid "A full OpenMandriva Lx desktop, with support"
+#~ msgstr "Een volledig OpenMandriva Lx-bureaublad, met ondersteuning"
 
 #~ msgid "Mandriva: distributions for everybody's needs"
 #~ msgstr "Mandriva-distributies: voor elk wat wils"

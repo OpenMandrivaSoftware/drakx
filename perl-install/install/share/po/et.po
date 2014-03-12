@@ -375,7 +375,7 @@ msgstr "Serverite seadistamise nõustajad"
 #: ../../advertising/MandrivaOne-advert-8.pl:1
 #: ../../advertising/MandrivaOne-advert-9.pl:1
 #, c-format
-msgid "Mandriva Linux 2012 Alpha (Tenacious Underdog)"
+msgid "OpenMandriva Lx 2012 Alpha (Tenacious Underdog)"
 msgstr ""
 
 #: any.pm:110
@@ -430,17 +430,17 @@ msgstr "URL-i alguses peab seisma ftp:// või http://"
 #: any.pm:188
 #, c-format
 msgid ""
-"Contacting Mandriva Linux web site to get the list of available mirrors..."
+"Contacting OpenMandriva Lx web site to get the list of available mirrors..."
 msgstr ""
-"Mandriva Linuxi veebisaidilt saadaolevate peeglite nimekirja hankimine..."
+"OpenMandriva Lxi veebisaidilt saadaolevate peeglite nimekirja hankimine..."
 
 #: any.pm:193
 #, c-format
 msgid ""
-"Failed contacting Mandriva Linux web site to get the list of available "
+"Failed contacting OpenMandriva Lx web site to get the list of available "
 "mirrors"
 msgstr ""
-"Ühenduse loomine Mandriva Linuxi veebisaidiga saadaolevate peeglite "
+"Ühenduse loomine OpenMandriva Lxi veebisaidiga saadaolevate peeglite "
 "nimekirja hankimiseks nurjus"
 
 #: any.pm:203
@@ -798,8 +798,8 @@ msgstr "Järgmine samm: %s\n"
 
 #: steps_curses.pm:22
 #, c-format
-msgid "Mandriva Linux Installation %s"
-msgstr "Mandriva Linuxi paigaldamine %s"
+msgid "OpenMandriva Lx Installation %s"
+msgstr "OpenMandriva Lxi paigaldamine %s"
 
 #: steps_curses.pm:32
 #, c-format
@@ -815,7 +815,7 @@ msgstr "Xorgi server käivitub aeglaselt. Palun oodake..."
 #, c-format
 msgid ""
 "Your system is low on resources. You may have some problem installing\n"
-"Mandriva Linux. If that occurs, you can try a text install instead. For "
+"OpenMandriva Lx. If that occurs, you can try a text install instead. For "
 "this,\n"
 "press `F1' when booting on CDROM, then enter `text'."
 msgstr ""
@@ -1138,7 +1138,7 @@ msgstr "Varasema paigalduse uuendamine (ei ole soovitatav)"
 #: steps_interactive.pm:215
 #, c-format
 msgid ""
-"Installer has detected that your installed Mandriva Linux system could not\n"
+"Installer has detected that your installed OpenMandriva Lx system could not\n"
 "safely be upgraded to %s.\n"
 "\n"
 "New installation replacing your previous one is recommended.\n"
@@ -1146,7 +1146,7 @@ msgid ""
 "Warning : you should backup all your personal data before choosing \"New\n"
 "Installation\"."
 msgstr ""
-"Paigaldusprogramm leidis, et Teie olemasolevat Mandriva Linuxi süsteemi\n"
+"Paigaldusprogramm leidis, et Teie olemasolevat OpenMandriva Lxi süsteemi\n"
 "ei saa turvaliselt uuendada versioonile %s.\n"
 "\n"
 "Soovitatav on valida uus paigaldus, mis asendab senise.\n"
@@ -1365,7 +1365,7 @@ msgid ""
 "Do you want to install the updates?"
 msgstr ""
 "Teil on nüüd võimalus alla laadida uuendatud pakette. Need on välja lastud\n"
-"pärast Mandriva Linuxi distributsiooni ilmumist ja võivad sisaldada vigade\n"
+"pärast OpenMandriva Lxi distributsiooni ilmumist ja võivad sisaldada vigade\n"
 "parandusi või turvauuendusi.\n"
 "\n"
 "Allalaadimiseks peab Teil olema töötav internetiühendus.\n"
@@ -1649,14 +1649,14 @@ msgstr "Välju"
 #~ msgid "Your desktop on a USB key"
 #~ msgstr "Kogu töölaud USB-pulgal"
 
-#~ msgid "The 100%% open source Mandriva Linux distribution"
-#~ msgstr "100%% vaba tarkvaraga Mandriva Linuxi distributsioon"
+#~ msgid "The 100%% open source OpenMandriva Lx distribution"
+#~ msgstr "100%% vaba tarkvaraga OpenMandriva Lxi distributsioon"
 
 #~ msgid "Explore Linux easily with Mandriva One"
 #~ msgstr "Linuxi hõlpus tundmaõppimine Mandriva One abil"
 
-#~ msgid "A full Mandriva Linux desktop, with support"
-#~ msgstr "Täielik Mandriva Linuxi töölaud koos kasutajatoega"
+#~ msgid "A full OpenMandriva Lx desktop, with support"
+#~ msgstr "Täielik OpenMandriva Lxi töölaud koos kasutajatoega"
 
 #~ msgid "Mandriva: distributions for everybody's needs"
 #~ msgstr "Mandriva: distributsioone igale maitsele ja kõigiks vajadusteks"

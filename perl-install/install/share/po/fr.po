@@ -1,5 +1,5 @@
 # translation of DrakX-fr.po to Français
-# Translation file of Mandriva Linux graphic install
+# Translation file of OpenMandriva Lx graphic install
 # Copyright (C) 1999,2000,2001,2002,2003,2004,2005,2006 Mandriva
 #
 # Veuillez ne pas mettre à jour ce fichier à moins d'être
@@ -449,7 +449,7 @@ msgstr "Assistants pour configurer le serveur"
 #: ../../advertising/MandrivaOne-advert-8.pl:1
 #: ../../advertising/MandrivaOne-advert-9.pl:1
 #, c-format
-msgid "Mandriva Linux 2012 Alpha (Tenacious Underdog)"
+msgid "OpenMandriva Lx 2012 Alpha (Tenacious Underdog)"
 msgstr ""
 
 #: any.pm:110
@@ -505,18 +505,18 @@ msgstr "L'URL doit commencer par ftp:// ou http://"
 #: any.pm:188
 #, c-format
 msgid ""
-"Contacting Mandriva Linux web site to get the list of available mirrors..."
+"Contacting OpenMandriva Lx web site to get the list of available mirrors..."
 msgstr ""
-"Connexion au site Web de Mandriva Linux pour obtenir la liste des serveurs "
+"Connexion au site Web de OpenMandriva Lx pour obtenir la liste des serveurs "
 "miroirs disponibles..."
 
 #: any.pm:193
 #, c-format
 msgid ""
-"Failed contacting Mandriva Linux web site to get the list of available "
+"Failed contacting OpenMandriva Lx web site to get the list of available "
 "mirrors"
 msgstr ""
-"Échec de la connexion au site web de Mandriva Linux pour obtenir la liste "
+"Échec de la connexion au site web de OpenMandriva Lx pour obtenir la liste "
 "des miroirs disponibles"
 
 #: any.pm:203
@@ -879,8 +879,8 @@ msgstr "Démarrage de l'étape « %s »\n"
 
 #: steps_curses.pm:22
 #, c-format
-msgid "Mandriva Linux Installation %s"
-msgstr "Installation de Mandriva Linux %s"
+msgid "OpenMandriva Lx Installation %s"
+msgstr "Installation de OpenMandriva Lx %s"
 
 #: steps_curses.pm:32
 #, c-format
@@ -896,12 +896,12 @@ msgstr "Le serveur Xorg est lent à démarrer. Veuillez patienter..."
 #, c-format
 msgid ""
 "Your system is low on resources. You may have some problem installing\n"
-"Mandriva Linux. If that occurs, you can try a text install instead. For "
+"OpenMandriva Lx. If that occurs, you can try a text install instead. For "
 "this,\n"
 "press `F1' when booting on CDROM, then enter `text'."
 msgstr ""
 "Votre ordinateur dispose de ressources limitées. Vous pouvez rencontrer\n"
-"des problèmes lors de l'installation de Mandriva Linux. Dans ce cas, vous\n"
+"des problèmes lors de l'installation de OpenMandriva Lx. Dans ce cas, vous\n"
 "pouvez essayer l'installation en mode texte. Pour cela, appuyez sur la "
 "touche\n"
 "« F1 » après l'amorçage sur CD-ROM puis entrez « text »."
@@ -1224,7 +1224,7 @@ msgstr "Mettre à jour la précédente installation (non recommandé)"
 #: steps_interactive.pm:215
 #, c-format
 msgid ""
-"Installer has detected that your installed Mandriva Linux system could not\n"
+"Installer has detected that your installed OpenMandriva Lx system could not\n"
 "safely be upgraded to %s.\n"
 "\n"
 "New installation replacing your previous one is recommended.\n"
@@ -1749,14 +1749,14 @@ msgstr "Quitter"
 #~ msgid "Your desktop on a USB key"
 #~ msgstr "Votre Bureau sur une clé USB"
 
-#~ msgid "The 100%% open source Mandriva Linux distribution"
-#~ msgstr "La distribution Mandriva Linux 100%% open source"
+#~ msgid "The 100%% open source OpenMandriva Lx distribution"
+#~ msgstr "La distribution OpenMandriva Lx 100%% open source"
 
 #~ msgid "Explore Linux easily with Mandriva One"
 #~ msgstr "Explorez Linux facilement avec Mandriva One"
 
-#~ msgid "A full Mandriva Linux desktop, with support"
-#~ msgstr "Un Bureau Mandriva Linux complet, avec support"
+#~ msgid "A full OpenMandriva Lx desktop, with support"
+#~ msgstr "Un Bureau OpenMandriva Lx complet, avec support"
 
 #~ msgid "Mandriva: distributions for everybody's needs"
 #~ msgstr "Mandriva : des distributions pour les besoins de chacun"

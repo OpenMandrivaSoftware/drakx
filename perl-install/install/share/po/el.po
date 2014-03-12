@@ -382,7 +382,7 @@ msgstr "Οδηγοί για τη ρύθμιση εξυπηρετητή"
 #: ../../advertising/MandrivaOne-advert-8.pl:1
 #: ../../advertising/MandrivaOne-advert-9.pl:1
 #, c-format
-msgid "Mandriva Linux 2012 Alpha (Tenacious Underdog)"
+msgid "OpenMandriva Lx 2012 Alpha (Tenacious Underdog)"
 msgstr ""
 
 #: any.pm:110
@@ -437,18 +437,18 @@ msgstr "Το URL πρέπει να ξεκινά με ftp:// ή http://"
 #: any.pm:188
 #, c-format
 msgid ""
-"Contacting Mandriva Linux web site to get the list of available mirrors..."
+"Contacting OpenMandriva Lx web site to get the list of available mirrors..."
 msgstr ""
-"Σύνδεση με την τοποθεσία της Mandriva Linux, για λήψη της λίστας με τις "
+"Σύνδεση με την τοποθεσία της OpenMandriva Lx, για λήψη της λίστας με τις "
 "εναλλακτικές διευθύνσεις..."
 
 #: any.pm:193
 #, c-format
 msgid ""
-"Failed contacting Mandriva Linux web site to get the list of available "
+"Failed contacting OpenMandriva Lx web site to get the list of available "
 "mirrors"
 msgstr ""
-"Αδυναμία σύνδεσης με την τοποθεσία της Mandriva Linux, για λήψη της λίστας "
+"Αδυναμία σύνδεσης με την τοποθεσία της OpenMandriva Lx, για λήψη της λίστας "
 "με τις εναλλακτικές διευθύνσεις"
 
 #: any.pm:203
@@ -811,8 +811,8 @@ msgstr "Βήμα `%s'\n"
 
 #: steps_curses.pm:22
 #, c-format
-msgid "Mandriva Linux Installation %s"
-msgstr "Εγκατάσταση της Mandriva Linux %s"
+msgid "OpenMandriva Lx Installation %s"
+msgstr "Εγκατάσταση της OpenMandriva Lx %s"
 
 #: steps_curses.pm:32
 #, c-format
@@ -829,13 +829,13 @@ msgstr ""
 #, c-format
 msgid ""
 "Your system is low on resources. You may have some problem installing\n"
-"Mandriva Linux. If that occurs, you can try a text install instead. For "
+"OpenMandriva Lx. If that occurs, you can try a text install instead. For "
 "this,\n"
 "press `F1' when booting on CDROM, then enter `text'."
 msgstr ""
 "Το σύστημά σας δεν έχει αρκετούς πόρους. Μπορεί να αντιμετωπίσετε "
 "προβλήματα\n"
-"στην εγκατάσταση της Mandriva Linux. Εάν συμβεί αυτό, μπορείτε να δοκιμάσετε "
+"στην εγκατάσταση της OpenMandriva Lx. Εάν συμβεί αυτό, μπορείτε να δοκιμάσετε "
 "την εγκατάσταση κειμένου.\n"
 "Για να γίνει αυτό, πατήστε F1 κατά την εκκίνηση από το CDROM, και μετά "
 "γράψτε `text'."
@@ -1159,7 +1159,7 @@ msgstr "Αναβάθμιση προηγούμενης εγκατάστασης (
 #: steps_interactive.pm:215
 #, c-format
 msgid ""
-"Installer has detected that your installed Mandriva Linux system could not\n"
+"Installer has detected that your installed OpenMandriva Lx system could not\n"
 "safely be upgraded to %s.\n"
 "\n"
 "New installation replacing your previous one is recommended.\n"
@@ -1168,7 +1168,7 @@ msgid ""
 "Installation\"."
 msgstr ""
 "Το πρόγραμμα εγκατάστασης αποφάνθηκε, ότι το ήδη υπάρχον\n"
-"σύστημα Mandriva Linux, δεν μπορεί να αναβαθμιστεί με ασφάλεια στην έκδοση "
+"σύστημα OpenMandriva Lx, δεν μπορεί να αναβαθμιστεί με ασφάλεια στην έκδοση "
 "%s.\n"
 "\n"
 "Προτείνεται να γίνει νέα εγκατάσταση, που θα αντικαταστήσει την "
@@ -1685,14 +1685,14 @@ msgstr "Έξοδος"
 #~ msgid "Your desktop on a USB key"
 #~ msgstr "Το προσωπικό σου σύστημα εργασίας σε ένα USB"
 
-#~ msgid "The 100%% open source Mandriva Linux distribution"
-#~ msgstr "Η 100%% ανοιχτού κώδικα, διανομή του Mandriva Linux"
+#~ msgid "The 100%% open source OpenMandriva Lx distribution"
+#~ msgstr "Η 100%% ανοιχτού κώδικα, διανομή του OpenMandriva Lx"
 
 #~ msgid "Explore Linux easily with Mandriva One"
 #~ msgstr "Εξερεύνησε το Λίνουξ, εύκολα, με το Mandriva One"
 
-#~ msgid "A full Mandriva Linux desktop, with support"
-#~ msgstr "Ένα πλήρες σύστημα desktop Mandriva Linux, με υποστήριξη"
+#~ msgid "A full OpenMandriva Lx desktop, with support"
+#~ msgstr "Ένα πλήρες σύστημα desktop OpenMandriva Lx, με υποστήριξη"
 
 #~ msgid "Mandriva: distributions for everybody's needs"
 #~ msgstr "Mandriva: συστήματα Λίνουξ για όλες τις χρήσεις"

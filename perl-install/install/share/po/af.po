@@ -385,7 +385,7 @@ msgstr "Probleme met die konfigurasie van drukker \" %s\"!"
 #: ../../advertising/MandrivaOne-advert-8.pl:1
 #: ../../advertising/MandrivaOne-advert-9.pl:1
 #, c-format
-msgid "Mandriva Linux 2012 Alpha (Tenacious Underdog)"
+msgid "OpenMandriva Lx 2012 Alpha (Tenacious Underdog)"
 msgstr ""
 
 #: any.pm:110
@@ -436,15 +436,15 @@ msgstr ""
 #: any.pm:188
 #, c-format
 msgid ""
-"Contacting Mandriva Linux web site to get the list of available mirrors..."
-msgstr "Kontak Mandriva Linux se webwerf vir 'n lys van spieëlwebplekke...."
+"Contacting OpenMandriva Lx web site to get the list of available mirrors..."
+msgstr "Kontak OpenMandriva Lx se webwerf vir 'n lys van spieëlwebplekke...."
 
 #: any.pm:193
 #, fuzzy, c-format
 msgid ""
-"Failed contacting Mandriva Linux web site to get the list of available "
+"Failed contacting OpenMandriva Lx web site to get the list of available "
 "mirrors"
-msgstr "Kontak Mandriva Linux se webwerf vir 'n lys van spieëlwebplekke...."
+msgstr "Kontak OpenMandriva Lx se webwerf vir 'n lys van spieëlwebplekke...."
 
 #: any.pm:203
 #, c-format
@@ -799,8 +799,8 @@ msgstr "Gaan stap '%s' binne\n"
 
 #: steps_curses.pm:22
 #, c-format
-msgid "Mandriva Linux Installation %s"
-msgstr "Mandriva Linux Installasie %s"
+msgid "OpenMandriva Lx Installation %s"
+msgstr "OpenMandriva Lx Installasie %s"
 
 #: steps_curses.pm:32
 #, c-format
@@ -816,13 +816,13 @@ msgstr ""
 #, c-format
 msgid ""
 "Your system is low on resources. You may have some problem installing\n"
-"Mandriva Linux. If that occurs, you can try a text install instead. For "
+"OpenMandriva Lx. If that occurs, you can try a text install instead. For "
 "this,\n"
 "press `F1' when booting on CDROM, then enter `text'."
 msgstr ""
 "U stelsel het min hulpbronne beskikbaar. U mag dalk probleme\n"
 "ondervind met die installering\n"
-"van Mandriva Linux. In so 'n geval probeer eerder die teksinstallasie.\n"
+"van OpenMandriva Lx. In so 'n geval probeer eerder die teksinstallasie.\n"
 "Daarvoor moet u\n"
 "'F1' druk wanneer u vanaf die CDROM herlaai en dan 'text' op die\n"
 "instruksielyn intik."
@@ -1139,7 +1139,7 @@ msgstr ""
 #: steps_interactive.pm:215
 #, c-format
 msgid ""
-"Installer has detected that your installed Mandriva Linux system could not\n"
+"Installer has detected that your installed OpenMandriva Lx system could not\n"
 "safely be upgraded to %s.\n"
 "\n"
 "New installation replacing your previous one is recommended.\n"
