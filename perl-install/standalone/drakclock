@@ -139,6 +139,9 @@ $my_win->{window}->add(gtknew('VBox', border_width => $::isEmbedded ? 0 : 5, chi
                                                                     cancel => N("Retry"),
                                                                 }, []) or return;
 							    }
+							}
+							else
+							{
 							    if (is_ntp_daemon_running()) {
 								system('systemctl', 'stop', "$ntpd.service");
 								system('systemctl', 'disable', "$ntpd.service");
