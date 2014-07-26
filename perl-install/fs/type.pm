@@ -17,10 +17,10 @@ my (%type_name2pt_type, %type_name2fs_type, %fs_type2pt_type, %pt_type2fs_type, 
     my @list_types = (
 	important => [
   0x82 => 'swap',     'Linux swap',
-  0x83 => 'btrfs',    'Journalised FS: Btrfs',
   0x83 => 'ext2',     'Linux native (ext2)',
   0x83 => 'ext3',     'Journalised FS: ext3',
   0x83 => 'ext4',     'Journalised FS: ext4',
+  0x83 => 'btrfs',    'Journalised FS: Btrfs',
   0x83 => 'reiserfs', 'Journalised FS: ReiserFS',
   0x83 => 'xfs',      'Journalised FS: XFS',
   0x83 => 'jfs',      'Journalised FS: JFS',
