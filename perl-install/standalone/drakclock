@@ -118,6 +118,7 @@ $my_win->{window}->add(gtknew('VBox', border_width => $::isEmbedded ? 0 : 5, chi
                                                             system('systemctl', 'stop', "$ntpd.service");
                                                             #verify that we have a valid hostname (thx sam)
                                                             $choosed_serv =~ s/[^-a-zA-Z0-9.]//g;
+                                                            gtkflush();
                                                             my $sync_ok;
                                                             if ($ntpd eq "chronyd") {
                                                                 system('systemctl', 'start', "$ntpd.service");
@@ -129,6 +130,7 @@ $my_win->{window}->add(gtknew('VBox', border_width => $::isEmbedded ? 0 : 5, chi
                                                                 system('systemctl', 'start', "$ntpd.service") if ($sync_ok);
                                                             }
 							    if ($sync_ok) {
+								gtkflush();
 								update_time(); #- get the new time before updating the hwclock
 								$need_date = 0;
 							    } else {
