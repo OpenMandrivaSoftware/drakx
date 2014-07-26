@@ -94,7 +94,7 @@ sub entry {
 	$major = 114;
 	$minor = 16 * $1 + ($2 || 0);
     } elsif (my ($prefix, $nb) = /(.*?)(\d+)$/) {	
-	my $f = ${{"fd"          => sub { c::S_IFBLK(), 2,  0  },
+	my $f = ${{
 		   "hidbp-mse-"  => sub { c::S_IFCHR(), 10, 32 },
 		   "lp"          => sub { c::S_IFCHR(), 6,  0  },
 		   "usb/lp"      => sub { c::S_IFCHR(), 180, 0 },
