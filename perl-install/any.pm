@@ -422,7 +422,6 @@ sub setupBootloader__general {
     my $prev_enable_apic = my $enable_apic = !bootloader::get_append_simple($b, 'noapic');
     my $prev_enable_lapic = my $enable_lapic = !bootloader::get_append_simple($b, 'nolapic');
     my $prev_enable_smp = my $enable_smp = !bootloader::get_append_simple($b, 'nosmp');
-    my $prev_clean_tmp = my $clean_tmp = any { $_->{mntpoint} eq '/tmp' } @{$all_hds->{special} ||= []};
     my $prev_boot = $b->{boot};
     my $prev_method = $b->{method};
 
@@ -461,7 +460,6 @@ sub setupBootloader__general {
             { text => N("Enable APIC"), val => \$enable_apic, type => 'bool', advanced => 1,
               disabled => sub { !$enable_lapic } }, 
             { text => N("Enable Local APIC"), val => \$enable_lapic, type => 'bool', advanced => 1 },
-            { text => N("Clean /tmp at each boot"), val => \$clean_tmp, type => 'bool', advanced => 1 },
         ]) or return 0;
     } else {
 	$b->{boot} = $partition_table::mac::bootstrap_part;	
@@ -509,14 +507,6 @@ sub setupBootloader__general {
     if ($prev_enable_lapic != $enable_lapic) {
 	($enable_lapic ? \&bootloader::remove_append_simple : \&bootloader::set_append_simple)->($b, 'nolapic');
 	($enable_lapic ? \&bootloader::set_append_simple : \&bootloader::remove_append_simple)->($b, 'lapic');
-    }
-
-    if ($prev_clean_tmp != $clean_tmp) {
-	if ($clean_tmp && !fs::get::has_mntpoint('/tmp', $all_hds)) {
-	    push @{$all_hds->{special}}, { device => 'none', mntpoint => '/tmp', fs_type => 'tmpfs' };
-	} else {
-	    @{$all_hds->{special}} = grep { $_->{mntpoint} ne '/tmp' } @{$all_hds->{special}};
-	}
     }
 
     if (bootloader::main_method($prev_method) eq 'lilo' && 
