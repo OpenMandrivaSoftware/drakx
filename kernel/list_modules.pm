@@ -27,7 +27,7 @@ our %l = (
         qw(jme lance ne ni5010 ni52 ni65 nvnet),
         qw(prism2_plx qlge r6040 rcpci rhineget),
         qw(sb1000 sc92031 sh_eth smc-ultra smsc911x smc9194 smsc9420 smsc95xx),
-        qw(tc35815 tlan uli526x vmxnet3),
+        qw(tc35815 tlan uli526x ),
       ),
       if_(arch() !~ /alpha/,
         qw(b44 com20020-pci de2104x),
@@ -75,7 +75,7 @@ our %l = (
       qw(p54usb prism2_cs prism2_pci prism2_usb prism54 qmi_wwan r8180),
       qw(r8187se rtl8188ee r8192_pci r8192s_usb r8192u_usb r8712u rtl8723ae ray_cs rndis_wlan rt2400 rt2400pci rt2500),
       qw(rt2500pci rt2500usb rt2570 rt2800pci rt2800usb rt2860 rt2860sta rt2870),
-      qw(rt3070sta rt61 rt61pci rt73 rt73usb rtl8180 rtl8187 rtl8187se r8188eu rtl_pci rtl_usb rtusb),
+      qw(rt3070sta rt61 rt61pci rt73 rt73usb rtl8180 rtl8187 rtl8187se rtl818x_pci r8188eu r8192ee r8723au rtl8821ae rtl_pci rtl_usb rtusb),
       qw(rtl8192se rtl8192cu rtl8192de spectrum_cs sr9700 ssb usb8xxx usbvnet_rfmd vt6655_stage vt6656_stage vt_ar5k w35und),
       qw(wavelan_cs wl wl3501_cs wvlan_cs zd1201 zd1211rw),
       if_(arch() =~ /ppc/, qw(airport)),
@@ -96,7 +96,7 @@ our %l = (
     ],
     wan => [ qw(c101 cosa cyclomx cycx_drv dlci dscc4 farsync hdlc hostess_sv11 lapbether lmc n2 pc300 pci200syn sbni sdla sdladrv sealevel syncppp wanxl z85230) ],
     usb_dsl => [ qw(cxacru speedtch ueagle-atm usbatm xusbatm) ],
-    virtual => [ qw(virtio_net xen-netfront) ],
+    virtual => [ qw(hv_netvsc vboxdrv virtio_net vmxnet3 xen-netfront) ],
   },
 
   ################################################################################
@@ -119,7 +119,7 @@ our %l = (
         qw(eata_pio fdomain g_NCR5380 in2000 initio mpt2sas mpt3sas mvsas NCR53c406a),
         qw(nsp32 pas16 pci2220i pm80xx pm8001 psi240i qla1280 qla2x00 qla2xxx),
         qw(qlogicfas qlogicfc rsxx seagate shasta sim710 stex sym53c416),
-        qw(t128 tmscsim u14-34f ultrastor vmw_pvscsi wd7000),
+        qw(t128 tmscsim u14-34f ultrastor wd7000),
       ),
       qw(aic7xxx aic7xxx_old aic79xx pci2000 qlogicfas408 sym53c8xx lpfc lpfcdd), # ncr53c8xx
     ],
@@ -155,7 +155,7 @@ our %l = (
       ),
     ],
     video => [ qw(vmwgfx cirrusfb radeonfb kyrofb i740fb matroxfb_crct2 matroxfb_DAC1064 matroxfb_g450 matroxfb_misc matroxfb_accel matroxfb_Ti3026 matroxfb_base aty128fb vga16fb vt8236fb sstfb s3fb rivafb  mb862xfb nvidiafb fb_ddc udlfb tdfxfb uvesafb viafb tridentfb savagefb cfag1286bfb) ],
-    virtual => [ qw(hv_storvsc virtio_blk virtio_scsi xenblk xen-blkfront) ],
+    virtual => [ qw(hv_storvsc virtio_blk virtio_scsi vmw_pvscsi xenblk xen-blkfront) ],
     pcmcia => [ qw(aha152x_cs fdomain_cs nsp_cs qlogic_cs ide-cs pata_pcmcia sym53c500_cs) ],
     raw => [ qw(ide-gd_mod sd_mod) ],
     usb => [ qw(keucr uas ums-alauda ums-cypress ums-datafab ums-eneub6250 ums-freecom ums-isd200),
@@ -189,7 +189,7 @@ our %l = (
 	    hid-hyperv hid-icade hid-kensington hid-keytouch hid-kye hid-lcpower hid-lenovo hid-lenovo-tpkbd
 	    hid-logitech hid-logitech-dj hid-magicmouse hid-microsoft hid-monterey
 	    hid-multilaser hid-multitouch hid-ntrig hid-ortek hid-petalynx hid-picolcd
-	    hid-pl hid-primax hid-prodikeys hid-roccat hid-roccat-arvo hid-roccat-common
+	    hid-pl hid-primax hid-prodikeys hid-roccat hid-roccat-arvo hid-roccat-common hid-rmi
 	    hid-roccat-isku hid-roccat-kone hid-roccat-koneplus hid-roccat-konepure hid-roccat-kovaplus hid-roccat-lua
 	    hid-roccat-pyra hid-roccat-savu hid-saitek hid-samsung hid-sensor-hub hid-sjoy hid-sony
 	    hid-speedlink hid-steelseries hid-sunplus hid-tivo hid-thingm hid-tmff hid-topseed hid-twinhan
@@ -225,12 +225,12 @@ our %l = (
           qw(maestro3 mpu401 msnd_pinnacle nm256_audio nvaudio opl3 opl3sa opl3sa2 pas2 pss),
           qw(rme96xx sam9407 sb sgalaxy snd-ad1816a snd-ad1848 snd-ad1889 snd-ali5451 snd-als100 snd-als300),
           qw(snd-als4000 snd-atiixp snd-au8810 snd-au8820 snd-au8830 snd-audigyls snd-aw2 snd-azt2316 snd-azt2320 snd-azt3328 snd-azx),
-          qw(snd-asihpi snd-at73c213 snd-bt87x snd-ca0106 snd-cmi8330 snd-cmi8788 snd-cmipci),
+          qw(snd-asihpi snd-at73c213 snd-bcd2000 snd-bebob snd-bt87x snd-ca0106 snd-cmi8330 snd-cmi8788 snd-cmipci),
           qw(snd-cs4231 snd-cs4232 snd-cs4236 snd-cs4281 snd-cs46xx snd-cs5530 snd-cs5535audio),
           qw(snd_ctxfi),
           qw(snd-darla20 snd-darla24 snd-dt019x snd-echo3g snd-emu10k1 snd-emu10k1x),
           qw(snd-ens1370 snd-ens1371 snd-es1688 snd-es18xx snd-es1938 snd-es1968 snd-es968),
-          qw(snd-fm801 snd-gina20 snd-gina24 snd-gina3g),
+          qw(snd-fireworks snd-fm801 snd-gina20 snd-gina24 snd-gina3g),
           qw(snd-gusclassic snd-gusextreme snd-gusmax),
           qw(snd-hda-intel snd-hdsp snd-hdspm snd-ice1712 snd-ice1724),
           qw(snd-indi snd-indigo snd-indigodj snd-indigodjx snd-indigoio snd-indigoiox snd-intel8x0 snd-interwave),
@@ -265,7 +265,7 @@ our %l = (
     usb_sound => [ qw(audio dabusb dsbr100 snd-usb-audio snd-usb-6fire snd-usb-caiaq snd-usb-hiface snd-usb-usx2y usb-midi) ],
     webcam => [
         qw(cafe_ccic cpia2 cpia_usb cyber2000fb em28xx et61x251 gspca),
-        qw(gspca_benq gspca_conex gspca_cpia1 gspca_etoms
+        qw(gspca_benq gspca_conex gspca_cpia1 gspca_dtcs033 gspca_etoms
         gspca_finepix gspca_gl860 gspca_jeilinj gspca_jl2005bcd
         gspca_kinect gspca_konica gspca_m5602 gspca_mars
         gspca_mr97310a gspca_nw80x gspca_ov519 gspca_ov534
