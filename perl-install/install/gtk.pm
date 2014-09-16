@@ -240,44 +240,23 @@ sub special_shortcuts {
 
 #------------------------------------------------------------------------------
 sub createXconf {
-    my ($file, $mouse_type, $mouse_dev, $_wacom_dev, $Driver) = @_;
+    my ($file, $Driver) = @_;
 
-    $mouse_type = 'IMPS/2' if $mouse_type eq 'vboxmouse';
-    symlinkf(devices::make($mouse_dev), "/dev/mouse") if $mouse_dev ne 'none';
+    #- remove "error opening security policy file" warning
+    symlink("/tmp/stage2/etc/X11", "/etc/X11");
 
     return if !$Driver;
 
-     my ($mouse_driver, $mouse_protocol) = detect_devices::is_vmware() ? qw(vmmouse auto) : ('mouse', $mouse_type);
-     output($file, sprintf(<<'END', $mouse_driver, $mouse_protocol, $Driver, $Driver eq 'fbdev' ? '"default"' : '"1024x768" "800x600" "640x480"'));
-Section "ServerFlags"
-   Option "AutoAddDevices" "False"
+    my $resolution = $Driver eq 'fbdev' ? '"default"' : '"800x600" "640x480"';
+    output($file, qq(Section "ServerFlags"
 EndSection
 
 Section "Module"
-      Disable "dbe"
-      Disable "record"
-      Disable "dri"
-      Disable "dri2"
       Disable "glx"
 EndSection
 
 Section "Files"
    FontPath   "/usr/share/fonts:unscaled"
-EndSection
-
-Section "InputDevice"
-    Identifier "Keyboard"
-    Driver "keyboard"
-    Option "XkbModel" "pc105"
-    Option "XkbLayout" "us"
-EndSection
-
-Section "InputDevice"
-    Identifier "Mouse"
-    Driver "%s"
-    Option "Protocol" "%s"
-    Option "Device" "/dev/mouse"
-    Option "ZAxisMapping" "4 5"
 EndSection
 
 Section "Monitor"
@@ -288,7 +267,7 @@ EndSection
 
 Section "Device"
     Identifier  "device"
-    Driver      "%s"
+    Driver "$Driver"
 EndSection
 
 Section "Screen"
@@ -298,7 +277,7 @@ Section "Screen"
     DefaultColorDepth 16
     Subsection "Display"
         Depth 16
-        Modes %s
+        Modes $resolution
     EndSubsection
 EndSection
 
@@ -309,11 +288,8 @@ Section "ServerLayout"
     Option "OffTime"     "0"
     Identifier "layout"
     Screen "screen"
-    InputDevice "Mouse" "CorePointer"
-    InputDevice "Keyboard" "CoreKeyboard"
 EndSection
-
-END
+));
 }
 
 1;
