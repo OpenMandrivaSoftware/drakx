@@ -132,9 +132,12 @@ sub set_auth_value {
     } else {
         symlinkf('../../etc/pam.d/mandriva-simple-auth', "/etc/pam.d/$prog");
         my $value = $auth eq 'user_passwd' ? '<user>' : 'root';
+        my $dir = cwd;
+        chdir "/etc/security/console.apps";
         substInFile {
             s/^USER=.*/USER=$value/;
         } "/etc/security/console.apps/$prog";
+        chdir $dir;
     }
 }
 
