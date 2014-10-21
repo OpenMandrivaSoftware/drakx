@@ -229,25 +229,6 @@ sub set_pulseaudio_glitchfree {
     } $pa_startup_scriptfile;
 }
 
-my $pa_client_conffile = "$::prefix/etc/pulse/client.conf";
-
-sub set_PA_autospan {
-    my ($val) = @_;
-
-    return if ! -f $pa_client_conffile;
-
-    $val = 'autospawn = ' . bool2yesno($val) . "\n";
-    my $done;
-    substInFile {
-        if (/^autospawn\s*=/) {
-            $_ = $val;
-            $done = 1;
-        }
-    } $pa_client_conffile;
-    append_to_file($pa_client_conffile, $val) if !$done;
-}
-
-
 sub rooted { run_program::rooted($::prefix, @_) }
 
 sub unload { modules::unload(@_) if $::isStandalone || $blacklisted }
@@ -302,7 +283,7 @@ sub switch {
         push @alternative, $driver;
         my %des = modules::category2modules_and_description('multimedia/sound');
         
-        my $is_pulseaudio_installed = (-f $pa_startup_scriptfile && -f $pa_client_conffile && -d '/etc/sound/profiles/pulse');
+        my $is_pulseaudio_installed = (-f $pa_startup_scriptfile && -d '/etc/sound/profiles/pulse');
         my $is_pulseaudio_enabled = is_pulseaudio_enabled();
         my $is_pulseaudio_glitchfree_enabled = is_pulseaudio_glitchfree_enabled();
 
@@ -312,7 +293,6 @@ sub switch {
             return if !$is_pulseaudio_installed;
             set_pulseaudio($is_pulseaudio_enabled);
             set_pulseaudio_glitchfree($is_pulseaudio_glitchfree_enabled);
-            set_PA_autospan($is_pulseaudio_enabled);
             if ($is_pulseaudio_enabled) {
                 my $lib = (arch() =~ /x86_64/ ? 'lib64' : 'lib');
                 $in->do_pkgs->ensure_is_installed($lib . 'alsa-plugins-pulseaudio',
