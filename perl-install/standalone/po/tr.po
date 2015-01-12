@@ -1183,17 +1183,17 @@ msgstr "Mandriva araçlarına erişebilmek için gerekli doğrulamayı yapıland
 
 #: draksec:113
 #, c-format
-msgid "No password"
+msgid "No password needed"
 msgstr "Parola yok"
 
 #: draksec:114
 #, c-format
-msgid "Root password"
+msgid "Root password required"
 msgstr "Kök parolası"
 
 #: draksec:115
 #, c-format
-msgid "User password"
+msgid "User password required"
 msgstr "Kullanıcı parolası"
 
 #: draksec:145 draksec:200

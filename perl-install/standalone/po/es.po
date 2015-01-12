@@ -1191,17 +1191,17 @@ msgstr ""
 
 #: draksec:113
 #, c-format
-msgid "No password"
+msgid "No password needed"
 msgstr "Sin contraseña"
 
 #: draksec:114
 #, c-format
-msgid "Root password"
+msgid "Root password required"
 msgstr "Contraseña del administrador"
 
 #: draksec:115
 #, c-format
-msgid "User password"
+msgid "User password required"
 msgstr "Contraseña del usuario"
 
 #: draksec:145 draksec:200

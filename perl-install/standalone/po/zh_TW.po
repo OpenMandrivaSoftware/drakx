@@ -1175,17 +1175,17 @@ msgstr "設定存取 Mandiva 工具所需要的認證"
 
 #: draksec:113
 #, c-format
-msgid "No password"
+msgid "No password needed"
 msgstr "沒有密碼"
 
 #: draksec:114
 #, c-format
-msgid "Root password"
+msgid "Root password required"
 msgstr "Root 密碼"
 
 #: draksec:115
 #, c-format
-msgid "User password"
+msgid "User password required"
 msgstr "使用者密碼"
 
 #: draksec:145 draksec:200

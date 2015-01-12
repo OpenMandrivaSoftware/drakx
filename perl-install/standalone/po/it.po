@@ -1183,17 +1183,17 @@ msgstr "Configura le autenticazioni richieste per usare gli strumenti Mandriva"
 
 #: draksec:113
 #, c-format
-msgid "No password"
-msgstr "No password"
+msgid "No password needed"
+msgstr "No password needed"
 
 #: draksec:114
 #, c-format
-msgid "Root password"
+msgid "Root password required"
 msgstr "Password di root"
 
 #: draksec:115
 #, c-format
-msgid "User password"
+msgid "User password required"
 msgstr "Password dell'utente"
 
 #: draksec:145 draksec:200

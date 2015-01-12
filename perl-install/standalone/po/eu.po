@@ -1178,17 +1178,17 @@ msgstr "Konfiguratu Mandriva tresnak atzitzeko beharrezko autentikazioa"
 
 #: draksec:113
 #, c-format
-msgid "No password"
+msgid "No password needed"
 msgstr "Pasahitzik ez"
 
 #: draksec:114
 #, c-format
-msgid "Root password"
+msgid "Root password required"
 msgstr "Root pasahitza"
 
 #: draksec:115
 #, c-format
-msgid "User password"
+msgid "User password required"
 msgstr "Erabiltzaile pasahitza"
 
 #: draksec:145 draksec:200

@@ -1175,17 +1175,17 @@ msgstr "Mae angen dilysu ffurfweddiad i gael mynediad at offer Mandriva"
 
 #: draksec:113
 #, c-format
-msgid "No password"
+msgid "No password needed"
 msgstr "Dim cyfrinair"
 
 #: draksec:114
 #, c-format
-msgid "Root password"
+msgid "Root password required"
 msgstr "Cyfrinair root"
 
 #: draksec:115
 #, c-format
-msgid "User password"
+msgid "User password required"
 msgstr "Cyfrinair defnyddiwr"
 
 #: draksec:145 draksec:200

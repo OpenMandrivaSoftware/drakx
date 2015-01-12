@@ -1140,17 +1140,17 @@ msgstr ""
 
 #: draksec:113
 #, c-format
-msgid "No password"
+msgid "No password needed"
 msgstr "Maxfiy soʻzsiz"
 
 #: draksec:114
 #, c-format
-msgid "Root password"
+msgid "Root password required"
 msgstr "Administratorning maxfiy soʻzi"
 
 #: draksec:115
 #, c-format
-msgid "User password"
+msgid "User password required"
 msgstr "Foydalanuvchining maxfiy soʻzi"
 
 #: draksec:145 draksec:200

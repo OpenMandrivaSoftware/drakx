@@ -1134,17 +1134,17 @@ msgstr ""
 
 #: draksec:113
 #, c-format
-msgid "No password"
+msgid "No password needed"
 msgstr "Tiada katalaluan"
 
 #: draksec:114
 #, fuzzy, c-format
-msgid "Root password"
+msgid "Root password required"
 msgstr "Katalaluan Tidak Betul"
 
 #: draksec:115
 #, fuzzy, c-format
-msgid "User password"
+msgid "User password required"
 msgstr "Kata Laluan & Akaun Pengguna"
 
 #: draksec:145 draksec:200

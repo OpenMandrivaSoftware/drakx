@@ -1175,17 +1175,17 @@ msgstr "Sett opp autentisering nødvendig for tilgang til Mandrivas verktøy"
 
 #: draksec:113
 #, c-format
-msgid "No password"
+msgid "No password needed"
 msgstr "Ingen passord"
 
 #: draksec:114
 #, c-format
-msgid "Root password"
+msgid "Root password required"
 msgstr "Root-passord"
 
 #: draksec:115
 #, c-format
-msgid "User password"
+msgid "User password required"
 msgstr "Brukerpassord"
 
 #: draksec:145 draksec:200

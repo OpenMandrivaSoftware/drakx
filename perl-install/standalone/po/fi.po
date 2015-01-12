@@ -1182,17 +1182,17 @@ msgstr "Määritä Mandrivan asetustyökalujen käyttämiseen tarvittavat oikeud
 
 #: draksec:113
 #, c-format
-msgid "No password"
+msgid "No password needed"
 msgstr "Ei salasanaa"
 
 #: draksec:114
 #, c-format
-msgid "Root password"
+msgid "Root password required"
 msgstr "Pääkäyttäjän salasana"
 
 #: draksec:115
 #, c-format
-msgid "User password"
+msgid "User password required"
 msgstr "Käyttäjän salasana"
 
 #: draksec:145 draksec:200

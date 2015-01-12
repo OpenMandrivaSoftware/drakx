@@ -1177,17 +1177,17 @@ msgstr "Skilgreina auðkenningu sem þörf er á til að nota Mandriva tól"
 
 #: draksec:113
 #, c-format
-msgid "No password"
+msgid "No password needed"
 msgstr "Ekkert lykilorð"
 
 #: draksec:114
 #, c-format
-msgid "Root password"
+msgid "Root password required"
 msgstr "Lykilorð kerfisstjóra"
 
 #: draksec:115
 #, c-format
-msgid "User password"
+msgid "User password required"
 msgstr "Lykilorð notanda"
 
 #: draksec:145 draksec:200

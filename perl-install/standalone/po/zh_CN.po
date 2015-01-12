@@ -1160,17 +1160,17 @@ msgstr "配置访问 Mandriva 工具所需的身份认证"
 
 #: draksec:113
 #, c-format
-msgid "No password"
+msgid "No password needed"
 msgstr "无密码"
 
 #: draksec:114
 #, c-format
-msgid "Root password"
+msgid "Root password required"
 msgstr "Root 密码"
 
 #: draksec:115
 #, c-format
-msgid "User password"
+msgid "User password required"
 msgstr "用户密码"
 
 #: draksec:145 draksec:200

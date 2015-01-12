@@ -1184,17 +1184,17 @@ msgstr "A Mandriva eszközökhöz szükséges azonosítás beállítása"
 
 #: draksec:113
 #, c-format
-msgid "No password"
+msgid "No password needed"
 msgstr "Nincs jelszó"
 
 #: draksec:114
 #, c-format
-msgid "Root password"
+msgid "Root password required"
 msgstr "Rendszergazdai jelszó"
 
 #: draksec:115
 #, c-format
-msgid "User password"
+msgid "User password required"
 msgstr "Felhasználói jelszó"
 
 #: draksec:145 draksec:200
