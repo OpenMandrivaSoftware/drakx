@@ -686,6 +686,7 @@ sub get_autologin() {
         KDE4 => 'kdm',
         xfce4 => 'slim',
         LXDE => 'lxdm',
+        LXQT => 'sddm',
     );
     my %dm_canonical = (
         gnome => 'gdm',
@@ -714,7 +715,7 @@ sub get_autologin() {
 
 sub is_standalone_autologin_needed {
     my ($dm) = @_;
-    return member($dm, qw(lxdm slim xdm));
+    return member($dm, qw(lxdm slim xdm sddm));
 }
 
 sub set_autologin {
