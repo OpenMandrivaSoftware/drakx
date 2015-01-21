@@ -1601,7 +1601,7 @@ msgid "Keyboard"
 msgstr "Klawiatura"
 
 #: finish-install:58
-#, fuzzy, c-format
+#, c-format
 msgid "Please choose your keyboard layout."
 msgstr "Wybierz układ klawiatury."
 
@@ -1636,12 +1636,12 @@ msgid "Please, specify which services should run at start-up:"
 msgstr ""
 
 #: finish-install:240
-#, fuzzy, c-format
+#, c-format
 msgid "The following services failed to start:\n"
 msgstr "Następujące pakiety wymagają zainstalowania:\n"
 
 #: finish-install:243
-#, fuzzy, c-format
+#, c-format
 msgid "The following services failed to stop:\n"
 msgstr "Następujące pakiety wymagają zainstalowania:\n"
 

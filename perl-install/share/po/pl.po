@@ -278,7 +278,7 @@ msgstr "Dołącz Xen"
 #: any.pm:559
 #, c-format
 msgid "Requires password to boot"
-msgstr ""
+msgstr "Wymagane jest has�o do uruchomienia systemu"
 
 #: any.pm:561
 #, c-format
