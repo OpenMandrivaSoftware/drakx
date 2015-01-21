@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenMandriva Lx\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-31 17:24+0200\n"
+"POT-Creation-Date: 2015-01-22 00:44+0100\n"
 "PO-Revision-Date: 2009-10-01 16:09+0100\n"
 "Last-Translator: Rhoslyn Prys <rprys@yahoo.com>\n"
 "Language-Team: Meddal.com\n"
@@ -21,357 +21,6 @@ msgstr ""
 "X-Poedit-Country: UNITED KINGDOM\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:14
-#, c-format
-msgid "Workstation"
-msgstr "Gweithfan"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:16
-#, c-format
-msgid "Office Workstation"
-msgstr "Gweithfan Swyddfa"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:18
-#, fuzzy, c-format
-msgid ""
-"Office programs: wordprocessors (OpenOffice.org Writer, Kword), spreadsheets "
-"(OpenOffice.org Calc, Kspread), PDF viewers, etc"
-msgstr ""
-"Rhaglenni swyddfa: prosesydd geiriau (LibreOffice Writer, Kword), taenlenni "
-"(LibreOffice Calc, Kspread), ddarllenydd pdf, ag ati"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:23
-#, c-format
-msgid "Game station"
-msgstr "Man chwarae"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:24
-#, fuzzy, c-format
-msgid "Amusement programs: arcade, boards, strategy, etc."
-msgstr "Rhaglenni difyrrwch: arcêd, gemau bwrdd, strategaeth, ag ati"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:28
-#, c-format
-msgid "Multimedia station"
-msgstr "Man aml-gyfrwng"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:29
-#, c-format
-msgid "Sound and video playing/editing programs"
-msgstr "Chwarae sain a fideo/rhaglenni golygu"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:34
-#, c-format
-msgid "Toys"
-msgstr ""
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:35
-#, c-format
-msgid "Apps and tools of less useful value, yet entertaining..."
-msgstr ""
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:39
-#, c-format
-msgid "Internet station"
-msgstr "Man rhyngrwyd"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:40
-#, c-format
-msgid ""
-"Set of tools to read and send mail and news (mutt, tin..) and to browse the "
-"Web"
-msgstr ""
-"Casgliad o offer i ddarllen ac anfon e-bost a newyddion (mutt, tin..) ac i "
-"bori'r We"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:45
-#, c-format
-msgid "Network Computer (client)"
-msgstr "Cyfrifiadur Rhwydwaith (cleient)"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:46
-#, c-format
-msgid "Clients for different protocols including ssh"
-msgstr "Cleientiaid ar gyfer protocolau amrywiol yn cynnwys ssh"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:50 gtk.pm:132
-#, c-format
-msgid "Configuration"
-msgstr "Ffurfweddiad"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:51
-#, c-format
-msgid "Tools to ease the configuration of your computer"
-msgstr "Offer i wneud ffurfweddu'ch cyfrifiadur yn haws"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:55
-#, c-format
-msgid "Console Tools"
-msgstr "Offer y Consol"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:56
-#, c-format
-msgid "Editors, shells, file tools, terminals"
-msgstr "Golygyddion, cregyn, offer ffeilio, terfynellau"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:60
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:170
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:172
-#, c-format
-msgid "Development"
-msgstr "Datblygiad"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:61
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:173
-#, c-format
-msgid "C and C++ development libraries, programs and include files"
-msgstr "Llyfrgelloedd datblygiadol C a C++, rhaglenni a ffeiliau cynnwys"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:64
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:177
-#, c-format
-msgid "Documentation"
-msgstr "Dogfennau"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:65
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:178
-#, c-format
-msgid "Books and Howto's on Linux and Free Software"
-msgstr "Llyfrau a Howto's ar Linux a Meddalwedd Rhydd"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:69
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:181
-#, c-format
-msgid "LSB"
-msgstr "LSB"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:70
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:182
-#, c-format
-msgid "Linux Standard Base. Third party applications support"
-msgstr "Linux Standard Base. Cefnogaeth i raglenni trydydd parti"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:80
-#, c-format
-msgid "Web Server"
-msgstr "Gweinydd Gwe"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:81
-#, c-format
-msgid "Apache"
-msgstr "Apache"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:84
-#, c-format
-msgid "Groupware"
-msgstr "Grwpwar"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:85
-#, c-format
-msgid "Kolab Server"
-msgstr "Gweinydd Kolab"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:88
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:129
-#, c-format
-msgid "Firewall/Router"
-msgstr "Mur Gwarchod/Llwybrydd"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:89
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:130
-#, c-format
-msgid "Internet gateway"
-msgstr "Porth i'r rhyngrwyd"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:92
-#, c-format
-msgid "Mail/News"
-msgstr "E-bost/Newyddion"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:93
-#, c-format
-msgid "Postfix mail server, Inn news server"
-msgstr "Gweinydd e-bost Postfix, gweinydd newyddion Inn"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:96
-#, c-format
-msgid "Directory Server"
-msgstr "Cyfeiriadur Gweinydd"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:100
-#, c-format
-msgid "FTP Server"
-msgstr "Gweinydd FTP"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:101
-#, c-format
-msgid "ProFTPd"
-msgstr "ProFTPd"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:104
-#, c-format
-msgid "DNS/NIS"
-msgstr "DNS/NIS"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:105
-#, c-format
-msgid "Domain Name and Network Information Server"
-msgstr "Gweinydd Enw Parth a Gwybodaeth Rhwydwaith"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:108
-#, c-format
-msgid "File and Printer Sharing Server"
-msgstr "Gweinydd Ffeil a Rhannu Argraffydd"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:109
-#, c-format
-msgid "NFS Server, Samba server"
-msgstr "Gweinydd NSF, gweinydd Samba"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:112
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:125
-#, c-format
-msgid "Database"
-msgstr "Cronfa Ddata"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:113
-#, c-format
-msgid "PostgreSQL and MySQL Database Server"
-msgstr "Gweinydd CronfaDdata PostgreSQL a MySQL"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:117
-#, c-format
-msgid "Web/FTP"
-msgstr "Gwe/FTP"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:118
-#, c-format
-msgid "Apache, Pro-ftpd"
-msgstr "Apache, Pro-ftpd"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:121
-#, c-format
-msgid "Mail"
-msgstr "E-bost"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:122
-#, c-format
-msgid "Postfix mail server"
-msgstr "Gweinydd e-bost Postfix"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:126
-#, c-format
-msgid "PostgreSQL or MySQL database server"
-msgstr "Gweinydd cronfa data PostgreSQL neu MySQL"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:133
-#, c-format
-msgid "Network Computer server"
-msgstr "Gweinydd Cyfrifiadur Rhwydwaith"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:134
-#, c-format
-msgid "NFS server, SMB server, Proxy server, ssh server"
-msgstr "Gweinydd NFS, gweinydd SMB, gweinydd dirprwyol, gweinydd ssh"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:141
-#, c-format
-msgid "Graphical Environment"
-msgstr "Amgylchedd Graffig"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:145
-#, c-format
-msgid "KDE Workstation"
-msgstr "Man Gwaith KDE"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:146
-#, c-format
-msgid ""
-"The K Desktop Environment, the basic graphical environment with a collection "
-"of accompanying tools"
-msgstr ""
-"KDE - Amgylchedd Bwrdd gwaith K, yr amgylchedd graffig sylfaenol gyda "
-"chasgliad o offer"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:150
-#, c-format
-msgid "GNOME Workstation"
-msgstr "Man Gwaith Gnome"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:151
-#, c-format
-msgid ""
-"A graphical environment with user-friendly set of applications and desktop "
-"tools"
-msgstr ""
-"Amgylchedd graffig gyda chasgliad o raglenni ac offer bwrdd gwaith hawdd eu "
-"defnyddio."
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:156
-#, c-format
-msgid "LXDE Desktop"
-msgstr "Bwrdd Gwaith LXDE"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:158
-#, c-format
-msgid ""
-"A lightweight & fast graphical environment with user-friendly set of "
-"applications and desktop tools"
-msgstr ""
-"Amgylchedd graffig ysgafn a chyflym gyda chasgliad o raglenni ac offer bwrdd "
-"gwaith hawdd eu defnyddio."
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:162
-#, c-format
-msgid "Other Graphical Desktops"
-msgstr "Byrddau Gwaith Graffigol Eraill"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:163
-#, c-format
-msgid "Window Maker, Enlightenment, Fvwm, etc"
-msgstr "Window Maker, Enlightenment, Fvwm, ag ati"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:187
-#, c-format
-msgid "Utilities"
-msgstr "Gwasanaethau"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:189
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:190
-#, c-format
-msgid "SSH Server"
-msgstr "Gweinydd SSH"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:194
-#, c-format
-msgid "Webmin"
-msgstr "Webmin"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:195
-#, c-format
-msgid "Webmin Remote Configuration Server"
-msgstr "Gweinydd Ffurfweddiad Pell Webmin"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:199
-#, c-format
-msgid "Network Utilities/Monitoring"
-msgstr "Gwasanaethau Rhwydwaith/Monitro"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:200
-#, c-format
-msgid "Monitoring tools, processes accounting, tcpdump, nmap, ..."
-msgstr "Offer monitro, cyfrifo prosesau, tcpdunp, nmap..."
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:204
-#, c-format
-msgid "Mandriva Wizards"
-msgstr "Dewiniaid Mandriva"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:205
-#, c-format
-msgid "Wizards to configure server"
-msgstr "Dewiniaid i ffurfweddu gweinydd"
-
 #: ../../advertising/MandrivaOne-advert-1.pl:1
 #: ../../advertising/MandrivaOne-advert-2.pl:1
 #: ../../advertising/MandrivaOne-advert-3.pl:1
@@ -381,9 +30,9 @@ msgstr "Dewiniaid i ffurfweddu gweinydd"
 #: ../../advertising/MandrivaOne-advert-7.pl:1
 #: ../../advertising/MandrivaOne-advert-8.pl:1
 #: ../../advertising/MandrivaOne-advert-9.pl:1
-#, c-format
-msgid "OpenMandriva Lx 2012 Alpha (Tenacious Underdog)"
-msgstr ""
+#, fuzzy, c-format
+msgid "OpenMandriva Lx 2013.0"
+msgstr "Gosod OpenMandriva Lx %s"
 
 #: any.pm:110
 #, c-format
@@ -436,18 +85,14 @@ msgid "URL must start with ftp:// or http://"
 msgstr "Rhaid i'r URL gychwyn gyda ftp:// neu http://"
 
 #: any.pm:188
-#, c-format
-msgid ""
-"Contacting OpenMandriva Lx web site to get the list of available mirrors..."
+#, fuzzy, c-format
+msgid "Connecting to OpenMandriva to get the list of available mirrors..."
 msgstr "Cysylltu â safle gwe OpenMandriva Lx i estyn y rhestr o ddrychau..."
 
 #: any.pm:193
-#, c-format
-msgid ""
-"Failed contacting OpenMandriva Lx web site to get the list of available "
-"mirrors"
-msgstr ""
-"Methwyd cysylltu â safle gwe OpenMandriva Lx i estyn y rhestr o ddrychau"
+#, fuzzy, c-format
+msgid "Failed to get the list of available mirrors."
+msgstr "Cysylltu â safle gwe OpenMandriva Lx i estyn y rhestr o ddrychau..."
 
 #: any.pm:203
 #, c-format
@@ -659,6 +304,11 @@ msgstr "Bydd lluniau o'r sgrin ar gael ar ôl gosod yn %s"
 msgid "Installation"
 msgstr "Gosod"
 
+#: gtk.pm:132
+#, c-format
+msgid "Configuration"
+msgstr "Ffurfweddiad"
+
 #: install2.pm:168
 #, c-format
 msgid "You must also format %s"
@@ -743,7 +393,7 @@ msgstr ""
 msgid "No description"
 msgstr ""
 
-#: pkgs.pm:280
+#: pkgs.pm:279
 #, c-format
 msgid ""
 "Some packages requested by %s cannot be installed:\n"
@@ -752,27 +402,27 @@ msgstr ""
 "Nid yw'n bosib gosod rhai pecynnau gofynnwyd gan %s:\n"
 "%s"
 
-#: pkgs.pm:376 pkgs.pm:403
+#: pkgs.pm:375 pkgs.pm:402
 #, c-format
 msgid "An error occurred:"
 msgstr "Digwyddodd gwall:"
 
-#: pkgs.pm:395
+#: pkgs.pm:394
 #, fuzzy, c-format
 msgid "A fatal error occurred: %s."
 msgstr "Digwyddodd gwall:"
 
-#: pkgs.pm:876 pkgs.pm:918
+#: pkgs.pm:877 pkgs.pm:919
 #, c-format
 msgid "Do not ask again"
 msgstr ""
 
-#: pkgs.pm:892
+#: pkgs.pm:893
 #, c-format
 msgid "%d installation transactions failed"
 msgstr "Methodd trafod gosod %d"
 
-#: pkgs.pm:893
+#: pkgs.pm:894
 #, c-format
 msgid "Installation of packages failed:"
 msgstr "Methodd gosod pecynnau:"
@@ -814,254 +464,244 @@ msgstr "Gosod OpenMandriva Lx %s"
 msgid "<Tab>/<Alt-Tab> between elements"
 msgstr "<Tab>/<Alt-Tab> rhwng elfennau"
 
-#: steps_gtk.pm:147
+#: steps_gtk.pm:151
 #, c-format
 msgid "Xorg server is slow to start. Please wait..."
 msgstr "Mae gweinydd Xorg yn araf ei gychwyn. Arhoswch..."
 
-#: steps_gtk.pm:211
-#, c-format
+#: steps_gtk.pm:216
+#, fuzzy, c-format
 msgid ""
 "Your system is low on resources. You may have some problem installing\n"
-"OpenMandriva Lx. If that occurs, you can try a text install instead. For "
+"OpenMandriva Lx. If that occurs, you can try a text install instead. To do "
 "this,\n"
-"press `F1' when booting on CDROM, then enter `text'."
+"press `F1' at the boot menu, then enter `text'."
 msgstr ""
 "Mae eich system yn brin o adnoddau. Efallai bod gennych broblem wrth osod\n"
 "OpenMandriva Lx. Os yw hynny'n digwydd, defnyddiwch y gosod testun  yn lle\n"
 "hynny. I wneud hynny pwyswch 'F1' wrth gychwyn ar CD-ROM, ac yna teipio "
 "'text'."
 
-#: steps_gtk.pm:241 steps_gtk.pm:776
+#: steps_gtk.pm:246 steps_gtk.pm:761
 #, c-format
 msgid "Media Selection"
 msgstr "Dewis Cyfrwng"
 
-#: steps_gtk.pm:252
-#, c-format
-msgid "Install Mandriva KDE Desktop"
+#: steps_gtk.pm:257
+#, fuzzy, c-format
+msgid "Install KDE Desktop Environment"
 msgstr "Gosod Bwrdd Gwaith Mandriva KDE"
 
-#: steps_gtk.pm:253
-#, c-format
-msgid "Install Mandriva GNOME Desktop"
+#: steps_gtk.pm:258
+#, fuzzy, c-format
+msgid "Install GNOME Desktop Environment"
 msgstr "Gosod Bwrdd Gwaith Mandriva GNOME"
 
-#: steps_gtk.pm:254
+#: steps_gtk.pm:259
 #, c-format
 msgid "Custom install"
 msgstr "Gosodiad addasu"
 
-#: steps_gtk.pm:275
+#: steps_gtk.pm:280
 #, c-format
 msgid "KDE Desktop"
 msgstr "Bwrdd Gwaith KDE"
 
-#: steps_gtk.pm:276
+#: steps_gtk.pm:281
 #, c-format
 msgid "GNOME Desktop"
 msgstr "Bwrdd Gwaith GNOME"
 
-#: steps_gtk.pm:277
+#: steps_gtk.pm:282
 #, c-format
 msgid "Custom Desktop"
 msgstr "Bwrdd Gwaith Addasu"
 
-#: steps_gtk.pm:283
+#: steps_gtk.pm:288
 #, c-format
 msgid "Here's a preview of the '%s' desktop."
 msgstr "Dyma ragolwg o fwrdd gwaith '%s'."
 
-#: steps_gtk.pm:310
+#: steps_gtk.pm:315
 #, c-format
 msgid "Click on images in order to see a bigger preview"
 msgstr "Cliciwch ar y delweddau i weld y rhagolwg yn fwy"
 
-#: steps_gtk.pm:326 steps_interactive.pm:628 steps_list.pm:31
+#: steps_gtk.pm:331 steps_interactive.pm:628 steps_list.pm:31
 #, c-format
 msgid "Package Group Selection"
 msgstr "Dewis Grŵp y Pecyn"
 
-#: steps_gtk.pm:350 steps_interactive.pm:645
+#: steps_gtk.pm:355 steps_interactive.pm:645
 #, c-format
 msgid "Individual package selection"
 msgstr "Dewis pecynnau unigol."
 
-#: steps_gtk.pm:357
+#: steps_gtk.pm:362
 #, c-format
 msgid "Unselect All"
 msgstr ""
 
-#: steps_gtk.pm:375 steps_interactive.pm:557
+#: steps_gtk.pm:380 steps_interactive.pm:557
 #, c-format
 msgid "Total size: %d / %d MB"
 msgstr "Cyfanswm maint: %d / %d MB"
 
-#: steps_gtk.pm:420
+#: steps_gtk.pm:425
 #, c-format
 msgid "Version: "
 msgstr "Fersiwn:"
 
-#: steps_gtk.pm:421
+#: steps_gtk.pm:426
 #, c-format
 msgid "Size: "
 msgstr "Maint:"
 
-#: steps_gtk.pm:421
+#: steps_gtk.pm:426
 #, c-format
 msgid "%d KB\n"
 msgstr "%d KB\n"
 
-#: steps_gtk.pm:422
+#: steps_gtk.pm:427
 #, c-format
 msgid "Importance: "
 msgstr "Pwysigrwydd: "
 
-#: steps_gtk.pm:457
+#: steps_gtk.pm:462
 #, c-format
 msgid "You cannot select/unselect this package"
 msgstr "Does dim modd i chi ddewis/dad-ddewis y pecyn"
 
-#: steps_gtk.pm:461
+#: steps_gtk.pm:466
 #, c-format
 msgid "due to missing %s"
 msgstr "oherwydd %s coll"
 
-#: steps_gtk.pm:462
+#: steps_gtk.pm:467
 #, c-format
 msgid "due to unsatisfied %s"
 msgstr "oherwydd %s annigonol"
 
-#: steps_gtk.pm:463
+#: steps_gtk.pm:468
 #, c-format
 msgid "trying to promote %s"
 msgstr "ceisio hyrwyddo %s"
 
-#: steps_gtk.pm:464
+#: steps_gtk.pm:469
 #, c-format
 msgid "in order to keep %s"
 msgstr "er mwyn cadw %s"
 
-#: steps_gtk.pm:469
+#: steps_gtk.pm:474
 #, c-format
 msgid ""
 "You cannot select this package as there is not enough space left to install "
 "it"
 msgstr "Nid oes modd i chi ddewis y pecyn hwn - does dim lle ar ôl i'w osod"
 
-#: steps_gtk.pm:472
+#: steps_gtk.pm:477
 #, c-format
 msgid "The following packages are going to be installed"
 msgstr "Mae'r pecynnau canlynol i'w gosod"
 
-#: steps_gtk.pm:473
+#: steps_gtk.pm:478
 #, c-format
 msgid "The following packages are going to be removed"
 msgstr "Bydd y pecynnau canlynol yn cael eu tynnu"
 
-#: steps_gtk.pm:499
+#: steps_gtk.pm:504
 #, c-format
 msgid "This is a mandatory package, it cannot be unselected"
 msgstr "Mae hwn yn becyn hanfodol, does dim modd ei ddad-ddewis"
 
-#: steps_gtk.pm:501
+#: steps_gtk.pm:506
 #, c-format
 msgid "You cannot unselect this package. It is already installed"
 msgstr "Does dim mod dad-ddewis y pecyn, mae wedi ei osod yn barod"
 
-#: steps_gtk.pm:503
+#: steps_gtk.pm:508
 #, c-format
 msgid "You cannot unselect this package. It must be upgraded"
 msgstr "Does dim mod dad-ddewis y pecyn hwn. Rhaid ei ddiweddaru"
 
-#: steps_gtk.pm:507
+#: steps_gtk.pm:512
 #, c-format
 msgid "Show automatically selected packages"
 msgstr "Dangoswch y pecynnau dewis awtomatig"
 
-#: steps_gtk.pm:511
+#: steps_gtk.pm:516
 #, c-format
 msgid "Install"
 msgstr "Gosod"
 
-#: steps_gtk.pm:514
+#: steps_gtk.pm:519
 #, c-format
 msgid "Load/Save selection"
 msgstr "Llwytho/Cadw'r dewis"
 
-#: steps_gtk.pm:515
+#: steps_gtk.pm:520
 #, c-format
 msgid "Updating package selection"
 msgstr "Diweddaru'r dewis o becynnau"
 
-#: steps_gtk.pm:520
+#: steps_gtk.pm:525
 #, c-format
 msgid "Minimal install"
 msgstr "Gosodiad lleiaf"
 
-#: steps_gtk.pm:533
+#: steps_gtk.pm:538
 #, c-format
 msgid "Software Management"
 msgstr "Rheoli Meddalwedd"
 
-#: steps_gtk.pm:533 steps_interactive.pm:438
+#: steps_gtk.pm:538 steps_interactive.pm:438
 #, c-format
 msgid "Choose the packages you want to install"
 msgstr "Dewiswch y pecynnau yr hoffech chi eu gosod"
 
-#: steps_gtk.pm:550 steps_interactive.pm:659 steps_list.pm:33
+#: steps_gtk.pm:555 steps_interactive.pm:659 steps_list.pm:33
 #, c-format
 msgid "Installing"
 msgstr "Gosod"
 
-#: steps_gtk.pm:581
-#, c-format
-msgid "Bored?"
-msgstr ""
-
-#: steps_gtk.pm:581
-#, c-format
-msgid "Boss button"
-msgstr ""
-
-#: steps_gtk.pm:587
+#: steps_gtk.pm:586
 #, c-format
 msgid "No details"
 msgstr "Dim manylion"
 
-#: steps_gtk.pm:620
+#: steps_gtk.pm:605
 #, c-format
 msgid "Time remaining:"
 msgstr "Amser yn weddill:"
 
-#: steps_gtk.pm:621
+#: steps_gtk.pm:606
 #, c-format
 msgid "(estimating...)"
 msgstr "(amcangyfrif...)"
 
-#: steps_gtk.pm:651
+#: steps_gtk.pm:636
 #, c-format
 msgid "%d package"
 msgid_plural "%d packages"
 msgstr[0] "%d pecyn"
 msgstr[1] "%d pecyn"
 
-#: steps_gtk.pm:706 steps_interactive.pm:824 steps_list.pm:44
+#: steps_gtk.pm:691 steps_interactive.pm:824 steps_list.pm:44
 #, c-format
 msgid "Summary"
 msgstr "Crynodeb"
 
-#: steps_gtk.pm:725
+#: steps_gtk.pm:710
 #, c-format
 msgid "Configure"
 msgstr "Ffurfweddu"
 
-#: steps_gtk.pm:742 steps_interactive.pm:820 steps_interactive.pm:973
+#: steps_gtk.pm:727 steps_interactive.pm:820 steps_interactive.pm:973
 #, c-format
 msgid "not configured"
 msgstr "heb ffurfweddu"
 
-#: steps_gtk.pm:785 steps_interactive.pm:336
+#: steps_gtk.pm:770 steps_interactive.pm:336
 #, c-format
 msgid ""
 "The following installation media have been found.\n"
@@ -1070,7 +710,7 @@ msgstr ""
 "Mae'r cyfrwng gosod canlynol wedi ei ganfod.\n"
 "Os hoffech hepgor rhai ohonynt, dad-ddewiswch nhw nawr."
 
-#: steps_gtk.pm:801 steps_interactive.pm:342
+#: steps_gtk.pm:786 steps_interactive.pm:342
 #, c-format
 msgid ""
 "You have the option to copy the contents of the CDs onto the hard disk drive "
@@ -1083,7 +723,7 @@ msgstr ""
 "Bydd yna'n parhau o'r disg caled a bydd y pecynnau ar gael unwaith i'r "
 "system gael ei osod yn gyflawn."
 
-#: steps_gtk.pm:803 steps_interactive.pm:344
+#: steps_gtk.pm:788 steps_interactive.pm:344
 #, c-format
 msgid "Copy whole CDs"
 msgstr "Copïo'r CDau cyfan"
@@ -1146,12 +786,13 @@ msgid "Upgrade previous installation (not recommended)"
 msgstr "Diweddaru'r gosodiad blaenorol (argymell i beidio)"
 
 #: steps_interactive.pm:215
-#, c-format
+#, fuzzy, c-format
 msgid ""
-"Installer has detected that your installed OpenMandriva Lx system could not\n"
+"The installer has detected that your current OpenMandriva Lx system could "
+"not\n"
 "safely be upgraded to %s.\n"
 "\n"
-"New installation replacing your previous one is recommended.\n"
+"A new installation replacing your previous one is recommended.\n"
 "\n"
 "Warning : you should backup all your personal data before choosing \"New\n"
 "Installation\"."
@@ -1649,6 +1290,217 @@ msgid ""
 "_: Keep these entry short\n"
 "Exit"
 msgstr "Gorffen"
+
+#~ msgid "Workstation"
+#~ msgstr "Gweithfan"
+
+#~ msgid "Office Workstation"
+#~ msgstr "Gweithfan Swyddfa"
+
+#, fuzzy
+#~ msgid ""
+#~ "Office programs: wordprocessors (OpenOffice.org Writer, Kword), "
+#~ "spreadsheets (OpenOffice.org Calc, Kspread), PDF viewers, etc"
+#~ msgstr ""
+#~ "Rhaglenni swyddfa: prosesydd geiriau (LibreOffice Writer, Kword), "
+#~ "taenlenni (LibreOffice Calc, Kspread), ddarllenydd pdf, ag ati"
+
+#~ msgid "Game station"
+#~ msgstr "Man chwarae"
+
+#, fuzzy
+#~ msgid "Amusement programs: arcade, boards, strategy, etc."
+#~ msgstr "Rhaglenni difyrrwch: arcêd, gemau bwrdd, strategaeth, ag ati"
+
+#~ msgid "Multimedia station"
+#~ msgstr "Man aml-gyfrwng"
+
+#~ msgid "Sound and video playing/editing programs"
+#~ msgstr "Chwarae sain a fideo/rhaglenni golygu"
+
+#~ msgid "Internet station"
+#~ msgstr "Man rhyngrwyd"
+
+#~ msgid ""
+#~ "Set of tools to read and send mail and news (mutt, tin..) and to browse "
+#~ "the Web"
+#~ msgstr ""
+#~ "Casgliad o offer i ddarllen ac anfon e-bost a newyddion (mutt, tin..) ac "
+#~ "i bori'r We"
+
+#~ msgid "Network Computer (client)"
+#~ msgstr "Cyfrifiadur Rhwydwaith (cleient)"
+
+#~ msgid "Clients for different protocols including ssh"
+#~ msgstr "Cleientiaid ar gyfer protocolau amrywiol yn cynnwys ssh"
+
+#~ msgid "Tools to ease the configuration of your computer"
+#~ msgstr "Offer i wneud ffurfweddu'ch cyfrifiadur yn haws"
+
+#~ msgid "Console Tools"
+#~ msgstr "Offer y Consol"
+
+#~ msgid "Editors, shells, file tools, terminals"
+#~ msgstr "Golygyddion, cregyn, offer ffeilio, terfynellau"
+
+#~ msgid "Development"
+#~ msgstr "Datblygiad"
+
+#~ msgid "C and C++ development libraries, programs and include files"
+#~ msgstr "Llyfrgelloedd datblygiadol C a C++, rhaglenni a ffeiliau cynnwys"
+
+#~ msgid "Documentation"
+#~ msgstr "Dogfennau"
+
+#~ msgid "Books and Howto's on Linux and Free Software"
+#~ msgstr "Llyfrau a Howto's ar Linux a Meddalwedd Rhydd"
+
+#~ msgid "LSB"
+#~ msgstr "LSB"
+
+#~ msgid "Linux Standard Base. Third party applications support"
+#~ msgstr "Linux Standard Base. Cefnogaeth i raglenni trydydd parti"
+
+#~ msgid "Web Server"
+#~ msgstr "Gweinydd Gwe"
+
+#~ msgid "Apache"
+#~ msgstr "Apache"
+
+#~ msgid "Groupware"
+#~ msgstr "Grwpwar"
+
+#~ msgid "Kolab Server"
+#~ msgstr "Gweinydd Kolab"
+
+#~ msgid "Firewall/Router"
+#~ msgstr "Mur Gwarchod/Llwybrydd"
+
+#~ msgid "Internet gateway"
+#~ msgstr "Porth i'r rhyngrwyd"
+
+#~ msgid "Mail/News"
+#~ msgstr "E-bost/Newyddion"
+
+#~ msgid "Postfix mail server, Inn news server"
+#~ msgstr "Gweinydd e-bost Postfix, gweinydd newyddion Inn"
+
+#~ msgid "Directory Server"
+#~ msgstr "Cyfeiriadur Gweinydd"
+
+#~ msgid "FTP Server"
+#~ msgstr "Gweinydd FTP"
+
+#~ msgid "ProFTPd"
+#~ msgstr "ProFTPd"
+
+#~ msgid "DNS/NIS"
+#~ msgstr "DNS/NIS"
+
+#~ msgid "Domain Name and Network Information Server"
+#~ msgstr "Gweinydd Enw Parth a Gwybodaeth Rhwydwaith"
+
+#~ msgid "File and Printer Sharing Server"
+#~ msgstr "Gweinydd Ffeil a Rhannu Argraffydd"
+
+#~ msgid "NFS Server, Samba server"
+#~ msgstr "Gweinydd NSF, gweinydd Samba"
+
+#~ msgid "Database"
+#~ msgstr "Cronfa Ddata"
+
+#~ msgid "PostgreSQL and MySQL Database Server"
+#~ msgstr "Gweinydd CronfaDdata PostgreSQL a MySQL"
+
+#~ msgid "Web/FTP"
+#~ msgstr "Gwe/FTP"
+
+#~ msgid "Apache, Pro-ftpd"
+#~ msgstr "Apache, Pro-ftpd"
+
+#~ msgid "Mail"
+#~ msgstr "E-bost"
+
+#~ msgid "Postfix mail server"
+#~ msgstr "Gweinydd e-bost Postfix"
+
+#~ msgid "PostgreSQL or MySQL database server"
+#~ msgstr "Gweinydd cronfa data PostgreSQL neu MySQL"
+
+#~ msgid "Network Computer server"
+#~ msgstr "Gweinydd Cyfrifiadur Rhwydwaith"
+
+#~ msgid "NFS server, SMB server, Proxy server, ssh server"
+#~ msgstr "Gweinydd NFS, gweinydd SMB, gweinydd dirprwyol, gweinydd ssh"
+
+#~ msgid "Graphical Environment"
+#~ msgstr "Amgylchedd Graffig"
+
+#~ msgid "KDE Workstation"
+#~ msgstr "Man Gwaith KDE"
+
+#~ msgid ""
+#~ "The K Desktop Environment, the basic graphical environment with a "
+#~ "collection of accompanying tools"
+#~ msgstr ""
+#~ "KDE - Amgylchedd Bwrdd gwaith K, yr amgylchedd graffig sylfaenol gyda "
+#~ "chasgliad o offer"
+
+#~ msgid "GNOME Workstation"
+#~ msgstr "Man Gwaith Gnome"
+
+#~ msgid ""
+#~ "A graphical environment with user-friendly set of applications and "
+#~ "desktop tools"
+#~ msgstr ""
+#~ "Amgylchedd graffig gyda chasgliad o raglenni ac offer bwrdd gwaith hawdd "
+#~ "eu defnyddio."
+
+#~ msgid "LXDE Desktop"
+#~ msgstr "Bwrdd Gwaith LXDE"
+
+#~ msgid ""
+#~ "A lightweight & fast graphical environment with user-friendly set of "
+#~ "applications and desktop tools"
+#~ msgstr ""
+#~ "Amgylchedd graffig ysgafn a chyflym gyda chasgliad o raglenni ac offer "
+#~ "bwrdd gwaith hawdd eu defnyddio."
+
+#~ msgid "Other Graphical Desktops"
+#~ msgstr "Byrddau Gwaith Graffigol Eraill"
+
+#~ msgid "Window Maker, Enlightenment, Fvwm, etc"
+#~ msgstr "Window Maker, Enlightenment, Fvwm, ag ati"
+
+#~ msgid "Utilities"
+#~ msgstr "Gwasanaethau"
+
+#~ msgid "SSH Server"
+#~ msgstr "Gweinydd SSH"
+
+#~ msgid "Webmin"
+#~ msgstr "Webmin"
+
+#~ msgid "Webmin Remote Configuration Server"
+#~ msgstr "Gweinydd Ffurfweddiad Pell Webmin"
+
+#~ msgid "Network Utilities/Monitoring"
+#~ msgstr "Gwasanaethau Rhwydwaith/Monitro"
+
+#~ msgid "Monitoring tools, processes accounting, tcpdump, nmap, ..."
+#~ msgstr "Offer monitro, cyfrifo prosesau, tcpdunp, nmap..."
+
+#~ msgid "Mandriva Wizards"
+#~ msgstr "Dewiniaid Mandriva"
+
+#~ msgid "Wizards to configure server"
+#~ msgstr "Dewiniaid i ffurfweddu gweinydd"
+
+#~ msgid ""
+#~ "Failed contacting OpenMandriva Lx web site to get the list of available "
+#~ "mirrors"
+#~ msgstr ""
+#~ "Methwyd cysylltu â safle gwe OpenMandriva Lx i estyn y rhestr o ddrychau"
 
 #~ msgid ""
 #~ "_: Keep these entry short\n"

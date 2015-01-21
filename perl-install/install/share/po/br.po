@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DrakX 10.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-31 17:24+0200\n"
+"POT-Creation-Date: 2015-01-22 00:44+0100\n"
 "PO-Revision-Date: 2009-03-30 15:55+0200\n"
 "Last-Translator: Thierry Vignaud <tvignaud@mandriva.com>\n"
 "Language-Team: Brezhoneg <ofisk@wanadoo.fr>\n"
@@ -16,349 +16,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1;plural=0\n"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:14
-#, c-format
-msgid "Workstation"
-msgstr "Post labour"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:16
-#, c-format
-msgid "Office Workstation"
-msgstr "Post labour burevek"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:18
-#, fuzzy, c-format
-msgid ""
-"Office programs: wordprocessors (OpenOffice.org Writer, Kword), spreadsheets "
-"(OpenOffice.org Calc, Kspread), PDF viewers, etc"
-msgstr ""
-"Programmoù burev : skridtreterezhioù (LibreOffice Writer, Kword), logerioù "
-"(LibreOffice Calc, Kspread), gwelerien PDF, ..."
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:23
-#, c-format
-msgid "Game station"
-msgstr "Arsav c'hoarioù"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:24
-#, c-format
-msgid "Amusement programs: arcade, boards, strategy, etc."
-msgstr ""
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:28
-#, c-format
-msgid "Multimedia station"
-msgstr "Arsav liesvedia"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:29
-#, c-format
-msgid "Sound and video playing/editing programs"
-msgstr "Programmoù evit seniñ/aozañ tonioù ha videoù"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:34
-#, c-format
-msgid "Toys"
-msgstr ""
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:35
-#, c-format
-msgid "Apps and tools of less useful value, yet entertaining..."
-msgstr ""
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:39
-#, c-format
-msgid "Internet station"
-msgstr "Arsav internet"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:40
-#, c-format
-msgid ""
-"Set of tools to read and send mail and news (mutt, tin..) and to browse the "
-"Web"
-msgstr ""
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:45
-#, c-format
-msgid "Network Computer (client)"
-msgstr "Urzhiataer rouedad (kliant)"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:46
-#, c-format
-msgid "Clients for different protocols including ssh"
-msgstr "Pratikoù evit meur a gomennad (da skouer ssh)"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:50 gtk.pm:132
-#, c-format
-msgid "Configuration"
-msgstr "Kefluniadur"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:51
-#, c-format
-msgid "Tools to ease the configuration of your computer"
-msgstr "Ostilhoù evit kefluniañ hoc'h urzhiataer dre aes"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:55
-#, c-format
-msgid "Console Tools"
-msgstr "Ostilhoù letrin"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:56
-#, c-format
-msgid "Editors, shells, file tools, terminals"
-msgstr "Aozerien, shelloù, ostilhoù restr, termenelloù"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:60
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:170
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:172
-#, c-format
-msgid "Development"
-msgstr "Diorren"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:61
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:173
-#, c-format
-msgid "C and C++ development libraries, programs and include files"
-msgstr ""
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:64
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:177
-#, c-format
-msgid "Documentation"
-msgstr "Teuliadur"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:65
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:178
-#, c-format
-msgid "Books and Howto's on Linux and Free Software"
-msgstr ""
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:69
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:181
-#, c-format
-msgid "LSB"
-msgstr "LSB"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:70
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:182
-#, c-format
-msgid "Linux Standard Base. Third party applications support"
-msgstr ""
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:80
-#, c-format
-msgid "Web Server"
-msgstr "Servijer Web"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:81
-#, c-format
-msgid "Apache"
-msgstr "Apache"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:84
-#, c-format
-msgid "Groupware"
-msgstr "Strollant"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:85
-#, c-format
-msgid "Kolab Server"
-msgstr "Servijer Kolab"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:88
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:129
-#, c-format
-msgid "Firewall/Router"
-msgstr "Moger tan/Henter"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:89
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:130
-#, c-format
-msgid "Internet gateway"
-msgstr "Dreuzell an Internet"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:92
-#, c-format
-msgid "Mail/News"
-msgstr "Posteloù/keleier"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:93
-#, c-format
-msgid "Postfix mail server, Inn news server"
-msgstr "Servijer posteloù Postfix, servijer keleier Inn"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:96
-#, c-format
-msgid "Directory Server"
-msgstr "Levr-bloaz"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:100
-#, c-format
-msgid "FTP Server"
-msgstr "Servijer FTP"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:101
-#, c-format
-msgid "ProFTPd"
-msgstr "ProFTPd"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:104
-#, c-format
-msgid "DNS/NIS"
-msgstr "DNS/NIS"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:105
-#, c-format
-msgid "Domain Name and Network Information Server"
-msgstr "Servijer DNS ha NIS"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:108
-#, c-format
-msgid "File and Printer Sharing Server"
-msgstr "Servijer rennañ restroù ha moullerez"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:109
-#, c-format
-msgid "NFS Server, Samba server"
-msgstr "Servijer NFS, servijer Samba"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:112
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:125
-#, c-format
-msgid "Database"
-msgstr "Stlennvon"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:113
-#, c-format
-msgid "PostgreSQL and MySQL Database Server"
-msgstr "Servijer stlennvon PostgreSQL ha MySQL"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:117
-#, c-format
-msgid "Web/FTP"
-msgstr "Web/FTP"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:118
-#, c-format
-msgid "Apache, Pro-ftpd"
-msgstr "Apache, Pro-ftpd"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:121
-#, c-format
-msgid "Mail"
-msgstr "Post"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:122
-#, c-format
-msgid "Postfix mail server"
-msgstr "Servijer postel Postfix"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:126
-#, c-format
-msgid "PostgreSQL or MySQL database server"
-msgstr "Servijer stlennvon PostgreSQL pe MySQL"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:133
-#, c-format
-msgid "Network Computer server"
-msgstr "Servijer rouedad"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:134
-#, c-format
-msgid "NFS server, SMB server, Proxy server, ssh server"
-msgstr "Servijer NFS, servijer SMB, servijer proksi, servijer SSH"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:141
-#, c-format
-msgid "Graphical Environment"
-msgstr "Endeo grafikel"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:145
-#, c-format
-msgid "KDE Workstation"
-msgstr "Post burevek KDE"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:146
-#, c-format
-msgid ""
-"The K Desktop Environment, the basic graphical environment with a collection "
-"of accompanying tools"
-msgstr "An Endro Burev K gant he ostilhoù"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:150
-#, c-format
-msgid "GNOME Workstation"
-msgstr "Post burevek GNOME"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:151
-#, c-format
-msgid ""
-"A graphical environment with user-friendly set of applications and desktop "
-"tools"
-msgstr ""
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:156
-#, c-format
-msgid "LXDE Desktop"
-msgstr "Burev LXDE"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:158
-#, c-format
-msgid ""
-"A lightweight & fast graphical environment with user-friendly set of "
-"applications and desktop tools"
-msgstr ""
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:162
-#, c-format
-msgid "Other Graphical Desktops"
-msgstr "Burevioù c'hrafek all"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:163
-#, c-format
-msgid "Window Maker, Enlightenment, Fvwm, etc"
-msgstr "Window Maker, Enlightenment, Fvwm, etc"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:187
-#, c-format
-msgid "Utilities"
-msgstr "Mavegoù"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:189
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:190
-#, c-format
-msgid "SSH Server"
-msgstr "Servijer SSH"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:194
-#, c-format
-msgid "Webmin"
-msgstr "Webmin"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:195
-#, c-format
-msgid "Webmin Remote Configuration Server"
-msgstr "Servijer Webmin ar gefluniadur a-bell"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:199
-#, c-format
-msgid "Network Utilities/Monitoring"
-msgstr "Ostilhoù ar rouedad/diwall"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:200
-#, c-format
-msgid "Monitoring tools, processes accounting, tcpdump, nmap, ..."
-msgstr ""
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:204
-#, c-format
-msgid "Mandriva Wizards"
-msgstr "Skozelerien Mandriva"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:205
-#, c-format
-msgid "Wizards to configure server"
-msgstr "Skozelerien evit kefluniañ ar servijer"
 
 #: ../../advertising/MandrivaOne-advert-1.pl:1
 #: ../../advertising/MandrivaOne-advert-2.pl:1
@@ -369,9 +26,9 @@ msgstr "Skozelerien evit kefluniañ ar servijer"
 #: ../../advertising/MandrivaOne-advert-7.pl:1
 #: ../../advertising/MandrivaOne-advert-8.pl:1
 #: ../../advertising/MandrivaOne-advert-9.pl:1
-#, c-format
-msgid "OpenMandriva Lx 2012 Alpha (Tenacious Underdog)"
-msgstr ""
+#, fuzzy, c-format
+msgid "OpenMandriva Lx 2013.0"
+msgstr "Staliadur OpenMandriva Lx %s"
 
 #: any.pm:110
 #, c-format
@@ -419,21 +76,18 @@ msgid "URL must start with ftp:// or http://"
 msgstr "Dao en deus an URL kregiñ gant ftp:// pe http://"
 
 #: any.pm:188
-#, c-format
-msgid ""
-"Contacting OpenMandriva Lx web site to get the list of available mirrors..."
+#, fuzzy, c-format
+msgid "Connecting to OpenMandriva to get the list of available mirrors..."
 msgstr ""
 "O taremprediñ al lec'hienn OpenMandriva Lx evit kaout roll ar melezouroù "
 "hegerz ..."
 
 #: any.pm:193
-#, c-format
-msgid ""
-"Failed contacting OpenMandriva Lx web site to get the list of available "
-"mirrors"
+#, fuzzy, c-format
+msgid "Failed to get the list of available mirrors."
 msgstr ""
-"Sac'het en ur taremprediñ al lec'hienn OpenMandriva Lx evit kaout roll ar "
-"melezouroù hegerz "
+"O taremprediñ al lec'hienn OpenMandriva Lx evit kaout roll ar melezouroù "
+"hegerz ..."
 
 #: any.pm:203
 #, c-format
@@ -645,6 +299,11 @@ msgstr "Skrammpakeroù a vo bet kavet goude staliañ e %s"
 msgid "Installation"
 msgstr "O staliañ"
 
+#: gtk.pm:132
+#, c-format
+msgid "Configuration"
+msgstr "Kefluniadur"
+
 #: install2.pm:168
 #, c-format
 msgid "You must also format %s"
@@ -727,7 +386,7 @@ msgstr ""
 msgid "No description"
 msgstr ""
 
-#: pkgs.pm:280
+#: pkgs.pm:279
 #, c-format
 msgid ""
 "Some packages requested by %s cannot be installed:\n"
@@ -736,27 +395,27 @@ msgstr ""
 "Ne m'eus ket gallet staliañ un darn pakad goulennet gant %s :\n"
 "%s"
 
-#: pkgs.pm:376 pkgs.pm:403
+#: pkgs.pm:375 pkgs.pm:402
 #, c-format
 msgid "An error occurred:"
 msgstr "Ur fazi zo bet :"
 
-#: pkgs.pm:395
+#: pkgs.pm:394
 #, fuzzy, c-format
 msgid "A fatal error occurred: %s."
 msgstr "Ur fazi zo bet :"
 
-#: pkgs.pm:876 pkgs.pm:918
+#: pkgs.pm:877 pkgs.pm:919
 #, c-format
 msgid "Do not ask again"
 msgstr ""
 
-#: pkgs.pm:892
+#: pkgs.pm:893
 #, c-format
 msgid "%d installation transactions failed"
 msgstr "%d gra zo bet sac'het"
 
-#: pkgs.pm:893
+#: pkgs.pm:894
 #, c-format
 msgid "Installation of packages failed:"
 msgstr "Sac'het et bet staliañ ar pakadoù :"
@@ -794,131 +453,131 @@ msgstr "Staliadur OpenMandriva Lx %s"
 msgid "<Tab>/<Alt-Tab> between elements"
 msgstr "<Tab>/<Alt-Tab> etre elfennoù"
 
-#: steps_gtk.pm:147
+#: steps_gtk.pm:151
 #, c-format
 msgid "Xorg server is slow to start. Please wait..."
 msgstr ""
 
-#: steps_gtk.pm:211
+#: steps_gtk.pm:216
 #, c-format
 msgid ""
 "Your system is low on resources. You may have some problem installing\n"
-"OpenMandriva Lx. If that occurs, you can try a text install instead. For "
+"OpenMandriva Lx. If that occurs, you can try a text install instead. To do "
 "this,\n"
-"press `F1' when booting on CDROM, then enter `text'."
+"press `F1' at the boot menu, then enter `text'."
 msgstr ""
 
-#: steps_gtk.pm:241 steps_gtk.pm:776
+#: steps_gtk.pm:246 steps_gtk.pm:761
 #, c-format
 msgid "Media Selection"
 msgstr "Diuzadenn ar media"
 
-#: steps_gtk.pm:252
-#, c-format
-msgid "Install Mandriva KDE Desktop"
+#: steps_gtk.pm:257
+#, fuzzy, c-format
+msgid "Install KDE Desktop Environment"
 msgstr "Staliañ burev KDE Mandriva"
 
-#: steps_gtk.pm:253
-#, c-format
-msgid "Install Mandriva GNOME Desktop"
+#: steps_gtk.pm:258
+#, fuzzy, c-format
+msgid "Install GNOME Desktop Environment"
 msgstr "Staliañ burev GNOME Mandriva"
 
-#: steps_gtk.pm:254
+#: steps_gtk.pm:259
 #, c-format
 msgid "Custom install"
 msgstr "Staliadur diouzoc'h"
 
-#: steps_gtk.pm:275
+#: steps_gtk.pm:280
 #, c-format
 msgid "KDE Desktop"
 msgstr "Burev KDE"
 
-#: steps_gtk.pm:276
+#: steps_gtk.pm:281
 #, c-format
 msgid "GNOME Desktop"
 msgstr "Burev GNOME"
 
-#: steps_gtk.pm:277
+#: steps_gtk.pm:282
 #, c-format
 msgid "Custom Desktop"
 msgstr "Burev diouzoc'h"
 
-#: steps_gtk.pm:283
+#: steps_gtk.pm:288
 #, c-format
 msgid "Here's a preview of the '%s' desktop."
 msgstr "Setu ur rakwell eus burev « %s »."
 
-#: steps_gtk.pm:310
+#: steps_gtk.pm:315
 #, c-format
 msgid "Click on images in order to see a bigger preview"
 msgstr ""
 
-#: steps_gtk.pm:326 steps_interactive.pm:628 steps_list.pm:31
+#: steps_gtk.pm:331 steps_interactive.pm:628 steps_list.pm:31
 #, c-format
 msgid "Package Group Selection"
 msgstr "Diuzadenn strollad pakadoù"
 
-#: steps_gtk.pm:350 steps_interactive.pm:645
+#: steps_gtk.pm:355 steps_interactive.pm:645
 #, c-format
 msgid "Individual package selection"
 msgstr "Diuz pakadoù unan hag unan"
 
-#: steps_gtk.pm:357
+#: steps_gtk.pm:362
 #, c-format
 msgid "Unselect All"
 msgstr ""
 
-#: steps_gtk.pm:375 steps_interactive.pm:557
+#: steps_gtk.pm:380 steps_interactive.pm:557
 #, c-format
 msgid "Total size: %d / %d MB"
 msgstr "Ment hollek : %d / %d Mo"
 
-#: steps_gtk.pm:420
+#: steps_gtk.pm:425
 #, c-format
 msgid "Version: "
 msgstr "Stumm : "
 
-#: steps_gtk.pm:421
+#: steps_gtk.pm:426
 #, c-format
 msgid "Size: "
 msgstr "Ment : "
 
-#: steps_gtk.pm:421
+#: steps_gtk.pm:426
 #, c-format
 msgid "%d KB\n"
 msgstr "%d Ko\n"
 
-#: steps_gtk.pm:422
+#: steps_gtk.pm:427
 #, c-format
 msgid "Importance: "
 msgstr "Talvoudegezh : "
 
-#: steps_gtk.pm:457
+#: steps_gtk.pm:462
 #, c-format
 msgid "You cannot select/unselect this package"
 msgstr "N'hellit ket diuz/andiuz ar pakad-mañ"
 
-#: steps_gtk.pm:461
+#: steps_gtk.pm:466
 #, c-format
 msgid "due to missing %s"
 msgstr "peogwir %s zo manket"
 
-#: steps_gtk.pm:462
+#: steps_gtk.pm:467
 #, c-format
 msgid "due to unsatisfied %s"
 msgstr "peogwir %s zo manket"
 
-#: steps_gtk.pm:463
+#: steps_gtk.pm:468
 #, c-format
 msgid "trying to promote %s"
 msgstr ""
 
-#: steps_gtk.pm:464
+#: steps_gtk.pm:469
 #, c-format
 msgid "in order to keep %s"
 msgstr "evit mirout %s"
 
-#: steps_gtk.pm:469
+#: steps_gtk.pm:474
 #, c-format
 msgid ""
 "You cannot select this package as there is not enough space left to install "
@@ -927,125 +586,115 @@ msgstr ""
 "N'hellit ket dibab ar pakad-mañ peogwir n'eus ket a-walc'h a egor evit "
 "staliañ anezhañ"
 
-#: steps_gtk.pm:472
+#: steps_gtk.pm:477
 #, c-format
 msgid "The following packages are going to be installed"
 msgstr "Ar pakadoù a-heul zo war-nes bezañ staliet"
 
-#: steps_gtk.pm:473
+#: steps_gtk.pm:478
 #, c-format
 msgid "The following packages are going to be removed"
 msgstr "Ar pakadoù a-heul zo war-nes bezañ lamet"
 
-#: steps_gtk.pm:499
+#: steps_gtk.pm:504
 #, c-format
 msgid "This is a mandatory package, it cannot be unselected"
 msgstr "Hemañ zo ur pakad ret, n'hell ket bezañ andiuzet"
 
-#: steps_gtk.pm:501
+#: steps_gtk.pm:506
 #, c-format
 msgid "You cannot unselect this package. It is already installed"
 msgstr "N'hellit ket andiuz ar pakad-mañ. Staliet eo endo"
 
-#: steps_gtk.pm:503
+#: steps_gtk.pm:508
 #, c-format
 msgid "You cannot unselect this package. It must be upgraded"
 msgstr "N'hellit ket andiuz ar pakad-mañ. Ret eo dezhañ bezañ bremanaet"
 
-#: steps_gtk.pm:507
+#: steps_gtk.pm:512
 #, c-format
 msgid "Show automatically selected packages"
 msgstr "Diskouez ar pakadoù a zo dibabet emgefrek"
 
-#: steps_gtk.pm:511
+#: steps_gtk.pm:516
 #, c-format
 msgid "Install"
 msgstr "Staliañ"
 
-#: steps_gtk.pm:514
+#: steps_gtk.pm:519
 #, c-format
 msgid "Load/Save selection"
 msgstr "Kargañ/Enrollañ an dibab"
 
-#: steps_gtk.pm:515
+#: steps_gtk.pm:520
 #, c-format
 msgid "Updating package selection"
 msgstr "O bremañaat diuzadenn ar pakadoù"
 
-#: steps_gtk.pm:520
+#: steps_gtk.pm:525
 #, c-format
 msgid "Minimal install"
 msgstr "Staliadur bihan"
 
-#: steps_gtk.pm:533
+#: steps_gtk.pm:538
 #, c-format
 msgid "Software Management"
 msgstr "Merañ ar pakadoù"
 
-#: steps_gtk.pm:533 steps_interactive.pm:438
+#: steps_gtk.pm:538 steps_interactive.pm:438
 #, c-format
 msgid "Choose the packages you want to install"
 msgstr "Dibabit ar pakadoù a vennit staliañ"
 
-#: steps_gtk.pm:550 steps_interactive.pm:659 steps_list.pm:33
+#: steps_gtk.pm:555 steps_interactive.pm:659 steps_list.pm:33
 #, c-format
 msgid "Installing"
 msgstr "O staliañ"
 
-#: steps_gtk.pm:581
-#, c-format
-msgid "Bored?"
-msgstr ""
-
-#: steps_gtk.pm:581
-#, c-format
-msgid "Boss button"
-msgstr ""
-
-#: steps_gtk.pm:587
+#: steps_gtk.pm:586
 #, c-format
 msgid "No details"
 msgstr "Munudoù ebet"
 
-#: steps_gtk.pm:620
+#: steps_gtk.pm:605
 #, c-format
 msgid "Time remaining:"
 msgstr "Amzer a chom :"
 
-#: steps_gtk.pm:621
+#: steps_gtk.pm:606
 #, c-format
 msgid "(estimating...)"
 msgstr "(o vrasjediñ ...)"
 
-#: steps_gtk.pm:651
+#: steps_gtk.pm:636
 #, c-format
 msgid "%d package"
 msgid_plural "%d packages"
 msgstr[0] "%d pakad"
 
-#: steps_gtk.pm:706 steps_interactive.pm:824 steps_list.pm:44
+#: steps_gtk.pm:691 steps_interactive.pm:824 steps_list.pm:44
 #, c-format
 msgid "Summary"
 msgstr "Evit diverriñ"
 
-#: steps_gtk.pm:725
+#: steps_gtk.pm:710
 #, c-format
 msgid "Configure"
 msgstr "Kefluniañ"
 
-#: steps_gtk.pm:742 steps_interactive.pm:820 steps_interactive.pm:973
+#: steps_gtk.pm:727 steps_interactive.pm:820 steps_interactive.pm:973
 #, c-format
 msgid "not configured"
 msgstr "n'eo ket kefluniet"
 
-#: steps_gtk.pm:785 steps_interactive.pm:336
+#: steps_gtk.pm:770 steps_interactive.pm:336
 #, c-format
 msgid ""
 "The following installation media have been found.\n"
 "If you want to skip some of them, you can unselect them now."
 msgstr ""
 
-#: steps_gtk.pm:801 steps_interactive.pm:342
+#: steps_gtk.pm:786 steps_interactive.pm:342
 #, c-format
 msgid ""
 "You have the option to copy the contents of the CDs onto the hard disk drive "
@@ -1054,7 +703,7 @@ msgid ""
 "available once the system is fully installed."
 msgstr ""
 
-#: steps_gtk.pm:803 steps_interactive.pm:344
+#: steps_gtk.pm:788 steps_interactive.pm:344
 #, c-format
 msgid "Copy whole CDs"
 msgstr "Eilañ tout an CDoù"
@@ -1119,10 +768,11 @@ msgstr ""
 #: steps_interactive.pm:215
 #, c-format
 msgid ""
-"Installer has detected that your installed OpenMandriva Lx system could not\n"
+"The installer has detected that your current OpenMandriva Lx system could "
+"not\n"
 "safely be upgraded to %s.\n"
 "\n"
-"New installation replacing your previous one is recommended.\n"
+"A new installation replacing your previous one is recommended.\n"
 "\n"
 "Warning : you should backup all your personal data before choosing \"New\n"
 "Installation\"."
@@ -1603,6 +1253,179 @@ msgid ""
 "_: Keep these entry short\n"
 "Exit"
 msgstr "Kuitaat"
+
+#~ msgid "Workstation"
+#~ msgstr "Post labour"
+
+#~ msgid "Office Workstation"
+#~ msgstr "Post labour burevek"
+
+#, fuzzy
+#~ msgid ""
+#~ "Office programs: wordprocessors (OpenOffice.org Writer, Kword), "
+#~ "spreadsheets (OpenOffice.org Calc, Kspread), PDF viewers, etc"
+#~ msgstr ""
+#~ "Programmoù burev : skridtreterezhioù (LibreOffice Writer, Kword), "
+#~ "logerioù (LibreOffice Calc, Kspread), gwelerien PDF, ..."
+
+#~ msgid "Game station"
+#~ msgstr "Arsav c'hoarioù"
+
+#~ msgid "Multimedia station"
+#~ msgstr "Arsav liesvedia"
+
+#~ msgid "Sound and video playing/editing programs"
+#~ msgstr "Programmoù evit seniñ/aozañ tonioù ha videoù"
+
+#~ msgid "Internet station"
+#~ msgstr "Arsav internet"
+
+#~ msgid "Network Computer (client)"
+#~ msgstr "Urzhiataer rouedad (kliant)"
+
+#~ msgid "Clients for different protocols including ssh"
+#~ msgstr "Pratikoù evit meur a gomennad (da skouer ssh)"
+
+#~ msgid "Tools to ease the configuration of your computer"
+#~ msgstr "Ostilhoù evit kefluniañ hoc'h urzhiataer dre aes"
+
+#~ msgid "Console Tools"
+#~ msgstr "Ostilhoù letrin"
+
+#~ msgid "Editors, shells, file tools, terminals"
+#~ msgstr "Aozerien, shelloù, ostilhoù restr, termenelloù"
+
+#~ msgid "Development"
+#~ msgstr "Diorren"
+
+#~ msgid "Documentation"
+#~ msgstr "Teuliadur"
+
+#~ msgid "LSB"
+#~ msgstr "LSB"
+
+#~ msgid "Web Server"
+#~ msgstr "Servijer Web"
+
+#~ msgid "Apache"
+#~ msgstr "Apache"
+
+#~ msgid "Groupware"
+#~ msgstr "Strollant"
+
+#~ msgid "Kolab Server"
+#~ msgstr "Servijer Kolab"
+
+#~ msgid "Firewall/Router"
+#~ msgstr "Moger tan/Henter"
+
+#~ msgid "Internet gateway"
+#~ msgstr "Dreuzell an Internet"
+
+#~ msgid "Mail/News"
+#~ msgstr "Posteloù/keleier"
+
+#~ msgid "Postfix mail server, Inn news server"
+#~ msgstr "Servijer posteloù Postfix, servijer keleier Inn"
+
+#~ msgid "Directory Server"
+#~ msgstr "Levr-bloaz"
+
+#~ msgid "FTP Server"
+#~ msgstr "Servijer FTP"
+
+#~ msgid "ProFTPd"
+#~ msgstr "ProFTPd"
+
+#~ msgid "DNS/NIS"
+#~ msgstr "DNS/NIS"
+
+#~ msgid "Domain Name and Network Information Server"
+#~ msgstr "Servijer DNS ha NIS"
+
+#~ msgid "File and Printer Sharing Server"
+#~ msgstr "Servijer rennañ restroù ha moullerez"
+
+#~ msgid "NFS Server, Samba server"
+#~ msgstr "Servijer NFS, servijer Samba"
+
+#~ msgid "Database"
+#~ msgstr "Stlennvon"
+
+#~ msgid "PostgreSQL and MySQL Database Server"
+#~ msgstr "Servijer stlennvon PostgreSQL ha MySQL"
+
+#~ msgid "Web/FTP"
+#~ msgstr "Web/FTP"
+
+#~ msgid "Apache, Pro-ftpd"
+#~ msgstr "Apache, Pro-ftpd"
+
+#~ msgid "Mail"
+#~ msgstr "Post"
+
+#~ msgid "Postfix mail server"
+#~ msgstr "Servijer postel Postfix"
+
+#~ msgid "PostgreSQL or MySQL database server"
+#~ msgstr "Servijer stlennvon PostgreSQL pe MySQL"
+
+#~ msgid "Network Computer server"
+#~ msgstr "Servijer rouedad"
+
+#~ msgid "NFS server, SMB server, Proxy server, ssh server"
+#~ msgstr "Servijer NFS, servijer SMB, servijer proksi, servijer SSH"
+
+#~ msgid "Graphical Environment"
+#~ msgstr "Endeo grafikel"
+
+#~ msgid "KDE Workstation"
+#~ msgstr "Post burevek KDE"
+
+#~ msgid ""
+#~ "The K Desktop Environment, the basic graphical environment with a "
+#~ "collection of accompanying tools"
+#~ msgstr "An Endro Burev K gant he ostilhoù"
+
+#~ msgid "GNOME Workstation"
+#~ msgstr "Post burevek GNOME"
+
+#~ msgid "LXDE Desktop"
+#~ msgstr "Burev LXDE"
+
+#~ msgid "Other Graphical Desktops"
+#~ msgstr "Burevioù c'hrafek all"
+
+#~ msgid "Window Maker, Enlightenment, Fvwm, etc"
+#~ msgstr "Window Maker, Enlightenment, Fvwm, etc"
+
+#~ msgid "Utilities"
+#~ msgstr "Mavegoù"
+
+#~ msgid "SSH Server"
+#~ msgstr "Servijer SSH"
+
+#~ msgid "Webmin"
+#~ msgstr "Webmin"
+
+#~ msgid "Webmin Remote Configuration Server"
+#~ msgstr "Servijer Webmin ar gefluniadur a-bell"
+
+#~ msgid "Network Utilities/Monitoring"
+#~ msgstr "Ostilhoù ar rouedad/diwall"
+
+#~ msgid "Mandriva Wizards"
+#~ msgstr "Skozelerien Mandriva"
+
+#~ msgid "Wizards to configure server"
+#~ msgstr "Skozelerien evit kefluniañ ar servijer"
+
+#~ msgid ""
+#~ "Failed contacting OpenMandriva Lx web site to get the list of available "
+#~ "mirrors"
+#~ msgstr ""
+#~ "Sac'het en ur taremprediñ al lec'hienn OpenMandriva Lx evit kaout roll ar "
+#~ "melezouroù hegerz "
 
 #~ msgid ""
 #~ "_: Keep these entry short\n"

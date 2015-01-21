@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sl\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-31 17:24+0200\n"
+"POT-Creation-Date: 2015-01-22 00:44+0100\n"
 "PO-Revision-Date: 2009-10-03 16:38+0200\n"
 "Last-Translator: Jure Repinc <jlp@holodeck1.com>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -22,353 +22,6 @@ msgstr ""
 "Plural-Forms:  nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
 "n%100==4 ? 2 : 3);\n"
 
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:14
-#, c-format
-msgid "Workstation"
-msgstr "Delovna postaja"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:16
-#, c-format
-msgid "Office Workstation"
-msgstr "Pisarniška delovna postaja"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:18
-#, fuzzy, c-format
-msgid ""
-"Office programs: wordprocessors (OpenOffice.org Writer, Kword), spreadsheets "
-"(OpenOffice.org Calc, Kspread), PDF viewers, etc"
-msgstr ""
-"Pisarniški programi: urejanje besedila (LibreOffice Writer, KWord), "
-"preglednice (LibreOffice Calc, KSpread), pregledovalniki PDF, itd"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:23
-#, c-format
-msgid "Game station"
-msgstr "Igralna postaja"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:24
-#, fuzzy, c-format
-msgid "Amusement programs: arcade, boards, strategy, etc."
-msgstr "Programi za zabavo: arkade, deske, strategije, itd"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:28
-#, c-format
-msgid "Multimedia station"
-msgstr "Večpredstavnostna postaja"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:29
-#, c-format
-msgid "Sound and video playing/editing programs"
-msgstr "Programi za predvajanje in urejanje zvoka in videa"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:34
-#, c-format
-msgid "Toys"
-msgstr ""
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:35
-#, c-format
-msgid "Apps and tools of less useful value, yet entertaining..."
-msgstr ""
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:39
-#, c-format
-msgid "Internet station"
-msgstr "Internetna postaja"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:40
-#, c-format
-msgid ""
-"Set of tools to read and send mail and news (mutt, tin..) and to browse the "
-"Web"
-msgstr ""
-"Zbirka orodij za branje in pošiljanje pošte in pošiljanje v novičarske "
-"skupine (mutt, tin ...) ter brskanje po spletu"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:45
-#, c-format
-msgid "Network Computer (client)"
-msgstr "Omrežni računalnik (odjemalec)"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:46
-#, c-format
-msgid "Clients for different protocols including ssh"
-msgstr "Odjemalci za različne protokole, vključujoč SSH"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:50 gtk.pm:132
-#, c-format
-msgid "Configuration"
-msgstr "Nastavitev"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:51
-#, c-format
-msgid "Tools to ease the configuration of your computer"
-msgstr "Orodja za lažjo nastavitev računalnika"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:55
-#, c-format
-msgid "Console Tools"
-msgstr "Konzolna orodja"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:56
-#, c-format
-msgid "Editors, shells, file tools, terminals"
-msgstr "Urejevalniki, lupine, datotečna orodja, terminali"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:60
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:170
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:172
-#, c-format
-msgid "Development"
-msgstr "Razvoj"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:61
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:173
-#, c-format
-msgid "C and C++ development libraries, programs and include files"
-msgstr "Razvojne knjižnice, programi in datoteke z glavami za C in C++"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:64
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:177
-#, c-format
-msgid "Documentation"
-msgstr "Dokumentacija"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:65
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:178
-#, c-format
-msgid "Books and Howto's on Linux and Free Software"
-msgstr "Knjige in priročniki o Linuxu in prostem programju"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:69
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:181
-#, c-format
-msgid "LSB"
-msgstr "LSB"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:70
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:182
-#, c-format
-msgid "Linux Standard Base. Third party applications support"
-msgstr "Standardna osnova Linuxa (LSB). Podpora programom tretjih oseb"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:80
-#, c-format
-msgid "Web Server"
-msgstr "Spletni strežnik"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:81
-#, c-format
-msgid "Apache"
-msgstr "Apache"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:84
-#, c-format
-msgid "Groupware"
-msgstr "Skupinsko delo"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:85
-#, c-format
-msgid "Kolab Server"
-msgstr "Strežnik Kolab"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:88
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:129
-#, c-format
-msgid "Firewall/Router"
-msgstr "Požarni zid/usmerjevalnik"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:89
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:130
-#, c-format
-msgid "Internet gateway"
-msgstr "Internetni prehod (gateway)"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:92
-#, c-format
-msgid "Mail/News"
-msgstr "Pošta/novičarske skupine"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:93
-#, c-format
-msgid "Postfix mail server, Inn news server"
-msgstr "Poštni strežnik postfix in novičarski strežnik Inn"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:96
-#, c-format
-msgid "Directory Server"
-msgstr "Imeniški strežnik"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:100
-#, c-format
-msgid "FTP Server"
-msgstr "Strežnik FTP"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:101
-#, c-format
-msgid "ProFTPd"
-msgstr "ProFTPd"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:104
-#, c-format
-msgid "DNS/NIS"
-msgstr "DNS/NIS"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:105
-#, c-format
-msgid "Domain Name and Network Information Server"
-msgstr "Strežnik imen domen in omrežnih podatkov"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:108
-#, c-format
-msgid "File and Printer Sharing Server"
-msgstr "Strežnik za souporabo datotek in tiskalnikov"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:109
-#, c-format
-msgid "NFS Server, Samba server"
-msgstr "Strežnik NFS, strežnik Samba"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:112
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:125
-#, c-format
-msgid "Database"
-msgstr "Podatkovna zbirka"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:113
-#, c-format
-msgid "PostgreSQL and MySQL Database Server"
-msgstr "Strežnik podatkovnih baz PostgreSQL in MySQL"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:117
-#, c-format
-msgid "Web/FTP"
-msgstr "Splet/FTP"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:118
-#, c-format
-msgid "Apache, Pro-ftpd"
-msgstr "Apache, Pro-ftpd"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:121
-#, c-format
-msgid "Mail"
-msgstr "Pošta"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:122
-#, c-format
-msgid "Postfix mail server"
-msgstr "Poštni strežnik Postfix"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:126
-#, c-format
-msgid "PostgreSQL or MySQL database server"
-msgstr "Strežnik podatkovnih baz PostgreSQL ali MySQL"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:133
-#, c-format
-msgid "Network Computer server"
-msgstr "Omrežni računalnik (strežnik)"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:134
-#, c-format
-msgid "NFS server, SMB server, Proxy server, ssh server"
-msgstr "Strežnik NFS, strežnik SMB, posredniški strežnik, strežnik SSH"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:141
-#, c-format
-msgid "Graphical Environment"
-msgstr "Grafično okolje"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:145
-#, c-format
-msgid "KDE Workstation"
-msgstr "Delovna postaja KDE"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:146
-#, c-format
-msgid ""
-"The K Desktop Environment, the basic graphical environment with a collection "
-"of accompanying tools"
-msgstr ""
-"Namizno okolje KDE, moderno grafično okolje z zbirko pripadajočih orodij"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:150
-#, c-format
-msgid "GNOME Workstation"
-msgstr "Delovna postaja GNOME"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:151
-#, c-format
-msgid ""
-"A graphical environment with user-friendly set of applications and desktop "
-"tools"
-msgstr "Grafično okolje z naborom programov in namiznimi orodji"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:156
-#, c-format
-msgid "LXDE Desktop"
-msgstr "Namizje LXDE"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:158
-#, c-format
-msgid ""
-"A lightweight & fast graphical environment with user-friendly set of "
-"applications and desktop tools"
-msgstr ""
-"Majhno in hitro grafično okolje z naborom programov in namiznimi orodji"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:162
-#, c-format
-msgid "Other Graphical Desktops"
-msgstr "Druga grafična namizja"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:163
-#, c-format
-msgid "Window Maker, Enlightenment, Fvwm, etc"
-msgstr "Window Maker, Enlightenment, FVWM ..."
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:187
-#, c-format
-msgid "Utilities"
-msgstr "Pripomočki"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:189
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:190
-#, c-format
-msgid "SSH Server"
-msgstr "Strežnik SSH"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:194
-#, c-format
-msgid "Webmin"
-msgstr "Webmin"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:195
-#, c-format
-msgid "Webmin Remote Configuration Server"
-msgstr "Strežnik Webmin za oddaljeno nastavljanje"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:199
-#, c-format
-msgid "Network Utilities/Monitoring"
-msgstr "Omrežni pripomočki/nadzorovanje"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:200
-#, c-format
-msgid "Monitoring tools, processes accounting, tcpdump, nmap, ..."
-msgstr "Nadzorna orodja, knjigovodstvo procesov, tcpdump, nmap ..."
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:204
-#, c-format
-msgid "Mandriva Wizards"
-msgstr "Mandrivini čarovniki"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:205
-#, c-format
-msgid "Wizards to configure server"
-msgstr "Čarovniki za nastavitev strežnikov"
-
 #: ../../advertising/MandrivaOne-advert-1.pl:1
 #: ../../advertising/MandrivaOne-advert-2.pl:1
 #: ../../advertising/MandrivaOne-advert-3.pl:1
@@ -378,9 +31,9 @@ msgstr "Čarovniki za nastavitev strežnikov"
 #: ../../advertising/MandrivaOne-advert-7.pl:1
 #: ../../advertising/MandrivaOne-advert-8.pl:1
 #: ../../advertising/MandrivaOne-advert-9.pl:1
-#, c-format
-msgid "OpenMandriva Lx 2012 Alpha (Tenacious Underdog)"
-msgstr ""
+#, fuzzy, c-format
+msgid "OpenMandriva Lx 2013.0"
+msgstr "Namestitev OpenMandriva Lxa %s"
 
 #: any.pm:110
 #, c-format
@@ -432,21 +85,18 @@ msgid "URL must start with ftp:// or http://"
 msgstr "Lokacija se mora začeti z ftp:// ali s http://"
 
 #: any.pm:188
-#, c-format
-msgid ""
-"Contacting OpenMandriva Lx web site to get the list of available mirrors..."
+#, fuzzy, c-format
+msgid "Connecting to OpenMandriva to get the list of available mirrors..."
 msgstr ""
 "Vzpostavljanje povezave s spletno stranjo OpenMandriva Lx in pridobivanje "
 "seznama dosegljivih zrcalnih strežnikov ..."
 
 #: any.pm:193
-#, c-format
-msgid ""
-"Failed contacting OpenMandriva Lx web site to get the list of available "
-"mirrors"
+#, fuzzy, c-format
+msgid "Failed to get the list of available mirrors."
 msgstr ""
 "Vzpostavljanje povezave s spletno stranjo OpenMandriva Lx in pridobivanje "
-"seznama dosegljivih zrcalnih strežnikov nista uspela"
+"seznama dosegljivih zrcalnih strežnikov ..."
 
 #: any.pm:203
 #, c-format
@@ -658,6 +308,11 @@ msgstr "Posnetki zaslona bodo po namestitvi v %s"
 msgid "Installation"
 msgstr "Namestitev"
 
+#: gtk.pm:132
+#, c-format
+msgid "Configuration"
+msgstr "Nastavitev"
+
 #: install2.pm:168
 #, c-format
 msgid "You must also format %s"
@@ -743,7 +398,7 @@ msgstr ""
 msgid "No description"
 msgstr ""
 
-#: pkgs.pm:280
+#: pkgs.pm:279
 #, c-format
 msgid ""
 "Some packages requested by %s cannot be installed:\n"
@@ -752,27 +407,27 @@ msgstr ""
 "Ni moč namestiti nekaj paketov, ki jih zahteva %s:\n"
 "%s"
 
-#: pkgs.pm:376 pkgs.pm:403
+#: pkgs.pm:375 pkgs.pm:402
 #, c-format
 msgid "An error occurred:"
 msgstr "Prišlo je do napake:"
 
-#: pkgs.pm:395
+#: pkgs.pm:394
 #, fuzzy, c-format
 msgid "A fatal error occurred: %s."
 msgstr "Prišlo je do napake:"
 
-#: pkgs.pm:876 pkgs.pm:918
+#: pkgs.pm:877 pkgs.pm:919
 #, c-format
 msgid "Do not ask again"
 msgstr ""
 
-#: pkgs.pm:892
+#: pkgs.pm:893
 #, c-format
 msgid "%d installation transactions failed"
 msgstr "%d namestitvenih transakcij je spodletelo"
 
-#: pkgs.pm:893
+#: pkgs.pm:894
 #, c-format
 msgid "Installation of packages failed:"
 msgstr "Nameščanje paketov ni uspelo:"
@@ -814,135 +469,135 @@ msgstr "Namestitev OpenMandriva Lxa %s"
 msgid "<Tab>/<Alt-Tab> between elements"
 msgstr "<Tab>/<Alt-Tab> med elementi"
 
-#: steps_gtk.pm:147
+#: steps_gtk.pm:151
 #, c-format
 msgid "Xorg server is slow to start. Please wait..."
 msgstr "Grafični strežnik se zaganja počasi. Prosimo, počakajte ..."
 
-#: steps_gtk.pm:211
-#, c-format
+#: steps_gtk.pm:216
+#, fuzzy, c-format
 msgid ""
 "Your system is low on resources. You may have some problem installing\n"
-"OpenMandriva Lx. If that occurs, you can try a text install instead. For "
+"OpenMandriva Lx. If that occurs, you can try a text install instead. To do "
 "this,\n"
-"press `F1' when booting on CDROM, then enter `text'."
+"press `F1' at the boot menu, then enter `text'."
 msgstr ""
 "Vaš sistem ni zelo zmogljiv. Lahko, da boste imeli pri namestitvi\n"
 "OpenMandriva Lxa težave. V tem primeru lahko poskusite z namestitvijo\n"
 "v besedilnem načinu.\n"
 "Po zagonu z namestitvenega nosilca pritisnite »F1« in vnesite »text«."
 
-#: steps_gtk.pm:241 steps_gtk.pm:776
+#: steps_gtk.pm:246 steps_gtk.pm:761
 #, c-format
 msgid "Media Selection"
 msgstr "Izbira virov"
 
-#: steps_gtk.pm:252
-#, c-format
-msgid "Install Mandriva KDE Desktop"
+#: steps_gtk.pm:257
+#, fuzzy, c-format
+msgid "Install KDE Desktop Environment"
 msgstr "Namizje KDE"
 
-#: steps_gtk.pm:253
-#, c-format
-msgid "Install Mandriva GNOME Desktop"
+#: steps_gtk.pm:258
+#, fuzzy, c-format
+msgid "Install GNOME Desktop Environment"
 msgstr "Namizje GNOME"
 
-#: steps_gtk.pm:254
+#: steps_gtk.pm:259
 #, c-format
 msgid "Custom install"
 msgstr "Po meri"
 
-#: steps_gtk.pm:275
+#: steps_gtk.pm:280
 #, c-format
 msgid "KDE Desktop"
 msgstr "Namizje KDE"
 
-#: steps_gtk.pm:276
+#: steps_gtk.pm:281
 #, c-format
 msgid "GNOME Desktop"
 msgstr "Namizje GNOME"
 
-#: steps_gtk.pm:277
+#: steps_gtk.pm:282
 #, c-format
 msgid "Custom Desktop"
 msgstr "Namizje po meri"
 
-#: steps_gtk.pm:283
+#: steps_gtk.pm:288
 #, c-format
 msgid "Here's a preview of the '%s' desktop."
 msgstr "To je ogled namizja »%s«."
 
-#: steps_gtk.pm:310
+#: steps_gtk.pm:315
 #, c-format
 msgid "Click on images in order to see a bigger preview"
 msgstr "Kliknite na sliko, da vidite večji ogled"
 
-#: steps_gtk.pm:326 steps_interactive.pm:628 steps_list.pm:31
+#: steps_gtk.pm:331 steps_interactive.pm:628 steps_list.pm:31
 #, c-format
 msgid "Package Group Selection"
 msgstr "Izbira skupin paketov"
 
-#: steps_gtk.pm:350 steps_interactive.pm:645
+#: steps_gtk.pm:355 steps_interactive.pm:645
 #, c-format
 msgid "Individual package selection"
 msgstr "Izbira posamičnih paketov"
 
-#: steps_gtk.pm:357
+#: steps_gtk.pm:362
 #, c-format
 msgid "Unselect All"
 msgstr ""
 
-#: steps_gtk.pm:375 steps_interactive.pm:557
+#: steps_gtk.pm:380 steps_interactive.pm:557
 #, c-format
 msgid "Total size: %d / %d MB"
 msgstr "Skupna velikost: %d / %d MiB"
 
-#: steps_gtk.pm:420
+#: steps_gtk.pm:425
 #, c-format
 msgid "Version: "
 msgstr "Različica: "
 
-#: steps_gtk.pm:421
+#: steps_gtk.pm:426
 #, c-format
 msgid "Size: "
 msgstr "Velikost: "
 
-#: steps_gtk.pm:421
+#: steps_gtk.pm:426
 #, c-format
 msgid "%d KB\n"
 msgstr "%d KiB\n"
 
-#: steps_gtk.pm:422
+#: steps_gtk.pm:427
 #, c-format
 msgid "Importance: "
 msgstr "Pomembnost: "
 
-#: steps_gtk.pm:457
+#: steps_gtk.pm:462
 #, c-format
 msgid "You cannot select/unselect this package"
 msgstr "Tega paketa ne morete izbrati ali izločiti."
 
-#: steps_gtk.pm:461
+#: steps_gtk.pm:466
 #, c-format
 msgid "due to missing %s"
 msgstr "ker manjka %s"
 
-#: steps_gtk.pm:462
+#: steps_gtk.pm:467
 #, c-format
 msgid "due to unsatisfied %s"
 msgstr "zaradi ne-zadostitve %s"
 
-#: steps_gtk.pm:463
+#: steps_gtk.pm:468
 #, c-format
 msgid "trying to promote %s"
 msgstr "poizkušam uveljaviti %s"
 
-#: steps_gtk.pm:464
+#: steps_gtk.pm:469
 #, c-format
 msgid "in order to keep %s"
 msgstr "da bi obdržal %s"
 
-#: steps_gtk.pm:469
+#: steps_gtk.pm:474
 #, c-format
 msgid ""
 "You cannot select this package as there is not enough space left to install "
@@ -951,97 +606,87 @@ msgstr ""
 "Tega paketa ne morete izbrati, ker ni dovolj prostora, da bi ga lahko "
 "namestili."
 
-#: steps_gtk.pm:472
+#: steps_gtk.pm:477
 #, c-format
 msgid "The following packages are going to be installed"
 msgstr "Nameščeni bodo naslednji paketi"
 
-#: steps_gtk.pm:473
+#: steps_gtk.pm:478
 #, c-format
 msgid "The following packages are going to be removed"
 msgstr "Odstranjeni bodo naslednji paketi"
 
-#: steps_gtk.pm:499
+#: steps_gtk.pm:504
 #, c-format
 msgid "This is a mandatory package, it cannot be unselected"
 msgstr "To je obvezen paket in ga ni mogoče izločiti."
 
-#: steps_gtk.pm:501
+#: steps_gtk.pm:506
 #, c-format
 msgid "You cannot unselect this package. It is already installed"
 msgstr "Tega paketa ne morete izločiti, ker je že nameščen."
 
-#: steps_gtk.pm:503
+#: steps_gtk.pm:508
 #, c-format
 msgid "You cannot unselect this package. It must be upgraded"
 msgstr "Tega paketa ne morete izločiti, ker ga je treba posodobiti."
 
-#: steps_gtk.pm:507
+#: steps_gtk.pm:512
 #, c-format
 msgid "Show automatically selected packages"
 msgstr "Prikaži samodejno izbrane pakete"
 
-#: steps_gtk.pm:511
+#: steps_gtk.pm:516
 #, c-format
 msgid "Install"
 msgstr "Namesti"
 
-#: steps_gtk.pm:514
+#: steps_gtk.pm:519
 #, c-format
 msgid "Load/Save selection"
 msgstr "Naloži/shrani izbor"
 
-#: steps_gtk.pm:515
+#: steps_gtk.pm:520
 #, c-format
 msgid "Updating package selection"
 msgstr "Posodabljanje izbora paketov"
 
-#: steps_gtk.pm:520
+#: steps_gtk.pm:525
 #, c-format
 msgid "Minimal install"
 msgstr "Minimalna namestitev"
 
-#: steps_gtk.pm:533
+#: steps_gtk.pm:538
 #, c-format
 msgid "Software Management"
 msgstr "Upravljanje s programi"
 
-#: steps_gtk.pm:533 steps_interactive.pm:438
+#: steps_gtk.pm:538 steps_interactive.pm:438
 #, c-format
 msgid "Choose the packages you want to install"
 msgstr "Izberite pakete, ki jih želite namestiti"
 
-#: steps_gtk.pm:550 steps_interactive.pm:659 steps_list.pm:33
+#: steps_gtk.pm:555 steps_interactive.pm:659 steps_list.pm:33
 #, c-format
 msgid "Installing"
 msgstr "Nameščanje"
 
-#: steps_gtk.pm:581
-#, c-format
-msgid "Bored?"
-msgstr ""
-
-#: steps_gtk.pm:581
-#, c-format
-msgid "Boss button"
-msgstr ""
-
-#: steps_gtk.pm:587
+#: steps_gtk.pm:586
 #, c-format
 msgid "No details"
 msgstr "Brez podrobnosti"
 
-#: steps_gtk.pm:620
+#: steps_gtk.pm:605
 #, c-format
 msgid "Time remaining:"
 msgstr "Preostali čas:"
 
-#: steps_gtk.pm:621
+#: steps_gtk.pm:606
 #, c-format
 msgid "(estimating...)"
 msgstr "(izračunavanje ...)"
 
-#: steps_gtk.pm:651
+#: steps_gtk.pm:636
 #, c-format
 msgid "%d package"
 msgid_plural "%d packages"
@@ -1050,22 +695,22 @@ msgstr[1] "%d paketa"
 msgstr[2] "%d paketi"
 msgstr[3] "%d paketov"
 
-#: steps_gtk.pm:706 steps_interactive.pm:824 steps_list.pm:44
+#: steps_gtk.pm:691 steps_interactive.pm:824 steps_list.pm:44
 #, c-format
 msgid "Summary"
 msgstr "Povzetek"
 
-#: steps_gtk.pm:725
+#: steps_gtk.pm:710
 #, c-format
 msgid "Configure"
 msgstr "Nastavitev"
 
-#: steps_gtk.pm:742 steps_interactive.pm:820 steps_interactive.pm:973
+#: steps_gtk.pm:727 steps_interactive.pm:820 steps_interactive.pm:973
 #, c-format
 msgid "not configured"
 msgstr "ni nastavljeno"
 
-#: steps_gtk.pm:785 steps_interactive.pm:336
+#: steps_gtk.pm:770 steps_interactive.pm:336
 #, c-format
 msgid ""
 "The following installation media have been found.\n"
@@ -1074,7 +719,7 @@ msgstr ""
 "Na voljo so naslednji viri za namestitev.\n"
 "Če želite katerega izmed njih izločiti, to lahko storite sedaj."
 
-#: steps_gtk.pm:801 steps_interactive.pm:342
+#: steps_gtk.pm:786 steps_interactive.pm:342
 #, c-format
 msgid ""
 "You have the option to copy the contents of the CDs onto the hard disk drive "
@@ -1087,7 +732,7 @@ msgstr ""
 "V tem primeru bo namestitev potekala s trdega diska, paketi pa bodo ostali "
 "na voljo tudi po zaključeni namestitvi."
 
-#: steps_gtk.pm:803 steps_interactive.pm:344
+#: steps_gtk.pm:788 steps_interactive.pm:344
 #, c-format
 msgid "Copy whole CDs"
 msgstr "Prekopiraj vsebino nosilcev"
@@ -1150,12 +795,13 @@ msgid "Upgrade previous installation (not recommended)"
 msgstr "Nadgradite obstoječo namestitev (ni priporočeno)"
 
 #: steps_interactive.pm:215
-#, c-format
+#, fuzzy, c-format
 msgid ""
-"Installer has detected that your installed OpenMandriva Lx system could not\n"
+"The installer has detected that your current OpenMandriva Lx system could "
+"not\n"
 "safely be upgraded to %s.\n"
 "\n"
-"New installation replacing your previous one is recommended.\n"
+"A new installation replacing your previous one is recommended.\n"
 "\n"
 "Warning : you should backup all your personal data before choosing \"New\n"
 "Installation\"."
@@ -1657,6 +1303,214 @@ msgid ""
 "_: Keep these entry short\n"
 "Exit"
 msgstr "Izhod"
+
+#~ msgid "Workstation"
+#~ msgstr "Delovna postaja"
+
+#~ msgid "Office Workstation"
+#~ msgstr "Pisarniška delovna postaja"
+
+#, fuzzy
+#~ msgid ""
+#~ "Office programs: wordprocessors (OpenOffice.org Writer, Kword), "
+#~ "spreadsheets (OpenOffice.org Calc, Kspread), PDF viewers, etc"
+#~ msgstr ""
+#~ "Pisarniški programi: urejanje besedila (LibreOffice Writer, KWord), "
+#~ "preglednice (LibreOffice Calc, KSpread), pregledovalniki PDF, itd"
+
+#~ msgid "Game station"
+#~ msgstr "Igralna postaja"
+
+#, fuzzy
+#~ msgid "Amusement programs: arcade, boards, strategy, etc."
+#~ msgstr "Programi za zabavo: arkade, deske, strategije, itd"
+
+#~ msgid "Multimedia station"
+#~ msgstr "Večpredstavnostna postaja"
+
+#~ msgid "Sound and video playing/editing programs"
+#~ msgstr "Programi za predvajanje in urejanje zvoka in videa"
+
+#~ msgid "Internet station"
+#~ msgstr "Internetna postaja"
+
+#~ msgid ""
+#~ "Set of tools to read and send mail and news (mutt, tin..) and to browse "
+#~ "the Web"
+#~ msgstr ""
+#~ "Zbirka orodij za branje in pošiljanje pošte in pošiljanje v novičarske "
+#~ "skupine (mutt, tin ...) ter brskanje po spletu"
+
+#~ msgid "Network Computer (client)"
+#~ msgstr "Omrežni računalnik (odjemalec)"
+
+#~ msgid "Clients for different protocols including ssh"
+#~ msgstr "Odjemalci za različne protokole, vključujoč SSH"
+
+#~ msgid "Tools to ease the configuration of your computer"
+#~ msgstr "Orodja za lažjo nastavitev računalnika"
+
+#~ msgid "Console Tools"
+#~ msgstr "Konzolna orodja"
+
+#~ msgid "Editors, shells, file tools, terminals"
+#~ msgstr "Urejevalniki, lupine, datotečna orodja, terminali"
+
+#~ msgid "Development"
+#~ msgstr "Razvoj"
+
+#~ msgid "C and C++ development libraries, programs and include files"
+#~ msgstr "Razvojne knjižnice, programi in datoteke z glavami za C in C++"
+
+#~ msgid "Documentation"
+#~ msgstr "Dokumentacija"
+
+#~ msgid "Books and Howto's on Linux and Free Software"
+#~ msgstr "Knjige in priročniki o Linuxu in prostem programju"
+
+#~ msgid "LSB"
+#~ msgstr "LSB"
+
+#~ msgid "Linux Standard Base. Third party applications support"
+#~ msgstr "Standardna osnova Linuxa (LSB). Podpora programom tretjih oseb"
+
+#~ msgid "Web Server"
+#~ msgstr "Spletni strežnik"
+
+#~ msgid "Apache"
+#~ msgstr "Apache"
+
+#~ msgid "Groupware"
+#~ msgstr "Skupinsko delo"
+
+#~ msgid "Kolab Server"
+#~ msgstr "Strežnik Kolab"
+
+#~ msgid "Firewall/Router"
+#~ msgstr "Požarni zid/usmerjevalnik"
+
+#~ msgid "Internet gateway"
+#~ msgstr "Internetni prehod (gateway)"
+
+#~ msgid "Mail/News"
+#~ msgstr "Pošta/novičarske skupine"
+
+#~ msgid "Postfix mail server, Inn news server"
+#~ msgstr "Poštni strežnik postfix in novičarski strežnik Inn"
+
+#~ msgid "Directory Server"
+#~ msgstr "Imeniški strežnik"
+
+#~ msgid "FTP Server"
+#~ msgstr "Strežnik FTP"
+
+#~ msgid "ProFTPd"
+#~ msgstr "ProFTPd"
+
+#~ msgid "DNS/NIS"
+#~ msgstr "DNS/NIS"
+
+#~ msgid "Domain Name and Network Information Server"
+#~ msgstr "Strežnik imen domen in omrežnih podatkov"
+
+#~ msgid "File and Printer Sharing Server"
+#~ msgstr "Strežnik za souporabo datotek in tiskalnikov"
+
+#~ msgid "NFS Server, Samba server"
+#~ msgstr "Strežnik NFS, strežnik Samba"
+
+#~ msgid "Database"
+#~ msgstr "Podatkovna zbirka"
+
+#~ msgid "PostgreSQL and MySQL Database Server"
+#~ msgstr "Strežnik podatkovnih baz PostgreSQL in MySQL"
+
+#~ msgid "Web/FTP"
+#~ msgstr "Splet/FTP"
+
+#~ msgid "Apache, Pro-ftpd"
+#~ msgstr "Apache, Pro-ftpd"
+
+#~ msgid "Mail"
+#~ msgstr "Pošta"
+
+#~ msgid "Postfix mail server"
+#~ msgstr "Poštni strežnik Postfix"
+
+#~ msgid "PostgreSQL or MySQL database server"
+#~ msgstr "Strežnik podatkovnih baz PostgreSQL ali MySQL"
+
+#~ msgid "Network Computer server"
+#~ msgstr "Omrežni računalnik (strežnik)"
+
+#~ msgid "NFS server, SMB server, Proxy server, ssh server"
+#~ msgstr "Strežnik NFS, strežnik SMB, posredniški strežnik, strežnik SSH"
+
+#~ msgid "Graphical Environment"
+#~ msgstr "Grafično okolje"
+
+#~ msgid "KDE Workstation"
+#~ msgstr "Delovna postaja KDE"
+
+#~ msgid ""
+#~ "The K Desktop Environment, the basic graphical environment with a "
+#~ "collection of accompanying tools"
+#~ msgstr ""
+#~ "Namizno okolje KDE, moderno grafično okolje z zbirko pripadajočih orodij"
+
+#~ msgid "GNOME Workstation"
+#~ msgstr "Delovna postaja GNOME"
+
+#~ msgid ""
+#~ "A graphical environment with user-friendly set of applications and "
+#~ "desktop tools"
+#~ msgstr "Grafično okolje z naborom programov in namiznimi orodji"
+
+#~ msgid "LXDE Desktop"
+#~ msgstr "Namizje LXDE"
+
+#~ msgid ""
+#~ "A lightweight & fast graphical environment with user-friendly set of "
+#~ "applications and desktop tools"
+#~ msgstr ""
+#~ "Majhno in hitro grafično okolje z naborom programov in namiznimi orodji"
+
+#~ msgid "Other Graphical Desktops"
+#~ msgstr "Druga grafična namizja"
+
+#~ msgid "Window Maker, Enlightenment, Fvwm, etc"
+#~ msgstr "Window Maker, Enlightenment, FVWM ..."
+
+#~ msgid "Utilities"
+#~ msgstr "Pripomočki"
+
+#~ msgid "SSH Server"
+#~ msgstr "Strežnik SSH"
+
+#~ msgid "Webmin"
+#~ msgstr "Webmin"
+
+#~ msgid "Webmin Remote Configuration Server"
+#~ msgstr "Strežnik Webmin za oddaljeno nastavljanje"
+
+#~ msgid "Network Utilities/Monitoring"
+#~ msgstr "Omrežni pripomočki/nadzorovanje"
+
+#~ msgid "Monitoring tools, processes accounting, tcpdump, nmap, ..."
+#~ msgstr "Nadzorna orodja, knjigovodstvo procesov, tcpdump, nmap ..."
+
+#~ msgid "Mandriva Wizards"
+#~ msgstr "Mandrivini čarovniki"
+
+#~ msgid "Wizards to configure server"
+#~ msgstr "Čarovniki za nastavitev strežnikov"
+
+#~ msgid ""
+#~ "Failed contacting OpenMandriva Lx web site to get the list of available "
+#~ "mirrors"
+#~ msgstr ""
+#~ "Vzpostavljanje povezave s spletno stranjo OpenMandriva Lx in pridobivanje "
+#~ "seznama dosegljivih zrcalnih strežnikov nista uspela"
 
 #~ msgid ""
 #~ "_: Keep these entry short\n"

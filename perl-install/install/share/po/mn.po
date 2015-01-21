@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DrakX\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-31 17:24+0200\n"
+"POT-Creation-Date: 2015-01-22 00:44+0100\n"
 "PO-Revision-Date: 2004-01-02 00:35+0100\n"
 "Last-Translator: Sanlig Badral <Badral@openmn.org>\n"
 "Language-Team: Mongolian <openmn-core@lists.sf.net>\n"
@@ -19,347 +19,6 @@ msgstr ""
 "X-Generator: KBabel 1.0.2\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:14
-#, fuzzy, c-format
-msgid "Workstation"
-msgstr "LAN Тохируулга"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:16
-#, fuzzy, c-format
-msgid "Office Workstation"
-msgstr "Албан газар"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:18
-#, c-format
-msgid ""
-"Office programs: wordprocessors (OpenOffice.org Writer, Kword), spreadsheets "
-"(OpenOffice.org Calc, Kspread), PDF viewers, etc"
-msgstr ""
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:23
-#, fuzzy, c-format
-msgid "Game station"
-msgstr "Тоглоом"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:24
-#, fuzzy, c-format
-msgid "Amusement programs: arcade, boards, strategy, etc."
-msgstr "Зугаа цэнгэл"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:28
-#, fuzzy, c-format
-msgid "Multimedia station"
-msgstr "Мультимедиа"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:29
-#, fuzzy, c-format
-msgid "Sound and video playing/editing programs"
-msgstr "Дуу"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:34
-#, c-format
-msgid "Toys"
-msgstr ""
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:35
-#, c-format
-msgid "Apps and tools of less useful value, yet entertaining..."
-msgstr ""
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:39
-#, fuzzy, c-format
-msgid "Internet station"
-msgstr "Интернэт"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:40
-#, fuzzy, c-format
-msgid ""
-"Set of tools to read and send mail and news (mutt, tin..) and to browse the "
-"Web"
-msgstr "аас"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:45
-#, fuzzy, c-format
-msgid "Network Computer (client)"
-msgstr "Сүлжээ"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:46
-#, c-format
-msgid "Clients for different protocols including ssh"
-msgstr ""
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:50 gtk.pm:132
-#, c-format
-msgid "Configuration"
-msgstr "Тохиргоо"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:51
-#, fuzzy, c-format
-msgid "Tools to ease the configuration of your computer"
-msgstr "аас"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:55
-#, c-format
-msgid "Console Tools"
-msgstr ""
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:56
-#, fuzzy, c-format
-msgid "Editors, shells, file tools, terminals"
-msgstr "Засварлагчууд"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:60
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:170
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:172
-#, c-format
-msgid "Development"
-msgstr "Хөгжүүлэл"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:61
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:173
-#, fuzzy, c-format
-msgid "C and C++ development libraries, programs and include files"
-msgstr "C C"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:64
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:177
-#, c-format
-msgid "Documentation"
-msgstr "Баримтжуулалт"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:65
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:178
-#, c-format
-msgid "Books and Howto's on Linux and Free Software"
-msgstr ""
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:69
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:181
-#, c-format
-msgid "LSB"
-msgstr ""
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:70
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:182
-#, fuzzy, c-format
-msgid "Linux Standard Base. Third party applications support"
-msgstr "Стандарт"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:80
-#, fuzzy, c-format
-msgid "Web Server"
-msgstr "Вэб"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:81
-#, c-format
-msgid "Apache"
-msgstr ""
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:84
-#, fuzzy, c-format
-msgid "Groupware"
-msgstr "бүлэг"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:85
-#, fuzzy, c-format
-msgid "Kolab Server"
-msgstr "Самба"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:88
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:129
-#, c-format
-msgid "Firewall/Router"
-msgstr ""
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:89
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:130
-#, c-format
-msgid "Internet gateway"
-msgstr "Интернэт гарц"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:92
-#, fuzzy, c-format
-msgid "Mail/News"
-msgstr "/Файл/_Шинэ"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:93
-#, fuzzy, c-format
-msgid "Postfix mail server, Inn news server"
-msgstr "Мэйл"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:96
-#, fuzzy, c-format
-msgid "Directory Server"
-msgstr "Сэргээх Илгээгч"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:100
-#, c-format
-msgid "FTP Server"
-msgstr "FTP Сервер"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:101
-#, c-format
-msgid "ProFTPd"
-msgstr ""
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:104
-#, c-format
-msgid "DNS/NIS"
-msgstr ""
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:105
-#, fuzzy, c-format
-msgid "Domain Name and Network Information Server"
-msgstr "Домэйн Нэрний Сервер"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:108
-#, fuzzy, c-format
-msgid "File and Printer Sharing Server"
-msgstr "Хэвлэгч"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:109
-#, fuzzy, c-format
-msgid "NFS Server, Samba server"
-msgstr "Самба"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:112
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:125
-#, c-format
-msgid "Database"
-msgstr "Өгөгдлийн сан"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:113
-#, c-format
-msgid "PostgreSQL and MySQL Database Server"
-msgstr ""
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:117
-#, c-format
-msgid "Web/FTP"
-msgstr "Web/FTP"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:118
-#, c-format
-msgid "Apache, Pro-ftpd"
-msgstr ""
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:121
-#, c-format
-msgid "Mail"
-msgstr "Мэйл"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:122
-#, fuzzy, c-format
-msgid "Postfix mail server"
-msgstr "Мэйл"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:126
-#, c-format
-msgid "PostgreSQL or MySQL database server"
-msgstr ""
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:133
-#, fuzzy, c-format
-msgid "Network Computer server"
-msgstr "Сүлжээ"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:134
-#, fuzzy, c-format
-msgid "NFS server, SMB server, Proxy server, ssh server"
-msgstr "Итгэмжилэгч"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:141
-#, c-format
-msgid "Graphical Environment"
-msgstr ""
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:145
-#, fuzzy, c-format
-msgid "KDE Workstation"
-msgstr "KDE"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:146
-#, fuzzy, c-format
-msgid ""
-"The K Desktop Environment, the basic graphical environment with a collection "
-"of accompanying tools"
-msgstr "Ажилын талбар аас"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:150
-#, fuzzy, c-format
-msgid "GNOME Workstation"
-msgstr "KDE"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:151
-#, fuzzy, c-format
-msgid ""
-"A graphical environment with user-friendly set of applications and desktop "
-"tools"
-msgstr "аас"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:156
-#, fuzzy, c-format
-msgid "LXDE Desktop"
-msgstr "Ширээний компьютер"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:158
-#, fuzzy, c-format
-msgid ""
-"A lightweight & fast graphical environment with user-friendly set of "
-"applications and desktop tools"
-msgstr "аас"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:162
-#, fuzzy, c-format
-msgid "Other Graphical Desktops"
-msgstr "Бусад"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:163
-#, fuzzy, c-format
-msgid "Window Maker, Enlightenment, Fvwm, etc"
-msgstr "Цонх"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:187
-#, fuzzy, c-format
-msgid "Utilities"
-msgstr "Филлипинни"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:189
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:190
-#, c-format
-msgid "SSH Server"
-msgstr ""
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:194
-#, fuzzy, c-format
-msgid "Webmin"
-msgstr "Вэб дуран"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:195
-#, fuzzy, c-format
-msgid "Webmin Remote Configuration Server"
-msgstr "Терминал Сервер"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:199
-#, fuzzy, c-format
-msgid "Network Utilities/Monitoring"
-msgstr "Сүлжээ толидох"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:200
-#, c-format
-msgid "Monitoring tools, processes accounting, tcpdump, nmap, ..."
-msgstr ""
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:204
-#, fuzzy, c-format
-msgid "Mandriva Wizards"
-msgstr "Мандрива удирдлагын төв"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:205
-#, fuzzy, c-format
-msgid "Wizards to configure server"
-msgstr "\"%s\" хэвлэгч дээр хэвлэж байна"
-
 #: ../../advertising/MandrivaOne-advert-1.pl:1
 #: ../../advertising/MandrivaOne-advert-2.pl:1
 #: ../../advertising/MandrivaOne-advert-3.pl:1
@@ -369,9 +28,9 @@ msgstr "\"%s\" хэвлэгч дээр хэвлэж байна"
 #: ../../advertising/MandrivaOne-advert-7.pl:1
 #: ../../advertising/MandrivaOne-advert-8.pl:1
 #: ../../advertising/MandrivaOne-advert-9.pl:1
-#, c-format
-msgid "OpenMandriva Lx 2012 Alpha (Tenacious Underdog)"
-msgstr ""
+#, fuzzy, c-format
+msgid "OpenMandriva Lx 2013.0"
+msgstr "Мандрива удирдлагын төв"
 
 #: any.pm:110
 #, fuzzy, c-format
@@ -420,15 +79,12 @@ msgstr ""
 
 #: any.pm:188
 #, fuzzy, c-format
-msgid ""
-"Contacting OpenMandriva Lx web site to get the list of available mirrors..."
+msgid "Connecting to OpenMandriva to get the list of available mirrors..."
 msgstr "сайт жигсаалт аас."
 
 #: any.pm:193
 #, fuzzy, c-format
-msgid ""
-"Failed contacting OpenMandriva Lx web site to get the list of available "
-"mirrors"
+msgid "Failed to get the list of available mirrors."
 msgstr "сайт жигсаалт аас."
 
 #: any.pm:203
@@ -636,6 +292,11 @@ msgstr "ямх"
 msgid "Installation"
 msgstr "Суулгалт"
 
+#: gtk.pm:132
+#, c-format
+msgid "Configuration"
+msgstr "Тохиргоо"
+
 #: install2.pm:168
 #, c-format
 msgid "You must also format %s"
@@ -718,34 +379,34 @@ msgstr ""
 msgid "No description"
 msgstr ""
 
-#: pkgs.pm:280
+#: pkgs.pm:279
 #, c-format
 msgid ""
 "Some packages requested by %s cannot be installed:\n"
 "%s"
 msgstr ""
 
-#: pkgs.pm:376 pkgs.pm:403
+#: pkgs.pm:375 pkgs.pm:402
 #, c-format
 msgid "An error occurred:"
 msgstr ""
 
-#: pkgs.pm:395
+#: pkgs.pm:394
 #, c-format
 msgid "A fatal error occurred: %s."
 msgstr ""
 
-#: pkgs.pm:876 pkgs.pm:918
+#: pkgs.pm:877 pkgs.pm:919
 #, c-format
 msgid "Do not ask again"
 msgstr ""
 
-#: pkgs.pm:892
+#: pkgs.pm:893
 #, fuzzy, c-format
 msgid "%d installation transactions failed"
 msgstr "Суулгалт боломжтой"
 
-#: pkgs.pm:893
+#: pkgs.pm:894
 #, fuzzy, c-format
 msgid "Installation of packages failed:"
 msgstr "Суулгалтын ангилалыг сонгох"
@@ -781,257 +442,247 @@ msgstr "Мандрива удирдлагын төв"
 msgid "<Tab>/<Alt-Tab> between elements"
 msgstr ""
 
-#: steps_gtk.pm:147
+#: steps_gtk.pm:151
 #, c-format
 msgid "Xorg server is slow to start. Please wait..."
 msgstr ""
 
-#: steps_gtk.pm:211
+#: steps_gtk.pm:216
 #, fuzzy, c-format
 msgid ""
 "Your system is low on resources. You may have some problem installing\n"
-"OpenMandriva Lx. If that occurs, you can try a text install instead. For "
+"OpenMandriva Lx. If that occurs, you can try a text install instead. To do "
 "this,\n"
-"press `F1' when booting on CDROM, then enter `text'."
+"press `F1' at the boot menu, then enter `text'."
 msgstr "бол Та вы текст текст."
 
-#: steps_gtk.pm:241 steps_gtk.pm:776
+#: steps_gtk.pm:246 steps_gtk.pm:761
 #, fuzzy, c-format
 msgid "Media Selection"
 msgstr "Пакет Групп"
 
-#: steps_gtk.pm:252
+#: steps_gtk.pm:257
 #, c-format
-msgid "Install Mandriva KDE Desktop"
+msgid "Install KDE Desktop Environment"
 msgstr ""
 
-#: steps_gtk.pm:253
+#: steps_gtk.pm:258
 #, c-format
-msgid "Install Mandriva GNOME Desktop"
+msgid "Install GNOME Desktop Environment"
 msgstr ""
 
-#: steps_gtk.pm:254
+#: steps_gtk.pm:259
 #, fuzzy, c-format
 msgid "Custom install"
 msgstr "Төрөл аас"
 
-#: steps_gtk.pm:275
+#: steps_gtk.pm:280
 #, fuzzy, c-format
 msgid "KDE Desktop"
 msgstr "Ширээний компьютер"
 
-#: steps_gtk.pm:276
+#: steps_gtk.pm:281
 #, fuzzy, c-format
 msgid "GNOME Desktop"
 msgstr "Ширээний компьютер"
 
-#: steps_gtk.pm:277
+#: steps_gtk.pm:282
 #, fuzzy, c-format
 msgid "Custom Desktop"
 msgstr "Ширээний компьютер"
 
-#: steps_gtk.pm:283
+#: steps_gtk.pm:288
 #, c-format
 msgid "Here's a preview of the '%s' desktop."
 msgstr ""
 
-#: steps_gtk.pm:310
+#: steps_gtk.pm:315
 #, c-format
 msgid "Click on images in order to see a bigger preview"
 msgstr ""
 
-#: steps_gtk.pm:326 steps_interactive.pm:628 steps_list.pm:31
+#: steps_gtk.pm:331 steps_interactive.pm:628 steps_list.pm:31
 #, fuzzy, c-format
 msgid "Package Group Selection"
 msgstr "Пакет Групп"
 
-#: steps_gtk.pm:350 steps_interactive.pm:645
+#: steps_gtk.pm:355 steps_interactive.pm:645
 #, c-format
 msgid "Individual package selection"
 msgstr "Тусдаа дан багц сонгох"
 
-#: steps_gtk.pm:357
+#: steps_gtk.pm:362
 #, c-format
 msgid "Unselect All"
 msgstr ""
 
-#: steps_gtk.pm:375 steps_interactive.pm:557
+#: steps_gtk.pm:380 steps_interactive.pm:557
 #, fuzzy, c-format
 msgid "Total size: %d / %d MB"
 msgstr "Нийт хэмжээ"
 
-#: steps_gtk.pm:420
+#: steps_gtk.pm:425
 #, c-format
 msgid "Version: "
 msgstr "Хувилбар: "
 
-#: steps_gtk.pm:421
+#: steps_gtk.pm:426
 #, c-format
 msgid "Size: "
 msgstr "Хэмжээ: "
 
-#: steps_gtk.pm:421
+#: steps_gtk.pm:426
 #, c-format
 msgid "%d KB\n"
 msgstr "%d КБ\n"
 
-#: steps_gtk.pm:422
+#: steps_gtk.pm:427
 #, fuzzy, c-format
 msgid "Importance: "
 msgstr "Цонтууд импортлох"
 
-#: steps_gtk.pm:457
+#: steps_gtk.pm:462
 #, fuzzy, c-format
 msgid "You cannot select/unselect this package"
 msgstr "Та"
 
-#: steps_gtk.pm:461
+#: steps_gtk.pm:466
 #, c-format
 msgid "due to missing %s"
 msgstr ""
 
-#: steps_gtk.pm:462
+#: steps_gtk.pm:467
 #, c-format
 msgid "due to unsatisfied %s"
 msgstr ""
 
-#: steps_gtk.pm:463
+#: steps_gtk.pm:468
 #, fuzzy, c-format
 msgid "trying to promote %s"
 msgstr "Юу ч үгүй"
 
-#: steps_gtk.pm:464
+#: steps_gtk.pm:469
 #, fuzzy, c-format
 msgid "in order to keep %s"
 msgstr "ямх"
 
-#: steps_gtk.pm:469
+#: steps_gtk.pm:474
 #, fuzzy, c-format
 msgid ""
 "You cannot select this package as there is not enough space left to install "
 "it"
 msgstr "Та бол зүүн"
 
-#: steps_gtk.pm:472
+#: steps_gtk.pm:477
 #, c-format
 msgid "The following packages are going to be installed"
 msgstr "Дараах багцууд суулгагдах гэж байна"
 
-#: steps_gtk.pm:473
+#: steps_gtk.pm:478
 #, c-format
 msgid "The following packages are going to be removed"
 msgstr ""
 
-#: steps_gtk.pm:499
+#: steps_gtk.pm:504
 #, c-format
 msgid "This is a mandatory package, it cannot be unselected"
 msgstr ""
 
-#: steps_gtk.pm:501
+#: steps_gtk.pm:506
 #, fuzzy, c-format
 msgid "You cannot unselect this package. It is already installed"
 msgstr "Та бол"
 
-#: steps_gtk.pm:503
+#: steps_gtk.pm:508
 #, fuzzy, c-format
 msgid "You cannot unselect this package. It must be upgraded"
 msgstr "Та"
 
-#: steps_gtk.pm:507
+#: steps_gtk.pm:512
 #, c-format
 msgid "Show automatically selected packages"
 msgstr "Автоматаар сонгогдсон багцуудыг харуулах"
 
-#: steps_gtk.pm:511
+#: steps_gtk.pm:516
 #, c-format
 msgid "Install"
 msgstr "Суулга"
 
-#: steps_gtk.pm:514
+#: steps_gtk.pm:519
 #, fuzzy, c-format
 msgid "Load/Save selection"
 msgstr "Пакет"
 
-#: steps_gtk.pm:515
+#: steps_gtk.pm:520
 #, c-format
 msgid "Updating package selection"
 msgstr ""
 
-#: steps_gtk.pm:520
+#: steps_gtk.pm:525
 #, c-format
 msgid "Minimal install"
 msgstr ""
 
-#: steps_gtk.pm:533
+#: steps_gtk.pm:538
 #, c-format
 msgid "Software Management"
 msgstr ""
 
-#: steps_gtk.pm:533 steps_interactive.pm:438
+#: steps_gtk.pm:538 steps_interactive.pm:438
 #, c-format
 msgid "Choose the packages you want to install"
 msgstr "Сонгохыг хүсэж буй багцаа сонгоно уу"
 
-#: steps_gtk.pm:550 steps_interactive.pm:659 steps_list.pm:33
+#: steps_gtk.pm:555 steps_interactive.pm:659 steps_list.pm:33
 #, c-format
 msgid "Installing"
 msgstr "Суулгалт"
 
-#: steps_gtk.pm:581
-#, c-format
-msgid "Bored?"
-msgstr ""
-
-#: steps_gtk.pm:581
-#, c-format
-msgid "Boss button"
-msgstr ""
-
-#: steps_gtk.pm:587
+#: steps_gtk.pm:586
 #, fuzzy, c-format
 msgid "No details"
 msgstr "Үгүй"
 
-#: steps_gtk.pm:620
+#: steps_gtk.pm:605
 #, fuzzy, c-format
 msgid "Time remaining:"
 msgstr "Үлдэж буй хугацаа"
 
-#: steps_gtk.pm:621
+#: steps_gtk.pm:606
 #, c-format
 msgid "(estimating...)"
 msgstr ""
 
-#: steps_gtk.pm:651
+#: steps_gtk.pm:636
 #, fuzzy, c-format
 msgid "%d package"
 msgid_plural "%d packages"
 msgstr[0] "Тааруухан багц"
 msgstr[1] "Тааруухан багц"
 
-#: steps_gtk.pm:706 steps_interactive.pm:824 steps_list.pm:44
+#: steps_gtk.pm:691 steps_interactive.pm:824 steps_list.pm:44
 #, c-format
 msgid "Summary"
 msgstr "Дүгнэлт"
 
-#: steps_gtk.pm:725
+#: steps_gtk.pm:710
 #, c-format
 msgid "Configure"
 msgstr "Тохируулах"
 
-#: steps_gtk.pm:742 steps_interactive.pm:820 steps_interactive.pm:973
+#: steps_gtk.pm:727 steps_interactive.pm:820 steps_interactive.pm:973
 #, c-format
 msgid "not configured"
 msgstr ""
 
-#: steps_gtk.pm:785 steps_interactive.pm:336
+#: steps_gtk.pm:770 steps_interactive.pm:336
 #, c-format
 msgid ""
 "The following installation media have been found.\n"
 "If you want to skip some of them, you can unselect them now."
 msgstr ""
 
-#: steps_gtk.pm:801 steps_interactive.pm:342
+#: steps_gtk.pm:786 steps_interactive.pm:342
 #, c-format
 msgid ""
 "You have the option to copy the contents of the CDs onto the hard disk drive "
@@ -1040,7 +691,7 @@ msgid ""
 "available once the system is fully installed."
 msgstr ""
 
-#: steps_gtk.pm:803 steps_interactive.pm:344
+#: steps_gtk.pm:788 steps_interactive.pm:344
 #, c-format
 msgid "Copy whole CDs"
 msgstr ""
@@ -1105,10 +756,11 @@ msgstr ""
 #: steps_interactive.pm:215
 #, c-format
 msgid ""
-"Installer has detected that your installed OpenMandriva Lx system could not\n"
+"The installer has detected that your current OpenMandriva Lx system could "
+"not\n"
 "safely be upgraded to %s.\n"
 "\n"
-"New installation replacing your previous one is recommended.\n"
+"A new installation replacing your previous one is recommended.\n"
 "\n"
 "Warning : you should backup all your personal data before choosing \"New\n"
 "Installation\"."
@@ -1567,6 +1219,197 @@ msgid ""
 "_: Keep these entry short\n"
 "Exit"
 msgstr "Гарах"
+
+#, fuzzy
+#~ msgid "Workstation"
+#~ msgstr "LAN Тохируулга"
+
+#, fuzzy
+#~ msgid "Office Workstation"
+#~ msgstr "Албан газар"
+
+#, fuzzy
+#~ msgid "Game station"
+#~ msgstr "Тоглоом"
+
+#, fuzzy
+#~ msgid "Amusement programs: arcade, boards, strategy, etc."
+#~ msgstr "Зугаа цэнгэл"
+
+#, fuzzy
+#~ msgid "Multimedia station"
+#~ msgstr "Мультимедиа"
+
+#, fuzzy
+#~ msgid "Sound and video playing/editing programs"
+#~ msgstr "Дуу"
+
+#, fuzzy
+#~ msgid "Internet station"
+#~ msgstr "Интернэт"
+
+#, fuzzy
+#~ msgid ""
+#~ "Set of tools to read and send mail and news (mutt, tin..) and to browse "
+#~ "the Web"
+#~ msgstr "аас"
+
+#, fuzzy
+#~ msgid "Network Computer (client)"
+#~ msgstr "Сүлжээ"
+
+#, fuzzy
+#~ msgid "Tools to ease the configuration of your computer"
+#~ msgstr "аас"
+
+#, fuzzy
+#~ msgid "Editors, shells, file tools, terminals"
+#~ msgstr "Засварлагчууд"
+
+#~ msgid "Development"
+#~ msgstr "Хөгжүүлэл"
+
+#, fuzzy
+#~ msgid "C and C++ development libraries, programs and include files"
+#~ msgstr "C C"
+
+#~ msgid "Documentation"
+#~ msgstr "Баримтжуулалт"
+
+#, fuzzy
+#~ msgid "Linux Standard Base. Third party applications support"
+#~ msgstr "Стандарт"
+
+#, fuzzy
+#~ msgid "Web Server"
+#~ msgstr "Вэб"
+
+#, fuzzy
+#~ msgid "Groupware"
+#~ msgstr "бүлэг"
+
+#, fuzzy
+#~ msgid "Kolab Server"
+#~ msgstr "Самба"
+
+#~ msgid "Internet gateway"
+#~ msgstr "Интернэт гарц"
+
+#, fuzzy
+#~ msgid "Mail/News"
+#~ msgstr "/Файл/_Шинэ"
+
+#, fuzzy
+#~ msgid "Postfix mail server, Inn news server"
+#~ msgstr "Мэйл"
+
+#, fuzzy
+#~ msgid "Directory Server"
+#~ msgstr "Сэргээх Илгээгч"
+
+#~ msgid "FTP Server"
+#~ msgstr "FTP Сервер"
+
+#, fuzzy
+#~ msgid "Domain Name and Network Information Server"
+#~ msgstr "Домэйн Нэрний Сервер"
+
+#, fuzzy
+#~ msgid "File and Printer Sharing Server"
+#~ msgstr "Хэвлэгч"
+
+#, fuzzy
+#~ msgid "NFS Server, Samba server"
+#~ msgstr "Самба"
+
+#~ msgid "Database"
+#~ msgstr "Өгөгдлийн сан"
+
+#~ msgid "Web/FTP"
+#~ msgstr "Web/FTP"
+
+#~ msgid "Mail"
+#~ msgstr "Мэйл"
+
+#, fuzzy
+#~ msgid "Postfix mail server"
+#~ msgstr "Мэйл"
+
+#, fuzzy
+#~ msgid "Network Computer server"
+#~ msgstr "Сүлжээ"
+
+#, fuzzy
+#~ msgid "NFS server, SMB server, Proxy server, ssh server"
+#~ msgstr "Итгэмжилэгч"
+
+#, fuzzy
+#~ msgid "KDE Workstation"
+#~ msgstr "KDE"
+
+#, fuzzy
+#~ msgid ""
+#~ "The K Desktop Environment, the basic graphical environment with a "
+#~ "collection of accompanying tools"
+#~ msgstr "Ажилын талбар аас"
+
+#, fuzzy
+#~ msgid "GNOME Workstation"
+#~ msgstr "KDE"
+
+#, fuzzy
+#~ msgid ""
+#~ "A graphical environment with user-friendly set of applications and "
+#~ "desktop tools"
+#~ msgstr "аас"
+
+#, fuzzy
+#~ msgid "LXDE Desktop"
+#~ msgstr "Ширээний компьютер"
+
+#, fuzzy
+#~ msgid ""
+#~ "A lightweight & fast graphical environment with user-friendly set of "
+#~ "applications and desktop tools"
+#~ msgstr "аас"
+
+#, fuzzy
+#~ msgid "Other Graphical Desktops"
+#~ msgstr "Бусад"
+
+#, fuzzy
+#~ msgid "Window Maker, Enlightenment, Fvwm, etc"
+#~ msgstr "Цонх"
+
+#, fuzzy
+#~ msgid "Utilities"
+#~ msgstr "Филлипинни"
+
+#, fuzzy
+#~ msgid "Webmin"
+#~ msgstr "Вэб дуран"
+
+#, fuzzy
+#~ msgid "Webmin Remote Configuration Server"
+#~ msgstr "Терминал Сервер"
+
+#, fuzzy
+#~ msgid "Network Utilities/Monitoring"
+#~ msgstr "Сүлжээ толидох"
+
+#, fuzzy
+#~ msgid "Mandriva Wizards"
+#~ msgstr "Мандрива удирдлагын төв"
+
+#, fuzzy
+#~ msgid "Wizards to configure server"
+#~ msgstr "\"%s\" хэвлэгч дээр хэвлэж байна"
+
+#, fuzzy
+#~ msgid ""
+#~ "Failed contacting OpenMandriva Lx web site to get the list of available "
+#~ "mirrors"
+#~ msgstr "сайт жигсаалт аас."
 
 #~ msgid "Bad package"
 #~ msgstr "Тааруухан багц"

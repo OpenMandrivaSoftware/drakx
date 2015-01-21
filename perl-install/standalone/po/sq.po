@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DrakX for MDK 9.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-31 17:23+0200\n"
+"POT-Creation-Date: 2015-01-22 00:53+0100\n"
 "PO-Revision-Date: 2004-09-15 13:33+0200\n"
 "Last-Translator: Naim Daka <naim70@freesurf.ch>\n"
 "Language-Team: Albanian <LL@li.org>\n"
@@ -16,146 +16,146 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
-#: display_help:54 display_help:59 drakbug:173 drakperm:136
+#: display_help:54 display_help:59 drakbug:170 drakperm:134
 #, c-format
 msgid "Help"
 msgstr "Ndihmë"
 
-#: display_help:67 drakbug:178 drakfont:507
+#: display_help:67 drakbug:175 drakfont:505
 #, c-format
 msgid "Close"
 msgstr "Mbylle"
 
-#: drakauth:24 drakauth:26 draksec:160
+#: drakauth:24 drakauth:26 draksec:162
 #, c-format
 msgid "Authentication"
 msgstr "Vërtetësimi"
 
-#: drakauth:37 drakclock:115 drakclock:131 drakdvb:74 drakfont:213
-#: drakfont:226 drakfont:264 finish-install:131 logdrake:170 logdrake:445
-#: logdrake:450 scannerdrake:57 scannerdrake:99 scannerdrake:140
-#: scannerdrake:198 scannerdrake:257 scannerdrake:727 scannerdrake:738
-#: scannerdrake:877 scannerdrake:888 scannerdrake:958
+#: drakauth:37 drakclock:113 drakclock:138 drakdvb:74 drakfont:211
+#: drakfont:224 drakfont:262 finish-install:131 logdrake:174 logdrake:449
+#: logdrake:454 scannerdrake:56 scannerdrake:98 scannerdrake:139
+#: scannerdrake:197 scannerdrake:256 scannerdrake:726 scannerdrake:737
+#: scannerdrake:876 scannerdrake:887 scannerdrake:957
 #, c-format
 msgid "Error"
 msgstr "Gabim"
 
-#: drakboot:55
+#: drakboot:53
 #, c-format
 msgid "No bootloader found, creating a new configuration"
 msgstr ""
 
-#: drakboot:88 harddrake2:198 harddrake2:199 logdrake:71
+#: drakboot:86 harddrake2:195 harddrake2:196 logdrake:75
 #, c-format
 msgid "/_File"
 msgstr "/_Skedare"
 
-#: drakboot:89 logdrake:77
+#: drakboot:87 logdrake:81
 #, c-format
 msgid "/File/_Quit"
 msgstr "/Skedare/_Braktise"
 
-#: drakboot:89 harddrake2:199 logdrake:77
+#: drakboot:87 harddrake2:196 logdrake:81
 #, c-format
 msgid "<control>Q"
 msgstr "<control>Q"
 
-#: drakboot:129
+#: drakboot:127
 #, c-format
 msgid "Text only"
 msgstr "Vetëm tekst"
 
-#: drakboot:130
+#: drakboot:128
 #, c-format
 msgid "Verbose"
 msgstr ""
 
-#: drakboot:131
+#: drakboot:129
 #, c-format
 msgid "Silent"
 msgstr ""
 
-#: drakboot:137 drakbug:250 drakdvb:57 drakfont:683 drakperm:376 drakperm:386
-#: drakups:27 harddrake2:533 localedrake:45 scannerdrake:49 scannerdrake:52
-#: scannerdrake:295 scannerdrake:300 scannerdrake:952
+#: drakboot:135 drakbug:247 drakdvb:57 drakfont:681 drakperm:374 drakperm:384
+#: drakups:26 harddrake2:528 localedrake:45 scannerdrake:48 scannerdrake:51
+#: scannerdrake:294 scannerdrake:299 scannerdrake:951
 #, c-format
 msgid "Warning"
 msgstr "Kujdes"
 
-#: drakboot:138
+#: drakboot:136
 #, c-format
 msgid ""
 "Your system bootloader is not in framebuffer mode. To activate graphical "
 "boot, select a graphic video mode from the bootloader configuration tool."
 msgstr ""
 
-#: drakboot:139
+#: drakboot:137
 #, fuzzy, c-format
 msgid "Do you want to configure it now?"
 msgstr "A dëshironi ta testoni konfigurimin?"
 
-#: drakboot:148
+#: drakboot:146
 #, c-format
 msgid "Install themes"
 msgstr "Intalimi i temave"
 
-#: drakboot:150
+#: drakboot:148
 #, fuzzy, c-format
 msgid "Graphical boot theme selection"
 msgstr "Zgjedhja e modelit të stampuesit"
 
-#: drakboot:153
+#: drakboot:151
 #, fuzzy, c-format
 msgid "Graphical boot mode:"
 msgstr "Zgjedhja e modelit të stampuesit"
 
-#: drakboot:155
+#: drakboot:153
 #, c-format
 msgid "Theme"
 msgstr "Tema"
 
-#: drakboot:189
+#: drakboot:187
 #, c-format
 msgid "Default user"
 msgstr "Përdorues me marrëveshje"
 
-#: drakboot:190
+#: drakboot:188
 #, c-format
 msgid "Default desktop"
 msgstr "Tryezë me marrëveshje"
 
-#: drakboot:193
+#: drakboot:191
 #, c-format
 msgid "No, I do not want autologin"
 msgstr "Jo, nuk dëshiroj autolidhje"
 
-#: drakboot:194
+#: drakboot:192
 #, c-format
 msgid "Yes, I want autologin with this (user, desktop)"
 msgstr ""
 "Po, dëshiroj një autolidhje me këtë (zgjedhje të përdoruesit në tryezë)"
 
-#: drakboot:201
+#: drakboot:199
 #, c-format
 msgid "System mode"
 msgstr "Modë i sistemit"
 
-#: drakboot:204
+#: drakboot:202
 #, c-format
 msgid "Launch the graphical environment when your system starts"
 msgstr "Nise interfacin e mjedisit me grafik kur niset sistemi juaj"
 
-#: drakboot:259
+#: drakboot:257
 #, c-format
 msgid "Boot Style Configuration"
 msgstr "Konfigurimi i Stilit të nisjes"
 
-#: drakboot:261 drakboot:265
+#: drakboot:259 drakboot:263
 #, c-format
 msgid "Video mode"
 msgstr "Modë video"
 
-#: drakboot:262
+#: drakboot:260
 #, c-format
 msgid ""
 "Please choose a video mode, it will be applied to each of the boot entries "
@@ -163,67 +163,67 @@ msgid ""
 "Be sure your video card supports the mode you choose."
 msgstr ""
 
-#: drakbug:52 drakbug:140
+#: drakbug:50 drakbug:138
 #, c-format
 msgid "The \"%s\" program has crashed with the following error:"
 msgstr ""
 
-#: drakbug:62
+#: drakbug:60
 #, fuzzy, c-format
-msgid "OpenMandriva Lx Bug Report Tool"
+msgid "OpenMandriva Lx Bug Reporting"
 msgstr "Vegël Sinjalizuese bug në Mandriva"
 
-#: drakbug:67
+#: drakbug:65
 #, c-format
 msgid "OpenMandriva Lx Control Center"
 msgstr "Qendra Kontrolluese OpenMandriva Lx"
 
-#: drakbug:68
+#: drakbug:66
 #, c-format
 msgid "First Time Wizard"
 msgstr "Asistent për Herë të Parë"
 
-#: drakbug:69
+#: drakbug:67
 #, c-format
 msgid "Synchronization tool"
 msgstr "Vegël sinkronizuese"
 
-#: drakbug:70 drakbug:206
+#: drakbug:68 drakbug:203
 #, c-format
 msgid "Standalone Tools"
 msgstr "Vegël Autonome"
 
-#: drakbug:72 drakbug:73
-#, c-format
-msgid "Mandriva Online"
+#: drakbug:70 drakbug:71
+#, fuzzy, c-format
+msgid "OpenMandriva Online"
 msgstr "Mandriva Online"
 
-#: drakbug:74
+#: drakbug:72
 #, c-format
 msgid "Remote Control"
 msgstr "Kontrolim në Distancë"
 
-#: drakbug:75
+#: drakbug:73
 #, c-format
 msgid "Software Manager"
 msgstr "Menagjer i Softverit"
 
-#: drakbug:76
+#: drakbug:74
 #, c-format
 msgid "Windows Migration tool"
 msgstr "Vegël Mërgimi për Windows"
 
-#: drakbug:77
+#: drakbug:75
 #, c-format
 msgid "Configuration Wizards"
 msgstr "Asistentët Konfigurues"
 
-#: drakbug:99
-#, c-format
-msgid "Select Mandriva Tool:"
-msgstr ""
+#: drakbug:97
+#, fuzzy, c-format
+msgid "Select Tool:"
+msgstr "Zgjedhi Gjithë"
 
-#: drakbug:100
+#: drakbug:98
 #, fuzzy, c-format
 msgid ""
 "or Application Name\n"
@@ -232,37 +232,37 @@ msgstr ""
 "Emri i Aplikaciont\n"
 "apo Shtegu i Plot:"
 
-#: drakbug:103
+#: drakbug:101
 #, c-format
 msgid "Find Package"
 msgstr "Hulumtoje Pakon"
 
-#: drakbug:104
+#: drakbug:102
 #, fuzzy, c-format
 msgid "Browse"
 msgstr "shfletues"
 
-#: drakbug:106
+#: drakbug:104
 #, c-format
 msgid "Package: "
 msgstr "Pako: "
 
-#: drakbug:107
+#: drakbug:105
 #, c-format
 msgid "Kernel:"
 msgstr "Bërthama:"
 
-#: drakbug:139
+#: drakbug:137
 #, c-format
 msgid "The \"%s\" program has segfaulted with the following error:"
 msgstr ""
 
-#: drakbug:144
+#: drakbug:142
 #, c-format
 msgid "Used theme: %s"
 msgstr ""
 
-#: drakbug:146
+#: drakbug:144
 #, fuzzy, c-format
 msgid ""
 "To submit a bug report, click on the report button.  \n"
@@ -275,7 +275,7 @@ msgstr ""
 " paraqitur\n"
 "do të trasferohet në server."
 
-#: drakbug:148
+#: drakbug:146
 #, c-format
 msgid ""
 "It would be very useful to attach to your report the output of the following "
@@ -286,89 +286,89 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: drakbug:151
+#: drakbug:149
 #, c-format
 msgid "'%s'"
 msgstr ""
 
-#: drakbug:154
+#: drakbug:152
 #, fuzzy, c-format
-msgid "You should also attach the following files: %s as well as %s."
+msgid "You should also attach the following files if you have them: %s."
 msgstr "Instalimi i pakove %s"
 
-#: drakbug:161
+#: drakbug:158
 #, c-format
 msgid "Please describe what you were doing when it crashed:"
 msgstr ""
 
-#: drakbug:177
+#: drakbug:174
 #, c-format
 msgid "Report"
 msgstr "Raporti"
 
-#: drakbug:213
+#: drakbug:210
 #, c-format
 msgid "Not installed"
 msgstr "I pa instaluar"
 
-#: drakbug:226
+#: drakbug:223
 #, c-format
 msgid "Package not installed"
 msgstr "Pako e pa instaluar"
 
-#: drakbug:251
+#: drakbug:248
 #, c-format
 msgid ""
 "You must type in what you were doing when this bug happened in order to "
 "enable us to reproduce this bug and to increase the odds of fixing it"
 msgstr ""
 
-#: drakbug:252
+#: drakbug:249
 #, c-format
 msgid "Thanks."
 msgstr ""
 
-#: drakclock:30 draksec:166
+#: drakclock:28 draksec:168
 #, c-format
 msgid "Date, Clock & Time Zone Settings"
 msgstr ""
 
-#: drakclock:39
+#: drakclock:37
 #, fuzzy, c-format
 msgid "not defined"
 msgstr "i pa konfiguruar"
 
-#: drakclock:41
+#: drakclock:39
 #, fuzzy, c-format
 msgid "Change Time Zone"
 msgstr "Zonë orare"
 
-#: drakclock:46
+#: drakclock:44
 #, c-format
 msgid "Timezone - DrakClock"
 msgstr "Ora Lokale - DrakClock"
 
-#: drakclock:46
+#: drakclock:44
 #, c-format
 msgid "Which is your timezone?"
 msgstr "Cila është zona e juaj orare?"
 
-#: drakclock:47
+#: drakclock:45
 #, c-format
 msgid "GMT - DrakClock"
 msgstr "GMT - DrakClock"
 
-#: drakclock:47
+#: drakclock:45
 #, fuzzy, c-format
 msgid "Is your hardware clock set to GMT?"
 msgstr "Orë Sistemi e rregulluar në Kohën Univerzale (GMT)"
 
-#: drakclock:74
+#: drakclock:72
 #, fuzzy, c-format
 msgid "Network Time Protocol"
 msgstr "Interfac rrjeti"
 
-#: drakclock:76
+#: drakclock:74
 #, c-format
 msgid ""
 "Your computer can synchronize its clock\n"
@@ -377,42 +377,42 @@ msgstr ""
 "Kompjuteri i juaj mund ta sinkronizoj orën e vet\n"
 " duke përdorur orën e serverit NTP në distancë"
 
-#: drakclock:77
+#: drakclock:75
 #, fuzzy, c-format
 msgid "Enable Network Time Protocol"
 msgstr "Riparoje Via me Protokol të Rrjetit: %s"
 
-#: drakclock:85
+#: drakclock:83
 #, c-format
 msgid "Server:"
 msgstr "Serveri:"
 
-#: drakclock:99
+#: drakclock:97
 #, c-format
 msgid "Timezone"
 msgstr "Zonë orare"
 
-#: drakclock:115
+#: drakclock:113
 #, fuzzy, c-format
 msgid "Please enter a valid NTP server address."
 msgstr "Ju lutemi futni emrin e ftuesit apo IP."
 
-#: drakclock:132
+#: drakclock:139
 #, c-format
 msgid "Could not synchronize with %s."
 msgstr ""
 
-#: drakclock:133 drakdvb:149 logdrake:175 scannerdrake:489
+#: drakclock:140 drakdvb:149 logdrake:179 scannerdrake:488
 #, c-format
 msgid "Quit"
 msgstr "Dil"
 
-#: drakclock:134
+#: drakclock:141
 #, fuzzy, c-format
 msgid "Retry"
 msgstr "Riparo"
 
-#: drakclock:161 drakclock:171
+#: drakclock:166 drakclock:176
 #, c-format
 msgid "Reset"
 msgstr "Nga fillimi"
@@ -422,7 +422,7 @@ msgstr "Nga fillimi"
 msgid "DVB"
 msgstr "DVD"
 
-#: drakdvb:39 harddrake2:101
+#: drakdvb:39 harddrake2:99
 #, c-format
 msgid "Channel"
 msgstr "Kanal"
@@ -437,10 +437,10 @@ msgstr ""
 msgid "Could not get the list of available channels"
 msgstr ""
 
-#: drakdvb:80 draksec:69 drakups:99 finish-install:106 harddrake2:379
-#: scannerdrake:64 scannerdrake:68 scannerdrake:76 scannerdrake:317
-#: scannerdrake:366 scannerdrake:502 scannerdrake:506 scannerdrake:528
-#: service_harddrake:432
+#: drakdvb:80 draksec:67 drakups:98 finish-install:106 harddrake2:374
+#: scannerdrake:63 scannerdrake:67 scannerdrake:75 scannerdrake:316
+#: scannerdrake:365 scannerdrake:501 scannerdrake:505 scannerdrake:527
+#: service_harddrake:423
 #, c-format
 msgid "Please wait"
 msgstr "Një moment ju lutemi"
@@ -450,7 +450,7 @@ msgstr "Një moment ju lutemi"
 msgid "Detecting DVB channels, this will take a few minutes"
 msgstr ""
 
-#: drakdvb:85 drakfont:573 drakfont:653 drakfont:737 drakups:217 logdrake:175
+#: drakdvb:85 drakfont:571 drakfont:651 drakfont:735 drakups:216 logdrake:179
 #, c-format
 msgid "Cancel"
 msgstr "Anulo"
@@ -465,27 +465,37 @@ msgstr "Kanal"
 msgid "View Channel"
 msgstr "Kanal"
 
-#: drakedm:41
+#: drakedm:40
 #, c-format
 msgid "GDM (GNOME Display Manager)"
 msgstr ""
 
-#: drakedm:42
+#: drakedm:41
 #, c-format
 msgid "KDM (KDE Display Manager)"
 msgstr ""
 
+#: drakedm:42
+#, fuzzy, c-format
+msgid "LIGHTDM (LightDM Display Manager)"
+msgstr "Zgjedhja e një administratori çfaqës"
+
 #: drakedm:43
+#, fuzzy, c-format
+msgid "SLIM (Simple Display Manager)"
+msgstr "Zgjedhja e një administratori çfaqës"
+
+#: drakedm:44
 #, fuzzy, c-format
 msgid "XDM (X Display Manager)"
 msgstr "Zgjedhja e një administratori çfaqës"
 
-#: drakedm:54
+#: drakedm:55
 #, c-format
 msgid "Choosing a display manager"
 msgstr "Zgjedhja e një administratori çfaqës"
 
-#: drakedm:55
+#: drakedm:56
 #, c-format
 msgid ""
 "X11 Display Manager allows you to graphically log\n"
@@ -498,110 +508,110 @@ msgstr ""
 "që përmbanë disa sesione të ndryshme X, në makinën tuaj lokale në të njëjtën "
 "kohë."
 
-#: drakedm:74
+#: drakedm:79
 #, c-format
 msgid "The change is done, do you want to restart the dm service?"
 msgstr "Ndryshimi është bërë, A dëshironi ta rinisni shërbimin dm?"
 
-#: drakedm:75
+#: drakedm:80
 #, c-format
 msgid ""
 "You are going to close all running programs and lose your current session. "
 "Are you really sure that you want to restart the dm service?"
 msgstr ""
 
-#: drakfont:187
+#: drakfont:185
 #, c-format
 msgid "Search installed fonts"
 msgstr "Hulumtoi polisat e instaluara"
 
-#: drakfont:189
+#: drakfont:187
 #, c-format
 msgid "Unselect fonts installed"
 msgstr "Çzgjedhi polisat e instaluara"
 
-#: drakfont:213
+#: drakfont:211
 #, fuzzy, c-format
 msgid "No fonts found"
 msgstr "asnjë polisë e gjetur"
 
-#: drakfont:217
+#: drakfont:215
 #, c-format
 msgid "parse all fonts"
 msgstr "analizoi të gjitha polisat"
 
-#: drakfont:222 drakfont:263 drakfont:339 drakfont:380 drakfont:384
-#: drakfont:410 drakfont:428 drakfont:436
+#: drakfont:220 drakfont:261 drakfont:337 drakfont:378 drakfont:382
+#: drakfont:408 drakfont:426 drakfont:434
 #, c-format
 msgid "done"
 msgstr "e bërë"
 
-#: drakfont:226
+#: drakfont:224
 #, fuzzy, c-format
 msgid "Could not find any font in your mounted partitions"
 msgstr "nuk mund ta gjejë asnjë polisë në ndarjen tuaj të montuar"
 
-#: drakfont:261
+#: drakfont:259
 #, c-format
 msgid "Reselect correct fonts"
 msgstr "Rizgjedhi polisat korrekte"
 
-#: drakfont:264
+#: drakfont:262
 #, fuzzy, c-format
 msgid "Could not find any font.\n"
 msgstr "nuk mund ta gjejë asnjë polisë.\n"
 
-#: drakfont:274
+#: drakfont:272
 #, c-format
 msgid "Search for fonts in installed list"
 msgstr "Hulumto për polisat në listën e instaluar"
 
-#: drakfont:298
+#: drakfont:296
 #, c-format
 msgid "%s fonts conversion"
 msgstr "Shëndërrimet e polisës %s"
 
-#: drakfont:337
+#: drakfont:335
 #, c-format
 msgid "Fonts copy"
 msgstr "Kopjoi polisat"
 
-#: drakfont:340
+#: drakfont:338
 #, c-format
 msgid "True Type fonts installation"
 msgstr "Instalimi i polisave True Type"
 
-#: drakfont:348
+#: drakfont:346
 #, c-format
 msgid "please wait during ttmkfdir..."
 msgstr "një moment ju lutemi gjatë ttmkfdir..."
 
-#: drakfont:349
+#: drakfont:347
 #, c-format
 msgid "True Type install done"
 msgstr "Instalimi True Type përfundoi"
 
-#: drakfont:355 drakfont:370
+#: drakfont:353 drakfont:368
 #, c-format
 msgid "type1inst building"
 msgstr "ndërtimi nga type1inst"
 
-#: drakfont:364
+#: drakfont:362
 #, c-format
 msgid "Ghostscript referencing"
 msgstr "Nënshkruarje në Ghostscript"
 
-#: drakfont:381
+#: drakfont:379
 #, c-format
 msgid "Suppress Temporary Files"
 msgstr "Zhduki skedaret e përkohshme"
 
-#: drakfont:426 drakfont:432
+#: drakfont:424 drakfont:430
 #, c-format
 msgid "Suppress Fonts Files"
 msgstr "Zhduki skedaret e Polisës"
 
-#: drakfont:440
+#: drakfont:438
 #, fuzzy, c-format
 msgid ""
 "Before installing any fonts, be sure that you have the right to use and "
@@ -616,204 +626,204 @@ msgstr ""
 "-Ju mund ti instaloni polisat me një rrugë të përditshme. Në raste të rralla "
 "polisat e lëvizura mund ta blokojnë serverin tuaj paraqitës X."
 
-#: drakfont:479
+#: drakfont:477
 #, fuzzy, c-format
 msgid "Font Installation"
 msgstr "Instaloje Postin"
 
-#: drakfont:490
+#: drakfont:488
 #, c-format
 msgid "DrakFont"
 msgstr ""
 
-#: drakfont:491 drakfont:643
+#: drakfont:489 drakfont:641
 #, c-format
 msgid "Font List"
 msgstr "Lista e Policës"
 
-#: drakfont:494
+#: drakfont:492
 #, c-format
 msgid "Get Windows Fonts"
 msgstr ""
 
-#: drakfont:500
+#: drakfont:498
 #, c-format
 msgid "About"
 msgstr "Në lidhje me"
 
-#: drakfont:501 drakfont:542
+#: drakfont:499 drakfont:540
 #, c-format
 msgid "Options"
 msgstr "Opcionet"
 
-#: drakfont:502 drakfont:722
+#: drakfont:500 drakfont:720
 #, fuzzy, c-format
 msgid "Uninstall"
 msgstr "Dezinstaloje Postin"
 
-#: drakfont:503
+#: drakfont:501
 #, c-format
 msgid "Import"
 msgstr "Importo"
 
-#: drakfont:521
+#: drakfont:519
 #, c-format
 msgid "Drakfont"
 msgstr ""
 
-#: drakfont:523 harddrake2:234
+#: drakfont:521 harddrake2:229
 #, c-format
-msgid "Copyright (C) %s by Mandriva"
+msgid "Copyright (C) %s by OpenMandriva"
 msgstr ""
 
-#: drakfont:525
+#: drakfont:523
 #, fuzzy, c-format
 msgid "Font installer."
 msgstr "I pa instaluar"
 
-#: drakfont:527 harddrake2:238
+#: drakfont:525 logdrake:55
 #, fuzzy, c-format
 msgid "OpenMandriva Lx"
 msgstr "Mandriva Online"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
-#: drakfont:534 harddrake2:243
+#: drakfont:532 harddrake2:238
 #, c-format
 msgid "_: Translator(s) name(s) & email(s)\n"
 msgstr ""
 
-#: drakfont:544
+#: drakfont:542
 #, c-format
 msgid "Choose the applications that will support the fonts:"
 msgstr "Zgjedhni aplikacionet që i përkrahin këto polisa:"
 
-#: drakfont:555
+#: drakfont:553
 #, c-format
 msgid "Ghostscript"
 msgstr "Ghostscript"
 
-#: drakfont:556
+#: drakfont:554
 #, c-format
 msgid "LibreOffice"
 msgstr ""
 
-#: drakfont:557
+#: drakfont:555
 #, c-format
 msgid "Abiword"
 msgstr "Abiword"
 
-#: drakfont:558
+#: drakfont:556
 #, c-format
 msgid "Generic Printers"
 msgstr "Stampues të Përgjithshëm"
 
-#: drakfont:563 drakfont:573 drakups:210
+#: drakfont:561 drakfont:571 drakups:209
 #, c-format
 msgid "Ok"
 msgstr "Ok"
 
-#: drakfont:572
+#: drakfont:570
 #, c-format
 msgid "Select the font file or directory and click on 'Add'"
 msgstr "Zgjedhni skedaret apo repertorët e polisave dhe klikoni mbi 'Shto'"
 
-#: drakfont:573
+#: drakfont:571
 #, c-format
 msgid "File Selection"
 msgstr "Zgjedhja e Skedareve"
 
-#: drakfont:577
+#: drakfont:575
 #, c-format
 msgid "Fonts"
 msgstr "Policë e shkronjave çfaqëse"
 
-#: drakfont:641 draksec:162
+#: drakfont:639 draksec:164
 #, fuzzy, c-format
 msgid "Import fonts"
 msgstr "Importimet e Policës"
 
-#: drakfont:647 drakups:299 drakups:375
+#: drakfont:645 drakups:298 drakups:374
 #, c-format
 msgid "Add"
 msgstr "Shto"
 
-#: drakfont:648 drakfont:736 drakups:301 drakups:377
+#: drakfont:646 drakfont:734 drakups:300 drakups:376
 #, c-format
 msgid "Remove"
 msgstr "Zhduke"
 
-#: drakfont:654
+#: drakfont:652
 #, c-format
 msgid "Install"
 msgstr "Instaloje"
 
-#: drakfont:685
+#: drakfont:683
 #, c-format
 msgid "Are you sure you want to uninstall the following fonts?"
 msgstr ""
 
-#: drakfont:689 draksec:59 harddrake2:324
+#: drakfont:687 draksec:57 harddrake2:319
 #, c-format
 msgid "Yes"
 msgstr "Po"
 
-#: drakfont:691 draksec:58 harddrake2:325
+#: drakfont:689 draksec:56 harddrake2:320
 #, c-format
 msgid "No"
 msgstr "Jo"
 
-#: drakfont:730
+#: drakfont:728
 #, c-format
 msgid "Unselect All"
 msgstr "Gjitha të Çzgjedhurat"
 
-#: drakfont:733
+#: drakfont:731
 #, c-format
 msgid "Select All"
 msgstr "Zgjedhi Gjithë"
 
-#: drakfont:750
+#: drakfont:748
 #, fuzzy, c-format
 msgid "Importing fonts"
 msgstr "Importimet e Policës"
 
-#: drakfont:754 drakfont:774
+#: drakfont:752 drakfont:772
 #, c-format
 msgid "Initial tests"
 msgstr "Testet inicues"
 
-#: drakfont:755
+#: drakfont:753
 #, c-format
 msgid "Copy fonts on your system"
 msgstr "Kopjoni polisat në sistemin tuaj"
 
-#: drakfont:756
+#: drakfont:754
 #, c-format
 msgid "Install & convert Fonts"
 msgstr "Instalo & shëndërro Polisat"
 
-#: drakfont:757
+#: drakfont:755
 #, c-format
 msgid "Post Install"
 msgstr "Instaloje Postin"
 
-#: drakfont:769
+#: drakfont:767
 #, fuzzy, c-format
 msgid "Removing fonts"
 msgstr "Importimet e Policës"
 
-#: drakfont:775
+#: drakfont:773
 #, c-format
 msgid "Remove fonts on your system"
 msgstr "Zhdukni polisat në sistemin tuaj"
 
-#: drakfont:776
+#: drakfont:774
 #, c-format
 msgid "Post Uninstall"
 msgstr "Dezinstaloje Postin"
 
-#: drakhelp:17
+#: drakhelp:14
 #, fuzzy, c-format
 msgid ""
 " drakhelp 0.1\n"
@@ -829,12 +839,12 @@ msgstr ""
 "\n"
 "Përdorimi: \n"
 
-#: drakhelp:22
+#: drakhelp:19
 #, c-format
 msgid " --help                - display this help     \n"
 msgstr " --help                - çfaqe këtë ndihmesë     \n"
 
-#: drakhelp:23
+#: drakhelp:20
 #, c-format
 msgid ""
 " --id <id_label>       - load the html help page which refers to id_label\n"
@@ -842,7 +852,7 @@ msgstr ""
 " --id <id_label>       - ngarkoje faqen ndihmuese html e cila referohet në "
 "id_etiketë\n"
 
-#: drakhelp:24
+#: drakhelp:21
 #, c-format
 msgid ""
 " --doc <link>          - link to another web page ( for WM welcome "
@@ -851,72 +861,72 @@ msgstr ""
 " --doc <link>          - lidhje në paqe tjetër web ( interfac WM për mirë se "
 "ardhje)\n"
 
-#: drakhelp:52
+#: drakhelp:49
 #, fuzzy, c-format
 msgid "OpenMandriva Lx Help Center"
 msgstr "Qendra Kontrolluese Mandriva"
 
-#: drakhelp:52
+#: drakhelp:49
 #, c-format
 msgid "No Help entry for %s\n"
 msgstr ""
 
-#: drakperm:23
+#: drakperm:21
 #, c-format
 msgid "System settings"
 msgstr "Rregullimet e sistemit"
 
-#: drakperm:24
+#: drakperm:22
 #, c-format
 msgid "Custom settings"
 msgstr "Personalizim i rregullimeve"
 
-#: drakperm:25
+#: drakperm:23
 #, c-format
 msgid "Custom & system settings"
 msgstr "Personalizim i rregullave & Dogana"
 
-#: drakperm:33
+#: drakperm:31
 #, fuzzy, c-format
 msgid "Security Permissions"
 msgstr "Autorizimet"
 
-#: drakperm:45
+#: drakperm:43
 #, c-format
 msgid "Editable"
 msgstr "Botues"
 
-#: drakperm:50 drakperm:320
+#: drakperm:48 drakperm:318
 #, c-format
 msgid "Path"
 msgstr "Shtegu"
 
-#: drakperm:50 drakperm:249
+#: drakperm:48 drakperm:247
 #, c-format
 msgid "User"
 msgstr "Përdorues"
 
-#: drakperm:50 drakperm:249
+#: drakperm:48 drakperm:247
 #, c-format
 msgid "Group"
 msgstr "Grupi"
 
-#: drakperm:50 drakperm:109 drakperm:332 draksec:177
+#: drakperm:48 drakperm:107 drakperm:330 draksec:179
 #, c-format
 msgid "Permissions"
 msgstr "Autorizimet"
 
-#: drakperm:60
+#: drakperm:58
 #, c-format
 msgid "Add a new rule"
 msgstr ""
 
-#: drakperm:67 drakperm:102 drakperm:128
+#: drakperm:65 drakperm:100 drakperm:126
 #, c-format
 msgid "Edit current rule"
 msgstr "Boto rregullën aktuale"
 
-#: drakperm:110
+#: drakperm:108
 #, fuzzy, c-format
 msgid ""
 "Here you can see files to use in order to fix permissions, owners, and "
@@ -928,7 +938,7 @@ msgstr ""
 "Ju keni mundësi ti botoni rregullat tuaja, të cilat do ti zëvendojnë ato me "
 "marrëveshje."
 
-#: drakperm:112
+#: drakperm:110
 #, fuzzy, c-format
 msgid ""
 "The current security level is %s.\n"
@@ -937,115 +947,115 @@ msgstr ""
 "Niveli prezent i sigurisë është %s\n"
 "Zgjedhë lejimet shiquese/çfaqëse"
 
-#: drakperm:124
+#: drakperm:122
 #, c-format
 msgid "Up"
 msgstr "Lartë"
 
-#: drakperm:124
+#: drakperm:122
 #, c-format
 msgid "Move selected rule up one level"
 msgstr "Hype rregullën për një nivel më lartë"
 
-#: drakperm:125
+#: drakperm:123
 #, c-format
 msgid "Down"
 msgstr "Poshtë"
 
-#: drakperm:125
+#: drakperm:123
 #, c-format
 msgid "Move selected rule down one level"
 msgstr "Zbrite rregullën për një nivel më të ultë"
 
-#: drakperm:126
+#: drakperm:124
 #, c-format
 msgid "Add a rule"
 msgstr "Shtoje një rregullë"
 
-#: drakperm:126
+#: drakperm:124
 #, c-format
 msgid "Add a new rule at the end"
 msgstr "Shtoje një rregullë të re në fund"
 
-#: drakperm:127
+#: drakperm:125
 #, c-format
 msgid "Delete"
 msgstr "Zhduke"
 
-#: drakperm:127
+#: drakperm:125
 #, c-format
 msgid "Delete selected rule"
 msgstr "Zhduki rregullat e zgjedhura"
 
-#: drakperm:128 drakups:300 drakups:376
+#: drakperm:126 drakups:299 drakups:375
 #, c-format
 msgid "Edit"
 msgstr "Botoje"
 
-#: drakperm:241
+#: drakperm:239
 #, c-format
 msgid "browse"
 msgstr "shfletues"
 
-#: drakperm:246
+#: drakperm:244
 #, c-format
 msgid "user"
 msgstr "përdorues"
 
-#: drakperm:246
+#: drakperm:244
 #, c-format
 msgid "group"
 msgstr "grupi"
 
-#: drakperm:246
+#: drakperm:244
 #, c-format
 msgid "other"
 msgstr "tjetër"
 
-#: drakperm:249
+#: drakperm:247
 #, c-format
 msgid "Other"
 msgstr "Tjetër"
 
-#: drakperm:251
+#: drakperm:249
 #, c-format
 msgid "Read"
 msgstr "Lexoje"
 
 #. -PO: here %s will be either "user", "group" or "other"
-#: drakperm:254
+#: drakperm:252
 #, c-format
 msgid "Enable \"%s\" to read the file"
 msgstr "Aktivizoje \"%s\" për leximin e skedares"
 
-#: drakperm:258
+#: drakperm:256
 #, c-format
 msgid "Write"
 msgstr "Shkruarje"
 
 #. -PO: here %s will be either "user", "group" or "other"
-#: drakperm:261
+#: drakperm:259
 #, c-format
 msgid "Enable \"%s\" to write the file"
 msgstr "Mundësoje \"%s\" shkruarjen në skedare"
 
-#: drakperm:265
+#: drakperm:263
 #, c-format
 msgid "Execute"
 msgstr "Ekzekutoje"
 
 #. -PO: here %s will be either "user", "group" or "other"
-#: drakperm:268
+#: drakperm:266
 #, c-format
 msgid "Enable \"%s\" to execute the file"
 msgstr "Mundësoje \"%s\" ekzekutimin e skedares"
 
-#: drakperm:271
+#: drakperm:269
 #, c-format
 msgid "Sticky-bit"
 msgstr "Sticky-bit"
 
-#: drakperm:271
+#: drakperm:269
 #, c-format
 msgid ""
 "Used for directory:\n"
@@ -1055,255 +1065,260 @@ msgstr ""
 " zëvendësohet vetëm nga një repertorë apo skedare, mirëpo në të njëjtin "
 "repertor mund të zhduket."
 
-#: drakperm:272
+#: drakperm:270
 #, c-format
 msgid "Set-UID"
 msgstr "Set-UID"
 
-#: drakperm:272
+#: drakperm:270
 #, c-format
 msgid "Use owner id for execution"
 msgstr "Përdore identitetin e pronarit për ekzekutim"
 
-#: drakperm:273
+#: drakperm:271
 #, c-format
 msgid "Set-GID"
 msgstr "Set-GID"
 
-#: drakperm:273
+#: drakperm:271
 #, c-format
 msgid "Use group id for execution"
 msgstr "Përdore identitetin e grupit për ekzekutim"
 
-#: drakperm:290
+#: drakperm:288
 #, c-format
 msgid "User:"
 msgstr "Përdorues :"
 
-#: drakperm:291
+#: drakperm:289
 #, c-format
 msgid "Group:"
 msgstr "Grupi :"
 
-#: drakperm:295
+#: drakperm:293
 #, c-format
 msgid "Current user"
 msgstr "Përdoruesi aktual"
 
-#: drakperm:296
+#: drakperm:294
 #, c-format
 msgid "When checked, owner and group will not be changed"
 msgstr "Mbasi të verifikohet, pronari dhe grupi nuk do të ndryshoshet"
 
-#: drakperm:306
+#: drakperm:304
 #, c-format
 msgid "Path selection"
 msgstr "Zgjedhe shtegun"
 
-#: drakperm:326
+#: drakperm:324
 #, c-format
 msgid "Property"
 msgstr "Prona"
 
-#: drakperm:376
+#: drakperm:374
 #, c-format
 msgid ""
 "The first character of the path must be a slash (\"/\"):\n"
 "\"%s\""
 msgstr ""
 
-#: drakperm:386
+#: drakperm:384
 #, c-format
 msgid "Both the username and the group must valid!"
 msgstr ""
 
-#: drakperm:387
+#: drakperm:385
 #, c-format
 msgid "User: %s"
 msgstr ""
 
-#: drakperm:388
+#: drakperm:386
 #, c-format
 msgid "Group: %s"
 msgstr ""
 
-#: draksec:53
+#: draksec:51
 #, c-format
 msgid "ALL"
 msgstr "GJITHA"
 
-#: draksec:54
+#: draksec:52
 #, c-format
 msgid "LOCAL"
 msgstr "LOKAL"
 
-#: draksec:55
+#: draksec:53
 #, c-format
 msgid "NONE"
 msgstr "ASNJË"
 
-#: draksec:56
+#: draksec:54
 #, c-format
 msgid "Default"
 msgstr "Me marrëveshje"
 
-#: draksec:57
+#: draksec:55
 #, c-format
 msgid "Ignore"
 msgstr "Injoroje"
 
-#: draksec:87
+#: draksec:85
 #, fuzzy, c-format
 msgid "Security Level and Checks"
 msgstr "Niveli i Sigurisë:"
 
-#: draksec:110
+#: draksec:108
 #, c-format
-msgid "Configure authentication required to access OpenMandriva tools"
+msgid "Configure access to OpenMandriva Lx administrative tools"
 msgstr ""
 
-#: draksec:113
+#: draksec:111
 #, c-format
 msgid "No password needed"
 msgstr "Asnjë parullë"
 
-#: draksec:114
+#: draksec:112
 #, c-format
 msgid "Root password required"
 msgstr ""
 
-#: draksec:115
+#: draksec:113
 #, c-format
 msgid "User password required"
 msgstr ""
 
-#: draksec:145 draksec:200
+#: draksec:146 draksec:202
 #, c-format
 msgid "Software Management"
 msgstr "Menagjuesi Softver"
 
-#: draksec:146
+#: draksec:147
 #, fuzzy, c-format
-msgid "Mandriva Update"
+msgid "Online Update"
 msgstr "Mandriva Online"
 
-#: draksec:147
+#: draksec:148
 #, c-format
 msgid "Software Media Manager"
 msgstr "Menagjues i Burimit Softver"
 
-#: draksec:148
+#: draksec:149
 #, fuzzy, c-format
 msgid "Configure 3D Desktop effects"
 msgstr "Konfiguroje..."
 
-#: draksec:149
+#: draksec:150
 #, fuzzy, c-format
 msgid "Graphical Server Configuration"
 msgstr "Konfigurimi i lajmit alarmues"
 
-#: draksec:150
+#: draksec:151
 #, fuzzy, c-format
 msgid "Mouse Configuration"
 msgstr "Konfigurimi manuel"
 
-#: draksec:151
+#: draksec:152
 #, fuzzy, c-format
 msgid "Keyboard Configuration"
 msgstr "Konfigurimi i rrjetit (Network)"
 
-#: draksec:152
+#: draksec:153
+#, fuzzy, c-format
+msgid "Printer Configuration"
+msgstr "Konfigurimi Proxy"
+
+#: draksec:154
 #, fuzzy, c-format
 msgid "UPS Configuration"
 msgstr "Konfigurimi i stampuesit CUPS"
 
-#: draksec:153
+#: draksec:155
 #, fuzzy, c-format
 msgid "Network Configuration"
 msgstr "konfigurimi i alertës"
 
-#: draksec:154
+#: draksec:156
 #, c-format
 msgid "Hosts definitions"
 msgstr ""
 
-#: draksec:155
+#: draksec:157
 #, fuzzy, c-format
 msgid "Network Center"
 msgstr "Rrjeti & Internet"
 
-#: draksec:156
+#: draksec:158
 #, c-format
 msgid "Wireless Network Roaming"
 msgstr ""
 
-#: draksec:157
+#: draksec:159
 #, c-format
 msgid "VPN"
 msgstr ""
 
-#: draksec:158
+#: draksec:160
 #, c-format
 msgid "Proxy Configuration"
 msgstr "Konfigurimi Proxy"
 
-#: draksec:159
+#: draksec:161
 #, fuzzy, c-format
 msgid "Connection Sharing"
 msgstr "Lidhja"
 
-#: draksec:161
+#: draksec:163
 #, fuzzy, c-format
 msgid "Backups"
 msgstr "Bus"
 
-#: draksec:163 logdrake:52
+#: draksec:165 logdrake:56
 #, c-format
 msgid "Logs"
 msgstr "Të përditëshmet"
 
-#: draksec:164 finish-install:209 finish-install:248
+#: draksec:166 finish-install:210 finish-install:249
 #, c-format
 msgid "Services"
 msgstr "Shërbime"
 
-#: draksec:165
+#: draksec:167
 #, fuzzy, c-format
 msgid "Users"
 msgstr "Përdorues"
 
-#: draksec:167
+#: draksec:169
 #, fuzzy, c-format
 msgid "Boot Configuration"
 msgstr "konfigurimi i alertës"
 
-#: draksec:201
+#: draksec:203
 #, c-format
 msgid "Hardware"
 msgstr "Hardware"
 
-#: draksec:202
+#: draksec:204
 #, fuzzy, c-format
 msgid "Network"
 msgstr "Opcionet e Rrjetit"
 
-#: draksec:203
+#: draksec:205
 #, c-format
 msgid "System"
 msgstr "Sistemi"
 
-#: draksec:204
+#: draksec:206
 #, c-format
 msgid "Boot"
 msgstr "Boot"
 
-#: draksound:48
+#: draksound:47
 #, c-format
 msgid "No Sound Card detected!"
 msgstr "Asnjë Kartelë e Zërit s'është zbuluar!"
 
 #. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
-#: draksound:51
+#: draksound:50
 #, c-format
 msgid ""
 "No Sound Card has been detected on your machine. Please verify that a Linux-"
@@ -1325,7 +1340,7 @@ msgstr ""
 "\n"
 "http://www.mandrivalinux.com/en/hardware.php3"
 
-#: draksound:58
+#: draksound:57
 #, fuzzy, c-format
 msgid ""
 "\n"
@@ -1340,22 +1355,22 @@ msgstr ""
 "Shënim: nëse ju posedoni një kartelë ISA PnP, ju duhet ta përdorni programin "
 "sndconfig. Shtypni në linjën komanduese \"sndconfig\"."
 
-#: drakups:71
+#: drakups:70
 #, c-format
 msgid "Connected through a serial port or an usb cable"
 msgstr ""
 
-#: drakups:72
+#: drakups:71
 #, c-format
 msgid "Manual configuration"
 msgstr "Konfigurimi manuel"
 
-#: drakups:78
+#: drakups:77
 #, fuzzy, c-format
 msgid "Add an UPS device"
 msgstr "Shtoje një element"
 
-#: drakups:81
+#: drakups:80
 #, fuzzy, c-format
 msgid ""
 "Welcome to the UPS configuration utility.\n"
@@ -1366,7 +1381,7 @@ msgstr ""
 "\n"
 "Këtu, keni mundësi të rregulloni sistemin tuaj alarmues.\n"
 
-#: drakups:88
+#: drakups:87
 #, c-format
 msgid ""
 "We're going to add an UPS device.\n"
@@ -1375,176 +1390,176 @@ msgid ""
 "manually select them?"
 msgstr ""
 
-#: drakups:91
+#: drakups:90
 #, fuzzy, c-format
 msgid "Autodetection"
 msgstr "Auto-zbulues"
 
-#: drakups:99 harddrake2:379
+#: drakups:98 harddrake2:374
 #, c-format
 msgid "Detection in progress"
 msgstr "Zbulimi në vazhdim e sipër"
 
-#: drakups:118 drakups:157 logdrake:457 logdrake:463
+#: drakups:117 drakups:156 logdrake:461 logdrake:467
 #, c-format
 msgid "Congratulations"
 msgstr "Urime"
 
-#: drakups:119
+#: drakups:118
 #, c-format
 msgid "The wizard successfully added the following UPS devices:"
 msgstr ""
 
-#: drakups:121
+#: drakups:120
 #, fuzzy, c-format
 msgid "No new UPS devices was found"
 msgstr "Asnjë mjet i gjetur"
 
-#: drakups:126 drakups:138
+#: drakups:125 drakups:137
 #, fuzzy, c-format
 msgid "UPS driver configuration"
 msgstr "Konfigurimi i stampuesit CUPS"
 
-#: drakups:126
+#: drakups:125
 #, fuzzy, c-format
 msgid "Please select your UPS model."
 msgstr "Ju lutemi testone minin tuaj:"
 
-#: drakups:127
+#: drakups:126
 #, fuzzy, c-format
 msgid "Manufacturer / Model:"
 msgstr "Prodhuesi i stampuesit, modeli"
 
-#: drakups:138
+#: drakups:137
 #, c-format
 msgid ""
 "We are configuring the \"%s\" UPS from \"%s\".\n"
 "Please fill in its name, its driver and its port."
 msgstr ""
 
-#: drakups:143
+#: drakups:142
 #, c-format
 msgid "Name:"
 msgstr "Emri:"
 
-#: drakups:143
+#: drakups:142
 #, fuzzy, c-format
 msgid "The name of your ups"
 msgstr "emri i periferikut CPU"
 
-#: drakups:144
+#: drakups:143
 #, c-format
 msgid "Driver:"
 msgstr "Pilot:"
 
-#: drakups:144
+#: drakups:143
 #, c-format
 msgid "The driver that manages your ups"
 msgstr ""
 
-#: drakups:145
+#: drakups:144
 #, c-format
 msgid "Port:"
 msgstr "Porta:"
 
-#: drakups:147
+#: drakups:146
 #, fuzzy, c-format
 msgid "The port on which is connected your ups"
 msgstr "tipi bus, në të cilin është lidhur mini i juaj"
 
-#: drakups:157
+#: drakups:156
 #, c-format
 msgid "The wizard successfully configured the new \"%s\" UPS device."
 msgstr ""
 
-#: drakups:248
+#: drakups:247
 #, fuzzy, c-format
 msgid "UPS devices"
 msgstr "Serviset"
 
-#: drakups:249 drakups:268 drakups:284 harddrake2:89 harddrake2:116
-#: harddrake2:123
+#: drakups:248 drakups:267 drakups:283 harddrake2:87 harddrake2:114
+#: harddrake2:121
 #, c-format
 msgid "Name"
 msgstr "Emri"
 
-#: drakups:249 harddrake2:139
+#: drakups:248 harddrake2:137
 #, c-format
 msgid "Driver"
 msgstr "Pilot"
 
-#: drakups:249 harddrake2:56
+#: drakups:248 harddrake2:54
 #, c-format
 msgid "Port"
 msgstr "Porta"
 
-#: drakups:267
+#: drakups:266
 #, fuzzy, c-format
 msgid "UPS users"
 msgstr "Përdoruesit"
 
-#: drakups:283
+#: drakups:282
 #, fuzzy, c-format
 msgid "Access Control Lists"
 msgstr "hyrjet në veglat e rrjetit"
 
-#: drakups:284
+#: drakups:283
 #, c-format
 msgid "IP address"
 msgstr "Adresa IP"
 
-#: drakups:284
+#: drakups:283
 #, c-format
 msgid "IP mask"
 msgstr ""
 
-#: drakups:296
+#: drakups:295
 #, c-format
 msgid "Rules"
 msgstr "Rregullat"
 
-#: drakups:297
+#: drakups:296
 #, c-format
 msgid "Action"
 msgstr "Akcion"
 
-#: drakups:297 harddrake2:85
+#: drakups:296 harddrake2:83
 #, c-format
 msgid "Level"
 msgstr "Niveli"
 
-#: drakups:297
+#: drakups:296
 #, fuzzy, c-format
 msgid "ACL name"
 msgstr "Emër LVM?"
 
-#: drakups:297 finish-install:267
+#: drakups:296 finish-install:258
 #, c-format
 msgid "Password"
 msgstr "Parulla"
 
-#: drakups:329
+#: drakups:328
 #, fuzzy, c-format
 msgid "UPS Management"
 msgstr "Menagjer i Stampuesit \n"
 
-#: drakups:333 drakups:342
+#: drakups:332 drakups:341
 #, fuzzy, c-format
 msgid "DrakUPS"
 msgstr "Dvorak (SHBA)"
 
-#: drakups:339
+#: drakups:338
 #, fuzzy, c-format
 msgid "Welcome to the UPS configuration tools"
 msgstr "Test i konfigurimit"
 
-#: drakxtv:67
+#: drakxtv:66
 #, c-format
 msgid "No TV Card detected!"
 msgstr "Asnjë kartelë e zbuluar TV"
 
 #. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
-#: drakxtv:69
+#: drakxtv:68
 #, c-format
 msgid ""
 "No TV Card has been detected on your machine. Please verify that a Linux-"
@@ -1581,82 +1596,77 @@ msgstr "Ju lutemi, zgjedheni tastierën tuaj."
 msgid "Testing your connection..."
 msgstr ""
 
-#: finish-install:184
+#: finish-install:185
 #, c-format
 msgid "Windows-compatible sharing system"
 msgstr ""
 
-#: finish-install:186
-#, c-format
-msgid "Virtual Private Network"
-msgstr ""
-
-#: finish-install:187
+#: finish-install:188
 #, fuzzy, c-format
 msgid "OpenSSH server"
 msgstr "Server SSH"
 
-#: finish-install:188
+#: finish-install:189
 #, fuzzy, c-format
 msgid "Print server"
 msgstr "Server Ftp"
 
-#: finish-install:208
+#: finish-install:209
 #, c-format
-msgid "Please, specify which services should run at start-up:"
+msgid "Do you have any services that you want to run when starting up?"
 msgstr ""
 
-#: finish-install:240
+#: finish-install:241
 #, fuzzy, c-format
 msgid "The following services failed to start:\n"
 msgstr "Pakot e radhitura duhet të instalohen:\n"
 
-#: finish-install:243
+#: finish-install:244
 #, fuzzy, c-format
 msgid "The following services failed to stop:\n"
 msgstr "Pakot e radhitura duhet të instalohen:\n"
 
-#: finish-install:265 finish-install:283 finish-install:296
+#: finish-install:256 finish-install:274 finish-install:287
 #, c-format
 msgid "Encrypted home partition"
 msgstr ""
 
-#: finish-install:265
+#: finish-install:256
 #, c-format
 msgid "Please enter a password for the %s user"
 msgstr ""
 
-#: finish-install:268
+#: finish-install:259
 #, c-format
 msgid "Password (again)"
 msgstr "Parulla (përsëri)"
 
-#: finish-install:283
+#: finish-install:274
 #, c-format
 msgid "Creating encrypted home partition"
 msgstr ""
 
-#: finish-install:296
+#: finish-install:287
 #, c-format
 msgid "Formatting encrypted home partition"
 msgstr ""
 
-#: harddrake2:30
+#: harddrake2:28
 #, c-format
 msgid "Alternative drivers"
 msgstr "Pilotë alternativë"
 
-#: harddrake2:31
+#: harddrake2:29
 #, c-format
 msgid "the list of alternative drivers for this sound card"
 msgstr "lista e pilotëve të tjerë alternativ për këtë kartelë të zërit"
 
-#: harddrake2:33 harddrake2:125
+#: harddrake2:31 harddrake2:123
 #, c-format
 msgid "Bus"
 msgstr "Bus"
 
-#: harddrake2:34
+#: harddrake2:32
 #, c-format
 msgid ""
 "this is the physical bus on which the device is plugged (eg: PCI, USB, ...)"
@@ -1664,12 +1674,12 @@ msgstr ""
 "ky është një bus fizikë mbi të cilin periferiku është i lidhur (p.sh.: PCI, "
 "USB, ..."
 
-#: harddrake2:36 harddrake2:151
+#: harddrake2:34 harddrake2:149
 #, c-format
 msgid "Bus identification"
 msgstr "Identifikues i Bus"
 
-#: harddrake2:37
+#: harddrake2:35
 #, c-format
 msgid ""
 "- PCI and USB devices: this lists the vendor, device, subvendor and "
@@ -1678,12 +1688,12 @@ msgstr ""
 "- Mjetet PCI dhe USB: kjo listë identifikon shitësin, mjetin, ndër-shitësin "
 "dhe dër-mjetin PCI/USB ids"
 
-#: harddrake2:39
+#: harddrake2:37
 #, c-format
 msgid "Location on the bus"
 msgstr "Pozita në bus"
 
-#: harddrake2:40
+#: harddrake2:38
 #, c-format
 msgid ""
 "- pci devices: this gives the PCI slot, device and function of this card\n"
@@ -1694,236 +1704,236 @@ msgstr ""
 "- periferikët eide: ky periferik mund të jetë sklave apo master\n"
 "- periferikët scsi: bus dhe identiteti SCSI"
 
-#: harddrake2:43
+#: harddrake2:41
 #, c-format
 msgid "Drive capacity"
 msgstr "Kapaciteti i pilotit"
 
-#: harddrake2:43
+#: harddrake2:41
 #, c-format
 msgid "special capacities of the driver (burning ability and or DVD support)"
 msgstr ""
 "kapaciteti special i pilotit (mundësia e gdhendjes dhe përkrahja e DVD)"
 
-#: harddrake2:44
+#: harddrake2:42
 #, c-format
 msgid "Description"
 msgstr "Përshkrimi"
 
-#: harddrake2:44
+#: harddrake2:42
 #, c-format
 msgid "this field describes the device"
 msgstr "kjo zonë e përshkruan periferikët"
 
-#: harddrake2:45
+#: harddrake2:43
 #, c-format
 msgid "Old device file"
 msgstr "Skedare e vjetër periferiku"
 
-#: harddrake2:46
+#: harddrake2:44
 #, c-format
 msgid "old static device name used in dev package"
 msgstr "emër i vjetër i periferikut statik të përdorur në pakon dev"
 
 #. -PO: here "module" is the "jargon term" for a kernel driver
-#: harddrake2:49
+#: harddrake2:47
 #, c-format
 msgid "Module"
 msgstr "Modulë"
 
-#: harddrake2:49
+#: harddrake2:47
 #, c-format
 msgid "the module of the GNU/Linux kernel that handles the device"
 msgstr "moduli i bërthamës GNU/Linux i cili qeverisë këtë periferik"
 
-#: harddrake2:50
+#: harddrake2:48
 #, fuzzy, c-format
 msgid "Extended partitions"
 msgstr "Krijo një ndarje të re"
 
-#: harddrake2:50
+#: harddrake2:48
 #, fuzzy, c-format
 msgid "the number of extended partitions"
 msgstr "numri i procesorit"
 
-#: harddrake2:51
+#: harddrake2:49
 #, fuzzy, c-format
 msgid "Geometry"
 msgstr "Riparo"
 
-#: harddrake2:51
+#: harddrake2:49
 #, c-format
 msgid "Cylinder/head/sectors geometry of the disk"
 msgstr ""
 
-#: harddrake2:52
+#: harddrake2:50
 #, fuzzy, c-format
 msgid "Disk controller"
 msgstr "Kontrolluesit SMBus"
 
-#: harddrake2:52
+#: harddrake2:50
 #, c-format
 msgid "the disk controller on the host side"
 msgstr ""
 
-#: harddrake2:53
+#: harddrake2:51
 #, fuzzy, c-format
 msgid "Identifier"
 msgstr "Stampues"
 
-#: harddrake2:53
+#: harddrake2:51
 #, c-format
 msgid "usually the device serial number"
 msgstr ""
 
-#: harddrake2:54
+#: harddrake2:52
 #, c-format
 msgid "Media class"
 msgstr "Klasë e medias"
 
-#: harddrake2:54
+#: harddrake2:52
 #, c-format
 msgid "class of hardware device"
 msgstr "klasë e materialit hardver"
 
-#: harddrake2:55 harddrake2:86
+#: harddrake2:53 harddrake2:84
 #, c-format
 msgid "Model"
 msgstr "Modeli"
 
-#: harddrake2:55
+#: harddrake2:53
 #, c-format
 msgid "hard disk model"
 msgstr "modeli i diskut të fort (hard disk)"
 
-#: harddrake2:56
+#: harddrake2:54
 #, c-format
 msgid "network printer port"
 msgstr "porta e stampuesit në rrjet"
 
-#: harddrake2:57
+#: harddrake2:55
 #, fuzzy, c-format
 msgid "Primary partitions"
 msgstr "Formatim i ndarjeve"
 
-#: harddrake2:57
+#: harddrake2:55
 #, fuzzy, c-format
 msgid "the number of the primary partitions"
 msgstr "numri i procesorit"
 
-#: harddrake2:58 harddrake2:92
+#: harddrake2:56 harddrake2:90
 #, c-format
 msgid "Vendor"
 msgstr "Shitës"
 
-#: harddrake2:58
+#: harddrake2:56
 #, c-format
 msgid "the vendor name of the device"
 msgstr "emri i shitësit të këtij periferiku"
 
-#: harddrake2:59
+#: harddrake2:57
 #, c-format
 msgid "PCI domain"
 msgstr ""
 
-#: harddrake2:59 harddrake2:60
+#: harddrake2:57 harddrake2:58
 #, fuzzy, c-format
 msgid "the PCI domain of the device"
 msgstr "emri i shitësit të këtij periferiku"
 
-#: harddrake2:60
+#: harddrake2:58
 #, fuzzy, c-format
 msgid "PCI revision"
 msgstr "Autorizimet"
 
-#: harddrake2:61
+#: harddrake2:59
 #, c-format
 msgid "Bus PCI #"
 msgstr ""
 
-#: harddrake2:61
+#: harddrake2:59
 #, fuzzy, c-format
 msgid "the PCI bus on which the device is plugged"
 msgstr ""
 "ky është një bus fizikë mbi të cilin periferiku është i lidhur (p.sh.: PCI, "
 "USB, ..."
 
-#: harddrake2:62
+#: harddrake2:60
 #, fuzzy, c-format
 msgid "PCI device #"
 msgstr "Serviset"
 
-#: harddrake2:62
+#: harddrake2:60
 #, fuzzy, c-format
 msgid "PCI device number"
 msgstr "një numër"
 
-#: harddrake2:63
+#: harddrake2:61
 #, c-format
 msgid "PCI function #"
 msgstr ""
 
-#: harddrake2:63
+#: harddrake2:61
 #, fuzzy, c-format
 msgid "PCI function number"
 msgstr "Emri i lidhjes"
 
-#: harddrake2:64
+#: harddrake2:62
 #, fuzzy, c-format
 msgid "Vendor ID"
 msgstr "Shitës"
 
-#: harddrake2:64
+#: harddrake2:62
 #, c-format
 msgid "this is the standard numerical identifier of the vendor"
 msgstr ""
 
-#: harddrake2:65
+#: harddrake2:63
 #, fuzzy, c-format
 msgid "Device ID"
 msgstr "Periferik: "
 
-#: harddrake2:65
+#: harddrake2:63
 #, fuzzy, c-format
 msgid "this is the numerical identifier of the device"
 msgstr "emri i shitësit të këtij periferiku"
 
-#: harddrake2:66
+#: harddrake2:64
 #, c-format
 msgid "Sub vendor ID"
 msgstr ""
 
-#: harddrake2:66
+#: harddrake2:64
 #, c-format
 msgid "this is the minor numerical identifier of the vendor"
 msgstr ""
 
-#: harddrake2:67
+#: harddrake2:65
 #, fuzzy, c-format
 msgid "Sub device ID"
 msgstr "Serviset"
 
-#: harddrake2:67
+#: harddrake2:65
 #, fuzzy, c-format
 msgid "this is the minor numerical identifier of the device"
 msgstr "emri i shitësit të këtij periferiku"
 
-#: harddrake2:68
+#: harddrake2:66
 #, fuzzy, c-format
 msgid "Device USB ID"
 msgstr "Periferik: "
 
-#: harddrake2:68
+#: harddrake2:66
 #, c-format
 msgid ".."
 msgstr ""
 
-#: harddrake2:73 harddrake2:74
+#: harddrake2:71 harddrake2:72
 #, c-format
 msgid "Bogomips"
 msgstr "Bogomips"
 
-#: harddrake2:73 harddrake2:74
+#: harddrake2:71 harddrake2:72
 #, c-format
 msgid ""
 "the GNU/Linux kernel needs to run a calculation loop at boot time to "
@@ -1934,42 +1944,42 @@ msgstr ""
 "që ta inicializojë kohën e llogaritur. Është rezultat i stokuar sikur "
 "bogomips dhe si një rrugicë e \"benchmark\" në cpu."
 
-#: harddrake2:75
+#: harddrake2:73
 #, c-format
 msgid "Cache size"
 msgstr "Madhësia e fshehur"
 
-#: harddrake2:75
+#: harddrake2:73
 #, c-format
 msgid "size of the (second level) cpu cache"
 msgstr "madhësia e cpu së fshehur (niveli i dytë)"
 
-#: harddrake2:76
+#: harddrake2:74
 #, c-format
 msgid "Cpuid family"
 msgstr "Cpuid familjar"
 
-#: harddrake2:76
+#: harddrake2:74
 #, c-format
 msgid "family of the cpu (eg: 6 for i686 class)"
 msgstr "familja e cpu (p.sh: 6 për klasën i686)"
 
-#: harddrake2:77
+#: harddrake2:75
 #, c-format
 msgid "Cpuid level"
 msgstr "Nivel i Cpuid"
 
-#: harddrake2:77
+#: harddrake2:75
 #, c-format
 msgid "information level that can be obtained through the cpuid instruction"
 msgstr "nivel i informacionit, që mund të përfitohet nëpër përshkrimet e cpuid"
 
-#: harddrake2:78
+#: harddrake2:76
 #, c-format
 msgid "Frequency (MHz)"
 msgstr "Frekuenca (MHz)"
 
-#: harddrake2:78
+#: harddrake2:76
 #, c-format
 msgid ""
 "the CPU frequency in MHz (Megahertz which in first approximation may be "
@@ -1979,102 +1989,102 @@ msgstr ""
 "frekuenca cpu në MHz (Mega herc e cila në fillim është përafërsisht një "
 "numër i njëjtë që përshkruan cpu, dhe mund të ekzekutohet në gjdo sekondë)"
 
-#: harddrake2:79
+#: harddrake2:77
 #, c-format
 msgid "Flags"
 msgstr "Shenjatë"
 
-#: harddrake2:79
+#: harddrake2:77
 #, c-format
 msgid "CPU flags reported by the kernel"
 msgstr "Shenjë CPU e raportuar nga bërthama"
 
-#: harddrake2:80 harddrake2:144
+#: harddrake2:78 harddrake2:142
 #, fuzzy, c-format
 msgid "Cores"
 msgstr "Mbylle"
 
-#: harddrake2:80
+#: harddrake2:78
 #, c-format
 msgid "CPU cores"
 msgstr ""
 
-#: harddrake2:81
+#: harddrake2:79
 #, fuzzy, c-format
 msgid "Core ID"
 msgstr "Shitës"
 
-#: harddrake2:82
+#: harddrake2:80
 #, c-format
 msgid "Physical ID"
 msgstr ""
 
-#: harddrake2:83
+#: harddrake2:81
 #, c-format
 msgid "ACPI ID"
 msgstr ""
 
-#: harddrake2:84
+#: harddrake2:82
 #, fuzzy, c-format
 msgid "Siblings"
 msgstr "Rregullimet"
 
-#: harddrake2:85
+#: harddrake2:83
 #, c-format
 msgid "sub generation of the cpu"
 msgstr "ndër prodhimi i cpu"
 
-#: harddrake2:86
+#: harddrake2:84
 #, c-format
 msgid "generation of the cpu (eg: 8 for Pentium III, ...)"
 msgstr "prodhues i cpu (p.sh: 8 për Pentium III, ...)"
 
-#: harddrake2:87 harddrake2:88
+#: harddrake2:85 harddrake2:86
 #, c-format
 msgid "Model name"
 msgstr "Emri i modelit"
 
-#: harddrake2:87 harddrake2:88
+#: harddrake2:85 harddrake2:86
 #, c-format
 msgid "official vendor name of the cpu"
 msgstr "emri i shitësit kryesor të këtij cpu"
 
-#: harddrake2:89
+#: harddrake2:87
 #, c-format
 msgid "the name of the CPU"
 msgstr "emri i periferikut CPU"
 
-#: harddrake2:90
+#: harddrake2:88
 #, c-format
 msgid "Processor ID"
 msgstr "Procesori ID"
 
-#: harddrake2:90
+#: harddrake2:88
 #, c-format
 msgid "the number of the processor"
 msgstr "numri i procesorit"
 
-#: harddrake2:91
+#: harddrake2:89
 #, c-format
 msgid "Model stepping"
 msgstr "Etapë e modelit"
 
-#: harddrake2:91
+#: harddrake2:89
 #, c-format
 msgid "stepping of the cpu (sub model (generation) number)"
 msgstr "etapa të cpu (ndër model (prodhimi) numri)"
 
-#: harddrake2:92
+#: harddrake2:90
 #, c-format
 msgid "the vendor name of the processor"
 msgstr "emri i shitësit të këtij procesori"
 
-#: harddrake2:93
+#: harddrake2:91
 #, c-format
 msgid "Write protection"
 msgstr "Shkruaje në mbrojtje"
 
-#: harddrake2:93
+#: harddrake2:91
 #, c-format
 msgid ""
 "the WP flag in the CR0 register of the cpu enforce write protection at the "
@@ -2086,47 +2096,47 @@ msgstr ""
 "hyrjet në bërthamat e pa verifikuara të përdoruesve të memorisë (aka ky "
 "është një mbrojtës bug)"
 
-#: harddrake2:97
+#: harddrake2:95
 #, c-format
 msgid "Floppy format"
 msgstr "Formatimi i disketës flopi"
 
-#: harddrake2:97
+#: harddrake2:95
 #, c-format
 msgid "format of floppies supported by the drive"
 msgstr "formatimi i disketave flopi, përkrahet nga ky lexues"
 
-#: harddrake2:101
+#: harddrake2:99
 #, c-format
 msgid "EIDE/SCSI channel"
 msgstr "EIDE/Kanali SCSI"
 
-#: harddrake2:102
+#: harddrake2:100
 #, fuzzy, c-format
 msgid "Disk identifier"
 msgstr "Stampues"
 
-#: harddrake2:102
+#: harddrake2:100
 #, c-format
 msgid "usually the disk serial number"
 msgstr ""
 
-#: harddrake2:103
+#: harddrake2:101
 #, c-format
 msgid "Target id number"
 msgstr ""
 
-#: harddrake2:103
+#: harddrake2:101
 #, c-format
 msgid "the SCSI target identifier"
 msgstr ""
 
-#: harddrake2:104
+#: harddrake2:102
 #, fuzzy, c-format
 msgid "Logical unit number"
 msgstr "Emri logjik i vëllimit "
 
-#: harddrake2:104
+#: harddrake2:102
 #, c-format
 msgid ""
 "the SCSI Logical Unit Number (LUN). SCSI devices connected to a host are "
@@ -2135,189 +2145,184 @@ msgid ""
 msgstr ""
 
 #. -PO: here, "size" is the size of the ram chip (eg: 128Mo, 256Mo, ...)
-#: harddrake2:111
+#: harddrake2:109
 #, fuzzy, c-format
 msgid "Installed size"
 msgstr "Instalim sistemin"
 
-#: harddrake2:111
+#: harddrake2:109
 #, c-format
 msgid "Installed size of the memory bank"
 msgstr ""
 
-#: harddrake2:112
+#: harddrake2:110
 #, fuzzy, c-format
 msgid "Enabled Size"
 msgstr "aktiv"
 
-#: harddrake2:112
+#: harddrake2:110
 #, c-format
 msgid "Enabled size of the memory bank"
 msgstr ""
 
-#: harddrake2:113 harddrake2:122
+#: harddrake2:111 harddrake2:120
 #, c-format
 msgid "Type"
 msgstr "Tipi"
 
-#: harddrake2:113
+#: harddrake2:111
 #, fuzzy, c-format
 msgid "type of the memory device"
 msgstr "emri i shitësit të këtij periferiku"
 
-#: harddrake2:114
+#: harddrake2:112
 #, c-format
 msgid "Speed"
 msgstr "Shpejtësia"
 
-#: harddrake2:114
+#: harddrake2:112
 #, c-format
 msgid "Speed of the memory bank"
 msgstr ""
 
-#: harddrake2:115
+#: harddrake2:113
 #, fuzzy, c-format
 msgid "Bank connections"
 msgstr "Lidhja kabëll"
 
-#: harddrake2:116
+#: harddrake2:114
 #, c-format
 msgid "Socket designation of the memory bank"
 msgstr ""
 
-#: harddrake2:120
+#: harddrake2:118
 #, fuzzy, c-format
 msgid "Device file"
 msgstr "Skedare e vjetër periferiku"
 
-#: harddrake2:120
+#: harddrake2:118
 #, c-format
 msgid ""
 "the device file used to communicate with the kernel driver for the mouse"
 msgstr ""
 
-#: harddrake2:121
+#: harddrake2:119
 #, c-format
 msgid "Emulated wheel"
 msgstr ""
 
-#: harddrake2:121
+#: harddrake2:119
 #, fuzzy, c-format
 msgid "whether the wheel is emulated or not"
 msgstr "3 Kopsa me Rrotë Imituese"
 
-#: harddrake2:122
+#: harddrake2:120
 #, fuzzy, c-format
 msgid "the type of the mouse"
 msgstr "Ju lutemi testone minin"
 
-#: harddrake2:123
+#: harddrake2:121
 #, fuzzy, c-format
 msgid "the name of the mouse"
 msgstr "emri i periferikut CPU"
 
-#: harddrake2:124
+#: harddrake2:122
 #, c-format
 msgid "Number of buttons"
 msgstr "Sasia i kopsave"
 
-#: harddrake2:124
+#: harddrake2:122
 #, c-format
 msgid "the number of buttons the mouse has"
 msgstr "sasia e kopsave që mini juaj posedon"
 
-#: harddrake2:125
+#: harddrake2:123
 #, c-format
 msgid "the type of bus on which the mouse is connected"
 msgstr "tipi bus, në të cilin është lidhur mini i juaj"
 
-#: harddrake2:126
+#: harddrake2:124
 #, c-format
 msgid "Mouse protocol used by X11"
 msgstr ""
 
-#: harddrake2:126
+#: harddrake2:124
 #, c-format
 msgid "the protocol that the graphical desktop use with the mouse"
 msgstr ""
 
-#: harddrake2:130
+#: harddrake2:128
 #, fuzzy, c-format
 msgid "Identification"
 msgstr "Identifikues i Bus"
 
-#: harddrake2:135 harddrake2:150
+#: harddrake2:133 harddrake2:148
 #, c-format
 msgid "Connection"
 msgstr "Lidhja"
 
-#: harddrake2:145
+#: harddrake2:143
 #, fuzzy, c-format
 msgid "Performances"
 msgstr "Pëlqimet"
 
-#: harddrake2:152
+#: harddrake2:150
 #, c-format
 msgid "Device"
 msgstr "Periferik"
 
-#: harddrake2:153
+#: harddrake2:151
 #, c-format
 msgid "Partitions"
 msgstr "Ndarjet"
 
-#: harddrake2:158
+#: harddrake2:156
 #, c-format
 msgid "Features"
 msgstr ""
 
 #. -PO: please keep all "/" characters !!!
-#: harddrake2:181 logdrake:78
+#: harddrake2:179 logdrake:82
 #, c-format
 msgid "/_Options"
 msgstr "/_Opcionet"
 
-#: harddrake2:182 harddrake2:208 logdrake:80
+#: harddrake2:180 harddrake2:203 logdrake:84
 #, c-format
 msgid "/_Help"
 msgstr "/_Ndihmë"
 
-#: harddrake2:186
+#: harddrake2:184
 #, c-format
 msgid "/Autodetect _modems"
 msgstr "/Auto-zbulues _modemeve"
 
-#: harddrake2:187
-#, c-format
-msgid "/Autodetect _jaz drives"
-msgstr "/Auto-zbulues i pilotve _jaz"
-
-#: harddrake2:188
+#: harddrake2:185
 #, c-format
 msgid "/Autodetect parallel _zip drives"
 msgstr ""
 
-#: harddrake2:192
+#: harddrake2:189
 #, fuzzy, c-format
 msgid "Hardware Configuration"
 msgstr "Konfigurimi i rrjetit (Network)"
 
-#: harddrake2:199
+#: harddrake2:196
 #, c-format
 msgid "/_Quit"
 msgstr "/_Braktise"
 
-#: harddrake2:210
+#: harddrake2:205
 #, c-format
 msgid "/_Fields description"
 msgstr "/_Zonat përshkuese"
 
-#: harddrake2:212
+#: harddrake2:207
 #, c-format
 msgid "Harddrake help"
 msgstr "Ndihma Harddrake"
 
-#: harddrake2:213
+#: harddrake2:208
 #, c-format
 msgid ""
 "Description of the fields:\n"
@@ -2326,12 +2331,12 @@ msgstr ""
 "Përshkrimi i zonave:\n"
 "\n"
 
-#: harddrake2:221
+#: harddrake2:216
 #, c-format
 msgid "Select a device!"
 msgstr "Zgjedhe një mjet !"
 
-#: harddrake2:221
+#: harddrake2:216
 #, c-format
 msgid ""
 "Once you've selected a device, you'll be able to see the device information "
@@ -2340,47 +2345,52 @@ msgstr ""
 "Mbasi që ta zgjedhni një mjet, ju keni mundësi ti shiqoni zonat e "
 "shpjegimeve të paraqitura në kallëpin e caktuar (\"Informacion\")"
 
-#: harddrake2:227
+#: harddrake2:222
 #, c-format
 msgid "/_Report Bug"
 msgstr "/_Raport Bug(i)"
 
-#: harddrake2:229
+#: harddrake2:224
 #, c-format
 msgid "/_About..."
 msgstr "/_Në lidhje me..."
 
-#: harddrake2:232
+#: harddrake2:227
 #, fuzzy, c-format
 msgid "Harddrake"
 msgstr "HardDrake"
 
-#: harddrake2:236
+#: harddrake2:231
 #, c-format
 msgid "This is HardDrake, a %s hardware configuration tool."
 msgstr ""
 
-#: harddrake2:269
+#: harddrake2:233
+#, fuzzy, c-format
+msgid "OpenMandriva Linux"
+msgstr "Mandriva Online"
+
+#: harddrake2:264
 #, c-format
 msgid "Detected hardware"
 msgstr "Materiali i zbuluar"
 
-#: harddrake2:272 scannerdrake:284
+#: harddrake2:267 scannerdrake:283
 #, c-format
 msgid "Information"
 msgstr "Informacion"
 
-#: harddrake2:274
+#: harddrake2:269
 #, c-format
 msgid "Set current driver options"
 msgstr ""
 
-#: harddrake2:281
+#: harddrake2:276
 #, c-format
 msgid "Run config tool"
 msgstr "Nise veglën për konfigurim"
 
-#: harddrake2:301
+#: harddrake2:296
 #, c-format
 msgid ""
 "Click on a device in the tree on the left in order to display its "
@@ -2389,42 +2399,42 @@ msgstr ""
 "Kliko në një mjet në anën e majtë të drurit, në urdhër për të paraqitur "
 "informacionin e tij këtu."
 
-#: harddrake2:322 notify-x11-free-driver-switch:13
+#: harddrake2:317 notify-x11-free-driver-switch:13
 #, c-format
 msgid "unknown"
 msgstr "i pa njoftur"
 
-#: harddrake2:323
+#: harddrake2:318
 #, c-format
 msgid "Unknown"
 msgstr "I pa njoftur"
 
-#: harddrake2:343
+#: harddrake2:338
 #, c-format
 msgid "Misc"
 msgstr "Të Ndryshme"
 
-#: harddrake2:425
+#: harddrake2:420
 #, c-format
 msgid "secondary"
 msgstr "sekondar"
 
-#: harddrake2:425
+#: harddrake2:420
 #, c-format
 msgid "primary"
 msgstr "primar"
 
-#: harddrake2:429
+#: harddrake2:424
 #, c-format
 msgid "burner"
 msgstr "gdhendës"
 
-#: harddrake2:429
+#: harddrake2:424
 #, c-format
 msgid "DVD"
 msgstr "DVD"
 
-#: harddrake2:533
+#: harddrake2:528
 #, c-format
 msgid "The following packages need to be installed:\n"
 msgstr "Pakot e radhitura duhet të instalohen:\n"
@@ -2445,220 +2455,220 @@ msgstr "Instalimi i pakove %s"
 msgid ", "
 msgstr ", "
 
-#: logdrake:51
-#, fuzzy, c-format
-msgid "OpenMandriva Lx Tools Logs"
-msgstr "Shpjegimet e Veglave Mandriva"
+#: logdrake:55
+#, c-format
+msgid "%s Tools Logs"
+msgstr ""
 
-#: logdrake:65
+#: logdrake:69
 #, c-format
 msgid "Show only for the selected day"
 msgstr "Çfaqi vetëm për ditët e zgedhura"
 
-#: logdrake:72
+#: logdrake:76
 #, c-format
 msgid "/File/_New"
 msgstr "/Skedare/_E Re"
 
-#: logdrake:72
+#: logdrake:76
 #, c-format
 msgid "<control>N"
 msgstr "<control>N"
 
-#: logdrake:73
+#: logdrake:77
 #, c-format
 msgid "/File/_Open"
 msgstr "/Skedare/_Hape"
 
-#: logdrake:73
+#: logdrake:77
 #, c-format
 msgid "<control>O"
 msgstr "<control>O"
 
-#: logdrake:74
+#: logdrake:78
 #, c-format
 msgid "/File/_Save"
 msgstr "/Skedare/_Shpëtoje"
 
-#: logdrake:74
+#: logdrake:78
 #, c-format
 msgid "<control>S"
 msgstr "<control>S"
 
-#: logdrake:75
+#: logdrake:79
 #, c-format
 msgid "/File/Save _As"
 msgstr "/Skedare/Shpëtoje _Si"
 
-#: logdrake:76
+#: logdrake:80
 #, c-format
 msgid "/File/-"
 msgstr "/Skedare/-"
 
-#: logdrake:79
+#: logdrake:83
 #, c-format
 msgid "/Options/Test"
 msgstr "/Opcione/Testi"
 
-#: logdrake:81
+#: logdrake:85
 #, c-format
 msgid "/Help/_About..."
 msgstr "/Ndihmë/_Në lidhje me..."
 
-#: logdrake:110
+#: logdrake:114
 #, c-format
 msgid ""
 "_:this is the auth.log log file\n"
 "Authentication"
 msgstr ""
 
-#: logdrake:111
+#: logdrake:115
 #, c-format
 msgid ""
 "_:this is the user.log log file\n"
 "User"
 msgstr ""
 
-#: logdrake:112
+#: logdrake:116
 #, c-format
 msgid ""
 "_:this is the /var/log/messages log file\n"
 "Messages"
 msgstr ""
 
-#: logdrake:113
+#: logdrake:117
 #, c-format
 msgid ""
 "_:this is the /var/log/syslog log file\n"
 "Syslog"
 msgstr ""
 
-#: logdrake:117
+#: logdrake:121
 #, c-format
 msgid "search"
 msgstr "hulumto"
 
-#: logdrake:129
+#: logdrake:133
 #, c-format
 msgid "A tool to monitor your logs"
 msgstr "Një vegël për të shiquar skedaret zhurnale"
 
-#: logdrake:131
+#: logdrake:135
 #, c-format
 msgid "Settings"
 msgstr "Rregullimet"
 
-#: logdrake:134
+#: logdrake:138
 #, c-format
 msgid "Matching"
 msgstr "Përputhja"
 
-#: logdrake:135
+#: logdrake:139
 #, c-format
 msgid "but not matching"
 msgstr "mirëpo nuk përputhet"
 
-#: logdrake:138
+#: logdrake:142
 #, c-format
 msgid "Choose file"
 msgstr "Zgjedhe skedaren"
 
-#: logdrake:150
+#: logdrake:154
 #, c-format
 msgid "Calendar"
 msgstr "Kalendari"
 
-#: logdrake:159
+#: logdrake:163
 #, c-format
 msgid "Content of the file"
 msgstr "Përmbajtja e skedares"
 
-#: logdrake:163 logdrake:407
+#: logdrake:167 logdrake:411
 #, c-format
 msgid "Mail alert"
 msgstr "Lajm alarmues"
 
-#: logdrake:170
+#: logdrake:174
 #, c-format
 msgid "The alert wizard has failed unexpectedly:"
 msgstr ""
 
-#: logdrake:174
+#: logdrake:178
 #, c-format
 msgid "Save"
 msgstr "Shpëtoje"
 
-#: logdrake:222
+#: logdrake:226
 #, c-format
 msgid "please wait, parsing file: %s"
 msgstr "një moment ju lutemi, vërtetimi i skedares: %s"
 
-#: logdrake:244
+#: logdrake:248
 #, c-format
 msgid "Sorry, log file isn't available!"
 msgstr ""
 
-#: logdrake:292
+#: logdrake:296
 #, c-format
 msgid "Error while opening \"%s\" log file: %s\n"
 msgstr ""
 
-#: logdrake:385
+#: logdrake:389
 #, c-format
 msgid "Apache World Wide Web Server"
 msgstr "Apache World Wide Web Server"
 
-#: logdrake:386
+#: logdrake:390
 #, c-format
 msgid "Domain Name Resolver"
 msgstr "Zgjedhës i Emrit me Pronë"
 
-#: logdrake:387
+#: logdrake:391
 #, c-format
 msgid "Ftp Server"
 msgstr "Server Ftp"
 
-#: logdrake:388
+#: logdrake:392
 #, c-format
 msgid "Postfix Mail Server"
 msgstr "Server i letrave Postfix"
 
-#: logdrake:389
+#: logdrake:393
 #, c-format
 msgid "Samba Server"
 msgstr "Server Samba"
 
-#: logdrake:390
+#: logdrake:394
 #, c-format
 msgid "SSH Server"
 msgstr "Server SSH"
 
-#: logdrake:391
+#: logdrake:395
 #, c-format
 msgid "Webmin Service"
 msgstr "Servisi Webmin"
 
-#: logdrake:392
+#: logdrake:396
 #, c-format
 msgid "Xinetd Service"
 msgstr "Servisi Xinetd"
 
-#: logdrake:401
+#: logdrake:405
 #, fuzzy, c-format
 msgid "Configure the mail alert system"
 msgstr "Konfiguroje sistemin CUPS stampues"
 
-#: logdrake:402
+#: logdrake:406
 #, c-format
 msgid "Stop the mail alert system"
 msgstr ""
 
-#: logdrake:410
+#: logdrake:414
 #, c-format
 msgid "Mail alert configuration"
 msgstr "Konfigurimi i lajmit alarmues"
 
-#: logdrake:411
+#: logdrake:415
 #, c-format
 msgid ""
 "Welcome to the mail configuration utility.\n"
@@ -2669,17 +2679,17 @@ msgstr ""
 "\n"
 "Këtu, keni mundësi të rregulloni sistemin tuaj alarmues.\n"
 
-#: logdrake:414
+#: logdrake:418
 #, fuzzy, c-format
 msgid "What do you want to do?"
 msgstr "Ku dëshironi ta montoni %s?"
 
-#: logdrake:421
+#: logdrake:425
 #, fuzzy, c-format
 msgid "Services settings"
 msgstr "rregullimi i shërbimeve"
 
-#: logdrake:422
+#: logdrake:426
 #, c-format
 msgid ""
 "You will receive an alert if one of the selected services is no longer "
@@ -2688,17 +2698,17 @@ msgstr ""
 "Ju do të pranoni një alert nëse njëra nga serviset e zgjedhura nuk "
 "funksionojnëmë"
 
-#: logdrake:429
+#: logdrake:433
 #, c-format
 msgid "Load setting"
 msgstr "Ngarkoi Parametrat"
 
-#: logdrake:430
+#: logdrake:434
 #, c-format
 msgid "You will receive an alert if the load is higher than this value"
 msgstr "Ju do të pranoni një alert nëse ngarkesa e makinës, e kalon këtë vlerë"
 
-#: logdrake:431
+#: logdrake:435
 #, c-format
 msgid ""
 "_: load here is a noun, the load of the system\n"
@@ -2707,62 +2717,62 @@ msgstr ""
 "_: ngrakoje këtu është një emër, i sistemit ngrakues\n"
 "Ngarkoje"
 
-#: logdrake:436
+#: logdrake:440
 #, fuzzy, c-format
 msgid "Alert configuration"
 msgstr "konfigurimi i alertës"
 
-#: logdrake:437
+#: logdrake:441
 #, c-format
 msgid "Please enter your email address below "
 msgstr "Ju lutemi futni adresën tuaj e-mail këtu"
 
-#: logdrake:438
+#: logdrake:442
 #, fuzzy, c-format
 msgid "and enter the name (or the IP) of the SMTP server you wish to use"
 msgstr ""
 "Futni adresën IP dhe portën e ftuesit, se cilin stampues dëshironi ta "
 "përdorni."
 
-#: logdrake:440
+#: logdrake:444
 #, fuzzy, c-format
 msgid "Email address"
 msgstr "Adresa IP"
 
-#: logdrake:441
+#: logdrake:445
 #, fuzzy, c-format
 msgid "Email server"
 msgstr "Server Samba"
 
-#: logdrake:445
+#: logdrake:449
 #, c-format
 msgid "\"%s\" neither is a valid email nor is an existing local user!"
 msgstr ""
 
-#: logdrake:450
+#: logdrake:454
 #, c-format
 msgid ""
 "\"%s\" is a local user, but you did not select a local smtp, so you must use "
 "a complete email address!"
 msgstr ""
 
-#: logdrake:457
+#: logdrake:461
 #, c-format
 msgid "The wizard successfully configured the mail alert."
 msgstr ""
 
-#: logdrake:463
+#: logdrake:467
 #, c-format
 msgid "The wizard successfully disabled the mail alert."
 msgstr ""
 
-#: logdrake:522
+#: logdrake:526
 #, c-format
 msgid "Save as.."
 msgstr "Shpëtoje si.."
 
-#: notify-x11-free-driver-switch:18 service_harddrake:474
-#: service_harddrake:487
+#: notify-x11-free-driver-switch:18 service_harddrake:465
+#: service_harddrake:478
 #, c-format
 msgid "Display driver setup"
 msgstr ""
@@ -2777,7 +2787,7 @@ msgstr ""
 msgid "Reason: %s."
 msgstr ""
 
-#: scannerdrake:49
+#: scannerdrake:48
 #, fuzzy, c-format
 msgid ""
 "SANE packages need to be installed to use scanners.\n"
@@ -2785,12 +2795,12 @@ msgid ""
 "Do you want to install the SANE packages?"
 msgstr "Pakot %s duhet të jenë instaluar. A dëshironi ti instaloni ato?"
 
-#: scannerdrake:53
+#: scannerdrake:52
 #, fuzzy, c-format
 msgid "Aborting Scannerdrake."
 msgstr "Scannerdrake"
 
-#: scannerdrake:58
+#: scannerdrake:57
 #, c-format
 msgid ""
 "Could not install the packages needed to set up a scanner with Scannerdrake."
@@ -2798,189 +2808,189 @@ msgstr ""
 "Nuk mund ti instaloj pakotë që nevojiten për rregullimin e skanerit me "
 "Scannerdrake."
 
-#: scannerdrake:59
+#: scannerdrake:58
 #, c-format
 msgid "Scannerdrake will not be started now."
 msgstr "Scannerdrake nuk do të niset tani."
 
-#: scannerdrake:65 scannerdrake:503
+#: scannerdrake:64 scannerdrake:502
 #, c-format
 msgid "Searching for configured scanners..."
 msgstr "Hulumtim në konfigurmin e skanerve..."
 
-#: scannerdrake:69 scannerdrake:507
+#: scannerdrake:68 scannerdrake:506
 #, c-format
 msgid "Searching for new scanners..."
 msgstr "Hulumtimi për skaner të rinjë..."
 
-#: scannerdrake:77 scannerdrake:529
+#: scannerdrake:76 scannerdrake:528
 #, c-format
 msgid "Re-generating list of configured scanners..."
 msgstr "Ri-prodhimi i listës së skanerve konfigurues ..."
 
-#: scannerdrake:99
+#: scannerdrake:98
 #, fuzzy, c-format
 msgid "The %s is not supported by this version of %s."
 msgstr "%s nuk përkrahet nga ky version i OpenMandriva Lx."
 
-#: scannerdrake:102 scannerdrake:113
+#: scannerdrake:101 scannerdrake:112
 #, fuzzy, c-format
 msgid "Confirmation"
 msgstr "Konfigurimi"
 
-#: scannerdrake:102
+#: scannerdrake:101
 #, c-format
 msgid "%s found on %s, configure it automatically?"
 msgstr "%s i gjetur në %s, konfiguroje atë automatikisht?"
 
-#: scannerdrake:114
+#: scannerdrake:113
 #, c-format
 msgid "%s is not in the scanner database, configure it manually?"
 msgstr "%s nuk është në bazën e skanerve, konfiguroje manualisht?"
 
-#: scannerdrake:128
+#: scannerdrake:127
 #, fuzzy, c-format
 msgid "Scanner configuration"
 msgstr "konfigurimi i alertës"
 
-#: scannerdrake:129
+#: scannerdrake:128
 #, c-format
 msgid "Select a scanner model (Detected model: %s, Port: %s)"
 msgstr ""
 
-#: scannerdrake:131
+#: scannerdrake:130
 #, c-format
 msgid "Select a scanner model (Detected model: %s)"
 msgstr ""
 
-#: scannerdrake:132
+#: scannerdrake:131
 #, c-format
 msgid "Select a scanner model (Port: %s)"
 msgstr ""
 
-#: scannerdrake:134 scannerdrake:137
+#: scannerdrake:133 scannerdrake:136
 #, c-format
 msgid " (UNSUPPORTED)"
 msgstr ""
 
-#: scannerdrake:140
+#: scannerdrake:139
 #, fuzzy, c-format
 msgid "The %s is not supported under Linux."
 msgstr "%s nuk përkrahet nga ky version i OpenMandriva Lx."
 
-#: scannerdrake:167 scannerdrake:181
+#: scannerdrake:166 scannerdrake:180
 #, c-format
 msgid "Do not install firmware file"
 msgstr ""
 
-#: scannerdrake:170 scannerdrake:220
+#: scannerdrake:169 scannerdrake:219
 #, fuzzy, c-format
 msgid "Scanner Firmware"
 msgstr "Shpërndarja e Skanerit"
 
-#: scannerdrake:171 scannerdrake:223
+#: scannerdrake:170 scannerdrake:222
 #, c-format
 msgid ""
 "It is possible that your %s needs its firmware to be uploaded everytime when "
 "it is turned on."
 msgstr ""
 
-#: scannerdrake:172 scannerdrake:224
+#: scannerdrake:171 scannerdrake:223
 #, c-format
 msgid "If this is the case, you can make this be done automatically."
 msgstr ""
 
-#: scannerdrake:173 scannerdrake:227
+#: scannerdrake:172 scannerdrake:226
 #, c-format
 msgid ""
 "To do so, you need to supply the firmware file for your scanner so that it "
 "can be installed."
 msgstr ""
 
-#: scannerdrake:174 scannerdrake:228
+#: scannerdrake:173 scannerdrake:227
 #, c-format
 msgid ""
 "You find the file on the CD or floppy coming with the scanner, on the "
 "manufacturer's home page, or on your Windows partition."
 msgstr ""
 
-#: scannerdrake:176 scannerdrake:235
+#: scannerdrake:175 scannerdrake:234
 #, c-format
 msgid "Install firmware file from"
 msgstr ""
 
-#: scannerdrake:178 scannerdrake:186 scannerdrake:237 scannerdrake:244
+#: scannerdrake:177 scannerdrake:185 scannerdrake:236 scannerdrake:243
 #, c-format
 msgid "CD-ROM"
 msgstr "CD-ROM"
 
-#: scannerdrake:179 scannerdrake:188 scannerdrake:238 scannerdrake:246
+#: scannerdrake:178 scannerdrake:187 scannerdrake:237 scannerdrake:245
 #, fuzzy, c-format
 msgid "Floppy Disk"
 msgstr "Disketë Floppy"
 
-#: scannerdrake:180 scannerdrake:190 scannerdrake:239 scannerdrake:248
+#: scannerdrake:179 scannerdrake:189 scannerdrake:238 scannerdrake:247
 #, fuzzy, c-format
 msgid "Other place"
 msgstr "Porta të tjera"
 
-#: scannerdrake:196
+#: scannerdrake:195
 #, fuzzy, c-format
 msgid "Select firmware file"
 msgstr "Zgjedhe një skedare"
 
-#: scannerdrake:199 scannerdrake:258
+#: scannerdrake:198 scannerdrake:257
 #, c-format
 msgid "The firmware file %s does not exist or is unreadable!"
 msgstr ""
 
-#: scannerdrake:222
+#: scannerdrake:221
 #, c-format
 msgid ""
 "It is possible that your scanners need their firmware to be uploaded "
 "everytime when they are turned on."
 msgstr ""
 
-#: scannerdrake:226
+#: scannerdrake:225
 #, c-format
 msgid ""
 "To do so, you need to supply the firmware files for your scanners so that it "
 "can be installed."
 msgstr ""
 
-#: scannerdrake:229
+#: scannerdrake:228
 #, c-format
 msgid ""
 "If you have already installed your scanner's firmware you can update the "
 "firmware here by supplying the new firmware file."
 msgstr ""
 
-#: scannerdrake:231
+#: scannerdrake:230
 #, c-format
 msgid "Install firmware for the"
 msgstr ""
 
-#: scannerdrake:254
+#: scannerdrake:253
 #, fuzzy, c-format
 msgid "Select firmware file for the %s"
 msgstr "Zgjedhe një skedare"
 
-#: scannerdrake:272
+#: scannerdrake:271
 #, fuzzy, c-format
 msgid "Could not install the firmware file for the %s!"
 msgstr "Zgjedhe një skedare"
 
-#: scannerdrake:285
+#: scannerdrake:284
 #, c-format
 msgid "The firmware file for your %s was successfully installed."
 msgstr ""
 
-#: scannerdrake:295
+#: scannerdrake:294
 #, c-format
 msgid "The %s is unsupported"
 msgstr "Ky skaner %s nuk përkrahet fare"
 
-#: scannerdrake:300
+#: scannerdrake:299
 #, fuzzy, c-format
 msgid ""
 "The %s must be configured by system-config-printer.\n"
@@ -2991,47 +3001,47 @@ msgstr ""
 "Ju mund ta nisni system-config-printer nga Qendra Kontrolluese Mandriva në "
 "sektorin Hardware"
 
-#: scannerdrake:318
+#: scannerdrake:317
 #, fuzzy, c-format
 msgid "Setting up kernel modules..."
 msgstr "Zhduke një modul"
 
-#: scannerdrake:328 scannerdrake:335 scannerdrake:365
+#: scannerdrake:327 scannerdrake:334 scannerdrake:364
 #, c-format
 msgid "Auto-detect available ports"
 msgstr "Auto-zbulues i portave të lira"
 
-#: scannerdrake:329 scannerdrake:375
+#: scannerdrake:328 scannerdrake:374
 #, fuzzy, c-format
 msgid "Device choice"
 msgstr "Skedare e vjetër periferiku"
 
-#: scannerdrake:330 scannerdrake:376
+#: scannerdrake:329 scannerdrake:375
 #, c-format
 msgid "Please select the device where your %s is attached"
 msgstr "Ju lutemi zgjedheni mjetin %s ku ai është i lidhur"
 
-#: scannerdrake:331
+#: scannerdrake:330
 #, c-format
 msgid "(Note: Parallel ports cannot be auto-detected)"
 msgstr "(Shënim: Portat paralele nuk mund të zbulohen automatikisht)"
 
-#: scannerdrake:333 scannerdrake:378
+#: scannerdrake:332 scannerdrake:377
 #, c-format
 msgid "choose device"
 msgstr "zgjedhe mjetin"
 
-#: scannerdrake:367
+#: scannerdrake:366
 #, c-format
 msgid "Searching for scanners..."
 msgstr "Hulumtimet për skanerë..."
 
-#: scannerdrake:403 scannerdrake:410
+#: scannerdrake:402 scannerdrake:409
 #, fuzzy, c-format
 msgid "Attention!"
 msgstr "Auto-zbulues"
 
-#: scannerdrake:404
+#: scannerdrake:403
 #, c-format
 msgid ""
 "Your %s cannot be configured fully automatically.\n"
@@ -3040,14 +3050,14 @@ msgid ""
 "sane.d/%s.conf. "
 msgstr ""
 
-#: scannerdrake:405 scannerdrake:414
+#: scannerdrake:404 scannerdrake:413
 #, c-format
 msgid ""
 "More info in the driver's manual page. Run the command \"man sane-%s\" to "
 "read it."
 msgstr ""
 
-#: scannerdrake:407 scannerdrake:416
+#: scannerdrake:406 scannerdrake:415
 #, fuzzy, c-format
 msgid ""
 "After that you may scan documents using \"XSane\" or \"%s\" from Multimedia/"
@@ -3057,31 +3067,31 @@ msgstr ""
 "Ju keni mundësi të skanoni dokumente duke përdorur \"XSane\" nga Multimedia/ "
 "Graphik në menytë e aplikacioneve."
 
-#: scannerdrake:411
+#: scannerdrake:410
 #, c-format
 msgid ""
 "Your %s has been configured, but it is possible that additional manual "
 "adjustments are needed to get it to work. "
 msgstr ""
 
-#: scannerdrake:412
+#: scannerdrake:411
 #, c-format
 msgid ""
 "If it does not appear in the list of configured scanners in the main window "
 "of Scannerdrake or if it does not work correctly, "
 msgstr ""
 
-#: scannerdrake:413
+#: scannerdrake:412
 #, fuzzy, c-format
 msgid "edit the configuration file /etc/sane.d/%s.conf. "
 msgstr "Aktivo konfigurimin e tos"
 
-#: scannerdrake:418
+#: scannerdrake:417
 #, c-format
 msgid "Congratulations!"
 msgstr "Urime!"
 
-#: scannerdrake:419
+#: scannerdrake:418
 #, fuzzy, c-format
 msgid ""
 "Your %s has been configured.\n"
@@ -3092,7 +3102,7 @@ msgstr ""
 "Ju keni mundësi të skanoni dokumente duke përdorur \"XSane\" nga Multimedia/ "
 "Graphik në menytë e aplikacioneve."
 
-#: scannerdrake:444
+#: scannerdrake:443
 #, c-format
 msgid ""
 "The following scanners\n"
@@ -3105,7 +3115,7 @@ msgstr ""
 "%s\n"
 "janë lidhur direkt në sistemin tuaj.\n"
 
-#: scannerdrake:445
+#: scannerdrake:444
 #, c-format
 msgid ""
 "The following scanner\n"
@@ -3118,52 +3128,52 @@ msgstr ""
 "%s\n"
 "është lidhur direkt në sistemin tuaj\n"
 
-#: scannerdrake:447 scannerdrake:450
+#: scannerdrake:446 scannerdrake:449
 #, c-format
 msgid "There are no scanners found which are available on your system.\n"
 msgstr "Asnjë nga skanerët e gjetur, nuk janë të lirë në sistemin tuaj.\n"
 
-#: scannerdrake:458
+#: scannerdrake:457
 #, fuzzy, c-format
 msgid "Scanner Management"
 msgstr "Menagjer i Stampuesit \n"
 
-#: scannerdrake:464
+#: scannerdrake:463
 #, c-format
 msgid "Search for new scanners"
 msgstr "Hulumtim për skaner të rinjë"
 
-#: scannerdrake:470
+#: scannerdrake:469
 #, c-format
 msgid "Add a scanner manually"
 msgstr "Shtoje një skaner manualisht"
 
-#: scannerdrake:477
+#: scannerdrake:476
 #, fuzzy, c-format
 msgid "Install/Update firmware files"
 msgstr "Zgjedhe një skedare"
 
-#: scannerdrake:483
+#: scannerdrake:482
 #, c-format
 msgid "Scanner sharing"
 msgstr "Shpërndarja e Skanerit"
 
-#: scannerdrake:542 scannerdrake:707
+#: scannerdrake:541 scannerdrake:706
 #, c-format
 msgid "All remote machines"
 msgstr "Të gjitha makinat e largëta"
 
-#: scannerdrake:554 scannerdrake:857
+#: scannerdrake:553 scannerdrake:856
 #, c-format
 msgid "This machine"
 msgstr "Mbi këtë makinë"
 
-#: scannerdrake:593
+#: scannerdrake:592
 #, fuzzy, c-format
 msgid "Scanner Sharing"
 msgstr "Shpërndarja e Skanerit"
 
-#: scannerdrake:594
+#: scannerdrake:593
 #, c-format
 msgid ""
 "Here you can choose whether the scanners connected to this machine should be "
@@ -3172,7 +3182,7 @@ msgstr ""
 "Këtu keni mundësi të zgjedhni se nëse skanerët e lidhur në këtë makinë duhet "
 "të jenë me hyrje në makinën e largët, dhe nga cila makinë e largët."
 
-#: scannerdrake:595
+#: scannerdrake:594
 #, c-format
 msgid ""
 "You can also decide here whether scanners on remote machines should be made "
@@ -3181,37 +3191,37 @@ msgstr ""
 "Ju keni mundësi njashtu të vendosni, nëse skanerët tjerë në makinat e "
 "largëta duhet të janë automatikisht të lirë në këtë kompjuter."
 
-#: scannerdrake:598
+#: scannerdrake:597
 #, c-format
 msgid "The scanners on this machine are available to other computers"
 msgstr "Skanerët në këtë makinë janë të lirë për kompjuterë të tjerë"
 
-#: scannerdrake:600
+#: scannerdrake:599
 #, c-format
 msgid "Scanner sharing to hosts: "
 msgstr "Shpërndarja e skanerit në ftuesit:"
 
-#: scannerdrake:605 scannerdrake:622
+#: scannerdrake:604 scannerdrake:621
 #, c-format
 msgid "No remote machines"
 msgstr "Asnjë makinë e largët"
 
-#: scannerdrake:614
+#: scannerdrake:613
 #, c-format
 msgid "Use scanners on remote computers"
 msgstr "Përdori skanerët në kompjuterët e largët"
 
-#: scannerdrake:617
+#: scannerdrake:616
 #, c-format
 msgid "Use the scanners on hosts: "
 msgstr "Përdori skanerët në ftuesit:"
 
-#: scannerdrake:644 scannerdrake:716 scannerdrake:866
+#: scannerdrake:643 scannerdrake:715 scannerdrake:865
 #, c-format
 msgid "Sharing of local scanners"
 msgstr "Shpëndarja e skanerve lokalë"
 
-#: scannerdrake:645
+#: scannerdrake:644
 #, c-format
 msgid ""
 "These are the machines on which the locally connected scanner(s) should be "
@@ -3220,58 +3230,58 @@ msgstr ""
 "Këto janë makinat në të cilat skenarët lokal lidhen dhe duhet të jenë të "
 "aktivizuar:"
 
-#: scannerdrake:656 scannerdrake:806
+#: scannerdrake:655 scannerdrake:805
 #, c-format
 msgid "Add host"
 msgstr "Shtoje një ftues"
 
-#: scannerdrake:662 scannerdrake:812
+#: scannerdrake:661 scannerdrake:811
 #, c-format
 msgid "Edit selected host"
 msgstr "Botoje ftusin e zgjedhur"
 
-#: scannerdrake:671 scannerdrake:821
+#: scannerdrake:670 scannerdrake:820
 #, c-format
 msgid "Remove selected host"
 msgstr "Zhduke ftuesin e zgjedhur"
 
-#: scannerdrake:680 scannerdrake:830
+#: scannerdrake:679 scannerdrake:829
 #, c-format
 msgid "Done"
 msgstr "Fund"
 
-#: scannerdrake:695 scannerdrake:703 scannerdrake:708 scannerdrake:754
-#: scannerdrake:845 scannerdrake:853 scannerdrake:858 scannerdrake:904
+#: scannerdrake:694 scannerdrake:702 scannerdrake:707 scannerdrake:753
+#: scannerdrake:844 scannerdrake:852 scannerdrake:857 scannerdrake:903
 #, c-format
 msgid "Name/IP address of host:"
 msgstr "Emri/IP adresa e ftuesit:"
 
-#: scannerdrake:717 scannerdrake:867
+#: scannerdrake:716 scannerdrake:866
 #, c-format
 msgid "Choose the host on which the local scanners should be made available:"
 msgstr "Zgjedhe ftuesin në të cilin skanerët lokal duhet të aktivizohen:"
 
-#: scannerdrake:728 scannerdrake:878
+#: scannerdrake:727 scannerdrake:877
 #, c-format
 msgid "You must enter a host name or an IP address.\n"
 msgstr "Ju duhet të futni emrin e ftuesit apo adresën IP.\n"
 
-#: scannerdrake:739 scannerdrake:889
+#: scannerdrake:738 scannerdrake:888
 #, c-format
 msgid "This host is already in the list, it cannot be added again.\n"
 msgstr "Ky ftues gjindet veçse në listë, dhe nuk mund të shtohet përsëri.\n"
 
-#: scannerdrake:794
+#: scannerdrake:793
 #, c-format
 msgid "Usage of remote scanners"
 msgstr "Përdorimi i skanerve të largët"
 
-#: scannerdrake:795
+#: scannerdrake:794
 #, c-format
 msgid "These are the machines from which the scanners should be used:"
 msgstr "Këto janë makinat nga të cilat skanerët duhet të përdoret:"
 
-#: scannerdrake:952
+#: scannerdrake:951
 #, fuzzy, c-format
 msgid ""
 "saned needs to be installed to share the local scanner(s).\n"
@@ -3279,74 +3289,74 @@ msgid ""
 "Do you want to install the saned package?"
 msgstr "Pakot %s duhet të jenë instaluar. A dëshironi ti instaloni ato?"
 
-#: scannerdrake:956 scannerdrake:960
+#: scannerdrake:955 scannerdrake:959
 #, c-format
 msgid "Your scanner(s) will not be available on the network."
 msgstr "Skaneri(et) (t)juaj nuk do të jetë i lirë në rrjet."
 
-#: scannerdrake:959
+#: scannerdrake:958
 #, c-format
 msgid "Could not install the packages needed to share your scanner(s)."
 msgstr ""
 "Nuk mund ti instaloj pakotë, që nevojiten në shpërndarjen e skanerit(ve) "
 "tuaj."
 
-#: service_harddrake:173
+#: service_harddrake:170
 #, fuzzy, c-format
 msgid "The graphics card '%s' is no longer supported by driver '%s'"
 msgstr "%s nuk përkrahet nga ky version i OpenMandriva Lx."
 
-#: service_harddrake:183
+#: service_harddrake:180
 #, c-format
 msgid "New release, reconfiguring X for %s"
 msgstr ""
 
-#: service_harddrake:274
+#: service_harddrake:271
 #, c-format
 msgid "The proprietary kernel driver was not found for X.org driver '%s'"
 msgstr ""
 
-#: service_harddrake:313
+#: service_harddrake:310
 #, c-format
 msgid "Some devices in the \"%s\" hardware class were removed:\n"
 msgstr "Disa mjete në listën e klasës \"%s\" janë zhdukur:\n"
 
-#: service_harddrake:314
+#: service_harddrake:311
 #, c-format
 msgid "- %s was removed\n"
 msgstr ""
 
-#: service_harddrake:317
+#: service_harddrake:314
 #, fuzzy, c-format
 msgid "Some devices were added: %s\n"
 msgstr "Disa mjete janë shtuar:\n"
 
-#: service_harddrake:318
+#: service_harddrake:315
 #, c-format
 msgid "- %s was added\n"
 msgstr ""
 
-#: service_harddrake:406
+#: service_harddrake:397
 #, c-format
 msgid "Hardware changes in \"%s\" class (%s seconds to answer)"
 msgstr ""
 
-#: service_harddrake:407
+#: service_harddrake:398
 #, fuzzy, c-format
 msgid "Do you want to run the appropriate config tool?"
 msgstr "A dëshironi ta testoni konfigurimin?"
 
-#: service_harddrake:432
+#: service_harddrake:423
 #, c-format
 msgid "Hardware probing in progress"
 msgstr "Testimi i mjeteve në vazhdim e sipër"
 
-#: service_harddrake:453 service_harddrake:458
+#: service_harddrake:444 service_harddrake:449
 #, c-format
 msgid "Display driver issue"
 msgstr ""
 
-#: service_harddrake:454
+#: service_harddrake:445
 #, c-format
 msgid ""
 "The display driver currently configured requires you to use the 'nokmsboot' "
@@ -3355,7 +3365,7 @@ msgid ""
 "specified."
 msgstr ""
 
-#: service_harddrake:459
+#: service_harddrake:450
 #, c-format
 msgid ""
 "Detected a loaded display driver kernel module which conflicts with the "
@@ -3363,12 +3373,12 @@ msgid ""
 "fail."
 msgstr ""
 
-#: service_harddrake:474 service_harddrake:487
+#: service_harddrake:465 service_harddrake:478
 #, c-format
 msgid "The system has to be rebooted due to a display driver change."
 msgstr ""
 
-#: service_harddrake:475 service_harddrake:488
+#: service_harddrake:466 service_harddrake:479
 #, c-format
 msgid "Press Cancel within %d seconds to abort."
 msgstr ""
@@ -3405,6 +3415,13 @@ msgstr "Rregullimet"
 #, fuzzy
 msgid "Language & country configuration"
 msgstr "Konfigurimi manuel"
+
+#~ msgid "/Autodetect _jaz drives"
+#~ msgstr "/Auto-zbulues i pilotve _jaz"
+
+#, fuzzy
+#~ msgid "OpenMandriva Lx Tools Logs"
+#~ msgstr "Shpjegimet e Veglave Mandriva"
 
 #~ msgid "/Autodetect _printers"
 #~ msgstr "/Auto-zbulues _stampuesve"

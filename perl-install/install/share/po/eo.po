@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: eo\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-31 17:24+0200\n"
+"POT-Creation-Date: 2015-01-22 00:44+0100\n"
 "PO-Revision-Date: 2007-12-29 05:55+0100\n"
 "Last-Translator: Vilhelmo Lutermano <vlutermano@free.fr>\n"
 "Language-Team: Esperanto <eo@li.org>\n"
@@ -20,351 +20,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:14
-#, c-format
-msgid "Workstation"
-msgstr "Laborstacio"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:16
-#, c-format
-msgid "Office Workstation"
-msgstr "Oficeja laborstacio"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:18
-#, fuzzy, c-format
-msgid ""
-"Office programs: wordprocessors (OpenOffice.org Writer, Kword), spreadsheets "
-"(OpenOffice.org Calc, Kspread), PDF viewers, etc"
-msgstr ""
-"Oficejaj programoj: tekstiloj (LibreOffice Writer, Verkilo [Kword]), "
-"tabelkalkuliloj (LibreOffice Calc, Kspread), PDF-vidigiloj, ktp."
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:23
-#, c-format
-msgid "Game station"
-msgstr "Ludstacio"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:24
-#, fuzzy, c-format
-msgid "Amusement programs: arcade, boards, strategy, etc."
-msgstr "Amuz-programoj: arcade, tabuloj [boards], strategio, ktp."
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:28
-#, c-format
-msgid "Multimedia station"
-msgstr "Plurmediaj stacio"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:29
-#, c-format
-msgid "Sound and video playing/editing programs"
-msgstr "Programoj por ludi/prilabori son- kaj video-programojn"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:34
-#, c-format
-msgid "Toys"
-msgstr ""
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:35
-#, c-format
-msgid "Apps and tools of less useful value, yet entertaining..."
-msgstr ""
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:39
-#, c-format
-msgid "Internet station"
-msgstr "Interreta stacio"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:40
-#, c-format
-msgid ""
-"Set of tools to read and send mail and news (mutt, tin..) and to browse the "
-"Web"
-msgstr ""
-"Agordiloj por legi kaj sendi retpoŝt-mesaĝojn kaj novaĵojn (mutt, tin...) "
-"kaj por krozi tra la ttt"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:45
-#, c-format
-msgid "Network Computer (client)"
-msgstr "Reta computilo (kliento)"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:46
-#, c-format
-msgid "Clients for different protocols including ssh"
-msgstr "Klientoj por diversaj protokoloj inklude de ssh"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:50 gtk.pm:132
-#, c-format
-msgid "Configuration"
-msgstr "Konfigurado"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:51
-#, c-format
-msgid "Tools to ease the configuration of your computer"
-msgstr "Iloj por faciligi la konfiguradon de via komputilo"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:55
-#, c-format
-msgid "Console Tools"
-msgstr "Konsoliloj"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:56
-#, c-format
-msgid "Editors, shells, file tools, terminals"
-msgstr "Redaktiloj, ŝeloj, dosieriloj, terminaloj"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:60
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:170
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:172
-#, c-format
-msgid "Development"
-msgstr "Programado"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:61
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:173
-#, c-format
-msgid "C and C++ development libraries, programs and include files"
-msgstr "C kaj C++ programadaj bibliotekoj, programoj kaj ĉapdosieroj"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:64
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:177
-#, c-format
-msgid "Documentation"
-msgstr "Dokumentaro"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:65
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:178
-#, c-format
-msgid "Books and Howto's on Linux and Free Software"
-msgstr "Libroj kaj Kielfari pri Linukso kaj libera programaro"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:69
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:181
-#, c-format
-msgid "LSB"
-msgstr "LSB"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:70
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:182
-#, c-format
-msgid "Linux Standard Base. Third party applications support"
-msgstr "Linux Standard Base. Subteno por triaflankaj aplikaĵoj"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:80
-#, c-format
-msgid "Web Server"
-msgstr "Interret-servilo"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:81
-#, c-format
-msgid "Apache"
-msgstr "Apache"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:84
-#, c-format
-msgid "Groupware"
-msgstr "Grupa programaro"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:85
-#, c-format
-msgid "Kolab Server"
-msgstr "Kolab Servilo"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:88
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:129
-#, c-format
-msgid "Firewall/Router"
-msgstr "Fajroŝirmilo/enkursigilo"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:89
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:130
-#, c-format
-msgid "Internet gateway"
-msgstr "Interreta kluzo"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:92
-#, c-format
-msgid "Mail/News"
-msgstr "Poŝto/Novaĵoj"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:93
-#, c-format
-msgid "Postfix mail server, Inn news server"
-msgstr "Postfix poŝta servilo, Inn novaĵaj servilo"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:96
-#, c-format
-msgid "Directory Server"
-msgstr "Dosierujo-servilo"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:100
-#, c-format
-msgid "FTP Server"
-msgstr "FTP Servilo"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:101
-#, c-format
-msgid "ProFTPd"
-msgstr "ProFTPd"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:104
-#, c-format
-msgid "DNS/NIS"
-msgstr "DNS/NIS"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:105
-#, c-format
-msgid "Domain Name and Network Information Server"
-msgstr "Domajn-noma kaj ret-informa servilo"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:108
-#, c-format
-msgid "File and Printer Sharing Server"
-msgstr "Dosier- kaj printil-kundivida servilo"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:109
-#, c-format
-msgid "NFS Server, Samba server"
-msgstr "NFS servilo, Samba servilo"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:112
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:125
-#, c-format
-msgid "Database"
-msgstr "Datumbazoj"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:113
-#, c-format
-msgid "PostgreSQL and MySQL Database Server"
-msgstr "Datenbaz-serviloj PostgreSQL kaj MySQL"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:117
-#, c-format
-msgid "Web/FTP"
-msgstr "TTT/FTP"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:118
-#, c-format
-msgid "Apache, Pro-ftpd"
-msgstr "Apache, Pro-ftpd"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:121
-#, c-format
-msgid "Mail"
-msgstr "Poŝto"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:122
-#, c-format
-msgid "Postfix mail server"
-msgstr "Postfix poŝta servilo"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:126
-#, c-format
-msgid "PostgreSQL or MySQL database server"
-msgstr "Datenbaz-servilo PostgreSQL aŭ MySQL"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:133
-#, c-format
-msgid "Network Computer server"
-msgstr "Reta computilo (servilo)"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:134
-#, c-format
-msgid "NFS server, SMB server, Proxy server, ssh server"
-msgstr "NFS-servilo, SMB-servilo, prokur-servilo, ssh-servilo"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:141
-#, c-format
-msgid "Graphical Environment"
-msgstr "Grafika medio"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:145
-#, c-format
-msgid "KDE Workstation"
-msgstr "KDE Laborstacio"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:146
-#, c-format
-msgid ""
-"The K Desktop Environment, the basic graphical environment with a collection "
-"of accompanying tools"
-msgstr "La tabula medio K, la baza grafika medio kun kolekto da akompanaj iloj"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:150
-#, c-format
-msgid "GNOME Workstation"
-msgstr "Gnoma Laborstacio"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:151
-#, c-format
-msgid ""
-"A graphical environment with user-friendly set of applications and desktop "
-"tools"
-msgstr "Grafika medio kun uzfacila aplikaĵaro kaj tabul-iloj"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:156
-#, fuzzy, c-format
-msgid "LXDE Desktop"
-msgstr "Labortabulo IceWm"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:158
-#, fuzzy, c-format
-msgid ""
-"A lightweight & fast graphical environment with user-friendly set of "
-"applications and desktop tools"
-msgstr "Grafika medio kun uzfacila aplikaĵaro kaj tabul-iloj"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:162
-#, c-format
-msgid "Other Graphical Desktops"
-msgstr "Aliaj grafikaj labortabuloj"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:163
-#, c-format
-msgid "Window Maker, Enlightenment, Fvwm, etc"
-msgstr "Window Maker, Enlightenment, Fvwm, ktp."
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:187
-#, c-format
-msgid "Utilities"
-msgstr "Iloj"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:189
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:190
-#, c-format
-msgid "SSH Server"
-msgstr "SSH servilo"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:194
-#, c-format
-msgid "Webmin"
-msgstr "Webmin"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:195
-#, c-format
-msgid "Webmin Remote Configuration Server"
-msgstr "Servilo de fora konfigurado Webmin"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:199
-#, c-format
-msgid "Network Utilities/Monitoring"
-msgstr "Retaj utilaĵoj/monitorado"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:200
-#, c-format
-msgid "Monitoring tools, processes accounting, tcpdump, nmap, ..."
-msgstr "Monitoriloj, proces-kalkuliloj, tcpdump, nmap, ..."
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:204
-#, c-format
-msgid "Mandriva Wizards"
-msgstr "Sorĉiloj de Mandriva"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:205
-#, c-format
-msgid "Wizards to configure server"
-msgstr "Sorĉiloj por konfiguri servilon"
-
 #: ../../advertising/MandrivaOne-advert-1.pl:1
 #: ../../advertising/MandrivaOne-advert-2.pl:1
 #: ../../advertising/MandrivaOne-advert-3.pl:1
@@ -374,9 +29,9 @@ msgstr "Sorĉiloj por konfiguri servilon"
 #: ../../advertising/MandrivaOne-advert-7.pl:1
 #: ../../advertising/MandrivaOne-advert-8.pl:1
 #: ../../advertising/MandrivaOne-advert-9.pl:1
-#, c-format
-msgid "OpenMandriva Lx 2012 Alpha (Tenacious Underdog)"
-msgstr ""
+#, fuzzy, c-format
+msgid "OpenMandriva Lx 2013.0"
+msgstr "Linuks-Mandrejka Instalado %s"
 
 #: any.pm:110
 #, c-format
@@ -428,21 +83,18 @@ msgid "URL must start with ftp:// or http://"
 msgstr "URL devas komenci per ftp:// aŭ http://"
 
 #: any.pm:188
-#, c-format
-msgid ""
-"Contacting OpenMandriva Lx web site to get the list of available mirrors..."
+#, fuzzy, c-format
+msgid "Connecting to OpenMandriva to get the list of available mirrors..."
 msgstr ""
 "Mi kontaktas la Mandriva Linuksan retpaĝon por havigi la liston de "
 "disponeblaj speguloj..."
 
 #: any.pm:193
-#, c-format
-msgid ""
-"Failed contacting OpenMandriva Lx web site to get the list of available "
-"mirrors"
+#, fuzzy, c-format
+msgid "Failed to get the list of available mirrors."
 msgstr ""
-"Mi malsukcesis kontakti la Mandriva Linuksan retpaĝon por havigi la liston "
-"de disponeblaj speguloj..."
+"Mi kontaktas la Mandriva Linuksan retpaĝon por havigi la liston de "
+"disponeblaj speguloj..."
 
 #: any.pm:203
 #, c-format
@@ -653,6 +305,11 @@ msgstr "Ekranfotoj haveblos post instalado en %s"
 msgid "Installation"
 msgstr "Instalado"
 
+#: gtk.pm:132
+#, c-format
+msgid "Configuration"
+msgstr "Konfigurado"
+
 #: install2.pm:168
 #, c-format
 msgid "You must also format %s"
@@ -738,7 +395,7 @@ msgstr ""
 msgid "No description"
 msgstr ""
 
-#: pkgs.pm:280
+#: pkgs.pm:279
 #, c-format
 msgid ""
 "Some packages requested by %s cannot be installed:\n"
@@ -747,27 +404,27 @@ msgstr ""
 "Kelkaj pakaĵoj bezonataj de %s ne instaleblas:\n"
 "%s"
 
-#: pkgs.pm:376 pkgs.pm:403
+#: pkgs.pm:375 pkgs.pm:402
 #, fuzzy, c-format
 msgid "An error occurred:"
 msgstr "Eraro okazis"
 
-#: pkgs.pm:395
+#: pkgs.pm:394
 #, fuzzy, c-format
 msgid "A fatal error occurred: %s."
 msgstr "Eraro okazis"
 
-#: pkgs.pm:876 pkgs.pm:918
+#: pkgs.pm:877 pkgs.pm:919
 #, c-format
 msgid "Do not ask again"
 msgstr ""
 
-#: pkgs.pm:892
+#: pkgs.pm:893
 #, c-format
 msgid "%d installation transactions failed"
 msgstr "%d instal-transakcioj malsukcesis"
 
-#: pkgs.pm:893
+#: pkgs.pm:894
 #, fuzzy, c-format
 msgid "Installation of packages failed:"
 msgstr "Instalanta pakaĵo %s"
@@ -809,135 +466,135 @@ msgstr "Linuks-Mandrejka Instalado %s"
 msgid "<Tab>/<Alt-Tab> between elements"
 msgstr "<Tab>/<Alt-Tab> inter elementoj"
 
-#: steps_gtk.pm:147
+#: steps_gtk.pm:151
 #, c-format
 msgid "Xorg server is slow to start. Please wait..."
 msgstr ""
 
-#: steps_gtk.pm:211
-#, c-format
+#: steps_gtk.pm:216
+#, fuzzy, c-format
 msgid ""
 "Your system is low on resources. You may have some problem installing\n"
-"OpenMandriva Lx. If that occurs, you can try a text install instead. For "
+"OpenMandriva Lx. If that occurs, you can try a text install instead. To do "
 "this,\n"
-"press `F1' when booting on CDROM, then enter `text'."
+"press `F1' at the boot menu, then enter `text'."
 msgstr ""
 "Via sistemo havas malmulte da risurcoj.  Eble vi havos problemojn pri\n"
 "instali Linuks-Mandrejkon.  Se tio okazos, vi povos anstataŭ provi tekstan\n"
 "instaladon.  Por ĉi tio, premu `F1' kiam vi startas de KDROM, kaj sekve\n"
 "tajpu `text'."
 
-#: steps_gtk.pm:241 steps_gtk.pm:776
+#: steps_gtk.pm:246 steps_gtk.pm:761
 #, fuzzy, c-format
 msgid "Media Selection"
 msgstr "Elektado de Pakaĵaj Grupoj"
 
-#: steps_gtk.pm:252
-#, c-format
-msgid "Install Mandriva KDE Desktop"
+#: steps_gtk.pm:257
+#, fuzzy, c-format
+msgid "Install KDE Desktop Environment"
 msgstr "Instalo de la labortablo Mandriva KDE"
 
-#: steps_gtk.pm:253
-#, c-format
-msgid "Install Mandriva GNOME Desktop"
+#: steps_gtk.pm:258
+#, fuzzy, c-format
+msgid "Install GNOME Desktop Environment"
 msgstr "Instalo de la labortablo Mandriva GNOME"
 
-#: steps_gtk.pm:254
+#: steps_gtk.pm:259
 #, c-format
 msgid "Custom install"
 msgstr "Persona instalado"
 
-#: steps_gtk.pm:275
+#: steps_gtk.pm:280
 #, fuzzy, c-format
 msgid "KDE Desktop"
 msgstr "Labortabulo IceWm"
 
-#: steps_gtk.pm:276
+#: steps_gtk.pm:281
 #, fuzzy, c-format
 msgid "GNOME Desktop"
 msgstr "Labortabulo IceWm"
 
-#: steps_gtk.pm:277
+#: steps_gtk.pm:282
 #, fuzzy, c-format
 msgid "Custom Desktop"
 msgstr "Labortabulo IceWm"
 
-#: steps_gtk.pm:283
+#: steps_gtk.pm:288
 #, c-format
 msgid "Here's a preview of the '%s' desktop."
 msgstr ""
 
-#: steps_gtk.pm:310
+#: steps_gtk.pm:315
 #, c-format
 msgid "Click on images in order to see a bigger preview"
 msgstr ""
 
-#: steps_gtk.pm:326 steps_interactive.pm:628 steps_list.pm:31
+#: steps_gtk.pm:331 steps_interactive.pm:628 steps_list.pm:31
 #, c-format
 msgid "Package Group Selection"
 msgstr "Elektado de Pakaĵaj Grupoj"
 
-#: steps_gtk.pm:350 steps_interactive.pm:645
+#: steps_gtk.pm:355 steps_interactive.pm:645
 #, c-format
 msgid "Individual package selection"
 msgstr "Elektado de individuaj pakaĵoj"
 
-#: steps_gtk.pm:357
+#: steps_gtk.pm:362
 #, c-format
 msgid "Unselect All"
 msgstr ""
 
-#: steps_gtk.pm:375 steps_interactive.pm:557
+#: steps_gtk.pm:380 steps_interactive.pm:557
 #, c-format
 msgid "Total size: %d / %d MB"
 msgstr "Tuta grandeco: %d / %d MB"
 
-#: steps_gtk.pm:420
+#: steps_gtk.pm:425
 #, c-format
 msgid "Version: "
 msgstr "Versio: "
 
-#: steps_gtk.pm:421
+#: steps_gtk.pm:426
 #, c-format
 msgid "Size: "
 msgstr "Grandeco: "
 
-#: steps_gtk.pm:421
+#: steps_gtk.pm:426
 #, c-format
 msgid "%d KB\n"
 msgstr "%d KB\n"
 
-#: steps_gtk.pm:422
+#: steps_gtk.pm:427
 #, c-format
 msgid "Importance: "
 msgstr "Graveco: "
 
-#: steps_gtk.pm:457
+#: steps_gtk.pm:462
 #, c-format
 msgid "You cannot select/unselect this package"
 msgstr "Vi ne povas elektu/malelektu ĉi tiun pakaĵon"
 
-#: steps_gtk.pm:461
+#: steps_gtk.pm:466
 #, c-format
 msgid "due to missing %s"
 msgstr "pro mankanta %s"
 
-#: steps_gtk.pm:462
+#: steps_gtk.pm:467
 #, c-format
 msgid "due to unsatisfied %s"
 msgstr "pro neplenumita %s"
 
-#: steps_gtk.pm:463
+#: steps_gtk.pm:468
 #, c-format
 msgid "trying to promote %s"
 msgstr "mi provas disponigi %s"
 
-#: steps_gtk.pm:464
+#: steps_gtk.pm:469
 #, c-format
 msgid "in order to keep %s"
 msgstr "por konservi %s"
 
-#: steps_gtk.pm:469
+#: steps_gtk.pm:474
 #, c-format
 msgid ""
 "You cannot select this package as there is not enough space left to install "
@@ -946,119 +603,109 @@ msgstr ""
 "Vi ne povas elekti ĉi tiun pakaĵon ĉar ne estas sufiĉe da spaco por instali\n"
 "ĝin."
 
-#: steps_gtk.pm:472
+#: steps_gtk.pm:477
 #, c-format
 msgid "The following packages are going to be installed"
 msgstr "La sekvaj pakaĵoj estos instalataj"
 
-#: steps_gtk.pm:473
+#: steps_gtk.pm:478
 #, c-format
 msgid "The following packages are going to be removed"
 msgstr "La sekvaj pakaĵoj estos malinstalataj"
 
-#: steps_gtk.pm:499
+#: steps_gtk.pm:504
 #, c-format
 msgid "This is a mandatory package, it cannot be unselected"
 msgstr "Ĉi tiu estas deviga pakaĵo, vi ne povas malelekti ĝin"
 
-#: steps_gtk.pm:501
+#: steps_gtk.pm:506
 #, c-format
 msgid "You cannot unselect this package. It is already installed"
 msgstr "Vi ne povas malelekti ĉi tiun pakaĵon.  Ĝi estas jam instalita."
 
-#: steps_gtk.pm:503
+#: steps_gtk.pm:508
 #, c-format
 msgid "You cannot unselect this package. It must be upgraded"
 msgstr "Vi ne povas malelekti ĉi tiun pakaĵon.  Ĝi devus esti promociata."
 
-#: steps_gtk.pm:507
+#: steps_gtk.pm:512
 #, c-format
 msgid "Show automatically selected packages"
 msgstr "Montru aŭtomate elektitajn pakaĵojn"
 
-#: steps_gtk.pm:511
+#: steps_gtk.pm:516
 #, c-format
 msgid "Install"
 msgstr "Instalu"
 
-#: steps_gtk.pm:514
+#: steps_gtk.pm:519
 #, c-format
 msgid "Load/Save selection"
 msgstr "Ŝargi/Konservi selekton"
 
-#: steps_gtk.pm:515
+#: steps_gtk.pm:520
 #, c-format
 msgid "Updating package selection"
 msgstr "Ĝisdatigo de pakaĵ-elekto"
 
-#: steps_gtk.pm:520
+#: steps_gtk.pm:525
 #, c-format
 msgid "Minimal install"
 msgstr "Minimuma instalado"
 
-#: steps_gtk.pm:533
+#: steps_gtk.pm:538
 #, c-format
 msgid "Software Management"
 msgstr "Programar-mastrumilo"
 
-#: steps_gtk.pm:533 steps_interactive.pm:438
+#: steps_gtk.pm:538 steps_interactive.pm:438
 #, c-format
 msgid "Choose the packages you want to install"
 msgstr "Elektu la pakaĵojn kiuj vi deziras instali"
 
-#: steps_gtk.pm:550 steps_interactive.pm:659 steps_list.pm:33
+#: steps_gtk.pm:555 steps_interactive.pm:659 steps_list.pm:33
 #, c-format
 msgid "Installing"
 msgstr "Instalanta"
 
-#: steps_gtk.pm:581
-#, c-format
-msgid "Bored?"
-msgstr ""
-
-#: steps_gtk.pm:581
-#, c-format
-msgid "Boss button"
-msgstr ""
-
-#: steps_gtk.pm:587
+#: steps_gtk.pm:586
 #, c-format
 msgid "No details"
 msgstr "Neniaj detaloj"
 
-#: steps_gtk.pm:620
+#: steps_gtk.pm:605
 #, fuzzy, c-format
 msgid "Time remaining:"
 msgstr "Tempo restanta "
 
-#: steps_gtk.pm:621
+#: steps_gtk.pm:606
 #, fuzzy, c-format
 msgid "(estimating...)"
 msgstr "Taksas"
 
-#: steps_gtk.pm:651
+#: steps_gtk.pm:636
 #, c-format
 msgid "%d package"
 msgid_plural "%d packages"
 msgstr[0] "%d pakaĵo"
 msgstr[1] "%d pakaĵoj"
 
-#: steps_gtk.pm:706 steps_interactive.pm:824 steps_list.pm:44
+#: steps_gtk.pm:691 steps_interactive.pm:824 steps_list.pm:44
 #, c-format
 msgid "Summary"
 msgstr "Resumo"
 
-#: steps_gtk.pm:725
+#: steps_gtk.pm:710
 #, c-format
 msgid "Configure"
 msgstr "Konfiguru"
 
-#: steps_gtk.pm:742 steps_interactive.pm:820 steps_interactive.pm:973
+#: steps_gtk.pm:727 steps_interactive.pm:820 steps_interactive.pm:973
 #, c-format
 msgid "not configured"
 msgstr "ne konfigurita"
 
-#: steps_gtk.pm:785 steps_interactive.pm:336
+#: steps_gtk.pm:770 steps_interactive.pm:336
 #, c-format
 msgid ""
 "The following installation media have been found.\n"
@@ -1067,7 +714,7 @@ msgstr ""
 "La sekva instal-datenportilo(j) estas trovita(j).\n"
 "Se vi deziras transsalti kelkajn de ili, vi povas tiujn nun malselekti."
 
-#: steps_gtk.pm:801 steps_interactive.pm:342
+#: steps_gtk.pm:786 steps_interactive.pm:342
 #, c-format
 msgid ""
 "You have the option to copy the contents of the CDs onto the hard disk drive "
@@ -1080,7 +727,7 @@ msgstr ""
 "Tiam la instalado daŭrigas el la fiksdisko kaj la pakaĵoj restos atingeblaj "
 "post kiam la sistemo estos plene instalita."
 
-#: steps_gtk.pm:803 steps_interactive.pm:344
+#: steps_gtk.pm:788 steps_interactive.pm:344
 #, c-format
 msgid "Copy whole CDs"
 msgstr "Kopii kompletajn KD-ojn"
@@ -1145,10 +792,11 @@ msgstr ""
 #: steps_interactive.pm:215
 #, c-format
 msgid ""
-"Installer has detected that your installed OpenMandriva Lx system could not\n"
+"The installer has detected that your current OpenMandriva Lx system could "
+"not\n"
 "safely be upgraded to %s.\n"
 "\n"
-"New installation replacing your previous one is recommended.\n"
+"A new installation replacing your previous one is recommended.\n"
 "\n"
 "Warning : you should backup all your personal data before choosing \"New\n"
 "Installation\"."
@@ -1646,6 +1294,215 @@ msgid ""
 "_: Keep these entry short\n"
 "Exit"
 msgstr "Eliro"
+
+#~ msgid "Workstation"
+#~ msgstr "Laborstacio"
+
+#~ msgid "Office Workstation"
+#~ msgstr "Oficeja laborstacio"
+
+#, fuzzy
+#~ msgid ""
+#~ "Office programs: wordprocessors (OpenOffice.org Writer, Kword), "
+#~ "spreadsheets (OpenOffice.org Calc, Kspread), PDF viewers, etc"
+#~ msgstr ""
+#~ "Oficejaj programoj: tekstiloj (LibreOffice Writer, Verkilo [Kword]), "
+#~ "tabelkalkuliloj (LibreOffice Calc, Kspread), PDF-vidigiloj, ktp."
+
+#~ msgid "Game station"
+#~ msgstr "Ludstacio"
+
+#, fuzzy
+#~ msgid "Amusement programs: arcade, boards, strategy, etc."
+#~ msgstr "Amuz-programoj: arcade, tabuloj [boards], strategio, ktp."
+
+#~ msgid "Multimedia station"
+#~ msgstr "Plurmediaj stacio"
+
+#~ msgid "Sound and video playing/editing programs"
+#~ msgstr "Programoj por ludi/prilabori son- kaj video-programojn"
+
+#~ msgid "Internet station"
+#~ msgstr "Interreta stacio"
+
+#~ msgid ""
+#~ "Set of tools to read and send mail and news (mutt, tin..) and to browse "
+#~ "the Web"
+#~ msgstr ""
+#~ "Agordiloj por legi kaj sendi retpoŝt-mesaĝojn kaj novaĵojn (mutt, tin...) "
+#~ "kaj por krozi tra la ttt"
+
+#~ msgid "Network Computer (client)"
+#~ msgstr "Reta computilo (kliento)"
+
+#~ msgid "Clients for different protocols including ssh"
+#~ msgstr "Klientoj por diversaj protokoloj inklude de ssh"
+
+#~ msgid "Tools to ease the configuration of your computer"
+#~ msgstr "Iloj por faciligi la konfiguradon de via komputilo"
+
+#~ msgid "Console Tools"
+#~ msgstr "Konsoliloj"
+
+#~ msgid "Editors, shells, file tools, terminals"
+#~ msgstr "Redaktiloj, ŝeloj, dosieriloj, terminaloj"
+
+#~ msgid "Development"
+#~ msgstr "Programado"
+
+#~ msgid "C and C++ development libraries, programs and include files"
+#~ msgstr "C kaj C++ programadaj bibliotekoj, programoj kaj ĉapdosieroj"
+
+#~ msgid "Documentation"
+#~ msgstr "Dokumentaro"
+
+#~ msgid "Books and Howto's on Linux and Free Software"
+#~ msgstr "Libroj kaj Kielfari pri Linukso kaj libera programaro"
+
+#~ msgid "LSB"
+#~ msgstr "LSB"
+
+#~ msgid "Linux Standard Base. Third party applications support"
+#~ msgstr "Linux Standard Base. Subteno por triaflankaj aplikaĵoj"
+
+#~ msgid "Web Server"
+#~ msgstr "Interret-servilo"
+
+#~ msgid "Apache"
+#~ msgstr "Apache"
+
+#~ msgid "Groupware"
+#~ msgstr "Grupa programaro"
+
+#~ msgid "Kolab Server"
+#~ msgstr "Kolab Servilo"
+
+#~ msgid "Firewall/Router"
+#~ msgstr "Fajroŝirmilo/enkursigilo"
+
+#~ msgid "Internet gateway"
+#~ msgstr "Interreta kluzo"
+
+#~ msgid "Mail/News"
+#~ msgstr "Poŝto/Novaĵoj"
+
+#~ msgid "Postfix mail server, Inn news server"
+#~ msgstr "Postfix poŝta servilo, Inn novaĵaj servilo"
+
+#~ msgid "Directory Server"
+#~ msgstr "Dosierujo-servilo"
+
+#~ msgid "FTP Server"
+#~ msgstr "FTP Servilo"
+
+#~ msgid "ProFTPd"
+#~ msgstr "ProFTPd"
+
+#~ msgid "DNS/NIS"
+#~ msgstr "DNS/NIS"
+
+#~ msgid "Domain Name and Network Information Server"
+#~ msgstr "Domajn-noma kaj ret-informa servilo"
+
+#~ msgid "File and Printer Sharing Server"
+#~ msgstr "Dosier- kaj printil-kundivida servilo"
+
+#~ msgid "NFS Server, Samba server"
+#~ msgstr "NFS servilo, Samba servilo"
+
+#~ msgid "Database"
+#~ msgstr "Datumbazoj"
+
+#~ msgid "PostgreSQL and MySQL Database Server"
+#~ msgstr "Datenbaz-serviloj PostgreSQL kaj MySQL"
+
+#~ msgid "Web/FTP"
+#~ msgstr "TTT/FTP"
+
+#~ msgid "Apache, Pro-ftpd"
+#~ msgstr "Apache, Pro-ftpd"
+
+#~ msgid "Mail"
+#~ msgstr "Poŝto"
+
+#~ msgid "Postfix mail server"
+#~ msgstr "Postfix poŝta servilo"
+
+#~ msgid "PostgreSQL or MySQL database server"
+#~ msgstr "Datenbaz-servilo PostgreSQL aŭ MySQL"
+
+#~ msgid "Network Computer server"
+#~ msgstr "Reta computilo (servilo)"
+
+#~ msgid "NFS server, SMB server, Proxy server, ssh server"
+#~ msgstr "NFS-servilo, SMB-servilo, prokur-servilo, ssh-servilo"
+
+#~ msgid "Graphical Environment"
+#~ msgstr "Grafika medio"
+
+#~ msgid "KDE Workstation"
+#~ msgstr "KDE Laborstacio"
+
+#~ msgid ""
+#~ "The K Desktop Environment, the basic graphical environment with a "
+#~ "collection of accompanying tools"
+#~ msgstr ""
+#~ "La tabula medio K, la baza grafika medio kun kolekto da akompanaj iloj"
+
+#~ msgid "GNOME Workstation"
+#~ msgstr "Gnoma Laborstacio"
+
+#~ msgid ""
+#~ "A graphical environment with user-friendly set of applications and "
+#~ "desktop tools"
+#~ msgstr "Grafika medio kun uzfacila aplikaĵaro kaj tabul-iloj"
+
+#, fuzzy
+#~ msgid "LXDE Desktop"
+#~ msgstr "Labortabulo IceWm"
+
+#, fuzzy
+#~ msgid ""
+#~ "A lightweight & fast graphical environment with user-friendly set of "
+#~ "applications and desktop tools"
+#~ msgstr "Grafika medio kun uzfacila aplikaĵaro kaj tabul-iloj"
+
+#~ msgid "Other Graphical Desktops"
+#~ msgstr "Aliaj grafikaj labortabuloj"
+
+#~ msgid "Window Maker, Enlightenment, Fvwm, etc"
+#~ msgstr "Window Maker, Enlightenment, Fvwm, ktp."
+
+#~ msgid "Utilities"
+#~ msgstr "Iloj"
+
+#~ msgid "SSH Server"
+#~ msgstr "SSH servilo"
+
+#~ msgid "Webmin"
+#~ msgstr "Webmin"
+
+#~ msgid "Webmin Remote Configuration Server"
+#~ msgstr "Servilo de fora konfigurado Webmin"
+
+#~ msgid "Network Utilities/Monitoring"
+#~ msgstr "Retaj utilaĵoj/monitorado"
+
+#~ msgid "Monitoring tools, processes accounting, tcpdump, nmap, ..."
+#~ msgstr "Monitoriloj, proces-kalkuliloj, tcpdump, nmap, ..."
+
+#~ msgid "Mandriva Wizards"
+#~ msgstr "Sorĉiloj de Mandriva"
+
+#~ msgid "Wizards to configure server"
+#~ msgstr "Sorĉiloj por konfiguri servilon"
+
+#~ msgid ""
+#~ "Failed contacting OpenMandriva Lx web site to get the list of available "
+#~ "mirrors"
+#~ msgstr ""
+#~ "Mi malsukcesis kontakti la Mandriva Linuksan retpaĝon por havigi la "
+#~ "liston de disponeblaj speguloj..."
 
 #~ msgid ""
 #~ "_: Keep these entry short\n"

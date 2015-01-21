@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DrakX HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-31 17:24+0200\n"
+"POT-Creation-Date: 2015-01-22 00:44+0100\n"
 "PO-Revision-Date: 2007-02-19 00:44+0600\n"
 "Last-Translator: Tisa Nafisa <tisa_nafisa@yahoo.com>\n"
 "Language-Team: Bangla <mdk-translation@bengalinux.org>\n"
@@ -19,352 +19,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:14
-#, c-format
-msgid "Workstation"
-msgstr "ওয়ার্কষ্টেশন"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:16
-#, c-format
-msgid "Office Workstation"
-msgstr "অফিস ওয়ার্কষ্টেশন"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:18
-#, fuzzy, c-format
-msgid ""
-"Office programs: wordprocessors (OpenOffice.org Writer, Kword), spreadsheets "
-"(OpenOffice.org Calc, Kspread), PDF viewers, etc"
-msgstr ""
-"অফিস প্রোগ্রামসমূহ: ওয়ার্ডপ্রসেসর (LibreOffice Writer, Kword), স্প্রেডসিট "
-"(LibreOffice Calc, Kspread), PDF ফাইল প্রদর্শক ইত্যাদী"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:23
-#, c-format
-msgid "Game station"
-msgstr "গেশ ষ্টেশন"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:24
-#, fuzzy, c-format
-msgid "Amusement programs: arcade, boards, strategy, etc."
-msgstr "উদ্দীপনামূলক প্রোগ্রামসমূহ: আর্কেড, বোর্ড, স্ট্রেটেজি, ইত্যাদি"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:28
-#, c-format
-msgid "Multimedia station"
-msgstr "মাল্টিমিডিয়া ষ্টেশন"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:29
-#, c-format
-msgid "Sound and video playing/editing programs"
-msgstr "সাউন্ড এবং ভিডিও দেখার/এডিট করার প্রোগ্রামসমূহ"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:34
-#, c-format
-msgid "Toys"
-msgstr ""
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:35
-#, c-format
-msgid "Apps and tools of less useful value, yet entertaining..."
-msgstr ""
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:39
-#, c-format
-msgid "Internet station"
-msgstr "ইন্টারনেট ষ্টেশন"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:40
-#, c-format
-msgid ""
-"Set of tools to read and send mail and news (mutt, tin..) and to browse the "
-"Web"
-msgstr ""
-"মেইল আদানপ্রদান, খবর পড়া এবং ওয়েব ব্রাউজিং (mutt, tin..) এর জন্য কিছু টুলের সেট"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:45
-#, c-format
-msgid "Network Computer (client)"
-msgstr "নেটওয়ার্ক কম্পিউটার (ক্লাইন্ট)"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:46
-#, c-format
-msgid "Clients for different protocols including ssh"
-msgstr "SSH সহ বিভিন্ন প্রোটকলের জন্য ক্লাইন্টসমূহ"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:50 gtk.pm:132
-#, c-format
-msgid "Configuration"
-msgstr "কনফিগারেশন"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:51
-#, c-format
-msgid "Tools to ease the configuration of your computer"
-msgstr "আপনার কম্পিউটারের কনফিগারেশন সহজ করার জন্য কিছু টুল"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:55
-#, c-format
-msgid "Console Tools"
-msgstr "কনসল টুল"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:56
-#, c-format
-msgid "Editors, shells, file tools, terminals"
-msgstr "এডিটর, শেল, ফাইল টুল, টার্মিনাল সমূহ"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:60
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:170
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:172
-#, c-format
-msgid "Development"
-msgstr "ডেভলপমেন্ট"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:61
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:173
-#, c-format
-msgid "C and C++ development libraries, programs and include files"
-msgstr "C এবং C++ ডেভলপমেন্টের লাইব্রেরী, প্রগ্রাম এবং include ফাইলসমূহ"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:64
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:177
-#, c-format
-msgid "Documentation"
-msgstr "ডকুমেন্টেশন"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:65
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:178
-#, c-format
-msgid "Books and Howto's on Linux and Free Software"
-msgstr "লিনাক্স এবং ফ্রী সফটওয়ার সংক্রান্ত বই ও হাউটু (HOWTO)"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:69
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:181
-#, c-format
-msgid "LSB"
-msgstr "LSB"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:70
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:182
-#, c-format
-msgid "Linux Standard Base. Third party applications support"
-msgstr "লিনাক্সের সাধারণ আধার। তৃতীয়পক্ষ এপ্লিকেশন সমূহের সাপোর্ট"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:80
-#, c-format
-msgid "Web Server"
-msgstr "ওয়েব সার্ভার"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:81
-#, c-format
-msgid "Apache"
-msgstr "এ্যপাচি"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:84
-#, c-format
-msgid "Groupware"
-msgstr "গ্রুপওয়্যার"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:85
-#, c-format
-msgid "Kolab Server"
-msgstr "কোলাব সার্ভার"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:88
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:129
-#, c-format
-msgid "Firewall/Router"
-msgstr "ফায়ারওয়াল/রাউটার"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:89
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:130
-#, c-format
-msgid "Internet gateway"
-msgstr "ইন্টারনেট গেটওয়ে"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:92
-#, c-format
-msgid "Mail/News"
-msgstr "মেইল/সংবাদ"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:93
-#, c-format
-msgid "Postfix mail server, Inn news server"
-msgstr "Postfix মেইল সার্ভার, Inn সংবাদ সার্ভার"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:96
-#, c-format
-msgid "Directory Server"
-msgstr "ডিরেক্টরি সার্ভার"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:100
-#, c-format
-msgid "FTP Server"
-msgstr "FTP সার্ভার"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:101
-#, c-format
-msgid "ProFTPd"
-msgstr "ProFTPd"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:104
-#, c-format
-msgid "DNS/NIS"
-msgstr "ডিএনএস/এনআইএস"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:105
-#, c-format
-msgid "Domain Name and Network Information Server"
-msgstr "ডোমেইন নেম এবং নেটওয়ার্ক ইনফরমেশন সার্ভার"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:108
-#, c-format
-msgid "File and Printer Sharing Server"
-msgstr "ফাইল এবং প্রিন্টার শেয়ারিং সার্ভার"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:109
-#, c-format
-msgid "NFS Server, Samba server"
-msgstr "NFS সার্ভার, Samba সার্ভার"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:112
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:125
-#, c-format
-msgid "Database"
-msgstr "ডেটাবেস"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:113
-#, c-format
-msgid "PostgreSQL and MySQL Database Server"
-msgstr "PostgreSQL অথবা MySQL ডেটাবেস সার্ভার"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:117
-#, c-format
-msgid "Web/FTP"
-msgstr "ওয়েব/FTP"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:118
-#, c-format
-msgid "Apache, Pro-ftpd"
-msgstr "এ্যপাচি, Pro-ftpd"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:121
-#, c-format
-msgid "Mail"
-msgstr "মেইল"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:122
-#, c-format
-msgid "Postfix mail server"
-msgstr "Postfix মেইল সার্ভার"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:126
-#, c-format
-msgid "PostgreSQL or MySQL database server"
-msgstr "PostgreSQL অথবা MySQL ডেটাবেস সার্ভার"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:133
-#, c-format
-msgid "Network Computer server"
-msgstr "নেটওয়ার্ক কম্পিউটার সার্ভার"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:134
-#, c-format
-msgid "NFS server, SMB server, Proxy server, ssh server"
-msgstr "NFS সার্ভার, SMB সার্ভার, Proxy সার্ভার, ssh সার্ভার"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:141
-#, c-format
-msgid "Graphical Environment"
-msgstr "গ্রাফিকাল পরিবেশ"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:145
-#, c-format
-msgid "KDE Workstation"
-msgstr "KDE ওয়ার্কষ্টেশন"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:146
-#, c-format
-msgid ""
-"The K Desktop Environment, the basic graphical environment with a collection "
-"of accompanying tools"
-msgstr "K ডেক্সটপ, কিছু সহযোগীমূলক টুলের সমন্বয়ে একটি সাধারণ গ্রাফিকাল পরিবেশ"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:150
-#, c-format
-msgid "GNOME Workstation"
-msgstr "গুহনোম ওয়ার্কষ্টেশন"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:151
-#, c-format
-msgid ""
-"A graphical environment with user-friendly set of applications and desktop "
-"tools"
-msgstr ""
-"ব্যবহারকারীর বন্ধুসূলভ কিছু এপ্লিকেশন এবং ডোক্সটপ টুলের সমন্বয়ে একটি গ্রাফিকাল পরিবেশ"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:156
-#, fuzzy, c-format
-msgid "LXDE Desktop"
-msgstr "IceWm ডেস্কটপ"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:158
-#, fuzzy, c-format
-msgid ""
-"A lightweight & fast graphical environment with user-friendly set of "
-"applications and desktop tools"
-msgstr ""
-"ব্যবহারকারীর বন্ধুসূলভ কিছু এপ্লিকেশন এবং ডোক্সটপ টুলের সমন্বয়ে একটি গ্রাফিকাল পরিবেশ"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:162
-#, c-format
-msgid "Other Graphical Desktops"
-msgstr "অন্যান্য গ্রাফিকাল ডেক্সটপ"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:163
-#, c-format
-msgid "Window Maker, Enlightenment, Fvwm, etc"
-msgstr "Window Maker, Enlightenment, Fvwm, ইত্যাদি"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:187
-#, c-format
-msgid "Utilities"
-msgstr "ইউটিলিটিসমূহ"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:189
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:190
-#, c-format
-msgid "SSH Server"
-msgstr "SSH সার্ভিস"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:194
-#, c-format
-msgid "Webmin"
-msgstr "ওয়েবমিন"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:195
-#, c-format
-msgid "Webmin Remote Configuration Server"
-msgstr "ওয়েবমিন দূরবর্তী কনফিগারেশন সার্ভার"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:199
-#, c-format
-msgid "Network Utilities/Monitoring"
-msgstr "নেটওয়ার্ক ইউটিলিটিসমূহ/পর্যবেক্ষণ"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:200
-#, c-format
-msgid "Monitoring tools, processes accounting, tcpdump, nmap, ..."
-msgstr "পর্যবেক্ষণ টুলসমূহ, হিসাবরক্ষণ প্রসেস করে, tcpdump, nmap, ..."
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:204
-#, c-format
-msgid "Mandriva Wizards"
-msgstr "Mandriva উইজার্ডসমূহ"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:205
-#, c-format
-msgid "Wizards to configure server"
-msgstr "সার্ভার কনফিগার করার জন্য উইজার্ডসমূহ"
 
 #: ../../advertising/MandrivaOne-advert-1.pl:1
 #: ../../advertising/MandrivaOne-advert-2.pl:1
@@ -375,9 +29,9 @@ msgstr "সার্ভার কনফিগার করার জন্য �
 #: ../../advertising/MandrivaOne-advert-7.pl:1
 #: ../../advertising/MandrivaOne-advert-8.pl:1
 #: ../../advertising/MandrivaOne-advert-9.pl:1
-#, c-format
-msgid "OpenMandriva Lx 2012 Alpha (Tenacious Underdog)"
-msgstr ""
+#, fuzzy, c-format
+msgid "OpenMandriva Lx 2013.0"
+msgstr "OpenMandriva Lx ইনস্টলেশন %s"
 
 #: any.pm:110
 #, c-format
@@ -429,17 +83,14 @@ msgid "URL must start with ftp:// or http://"
 msgstr "ইউআরএল অবশ্যই ftp:// অথবা http:// দিয়ে শুরু হবে"
 
 #: any.pm:188
-#, c-format
-msgid ""
-"Contacting OpenMandriva Lx web site to get the list of available mirrors..."
+#, fuzzy, c-format
+msgid "Connecting to OpenMandriva to get the list of available mirrors..."
 msgstr "উপস্থিত মিররের তালিকার জন্য OpenMandriva Lx-এ সংযুক্ত করা হচ্ছে..."
 
 #: any.pm:193
-#, c-format
-msgid ""
-"Failed contacting OpenMandriva Lx web site to get the list of available "
-"mirrors"
-msgstr "উপস্থিত মিররের তালিকার জন্য OpenMandriva Lx-এ যোগাযোগ করতে ব্যর্থ হয়েছে..."
+#, fuzzy, c-format
+msgid "Failed to get the list of available mirrors."
+msgstr "উপস্থিত মিররের তালিকার জন্য OpenMandriva Lx-এ সংযুক্ত করা হচ্ছে..."
 
 #: any.pm:203
 #, c-format
@@ -648,6 +299,11 @@ msgstr "%s -এ ইনস্টল করার পরে স্ক্রিন�
 msgid "Installation"
 msgstr " ইনস্টলেশন"
 
+#: gtk.pm:132
+#, c-format
+msgid "Configuration"
+msgstr "কনফিগারেশন"
+
 #: install2.pm:168
 #, c-format
 msgid "You must also format %s"
@@ -732,34 +388,34 @@ msgstr ""
 msgid "No description"
 msgstr ""
 
-#: pkgs.pm:280
+#: pkgs.pm:279
 #, c-format
 msgid ""
 "Some packages requested by %s cannot be installed:\n"
 "%s"
 msgstr ""
 
-#: pkgs.pm:376 pkgs.pm:403
+#: pkgs.pm:375 pkgs.pm:402
 #, fuzzy, c-format
 msgid "An error occurred:"
 msgstr "একটি ত্রুটি সম্পাদিত হয়েছে"
 
-#: pkgs.pm:395
+#: pkgs.pm:394
 #, fuzzy, c-format
 msgid "A fatal error occurred: %s."
 msgstr "একটি ত্রুটি সম্পাদিত হয়েছে"
 
-#: pkgs.pm:876 pkgs.pm:918
+#: pkgs.pm:877 pkgs.pm:919
 #, c-format
 msgid "Do not ask again"
 msgstr ""
 
-#: pkgs.pm:892
+#: pkgs.pm:893
 #, fuzzy, c-format
 msgid "%d installation transactions failed"
 msgstr "ইনস্টলেশন বিফল হয়েছে"
 
-#: pkgs.pm:893
+#: pkgs.pm:894
 #, fuzzy, c-format
 msgid "Installation of packages failed:"
 msgstr "%s প্যাকেজ সমূহ ইনস্টল করা হচ্ছে"
@@ -802,18 +458,18 @@ msgstr "OpenMandriva Lx ইনস্টলেশন %s"
 msgid "<Tab>/<Alt-Tab> between elements"
 msgstr "উপাদানগুলোর মধ্যে <Tab>/<Alt-Tab> "
 
-#: steps_gtk.pm:147
+#: steps_gtk.pm:151
 #, c-format
 msgid "Xorg server is slow to start. Please wait..."
 msgstr ""
 
-#: steps_gtk.pm:211
-#, c-format
+#: steps_gtk.pm:216
+#, fuzzy, c-format
 msgid ""
 "Your system is low on resources. You may have some problem installing\n"
-"OpenMandriva Lx. If that occurs, you can try a text install instead. For "
+"OpenMandriva Lx. If that occurs, you can try a text install instead. To do "
 "this,\n"
-"press `F1' when booting on CDROM, then enter `text'."
+"press `F1' at the boot menu, then enter `text'."
 msgstr ""
 "আপনার সিস্টেমের রিসোর্স খুব কম। ম্যান্ড্রিব লিনাক্স ইনস্টল করার সময় আপনি সমস্যার "
 "মুখোমুখি\n"
@@ -821,117 +477,117 @@ msgstr ""
 "জন্য,\n"
 "যখন সিডিরম থেকে বুট হবে তখন `F1' চাপুন, তারপর `text' লিখুন।"
 
-#: steps_gtk.pm:241 steps_gtk.pm:776
+#: steps_gtk.pm:246 steps_gtk.pm:761
 #, fuzzy, c-format
 msgid "Media Selection"
 msgstr "প্যাকেজ গ্রুপ নির্বাচন"
 
-#: steps_gtk.pm:252
+#: steps_gtk.pm:257
 #, c-format
-msgid "Install Mandriva KDE Desktop"
+msgid "Install KDE Desktop Environment"
 msgstr ""
 
-#: steps_gtk.pm:253
+#: steps_gtk.pm:258
 #, c-format
-msgid "Install Mandriva GNOME Desktop"
+msgid "Install GNOME Desktop Environment"
 msgstr ""
 
-#: steps_gtk.pm:254
+#: steps_gtk.pm:259
 #, fuzzy, c-format
 msgid "Custom install"
 msgstr "সর্বনিম্ন ইনস্টল"
 
-#: steps_gtk.pm:275
+#: steps_gtk.pm:280
 #, fuzzy, c-format
 msgid "KDE Desktop"
 msgstr "IceWm ডেস্কটপ"
 
-#: steps_gtk.pm:276
+#: steps_gtk.pm:281
 #, fuzzy, c-format
 msgid "GNOME Desktop"
 msgstr "IceWm ডেস্কটপ"
 
-#: steps_gtk.pm:277
+#: steps_gtk.pm:282
 #, fuzzy, c-format
 msgid "Custom Desktop"
 msgstr "IceWm ডেস্কটপ"
 
-#: steps_gtk.pm:283
+#: steps_gtk.pm:288
 #, c-format
 msgid "Here's a preview of the '%s' desktop."
 msgstr ""
 
-#: steps_gtk.pm:310
+#: steps_gtk.pm:315
 #, c-format
 msgid "Click on images in order to see a bigger preview"
 msgstr ""
 
-#: steps_gtk.pm:326 steps_interactive.pm:628 steps_list.pm:31
+#: steps_gtk.pm:331 steps_interactive.pm:628 steps_list.pm:31
 #, c-format
 msgid "Package Group Selection"
 msgstr "প্যাকেজ গ্রুপ নির্বাচন"
 
-#: steps_gtk.pm:350 steps_interactive.pm:645
+#: steps_gtk.pm:355 steps_interactive.pm:645
 #, c-format
 msgid "Individual package selection"
 msgstr "আলাদাভাবে প্যাকেজ নির্বাচন"
 
-#: steps_gtk.pm:357
+#: steps_gtk.pm:362
 #, c-format
 msgid "Unselect All"
 msgstr ""
 
-#: steps_gtk.pm:375 steps_interactive.pm:557
+#: steps_gtk.pm:380 steps_interactive.pm:557
 #, c-format
 msgid "Total size: %d / %d MB"
 msgstr "মোট সাইজ: %d / %d এমবি"
 
-#: steps_gtk.pm:420
+#: steps_gtk.pm:425
 #, c-format
 msgid "Version: "
 msgstr "ভার্সন:"
 
-#: steps_gtk.pm:421
+#: steps_gtk.pm:426
 #, c-format
 msgid "Size: "
 msgstr "সাইজ:"
 
-#: steps_gtk.pm:421
+#: steps_gtk.pm:426
 #, c-format
 msgid "%d KB\n"
 msgstr "%d KB\n"
 
-#: steps_gtk.pm:422
+#: steps_gtk.pm:427
 #, c-format
 msgid "Importance: "
 msgstr "প্রাধান্য:"
 
-#: steps_gtk.pm:457
+#: steps_gtk.pm:462
 #, c-format
 msgid "You cannot select/unselect this package"
 msgstr "আপনি এই প্যাকেজটি নির্বাচন/অ-নির্বাচন করতে পারবেন না"
 
-#: steps_gtk.pm:461
+#: steps_gtk.pm:466
 #, c-format
 msgid "due to missing %s"
 msgstr "%s না থাকার কারনে"
 
-#: steps_gtk.pm:462
+#: steps_gtk.pm:467
 #, c-format
 msgid "due to unsatisfied %s"
 msgstr "%s যথেষ্ট না হবার কারনে"
 
-#: steps_gtk.pm:463
+#: steps_gtk.pm:468
 #, c-format
 msgid "trying to promote %s"
 msgstr "%s প্রচারের চেষ্টা চলছে"
 
-#: steps_gtk.pm:464
+#: steps_gtk.pm:469
 #, c-format
 msgid "in order to keep %s"
 msgstr "%s রাখার কারণে"
 
-#: steps_gtk.pm:469
+#: steps_gtk.pm:474
 #, c-format
 msgid ""
 "You cannot select this package as there is not enough space left to install "
@@ -940,120 +596,110 @@ msgstr ""
 "আপনি এই প্যাকেজটি নির্বাচন করতে পারবেননা যেহেতু এটা ইনস্টল করার জন্য যথেষ্ট জায়গা "
 "ফাঁকা নেই"
 
-#: steps_gtk.pm:472
+#: steps_gtk.pm:477
 #, c-format
 msgid "The following packages are going to be installed"
 msgstr "এই প্যাকেজগুলি ইনস্টল হতে যাচ্ছে"
 
-#: steps_gtk.pm:473
+#: steps_gtk.pm:478
 #, c-format
 msgid "The following packages are going to be removed"
 msgstr "এই প্যাকেজগুলি অপসরিত হতে যাচ্ছে"
 
-#: steps_gtk.pm:499
+#: steps_gtk.pm:504
 #, c-format
 msgid "This is a mandatory package, it cannot be unselected"
 msgstr "এটি একটি বাধ্যতামূলাক প্যাকেজ, এটি কোনভাবেই বাদ দেয়া যাবেনা"
 
-#: steps_gtk.pm:501
+#: steps_gtk.pm:506
 #, c-format
 msgid "You cannot unselect this package. It is already installed"
 msgstr ""
 "আপনি এই প্যাকেজটির অ-নির্বাচন করতে পারবেন না, এটা আগে থেকেই ইনস্টল হয়ে আছে"
 
-#: steps_gtk.pm:503
+#: steps_gtk.pm:508
 #, c-format
 msgid "You cannot unselect this package. It must be upgraded"
 msgstr "আপনি এই প্যাকেজটি অ-নির্বাচন করতে পারবেন না। এটা অবশ্যই আপগ্রেড হতে হবে"
 
-#: steps_gtk.pm:507
+#: steps_gtk.pm:512
 #, c-format
 msgid "Show automatically selected packages"
 msgstr "সংয়-নির্বাচিত প্যাকেজগুলি দেখাও"
 
-#: steps_gtk.pm:511
+#: steps_gtk.pm:516
 #, c-format
 msgid "Install"
 msgstr "ইনস্টল"
 
-#: steps_gtk.pm:514
+#: steps_gtk.pm:519
 #, c-format
 msgid "Load/Save selection"
 msgstr "নির্বাচনসমূহ লোড/সংরক্ষণ করো"
 
-#: steps_gtk.pm:515
+#: steps_gtk.pm:520
 #, c-format
 msgid "Updating package selection"
 msgstr "প্যাকেজের নির্বাচন আপগ্রেড করা হচ্ছে"
 
-#: steps_gtk.pm:520
+#: steps_gtk.pm:525
 #, c-format
 msgid "Minimal install"
 msgstr "সর্বনিম্ন ইনস্টল"
 
-#: steps_gtk.pm:533
+#: steps_gtk.pm:538
 #, c-format
 msgid "Software Management"
 msgstr "সফটওয়্যার ম্যানেজমেন্ট"
 
-#: steps_gtk.pm:533 steps_interactive.pm:438
+#: steps_gtk.pm:538 steps_interactive.pm:438
 #, c-format
 msgid "Choose the packages you want to install"
 msgstr "আপনি যেই প্যাকেজগুলি ইনস্টল করতে চান তা পছন্দ করুন"
 
-#: steps_gtk.pm:550 steps_interactive.pm:659 steps_list.pm:33
+#: steps_gtk.pm:555 steps_interactive.pm:659 steps_list.pm:33
 #, c-format
 msgid "Installing"
 msgstr "ইনস্টলেশন"
 
-#: steps_gtk.pm:581
-#, c-format
-msgid "Bored?"
-msgstr ""
-
-#: steps_gtk.pm:581
-#, c-format
-msgid "Boss button"
-msgstr ""
-
-#: steps_gtk.pm:587
+#: steps_gtk.pm:586
 #, c-format
 msgid "No details"
 msgstr "কোন বিস্তারিত ছাড়া"
 
-#: steps_gtk.pm:620
+#: steps_gtk.pm:605
 #, fuzzy, c-format
 msgid "Time remaining:"
 msgstr "সময় বাকী আছে"
 
-#: steps_gtk.pm:621
+#: steps_gtk.pm:606
 #, fuzzy, c-format
 msgid "(estimating...)"
 msgstr "নির্ধারণ চলছে"
 
-#: steps_gtk.pm:651
+#: steps_gtk.pm:636
 #, fuzzy, c-format
 msgid "%d package"
 msgid_plural "%d packages"
 msgstr[0] "%d প্যাকেজ সমূহ"
 msgstr[1] "%d প্যাকেজ সমূহ"
 
-#: steps_gtk.pm:706 steps_interactive.pm:824 steps_list.pm:44
+#: steps_gtk.pm:691 steps_interactive.pm:824 steps_list.pm:44
 #, c-format
 msgid "Summary"
 msgstr "সারাংশ"
 
-#: steps_gtk.pm:725
+#: steps_gtk.pm:710
 #, c-format
 msgid "Configure"
 msgstr "কনফিগার"
 
-#: steps_gtk.pm:742 steps_interactive.pm:820 steps_interactive.pm:973
+#: steps_gtk.pm:727 steps_interactive.pm:820 steps_interactive.pm:973
 #, c-format
 msgid "not configured"
 msgstr "কনফিগার করা হয়নি"
 
-#: steps_gtk.pm:785 steps_interactive.pm:336
+#: steps_gtk.pm:770 steps_interactive.pm:336
 #, c-format
 msgid ""
 "The following installation media have been found.\n"
@@ -1062,7 +708,7 @@ msgstr ""
 "নিম্নলিখিত ইনস্টলেশন মিডিয়া পাওয়া গেছে।\n"
 "যদি আপনি এগুলোর মধ্যকার কিছু এড়িয়ে যেতে চান, তাহলে এখন সেগুলোকে অনির্বাচিত করুন।"
 
-#: steps_gtk.pm:801 steps_interactive.pm:342
+#: steps_gtk.pm:786 steps_interactive.pm:342
 #, c-format
 msgid ""
 "You have the option to copy the contents of the CDs onto the hard disk drive "
@@ -1074,7 +720,7 @@ msgstr ""
 " এরপর হার্ডডিস্ক থেকে ইনস্টলেশন চলতে থাকবে এবং সিস্টেম সম্পূর্ন ইনস্টলেশনের পরও "
 "প্যাকেজগুলো রয়ে যাবে।"
 
-#: steps_gtk.pm:803 steps_interactive.pm:344
+#: steps_gtk.pm:788 steps_interactive.pm:344
 #, c-format
 msgid "Copy whole CDs"
 msgstr "CD গুলো সম্পুর্ন কপি করো "
@@ -1139,10 +785,11 @@ msgstr ""
 #: steps_interactive.pm:215
 #, c-format
 msgid ""
-"Installer has detected that your installed OpenMandriva Lx system could not\n"
+"The installer has detected that your current OpenMandriva Lx system could "
+"not\n"
 "safely be upgraded to %s.\n"
 "\n"
-"New installation replacing your previous one is recommended.\n"
+"A new installation replacing your previous one is recommended.\n"
 "\n"
 "Warning : you should backup all your personal data before choosing \"New\n"
 "Installation\"."
@@ -1633,6 +1280,216 @@ msgid ""
 "_: Keep these entry short\n"
 "Exit"
 msgstr "বাহির"
+
+#~ msgid "Workstation"
+#~ msgstr "ওয়ার্কষ্টেশন"
+
+#~ msgid "Office Workstation"
+#~ msgstr "অফিস ওয়ার্কষ্টেশন"
+
+#, fuzzy
+#~ msgid ""
+#~ "Office programs: wordprocessors (OpenOffice.org Writer, Kword), "
+#~ "spreadsheets (OpenOffice.org Calc, Kspread), PDF viewers, etc"
+#~ msgstr ""
+#~ "অফিস প্রোগ্রামসমূহ: ওয়ার্ডপ্রসেসর (LibreOffice Writer, Kword), স্প্রেডসিট "
+#~ "(LibreOffice Calc, Kspread), PDF ফাইল প্রদর্শক ইত্যাদী"
+
+#~ msgid "Game station"
+#~ msgstr "গেশ ষ্টেশন"
+
+#, fuzzy
+#~ msgid "Amusement programs: arcade, boards, strategy, etc."
+#~ msgstr "উদ্দীপনামূলক প্রোগ্রামসমূহ: আর্কেড, বোর্ড, স্ট্রেটেজি, ইত্যাদি"
+
+#~ msgid "Multimedia station"
+#~ msgstr "মাল্টিমিডিয়া ষ্টেশন"
+
+#~ msgid "Sound and video playing/editing programs"
+#~ msgstr "সাউন্ড এবং ভিডিও দেখার/এডিট করার প্রোগ্রামসমূহ"
+
+#~ msgid "Internet station"
+#~ msgstr "ইন্টারনেট ষ্টেশন"
+
+#~ msgid ""
+#~ "Set of tools to read and send mail and news (mutt, tin..) and to browse "
+#~ "the Web"
+#~ msgstr ""
+#~ "মেইল আদানপ্রদান, খবর পড়া এবং ওয়েব ব্রাউজিং (mutt, tin..) এর জন্য কিছু টুলের সেট"
+
+#~ msgid "Network Computer (client)"
+#~ msgstr "নেটওয়ার্ক কম্পিউটার (ক্লাইন্ট)"
+
+#~ msgid "Clients for different protocols including ssh"
+#~ msgstr "SSH সহ বিভিন্ন প্রোটকলের জন্য ক্লাইন্টসমূহ"
+
+#~ msgid "Tools to ease the configuration of your computer"
+#~ msgstr "আপনার কম্পিউটারের কনফিগারেশন সহজ করার জন্য কিছু টুল"
+
+#~ msgid "Console Tools"
+#~ msgstr "কনসল টুল"
+
+#~ msgid "Editors, shells, file tools, terminals"
+#~ msgstr "এডিটর, শেল, ফাইল টুল, টার্মিনাল সমূহ"
+
+#~ msgid "Development"
+#~ msgstr "ডেভলপমেন্ট"
+
+#~ msgid "C and C++ development libraries, programs and include files"
+#~ msgstr "C এবং C++ ডেভলপমেন্টের লাইব্রেরী, প্রগ্রাম এবং include ফাইলসমূহ"
+
+#~ msgid "Documentation"
+#~ msgstr "ডকুমেন্টেশন"
+
+#~ msgid "Books and Howto's on Linux and Free Software"
+#~ msgstr "লিনাক্স এবং ফ্রী সফটওয়ার সংক্রান্ত বই ও হাউটু (HOWTO)"
+
+#~ msgid "LSB"
+#~ msgstr "LSB"
+
+#~ msgid "Linux Standard Base. Third party applications support"
+#~ msgstr "লিনাক্সের সাধারণ আধার। তৃতীয়পক্ষ এপ্লিকেশন সমূহের সাপোর্ট"
+
+#~ msgid "Web Server"
+#~ msgstr "ওয়েব সার্ভার"
+
+#~ msgid "Apache"
+#~ msgstr "এ্যপাচি"
+
+#~ msgid "Groupware"
+#~ msgstr "গ্রুপওয়্যার"
+
+#~ msgid "Kolab Server"
+#~ msgstr "কোলাব সার্ভার"
+
+#~ msgid "Firewall/Router"
+#~ msgstr "ফায়ারওয়াল/রাউটার"
+
+#~ msgid "Internet gateway"
+#~ msgstr "ইন্টারনেট গেটওয়ে"
+
+#~ msgid "Mail/News"
+#~ msgstr "মেইল/সংবাদ"
+
+#~ msgid "Postfix mail server, Inn news server"
+#~ msgstr "Postfix মেইল সার্ভার, Inn সংবাদ সার্ভার"
+
+#~ msgid "Directory Server"
+#~ msgstr "ডিরেক্টরি সার্ভার"
+
+#~ msgid "FTP Server"
+#~ msgstr "FTP সার্ভার"
+
+#~ msgid "ProFTPd"
+#~ msgstr "ProFTPd"
+
+#~ msgid "DNS/NIS"
+#~ msgstr "ডিএনএস/এনআইএস"
+
+#~ msgid "Domain Name and Network Information Server"
+#~ msgstr "ডোমেইন নেম এবং নেটওয়ার্ক ইনফরমেশন সার্ভার"
+
+#~ msgid "File and Printer Sharing Server"
+#~ msgstr "ফাইল এবং প্রিন্টার শেয়ারিং সার্ভার"
+
+#~ msgid "NFS Server, Samba server"
+#~ msgstr "NFS সার্ভার, Samba সার্ভার"
+
+#~ msgid "Database"
+#~ msgstr "ডেটাবেস"
+
+#~ msgid "PostgreSQL and MySQL Database Server"
+#~ msgstr "PostgreSQL অথবা MySQL ডেটাবেস সার্ভার"
+
+#~ msgid "Web/FTP"
+#~ msgstr "ওয়েব/FTP"
+
+#~ msgid "Apache, Pro-ftpd"
+#~ msgstr "এ্যপাচি, Pro-ftpd"
+
+#~ msgid "Mail"
+#~ msgstr "মেইল"
+
+#~ msgid "Postfix mail server"
+#~ msgstr "Postfix মেইল সার্ভার"
+
+#~ msgid "PostgreSQL or MySQL database server"
+#~ msgstr "PostgreSQL অথবা MySQL ডেটাবেস সার্ভার"
+
+#~ msgid "Network Computer server"
+#~ msgstr "নেটওয়ার্ক কম্পিউটার সার্ভার"
+
+#~ msgid "NFS server, SMB server, Proxy server, ssh server"
+#~ msgstr "NFS সার্ভার, SMB সার্ভার, Proxy সার্ভার, ssh সার্ভার"
+
+#~ msgid "Graphical Environment"
+#~ msgstr "গ্রাফিকাল পরিবেশ"
+
+#~ msgid "KDE Workstation"
+#~ msgstr "KDE ওয়ার্কষ্টেশন"
+
+#~ msgid ""
+#~ "The K Desktop Environment, the basic graphical environment with a "
+#~ "collection of accompanying tools"
+#~ msgstr "K ডেক্সটপ, কিছু সহযোগীমূলক টুলের সমন্বয়ে একটি সাধারণ গ্রাফিকাল পরিবেশ"
+
+#~ msgid "GNOME Workstation"
+#~ msgstr "গুহনোম ওয়ার্কষ্টেশন"
+
+#~ msgid ""
+#~ "A graphical environment with user-friendly set of applications and "
+#~ "desktop tools"
+#~ msgstr ""
+#~ "ব্যবহারকারীর বন্ধুসূলভ কিছু এপ্লিকেশন এবং ডোক্সটপ টুলের সমন্বয়ে একটি গ্রাফিকাল "
+#~ "পরিবেশ"
+
+#, fuzzy
+#~ msgid "LXDE Desktop"
+#~ msgstr "IceWm ডেস্কটপ"
+
+#, fuzzy
+#~ msgid ""
+#~ "A lightweight & fast graphical environment with user-friendly set of "
+#~ "applications and desktop tools"
+#~ msgstr ""
+#~ "ব্যবহারকারীর বন্ধুসূলভ কিছু এপ্লিকেশন এবং ডোক্সটপ টুলের সমন্বয়ে একটি গ্রাফিকাল "
+#~ "পরিবেশ"
+
+#~ msgid "Other Graphical Desktops"
+#~ msgstr "অন্যান্য গ্রাফিকাল ডেক্সটপ"
+
+#~ msgid "Window Maker, Enlightenment, Fvwm, etc"
+#~ msgstr "Window Maker, Enlightenment, Fvwm, ইত্যাদি"
+
+#~ msgid "Utilities"
+#~ msgstr "ইউটিলিটিসমূহ"
+
+#~ msgid "SSH Server"
+#~ msgstr "SSH সার্ভিস"
+
+#~ msgid "Webmin"
+#~ msgstr "ওয়েবমিন"
+
+#~ msgid "Webmin Remote Configuration Server"
+#~ msgstr "ওয়েবমিন দূরবর্তী কনফিগারেশন সার্ভার"
+
+#~ msgid "Network Utilities/Monitoring"
+#~ msgstr "নেটওয়ার্ক ইউটিলিটিসমূহ/পর্যবেক্ষণ"
+
+#~ msgid "Monitoring tools, processes accounting, tcpdump, nmap, ..."
+#~ msgstr "পর্যবেক্ষণ টুলসমূহ, হিসাবরক্ষণ প্রসেস করে, tcpdump, nmap, ..."
+
+#~ msgid "Mandriva Wizards"
+#~ msgstr "Mandriva উইজার্ডসমূহ"
+
+#~ msgid "Wizards to configure server"
+#~ msgstr "সার্ভার কনফিগার করার জন্য উইজার্ডসমূহ"
+
+#~ msgid ""
+#~ "Failed contacting OpenMandriva Lx web site to get the list of available "
+#~ "mirrors"
+#~ msgstr ""
+#~ "উপস্থিত মিররের তালিকার জন্য OpenMandriva Lx-এ যোগাযোগ করতে ব্যর্থ হয়েছে..."
 
 #~ msgid ""
 #~ "_: Keep these entry short\n"

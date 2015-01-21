@@ -10,7 +10,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: DrakX-es\n"
-"POT-Creation-Date: 2012-08-25 11:38+0200\n"
+"POT-Creation-Date: 2015-01-22 00:47+0100\n"
 "PO-Revision-Date: 2010-06-06 19:54-0300\n"
 "Last-Translator: Diego Bello Carreño <dbello@gmail.com>\n"
 "Language-Team: Español <es@li.org>\n"
@@ -21,21 +21,22 @@ msgstr ""
 "X-Generator: Lokalize 0.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: any.pm:268 any.pm:978 diskdrake/interactive.pm:645
-#: diskdrake/interactive.pm:869 diskdrake/interactive.pm:929
-#: diskdrake/interactive.pm:1034 diskdrake/interactive.pm:1264
-#: diskdrake/interactive.pm:1322 do_pkgs.pm:242 do_pkgs.pm:287
-#: harddrake/sound.pm:270 interactive.pm:587 pkgs.pm:285
+#: any.pm:280 any.pm:1016 diskdrake/interactive.pm:643
+#: diskdrake/interactive.pm:867 diskdrake/interactive.pm:927
+#: diskdrake/interactive.pm:1032 diskdrake/interactive.pm:1262
+#: diskdrake/interactive.pm:1320 do_pkgs.pm:242 do_pkgs.pm:291
+#: harddrake/sound.pm:250 interactive.pm:585 pkgs.pm:257 pkgs.pm:266
+#: pkgs.pm:312
 #, c-format
 msgid "Please wait"
 msgstr "Espere, por favor"
 
-#: any.pm:268
+#: any.pm:280
 #, c-format
 msgid "Bootloader installation in progress"
 msgstr "Instalación del cargador de arranque en progreso"
 
-#: any.pm:279
+#: any.pm:291
 #, c-format
 msgid ""
 "LILO wants to assign a new Volume ID to drive %s.  However, changing\n"
@@ -52,13 +53,13 @@ msgstr ""
 "\n"
 "¿Asignar un nuevo ID de Volumen?"
 
-#: any.pm:290
+#: any.pm:302
 #, c-format
 msgid "Installation of bootloader failed. The following error occurred:"
 msgstr ""
 "Falló la instalación del cargador de arranque. Ocurrió el siguiente error:"
 
-#: any.pm:296
+#: any.pm:308
 #, c-format
 msgid ""
 "You may need to change your Open Firmware boot-device to\n"
@@ -76,7 +77,7 @@ msgstr ""
 " Luego escriba: shut-down\n"
 "La próxima vez que arranque debería ver el prompt del cargador de arranque."
 
-#: any.pm:336
+#: any.pm:348
 #, c-format
 msgid ""
 "You decided to install the bootloader on a partition.\n"
@@ -91,268 +92,254 @@ msgstr ""
 "\n"
 "¿Desde qué disco arranca?"
 
-#: any.pm:347
+#: any.pm:359
 #, c-format
 msgid "Bootloader Installation"
 msgstr "Instalación del cargador de arranque"
 
-#: any.pm:351
+#: any.pm:363
 #, c-format
 msgid "Where do you want to install the bootloader?"
 msgstr "¿Dónde quiere instalar el cargador de arranque?"
 
-#: any.pm:375
+#: any.pm:387
 #, c-format
 msgid "First sector (MBR) of drive %s"
 msgstr "Primer sector (MBR) del disco %s"
 
-#: any.pm:377
+#: any.pm:389
 #, c-format
 msgid "First sector of drive (MBR)"
 msgstr "Primer sector del disco (MBR)"
 
-#: any.pm:379
+#: any.pm:391
 #, c-format
 msgid "First sector of the root partition"
 msgstr "Primer sector de la partición raíz"
 
-#: any.pm:381
+#: any.pm:393
 #, c-format
 msgid "On Floppy"
 msgstr "En disquete"
 
-#: any.pm:383 pkgs.pm:281 ugtk2.pm:526
+#: any.pm:395 pkgs.pm:308 ugtk2.pm:523
 #, c-format
 msgid "Skip"
 msgstr "Omitir"
 
-#: any.pm:418
+#: any.pm:430
 #, c-format
 msgid "Boot Style Configuration"
 msgstr "Configuración del estilo de arranque"
 
-#: any.pm:434 any.pm:467 any.pm:468
+#: any.pm:445 any.pm:474 any.pm:475
 #, c-format
 msgid "Bootloader main options"
 msgstr "Opciones principales del cargador de arranque"
 
-#: any.pm:438
+#: any.pm:450 diskdrake/dav.pm:76 diskdrake/hd_gtk.pm:153
+#: diskdrake/hd_gtk.pm:321 diskdrake/interactive.pm:245
+#: diskdrake/interactive.pm:258 diskdrake/interactive.pm:454
+#: diskdrake/interactive.pm:525 diskdrake/interactive.pm:543
+#: diskdrake/interactive.pm:548 diskdrake/interactive.pm:710
+#: diskdrake/interactive.pm:998 diskdrake/interactive.pm:1050
+#: diskdrake/interactive.pm:1205 diskdrake/interactive.pm:1218
+#: diskdrake/interactive.pm:1221 diskdrake/interactive.pm:1495
+#: diskdrake/smbnfs_gtk.pm:39 do_pkgs.pm:23 do_pkgs.pm:28 do_pkgs.pm:44
+#: do_pkgs.pm:60 do_pkgs.pm:65 do_pkgs.pm:83 fsedit.pm:242
+#: interactive/http.pm:113 interactive/http.pm:114 modules/interactive.pm:19
+#: scanner.pm:95 scanner.pm:106 scanner.pm:113 scanner.pm:120 wizards.pm:95
+#: wizards.pm:99 wizards.pm:121
+#, c-format
+msgid "Error"
+msgstr "Error"
+
+#: any.pm:450
+#, c-format
+msgid "Grub2 cannot be installed on a partition, only on the MBR (whole disk)"
+msgstr ""
+
+#: any.pm:457
 #, c-format
 msgid "Bootloader"
 msgstr "Cargador de arranque"
 
-#: any.pm:439 any.pm:471
+#: any.pm:458 any.pm:478
 #, c-format
 msgid "Bootloader to use"
 msgstr "Cargador de arranque a usar"
 
-#: any.pm:442 any.pm:474
+#: any.pm:461 any.pm:481
 #, c-format
 msgid "Boot device"
 msgstr "Dispositivo de arranque"
 
-#: any.pm:445
+#: any.pm:464
 #, c-format
 msgid "Main options"
 msgstr "Opciones principales"
 
-#: any.pm:446
+#: any.pm:465
 #, c-format
 msgid "Delay before booting default image"
 msgstr "Demora antes de arrancar la imagen predeterminada"
 
-#: any.pm:447
+#: any.pm:466
 #, c-format
 msgid "Enable ACPI"
 msgstr "Habilitar ACPI"
 
-#: any.pm:448
+#: any.pm:467
 #, c-format
 msgid "Enable SMP"
 msgstr "Habilitar SMP"
 
-#: any.pm:449
+#: any.pm:468
 #, c-format
 msgid "Enable APIC"
 msgstr "Habilitar APIC"
 
-#: any.pm:451
+#: any.pm:470
 #, c-format
 msgid "Enable Local APIC"
 msgstr "Habilitar APIC local"
 
-#: any.pm:452 security/level.pm:51
-#, c-format
-msgid "Security"
-msgstr "Seguridad"
-
-#: any.pm:453 any.pm:913 any.pm:932 authentication.pm:249
-#: diskdrake/smbnfs_gtk.pm:181
-#, c-format
-msgid "Password"
-msgstr "Contraseña"
-
-#: any.pm:456 authentication.pm:260
-#, c-format
-msgid "The passwords do not match"
-msgstr "Las contraseñas no coinciden"
-
-#: any.pm:456 authentication.pm:260 diskdrake/interactive.pm:1497
-#, c-format
-msgid "Please try again"
-msgstr "Vuelva a intentarlo, por favor"
-
-#: any.pm:458
-#, c-format
-msgid "You cannot use a password with %s"
-msgstr "No puede usar una contraseña con %s"
-
-#: any.pm:462 any.pm:916 any.pm:934 authentication.pm:250
-#, c-format
-msgid "Password (again)"
-msgstr "Contraseña (de nuevo)"
-
-#: any.pm:463
-#, c-format
-msgid "Clean /tmp at each boot"
-msgstr "Limpiar /tmp en cada inicio del equipo"
-
-#: any.pm:473
+#: any.pm:480
 #, c-format
 msgid "Init Message"
 msgstr "Mensaje de inicio"
 
-#: any.pm:475
+#: any.pm:482
 #, c-format
 msgid "Open Firmware Delay"
 msgstr "Demora de Open firmware"
 
-#: any.pm:476
+#: any.pm:483
 #, c-format
 msgid "Kernel Boot Timeout"
 msgstr "Tiempo de espera de arranque del núcleo"
 
-#: any.pm:477
+#: any.pm:484
 #, c-format
 msgid "Enable CD Boot?"
 msgstr "¿Habilitar el arranque desde CD?"
 
-#: any.pm:478
+#: any.pm:485
 #, c-format
 msgid "Enable OF Boot?"
 msgstr "¿Habilitar el arranque de OF?"
 
-#: any.pm:479
+#: any.pm:486
 #, c-format
 msgid "Default OS?"
 msgstr "¿SO predeterminado?"
 
-#: any.pm:553
+#: any.pm:552
 #, c-format
 msgid "Image"
 msgstr "Imagen"
 
-#: any.pm:554 any.pm:568
+#: any.pm:553 any.pm:567
 #, c-format
 msgid "Root"
 msgstr "Raíz"
 
-#: any.pm:555 any.pm:581
+#: any.pm:554 any.pm:580
 #, c-format
 msgid "Append"
 msgstr "Añadir"
 
-#: any.pm:557
+#: any.pm:556
 #, c-format
 msgid "Xen append"
 msgstr "Añadir Xen"
 
-#: any.pm:559
+#: any.pm:558
 #, c-format
 msgid "Requires password to boot"
 msgstr "Requiere contraseña para iniciar"
 
-#: any.pm:561
+#: any.pm:560
 #, c-format
 msgid "Video mode"
 msgstr "Modo de vídeo"
 
-#: any.pm:563
+#: any.pm:562
 #, c-format
 msgid "Initrd"
 msgstr "Initrd"
 
-#: any.pm:564
+#: any.pm:563
 #, c-format
 msgid "Network profile"
 msgstr "Perfil de red"
 
-#: any.pm:573 any.pm:578 any.pm:580 diskdrake/interactive.pm:411
+#: any.pm:572 any.pm:577 any.pm:579 diskdrake/interactive.pm:409
 #, c-format
 msgid "Label"
 msgstr "Etiqueta"
 
-#: any.pm:575 any.pm:583 harddrake/v4l.pm:438
+#: any.pm:574 any.pm:582 harddrake/v4l.pm:436
 #, c-format
 msgid "Default"
 msgstr "Por defecto"
 
-#: any.pm:582
+#: any.pm:581
 #, c-format
 msgid "NoVideo"
 msgstr "Sin vídeo"
 
-#: any.pm:593
+#: any.pm:592
 #, c-format
 msgid "Empty label not allowed"
 msgstr "No se admite una etiqueta vacía"
 
-#: any.pm:594
+#: any.pm:593
 #, c-format
 msgid "You must specify a kernel image"
 msgstr "Debe especificar una imagen del núcleo"
 
-#: any.pm:594
+#: any.pm:593
 #, c-format
 msgid "You must specify a root partition"
 msgstr "Debe especificar una partición raíz"
 
-#: any.pm:595
+#: any.pm:594
 #, c-format
 msgid "This label is already used"
 msgstr "Esta etiqueta ya está en uso"
 
-#: any.pm:613
+#: any.pm:612
 #, c-format
 msgid "Which type of entry do you want to add?"
 msgstr "¿Qué tipo de entrada desea añadir?"
 
-#: any.pm:614
+#: any.pm:613
 #, c-format
 msgid "Linux"
 msgstr "Linux"
 
-#: any.pm:614
+#: any.pm:613
 #, c-format
 msgid "Other OS (SunOS...)"
 msgstr "Otro SO (SunOS...)"
 
-#: any.pm:615
+#: any.pm:614
 #, c-format
 msgid "Other OS (MacOS...)"
 msgstr "Otro SO (MacOS...)"
 
-#: any.pm:615
+#: any.pm:614
 #, c-format
 msgid "Other OS (Windows...)"
 msgstr "Otro SO (Windows...)"
 
-#: any.pm:662
+#: any.pm:661
 #, c-format
 msgid "Bootloader Configuration"
 msgstr "Configuración del cargador de arranque"
 
-#: any.pm:663
+#: any.pm:662
 #, c-format
 msgid ""
 "Here are the entries on your boot menu so far.\n"
@@ -361,47 +348,47 @@ msgstr ""
 "Aquí están las diferentes entradas.\n"
 "Puede añadir otras o cambiar las que ya existen."
 
-#: any.pm:874
+#: any.pm:886
 #, c-format
 msgid "access to X programs"
 msgstr "acceso a programas X"
 
-#: any.pm:875
+#: any.pm:887
 #, c-format
 msgid "access to rpm tools"
 msgstr "acceso a herramientas rpm"
 
-#: any.pm:876
+#: any.pm:888
 #, c-format
 msgid "allow \"su\""
 msgstr "permitir \"su\""
 
-#: any.pm:877
+#: any.pm:889
 #, c-format
 msgid "access to administrative files"
 msgstr "acceso a archivos administrativos"
 
-#: any.pm:878
+#: any.pm:890
 #, c-format
 msgid "access to network tools"
 msgstr "acceso a herramientas de red"
 
-#: any.pm:879
+#: any.pm:891
 #, c-format
 msgid "access to compilation tools"
 msgstr "acceso a herramientas de compilación"
 
-#: any.pm:885
+#: any.pm:897
 #, c-format
 msgid "(already added %s)"
 msgstr "(%s ya fue añadido)"
 
-#: any.pm:891
+#: any.pm:903
 #, c-format
 msgid "Please give a user name"
 msgstr "Introduzca el nombre de usuario"
 
-#: any.pm:892
+#: any.pm:904
 #, c-format
 msgid ""
 "The user name must start with a lower case letter followed by only lower "
@@ -410,152 +397,162 @@ msgstr ""
 "El nombre de usuario (login) debe comenzar con una letra minúscula seguida "
 "sólo letras minúsculas, números, `-' y `_'"
 
-#: any.pm:893
+#: any.pm:905
 #, c-format
 msgid "The user name is too long"
 msgstr "El nombre de usuario es muy largo"
 
-#: any.pm:894
+#: any.pm:906
 #, c-format
 msgid "This user name has already been added"
 msgstr "Este nombre de usuario ya fue añadido"
 
-#: any.pm:900 any.pm:936
+#: any.pm:912 any.pm:966
 #, c-format
 msgid "User ID"
 msgstr "ID de usuario"
 
-#: any.pm:900 any.pm:937
+#: any.pm:912 any.pm:967
 #, c-format
 msgid "Group ID"
 msgstr "ID de grupo"
 
-#: any.pm:901
+#: any.pm:913
 #, c-format
 msgid "%s must be a number"
 msgstr "¡%s debe ser un número!"
 
-#: any.pm:902
+#: any.pm:914
 #, c-format
 msgid "%s should be above 500. Accept anyway?"
 msgstr "%s debería ser superior a 500. ¿Aceptarlo igual?"
 
-#: any.pm:906
+#: any.pm:921 any.pm:944
 #, c-format
 msgid "User management"
 msgstr "Administración de usuarios"
 
-#: any.pm:911
+#: any.pm:926
 #, c-format
 msgid "Enable guest account"
 msgstr "Habilitar cuenta de invitado"
 
-#: any.pm:912 authentication.pm:236
+#: any.pm:927 authentication.pm:236
 #, c-format
 msgid "Set administrator (root) password"
 msgstr "Introduzca contraseña del administrador (root)"
 
-#: any.pm:918
+#: any.pm:928 any.pm:962 authentication.pm:249 diskdrake/smbnfs_gtk.pm:178
+#, c-format
+msgid "Password"
+msgstr "Contraseña"
+
+#: any.pm:931 any.pm:964 authentication.pm:250
+#, c-format
+msgid "Password (again)"
+msgstr "Contraseña (de nuevo)"
+
+#: any.pm:948
 #, c-format
 msgid "Enter a user"
 msgstr "Ingrese un usuario"
 
-#: any.pm:920
+#: any.pm:950
 #, c-format
 msgid "Icon"
 msgstr "Icono"
 
-#: any.pm:923
+#: any.pm:953
 #, c-format
 msgid "Real name"
 msgstr "Nombre y apellidos"
 
-#: any.pm:930
+#: any.pm:960
 #, c-format
 msgid "Login name"
 msgstr "Nombre de conexión"
 
-#: any.pm:935
+#: any.pm:965
 #, c-format
 msgid "Shell"
 msgstr "Shell"
 
-#: any.pm:978
+#: any.pm:1016
 #, c-format
 msgid "Please wait, adding media..."
 msgstr "Por favor espere, agregando soportes..."
 
-#: any.pm:1010 security/l10n.pm:14
+#: any.pm:1048 security/l10n.pm:14
 #, c-format
 msgid "Autologin"
 msgstr "Conexión automática"
 
-#: any.pm:1011
+#: any.pm:1049
 #, c-format
 msgid "I can set up your computer to automatically log on one user."
 msgstr ""
 "Puedo configurar su computadora para que entre automáticamente con un "
 "usuario."
 
-#: any.pm:1012
-#, c-format
-msgid "Use this feature"
+#: any.pm:1050
+#, fuzzy, c-format
+msgid "Use this feature?"
 msgstr "Utilizar esa característica"
 
-#: any.pm:1013
+#: any.pm:1051
 #, c-format
 msgid "Choose the default user:"
 msgstr "Elija el usuario predeterminado:"
 
-#: any.pm:1014
+#: any.pm:1052
 #, c-format
 msgid "Choose the window manager to run:"
 msgstr "Elija el gestor de ventanas a ejecutar:"
 
-#: any.pm:1025 any.pm:1045 any.pm:1118
+#: any.pm:1063 any.pm:1077 any.pm:1151
 #, c-format
 msgid "Release Notes"
 msgstr "Notas de versión"
 
-#: any.pm:1052 any.pm:1406 interactive/gtk.pm:822
+#: any.pm:1084 any.pm:1441 interactive/gtk.pm:822
 #, c-format
 msgid "Close"
 msgstr "Cerrar"
 
-#: any.pm:1104
+#: any.pm:1137
 #, c-format
 msgid "License agreement"
 msgstr "Acuerdo de licencia"
 
-#: any.pm:1106 diskdrake/dav.pm:26
+#: any.pm:1139 diskdrake/dav.pm:24 mygtk2.pm:1227
 #, c-format
 msgid "Quit"
 msgstr "Salir"
 
-#: any.pm:1113
+#: any.pm:1146
 #, c-format
 msgid "Do you accept this license ?"
 msgstr "¿Acepta esta licencia?"
 
-#: any.pm:1114
+#: any.pm:1147
 #, c-format
 msgid "Accept"
 msgstr "Aceptar"
 
-#: any.pm:1114
+#: any.pm:1147
 #, c-format
 msgid "Refuse"
 msgstr "Rechazar"
 
-#: any.pm:1140 any.pm:1202
-#, c-format
-msgid "Please choose a language to use"
+#: any.pm:1173 any.pm:1236
+#, fuzzy, c-format
+msgid "Please choose a language to use:"
 msgstr "Por favor, elija el idioma a usar"
 
-#: any.pm:1168
-#, c-format
+#: any.pm:1201
+#, fuzzy, c-format
 msgid ""
-"OpenMandriva Lx can support multiple languages. Select\n"
+"%s can support multiple languages. Select\n"
 "the languages you would like to install. They will be available\n"
 "when your installation is complete and you restart your system."
 msgstr ""
@@ -563,77 +560,82 @@ msgstr ""
 "los que desea instalar. Los mismos estarán disponibles cuando\n"
 "su instalación esté completa y Usted reinicie su sistema."
 
-#: any.pm:1171
-#, c-format
-msgid "Multi languages"
+#: any.pm:1204
+#, fuzzy, c-format
+msgid "Multiple languages"
 msgstr "Multi-idiomas"
 
-#: any.pm:1180 any.pm:1211
+#: any.pm:1205
+#, c-format
+msgid "Select Additional Languages"
+msgstr ""
+
+#: any.pm:1214 any.pm:1245
 #, c-format
 msgid "Old compatibility (non UTF-8) encoding"
 msgstr "Codificación (no UTF-8) para compatibilidad antigua"
 
-#: any.pm:1181
+#: any.pm:1215
 #, c-format
 msgid "All languages"
 msgstr "Todos los idiomas"
 
-#: any.pm:1203
-#, c-format
-msgid "Language choice"
+#: any.pm:1237
+#, fuzzy, c-format
+msgid "Language"
 msgstr "Selección del idioma"
 
-#: any.pm:1257
+#: any.pm:1291
 #, c-format
 msgid "Country / Region"
 msgstr "País / Región"
 
-#: any.pm:1258
-#, c-format
-msgid "Please choose your country"
+#: any.pm:1292
+#, fuzzy, c-format
+msgid "Please choose your country:"
 msgstr "Seleccione su país, por favor"
 
-#: any.pm:1260
-#, c-format
-msgid "Here is the full list of available countries"
+#: any.pm:1294
+#, fuzzy, c-format
+msgid "Here is the full list of available countries:"
 msgstr "Aquí tiene la lista completa de países disponibles"
 
-#: any.pm:1261
+#: any.pm:1295
 #, c-format
 msgid "Other Countries"
 msgstr "Otros países"
 
-#: any.pm:1261 interactive.pm:488 interactive/gtk.pm:450
+#: any.pm:1295 interactive.pm:486 interactive/gtk.pm:446
 #, c-format
 msgid "Advanced"
 msgstr "Avanzada"
 
-#: any.pm:1267
+#: any.pm:1301
 #, c-format
 msgid "Input method:"
 msgstr "Método de entrada:"
 
-#: any.pm:1270
+#: any.pm:1304
 #, c-format
 msgid "None"
 msgstr "Ninguno"
 
-#: any.pm:1351
+#: any.pm:1386
 #, c-format
 msgid "No sharing"
 msgstr "No compartir"
 
-#: any.pm:1351
+#: any.pm:1386
 #, c-format
 msgid "Allow all users"
 msgstr "Permitir a todos los usuarios"
 
-#: any.pm:1351
+#: any.pm:1386
 #, c-format
 msgid "Custom"
 msgstr "Personalizada"
 
-#: any.pm:1355
+#: any.pm:1390
 #, c-format
 msgid ""
 "Would you like to allow users to share some of their directories?\n"
@@ -648,7 +650,7 @@ msgstr ""
 "\n"
 "\"Personalizada\" permite una granularidad por usuario.\n"
 
-#: any.pm:1367
+#: any.pm:1402
 #, c-format
 msgid ""
 "NFS: the traditional Unix file sharing system, with less support on Mac and "
@@ -657,7 +659,7 @@ msgstr ""
 "NFS: sistema tradicional Unix para compartir archivos, con menos soporte en "
 "Mac y Windows."
 
-#: any.pm:1370
+#: any.pm:1405
 #, c-format
 msgid ""
 "SMB: a file sharing system used by Windows, Mac OS X and many modern Linux "
@@ -666,19 +668,19 @@ msgstr ""
 "SMB: sistema para compartir archivos usado por Windows, Mac OS X y muchos "
 "sistemas Linux modernos."
 
-#: any.pm:1378
+#: any.pm:1413
 #, c-format
 msgid ""
 "You can export using NFS or SMB. Please select which you would like to use."
 msgstr ""
 "Puede exportar usando NFS o SMB. Por favor, elija el que desea utilizar."
 
-#: any.pm:1406
+#: any.pm:1441
 #, c-format
 msgid "Launch userdrake"
 msgstr "Lanzar UserDrake"
 
-#: any.pm:1408
+#: any.pm:1443
 #, c-format
 msgid ""
 "The per-user sharing uses the group \"fileshare\". \n"
@@ -687,7 +689,7 @@ msgstr ""
 "Los recursos compartidos por usuario utilizan el grupo \"fileshare\". \n"
 "Puede utilizar UserDrake para añadir un usuario a este grupo."
 
-#: any.pm:1515
+#: any.pm:1550
 #, c-format
 msgid ""
 "You need to logout and back in again for changes to take effect. Press OK to "
@@ -696,48 +698,48 @@ msgstr ""
 "Debe desconectarse y volver a conectarse para que los cambios tengan efecto. "
 "Pulse OK para conectarse ahora."
 
-#: any.pm:1519
-#, c-format
-msgid "You need to log out and back in again for changes to take effect"
+#: any.pm:1554
+#, fuzzy, c-format
+msgid "You need to log out and back in again for changes to take effect."
 msgstr ""
 "Debe desconectarse y volver a conectarse para que los cambios tengan efecto"
 
-#: any.pm:1554
+#: any.pm:1589
 #, c-format
 msgid "Timezone"
 msgstr "Huso horario"
 
-#: any.pm:1554
-#, c-format
-msgid "Which is your timezone?"
+#: any.pm:1589
+#, fuzzy, c-format
+msgid "What is your current timezone?"
 msgstr "¿Cuál es su huso horario?"
 
-#: any.pm:1577 any.pm:1579
+#: any.pm:1612 any.pm:1614
 #, c-format
 msgid "Date, Clock & Time Zone Settings"
 msgstr "Configuración de la fecha, hora y huso horario"
 
-#: any.pm:1580
-#, c-format
-msgid "What is the best time?"
+#: any.pm:1615
+#, fuzzy, c-format
+msgid "What is your current time?"
 msgstr "¿Cuál es la mejor hora?"
 
-#: any.pm:1584
+#: any.pm:1619
 #, c-format
 msgid "%s (hardware clock set to UTC)"
 msgstr "%s (reloj interno puesto en hora UTC)"
 
-#: any.pm:1585
+#: any.pm:1620
 #, c-format
 msgid "%s (hardware clock set to local time)"
 msgstr "%s (reloj interno puesto en hora local)"
 
-#: any.pm:1587
+#: any.pm:1622
 #, c-format
 msgid "NTP Server"
 msgstr "Servidor NTP"
 
-#: any.pm:1588
+#: any.pm:1623
 #, c-format
 msgid "Automatic time synchronization (using NTP)"
 msgstr "Sincronización automática de hora (usando NTP)"
@@ -1047,6 +1049,16 @@ msgstr "Método de autenticación"
 msgid "No password"
 msgstr "Sin contraseña"
 
+#: authentication.pm:260
+#, c-format
+msgid "The passwords do not match"
+msgstr "Las contraseñas no coinciden"
+
+#: authentication.pm:260 diskdrake/interactive.pm:1495
+#, c-format
+msgid "Please try again"
+msgstr "Vuelva a intentarlo, por favor"
+
 #: authentication.pm:263
 #, c-format
 msgid "This password is too short (it must be at least %d characters long)"
@@ -1080,7 +1092,7 @@ msgid "Domain Admin Password"
 msgstr "Contraseña del Administrador del Dominio"
 
 #. -PO: these messages will be displayed at boot time in the BIOS, use only ASCII (7bit)
-#: bootloader.pm:982
+#: bootloader.pm:1057
 #, c-format
 msgid ""
 "Welcome to the operating system chooser!\n"
@@ -1095,42 +1107,47 @@ msgstr ""
 "a que arranque el sistema predeterminado.\n"
 "\n"
 
-#: bootloader.pm:1160
+#: bootloader.pm:1249
 #, c-format
 msgid "LILO with text menu"
 msgstr "LILO con menú de texto"
 
-#: bootloader.pm:1161
+#: bootloader.pm:1250
+#, fuzzy, c-format
+msgid "GRUB2 with graphical menu"
+msgstr "GRUB con menú gráfico"
+
+#: bootloader.pm:1251
 #, c-format
 msgid "GRUB with graphical menu"
 msgstr "GRUB con menú gráfico"
 
-#: bootloader.pm:1162
+#: bootloader.pm:1252
 #, c-format
 msgid "GRUB with text menu"
 msgstr "GRUB con menú de texto"
 
-#: bootloader.pm:1163
+#: bootloader.pm:1253
 #, c-format
 msgid "Yaboot"
 msgstr "Yaboot"
 
-#: bootloader.pm:1164
+#: bootloader.pm:1254
 #, c-format
 msgid "SILO"
 msgstr "SILO"
 
-#: bootloader.pm:1248
+#: bootloader.pm:1340
 #, c-format
 msgid "not enough room in /boot"
 msgstr "no hay espacio suficiente en /boot"
 
-#: bootloader.pm:1974
+#: bootloader.pm:2127
 #, c-format
 msgid "You cannot install the bootloader on a %s partition\n"
 msgstr "No puede instalar el cargador de arranque en una partición %s\n"
 
-#: bootloader.pm:2095
+#: bootloader.pm:2296
 #, c-format
 msgid ""
 "Your bootloader configuration must be updated because partition has been "
@@ -1139,7 +1156,7 @@ msgstr ""
 "Se debe actualizar la configuración de su cargador de arranque debido a que "
 "cambió el número de la partición"
 
-#: bootloader.pm:2108
+#: bootloader.pm:2309
 #, c-format
 msgid ""
 "The bootloader cannot be installed correctly. You have to boot rescue and "
@@ -1148,106 +1165,106 @@ msgstr ""
 "No se puede instalar correctamente el cargador de arranque. Debe arrancar "
 "con rescate y elegir \"%s\""
 
-#: bootloader.pm:2109
+#: bootloader.pm:2310
 #, c-format
 msgid "Re-install Boot Loader"
 msgstr "Volver a instalar cargador de arranque"
 
-#: check_min_sys_requirements.pm:78
+#: check_min_sys_requirements.pm:90
 #, c-format
 msgid "System requirements warning\n"
 msgstr ""
 
-#: check_min_sys_requirements.pm:79
+#: check_min_sys_requirements.pm:91
 #, c-format
 msgid "Recommended system parameters:\n"
 msgstr ""
 
-#: check_min_sys_requirements.pm:80 check_min_sys_requirements.pm:85
+#: check_min_sys_requirements.pm:92 check_min_sys_requirements.pm:97
 #, c-format
 msgid "  RAM = "
 msgstr ""
 
-#: check_min_sys_requirements.pm:80 check_min_sys_requirements.pm:85
+#: check_min_sys_requirements.pm:92 check_min_sys_requirements.pm:97
 #, c-format
 msgid " Mb\n"
 msgstr ""
 
-#: check_min_sys_requirements.pm:81
+#: check_min_sys_requirements.pm:93
 #, c-format
 msgid "  HDD = "
 msgstr ""
 
-#: check_min_sys_requirements.pm:81
+#: check_min_sys_requirements.pm:93
 #, c-format
 msgid " Gb\n"
 msgstr ""
 
-#: check_min_sys_requirements.pm:82
+#: check_min_sys_requirements.pm:94
 #, c-format
 msgid ""
 "\n"
 "Your system parameters:\n"
 msgstr ""
 
-#: check_min_sys_requirements.pm:93
+#: check_min_sys_requirements.pm:105
 #, c-format
 msgid ""
 "\n"
 "Your system resources are too low\n"
 msgstr ""
 
-#: check_min_sys_requirements.pm:99
+#: check_min_sys_requirements.pm:111
 #, c-format
 msgid "System requirements warning"
 msgstr ""
 
-#: common.pm:142
+#: common.pm:140
 #, c-format
 msgid "B"
 msgstr "B"
 
-#: common.pm:142
+#: common.pm:140
 #, c-format
 msgid "KB"
 msgstr "KB"
 
-#: common.pm:142
+#: common.pm:140
 #, c-format
 msgid "MB"
 msgstr "MB"
 
-#: common.pm:142
+#: common.pm:140
 #, c-format
 msgid "GB"
 msgstr "GB"
 
-#: common.pm:142 common.pm:151
+#: common.pm:140 common.pm:149
 #, c-format
 msgid "TB"
 msgstr "TB"
 
-#: common.pm:159
+#: common.pm:157
 #, c-format
 msgid "%d minutes"
 msgstr "%d minutos"
 
-#: common.pm:161
+#: common.pm:159
 #, c-format
 msgid "1 minute"
 msgstr "1 minuto"
 
-#: common.pm:163
+#: common.pm:161
 #, c-format
 msgid "%d seconds"
 msgstr "%d segundos"
 
-#: common.pm:393
+#: common.pm:391
 #, c-format
 msgid "command %s missing"
 msgstr "falta el comando %s"
 
-#: diskdrake/dav.pm:17
+#: diskdrake/dav.pm:15
 #, c-format
 msgid ""
 "WebDAV is a protocol that allows you to mount a web server's directory\n"
@@ -1261,156 +1278,135 @@ msgstr ""
 "el servidor web está configurado como servidor WebDAV). Si desea añadir\n"
 "puntos de montaje WebDAV, seleccione \"Nuevo\"."
 
-#: diskdrake/dav.pm:25
+#: diskdrake/dav.pm:23
 #, c-format
 msgid "New"
 msgstr "Nuevo"
 
-#: diskdrake/dav.pm:63 diskdrake/interactive.pm:418 diskdrake/smbnfs_gtk.pm:75
+#: diskdrake/dav.pm:61 diskdrake/interactive.pm:416 diskdrake/smbnfs_gtk.pm:72
 #, c-format
 msgid "Unmount"
 msgstr "Desmontar"
 
-#: diskdrake/dav.pm:64 diskdrake/interactive.pm:414 diskdrake/smbnfs_gtk.pm:76
+#: diskdrake/dav.pm:62 diskdrake/interactive.pm:412 diskdrake/smbnfs_gtk.pm:73
 #, c-format
 msgid "Mount"
 msgstr "Montar"
 
-#: diskdrake/dav.pm:65
+#: diskdrake/dav.pm:63
 #, c-format
 msgid "Server"
 msgstr "Servidor"
 
-#: diskdrake/dav.pm:66 diskdrake/interactive.pm:408
-#: diskdrake/interactive.pm:722 diskdrake/interactive.pm:740
-#: diskdrake/interactive.pm:744 diskdrake/removable.pm:23
-#: diskdrake/smbnfs_gtk.pm:79
+#: diskdrake/dav.pm:64 diskdrake/interactive.pm:406
+#: diskdrake/interactive.pm:720 diskdrake/interactive.pm:738
+#: diskdrake/interactive.pm:742 diskdrake/removable.pm:21
+#: diskdrake/smbnfs_gtk.pm:76
 #, c-format
 msgid "Mount point"
 msgstr "Punto de montaje"
 
-#: diskdrake/dav.pm:67 diskdrake/interactive.pm:410
-#: diskdrake/interactive.pm:1161 diskdrake/removable.pm:24
-#: diskdrake/smbnfs_gtk.pm:80
+#: diskdrake/dav.pm:65 diskdrake/interactive.pm:408
+#: diskdrake/interactive.pm:1159 diskdrake/removable.pm:22
+#: diskdrake/smbnfs_gtk.pm:77
 #, c-format
 msgid "Options"
 msgstr "Opciones"
 
-#: diskdrake/dav.pm:68 interactive.pm:387 interactive/gtk.pm:458
+#: diskdrake/dav.pm:66 interactive.pm:385 interactive/gtk.pm:458
 #, c-format
 msgid "Remove"
 msgstr "Quitar"
 
-#: diskdrake/dav.pm:69 diskdrake/hd_gtk.pm:193 diskdrake/removable.pm:26
-#: diskdrake/smbnfs_gtk.pm:82 interactive/http.pm:151
+#: diskdrake/dav.pm:67 diskdrake/hd_gtk.pm:213 diskdrake/removable.pm:24
+#: diskdrake/smbnfs_gtk.pm:79 interactive/http.pm:147
 #, c-format
 msgid "Done"
 msgstr "Hecho"
 
-#: diskdrake/dav.pm:78 diskdrake/hd_gtk.pm:133 diskdrake/hd_gtk.pm:299
-#: diskdrake/interactive.pm:247 diskdrake/interactive.pm:260
-#: diskdrake/interactive.pm:456 diskdrake/interactive.pm:527
-#: diskdrake/interactive.pm:545 diskdrake/interactive.pm:550
-#: diskdrake/interactive.pm:712 diskdrake/interactive.pm:1000
-#: diskdrake/interactive.pm:1052 diskdrake/interactive.pm:1207
-#: diskdrake/interactive.pm:1220 diskdrake/interactive.pm:1223
-#: diskdrake/interactive.pm:1497 diskdrake/smbnfs_gtk.pm:42 do_pkgs.pm:23
-#: do_pkgs.pm:28 do_pkgs.pm:44 do_pkgs.pm:60 do_pkgs.pm:65 do_pkgs.pm:83
-#: fsedit.pm:246 interactive/http.pm:117 interactive/http.pm:118
-#: modules/interactive.pm:19 scanner.pm:95 scanner.pm:106 scanner.pm:113
-#: scanner.pm:120 wizards.pm:96 wizards.pm:100 wizards.pm:122
-#, c-format
-msgid "Error"
-msgstr "Error"
-
-#: diskdrake/dav.pm:86
+#: diskdrake/dav.pm:84
 #, c-format
 msgid "Please enter the WebDAV server URL"
 msgstr "Por favor, ingrese la URL del servidor WebDAV"
 
-#: diskdrake/dav.pm:90
+#: diskdrake/dav.pm:88
 #, c-format
 msgid "The URL must begin with http:// or https://"
 msgstr "La URL debería empezar con http:// o https://"
 
-#: diskdrake/dav.pm:106 diskdrake/hd_gtk.pm:424 diskdrake/interactive.pm:306
-#: diskdrake/interactive.pm:391 diskdrake/interactive.pm:597
-#: diskdrake/interactive.pm:815 diskdrake/interactive.pm:880
-#: diskdrake/interactive.pm:1032 diskdrake/interactive.pm:1074
-#: diskdrake/interactive.pm:1075 diskdrake/interactive.pm:1307
-#: diskdrake/interactive.pm:1345 diskdrake/interactive.pm:1496 do_pkgs.pm:19
-#: do_pkgs.pm:39 do_pkgs.pm:57 do_pkgs.pm:78 harddrake/sound.pm:399
+#: diskdrake/dav.pm:104 diskdrake/hd_gtk.pm:135 diskdrake/hd_gtk.pm:481
+#: diskdrake/interactive.pm:304 diskdrake/interactive.pm:389
+#: diskdrake/interactive.pm:595 diskdrake/interactive.pm:813
+#: diskdrake/interactive.pm:878 diskdrake/interactive.pm:1030
+#: diskdrake/interactive.pm:1072 diskdrake/interactive.pm:1073
+#: diskdrake/interactive.pm:1305 diskdrake/interactive.pm:1343
+#: diskdrake/interactive.pm:1494 do_pkgs.pm:19 do_pkgs.pm:39 do_pkgs.pm:57
+#: do_pkgs.pm:78 harddrake/sound.pm:371
 #, c-format
 msgid "Warning"
 msgstr "Advertencia"
 
-#: diskdrake/dav.pm:106
+#: diskdrake/dav.pm:104
 #, fuzzy, c-format
 msgid "Are you sure you want to delete this mount point?"
 msgstr "¿Está seguro de que desea eliminar este punto de montaje?"
 
-#: diskdrake/dav.pm:125
+#: diskdrake/dav.pm:123
 #, c-format
 msgid "Server: "
 msgstr "Servidor: "
 
-#: diskdrake/dav.pm:126 diskdrake/interactive.pm:501
-#: diskdrake/interactive.pm:1369 diskdrake/interactive.pm:1457
+#: diskdrake/dav.pm:124 diskdrake/interactive.pm:499
+#: diskdrake/interactive.pm:1367 diskdrake/interactive.pm:1455
 #, c-format
 msgid "Mount point: "
 msgstr "Punto de montaje: "
 
-#: diskdrake/dav.pm:127 diskdrake/interactive.pm:1464
+#: diskdrake/dav.pm:125 diskdrake/interactive.pm:1462
 #, c-format
 msgid "Options: %s"
 msgstr "Opciones: %s"
 
-#: diskdrake/hd_gtk.pm:61 diskdrake/interactive.pm:301
-#: diskdrake/smbnfs_gtk.pm:22 fs/mount_point.pm:108
-#: fs/partitioning_wizard.pm:55 fs/partitioning_wizard.pm:238
-#: fs/partitioning_wizard.pm:246 fs/partitioning_wizard.pm:285
-#: fs/partitioning_wizard.pm:433 fs/partitioning_wizard.pm:496
-#: fs/partitioning_wizard.pm:579 fs/partitioning_wizard.pm:582
+#: diskdrake/hd_gtk.pm:59 diskdrake/interactive.pm:299
+#: diskdrake/smbnfs_gtk.pm:19 fs/mount_point.pm:105
+#: fs/partitioning_wizard.pm:53 fs/partitioning_wizard.pm:236
+#: fs/partitioning_wizard.pm:244 fs/partitioning_wizard.pm:283
+#: fs/partitioning_wizard.pm:431 fs/partitioning_wizard.pm:494
+#: fs/partitioning_wizard.pm:577 fs/partitioning_wizard.pm:580
 #, c-format
 msgid "Partitioning"
 msgstr "Particionando"
 
-#: diskdrake/hd_gtk.pm:73
+#: diskdrake/hd_gtk.pm:71
 #, c-format
 msgid "Click on a partition, choose a filesystem type then choose an action"
 msgstr ""
 "Haga clic sobre una partición, elija un sist. de archivos y luego elija una "
 "acción"
 
-#: diskdrake/hd_gtk.pm:115 diskdrake/interactive.pm:1182
-#: diskdrake/interactive.pm:1192 diskdrake/interactive.pm:1245
-#, c-format
-msgid "Read carefully"
-msgstr "¡Lea con cuidado"
-
-#: diskdrake/hd_gtk.pm:115
-#, c-format
-msgid "Please make a backup of your data first"
+#: diskdrake/hd_gtk.pm:135
+#, fuzzy, c-format
+msgid "Please make a backup of your data first."
 msgstr "Por favor, haga primero una copia de seguridad de sus datos"
 
-#: diskdrake/hd_gtk.pm:116 diskdrake/interactive.pm:240
+#: diskdrake/hd_gtk.pm:136 diskdrake/interactive.pm:238
 #, c-format
 msgid "Exit"
 msgstr "Salir"
 
-#: diskdrake/hd_gtk.pm:116
+#: diskdrake/hd_gtk.pm:136
 #, c-format
 msgid "Continue"
 msgstr "Continuar"
 
-#: diskdrake/hd_gtk.pm:188 fs/partitioning_wizard.pm:555 interactive.pm:653
-#: interactive/gtk.pm:814 interactive/gtk.pm:832 interactive/gtk.pm:853
-#: ugtk2.pm:936
+#: diskdrake/hd_gtk.pm:208 fs/partitioning_wizard.pm:553 interactive.pm:651
+#: interactive/gtk.pm:814 interactive/gtk.pm:832 interactive/gtk.pm:863
+#: ugtk2.pm:933
 #, c-format
 msgid "Help"
 msgstr "Ayuda"
 
-#: diskdrake/hd_gtk.pm:234
+#: diskdrake/hd_gtk.pm:256
 #, c-format
 msgid ""
 "You have one big Microsoft Windows partition.\n"
@@ -1421,144 +1417,144 @@ msgstr ""
 "Le sugiero que primero cambie el tamaño de la misma\n"
 "(para eso haga clic sobre ella, y luego sobre \"Redimensionar\")"
 
-#: diskdrake/hd_gtk.pm:236
+#: diskdrake/hd_gtk.pm:258
 #, c-format
 msgid "Please click on a partition"
 msgstr "Por favor, haga clic sobre una partición"
 
-#: diskdrake/hd_gtk.pm:250 diskdrake/smbnfs_gtk.pm:63
+#: diskdrake/hd_gtk.pm:272 diskdrake/smbnfs_gtk.pm:60
 #, c-format
 msgid "Details"
 msgstr "Detalles"
 
-#: diskdrake/hd_gtk.pm:299
+#: diskdrake/hd_gtk.pm:321
 #, c-format
 msgid "No hard disk drives found"
 msgstr "¡No se encontraron discos rígidos!"
 
-#: diskdrake/hd_gtk.pm:330
+#: diskdrake/hd_gtk.pm:387
 #, c-format
 msgid "Unknown"
 msgstr "Desconocido"
 
-#: diskdrake/hd_gtk.pm:395
+#: diskdrake/hd_gtk.pm:452
 #, c-format
 msgid "Ext4"
 msgstr "Ext4"
 
-#: diskdrake/hd_gtk.pm:395 fs/partitioning_wizard.pm:403
+#: diskdrake/hd_gtk.pm:452 fs/partitioning_wizard.pm:401
 #, c-format
 msgid "XFS"
 msgstr "XFS"
 
-#: diskdrake/hd_gtk.pm:395 fs/partitioning_wizard.pm:403
+#: diskdrake/hd_gtk.pm:452 fs/partitioning_wizard.pm:401
 #, c-format
 msgid "Swap"
 msgstr "Intercambio"
 
-#: diskdrake/hd_gtk.pm:395 fs/partitioning_wizard.pm:403
+#: diskdrake/hd_gtk.pm:452 fs/partitioning_wizard.pm:401
 #, c-format
 msgid "SunOS"
 msgstr "SunOS"
 
-#: diskdrake/hd_gtk.pm:395 fs/partitioning_wizard.pm:403
+#: diskdrake/hd_gtk.pm:452 fs/partitioning_wizard.pm:401
 #, c-format
 msgid "HFS"
 msgstr "HFS"
 
-#: diskdrake/hd_gtk.pm:395 fs/partitioning_wizard.pm:403
+#: diskdrake/hd_gtk.pm:452 fs/partitioning_wizard.pm:401
 #, c-format
 msgid "Windows"
 msgstr "Windows"
 
-#: diskdrake/hd_gtk.pm:396 fs/partitioning_wizard.pm:404 services.pm:192
+#: diskdrake/hd_gtk.pm:453 fs/partitioning_wizard.pm:402 services.pm:192
 #, c-format
 msgid "Other"
 msgstr "Otros"
 
-#: diskdrake/hd_gtk.pm:396 diskdrake/interactive.pm:1384
-#: fs/partitioning_wizard.pm:404
+#: diskdrake/hd_gtk.pm:453 diskdrake/interactive.pm:1382
+#: fs/partitioning_wizard.pm:402
 #, c-format
 msgid "Empty"
 msgstr "Vacío"
 
-#: diskdrake/hd_gtk.pm:403
+#: diskdrake/hd_gtk.pm:460
 #, c-format
 msgid "Filesystem types:"
 msgstr "Tipos de sistemas de archivos:"
 
-#: diskdrake/hd_gtk.pm:424
+#: diskdrake/hd_gtk.pm:481
 #, c-format
 msgid "This partition is already empty"
 msgstr "Esta partición ya está vacía"
 
-#: diskdrake/hd_gtk.pm:433
+#: diskdrake/hd_gtk.pm:490
 #, c-format
 msgid "Use ``Unmount'' first"
 msgstr "Use \"Desmontar\" primero"
 
-#: diskdrake/hd_gtk.pm:433
+#: diskdrake/hd_gtk.pm:490
 #, c-format
 msgid "Use ``%s'' instead (in expert mode)"
 msgstr "Usar \"%s\" en su lugar (en modo experto)"
 
-#: diskdrake/hd_gtk.pm:433 diskdrake/interactive.pm:409
-#: diskdrake/interactive.pm:639 diskdrake/removable.pm:25
-#: diskdrake/removable.pm:48
+#: diskdrake/hd_gtk.pm:490 diskdrake/interactive.pm:407
+#: diskdrake/interactive.pm:637 diskdrake/removable.pm:23
+#: diskdrake/removable.pm:46
 #, c-format
 msgid "Type"
 msgstr "Tipo"
 
-#: diskdrake/interactive.pm:211
+#: diskdrake/interactive.pm:209
 #, c-format
 msgid "Choose another partition"
 msgstr "Elija otra partición"
 
-#: diskdrake/interactive.pm:211
+#: diskdrake/interactive.pm:209
 #, c-format
 msgid "Choose a partition"
 msgstr "Elija una partición"
 
-#: diskdrake/interactive.pm:273 diskdrake/interactive.pm:382
-#: interactive/curses.pm:532
+#: diskdrake/interactive.pm:271 diskdrake/interactive.pm:380
+#: interactive/curses.pm:528
 #, c-format
 msgid "More"
 msgstr "Más"
 
-#: diskdrake/interactive.pm:281 diskdrake/interactive.pm:294
-#: diskdrake/interactive.pm:1291
+#: diskdrake/interactive.pm:279 diskdrake/interactive.pm:292
+#: diskdrake/interactive.pm:1289 mygtk2.pm:1226
 #, c-format
 msgid "Confirmation"
 msgstr "Confirmación"
 
-#: diskdrake/interactive.pm:281
+#: diskdrake/interactive.pm:279
 #, c-format
 msgid "Continue anyway?"
 msgstr "¿Seguir adelante?"
 
-#: diskdrake/interactive.pm:286
+#: diskdrake/interactive.pm:284
 #, c-format
 msgid "Quit without saving"
 msgstr "Salir sin grabar"
 
-#: diskdrake/interactive.pm:286
+#: diskdrake/interactive.pm:284
 #, c-format
 msgid "Quit without writing the partition table?"
 msgstr "¿Salir del programa sin grabar la tabla de particiones?"
 
-#: diskdrake/interactive.pm:294
+#: diskdrake/interactive.pm:292
 #, c-format
 msgid "Do you want to save the /etc/fstab modifications?"
 msgstr "¿Desea guardar las modificaciones en /etc/fstab?"
 
-#: diskdrake/interactive.pm:301 fs/partitioning_wizard.pm:285
+#: diskdrake/interactive.pm:299 fs/partitioning_wizard.pm:283
 #, c-format
 msgid "You need to reboot for the partition table modifications to take effect"
 msgstr ""
 "Necesita reiniciar el equipo para que se efectúe la modificación de la tabla "
 "de particiones"
 
-#: diskdrake/interactive.pm:306
+#: diskdrake/interactive.pm:304
 #, c-format
 msgid ""
 "You should format partition %s.\n"
@@ -1570,42 +1566,42 @@ msgstr ""
 "%s.\n"
 "¿Salir de todas formas?"
 
-#: diskdrake/interactive.pm:319
+#: diskdrake/interactive.pm:317
 #, c-format
 msgid "Clear all"
 msgstr "Borrar todas"
 
-#: diskdrake/interactive.pm:320
+#: diskdrake/interactive.pm:318
 #, c-format
 msgid "Auto allocate"
 msgstr "Asignación automática"
 
-#: diskdrake/interactive.pm:326
+#: diskdrake/interactive.pm:324
 #, c-format
 msgid "Toggle to normal mode"
 msgstr "Cambiar al modo normal"
 
-#: diskdrake/interactive.pm:326
+#: diskdrake/interactive.pm:324
 #, c-format
 msgid "Toggle to expert mode"
 msgstr "Cambiar al modo experto"
 
-#: diskdrake/interactive.pm:338
+#: diskdrake/interactive.pm:336
 #, c-format
 msgid "Hard disk drive information"
 msgstr "Información del disco rígido"
 
-#: diskdrake/interactive.pm:371
+#: diskdrake/interactive.pm:369
 #, c-format
 msgid "All primary partitions are used"
 msgstr "Todas las particiones primarias están usadas"
 
-#: diskdrake/interactive.pm:372
+#: diskdrake/interactive.pm:370
 #, c-format
 msgid "I cannot add any more partitions"
 msgstr "No se pueden agregar más particiones"
 
-#: diskdrake/interactive.pm:373
+#: diskdrake/interactive.pm:371
 #, c-format
 msgid ""
 "To have more partitions, please delete one to be able to create an extended "
@@ -1614,142 +1610,142 @@ msgstr ""
 "Por favor, para tener más particiones borre alguna para poder crear una "
 "partición extendida"
 
-#: diskdrake/interactive.pm:384
+#: diskdrake/interactive.pm:382
 #, c-format
 msgid "Reload partition table"
 msgstr "Volver a cargar la tabla de particiones"
 
-#: diskdrake/interactive.pm:391
+#: diskdrake/interactive.pm:389
 #, c-format
 msgid "Detailed information"
 msgstr "Información detallada"
 
-#: diskdrake/interactive.pm:407
+#: diskdrake/interactive.pm:405
 #, c-format
 msgid "View"
 msgstr "Visualizar"
 
-#: diskdrake/interactive.pm:412 diskdrake/interactive.pm:828
+#: diskdrake/interactive.pm:410 diskdrake/interactive.pm:826
 #, c-format
 msgid "Resize"
 msgstr "Redimensionar"
 
-#: diskdrake/interactive.pm:413
+#: diskdrake/interactive.pm:411
 #, c-format
 msgid "Format"
 msgstr "Formatear"
 
-#: diskdrake/interactive.pm:415 diskdrake/interactive.pm:963
+#: diskdrake/interactive.pm:413 diskdrake/interactive.pm:961
 #, c-format
 msgid "Add to RAID"
 msgstr "Añadir al RAID"
 
-#: diskdrake/interactive.pm:416 diskdrake/interactive.pm:982
+#: diskdrake/interactive.pm:414 diskdrake/interactive.pm:980
 #, c-format
 msgid "Add to LVM"
 msgstr "Añadir al LVM"
 
-#: diskdrake/interactive.pm:417
+#: diskdrake/interactive.pm:415
 #, c-format
 msgid "Use"
 msgstr "Usar"
 
-#: diskdrake/interactive.pm:419
+#: diskdrake/interactive.pm:417
 #, c-format
 msgid "Delete"
 msgstr "Borrar"
 
-#: diskdrake/interactive.pm:420
+#: diskdrake/interactive.pm:418
 #, c-format
 msgid "Remove from RAID"
 msgstr "Quitar del RAID"
 
-#: diskdrake/interactive.pm:421
+#: diskdrake/interactive.pm:419
 #, c-format
 msgid "Remove from LVM"
 msgstr "Quitar del LVM"
 
-#: diskdrake/interactive.pm:422
+#: diskdrake/interactive.pm:420
 #, c-format
 msgid "Remove from dm"
 msgstr "Quitar del dm"
 
-#: diskdrake/interactive.pm:423
+#: diskdrake/interactive.pm:421
 #, c-format
 msgid "Modify RAID"
 msgstr "Modificar el RAID"
 
-#: diskdrake/interactive.pm:424
+#: diskdrake/interactive.pm:422
 #, c-format
 msgid "Use for loopback"
 msgstr "Usar para loopback"
 
-#: diskdrake/interactive.pm:434
+#: diskdrake/interactive.pm:432
 #, c-format
 msgid "Create"
 msgstr "Crear"
 
-#: diskdrake/interactive.pm:456
+#: diskdrake/interactive.pm:454
 #, c-format
 msgid "Failed to mount partition"
 msgstr "Error al montar partición"
 
-#: diskdrake/interactive.pm:490 diskdrake/interactive.pm:492
+#: diskdrake/interactive.pm:488 diskdrake/interactive.pm:490
 #, c-format
 msgid "Create a new partition"
 msgstr "Crear una partición nueva"
 
-#: diskdrake/interactive.pm:494
+#: diskdrake/interactive.pm:492
 #, c-format
 msgid "Start sector: "
 msgstr "Sector de comienzo: "
 
-#: diskdrake/interactive.pm:497 diskdrake/interactive.pm:1067
+#: diskdrake/interactive.pm:495 diskdrake/interactive.pm:1065
 #, c-format
 msgid "Size in MB: "
 msgstr "Tamaño en MB: "
 
-#: diskdrake/interactive.pm:499 diskdrake/interactive.pm:1068
+#: diskdrake/interactive.pm:497 diskdrake/interactive.pm:1066
 #, c-format
 msgid "Filesystem type: "
 msgstr "Tipo de sistema de. archivos: "
 
-#: diskdrake/interactive.pm:505
+#: diskdrake/interactive.pm:503
 #, c-format
 msgid "Preference: "
 msgstr "Preferencia: "
 
-#: diskdrake/interactive.pm:508
+#: diskdrake/interactive.pm:506
 #, c-format
 msgid "Logical volume name "
 msgstr "Nombre del volumen lógico"
 
-#: diskdrake/interactive.pm:510
+#: diskdrake/interactive.pm:508
 #, c-format
 msgid "Encrypt partition"
 msgstr "Cifrar partición"
 
-#: diskdrake/interactive.pm:511
+#: diskdrake/interactive.pm:509
 #, c-format
 msgid "Encryption key "
 msgstr "Clave de cifrado"
 
-#: diskdrake/interactive.pm:512 diskdrake/interactive.pm:1501
+#: diskdrake/interactive.pm:510 diskdrake/interactive.pm:1499
 #, c-format
 msgid "Encryption key (again)"
 msgstr "Clave de cifrado (otra vez)"
 
-#: diskdrake/interactive.pm:524 diskdrake/interactive.pm:1497
+#: diskdrake/interactive.pm:522 diskdrake/interactive.pm:1495
 #, c-format
 msgid "The encryption keys do not match"
 msgstr "Las claves de cifrado no coinciden"
 
-#: diskdrake/interactive.pm:525
+#: diskdrake/interactive.pm:523
 #, c-format
 msgid "Missing encryption key"
 msgstr "Falta clave de cifrado"
 
-#: diskdrake/interactive.pm:545
+#: diskdrake/interactive.pm:543
 #, c-format
 msgid ""
 "You cannot create a new partition\n"
@@ -1760,69 +1756,69 @@ msgstr ""
 "(debido a que alcanzó la cantidad máxima de particiones primarias).\n"
 "Primero debe quitar una partición primaria y crear una partición extendida."
 
-#: diskdrake/interactive.pm:597
+#: diskdrake/interactive.pm:595
 #, c-format
 msgid "Remove the loopback file?"
 msgstr "¿Borrar el archivo de loopback?"
 
-#: diskdrake/interactive.pm:620
+#: diskdrake/interactive.pm:618
 #, c-format
 msgid ""
 "After changing type of partition %s, all data on this partition will be lost"
 msgstr ""
 "Se perderán todos los datos de la partición %s después de cambiar su tipo"
 
-#: diskdrake/interactive.pm:636
+#: diskdrake/interactive.pm:634
 #, c-format
 msgid "Change partition type"
 msgstr "Cambiar el tipo de partición"
 
-#: diskdrake/interactive.pm:638 diskdrake/removable.pm:47
+#: diskdrake/interactive.pm:636 diskdrake/removable.pm:45
 #, c-format
 msgid "Which filesystem do you want?"
 msgstr "¿Qué sistema de archivos desea?"
 
-#: diskdrake/interactive.pm:645
+#: diskdrake/interactive.pm:643
 #, c-format
 msgid "Switching from %s to %s"
 msgstr "Cambiando de %s a %s"
 
-#: diskdrake/interactive.pm:680
+#: diskdrake/interactive.pm:678
 #, c-format
 msgid "Set volume label"
 msgstr "Definir etiqueta de volumen?"
 
-#: diskdrake/interactive.pm:682
+#: diskdrake/interactive.pm:680
 #, c-format
 msgid "Beware, this will be written to disk as soon as you validate!"
 msgstr "¡Atención, esto será grabado en disco pos su confirmación!"
 
-#: diskdrake/interactive.pm:683
+#: diskdrake/interactive.pm:681
 #, c-format
 msgid "Beware, this will be written to disk only after formatting!"
 msgstr "¡Atención, esto será grabado en disco solamente despues del formateo!"
 
-#: diskdrake/interactive.pm:685
+#: diskdrake/interactive.pm:683
 #, c-format
 msgid "Which volume label?"
 msgstr "¿Cuál la etiqueta del volumen?"
 
-#: diskdrake/interactive.pm:686
+#: diskdrake/interactive.pm:684
 #, c-format
 msgid "Label:"
 msgstr "Etiqueta:"
 
-#: diskdrake/interactive.pm:707
+#: diskdrake/interactive.pm:705
 #, c-format
 msgid "Where do you want to mount the loopback file %s?"
 msgstr "¿Dónde desea montar el archivo de loopback %s?"
 
-#: diskdrake/interactive.pm:708
+#: diskdrake/interactive.pm:706
 #, c-format
 msgid "Where do you want to mount device %s?"
 msgstr "¿Dónde desea montar el dispositivo %s?"
 
-#: diskdrake/interactive.pm:713
+#: diskdrake/interactive.pm:711
 #, c-format
 msgid ""
 "Cannot unset mount point as this partition is used for loop back.\n"
@@ -1832,59 +1828,59 @@ msgstr ""
 "se usa para un montaje en loopback.\n"
 "Quite el montaje de loopback primero"
 
-#: diskdrake/interactive.pm:743
+#: diskdrake/interactive.pm:741
 #, c-format
 msgid "Where do you want to mount %s?"
 msgstr "¿Dónde desea montar a %s?"
 
-#: diskdrake/interactive.pm:773 diskdrake/interactive.pm:869
-#: fs/partitioning_wizard.pm:131 fs/partitioning_wizard.pm:207
+#: diskdrake/interactive.pm:771 diskdrake/interactive.pm:867
+#: fs/partitioning_wizard.pm:129 fs/partitioning_wizard.pm:205
 #, c-format
 msgid "Resizing"
 msgstr "Cambiando tamaño"
 
-#: diskdrake/interactive.pm:773
+#: diskdrake/interactive.pm:771
 #, c-format
 msgid "Computing FAT filesystem bounds"
 msgstr "Calculando los límites del sistema de archivos FAT"
 
-#: diskdrake/interactive.pm:815
+#: diskdrake/interactive.pm:813
 #, c-format
 msgid "This partition is not resizeable"
 msgstr "No se puede cambiar el tamaño a esta partición"
 
-#: diskdrake/interactive.pm:820
+#: diskdrake/interactive.pm:818
 #, c-format
 msgid "All data on this partition should be backed up"
 msgstr ""
 "Debería hacer una copia de seguridad de todos los datos de esta partición"
 
-#: diskdrake/interactive.pm:822
+#: diskdrake/interactive.pm:820
 #, c-format
 msgid "After resizing partition %s, all data on this partition will be lost"
 msgstr "Se perderán todos los datos de la partición %s tras cambiar su tamaño"
 
-#: diskdrake/interactive.pm:829
+#: diskdrake/interactive.pm:827
 #, c-format
 msgid "Choose the new size"
 msgstr "Eligiendo el tamaño nuevo"
 
-#: diskdrake/interactive.pm:830
+#: diskdrake/interactive.pm:828
 #, c-format
 msgid "New size in MB: "
 msgstr "Tamaño nuevo en MB: "
 
-#: diskdrake/interactive.pm:831
+#: diskdrake/interactive.pm:829
 #, c-format
 msgid "Minimum size: %s MB"
 msgstr "Tamaño mínimo: %s MB"
 
-#: diskdrake/interactive.pm:832
+#: diskdrake/interactive.pm:830
 #, c-format
 msgid "Maximum size: %s MB"
 msgstr "Tamaño máximo: %s MB"
 
-#: diskdrake/interactive.pm:880 fs/partitioning_wizard.pm:215
+#: diskdrake/interactive.pm:878 fs/partitioning_wizard.pm:213
 #, c-format
 msgid ""
 "To ensure data integrity after resizing the partition(s),\n"
@@ -1895,57 +1891,57 @@ msgstr ""
 "archivos\n"
 "la próxima vez que arranque en Microsoft Windows®"
 
-#: diskdrake/interactive.pm:944 diskdrake/interactive.pm:1492
+#: diskdrake/interactive.pm:942 diskdrake/interactive.pm:1490
 #, c-format
 msgid "Filesystem encryption key"
 msgstr "Clave de cifrado del sistema de archivos"
 
-#: diskdrake/interactive.pm:945
+#: diskdrake/interactive.pm:943
 #, c-format
 msgid "Enter your filesystem encryption key"
 msgstr "Ingrese la clave de cifrado de su sistema de archivos"
 
-#: diskdrake/interactive.pm:946 diskdrake/interactive.pm:1500
+#: diskdrake/interactive.pm:944 diskdrake/interactive.pm:1498
 #, c-format
 msgid "Encryption key"
 msgstr "Clave de cifrado"
 
-#: diskdrake/interactive.pm:953
+#: diskdrake/interactive.pm:951
 #, c-format
 msgid "Invalid key"
 msgstr "Clave no válida"
 
-#: diskdrake/interactive.pm:963
+#: diskdrake/interactive.pm:961
 #, c-format
 msgid "Choose an existing RAID to add to"
 msgstr "Elegir un RAID existente al que añadir"
 
-#: diskdrake/interactive.pm:965 diskdrake/interactive.pm:984
+#: diskdrake/interactive.pm:963 diskdrake/interactive.pm:982
 #, c-format
 msgid "new"
 msgstr "nuevo"
 
-#: diskdrake/interactive.pm:982
+#: diskdrake/interactive.pm:980
 #, c-format
 msgid "Choose an existing LVM to add to"
 msgstr "Elegir un LVM existente al que añadir"
 
-#: diskdrake/interactive.pm:994 diskdrake/interactive.pm:1003
+#: diskdrake/interactive.pm:992 diskdrake/interactive.pm:1001
 #, c-format
 msgid "LVM name"
 msgstr "Nombre de LVM"
 
-#: diskdrake/interactive.pm:995
+#: diskdrake/interactive.pm:993
 #, c-format
 msgid "Enter a name for the new LVM volume group"
 msgstr "Ingrese un nombre para el nuevo volume de grupo LVM"
 
-#: diskdrake/interactive.pm:1000
+#: diskdrake/interactive.pm:998
 #, c-format
 msgid "\"%s\" already exists"
 msgstr "\"%s\" ya existe"
 
-#: diskdrake/interactive.pm:1032
+#: diskdrake/interactive.pm:1030
 #, c-format
 msgid ""
 "Physical volume %s is still in use.\n"
@@ -1954,117 +1950,123 @@ msgstr ""
 "El volúmen físico %s todavía está en uso.\n"
 "¿Desea mover el espacio físico usado en este volumen a otros volúmenes?"
 
-#: diskdrake/interactive.pm:1034
+#: diskdrake/interactive.pm:1032
 #, c-format
 msgid "Moving physical extents"
 msgstr "Moviendo el espacio físico"
 
-#: diskdrake/interactive.pm:1052
+#: diskdrake/interactive.pm:1050
 #, c-format
 msgid "This partition cannot be used for loopback"
 msgstr "Esta partición no puede usarse para el loopback"
 
-#: diskdrake/interactive.pm:1065
+#: diskdrake/interactive.pm:1063
 #, c-format
 msgid "Loopback"
 msgstr "Loopback"
 
-#: diskdrake/interactive.pm:1066
+#: diskdrake/interactive.pm:1064
 #, c-format
 msgid "Loopback file name: "
 msgstr "Nombre del archivo de loopback: "
 
-#: diskdrake/interactive.pm:1071
+#: diskdrake/interactive.pm:1069
 #, c-format
 msgid "Give a file name"
 msgstr "Indique el nombre de un archivo"
 
-#: diskdrake/interactive.pm:1074
+#: diskdrake/interactive.pm:1072
 #, c-format
 msgid "File is already used by another loopback, choose another one"
 msgstr "El archivo ya lo utiliza otro dispositivo loopback, seleccione otro"
 
-#: diskdrake/interactive.pm:1075
+#: diskdrake/interactive.pm:1073
 #, c-format
 msgid "File already exists. Use it?"
 msgstr "El archivo ya existe. ¿Desea usarlo?"
 
-#: diskdrake/interactive.pm:1107 diskdrake/interactive.pm:1110
+#: diskdrake/interactive.pm:1105 diskdrake/interactive.pm:1108
 #, c-format
 msgid "Mount options"
 msgstr "Opciones de montaje"
 
-#: diskdrake/interactive.pm:1117
+#: diskdrake/interactive.pm:1115
 #, c-format
 msgid "Various"
 msgstr "Varios"
 
-#: diskdrake/interactive.pm:1163
+#: diskdrake/interactive.pm:1161
 #, c-format
 msgid "device"
 msgstr "dispositivo"
 
-#: diskdrake/interactive.pm:1164
+#: diskdrake/interactive.pm:1162
 #, c-format
 msgid "level"
 msgstr "nivel"
 
-#: diskdrake/interactive.pm:1165
+#: diskdrake/interactive.pm:1163
 #, c-format
 msgid "chunk size in KiB"
 msgstr "tamaño de bloque en KiB"
 
-#: diskdrake/interactive.pm:1183
+#: diskdrake/interactive.pm:1180 diskdrake/interactive.pm:1190
+#: diskdrake/interactive.pm:1243
+#, c-format
+msgid "Read carefully"
+msgstr "¡Lea con cuidado"
+
+#: diskdrake/interactive.pm:1181
 #, c-format
 msgid "Be careful: this operation is dangerous."
 msgstr "Cuidado: esta operación es peligrosa."
 
-#: diskdrake/interactive.pm:1198
+#: diskdrake/interactive.pm:1196
 #, c-format
 msgid "Partitioning Type"
 msgstr "Tipo de particionado"
 
-#: diskdrake/interactive.pm:1198
+#: diskdrake/interactive.pm:1196
 #, c-format
 msgid "What type of partitioning?"
 msgstr "¿Qué tipo de particionamiento?"
 
-#: diskdrake/interactive.pm:1236
+#: diskdrake/interactive.pm:1234
 #, c-format
 msgid "You'll need to reboot before the modification can take effect"
 msgstr "Necesita reiniciar el equipo para que la modificación tenga efecto"
 
-#: diskdrake/interactive.pm:1245
+#: diskdrake/interactive.pm:1243
 #, c-format
 msgid "Partition table of drive %s is going to be written to disk"
 msgstr "¡Se escribirá al disco la tabla de particiones de la unidad %s"
 
-#: diskdrake/interactive.pm:1264 fs/format.pm:107 fs/format.pm:114
+#: diskdrake/interactive.pm:1262 fs/format.pm:105 fs/format.pm:112
 #, c-format
 msgid "Formatting partition %s"
 msgstr "Formateando la partición %s"
 
-#: diskdrake/interactive.pm:1277
+#: diskdrake/interactive.pm:1275
 #, c-format
 msgid "After formatting partition %s, all data on this partition will be lost"
 msgstr "Se perderán todos los datos de la partición %s después de formatearla"
 
-#: diskdrake/interactive.pm:1291
+#: diskdrake/interactive.pm:1289
 #, fuzzy, c-format
 msgid "Check bad blocks?"
 msgstr "¿Verificar el disco en busca de bloques malos?"
 
-#: diskdrake/interactive.pm:1306
+#: diskdrake/interactive.pm:1304
 #, c-format
 msgid "Move files to the new partition"
 msgstr "Mover los archivos a la nueva partición"
 
-#: diskdrake/interactive.pm:1306
+#: diskdrake/interactive.pm:1304
 #, c-format
 msgid "Hide files"
 msgstr "Ocultar archivos"
 
-#: diskdrake/interactive.pm:1307
+#: diskdrake/interactive.pm:1305
 #, c-format
 msgid ""
 "Directory %s already contains data\n"
@@ -2081,128 +2083,128 @@ msgstr ""
 "dejarlos donde están (lo cual hará que los mismos queden ocultos por los "
 "contenidos de la partición montada)"
 
-#: diskdrake/interactive.pm:1322
+#: diskdrake/interactive.pm:1320
 #, c-format
 msgid "Moving files to the new partition"
 msgstr "Moviendo los archivos a la nueva partición"
 
-#: diskdrake/interactive.pm:1326
+#: diskdrake/interactive.pm:1324
 #, c-format
 msgid "Copying %s"
 msgstr "Copiando %s"
 
-#: diskdrake/interactive.pm:1330
+#: diskdrake/interactive.pm:1328
 #, c-format
 msgid "Removing %s"
 msgstr "Borrando %s"
 
-#: diskdrake/interactive.pm:1344
+#: diskdrake/interactive.pm:1342
 #, c-format
 msgid "partition %s is now known as %s"
 msgstr "la partición %s ahora se conoce como %s"
 
-#: diskdrake/interactive.pm:1345
+#: diskdrake/interactive.pm:1343
 #, c-format
 msgid "Partitions have been renumbered: "
 msgstr "Las particiones han sido renumeradas: "
 
-#: diskdrake/interactive.pm:1370 diskdrake/interactive.pm:1441
+#: diskdrake/interactive.pm:1368 diskdrake/interactive.pm:1439
 #, c-format
 msgid "Device: "
 msgstr "Dispositivo: "
 
-#: diskdrake/interactive.pm:1371
+#: diskdrake/interactive.pm:1369
 #, c-format
 msgid "Volume label: "
 msgstr "Etiqueta de volumen: "
 
-#: diskdrake/interactive.pm:1372
+#: diskdrake/interactive.pm:1370
 #, c-format
 msgid "UUID: "
 msgstr "UUID: "
 
-#: diskdrake/interactive.pm:1373
+#: diskdrake/interactive.pm:1371
 #, c-format
 msgid "DOS drive letter: %s (just a guess)\n"
 msgstr "Letra DOS: %s (simplemente una adivinanza)\n"
 
-#: diskdrake/interactive.pm:1377 diskdrake/interactive.pm:1386
-#: diskdrake/interactive.pm:1460
+#: diskdrake/interactive.pm:1375 diskdrake/interactive.pm:1384
+#: diskdrake/interactive.pm:1458
 #, c-format
 msgid "Type: "
 msgstr "Tipo: "
 
-#: diskdrake/interactive.pm:1381 diskdrake/interactive.pm:1445
+#: diskdrake/interactive.pm:1379 diskdrake/interactive.pm:1443
 #, c-format
 msgid "Name: "
 msgstr "Nombre: "
 
-#: diskdrake/interactive.pm:1388
+#: diskdrake/interactive.pm:1386
 #, c-format
 msgid "Start: sector %s\n"
 msgstr "Comienzo: sector %s\n"
 
-#: diskdrake/interactive.pm:1389
+#: diskdrake/interactive.pm:1387
 #, c-format
 msgid "Size: %s"
 msgstr "Tamaño: %s"
 
-#: diskdrake/interactive.pm:1391
+#: diskdrake/interactive.pm:1389
 #, c-format
 msgid ", %s sectors"
 msgstr ", %s sectores"
 
-#: diskdrake/interactive.pm:1393
+#: diskdrake/interactive.pm:1391
 #, c-format
 msgid "Cylinder %d to %d\n"
 msgstr "Cilindros %d a %d\n"
 
-#: diskdrake/interactive.pm:1394
+#: diskdrake/interactive.pm:1392
 #, c-format
 msgid "Number of logical extents: %d\n"
 msgstr "Número de extensiones lógicas: %d\n"
 
-#: diskdrake/interactive.pm:1395
+#: diskdrake/interactive.pm:1393
 #, c-format
 msgid "Formatted\n"
 msgstr "Formateado\n"
 
-#: diskdrake/interactive.pm:1396
+#: diskdrake/interactive.pm:1394
 #, c-format
 msgid "Not formatted\n"
 msgstr "No formateado\n"
 
-#: diskdrake/interactive.pm:1397
+#: diskdrake/interactive.pm:1395
 #, c-format
 msgid "Mounted\n"
 msgstr "Montado\n"
 
-#: diskdrake/interactive.pm:1398
+#: diskdrake/interactive.pm:1396
 #, c-format
 msgid "RAID %s\n"
 msgstr "RAID %s\n"
 
-#: diskdrake/interactive.pm:1400
+#: diskdrake/interactive.pm:1398
 #, c-format
 msgid "Encrypted"
 msgstr "Cifrado"
 
-#: diskdrake/interactive.pm:1402
+#: diskdrake/interactive.pm:1400
 #, c-format
 msgid " (mapped on %s)"
 msgstr " (mapeado en %s)"
 
-#: diskdrake/interactive.pm:1403
+#: diskdrake/interactive.pm:1401
 #, c-format
 msgid " (to map on %s)"
 msgstr " (a mapear en %s)"
 
-#: diskdrake/interactive.pm:1404
+#: diskdrake/interactive.pm:1402
 #, c-format
 msgid " (inactive)"
 msgstr " (inactivo)"
 
-#: diskdrake/interactive.pm:1411
+#: diskdrake/interactive.pm:1409
 #, c-format
 msgid ""
 "Loopback file(s):\n"
@@ -2211,7 +2213,7 @@ msgstr ""
 "Archivo(s) de loopback:\n"
 "   %s\n"
 
-#: diskdrake/interactive.pm:1412
+#: diskdrake/interactive.pm:1410
 #, c-format
 msgid ""
 "Partition booted by default\n"
@@ -2220,27 +2222,27 @@ msgstr ""
 "Partición predeterminada de arranque\n"
 "    (para arranque de MS-DOS, no para lilo)\n"
 
-#: diskdrake/interactive.pm:1414
+#: diskdrake/interactive.pm:1412
 #, c-format
 msgid "Level %s\n"
 msgstr "Nivel %s\n"
 
-#: diskdrake/interactive.pm:1415
+#: diskdrake/interactive.pm:1413
 #, c-format
 msgid "Chunk size %d KiB\n"
 msgstr "Tamaño de bloque %d KiB\n"
 
-#: diskdrake/interactive.pm:1416
+#: diskdrake/interactive.pm:1414
 #, c-format
 msgid "RAID-disks %s\n"
 msgstr "Discos-RAID %s\n"
 
-#: diskdrake/interactive.pm:1418
+#: diskdrake/interactive.pm:1416
 #, c-format
 msgid "Loopback file name: %s"
 msgstr "Nombre del archivo de loopback: %s"
 
-#: diskdrake/interactive.pm:1421
+#: diskdrake/interactive.pm:1419
 #, c-format
 msgid ""
 "\n"
@@ -2253,7 +2255,7 @@ msgstr ""
 "una partición de Controlador, probablemente\n"
 "debería dejarla como está.\n"
 
-#: diskdrake/interactive.pm:1424
+#: diskdrake/interactive.pm:1422
 #, c-format
 msgid ""
 "\n"
@@ -2266,99 +2268,99 @@ msgstr ""
 "es para el arranque\n"
 "dual de su sistema.\n"
 
-#: diskdrake/interactive.pm:1433
+#: diskdrake/interactive.pm:1431
 #, c-format
 msgid "Free space on %s (%s)"
 msgstr "Espacio libre en %s (%s)"
 
-#: diskdrake/interactive.pm:1442
+#: diskdrake/interactive.pm:1440
 #, c-format
 msgid "Read-only"
 msgstr "Sólo lectura"
 
-#: diskdrake/interactive.pm:1443
+#: diskdrake/interactive.pm:1441
 #, c-format
 msgid "Size: %s\n"
 msgstr "Tamaño: %s\n"
 
-#: diskdrake/interactive.pm:1444
+#: diskdrake/interactive.pm:1442
 #, c-format
 msgid "Geometry: %s cylinders, %s heads, %s sectors\n"
 msgstr "Geometría: %s cilindros, %s cabezas, %s sectores\n"
 
-#: diskdrake/interactive.pm:1446
+#: diskdrake/interactive.pm:1444
 #, c-format
 msgid "Medium type: "
 msgstr "Tipo de soporte: "
 
-#: diskdrake/interactive.pm:1447
+#: diskdrake/interactive.pm:1445
 #, c-format
 msgid "LVM-disks %s\n"
 msgstr "Discos-LVM %s\n"
 
-#: diskdrake/interactive.pm:1448
+#: diskdrake/interactive.pm:1446
 #, c-format
 msgid "Partition table type: %s\n"
 msgstr "Tipo de la tabla de particiones: %s\n"
 
-#: diskdrake/interactive.pm:1449
+#: diskdrake/interactive.pm:1447
 #, c-format
 msgid "on channel %d id %d\n"
 msgstr "en el canal %d id %d\n"
 
-#: diskdrake/interactive.pm:1493
+#: diskdrake/interactive.pm:1491
 #, c-format
 msgid "Choose your filesystem encryption key"
 msgstr "Elija la clave de cifrado de su sistema de archivos"
 
-#: diskdrake/interactive.pm:1496
+#: diskdrake/interactive.pm:1494
 #, c-format
 msgid "This encryption key is too simple (must be at least %d characters long)"
 msgstr ""
 "Esta clave de cifrado es demasiado simple\n"
 "(tiene que tener por lo menos una longitud de %d caracteres)"
 
-#: diskdrake/interactive.pm:1503
+#: diskdrake/interactive.pm:1501
 #, c-format
 msgid "Encryption algorithm"
 msgstr "Algoritmo de cifrado"
 
-#: diskdrake/removable.pm:46
+#: diskdrake/removable.pm:44
 #, c-format
 msgid "Change type"
 msgstr "Cambiar tipo"
 
-#: diskdrake/smbnfs_gtk.pm:81 interactive.pm:129 interactive.pm:550
-#: interactive/curses.pm:267 interactive/http.pm:104 interactive/http.pm:160
-#: interactive/stdio.pm:39 interactive/stdio.pm:148 mygtk2.pm:846 ugtk2.pm:415
-#: ugtk2.pm:517 ugtk2.pm:526 ugtk2.pm:812
+#: diskdrake/smbnfs_gtk.pm:78 interactive.pm:127 interactive.pm:548
+#: interactive/curses.pm:263 interactive/http.pm:100 interactive/http.pm:156
+#: interactive/stdio.pm:35 interactive/stdio.pm:144 mygtk2.pm:844
+#: mygtk2.pm:1227 ugtk2.pm:412 ugtk2.pm:514 ugtk2.pm:523 ugtk2.pm:809
 #, c-format
 msgid "Cancel"
 msgstr "Cancelar"
 
-#: diskdrake/smbnfs_gtk.pm:164
+#: diskdrake/smbnfs_gtk.pm:161
 #, c-format
 msgid "Cannot login using username %s (bad password?)"
 msgstr ""
 "No se puede conectar utilizando el nombre de usuario %s (¿contraseña "
 "incorrecta?)"
 
-#: diskdrake/smbnfs_gtk.pm:168 diskdrake/smbnfs_gtk.pm:177
+#: diskdrake/smbnfs_gtk.pm:165 diskdrake/smbnfs_gtk.pm:174
 #, c-format
 msgid "Domain Authentication Required"
 msgstr "Se necesita autenticación de dominio"
 
-#: diskdrake/smbnfs_gtk.pm:169
+#: diskdrake/smbnfs_gtk.pm:166
 #, c-format
 msgid "Which username"
 msgstr "Qué nombre de usuario"
 
-#: diskdrake/smbnfs_gtk.pm:169
+#: diskdrake/smbnfs_gtk.pm:166
 #, c-format
 msgid "Another one"
 msgstr "Otro"
 
-#: diskdrake/smbnfs_gtk.pm:178
+#: diskdrake/smbnfs_gtk.pm:175
 #, c-format
 msgid ""
 "Please enter your username, password and domain name to access this host."
@@ -2366,22 +2368,22 @@ msgstr ""
 "Por favor, ingrese su nombre de usuario, contraseña y nombre de dominio para "
 "acceder a este host."
 
-#: diskdrake/smbnfs_gtk.pm:180
+#: diskdrake/smbnfs_gtk.pm:177
 #, c-format
 msgid "Username"
 msgstr "Nombre de usuario"
 
-#: diskdrake/smbnfs_gtk.pm:182
+#: diskdrake/smbnfs_gtk.pm:179
 #, c-format
 msgid "Domain"
 msgstr "Dominio"
 
-#: diskdrake/smbnfs_gtk.pm:206
+#: diskdrake/smbnfs_gtk.pm:203
 #, c-format
 msgid "Search servers"
 msgstr "Buscar servidores"
 
-#: diskdrake/smbnfs_gtk.pm:211
+#: diskdrake/smbnfs_gtk.pm:208
 #, c-format
 msgid "Search for new servers"
 msgstr "Buscar servidores nuevos"
@@ -2411,12 +2413,12 @@ msgstr "Se deben instalar los siguientes paquetes:\n"
 msgid "Installing packages..."
 msgstr "Instalando paquetes..."
 
-#: do_pkgs.pm:287 pkgs.pm:285
+#: do_pkgs.pm:291
 #, c-format
 msgid "Removing packages..."
 msgstr "Quitando paquetes..."
 
-#: fs/any.pm:18
+#: fs/any.pm:15
 #, c-format
 msgid ""
 "An error occurred - no valid devices were found on which to create new "
@@ -2426,84 +2428,89 @@ msgstr ""
 "nuevos sistemas de archivos. Por favor, verifique su equipo para saber la "
 "razón de este fallo"
 
-#: fs/any.pm:76 fs/partitioning_wizard.pm:64
+#: fs/any.pm:72 fs/partitioning_wizard.pm:62
 #, c-format
 msgid "You must have a FAT partition mounted in /boot/efi"
 msgstr "Debe tener una partición FAT montada en /boot/efi"
 
-#: fs/format.pm:111
+#: fs/format.pm:109
 #, c-format
 msgid "Creating and formatting file %s"
 msgstr "Creando y formateando el archivo %s"
 
-#: fs/format.pm:130
+#: fs/format.pm:129
 #, c-format
 msgid "I do not know how to set label on %s with type %s"
 msgstr "No sé cómo definir la etiqueta %s de tipo %s"
 
-#: fs/format.pm:142
+#: fs/format.pm:141
 #, c-format
 msgid "setting label on %s failed, is it formatted?"
 msgstr "La definición de la etiqueta %s falló, ¿está formateada?"
 
-#: fs/format.pm:183
+#: fs/format.pm:182
 #, c-format
 msgid "I do not know how to format %s in type %s"
 msgstr "No sé cómo formatear %s en el tipo %s"
 
-#: fs/format.pm:188 fs/format.pm:190
+#: fs/format.pm:187 fs/format.pm:189
 #, c-format
 msgid "%s formatting of %s failed"
 msgstr "%s formateo de %s falló"
 
-#: fs/loopback.pm:24
+#: fs/loopback.pm:21
 #, c-format
 msgid "Circular mounts %s\n"
 msgstr "Montajes circulares %s\n"
 
-#: fs/mount.pm:85
+#: fs/mount.pm:82
 #, c-format
 msgid "Mounting partition %s"
 msgstr "Montando la partición %s"
 
-#: fs/mount.pm:86
+#: fs/mount.pm:84
 #, c-format
 msgid "mounting partition %s in directory %s failed"
 msgstr "falló el montaje de la partición %s en el directorio %s"
 
-#: fs/mount.pm:91 fs/mount.pm:108
+#: fs/mount.pm:89 fs/mount.pm:106
 #, c-format
 msgid "Checking %s"
 msgstr "Verificando %s"
 
-#: fs/mount.pm:125 partition_table.pm:422
+#: fs/mount.pm:123 partition_table.pm:419
 #, c-format
 msgid "error unmounting %s: %s"
 msgstr "error desmontando %s: %s"
 
-#: fs/mount.pm:140
+#: fs/mount.pm:138
 #, c-format
 msgid "Enabling swap partition %s"
 msgstr "Habilitando la partición swap %s"
 
-#: fs/mount_options.pm:113
+#: fs/mount_options.pm:110
 #, c-format
 msgid "Enable POSIX Access Control Lists"
 msgstr "Habilitar Listas de Control de Acceso POSIX"
 
-#: fs/mount_options.pm:115
+#: fs/mount_options.pm:112
 #, c-format
 msgid "Flush write cache on file close"
 msgstr "Vaciar el cache de escritura al cerrar los archivos"
 
-#: fs/mount_options.pm:117
+#: fs/mount_options.pm:114
 #, c-format
 msgid "Enable group disk quota accounting and optionally enforce limits"
 msgstr ""
 "Permitir la contabilidad de las cuotas del disco y opcionalmente, forzar "
 "límites"
 
-#: fs/mount_options.pm:119
+#: fs/mount_options.pm:116
+#, c-format
+msgid "Enable automatic TRIM for SSD disks"
+msgstr ""
+
+#: fs/mount_options.pm:118
 #, c-format
 msgid ""
 "Do not update inode access times on this filesystem\n"
@@ -2513,7 +2520,7 @@ msgstr ""
 "(ej: para un acceso más rápido al spool de noticias en un servidor de "
 "noticias)"
 
-#: fs/mount_options.pm:122
+#: fs/mount_options.pm:121
 #, c-format
 msgid ""
 "Update inode access times on this filesystem in a more efficient way\n"
@@ -2523,7 +2530,7 @@ msgstr ""
 "archivos\n"
 "(ej: para mejorar el tiempo de respuesta de un servidor de noticias)"
 
-#: fs/mount_options.pm:125
+#: fs/mount_options.pm:124
 #, c-format
 msgid ""
 "Can only be mounted explicitly (i.e.,\n"
@@ -2532,14 +2539,14 @@ msgstr ""
 "Sólo se puede montar explícitamente (es decir,\n"
 "la opción -a no causará que se monte el sistema de archivos)"
 
-#: fs/mount_options.pm:128
+#: fs/mount_options.pm:127
 #, c-format
 msgid "Do not interpret character or block special devices on the filesystem."
 msgstr ""
 "No interpretar dispositivos especiales de bloque o carácter en el sistema de "
 "archivos."
 
-#: fs/mount_options.pm:130
+#: fs/mount_options.pm:129
 #, c-format
 msgid ""
 "Do not allow execution of any binaries on the mounted\n"
@@ -2550,7 +2557,7 @@ msgstr ""
 "Esta opción puede ser útil para un servidor que tiene sistemas de archivos\n"
 "que contienen binaros para arquitecturas distintas a la propia."
 
-#: fs/mount_options.pm:134
+#: fs/mount_options.pm:133
 #, c-format
 msgid ""
 "Do not allow set-user-identifier or set-group-identifier\n"
@@ -2562,80 +2569,80 @@ msgstr ""
 "(Esto parece seguro, pero de hecho es bastante inseguro si tiene\n"
 "suidperl(1) instalado)"
 
-#: fs/mount_options.pm:138
+#: fs/mount_options.pm:137
 #, c-format
 msgid "Mount the filesystem read-only."
 msgstr "Montar el sistema de archivos como sólo de lectura."
 
-#: fs/mount_options.pm:140
+#: fs/mount_options.pm:139
 #, c-format
 msgid "All I/O to the filesystem should be done synchronously."
 msgstr ""
 "Toda la E/S del sistema de archivos debería hacerse de manera sincrónica."
 
-#: fs/mount_options.pm:142
+#: fs/mount_options.pm:141
 #, c-format
 msgid "Allow every user to mount and umount the filesystem."
 msgstr "Permitir a cada usuario montar y desmontar el sistema de archivos."
 
-#: fs/mount_options.pm:144
+#: fs/mount_options.pm:143
 #, c-format
 msgid "Allow an ordinary user to mount the filesystem."
 msgstr "Permitir a un usuario común montar el sistema de archivos."
 
-#: fs/mount_options.pm:146
+#: fs/mount_options.pm:145
 #, c-format
 msgid "Enable user disk quota accounting, and optionally enforce limits"
 msgstr ""
 "Permitir la contabilidad de las cuotas de disco para los usuarios, y "
 "opcionalmente forzar límites"
 
-#: fs/mount_options.pm:148
+#: fs/mount_options.pm:147
 #, c-format
 msgid "Support \"user.\" extended attributes"
 msgstr "Soportar atributos extendidos \"user.\""
 
-#: fs/mount_options.pm:150
+#: fs/mount_options.pm:149
 #, c-format
 msgid "Give write access to ordinary users"
 msgstr "Dar acceso de escritura a usuarios regulares"
 
-#: fs/mount_options.pm:152
+#: fs/mount_options.pm:151
 #, c-format
 msgid "Give read-only access to ordinary users"
 msgstr "Dar acceso sólo de lectura a usuarios regulares"
 
-#: fs/mount_point.pm:82
+#: fs/mount_point.pm:79
 #, c-format
 msgid "Duplicate mount point %s"
 msgstr "Punto de montaje %s duplicado"
 
-#: fs/mount_point.pm:97
+#: fs/mount_point.pm:94
 #, c-format
 msgid "No partition available"
 msgstr "no hay particiones disponibles"
 
-#: fs/mount_point.pm:100
+#: fs/mount_point.pm:97
 #, c-format
 msgid "Scanning partitions to find mount points"
 msgstr "Rastreando las particiones para encontrar los puntos de montaje"
 
-#: fs/mount_point.pm:107
+#: fs/mount_point.pm:104
 #, c-format
 msgid "Choose the mount points"
 msgstr "Seleccione los puntos de montaje"
 
-#: fs/partitioning.pm:46
+#: fs/partitioning.pm:43
 #, c-format
 msgid "Choose the partitions you want to format"
 msgstr "Elija las particiones que desea formatear"
 
-#: fs/partitioning.pm:48
+#: fs/partitioning.pm:45
 #, c-format
 msgid "Check for bad blocks?"
 msgstr "¿Verificar el disco en busca de bloques malos?"
 
-#: fs/partitioning.pm:75
+#: fs/partitioning.pm:72
 #, c-format
 msgid ""
 "Failed to check filesystem %s. Do you want to repair the errors? (beware, "
@@ -2644,14 +2651,14 @@ msgstr ""
 "Falló la verificación del sistema de archivos %s. ¿Desea reparar los "
 "errores? (cuidado, puede perder datos)"
 
-#: fs/partitioning.pm:78
+#: fs/partitioning.pm:75
 #, c-format
 msgid "Not enough swap space to fulfill installation, please add some"
 msgstr ""
 "Espacio de intercambio insuficiente para completar la instalación, añada un "
 "poco más"
 
-#: fs/partitioning_wizard.pm:55
+#: fs/partitioning_wizard.pm:53
 #, c-format
 msgid ""
 "You must have a root partition.\n"
@@ -2662,7 +2669,7 @@ msgstr ""
 "Para ello, cree una partición (o haga clic sobre una que ya existe).\n"
 "Luego elija la acción \"Punto de montaje\" y defínalo como '/'"
 
-#: fs/partitioning_wizard.pm:61
+#: fs/partitioning_wizard.pm:59
 #, c-format
 msgid ""
 "You do not have a swap partition.\n"
@@ -2673,42 +2680,42 @@ msgstr ""
 "\n"
 "¿Desea continuar de todas formas?"
 
-#: fs/partitioning_wizard.pm:95
+#: fs/partitioning_wizard.pm:93
 #, c-format
 msgid "Use free space"
 msgstr "Usar el espacio libre"
 
-#: fs/partitioning_wizard.pm:97
+#: fs/partitioning_wizard.pm:95
 #, c-format
 msgid "Not enough free space to allocate new partitions"
 msgstr "No hay espacio libre suficiente para asignar las particiones nuevas"
 
-#: fs/partitioning_wizard.pm:105
+#: fs/partitioning_wizard.pm:103
 #, c-format
 msgid "Use existing partitions"
 msgstr "Usar la partición existente"
 
-#: fs/partitioning_wizard.pm:107
+#: fs/partitioning_wizard.pm:105
 #, c-format
 msgid "There is no existing partition to use"
 msgstr "No hay ninguna partición existente para usar"
 
-#: fs/partitioning_wizard.pm:131
+#: fs/partitioning_wizard.pm:129
 #, c-format
 msgid "Computing the size of the Microsoft Windows® partition"
 msgstr "Calculando el espacio de la partición Microsoft Windows®"
 
-#: fs/partitioning_wizard.pm:167
+#: fs/partitioning_wizard.pm:165
 #, c-format
 msgid "Use the free space on a Microsoft Windows® partition"
 msgstr "Usar el espacio libre de una partición Windows®"
 
-#: fs/partitioning_wizard.pm:171
+#: fs/partitioning_wizard.pm:169
 #, c-format
 msgid "Which partition do you want to resize?"
 msgstr "¿A qué partición desea cambiarle el tamaño?"
 
-#: fs/partitioning_wizard.pm:174
+#: fs/partitioning_wizard.pm:172
 #, c-format
 msgid ""
 "Your Microsoft Windows® partition is too fragmented. Please reboot your "
@@ -2718,7 +2725,7 @@ msgstr ""
 "Su partición Microsoft Windows® está muy fragmentada, por favor primero "
 "ejecute \"defrag\""
 
-#: fs/partitioning_wizard.pm:182
+#: fs/partitioning_wizard.pm:180
 #, c-format
 msgid ""
 "WARNING!\n"
@@ -2754,77 +2761,77 @@ msgstr ""
 "Cuando esté seguro, pulse sobre %s."
 
 #. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
-#: fs/partitioning_wizard.pm:191 fs/partitioning_wizard.pm:559
-#: interactive.pm:549 interactive/curses.pm:270 ugtk2.pm:519
+#: fs/partitioning_wizard.pm:189 fs/partitioning_wizard.pm:557
+#: interactive.pm:547 interactive/curses.pm:266 ugtk2.pm:516
 #, c-format
 msgid "Next"
 msgstr "Siguiente"
 
-#: fs/partitioning_wizard.pm:197
+#: fs/partitioning_wizard.pm:195
 #, c-format
 msgid "Partitionning"
 msgstr "Particionando"
 
-#: fs/partitioning_wizard.pm:197
+#: fs/partitioning_wizard.pm:195
 #, c-format
 msgid "Which size do you want to keep for Microsoft Windows® on partition %s?"
 msgstr ""
 "¿Qué tamaño desea conservar para Microsoft Windows® en la partición %s?"
 
-#: fs/partitioning_wizard.pm:198
+#: fs/partitioning_wizard.pm:196
 #, c-format
 msgid "Size"
 msgstr "Tamaño"
 
-#: fs/partitioning_wizard.pm:207
+#: fs/partitioning_wizard.pm:205
 #, c-format
 msgid "Resizing Microsoft Windows® partition"
 msgstr "Cambiando tamaño a partición Microsoft Windows®"
 
-#: fs/partitioning_wizard.pm:212
+#: fs/partitioning_wizard.pm:210
 #, c-format
 msgid "FAT resizing failed: %s"
 msgstr "Falló el redimensionado de la FAT: %s"
 
-#: fs/partitioning_wizard.pm:228
+#: fs/partitioning_wizard.pm:226
 #, c-format
 msgid "There is no FAT partition to resize (or not enough space left)"
 msgstr ""
 "No hay particiones FAT para redimensionar (o no queda espacio suficiente)"
 
-#: fs/partitioning_wizard.pm:233
+#: fs/partitioning_wizard.pm:231
 #, c-format
 msgid "Remove Microsoft Windows®"
 msgstr "Quitar Microsoft Windows®"
 
-#: fs/partitioning_wizard.pm:233
+#: fs/partitioning_wizard.pm:231
 #, c-format
 msgid "Erase and use entire disk"
 msgstr "Borrar y usar el disco entero"
 
-#: fs/partitioning_wizard.pm:237
+#: fs/partitioning_wizard.pm:235
 #, fuzzy, c-format
 msgid ""
 "You have more than one hard disk drive, which one do you want the installer "
 "to use?"
 msgstr "Tiene más de un disco rígido, ¿sobre cuál desea instalar Linux?"
 
-#: fs/partitioning_wizard.pm:245 fsedit.pm:634
+#: fs/partitioning_wizard.pm:243 fsedit.pm:630
 #, c-format
 msgid "ALL existing partitions and their data will be lost on drive %s"
 msgstr "Se perderán TODAS las particiones y sus datos en la unidad  %s"
 
-#: fs/partitioning_wizard.pm:255
+#: fs/partitioning_wizard.pm:253
 #, c-format
 msgid "Custom disk partitioning"
 msgstr "Particionamiento de disco personalizado"
 
-#: fs/partitioning_wizard.pm:261
+#: fs/partitioning_wizard.pm:259
 #, c-format
 msgid "Use fdisk"
 msgstr "Usar fdisk"
 
-#: fs/partitioning_wizard.pm:264
+#: fs/partitioning_wizard.pm:262
 #, c-format
 msgid ""
 "You can now partition %s.\n"
@@ -2833,64 +2840,64 @@ msgstr ""
 "Ahora puede particionar %s.\n"
 "Cuando haya terminado, no se olvide de guardar usando 'w'"
 
-#: fs/partitioning_wizard.pm:403
+#: fs/partitioning_wizard.pm:401
 #, c-format
 msgid "Ext2/3/4"
 msgstr "Ext2/3/4"
 
-#: fs/partitioning_wizard.pm:433 fs/partitioning_wizard.pm:579
+#: fs/partitioning_wizard.pm:431 fs/partitioning_wizard.pm:577
 #, c-format
 msgid "I cannot find any room for installing"
 msgstr "No se puede encontrar nada de espacio para instalar"
 
-#: fs/partitioning_wizard.pm:442 fs/partitioning_wizard.pm:586
+#: fs/partitioning_wizard.pm:440 fs/partitioning_wizard.pm:584
 #, c-format
 msgid "The DrakX Partitioning wizard found the following solutions:"
 msgstr ""
 "El asistente de particionamiento de DrakX encontró las siguientes soluciones:"
 
-#: fs/partitioning_wizard.pm:512
+#: fs/partitioning_wizard.pm:510
 #, c-format
 msgid "Here is the content of your disk drive "
 msgstr "Éste es el contenido de su disco"
 
-#: fs/partitioning_wizard.pm:596
+#: fs/partitioning_wizard.pm:594
 #, c-format
 msgid "Partitioning failed: %s"
 msgstr "Falló el particionamiento: %s"
 
-#: fs/type.pm:389
+#: fs/type.pm:381
 #, c-format
 msgid "You cannot use JFS for partitions smaller than 16MB"
 msgstr "No se puede usar JFS para particiones menores de 32MB"
 
-#: fs/type.pm:390
+#: fs/type.pm:382
 #, c-format
 msgid "You cannot use ReiserFS for partitions smaller than 32MB"
 msgstr "No se puede usar ReiserFS para particiones menores de 32MB"
 
-#: fsedit.pm:24
+#: fsedit.pm:20
 #, c-format
 msgid "simple"
 msgstr "simple"
 
-#: fsedit.pm:28
+#: fsedit.pm:24
 #, c-format
 msgid "with /usr"
 msgstr "con /usr"
 
-#: fsedit.pm:33
+#: fsedit.pm:29
 #, c-format
 msgid "server"
 msgstr "servidor"
 
-#: fsedit.pm:137
+#: fsedit.pm:133
 #, c-format
 msgid "BIOS software RAID detected on disks %s. Activate it?"
 msgstr ""
 "Se detectó RAID por software para los discos %s en el BIOS ¿Desea activarlo?"
 
-#: fsedit.pm:247
+#: fsedit.pm:243
 #, c-format
 msgid ""
 "I cannot read the partition table of device %s, it's too corrupted for me :"
@@ -2910,22 +2917,22 @@ msgstr ""
 "\n"
 "¿Está de acuerdo en perder todas las particiones?\n"
 
-#: fsedit.pm:427
+#: fsedit.pm:423
 #, c-format
 msgid "Mount points must begin with a leading /"
 msgstr "Los puntos de montaje deben comenzar con una /"
 
-#: fsedit.pm:428
+#: fsedit.pm:424
 #, c-format
 msgid "Mount points should contain only alphanumerical characters"
 msgstr "Los puntos de montaje deberían contener sólo caracteres alfanuméricos"
 
-#: fsedit.pm:429
+#: fsedit.pm:425
 #, c-format
 msgid "There is already a partition with mount point %s\n"
 msgstr "Ya existe una partición con el punto de montaje %s\n"
 
-#: fsedit.pm:434
+#: fsedit.pm:430
 #, fuzzy, c-format
 msgid ""
 "You've selected a software RAID partition as root (/).\n"
@@ -2937,7 +2944,7 @@ msgstr ""
 "boot.\n"
 "Por favor, asegúrese de añadir una partición /boot."
 
-#: fsedit.pm:440
+#: fsedit.pm:436
 #, fuzzy, c-format
 msgid ""
 "Metadata version unsupported for a boot partition. Please be sure to add a "
@@ -2946,7 +2953,7 @@ msgstr ""
 "La versión de meta datos no está soportada para una partición de arranque. "
 "Por favor asegúrese de agregar una partición /boot."
 
-#: fsedit.pm:448
+#: fsedit.pm:444
 #, c-format
 msgid ""
 "You've selected a software RAID partition as /boot.\n"
@@ -2955,13 +2962,13 @@ msgstr ""
 "Eligió una partición RAID en software como /boot.\n"
 "Ningún cargador de arranque es capaz de manejar esto."
 
-#: fsedit.pm:452
+#: fsedit.pm:448
 #, c-format
 msgid "Metadata version unsupported for a boot partition."
 msgstr ""
 "La versión de meta datos no está soportada para una partición de arranque."
 
-#: fsedit.pm:459
+#: fsedit.pm:455
 #, fuzzy, c-format
 msgid ""
 "You've selected an encrypted partition as root (/).\n"
@@ -2973,13 +2980,13 @@ msgstr ""
 "boot.\n"
 "Por favor, asegúrese de añadir una partición /boot."
 
-#: fsedit.pm:465 fsedit.pm:485
+#: fsedit.pm:461 fsedit.pm:481
 #, fuzzy, c-format
 msgid "You cannot use an encrypted filesystem for mount point %s"
 msgstr ""
 "No puede usar un sistema de archivos cifrado para el punto de montaje %s"
 
-#: fsedit.pm:469
+#: fsedit.pm:465
 #, fuzzy, c-format
 msgid ""
 "You cannot use the LVM Logical Volume for mount point %s since it spans "
@@ -2988,7 +2995,7 @@ msgstr ""
 "No puede usar un Volumen Lógico LVM para el punto de montaje %s ya que cubre "
 "varios volúmenes físicos"
 
-#: fsedit.pm:471
+#: fsedit.pm:467
 #, fuzzy, c-format
 msgid ""
 "You've selected the LVM Logical Volume as root (/).\n"
@@ -3001,12 +3008,12 @@ msgstr ""
 "extiende sobre varios volúmenes físicos.\n"
 "Debería crear una partición /boot primero"
 
-#: fsedit.pm:475 fsedit.pm:477
+#: fsedit.pm:471 fsedit.pm:473
 #, c-format
 msgid "This directory should remain within the root filesystem"
 msgstr "Este directorio debería permanecer dentro del sistema de archivos raíz"
 
-#: fsedit.pm:479 fsedit.pm:481 fsedit.pm:483
+#: fsedit.pm:475 fsedit.pm:477 fsedit.pm:479
 #, c-format
 msgid ""
 "You need a true filesystem (ext2/3/4, reiserfs, xfs, or jfs) for this mount "
@@ -3015,288 +3022,288 @@ msgstr ""
 "Necesita un sistema de archivos verdadero (ext2/3/4, reiserfs, xfs o jfs) "
 "para este punto de montaje\n"
 
-#: fsedit.pm:550
+#: fsedit.pm:546
 #, c-format
 msgid "Not enough free space for auto-allocating"
 msgstr "No hay espacio libre suficiente para la asignación automática"
 
-#: fsedit.pm:552
+#: fsedit.pm:548
 #, c-format
 msgid "Nothing to do"
 msgstr "Nada para hacer"
 
-#: harddrake/data.pm:62
+#: harddrake/data.pm:61
 #, c-format
 msgid "SATA controllers"
 msgstr "Controladoras SATA"
 
-#: harddrake/data.pm:71
+#: harddrake/data.pm:70
 #, c-format
 msgid "RAID controllers"
 msgstr "Controladoras RAID"
 
-#: harddrake/data.pm:81
+#: harddrake/data.pm:80
 #, c-format
 msgid "(E)IDE/ATA controllers"
 msgstr "Controladores (E)IDE/ATA"
 
-#: harddrake/data.pm:92
+#: harddrake/data.pm:91
 #, c-format
 msgid "Card readers"
 msgstr "Lectores de tarjetas"
 
-#: harddrake/data.pm:101
+#: harddrake/data.pm:100
 #, c-format
 msgid "Firewire controllers"
 msgstr "Controladores Firewire"
 
-#: harddrake/data.pm:110
+#: harddrake/data.pm:109
 #, c-format
 msgid "PCMCIA controllers"
 msgstr "Controladores PCMCIA"
 
-#: harddrake/data.pm:119
+#: harddrake/data.pm:118
 #, c-format
 msgid "SCSI controllers"
 msgstr "Controladores SCSI"
 
-#: harddrake/data.pm:128
+#: harddrake/data.pm:127
 #, c-format
 msgid "USB controllers"
 msgstr "Controladores USB"
 
-#: harddrake/data.pm:137
+#: harddrake/data.pm:136
 #, c-format
 msgid "USB ports"
 msgstr "Puertos USB"
 
-#: harddrake/data.pm:146
+#: harddrake/data.pm:145
 #, c-format
 msgid "SMBus controllers"
 msgstr "Controladores SMBus"
 
-#: harddrake/data.pm:155
+#: harddrake/data.pm:154
 #, c-format
 msgid "Bridges and system controllers"
 msgstr "Puentes y controladores del sistema"
 
-#: harddrake/data.pm:167
+#: harddrake/data.pm:166
 #, c-format
 msgid "Floppy"
 msgstr "Disquete"
 
-#: harddrake/data.pm:177
+#: harddrake/data.pm:176
 #, c-format
 msgid "Zip"
 msgstr "Zip"
 
-#: harddrake/data.pm:193
+#: harddrake/data.pm:192
 #, c-format
 msgid "Hard Disk"
 msgstr "Disco"
 
-#: harddrake/data.pm:203
+#: harddrake/data.pm:202
 #, c-format
 msgid "USB Mass Storage Devices"
 msgstr "Dispositivos de almacenamiento USB"
 
-#: harddrake/data.pm:212
+#: harddrake/data.pm:211
 #, c-format
 msgid "CDROM"
 msgstr "CD-ROM"
 
-#: harddrake/data.pm:222
+#: harddrake/data.pm:221
 #, c-format
 msgid "CD/DVD burners"
 msgstr "Grabadoras de CD/DVD"
 
-#: harddrake/data.pm:232
+#: harddrake/data.pm:231
 #, c-format
 msgid "DVD-ROM"
 msgstr "DVD-ROM"
 
-#: harddrake/data.pm:242
+#: harddrake/data.pm:241
 #, c-format
 msgid "Tape"
 msgstr "Cinta"
 
-#: harddrake/data.pm:253
+#: harddrake/data.pm:252
 #, c-format
 msgid "AGP controllers"
 msgstr "Controladoras AGP"
 
-#: harddrake/data.pm:262
+#: harddrake/data.pm:261
 #, c-format
 msgid "Videocard"
 msgstr "Tarjeta de vídeo"
 
-#: harddrake/data.pm:271
+#: harddrake/data.pm:270
 #, c-format
 msgid "DVB card"
 msgstr "Tarjeta DVB"
 
-#: harddrake/data.pm:279
+#: harddrake/data.pm:278
 #, c-format
 msgid "Tvcard"
 msgstr "Tarjeta de TV"
 
-#: harddrake/data.pm:289
+#: harddrake/data.pm:288
 #, c-format
 msgid "Other MultiMedia devices"
 msgstr "Otros dispositivos multimedios"
 
-#: harddrake/data.pm:298
+#: harddrake/data.pm:297
 #, c-format
 msgid "Soundcard"
 msgstr "Tarjeta de sonido"
 
-#: harddrake/data.pm:312
+#: harddrake/data.pm:311
 #, c-format
 msgid "Webcam"
 msgstr "Cámara web"
 
-#: harddrake/data.pm:327
+#: harddrake/data.pm:326
 #, c-format
 msgid "Processors"
 msgstr "Procesadores"
 
-#: harddrake/data.pm:337
+#: harddrake/data.pm:336
 #, c-format
 msgid "ISDN adapters"
 msgstr "Adaptadores RDSI"
 
-#: harddrake/data.pm:348
+#: harddrake/data.pm:347
 #, c-format
 msgid "USB sound devices"
 msgstr "Dispositivos de sonido USB"
 
-#: harddrake/data.pm:357
+#: harddrake/data.pm:356
 #, c-format
 msgid "Radio cards"
 msgstr "Tarjetas de radio"
 
-#: harddrake/data.pm:366
+#: harddrake/data.pm:365
 #, c-format
 msgid "ATM network cards"
 msgstr "Tarjetas de red ATM"
 
-#: harddrake/data.pm:375
+#: harddrake/data.pm:374
 #, c-format
 msgid "WAN network cards"
 msgstr "Tarjetas de red WAN"
 
-#: harddrake/data.pm:384
+#: harddrake/data.pm:383
 #, c-format
 msgid "Bluetooth devices"
 msgstr "Dispositivos Bluetooth"
 
-#: harddrake/data.pm:393
+#: harddrake/data.pm:392
 #, c-format
 msgid "Ethernetcard"
 msgstr "Tarjeta Ethernet"
 
-#: harddrake/data.pm:410
+#: harddrake/data.pm:409
 #, c-format
 msgid "Modem"
 msgstr "Módem"
 
-#: harddrake/data.pm:420
+#: harddrake/data.pm:419
 #, c-format
 msgid "ADSL adapters"
 msgstr "Adaptadores ADSL"
 
-#: harddrake/data.pm:432
+#: harddrake/data.pm:431
 #, c-format
 msgid "Memory"
 msgstr "Memoria"
 
-#: harddrake/data.pm:441
+#: harddrake/data.pm:440
 #, c-format
 msgid "Printer"
 msgstr "Impresora"
 
 #. -PO: these are joysticks controllers:
-#: harddrake/data.pm:455
+#: harddrake/data.pm:454
 #, c-format
 msgid "Game port controllers"
 msgstr "Controladores de juegos"
 
-#: harddrake/data.pm:464
+#: harddrake/data.pm:463
 #, c-format
 msgid "Joystick"
 msgstr "Joystick"
 
-#: harddrake/data.pm:474
+#: harddrake/data.pm:473
 #, c-format
 msgid "Keyboard"
 msgstr "Teclado"
 
-#: harddrake/data.pm:488
+#: harddrake/data.pm:487
 #, c-format
 msgid "Tablet and touchscreen"
 msgstr "Tableta y touchscreen"
 
-#: harddrake/data.pm:497
+#: harddrake/data.pm:496
 #, c-format
 msgid "Mouse"
 msgstr "Ratón"
 
-#: harddrake/data.pm:512
+#: harddrake/data.pm:511
 #, c-format
 msgid "Biometry"
 msgstr "Biometría"
 
-#: harddrake/data.pm:520
+#: harddrake/data.pm:519
 #, c-format
 msgid "UPS"
 msgstr "UPS"
 
-#: harddrake/data.pm:529
+#: harddrake/data.pm:528
 #, c-format
 msgid "Scanner"
 msgstr "Escáner"
 
-#: harddrake/data.pm:540
+#: harddrake/data.pm:539
 #, c-format
 msgid "Unknown/Others"
 msgstr "Desconocido/Otros"
 
-#: harddrake/data.pm:570
+#: harddrake/data.pm:569
 #, c-format
 msgid "cpu # "
 msgstr "cpu #"
 
-#: harddrake/sound.pm:270
+#: harddrake/sound.pm:250
 #, c-format
 msgid "Please Wait... Applying the configuration"
 msgstr "Espere, por favor... Aplicando la configuración"
 
-#: harddrake/sound.pm:331
+#: harddrake/sound.pm:303
 #, c-format
 msgid "Enable PulseAudio"
 msgstr "Habilitar PulseAudio"
 
-#: harddrake/sound.pm:336
+#: harddrake/sound.pm:308
 #, c-format
 msgid "Use Glitch-Free mode"
 msgstr "Utilizar modo Glitch-Free"
 
-#: harddrake/sound.pm:342
+#: harddrake/sound.pm:314
 #, c-format
 msgid "Reset sound mixer to default values"
 msgstr "Restaurar el mezclador de sonido a valores predeterminados"
 
-#: harddrake/sound.pm:347
+#: harddrake/sound.pm:319
 #, c-format
 msgid "Troubleshooting"
 msgstr "Solución de problemas"
 
-#: harddrake/sound.pm:354
+#: harddrake/sound.pm:326
 #, c-format
 msgid "No alternative driver"
 msgstr "No hay controlador alternativo"
 
-#: harddrake/sound.pm:355
+#: harddrake/sound.pm:327
 #, c-format
 msgid ""
 "There's no known OSS/ALSA alternative driver for your sound card (%s) which "
@@ -3305,12 +3312,12 @@ msgstr ""
 "No hay controlador alternativo OSS/ALSA conocido para su tarjeta de sonido "
 "(%s) que en este momento usa \"%s\""
 
-#: harddrake/sound.pm:362
+#: harddrake/sound.pm:334
 #, c-format
 msgid "Sound configuration"
 msgstr "Configuración de sonido"
 
-#: harddrake/sound.pm:364
+#: harddrake/sound.pm:336
 #, c-format
 msgid ""
 "Here you can select an alternative driver (either OSS or ALSA) for your "
@@ -3322,7 +3329,7 @@ msgstr ""
 #. -PO: here the first %s is either "OSS" or "ALSA", 
 #. -PO: the second %s is the name of the current driver
 #. -PO: and the third %s is the name of the default driver
-#: harddrake/sound.pm:369
+#: harddrake/sound.pm:341
 #, fuzzy, c-format
 msgid ""
 "\n"
@@ -3335,7 +3342,7 @@ msgstr ""
 "Actualmente su tarjeta usa el controlador %s\"%s\" (el controlador predet. "
 "para su tarjeta es \"%s\")"
 
-#: harddrake/sound.pm:371
+#: harddrake/sound.pm:343
 #, c-format
 msgid ""
 "OSS (Open Sound System) was the first sound API. It's an OS independent "
@@ -3369,12 +3376,12 @@ msgstr ""
 "- el API nuevo de ALSA que brinda muchas características mejoradas pero "
 "necesita del uso de la biblioteca ALSA.\n"
 
-#: harddrake/sound.pm:385 harddrake/sound.pm:468
+#: harddrake/sound.pm:357 harddrake/sound.pm:455
 #, c-format
 msgid "Driver:"
 msgstr "Controlador:"
 
-#: harddrake/sound.pm:399
+#: harddrake/sound.pm:371
 #, c-format
 msgid ""
 "The old \"%s\" driver is blacklisted.\n"
@@ -3389,12 +3396,12 @@ msgstr ""
 "\n"
 "El controlador nuevo \"%s\" sólo se utilizará en el próximo arranque."
 
-#: harddrake/sound.pm:407
+#: harddrake/sound.pm:379
 #, c-format
 msgid "No open source driver"
 msgstr "No hay controlador de código libre"
 
-#: harddrake/sound.pm:408
+#: harddrake/sound.pm:380
 #, c-format
 msgid ""
 "There's no free driver for your sound card (%s), but there's a proprietary "
@@ -3403,81 +3410,89 @@ msgstr ""
 "No hay controlador libre para su tarjeta de sonido (%s), pero hay uno "
 "propietario en \"%s\"."
 
-#: harddrake/sound.pm:411
+#: harddrake/sound.pm:383
 #, c-format
 msgid "No known driver"
 msgstr "No hay controlador conocido"
 
-#: harddrake/sound.pm:412
+#: harddrake/sound.pm:384
 #, c-format
 msgid "There's no known driver for your sound card (%s)"
 msgstr "No hay un controlador conocido para su tarjeta de sonido (%s)"
 
-#: harddrake/sound.pm:427
+#: harddrake/sound.pm:399
 #, c-format
 msgid "Sound troubleshooting"
 msgstr "Solución de problemas de sonido"
 
 #. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
-#: harddrake/sound.pm:430
+#: harddrake/sound.pm:402
 #, c-format
 msgid ""
-"The classic bug sound tester is to run the following commands:\n"
+"Below are some basic tips to help debug audio problems. For up-to-date "
+"information, visit:\n"
+"\n"
+"http://wiki.openmandriva.org/ (The OpenMandriva Wiki)\n"
+"\n"
+"- General Recommendation: Enable PulseAudio. If you have opted to not to use "
+"PulseAudio, we would strongly advise you enable it. For the vast majority of "
+"desktop use cases, PulseAudio is the recommended and best supported option.\n"
+"\n"
+"- \"kmix\" (KDE), \"gnome-control-center sound\" (GNOME) and \"pauvucontrol"
+"\" (generic) will launch graphical applications to allow you to view your "
+"sound devices and adjust volume levels\n"
 "\n"
 "\n"
-"- \"lspcidrake -v | fgrep -i AUDIO\" will tell you which driver your card "
-"uses\n"
-"by default\n"
+"- \"ps aux | grep pulseaudio\" will check that PulseAudio is running.\n"
 "\n"
-"- \"grep sound-slot /etc/modprobe.conf\" will tell you what driver it\n"
-"currently uses\n"
 "\n"
-"- \"/sbin/lsmod\" will enable you to check if its module (driver) is\n"
-"loaded or not\n"
+"- \"pactl stat\" will check that you can connect to the PulseAudio daemon "
+"correctly.\n"
 "\n"
-"- \"/sbin/chkconfig --list sound\" and \"/sbin/chkconfig --list alsa\" will\n"
-"tell you if sound and alsa services are configured to be run on\n"
-"initlevel 3\n"
 "\n"
-"- \"aumix -q\" will tell you if the sound volume is muted or not\n"
+"- \"pactl list sink-inputs\" will tell you which programs are currently "
+"playing sound via PulseAudio.\n"
 "\n"
-"- \"/sbin/fuser -v /dev/dsp\" will tell which program uses the sound card.\n"
+"\n"
+"- \"systemctl status osspd.service\" will tell you the current state of the "
+"OSS Proxy Daemon. This is used to enable sound from legacy applications "
+"which use the OSS sound API. You should install the \"ossp\" package if you "
+"need this functionality.\n"
+"\n"
+"\n"
+"- \"pacmd ls\" will give you a LOT of debug information about the current "
+"state of your audio.\n"
+"\n"
+"\n"
+"- \"lspcidrake -v | grep -i audio\" will tell you which low-level driver "
+"your card uses by default.\n"
+"\n"
+"\n"
+"- \"/usr/sbin/lsmod | grep snd\" will enable you to check which sound "
+"related kernel modules (drivers) are loaded.\n"
+"\n"
+"\n"
+"- \"alsamixer -c 0\" will give you a text-based mixer to the low level ALSA "
+"mixer controls for first sound card\n"
+"\n"
+"\n"
+"- \"/usr/sbin/fuser -v /dev/snd/pcm* /dev/dsp\" will tell which programs are "
+"currently using the sound card directly (normally this should only show "
+"PulseAudio)\n"
 msgstr ""
-"El probador de sonido clásico va a ejecutar los comandos siguientes:\n"
-"\n"
-"\n"
-"- \"lspcidrake -v | fgrep -i AUDIO\" le dirá qué controlador predet. usa su\n"
-"tarjeta de sonido\n"
-"\n"
-"- \"grep sound-slot /etc/modprobe.conf\n"
-"\" le dirá qué controlador usa la misma\n"
-"en este momento\n"
-"\n"
-"- \"/sbin/lsmod\" le permitirá verificar si su módulo (controlador) está\n"
-"cargado o no\n"
-"\n"
-"- \"/sbin/chkconfig --list sound\" y \"/sbin/chkconfig --list alsa\" le "
-"dirá\n"
-"si los servicios alsa y sonido están configurados para correr en el nivel\n"
-"de ejecución 3\n"
-"\n"
-"- \"aumix -q\" le dirá si el volumen del sonido está mudo o no\n"
-"\n"
-"- \"/sbin/fuser -v /dev/dsp\" le dirá qué programa utiliza la tarjeta de "
-"sonido.\n"
 
-#: harddrake/sound.pm:457
+#: harddrake/sound.pm:444
 #, c-format
 msgid "Let me pick any driver"
 msgstr "Permitirme elegir cualquier controlador"
 
-#: harddrake/sound.pm:460
+#: harddrake/sound.pm:447
 #, c-format
 msgid "Choosing an arbitrary driver"
 msgstr "Eligiendo un controlador arbitrario"
 
 #. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
-#: harddrake/sound.pm:463
+#: harddrake/sound.pm:450
 #, c-format
 msgid ""
 "If you really think that you know which driver is the right one for your "
@@ -3491,27 +3506,27 @@ msgstr ""
 "\n"
 "El controlador corriente para su tarjeta de sonido \"%s\" es \"%s\" "
 
-#: harddrake/v4l.pm:12
+#: harddrake/v4l.pm:10
 #, c-format
 msgid "Auto-detect"
 msgstr "Detección automática"
 
-#: harddrake/v4l.pm:97 harddrake/v4l.pm:285 harddrake/v4l.pm:337
+#: harddrake/v4l.pm:95 harddrake/v4l.pm:283 harddrake/v4l.pm:335
 #, c-format
 msgid "Unknown|Generic"
 msgstr "Desconocido|Genérico"
 
-#: harddrake/v4l.pm:130
+#: harddrake/v4l.pm:128
 #, c-format
 msgid "Unknown|CPH05X (bt878) [many vendors]"
 msgstr "Desconocido|CPH05X (bt878) [muchos fabricantes]"
 
-#: harddrake/v4l.pm:131
+#: harddrake/v4l.pm:129
 #, c-format
 msgid "Unknown|CPH06X (bt878) [many vendors]"
 msgstr "Desconocido|CPH06X (bt878) [muchos fabricantes]"
 
-#: harddrake/v4l.pm:475
+#: harddrake/v4l.pm:473
 #, c-format
 msgid ""
 "For most modern TV cards, the bttv module of the GNU/Linux kernel just auto-"
@@ -3525,75 +3540,75 @@ msgstr ""
 "tarjeta y sintonizador adecuados. Simplemente seleccione los parámetros de "
 "su tarjeta de TV si lo necesita."
 
-#: harddrake/v4l.pm:478
+#: harddrake/v4l.pm:476
 #, c-format
 msgid "Card model:"
 msgstr "Modelo de la tarjeta :"
 
-#: harddrake/v4l.pm:479
+#: harddrake/v4l.pm:477
 #, c-format
 msgid "Tuner type:"
 msgstr "Tipo de sintonizador :"
 
-#: interactive.pm:128 interactive.pm:549 interactive/curses.pm:270
-#: interactive/http.pm:103 interactive/http.pm:156 interactive/stdio.pm:39
-#: interactive/stdio.pm:148 interactive/stdio.pm:149 mygtk2.pm:846
-#: ugtk2.pm:421 ugtk2.pm:519 ugtk2.pm:812 ugtk2.pm:835
+#: interactive.pm:126 interactive.pm:547 interactive/curses.pm:266
+#: interactive/http.pm:99 interactive/http.pm:152 interactive/stdio.pm:35
+#: interactive/stdio.pm:144 interactive/stdio.pm:145 mygtk2.pm:844
+#: ugtk2.pm:418 ugtk2.pm:516 ugtk2.pm:809 ugtk2.pm:832
 #, c-format
 msgid "Ok"
 msgstr "Aceptar"
 
-#: interactive.pm:228 modules/interactive.pm:72 ugtk2.pm:811 wizards.pm:157
+#: interactive.pm:226 modules/interactive.pm:72 ugtk2.pm:808 wizards.pm:156
 #, c-format
 msgid "Yes"
 msgstr "Sí"
 
-#: interactive.pm:228 modules/interactive.pm:72 ugtk2.pm:811 wizards.pm:157
+#: interactive.pm:226 modules/interactive.pm:72 ugtk2.pm:808 wizards.pm:156
 #, c-format
 msgid "No"
 msgstr "No"
 
-#: interactive.pm:262
+#: interactive.pm:260
 #, c-format
 msgid "Choose a file"
 msgstr "Elija un archivo"
 
-#: interactive.pm:387 interactive/gtk.pm:458
+#: interactive.pm:385 interactive/gtk.pm:458
 #, c-format
 msgid "Add"
 msgstr "Agregar"
 
-#: interactive.pm:387 interactive/gtk.pm:458
+#: interactive.pm:385 interactive/gtk.pm:458
 #, c-format
 msgid "Modify"
 msgstr "Modificar"
 
-#: interactive.pm:549 interactive/curses.pm:270 ugtk2.pm:519
+#: interactive.pm:547 interactive/curses.pm:266 ugtk2.pm:516
 #, c-format
 msgid "Finish"
 msgstr "Finalizar"
 
-#: interactive.pm:550 interactive/curses.pm:267 ugtk2.pm:517
+#: interactive.pm:548 interactive/curses.pm:263 ugtk2.pm:514
 #, c-format
 msgid "Previous"
 msgstr "Anterior"
 
-#: interactive/curses.pm:576 ugtk2.pm:872
+#: interactive/curses.pm:572 ugtk2.pm:869
 #, c-format
 msgid "No file chosen"
 msgstr "No se ha especificado ningún archivo"
 
-#: interactive/curses.pm:580 ugtk2.pm:876
+#: interactive/curses.pm:576 ugtk2.pm:873
 #, c-format
 msgid "You have chosen a directory, not a file"
 msgstr "Ha especificado un directorio, no un archivo"
 
-#: interactive/curses.pm:582 ugtk2.pm:878
+#: interactive/curses.pm:578 ugtk2.pm:875
 #, c-format
 msgid "No such directory"
 msgstr "No existe ese directorio"
 
-#: interactive/curses.pm:582 ugtk2.pm:878
+#: interactive/curses.pm:578 ugtk2.pm:875
 #, c-format
 msgid "No such file"
 msgstr "No existe ese archivo"
@@ -3603,17 +3618,17 @@ msgstr "No existe ese archivo"
 msgid "Beware, Caps Lock is enabled"
 msgstr "Atención, está habilitado el bloqueo de mayúsculas"
 
-#: interactive/stdio.pm:29 interactive/stdio.pm:154
+#: interactive/stdio.pm:25 interactive/stdio.pm:150
 #, c-format
 msgid "Bad choice, try again\n"
 msgstr "Elección incorrecta, inténtelo de nuevo\n"
 
-#: interactive/stdio.pm:30 interactive/stdio.pm:155
+#: interactive/stdio.pm:26 interactive/stdio.pm:151
 #, c-format
 msgid "Your choice? (default %s) "
 msgstr "¿Su elección? (por defecto %s)"
 
-#: interactive/stdio.pm:54
+#: interactive/stdio.pm:50
 #, c-format
 msgid ""
 "Entries you'll have to fill:\n"
@@ -3622,37 +3637,37 @@ msgstr ""
 "Entradas que tendrá que rellenar:\n"
 "%s"
 
-#: interactive/stdio.pm:70
+#: interactive/stdio.pm:66
 #, c-format
 msgid "Your choice? (0/1, default `%s') "
 msgstr "¿Su elección? (0/1, por defecto '%s') "
 
-#: interactive/stdio.pm:97
+#: interactive/stdio.pm:93
 #, c-format
 msgid "Button `%s': %s"
 msgstr "Botón `%s': %s"
 
-#: interactive/stdio.pm:98
+#: interactive/stdio.pm:94
 #, c-format
 msgid "Do you want to click on this button?"
 msgstr "¿Desea pulsar este botón?"
 
-#: interactive/stdio.pm:110
+#: interactive/stdio.pm:106
 #, c-format
 msgid "Your choice? (default `%s'%s) "
 msgstr "¿Su elección? (por defecto %s'%s) "
 
-#: interactive/stdio.pm:110
+#: interactive/stdio.pm:106
 #, c-format
 msgid " enter `void' for void entry"
 msgstr "ingrese `void' para una entrada vacía"
 
-#: interactive/stdio.pm:128
+#: interactive/stdio.pm:124
 #, c-format
 msgid "=> There are many things to choose from (%s).\n"
 msgstr "=> Hay muchas cosas para seleccionar (%s).\n"
 
-#: interactive/stdio.pm:131
+#: interactive/stdio.pm:127
 #, c-format
 msgid ""
 "Please choose the first number of the 10-range you wish to edit,\n"
@@ -3663,7 +3678,7 @@ msgstr ""
 "editar, o pulse Intro para continuar.\n"
 "¿Su elección?"
 
-#: interactive/stdio.pm:144
+#: interactive/stdio.pm:140
 #, c-format
 msgid ""
 "=> Notice, a label changed:\n"
@@ -3672,7 +3687,7 @@ msgstr ""
 "=> Aviso, una etiqueta cambió:\n"
 "%s"
 
-#: interactive/stdio.pm:151
+#: interactive/stdio.pm:147
 #, c-format
 msgid "Re-submit"
 msgstr "Reenviar"
@@ -3690,7 +3705,7 @@ msgstr "default:LTR"
 msgid "Andorra"
 msgstr "Andorra"
 
-#: lang.pm:221 timezone.pm:228
+#: lang.pm:221 timezone.pm:241
 #, c-format
 msgid "United Arab Emirates"
 msgstr "Emiratos Árabes Unidos"
@@ -3735,7 +3750,7 @@ msgstr "Angola"
 msgid "Antarctica"
 msgstr "Antártica"
 
-#: lang.pm:230 timezone.pm:273
+#: lang.pm:230 timezone.pm:286
 #, c-format
 msgid "Argentina"
 msgstr "Argentina"
@@ -3745,12 +3760,12 @@ msgstr "Argentina"
 msgid "American Samoa"
 msgstr "Samoa Americana"
 
-#: lang.pm:232 mirror.pm:12 timezone.pm:231
+#: lang.pm:232 mirror.pm:10 timezone.pm:244
 #, c-format
 msgid "Austria"
 msgstr "Austria"
 
-#: lang.pm:233 mirror.pm:11 timezone.pm:269
+#: lang.pm:233 mirror.pm:9 timezone.pm:282
 #, c-format
 msgid "Australia"
 msgstr "Australia"
@@ -3775,12 +3790,12 @@ msgstr "Bosnia Herzegovina"
 msgid "Barbados"
 msgstr "Barbados"
 
-#: lang.pm:238 timezone.pm:213
+#: lang.pm:238 timezone.pm:226
 #, c-format
 msgid "Bangladesh"
 msgstr "Bangladesh"
 
-#: lang.pm:239 mirror.pm:13 timezone.pm:233
+#: lang.pm:239 mirror.pm:11 timezone.pm:246
 #, c-format
 msgid "Belgium"
 msgstr "Bélgica"
@@ -3790,7 +3805,7 @@ msgstr "Bélgica"
 msgid "Burkina Faso"
 msgstr "Burkina Faso"
 
-#: lang.pm:241 timezone.pm:234
+#: lang.pm:241 timezone.pm:247
 #, c-format
 msgid "Bulgaria"
 msgstr "Bulgaria"
@@ -3825,7 +3840,7 @@ msgstr "Brunei Darussalam"
 msgid "Bolivia"
 msgstr "Bolivia"
 
-#: lang.pm:248 mirror.pm:14 timezone.pm:274
+#: lang.pm:248 mirror.pm:12 timezone.pm:287
 #, c-format
 msgid "Brazil"
 msgstr "Brasil"
@@ -3850,7 +3865,7 @@ msgstr "Isla Bouvet"
 msgid "Botswana"
 msgstr "Botswana"
 
-#: lang.pm:253 timezone.pm:232
+#: lang.pm:253 timezone.pm:245
 #, c-format
 msgid "Belarus"
 msgstr "Bielorrusia"
@@ -3860,7 +3875,7 @@ msgstr "Bielorrusia"
 msgid "Belize"
 msgstr "Belice"
 
-#: lang.pm:255 mirror.pm:15 timezone.pm:263
+#: lang.pm:255 mirror.pm:13 timezone.pm:276
 #, c-format
 msgid "Canada"
 msgstr "Canadá"
@@ -3885,7 +3900,7 @@ msgstr "República Centroafricana"
 msgid "Congo (Brazzaville)"
 msgstr "Congo (Brazzaville)"
 
-#: lang.pm:260 mirror.pm:39 timezone.pm:257
+#: lang.pm:260 mirror.pm:37 timezone.pm:270
 #, c-format
 msgid "Switzerland"
 msgstr "Suiza"
@@ -3900,7 +3915,7 @@ msgstr "Costa de Marfil"
 msgid "Cook Islands"
 msgstr "Islas Cook"
 
-#: lang.pm:263 timezone.pm:275
+#: lang.pm:263 timezone.pm:288
 #, c-format
 msgid "Chile"
 msgstr "Chile"
@@ -3910,7 +3925,7 @@ msgstr "Chile"
 msgid "Cameroon"
 msgstr "Camerún"
 
-#: lang.pm:265 timezone.pm:214
+#: lang.pm:265 timezone.pm:227
 #, c-format
 msgid "China"
 msgstr "China"
@@ -3920,7 +3935,7 @@ msgstr "China"
 msgid "Colombia"
 msgstr "Colombia"
 
-#: lang.pm:267 mirror.pm:16
+#: lang.pm:267 mirror.pm:14
 #, c-format
 msgid "Costa Rica"
 msgstr "Costa Rica"
@@ -3950,12 +3965,12 @@ msgstr "Isla Navidad"
 msgid "Cyprus"
 msgstr "Chipre"
 
-#: lang.pm:273 mirror.pm:17 timezone.pm:235
+#: lang.pm:273 mirror.pm:15 timezone.pm:248
 #, c-format
 msgid "Czech Republic"
 msgstr "República Checa"
 
-#: lang.pm:274 mirror.pm:22 timezone.pm:240
+#: lang.pm:274 mirror.pm:20 timezone.pm:253
 #, c-format
 msgid "Germany"
 msgstr "Alemania"
@@ -3965,7 +3980,7 @@ msgstr "Alemania"
 msgid "Djibouti"
 msgstr "Djibuti"
 
-#: lang.pm:276 mirror.pm:18 timezone.pm:236
+#: lang.pm:276 mirror.pm:16 timezone.pm:249
 #, c-format
 msgid "Denmark"
 msgstr "Dinamarca"
@@ -3990,7 +4005,7 @@ msgstr "Argelia"
 msgid "Ecuador"
 msgstr "Ecuador"
 
-#: lang.pm:281 mirror.pm:19 timezone.pm:237
+#: lang.pm:281 mirror.pm:17 timezone.pm:250
 #, c-format
 msgid "Estonia"
 msgstr "Estonia"
@@ -4010,7 +4025,7 @@ msgstr "Sahara Oeste"
 msgid "Eritrea"
 msgstr "Eritrea"
 
-#: lang.pm:285 mirror.pm:37 timezone.pm:255
+#: lang.pm:285 mirror.pm:35 timezone.pm:268
 #, c-format
 msgid "Spain"
 msgstr "España"
@@ -4020,7 +4035,7 @@ msgstr "España"
 msgid "Ethiopia"
 msgstr "Etiopía"
 
-#: lang.pm:287 mirror.pm:20 timezone.pm:238
+#: lang.pm:287 mirror.pm:18 timezone.pm:251
 #, c-format
 msgid "Finland"
 msgstr "Finlandia"
@@ -4045,7 +4060,7 @@ msgstr "Micronesia"
 msgid "Faroe Islands"
 msgstr "Islas Feroe"
 
-#: lang.pm:292 mirror.pm:21 timezone.pm:239
+#: lang.pm:292 mirror.pm:19 timezone.pm:252
 #, c-format
 msgid "France"
 msgstr "Francia"
@@ -4055,7 +4070,7 @@ msgstr "Francia"
 msgid "Gabon"
 msgstr "Gabón"
 
-#: lang.pm:294 timezone.pm:259
+#: lang.pm:294 timezone.pm:272
 #, c-format
 msgid "United Kingdom"
 msgstr "Reino Unido"
@@ -4110,7 +4125,7 @@ msgstr "Guadalupe"
 msgid "Equatorial Guinea"
 msgstr "Guinea Ecuatorial"
 
-#: lang.pm:305 mirror.pm:23 timezone.pm:241
+#: lang.pm:305 mirror.pm:21 timezone.pm:254
 #, c-format
 msgid "Greece"
 msgstr "Grecia"
@@ -4120,7 +4135,7 @@ msgstr "Grecia"
 msgid "South Georgia and the South Sandwich Islands"
 msgstr "Islas Georgia del Sur y Sandwich del Sur"
 
-#: lang.pm:307 timezone.pm:264
+#: lang.pm:307 timezone.pm:277
 #, c-format
 msgid "Guatemala"
 msgstr "Guatemala"
@@ -4165,27 +4180,27 @@ msgstr "Croacia"
 msgid "Haiti"
 msgstr "Haití"
 
-#: lang.pm:316 mirror.pm:24 timezone.pm:242
+#: lang.pm:316 mirror.pm:22 timezone.pm:255
 #, c-format
 msgid "Hungary"
 msgstr "Hungría"
 
-#: lang.pm:317 timezone.pm:217
+#: lang.pm:317 timezone.pm:230
 #, c-format
 msgid "Indonesia"
 msgstr "Indonesia"
 
-#: lang.pm:318 mirror.pm:25 timezone.pm:243
+#: lang.pm:318 mirror.pm:23 timezone.pm:256
 #, c-format
 msgid "Ireland"
 msgstr "Irlanda"
 
-#: lang.pm:319 mirror.pm:26 timezone.pm:219
+#: lang.pm:319 mirror.pm:24 timezone.pm:232
 #, c-format
 msgid "Israel"
 msgstr "Israel"
 
-#: lang.pm:320 timezone.pm:216
+#: lang.pm:320 timezone.pm:229
 #, c-format
 msgid "India"
 msgstr "India"
@@ -4200,7 +4215,7 @@ msgstr "Territorio Británico del Océano Índico"
 msgid "Iraq"
 msgstr "Iraq"
 
-#: lang.pm:323 timezone.pm:218
+#: lang.pm:323 timezone.pm:231
 #, c-format
 msgid "Iran"
 msgstr "Irán"
@@ -4210,7 +4225,7 @@ msgstr "Irán"
 msgid "Iceland"
 msgstr "Islandia"
 
-#: lang.pm:325 mirror.pm:27 timezone.pm:244
+#: lang.pm:325 mirror.pm:25 timezone.pm:257
 #, c-format
 msgid "Italy"
 msgstr "Italia"
@@ -4225,7 +4240,7 @@ msgstr "Jamaica"
 msgid "Jordan"
 msgstr "Jordania"
 
-#: lang.pm:328 mirror.pm:28 timezone.pm:220
+#: lang.pm:328 mirror.pm:26 timezone.pm:233
 #, c-format
 msgid "Japan"
 msgstr "Japón"
@@ -4265,7 +4280,7 @@ msgstr "Saint Kitts y Nevis"
 msgid "Korea (North)"
 msgstr "Corea (del Norte)"
 
-#: lang.pm:336 timezone.pm:221
+#: lang.pm:336 timezone.pm:234
 #, c-format
 msgid "Korea"
 msgstr "Corea"
@@ -4320,12 +4335,12 @@ msgstr "Liberia"
 msgid "Lesotho"
 msgstr "Lesoto"
 
-#: lang.pm:347 timezone.pm:245
+#: lang.pm:347 timezone.pm:258
 #, c-format
 msgid "Lithuania"
 msgstr "Lituania"
 
-#: lang.pm:348 timezone.pm:246
+#: lang.pm:348 timezone.pm:259
 #, c-format
 msgid "Luxembourg"
 msgstr "Luxemburgo"
@@ -4425,12 +4440,12 @@ msgstr "Maldivas"
 msgid "Malawi"
 msgstr "Malawi"
 
-#: lang.pm:368 timezone.pm:265
+#: lang.pm:368 timezone.pm:278
 #, c-format
 msgid "Mexico"
 msgstr "México"
 
-#: lang.pm:369 timezone.pm:222
+#: lang.pm:369 timezone.pm:235
 #, c-format
 msgid "Malaysia"
 msgstr "Malasia"
@@ -4470,12 +4485,12 @@ msgstr "Nigeria"
 msgid "Nicaragua"
 msgstr "Nicaragua"
 
-#: lang.pm:377 mirror.pm:29 timezone.pm:247
+#: lang.pm:377 mirror.pm:27 timezone.pm:260
 #, c-format
 msgid "Netherlands"
 msgstr "Holanda"
 
-#: lang.pm:378 mirror.pm:31 timezone.pm:248
+#: lang.pm:378 mirror.pm:29 timezone.pm:261
 #, c-format
 msgid "Norway"
 msgstr "Noruega"
@@ -4495,7 +4510,7 @@ msgstr "Nauru"
 msgid "Niue"
 msgstr "Niue"
 
-#: lang.pm:382 mirror.pm:30 timezone.pm:270
+#: lang.pm:382 mirror.pm:28 timezone.pm:283
 #, c-format
 msgid "New Zealand"
 msgstr "Nueva Zelanda"
@@ -4525,7 +4540,7 @@ msgstr "Polinesia Francesa"
 msgid "Papua New Guinea"
 msgstr "Papúa Nueva Guinea"
 
-#: lang.pm:388 timezone.pm:223
+#: lang.pm:388 timezone.pm:236
 #, c-format
 msgid "Philippines"
 msgstr "Filipinas"
@@ -4535,7 +4550,7 @@ msgstr "Filipinas"
 msgid "Pakistan"
 msgstr "Pakistán"
 
-#: lang.pm:390 mirror.pm:32 timezone.pm:249
+#: lang.pm:390 mirror.pm:30 timezone.pm:262
 #, c-format
 msgid "Poland"
 msgstr "Polonia"
@@ -4560,7 +4575,7 @@ msgstr "Puerto Rico"
 msgid "Palestine"
 msgstr "Palestina"
 
-#: lang.pm:395 mirror.pm:33 timezone.pm:250
+#: lang.pm:395 mirror.pm:31 timezone.pm:263
 #, c-format
 msgid "Portugal"
 msgstr "Portugal"
@@ -4585,12 +4600,12 @@ msgstr "Qatar"
 msgid "Reunion"
 msgstr "Reunión"
 
-#: lang.pm:400 timezone.pm:251
+#: lang.pm:400 timezone.pm:264
 #, c-format
 msgid "Romania"
 msgstr "Rumanía"
 
-#: lang.pm:401 mirror.pm:34
+#: lang.pm:401 mirror.pm:32
 #, c-format
 msgid "Russia"
 msgstr "Rusia"
@@ -4620,12 +4635,12 @@ msgstr "Seychelles"
 msgid "Sudan"
 msgstr "Sudán"
 
-#: lang.pm:407 mirror.pm:38 timezone.pm:256
+#: lang.pm:407 mirror.pm:36 timezone.pm:269
 #, c-format
 msgid "Sweden"
 msgstr "Suecia"
 
-#: lang.pm:408 timezone.pm:224
+#: lang.pm:408 timezone.pm:237
 #, c-format
 msgid "Singapore"
 msgstr "Singapur"
@@ -4635,7 +4650,7 @@ msgstr "Singapur"
 msgid "Saint Helena"
 msgstr "Santa Helena"
 
-#: lang.pm:410 timezone.pm:254
+#: lang.pm:410 timezone.pm:267
 #, c-format
 msgid "Slovenia"
 msgstr "Eslovenia"
@@ -4645,7 +4660,7 @@ msgstr "Eslovenia"
 msgid "Svalbard and Jan Mayen Islands"
 msgstr "Islas Svalbard e Islas Jan Mayen"
 
-#: lang.pm:412 mirror.pm:35 timezone.pm:253
+#: lang.pm:412 mirror.pm:33 timezone.pm:266
 #, c-format
 msgid "Slovakia"
 msgstr "Eslovaquia"
@@ -4715,7 +4730,7 @@ msgstr "Territorios Franceses del Sur"
 msgid "Togo"
 msgstr "Togo"
 
-#: lang.pm:426 mirror.pm:41 timezone.pm:226
+#: lang.pm:426 mirror.pm:39 timezone.pm:239
 #, c-format
 msgid "Thailand"
 msgstr "Tailandia"
@@ -4750,7 +4765,7 @@ msgstr "Tunicia"
 msgid "Tonga"
 msgstr "Tonga"
 
-#: lang.pm:433 timezone.pm:227
+#: lang.pm:433 timezone.pm:240
 #, c-format
 msgid "Turkey"
 msgstr "Turquía"
@@ -4765,17 +4780,17 @@ msgstr "Trinidad y Tobago"
 msgid "Tuvalu"
 msgstr "Tuvalu"
 
-#: lang.pm:436 mirror.pm:40 timezone.pm:225
+#: lang.pm:436 mirror.pm:38 timezone.pm:238
 #, c-format
 msgid "Taiwan"
 msgstr "Taiwán"
 
-#: lang.pm:437 timezone.pm:210
+#: lang.pm:437 timezone.pm:223
 #, c-format
 msgid "Tanzania"
 msgstr "Tanzania"
 
-#: lang.pm:438 timezone.pm:258
+#: lang.pm:438 timezone.pm:271
 #, c-format
 msgid "Ukraine"
 msgstr "Ucrania"
@@ -4790,7 +4805,7 @@ msgstr "Uganda"
 msgid "United States Minor Outlying Islands"
 msgstr "Islas Circundantes Menores de los Estados Unidos"
 
-#: lang.pm:441 mirror.pm:42 timezone.pm:266
+#: lang.pm:441 mirror.pm:40 timezone.pm:279
 #, c-format
 msgid "United States"
 msgstr "Estados Unidos"
@@ -4860,7 +4875,7 @@ msgstr "Yemen"
 msgid "Mayotte"
 msgstr "Mayotte"
 
-#: lang.pm:455 mirror.pm:36 timezone.pm:209
+#: lang.pm:455 mirror.pm:34 timezone.pm:222
 #, c-format
 msgid "South Africa"
 msgstr "Sudáfrica"
@@ -4875,12 +4890,12 @@ msgstr "Zambia"
 msgid "Zimbabwe"
 msgstr "Zimbaue"
 
-#: lang.pm:1227
+#: lang.pm:1226
 #, c-format
 msgid "Welcome to %s"
 msgstr "Bienvenido a %s"
 
-#: lvm.pm:92
+#: lvm.pm:89
 #, c-format
 msgid "Moving used physical extents to other physical volumes failed"
 msgstr "Falló el movimiento de espacio físico a otros volúmenes físicos"
@@ -4901,85 +4916,85 @@ msgid "The bootloader can't handle /boot on multiple physical volumes"
 msgstr ""
 "El cargador de arranque no puede manejar /boot en múltiples volúmenes físicos"
 
-#: messages.pm:11
-#, c-format
+#: messages.pm:8
+#, fuzzy, c-format
 msgid ""
 "Introduction\n"
 "\n"
-"The operating system and the different components available in the Mandriva "
-"Linux distribution \n"
+"The operating system and the different components available in the "
+"OpenMandriva Lx distribution\n"
 "shall be called the \"Software Products\" hereafter. The Software Products "
-"include, but are not \n"
+"include, but are not\n"
 "restricted to, the set of programs, methods, rules and documentation related "
-"to the operating \n"
+"to the operating\n"
 "system and the different components of the OpenMandriva Lx distribution, and "
-"any applications \n"
-"distributed with these products provided by Mandriva's licensors or "
+"any applications\n"
+"distributed with these products provided by OpenMandriva's licensors or "
 "suppliers.\n"
 "\n"
 "\n"
 "1. License Agreement\n"
 "\n"
 "Please read this document carefully. This document is a license agreement "
-"between you and  \n"
-"Mandriva S.A. which applies to the Software Products.\n"
+"between you and\n"
+"the OpenMandriva Association which applies to the Software Products.\n"
 "By installing, duplicating or using any of the Software Products in any "
-"manner, you explicitly \n"
+"manner, you explicitly\n"
 "accept and fully agree to conform to the terms and conditions of this "
-"License. \n"
+"License.\n"
 "If you disagree with any portion of the License, you are not allowed to "
-"install, duplicate or use \n"
-"the Software Products. \n"
+"install, duplicate or use\n"
+"the Software Products.\n"
 "Any attempt to install, duplicate or use the Software Products in a manner "
-"which does not comply \n"
+"which does not comply\n"
 "with the terms and conditions of this License is void and will terminate "
-"your rights under this \n"
+"your rights under this\n"
 "License. Upon termination of the License,  you must immediately destroy all "
-"copies of the \n"
+"copies of the\n"
 "Software Products.\n"
 "\n"
 "\n"
 "2. Limited Warranty\n"
 "\n"
 "The Software Products and attached documentation are provided \"as is\", "
-"with no warranty, to the \n"
+"with no warranty, to the\n"
 "extent permitted by law.\n"
-"Neither Mandriva S.A. nor its licensors or suppliers will, in any "
-"circumstances and to the extent \n"
-"permitted by law, be liable for any special, incidental, direct or indirect "
-"damages whatsoever \n"
-"(including without limitation damages for loss of business, interruption of "
-"business, financial \n"
+"Neither the OpenMandriva Association nor its licensors or suppliers will, in "
+"any circumstances\n"
+"and to the extent permitted by law, be liable for any special, incidental, "
+"direct or indirect damages\n"
+"whatsoever (including without limitation damages for loss of business, "
+"interruption of business, financial\n"
 "loss, legal fees and penalties resulting from a court judgment, or any other "
-"consequential loss) \n"
+"consequential loss)\n"
 "arising out of  the use or inability to use the Software Products, even if "
-"Mandriva S.A. or its \n"
-"licensors or suppliers have been advised of the possibility or occurrence of "
-"such damages.\n"
+"the OpenMandriva Association\n"
+"or its licensors or suppliers have been advised of the possibility or "
+"occurrence of such damages.\n"
 "\n"
 "LIMITED LIABILITY LINKED TO POSSESSING OR USING PROHIBITED SOFTWARE IN SOME "
 "COUNTRIES\n"
 "\n"
-"To the extent permitted by law, neither Mandriva S.A. nor its licensors, "
-"suppliers or\n"
+"To the extent permitted by law, neither the OpenMandriva Association nor its "
+"licensors, suppliers or\n"
 "distributors will, in any circumstances, be liable for any special, "
-"incidental, direct or indirect \n"
+"incidental, direct or indirect\n"
 "damages whatsoever (including without limitation damages for loss of "
-"business, interruption of \n"
+"business, interruption of\n"
 "business, financial loss, legal fees and penalties resulting from a court "
-"judgment, or any \n"
+"judgment, or any\n"
 "other consequential loss) arising out of the possession and use of software "
-"components or \n"
-"arising out of  downloading software components from one of OpenMandriva Lx "
-"sites which are \n"
+"components or\n"
+"arising out of  downloading software components from one of OpenMandriva GNU/"
+"Linux sites which are\n"
 "prohibited or restricted in some countries by local laws.\n"
 "This limited liability applies to, but is not restricted to, the strong "
-"cryptography components \n"
+"cryptography components\n"
 "included in the Software Products.\n"
 "However, because some jurisdictions do not allow the exclusion or limitation "
-"or liability for \n"
+"or liability for\n"
 "consequential or incidental damages, the above limitation may not apply to "
-"you.  \n"
+"you.\n"
 "%s\n"
 "\n"
 "3. The GPL License and Related Licenses\n"
@@ -4987,46 +5002,46 @@ msgid ""
 "The Software Products consist of components created by different persons or "
 "entities. %s\n"
 "Most of these licenses allow you to use, duplicate, adapt or redistribute "
-"the components which \n"
+"the components which\n"
 "they cover. Please read carefully the terms and conditions of the license "
-"agreement for each component \n"
+"agreement for each component\n"
 "before using any component. Any question on a component license should be "
-"addressed to the component \n"
-"licensor or supplier and not to Mandriva.\n"
-"The programs developed by Mandriva S.A. are governed by the GPL License. "
-"Documentation written \n"
-"by Mandriva S.A. is governed by a specific license. Please refer to the "
-"documentation for \n"
+"addressed to the component\n"
+"licensor or supplier and not to the OpenMandriva Association.\n"
+"The programs developed by OpenMandriva are governed by the GPL License. "
+"Documentation written\n"
+"by OpenMandriva is governed by a specific license. Please refer to the "
+"documentation for\n"
 "further details.\n"
 "\n"
 "\n"
 "4. Intellectual Property Rights\n"
 "\n"
 "All rights to the components of the Software Products belong to their "
-"respective authors and are \n"
+"respective authors and are\n"
 "protected by intellectual property and copyright laws applicable to software "
 "programs.\n"
-"Mandriva S.A. and its suppliers and licensors reserves their rights to "
-"modify or adapt the Software \n"
+"OpenMandriva and its suppliers and licensors reserves their rights to modify "
+"or adapt the Software\n"
 "Products, as a whole or in parts, by all means and for all purposes.\n"
-"\"Mandriva\", \"OpenMandriva Lx\" and associated logos are trademarks of "
-"Mandriva S.A.  \n"
+"\"OpenMandriva\", \"OpenMandriva GNU/Linux\", \"OpenMandriva Lx\", and "
+"associated logos are trademarks of the OpenMandriva association.\n"
 "\n"
 "\n"
-"5. Governing Laws \n"
+"5. Governing Laws\n"
 "\n"
 "If any portion of this agreement is held void, illegal or inapplicable by a "
-"court judgment, this \n"
+"court judgment, this\n"
 "portion is excluded from this contract. You remain bound by the other "
-"applicable sections of the \n"
+"applicable sections of the\n"
 "agreement.\n"
 "The terms and conditions of this License are governed by the Laws of "
 "France.\n"
 "All disputes on the terms of this license will preferably be settled out of "
-"court. As a last \n"
+"court. As a last\n"
 "resort, the dispute will be referred to the appropriate Courts of Law of "
 "Paris - France.\n"
-"For any question on this document, please contact Mandriva S.A."
+"For any question on this document, please contact OpenMandriva."
 msgstr ""
 "EL PRESENTE TEXTO ES UNA TRADUCCIÓN A TÍTULO EXCLUSIVAMENTE\n"
 "INFORMATIVO DE LOS TÉRMINOS DE LA LICENCIA DE OpenMandriva Lx. EN\n"
@@ -5153,32 +5168,32 @@ msgstr ""
 "póngase en contacto con Mandriva S.A."
 
 #. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
-#: messages.pm:90
-#, c-format
+#: messages.pm:87
+#, fuzzy, c-format
 msgid ""
 "You agree not to (i) sell, export, re-export, transfer, divert, disclose "
-"technical data, or \n"
+"technical data, or\n"
 "dispose of, any Software to any person, entity, or destination prohibited by "
-"US export laws \n"
+"US export laws\n"
 "or regulations including, without limitation, Cuba, Iran, North Korea, Sudan "
-"and Syria; or \n"
+"and Syria; or\n"
 "(ii) use any Software for any use prohibited by the laws or regulations of "
 "the United States.\n"
 "\n"
-"U.S. GOVERNMENT RESTRICTED RIGHTS. \n"
+"U.S. GOVERNMENT RESTRICTED RIGHTS.\n"
 "\n"
 "The Software Products and any accompanying documentation are and shall be "
-"deemed to be \n"
+"deemed to be\n"
 "\"commercial computer software\" and \"commercial computer software "
-"documentation,\" respectively, \n"
+"documentation,\" respectively,\n"
 "as defined in DFAR 252.227-7013 and as described in FAR 12.212. Any use, "
-"modification, reproduction, \n"
+"modification, reproduction,\n"
 "release, performance, display or disclosure of the Software and any "
-"accompanying documentation \n"
+"accompanying documentation\n"
 "by the United States Government shall be governed solely by the terms of "
-"this Agreement and any \n"
+"this Agreement and any\n"
 "other applicable licence agreements and shall be prohibited except to the "
-"extent expressly permitted \n"
+"extent expressly permitted\n"
 "by the terms of this Agreement."
 msgstr ""
 "You agree not to (i) sell, export, re-export, transfer, divert, disclose "
@@ -5206,13 +5221,13 @@ msgstr ""
 "extent expressly permitted \n"
 "by the terms of this Agreement."
 
-#: messages.pm:104
-#, c-format
+#: messages.pm:101
+#, fuzzy, c-format
 msgid ""
 "Most of these components, but excluding the applications and software "
-"provided by Google Inc. or \n"
+"provided by Google Inc. or\n"
 "its subsidiaries (\"Google Software\"), are governed under the terms and "
-"conditions of the GNU \n"
+"conditions of the GNU\n"
 "General Public Licence, hereafter called \"GPL\", or of similar licenses."
 msgstr ""
 "La mayoría de estos componentes, excluyendo las aplicaciones y el software "
@@ -5221,17 +5236,17 @@ msgstr ""
 "condiciones\n"
 "de la GNU General Public Licence, en adelante \"GPL\", o licencias similares."
 
-#: messages.pm:107
-#, c-format
+#: messages.pm:104
+#, fuzzy, c-format
 msgid ""
 "Most of these components are governed under the terms and conditions of the "
-"GNU \n"
+"GNU\n"
 "General Public Licence, hereafter called \"GPL\", or of similar licenses."
 msgstr ""
 "La mayoría de estos componentes están sujetos a los términos y condiciones "
 "de la GNU General Public Licence, en adelante \"GPL\", o licencias similares"
 
-#: messages.pm:112
+#: messages.pm:109
 #, c-format
 msgid ""
 "Warning: Free Software may not necessarily be patent free, and some Free\n"
@@ -5251,7 +5266,7 @@ msgstr ""
 "para más detalles). Si no está seguro si una patente puede o no aplicarse\n"
 "a Usted, por favor consulte las leyes locales."
 
-#: messages.pm:120
+#: messages.pm:117
 #, c-format
 msgid ""
 "6. Additional provisions applicable to those Software Products provided by "
@@ -5347,23 +5362,23 @@ msgstr ""
 "and may enforce its terms."
 
 #. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
-#: messages.pm:150
-#, c-format
+#: messages.pm:147
+#, fuzzy, c-format
 msgid ""
 "Congratulations, installation is complete.\n"
 "Remove the boot media and press Enter to reboot.\n"
 "\n"
 "\n"
-"For information on fixes which are available for this release of Mandriva "
-"Linux,\n"
-"consult the Errata available from:\n"
+"For information on fixes which are available for this release of "
+"OpenMandriva Lx,\n"
+"consult the Errata available at our wiki:\n"
 "\n"
 "\n"
 "%s\n"
 "\n"
 "\n"
-"Information on configuring your system is available in the post\n"
-"install chapter of the Official OpenMandriva Lx User's Guide."
+"Information on configuring your newly installed OpenMandriva Lx system\n"
+"is also available at our wiki."
 msgstr ""
 "Felicidades, la instalación está completa.\n"
 "Extraiga el soporte de arranque y presione Intro para reiniciar.\n"
@@ -5422,18 +5437,18 @@ msgid "Installing driver for USB controller"
 msgstr "Instalando controlador para el USB"
 
 #: modules/interactive.pm:84
-#, c-format
-msgid "Installing driver for firewire controller %s"
+#, fuzzy, c-format
+msgid "Installing driver for firewire controller \"%s\""
 msgstr "Instalando controlador para el firewire %s"
 
 #: modules/interactive.pm:85
-#, c-format
-msgid "Installing driver for hard disk drive controller %s"
+#, fuzzy, c-format
+msgid "Installing driver for hard disk drive controller \"%s\""
 msgstr "Instalando controlador para la unidad de disco duro %s"
 
 #: modules/interactive.pm:86
-#, c-format
-msgid "Installing driver for ethernet controller %s"
+#, fuzzy, c-format
+msgid "Installing driver for ethernet controller \"%s\""
 msgstr "Instalando controlador para la tarjeta ethernet %s"
 
 #. -PO: the first %s is the card type (scsi, network, sound,...)
@@ -5517,32 +5532,37 @@ msgstr ""
 "Error al cargar el módulo %s.\n"
 "¿Desea intentarlo de nuevo con otros parámetros?"
 
-#: mygtk2.pm:1540 mygtk2.pm:1541
+#: mygtk2.pm:1227
+#, fuzzy, c-format
+msgid "Are you sure you want to quit?"
+msgstr "¿Está seguro de que desea eliminar este punto de montaje?"
+
+#: mygtk2.pm:1569 mygtk2.pm:1570
 #, c-format
 msgid "Password is trivial to guess"
 msgstr "La contraseña es muy fácil de adivinar"
 
-#: mygtk2.pm:1542
+#: mygtk2.pm:1571
 #, c-format
 msgid "Password should be resistant to basic attacks"
 msgstr "La contraseña debería resistir ataques básicos"
 
-#: mygtk2.pm:1543 mygtk2.pm:1544
+#: mygtk2.pm:1572 mygtk2.pm:1573
 #, c-format
 msgid "Password seems secure"
 msgstr "La contraseña parece segura"
 
-#: partition_table.pm:428
+#: partition_table.pm:437
 #, c-format
 msgid "mount failed: "
 msgstr "mount falló: "
 
-#: partition_table.pm:540
+#: partition_table.pm:549
 #, c-format
 msgid "Extended partition not supported on this platform"
 msgstr "La partición extendida no está disponible en esta plataforma"
 
-#: partition_table.pm:558
+#: partition_table.pm:567
 #, c-format
 msgid ""
 "You have a hole in your partition table but I cannot use it.\n"
@@ -5553,7 +5573,7 @@ msgstr ""
 "La única solución es desplazar sus particiones primarias para que el hueco "
 "esté después de las particiones extendidas"
 
-#: partition_table/raw.pm:288
+#: partition_table/raw.pm:293
 #, c-format
 msgid ""
 "Something bad is happening on your hard disk drive. \n"
@@ -5566,22 +5586,32 @@ msgstr ""
 "Esto significa que escribir cualquier cosa en el disco terminará produciendo "
 "datos aleatorios, corruptos."
 
-#: pkgs.pm:252 pkgs.pm:255 pkgs.pm:268
+#: pkgs.pm:257
+#, c-format
+msgid "Gathering system information..."
+msgstr ""
+
+#: pkgs.pm:266
+#, c-format
+msgid "Preparing for installation..."
+msgstr ""
+
+#: pkgs.pm:276 pkgs.pm:279 pkgs.pm:295
 #, c-format
 msgid "Unused packages removal"
 msgstr "Quitar paquetes no usados"
 
-#: pkgs.pm:252
+#: pkgs.pm:276
 #, c-format
 msgid "Finding unused hardware packages..."
 msgstr "Encontrando paquetes de hardware no usados..."
 
-#: pkgs.pm:255
+#: pkgs.pm:279
 #, c-format
 msgid "Finding unused localization packages..."
 msgstr "Encontrando paquetes de localización no usados..."
 
-#: pkgs.pm:269
+#: pkgs.pm:296
 #, c-format
 msgid ""
 "We have detected that some packages are not needed for your system "
@@ -5590,27 +5620,32 @@ msgstr ""
 "Se detectaron algunos paquetes que no son necesarios para la configuración "
 "de su sistema."
 
-#: pkgs.pm:270
+#: pkgs.pm:297
 #, c-format
 msgid "We will remove the following packages, unless you choose otherwise:"
 msgstr "A menos que elija lo contrario, se quitarán los paquetes siguientes:"
 
-#: pkgs.pm:273 pkgs.pm:274
+#: pkgs.pm:300 pkgs.pm:301
 #, c-format
 msgid "Unused hardware support"
 msgstr "Soporte para hardware no utilizado"
 
-#: pkgs.pm:277 pkgs.pm:278
+#: pkgs.pm:304 pkgs.pm:305
 #, c-format
 msgid "Unused localization"
 msgstr "Idiomas no utilizados"
 
-#: raid.pm:43
+#: pkgs.pm:312
+#, fuzzy, c-format
+msgid "Removing packages (this may take some time)..."
+msgstr "Quitando paquetes..."
+
+#: raid.pm:40
 #, c-format
 msgid "Cannot add a partition to _formatted_ RAID %s"
 msgstr "No se puede añadir una partición al RAID %s_ya formateado_"
 
-#: raid.pm:166
+#: raid.pm:163
 #, c-format
 msgid "Not enough partitions for RAID level %d\n"
 msgstr "No hay suficientes particiones para un RAID de nivel %d\n"
@@ -5653,28 +5688,28 @@ msgid "Your scanner(s) will not be available for non-root users."
 msgstr ""
 "Sus escáneres no estarán disponibles para los usuarios no privilegiados."
 
-#: security/help.pm:11
+#: security/help.pm:10
 #, c-format
 msgid "Accept bogus IPv4 error messages."
 msgstr "Aceptar mensajes de error IPv4 simulados."
 
-#: security/help.pm:13
+#: security/help.pm:12
 #, c-format
 msgid "Accept broadcasted icmp echo."
 msgstr "Aceptar eco ICMP por difusión."
 
-#: security/help.pm:15
+#: security/help.pm:14
 #, c-format
 msgid "Accept icmp echo."
 msgstr "Aceptar eco ICMP."
 
-#: security/help.pm:17
+#: security/help.pm:16
 #, c-format
 msgid "Allow autologin."
 msgstr "Permitir conexión automática."
 
 #. -PO: here "ALL" is a value in a pull-down menu; translate it the same as "ALL" is
-#: security/help.pm:21
+#: security/help.pm:20
 #, c-format
 msgid ""
 "If set to \"ALL\", /etc/issue and /etc/issue.net are allowed to exist.\n"
@@ -5689,22 +5724,22 @@ msgstr ""
 "\n"
 "De lo contrario sólo se permite /etc/issue."
 
-#: security/help.pm:27
+#: security/help.pm:26
 #, c-format
 msgid "Allow reboot by the console user."
 msgstr "Permitir reinicio por parte del usuario de la consola."
 
-#: security/help.pm:29
+#: security/help.pm:28
 #, c-format
 msgid "Allow remote root login."
 msgstr "Permitir conexión remota del administrador del sistema."
 
-#: security/help.pm:31
+#: security/help.pm:30
 #, c-format
 msgid "Allow direct root login."
 msgstr "Permitir conexión directa del administrador del sistema."
 
-#: security/help.pm:33
+#: security/help.pm:32
 #, c-format
 msgid ""
 "Allow the list of users on the system on display managers (kdm and gdm)."
@@ -5712,7 +5747,7 @@ msgstr ""
 "Permitir la lista de usuarios del sistema en administradores de conexión "
 "(kdm y gdm)."
 
-#: security/help.pm:35
+#: security/help.pm:34
 #, c-format
 msgid ""
 "Allow to export display when\n"
@@ -5725,7 +5760,7 @@ msgstr ""
 "\n"
 "Consulte pam_xauth(8) para más detalles.'"
 
-#: security/help.pm:40
+#: security/help.pm:39
 #, c-format
 msgid ""
 "Allow X connections:\n"
@@ -5744,7 +5779,7 @@ msgstr ""
 "\n"
 "- NINGUNO (ninguna conexión)."
 
-#: security/help.pm:48
+#: security/help.pm:47
 #, c-format
 msgid ""
 "The argument specifies if clients are authorized to connect\n"
@@ -5754,7 +5789,7 @@ msgstr ""
 "al servidor X en el puerto TCP 6000 o no."
 
 #. -PO: here "ALL", "Local" and "None" are values in a pull-down menu; translate them the same as they're
-#: security/help.pm:53
+#: security/help.pm:52
 #, c-format
 msgid ""
 "Authorize:\n"
@@ -5766,8 +5801,8 @@ msgid ""
 "\n"
 "- none if set to \"None\".\n"
 "\n"
-"To authorize the services you need, use /etc/hosts.allow (see hosts.allow"
-"(5))."
+"To authorize the services you need, use /etc/hosts.allow (see hosts."
+"allow(5))."
 msgstr ""
 "Autorizar:\n"
 "\n"
@@ -5781,7 +5816,7 @@ msgstr ""
 "Para autorizar los servicios que necesita, use /etc/hosts.allow (ver hosts."
 "allow(5))."
 
-#: security/help.pm:63
+#: security/help.pm:62
 #, c-format
 msgid ""
 "If SERVER_LEVEL (or SECURE_LEVEL if absent)\n"
@@ -5802,7 +5837,7 @@ msgstr ""
 "añadir un servicio si está presente en el archivo\n"
 "durante la instalación de paquetes."
 
-#: security/help.pm:72
+#: security/help.pm:71
 #, c-format
 msgid ""
 "Enable crontab and at for users.\n"
@@ -5815,12 +5850,12 @@ msgstr ""
 "Poner los usuarios permitidos en /etc/cron.allow y /etc/at.allow\n"
 "(ver man at(1) y crontab(1))."
 
-#: security/help.pm:77
+#: security/help.pm:76
 #, c-format
 msgid "Enable syslog reports to console 12"
 msgstr "Habilitar reportes de syslog en la consola 12"
 
-#: security/help.pm:79
+#: security/help.pm:78
 #, c-format
 msgid ""
 "Enable name resolution spoofing protection.  If\n"
@@ -5829,32 +5864,32 @@ msgstr ""
 "Habilitar protección de usurpación de resolución de nombres. Si\n"
 "\"%s\" es verdadero, también reportar a syslog."
 
-#: security/help.pm:80
+#: security/help.pm:79
 #, c-format
 msgid "Security Alerts:"
 msgstr "Alertas de seguridad:"
 
-#: security/help.pm:82
+#: security/help.pm:81
 #, c-format
 msgid "Enable IP spoofing protection."
 msgstr "Habilitar protección contra usurpación de IP"
 
-#: security/help.pm:84
+#: security/help.pm:83
 #, c-format
 msgid "Enable libsafe if libsafe is found on the system."
 msgstr "Habilitar libsafe si es que se encuentra en el sistema."
 
-#: security/help.pm:86
+#: security/help.pm:85
 #, c-format
 msgid "Enable the logging of IPv4 strange packets."
 msgstr "Habilitar registro de paquetes IPv4 extraños."
 
-#: security/help.pm:88
+#: security/help.pm:87
 #, c-format
 msgid "Enable msec hourly security check."
 msgstr "Habilitar las verificaciones de msec todas las horas."
 
-#: security/help.pm:90
+#: security/help.pm:89
 #, c-format
 msgid ""
 "Enable su only from members of the wheel group. If set to no, allows su from "
@@ -5863,48 +5898,48 @@ msgstr ""
 "Permitir su sólo a miembros del grupo wheel. Si es No, permite hacer su a "
 "cualquier usuario."
 
-#: security/help.pm:92
+#: security/help.pm:91
 #, c-format
 msgid "Use password to authenticate users."
 msgstr "Usar contraseña para autenticar usuarios."
 
-#: security/help.pm:94
+#: security/help.pm:93
 #, c-format
 msgid "Activate Ethernet cards promiscuity check."
 msgstr "Activar verificaciones de promiscuidad de tarjetas Ethernet."
 
-#: security/help.pm:96
+#: security/help.pm:95
 #, c-format
 msgid "Activate daily security check."
 msgstr "Activar verificaciones diarias de seguridad."
 
-#: security/help.pm:98
+#: security/help.pm:97
 #, c-format
 msgid "Enable sulogin(8) in single user level."
 msgstr "Habilitar sulogin(8) en nivel de usuario único."
 
-#: security/help.pm:100
+#: security/help.pm:99
 #, c-format
 msgid "Add the name as an exception to the handling of password aging by msec."
 msgstr ""
 "Añadir el nombre como una excepción al manejo de edad de contraseñas por "
 "msec."
 
-#: security/help.pm:102
+#: security/help.pm:101
 #, c-format
 msgid "Set password aging to \"max\" days and delay to change to \"inactive\"."
 msgstr ""
 "Configurar edad de contraseñas en \"max\" días y demorar el cambio a "
 "\"inactive\"."
 
-#: security/help.pm:104
+#: security/help.pm:103
 #, c-format
 msgid "Set the password history length to prevent password reuse."
 msgstr ""
 "Configurar la longitud de la historia de contraseñas para prevenir "
 "reutilización de contraseñas."
 
-#: security/help.pm:106
+#: security/help.pm:105
 #, c-format
 msgid ""
 "Set the password minimum length and minimum number of digit and minimum "
@@ -5913,19 +5948,19 @@ msgstr ""
 "Configurar la longitud mínima de contraseña y la cantidad mínima de dígitos "
 "y cantidad mínima de letras mayúsculas."
 
-#: security/help.pm:108
+#: security/help.pm:107
 #, c-format
 msgid "Set the root's file mode creation mask."
 msgstr ""
 "Configurar la máscara de modo de creación de archivos para el administrador "
 "del sistema."
 
-#: security/help.pm:109
+#: security/help.pm:108
 #, c-format
 msgid "if set to yes, check open ports."
 msgstr "si se pone en sí, verificar puertos abiertos."
 
-#: security/help.pm:110
+#: security/help.pm:109
 #, c-format
 msgid ""
 "if set to yes, check for:\n"
@@ -5944,63 +5979,63 @@ msgstr ""
 "\n"
 "- a los usuarios con el id 0 que no sean el administrador del sistema."
 
-#: security/help.pm:117
+#: security/help.pm:116
 #, c-format
 msgid "if set to yes, check permissions of files in the users' home."
 msgstr ""
 "si se pone en sí, verificar permisos de archivos en dirs. personales de "
 "usuarios."
 
-#: security/help.pm:118
+#: security/help.pm:117
 #, c-format
 msgid "if set to yes, check if the network devices are in promiscuous mode."
 msgstr ""
 "si se pone en sí, verificar si los dispositivos de red están en modo "
 "promiscuo."
 
-#: security/help.pm:119
+#: security/help.pm:118
 #, c-format
 msgid "if set to yes, run the daily security checks."
 msgstr "si se pone en sí, ejecutar las verificaciones de seguridad diarias."
 
-#: security/help.pm:120
+#: security/help.pm:119
 #, c-format
 msgid "if set to yes, check additions/removals of sgid files."
 msgstr "si se pone en sí, verificar adiciones/remociones de archivos sgid."
 
-#: security/help.pm:121
+#: security/help.pm:120
 #, c-format
 msgid "if set to yes, check empty password in /etc/shadow."
 msgstr "si se pone en sí, verificar contraseña vacía en /etc/shadow."
 
-#: security/help.pm:122
+#: security/help.pm:121
 #, c-format
 msgid "if set to yes, verify checksum of the suid/sgid files."
 msgstr "si se pone en sí, verificar suma de los archivos suid/sgid."
 
-#: security/help.pm:123
+#: security/help.pm:122
 #, c-format
 msgid "if set to yes, check additions/removals of suid root files."
 msgstr ""
 "si se pone en sí, verificar adiciones/remociones de archivos suid root."
 
-#: security/help.pm:124
+#: security/help.pm:123
 #, c-format
 msgid "if set to yes, report unowned files."
 msgstr "si se pone en sí, reportar archivos sin dueño."
 
-#: security/help.pm:125
+#: security/help.pm:124
 #, c-format
 msgid "if set to yes, check files/directories writable by everybody."
 msgstr ""
 "si se pone en sí, verificar archivos/directorios que todos pueden escribir."
 
-#: security/help.pm:126
+#: security/help.pm:125
 #, c-format
 msgid "if set to yes, run chkrootkit checks."
 msgstr "si se pone en sí, ejecutar verificaciones chkrootkit."
 
-#: security/help.pm:127
+#: security/help.pm:126
 #, c-format
 msgid ""
 "if set, send the mail report to this email address else send it to root."
@@ -6008,50 +6043,50 @@ msgstr ""
 "si está activo, enviar el correo de reporte a esta dirección, caso contrario "
 "al administrador del sistema."
 
-#: security/help.pm:128
+#: security/help.pm:127
 #, c-format
 msgid "if set to yes, report check result by mail."
 msgstr "si se pone en sí, reportar resultado de verificación por correo-e."
 
-#: security/help.pm:129
+#: security/help.pm:128
 #, c-format
 msgid "Do not send mails if there's nothing to warn about"
 msgstr "No enviar correo si no hay advertencias"
 
-#: security/help.pm:130
+#: security/help.pm:129
 #, c-format
 msgid "if set to yes, run some checks against the rpm database."
 msgstr ""
 "si se pone en sí, correr algunas pruebas contra la base de datos de rpm."
 
-#: security/help.pm:131
+#: security/help.pm:130
 #, c-format
 msgid "if set to yes, report check result to syslog."
 msgstr "si se pone en sí, reportar resultado de verificación en syslog."
 
-#: security/help.pm:132
+#: security/help.pm:131
 #, c-format
 msgid "if set to yes, reports check result to tty."
 msgstr "si se pone en sí, reportar resultados de verificación en tty."
 
-#: security/help.pm:134
+#: security/help.pm:133
 #, c-format
 msgid "Set shell commands history size. A value of -1 means unlimited."
 msgstr ""
 "Ajustar el tamaño de la historia de comandos. Un valor de -1 significa "
 "ilimitada."
 
-#: security/help.pm:136
+#: security/help.pm:135
 #, c-format
 msgid "Set the shell timeout. A value of zero means no timeout."
 msgstr "Ajustar el timeout del shell. Un valor de cero significa sin timeout."
 
-#: security/help.pm:136
+#: security/help.pm:135
 #, c-format
 msgid "Timeout unit is second"
 msgstr "La unidad del tiempo de espera es el segundo"
 
-#: security/help.pm:138
+#: security/help.pm:137
 #, c-format
 msgid "Set the user's file mode creation mask."
 msgstr "Configurar la máscara de creación de archivos para los usuarios."
@@ -6317,22 +6352,22 @@ msgstr "Reportar resultado de verificación en syslog"
 msgid "Reports check result to tty"
 msgstr "Reportar resultados de verificación en tty"
 
-#: security/level.pm:10
+#: security/level.pm:9
 #, c-format
 msgid "Disable msec"
 msgstr "Desabilitar msec"
 
-#: security/level.pm:11
+#: security/level.pm:10
 #, c-format
 msgid "Standard"
 msgstr "Estándar"
 
-#: security/level.pm:12
+#: security/level.pm:11
 #, c-format
 msgid "Secure"
 msgstr "Seguro"
 
-#: security/level.pm:40
+#: security/level.pm:39
 #, c-format
 msgid ""
 "This level is to be used with care, as it disables all additional security\n"
@@ -6345,7 +6380,7 @@ msgstr ""
 "seguridad. Utilícelo sólo si usted maneja a sí mismo la seguridad de su "
 "sistema."
 
-#: security/level.pm:43
+#: security/level.pm:42
 #, c-format
 msgid ""
 "This is the standard security recommended for a computer that will be used "
@@ -6354,7 +6389,7 @@ msgstr ""
 "Éste es el nivel de seguridad estándar recomendado para una máquina que se\n"
 "utilizará para conectarse a la Internet como cliente."
 
-#: security/level.pm:44
+#: security/level.pm:43
 #, c-format
 msgid ""
 "With this security level, the use of this system as a server becomes "
@@ -6370,49 +6405,54 @@ msgstr ""
 "servidor que acepte conexiones de múltiples clientes. Nota: si su máquina "
 "sólo es un cliente en la Internet, mejor debería elegir un nivel inferior."
 
-#: security/level.pm:51
+#: security/level.pm:50
+#, c-format
+msgid "Security"
+msgstr "Seguridad"
+
+#: security/level.pm:50
 #, c-format
 msgid "DrakSec Basic Options"
 msgstr "Opciones básicas de DrakSec"
 
-#: security/level.pm:54
+#: security/level.pm:53
 #, c-format
 msgid "Please choose the desired security level"
 msgstr "Por favor, elija el nivel de seguridad deseado"
 
 #. -PO: this string is used to properly format "<security level>: <level description>"
-#: security/level.pm:58
+#: security/level.pm:57
 #, c-format
 msgid "%s: %s"
 msgstr "%s: %s"
 
-#: security/level.pm:61
+#: security/level.pm:60
 #, c-format
 msgid "Security Administrator:"
 msgstr "Administrador de seguridad:"
 
-#: security/level.pm:62
+#: security/level.pm:61
 #, c-format
 msgid "Login or email:"
 msgstr "Usuario o correo electrónico:"
 
-#: services.pm:17
+#: services.pm:16
 #, c-format
 msgid "Listen and dispatch ACPI events from the kernel"
 msgstr "Escuchar y despachar eventos ACPI desde el kernel"
 
-#: services.pm:18
+#: services.pm:17
 #, c-format
 msgid "Launch the ALSA (Advanced Linux Sound Architecture) sound system"
 msgstr ""
 "Lanzar el sistema de sonido ALSA (Arquitectura avanzada de sonido de Linux)"
 
-#: services.pm:19
+#: services.pm:18
 #, c-format
 msgid "Anacron is a periodic command scheduler."
 msgstr "Anacron, un planificador de comandos periódicos."
 
-#: services.pm:20
+#: services.pm:19
 #, c-format
 msgid ""
 "apmd is used for monitoring battery status and logging it via syslog.\n"
@@ -6422,7 +6462,7 @@ msgstr ""
 "información a syslogd. También puede usarse para apagar el equipo cuando\n"
 "la batería está casi descargada."
 
-#: services.pm:22
+#: services.pm:21
 #, c-format
 msgid ""
 "Runs commands scheduled by the at command at the time specified when\n"
@@ -6432,15 +6472,20 @@ msgstr ""
 "especificado al lanzar at, y ejecuta comandos por lotes (batch) cuando\n"
 "la carga promedio del sistema es suficientemente baja."
 
-#: services.pm:24
+#: services.pm:23
 #, c-format
 msgid "Avahi is a ZeroConf daemon which implements an mDNS stack"
 msgstr "Avahi es un demonio ZeroConf que implementa una pila mDNS"
 
+#: services.pm:24
+#, fuzzy, c-format
+msgid "An NTP client/server"
+msgstr "Servidor NTP"
+
 #: services.pm:25
 #, c-format
-msgid "Set CPU frequency settings"
-msgstr "Establecer los parámetros de frecuencia de CPU"
+msgid "Set CPU powersafe mode"
+msgstr ""
 
 #: services.pm:26
 #, c-format
@@ -6968,7 +7013,7 @@ msgstr "Administración remota"
 msgid "Database Server"
 msgstr "Servidor de base de datos"
 
-#: services.pm:187 services.pm:226
+#: services.pm:187 services.pm:224
 #, c-format
 msgid "Services"
 msgstr "Servicios"
@@ -6983,22 +7028,22 @@ msgstr "Seleccione qué servicios se deben iniciar automáticamente al arrancar"
 msgid "%d activated for %d registered"
 msgstr "%d activados de %d registrados"
 
-#: services.pm:242
+#: services.pm:240
 #, c-format
 msgid "running"
 msgstr "corriendo"
 
-#: services.pm:242
+#: services.pm:240
 #, c-format
 msgid "stopped"
 msgstr "parado"
 
-#: services.pm:247
+#: services.pm:245
 #, c-format
 msgid "Services and daemons"
 msgstr "Servicios y demonios"
 
-#: services.pm:253
+#: services.pm:251
 #, c-format
 msgid ""
 "No additional information\n"
@@ -7007,32 +7052,32 @@ msgstr ""
 "No hay información adicional para\n"
 "este servicio. Disculpe."
 
-#: services.pm:258 ugtk2.pm:924
+#: services.pm:256 ugtk2.pm:921
 #, c-format
 msgid "Info"
 msgstr "Información"
 
-#: services.pm:261
+#: services.pm:259
 #, c-format
 msgid "Start when requested"
 msgstr "Comenzar cuando se pida"
 
-#: services.pm:261
+#: services.pm:259
 #, c-format
 msgid "On boot"
 msgstr "Al iniciar"
 
-#: services.pm:279
+#: services.pm:277
 #, c-format
 msgid "Start"
 msgstr "Iniciar"
 
-#: services.pm:279
+#: services.pm:277
 #, c-format
 msgid "Stop"
 msgstr "Parar"
 
-#: standalone.pm:25
+#: standalone.pm:26
 #, c-format
 msgid ""
 "This program is free software; you can redistribute it and/or modify\n"
@@ -7065,7 +7110,7 @@ msgstr ""
 " Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
 "USA.\n"
 
-#: standalone.pm:44
+#: standalone.pm:45
 #, c-format
 msgid ""
 "[--config-info] [--daemon] [--debug] [--default] [--show-conf]\n"
@@ -7092,7 +7137,7 @@ msgstr ""
 "--help                : muestra este mensaje.\n"
 "--version             : muestra el número de versión.\n"
 
-#: standalone.pm:56
+#: standalone.pm:57
 #, c-format
 msgid ""
 "[--boot]\n"
@@ -7106,15 +7151,17 @@ msgstr ""
 "modo predeterminado: ofrecer la configuración de la característica de "
 "conexión automática."
 
-#: standalone.pm:60
-#, c-format
+#: standalone.pm:61
+#, fuzzy, c-format
 msgid ""
 "[OPTIONS] [PROGRAM_NAME]\n"
 "\n"
 "OPTIONS:\n"
 "  --help            - print this help message.\n"
-"  --report          - program should be one of OpenMandriva Lx tools\n"
-"  --incident        - program should be one of OpenMandriva Lx tools"
+"  --report          - program should be an OpenMandriva Lx administrative "
+"tool\n"
+"  --incident        - program should be an OpenMandriva Lx administrative "
+"tool"
 msgstr ""
 "[OPCIONES] [NOMBRE_PROGRAMA]\n"
 "\n"
@@ -7123,7 +7170,7 @@ msgstr ""
 "  --report          - programa debería ser una herramienta OpenMandriva Lx\n"
 "  --incident        - programa debería ser una herramienta OpenMandriva Lx"
 
-#: standalone.pm:66
+#: standalone.pm:67
 #, c-format
 msgid ""
 "[--add]\n"
@@ -7140,7 +7187,7 @@ msgstr ""
 "  --internet        - configurar la Internet\n"
 "  --wizard          - igual que --add"
 
-#: standalone.pm:72
+#: standalone.pm:73
 #, c-format
 msgid ""
 "\n"
@@ -7174,21 +7221,21 @@ msgstr ""
 "                 : nombre_de_aplicación como por ej. so para staroffice\n"
 "                   y gs para ghostscript."
 
-#: standalone.pm:87
-#, c-format
+#: standalone.pm:88
+#, fuzzy, c-format
 msgid ""
 "[OPTIONS]...\n"
-"OpenMandriva Lx Terminal Server Configurator\n"
+"Terminal Server Configurator\n"
 "--enable         : enable MTS\n"
 "--disable        : disable MTS\n"
 "--start          : start MTS\n"
 "--stop           : stop MTS\n"
-"--adduser        : add an existing system user to MTS (requires username)\n"
-"--deluser        : delete an existing system user from MTS (requires "
+"--adduser        : add an existing system user to TS (requires username)\n"
+"--deluser        : delete an existing system user from TS (requires "
 "username)\n"
-"--addclient      : add a client machine to MTS (requires MAC address, IP, "
-"nbi image name)\n"
-"--delclient      : delete a client machine from MTS (requires MAC address, "
+"--addclient      : add a client machine to TS (requires MAC address, IP, nbi "
+"image name)\n"
+"--delclient      : delete a client machine from TS (requires MAC address, "
 "IP, nbi image name)"
 msgstr ""
 "[OPCIONES]...\n"
@@ -7206,17 +7253,17 @@ msgstr ""
 "--delclient      : quitar máquina cliente de MTS (necesita dirección MAC, "
 "IP, nombre imagen nbi)"
 
-#: standalone.pm:99
+#: standalone.pm:100
 #, c-format
 msgid "[keyboard]"
 msgstr "[teclado]"
 
-#: standalone.pm:100
+#: standalone.pm:101
 #, c-format
 msgid "[--file=myfile] [--word=myword] [--explain=regexp] [--alert]"
 msgstr "[--file=miarchivo] [--word=mipalabra] [--explain=regexp] [--alert]"
 
-#: standalone.pm:101
+#: standalone.pm:102
 #, c-format
 msgid ""
 "[OPTIONS]\n"
@@ -7240,11 +7287,11 @@ msgstr ""
 "contrario.\n"
 "--quiet                 : no ser interactivo. A utilizar con (dis)connect."
 
-#: standalone.pm:111
-#, c-format
+#: standalone.pm:112
+#, fuzzy, c-format
 msgid ""
 "[OPTION]...\n"
-"  --no-confirmation      do not ask first confirmation question in Mandriva "
+"  --no-confirmation      do not ask first confirmation question in Online "
 "Update mode\n"
 "  --no-verify-rpm        do not verify packages signatures\n"
 "  --changelog-first      display changelog before filelist in the "
@@ -7259,7 +7306,7 @@ msgstr ""
 "  --merge-all-rpmnew    proponer mezclar todos los archivos .rpmnew/.rpmsave "
 "encontrados"
 
-#: standalone.pm:116
+#: standalone.pm:117
 #, c-format
 msgid ""
 "[--manual] [--device=dev] [--update-sane=sane_source_dir] [--update-"
@@ -7268,7 +7315,7 @@ msgstr ""
 "[--manual] [--device=disp.] [--update-sane=dir_fuente_sane] [--update-"
 "usbtable] [--dynamic=disp.]"
 
-#: standalone.pm:117
+#: standalone.pm:118
 #, c-format
 msgid ""
 " [everything]\n"
@@ -7279,7 +7326,7 @@ msgstr ""
 "       XFdrake [--noauto] monitor\n"
 "       XFdrake resolución"
 
-#: standalone.pm:153
+#: standalone.pm:155
 #, c-format
 msgid ""
 "\n"
@@ -7290,72 +7337,72 @@ msgstr ""
 "Uso: %s [--auto] [--beginner] [--expert] [-h|--help] [--noauto] [--testing] "
 "[-v|--version] "
 
-#: timezone.pm:161 timezone.pm:162
+#: timezone.pm:174 timezone.pm:175
 #, c-format
 msgid "All servers"
 msgstr "Todos los servidores"
 
-#: timezone.pm:198
+#: timezone.pm:211
 #, c-format
 msgid "Global"
 msgstr "Global"
 
-#: timezone.pm:201
+#: timezone.pm:214
 #, c-format
 msgid "Africa"
 msgstr "África"
 
-#: timezone.pm:202
+#: timezone.pm:215
 #, c-format
 msgid "Asia"
 msgstr "Asia"
 
-#: timezone.pm:203
+#: timezone.pm:216
 #, c-format
 msgid "Europe"
 msgstr "Europa"
 
-#: timezone.pm:204
+#: timezone.pm:217
 #, c-format
 msgid "North America"
 msgstr "América del Norte"
 
-#: timezone.pm:205
+#: timezone.pm:218
 #, c-format
 msgid "Oceania"
 msgstr "Oceanía"
 
-#: timezone.pm:206
+#: timezone.pm:219
 #, c-format
 msgid "South America"
 msgstr "América del Sur"
 
-#: timezone.pm:215
+#: timezone.pm:228
 #, c-format
 msgid "Hong Kong"
 msgstr "Hong Kong"
 
-#: timezone.pm:252
+#: timezone.pm:265
 #, c-format
 msgid "Russian Federation"
 msgstr "Federación Rusa"
 
-#: timezone.pm:260
+#: timezone.pm:273
 #, c-format
 msgid "Yugoslavia"
 msgstr "Yugoslavia"
 
-#: ugtk2.pm:812
+#: ugtk2.pm:809
 #, c-format
 msgid "Is this correct?"
 msgstr "¿Es correcto?"
 
-#: ugtk2.pm:874
+#: ugtk2.pm:871
 #, c-format
 msgid "You have chosen a file, not a directory"
 msgstr "Ha especificado un archivo, no un directorio"
 
-#: wizards.pm:96
+#: wizards.pm:95
 #, c-format
 msgid ""
 "%s is not installed\n"
@@ -7364,10 +7411,68 @@ msgstr ""
 "%s no está instalado\n"
 "Haga clic sobre \"Siguiente\" para instalarlo o sobre \"Cancelar\" para salir"
 
-#: wizards.pm:100
+#: wizards.pm:99
 #, c-format
 msgid "Installation failed"
 msgstr "Falló la instalación"
+
+#~ msgid "You cannot use a password with %s"
+#~ msgstr "No puede usar una contraseña con %s"
+
+#~ msgid "Clean /tmp at each boot"
+#~ msgstr "Limpiar /tmp en cada inicio del equipo"
+
+#~ msgid ""
+#~ "The classic bug sound tester is to run the following commands:\n"
+#~ "\n"
+#~ "\n"
+#~ "- \"lspcidrake -v | fgrep -i AUDIO\" will tell you which driver your card "
+#~ "uses\n"
+#~ "by default\n"
+#~ "\n"
+#~ "- \"grep sound-slot /etc/modprobe.conf\" will tell you what driver it\n"
+#~ "currently uses\n"
+#~ "\n"
+#~ "- \"/sbin/lsmod\" will enable you to check if its module (driver) is\n"
+#~ "loaded or not\n"
+#~ "\n"
+#~ "- \"/sbin/chkconfig --list sound\" and \"/sbin/chkconfig --list alsa\" "
+#~ "will\n"
+#~ "tell you if sound and alsa services are configured to be run on\n"
+#~ "initlevel 3\n"
+#~ "\n"
+#~ "- \"aumix -q\" will tell you if the sound volume is muted or not\n"
+#~ "\n"
+#~ "- \"/sbin/fuser -v /dev/dsp\" will tell which program uses the sound "
+#~ "card.\n"
+#~ msgstr ""
+#~ "El probador de sonido clásico va a ejecutar los comandos siguientes:\n"
+#~ "\n"
+#~ "\n"
+#~ "- \"lspcidrake -v | fgrep -i AUDIO\" le dirá qué controlador predet. usa "
+#~ "su\n"
+#~ "tarjeta de sonido\n"
+#~ "\n"
+#~ "- \"grep sound-slot /etc/modprobe.conf\n"
+#~ "\" le dirá qué controlador usa la misma\n"
+#~ "en este momento\n"
+#~ "\n"
+#~ "- \"/sbin/lsmod\" le permitirá verificar si su módulo (controlador) está\n"
+#~ "cargado o no\n"
+#~ "\n"
+#~ "- \"/sbin/chkconfig --list sound\" y \"/sbin/chkconfig --list alsa\" le "
+#~ "dirá\n"
+#~ "si los servicios alsa y sonido están configurados para correr en el "
+#~ "nivel\n"
+#~ "de ejecución 3\n"
+#~ "\n"
+#~ "- \"aumix -q\" le dirá si el volumen del sonido está mudo o no\n"
+#~ "\n"
+#~ "- \"/sbin/fuser -v /dev/dsp\" le dirá qué programa utiliza la tarjeta de "
+#~ "sonido.\n"
+
+#~ msgid "Set CPU frequency settings"
+#~ msgstr "Establecer los parámetros de frecuencia de CPU"
 
 #~ msgid ""
 #~ "Launch packet filtering for Linux kernel 2.2 series, to set\n"
@@ -7656,8 +7761,8 @@ msgstr "Falló la instalación"
 #~ "If networking is not yet enabled, Drakx will attempt to join the domain "
 #~ "after the network setup step.\n"
 #~ "Should this setup fail for some reason and domain authentication is not "
-#~ "working, run 'smbpasswd -j DOMAIN -U USER%%PASSWORD' using your Windows"
-#~ "(tm) Domain, and Admin Username/Password, after system boot.\n"
+#~ "working, run 'smbpasswd -j DOMAIN -U USER%%PASSWORD' using your "
+#~ "Windows(tm) Domain, and Admin Username/Password, after system boot.\n"
 #~ "The command 'wbinfo -t' will test whether your authentication secrets are "
 #~ "good."
 #~ msgstr ""

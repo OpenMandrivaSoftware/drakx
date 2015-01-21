@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DrakX\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-31 17:24+0200\n"
+"POT-Creation-Date: 2015-01-22 00:44+0100\n"
 "PO-Revision-Date: 2006-09-24 17:51+0200\n"
 "Last-Translator: Māris Laureckis <marlau@inbox.lv>\n"
 "Language-Team: Latgalian <linux@latgola.lv>\n"
@@ -14,357 +14,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:14
-#, c-format
-msgid "Workstation"
-msgstr "Dorba staceja"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:16
-#, c-format
-msgid "Office Workstation"
-msgstr "Biroja dators"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:18
-#, fuzzy, c-format
-msgid ""
-"Office programs: wordprocessors (OpenOffice.org Writer, Kword), spreadsheets "
-"(OpenOffice.org Calc, Kspread), PDF viewers, etc"
-msgstr ""
-"Biroja programmys: teksta procesori (LibreOffice Writer, Kword), "
-"izkluojlopys (LibreOffice Calc, Kspread), PDF skateituoji, u.c."
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:23
-#, c-format
-msgid "Game station"
-msgstr "Spēļu dators"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:24
-#, fuzzy, c-format
-msgid "Amusement programs: arcade, boards, strategy, etc."
-msgstr "Izklaidis programmys: arkade, goldaspēlis, strategeja u.c."
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:28
-#, c-format
-msgid "Multimedia station"
-msgstr "Multimedeju dators"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:29
-#, c-format
-msgid "Sound and video playing/editing programs"
-msgstr "Skanis i video atskaņuošonys/redigeišonys programmys"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:34
-#, c-format
-msgid "Toys"
-msgstr ""
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:35
-#, c-format
-msgid "Apps and tools of less useful value, yet entertaining..."
-msgstr ""
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:39
-#, c-format
-msgid "Internet station"
-msgstr "Interneta dators"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:40
-#, c-format
-msgid ""
-"Set of tools to read and send mail and news (mutt, tin..) and to browse the "
-"Web"
-msgstr ""
-"Reiku komplekts, lai laseitu i syuteitu postu voi jaunumus (mutt, tin..), i "
-"puorlyukuotu Puorstaipteiklu"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:45
-#, c-format
-msgid "Network Computer (client)"
-msgstr "Teikla dators (klients)"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:46
-#, c-format
-msgid "Clients for different protocols including ssh"
-msgstr "Klienti dažaidim protokolim, īskaitūt ssh"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:50 gtk.pm:132
-#, c-format
-msgid "Configuration"
-msgstr "Konfiguraceja"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:51
-#, c-format
-msgid "Tools to ease the configuration of your computer"
-msgstr "Reiki datora konfigureišonys atvīgluošonai"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:55
-#, c-format
-msgid "Console Tools"
-msgstr "Konsolis reiki"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:56
-#, c-format
-msgid "Editors, shells, file tools, terminals"
-msgstr "Redaktori, čaulys, failu reiki, terminali"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:60
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:170
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:172
-#, c-format
-msgid "Development"
-msgstr "Izstruode"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:61
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:173
-#, c-format
-msgid "C and C++ development libraries, programs and include files"
-msgstr "C i C++ izstruodis bibliotekys, programmys i īkļautī faili"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:64
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:177
-#, c-format
-msgid "Documentation"
-msgstr "Dokumentaceja"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:65
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:178
-#, c-format
-msgid "Books and Howto's on Linux and Free Software"
-msgstr "Gruomotys i vaicuojumu par Linux i Breivū programmaturu"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:69
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:181
-#, c-format
-msgid "LSB"
-msgstr "LSB"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:70
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:182
-#, c-format
-msgid "Linux Standard Base. Third party applications support"
-msgstr "Linuks Standarta Bāze. Trešū izstruoduoju aplikaceju atbolsts"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:80
-#, c-format
-msgid "Web Server"
-msgstr "Puorstaipteikla (Web) servers"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:81
-#, c-format
-msgid "Apache"
-msgstr "Apache"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:84
-#, c-format
-msgid "Groupware"
-msgstr "Groupware"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:85
-#, c-format
-msgid "Kolab Server"
-msgstr "Kolab servers"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:88
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:129
-#, c-format
-msgid "Firewall/Router"
-msgstr "Gunsmyurs/Maršrutizators"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:89
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:130
-#, c-format
-msgid "Internet gateway"
-msgstr "Interneta vuorteja"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:92
-#, c-format
-msgid "Mail/News"
-msgstr "Posts/Jauns"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:93
-#, c-format
-msgid "Postfix mail server, Inn news server"
-msgstr "Postfix posta servers, Inn ziņu servers"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:96
-#, c-format
-msgid "Directory Server"
-msgstr "Katalogu Servers"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:100
-#, c-format
-msgid "FTP Server"
-msgstr "FTP servers"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:101
-#, c-format
-msgid "ProFTPd"
-msgstr "ProFTPd"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:104
-#, c-format
-msgid "DNS/NIS"
-msgstr "DNS/NIS"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:105
-#, c-format
-msgid "Domain Name and Network Information Server"
-msgstr "DNS i NIS servers"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:108
-#, c-format
-msgid "File and Printer Sharing Server"
-msgstr "Failu un Printeru Kūplītuošonys servers"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:109
-#, c-format
-msgid "NFS Server, Samba server"
-msgstr "NFS servers, Samba servers"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:112
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:125
-#, c-format
-msgid "Database"
-msgstr "Datubāzis"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:113
-#, c-format
-msgid "PostgreSQL and MySQL Database Server"
-msgstr "PostgreSQL i MySQL datubāžu servers"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:117
-#, c-format
-msgid "Web/FTP"
-msgstr "Teimeklis/FTP"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:118
-#, c-format
-msgid "Apache, Pro-ftpd"
-msgstr "Apache, Pro-ftpd"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:121
-#, c-format
-msgid "Mail"
-msgstr "Posts"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:122
-#, c-format
-msgid "Postfix mail server"
-msgstr "Postfix posta servers"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:126
-#, c-format
-msgid "PostgreSQL or MySQL database server"
-msgstr "PostgreSQL voi MySQL datubāžu servers"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:133
-#, c-format
-msgid "Network Computer server"
-msgstr "Teikla datoru servers"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:134
-#, c-format
-msgid "NFS server, SMB server, Proxy server, ssh server"
-msgstr "NFS servers, SMB servers, storpnīkservers (Proxy), ssh servers"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:141
-#, c-format
-msgid "Graphical Environment"
-msgstr "Grafiskuo vide"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:145
-#, c-format
-msgid "KDE Workstation"
-msgstr "KDE dorba staceja"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:146
-#, c-format
-msgid ""
-"The K Desktop Environment, the basic graphical environment with a collection "
-"of accompanying tools"
-msgstr ""
-"K Desktop Environment, golvonuo grafiskuo vide kūpā ar papyldus reiku "
-"kolekceju"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:150
-#, c-format
-msgid "GNOME Workstation"
-msgstr "Gnome dorba staceja"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:151
-#, c-format
-msgid ""
-"A graphical environment with user-friendly set of applications and desktop "
-"tools"
-msgstr ""
-"Grafiskuo vide ar lītuotuojam draudzeigu programmu komplektu i dorba "
-"viersmys reikim"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:156
-#, fuzzy, c-format
-msgid "LXDE Desktop"
-msgstr "IceWm Dorba viersma"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:158
-#, fuzzy, c-format
-msgid ""
-"A lightweight & fast graphical environment with user-friendly set of "
-"applications and desktop tools"
-msgstr ""
-"Grafiskuo vide ar lītuotuojam draudzeigu programmu komplektu i dorba "
-"viersmys reikim"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:162
-#, c-format
-msgid "Other Graphical Desktops"
-msgstr "Cytys grafiskuos dorba viersmys"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:163
-#, c-format
-msgid "Window Maker, Enlightenment, Fvwm, etc"
-msgstr "Window Maker, Enlightenment, Fvwm u.c."
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:187
-#, c-format
-msgid "Utilities"
-msgstr "Utilitys"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:189
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:190
-#, c-format
-msgid "SSH Server"
-msgstr "SSH servers"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:194
-#, c-format
-msgid "Webmin"
-msgstr "Webmin"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:195
-#, c-format
-msgid "Webmin Remote Configuration Server"
-msgstr "Webmin attuolynuotuos konfiguracejis servers "
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:199
-#, c-format
-msgid "Network Utilities/Monitoring"
-msgstr "Teikla utilitys/puorraudzeiba"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:200
-#, c-format
-msgid "Monitoring tools, processes accounting, tcpdump, nmap, ..."
-msgstr "Puorraudzeibys reiki, procesu uzskaite, tcpdump, nmap, ..."
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:204
-#, c-format
-msgid "Mandriva Wizards"
-msgstr "Mandriva paleigi"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:205
-#, c-format
-msgid "Wizards to configure server"
-msgstr "Servera konfiguracejis paleigi"
 
 #: ../../advertising/MandrivaOne-advert-1.pl:1
 #: ../../advertising/MandrivaOne-advert-2.pl:1
@@ -375,9 +24,9 @@ msgstr "Servera konfiguracejis paleigi"
 #: ../../advertising/MandrivaOne-advert-7.pl:1
 #: ../../advertising/MandrivaOne-advert-8.pl:1
 #: ../../advertising/MandrivaOne-advert-9.pl:1
-#, c-format
-msgid "OpenMandriva Lx 2012 Alpha (Tenacious Underdog)"
-msgstr ""
+#, fuzzy, c-format
+msgid "OpenMandriva Lx 2013.0"
+msgstr "OpenMandriva Lx instaleišona %s"
 
 #: any.pm:110
 #, c-format
@@ -430,21 +79,18 @@ msgid "URL must start with ftp:// or http://"
 msgstr "URL juosasuoc ar ftp:// voi http://"
 
 #: any.pm:188
-#, c-format
-msgid ""
-"Contacting OpenMandriva Lx web site to get the list of available mirrors..."
+#, fuzzy, c-format
+msgid "Connecting to OpenMandriva to get the list of available mirrors..."
 msgstr ""
 "Pīsaslādzu OpenMandriva Lx teimekļam, lai sajimtu pīejamū spūguļserveru "
 "sarokstu..."
 
 #: any.pm:193
-#, c-format
-msgid ""
-"Failed contacting OpenMandriva Lx web site to get the list of available "
-"mirrors"
+#, fuzzy, c-format
+msgid "Failed to get the list of available mirrors."
 msgstr ""
-"Dasasliegšona OpenMandriva Lx teimekļam cīta naveiksmi, lai sajimtu pīejamū "
-"spūguļserveru sarokstu"
+"Pīsaslādzu OpenMandriva Lx teimekļam, lai sajimtu pīejamū spūguļserveru "
+"sarokstu..."
 
 #: any.pm:203
 #, c-format
@@ -655,6 +301,11 @@ msgstr "Ekrana attāli byus pīejami piec instaleišonys %s"
 msgid "Installation"
 msgstr "Instalaceja"
 
+#: gtk.pm:132
+#, c-format
+msgid "Configuration"
+msgstr "Konfiguraceja"
+
 #: install2.pm:168
 #, c-format
 msgid "You must also format %s"
@@ -739,34 +390,34 @@ msgstr ""
 msgid "No description"
 msgstr ""
 
-#: pkgs.pm:280
+#: pkgs.pm:279
 #, c-format
 msgid ""
 "Some packages requested by %s cannot be installed:\n"
 "%s"
 msgstr ""
 
-#: pkgs.pm:376 pkgs.pm:403
+#: pkgs.pm:375 pkgs.pm:402
 #, fuzzy, c-format
 msgid "An error occurred:"
 msgstr "Atkluota kliuda"
 
-#: pkgs.pm:395
+#: pkgs.pm:394
 #, fuzzy, c-format
 msgid "A fatal error occurred: %s."
 msgstr "Atkluota kliuda"
 
-#: pkgs.pm:876 pkgs.pm:918
+#: pkgs.pm:877 pkgs.pm:919
 #, c-format
 msgid "Do not ask again"
 msgstr ""
 
-#: pkgs.pm:892
+#: pkgs.pm:893
 #, fuzzy, c-format
 msgid "%d installation transactions failed"
 msgstr "Instalaceja naizadeve"
 
-#: pkgs.pm:893
+#: pkgs.pm:894
 #, fuzzy, c-format
 msgid "Installation of packages failed:"
 msgstr "Instaleju pakūtni %s"
@@ -808,135 +459,135 @@ msgstr "OpenMandriva Lx instaleišona %s"
 msgid "<Tab>/<Alt-Tab> between elements"
 msgstr "<Tab>/<Alt-Tab> puorīt"
 
-#: steps_gtk.pm:147
+#: steps_gtk.pm:151
 #, c-format
 msgid "Xorg server is slow to start. Please wait..."
 msgstr ""
 
-#: steps_gtk.pm:211
-#, c-format
+#: steps_gtk.pm:216
+#, fuzzy, c-format
 msgid ""
 "Your system is low on resources. You may have some problem installing\n"
-"OpenMandriva Lx. If that occurs, you can try a text install instead. For "
+"OpenMandriva Lx. If that occurs, you can try a text install instead. To do "
 "this,\n"
-"press `F1' when booting on CDROM, then enter `text'."
+"press `F1' at the boot menu, then enter `text'."
 msgstr ""
 "Jiusu sistemai tryukst resursu. OpenMandriva Lx instaleišonys laikā var\n"
 "rastīs problemys. Ja tai nūteik, varit pamieginuot teksta režima "
 "instaleišonu. Lai tū izdareitu,\n"
 "nūspīdit`F1', kod nūteik īluode nu CDROM, tod īvodit `text'."
 
-#: steps_gtk.pm:241 steps_gtk.pm:776
+#: steps_gtk.pm:246 steps_gtk.pm:761
 #, fuzzy, c-format
 msgid "Media Selection"
 msgstr "Pakūtņu grupu izviele"
 
-#: steps_gtk.pm:252
+#: steps_gtk.pm:257
 #, c-format
-msgid "Install Mandriva KDE Desktop"
+msgid "Install KDE Desktop Environment"
 msgstr ""
 
-#: steps_gtk.pm:253
+#: steps_gtk.pm:258
 #, c-format
-msgid "Install Mandriva GNOME Desktop"
+msgid "Install GNOME Desktop Environment"
 msgstr ""
 
-#: steps_gtk.pm:254
+#: steps_gtk.pm:259
 #, fuzzy, c-format
 msgid "Custom install"
 msgstr "Minimala instaleišona"
 
-#: steps_gtk.pm:275
+#: steps_gtk.pm:280
 #, fuzzy, c-format
 msgid "KDE Desktop"
 msgstr "IceWm Dorba viersma"
 
-#: steps_gtk.pm:276
+#: steps_gtk.pm:281
 #, fuzzy, c-format
 msgid "GNOME Desktop"
 msgstr "IceWm Dorba viersma"
 
-#: steps_gtk.pm:277
+#: steps_gtk.pm:282
 #, fuzzy, c-format
 msgid "Custom Desktop"
 msgstr "IceWm Dorba viersma"
 
-#: steps_gtk.pm:283
+#: steps_gtk.pm:288
 #, c-format
 msgid "Here's a preview of the '%s' desktop."
 msgstr ""
 
-#: steps_gtk.pm:310
+#: steps_gtk.pm:315
 #, c-format
 msgid "Click on images in order to see a bigger preview"
 msgstr ""
 
-#: steps_gtk.pm:326 steps_interactive.pm:628 steps_list.pm:31
+#: steps_gtk.pm:331 steps_interactive.pm:628 steps_list.pm:31
 #, c-format
 msgid "Package Group Selection"
 msgstr "Pakūtņu grupu izviele"
 
-#: steps_gtk.pm:350 steps_interactive.pm:645
+#: steps_gtk.pm:355 steps_interactive.pm:645
 #, c-format
 msgid "Individual package selection"
 msgstr "Atsevišku pakūtņu izviele"
 
-#: steps_gtk.pm:357
+#: steps_gtk.pm:362
 #, c-format
 msgid "Unselect All"
 msgstr ""
 
-#: steps_gtk.pm:375 steps_interactive.pm:557
+#: steps_gtk.pm:380 steps_interactive.pm:557
 #, c-format
 msgid "Total size: %d / %d MB"
 msgstr "Kūpejais izmārs: %d / %d MB"
 
-#: steps_gtk.pm:420
+#: steps_gtk.pm:425
 #, c-format
 msgid "Version: "
 msgstr "Verseja: "
 
-#: steps_gtk.pm:421
+#: steps_gtk.pm:426
 #, c-format
 msgid "Size: "
 msgstr "Izmārs: "
 
-#: steps_gtk.pm:421
+#: steps_gtk.pm:426
 #, c-format
 msgid "%d KB\n"
 msgstr "%d KB\n"
 
-#: steps_gtk.pm:422
+#: steps_gtk.pm:427
 #, c-format
 msgid "Importance: "
 msgstr "Svareigums: "
 
-#: steps_gtk.pm:457
+#: steps_gtk.pm:462
 #, c-format
 msgid "You cannot select/unselect this package"
 msgstr "Jius varit izavielēt/atsateikt nu ituos pakūtnis"
 
-#: steps_gtk.pm:461
+#: steps_gtk.pm:466
 #, c-format
 msgid "due to missing %s"
 msgstr "tryukuma dieļ %s"
 
-#: steps_gtk.pm:462
+#: steps_gtk.pm:467
 #, c-format
 msgid "due to unsatisfied %s"
 msgstr "deļ naapmīrynuojuma %s"
 
-#: steps_gtk.pm:463
+#: steps_gtk.pm:468
 #, c-format
 msgid "trying to promote %s"
 msgstr "teik mieginuots aktivizēt %s"
 
-#: steps_gtk.pm:464
+#: steps_gtk.pm:469
 #, c-format
 msgid "in order to keep %s"
 msgstr "lai saglobuot %s"
 
-#: steps_gtk.pm:469
+#: steps_gtk.pm:474
 #, c-format
 msgid ""
 "You cannot select this package as there is not enough space left to install "
@@ -945,119 +596,109 @@ msgstr ""
 "Jius navarit izavielēt itū pakūtni, par tū ka napīteik vītys tuos "
 "instaleišonai"
 
-#: steps_gtk.pm:472
+#: steps_gtk.pm:477
 #, c-format
 msgid "The following packages are going to be installed"
 msgstr "Tiks instaleitys sekojūšys pakūtnis"
 
-#: steps_gtk.pm:473
+#: steps_gtk.pm:478
 #, c-format
 msgid "The following packages are going to be removed"
 msgstr "Tiks nūjimtys sekojūšys pakūtnis"
 
-#: steps_gtk.pm:499
+#: steps_gtk.pm:504
 #, c-format
 msgid "This is a mandatory package, it cannot be unselected"
 msgstr "Itei ir obligata pakūtne, nu tuos navar atsateikt"
 
-#: steps_gtk.pm:501
+#: steps_gtk.pm:506
 #, c-format
 msgid "You cannot unselect this package. It is already installed"
 msgstr "Jius navarit atsateikt nu ituos pakūtnis. Tei jau ir instaleita"
 
-#: steps_gtk.pm:503
+#: steps_gtk.pm:508
 #, c-format
 msgid "You cannot unselect this package. It must be upgraded"
 msgstr "Jius navarit atsateikt nu ituos pakūtnis. Tū ir napīcīšoms uzlobuot"
 
-#: steps_gtk.pm:507
+#: steps_gtk.pm:512
 #, c-format
 msgid "Show automatically selected packages"
 msgstr "Paruodeit automatiski izvālātuos pakūtnis"
 
-#: steps_gtk.pm:511
+#: steps_gtk.pm:516
 #, c-format
 msgid "Install"
 msgstr "Instalēt"
 
-#: steps_gtk.pm:514
+#: steps_gtk.pm:519
 #, c-format
 msgid "Load/Save selection"
 msgstr "Īluodēt/Saglobuot izviele"
 
-#: steps_gtk.pm:515
+#: steps_gtk.pm:520
 #, c-format
 msgid "Updating package selection"
 msgstr "Teik atjaunynuota pakūtņu izviele"
 
-#: steps_gtk.pm:520
+#: steps_gtk.pm:525
 #, c-format
 msgid "Minimal install"
 msgstr "Minimala instaleišona"
 
-#: steps_gtk.pm:533
+#: steps_gtk.pm:538
 #, c-format
 msgid "Software Management"
 msgstr "Programmaturys puorvaļdeišona"
 
-#: steps_gtk.pm:533 steps_interactive.pm:438
+#: steps_gtk.pm:538 steps_interactive.pm:438
 #, c-format
 msgid "Choose the packages you want to install"
 msgstr "Izavielejit pakūtnis, kū gribit instalēt"
 
-#: steps_gtk.pm:550 steps_interactive.pm:659 steps_list.pm:33
+#: steps_gtk.pm:555 steps_interactive.pm:659 steps_list.pm:33
 #, c-format
 msgid "Installing"
 msgstr "Teik instaleits"
 
-#: steps_gtk.pm:581
-#, c-format
-msgid "Bored?"
-msgstr ""
-
-#: steps_gtk.pm:581
-#, c-format
-msgid "Boss button"
-msgstr ""
-
-#: steps_gtk.pm:587
+#: steps_gtk.pm:586
 #, c-format
 msgid "No details"
 msgstr "Nav detaļu"
 
-#: steps_gtk.pm:620
+#: steps_gtk.pm:605
 #, fuzzy, c-format
 msgid "Time remaining:"
 msgstr "Atlykušais laiks"
 
-#: steps_gtk.pm:621
+#: steps_gtk.pm:606
 #, fuzzy, c-format
 msgid "(estimating...)"
 msgstr "Aptuvenais nūviertiejums"
 
-#: steps_gtk.pm:651
+#: steps_gtk.pm:636
 #, fuzzy, c-format
 msgid "%d package"
 msgid_plural "%d packages"
 msgstr[0] "%d pakūtnis"
 msgstr[1] "%d pakūtnis"
 
-#: steps_gtk.pm:706 steps_interactive.pm:824 steps_list.pm:44
+#: steps_gtk.pm:691 steps_interactive.pm:824 steps_list.pm:44
 #, c-format
 msgid "Summary"
 msgstr "Kūpsavylkums"
 
-#: steps_gtk.pm:725
+#: steps_gtk.pm:710
 #, c-format
 msgid "Configure"
 msgstr "Konfigurēt"
 
-#: steps_gtk.pm:742 steps_interactive.pm:820 steps_interactive.pm:973
+#: steps_gtk.pm:727 steps_interactive.pm:820 steps_interactive.pm:973
 #, c-format
 msgid "not configured"
 msgstr "nav konfigurāts"
 
-#: steps_gtk.pm:785 steps_interactive.pm:336
+#: steps_gtk.pm:770 steps_interactive.pm:336
 #, c-format
 msgid ""
 "The following installation media have been found.\n"
@@ -1066,7 +707,7 @@ msgstr ""
 "Atrosti sekojūši instalacejis datu nesieji.\n"
 "Ja jius gribit izlaist dažus nu tim, jius tagad varit nūjimt atzeimi nu tim."
 
-#: steps_gtk.pm:801 steps_interactive.pm:342
+#: steps_gtk.pm:786 steps_interactive.pm:342
 #, c-format
 msgid ""
 "You have the option to copy the contents of the CDs onto the hard disk drive "
@@ -1079,7 +720,7 @@ msgstr ""
 "Taidā veidā turpynuosīs nu cītuo diska un pakūtnis byus pīejamys cikom "
 "sistema tiks piļneibā uzinstaleita."
 
-#: steps_gtk.pm:803 steps_interactive.pm:344
+#: steps_gtk.pm:788 steps_interactive.pm:344
 #, c-format
 msgid "Copy whole CDs"
 msgstr "Kopēt vysu kompaktdisku"
@@ -1144,10 +785,11 @@ msgstr ""
 #: steps_interactive.pm:215
 #, c-format
 msgid ""
-"Installer has detected that your installed OpenMandriva Lx system could not\n"
+"The installer has detected that your current OpenMandriva Lx system could "
+"not\n"
 "safely be upgraded to %s.\n"
 "\n"
-"New installation replacing your previous one is recommended.\n"
+"A new installation replacing your previous one is recommended.\n"
 "\n"
 "Warning : you should backup all your personal data before choosing \"New\n"
 "Installation\"."
@@ -1643,6 +1285,220 @@ msgid ""
 "_: Keep these entry short\n"
 "Exit"
 msgstr "Izīt"
+
+#~ msgid "Workstation"
+#~ msgstr "Dorba staceja"
+
+#~ msgid "Office Workstation"
+#~ msgstr "Biroja dators"
+
+#, fuzzy
+#~ msgid ""
+#~ "Office programs: wordprocessors (OpenOffice.org Writer, Kword), "
+#~ "spreadsheets (OpenOffice.org Calc, Kspread), PDF viewers, etc"
+#~ msgstr ""
+#~ "Biroja programmys: teksta procesori (LibreOffice Writer, Kword), "
+#~ "izkluojlopys (LibreOffice Calc, Kspread), PDF skateituoji, u.c."
+
+#~ msgid "Game station"
+#~ msgstr "Spēļu dators"
+
+#, fuzzy
+#~ msgid "Amusement programs: arcade, boards, strategy, etc."
+#~ msgstr "Izklaidis programmys: arkade, goldaspēlis, strategeja u.c."
+
+#~ msgid "Multimedia station"
+#~ msgstr "Multimedeju dators"
+
+#~ msgid "Sound and video playing/editing programs"
+#~ msgstr "Skanis i video atskaņuošonys/redigeišonys programmys"
+
+#~ msgid "Internet station"
+#~ msgstr "Interneta dators"
+
+#~ msgid ""
+#~ "Set of tools to read and send mail and news (mutt, tin..) and to browse "
+#~ "the Web"
+#~ msgstr ""
+#~ "Reiku komplekts, lai laseitu i syuteitu postu voi jaunumus (mutt, tin..), "
+#~ "i puorlyukuotu Puorstaipteiklu"
+
+#~ msgid "Network Computer (client)"
+#~ msgstr "Teikla dators (klients)"
+
+#~ msgid "Clients for different protocols including ssh"
+#~ msgstr "Klienti dažaidim protokolim, īskaitūt ssh"
+
+#~ msgid "Tools to ease the configuration of your computer"
+#~ msgstr "Reiki datora konfigureišonys atvīgluošonai"
+
+#~ msgid "Console Tools"
+#~ msgstr "Konsolis reiki"
+
+#~ msgid "Editors, shells, file tools, terminals"
+#~ msgstr "Redaktori, čaulys, failu reiki, terminali"
+
+#~ msgid "Development"
+#~ msgstr "Izstruode"
+
+#~ msgid "C and C++ development libraries, programs and include files"
+#~ msgstr "C i C++ izstruodis bibliotekys, programmys i īkļautī faili"
+
+#~ msgid "Documentation"
+#~ msgstr "Dokumentaceja"
+
+#~ msgid "Books and Howto's on Linux and Free Software"
+#~ msgstr "Gruomotys i vaicuojumu par Linux i Breivū programmaturu"
+
+#~ msgid "LSB"
+#~ msgstr "LSB"
+
+#~ msgid "Linux Standard Base. Third party applications support"
+#~ msgstr "Linuks Standarta Bāze. Trešū izstruoduoju aplikaceju atbolsts"
+
+#~ msgid "Web Server"
+#~ msgstr "Puorstaipteikla (Web) servers"
+
+#~ msgid "Apache"
+#~ msgstr "Apache"
+
+#~ msgid "Groupware"
+#~ msgstr "Groupware"
+
+#~ msgid "Kolab Server"
+#~ msgstr "Kolab servers"
+
+#~ msgid "Firewall/Router"
+#~ msgstr "Gunsmyurs/Maršrutizators"
+
+#~ msgid "Internet gateway"
+#~ msgstr "Interneta vuorteja"
+
+#~ msgid "Mail/News"
+#~ msgstr "Posts/Jauns"
+
+#~ msgid "Postfix mail server, Inn news server"
+#~ msgstr "Postfix posta servers, Inn ziņu servers"
+
+#~ msgid "Directory Server"
+#~ msgstr "Katalogu Servers"
+
+#~ msgid "FTP Server"
+#~ msgstr "FTP servers"
+
+#~ msgid "ProFTPd"
+#~ msgstr "ProFTPd"
+
+#~ msgid "DNS/NIS"
+#~ msgstr "DNS/NIS"
+
+#~ msgid "Domain Name and Network Information Server"
+#~ msgstr "DNS i NIS servers"
+
+#~ msgid "File and Printer Sharing Server"
+#~ msgstr "Failu un Printeru Kūplītuošonys servers"
+
+#~ msgid "NFS Server, Samba server"
+#~ msgstr "NFS servers, Samba servers"
+
+#~ msgid "Database"
+#~ msgstr "Datubāzis"
+
+#~ msgid "PostgreSQL and MySQL Database Server"
+#~ msgstr "PostgreSQL i MySQL datubāžu servers"
+
+#~ msgid "Web/FTP"
+#~ msgstr "Teimeklis/FTP"
+
+#~ msgid "Apache, Pro-ftpd"
+#~ msgstr "Apache, Pro-ftpd"
+
+#~ msgid "Mail"
+#~ msgstr "Posts"
+
+#~ msgid "Postfix mail server"
+#~ msgstr "Postfix posta servers"
+
+#~ msgid "PostgreSQL or MySQL database server"
+#~ msgstr "PostgreSQL voi MySQL datubāžu servers"
+
+#~ msgid "Network Computer server"
+#~ msgstr "Teikla datoru servers"
+
+#~ msgid "NFS server, SMB server, Proxy server, ssh server"
+#~ msgstr "NFS servers, SMB servers, storpnīkservers (Proxy), ssh servers"
+
+#~ msgid "Graphical Environment"
+#~ msgstr "Grafiskuo vide"
+
+#~ msgid "KDE Workstation"
+#~ msgstr "KDE dorba staceja"
+
+#~ msgid ""
+#~ "The K Desktop Environment, the basic graphical environment with a "
+#~ "collection of accompanying tools"
+#~ msgstr ""
+#~ "K Desktop Environment, golvonuo grafiskuo vide kūpā ar papyldus reiku "
+#~ "kolekceju"
+
+#~ msgid "GNOME Workstation"
+#~ msgstr "Gnome dorba staceja"
+
+#~ msgid ""
+#~ "A graphical environment with user-friendly set of applications and "
+#~ "desktop tools"
+#~ msgstr ""
+#~ "Grafiskuo vide ar lītuotuojam draudzeigu programmu komplektu i dorba "
+#~ "viersmys reikim"
+
+#, fuzzy
+#~ msgid "LXDE Desktop"
+#~ msgstr "IceWm Dorba viersma"
+
+#, fuzzy
+#~ msgid ""
+#~ "A lightweight & fast graphical environment with user-friendly set of "
+#~ "applications and desktop tools"
+#~ msgstr ""
+#~ "Grafiskuo vide ar lītuotuojam draudzeigu programmu komplektu i dorba "
+#~ "viersmys reikim"
+
+#~ msgid "Other Graphical Desktops"
+#~ msgstr "Cytys grafiskuos dorba viersmys"
+
+#~ msgid "Window Maker, Enlightenment, Fvwm, etc"
+#~ msgstr "Window Maker, Enlightenment, Fvwm u.c."
+
+#~ msgid "Utilities"
+#~ msgstr "Utilitys"
+
+#~ msgid "SSH Server"
+#~ msgstr "SSH servers"
+
+#~ msgid "Webmin"
+#~ msgstr "Webmin"
+
+#~ msgid "Webmin Remote Configuration Server"
+#~ msgstr "Webmin attuolynuotuos konfiguracejis servers "
+
+#~ msgid "Network Utilities/Monitoring"
+#~ msgstr "Teikla utilitys/puorraudzeiba"
+
+#~ msgid "Monitoring tools, processes accounting, tcpdump, nmap, ..."
+#~ msgstr "Puorraudzeibys reiki, procesu uzskaite, tcpdump, nmap, ..."
+
+#~ msgid "Mandriva Wizards"
+#~ msgstr "Mandriva paleigi"
+
+#~ msgid "Wizards to configure server"
+#~ msgstr "Servera konfiguracejis paleigi"
+
+#~ msgid ""
+#~ "Failed contacting OpenMandriva Lx web site to get the list of available "
+#~ "mirrors"
+#~ msgstr ""
+#~ "Dasasliegšona OpenMandriva Lx teimekļam cīta naveiksmi, lai sajimtu "
+#~ "pīejamū spūguļserveru sarokstu"
 
 #~ msgid ""
 #~ "_: Keep these entry short\n"

@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DrakX\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-31 17:24+0200\n"
+"POT-Creation-Date: 2015-01-22 00:44+0100\n"
 "PO-Revision-Date: 2010-02-07 16:39+0100\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <i18n-nn@lister.ping.uio.no>\n"
@@ -16,354 +16,6 @@ msgstr ""
 "X-Generator: Lokalize 1.0\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:14
-#, c-format
-msgid "Workstation"
-msgstr "Arbeidstasjon"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:16
-#, c-format
-msgid "Office Workstation"
-msgstr "Kontormaskin"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:18
-#, fuzzy, c-format
-msgid ""
-"Office programs: wordprocessors (OpenOffice.org Writer, Kword), spreadsheets "
-"(OpenOffice.org Calc, Kspread), PDF viewers, etc"
-msgstr ""
-"Kontorprogramvare: Teksthandsamarar (LibreOffice Writer, Kword), rekneark "
-"(LibreOffice Calc, Kspread), PDF-viseprogram, med meir"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:23
-#, c-format
-msgid "Game station"
-msgstr "Spelmaskin"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:24
-#, fuzzy, c-format
-msgid "Amusement programs: arcade, boards, strategy, etc."
-msgstr "Moroprogram: Arkadespel, brettspel, strategispel, med meir"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:28
-#, c-format
-msgid "Multimedia station"
-msgstr "Multimediemaskin"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:29
-#, c-format
-msgid "Sound and video playing/editing programs"
-msgstr "Program for vising og redigering av film"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:34
-#, c-format
-msgid "Toys"
-msgstr ""
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:35
-#, c-format
-msgid "Apps and tools of less useful value, yet entertaining..."
-msgstr ""
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:39
-#, c-format
-msgid "Internet station"
-msgstr "Internett-maskin"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:40
-#, c-format
-msgid ""
-"Set of tools to read and send mail and news (mutt, tin..) and to browse the "
-"Web"
-msgstr ""
-"Program for lesing og sending av e-post, deltaking i temagrupper og surfing "
-"på Internett"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:45
-#, c-format
-msgid "Network Computer (client)"
-msgstr "Nettverksmaskin (klient)"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:46
-#, c-format
-msgid "Clients for different protocols including ssh"
-msgstr "Klientprogramvare for fleire protokollar, som ssh"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:50 gtk.pm:132
-#, c-format
-msgid "Configuration"
-msgstr "Oppsett"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:51
-#, c-format
-msgid "Tools to ease the configuration of your computer"
-msgstr "Verktøy for enkelt oppsett av datamaskina"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:55
-#, c-format
-msgid "Console Tools"
-msgstr "Konsollverktøy"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:56
-#, c-format
-msgid "Editors, shells, file tools, terminals"
-msgstr "Skriveprogram, skal, filverktøy og terminalprogram."
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:60
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:170
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:172
-#, c-format
-msgid "Development"
-msgstr "Utvikling"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:61
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:173
-#, c-format
-msgid "C and C++ development libraries, programs and include files"
-msgstr "Utviklingsbibliotek, program og deklarasjonsfiler for C og C++"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:64
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:177
-#, c-format
-msgid "Documentation"
-msgstr "Hjelpetekst"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:65
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:178
-#, c-format
-msgid "Books and Howto's on Linux and Free Software"
-msgstr "Bøker og hjelpeoppskrifter for Linux og fri programvare"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:69
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:181
-#, c-format
-msgid "LSB"
-msgstr "LSB"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:70
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:182
-#, c-format
-msgid "Linux Standard Base. Third party applications support"
-msgstr "Linux Standard Base – støtte for tredjepartsprogram"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:80
-#, c-format
-msgid "Web Server"
-msgstr "Vevtenar"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:81
-#, c-format
-msgid "Apache"
-msgstr "Apache"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:84
-#, c-format
-msgid "Groupware"
-msgstr "Gruppevare"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:85
-#, c-format
-msgid "Kolab Server"
-msgstr "Kolab-tenar"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:88
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:129
-#, c-format
-msgid "Firewall/Router"
-msgstr "Brannmur/rutar"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:89
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:130
-#, c-format
-msgid "Internet gateway"
-msgstr "Internett-portnar"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:92
-#, c-format
-msgid "Mail/News"
-msgstr "E-post og temagrupper"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:93
-#, c-format
-msgid "Postfix mail server, Inn news server"
-msgstr "Postfix e-posttenar og Inn temagruppetenar"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:96
-#, c-format
-msgid "Directory Server"
-msgstr "Katalogtenar"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:100
-#, c-format
-msgid "FTP Server"
-msgstr "FTP-tenar"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:101
-#, c-format
-msgid "ProFTPd"
-msgstr "ProFTPd"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:104
-#, c-format
-msgid "DNS/NIS"
-msgstr "DNS/NIS"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:105
-#, c-format
-msgid "Domain Name and Network Information Server"
-msgstr "Domenenamn og nettverksinformasjonstenar."
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:108
-#, c-format
-msgid "File and Printer Sharing Server"
-msgstr "Fil- og skrivardeling-tenar"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:109
-#, c-format
-msgid "NFS Server, Samba server"
-msgstr "NFS-tenar, Samba-tenar"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:112
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:125
-#, c-format
-msgid "Database"
-msgstr "Database"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:113
-#, c-format
-msgid "PostgreSQL and MySQL Database Server"
-msgstr "PostgreSQL- og MySQL-databasetenar"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:117
-#, c-format
-msgid "Web/FTP"
-msgstr "Vev/FTP"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:118
-#, c-format
-msgid "Apache, Pro-ftpd"
-msgstr "Apache, Pro-ftpd"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:121
-#, c-format
-msgid "Mail"
-msgstr "E-post"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:122
-#, c-format
-msgid "Postfix mail server"
-msgstr "Postfix-e-posttenar"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:126
-#, c-format
-msgid "PostgreSQL or MySQL database server"
-msgstr "PostgreSQL- eller MySQL-databasetenar"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:133
-#, c-format
-msgid "Network Computer server"
-msgstr "Nettverkstenar"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:134
-#, c-format
-msgid "NFS server, SMB server, Proxy server, ssh server"
-msgstr "NFS-tenar, SMB-tenar, mellomtenar, ssh-tenar"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:141
-#, c-format
-msgid "Graphical Environment"
-msgstr "Grafisk miljø"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:145
-#, c-format
-msgid "KDE Workstation"
-msgstr "KDE-arbeidsstasjon"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:146
-#, c-format
-msgid ""
-"The K Desktop Environment, the basic graphical environment with a collection "
-"of accompanying tools"
-msgstr "Skrivebordsmiljøet KDE, med ei samling tilhøyrande verktøy"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:150
-#, c-format
-msgid "GNOME Workstation"
-msgstr "GNOME-arbeidsstasjon"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:151
-#, c-format
-msgid ""
-"A graphical environment with user-friendly set of applications and desktop "
-"tools"
-msgstr ""
-"Eit grafisk skrivebordsmiljø med brukarvenlege program og skrivebordsverktøy"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:156
-#, c-format
-msgid "LXDE Desktop"
-msgstr "LXDE-skrivebord"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:158
-#, c-format
-msgid ""
-"A lightweight & fast graphical environment with user-friendly set of "
-"applications and desktop tools"
-msgstr ""
-"Eit kjapt og lite ressurskrevande grafisk skrivebordsmiljø med brukarvenlege "
-"program og skrivebordsverktøy"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:162
-#, c-format
-msgid "Other Graphical Desktops"
-msgstr "Andre grafiske skrivebord"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:163
-#, c-format
-msgid "Window Maker, Enlightenment, Fvwm, etc"
-msgstr "Window Maker, Enlightenment, Fvwm, med fleire"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:187
-#, c-format
-msgid "Utilities"
-msgstr "Verktøy"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:189
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:190
-#, c-format
-msgid "SSH Server"
-msgstr "SSH-tenar"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:194
-#, c-format
-msgid "Webmin"
-msgstr "Webmin"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:195
-#, c-format
-msgid "Webmin Remote Configuration Server"
-msgstr "Webmin-fjernoppsettenar"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:199
-#, c-format
-msgid "Network Utilities/Monitoring"
-msgstr "Nettverksverktøy og -overvaking"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:200
-#, c-format
-msgid "Monitoring tools, processes accounting, tcpdump, nmap, ..."
-msgstr "Overvakingsverktøy, prosesshandsaming, tcpdump, nmap, med meir"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:204
-#, c-format
-msgid "Mandriva Wizards"
-msgstr "Mandriva-vegvisarar"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:205
-#, c-format
-msgid "Wizards to configure server"
-msgstr "Vegvisarar for tenaroppsett"
-
 #: ../../advertising/MandrivaOne-advert-1.pl:1
 #: ../../advertising/MandrivaOne-advert-2.pl:1
 #: ../../advertising/MandrivaOne-advert-3.pl:1
@@ -373,9 +25,9 @@ msgstr "Vegvisarar for tenaroppsett"
 #: ../../advertising/MandrivaOne-advert-7.pl:1
 #: ../../advertising/MandrivaOne-advert-8.pl:1
 #: ../../advertising/MandrivaOne-advert-9.pl:1
-#, c-format
-msgid "OpenMandriva Lx 2012 Alpha (Tenacious Underdog)"
-msgstr ""
+#, fuzzy, c-format
+msgid "OpenMandriva Lx 2013.0"
+msgstr "OpenMandriva Lx-installering %s"
 
 #: any.pm:110
 #, c-format
@@ -427,19 +79,14 @@ msgid "URL must start with ftp:// or http://"
 msgstr "Adresser må starta med «ftp://» eller «http://»."
 
 #: any.pm:188
-#, c-format
-msgid ""
-"Contacting OpenMandriva Lx web site to get the list of available mirrors..."
+#, fuzzy, c-format
+msgid "Connecting to OpenMandriva to get the list of available mirrors..."
 msgstr "Kontaktar OpenMandriva Lx-nettstaden for oversikt over speglar …"
 
 #: any.pm:193
-#, c-format
-msgid ""
-"Failed contacting OpenMandriva Lx web site to get the list of available "
-"mirrors"
-msgstr ""
-"Klarte ikkje få kontakt med OpenMandriva Lx-nettstaden for å henta oversikt "
-"over tilgjengelege speglar."
+#, fuzzy, c-format
+msgid "Failed to get the list of available mirrors."
+msgstr "Kontaktar OpenMandriva Lx-nettstaden for oversikt over speglar …"
 
 #: any.pm:203
 #, c-format
@@ -649,6 +296,11 @@ msgstr "Skjermbilete vert tilgjengelege i «%s» etter installeringa er ferdig"
 msgid "Installation"
 msgstr "Installering"
 
+#: gtk.pm:132
+#, c-format
+msgid "Configuration"
+msgstr "Oppsett"
+
 #: install2.pm:168
 #, c-format
 msgid "You must also format %s"
@@ -733,7 +385,7 @@ msgstr ""
 msgid "No description"
 msgstr ""
 
-#: pkgs.pm:280
+#: pkgs.pm:279
 #, c-format
 msgid ""
 "Some packages requested by %s cannot be installed:\n"
@@ -742,27 +394,27 @@ msgstr ""
 "Nokre pakkar som %s krev kan ikkje installerast:\n"
 "%s"
 
-#: pkgs.pm:376 pkgs.pm:403
+#: pkgs.pm:375 pkgs.pm:402
 #, c-format
 msgid "An error occurred:"
 msgstr "Det oppstod ein feil:"
 
-#: pkgs.pm:395
+#: pkgs.pm:394
 #, fuzzy, c-format
 msgid "A fatal error occurred: %s."
 msgstr "Det oppstod ein feil:"
 
-#: pkgs.pm:876 pkgs.pm:918
+#: pkgs.pm:877 pkgs.pm:919
 #, c-format
 msgid "Do not ask again"
 msgstr ""
 
-#: pkgs.pm:892
+#: pkgs.pm:893
 #, c-format
 msgid "%d installation transactions failed"
 msgstr "feil med %d installasjonstransaksjonar"
 
-#: pkgs.pm:893
+#: pkgs.pm:894
 #, c-format
 msgid "Installation of packages failed:"
 msgstr "Feil ved installering av pakkar:"
@@ -803,135 +455,135 @@ msgstr "OpenMandriva Lx-installering %s"
 msgid "<Tab>/<Alt-Tab> between elements"
 msgstr "«Tab»/«Alt + Tab» mellom element"
 
-#: steps_gtk.pm:147
+#: steps_gtk.pm:151
 #, c-format
 msgid "Xorg server is slow to start. Please wait..."
 msgstr "X.Org-tenaren tek tid å starta. Vent litt …"
 
-#: steps_gtk.pm:211
-#, c-format
+#: steps_gtk.pm:216
+#, fuzzy, c-format
 msgid ""
 "Your system is low on resources. You may have some problem installing\n"
-"OpenMandriva Lx. If that occurs, you can try a text install instead. For "
+"OpenMandriva Lx. If that occurs, you can try a text install instead. To do "
 "this,\n"
-"press `F1' when booting on CDROM, then enter `text'."
+"press `F1' at the boot menu, then enter `text'."
 msgstr ""
 "Du har lite systemressursar, og kan få vanskar med å installera Mandriva "
 "Linux.\n"
 "Du kan då installera i tekstmodus i staden for. Trykk «F1» ved oppstart av\n"
 "CD-plata, og skriv «text» om du ønskjer dette."
 
-#: steps_gtk.pm:241 steps_gtk.pm:776
+#: steps_gtk.pm:246 steps_gtk.pm:761
 #, c-format
 msgid "Media Selection"
 msgstr "Medieval"
 
-#: steps_gtk.pm:252
-#, c-format
-msgid "Install Mandriva KDE Desktop"
+#: steps_gtk.pm:257
+#, fuzzy, c-format
+msgid "Install KDE Desktop Environment"
 msgstr "Installer Mandriva KDE-skrivebord"
 
-#: steps_gtk.pm:253
-#, c-format
-msgid "Install Mandriva GNOME Desktop"
+#: steps_gtk.pm:258
+#, fuzzy, c-format
+msgid "Install GNOME Desktop Environment"
 msgstr "Installer Mandriva GNOME-skrivebord"
 
-#: steps_gtk.pm:254
+#: steps_gtk.pm:259
 #, c-format
 msgid "Custom install"
 msgstr "Anna installering"
 
-#: steps_gtk.pm:275
+#: steps_gtk.pm:280
 #, c-format
 msgid "KDE Desktop"
 msgstr "KDE-skrivebord"
 
-#: steps_gtk.pm:276
+#: steps_gtk.pm:281
 #, c-format
 msgid "GNOME Desktop"
 msgstr "GNOME-skrivebord"
 
-#: steps_gtk.pm:277
+#: steps_gtk.pm:282
 #, c-format
 msgid "Custom Desktop"
 msgstr "Sjølvvalt skrivebord"
 
-#: steps_gtk.pm:283
+#: steps_gtk.pm:288
 #, c-format
 msgid "Here's a preview of the '%s' desktop."
 msgstr "Slik ser skrivebordsmiljøet %s ut."
 
-#: steps_gtk.pm:310
+#: steps_gtk.pm:315
 #, c-format
 msgid "Click on images in order to see a bigger preview"
 msgstr "Trykk på bileta for å forstørra dei"
 
-#: steps_gtk.pm:326 steps_interactive.pm:628 steps_list.pm:31
+#: steps_gtk.pm:331 steps_interactive.pm:628 steps_list.pm:31
 #, c-format
 msgid "Package Group Selection"
 msgstr "Pakkegruppeval"
 
-#: steps_gtk.pm:350 steps_interactive.pm:645
+#: steps_gtk.pm:355 steps_interactive.pm:645
 #, c-format
 msgid "Individual package selection"
 msgstr "Direkte pakkeval"
 
-#: steps_gtk.pm:357
+#: steps_gtk.pm:362
 #, c-format
 msgid "Unselect All"
 msgstr ""
 
-#: steps_gtk.pm:375 steps_interactive.pm:557
+#: steps_gtk.pm:380 steps_interactive.pm:557
 #, c-format
 msgid "Total size: %d / %d MB"
 msgstr "Totalstorleik: %d / %d MiB"
 
-#: steps_gtk.pm:420
+#: steps_gtk.pm:425
 #, c-format
 msgid "Version: "
 msgstr "Versjon: "
 
-#: steps_gtk.pm:421
+#: steps_gtk.pm:426
 #, c-format
 msgid "Size: "
 msgstr "Storleik: "
 
-#: steps_gtk.pm:421
+#: steps_gtk.pm:426
 #, c-format
 msgid "%d KB\n"
 msgstr "%d KiB\n"
 
-#: steps_gtk.pm:422
+#: steps_gtk.pm:427
 #, c-format
 msgid "Importance: "
 msgstr "Prioritet: "
 
-#: steps_gtk.pm:457
+#: steps_gtk.pm:462
 #, c-format
 msgid "You cannot select/unselect this package"
 msgstr "Du kan ikkje velja eller fjerna denne pakken"
 
-#: steps_gtk.pm:461
+#: steps_gtk.pm:466
 #, c-format
 msgid "due to missing %s"
 msgstr "på grunn av manglande «%s»"
 
-#: steps_gtk.pm:462
+#: steps_gtk.pm:467
 #, c-format
 msgid "due to unsatisfied %s"
 msgstr "då «%s» ikkje er tilfredsstilt"
 
-#: steps_gtk.pm:463
+#: steps_gtk.pm:468
 #, c-format
 msgid "trying to promote %s"
 msgstr "Prøver å prioritera «%s»"
 
-#: steps_gtk.pm:464
+#: steps_gtk.pm:469
 #, c-format
 msgid "in order to keep %s"
 msgstr "for å kunna behalda «%s»"
 
-#: steps_gtk.pm:469
+#: steps_gtk.pm:474
 #, c-format
 msgid ""
 "You cannot select this package as there is not enough space left to install "
@@ -940,119 +592,109 @@ msgstr ""
 "Du kan ikkje velja denne pakken, då det ikkje er nok ledig plass til å "
 "installera han."
 
-#: steps_gtk.pm:472
+#: steps_gtk.pm:477
 #, c-format
 msgid "The following packages are going to be installed"
 msgstr "Desse pakkane vert installerte"
 
-#: steps_gtk.pm:473
+#: steps_gtk.pm:478
 #, c-format
 msgid "The following packages are going to be removed"
 msgstr "Desse pakkane vert fjerna"
 
-#: steps_gtk.pm:499
+#: steps_gtk.pm:504
 #, c-format
 msgid "This is a mandatory package, it cannot be unselected"
 msgstr "Dette er ein obligatorisk pakke. Du kan ikkje velja han vekk."
 
-#: steps_gtk.pm:501
+#: steps_gtk.pm:506
 #, c-format
 msgid "You cannot unselect this package. It is already installed"
 msgstr "Du kan ikkje velja vekk denne pakken, då han allereie er installert."
 
-#: steps_gtk.pm:503
+#: steps_gtk.pm:508
 #, c-format
 msgid "You cannot unselect this package. It must be upgraded"
 msgstr "Kan ikkje velja vekk pakken. Han må oppgraderast."
 
-#: steps_gtk.pm:507
+#: steps_gtk.pm:512
 #, c-format
 msgid "Show automatically selected packages"
 msgstr "Vis automatiske valde pakkar"
 
-#: steps_gtk.pm:511
+#: steps_gtk.pm:516
 #, c-format
 msgid "Install"
 msgstr "Installer"
 
-#: steps_gtk.pm:514
+#: steps_gtk.pm:519
 #, c-format
 msgid "Load/Save selection"
 msgstr "Opna/lagra utval"
 
-#: steps_gtk.pm:515
+#: steps_gtk.pm:520
 #, c-format
 msgid "Updating package selection"
 msgstr "Oppdaterer pakkeval"
 
-#: steps_gtk.pm:520
+#: steps_gtk.pm:525
 #, c-format
 msgid "Minimal install"
 msgstr "Minimal installering"
 
-#: steps_gtk.pm:533
+#: steps_gtk.pm:538
 #, c-format
 msgid "Software Management"
 msgstr "Programvarehandsaming"
 
-#: steps_gtk.pm:533 steps_interactive.pm:438
+#: steps_gtk.pm:538 steps_interactive.pm:438
 #, c-format
 msgid "Choose the packages you want to install"
 msgstr "Vel pakkane du ønskjer å installera"
 
-#: steps_gtk.pm:550 steps_interactive.pm:659 steps_list.pm:33
+#: steps_gtk.pm:555 steps_interactive.pm:659 steps_list.pm:33
 #, c-format
 msgid "Installing"
 msgstr "Installerer"
 
-#: steps_gtk.pm:581
-#, c-format
-msgid "Bored?"
-msgstr ""
-
-#: steps_gtk.pm:581
-#, c-format
-msgid "Boss button"
-msgstr ""
-
-#: steps_gtk.pm:587
+#: steps_gtk.pm:586
 #, c-format
 msgid "No details"
 msgstr "Gøym detaljar"
 
-#: steps_gtk.pm:620
+#: steps_gtk.pm:605
 #, c-format
 msgid "Time remaining:"
 msgstr "Tid igjen:"
 
-#: steps_gtk.pm:621
+#: steps_gtk.pm:606
 #, c-format
 msgid "(estimating...)"
 msgstr "(estimerer …)"
 
-#: steps_gtk.pm:651
+#: steps_gtk.pm:636
 #, c-format
 msgid "%d package"
 msgid_plural "%d packages"
 msgstr[0] "%d pakke"
 msgstr[1] "%d pakkar"
 
-#: steps_gtk.pm:706 steps_interactive.pm:824 steps_list.pm:44
+#: steps_gtk.pm:691 steps_interactive.pm:824 steps_list.pm:44
 #, c-format
 msgid "Summary"
 msgstr "Samandrag"
 
-#: steps_gtk.pm:725
+#: steps_gtk.pm:710
 #, c-format
 msgid "Configure"
 msgstr "Set opp"
 
-#: steps_gtk.pm:742 steps_interactive.pm:820 steps_interactive.pm:973
+#: steps_gtk.pm:727 steps_interactive.pm:820 steps_interactive.pm:973
 #, c-format
 msgid "not configured"
 msgstr "ikkje sett opp"
 
-#: steps_gtk.pm:785 steps_interactive.pm:336
+#: steps_gtk.pm:770 steps_interactive.pm:336
 #, c-format
 msgid ""
 "The following installation media have been found.\n"
@@ -1061,7 +703,7 @@ msgstr ""
 "Fann desse installasjonsmedia.\n"
 "Om du ikkje ønskjer å bruka alle, kan du velja vekk dei du ikkje treng no."
 
-#: steps_gtk.pm:801 steps_interactive.pm:342
+#: steps_gtk.pm:786 steps_interactive.pm:342
 #, c-format
 msgid ""
 "You have the option to copy the contents of the CDs onto the hard disk drive "
@@ -1074,7 +716,7 @@ msgstr ""
 "Installasjonen vil då helda fram frå harddisken, og pakkane vil vera lett "
 "tilgjengeleg òg etter at systemet er installert og sett opp."
 
-#: steps_gtk.pm:803 steps_interactive.pm:344
+#: steps_gtk.pm:788 steps_interactive.pm:344
 #, c-format
 msgid "Copy whole CDs"
 msgstr "Kopier CD-ane"
@@ -1137,12 +779,13 @@ msgid "Upgrade previous installation (not recommended)"
 msgstr "Oppgrader førre installasjon (ikkje tilrådd)"
 
 #: steps_interactive.pm:215
-#, c-format
+#, fuzzy, c-format
 msgid ""
-"Installer has detected that your installed OpenMandriva Lx system could not\n"
+"The installer has detected that your current OpenMandriva Lx system could "
+"not\n"
 "safely be upgraded to %s.\n"
 "\n"
-"New installation replacing your previous one is recommended.\n"
+"A new installation replacing your previous one is recommended.\n"
 "\n"
 "Warning : you should backup all your personal data before choosing \"New\n"
 "Installation\"."
@@ -1645,6 +1288,216 @@ msgid ""
 "_: Keep these entry short\n"
 "Exit"
 msgstr "Avslutt"
+
+#~ msgid "Workstation"
+#~ msgstr "Arbeidstasjon"
+
+#~ msgid "Office Workstation"
+#~ msgstr "Kontormaskin"
+
+#, fuzzy
+#~ msgid ""
+#~ "Office programs: wordprocessors (OpenOffice.org Writer, Kword), "
+#~ "spreadsheets (OpenOffice.org Calc, Kspread), PDF viewers, etc"
+#~ msgstr ""
+#~ "Kontorprogramvare: Teksthandsamarar (LibreOffice Writer, Kword), rekneark "
+#~ "(LibreOffice Calc, Kspread), PDF-viseprogram, med meir"
+
+#~ msgid "Game station"
+#~ msgstr "Spelmaskin"
+
+#, fuzzy
+#~ msgid "Amusement programs: arcade, boards, strategy, etc."
+#~ msgstr "Moroprogram: Arkadespel, brettspel, strategispel, med meir"
+
+#~ msgid "Multimedia station"
+#~ msgstr "Multimediemaskin"
+
+#~ msgid "Sound and video playing/editing programs"
+#~ msgstr "Program for vising og redigering av film"
+
+#~ msgid "Internet station"
+#~ msgstr "Internett-maskin"
+
+#~ msgid ""
+#~ "Set of tools to read and send mail and news (mutt, tin..) and to browse "
+#~ "the Web"
+#~ msgstr ""
+#~ "Program for lesing og sending av e-post, deltaking i temagrupper og "
+#~ "surfing på Internett"
+
+#~ msgid "Network Computer (client)"
+#~ msgstr "Nettverksmaskin (klient)"
+
+#~ msgid "Clients for different protocols including ssh"
+#~ msgstr "Klientprogramvare for fleire protokollar, som ssh"
+
+#~ msgid "Tools to ease the configuration of your computer"
+#~ msgstr "Verktøy for enkelt oppsett av datamaskina"
+
+#~ msgid "Console Tools"
+#~ msgstr "Konsollverktøy"
+
+#~ msgid "Editors, shells, file tools, terminals"
+#~ msgstr "Skriveprogram, skal, filverktøy og terminalprogram."
+
+#~ msgid "Development"
+#~ msgstr "Utvikling"
+
+#~ msgid "C and C++ development libraries, programs and include files"
+#~ msgstr "Utviklingsbibliotek, program og deklarasjonsfiler for C og C++"
+
+#~ msgid "Documentation"
+#~ msgstr "Hjelpetekst"
+
+#~ msgid "Books and Howto's on Linux and Free Software"
+#~ msgstr "Bøker og hjelpeoppskrifter for Linux og fri programvare"
+
+#~ msgid "LSB"
+#~ msgstr "LSB"
+
+#~ msgid "Linux Standard Base. Third party applications support"
+#~ msgstr "Linux Standard Base – støtte for tredjepartsprogram"
+
+#~ msgid "Web Server"
+#~ msgstr "Vevtenar"
+
+#~ msgid "Apache"
+#~ msgstr "Apache"
+
+#~ msgid "Groupware"
+#~ msgstr "Gruppevare"
+
+#~ msgid "Kolab Server"
+#~ msgstr "Kolab-tenar"
+
+#~ msgid "Firewall/Router"
+#~ msgstr "Brannmur/rutar"
+
+#~ msgid "Internet gateway"
+#~ msgstr "Internett-portnar"
+
+#~ msgid "Mail/News"
+#~ msgstr "E-post og temagrupper"
+
+#~ msgid "Postfix mail server, Inn news server"
+#~ msgstr "Postfix e-posttenar og Inn temagruppetenar"
+
+#~ msgid "Directory Server"
+#~ msgstr "Katalogtenar"
+
+#~ msgid "FTP Server"
+#~ msgstr "FTP-tenar"
+
+#~ msgid "ProFTPd"
+#~ msgstr "ProFTPd"
+
+#~ msgid "DNS/NIS"
+#~ msgstr "DNS/NIS"
+
+#~ msgid "Domain Name and Network Information Server"
+#~ msgstr "Domenenamn og nettverksinformasjonstenar."
+
+#~ msgid "File and Printer Sharing Server"
+#~ msgstr "Fil- og skrivardeling-tenar"
+
+#~ msgid "NFS Server, Samba server"
+#~ msgstr "NFS-tenar, Samba-tenar"
+
+#~ msgid "Database"
+#~ msgstr "Database"
+
+#~ msgid "PostgreSQL and MySQL Database Server"
+#~ msgstr "PostgreSQL- og MySQL-databasetenar"
+
+#~ msgid "Web/FTP"
+#~ msgstr "Vev/FTP"
+
+#~ msgid "Apache, Pro-ftpd"
+#~ msgstr "Apache, Pro-ftpd"
+
+#~ msgid "Mail"
+#~ msgstr "E-post"
+
+#~ msgid "Postfix mail server"
+#~ msgstr "Postfix-e-posttenar"
+
+#~ msgid "PostgreSQL or MySQL database server"
+#~ msgstr "PostgreSQL- eller MySQL-databasetenar"
+
+#~ msgid "Network Computer server"
+#~ msgstr "Nettverkstenar"
+
+#~ msgid "NFS server, SMB server, Proxy server, ssh server"
+#~ msgstr "NFS-tenar, SMB-tenar, mellomtenar, ssh-tenar"
+
+#~ msgid "Graphical Environment"
+#~ msgstr "Grafisk miljø"
+
+#~ msgid "KDE Workstation"
+#~ msgstr "KDE-arbeidsstasjon"
+
+#~ msgid ""
+#~ "The K Desktop Environment, the basic graphical environment with a "
+#~ "collection of accompanying tools"
+#~ msgstr "Skrivebordsmiljøet KDE, med ei samling tilhøyrande verktøy"
+
+#~ msgid "GNOME Workstation"
+#~ msgstr "GNOME-arbeidsstasjon"
+
+#~ msgid ""
+#~ "A graphical environment with user-friendly set of applications and "
+#~ "desktop tools"
+#~ msgstr ""
+#~ "Eit grafisk skrivebordsmiljø med brukarvenlege program og "
+#~ "skrivebordsverktøy"
+
+#~ msgid "LXDE Desktop"
+#~ msgstr "LXDE-skrivebord"
+
+#~ msgid ""
+#~ "A lightweight & fast graphical environment with user-friendly set of "
+#~ "applications and desktop tools"
+#~ msgstr ""
+#~ "Eit kjapt og lite ressurskrevande grafisk skrivebordsmiljø med "
+#~ "brukarvenlege program og skrivebordsverktøy"
+
+#~ msgid "Other Graphical Desktops"
+#~ msgstr "Andre grafiske skrivebord"
+
+#~ msgid "Window Maker, Enlightenment, Fvwm, etc"
+#~ msgstr "Window Maker, Enlightenment, Fvwm, med fleire"
+
+#~ msgid "Utilities"
+#~ msgstr "Verktøy"
+
+#~ msgid "SSH Server"
+#~ msgstr "SSH-tenar"
+
+#~ msgid "Webmin"
+#~ msgstr "Webmin"
+
+#~ msgid "Webmin Remote Configuration Server"
+#~ msgstr "Webmin-fjernoppsettenar"
+
+#~ msgid "Network Utilities/Monitoring"
+#~ msgstr "Nettverksverktøy og -overvaking"
+
+#~ msgid "Monitoring tools, processes accounting, tcpdump, nmap, ..."
+#~ msgstr "Overvakingsverktøy, prosesshandsaming, tcpdump, nmap, med meir"
+
+#~ msgid "Mandriva Wizards"
+#~ msgstr "Mandriva-vegvisarar"
+
+#~ msgid "Wizards to configure server"
+#~ msgstr "Vegvisarar for tenaroppsett"
+
+#~ msgid ""
+#~ "Failed contacting OpenMandriva Lx web site to get the list of available "
+#~ "mirrors"
+#~ msgstr ""
+#~ "Klarte ikkje få kontakt med OpenMandriva Lx-nettstaden for å henta "
+#~ "oversikt over tilgjengelege speglar."
 
 #~ msgid ""
 #~ "_: Keep these entry short\n"

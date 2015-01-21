@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DrakX-tg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-31 17:24+0200\n"
+"POT-Creation-Date: 2015-01-22 00:44+0100\n"
 "PO-Revision-Date: 2005-09-17 16:03+0500\n"
 "Last-Translator: Victor Ibragimov <youth_opportunities@tajikngo.org>\n"
 "Language-Team: Tajik\n"
@@ -25,356 +25,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.10\n"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:14
-#, c-format
-msgid "Workstation"
-msgstr "Истгоҳи корӣ"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:16
-#, c-format
-msgid "Office Workstation"
-msgstr "Истгоҳи Кории Идораӣ"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:18
-#, fuzzy, c-format
-msgid ""
-"Office programs: wordprocessors (OpenOffice.org Writer, Kword), spreadsheets "
-"(OpenOffice.org Calc, Kspread), PDF viewers, etc"
-msgstr ""
-"Барномаҳои идорӣ: пардозандаҳои матнӣ (LibreOffice Writer, Kword), ҷадвалҳои "
-"густурда (LibreOffice Calc, Kspread), азназаргузарҳои PDF ва ғайра"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:23
-#, c-format
-msgid "Game station"
-msgstr "Истгоҳи бозӣ"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:24
-#, fuzzy, c-format
-msgid "Amusement programs: arcade, boards, strategy, etc."
-msgstr "Барномаҳои шавқовар: аркадаҳо, бозиҳои рӯи мизӣ, стратегия ва ғайра"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:28
-#, c-format
-msgid "Multimedia station"
-msgstr "Истгоҳи бисёрмуҳита"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:29
-#, c-format
-msgid "Sound and video playing/editing programs"
-msgstr "Барномаҳо барои бозикунии/таҳрири овоз ва видео"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:34
-#, c-format
-msgid "Toys"
-msgstr ""
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:35
-#, c-format
-msgid "Apps and tools of less useful value, yet entertaining..."
-msgstr ""
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:39
-#, c-format
-msgid "Internet station"
-msgstr "Истгоҳи Интернет"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:40
-#, c-format
-msgid ""
-"Set of tools to read and send mail and news (mutt, tin..) and to browse the "
-"Web"
-msgstr ""
-"Маҷмӯи асбобҳо барои хондан ва фиристодани пост ва ахборот (mutt, tin..) ва "
-"баррасии Web"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:45
-#, c-format
-msgid "Network Computer (client)"
-msgstr "Компютери Шабакавӣ (мизоҷ)"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:46
-#, c-format
-msgid "Clients for different protocols including ssh"
-msgstr "Мизоҷон барои қарордодҳои гуногун, аз он ҷумла ssh"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:50 gtk.pm:132
-#, c-format
-msgid "Configuration"
-msgstr "Батанзимдарорӣ"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:51
-#, c-format
-msgid "Tools to ease the configuration of your computer"
-msgstr "Асбобҳо барои осоннамоии танзими компютери шумо"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:55
-#, c-format
-msgid "Console Tools"
-msgstr "Асбобҳои Нозиргоҳ"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:56
-#, c-format
-msgid "Editors, shells, file tools, terminals"
-msgstr "Муҳаррирон, пардозандаи фармонҳо, асбобҳои файлӣ, поёнаҳо"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:60
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:170
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:172
-#, c-format
-msgid "Development"
-msgstr "Коркард"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:61
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:173
-#, c-format
-msgid "C and C++ development libraries, programs and include files"
-msgstr "Китобхонаи коркарди C ва C++, барномаҳо ва файлҳои дохилшаванда"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:64
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:177
-#, c-format
-msgid "Documentation"
-msgstr "Санадсозӣ"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:65
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:178
-#, c-format
-msgid "Books and Howto's on Linux and Free Software"
-msgstr "Китобҳо ва Чӣ тавр дар Linux ва Таъминоти Барномавии Озод"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:69
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:181
-#, c-format
-msgid "LSB"
-msgstr "LSB"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:70
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:182
-#, c-format
-msgid "Linux Standard Base. Third party applications support"
-msgstr "Манбаи Низоммеъёри Linux. Пуштибонии замимаҳои коргардонони сеюм"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:80
-#, c-format
-msgid "Web Server"
-msgstr "Хидматгори Веб"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:81
-#, c-format
-msgid "Apache"
-msgstr "Apache"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:84
-#, c-format
-msgid "Groupware"
-msgstr "Groupware"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:85
-#, c-format
-msgid "Kolab Server"
-msgstr "Хидматрасони Kolab"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:88
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:129
-#, c-format
-msgid "Firewall/Router"
-msgstr "Фейрвол/Масиргузор"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:89
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:130
-#, c-format
-msgid "Internet gateway"
-msgstr "Даричаи тадохули Интернет"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:92
-#, c-format
-msgid "Mail/News"
-msgstr "Пост/Ахборот"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:93
-#, c-format
-msgid "Postfix mail server, Inn news server"
-msgstr "Хидматрасони постии Postfix, Inn хидматрасони ахборотӣ"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:96
-#, c-format
-msgid "Directory Server"
-msgstr "Хидматрасони Феҳрист"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:100
-#, c-format
-msgid "FTP Server"
-msgstr "Хидматрасони FTP"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:101
-#, c-format
-msgid "ProFTPd"
-msgstr "ProFTPd"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:104
-#, c-format
-msgid "DNS/NIS"
-msgstr "DNS/NIS"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:105
-#, c-format
-msgid "Domain Name and Network Information Server"
-msgstr "Номи Доменӣ ва Хидматрасони Ахбороти Шабакавӣ"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:108
-#, c-format
-msgid "File and Printer Sharing Server"
-msgstr "Хидматрасони Истифодабарандаи Файл ва Чопгар"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:109
-#, c-format
-msgid "NFS Server, Samba server"
-msgstr "Хидматрасони NFS, хидматрасони Samba"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:112
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:125
-#, c-format
-msgid "Database"
-msgstr "Манбаи маълумот"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:113
-#, c-format
-msgid "PostgreSQL and MySQL Database Server"
-msgstr "PostgreSQL ва MySQL Хидматрасони Манбаи Додаҳо"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:117
-#, c-format
-msgid "Web/FTP"
-msgstr "Web/FTP"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:118
-#, c-format
-msgid "Apache, Pro-ftpd"
-msgstr "Apache, Pro-ftpd"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:121
-#, c-format
-msgid "Mail"
-msgstr "Пост"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:122
-#, c-format
-msgid "Postfix mail server"
-msgstr "Хидматрасони пости Postfix"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:126
-#, c-format
-msgid "PostgreSQL or MySQL database server"
-msgstr "Хидматрасони манбаи маълумоти PostgreSQL ё MySQL"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:133
-#, c-format
-msgid "Network Computer server"
-msgstr "Хидматрасони Компютери Шабакавӣ"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:134
-#, c-format
-msgid "NFS server, SMB server, Proxy server, ssh server"
-msgstr "NFS хидматрасон, SMB хидматрасон, Proxy хидматрасон, ssh хидматрасон"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:141
-#, c-format
-msgid "Graphical Environment"
-msgstr "Муҳити Графикӣ"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:145
-#, c-format
-msgid "KDE Workstation"
-msgstr "Истгоҳи кории KDE"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:146
-#, c-format
-msgid ""
-"The K Desktop Environment, the basic graphical environment with a collection "
-"of accompanying tools"
-msgstr ""
-"K Муҳити Мизи Корӣ, ин муҳити графикии асосӣ бо маҷмӯи асбобҳои ҳамроҳкунанда"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:150
-#, c-format
-msgid "GNOME Workstation"
-msgstr "Истгоҳи кории Gnome"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:151
-#, c-format
-msgid ""
-"A graphical environment with user-friendly set of applications and desktop "
-"tools"
-msgstr ""
-"Муҳити графикӣ бо маҷмӯи замимаҳо ва мизи кории бо корванд иртиботи дӯстона "
-"дошта"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:156
-#, fuzzy, c-format
-msgid "LXDE Desktop"
-msgstr "Мизи Кории Ғалатёб"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:158
-#, fuzzy, c-format
-msgid ""
-"A lightweight & fast graphical environment with user-friendly set of "
-"applications and desktop tools"
-msgstr ""
-"Муҳити графикӣ бо маҷмӯи замимаҳо ва мизи кории бо корванд иртиботи дӯстона "
-"дошта"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:162
-#, c-format
-msgid "Other Graphical Desktops"
-msgstr "Дигар Мизҳои Кории Графикӣ"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:163
-#, fuzzy, c-format
-msgid "Window Maker, Enlightenment, Fvwm, etc"
-msgstr "Icewm, Window Maker, Enlightenment, Fvwm, ва ғайра"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:187
-#, c-format
-msgid "Utilities"
-msgstr "Дастгоҳҳо"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:189
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:190
-#, c-format
-msgid "SSH Server"
-msgstr "Хидматгори SSH"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:194
-#, c-format
-msgid "Webmin"
-msgstr "Webmin"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:195
-#, c-format
-msgid "Webmin Remote Configuration Server"
-msgstr "Батанзимдарори Хидматрасони Дурдасти Webmin"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:199
-#, c-format
-msgid "Network Utilities/Monitoring"
-msgstr "Дастгоҳҳои Шабака/Дидабонӣ"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:200
-#, c-format
-msgid "Monitoring tools, processes accounting, tcpdump, nmap, ..."
-msgstr "Дидабонии асбобҳо, ҳисоботи ҷараёнҳо, tcpdump, nmap, ..."
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:204
-#, c-format
-msgid "Mandriva Wizards"
-msgstr "Устодҳои Mandriva"
-
-#: /home/peroyvind/ABF/meta-task//compssUsers.pl:205
-#, c-format
-msgid "Wizards to configure server"
-msgstr "Устод барои танзимдарории хидматрасон"
 
 #: ../../advertising/MandrivaOne-advert-1.pl:1
 #: ../../advertising/MandrivaOne-advert-2.pl:1
@@ -385,9 +35,9 @@ msgstr "Устод барои танзимдарории хидматрасон"
 #: ../../advertising/MandrivaOne-advert-7.pl:1
 #: ../../advertising/MandrivaOne-advert-8.pl:1
 #: ../../advertising/MandrivaOne-advert-9.pl:1
-#, c-format
-msgid "OpenMandriva Lx 2012 Alpha (Tenacious Underdog)"
-msgstr ""
+#, fuzzy, c-format
+msgid "OpenMandriva Lx 2013.0"
+msgstr "Коргузории OpenMandriva Lx %s"
 
 #: any.pm:110
 #, c-format
@@ -435,18 +85,15 @@ msgid "URL must start with ftp:// or http://"
 msgstr ""
 
 #: any.pm:188
-#, c-format
-msgid ""
-"Contacting OpenMandriva Lx web site to get the list of available mirrors..."
+#, fuzzy, c-format
+msgid "Connecting to OpenMandriva to get the list of available mirrors..."
 msgstr ""
 "Барои ба даст даровардани рӯйхати қуттиҳои дастрас пайвастшавӣ ба Mandriva "
 "Linuxweb site ба роҳ монда шудааст..."
 
 #: any.pm:193
 #, fuzzy, c-format
-msgid ""
-"Failed contacting OpenMandriva Lx web site to get the list of available "
-"mirrors"
+msgid "Failed to get the list of available mirrors."
 msgstr ""
 "Барои ба даст даровардани рӯйхати қуттиҳои дастрас пайвастшавӣ ба Mandriva "
 "Linuxweb site ба роҳ монда шудааст..."
@@ -660,6 +307,11 @@ msgstr "ЭкранАксҳо баъд аз коргузориш дар %s дас
 msgid "Installation"
 msgstr "Коргузорӣ шуда истодааст"
 
+#: gtk.pm:132
+#, c-format
+msgid "Configuration"
+msgstr "Батанзимдарорӣ"
+
 #: install2.pm:168
 #, c-format
 msgid "You must also format %s"
@@ -745,34 +397,34 @@ msgstr ""
 msgid "No description"
 msgstr ""
 
-#: pkgs.pm:280
+#: pkgs.pm:279
 #, c-format
 msgid ""
 "Some packages requested by %s cannot be installed:\n"
 "%s"
 msgstr ""
 
-#: pkgs.pm:376 pkgs.pm:403
+#: pkgs.pm:375 pkgs.pm:402
 #, fuzzy, c-format
 msgid "An error occurred:"
 msgstr "Хатогӣ рух дод"
 
-#: pkgs.pm:395
+#: pkgs.pm:394
 #, fuzzy, c-format
 msgid "A fatal error occurred: %s."
 msgstr "Хатогӣ рух дод"
 
-#: pkgs.pm:876 pkgs.pm:918
+#: pkgs.pm:877 pkgs.pm:919
 #, c-format
 msgid "Do not ask again"
 msgstr ""
 
-#: pkgs.pm:892
+#: pkgs.pm:893
 #, c-format
 msgid "%d installation transactions failed"
 msgstr "%d коргузорӣ амалӣ нагардид"
 
-#: pkgs.pm:893
+#: pkgs.pm:894
 #, fuzzy, c-format
 msgid "Installation of packages failed:"
 msgstr "Интихоби синфи коргузорӣ"
@@ -815,135 +467,135 @@ msgstr "Коргузории OpenMandriva Lx %s"
 msgid "<Tab>/<Alt-Tab> between elements"
 msgstr "<Tab>/<Alt-Tab> байни элементҳо"
 
-#: steps_gtk.pm:147
+#: steps_gtk.pm:151
 #, c-format
 msgid "Xorg server is slow to start. Please wait..."
 msgstr ""
 
-#: steps_gtk.pm:211
-#, c-format
+#: steps_gtk.pm:216
+#, fuzzy, c-format
 msgid ""
 "Your system is low on resources. You may have some problem installing\n"
-"OpenMandriva Lx. If that occurs, you can try a text install instead. For "
+"OpenMandriva Lx. If that occurs, you can try a text install instead. To do "
 "this,\n"
-"press `F1' when booting on CDROM, then enter `text'."
+"press `F1' at the boot menu, then enter `text'."
 msgstr ""
 "Дар системи шумо захира кам аст. Ҳангоми коргузорӣ намудани OpenMandriva Lx "
 "шумо метавонед бо муаммоҳо дучор гардед. Агар ин рӯй диҳад, онгоҳ шумо "
 "метавонед коргузории матниро ба амал оред. Ҳангоми худборкунии CDROM ба`F1' "
 "ангушт занед  ва сониян ба `text' дохил шавед."
 
-#: steps_gtk.pm:241 steps_gtk.pm:776
+#: steps_gtk.pm:246 steps_gtk.pm:761
 #, fuzzy, c-format
 msgid "Media Selection"
 msgstr "Интихоби Гурӯҳи Қуттиҳо"
 
-#: steps_gtk.pm:252
+#: steps_gtk.pm:257
 #, c-format
-msgid "Install Mandriva KDE Desktop"
+msgid "Install KDE Desktop Environment"
 msgstr ""
 
-#: steps_gtk.pm:253
+#: steps_gtk.pm:258
 #, c-format
-msgid "Install Mandriva GNOME Desktop"
+msgid "Install GNOME Desktop Environment"
 msgstr ""
 
-#: steps_gtk.pm:254
+#: steps_gtk.pm:259
 #, fuzzy, c-format
 msgid "Custom install"
 msgstr "Коргузории хурдтарин"
 
-#: steps_gtk.pm:275
+#: steps_gtk.pm:280
 #, fuzzy, c-format
 msgid "KDE Desktop"
 msgstr "Мизи Кории Ғалатёб"
 
-#: steps_gtk.pm:276
+#: steps_gtk.pm:281
 #, fuzzy, c-format
 msgid "GNOME Desktop"
 msgstr "Мизи Кории Ғалатёб"
 
-#: steps_gtk.pm:277
+#: steps_gtk.pm:282
 #, fuzzy, c-format
 msgid "Custom Desktop"
 msgstr "Мизи Кории Ғалатёб"
 
-#: steps_gtk.pm:283
+#: steps_gtk.pm:288
 #, c-format
 msgid "Here's a preview of the '%s' desktop."
 msgstr ""
 
-#: steps_gtk.pm:310
+#: steps_gtk.pm:315
 #, c-format
 msgid "Click on images in order to see a bigger preview"
 msgstr ""
 
-#: steps_gtk.pm:326 steps_interactive.pm:628 steps_list.pm:31
+#: steps_gtk.pm:331 steps_interactive.pm:628 steps_list.pm:31
 #, c-format
 msgid "Package Group Selection"
 msgstr "Интихоби Гурӯҳи Қуттиҳо"
 
-#: steps_gtk.pm:350 steps_interactive.pm:645
+#: steps_gtk.pm:355 steps_interactive.pm:645
 #, c-format
 msgid "Individual package selection"
 msgstr "Интихоби қуттиҳои алоҳида"
 
-#: steps_gtk.pm:357
+#: steps_gtk.pm:362
 #, c-format
 msgid "Unselect All"
 msgstr ""
 
-#: steps_gtk.pm:375 steps_interactive.pm:557
+#: steps_gtk.pm:380 steps_interactive.pm:557
 #, c-format
 msgid "Total size: %d / %d MB"
 msgstr "Андозаи умумӣ: %d / %d MB"
 
-#: steps_gtk.pm:420
+#: steps_gtk.pm:425
 #, c-format
 msgid "Version: "
 msgstr "Нусха: "
 
-#: steps_gtk.pm:421
+#: steps_gtk.pm:426
 #, c-format
 msgid "Size: "
 msgstr "Ҳаҷм: "
 
-#: steps_gtk.pm:421
+#: steps_gtk.pm:426
 #, c-format
 msgid "%d KB\n"
 msgstr "%d Кб\n"
 
-#: steps_gtk.pm:422
+#: steps_gtk.pm:427
 #, c-format
 msgid "Importance: "
 msgstr "Ҳатмӣ: "
 
-#: steps_gtk.pm:457
+#: steps_gtk.pm:462
 #, c-format
 msgid "You cannot select/unselect this package"
 msgstr "Шумо интихоб/рад кардани ин бастаи барномаҳоро, карда наметавонед"
 
-#: steps_gtk.pm:461
+#: steps_gtk.pm:466
 #, c-format
 msgid "due to missing %s"
 msgstr "мувофиқи мавҷуд набудани %s"
 
-#: steps_gtk.pm:462
+#: steps_gtk.pm:467
 #, c-format
 msgid "due to unsatisfied %s"
 msgstr "аз сабаби %s-и қонеънагашта"
 
-#: steps_gtk.pm:463
+#: steps_gtk.pm:468
 #, c-format
 msgid "trying to promote %s"
 msgstr "барои пешравӣ кӯшиш намудан %s"
 
-#: steps_gtk.pm:464
+#: steps_gtk.pm:469
 #, c-format
 msgid "in order to keep %s"
 msgstr "Барои нигоҳ доштани %s"
 
-#: steps_gtk.pm:469
+#: steps_gtk.pm:474
 #, c-format
 msgid ""
 "You cannot select this package as there is not enough space left to install "
@@ -952,121 +604,111 @@ msgstr ""
 "Шумо ин қуттиро интихоб карда наметавонед, зеро барои кор гузоштани он ҷой "
 "кофӣнест"
 
-#: steps_gtk.pm:472
+#: steps_gtk.pm:477
 #, c-format
 msgid "The following packages are going to be installed"
 msgstr "Қуттиҳои зерин коргузорӣ хоҳад шуд"
 
-#: steps_gtk.pm:473
+#: steps_gtk.pm:478
 #, c-format
 msgid "The following packages are going to be removed"
 msgstr "Қуттиҳои навбатӣ бояд хориҷ гардад"
 
-#: steps_gtk.pm:499
+#: steps_gtk.pm:504
 #, c-format
 msgid "This is a mandatory package, it cannot be unselected"
 msgstr "Ин қуттии зарур мебошад, онро бекор карда намешавад"
 
-#: steps_gtk.pm:501
+#: steps_gtk.pm:506
 #, c-format
 msgid "You cannot unselect this package. It is already installed"
 msgstr ""
 "Шумо интихоби ин бастаи барномаҳоро рад карда наметавонед. Он аллакай "
 "коргузорӣ шудааст"
 
-#: steps_gtk.pm:503
+#: steps_gtk.pm:508
 #, c-format
 msgid "You cannot unselect this package. It must be upgraded"
 msgstr "Шумо интихоби ин қуттиро бекор карда наметавонед. он бояд нав гардад"
 
-#: steps_gtk.pm:507
+#: steps_gtk.pm:512
 #, c-format
 msgid "Show automatically selected packages"
 msgstr "Ба таври автоматӣ қуттиҳои интихобшударо нишон диҳед"
 
-#: steps_gtk.pm:511
+#: steps_gtk.pm:516
 #, c-format
 msgid "Install"
 msgstr "Коргузоштан"
 
-#: steps_gtk.pm:514
+#: steps_gtk.pm:519
 #, fuzzy, c-format
 msgid "Load/Save selection"
 msgstr "Интихоби қуттӣ"
 
-#: steps_gtk.pm:515
+#: steps_gtk.pm:520
 #, c-format
 msgid "Updating package selection"
 msgstr "Интихоби қуттиҳо нав карда мешавад"
 
-#: steps_gtk.pm:520
+#: steps_gtk.pm:525
 #, c-format
 msgid "Minimal install"
 msgstr "Коргузории хурдтарин"
 
-#: steps_gtk.pm:533
+#: steps_gtk.pm:538
 #, c-format
 msgid "Software Management"
 msgstr "Идоракунии Нармафзор"
 
-#: steps_gtk.pm:533 steps_interactive.pm:438
+#: steps_gtk.pm:538 steps_interactive.pm:438
 #, c-format
 msgid "Choose the packages you want to install"
 msgstr "Бастаи барномаҳоеро, ки коргузорӣ кардан мехоҳед, интихоб намоед"
 
-#: steps_gtk.pm:550 steps_interactive.pm:659 steps_list.pm:33
+#: steps_gtk.pm:555 steps_interactive.pm:659 steps_list.pm:33
 #, c-format
 msgid "Installing"
 msgstr "Коргузорӣ шуда истодааст"
 
-#: steps_gtk.pm:581
-#, c-format
-msgid "Bored?"
-msgstr ""
-
-#: steps_gtk.pm:581
-#, c-format
-msgid "Boss button"
-msgstr ""
-
-#: steps_gtk.pm:587
+#: steps_gtk.pm:586
 #, c-format
 msgid "No details"
 msgstr "Тафсилот нест"
 
-#: steps_gtk.pm:620
+#: steps_gtk.pm:605
 #, fuzzy, c-format
 msgid "Time remaining:"
 msgstr "Вақти боқимонда "
 
-#: steps_gtk.pm:621
+#: steps_gtk.pm:606
 #, fuzzy, c-format
 msgid "(estimating...)"
 msgstr "Баҳодиҳии тахминӣ"
 
-#: steps_gtk.pm:651
+#: steps_gtk.pm:636
 #, fuzzy, c-format
 msgid "%d package"
 msgid_plural "%d packages"
 msgstr[0] "%d қуттиҳо"
 msgstr[1] "%d қуттиҳо"
 
-#: steps_gtk.pm:706 steps_interactive.pm:824 steps_list.pm:44
+#: steps_gtk.pm:691 steps_interactive.pm:824 steps_list.pm:44
 #, c-format
 msgid "Summary"
 msgstr "Ҷамбаст"
 
-#: steps_gtk.pm:725
+#: steps_gtk.pm:710
 #, c-format
 msgid "Configure"
 msgstr "Танзим додан"
 
-#: steps_gtk.pm:742 steps_interactive.pm:820 steps_interactive.pm:973
+#: steps_gtk.pm:727 steps_interactive.pm:820 steps_interactive.pm:973
 #, c-format
 msgid "not configured"
 msgstr "танзимдода нашуда"
 
-#: steps_gtk.pm:785 steps_interactive.pm:336
+#: steps_gtk.pm:770 steps_interactive.pm:336
 #, c-format
 msgid ""
 "The following installation media have been found.\n"
@@ -1076,7 +718,7 @@ msgstr ""
 "Агар баъзеи онҳоро партофтан хоҳед, онҳоро дар айни замон интихоб накарда "
 "метавонед."
 
-#: steps_gtk.pm:801 steps_interactive.pm:342
+#: steps_gtk.pm:786 steps_interactive.pm:342
 #, c-format
 msgid ""
 "You have the option to copy the contents of the CDs onto the hard disk drive "
@@ -1085,7 +727,7 @@ msgid ""
 "available once the system is fully installed."
 msgstr ""
 
-#: steps_gtk.pm:803 steps_interactive.pm:344
+#: steps_gtk.pm:788 steps_interactive.pm:344
 #, c-format
 msgid "Copy whole CDs"
 msgstr ""
@@ -1150,10 +792,11 @@ msgstr ""
 #: steps_interactive.pm:215
 #, c-format
 msgid ""
-"Installer has detected that your installed OpenMandriva Lx system could not\n"
+"The installer has detected that your current OpenMandriva Lx system could "
+"not\n"
 "safely be upgraded to %s.\n"
 "\n"
-"New installation replacing your previous one is recommended.\n"
+"A new installation replacing your previous one is recommended.\n"
 "\n"
 "Warning : you should backup all your personal data before choosing \"New\n"
 "Installation\"."
@@ -1650,6 +1293,224 @@ msgid ""
 "_: Keep these entry short\n"
 "Exit"
 msgstr "Хуруҷ"
+
+#~ msgid "Workstation"
+#~ msgstr "Истгоҳи корӣ"
+
+#~ msgid "Office Workstation"
+#~ msgstr "Истгоҳи Кории Идораӣ"
+
+#, fuzzy
+#~ msgid ""
+#~ "Office programs: wordprocessors (OpenOffice.org Writer, Kword), "
+#~ "spreadsheets (OpenOffice.org Calc, Kspread), PDF viewers, etc"
+#~ msgstr ""
+#~ "Барномаҳои идорӣ: пардозандаҳои матнӣ (LibreOffice Writer, Kword), "
+#~ "ҷадвалҳои густурда (LibreOffice Calc, Kspread), азназаргузарҳои PDF ва "
+#~ "ғайра"
+
+#~ msgid "Game station"
+#~ msgstr "Истгоҳи бозӣ"
+
+#, fuzzy
+#~ msgid "Amusement programs: arcade, boards, strategy, etc."
+#~ msgstr "Барномаҳои шавқовар: аркадаҳо, бозиҳои рӯи мизӣ, стратегия ва ғайра"
+
+#~ msgid "Multimedia station"
+#~ msgstr "Истгоҳи бисёрмуҳита"
+
+#~ msgid "Sound and video playing/editing programs"
+#~ msgstr "Барномаҳо барои бозикунии/таҳрири овоз ва видео"
+
+#~ msgid "Internet station"
+#~ msgstr "Истгоҳи Интернет"
+
+#~ msgid ""
+#~ "Set of tools to read and send mail and news (mutt, tin..) and to browse "
+#~ "the Web"
+#~ msgstr ""
+#~ "Маҷмӯи асбобҳо барои хондан ва фиристодани пост ва ахборот (mutt, tin..) "
+#~ "ва баррасии Web"
+
+#~ msgid "Network Computer (client)"
+#~ msgstr "Компютери Шабакавӣ (мизоҷ)"
+
+#~ msgid "Clients for different protocols including ssh"
+#~ msgstr "Мизоҷон барои қарордодҳои гуногун, аз он ҷумла ssh"
+
+#~ msgid "Tools to ease the configuration of your computer"
+#~ msgstr "Асбобҳо барои осоннамоии танзими компютери шумо"
+
+#~ msgid "Console Tools"
+#~ msgstr "Асбобҳои Нозиргоҳ"
+
+#~ msgid "Editors, shells, file tools, terminals"
+#~ msgstr "Муҳаррирон, пардозандаи фармонҳо, асбобҳои файлӣ, поёнаҳо"
+
+#~ msgid "Development"
+#~ msgstr "Коркард"
+
+#~ msgid "C and C++ development libraries, programs and include files"
+#~ msgstr "Китобхонаи коркарди C ва C++, барномаҳо ва файлҳои дохилшаванда"
+
+#~ msgid "Documentation"
+#~ msgstr "Санадсозӣ"
+
+#~ msgid "Books and Howto's on Linux and Free Software"
+#~ msgstr "Китобҳо ва Чӣ тавр дар Linux ва Таъминоти Барномавии Озод"
+
+#~ msgid "LSB"
+#~ msgstr "LSB"
+
+#~ msgid "Linux Standard Base. Third party applications support"
+#~ msgstr "Манбаи Низоммеъёри Linux. Пуштибонии замимаҳои коргардонони сеюм"
+
+#~ msgid "Web Server"
+#~ msgstr "Хидматгори Веб"
+
+#~ msgid "Apache"
+#~ msgstr "Apache"
+
+#~ msgid "Groupware"
+#~ msgstr "Groupware"
+
+#~ msgid "Kolab Server"
+#~ msgstr "Хидматрасони Kolab"
+
+#~ msgid "Firewall/Router"
+#~ msgstr "Фейрвол/Масиргузор"
+
+#~ msgid "Internet gateway"
+#~ msgstr "Даричаи тадохули Интернет"
+
+#~ msgid "Mail/News"
+#~ msgstr "Пост/Ахборот"
+
+#~ msgid "Postfix mail server, Inn news server"
+#~ msgstr "Хидматрасони постии Postfix, Inn хидматрасони ахборотӣ"
+
+#~ msgid "Directory Server"
+#~ msgstr "Хидматрасони Феҳрист"
+
+#~ msgid "FTP Server"
+#~ msgstr "Хидматрасони FTP"
+
+#~ msgid "ProFTPd"
+#~ msgstr "ProFTPd"
+
+#~ msgid "DNS/NIS"
+#~ msgstr "DNS/NIS"
+
+#~ msgid "Domain Name and Network Information Server"
+#~ msgstr "Номи Доменӣ ва Хидматрасони Ахбороти Шабакавӣ"
+
+#~ msgid "File and Printer Sharing Server"
+#~ msgstr "Хидматрасони Истифодабарандаи Файл ва Чопгар"
+
+#~ msgid "NFS Server, Samba server"
+#~ msgstr "Хидматрасони NFS, хидматрасони Samba"
+
+#~ msgid "Database"
+#~ msgstr "Манбаи маълумот"
+
+#~ msgid "PostgreSQL and MySQL Database Server"
+#~ msgstr "PostgreSQL ва MySQL Хидматрасони Манбаи Додаҳо"
+
+#~ msgid "Web/FTP"
+#~ msgstr "Web/FTP"
+
+#~ msgid "Apache, Pro-ftpd"
+#~ msgstr "Apache, Pro-ftpd"
+
+#~ msgid "Mail"
+#~ msgstr "Пост"
+
+#~ msgid "Postfix mail server"
+#~ msgstr "Хидматрасони пости Postfix"
+
+#~ msgid "PostgreSQL or MySQL database server"
+#~ msgstr "Хидматрасони манбаи маълумоти PostgreSQL ё MySQL"
+
+#~ msgid "Network Computer server"
+#~ msgstr "Хидматрасони Компютери Шабакавӣ"
+
+#~ msgid "NFS server, SMB server, Proxy server, ssh server"
+#~ msgstr ""
+#~ "NFS хидматрасон, SMB хидматрасон, Proxy хидматрасон, ssh хидматрасон"
+
+#~ msgid "Graphical Environment"
+#~ msgstr "Муҳити Графикӣ"
+
+#~ msgid "KDE Workstation"
+#~ msgstr "Истгоҳи кории KDE"
+
+#~ msgid ""
+#~ "The K Desktop Environment, the basic graphical environment with a "
+#~ "collection of accompanying tools"
+#~ msgstr ""
+#~ "K Муҳити Мизи Корӣ, ин муҳити графикии асосӣ бо маҷмӯи асбобҳои "
+#~ "ҳамроҳкунанда"
+
+#~ msgid "GNOME Workstation"
+#~ msgstr "Истгоҳи кории Gnome"
+
+#~ msgid ""
+#~ "A graphical environment with user-friendly set of applications and "
+#~ "desktop tools"
+#~ msgstr ""
+#~ "Муҳити графикӣ бо маҷмӯи замимаҳо ва мизи кории бо корванд иртиботи "
+#~ "дӯстона дошта"
+
+#, fuzzy
+#~ msgid "LXDE Desktop"
+#~ msgstr "Мизи Кории Ғалатёб"
+
+#, fuzzy
+#~ msgid ""
+#~ "A lightweight & fast graphical environment with user-friendly set of "
+#~ "applications and desktop tools"
+#~ msgstr ""
+#~ "Муҳити графикӣ бо маҷмӯи замимаҳо ва мизи кории бо корванд иртиботи "
+#~ "дӯстона дошта"
+
+#~ msgid "Other Graphical Desktops"
+#~ msgstr "Дигар Мизҳои Кории Графикӣ"
+
+#, fuzzy
+#~ msgid "Window Maker, Enlightenment, Fvwm, etc"
+#~ msgstr "Icewm, Window Maker, Enlightenment, Fvwm, ва ғайра"
+
+#~ msgid "Utilities"
+#~ msgstr "Дастгоҳҳо"
+
+#~ msgid "SSH Server"
+#~ msgstr "Хидматгори SSH"
+
+#~ msgid "Webmin"
+#~ msgstr "Webmin"
+
+#~ msgid "Webmin Remote Configuration Server"
+#~ msgstr "Батанзимдарори Хидматрасони Дурдасти Webmin"
+
+#~ msgid "Network Utilities/Monitoring"
+#~ msgstr "Дастгоҳҳои Шабака/Дидабонӣ"
+
+#~ msgid "Monitoring tools, processes accounting, tcpdump, nmap, ..."
+#~ msgstr "Дидабонии асбобҳо, ҳисоботи ҷараёнҳо, tcpdump, nmap, ..."
+
+#~ msgid "Mandriva Wizards"
+#~ msgstr "Устодҳои Mandriva"
+
+#~ msgid "Wizards to configure server"
+#~ msgstr "Устод барои танзимдарории хидматрасон"
+
+#, fuzzy
+#~ msgid ""
+#~ "Failed contacting OpenMandriva Lx web site to get the list of available "
+#~ "mirrors"
+#~ msgstr ""
+#~ "Барои ба даст даровардани рӯйхати қуттиҳои дастрас пайвастшавӣ ба "
+#~ "Mandriva Linuxweb site ба роҳ монда шудааст..."
 
 #~ msgid ""
 #~ "_: Keep these entry short\n"
