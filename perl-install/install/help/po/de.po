@@ -14,13 +14,14 @@
 # Ronny Standtke <Ronny.Standtke@gmx.net>, 2004, 2005.
 # Nicolas Bauer <webmaster@mandrakeusers.de>, 2005.
 # Frank Koester <frank@dueppel13.de>, 2005.
+# Maik Wagner <maiktapwagner@aol.com>, 2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: DrakX-de\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-09-12 12:22+0200\n"
 "PO-Revision-Date: 2005-09-20 17:12+0200\n"
-"Last-Translator: Frank Koester <frank@dueppel13.de>\n"
+"Last-Translator: Maik Wagner <maiktapwagner@aol.com>\n"
 "Language-Team: deutsch\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -126,12 +127,12 @@ msgstr ""
 #: ../help.pm:54
 #, c-format
 msgid "User name"
-msgstr ""
+msgstr "Benutzername"
 
 #: ../help.pm:54
 #, c-format
 msgid "Accept user"
-msgstr ""
+msgstr "Benutzer akzeptieren"
 
 #: ../help.pm:54
 #, c-format
@@ -509,7 +510,7 @@ msgstr ""
 #: ../help.pm:213
 #, c-format
 msgid "Hardware clock set to GMT"
-msgstr ""
+msgstr "Hardwareuhr auf GMT eingestellt"
 
 #: ../help.pm:213
 #, c-format
@@ -860,7 +861,7 @@ msgstr "Verwende existierende Partition(en)"
 #: ../help.pm:370
 #, c-format
 msgid "Use the free space on the Microsoft Windows® partition"
-msgstr ""
+msgstr "Freien Platz auf der Microsoft Windows®-Partition nutzen"
 
 #: ../help.pm:370
 #, c-format
@@ -950,17 +951,17 @@ msgstr "Erstellen einer Autoinstallations-Diskette"
 #: ../help.pm:405
 #, c-format
 msgid "Replay"
-msgstr ""
+msgstr "Nochmals abspielen"
 
 #: ../help.pm:405
 #, c-format
 msgid "Automated"
-msgstr ""
+msgstr "Automatisiert"
 
 #: ../help.pm:405
 #, c-format
 msgid "Save packages selection"
-msgstr ""
+msgstr "Paketauswahl speichern"
 
 # DO NOT BOTHER TO MODIFY HERE, SEE:
 # cvs.mandriva.com:/cooker/doc/manualB/modules/de/drakx-chapter.xml
@@ -1243,17 +1244,17 @@ msgstr ""
 #: ../help.pm:526
 #, c-format
 msgid "Save partition table"
-msgstr ""
+msgstr "Speichern der Partitionstabelle"
 
 #: ../help.pm:526
 #, c-format
 msgid "Restore partition table"
-msgstr ""
+msgstr "Wiederherstellung der Partitionstabelle"
 
 #: ../help.pm:526
 #, c-format
 msgid "Rescue partition table"
-msgstr ""
+msgstr "Partitionstabelle retten"
 
 #: ../help.pm:526
 #, c-format
@@ -1263,12 +1264,12 @@ msgstr "Wechselmedien automatisch einhängen"
 #: ../help.pm:526
 #, c-format
 msgid "Wizard"
-msgstr ""
+msgstr "Assistent"
 
 #: ../help.pm:526
 #, c-format
 msgid "Undo"
-msgstr ""
+msgstr "Rückgängig machen"
 
 #: ../help.pm:526
 #, c-format
@@ -1537,7 +1538,7 @@ msgstr "Spanisch"
 #: ../help.pm:643
 #, c-format
 msgid "Use Unicode by default"
-msgstr ""
+msgstr "Standardmäßig Unicode verwenden"
 
 # DO NOT BOTHER TO MODIFY HERE, SEE:
 # cvs.mandriva.com:/cooker/doc/manualB/modules/de/drakx-chapter.xml
