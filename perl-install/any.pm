@@ -705,6 +705,9 @@ sub get_autologin() {
     } elsif ($dm eq "kdm") {
         my %conf = read_gnomekderc($kdm_file, 'X-:0-Core');
         $autologin_user = text2bool($conf{AutoLoginEnable}) && $conf{AutoLoginUser};
+    } elsif ($dm eq "sddm") {
+        my %conf = read_gnomekderc($sddm_file, 'Autologin');
+        $autologin_user = text2bool($conf{User}) && $conf{AutoLoginUser};
     } else {
         my %conf = getVarsFromSh($autologin_file);
         $autologin_user = text2bool($conf{AUTOLOGIN}) && $conf{USER};
