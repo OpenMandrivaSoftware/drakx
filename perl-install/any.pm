@@ -98,6 +98,7 @@ sub create_user {
 			     ? ('-l', $u->{name}, $u->{rename_from})
 			     : $u->{name}));
 	symlink($u->{home}, $symlink_home_from) if $symlink_home_from;
+    eval { run_program::rooted($::prefix, 'systemctl', 'try-restart', 'accounts-daemon.service') };
 	eval { chmod(0751, (getpwnam($u->{home}))[7]); };
     }
 
