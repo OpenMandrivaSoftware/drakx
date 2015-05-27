@@ -244,7 +244,8 @@ sub _default_type {
       arch() eq "alpha" ? "bsd" : 
       arch() =~ /^sparc/ ? "sun" : 
       arch() eq "ppc" && detect_devices::get_mac_model() !~ /^IBM/ ? "mac" : 
-	$hd->{totalsectors} > 4 * 1024 * 1024 * 2048 ? 'lvm' : "dos"; #- default to LVM on full disk when >4TB
+    # default to GPT on UEFI systems and disks > 4TB
+    is_uefi() || $hd->{totalsectors} > 4 * 1024 * 1024 * 2048 ? 'gpt' : "dos";
 }
 
 sub initialize {
