@@ -6,7 +6,7 @@ use devices;
 
 our @ISA = qw(Exporter);
 our @EXPORT = qw(
-   isEmpty isExtended isTrueLocalFS isTrueFS isDos isSwap isOtherAvailableFS isRawLVM isRawRAID isRawLUKS isRAID isLVM isLUKS isMountableRW isNonMountable isPartOfLVM isPartOfRAID isPartOfLoopback isLoopback isMounted isBusy isSpecial isApple isAppleBootstrap isWholedisk isFat_or_NTFS isnormal_Fat_or_NTFS isRecovery
+   isEmpty isExtended isTrueLocalFS isTrueFS isDos isSwap isOtherAvailableFS isRawLVM isRawRAID isRawLUKS isRAID isLVM isLUKS isMountableRW isNonMountable isPartOfLVM isPartOfRAID isPartOfLoopback isLoopback isMounted isBusy isSpecial isApple isAppleBootstrap isESP isWholedisk isFat_or_NTFS isnormal_Fat_or_NTFS isRecovery
    maybeFormatted set_isFormatted defaultFS
 );
 
@@ -24,6 +24,9 @@ my (%type_name2pt_type, %type_name2fs_type, %fs_type2pt_type, %pt_type2fs_type, 
   0x83 => 'reiserfs', 'Journalised FS: ReiserFS',
   0x83 => 'xfs',      'Journalised FS: XFS',
   0x83 => 'jfs',      'Journalised FS: JFS',
+if_(is_uefi(),
+  0xef => 'vfat',     'EFI (FAT-12/16/32)',
+),
   0x0b => 'vfat',     'FAT32',
   0x07 => 'ntfs-3g',  'NTFS-3G',
   0x07 => 'ntfs',     'NTFS',
@@ -143,9 +146,6 @@ if_(arch() !~ /ppc/,
   0xe4 => '',         'SpeedStor (FAT-16)',
   0xeb => 'befs',     'BeOS fs',
   0xee => '',         'EFI GPT',
-if_(is_uefi(),
-  0xef => 'vfat',     'EFI (FAT-12/16/32)',
-),
   0xf0 => '',         'Linux/PA-RISC boot',
   0xf4 => '',         'SpeedStor (large part.)',
   0xf2 => '',         'DOS secondary',

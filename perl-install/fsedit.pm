@@ -14,6 +14,7 @@ use detect_devices;
 use devices;
 use log;
 use fs;
+use feature 'state';
 
 # min_hd_size: only suggest this partition if the hd size is bigger than that
 %suggestions = (
