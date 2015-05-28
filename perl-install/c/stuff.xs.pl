@@ -94,6 +94,29 @@ int length_of_space_padded(char *str, int len) {
   return len;
 }
 
+PedPartitionFlag string_to_pedpartflag(char*type) {
+   PedPartitionFlag flag = (PedPartitionFlag) 0;
+   if (!strcmp(type, "ESP")) {
+      flag = PED_PARTITION_ESP;
+   } else if (!strcmp(type, "LVM")) {
+      flag = PED_PARTITION_LVM;
+   } else if (!strcmp(type, "RAID")) {
+      flag = PED_PARTITION_RAID;
+   } else {
+      printf("set_partition_flag: unknown type: %s\n", type);
+   }
+   return flag;
+}
+
+int is_recovery_partition(PedPartition*part) {
+  /* FIXME: not sure everything is covered ... */
+  return ped_partition_get_flag(part, PED_PARTITION_HPSERVICE) // HP-UX service partition
+      || ped_partition_get_flag(part, PED_PARTITION_MSFT_RESERVED) // Microsoft Reserved Partition -> LDM metadata, ...
+      || ped_partition_get_flag(part, PED_PARTITION_DIAG) // ==> PARTITION_MSFT_RECOVERY (Windows Recovery Environment)
+      || ped_partition_get_flag(part, PED_PARTITION_APPLE_TV_RECOVERY)
+      || ped_partition_get_flag(part, PED_PARTITION_HIDDEN);
+}
+
 MODULE = c::stuff		PACKAGE = c::stuff
 
 ';
@@ -492,6 +515,52 @@ get_iso_volume_ids(int fd)
 
 print '
 
+int
+get_partition_flag(char * device_path, int part_number, char *type)
+  CODE:
+  PedDevice *dev = ped_device_get(device_path);
+  RETVAL = 0;
+  if(dev) {
+    PedDisk* disk = ped_disk_new(dev);
+    if(disk) {
+      PedPartition* part = ped_disk_get_partition(disk, part_number);
+      if (!part) {
+        printf("get_partition_flag: failed to find partition\n");
+      } else {
+        PedPartitionFlag flag = string_to_pedpartflag(type);
+        if (flag)
+           RETVAL=ped_partition_get_flag(part, flag);
+      }
+      ped_disk_destroy(disk);
+    }
+  }
+  OUTPUT:
+  RETVAL
+
+int
+set_partition_flag(char * device_path, int part_number, char *type)
+  CODE:
+  PedDevice *dev = ped_device_get(device_path);
+  RETVAL = 0;
+  if(dev) {
+    PedDisk* disk = ped_disk_new(dev);
+    if(disk) {
+      PedPartition* part = ped_disk_get_partition(disk, part_number);
+      if (!part) {
+        printf("set_partition_flag: failed to find partition\n");
+      } else {
+        PedPartitionFlag flag = string_to_pedpartflag(type);
+        if (flag)
+           RETVAL=ped_partition_set_flag(part, flag, 1);
+           if (RETVAL)
+              RETVAL = ped_disk_commit(disk);
+      }
+      ped_disk_destroy(disk);
+    }
+  }
+  OUTPUT:
+  RETVAL
+
 const char *
 get_disk_type(char * device_path)
   CODE:
@@ -513,40 +582,49 @@ get_disk_partitions(char * device_path)
   PedDevice *dev = ped_device_get(device_path);
   if(dev) {
     PedDisk* disk = ped_disk_new(dev);
-    PedPartition *part = NULL;
-    if(disk)
-      part = ped_disk_next_partition(disk, NULL);
+    PedPartition *part = NULL, *first_part = NULL;
+    int count = 1;
+    if(!disk)
+      return;
+    first_part = part = ped_disk_next_partition(disk, NULL);
     while(part) {
-      if(part->num != -1) {
-        char desc[4196];
-        char *path = ped_partition_get_path(part);
-        sprintf(desc, "%d ", part->num);
-        sprintf(desc+strlen(desc), "%s ", path);
-        free(path);
-        if(part->fs_type)
-          strcat(desc, part->fs_type->name);
-        if(part->type == 0x0)
-          strcat(desc, " normal");
-        else {
-          if(part->type & PED_PARTITION_LOGICAL)
-              strcat(desc, " logical");
-          if(part->type & PED_PARTITION_EXTENDED)
-              strcat(desc, " extended");
-          if(part->type & PED_PARTITION_FREESPACE)
-              strcat(desc, " freespace");
-          if(part->type & PED_PARTITION_METADATA)
-              strcat(desc, " metadata");
-          if(part->type & PED_PARTITION_PROTECTED)
-              strcat(desc, " protected");
-        }
-        sprintf(desc+strlen(desc), " (%lld,%lld,%lld)", part->geom.start, part->geom.end, part->geom.length);
-        XPUSHs(sv_2mortal(newSVpv(desc, 0)));
-      }
       part = ped_disk_next_partition(disk, part);
+      count++;
     }
-    if(disk)
-      ped_disk_destroy(disk);
+    EXTEND(SP, count);
+    part = first_part;
+    while(part) {
+      if(part->num == -1) {
+           part = ped_disk_next_partition(disk, part);
+           continue;
+      }
+      char *path = ped_partition_get_path(part);
+      char *flag = "";
+      if (ped_partition_get_flag(part, PED_PARTITION_ESP)) {
+        flag = "ESP";
+      } else if (ped_partition_get_flag(part, PED_PARTITION_LVM)) {
+        flag = "LVM";
+      } else if (ped_partition_get_flag(part, PED_PARTITION_RAID)) {
+        flag = "RAID";
+      } else if (is_recovery_partition(part)) {
+        flag = "RECOVERY";
+      }
+      HV * rh = (HV *)sv_2mortal((SV *)newHV());
+      hv_store(rh, "part_number",    11, newSViv(part->num),      0);
+      hv_store(rh, "real_device",    11, newSVpv(path, 0),        0);
+      hv_store(rh, "start",           5, newSViv(part->geom.start), 0);
+      hv_store(rh, "size",            4, newSViv(part->geom.length), 0);
+      hv_store(rh, "pt_type",         7, newSViv(0xba),           0);
+      hv_store(rh, "flag",            4, newSVpv(flag, 0),        0);
+      free(path);
+      if(part->fs_type)
+        hv_store(rh, "fs_type",       7, newSVpv(part->fs_type->name, 0), 0);
+      PUSHs(newRV((SV *)rh));
+      part = ped_disk_next_partition(disk, part);
+      }
+    ped_disk_destroy(disk);
   }
+
 
 int
 set_disk_type(char * device_path, const char * type_name)

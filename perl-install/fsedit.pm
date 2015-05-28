@@ -41,6 +41,21 @@ foreach (values %suggestions) {
     }
 }
 
+sub init_efi_suggestions {
+    my ($fstab, $o_force) = @_;
+    state $done;
+    return if $done && !$o_force;
+    $done++;
+
+    # only suggests /boot/efi if there's not already one:
+    return if !is_uefi() || grep { isESP($_) } @$fstab;
+
+    foreach (values %suggestions) {
+        @$_ = ({ mntpoint => "/boot/efi", size => MB(200), pt_type => 0xef, ratio => 1, maxsize => MB(300) }, @$_);
+    }
+}
+
+
 my @suggestions_mntpoints = (
     "/var/ftp", "/var/www", "/boot", '/usr/local', '/opt',
     arch() =~ /sparc/ ? "/mnt/sunos" : arch() =~ /ppc/ ? "/mnt/macos" : "/mnt/windows",
@@ -477,7 +492,7 @@ You should create a separate /boot partition first") if $mntpoint eq "/" && isLV
     die N("You need a true filesystem (ext2/3/4, reiserfs, xfs, or jfs) for this mount point\n")
       if $part->{fs_type} eq 'btrfs' && $mntpoint eq '/boot';
     die N("You need a true filesystem (ext2/3/4, reiserfs, xfs, or jfs) for this mount point\n")
-      if !isTrueFS($part) && member($mntpoint, '/home', fs::type::directories_needed_to_boot());
+      if !isTrueFS($part) && member($mntpoint, '/home', fs::type::directories_needed_to_boot_not_ESP());
     die N("You cannot use an encrypted filesystem for mount point %s", $mntpoint)
       if $part->{options} =~ /encrypted/ && member($mntpoint, qw(/ /usr /var /boot));
 

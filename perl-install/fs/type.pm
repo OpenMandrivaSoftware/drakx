@@ -6,7 +6,7 @@ use devices;
 
 our @ISA = qw(Exporter);
 our @EXPORT = qw(
-   isEmpty isExtended isTrueLocalFS isTrueFS isDos isSwap isOtherAvailableFS isRawLVM isRawRAID isRawLUKS isRAID isLVM isLUKS isMountableRW isNonMountable isPartOfLVM isPartOfRAID isPartOfLoopback isLoopback isMounted isBusy isSpecial isApple isAppleBootstrap isWholedisk isFat_or_NTFS isRecovery
+   isEmpty isExtended isTrueLocalFS isTrueFS isDos isSwap isOtherAvailableFS isRawLVM isRawRAID isRawLUKS isRAID isLVM isLUKS isMountableRW isNonMountable isPartOfLVM isPartOfRAID isPartOfLoopback isLoopback isMounted isBusy isSpecial isApple isAppleBootstrap isWholedisk isFat_or_NTFS isnormal_Fat_or_NTFS isRecovery
    maybeFormatted set_isFormatted defaultFS
 );
 
@@ -143,7 +143,9 @@ if_(arch() !~ /ppc/,
   0xe4 => '',         'SpeedStor (FAT-16)',
   0xeb => 'befs',     'BeOS fs',
   0xee => '',         'EFI GPT',
+if_(is_uefi(),
   0xef => 'vfat',     'EFI (FAT-12/16/32)',
+),
   0xf0 => '',         'Linux/PA-RISC boot',
   0xf4 => '',         'SpeedStor (large part.)',
   0xf2 => '',         'DOS secondary',
@@ -304,6 +306,7 @@ sub defaultFS() { 'ext4' }
 sub true_local_fs_types() { qw(btrfs ext3 ext2 ext4 reiserfs xfs jfs) }
 
 sub isEmpty { !$_[0]{fs_type} && $_[0]{pt_type} == 0 }
+sub isESP { $_[0]{pt_type} == 0xef }
 sub isEfi { arch() =~ /ia64/ && $_[0]{pt_type} == 0xef }
 sub isWholedisk { arch() =~ /^sparc/ && $_[0]{pt_type} == 5 }
 sub isExtended { arch() !~ /^sparc/ && ($_[0]{pt_type} == 5 || $_[0]{pt_type} == 0xf || $_[0]{pt_type} == 0x85) }
@@ -313,6 +316,7 @@ sub isRawLUKS { $_[0]{type_name} eq 'Encrypted' }
 sub isSwap { $_[0]{fs_type} eq 'swap' }
 sub isDos { arch() !~ /^sparc/ && ${{ 1 => 1, 4 => 1, 6 => 1 }}{$_[0]{pt_type}} }
 sub isFat_or_NTFS { member($_[0]{fs_type}, 'vfat', 'ntfs', 'ntfs-3g') }
+sub isnormal_Fat_or_NTFS { grep { isFat_or_NTFS($_) && !isESP($_) && !isRecovery($_) } @_ }
 sub isApple { $_[0]{pt_type} == 0x401 && defined $_[0]{isDriver} }
 sub isAppleBootstrap { $_[0]{pt_type} == 0x401 && defined $_[0]{isBoot} }
 sub isRecovery { 
@@ -327,7 +331,7 @@ sub isRecovery {
 sub isTrueFS { isTrueLocalFS($_[0]) || member($_[0]{fs_type}, qw(nfs)) }
 sub isTrueLocalFS { member($_[0]{fs_type}, true_local_fs_types()) }
 
-sub isOtherAvailableFS { isEfi($_[0]) || isFat_or_NTFS($_[0]) || member($_[0]{fs_type}, 'ufs', 'hfs', 'iso9660') } #- other OS that linux can access its filesystem
+sub isOtherAvailableFS { isESP($_[0]) || isEfi($_[0]) || isFat_or_NTFS($_[0]) || member($_[0]{fs_type}, 'ufs', 'hfs', 'iso9660') } #- other OS that linux can access its filesystem
 sub isMountableRW { (isTrueFS($_[0]) || isOtherAvailableFS($_[0])) && $_[0]{fs_type} ne 'ntfs' }
 sub cannotBeMountable { 
     my ($part) = @_;
@@ -386,8 +390,11 @@ sub guessed_by_mount() {
     grep { $_ && !/nodev/ } chomp_(cat_('/etc/filesystems'));
 }
 
-sub directories_needed_to_boot() { 
+sub directories_needed_to_boot_not_ESP() {
     qw(/ /usr /var /boot /tmp);
+}
+sub directories_needed_to_boot() {
+    directories_needed_to_boot_not_ESP(), '/boot/efi';
 }
 
 sub carry_root_loopback {

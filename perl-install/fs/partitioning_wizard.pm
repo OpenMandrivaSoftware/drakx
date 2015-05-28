@@ -58,7 +58,7 @@ Then choose action ``Mount point'' and set it to `/'"), 1) or return;
 	if (!any { isSwap($_) } @fstab) {
 	    $ok &&= $in->ask_okcancel('', N("You do not have a swap partition.\n\nContinue anyway?"));
 	}
-	if (arch() =~ /ia64/ && !fs::get::has_mntpoint("/boot/efi", $all_hds)) {
+	if (is_uefi() && !fs::get::has_mntpoint("/boot/efi", $all_hds)) {
 	    $in->ask_warn('', N("You must have a FAT partition mounted in /boot/efi"));
 	    $ok = '';
 	}
@@ -84,6 +84,7 @@ sub partitionWizardSolutions {
     my $min_linux = MB(600);
     my $min_swap = MB(50);
     my $min_freewin = MB(100);
+    fsedit::init_efi_suggestions($full_fstab);
 
     # each solution is a [ score, text, function ], where the function retunrs true if succeeded
 
