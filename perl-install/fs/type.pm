@@ -26,6 +26,7 @@ my (%type_name2pt_type, %type_name2fs_type, %fs_type2pt_type, %pt_type2fs_type, 
   0x83 => 'jfs',      'Journalised FS: JFS',
 if_(is_uefi(),
   0xef => 'vfat',     'EFI (FAT-12/16/32)',
+  0xef02 => 'ext2',   'EFI BIOS Boot',
 ),
   0x0b => 'vfat',     'FAT32',
   0x07 => 'ntfs-3g',  'NTFS-3G',
@@ -307,6 +308,7 @@ sub true_local_fs_types() { qw(btrfs ext3 ext2 ext4 reiserfs xfs jfs) }
 
 sub isEmpty { !$_[0]{fs_type} && $_[0]{pt_type} == 0 }
 sub isESP { $_[0]{pt_type} == 0xef }
+sub isEfiBoot { $_[0]{pt_type} == 0xef02 }
 sub isEfi { arch() =~ /ia64/ && $_[0]{pt_type} == 0xef }
 sub isWholedisk { arch() =~ /^sparc/ && $_[0]{pt_type} == 5 }
 sub isExtended { arch() !~ /^sparc/ && ($_[0]{pt_type} == 5 || $_[0]{pt_type} == 0xf || $_[0]{pt_type} == 0x85) }
