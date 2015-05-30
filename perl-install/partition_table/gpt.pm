@@ -182,7 +182,7 @@ sub write {
 	        c::set_partition_flag($hd->{file}, $part_number, $flag, 1)
 	          or die "failed to set type '$flag' for $part->{file} on $part->{mntpoint}";
 	    }
-        } elsif ($action_eq 'change_type') {
+        } elsif ($action eq 'change_type') {
             c::set_partition_flag($hd->{file}, $part_number, 'ESP', isESP($part));
             c::set_partition_flag($hd->{file}, $part_number, 'BIOS_GRUB', isEfiBoot($part));
             c::set_partition_flag($hd->{file}, $part_number, 'LVM', isRawLVM($part));
