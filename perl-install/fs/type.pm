@@ -6,7 +6,7 @@ use devices;
 
 our @ISA = qw(Exporter);
 our @EXPORT = qw(
-   isEmpty isExtended isTrueLocalFS isTrueFS isDos isSwap isOtherAvailableFS isRawLVM isRawRAID isRawLUKS isRAID isLVM isLUKS isMountableRW isNonMountable isPartOfLVM isPartOfRAID isPartOfLoopback isLoopback isMounted isBusy isSpecial isApple isAppleBootstrap isESP isWholedisk isFat_or_NTFS isnormal_Fat_or_NTFS isRecovery
+   isEmpty isExtended isTrueLocalFS isTrueFS isDos isSwap isOtherAvailableFS isRawLVM isRawRAID isRawLUKS isRAID isLVM isLUKS isMountableRW isNonMountable isPartOfLVM isPartOfRAID isPartOfLoopback isLoopback isMounted isBusy isSpecial isApple isAppleBootstrap isESP isEfiBoot isWholedisk isFat_or_NTFS isnormal_Fat_or_NTFS isRecovery
    maybeFormatted set_isFormatted defaultFS
 );
 
@@ -180,7 +180,6 @@ sub type_names {
     push @l, sort @{$type_names{other}} if $expert;
     if ($o_hd && !$o_hd->use_pt_type) {
 	@l = grep { $type_name2fs_type{$_} } @l;
-	@l = uniq_ { $type_name2fs_type{$_} } @l;
 	(@l, @{$type_names{non_fs_type}});
     } else {
 	@l;
