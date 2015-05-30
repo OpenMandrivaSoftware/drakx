@@ -179,11 +179,17 @@ sub write {
                 $flag = 'RAID';
 	    }
 	    if ($flag) {
-	        c::set_partition_flag($hd->{file}, $part_number, $flag)
+	        c::set_partition_flag($hd->{file}, $part_number, $flag, 1)
 	          or die "failed to set type '$flag' for $part->{file} on $part->{mntpoint}";
 	    }
+        } elsif ($action_eq 'change_type') {
+            c::set_partition_flag($hd->{file}, $part_number, 'ESP', isESP($part));
+            c::set_partition_flag($hd->{file}, $part_number, 'BIOS_GRUB', isEfiBoot($part));
+            c::set_partition_flag($hd->{file}, $part_number, 'LVM', isRawLVM($part));
+            c::set_partition_flag($hd->{file}, $part_number, 'RAID', isRawRAID($part));
         } elsif ($action eq 'del' && !$partitions_killed) {
             c::disk_del_partition($hd->{file}, $part_number) or die "failed to del partition #$part_number on $hd->{file}";
+            common::sync();
         }
     }
     common::sync();

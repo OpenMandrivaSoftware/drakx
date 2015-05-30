@@ -377,6 +377,7 @@ sub will_tell_kernel {
 	  $action eq 'force_reboot' ? () :
 	  $action eq 'add' ? ($part_number, $o_part->{start}, $o_part->{size}) :
 	  $action eq 'del' ? $part_number :
+	  $action eq 'change_type' ? $part_number :
 	  internal_error("unknown action $action");
 
 	push @{$hd->{'will_tell_kernel' . ($o_delay || '')} ||= []}, [ $action, @para ];

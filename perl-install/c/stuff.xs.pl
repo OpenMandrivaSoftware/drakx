@@ -540,7 +540,7 @@ get_partition_flag(char * device_path, int part_number, char *type)
   RETVAL
 
 int
-set_partition_flag(char * device_path, int part_number, char *type)
+set_partition_flag(char * device_path, int part_number, char *type, int set)
   CODE:
   PedDevice *dev = ped_device_get(device_path);
   RETVAL = 0;
@@ -553,7 +553,7 @@ set_partition_flag(char * device_path, int part_number, char *type)
       } else {
         PedPartitionFlag flag = string_to_pedpartflag(type);
         if (flag)
-           RETVAL=ped_partition_set_flag(part, flag, 1);
+           RETVAL=ped_partition_set_flag(part, flag, set);
            if (RETVAL)
               RETVAL = ped_disk_commit(disk);
       }

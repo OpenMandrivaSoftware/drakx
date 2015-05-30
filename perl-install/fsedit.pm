@@ -628,6 +628,7 @@ sub change_type {
     $part->{mntpoint} = '' if fs::type::cannotBeMountable($part);
     set_isFormatted($part, 0);
     fs::type::set_type_subpart($part, $type);
+    partition_table::will_tell_kernel($hd, change_type => $part);
     fs::mount_options::rationalize($part);
     1;
 }
