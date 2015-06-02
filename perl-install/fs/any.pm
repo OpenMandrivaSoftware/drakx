@@ -68,8 +68,8 @@ sub check_hds_boot_and_root {
 	die "Need bootstrap partition to boot system!" if !(defined $partition_table::mac::bootstrap_part);
     }
 
-    if (arch() =~ /ia64/ && !fs::get::has_mntpoint("/boot/efi", $all_hds)) {
-	die N("You must have a FAT partition mounted in /boot/efi");
+    if (is_uefi() && !fs::get::has_mntpoint("/boot/efi", $all_hds)) {
+        die N("You must have a ESP FAT32 partition mounted in /boot/efi");
     }
 }
 

@@ -106,7 +106,7 @@ sub partitionWizardSolutions {
 	push @wizlog, N("There is no existing partition to use");
     }
 
-    if (my @ok_for_resize_fat = grep { isFat_or_NTFS($_) && !fs::get::part2hd($_, $all_hds)->{readonly}
+    if (my @ok_for_resize_fat = grep { isnormal_Fat_or_NTFS($_) && !fs::get::part2hd($_, $all_hds)->{readonly}
 					 && !isRecovery($_) && $_->{size} > $min_linux + $min_swap + $min_freewin } @$fstab) {
         @ok_for_resize_fat = map {
             my $part = $_;
