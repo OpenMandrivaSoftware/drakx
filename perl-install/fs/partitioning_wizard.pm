@@ -246,7 +246,7 @@ filesystem checks will be run on your next boot into Microsoft Windows®")) if $
 				    interactive_help_id => 'takeOverHdConfirm' }) or return;
 		fsedit::partition_table_clear_and_initialize($all_hds->{lvms}, $hd, $in);
                 my $fstab = [ fs::get::fstab($all_hds) ];
-                fsedit::init_efi_suggestions($fstab, 1)
+                fsedit::init_efi_suggestions($fstab, 1);
 		fsedit::auto_allocate($all_hds, $partitions);
 		1;
 	    } ];
