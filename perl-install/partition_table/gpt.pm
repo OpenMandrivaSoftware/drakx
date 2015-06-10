@@ -207,6 +207,12 @@ sub initialize {
     bless $hd, $class;
 }
 
+# gpt partitions have a spare copy of the table in the last 34 sectors
+sub last_usable_sector {
+    my ($hd) = @_;
+    $hd->{totalsectors}-34;
+}
+
 sub can_add { &can_raw_add }
 sub adjustStart {}
 sub adjustEnd {}
