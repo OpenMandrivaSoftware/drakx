@@ -1244,7 +1244,7 @@ msgstr "Configurazione della tastiera"
 #: draksec:153
 #, fuzzy, c-format
 msgid "Printer Configuration"
-msgstr "Configurazione proxy"
+msgstr "Configurazione della stampante"
 
 #: draksec:154
 #, c-format

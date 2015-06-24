@@ -200,7 +200,7 @@ gtkpack_($vbox,
 				);
 			    } (
 				[ N("Software Management"), 'rpmdrake mandrivaupdate drakrpm-edit-media' ],
-				[ N("Hardware"), 'drak3d xfdrake drakmouse drakkeyboard drakups' ],
+				[ N("Hardware"), 'drak3d xfdrake drakmouse drakkeyboard drakups system-config-printer' ],
 				[ N("Network"), 'drakconnect drakhosts draknetcenter drakroam drakvpn drakproxy drakgw' ],
 				[ N("System"), 'drakauth drakbackup drakfont draklog drakxservices userdrake drakclock' ],
 				[ N("Boot"), 'drakboot' ],
