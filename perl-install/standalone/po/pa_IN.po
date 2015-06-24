@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DrakX\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-31 17:23+0200\n"
+"POT-Creation-Date: 2015-06-24 12:13+0100\n"
 "PO-Revision-Date: 2005-03-27 17:55+0530\n"
 "Last-Translator: Jaswinder Singh Phulewala <jaswinderphulewala@yahoo.com>\n"
 "Language-Team: Punjabi <punlinux-i18n@lists.soruceforge.net>\n"
@@ -18,73 +18,73 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.9.1\n"
 
-#: display_help:54 display_help:59 drakbug:173 drakperm:136
+#: display_help:54 display_help:59 drakbug:170 drakperm:134
 #, c-format
 msgid "Help"
 msgstr "ਸਹਾਇਤਾ"
 
-#: display_help:67 drakbug:178 drakfont:507
+#: display_help:67 drakbug:175 drakfont:505
 #, c-format
 msgid "Close"
 msgstr "ਬੰਦ"
 
-#: drakauth:24 drakauth:26 draksec:160
+#: drakauth:24 drakauth:26 draksec:162
 #, c-format
 msgid "Authentication"
 msgstr "ਪ੍ਰਮਾਣਿਕਤਾ"
 
-#: drakauth:37 drakclock:115 drakclock:131 drakdvb:74 drakfont:213
-#: drakfont:226 drakfont:264 finish-install:131 logdrake:170 logdrake:445
-#: logdrake:450 scannerdrake:57 scannerdrake:99 scannerdrake:140
-#: scannerdrake:198 scannerdrake:257 scannerdrake:727 scannerdrake:738
-#: scannerdrake:877 scannerdrake:888 scannerdrake:958
+#: drakauth:37 drakclock:113 drakclock:138 drakdvb:74 drakfont:211
+#: drakfont:224 drakfont:262 finish-install:131 logdrake:174 logdrake:449
+#: logdrake:454 scannerdrake:56 scannerdrake:98 scannerdrake:139
+#: scannerdrake:197 scannerdrake:256 scannerdrake:726 scannerdrake:737
+#: scannerdrake:876 scannerdrake:887 scannerdrake:957
 #, c-format
 msgid "Error"
 msgstr "ਗਲਤੀ"
 
-#: drakboot:55
+#: drakboot:53
 #, c-format
 msgid "No bootloader found, creating a new configuration"
 msgstr ""
 
-#: drakboot:88 harddrake2:198 harddrake2:199 logdrake:71
+#: drakboot:86 harddrake2:195 harddrake2:196 logdrake:75
 #, c-format
 msgid "/_File"
 msgstr "/ਫਾਇਲ(_F)"
 
-#: drakboot:89 logdrake:77
+#: drakboot:87 logdrake:81
 #, c-format
 msgid "/File/_Quit"
 msgstr "/ਫਾਇਲ(F)/ਬਾਹਰ(_Q)"
 
-#: drakboot:89 harddrake2:199 logdrake:77
+#: drakboot:87 harddrake2:196 logdrake:81
 #, c-format
 msgid "<control>Q"
 msgstr "<control>Q"
 
-#: drakboot:129
+#: drakboot:127
 #, c-format
 msgid "Text only"
 msgstr "ਕੇਵਲ ਪਾਠ ਹੀ"
 
-#: drakboot:130
+#: drakboot:128
 #, c-format
 msgid "Verbose"
 msgstr ""
 
-#: drakboot:131
+#: drakboot:129
 #, c-format
 msgid "Silent"
 msgstr "ਖਾਮੋਸ਼"
 
-#: drakboot:137 drakbug:250 drakdvb:57 drakfont:683 drakperm:376 drakperm:386
-#: drakups:27 harddrake2:533 localedrake:45 scannerdrake:49 scannerdrake:52
-#: scannerdrake:295 scannerdrake:300 scannerdrake:952
+#: drakboot:135 drakbug:247 drakdvb:57 drakfont:681 drakperm:374 drakperm:384
+#: drakups:26 harddrake2:528 localedrake:45 scannerdrake:48 scannerdrake:51
+#: scannerdrake:294 scannerdrake:299 scannerdrake:951
 #, c-format
 msgid "Warning"
 msgstr "ਚੇਤਾਵਨੀ"
 
-#: drakboot:138
+#: drakboot:136
 #, c-format
 msgid ""
 "Your system bootloader is not in framebuffer mode. To activate graphical "
@@ -93,72 +93,72 @@ msgstr ""
 "ਤੁਹਾਡਾ ਬੂਟਲੋਡਰ ਫਰੇਮਬਫ਼ਰ ਢੰਗ ਲਈ ਸਹਾਇਕ ਨਹੀਂ ਹੈ। ਗਰਾਫਿਕਲ ਬੂਟ ਸਰਗਰਮ ਕਰਨ ਲਈ, ਬੂਟ ਲੋਡਰ ਸੰਰਚਨਾ "
 "ਸੰਦ ਤੋਂ ਗਰਾਫਿਕਲ ਵੀਡਿਓ ਢੰਗ ਦੀ ਚੋਣ ਕਰੋ।"
 
-#: drakboot:139
+#: drakboot:137
 #, c-format
 msgid "Do you want to configure it now?"
 msgstr "ਕੀ ਤੁਸੀਂ ਇਸ ਨੂੰ ਸੰਰਚਿਤ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?"
 
-#: drakboot:148
+#: drakboot:146
 #, c-format
 msgid "Install themes"
 msgstr "ਸਰੂਪ ਇੰਸਟਾਲ ਕਰੋ"
 
-#: drakboot:150
+#: drakboot:148
 #, c-format
 msgid "Graphical boot theme selection"
 msgstr "ਗਰਾਫੀਕਲ ਬੂਟ ਸਰੂਪ ਚੋਣ"
 
-#: drakboot:153
+#: drakboot:151
 #, fuzzy, c-format
 msgid "Graphical boot mode:"
 msgstr "ਉਪਭੋਗੀ ਗਰਾਫੀਕਲ ਬੂਟ"
 
-#: drakboot:155
+#: drakboot:153
 #, c-format
 msgid "Theme"
 msgstr "ਸਰੂਪ"
 
-#: drakboot:189
+#: drakboot:187
 #, c-format
 msgid "Default user"
 msgstr "ਮੂਲ ਉਪਭੋਗੀ"
 
-#: drakboot:190
+#: drakboot:188
 #, c-format
 msgid "Default desktop"
 msgstr "ਮੂਲ ਵਿਹੜਾ"
 
-#: drakboot:193
+#: drakboot:191
 #, c-format
 msgid "No, I do not want autologin"
 msgstr "ਨਹੀਂ, ਮੈਂ ਸਵੈ-ਲਾਗਇਨ ਨਹੀਂ ਚਾਹੁੰਦਾ"
 
-#: drakboot:194
+#: drakboot:192
 #, c-format
 msgid "Yes, I want autologin with this (user, desktop)"
 msgstr "ਹਾਂ, ਮੈਂ ਇਸ (ਉਪਭੋਗੀ, ਵਿਹੜੇ) ਨਾਲ ਸਵੈ-ਲਾਗਇਨ ਚਾਹੁੰਦਾ ਹਾਂ"
 
-#: drakboot:201
+#: drakboot:199
 #, c-format
 msgid "System mode"
 msgstr "ਸਿਸਟਮ ਵਿਧੀ"
 
-#: drakboot:204
+#: drakboot:202
 #, c-format
 msgid "Launch the graphical environment when your system starts"
 msgstr "ਤੁਹਾਡਾ ਸਿਸਟਮ ਚੱਲਣ ਤੇ ਗਰਾਫੀਕਲ ਵਾਤਾਵਰਨ ਚਲਾਓ"
 
-#: drakboot:259
+#: drakboot:257
 #, c-format
 msgid "Boot Style Configuration"
 msgstr "ਬੂਟ ਸ਼ੈਲੀ ਸੰਰਚਨਾ"
 
-#: drakboot:261 drakboot:265
+#: drakboot:259 drakboot:263
 #, c-format
 msgid "Video mode"
 msgstr "ਵੀਡੀਓ ਵਿਧੀ"
 
-#: drakboot:262
+#: drakboot:260
 #, c-format
 msgid ""
 "Please choose a video mode, it will be applied to each of the boot entries "
@@ -168,67 +168,67 @@ msgstr ""
 "ਕਿਰਪਾ ਕਰਕੇ ਵੀਡਿਓ ਢੰਗ ਚੁਣੋ, ਇਹ ਹਰ ਚੁਣੀ ਬੂਟ ਇੰਦਰਾਜ਼ ਤੇ ਲਾਗੂ ਹੋਵੇਗਾ।\n"
 "ਇਹ ਯਕੀਨੀ ਬਣਾਓ ਕਿ ਤੁਹਾਡਾ ਵੀਡਿਓ ਕਾਰਡ ਇਹਨਾਂ ਢੰਗਾਂ ਲਈ ਸਹਾਇਕ ਹੈ।"
 
-#: drakbug:52 drakbug:140
+#: drakbug:50 drakbug:138
 #, c-format
 msgid "The \"%s\" program has crashed with the following error:"
 msgstr ""
 
-#: drakbug:62
-#, c-format
-msgid "OpenMandriva Lx Bug Report Tool"
+#: drakbug:60
+#, fuzzy, c-format
+msgid "OpenMandriva Lx Bug Reporting"
 msgstr "ਮੈਂਡਰਿਵ-ਲੀਨਕਸ ਬੱਗ ਰਿਪੋਰਟ ਸੰਦ"
 
-#: drakbug:67
+#: drakbug:65
 #, c-format
 msgid "OpenMandriva Lx Control Center"
 msgstr "ਮੈਂਡਰਿਵ-ਲੀਨਕਸ ਕੰਟਰੋਲ ਸੈਂਟਰ"
 
-#: drakbug:68
+#: drakbug:66
 #, c-format
 msgid "First Time Wizard"
 msgstr "ਪਹਿਲੀ ਸਮਾਂ ਤਖਤੀ"
 
-#: drakbug:69
+#: drakbug:67
 #, c-format
 msgid "Synchronization tool"
 msgstr "ਸਮਕਾਲੀ ਸੰਦ"
 
-#: drakbug:70 drakbug:206
+#: drakbug:68 drakbug:203
 #, c-format
 msgid "Standalone Tools"
 msgstr "ਸਟੈਂਡਅਲੋਨ ਸੰਦ"
 
-#: drakbug:72 drakbug:73
-#, c-format
-msgid "Mandriva Online"
+#: drakbug:70 drakbug:71
+#, fuzzy, c-format
+msgid "OpenMandriva Online"
 msgstr "ਮੈਂਡਰਿਵ-ਆਨਲਾਈਨ"
 
-#: drakbug:74
+#: drakbug:72
 #, c-format
 msgid "Remote Control"
 msgstr "ਰਿਮੋਟ ਕੰਟਰੋਲ"
 
-#: drakbug:75
+#: drakbug:73
 #, c-format
 msgid "Software Manager"
 msgstr "ਸਾਫਟਵੇਅਰ ਮੈਨੇਜਰ"
 
-#: drakbug:76
+#: drakbug:74
 #, c-format
 msgid "Windows Migration tool"
 msgstr "Windows ਤਬਾਦਲਾ ਸੰਦ"
 
-#: drakbug:77
+#: drakbug:75
 #, c-format
 msgid "Configuration Wizards"
 msgstr "ਸੰਰਚਨਾ ਤਖਤੀ"
 
-#: drakbug:99
-#, c-format
-msgid "Select Mandriva Tool:"
+#: drakbug:97
+#, fuzzy, c-format
+msgid "Select Tool:"
 msgstr "ਮੈਂਡਰਿਵ-ਸਾਫਟ ਸੰਦ ਚੁਣੋ:"
 
-#: drakbug:100
+#: drakbug:98
 #, c-format
 msgid ""
 "or Application Name\n"
@@ -237,37 +237,37 @@ msgstr ""
 "ਜਾਂ ਕਾਰਜ ਨਾਂ\n"
 "(ਜਾਂ ਪੂਰਾ ਮਾਰਗ):"
 
-#: drakbug:103
+#: drakbug:101
 #, c-format
 msgid "Find Package"
 msgstr "ਪੈਕੇਜ ਲੱਭੋ"
 
-#: drakbug:104
+#: drakbug:102
 #, fuzzy, c-format
 msgid "Browse"
 msgstr "ਝਲਕ"
 
-#: drakbug:106
+#: drakbug:104
 #, c-format
 msgid "Package: "
 msgstr "ਪੈਕੇਜ:"
 
-#: drakbug:107
+#: drakbug:105
 #, c-format
 msgid "Kernel:"
 msgstr "ਕਰਨਲ:"
 
-#: drakbug:139
+#: drakbug:137
 #, c-format
 msgid "The \"%s\" program has segfaulted with the following error:"
 msgstr ""
 
-#: drakbug:144
+#: drakbug:142
 #, c-format
 msgid "Used theme: %s"
 msgstr ""
 
-#: drakbug:146
+#: drakbug:144
 #, c-format
 msgid ""
 "To submit a bug report, click on the report button.  \n"
@@ -275,7 +275,7 @@ msgid ""
 "in.  The information displayed above will be transferred to that server"
 msgstr ""
 
-#: drakbug:148
+#: drakbug:146
 #, c-format
 msgid ""
 "It would be very useful to attach to your report the output of the following "
@@ -286,89 +286,89 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: drakbug:151
+#: drakbug:149
 #, c-format
 msgid "'%s'"
 msgstr ""
 
-#: drakbug:154
+#: drakbug:152
 #, fuzzy, c-format
-msgid "You should also attach the following files: %s as well as %s."
+msgid "You should also attach the following files if you have them: %s."
 msgstr "ਤੁਹਾਨੂੰ ਹੇਠਲੇ ਪੈਕੇਜ ਇੰਸਟਾਲ ਕਰਨੇ ਚਾਹੀਦੇ ਹਨ: %s"
 
-#: drakbug:161
+#: drakbug:158
 #, c-format
 msgid "Please describe what you were doing when it crashed:"
 msgstr ""
 
-#: drakbug:177
+#: drakbug:174
 #, c-format
 msgid "Report"
 msgstr "ਰਿਪੋਰਟ"
 
-#: drakbug:213
+#: drakbug:210
 #, c-format
 msgid "Not installed"
 msgstr "ਇੰਸਟਾਲ ਨਹੀਂ"
 
-#: drakbug:226
+#: drakbug:223
 #, c-format
 msgid "Package not installed"
 msgstr "ਪੈਕੇਜ ਇੰਸਟਾਲ ਨਹੀਂ"
 
-#: drakbug:251
+#: drakbug:248
 #, c-format
 msgid ""
 "You must type in what you were doing when this bug happened in order to "
 "enable us to reproduce this bug and to increase the odds of fixing it"
 msgstr ""
 
-#: drakbug:252
+#: drakbug:249
 #, c-format
 msgid "Thanks."
 msgstr ""
 
-#: drakclock:30 draksec:166
+#: drakclock:28 draksec:168
 #, c-format
 msgid "Date, Clock & Time Zone Settings"
 msgstr ""
 
-#: drakclock:39
+#: drakclock:37
 #, c-format
 msgid "not defined"
 msgstr "ਪ੍ਰਭਾਸ਼ਿਤ ਨਹੀਂ"
 
-#: drakclock:41
+#: drakclock:39
 #, c-format
 msgid "Change Time Zone"
 msgstr "ਸਮਾਂ ਖੇਤਰ ਤਬਦੀਲ ਕਰੋ"
 
-#: drakclock:46
+#: drakclock:44
 #, c-format
 msgid "Timezone - DrakClock"
 msgstr "ਸਮਾਂ-ਖੇਤਰ - DrakClock"
 
-#: drakclock:46
+#: drakclock:44
 #, c-format
 msgid "Which is your timezone?"
 msgstr "ਤੁਹਾਡਾ ਸਮਾਂ-ਖੇਤਰ ਕਿਹੜਾ ਹੈ?"
 
-#: drakclock:47
+#: drakclock:45
 #, c-format
 msgid "GMT - DrakClock"
 msgstr "GMT - DrakClock"
 
-#: drakclock:47
+#: drakclock:45
 #, c-format
 msgid "Is your hardware clock set to GMT?"
 msgstr "ਕੀ ਤੁਹਾਡੀ ਹਾਰਡਵੇਅਰ ਘੜੀ ਦਾ ਨਿਰਧਾਰਨ GMT ਹੈ?"
 
-#: drakclock:74
+#: drakclock:72
 #, c-format
 msgid "Network Time Protocol"
 msgstr "ਨੈੱਟਵਰਕ ਸਮਾਂ ਪਰੋਟੋਕਾਲ"
 
-#: drakclock:76
+#: drakclock:74
 #, c-format
 msgid ""
 "Your computer can synchronize its clock\n"
@@ -377,42 +377,42 @@ msgstr ""
 "ਤੁਹਾਡਾ ਕੰਪਿਊਟਰ ਰਿਮੋਟ ਸਮਾਂ ਸਰਵਰ ਨਾਲ NTP \n"
 "ਵਰਤ ਕੇ ਸਮਕਾਲੀ ਹੋ ਸਕਦਾ ਹੈ"
 
-#: drakclock:77
+#: drakclock:75
 #, c-format
 msgid "Enable Network Time Protocol"
 msgstr "ਨੈੱਟਵਰਕ ਸਮਾਂ ਪਰੋਟੋਕਾਲ ਯੋਗ ਕਰੋ"
 
-#: drakclock:85
+#: drakclock:83
 #, c-format
 msgid "Server:"
 msgstr "ਸਰਵਰ:"
 
-#: drakclock:99
+#: drakclock:97
 #, c-format
 msgid "Timezone"
 msgstr "ਸਮਾਂ-ਖੇਤਰ"
 
-#: drakclock:115
+#: drakclock:113
 #, fuzzy, c-format
 msgid "Please enter a valid NTP server address."
 msgstr "ਕਿਰਪਾ ਕਰਕੇ ਸਹੀ IP ਪਤਾ ਦਿਓ।"
 
-#: drakclock:132
+#: drakclock:139
 #, c-format
 msgid "Could not synchronize with %s."
 msgstr "%s ਨਾਲ ਸਮਕਾਲੀ ਨਹੀਂ ਹੋ ਸਕਦਾ।"
 
-#: drakclock:133 drakdvb:149 logdrake:175 scannerdrake:489
+#: drakclock:140 drakdvb:149 logdrake:179 scannerdrake:488
 #, c-format
 msgid "Quit"
 msgstr "ਬਾਹਰ"
 
-#: drakclock:134
+#: drakclock:141
 #, fuzzy, c-format
 msgid "Retry"
 msgstr "ਮੁੜ-ਪ੍ਰਾਪਤ"
 
-#: drakclock:161 drakclock:171
+#: drakclock:166 drakclock:176
 #, c-format
 msgid "Reset"
 msgstr "ਮੁੜ-ਨਿਰਧਾਰਨ"
@@ -422,7 +422,7 @@ msgstr "ਮੁੜ-ਨਿਰਧਾਰਨ"
 msgid "DVB"
 msgstr "DVD"
 
-#: drakdvb:39 harddrake2:101
+#: drakdvb:39 harddrake2:99
 #, c-format
 msgid "Channel"
 msgstr "ਚੈਨਲ"
@@ -437,10 +437,10 @@ msgstr ""
 msgid "Could not get the list of available channels"
 msgstr ""
 
-#: drakdvb:80 draksec:69 drakups:99 finish-install:106 harddrake2:379
-#: scannerdrake:64 scannerdrake:68 scannerdrake:76 scannerdrake:317
-#: scannerdrake:366 scannerdrake:502 scannerdrake:506 scannerdrake:528
-#: service_harddrake:432
+#: drakdvb:80 draksec:67 drakups:98 finish-install:106 harddrake2:374
+#: scannerdrake:63 scannerdrake:67 scannerdrake:75 scannerdrake:316
+#: scannerdrake:365 scannerdrake:501 scannerdrake:505 scannerdrake:527
+#: service_harddrake:423
 #, c-format
 msgid "Please wait"
 msgstr "ਕਿਰਪਾ ਕਰਕੇ ਉਡੀਕੋ"
@@ -450,7 +450,7 @@ msgstr "ਕਿਰਪਾ ਕਰਕੇ ਉਡੀਕੋ"
 msgid "Detecting DVB channels, this will take a few minutes"
 msgstr ""
 
-#: drakdvb:85 drakfont:573 drakfont:653 drakfont:737 drakups:217 logdrake:175
+#: drakdvb:85 drakfont:571 drakfont:651 drakfont:735 drakups:216 logdrake:179
 #, c-format
 msgid "Cancel"
 msgstr "/ਰੱਦ ਕਰੋ"
@@ -465,27 +465,37 @@ msgstr "ਚੈਨਲ"
 msgid "View Channel"
 msgstr "ਚੈਨਲ"
 
-#: drakedm:41
+#: drakedm:40
 #, c-format
 msgid "GDM (GNOME Display Manager)"
 msgstr "GDM (GNOME ਦ੍ਰਿਸ਼ ਮੈਨੇਜਰ)"
 
-#: drakedm:42
+#: drakedm:41
 #, c-format
 msgid "KDM (KDE Display Manager)"
 msgstr "KDM (KDE ਦ੍ਰਿਸ਼ ਮੈਨੇਜਰ)"
 
+#: drakedm:42
+#, fuzzy, c-format
+msgid "LIGHTDM (LightDM Display Manager)"
+msgstr "GDM (GNOME ਦ੍ਰਿਸ਼ ਮੈਨੇਜਰ)"
+
 #: drakedm:43
+#, fuzzy, c-format
+msgid "SLIM (Simple Display Manager)"
+msgstr "XDM (X ਦ੍ਰਿਸ਼ ਮੈਨੇਜਰ)"
+
+#: drakedm:44
 #, c-format
 msgid "XDM (X Display Manager)"
 msgstr "XDM (X ਦ੍ਰਿਸ਼ ਮੈਨੇਜਰ)"
 
-#: drakedm:54
+#: drakedm:55
 #, c-format
 msgid "Choosing a display manager"
 msgstr "ਦ੍ਰਿਸ਼ ਮੈਨੇਜਰ ਚੁਣ ਰਿਹਾ ਹੈ"
 
-#: drakedm:55
+#: drakedm:56
 #, c-format
 msgid ""
 "X11 Display Manager allows you to graphically log\n"
@@ -496,12 +506,12 @@ msgstr ""
 "ਤੁਹਾਨੂੰ ਗਰਾਫਿਕਲ ਦਾਖਲਾ ਦਿੰਦਾ ਹੈ, ਜੋ ਕਿ ਸਥਾਨਕ ਮਸ਼ੀਨ ਤੇ ਇੱਕੋ ਸਮੇਂ\n"
 "ਵੱਖਰੇ X ਅਜਲਾਸ ਹੋਣ ਕਰਕੇ ਸੰਭਵ ਹੈ।"
 
-#: drakedm:74
+#: drakedm:79
 #, c-format
 msgid "The change is done, do you want to restart the dm service?"
 msgstr "ਤਬਦੀਲੀ ਹੋ ਗਈ, ਕੀ ਤੁਸੀਂ dm ਸੇਵਾ ਮੁੜ ਚਲਾਉਣੀ ਚਾਹੁੰਦੇ ਹੋ?"
 
-#: drakedm:75
+#: drakedm:80
 #, c-format
 msgid ""
 "You are going to close all running programs and lose your current session. "
@@ -510,98 +520,98 @@ msgstr ""
 "ਤੁਸੀਂ ਸਭ ਚੱਲ਼ਦੇ ਕਾਰਜ ਬੰਦ ਅਤੇ ਮੌਜੂਦਾ ਅਜਲਾਸ ਗੁਆਉਣਾ ਜਾ ਰਹੇ ਹੋ। ਕੀ ਤੁਸੀਂ dm ਸੇਵਾ ਮੁੜ ਚਾਲੂ ਕਰਨ ਲਈ "
 "ਸਹਿਮਤ ਹੋ?"
 
-#: drakfont:187
+#: drakfont:185
 #, c-format
 msgid "Search installed fonts"
 msgstr "ਇੰਸਟਾਲ ਕੀਤੇ ਫੌਂਟ ਖੋਜੋ"
 
-#: drakfont:189
+#: drakfont:187
 #, c-format
 msgid "Unselect fonts installed"
 msgstr "ਇੰਸਟਾਲ ਕੀਤੇ ਫੌਂਟ ਚੋਣ ਹਟਾਓ"
 
-#: drakfont:213
+#: drakfont:211
 #, c-format
 msgid "No fonts found"
 msgstr "ਕੋਈ ਫੌਂਟ ਨਹੀਂ ਲੱਭਿਆ"
 
-#: drakfont:217
+#: drakfont:215
 #, c-format
 msgid "parse all fonts"
 msgstr "ਸਭ ਫੌਂਟ ਪਾਰਸ ਕਰੋ"
 
-#: drakfont:222 drakfont:263 drakfont:339 drakfont:380 drakfont:384
-#: drakfont:410 drakfont:428 drakfont:436
+#: drakfont:220 drakfont:261 drakfont:337 drakfont:378 drakfont:382
+#: drakfont:408 drakfont:426 drakfont:434
 #, c-format
 msgid "done"
 msgstr "ਸਮਾਪਤ"
 
-#: drakfont:226
+#: drakfont:224
 #, c-format
 msgid "Could not find any font in your mounted partitions"
 msgstr "ਤੁਹਾਡੇ ਮਾਊਂਟ ਕੀਤੇ ਭਾਗ ਵਿੱਚ ਕੋਈ ਫਾਊਂਟ ਨਹੀਂ ਲੱਭ ਸਕਿਆ"
 
-#: drakfont:261
+#: drakfont:259
 #, c-format
 msgid "Reselect correct fonts"
 msgstr "ਸਹੀ ਫੌਂਟ ਮੁੜ ਚੁਣੋ"
 
-#: drakfont:264
+#: drakfont:262
 #, c-format
 msgid "Could not find any font.\n"
 msgstr "ਕੋਈ ਫੌਂਟ ਨਹੀਂ ਲੱਭ ਸਕਿਆ।\n"
 
-#: drakfont:274
+#: drakfont:272
 #, c-format
 msgid "Search for fonts in installed list"
 msgstr "ਇੰਸਟਾਲ ਸੂਚੀ ਵਿੱਚ ਫੌਂਟ ਖੋਜੋ"
 
-#: drakfont:298
+#: drakfont:296
 #, c-format
 msgid "%s fonts conversion"
 msgstr "%s ਫੌਂਟ ਅਨੁਵਾਦ"
 
-#: drakfont:337
+#: drakfont:335
 #, c-format
 msgid "Fonts copy"
 msgstr "ਫੌਂਟ ਨਕਲ"
 
-#: drakfont:340
+#: drakfont:338
 #, c-format
 msgid "True Type fonts installation"
 msgstr "ਅਸਲੀ ਕਿਸਮ ਫੌਂਟ ਇੰਸਟਾਲੇਸ਼ਨ"
 
-#: drakfont:348
+#: drakfont:346
 #, c-format
 msgid "please wait during ttmkfdir..."
 msgstr "ਕਿਰਪਾ ਕਰਕੇ ttmkfdir ਦੌਰਾਨ ਉਡੀਕੋ..."
 
-#: drakfont:349
+#: drakfont:347
 #, c-format
 msgid "True Type install done"
 msgstr "ਅਸਲੀ ਕਿਸਮ ਇੰਸਟਾਲ ਮੁਕੰਮਲ"
 
-#: drakfont:355 drakfont:370
+#: drakfont:353 drakfont:368
 #, c-format
 msgid "type1inst building"
 msgstr "type1inst ਨਿਰਮਾਣ"
 
-#: drakfont:364
+#: drakfont:362
 #, c-format
 msgid "Ghostscript referencing"
 msgstr "ਗੋਸਟ-ਸਕ੍ਰਿਪਟ ਹਵਾਲਾ"
 
-#: drakfont:381
+#: drakfont:379
 #, c-format
 msgid "Suppress Temporary Files"
 msgstr "ਫਰਜ਼ੀ ਫਾਇਲਾਂ ਦਬਾਓ"
 
-#: drakfont:426 drakfont:432
+#: drakfont:424 drakfont:430
 #, c-format
 msgid "Suppress Fonts Files"
 msgstr "ਫੌਂਟ ਫਾਇਲਾਂ ਦਬਾਓ"
 
-#: drakfont:440
+#: drakfont:438
 #, c-format
 msgid ""
 "Before installing any fonts, be sure that you have the right to use and "
@@ -616,204 +626,204 @@ msgstr ""
 "ਤੁਸੀਂ ਫੋਂਟ ਸਧਾਰਨ ਢੰਗ ਨਾਲ ਇੰਸਟਾਲ ਕਰ ਸਕਦੇ ਹੋ। ਬਹੁਤ ਘੱਟ ਹਾਲਾਤ ਵਿੱਚ, ਗਲਤ ਫੋਂਟ ਤੁਹਾਡੇ X ਸਰਵਰ ਨੂੰ "
 "ਨਿਕਾਰਾ ਕਰ ਸਕਦੇ ਹਨ।"
 
-#: drakfont:479
+#: drakfont:477
 #, fuzzy, c-format
 msgid "Font Installation"
 msgstr "ਇੰਸਟਾਲ ਤੋ ਪਹਿਲਾਂ"
 
-#: drakfont:490
+#: drakfont:488
 #, c-format
 msgid "DrakFont"
 msgstr "DrakFont"
 
-#: drakfont:491 drakfont:643
+#: drakfont:489 drakfont:641
 #, c-format
 msgid "Font List"
 msgstr "ਫੌਂਟ ਸੂਚੀ"
 
-#: drakfont:494
+#: drakfont:492
 #, c-format
 msgid "Get Windows Fonts"
 msgstr ""
 
-#: drakfont:500
+#: drakfont:498
 #, c-format
 msgid "About"
 msgstr "ਇਸ ਬਾਰੇ"
 
-#: drakfont:501 drakfont:542
+#: drakfont:499 drakfont:540
 #, c-format
 msgid "Options"
 msgstr "ਚੋਣ"
 
-#: drakfont:502 drakfont:722
+#: drakfont:500 drakfont:720
 #, c-format
 msgid "Uninstall"
 msgstr "ਅਨ-ਇੰਸਟਾਲ"
 
-#: drakfont:503
+#: drakfont:501
 #, c-format
 msgid "Import"
 msgstr "ਆਯਾਤ"
 
-#: drakfont:521
+#: drakfont:519
 #, fuzzy, c-format
 msgid "Drakfont"
 msgstr "DrakFont"
 
-#: drakfont:523 harddrake2:234
-#, c-format
-msgid "Copyright (C) %s by Mandriva"
-msgstr ""
+#: drakfont:521 harddrake2:229
+#, fuzzy, c-format
+msgid "Copyright (C) %s by OpenMandriva"
+msgstr "ਅਧਿਕਾਰ (C) ੨੦੦੧-੨੦੦੬ ਮੈਂਡਰਿਵ।"
 
-#: drakfont:525
+#: drakfont:523
 #, fuzzy, c-format
 msgid "Font installer."
 msgstr "ਇੰਸਟਾਲ ਨਹੀਂ"
 
-#: drakfont:527 harddrake2:238
+#: drakfont:525 logdrake:55
 #, fuzzy, c-format
 msgid "OpenMandriva Lx"
 msgstr "ਮੈਂਡਰਿਵ-ਆਨਲਾਈਨ"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
-#: drakfont:534 harddrake2:243
+#: drakfont:532 harddrake2:238
 #, c-format
 msgid "_: Translator(s) name(s) & email(s)\n"
 msgstr ""
 
-#: drakfont:544
+#: drakfont:542
 #, c-format
 msgid "Choose the applications that will support the fonts:"
 msgstr "ਕਾਰਜ ਜੋ ਫੌਂਟਾਂ ਨੂੰ ਸਹਿਯੋਗ ਦਿੰਦਾ ਹੈ ਚੁਣੋ:"
 
-#: drakfont:555
+#: drakfont:553
 #, c-format
 msgid "Ghostscript"
 msgstr "ਗੋਸਟ-ਸਕ੍ਰਿਪਟ"
 
-#: drakfont:556
+#: drakfont:554
 #, c-format
 msgid "LibreOffice"
 msgstr ""
 
-#: drakfont:557
+#: drakfont:555
 #, c-format
 msgid "Abiword"
 msgstr "ਅਬੀਵਰਡ"
 
-#: drakfont:558
+#: drakfont:556
 #, c-format
 msgid "Generic Printers"
 msgstr "ਸਧਾਰਨ ਪ੍ਰਿੰਟਰ"
 
-#: drakfont:563 drakfont:573 drakups:210
+#: drakfont:561 drakfont:571 drakups:209
 #, c-format
 msgid "Ok"
 msgstr "ਠੀਕ ਹੈ"
 
-#: drakfont:572
+#: drakfont:570
 #, c-format
 msgid "Select the font file or directory and click on 'Add'"
 msgstr "ਫੌਂਟ ਫਾਇਲ ਜਾਂ ਡਾਇਰੈਕਟਰੀ ਚੁਣੋ ਅਤੇ 'ਸ਼ਾਮਿਲ' ਤੇ ਕਲਿੱਕ ਕਰੋ"
 
-#: drakfont:573
+#: drakfont:571
 #, c-format
 msgid "File Selection"
 msgstr "ਫਾਇਲ ਚੋਣ"
 
-#: drakfont:577
+#: drakfont:575
 #, c-format
 msgid "Fonts"
 msgstr "ਫੋਂਟ"
 
-#: drakfont:641 draksec:162
+#: drakfont:639 draksec:164
 #, c-format
 msgid "Import fonts"
 msgstr "ਫੌਂਟ ਅਯਾਤ ਕਰੋ"
 
-#: drakfont:647 drakups:299 drakups:375
+#: drakfont:645 drakups:298 drakups:374
 #, c-format
 msgid "Add"
 msgstr "ਸ਼ਾਮਲ"
 
-#: drakfont:648 drakfont:736 drakups:301 drakups:377
+#: drakfont:646 drakfont:734 drakups:300 drakups:376
 #, c-format
 msgid "Remove"
 msgstr "ਹਟਾਓ"
 
-#: drakfont:654
+#: drakfont:652
 #, c-format
 msgid "Install"
 msgstr "ਇੰਸਟਾਲ ਕਰੋ"
 
-#: drakfont:685
+#: drakfont:683
 #, c-format
 msgid "Are you sure you want to uninstall the following fonts?"
 msgstr ""
 
-#: drakfont:689 draksec:59 harddrake2:324
+#: drakfont:687 draksec:57 harddrake2:319
 #, c-format
 msgid "Yes"
 msgstr "ਹਾਂ"
 
-#: drakfont:691 draksec:58 harddrake2:325
+#: drakfont:689 draksec:56 harddrake2:320
 #, c-format
 msgid "No"
 msgstr "ਨਹੀਂ"
 
-#: drakfont:730
+#: drakfont:728
 #, c-format
 msgid "Unselect All"
 msgstr "ਸਭ ਨਾ-ਚੁਣੋ"
 
-#: drakfont:733
+#: drakfont:731
 #, c-format
 msgid "Select All"
 msgstr "ਸਭ ਚੁਣੇ"
 
-#: drakfont:750
+#: drakfont:748
 #, c-format
 msgid "Importing fonts"
 msgstr "ਫੌਂਟ ਅਯਾਤ ਕਰ ਰਿਹਾ ਹੈ"
 
-#: drakfont:754 drakfont:774
+#: drakfont:752 drakfont:772
 #, c-format
 msgid "Initial tests"
 msgstr "ਸ਼ੁਰੂਆਤੀ ਜਾਂਚ"
 
-#: drakfont:755
+#: drakfont:753
 #, c-format
 msgid "Copy fonts on your system"
 msgstr "ਆਪਣੇ ਸਿਸਟਮ ਤੇ ਫੌਂਟ ਨਕਲ ਕਰੋ"
 
-#: drakfont:756
+#: drakfont:754
 #, c-format
 msgid "Install & convert Fonts"
 msgstr "ਫੌਂਟ ਇੰਸਟਾਲ ਤੇ ਤਬਦੀਲ ਕਰੋ"
 
-#: drakfont:757
+#: drakfont:755
 #, c-format
 msgid "Post Install"
 msgstr "ਇੰਸਟਾਲ ਤੋ ਪਹਿਲਾਂ"
 
-#: drakfont:769
+#: drakfont:767
 #, fuzzy, c-format
 msgid "Removing fonts"
 msgstr "ਫੌਂਟ ਅਯਾਤ ਕਰ ਰਿਹਾ ਹੈ"
 
-#: drakfont:775
+#: drakfont:773
 #, c-format
 msgid "Remove fonts on your system"
 msgstr "ਆਪਣੇ ਸਿਸਟਮ ਤੋਂ ਫੌਂਟ ਹਟਾਓ"
 
-#: drakfont:776
+#: drakfont:774
 #, c-format
 msgid "Post Uninstall"
 msgstr "ਪੋਸਟ ਅਨ-ਇੰਸਟਾਲ"
 
-#: drakhelp:17
+#: drakhelp:14
 #, c-format
 msgid ""
 " drakhelp 0.1\n"
@@ -829,91 +839,91 @@ msgstr ""
 "\n"
 "ਉਪਯੋਗਤਾ: \n"
 
-#: drakhelp:22
+#: drakhelp:19
 #, c-format
 msgid " --help                - display this help     \n"
 msgstr " --help                - ਇਹ ਸਹਾਇਤਾ ਵਿਖਾਓ     \n"
 
-#: drakhelp:23
+#: drakhelp:20
 #, c-format
 msgid ""
 " --id <id_label>       - load the html help page which refers to id_label\n"
 msgstr ""
 " --id <id_label>       - html ਸਹਾਇਤਾ ਲੋਡ ਕਰੋ ਜੋ id_label ਦਾ ਹਵਾਲਾ ਦਿੰਦਾ ਹੈ\n"
 
-#: drakhelp:24
+#: drakhelp:21
 #, c-format
 msgid ""
 " --doc <link>          - link to another web page ( for WM welcome "
 "frontend)\n"
 msgstr " --doc <link>          - ਹੋਰ ਵੈਬ ਸਫਿਆਂ ਨੂੰ ਸੰਬੰਧ ( WM ਪਹਿਲੇ ਸਵਾਗਤੀ ਦਰ ਲਈ)\n"
 
-#: drakhelp:52
+#: drakhelp:49
 #, c-format
 msgid "OpenMandriva Lx Help Center"
 msgstr "ਮੈਂਡਰਿਵ-ਲੀਨਕਸ ਸਹਾਇਤਾ ਕੇਂਦਰ"
 
-#: drakhelp:52
+#: drakhelp:49
 #, c-format
 msgid "No Help entry for %s\n"
 msgstr ""
 
-#: drakperm:23
+#: drakperm:21
 #, c-format
 msgid "System settings"
 msgstr "ਸਿਸਟਮ ਵਿਵਸਥਾ"
 
-#: drakperm:24
+#: drakperm:22
 #, c-format
 msgid "Custom settings"
 msgstr "ਪਸੰਦੀ ਵਿਵਸਥਾ"
 
-#: drakperm:25
+#: drakperm:23
 #, c-format
 msgid "Custom & system settings"
 msgstr "ਪਸੰਦੀ ਦਾ ਤੇ ਸਿਸਟਮ ਵਿਵਸਥਾ"
 
-#: drakperm:33
+#: drakperm:31
 #, fuzzy, c-format
 msgid "Security Permissions"
 msgstr "ਅਧਿਕਾਰ"
 
-#: drakperm:45
+#: drakperm:43
 #, c-format
 msgid "Editable"
 msgstr "ਸੋਧਯੋਗ"
 
-#: drakperm:50 drakperm:320
+#: drakperm:48 drakperm:318
 #, c-format
 msgid "Path"
 msgstr "ਰਸਤਾ"
 
-#: drakperm:50 drakperm:249
+#: drakperm:48 drakperm:247
 #, c-format
 msgid "User"
 msgstr "ਉਪਭੋਗੀ"
 
-#: drakperm:50 drakperm:249
+#: drakperm:48 drakperm:247
 #, c-format
 msgid "Group"
 msgstr "ਸਮੂਹ"
 
-#: drakperm:50 drakperm:109 drakperm:332 draksec:177
+#: drakperm:48 drakperm:107 drakperm:330 draksec:179
 #, c-format
 msgid "Permissions"
 msgstr "ਅਧਿਕਾਰ"
 
-#: drakperm:60
+#: drakperm:58
 #, c-format
 msgid "Add a new rule"
 msgstr ""
 
-#: drakperm:67 drakperm:102 drakperm:128
+#: drakperm:65 drakperm:100 drakperm:126
 #, c-format
 msgid "Edit current rule"
 msgstr "ਮੌਜੂਦਾ ਨਿਯਮ ਸੋਧ"
 
-#: drakperm:110
+#: drakperm:108
 #, c-format
 msgid ""
 "Here you can see files to use in order to fix permissions, owners, and "
@@ -923,7 +933,7 @@ msgstr ""
 "ਇੱਥੇ ਤੁਸੀਂ msec ਦੁਆਰਾ ਮਨਜੂਰੀ, ਮਾਲਕ, ਅਤੇ ਸਮੂਹ ਸਥਿਰ ਕਰਨ ਲਈ ਫਾਇਲਾਂ ਵੇਖ ਸਕਦੇ ਹੋ।\n"
 "ਤੁਸੀਂ ਆਪਣੇ ਨਿਯਮ ਜੋ ਮੂਲ ਨਿਯਮਾਂ ਨੂੰ ਮੁੜ ਲਿਖਣਗੇ ਨੂੰ ਵੀ ਸੋਧ ਸਕਦੇ ਹੋ।"
 
-#: drakperm:112
+#: drakperm:110
 #, c-format
 msgid ""
 "The current security level is %s.\n"
@@ -932,115 +942,115 @@ msgstr ""
 "ਮੌਜੂਦਾ ਸੁਰੱਖਿਆ ਪੱਧਰ ਹੈ %s\n"
 "ਵੇਖਣ/ਸੋਧ ਲਈ ਮਨਜੂਰੀ ਚੁਣੋ"
 
-#: drakperm:124
+#: drakperm:122
 #, c-format
 msgid "Up"
 msgstr "ਉੱਪਰ"
 
-#: drakperm:124
+#: drakperm:122
 #, c-format
 msgid "Move selected rule up one level"
 msgstr "ਚੁਣਿਆ ਨਿਯਮ ਇੱਕ ਪੱਧਰ ਉੱਪਰ ਲਿਜਾਓ"
 
-#: drakperm:125
+#: drakperm:123
 #, c-format
 msgid "Down"
 msgstr "ਹੇਠਾਂ"
 
-#: drakperm:125
+#: drakperm:123
 #, c-format
 msgid "Move selected rule down one level"
 msgstr "ਚੁਣਿਆ ਨਿਯਮ ਇੱਕ ਪੱਧਰ ਹੇਠਾਂ ਲਿਜਾਓ"
 
-#: drakperm:126
+#: drakperm:124
 #, c-format
 msgid "Add a rule"
 msgstr "ਨਿਯਮ ਸ਼ਾਮਿਲ"
 
-#: drakperm:126
+#: drakperm:124
 #, c-format
 msgid "Add a new rule at the end"
 msgstr "ਅੰਤ ਵਿੱਚ ਨਵਾਂ ਨਿਯਮ ਵਰਤੋ"
 
-#: drakperm:127
+#: drakperm:125
 #, c-format
 msgid "Delete"
 msgstr "ਹਟਾਓ"
 
-#: drakperm:127
+#: drakperm:125
 #, c-format
 msgid "Delete selected rule"
 msgstr "ਚੁਣਿਆ ਨਿਯਮ ਹਟਾਓ"
 
-#: drakperm:128 drakups:300 drakups:376
+#: drakperm:126 drakups:299 drakups:375
 #, c-format
 msgid "Edit"
 msgstr "ਸੋਧ"
 
-#: drakperm:241
+#: drakperm:239
 #, c-format
 msgid "browse"
 msgstr "ਝਲਕ"
 
-#: drakperm:246
+#: drakperm:244
 #, c-format
 msgid "user"
 msgstr "ਉਪਭੋਗੀ"
 
-#: drakperm:246
+#: drakperm:244
 #, c-format
 msgid "group"
 msgstr "ਸਮੂਹ"
 
-#: drakperm:246
+#: drakperm:244
 #, c-format
 msgid "other"
 msgstr "ਹੋਰ"
 
-#: drakperm:249
+#: drakperm:247
 #, c-format
 msgid "Other"
 msgstr "ਹੋਰ"
 
-#: drakperm:251
+#: drakperm:249
 #, c-format
 msgid "Read"
 msgstr "ਪੜੋ"
 
 #. -PO: here %s will be either "user", "group" or "other"
-#: drakperm:254
+#: drakperm:252
 #, c-format
 msgid "Enable \"%s\" to read the file"
 msgstr "ਫਾਇਲ ਪੜਨ ਲਈ \"%s\" ਨੂੰ ਯੋਗ ਕਰੋ"
 
-#: drakperm:258
+#: drakperm:256
 #, c-format
 msgid "Write"
 msgstr "ਲਿਖੋ"
 
 #. -PO: here %s will be either "user", "group" or "other"
-#: drakperm:261
+#: drakperm:259
 #, c-format
 msgid "Enable \"%s\" to write the file"
 msgstr "ਫਾਇਲ ਲਿਖਣ ਲਈ \"%s\" ਨੂੰ ਯੋਗ ਕਰੋ"
 
-#: drakperm:265
+#: drakperm:263
 #, c-format
 msgid "Execute"
 msgstr "ਚਲਾਓ"
 
 #. -PO: here %s will be either "user", "group" or "other"
-#: drakperm:268
+#: drakperm:266
 #, c-format
 msgid "Enable \"%s\" to execute the file"
 msgstr "ਫਾਇਲ ਚਲਾਉਣ ਲਈ \"%s\" ਨੂੰ ਯੋਗ ਕਰੋ"
 
-#: drakperm:271
+#: drakperm:269
 #, c-format
 msgid "Sticky-bit"
 msgstr "ਸਟਿੱਕੀ-ਬਿੱਟ"
 
-#: drakperm:271
+#: drakperm:269
 #, c-format
 msgid ""
 "Used for directory:\n"
@@ -1049,255 +1059,260 @@ msgstr ""
 "ਡਾਇਰੈਕਟਰੀ ਲਈ ਵਰਤਿਆ:\n"
 " ਇਸ ਡਾਇਰੈਕਟਰੀ ਵਿੱਚ ਸਿਰਫ ਡਾਇਰੈਕਟਰੀ ਦਾ ਮਾਲਕ ਹੀ ਇਸ ਨੂੰ ਹਟਾ ਸਕਦਾ ਹੈ"
 
-#: drakperm:272
+#: drakperm:270
 #, c-format
 msgid "Set-UID"
 msgstr "Set-UID"
 
-#: drakperm:272
+#: drakperm:270
 #, c-format
 msgid "Use owner id for execution"
 msgstr "ਵਰਤਣ ਲਈ ਮਾਲਕ id ਵਰਤੋ"
 
-#: drakperm:273
+#: drakperm:271
 #, c-format
 msgid "Set-GID"
 msgstr "Set-GID"
 
-#: drakperm:273
+#: drakperm:271
 #, c-format
 msgid "Use group id for execution"
 msgstr "ਵਰਤਣ ਲਈ ਸਮੂਹ id ਵਰਤੋ"
 
-#: drakperm:290
+#: drakperm:288
 #, c-format
 msgid "User:"
 msgstr "ਉਪਭੋਗੀ:"
 
-#: drakperm:291
+#: drakperm:289
 #, c-format
 msgid "Group:"
 msgstr "ਸਮੂਹ:"
 
-#: drakperm:295
+#: drakperm:293
 #, c-format
 msgid "Current user"
 msgstr "ਵਰਤਮਾਨ ਉਪਭੋਗੀ"
 
-#: drakperm:296
+#: drakperm:294
 #, c-format
 msgid "When checked, owner and group will not be changed"
 msgstr "ਜਦੋਂ ਚੁਣੇ, ਮਾਲਕ ਅਤੇ ਸਮੂਹ ਤਬਦੀਲ ਨਹੀਂ ਹੋਣਗੇ"
 
-#: drakperm:306
+#: drakperm:304
 #, c-format
 msgid "Path selection"
 msgstr "ਮਾਰਗ ਚੋਣ"
 
-#: drakperm:326
+#: drakperm:324
 #, c-format
 msgid "Property"
 msgstr "ਵਿਸ਼ੇਸਤਾ"
 
-#: drakperm:376
+#: drakperm:374
 #, c-format
 msgid ""
 "The first character of the path must be a slash (\"/\"):\n"
 "\"%s\""
 msgstr ""
 
-#: drakperm:386
+#: drakperm:384
 #, c-format
 msgid "Both the username and the group must valid!"
 msgstr ""
 
-#: drakperm:387
+#: drakperm:385
 #, c-format
 msgid "User: %s"
 msgstr ""
 
-#: drakperm:388
+#: drakperm:386
 #, c-format
 msgid "Group: %s"
 msgstr ""
 
-#: draksec:53
+#: draksec:51
 #, c-format
 msgid "ALL"
 msgstr "ਸਭ"
 
-#: draksec:54
+#: draksec:52
 #, c-format
 msgid "LOCAL"
 msgstr "ਸਥਾਨਕ"
 
-#: draksec:55
+#: draksec:53
 #, c-format
 msgid "NONE"
 msgstr "ਕੋਈ ਨਹੀਂ"
 
-#: draksec:56
+#: draksec:54
 #, c-format
 msgid "Default"
 msgstr "ਮੂਲ"
 
-#: draksec:57
+#: draksec:55
 #, c-format
 msgid "Ignore"
 msgstr "ਅਣਡਿੱਠਾ"
 
-#: draksec:87
+#: draksec:85
 #, fuzzy, c-format
 msgid "Security Level and Checks"
 msgstr "ਸੁਰੱਖਿਆ ਪੱਧਰ:"
 
-#: draksec:110
+#: draksec:108
 #, c-format
-msgid "Configure authentication required to access OpenMandriva tools"
+msgid "Configure access to OpenMandriva Lx administrative tools"
 msgstr ""
 
-#: draksec:113
+#: draksec:111
 #, c-format
 msgid "No password needed"
 msgstr "ਕੋਈ ਗੁਪਤ-ਕੋਡ ਨਹੀਂ"
 
-#: draksec:114
+#: draksec:112
 #, c-format
 msgid "Root password required"
 msgstr ""
 
-#: draksec:115
+#: draksec:113
 #, c-format
 msgid "User password required"
 msgstr ""
 
-#: draksec:145 draksec:200
+#: draksec:146 draksec:202
 #, c-format
 msgid "Software Management"
 msgstr "ਸਾਫਟਵੇਅਰ ਪ੍ਰਬੰਧਨ"
 
-#: draksec:146
+#: draksec:147
 #, fuzzy, c-format
-msgid "Mandriva Update"
+msgid "Online Update"
 msgstr "ਮੈਂਡਰਿਵ-ਆਨਲਾਈਨ"
 
-#: draksec:147
+#: draksec:148
 #, c-format
 msgid "Software Media Manager"
 msgstr "ਸਾਫਟਵੇਅਰ ਮਾਧਿਅਮ ਪ੍ਰਬੰਧਕ"
 
-#: draksec:148
+#: draksec:149
 #, fuzzy, c-format
 msgid "Configure 3D Desktop effects"
 msgstr "ਖਬਰ-ਸਮੂਹ ਸਰਵਰ ਸੰਰਚਿਤ ਕਰੋ"
 
-#: draksec:149
+#: draksec:150
 #, fuzzy, c-format
 msgid "Graphical Server Configuration"
 msgstr "ਪੱਤਰ ਚੇਤਾਵਨੀ ਸੰਰਚਨਾ"
 
-#: draksec:150
+#: draksec:151
 #, fuzzy, c-format
 msgid "Mouse Configuration"
 msgstr "ਦਸਤੀ ਸੰਰਚਨਾ"
 
-#: draksec:151
+#: draksec:152
 #, fuzzy, c-format
 msgid "Keyboard Configuration"
 msgstr "ਨੈੱਟਵਰਕ ਸੰਰਚਨਾ"
 
-#: draksec:152
+#: draksec:153
+#, fuzzy, c-format
+msgid "Printer Configuration"
+msgstr "ਪਰਾਕਸੀ ਸੰਰਚਨਾ"
+
+#: draksec:154
 #, fuzzy, c-format
 msgid "UPS Configuration"
 msgstr "UPS ਡਰਾਈਵਰ ਸੰਰਚਨਾ"
 
-#: draksec:153
+#: draksec:155
 #, fuzzy, c-format
 msgid "Network Configuration"
 msgstr "ਚੇਤਾਵਨੀ ਸੰਰਚਨਾ"
 
-#: draksec:154
+#: draksec:156
 #, c-format
 msgid "Hosts definitions"
 msgstr ""
 
-#: draksec:155
+#: draksec:157
 #, fuzzy, c-format
 msgid "Network Center"
 msgstr "ਨੈੱਟਵਰਕ ਤੇ ਇੰਟਰਨੈੱਟ"
 
-#: draksec:156
+#: draksec:158
 #, c-format
 msgid "Wireless Network Roaming"
 msgstr ""
 
-#: draksec:157
+#: draksec:159
 #, c-format
 msgid "VPN"
 msgstr ""
 
-#: draksec:158
+#: draksec:160
 #, c-format
 msgid "Proxy Configuration"
 msgstr "ਪਰਾਕਸੀ ਸੰਰਚਨਾ"
 
-#: draksec:159
+#: draksec:161
 #, fuzzy, c-format
 msgid "Connection Sharing"
 msgstr "ਕੁਨੈਕਸ਼ਨ"
 
-#: draksec:161
+#: draksec:163
 #, c-format
 msgid "Backups"
 msgstr "ਬੈਕਅੱਪ"
 
-#: draksec:163 logdrake:52
+#: draksec:165 logdrake:56
 #, c-format
 msgid "Logs"
 msgstr "ਲਾਗ"
 
-#: draksec:164 finish-install:209 finish-install:248
+#: draksec:166 finish-install:210 finish-install:249
 #, c-format
 msgid "Services"
 msgstr "ਸੇਵਾਵਾਂ"
 
-#: draksec:165
+#: draksec:167
 #, fuzzy, c-format
 msgid "Users"
 msgstr "ਉਪਭੋਗੀ"
 
-#: draksec:167
+#: draksec:169
 #, fuzzy, c-format
 msgid "Boot Configuration"
 msgstr "ਚੇਤਾਵਨੀ ਸੰਰਚਨਾ"
 
-#: draksec:201
+#: draksec:203
 #, c-format
 msgid "Hardware"
 msgstr "ਹਾਰਡਵੇਅਰ"
 
-#: draksec:202
+#: draksec:204
 #, fuzzy, c-format
 msgid "Network"
 msgstr "ਨੈੱਟਵਰਕ ਚੋਣ"
 
-#: draksec:203
+#: draksec:205
 #, c-format
 msgid "System"
 msgstr "ਸਿਸਟਮ"
 
-#: draksec:204
+#: draksec:206
 #, c-format
 msgid "Boot"
 msgstr "ਬੂਟ"
 
-#: draksound:48
+#: draksound:47
 #, c-format
 msgid "No Sound Card detected!"
 msgstr "ਕੋਈ ਸਾਊਂਡ ਕਾਰਡ ਨਹੀਂ ਲੱਭਿਆ!"
 
 #. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
-#: draksound:51
+#: draksound:50
 #, c-format
 msgid ""
 "No Sound Card has been detected on your machine. Please verify that a Linux-"
@@ -1318,7 +1333,7 @@ msgstr ""
 "\n"
 "http://www.mandrivalinux.com/en/hardware.php3"
 
-#: draksound:58
+#: draksound:57
 #, c-format
 msgid ""
 "\n"
@@ -1333,22 +1348,22 @@ msgstr ""
 "ਸੂਚਨਾ: ਜੇ ਤੁਹਾਡੇ ਕੋਲ ISA PnP ਸਾਊਂਡ ਕਾਰਡ ਹੈ, ਤੁਹਾਨੂੰ alsaconf ਜਾਂ sndconfig ਪ੍ਰੋਗਰਾਮ ਵਰਤਣੇ "
 "ਪੈਣਗੇ। ਕੰਸੋਲ ਤੇ ਸਿਰਫ \"alsaconf\" ਜਾਂ \"sndconfig\" ਭਰੋ।"
 
-#: drakups:71
+#: drakups:70
 #, c-format
 msgid "Connected through a serial port or an usb cable"
 msgstr "ਸੀਰੀਅਲ ਪੋਰਟ ਜਾਂ usb ਕੇਬਲ ਦੁਆਰਾ ਜੋੜੋ"
 
-#: drakups:72
+#: drakups:71
 #, c-format
 msgid "Manual configuration"
 msgstr "ਦਸਤੀ ਸੰਰਚਨਾ"
 
-#: drakups:78
+#: drakups:77
 #, c-format
 msgid "Add an UPS device"
 msgstr "UPS ਜੰਤਰ ਸ਼ਾਮਿਲ ਕਰੋ"
 
-#: drakups:81
+#: drakups:80
 #, c-format
 msgid ""
 "Welcome to the UPS configuration utility.\n"
@@ -1359,7 +1374,7 @@ msgstr ""
 "\n"
 "ਇੱਥੇ, ਤੁਸੀਂ ਆਪਣੇ ਸਿਸਟਮ ਵਿੱਚ ਨਵਾਂ UPS ਸ਼ਾਮਿਲ ਕਰ ਸਕਦੇ ਹੋ।\n"
 
-#: drakups:88
+#: drakups:87
 #, c-format
 msgid ""
 "We're going to add an UPS device.\n"
@@ -1371,47 +1386,47 @@ msgstr ""
 "\n"
 "ਕੀ ਤੁਸੀਂ ਇਸ ਮਸ਼ੀਨ ਨਾਲ ਜੁੜੇ UPS ਜੰਤਰ ਸਵੈ-ਖੋਜਣੇ ਚਾਹੁੰਦੇ ਹੋ ਜਾਂ ਉਹਨਾਂ ਨੂੰ ਦਸਤੀ ਚੁਣਨਾ?"
 
-#: drakups:91
+#: drakups:90
 #, c-format
 msgid "Autodetection"
 msgstr "ਸਵੈ-ਖੋਜ"
 
-#: drakups:99 harddrake2:379
+#: drakups:98 harddrake2:374
 #, c-format
 msgid "Detection in progress"
 msgstr "ਖੋਜ ਜਾਰੀ ਹੈ"
 
-#: drakups:118 drakups:157 logdrake:457 logdrake:463
+#: drakups:117 drakups:156 logdrake:461 logdrake:467
 #, c-format
 msgid "Congratulations"
 msgstr "ਮੁਬਾਰਕਾਂ"
 
-#: drakups:119
+#: drakups:118
 #, c-format
 msgid "The wizard successfully added the following UPS devices:"
 msgstr "ਤਖਤੀ ਨੇ ਸਫਲਤਾ ਨਾਲ UPS ਜੰਤਰ ਸ਼ਾਮਿਲ ਕੀਤੇ:"
 
-#: drakups:121
+#: drakups:120
 #, c-format
 msgid "No new UPS devices was found"
 msgstr "ਕੋਈ ਨਵਾਂ UPS ਡਰਾਈਵਰ ਨਹੀਂ ਲੱਭਿਆ"
 
-#: drakups:126 drakups:138
+#: drakups:125 drakups:137
 #, c-format
 msgid "UPS driver configuration"
 msgstr "UPS ਡਰਾਈਵਰ ਸੰਰਚਨਾ"
 
-#: drakups:126
+#: drakups:125
 #, c-format
 msgid "Please select your UPS model."
 msgstr "ਕਿਰਪਾ ਕਰਕੇ ਆਪਣਾ UPS ਮਾਡਲ ਚੁਣੋ।"
 
-#: drakups:127
+#: drakups:126
 #, c-format
 msgid "Manufacturer / Model:"
 msgstr "ਨਿਰਮਾਤਾ / ਮਾਡਲ:"
 
-#: drakups:138
+#: drakups:137
 #, c-format
 msgid ""
 "We are configuring the \"%s\" UPS from \"%s\".\n"
@@ -1420,129 +1435,129 @@ msgstr ""
 "ਅਸੀਂ \"%s\" UPS ਨੂੰ \"%s\" ਤੋਂ ਸੰਰਚਿਤ ਕਰ ਰਹੇ ਹਾਂ।\n"
 "ਕਿਰਪਾ ਕਰਕੇ ਇਸ ਦਾ ਨਾਂ, ਡਰਾਈਵਰ ਅਤੇ ਪੋਰਟ ਭਰੋ।"
 
-#: drakups:143
+#: drakups:142
 #, c-format
 msgid "Name:"
 msgstr "ਨਾਂ:"
 
-#: drakups:143
+#: drakups:142
 #, c-format
 msgid "The name of your ups"
 msgstr "ਤੁਹਾਡੇ ups ਦਾ ਨਾਂ"
 
-#: drakups:144
+#: drakups:143
 #, c-format
 msgid "Driver:"
 msgstr "ਡਰਾਈਵਰ:"
 
-#: drakups:144
+#: drakups:143
 #, c-format
 msgid "The driver that manages your ups"
 msgstr "ਡਰਾਈਵਰ ਜੋ ਤੁਹਾਡੇ ups ਦਾ ਪ੍ਰਬੰਧਨ ਕਰਦਾ ਹੈ"
 
-#: drakups:145
+#: drakups:144
 #, c-format
 msgid "Port:"
 msgstr "ਪੋਰਟ:"
 
-#: drakups:147
+#: drakups:146
 #, c-format
 msgid "The port on which is connected your ups"
 msgstr "ਪੋਰਟ ਜਿਸ ਤੇ ਤੁਹਾਡਾ ups ਜੁੜਿਆ ਹੈ"
 
-#: drakups:157
+#: drakups:156
 #, c-format
 msgid "The wizard successfully configured the new \"%s\" UPS device."
 msgstr "ਤਖਤੀ ਨੇ ਸਫਲਤਾ ਨਾਲ ਨਵਾਂ \"%s\" UPS ਜੰਤਰ ਸੰਰਚਿਤ ਕੀਤਾ।"
 
-#: drakups:248
+#: drakups:247
 #, c-format
 msgid "UPS devices"
 msgstr "UPS ਜੰਤਰ"
 
-#: drakups:249 drakups:268 drakups:284 harddrake2:89 harddrake2:116
-#: harddrake2:123
+#: drakups:248 drakups:267 drakups:283 harddrake2:87 harddrake2:114
+#: harddrake2:121
 #, c-format
 msgid "Name"
 msgstr "ਨਾਂ"
 
-#: drakups:249 harddrake2:139
+#: drakups:248 harddrake2:137
 #, c-format
 msgid "Driver"
 msgstr "ਡਰਾਈਵਰ"
 
-#: drakups:249 harddrake2:56
+#: drakups:248 harddrake2:54
 #, c-format
 msgid "Port"
 msgstr "ਪੋਰਟ"
 
-#: drakups:267
+#: drakups:266
 #, c-format
 msgid "UPS users"
 msgstr "UPS ਉਪਭੋਗੀ"
 
-#: drakups:283
+#: drakups:282
 #, c-format
 msgid "Access Control Lists"
 msgstr "ਪਹੁੰਚ ਕੰਟਰੋਲ ਸੂਚੀ"
 
-#: drakups:284
+#: drakups:283
 #, c-format
 msgid "IP address"
 msgstr "IP ਸਿਰਨਾਵਾਂ"
 
-#: drakups:284
+#: drakups:283
 #, c-format
 msgid "IP mask"
 msgstr "IP ਮਖੌਟਾ"
 
-#: drakups:296
+#: drakups:295
 #, c-format
 msgid "Rules"
 msgstr "ਨਿਯਮ"
 
-#: drakups:297
+#: drakups:296
 #, c-format
 msgid "Action"
 msgstr "ਕਾਰਵਾਈ"
 
-#: drakups:297 harddrake2:85
+#: drakups:296 harddrake2:83
 #, c-format
 msgid "Level"
 msgstr "ਪੱਧਰ"
 
-#: drakups:297
+#: drakups:296
 #, c-format
 msgid "ACL name"
 msgstr "ACL ਨਾਂ"
 
-#: drakups:297 finish-install:267
+#: drakups:296 finish-install:258
 #, c-format
 msgid "Password"
 msgstr "ਗੁਪਤ-ਕੋਡ"
 
-#: drakups:329
+#: drakups:328
 #, fuzzy, c-format
 msgid "UPS Management"
 msgstr "ਪ੍ਰਿੰਟਰ ਪ੍ਰਬੰਧ %s"
 
-#: drakups:333 drakups:342
+#: drakups:332 drakups:341
 #, c-format
 msgid "DrakUPS"
 msgstr "DrakUPS"
 
-#: drakups:339
+#: drakups:338
 #, c-format
 msgid "Welcome to the UPS configuration tools"
 msgstr "UPS ਸੰਰਚਨਾ ਸੰਦ ਵੱਲੋਂ ਜੀ ਆਇਆਂ ਨੂੰ"
 
-#: drakxtv:67
+#: drakxtv:66
 #, c-format
 msgid "No TV Card detected!"
 msgstr "ਕੋਈ TV ਕਾਰਡ ਨਹੀਂ ਲੱਭਿਆ!"
 
 #. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
-#: drakxtv:69
+#: drakxtv:68
 #, c-format
 msgid ""
 "No TV Card has been detected on your machine. Please verify that a Linux-"
@@ -1578,93 +1593,88 @@ msgstr "ਕਿਰਪਾ ਕਰਕੇ, ਆਪਣਾ ਕੀਬੋਰਡ ਖਾਕ�
 msgid "Testing your connection..."
 msgstr ""
 
-#: finish-install:184
+#: finish-install:185
 #, c-format
 msgid "Windows-compatible sharing system"
 msgstr ""
 
-#: finish-install:186
-#, c-format
-msgid "Virtual Private Network"
-msgstr ""
-
-#: finish-install:187
+#: finish-install:188
 #, fuzzy, c-format
 msgid "OpenSSH server"
 msgstr "SSH ਸਰਵਰ"
 
-#: finish-install:188
+#: finish-install:189
 #, fuzzy, c-format
 msgid "Print server"
 msgstr "Ftp ਸਰਵਰ"
 
-#: finish-install:208
+#: finish-install:209
 #, c-format
-msgid "Please, specify which services should run at start-up:"
+msgid "Do you have any services that you want to run when starting up?"
 msgstr ""
 
-#: finish-install:240
+#: finish-install:241
 #, fuzzy, c-format
 msgid "The following services failed to start:\n"
 msgstr "ਹੇਠਲੇ ਪੈਕੇਜ ਇੰਸਟਾਲ ਹੋਣੇ ਜਰੂਰੀ ਹਨ:\n"
 
-#: finish-install:243
+#: finish-install:244
 #, fuzzy, c-format
 msgid "The following services failed to stop:\n"
 msgstr "ਹੇਠਲੇ ਪੈਕੇਜ ਇੰਸਟਾਲ ਹੋਣੇ ਜਰੂਰੀ ਹਨ:\n"
 
-#: finish-install:265 finish-install:283 finish-install:296
+#: finish-install:256 finish-install:274 finish-install:287
 #, c-format
 msgid "Encrypted home partition"
 msgstr ""
 
-#: finish-install:265
+#: finish-install:256
 #, c-format
 msgid "Please enter a password for the %s user"
 msgstr ""
 
-#: finish-install:268
+#: finish-install:259
 #, c-format
 msgid "Password (again)"
 msgstr "ਗੁਪਤ-ਕੋਡ (ਫਿਰ)"
 
-#: finish-install:283
+#: finish-install:274
 #, c-format
 msgid "Creating encrypted home partition"
 msgstr ""
 
-#: finish-install:296
+#: finish-install:287
 #, c-format
 msgid "Formatting encrypted home partition"
 msgstr ""
 
-#: harddrake2:30
+#: harddrake2:28
 #, c-format
 msgid "Alternative drivers"
 msgstr "ਅਨੁਸਾਰੀ ਡਰਾਈਵਰ"
 
-#: harddrake2:31
+#: harddrake2:29
 #, c-format
 msgid "the list of alternative drivers for this sound card"
 msgstr "ਇਸ ਸਾਊਂਡ ਕਾਰਡ ਲਈ ਅਨੁਸਾਰੀ ਡਰਾਈਵਰਾਂ ਦੀ ਸੂਚੀ"
 
-#: harddrake2:33 harddrake2:125
+#: harddrake2:31 harddrake2:123
 #, c-format
 msgid "Bus"
 msgstr "ਬਸ"
 
-#: harddrake2:34
+#: harddrake2:32
 #, c-format
 msgid ""
 "this is the physical bus on which the device is plugged (eg: PCI, USB, ...)"
 msgstr "ਇਹ ਭੌਤਿਕ ਬੱਸ ਹੈ ਜਿਸ ਤੇ ਜੰਤਰ ਜੁੜਿਆ ਹੈ (ਜਿਵੇਂ: PCI, USB, ...)"
 
-#: harddrake2:36 harddrake2:151
+#: harddrake2:34 harddrake2:149
 #, c-format
 msgid "Bus identification"
 msgstr "Bus ਪਛਾਣ"
 
-#: harddrake2:37
+#: harddrake2:35
 #, c-format
 msgid ""
 "- PCI and USB devices: this lists the vendor, device, subvendor and "
@@ -1672,12 +1682,12 @@ msgid ""
 msgstr ""
 "- PCI ਅਤੇ USB ਜੰਤਰ: ਇਹ ਵਿਕ੍ਰੇਤਾ, ਜੰਤਰ, ਉਪ-ਵਿਕ੍ਰੇਤਾ ਉਪ-ਜੰਤਰ PCI/USB ids ਵਿਖਾਉਂਦਾ ਹੈ"
 
-#: harddrake2:39
+#: harddrake2:37
 #, c-format
 msgid "Location on the bus"
 msgstr "ਬਸ ਤੇ ਸਥਿਤੀ"
 
-#: harddrake2:40
+#: harddrake2:38
 #, c-format
 msgid ""
 "- pci devices: this gives the PCI slot, device and function of this card\n"
@@ -1688,233 +1698,233 @@ msgstr ""
 "- eide ਜੰਤਰ: ਜੰਤਰ ਜਾਂ ਤਾਂ ਸਲੇਵ ਜਾਂ ਮਾਸਟਰ ਜੰਤਰ ਹੈ\n"
 "- scsi ਜੰਤਰ: scsi ਬੱਸ ਅਤੇ scsi ਜੰਤਰ ids"
 
-#: harddrake2:43
+#: harddrake2:41
 #, c-format
 msgid "Drive capacity"
 msgstr "ਡਰਾਈਵ ਯੋਗਤਾ"
 
-#: harddrake2:43
+#: harddrake2:41
 #, c-format
 msgid "special capacities of the driver (burning ability and or DVD support)"
 msgstr "ਡਰਾਈਵਰ ਦੀ ਖਾਸ ਯੋਗਤਾ (ਨਿਰਮਾਣ ਯੋਗਤਾ ਅਤੇ DVD ਸਹਿਯੋਗ)"
 
-#: harddrake2:44
+#: harddrake2:42
 #, c-format
 msgid "Description"
 msgstr "ਵਰਣਨ"
 
-#: harddrake2:44
+#: harddrake2:42
 #, c-format
 msgid "this field describes the device"
 msgstr "ਇਹ ਕਾਲਮ ਜੰਤਰ ਦਰਸਾਉਂਦਾ ਹੈ"
 
-#: harddrake2:45
+#: harddrake2:43
 #, c-format
 msgid "Old device file"
 msgstr "ਪੁਰਾਣੀ ਜੰਤਰ ਫਾਇਲ"
 
-#: harddrake2:46
+#: harddrake2:44
 #, c-format
 msgid "old static device name used in dev package"
 msgstr "dev ਪੈਕੇਜ ਦੁਆਰਾ ਵਰਤਿਆ ਪੁਰਾਣਾ ਸਥਿਰ ਜੰਤਰ ਨਾਂ"
 
 #. -PO: here "module" is the "jargon term" for a kernel driver
-#: harddrake2:49
+#: harddrake2:47
 #, c-format
 msgid "Module"
 msgstr "ਮੈਡੀਊਲ"
 
-#: harddrake2:49
+#: harddrake2:47
 #, c-format
 msgid "the module of the GNU/Linux kernel that handles the device"
 msgstr "GNU/ਲੀਨਕਸ ਕਰਨਲ ਜੋ ਜੰਤਰ ਨਿਗਰਾਨੀ ਕਰਦਾ ਹੈ, ਦਾ ਮੈਡਿਊਲ"
 
-#: harddrake2:50
+#: harddrake2:48
 #, c-format
 msgid "Extended partitions"
 msgstr "ਐਕਸਟੈਂਡਡ ਭਾਗ"
 
-#: harddrake2:50
+#: harddrake2:48
 #, c-format
 msgid "the number of extended partitions"
 msgstr "ਐਕਸਟੈਂਡਡ ਭਾਗਾਂ ਦੀ ਗਿਣਤੀ"
 
-#: harddrake2:51
+#: harddrake2:49
 #, c-format
 msgid "Geometry"
 msgstr "ਢਾਂਚਾ"
 
-#: harddrake2:51
+#: harddrake2:49
 #, c-format
 msgid "Cylinder/head/sectors geometry of the disk"
 msgstr "ਡਿਸਕ ਦੀ ਸਿਲੰਡਰ/ਹੈੱਡ/ਸੈਕਟਰ ਢਾਂਚਾ"
 
-#: harddrake2:52
+#: harddrake2:50
 #, c-format
 msgid "Disk controller"
 msgstr "ਡਿਸਕ ਕੰਟਰੋਲਰ"
 
-#: harddrake2:52
+#: harddrake2:50
 #, c-format
 msgid "the disk controller on the host side"
 msgstr "ਮੇਜ਼ਬਾਨ ਵਾਲੇ ਪਾਸੇ ਡਿਸਕ ਕੰਟੋਰਲਰ"
 
-#: harddrake2:53
+#: harddrake2:51
 #, fuzzy, c-format
 msgid "Identifier"
 msgstr "ਡਿਸਕ ਪਛਾਣ"
 
-#: harddrake2:53
+#: harddrake2:51
 #, fuzzy, c-format
 msgid "usually the device serial number"
 msgstr "ਆਮ ਵਰਤਿਆ ਡਿਸਕ ਲੜੀ ਅੰਕ"
 
-#: harddrake2:54
+#: harddrake2:52
 #, c-format
 msgid "Media class"
 msgstr "ਮਾਧਿਅਮ ਸ਼੍ਰੇਣੀ"
 
-#: harddrake2:54
+#: harddrake2:52
 #, c-format
 msgid "class of hardware device"
 msgstr "ਹਾਰਡਵੇਅਰ ਜੰਤਰ ਦੀ ਸ਼੍ਰੇਣੀ"
 
-#: harddrake2:55 harddrake2:86
+#: harddrake2:53 harddrake2:84
 #, c-format
 msgid "Model"
 msgstr "ਮਾਡਲ"
 
-#: harddrake2:55
+#: harddrake2:53
 #, c-format
 msgid "hard disk model"
 msgstr "ਹਾਰਡ ਡਿਸਕ ਮਾਡਲ"
 
-#: harddrake2:56
+#: harddrake2:54
 #, c-format
 msgid "network printer port"
 msgstr "ਨੈੱਟਵਰਕ ਪ੍ਰਿੰਟਰ ਪੋਰਟ"
 
-#: harddrake2:57
+#: harddrake2:55
 #, c-format
 msgid "Primary partitions"
 msgstr "ਪ੍ਰਾਇਮਰੀ ਭਾਗ"
 
-#: harddrake2:57
+#: harddrake2:55
 #, c-format
 msgid "the number of the primary partitions"
 msgstr "ਪ੍ਰਾਇਮਰੀ ਭਾਗਾਂ ਦੀ ਗਿਣਤੀ"
 
-#: harddrake2:58 harddrake2:92
+#: harddrake2:56 harddrake2:90
 #, c-format
 msgid "Vendor"
 msgstr "ਵਿਕ੍ਰੇਤਾ"
 
-#: harddrake2:58
+#: harddrake2:56
 #, c-format
 msgid "the vendor name of the device"
 msgstr "ਜੰਤਰ ਦਾ ਵਿਕ੍ਰੇਤਾ ਨਾਂ"
 
-#: harddrake2:59
+#: harddrake2:57
 #, c-format
 msgid "PCI domain"
 msgstr ""
 
-#: harddrake2:59 harddrake2:60
+#: harddrake2:57 harddrake2:58
 #, fuzzy, c-format
 msgid "the PCI domain of the device"
 msgstr "ਜੰਤਰ ਦਾ ਵਿਕ੍ਰੇਤਾ ਨਾਂ"
 
-#: harddrake2:60
+#: harddrake2:58
 #, fuzzy, c-format
 msgid "PCI revision"
 msgstr "ਅਧਿਕਾਰ"
 
-#: harddrake2:61
+#: harddrake2:59
 #, c-format
 msgid "Bus PCI #"
 msgstr "Bus PCI #"
 
-#: harddrake2:61
+#: harddrake2:59
 #, c-format
 msgid "the PCI bus on which the device is plugged"
 msgstr "PCI ਬੱਸ ਜਿਸ ਤੇ ਜੰਤਰ ਜੁੜਿਆ ਹੈ"
 
-#: harddrake2:62
+#: harddrake2:60
 #, c-format
 msgid "PCI device #"
 msgstr "PCI ਜੰਤਰ #"
 
-#: harddrake2:62
+#: harddrake2:60
 #, c-format
 msgid "PCI device number"
 msgstr "PCI ਜੰਤਰ ਨੰਬਰ"
 
-#: harddrake2:63
+#: harddrake2:61
 #, c-format
 msgid "PCI function #"
 msgstr "PCI ਫੰਕਸ਼ਨ #"
 
-#: harddrake2:63
+#: harddrake2:61
 #, c-format
 msgid "PCI function number"
 msgstr "PCI ਫੰਕਸ਼ਨ ਨੰਬਰ"
 
-#: harddrake2:64
+#: harddrake2:62
 #, c-format
 msgid "Vendor ID"
 msgstr "ਵਿਕ੍ਰੇਤਾ ID"
 
-#: harddrake2:64
+#: harddrake2:62
 #, c-format
 msgid "this is the standard numerical identifier of the vendor"
 msgstr "ਇਹ ਵਿਕ੍ਰੇਤਾ ਦੀ ਮਿਆਰੀ ਹਿਸਾਬੀ ਪਛਾਣ ਹੈ"
 
-#: harddrake2:65
+#: harddrake2:63
 #, c-format
 msgid "Device ID"
 msgstr "ਜੰਤਰ ID"
 
-#: harddrake2:65
+#: harddrake2:63
 #, c-format
 msgid "this is the numerical identifier of the device"
 msgstr "ਇਹ ਜੰਤਰ ਦੀ ਹਿਸਾਬੀ ਪਛਾਣ ਹੈ"
 
-#: harddrake2:66
+#: harddrake2:64
 #, c-format
 msgid "Sub vendor ID"
 msgstr "ਉਪ ਵਿਕ੍ਰੇਤਾ ID"
 
-#: harddrake2:66
+#: harddrake2:64
 #, c-format
 msgid "this is the minor numerical identifier of the vendor"
 msgstr "ਇਹ ਵਿਕ੍ਰੇਤਾ ਦੀ ਛੋਟੀ ਹਿਸਾਬੀ ਪਛਾਣ ਹੈ"
 
-#: harddrake2:67
+#: harddrake2:65
 #, c-format
 msgid "Sub device ID"
 msgstr "ਉਪ ਜੰਤਰ ID"
 
-#: harddrake2:67
+#: harddrake2:65
 #, c-format
 msgid "this is the minor numerical identifier of the device"
 msgstr "ਇਹ ਜੰਤਰ ਦੀ ਛੋਟੀ ਹਿਸਾਬੀ ਪਛਾਣ ਹੈ"
 
-#: harddrake2:68
+#: harddrake2:66
 #, c-format
 msgid "Device USB ID"
 msgstr "ਜੰਤਰ USB ID"
 
-#: harddrake2:68
+#: harddrake2:66
 #, c-format
 msgid ".."
 msgstr ".."
 
-#: harddrake2:73 harddrake2:74
+#: harddrake2:71 harddrake2:72
 #, c-format
 msgid "Bogomips"
 msgstr "Bogomips"
 
-#: harddrake2:73 harddrake2:74
+#: harddrake2:71 harddrake2:72
 #, c-format
 msgid ""
 "the GNU/Linux kernel needs to run a calculation loop at boot time to "
@@ -1924,42 +1934,42 @@ msgstr ""
 "GNU/ਲੀਨਕਸ ਕਰਨਲ ਨੂੰ ਬੂਟ ਦੌਰਾਨ ਟਾਈਮਰ ਕਾਊਂਟਰ ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਕੈਲਕੂਲੇਸ਼ਨ ਲੂਪ ਚਲਾਉਣ ਦੀ ਲੋੜ ਹੈ। ਇਸ "
 "ਦਾ ਨਤਿਜਾ cpu ਨੂੰ \"benchmark\" ਕਰਨ ਲਈ bogomips ਵਿੱਚ ਸੰਭਾਲਿਆ ਜਾਂਦਾ ਹੈ।"
 
-#: harddrake2:75
+#: harddrake2:73
 #, c-format
 msgid "Cache size"
 msgstr "ਕੈਸ਼ ਅਕਾਰ"
 
-#: harddrake2:75
+#: harddrake2:73
 #, c-format
 msgid "size of the (second level) cpu cache"
 msgstr "cpu ਕੈਸ਼ (ਦੂਜਾ ਪੱਧਰ) ਦਾ ਅਕਾਰ"
 
-#: harddrake2:76
+#: harddrake2:74
 #, c-format
 msgid "Cpuid family"
 msgstr "Cpuid ਸ਼੍ਰੇਣੀ"
 
-#: harddrake2:76
+#: harddrake2:74
 #, c-format
 msgid "family of the cpu (eg: 6 for i686 class)"
 msgstr "cpu ਦੀ ਸ਼੍ਰੇਣੀ (ਜਿਵੇਂ: i686 ਸ਼੍ਰੇਣੀ ਲਈ 6)"
 
-#: harddrake2:77
+#: harddrake2:75
 #, c-format
 msgid "Cpuid level"
 msgstr "Cpuid ਪੱਧਰ"
 
-#: harddrake2:77
+#: harddrake2:75
 #, c-format
 msgid "information level that can be obtained through the cpuid instruction"
 msgstr "ਜਾਣਕਾਰੀ ਪੱਧਰ ਜੋ cpuid ਹਦਾਇਤ ਦੁਆਰਾ ਪ੍ਰਾਪਤ ਕੀਤਾ ਹੈ"
 
-#: harddrake2:78
+#: harddrake2:76
 #, c-format
 msgid "Frequency (MHz)"
 msgstr "ਵਾਰਵਾਰਤਾ (ਮੈਹਾ)"
 
-#: harddrake2:78
+#: harddrake2:76
 #, c-format
 msgid ""
 "the CPU frequency in MHz (Megahertz which in first approximation may be "
@@ -1969,102 +1979,102 @@ msgstr ""
 "CPU ਫ੍ਰੀਕਿਊਂਨਸੀ MHz ਵਿੱਚ (ਮੈਗਾਹਰਟਜ਼, ਜੋ ਕਿ cpu ਰਾਹੀਂ ਪ੍ਰਤੀ ਸਕਿੰਟ ਚਲਾਈਆਂ ਜਾਣ ਵਾਲੀਆਂ "
 "ਹਟਾਇਤਾਂ ਦੀ ਲੱਗਭਗ ਗਿਣਤੀ ਹੈ)"
 
-#: harddrake2:79
+#: harddrake2:77
 #, c-format
 msgid "Flags"
 msgstr "ਨਿਸ਼ਾਨ"
 
-#: harddrake2:79
+#: harddrake2:77
 #, c-format
 msgid "CPU flags reported by the kernel"
 msgstr "ਕਰਨਲ ਦੁਆਰਾ ਰਿਪੋਰਟ ਕੀਤੇ CPU ਚਿੰਨ"
 
-#: harddrake2:80 harddrake2:144
+#: harddrake2:78 harddrake2:142
 #, fuzzy, c-format
 msgid "Cores"
 msgstr "ਬੰਦ"
 
-#: harddrake2:80
+#: harddrake2:78
 #, c-format
 msgid "CPU cores"
 msgstr ""
 
-#: harddrake2:81
+#: harddrake2:79
 #, fuzzy, c-format
 msgid "Core ID"
 msgstr "ਵਿਕ੍ਰੇਤਾ ID"
 
-#: harddrake2:82
+#: harddrake2:80
 #, c-format
 msgid "Physical ID"
 msgstr ""
 
-#: harddrake2:83
+#: harddrake2:81
 #, c-format
 msgid "ACPI ID"
 msgstr ""
 
-#: harddrake2:84
+#: harddrake2:82
 #, fuzzy, c-format
 msgid "Siblings"
 msgstr "ਵਿਵਸਥਾ"
 
-#: harddrake2:85
+#: harddrake2:83
 #, c-format
 msgid "sub generation of the cpu"
 msgstr "cpu ਦਾ ਉਪ ਉਤਪਾਦ"
 
-#: harddrake2:86
+#: harddrake2:84
 #, c-format
 msgid "generation of the cpu (eg: 8 for Pentium III, ...)"
 msgstr "cpu ਦੀ ਉਤਪਾਦ (ਜਿਵੇਂ: Pentium III ਲਈ 8, ...)"
 
-#: harddrake2:87 harddrake2:88
+#: harddrake2:85 harddrake2:86
 #, c-format
 msgid "Model name"
 msgstr "ਮਾਡਲ ਨਾਂ"
 
-#: harddrake2:87 harddrake2:88
+#: harddrake2:85 harddrake2:86
 #, c-format
 msgid "official vendor name of the cpu"
 msgstr "cpu ਦਾ ਦਫਤਰੀ ਵਿਕ੍ਰੇਤਾ ਨਾਂ"
 
-#: harddrake2:89
+#: harddrake2:87
 #, c-format
 msgid "the name of the CPU"
 msgstr "CPU ਦਾ ਨਾਂ"
 
-#: harddrake2:90
+#: harddrake2:88
 #, c-format
 msgid "Processor ID"
 msgstr "ਪਰੋਸੈੱਸਰ ID"
 
-#: harddrake2:90
+#: harddrake2:88
 #, c-format
 msgid "the number of the processor"
 msgstr "ਪਰੋਸੈੱਸਰਾਂ ਦੀ ਗਿਣਤੀ"
 
-#: harddrake2:91
+#: harddrake2:89
 #, c-format
 msgid "Model stepping"
 msgstr "ਮਾਡਲ ਸਟੈਪਿੰਗ"
 
-#: harddrake2:91
+#: harddrake2:89
 #, c-format
 msgid "stepping of the cpu (sub model (generation) number)"
 msgstr "cpu ਦੀ ਸਟੈਪਿੰਗ (ਉਪ ਮਾਡਲ (ਉਤਪਾਦ) ਅੰਕ)"
 
-#: harddrake2:92
+#: harddrake2:90
 #, c-format
 msgid "the vendor name of the processor"
 msgstr "ਪਰੋਸੈੱਸਰ ਦਾ ਵਿਕ੍ਰੇਤਾ ਨਾਂ"
 
-#: harddrake2:93
+#: harddrake2:91
 #, c-format
 msgid "Write protection"
 msgstr "ਲਿਖਣ ਸੁਰੱਖਿਆ"
 
-#: harddrake2:93
+#: harddrake2:91
 #, c-format
 msgid ""
 "the WP flag in the CR0 register of the cpu enforce write protection at the "
@@ -2074,47 +2084,47 @@ msgstr ""
 "cpu ਦੇ CR0 ਰਜਿਸਟਰ ਵਿੱਚ WP ਨਿਸ਼ਾਨ ਮੈਮੋਰੀ ਸਫ਼ਾ ਪੱਧਰ ਤੇ ਲਿਖਣ ਲਈ ਸੁਰੱਖਿਅਤ ਹੈ, ਇਸਕਰਕੇ ਪ੍ਰੋਸੈਂਸਰ ਨੂੰ "
 "ਕਰਨਲ ਪਹੁੰਚ ਨੂੰ ਉਪਭੋਗੀ ਮੈਮੋਰੀ ਤੱਕ ਅੱਪੜਨ ਤੋਂ ਆਯੋਗ ਕਰਦਾ ਹੈ (ਸਾਇਦ ਇਹ ਬੱਗ ਗਾਰਡ ਜਾਣਦਾ ਹੋਵੇ)"
 
-#: harddrake2:97
+#: harddrake2:95
 #, c-format
 msgid "Floppy format"
 msgstr "ਫਲਾਪੀ ਫਾਰਮਿਟ"
 
-#: harddrake2:97
+#: harddrake2:95
 #, c-format
 msgid "format of floppies supported by the drive"
 msgstr "ਡਰਾਈਵ ਦੁਆਰਾ ਸਹਿਯੋਗੀ ਫਲਾਪੀ ਫਾਰਮਿਟ"
 
-#: harddrake2:101
+#: harddrake2:99
 #, c-format
 msgid "EIDE/SCSI channel"
 msgstr "EIDE/SCSI ਚੈਨਲ"
 
-#: harddrake2:102
+#: harddrake2:100
 #, c-format
 msgid "Disk identifier"
 msgstr "ਡਿਸਕ ਪਛਾਣ"
 
-#: harddrake2:102
+#: harddrake2:100
 #, c-format
 msgid "usually the disk serial number"
 msgstr "ਆਮ ਵਰਤਿਆ ਡਿਸਕ ਲੜੀ ਅੰਕ"
 
-#: harddrake2:103
+#: harddrake2:101
 #, c-format
 msgid "Target id number"
 msgstr ""
 
-#: harddrake2:103
+#: harddrake2:101
 #, c-format
 msgid "the SCSI target identifier"
 msgstr ""
 
-#: harddrake2:104
+#: harddrake2:102
 #, c-format
 msgid "Logical unit number"
 msgstr "ਲੌਜ਼ੀਕਲ ਇਕਾਈ ਅੰਕ"
 
-#: harddrake2:104
+#: harddrake2:102
 #, fuzzy, c-format
 msgid ""
 "the SCSI Logical Unit Number (LUN). SCSI devices connected to a host are "
@@ -2125,189 +2135,184 @@ msgstr ""
 "ਚੈਨਲ ਨੰਬਰ, ਮੰਜ਼ਿਲ id ਅਤੇ ਲੌਜ਼ੀਕਲ ਇਕਾਈ ਅੰਕ ਨਾਲ ਹੁੰਦੀ ਹੈ"
 
 #. -PO: here, "size" is the size of the ram chip (eg: 128Mo, 256Mo, ...)
-#: harddrake2:111
+#: harddrake2:109
 #, c-format
 msgid "Installed size"
 msgstr "ਇੰਸਟਾਲ ਕੀਤਾ ਅਕਾਰ"
 
-#: harddrake2:111
+#: harddrake2:109
 #, c-format
 msgid "Installed size of the memory bank"
 msgstr "ਮੈਮੋਰੀ ਬੈਂਕ ਦਾ ਇੰਸਟਾਲ ਕੀਤਾ ਅਕਾਰ"
 
-#: harddrake2:112
+#: harddrake2:110
 #, c-format
 msgid "Enabled Size"
 msgstr "ਯੋਗ ਅਕਾਰ"
 
-#: harddrake2:112
+#: harddrake2:110
 #, c-format
 msgid "Enabled size of the memory bank"
 msgstr "ਮੈਮੋਰੀ ਬੈਂਕ ਦਾ ਯੋਗ ਅਕਾਰ"
 
-#: harddrake2:113 harddrake2:122
+#: harddrake2:111 harddrake2:120
 #, c-format
 msgid "Type"
 msgstr "ਕਿਸਮ"
 
-#: harddrake2:113
+#: harddrake2:111
 #, c-format
 msgid "type of the memory device"
 msgstr "ਮੈਮੋਰੀ ਜੰਤਰ ਦੀ ਕਿਸਮ"
 
-#: harddrake2:114
+#: harddrake2:112
 #, c-format
 msgid "Speed"
 msgstr "ਗਤੀ"
 
-#: harddrake2:114
+#: harddrake2:112
 #, c-format
 msgid "Speed of the memory bank"
 msgstr "ਮੈਮੋਰੀ ਬੈਂਕ ਦੀ ਗਤੀ"
 
-#: harddrake2:115
+#: harddrake2:113
 #, c-format
 msgid "Bank connections"
 msgstr "ਬੈਂਕ ਕੁਨੈਕਸ਼ਨ"
 
-#: harddrake2:116
+#: harddrake2:114
 #, c-format
 msgid "Socket designation of the memory bank"
 msgstr "ਮੈਮੋਰੀ ਬੈਂਕ ਦਾ ਸਾਕਟ ਨਿਰਧਾਰਿਤ"
 
-#: harddrake2:120
+#: harddrake2:118
 #, c-format
 msgid "Device file"
 msgstr "ਜੰਤਰ ਫਾਇਲ"
 
-#: harddrake2:120
+#: harddrake2:118
 #, c-format
 msgid ""
 "the device file used to communicate with the kernel driver for the mouse"
 msgstr "ਮਾਊਸ ਲਈ ਕਰਨਲ ਡਰਾਈਵਰ ਨਾਲ ਸੰਪਰਕ ਕਰਨ ਵਾਸਤੇ ਵਰਤੀ ਜੰਤਰ ਫਾਇਲ"
 
-#: harddrake2:121
+#: harddrake2:119
 #, c-format
 msgid "Emulated wheel"
 msgstr "ਸਮਰੂਪ ਪਹੀਆ"
 
-#: harddrake2:121
+#: harddrake2:119
 #, c-format
 msgid "whether the wheel is emulated or not"
 msgstr "ਕੀ ਪਹੀਆ ਸਮਰੂਪ ਹੈ ਜਾਂ ਨਹੀਂ"
 
-#: harddrake2:122
+#: harddrake2:120
 #, c-format
 msgid "the type of the mouse"
 msgstr "ਮਾਊਸ ਦੀ ਕਿਸਮ"
 
-#: harddrake2:123
+#: harddrake2:121
 #, c-format
 msgid "the name of the mouse"
 msgstr "ਮਾਊਸ ਦਾ ਨਾਂ"
 
-#: harddrake2:124
+#: harddrake2:122
 #, c-format
 msgid "Number of buttons"
 msgstr "ਬਟਨਾਂ ਦੀ ਗਿਣਤੀ"
 
-#: harddrake2:124
+#: harddrake2:122
 #, c-format
 msgid "the number of buttons the mouse has"
 msgstr "ਮਾਊਸ ਦੇ ਬਟਨਾਂ ਦੀ ਗਿਣਤੀ"
 
-#: harddrake2:125
+#: harddrake2:123
 #, c-format
 msgid "the type of bus on which the mouse is connected"
 msgstr "ਬੱਸ ਦੀ ਕਿਸਮ ਜਿਸ ਨਾਲ ਮਾਊਸ ਜੁੜਿਆ ਹੈ"
 
-#: harddrake2:126
+#: harddrake2:124
 #, c-format
 msgid "Mouse protocol used by X11"
 msgstr "X11 ਦੁਆਰਾ ਵਰਤਿਆ ਮਾਊਸ ਪਰੋਟੋਕਾਲ"
 
-#: harddrake2:126
+#: harddrake2:124
 #, c-format
 msgid "the protocol that the graphical desktop use with the mouse"
 msgstr "ਪਰੋਟੋਕਾਲ ਜੋ ਗਰਾਫੀਕਲ ਵਿਹੜਾ ਮਾਊਸ ਨਾਲ ਵਰਤਦਾ ਹੈ"
 
-#: harddrake2:130
+#: harddrake2:128
 #, c-format
 msgid "Identification"
 msgstr "ਪਛਾਣ"
 
-#: harddrake2:135 harddrake2:150
+#: harddrake2:133 harddrake2:148
 #, c-format
 msgid "Connection"
 msgstr "ਕੁਨੈਕਸ਼ਨ"
 
-#: harddrake2:145
+#: harddrake2:143
 #, c-format
 msgid "Performances"
 msgstr "ਅਦਾਕਾਰੀ"
 
-#: harddrake2:152
+#: harddrake2:150
 #, c-format
 msgid "Device"
 msgstr "ਜੰਤਰ"
 
-#: harddrake2:153
+#: harddrake2:151
 #, c-format
 msgid "Partitions"
 msgstr "ਭਾਗ"
 
-#: harddrake2:158
+#: harddrake2:156
 #, c-format
 msgid "Features"
 msgstr "ਵਿਸ਼ੇਸਤਾ"
 
 #. -PO: please keep all "/" characters !!!
-#: harddrake2:181 logdrake:78
+#: harddrake2:179 logdrake:82
 #, c-format
 msgid "/_Options"
 msgstr "/ਚੋਣ(_O)"
 
-#: harddrake2:182 harddrake2:208 logdrake:80
+#: harddrake2:180 harddrake2:203 logdrake:84
 #, c-format
 msgid "/_Help"
 msgstr "/ਸਹਾਇਤਾ(_H)"
 
-#: harddrake2:186
+#: harddrake2:184
 #, c-format
 msgid "/Autodetect _modems"
 msgstr "/ਸਵੈ-ਖੋਜੇ ਮਾਡਮ(_m)"
 
-#: harddrake2:187
-#, c-format
-msgid "/Autodetect _jaz drives"
-msgstr "/ਸਵੈ-ਖੋਜੀਆਂ _jaz ਡਰਾਈਵਾਂ"
-
-#: harddrake2:188
+#: harddrake2:185
 #, c-format
 msgid "/Autodetect parallel _zip drives"
 msgstr ""
 
-#: harddrake2:192
+#: harddrake2:189
 #, fuzzy, c-format
 msgid "Hardware Configuration"
 msgstr "ਨੈੱਟਵਰਕ ਸੰਰਚਨਾ"
 
-#: harddrake2:199
+#: harddrake2:196
 #, c-format
 msgid "/_Quit"
 msgstr "/ਬਾਹਰ(_Q)"
 
-#: harddrake2:210
+#: harddrake2:205
 #, c-format
 msgid "/_Fields description"
 msgstr "/ਖੇਤਰ ਵਰਣਨ(_F)"
 
-#: harddrake2:212
+#: harddrake2:207
 #, c-format
 msgid "Harddrake help"
 msgstr "Harddrake ਸਹਾਇਤਾ"
 
-#: harddrake2:213
+#: harddrake2:208
 #, c-format
 msgid ""
 "Description of the fields:\n"
@@ -2316,12 +2321,12 @@ msgstr ""
 "ਕਾਲਮਾਂ ਦਾ ਵਰਣਨ:\n"
 "\n"
 
-#: harddrake2:221
+#: harddrake2:216
 #, c-format
 msgid "Select a device!"
 msgstr "ਜੰਤਰ ਚੁਣੋ!"
 
-#: harddrake2:221
+#: harddrake2:216
 #, c-format
 msgid ""
 "Once you've selected a device, you'll be able to see the device information "
@@ -2330,89 +2335,94 @@ msgstr ""
 "ਜਦੋਂ ਤੁਸੀਂ ਜੰਤਰ ਚੁਣਿਆ, ਤੁਸੀਂ ਸੱਜੇ ਫਰੇਮ (\"Information\") ਵਿੱਚ ਵਿਖਾਏ ਕਾਲਮ ਵਿੱਚ ਜੰਤਰ ਜਾਣਕਾਰੀ "
 "ਵੇਖ ਸਕਦੇ ਹੋ"
 
-#: harddrake2:227
+#: harddrake2:222
 #, c-format
 msgid "/_Report Bug"
 msgstr "/ਬੱਗ ਰਿਪੋਰਟ(_R)"
 
-#: harddrake2:229
+#: harddrake2:224
 #, c-format
 msgid "/_About..."
 msgstr "/ਬਾਰੇ(_A)..."
 
-#: harddrake2:232
+#: harddrake2:227
 #, fuzzy, c-format
 msgid "Harddrake"
 msgstr "Harddrake2"
 
-#: harddrake2:236
+#: harddrake2:231
 #, c-format
 msgid "This is HardDrake, a %s hardware configuration tool."
 msgstr ""
 
-#: harddrake2:269
+#: harddrake2:233
+#, fuzzy, c-format
+msgid "OpenMandriva Linux"
+msgstr "ਮੈਂਡਰਿਵ-ਆਨਲਾਈਨ"
+
+#: harddrake2:264
 #, c-format
 msgid "Detected hardware"
 msgstr "ਲੱਭੇ ਜੰਤਰ"
 
-#: harddrake2:272 scannerdrake:284
+#: harddrake2:267 scannerdrake:283
 #, c-format
 msgid "Information"
 msgstr "ਜਾਣਕਾਰੀ"
 
-#: harddrake2:274
+#: harddrake2:269
 #, c-format
 msgid "Set current driver options"
 msgstr ""
 
-#: harddrake2:281
+#: harddrake2:276
 #, c-format
 msgid "Run config tool"
 msgstr "config ਸੰਦ ਚਲਾਓ"
 
-#: harddrake2:301
+#: harddrake2:296
 #, c-format
 msgid ""
 "Click on a device in the tree on the left in order to display its "
 "information here."
 msgstr "ਇੱਥੇ ਜਾਣਕਾਰੀ ਵਿਖਾਉਣ ਲਈ ਖੱਬੀ ਲੜੀ ਵਿੱਚ ਜੰਤਰ ਤੇ ਕਲਿੱਕ ਕਰੋ।"
 
-#: harddrake2:322 notify-x11-free-driver-switch:13
+#: harddrake2:317 notify-x11-free-driver-switch:13
 #, c-format
 msgid "unknown"
 msgstr "ਅਣਪਛਾਤਾ"
 
-#: harddrake2:323
+#: harddrake2:318
 #, c-format
 msgid "Unknown"
 msgstr "ਅਣਪਛਾਤਾ"
 
-#: harddrake2:343
+#: harddrake2:338
 #, c-format
 msgid "Misc"
 msgstr "ਫੁਟਕਲ"
 
-#: harddrake2:425
+#: harddrake2:420
 #, c-format
 msgid "secondary"
 msgstr "ਸੈਕੰਡਰੀ"
 
-#: harddrake2:425
+#: harddrake2:420
 #, c-format
 msgid "primary"
 msgstr "ਪ੍ਰਾਇਮਰੀ"
 
-#: harddrake2:429
+#: harddrake2:424
 #, c-format
 msgid "burner"
 msgstr "ਨਿਰਮਾਤਾ"
 
-#: harddrake2:429
+#: harddrake2:424
 #, c-format
 msgid "DVD"
 msgstr "DVD"
 
-#: harddrake2:533
+#: harddrake2:528
 #, c-format
 msgid "The following packages need to be installed:\n"
 msgstr "ਹੇਠਲੇ ਪੈਕੇਜ ਇੰਸਟਾਲ ਹੋਣੇ ਜਰੂਰੀ ਹਨ:\n"
@@ -2433,220 +2443,220 @@ msgstr "ਤੁਹਾਨੂੰ ਹੇਠਲੇ ਪੈਕੇਜ ਇੰਸਟਾਲ
 msgid ", "
 msgstr ", "
 
-#: logdrake:51
+#: logdrake:55
 #, c-format
-msgid "OpenMandriva Lx Tools Logs"
-msgstr "ਮੈਂਡਰਿਵ-ਲੀਨਕਸ ਸੰਦ ਲਾਗ"
+msgid "%s Tools Logs"
+msgstr ""
 
-#: logdrake:65
+#: logdrake:69
 #, c-format
 msgid "Show only for the selected day"
 msgstr "ਸਿਰਫ ਚੁਣੇ ਦਿਨ ਲਈ ਵਿਖਾਓ"
 
-#: logdrake:72
+#: logdrake:76
 #, c-format
 msgid "/File/_New"
 msgstr "/ਫਾਇਲ(F)/ਨਵਾਂ(_N)"
 
-#: logdrake:72
+#: logdrake:76
 #, c-format
 msgid "<control>N"
 msgstr "<control>N"
 
-#: logdrake:73
+#: logdrake:77
 #, c-format
 msgid "/File/_Open"
 msgstr "/ਫਾਇਲ(F)/ਖੋਲੋ(_O)"
 
-#: logdrake:73
+#: logdrake:77
 #, c-format
 msgid "<control>O"
 msgstr "<control>O"
 
-#: logdrake:74
+#: logdrake:78
 #, c-format
 msgid "/File/_Save"
 msgstr "/ਫਾਇਲ(F)/ਸੰਭਾਲੋ(_S)"
 
-#: logdrake:74
+#: logdrake:78
 #, c-format
 msgid "<control>S"
 msgstr "<control>S"
 
-#: logdrake:75
+#: logdrake:79
 #, c-format
 msgid "/File/Save _As"
 msgstr "/ਫਾਇਲ(F)/ਇਸ ਤਰਾਂ ਸੰਭਾਲੋ(_A)"
 
-#: logdrake:76
+#: logdrake:80
 #, c-format
 msgid "/File/-"
 msgstr "/ਫਾਇਲ(F)/-"
 
-#: logdrake:79
+#: logdrake:83
 #, c-format
 msgid "/Options/Test"
 msgstr "/ਚੋਣ(O)/ਜਾਂਚ"
 
-#: logdrake:81
+#: logdrake:85
 #, c-format
 msgid "/Help/_About..."
 msgstr "/ਸਹਾਇਤਾ(H)/ਇਸ ਬਾਰੇ(_A)..."
 
-#: logdrake:110
+#: logdrake:114
 #, c-format
 msgid ""
 "_:this is the auth.log log file\n"
 "Authentication"
 msgstr "ਪ੍ਰਮਾਣਿਕਤਾ"
 
-#: logdrake:111
+#: logdrake:115
 #, c-format
 msgid ""
 "_:this is the user.log log file\n"
 "User"
 msgstr "ਉਪਭੋਗੀ"
 
-#: logdrake:112
+#: logdrake:116
 #, c-format
 msgid ""
 "_:this is the /var/log/messages log file\n"
 "Messages"
 msgstr "ਸੁਨੇਹੇ"
 
-#: logdrake:113
+#: logdrake:117
 #, c-format
 msgid ""
 "_:this is the /var/log/syslog log file\n"
 "Syslog"
 msgstr "Syslog"
 
-#: logdrake:117
+#: logdrake:121
 #, c-format
 msgid "search"
 msgstr "ਖੋਜ"
 
-#: logdrake:129
+#: logdrake:133
 #, c-format
 msgid "A tool to monitor your logs"
 msgstr "ਤੁਹਾਡੇ ਲਾਗ ਨਿਗਰਾਨੀ ਲਈ ਇੱਕ ਸੰਦ"
 
-#: logdrake:131
+#: logdrake:135
 #, c-format
 msgid "Settings"
 msgstr "ਵਿਵਸਥਾ"
 
-#: logdrake:134
+#: logdrake:138
 #, c-format
 msgid "Matching"
 msgstr "ਮੇਲ ਖਾਂਦਾ ਹੈ"
 
-#: logdrake:135
+#: logdrake:139
 #, c-format
 msgid "but not matching"
 msgstr "ਪਰ ਮੇਲ ਨਹੀਂ ਖਾਂਦਾ"
 
-#: logdrake:138
+#: logdrake:142
 #, c-format
 msgid "Choose file"
 msgstr "ਫਾਇਲ ਚੁਣੋ"
 
-#: logdrake:150
+#: logdrake:154
 #, c-format
 msgid "Calendar"
 msgstr "ਕੈਲੰਡਰ"
 
-#: logdrake:159
+#: logdrake:163
 #, c-format
 msgid "Content of the file"
 msgstr "ਫਾਇਲ ਦੇ ਸੰਖੇਪ"
 
-#: logdrake:163 logdrake:407
+#: logdrake:167 logdrake:411
 #, c-format
 msgid "Mail alert"
 msgstr "ਪੱਤਰ ਚੇਤਾਵਨੀ"
 
-#: logdrake:170
+#: logdrake:174
 #, c-format
 msgid "The alert wizard has failed unexpectedly:"
 msgstr "ਚੇਤਾਵਨੀ ਤਖਤੀ ਅਚਾਨਕ ਅਸਫਲ ਹੋਈ:"
 
-#: logdrake:174
+#: logdrake:178
 #, c-format
 msgid "Save"
 msgstr "ਸੰਭਾਲੋ"
 
-#: logdrake:222
+#: logdrake:226
 #, c-format
 msgid "please wait, parsing file: %s"
 msgstr "ਕਿਰਪਾ ਕਰਕੇ ਉਡੀਕੋ, ਫਾਇਲ ਪਾਰਸ ਹੋ ਰਹੀ ਹੈ: %s"
 
-#: logdrake:244
+#: logdrake:248
 #, c-format
 msgid "Sorry, log file isn't available!"
 msgstr ""
 
-#: logdrake:292
+#: logdrake:296
 #, c-format
 msgid "Error while opening \"%s\" log file: %s\n"
 msgstr ""
 
-#: logdrake:385
+#: logdrake:389
 #, c-format
 msgid "Apache World Wide Web Server"
 msgstr "Apache World Wide Web Server"
 
-#: logdrake:386
+#: logdrake:390
 #, c-format
 msgid "Domain Name Resolver"
 msgstr "Domain Name Resolver"
 
-#: logdrake:387
+#: logdrake:391
 #, c-format
 msgid "Ftp Server"
 msgstr "Ftp ਸਰਵਰ"
 
-#: logdrake:388
+#: logdrake:392
 #, c-format
 msgid "Postfix Mail Server"
 msgstr "Postfix ਪੱਤਰ ਸਰਵਰ"
 
-#: logdrake:389
+#: logdrake:393
 #, c-format
 msgid "Samba Server"
 msgstr "ਸਾਂਬਾ ਸੇਵਾ"
 
-#: logdrake:390
+#: logdrake:394
 #, c-format
 msgid "SSH Server"
 msgstr "SSH ਸਰਵਰ"
 
-#: logdrake:391
+#: logdrake:395
 #, c-format
 msgid "Webmin Service"
 msgstr "Webmin ਸੇਵਾ"
 
-#: logdrake:392
+#: logdrake:396
 #, c-format
 msgid "Xinetd Service"
 msgstr "Xinetd ਸੇਵਾ"
 
-#: logdrake:401
+#: logdrake:405
 #, c-format
 msgid "Configure the mail alert system"
 msgstr "ਪੱਤਰ ਚੇਤਾਵਨੀ ਸਿਸਟਮ ਸੰਰਚਿਤ ਕਰੋ"
 
-#: logdrake:402
+#: logdrake:406
 #, c-format
 msgid "Stop the mail alert system"
 msgstr "ਪੱਤਰ ਚੇਤਾਵਨੀ ਸਿਸਟਮ ਰੋਕੋ"
 
-#: logdrake:410
+#: logdrake:414
 #, c-format
 msgid "Mail alert configuration"
 msgstr "ਪੱਤਰ ਚੇਤਾਵਨੀ ਸੰਰਚਨਾ"
 
-#: logdrake:411
+#: logdrake:415
 #, c-format
 msgid ""
 "Welcome to the mail configuration utility.\n"
@@ -2657,71 +2667,71 @@ msgstr ""
 "\n"
 "ਇੱਥੇ, ਤੁਸੀਂ ਚੇਤਾਵਨੀ ਸਿਸਟਮ ਨਿਰਧਾਰਿਤ ਕਰ ਸਕਦੇ ਹੋ।\n"
 
-#: logdrake:414
+#: logdrake:418
 #, c-format
 msgid "What do you want to do?"
 msgstr "ਤੁਸੀਂ ਕੀ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?"
 
-#: logdrake:421
+#: logdrake:425
 #, c-format
 msgid "Services settings"
 msgstr "ਸੇਵਾਵਾਂ ਵਿਵਸਥਾ"
 
-#: logdrake:422
+#: logdrake:426
 #, c-format
 msgid ""
 "You will receive an alert if one of the selected services is no longer "
 "running"
 msgstr "ਤੁਹਾਨੂੰ ਚੇਤਾਵਨੀ ਮਿਲੇਗੀ ਜੇ ਕੋਈ ਚੁਣੀ ਸੇਵਾ ਨਹੀਂ ਚੱਲਦੀ"
 
-#: logdrake:429
+#: logdrake:433
 #, c-format
 msgid "Load setting"
 msgstr "ਲੋਡ ਵਿਵਸਥਾ"
 
-#: logdrake:430
+#: logdrake:434
 #, c-format
 msgid "You will receive an alert if the load is higher than this value"
 msgstr "ਤੁਹਾਨੂੰ ਚੇਤਾਵਨੀ ਮਿਲੇਗੀ ਜੇ ਲੋਡ ਇਸ ਮੁੱਲ ਤੋਂ ਜਿਆਦਾ ਹੈ"
 
-#: logdrake:431
+#: logdrake:435
 #, c-format
 msgid ""
 "_: load here is a noun, the load of the system\n"
 "Load"
 msgstr "ਲੋਡ ਕਰੋ"
 
-#: logdrake:436
+#: logdrake:440
 #, c-format
 msgid "Alert configuration"
 msgstr "ਚੇਤਾਵਨੀ ਸੰਰਚਨਾ"
 
-#: logdrake:437
+#: logdrake:441
 #, c-format
 msgid "Please enter your email address below "
 msgstr "ਕਿਰਪਾ ਕਰਕੇ ਆਪਣਾ ਈ-ਪੱਤਰ ਸਿਰਨਾਵਾਂ ਹੇਠਾਂ ਭਰੋ"
 
-#: logdrake:438
+#: logdrake:442
 #, c-format
 msgid "and enter the name (or the IP) of the SMTP server you wish to use"
 msgstr "ਅਤੇ SMTP ਸਰਵਰ ਜੋ ਤੁਸੀਂ ਵਰਤਣਾ ਹੈ, ਦਾ ਨਾਂ (ਜਾਂ IP) ਦਿਓ"
 
-#: logdrake:440
+#: logdrake:444
 #, fuzzy, c-format
 msgid "Email address"
 msgstr "IP ਸਿਰਨਾਵਾਂ"
 
-#: logdrake:441
+#: logdrake:445
 #, fuzzy, c-format
 msgid "Email server"
 msgstr "ਸਾਂਬਾ ਸੇਵਾ"
 
-#: logdrake:445
+#: logdrake:449
 #, c-format
 msgid "\"%s\" neither is a valid email nor is an existing local user!"
 msgstr "\"%s\" ਨਾ ਤਾਂ ਯੋਗ ਈ-ਪੱਤਰ ਹੈ ਨਾ ਮੌਜੂਦਾ ਲੋਕਲ ਉਪਭੋਗੀ ਹੈ!"
 
-#: logdrake:450
+#: logdrake:454
 #, c-format
 msgid ""
 "\"%s\" is a local user, but you did not select a local smtp, so you must use "
@@ -2730,23 +2740,23 @@ msgstr ""
 "\"%s\" ਸਥਾਨਕ ਉਪਭੋਗੀ ਹੈ, ਪਰ ਤੁਸੀਂ ਸਥਾਨਕ smtp ਨਹੀਂ ਚੁਣਿਆ, ਇਸਕਰਕੇ ਤੁਹਾਨੂੰ ਪੂਰਾ ਈ-ਪੱਤਰ "
 "ਸਿਰਨਾਵਾਂ ਦੇਣਾ ਪਵੇਗਾ!"
 
-#: logdrake:457
+#: logdrake:461
 #, c-format
 msgid "The wizard successfully configured the mail alert."
 msgstr "ਤਖਤੀ ਨੇ ਪੱਤਰ ਚੌਕਸੀ ਸੰਰਚਨਾ ਸਫਲਤਾ ਨਾਲ ਕੀਤੀ।"
 
-#: logdrake:463
+#: logdrake:467
 #, c-format
 msgid "The wizard successfully disabled the mail alert."
 msgstr "ਤਖਤੀ ਨੇ ਪੱਤਰ ਚੌਕਸੀ ਸਫਲਤਾ ਨਾਲ ਅਯੋਗ ਕੀਤੀ।"
 
-#: logdrake:522
+#: logdrake:526
 #, c-format
 msgid "Save as.."
 msgstr "ਇਸ ਤਰਾਂ ਸੰਭਾਲੋ..."
 
-#: notify-x11-free-driver-switch:18 service_harddrake:474
-#: service_harddrake:487
+#: notify-x11-free-driver-switch:18 service_harddrake:465
+#: service_harddrake:478
 #, c-format
 msgid "Display driver setup"
 msgstr ""
@@ -2761,7 +2771,7 @@ msgstr ""
 msgid "Reason: %s."
 msgstr ""
 
-#: scannerdrake:49
+#: scannerdrake:48
 #, c-format
 msgid ""
 "SANE packages need to be installed to use scanners.\n"
@@ -2772,110 +2782,110 @@ msgstr ""
 "\n"
 "ਕੀ ਤੁਸੀਂ SANE ਪੈਕੇਜ਼ ਇੰਸਟਾਲ ਕਰਨੇ ਚਾਹੁੰਦੇ ਹੋ?"
 
-#: scannerdrake:53
+#: scannerdrake:52
 #, c-format
 msgid "Aborting Scannerdrake."
 msgstr "Scannerdrake ਅਧੂਰਾ ਖਤਮ ਹੋ ਰਿਹਾ ਹੈ।"
 
-#: scannerdrake:58
+#: scannerdrake:57
 #, c-format
 msgid ""
 "Could not install the packages needed to set up a scanner with Scannerdrake."
 msgstr "Scannerdrake ਨਾਲ ਸਕੈਨਰ ਨਿਰਧਾਰਿਤ ਕਰਨ ਲਈ ਲੋੜੀਂਦੇ ਪੈਕੇਜ ਇੰਸਟਾਲ ਨਹੀਂ ਕਰ ਸਕਦਾ।"
 
-#: scannerdrake:59
+#: scannerdrake:58
 #, c-format
 msgid "Scannerdrake will not be started now."
 msgstr "Scannerdrake ਹੁਣ ਸ਼ੁਰੂ ਨਹੀਂ ਹੋਵੇਗਾ।"
 
-#: scannerdrake:65 scannerdrake:503
+#: scannerdrake:64 scannerdrake:502
 #, c-format
 msgid "Searching for configured scanners..."
 msgstr "ਸੰਰਚਿਤ ਸਕੈਨਰਾਂ ਲਈ ਖੋਜ ਜਾਰੀ ਹੈ..."
 
-#: scannerdrake:69 scannerdrake:507
+#: scannerdrake:68 scannerdrake:506
 #, c-format
 msgid "Searching for new scanners..."
 msgstr "ਨਵੇਂ ਸਕੈਨਰਾਂ ਲਈ ਖੋਜ ਜਾਰੀ ਹੈ..."
 
-#: scannerdrake:77 scannerdrake:529
+#: scannerdrake:76 scannerdrake:528
 #, c-format
 msgid "Re-generating list of configured scanners..."
 msgstr "ਸੰਰਚਿਤ ਸਕੈਨਰਾਂ ਦੀ  ਸੂਚੀ ਮੁੜ ਬਣਾ ਰਿਹਾ ਹੈ..."
 
-#: scannerdrake:99
+#: scannerdrake:98
 #, c-format
 msgid "The %s is not supported by this version of %s."
 msgstr "%s ਨੂੰ %s ਦੇ ਇਸ ਵਰਜ਼ਨ ਦਾ ਸਹਿਯੋਗ ਨਹੀਂ ਹੈ।"
 
-#: scannerdrake:102 scannerdrake:113
+#: scannerdrake:101 scannerdrake:112
 #, fuzzy, c-format
 msgid "Confirmation"
 msgstr "ਸੰਰਚਨਾ"
 
-#: scannerdrake:102
+#: scannerdrake:101
 #, c-format
 msgid "%s found on %s, configure it automatically?"
 msgstr "%s ਲੱਭਿਆ ਹੈ %s ਤੇ, ਇਸ ਨੂੰ ਸਵੈ ਹੀ ਸੰਰਚਿਤ ਕਰੋ?"
 
-#: scannerdrake:114
+#: scannerdrake:113
 #, c-format
 msgid "%s is not in the scanner database, configure it manually?"
 msgstr "%s ਇੱਕ ਸਕੈਨਰ ਡਾਟਾਬੇਸ ਨਹੀਂ ਹੈ, ਇਸ ਨੂੰ ਦਸਤੀ ਸੰਰਚਿਤ ਕਰੋ?"
 
-#: scannerdrake:128
+#: scannerdrake:127
 #, fuzzy, c-format
 msgid "Scanner configuration"
 msgstr "ਚੇਤਾਵਨੀ ਸੰਰਚਨਾ"
 
-#: scannerdrake:129
+#: scannerdrake:128
 #, c-format
 msgid "Select a scanner model (Detected model: %s, Port: %s)"
 msgstr ""
 
-#: scannerdrake:131
+#: scannerdrake:130
 #, c-format
 msgid "Select a scanner model (Detected model: %s)"
 msgstr ""
 
-#: scannerdrake:132
+#: scannerdrake:131
 #, c-format
 msgid "Select a scanner model (Port: %s)"
 msgstr ""
 
-#: scannerdrake:134 scannerdrake:137
+#: scannerdrake:133 scannerdrake:136
 #, c-format
 msgid " (UNSUPPORTED)"
 msgstr ""
 
-#: scannerdrake:140
+#: scannerdrake:139
 #, fuzzy, c-format
 msgid "The %s is not supported under Linux."
 msgstr "%s ਨੂੰ %s ਦੇ ਇਸ ਵਰਜ਼ਨ ਦਾ ਸਹਿਯੋਗ ਨਹੀਂ ਹੈ।"
 
-#: scannerdrake:167 scannerdrake:181
+#: scannerdrake:166 scannerdrake:180
 #, c-format
 msgid "Do not install firmware file"
 msgstr "firmware ਫਾਇਲ ਇੰਸਟਾਲ ਨਾ ਕਰੋ"
 
-#: scannerdrake:170 scannerdrake:220
+#: scannerdrake:169 scannerdrake:219
 #, fuzzy, c-format
 msgid "Scanner Firmware"
 msgstr "ਸਕੈਨਰ ਸ਼ੇਅਰਿੰਗ"
 
-#: scannerdrake:171 scannerdrake:223
+#: scannerdrake:170 scannerdrake:222
 #, c-format
 msgid ""
 "It is possible that your %s needs its firmware to be uploaded everytime when "
 "it is turned on."
 msgstr "ਇਹ ਸੰਭਵ ਹੈ ਕਿ ਤੁਹਾਡੇ %s ਨੂੰ ਹਰ ਵਾਰ ਚੱਲਣ ਤੇ ਆਪਣਾ firmware ਅੱਪਲੋਡ ਕਰਨ ਦੀ ਲੋੜ ਹੈ।"
 
-#: scannerdrake:172 scannerdrake:224
+#: scannerdrake:171 scannerdrake:223
 #, c-format
 msgid "If this is the case, you can make this be done automatically."
 msgstr "ਜੇ ਅਜਿਹਾ ਹੈ, ਤੁਸੀਂ ਇਸ ਨੂੰ ਸਵੈ ਹੀ ਮੁਕੰਮਲ ਹੋਣ ਲਈ ਨਿਰਧਾਰਿਤ ਕਰ ਸਕਦੇ ਹੋ।"
 
-#: scannerdrake:173 scannerdrake:227
+#: scannerdrake:172 scannerdrake:226
 #, c-format
 msgid ""
 "To do so, you need to supply the firmware file for your scanner so that it "
@@ -2884,7 +2894,7 @@ msgstr ""
 "ਅਜਿਹਾ ਕਰਨ ਲਈ, ਤੁਹਾਨੂੰ ਆਪਣੇ ਸਕੈਨਰਾਂ ਲਈ firmware ਫਾਇਲਾਂ ਦੇਣੀਆਂ ਪੈਣਗੀਆਂ ਤਾਂ ਕਿ ਇਹ ਇੰਸਟਾਲ ਹੋ "
 "ਸਕੇ।"
 
-#: scannerdrake:174 scannerdrake:228
+#: scannerdrake:173 scannerdrake:227
 #, c-format
 msgid ""
 "You find the file on the CD or floppy coming with the scanner, on the "
@@ -2893,44 +2903,44 @@ msgstr ""
 "ਤੁਸੀਂ ਨਿਰਮਾਤਾ ਦੇ ਘਰ ਸਫੇ ਤੇ, ਜਾਂ ਆਪਣੇ Windows ਭਾਗ ਤੇ ਸਕੈਨਰ ਨਾਲ ਆਈ CD ਜਾਂ ਫਲਾਪੀ ਤੋਂ ਫਾਇਲ "
 "ਲੱਭੀ ਹੈ।"
 
-#: scannerdrake:176 scannerdrake:235
+#: scannerdrake:175 scannerdrake:234
 #, c-format
 msgid "Install firmware file from"
 msgstr "ਇਸ ਤੋਂ firmware ਫਾਇਲ ਇੰਸਟਾਲ ਕਰੋ"
 
-#: scannerdrake:178 scannerdrake:186 scannerdrake:237 scannerdrake:244
+#: scannerdrake:177 scannerdrake:185 scannerdrake:236 scannerdrake:243
 #, c-format
 msgid "CD-ROM"
 msgstr "CD-ROM"
 
-#: scannerdrake:179 scannerdrake:188 scannerdrake:238 scannerdrake:246
+#: scannerdrake:178 scannerdrake:187 scannerdrake:237 scannerdrake:245
 #, c-format
 msgid "Floppy Disk"
 msgstr "ਫਲਾਪੀ ਡਿਸਕ"
 
-#: scannerdrake:180 scannerdrake:190 scannerdrake:239 scannerdrake:248
+#: scannerdrake:179 scannerdrake:189 scannerdrake:238 scannerdrake:247
 #, c-format
 msgid "Other place"
 msgstr "ਹੋਰ ਸਥਿਤੀ"
 
-#: scannerdrake:196
+#: scannerdrake:195
 #, c-format
 msgid "Select firmware file"
 msgstr "firmware ਫਾਇਲ ਚੁਣੋ"
 
-#: scannerdrake:199 scannerdrake:258
+#: scannerdrake:198 scannerdrake:257
 #, c-format
 msgid "The firmware file %s does not exist or is unreadable!"
 msgstr "firmware ਫਾਇਲ %s ਮੌਜੂਦ ਨਹੀਂ ਜਾਂ ਪੜਨਯੋਗ ਨਹੀਂ ਹੈ!"
 
-#: scannerdrake:222
+#: scannerdrake:221
 #, c-format
 msgid ""
 "It is possible that your scanners need their firmware to be uploaded "
 "everytime when they are turned on."
 msgstr "ਇਹ ਸੰਭਵ ਹੈ ਕਿ ਤੁਹਾਡੇ ਸਕੈਨਰ ਨੂੰ ਹਰ ਵਾਰ ਚੱਲਣ ਤੇ ਆਪਣਾ firmware ਅੱਪਲੋਡ ਕਰਨ ਦੀ ਲੋੜ ਹੈ।"
 
-#: scannerdrake:226
+#: scannerdrake:225
 #, c-format
 msgid ""
 "To do so, you need to supply the firmware files for your scanners so that it "
@@ -2939,7 +2949,7 @@ msgstr ""
 "ਅਜਿਹਾ ਕਰਨ ਲਈ, ਤੁਹਾਨੂੰ ਆਪਣੇ ਸਕੈਨਰਾਂ ਲਈ firmware ਫਾਇਲਾਂ ਦੇਣੀਆਂ ਪੈਣਗੀਆਂ ਤਾਂ ਕਿ ਇਹ ਇੰਸਟਾਲ ਹੋ "
 "ਸਕੇ।"
 
-#: scannerdrake:229
+#: scannerdrake:228
 #, c-format
 msgid ""
 "If you have already installed your scanner's firmware you can update the "
@@ -2948,32 +2958,32 @@ msgstr ""
 "ਜੇ ਤੁਸੀਂ ਪਹਿਲਾਂ ਹੀ ਆਪਣੇ ਸਕੈਨਰ ਦਾ firmware ਇੰਸਟਾਲ ਕੀਤਾ ਹੈ, ਤੁਸੀਂ ਇੱਥੇ ਨਵੀਂ firmware ਫਾਇਲ ਦੇ "
 "ਕੇ firmware ਦਾ ਨਵਿਨੀਕਰਨ ਕਰ ਸਕਦੇ ਹੋ।"
 
-#: scannerdrake:231
+#: scannerdrake:230
 #, c-format
 msgid "Install firmware for the"
 msgstr "ਇਸ ਲਈ firmware ਇੰਸਟਾਲ ਕਰੋ"
 
-#: scannerdrake:254
+#: scannerdrake:253
 #, c-format
 msgid "Select firmware file for the %s"
 msgstr "%s ਲਈ firmware ਫਾਇਲ ਚੁਣੋ"
 
-#: scannerdrake:272
+#: scannerdrake:271
 #, c-format
 msgid "Could not install the firmware file for the %s!"
 msgstr "%s ਲਈ firmware ਫਾਇਲ ਇੰਸਟਾਲ ਨਹੀਂ ਹੋ ਸਕੀ!"
 
-#: scannerdrake:285
+#: scannerdrake:284
 #, c-format
 msgid "The firmware file for your %s was successfully installed."
 msgstr "ਤੁਹਾਡੇ %s ਲਈ firmware ਫਾਇਲ ਸਫਲਤਾ ਨਾਲ ਇੰਸਟਾਲ ਹੋ ਗਈ।"
 
-#: scannerdrake:295
+#: scannerdrake:294
 #, c-format
 msgid "The %s is unsupported"
 msgstr "%s ਨੂੰ ਸਹਿਯੋਗ ਨਹੀਂ"
 
-#: scannerdrake:300
+#: scannerdrake:299
 #, c-format
 msgid ""
 "The %s must be configured by system-config-printer.\n"
@@ -2983,47 +2993,47 @@ msgstr ""
 "%s system-config-printer ਦੁਆਰਾ ਸੰਰਚਿਤ ਹੋਣਾ ਜਰੂਰੀ ਹੈ।\n"
 "ਤੁਸੀਂ system-config-printer ਨੂੰ ਜੰਤਰ ਚੋਣ ਵਿੱਚ %s ਕੰਟਰੋਲ ਕੇਂਦਰ ਤੋਂ ਚਲਾ ਸਕਦੇ ਹੋ।"
 
-#: scannerdrake:318
+#: scannerdrake:317
 #, fuzzy, c-format
 msgid "Setting up kernel modules..."
 msgstr "ਕਰਨਲ ਮੈਡਿਊਲ।"
 
-#: scannerdrake:328 scannerdrake:335 scannerdrake:365
+#: scannerdrake:327 scannerdrake:334 scannerdrake:364
 #, c-format
 msgid "Auto-detect available ports"
 msgstr "ਸਵੈ-ਖੋਜੇ ਉਪਲੱਬਧ ਪੋਰਟ"
 
-#: scannerdrake:329 scannerdrake:375
+#: scannerdrake:328 scannerdrake:374
 #, fuzzy, c-format
 msgid "Device choice"
 msgstr "ਜੰਤਰ ਫਾਇਲ"
 
-#: scannerdrake:330 scannerdrake:376
+#: scannerdrake:329 scannerdrake:375
 #, c-format
 msgid "Please select the device where your %s is attached"
 msgstr "ਕਿਰਪਾ ਕਰਕੇ ਜੰਤਰ ਚੁਣੋ ਜਿੱਥੇ ਤੁਹਾਡਾ %s ਜੁੜਿਆ ਹੈ"
 
-#: scannerdrake:331
+#: scannerdrake:330
 #, c-format
 msgid "(Note: Parallel ports cannot be auto-detected)"
 msgstr "(ਸੂਚਨਾ: ਪੈਰਲਲ ਪੋਰਟ ਸਵੈ ਨਹੀਂ ਖੋਜੇ ਜਾ ਸਕੇ)"
 
-#: scannerdrake:333 scannerdrake:378
+#: scannerdrake:332 scannerdrake:377
 #, c-format
 msgid "choose device"
 msgstr "ਜੰਤਰ ਚੁਣੋ"
 
-#: scannerdrake:367
+#: scannerdrake:366
 #, c-format
 msgid "Searching for scanners..."
 msgstr "ਸਕੈਨਰਾਂ ਲਈ ਖੋਜ ਜਾਰੀ..."
 
-#: scannerdrake:403 scannerdrake:410
+#: scannerdrake:402 scannerdrake:409
 #, fuzzy, c-format
 msgid "Attention!"
 msgstr "ਸਵੈ-ਖੋਜ"
 
-#: scannerdrake:404
+#: scannerdrake:403
 #, c-format
 msgid ""
 "Your %s cannot be configured fully automatically.\n"
@@ -3032,14 +3042,14 @@ msgid ""
 "sane.d/%s.conf. "
 msgstr ""
 
-#: scannerdrake:405 scannerdrake:414
+#: scannerdrake:404 scannerdrake:413
 #, c-format
 msgid ""
 "More info in the driver's manual page. Run the command \"man sane-%s\" to "
 "read it."
 msgstr ""
 
-#: scannerdrake:407 scannerdrake:416
+#: scannerdrake:406 scannerdrake:415
 #, fuzzy, c-format
 msgid ""
 "After that you may scan documents using \"XSane\" or \"%s\" from Multimedia/"
@@ -3049,31 +3059,31 @@ msgstr ""
 "ਤੁਸੀਂ ਹੁਣ ਕਾਰਜ ਸੂਚੀ ਵਿੱਚ ਮਲਟੀਮੀਡੀਆ/ਗਰਾਫਿਕਸ ਤੋਂ \"XSane\" ਜਾਂ \"Kooka\" ਵਰਤ ਕੇ ਦਸਤਾਵੇਜ਼ "
 "ਸਕੈਨ ਕਰ ਸਕਦੇ ਹੋ।"
 
-#: scannerdrake:411
+#: scannerdrake:410
 #, c-format
 msgid ""
 "Your %s has been configured, but it is possible that additional manual "
 "adjustments are needed to get it to work. "
 msgstr ""
 
-#: scannerdrake:412
+#: scannerdrake:411
 #, c-format
 msgid ""
 "If it does not appear in the list of configured scanners in the main window "
 "of Scannerdrake or if it does not work correctly, "
 msgstr ""
 
-#: scannerdrake:413
+#: scannerdrake:412
 #, c-format
 msgid "edit the configuration file /etc/sane.d/%s.conf. "
 msgstr ""
 
-#: scannerdrake:418
+#: scannerdrake:417
 #, c-format
 msgid "Congratulations!"
 msgstr "ਮੁਬਾਰਕ!"
 
-#: scannerdrake:419
+#: scannerdrake:418
 #, fuzzy, c-format
 msgid ""
 "Your %s has been configured.\n"
@@ -3084,7 +3094,7 @@ msgstr ""
 "ਤੁਸੀਂ ਹੁਣ ਕਾਰਜ ਸੂਚੀ ਵਿੱਚ ਮਲਟੀਮੀਡੀਆ/ਗਰਾਫਿਕਸ ਤੋਂ \"XSane\" ਜਾਂ \"Kooka\" ਵਰਤ ਕੇ ਦਸਤਾਵੇਜ਼ "
 "ਸਕੈਨ ਕਰ ਸਕਦੇ ਹੋ।"
 
-#: scannerdrake:444
+#: scannerdrake:443
 #, c-format
 msgid ""
 "The following scanners\n"
@@ -3097,7 +3107,7 @@ msgstr ""
 "%s\n"
 "ਤੁਹਾਡੇ ਸਿਸਟਮ ਤੇ ਉਪਲੱਬਧ ਹਨ।\n"
 
-#: scannerdrake:445
+#: scannerdrake:444
 #, c-format
 msgid ""
 "The following scanner\n"
@@ -3110,52 +3120,52 @@ msgstr ""
 "%s\n"
 "ਤੁਹਾਡੇ ਸਿਸਟਮ ਤੇ ਉਪਲੱਬਧ ਹੈ।\n"
 
-#: scannerdrake:447 scannerdrake:450
+#: scannerdrake:446 scannerdrake:449
 #, c-format
 msgid "There are no scanners found which are available on your system.\n"
 msgstr "ਇੱਥੇ ਕੋਈ ਸਕੈਨਰ ਨਹੀਂ ਲੱਭਿਆ ਜੋ ਤੁਹਾਡੇ ਸਿਸਟਮ ਤੇ ਉਪਲੱਬਧ ਹੋਵੇ।\n"
 
-#: scannerdrake:458
+#: scannerdrake:457
 #, fuzzy, c-format
 msgid "Scanner Management"
 msgstr "ਪ੍ਰਿੰਟਰ ਪ੍ਰਬੰਧ %s"
 
-#: scannerdrake:464
+#: scannerdrake:463
 #, c-format
 msgid "Search for new scanners"
 msgstr "ਨਵੇਂ ਸਕੈਨਰ ਲਈ ਖੋਜ ਕਰੋ"
 
-#: scannerdrake:470
+#: scannerdrake:469
 #, c-format
 msgid "Add a scanner manually"
 msgstr "ਸਕੈਨਰ ਦਸਤੀ ਸ਼ਾਮਿਲ ਕਰੋ"
 
-#: scannerdrake:477
+#: scannerdrake:476
 #, c-format
 msgid "Install/Update firmware files"
 msgstr "ਇੰਸਟਾਲ/ਨਵਿਨੀਕਰਨ firmware ਫਾਇਲਾਂ"
 
-#: scannerdrake:483
+#: scannerdrake:482
 #, c-format
 msgid "Scanner sharing"
 msgstr "ਸਕੈਨਰ ਸ਼ੇਅਰਿੰਗ"
 
-#: scannerdrake:542 scannerdrake:707
+#: scannerdrake:541 scannerdrake:706
 #, c-format
 msgid "All remote machines"
 msgstr "ਸਭ ਰਿਮੋਟ ਮਸ਼ੀਨਾਂ"
 
-#: scannerdrake:554 scannerdrake:857
+#: scannerdrake:553 scannerdrake:856
 #, c-format
 msgid "This machine"
 msgstr "ਇਹ ਮਸ਼ੀਨ"
 
-#: scannerdrake:593
+#: scannerdrake:592
 #, fuzzy, c-format
 msgid "Scanner Sharing"
 msgstr "ਸਕੈਨਰ ਸ਼ੇਅਰਿੰਗ"
 
-#: scannerdrake:594
+#: scannerdrake:593
 #, c-format
 msgid ""
 "Here you can choose whether the scanners connected to this machine should be "
@@ -3164,7 +3174,7 @@ msgstr ""
 "ਇੱਥੇ ਤੁਸੀਂ ਚੁਣ ਸਕਦੇ ਹੋ ਕਿ ਕੀ ਇਸ ਮਸ਼ੀਨ ਨਾਲ ਜੁੜੇ ਸਕੈਨਰ ਰਿਮੋਟ ਮਸ਼ੀਨ ਜਾਂ ਕਿਹੜੀ ਰਿਮੋਟ ਮਸ਼ੀਨ ਦੁਆਰਾ "
 "ਪਹੁੰਚਣ ਯੋਗ ਹੋਣ।"
 
-#: scannerdrake:595
+#: scannerdrake:594
 #, c-format
 msgid ""
 "You can also decide here whether scanners on remote machines should be made "
@@ -3173,95 +3183,95 @@ msgstr ""
 "ਤੁਸੀਂ ਇੱਥੇ ਇਹ ਵੀ ਨਿਰਧਾਰਿਤ ਕਰ ਸਕਦੇ ਹੋ ਕਿ ਰਿਮੋਟ ਮਸ਼ੀਨ ਤੋਂ ਸਕੈਨਰ ਇਸ ਮਸ਼ੀਨ ਨੂੰ ਉਪਲੱਬਧ ਹੋਣਾ "
 "ਚਾਹੀਦਾ ਹੈ।"
 
-#: scannerdrake:598
+#: scannerdrake:597
 #, c-format
 msgid "The scanners on this machine are available to other computers"
 msgstr "ਇਸ ਮਸ਼ੀਨ ਤੇ ਸਕੈਨਰ ਹੋਰ ਕੰਪਿਊਟਰਾਂ ਨੂੰ ਉਪਲੱਬਧ ਹੁੰਦੇ ਹਨ"
 
-#: scannerdrake:600
+#: scannerdrake:599
 #, c-format
 msgid "Scanner sharing to hosts: "
 msgstr "ਮੇਜ਼ਬਾਨਾਂ ਤੇ ਸਕੈਨਰ ਸ਼ੇਅਰਿੰਗ:"
 
-#: scannerdrake:605 scannerdrake:622
+#: scannerdrake:604 scannerdrake:621
 #, c-format
 msgid "No remote machines"
 msgstr "ਕੋਈ ਰਿਮੋਟ ਮਸ਼ੀਨ ਨਹੀਂ"
 
-#: scannerdrake:614
+#: scannerdrake:613
 #, c-format
 msgid "Use scanners on remote computers"
 msgstr "ਰਿਮੋਟ ਕੰਪਿਊਟਰ ਤੇ ਸਕੈਨਰ ਵਰਤੋ"
 
-#: scannerdrake:617
+#: scannerdrake:616
 #, c-format
 msgid "Use the scanners on hosts: "
 msgstr "ਮੇਜ਼ਬਾਨ ਤੇ ਲੋਕਲ ਸਕੈਨਰ ਵਰਤੋ:"
 
-#: scannerdrake:644 scannerdrake:716 scannerdrake:866
+#: scannerdrake:643 scannerdrake:715 scannerdrake:865
 #, c-format
 msgid "Sharing of local scanners"
 msgstr "ਲੋਕਲ ਸਕੈਨਰਾਂ ਦੀ ਸ਼ੇਅਰਿੰਗ"
 
-#: scannerdrake:645
+#: scannerdrake:644
 #, c-format
 msgid ""
 "These are the machines on which the locally connected scanner(s) should be "
 "available:"
 msgstr "ਇੱਥੇ ਮਸ਼ੀਨਾਂ ਹਨ ਜਿਨਾ ਤੇ ਲੋਕਲ ਜੁੜੇ ਸਕੈਨਰ ਉਪਲੱਬਧ ਕਰਨੇ ਹਨ:"
 
-#: scannerdrake:656 scannerdrake:806
+#: scannerdrake:655 scannerdrake:805
 #, c-format
 msgid "Add host"
 msgstr "ਮੇਜ਼ਬਾਨ ਸ਼ਾਮਿਲ"
 
-#: scannerdrake:662 scannerdrake:812
+#: scannerdrake:661 scannerdrake:811
 #, c-format
 msgid "Edit selected host"
 msgstr "ਚੁਣਿਆ ਮੇਜ਼ਬਾਨ ਸੋਧ"
 
-#: scannerdrake:671 scannerdrake:821
+#: scannerdrake:670 scannerdrake:820
 #, c-format
 msgid "Remove selected host"
 msgstr "ਚੁਣੇ ਮੇਜ਼ਬਾਨ ਹਟਾਓ"
 
-#: scannerdrake:680 scannerdrake:830
+#: scannerdrake:679 scannerdrake:829
 #, c-format
 msgid "Done"
 msgstr "ਸਮਾਪਤ"
 
-#: scannerdrake:695 scannerdrake:703 scannerdrake:708 scannerdrake:754
-#: scannerdrake:845 scannerdrake:853 scannerdrake:858 scannerdrake:904
+#: scannerdrake:694 scannerdrake:702 scannerdrake:707 scannerdrake:753
+#: scannerdrake:844 scannerdrake:852 scannerdrake:857 scannerdrake:903
 #, c-format
 msgid "Name/IP address of host:"
 msgstr "ਮੇਜ਼ਬਾਨ ਦਾ ਨਾਂ/IP ਸਿਰਨਾਵਾਂ:"
 
-#: scannerdrake:717 scannerdrake:867
+#: scannerdrake:716 scannerdrake:866
 #, c-format
 msgid "Choose the host on which the local scanners should be made available:"
 msgstr "ਮੇਜ਼ਬਾਨ ਚੁਣੋ ਜਿਸ ਤੇ ਲੋਕਲ ਸਕੈਨਰ ਉਪਲੱਬਧ ਕਰਨੇ ਹਨ:"
 
-#: scannerdrake:728 scannerdrake:878
+#: scannerdrake:727 scannerdrake:877
 #, c-format
 msgid "You must enter a host name or an IP address.\n"
 msgstr "ਤੁਹਾਨੂੰ ਮੇਜ਼ਬਾਨ ਨਾਂ ਜਾਂ IP ਸਿਰਨਾਵਾਂ ਦੇਣਾ ਜਰੂਰੀ ਹੈ।\n"
 
-#: scannerdrake:739 scannerdrake:889
+#: scannerdrake:738 scannerdrake:888
 #, c-format
 msgid "This host is already in the list, it cannot be added again.\n"
 msgstr "ਇਹ ਮੇਜ਼ਬਾਨ ਸੂਚੀ ਵਿੱਚ ਮੌਜੂਦ ਹੈ, ਇਹ ਦੁਬਾਰਾ ਸ਼ਾਮਿਲ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ।\n"
 
-#: scannerdrake:794
+#: scannerdrake:793
 #, c-format
 msgid "Usage of remote scanners"
 msgstr "ਰਿਮੋਟ ਸਕੈਨਰ ਦੀ ਵਰਤੋਂ"
 
-#: scannerdrake:795
+#: scannerdrake:794
 #, c-format
 msgid "These are the machines from which the scanners should be used:"
 msgstr "ਇਹ ਮਸ਼ੀਨਾਂ ਹਨ ਜਿਨਾ ਤੋਂ ਸਕੈਨਰ ਵਰਤੇ ਜਾਣੇ ਚਾਹੀਦੇ ਹਨ:"
 
-#: scannerdrake:952
+#: scannerdrake:951
 #, c-format
 msgid ""
 "saned needs to be installed to share the local scanner(s).\n"
@@ -3272,72 +3282,72 @@ msgstr ""
 "\n"
 "ਕੀ ਤੁਸੀਂ saned ਪੈਕੇਜ ਇੰਸਟਾਲ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?"
 
-#: scannerdrake:956 scannerdrake:960
+#: scannerdrake:955 scannerdrake:959
 #, c-format
 msgid "Your scanner(s) will not be available on the network."
 msgstr "ਤੁਹਾਡਾ ਸਕੈਨਰ ਨੈੱਟਵਰਕ ਤੇ ਉਪਲੱਬਧ ਨਹੀਂ ਹੈ।"
 
-#: scannerdrake:959
+#: scannerdrake:958
 #, c-format
 msgid "Could not install the packages needed to share your scanner(s)."
 msgstr "ਤੁਹਾਡਾ ਸਕੈਨਰ ਸ਼ੇਅਰ ਕਰਨ ਲਈ ਲੋੜੀਂਦੇ ਪੈਕੇਜ ਇੰਸਟਾਲ ਨਹੀਂ ਕਰ ਸਕਦਾ।"
 
-#: service_harddrake:173
+#: service_harddrake:170
 #, fuzzy, c-format
 msgid "The graphics card '%s' is no longer supported by driver '%s'"
 msgstr "%s ਨੂੰ %s ਦੇ ਇਸ ਵਰਜ਼ਨ ਦਾ ਸਹਿਯੋਗ ਨਹੀਂ ਹੈ।"
 
-#: service_harddrake:183
+#: service_harddrake:180
 #, c-format
 msgid "New release, reconfiguring X for %s"
 msgstr ""
 
-#: service_harddrake:274
+#: service_harddrake:271
 #, c-format
 msgid "The proprietary kernel driver was not found for X.org driver '%s'"
 msgstr ""
 
-#: service_harddrake:313
+#: service_harddrake:310
 #, c-format
 msgid "Some devices in the \"%s\" hardware class were removed:\n"
 msgstr "ਜੰਤਰ ਸ਼੍ਰੇਣੀ \"%s\" ਵਿੱਚ ਕੁਝ ਜੰਤਰ ਹਟਾਏ ਗਏ:\n"
 
-#: service_harddrake:314
+#: service_harddrake:311
 #, c-format
 msgid "- %s was removed\n"
 msgstr "- %s ਹਟਾਇਆ\n"
 
-#: service_harddrake:317
+#: service_harddrake:314
 #, c-format
 msgid "Some devices were added: %s\n"
 msgstr "ਕੁਝ ਜੰਤਰ ਸ਼ਾਮਿਲ ਸਨ: %s\n"
 
-#: service_harddrake:318
+#: service_harddrake:315
 #, c-format
 msgid "- %s was added\n"
 msgstr "- %s ਸ਼ਾਮਿਲ ਸੀ\n"
 
-#: service_harddrake:406
+#: service_harddrake:397
 #, c-format
 msgid "Hardware changes in \"%s\" class (%s seconds to answer)"
 msgstr "\"%s\" ਸ਼੍ਰੇਣੀ ਵਿੱਚ ਜੰਤਰ ਤਬਦੀਲੀਆਂ (ਉੱਤਰ ਲਈ %s ਸਕਿੰਟ)"
 
-#: service_harddrake:407
+#: service_harddrake:398
 #, c-format
 msgid "Do you want to run the appropriate config tool?"
 msgstr "ਕੀ ਤੁਸੀਂ ਜਾਇਜ਼ config ਸੰਦ ਚਲਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?"
 
-#: service_harddrake:432
+#: service_harddrake:423
 #, c-format
 msgid "Hardware probing in progress"
 msgstr "ਜੰਤਰ ਖੋਜ ਜਾਰੀ"
 
-#: service_harddrake:453 service_harddrake:458
+#: service_harddrake:444 service_harddrake:449
 #, c-format
 msgid "Display driver issue"
 msgstr ""
 
-#: service_harddrake:454
+#: service_harddrake:445
 #, c-format
 msgid ""
 "The display driver currently configured requires you to use the 'nokmsboot' "
@@ -3346,7 +3356,7 @@ msgid ""
 "specified."
 msgstr ""
 
-#: service_harddrake:459
+#: service_harddrake:450
 #, c-format
 msgid ""
 "Detected a loaded display driver kernel module which conflicts with the "
@@ -3354,12 +3364,12 @@ msgid ""
 "fail."
 msgstr ""
 
-#: service_harddrake:474 service_harddrake:487
+#: service_harddrake:465 service_harddrake:478
 #, c-format
 msgid "The system has to be rebooted due to a display driver change."
 msgstr ""
 
-#: service_harddrake:475 service_harddrake:488
+#: service_harddrake:466 service_harddrake:479
 #, c-format
 msgid "Press Cancel within %d seconds to abort."
 msgstr ""
@@ -3396,6 +3406,12 @@ msgstr "ਵਿਵਸਥਾ"
 #, fuzzy
 msgid "Language & country configuration"
 msgstr "ਦਸਤੀ ਸੰਰਚਨਾ"
+
+#~ msgid "/Autodetect _jaz drives"
+#~ msgstr "/ਸਵੈ-ਖੋਜੀਆਂ _jaz ਡਰਾਈਵਾਂ"
+
+#~ msgid "OpenMandriva Lx Tools Logs"
+#~ msgstr "ਮੈਂਡਰਿਵ-ਲੀਨਕਸ ਸੰਦ ਲਾਗ"
 
 #~ msgid "/Autodetect _printers"
 #~ msgstr "/ਸਵੈ-ਖੋਜੇ ਪ੍ਰਿੰਟਰ(_p)"
@@ -3670,9 +3686,6 @@ msgstr "ਦਸਤੀ ਸੰਰਚਨਾ"
 
 #~ msgid "Restart XFS"
 #~ msgstr "XFS ਮੁੜ ਚਲਾਓ"
-
-#~ msgid "Copyright (C) 2001-2008 by Mandriva"
-#~ msgstr "ਅਧਿਕਾਰ (C) ੨੦੦੧-੨੦੦੬ ਮੈਂਡਰਿਵ।"
 
 #~ msgid "Error!"
 #~ msgstr "ਗਲਤੀ!"

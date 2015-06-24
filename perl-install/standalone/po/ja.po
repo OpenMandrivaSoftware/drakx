@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libDrakX-standalone-ja\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-31 17:23+0200\n"
+"POT-Creation-Date: 2015-06-24 12:13+0100\n"
 "PO-Revision-Date: 2009-03-22 19:59+0900\n"
 "Last-Translator: Yukiko Bando <ybando@k6.dion.ne.jp>\n"
 "Language-Team: Japanese <cooker-i18n@mandrivalinux.org>\n"
@@ -20,73 +20,73 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: display_help:54 display_help:59 drakbug:173 drakperm:136
+#: display_help:54 display_help:59 drakbug:170 drakperm:134
 #, c-format
 msgid "Help"
 msgstr "ヘルプ"
 
-#: display_help:67 drakbug:178 drakfont:507
+#: display_help:67 drakbug:175 drakfont:505
 #, c-format
 msgid "Close"
 msgstr "閉じる"
 
-#: drakauth:24 drakauth:26 draksec:160
+#: drakauth:24 drakauth:26 draksec:162
 #, c-format
 msgid "Authentication"
 msgstr "認証"
 
-#: drakauth:37 drakclock:115 drakclock:131 drakdvb:74 drakfont:213
-#: drakfont:226 drakfont:264 finish-install:131 logdrake:170 logdrake:445
-#: logdrake:450 scannerdrake:57 scannerdrake:99 scannerdrake:140
-#: scannerdrake:198 scannerdrake:257 scannerdrake:727 scannerdrake:738
-#: scannerdrake:877 scannerdrake:888 scannerdrake:958
+#: drakauth:37 drakclock:113 drakclock:138 drakdvb:74 drakfont:211
+#: drakfont:224 drakfont:262 finish-install:131 logdrake:174 logdrake:449
+#: logdrake:454 scannerdrake:56 scannerdrake:98 scannerdrake:139
+#: scannerdrake:197 scannerdrake:256 scannerdrake:726 scannerdrake:737
+#: scannerdrake:876 scannerdrake:887 scannerdrake:957
 #, c-format
 msgid "Error"
 msgstr "エラー"
 
-#: drakboot:55
+#: drakboot:53
 #, c-format
 msgid "No bootloader found, creating a new configuration"
 msgstr "ブートローダが見つかりません。新しい設定を作成します。"
 
-#: drakboot:88 harddrake2:198 harddrake2:199 logdrake:71
+#: drakboot:86 harddrake2:195 harddrake2:196 logdrake:75
 #, c-format
 msgid "/_File"
 msgstr "/ファイル(_F)"
 
-#: drakboot:89 logdrake:77
+#: drakboot:87 logdrake:81
 #, c-format
 msgid "/File/_Quit"
 msgstr "/ファイル(F)/終了(_Q)"
 
-#: drakboot:89 harddrake2:199 logdrake:77
+#: drakboot:87 harddrake2:196 logdrake:81
 #, c-format
 msgid "<control>Q"
 msgstr "<control>Q"
 
-#: drakboot:129
+#: drakboot:127
 #, c-format
 msgid "Text only"
 msgstr "テキストのみ"
 
-#: drakboot:130
+#: drakboot:128
 #, c-format
 msgid "Verbose"
 msgstr "詳細モード"
 
-#: drakboot:131
+#: drakboot:129
 #, c-format
 msgid "Silent"
 msgstr "サイレントモード"
 
-#: drakboot:137 drakbug:250 drakdvb:57 drakfont:683 drakperm:376 drakperm:386
-#: drakups:27 harddrake2:533 localedrake:45 scannerdrake:49 scannerdrake:52
-#: scannerdrake:295 scannerdrake:300 scannerdrake:952
+#: drakboot:135 drakbug:247 drakdvb:57 drakfont:681 drakperm:374 drakperm:384
+#: drakups:26 harddrake2:528 localedrake:45 scannerdrake:48 scannerdrake:51
+#: scannerdrake:294 scannerdrake:299 scannerdrake:951
 #, c-format
 msgid "Warning"
 msgstr "警告"
 
-#: drakboot:138
+#: drakboot:136
 #, c-format
 msgid ""
 "Your system bootloader is not in framebuffer mode. To activate graphical "
@@ -95,72 +95,72 @@ msgstr ""
 "ブートローダがフレームバッファモードではありません。グラフィカルブートを有効"
 "にするには、ブートローダ設定ツールでビデオモードを選んでください。"
 
-#: drakboot:139
+#: drakboot:137
 #, c-format
 msgid "Do you want to configure it now?"
 msgstr "設定しますか？"
 
-#: drakboot:148
+#: drakboot:146
 #, c-format
 msgid "Install themes"
 msgstr "テーマをインストール"
 
-#: drakboot:150
+#: drakboot:148
 #, c-format
 msgid "Graphical boot theme selection"
 msgstr "グラフィカル起動のテーマを選択"
 
-#: drakboot:153
+#: drakboot:151
 #, c-format
 msgid "Graphical boot mode:"
 msgstr "グラフィカル起動モード:"
 
-#: drakboot:155
+#: drakboot:153
 #, c-format
 msgid "Theme"
 msgstr "テーマ"
 
-#: drakboot:189
+#: drakboot:187
 #, c-format
 msgid "Default user"
 msgstr "デフォルトのユーザ"
 
-#: drakboot:190
+#: drakboot:188
 #, c-format
 msgid "Default desktop"
 msgstr "デフォルトのデスクトップ"
 
-#: drakboot:193
+#: drakboot:191
 #, c-format
 msgid "No, I do not want autologin"
 msgstr "自動ログインを使わない"
 
-#: drakboot:194
+#: drakboot:192
 #, c-format
 msgid "Yes, I want autologin with this (user, desktop)"
 msgstr "以下のユーザとデスクトップで自動的にログインする"
 
-#: drakboot:201
+#: drakboot:199
 #, c-format
 msgid "System mode"
 msgstr "システムモード"
 
-#: drakboot:204
+#: drakboot:202
 #, c-format
 msgid "Launch the graphical environment when your system starts"
 msgstr "起動時にXウィンドウを実行"
 
-#: drakboot:259
+#: drakboot:257
 #, c-format
 msgid "Boot Style Configuration"
 msgstr "起動方式の設定"
 
-#: drakboot:261 drakboot:265
+#: drakboot:259 drakboot:263
 #, c-format
 msgid "Video mode"
 msgstr "ビデオモード"
 
-#: drakboot:262
+#: drakboot:260
 #, c-format
 msgid ""
 "Please choose a video mode, it will be applied to each of the boot entries "
@@ -172,67 +172,67 @@ msgstr ""
 "指定したモードがお使いのビデオカードでサポートされていることを必ず確認してく"
 "ださい。"
 
-#: drakbug:52 drakbug:140
+#: drakbug:50 drakbug:138
 #, c-format
 msgid "The \"%s\" program has crashed with the following error:"
 msgstr "プログラム \"%s\" が以下のエラーでクラッシュしました:"
 
-#: drakbug:62
-#, c-format
-msgid "OpenMandriva Lx Bug Report Tool"
+#: drakbug:60
+#, fuzzy, c-format
+msgid "OpenMandriva Lx Bug Reporting"
 msgstr "OpenMandriva Lx バグ報告ツール"
 
-#: drakbug:67
+#: drakbug:65
 #, c-format
 msgid "OpenMandriva Lx Control Center"
 msgstr "OpenMandriva Lx コントロールセンター"
 
-#: drakbug:68
+#: drakbug:66
 #, c-format
 msgid "First Time Wizard"
 msgstr "初回設定ウィザード"
 
-#: drakbug:69
+#: drakbug:67
 #, c-format
 msgid "Synchronization tool"
 msgstr "同期ツール"
 
-#: drakbug:70 drakbug:206
+#: drakbug:68 drakbug:203
 #, c-format
 msgid "Standalone Tools"
 msgstr "独立型ツール"
 
-#: drakbug:72 drakbug:73
-#, c-format
-msgid "Mandriva Online"
+#: drakbug:70 drakbug:71
+#, fuzzy, c-format
+msgid "OpenMandriva Online"
 msgstr "Mandriva オンライン"
 
-#: drakbug:74
+#: drakbug:72
 #, c-format
 msgid "Remote Control"
 msgstr "リモートコントロール"
 
-#: drakbug:75
+#: drakbug:73
 #, c-format
 msgid "Software Manager"
 msgstr "RPM マネージャ"
 
-#: drakbug:76
+#: drakbug:74
 #, c-format
 msgid "Windows Migration tool"
 msgstr "Windows 移行ツール"
 
-#: drakbug:77
+#: drakbug:75
 #, c-format
 msgid "Configuration Wizards"
 msgstr "設定ウィザード"
 
-#: drakbug:99
-#, c-format
-msgid "Select Mandriva Tool:"
+#: drakbug:97
+#, fuzzy, c-format
+msgid "Select Tool:"
 msgstr "Mandriva のツールを選択:"
 
-#: drakbug:100
+#: drakbug:98
 #, c-format
 msgid ""
 "or Application Name\n"
@@ -241,38 +241,38 @@ msgstr ""
 "またはアプリケーション名\n"
 "(またはフルパス):"
 
-#: drakbug:103
+#: drakbug:101
 #, c-format
 msgid "Find Package"
 msgstr "パッケージを検索"
 
-#: drakbug:104
+#: drakbug:102
 #, fuzzy, c-format
 msgid "Browse"
 msgstr "ブラウズ"
 
-#: drakbug:106
+#: drakbug:104
 #, c-format
 msgid "Package: "
 msgstr "パッケージ: "
 
-#: drakbug:107
+#: drakbug:105
 #, c-format
 msgid "Kernel:"
 msgstr "カーネル: "
 
-#: drakbug:139
+#: drakbug:137
 #, c-format
 msgid "The \"%s\" program has segfaulted with the following error:"
 msgstr ""
 "プログラム \"%s\" が以下のエラーでセグメンテーション違反を起こしました:"
 
-#: drakbug:144
+#: drakbug:142
 #, fuzzy, c-format
 msgid "Used theme: %s"
 msgstr "ユーザ: %s"
 
-#: drakbug:146
+#: drakbug:144
 #, c-format
 msgid ""
 "To submit a bug report, click on the report button.  \n"
@@ -283,7 +283,7 @@ msgstr ""
 "%s がウェブブラウザのウィンドウに開き、入力フォームが表示されます。\n"
 "上に表示されている情報がサーバに転送されます。"
 
-#: drakbug:148
+#: drakbug:146
 #, c-format
 msgid ""
 "It would be very useful to attach to your report the output of the following "
@@ -293,37 +293,37 @@ msgid_plural ""
 "commands: %s."
 msgstr[0] "以下のコマンドの出力を添付していただけると大変役立ちます: %s"
 
-#: drakbug:151
+#: drakbug:149
 #, c-format
 msgid "'%s'"
 msgstr "'%s'"
 
-#: drakbug:154
-#, c-format
-msgid "You should also attach the following files: %s as well as %s."
+#: drakbug:152
+#, fuzzy, c-format
+msgid "You should also attach the following files if you have them: %s."
 msgstr "以下のファイルも添付してください: %s と %s"
 
-#: drakbug:161
+#: drakbug:158
 #, c-format
 msgid "Please describe what you were doing when it crashed:"
 msgstr "クラッシュしたときに行っていたことを記述してください:"
 
-#: drakbug:177
+#: drakbug:174
 #, c-format
 msgid "Report"
 msgstr "報告"
 
-#: drakbug:213
+#: drakbug:210
 #, c-format
 msgid "Not installed"
 msgstr "インストールされていません"
 
-#: drakbug:226
+#: drakbug:223
 #, c-format
 msgid "Package not installed"
 msgstr "パッケージがインストールされていません"
 
-#: drakbug:251
+#: drakbug:248
 #, c-format
 msgid ""
 "You must type in what you were doing when this bug happened in order to "
@@ -332,52 +332,52 @@ msgstr ""
 "開発者がバグを再現し、修正しやすくするために、この不具合が起こったときに行っ"
 "ていたことを記述してください。"
 
-#: drakbug:252
+#: drakbug:249
 #, c-format
 msgid "Thanks."
 msgstr "ありがとうございます。"
 
-#: drakclock:30 draksec:166
+#: drakclock:28 draksec:168
 #, c-format
 msgid "Date, Clock & Time Zone Settings"
 msgstr "日付、時刻とタイムゾーンの設定"
 
-#: drakclock:39
+#: drakclock:37
 #, c-format
 msgid "not defined"
 msgstr "設定されていません"
 
-#: drakclock:41
+#: drakclock:39
 #, c-format
 msgid "Change Time Zone"
 msgstr "タイムゾーンを変更"
 
-#: drakclock:46
+#: drakclock:44
 #, c-format
 msgid "Timezone - DrakClock"
 msgstr "タイムゾーン - DrakClock"
 
-#: drakclock:46
+#: drakclock:44
 #, c-format
 msgid "Which is your timezone?"
 msgstr "タイムゾーンを選んでください。"
 
-#: drakclock:47
+#: drakclock:45
 #, c-format
 msgid "GMT - DrakClock"
 msgstr "GMT - DrakClock"
 
-#: drakclock:47
+#: drakclock:45
 #, c-format
 msgid "Is your hardware clock set to GMT?"
 msgstr "ハードウェアクロックを GMT に設定しますか？"
 
-#: drakclock:74
+#: drakclock:72
 #, c-format
 msgid "Network Time Protocol"
 msgstr "ネットワークタイムプロトコル"
 
-#: drakclock:76
+#: drakclock:74
 #, c-format
 msgid ""
 "Your computer can synchronize its clock\n"
@@ -386,42 +386,42 @@ msgstr ""
 "NTP を使ったリモートタイムサーバで、\n"
 "マシンの時計を同期させることができます"
 
-#: drakclock:77
+#: drakclock:75
 #, c-format
 msgid "Enable Network Time Protocol"
 msgstr "ネットワークタイムプロトコルを有効にする"
 
-#: drakclock:85
+#: drakclock:83
 #, c-format
 msgid "Server:"
 msgstr "サーバ:"
 
-#: drakclock:99
+#: drakclock:97
 #, c-format
 msgid "Timezone"
 msgstr "タイムゾーン"
 
-#: drakclock:115
+#: drakclock:113
 #, c-format
 msgid "Please enter a valid NTP server address."
 msgstr "有効な NTP サーバアドレスを入力してください。"
 
-#: drakclock:132
+#: drakclock:139
 #, c-format
 msgid "Could not synchronize with %s."
 msgstr "%s と同期できませんでした。"
 
-#: drakclock:133 drakdvb:149 logdrake:175 scannerdrake:489
+#: drakclock:140 drakdvb:149 logdrake:179 scannerdrake:488
 #, c-format
 msgid "Quit"
 msgstr "終了"
 
-#: drakclock:134
+#: drakclock:141
 #, c-format
 msgid "Retry"
 msgstr "再試行"
 
-#: drakclock:161 drakclock:171
+#: drakclock:166 drakclock:176
 #, c-format
 msgid "Reset"
 msgstr "リセット"
@@ -431,7 +431,7 @@ msgstr "リセット"
 msgid "DVB"
 msgstr "DVB"
 
-#: drakdvb:39 harddrake2:101
+#: drakdvb:39 harddrake2:99
 #, c-format
 msgid "Channel"
 msgstr "チャンネル"
@@ -446,10 +446,10 @@ msgstr "%s は既に存在し、その内容が失われます"
 msgid "Could not get the list of available channels"
 msgstr "利用可能なチャンネルの一覧を取得できませんでした"
 
-#: drakdvb:80 draksec:69 drakups:99 finish-install:106 harddrake2:379
-#: scannerdrake:64 scannerdrake:68 scannerdrake:76 scannerdrake:317
-#: scannerdrake:366 scannerdrake:502 scannerdrake:506 scannerdrake:528
-#: service_harddrake:432
+#: drakdvb:80 draksec:67 drakups:98 finish-install:106 harddrake2:374
+#: scannerdrake:63 scannerdrake:67 scannerdrake:75 scannerdrake:316
+#: scannerdrake:365 scannerdrake:501 scannerdrake:505 scannerdrake:527
+#: service_harddrake:423
 #, c-format
 msgid "Please wait"
 msgstr "お待ちください"
@@ -459,7 +459,7 @@ msgstr "お待ちください"
 msgid "Detecting DVB channels, this will take a few minutes"
 msgstr "DVB チャンネルを検出しています。これには数分かかります。"
 
-#: drakdvb:85 drakfont:573 drakfont:653 drakfont:737 drakups:217 logdrake:175
+#: drakdvb:85 drakfont:571 drakfont:651 drakfont:735 drakups:216 logdrake:179
 #, c-format
 msgid "Cancel"
 msgstr "キャンセル"
@@ -474,27 +474,37 @@ msgstr "チャンネルを検出"
 msgid "View Channel"
 msgstr "チャンネルを見る"
 
-#: drakedm:41
+#: drakedm:40
 #, c-format
 msgid "GDM (GNOME Display Manager)"
 msgstr "GDM (GNOME ディスプレイマネージャ)"
 
-#: drakedm:42
+#: drakedm:41
 #, c-format
 msgid "KDM (KDE Display Manager)"
 msgstr "KDM (KDE ディスプレイマネージャ)"
 
+#: drakedm:42
+#, fuzzy, c-format
+msgid "LIGHTDM (LightDM Display Manager)"
+msgstr "GDM (GNOME ディスプレイマネージャ)"
+
 #: drakedm:43
+#, fuzzy, c-format
+msgid "SLIM (Simple Display Manager)"
+msgstr "XDM (X ディスプレイマネージャ)"
+
+#: drakedm:44
 #, c-format
 msgid "XDM (X Display Manager)"
 msgstr "XDM (X ディスプレイマネージャ)"
 
-#: drakedm:54
+#: drakedm:55
 #, c-format
 msgid "Choosing a display manager"
 msgstr "ディスプレイマネージャを選んでください"
 
-#: drakedm:55
+#: drakedm:56
 #, c-format
 msgid ""
 "X11 Display Manager allows you to graphically log\n"
@@ -506,12 +516,12 @@ msgstr ""
 "複数の X セッションを実行できるようになります。\n"
 "ディスプレイマネージャを選んでください。"
 
-#: drakedm:74
+#: drakedm:79
 #, c-format
 msgid "The change is done, do you want to restart the dm service?"
 msgstr "変更しました。dm サービスを再起動しますか？"
 
-#: drakedm:75
+#: drakedm:80
 #, c-format
 msgid ""
 "You are going to close all running programs and lose your current session. "
@@ -520,98 +530,98 @@ msgstr ""
 "実行中のプログラムをすべて閉じて現在のセッションを終了します。本当に dm サー"
 "ビスを再起動しますか？"
 
-#: drakfont:187
+#: drakfont:185
 #, c-format
 msgid "Search installed fonts"
 msgstr "インストール済みのフォントを検索"
 
-#: drakfont:189
+#: drakfont:187
 #, c-format
 msgid "Unselect fonts installed"
 msgstr "インストール済みのフォントの選択を解除"
 
-#: drakfont:213
+#: drakfont:211
 #, c-format
 msgid "No fonts found"
 msgstr "フォントが見つかりません"
 
-#: drakfont:217
+#: drakfont:215
 #, c-format
 msgid "parse all fonts"
 msgstr "すべてのフォントを分析"
 
-#: drakfont:222 drakfont:263 drakfont:339 drakfont:380 drakfont:384
-#: drakfont:410 drakfont:428 drakfont:436
+#: drakfont:220 drakfont:261 drakfont:337 drakfont:378 drakfont:382
+#: drakfont:408 drakfont:426 drakfont:434
 #, c-format
 msgid "done"
 msgstr "完了"
 
-#: drakfont:226
+#: drakfont:224
 #, c-format
 msgid "Could not find any font in your mounted partitions"
 msgstr "マウントされているパーティションにはフォントがありません"
 
-#: drakfont:261
+#: drakfont:259
 #, c-format
 msgid "Reselect correct fonts"
 msgstr "正しいフォントを再選択"
 
-#: drakfont:264
+#: drakfont:262
 #, c-format
 msgid "Could not find any font.\n"
 msgstr "フォントが見つかりません。\n"
 
-#: drakfont:274
+#: drakfont:272
 #, c-format
 msgid "Search for fonts in installed list"
 msgstr "インストール済みのリストからフォントを探す"
 
-#: drakfont:298
+#: drakfont:296
 #, c-format
 msgid "%s fonts conversion"
 msgstr "%s フォントの変換"
 
-#: drakfont:337
+#: drakfont:335
 #, c-format
 msgid "Fonts copy"
 msgstr "フォントをコピー"
 
-#: drakfont:340
+#: drakfont:338
 #, c-format
 msgid "True Type fonts installation"
 msgstr "True Type フォントをインストール"
 
-#: drakfont:348
+#: drakfont:346
 #, c-format
 msgid "please wait during ttmkfdir..."
 msgstr "ttmkfdir 中です。お待ちください..."
 
-#: drakfont:349
+#: drakfont:347
 #, c-format
 msgid "True Type install done"
 msgstr "True Type をインストールしました"
 
-#: drakfont:355 drakfont:370
+#: drakfont:353 drakfont:368
 #, c-format
 msgid "type1inst building"
 msgstr "type1inst を作成"
 
-#: drakfont:364
+#: drakfont:362
 #, c-format
 msgid "Ghostscript referencing"
 msgstr "Ghostscript を参照"
 
-#: drakfont:381
+#: drakfont:379
 #, c-format
 msgid "Suppress Temporary Files"
 msgstr "一時ファイルを作らない"
 
-#: drakfont:426 drakfont:432
+#: drakfont:424 drakfont:430
 #, c-format
 msgid "Suppress Fonts Files"
 msgstr "フォントファイルを作らない"
 
-#: drakfont:440
+#: drakfont:438
 #, c-format
 msgid ""
 "Before installing any fonts, be sure that you have the right to use and "
@@ -626,206 +636,206 @@ msgstr ""
 "フォントはたいてい問題なくインストールされますが、まれに不良なフォントで X "
 "サーバが固まる場合があります。"
 
-#: drakfont:479
+#: drakfont:477
 #, c-format
 msgid "Font Installation"
 msgstr "フォントのインストール"
 
-#: drakfont:490
+#: drakfont:488
 #, c-format
 msgid "DrakFont"
 msgstr "DrakFont"
 
-#: drakfont:491 drakfont:643
+#: drakfont:489 drakfont:641
 #, c-format
 msgid "Font List"
 msgstr "フォントのリスト"
 
-#: drakfont:494
+#: drakfont:492
 #, c-format
 msgid "Get Windows Fonts"
 msgstr "Windows フォントをインポート"
 
-#: drakfont:500
+#: drakfont:498
 #, c-format
 msgid "About"
 msgstr "情報"
 
-#: drakfont:501 drakfont:542
+#: drakfont:499 drakfont:540
 #, c-format
 msgid "Options"
 msgstr "オプション"
 
-#: drakfont:502 drakfont:722
+#: drakfont:500 drakfont:720
 #, c-format
 msgid "Uninstall"
 msgstr "アンインストール"
 
-#: drakfont:503
+#: drakfont:501
 #, c-format
 msgid "Import"
 msgstr "インポート"
 
-#: drakfont:521
+#: drakfont:519
 #, c-format
 msgid "Drakfont"
 msgstr "Drakfont"
 
-#: drakfont:523 harddrake2:234
-#, c-format
-msgid "Copyright (C) %s by Mandriva"
+#: drakfont:521 harddrake2:229
+#, fuzzy, c-format
+msgid "Copyright (C) %s by OpenMandriva"
 msgstr "Copyright (C) %s by Mandriva"
 
-#: drakfont:525
+#: drakfont:523
 #, c-format
 msgid "Font installer."
 msgstr "フォントインストーラ"
 
-#: drakfont:527 harddrake2:238
+#: drakfont:525 logdrake:55
 #, c-format
 msgid "OpenMandriva Lx"
 msgstr "OpenMandriva Lx"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
-#: drakfont:534 harddrake2:243
+#: drakfont:532 harddrake2:238
 #, c-format
 msgid "_: Translator(s) name(s) & email(s)\n"
 msgstr ""
 "UTUMI Hirosi <utuhiro78@yahoo.co.jp>\n"
 "Yukiko BANDO <ybando@k6.dion.ne.jp>\n"
 
-#: drakfont:544
+#: drakfont:542
 #, c-format
 msgid "Choose the applications that will support the fonts:"
 msgstr "このフォントを使用するアプリケーションを選んでください:"
 
-#: drakfont:555
+#: drakfont:553
 #, c-format
 msgid "Ghostscript"
 msgstr "Ghostscript"
 
-#: drakfont:556
+#: drakfont:554
 #, c-format
 msgid "LibreOffice"
 msgstr ""
 
-#: drakfont:557
+#: drakfont:555
 #, c-format
 msgid "Abiword"
 msgstr "Abiword"
 
-#: drakfont:558
+#: drakfont:556
 #, c-format
 msgid "Generic Printers"
 msgstr "一般プリンタ"
 
-#: drakfont:563 drakfont:573 drakups:210
+#: drakfont:561 drakfont:571 drakups:209
 #, c-format
 msgid "Ok"
 msgstr "OK"
 
-#: drakfont:572
+#: drakfont:570
 #, c-format
 msgid "Select the font file or directory and click on 'Add'"
 msgstr "フォントファイルかディレクトリを選んで「追加」をクリック"
 
-#: drakfont:573
+#: drakfont:571
 #, c-format
 msgid "File Selection"
 msgstr "ファイルを選択"
 
-#: drakfont:577
+#: drakfont:575
 #, c-format
 msgid "Fonts"
 msgstr "フォント"
 
-#: drakfont:641 draksec:162
+#: drakfont:639 draksec:164
 #, c-format
 msgid "Import fonts"
 msgstr "フォントをインポート"
 
-#: drakfont:647 drakups:299 drakups:375
+#: drakfont:645 drakups:298 drakups:374
 #, c-format
 msgid "Add"
 msgstr "追加"
 
-#: drakfont:648 drakfont:736 drakups:301 drakups:377
+#: drakfont:646 drakfont:734 drakups:300 drakups:376
 #, c-format
 msgid "Remove"
 msgstr "削除"
 
-#: drakfont:654
+#: drakfont:652
 #, c-format
 msgid "Install"
 msgstr "インストール"
 
-#: drakfont:685
+#: drakfont:683
 #, c-format
 msgid "Are you sure you want to uninstall the following fonts?"
 msgstr "本当に以下のフォントをアンインストールしますか？"
 
-#: drakfont:689 draksec:59 harddrake2:324
+#: drakfont:687 draksec:57 harddrake2:319
 #, c-format
 msgid "Yes"
 msgstr "はい"
 
-#: drakfont:691 draksec:58 harddrake2:325
+#: drakfont:689 draksec:56 harddrake2:320
 #, c-format
 msgid "No"
 msgstr "いいえ"
 
-#: drakfont:730
+#: drakfont:728
 #, c-format
 msgid "Unselect All"
 msgstr "すべて選択解除"
 
-#: drakfont:733
+#: drakfont:731
 #, c-format
 msgid "Select All"
 msgstr "すべて選択"
 
-#: drakfont:750
+#: drakfont:748
 #, c-format
 msgid "Importing fonts"
 msgstr "フォントをインポート"
 
-#: drakfont:754 drakfont:774
+#: drakfont:752 drakfont:772
 #, c-format
 msgid "Initial tests"
 msgstr "初期テスト"
 
-#: drakfont:755
+#: drakfont:753
 #, c-format
 msgid "Copy fonts on your system"
 msgstr "システム上のフォントをコピー"
 
-#: drakfont:756
+#: drakfont:754
 #, c-format
 msgid "Install & convert Fonts"
 msgstr "フォントのインストールと変換"
 
-#: drakfont:757
+#: drakfont:755
 #, c-format
 msgid "Post Install"
 msgstr "インストール後の処理"
 
-#: drakfont:769
+#: drakfont:767
 #, c-format
 msgid "Removing fonts"
 msgstr "フォントの削除"
 
-#: drakfont:775
+#: drakfont:773
 #, c-format
 msgid "Remove fonts on your system"
 msgstr "システムからフォントを削除"
 
-#: drakfont:776
+#: drakfont:774
 #, c-format
 msgid "Post Uninstall"
 msgstr "アンインストール後の処理"
 
-#: drakhelp:17
+#: drakhelp:14
 #, c-format
 msgid ""
 " drakhelp 0.1\n"
@@ -842,12 +852,12 @@ msgstr ""
 "\n"
 "使い方: \n"
 
-#: drakhelp:22
+#: drakhelp:19
 #, c-format
 msgid " --help                - display this help     \n"
 msgstr " --help                - このヘルプを表示     \n"
 
-#: drakhelp:23
+#: drakhelp:20
 #, c-format
 msgid ""
 " --id <id_label>       - load the html help page which refers to id_label\n"
@@ -855,7 +865,7 @@ msgstr ""
 " --id <id_label>       - id_label を参照する HTML 形式のヘルプページをロー"
 "ド\n"
 
-#: drakhelp:24
+#: drakhelp:21
 #, c-format
 msgid ""
 " --doc <link>          - link to another web page ( for WM welcome "
@@ -863,72 +873,72 @@ msgid ""
 msgstr ""
 " --doc <link>          - 他のウェブページにリンク( for WM welcome frontend)\n"
 
-#: drakhelp:52
+#: drakhelp:49
 #, c-format
 msgid "OpenMandriva Lx Help Center"
 msgstr "OpenMandriva Lx ヘルプセンター"
 
-#: drakhelp:52
+#: drakhelp:49
 #, c-format
 msgid "No Help entry for %s\n"
 msgstr "%s のヘルプはありません\n"
 
-#: drakperm:23
+#: drakperm:21
 #, c-format
 msgid "System settings"
 msgstr "システム設定"
 
-#: drakperm:24
+#: drakperm:22
 #, c-format
 msgid "Custom settings"
 msgstr "カスタム設定"
 
-#: drakperm:25
+#: drakperm:23
 #, c-format
 msgid "Custom & system settings"
 msgstr "カスタム＆システム設定"
 
-#: drakperm:33
+#: drakperm:31
 #, c-format
 msgid "Security Permissions"
 msgstr "セキュリティのための権限設定"
 
-#: drakperm:45
+#: drakperm:43
 #, c-format
 msgid "Editable"
 msgstr "編集可"
 
-#: drakperm:50 drakperm:320
+#: drakperm:48 drakperm:318
 #, c-format
 msgid "Path"
 msgstr "パス"
 
-#: drakperm:50 drakperm:249
+#: drakperm:48 drakperm:247
 #, c-format
 msgid "User"
 msgstr "ユーザ名"
 
-#: drakperm:50 drakperm:249
+#: drakperm:48 drakperm:247
 #, c-format
 msgid "Group"
 msgstr "グループ"
 
-#: drakperm:50 drakperm:109 drakperm:332 draksec:177
+#: drakperm:48 drakperm:107 drakperm:330 draksec:179
 #, c-format
 msgid "Permissions"
 msgstr "権限"
 
-#: drakperm:60
+#: drakperm:58
 #, c-format
 msgid "Add a new rule"
 msgstr "新しいルールを追加"
 
-#: drakperm:67 drakperm:102 drakperm:128
+#: drakperm:65 drakperm:100 drakperm:126
 #, c-format
 msgid "Edit current rule"
 msgstr "現在のルールを編集"
 
-#: drakperm:110
+#: drakperm:108
 #, c-format
 msgid ""
 "Here you can see files to use in order to fix permissions, owners, and "
@@ -939,7 +949,7 @@ msgstr ""
 "一覧できます。\n"
 "デフォルトの設定を上書きする自分のルールを編集することもできます。"
 
-#: drakperm:112
+#: drakperm:110
 #, c-format
 msgid ""
 "The current security level is %s.\n"
@@ -948,115 +958,115 @@ msgstr ""
 "現在のセキュリティレベルは %s です。\n"
 "閲覧/編集する権限を選んでください。"
 
-#: drakperm:124
+#: drakperm:122
 #, c-format
 msgid "Up"
 msgstr "上へ"
 
-#: drakperm:124
+#: drakperm:122
 #, c-format
 msgid "Move selected rule up one level"
 msgstr "選んだルールのレベルをひとつ上げる"
 
-#: drakperm:125
+#: drakperm:123
 #, c-format
 msgid "Down"
 msgstr "下へ"
 
-#: drakperm:125
+#: drakperm:123
 #, c-format
 msgid "Move selected rule down one level"
 msgstr "選んだルールのレベルをひとつ下げる"
 
-#: drakperm:126
+#: drakperm:124
 #, c-format
 msgid "Add a rule"
 msgstr "ルールを追加"
 
-#: drakperm:126
+#: drakperm:124
 #, c-format
 msgid "Add a new rule at the end"
 msgstr "新しいルールを末尾に追加"
 
-#: drakperm:127
+#: drakperm:125
 #, c-format
 msgid "Delete"
 msgstr "削除"
 
-#: drakperm:127
+#: drakperm:125
 #, c-format
 msgid "Delete selected rule"
 msgstr "選んだルールを削除"
 
-#: drakperm:128 drakups:300 drakups:376
+#: drakperm:126 drakups:299 drakups:375
 #, c-format
 msgid "Edit"
 msgstr "編集"
 
-#: drakperm:241
+#: drakperm:239
 #, c-format
 msgid "browse"
 msgstr "ブラウズ"
 
-#: drakperm:246
+#: drakperm:244
 #, c-format
 msgid "user"
 msgstr "ユーザ"
 
-#: drakperm:246
+#: drakperm:244
 #, c-format
 msgid "group"
 msgstr "グループ"
 
-#: drakperm:246
+#: drakperm:244
 #, c-format
 msgid "other"
 msgstr "その他"
 
-#: drakperm:249
+#: drakperm:247
 #, c-format
 msgid "Other"
 msgstr "その他"
 
-#: drakperm:251
+#: drakperm:249
 #, c-format
 msgid "Read"
 msgstr "読み取り"
 
 #. -PO: here %s will be either "user", "group" or "other"
-#: drakperm:254
+#: drakperm:252
 #, c-format
 msgid "Enable \"%s\" to read the file"
 msgstr "ファイルを読み込むために %s を有効にする"
 
-#: drakperm:258
+#: drakperm:256
 #, c-format
 msgid "Write"
 msgstr "書き込み"
 
 #. -PO: here %s will be either "user", "group" or "other"
-#: drakperm:261
+#: drakperm:259
 #, c-format
 msgid "Enable \"%s\" to write the file"
 msgstr "ファイルに書き込むために %s を有効にする"
 
-#: drakperm:265
+#: drakperm:263
 #, c-format
 msgid "Execute"
 msgstr "実行"
 
 #. -PO: here %s will be either "user", "group" or "other"
-#: drakperm:268
+#: drakperm:266
 #, c-format
 msgid "Enable \"%s\" to execute the file"
 msgstr "ファイルを実行するために %s を有効にする"
 
-#: drakperm:271
+#: drakperm:269
 #, c-format
 msgid "Sticky-bit"
 msgstr "Sticky-bit"
 
-#: drakperm:271
+#: drakperm:269
 #, c-format
 msgid ""
 "Used for directory:\n"
@@ -1065,57 +1075,57 @@ msgstr ""
 "ディレクトリ用:\n"
 " ディレクトリやファイルの所有者だけが削除できます"
 
-#: drakperm:272
+#: drakperm:270
 #, c-format
 msgid "Set-UID"
 msgstr "UID 設定"
 
-#: drakperm:272
+#: drakperm:270
 #, c-format
 msgid "Use owner id for execution"
 msgstr "実行に所有者の ID を使う"
 
-#: drakperm:273
+#: drakperm:271
 #, c-format
 msgid "Set-GID"
 msgstr "GID 設定"
 
-#: drakperm:273
+#: drakperm:271
 #, c-format
 msgid "Use group id for execution"
 msgstr "実行にグループの ID を使う"
 
-#: drakperm:290
+#: drakperm:288
 #, c-format
 msgid "User:"
 msgstr "ユーザ: "
 
-#: drakperm:291
+#: drakperm:289
 #, c-format
 msgid "Group:"
 msgstr "グループ: "
 
-#: drakperm:295
+#: drakperm:293
 #, c-format
 msgid "Current user"
 msgstr "現在のユーザ"
 
-#: drakperm:296
+#: drakperm:294
 #, c-format
 msgid "When checked, owner and group will not be changed"
 msgstr "チェックの際に、所有者とグループを変更しません"
 
-#: drakperm:306
+#: drakperm:304
 #, c-format
 msgid "Path selection"
 msgstr "パスを選択"
 
-#: drakperm:326
+#: drakperm:324
 #, c-format
 msgid "Property"
 msgstr "プロパティ"
 
-#: drakperm:376
+#: drakperm:374
 #, c-format
 msgid ""
 "The first character of the path must be a slash (\"/\"):\n"
@@ -1124,198 +1134,203 @@ msgstr ""
 "パスの最初の文字は \"/\" でなければなりません:\n"
 " \"%s\""
 
-#: drakperm:386
+#: drakperm:384
 #, c-format
 msgid "Both the username and the group must valid!"
 msgstr "ユーザ名とグループ名の両方が有効でなければなりません"
 
-#: drakperm:387
+#: drakperm:385
 #, c-format
 msgid "User: %s"
 msgstr "ユーザ: %s"
 
-#: drakperm:388
+#: drakperm:386
 #, c-format
 msgid "Group: %s"
 msgstr "グループ: %s"
 
-#: draksec:53
+#: draksec:51
 #, c-format
 msgid "ALL"
 msgstr "すべて"
 
-#: draksec:54
+#: draksec:52
 #, c-format
 msgid "LOCAL"
 msgstr "ローカル"
 
-#: draksec:55
+#: draksec:53
 #, c-format
 msgid "NONE"
 msgstr "なし"
 
-#: draksec:56
+#: draksec:54
 #, c-format
 msgid "Default"
 msgstr "デフォルト"
 
-#: draksec:57
+#: draksec:55
 #, c-format
 msgid "Ignore"
 msgstr "無視"
 
-#: draksec:87
+#: draksec:85
 #, c-format
 msgid "Security Level and Checks"
 msgstr "セキュリティレベルとチェック"
 
-#: draksec:110
+#: draksec:108
 #, c-format
-msgid "Configure authentication required to access OpenMandriva tools"
-msgstr "Mandriva ツールにアクセスするための認証方法を設定"
+msgid "Configure access to OpenMandriva Lx administrative tools"
+msgstr ""
 
-#: draksec:113
+#: draksec:111
 #, c-format
 msgid "No password needed"
 msgstr "パスワードなし"
 
-#: draksec:114
+#: draksec:112
 #, c-format
 msgid "Root password required"
 msgstr "root のパスワード"
 
-#: draksec:115
+#: draksec:113
 #, c-format
 msgid "User password required"
 msgstr "ユーザのパスワード"
 
-#: draksec:145 draksec:200
+#: draksec:146 draksec:202
 #, c-format
 msgid "Software Management"
 msgstr "ソフトウェアの管理"
 
-#: draksec:146
-#, c-format
-msgid "Mandriva Update"
+#: draksec:147
+#, fuzzy, c-format
+msgid "Online Update"
 msgstr "Mandriva アップデート"
 
-#: draksec:147
+#: draksec:148
 #, c-format
 msgid "Software Media Manager"
 msgstr "RPM メディアマネージャ"
 
-#: draksec:148
+#: draksec:149
 #, c-format
 msgid "Configure 3D Desktop effects"
 msgstr "3D デスクトップ効果を設定"
 
-#: draksec:149
+#: draksec:150
 #, c-format
 msgid "Graphical Server Configuration"
 msgstr "グラフィカルサーバの設定"
 
-#: draksec:150
+#: draksec:151
 #, c-format
 msgid "Mouse Configuration"
 msgstr "マウスの設定"
 
-#: draksec:151
+#: draksec:152
 #, c-format
 msgid "Keyboard Configuration"
 msgstr "キーボードの設定"
 
-#: draksec:152
+#: draksec:153
+#, fuzzy, c-format
+msgid "Printer Configuration"
+msgstr "プロキシを設定"
+
+#: draksec:154
 #, c-format
 msgid "UPS Configuration"
 msgstr "UPS の設定"
 
-#: draksec:153
+#: draksec:155
 #, c-format
 msgid "Network Configuration"
 msgstr "ネットワークの設定"
 
-#: draksec:154
+#: draksec:156
 #, c-format
 msgid "Hosts definitions"
 msgstr "ホストの定義"
 
-#: draksec:155
+#: draksec:157
 #, c-format
 msgid "Network Center"
 msgstr "ネットワークセンター"
 
-#: draksec:156
+#: draksec:158
 #, c-format
 msgid "Wireless Network Roaming"
 msgstr ""
 
-#: draksec:157
+#: draksec:159
 #, c-format
 msgid "VPN"
 msgstr "VPN"
 
-#: draksec:158
+#: draksec:160
 #, c-format
 msgid "Proxy Configuration"
 msgstr "プロキシを設定"
 
-#: draksec:159
+#: draksec:161
 #, c-format
 msgid "Connection Sharing"
 msgstr "接続の共有"
 
-#: draksec:161
+#: draksec:163
 #, c-format
 msgid "Backups"
 msgstr "バックアップ"
 
-#: draksec:163 logdrake:52
+#: draksec:165 logdrake:56
 #, c-format
 msgid "Logs"
 msgstr "ログ"
 
-#: draksec:164 finish-install:209 finish-install:248
+#: draksec:166 finish-install:210 finish-install:249
 #, c-format
 msgid "Services"
 msgstr "サービス"
 
-#: draksec:165
+#: draksec:167
 #, c-format
 msgid "Users"
 msgstr "ユーザ"
 
-#: draksec:167
+#: draksec:169
 #, c-format
 msgid "Boot Configuration"
 msgstr "起動の設定"
 
-#: draksec:201
+#: draksec:203
 #, c-format
 msgid "Hardware"
 msgstr "ハードウェア"
 
-#: draksec:202
+#: draksec:204
 #, c-format
 msgid "Network"
 msgstr "ネットワーク"
 
-#: draksec:203
+#: draksec:205
 #, c-format
 msgid "System"
 msgstr "システム"
 
-#: draksec:204
+#: draksec:206
 #, c-format
 msgid "Boot"
 msgstr "起動"
 
-#: draksound:48
+#: draksound:47
 #, c-format
 msgid "No Sound Card detected!"
 msgstr "サウンドカードを検出できませんでした"
 
 #. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
-#: draksound:51
+#: draksound:50
 #, c-format
 msgid ""
 "No Sound Card has been detected on your machine. Please verify that a Linux-"
@@ -1336,7 +1351,7 @@ msgstr ""
 "\n"
 "http://www.mandrivalinux.com/en/hardware.php3"
 
-#: draksound:58
+#: draksound:57
 #, c-format
 msgid ""
 "\n"
@@ -1351,22 +1366,22 @@ msgstr ""
 "注意: ISA PnP サウンドカードをお使いの場合は、alsaconf か sndconfig を使って"
 "ください。コンソールで 'alsaconf' または 'sndconfig' と入力します。"
 
-#: drakups:71
+#: drakups:70
 #, c-format
 msgid "Connected through a serial port or an usb cable"
 msgstr "シリアルポートもしくは USB ケーブル経由で接続"
 
-#: drakups:72
+#: drakups:71
 #, c-format
 msgid "Manual configuration"
 msgstr "手動設定"
 
-#: drakups:78
+#: drakups:77
 #, c-format
 msgid "Add an UPS device"
 msgstr "UPS デバイスを追加"
 
-#: drakups:81
+#: drakups:80
 #, c-format
 msgid ""
 "Welcome to the UPS configuration utility.\n"
@@ -1377,7 +1392,7 @@ msgstr ""
 "\n"
 "ここではお使いのシステムに UPS を追加します。\n"
 
-#: drakups:88
+#: drakups:87
 #, c-format
 msgid ""
 "We're going to add an UPS device.\n"
@@ -1390,47 +1405,47 @@ msgstr ""
 "このマシンに接続されている UPS デバイスを自動検出するか、手動で選んでくださ"
 "い。"
 
-#: drakups:91
+#: drakups:90
 #, c-format
 msgid "Autodetection"
 msgstr "自動検出"
 
-#: drakups:99 harddrake2:379
+#: drakups:98 harddrake2:374
 #, c-format
 msgid "Detection in progress"
 msgstr "検出中です"
 
-#: drakups:118 drakups:157 logdrake:457 logdrake:463
+#: drakups:117 drakups:156 logdrake:461 logdrake:467
 #, c-format
 msgid "Congratulations"
 msgstr "おめでとうございます"
 
-#: drakups:119
+#: drakups:118
 #, c-format
 msgid "The wizard successfully added the following UPS devices:"
 msgstr "以下の UPS デバイスを追加しました:"
 
-#: drakups:121
+#: drakups:120
 #, c-format
 msgid "No new UPS devices was found"
 msgstr "新しい UPS デバイスが見つかりません"
 
-#: drakups:126 drakups:138
+#: drakups:125 drakups:137
 #, c-format
 msgid "UPS driver configuration"
 msgstr "UPS ドライバの設定"
 
-#: drakups:126
+#: drakups:125
 #, c-format
 msgid "Please select your UPS model."
 msgstr "UPS モデルを選んでください。"
 
-#: drakups:127
+#: drakups:126
 #, c-format
 msgid "Manufacturer / Model:"
 msgstr "メーカー/モデル:"
 
-#: drakups:138
+#: drakups:137
 #, c-format
 msgid ""
 "We are configuring the \"%s\" UPS from \"%s\".\n"
@@ -1439,129 +1454,129 @@ msgstr ""
 "\"%s\" の \"%s\" UPS を設定しています。\n"
 "名前/ドライバ/ポートを入力してください。"
 
-#: drakups:143
+#: drakups:142
 #, c-format
 msgid "Name:"
 msgstr "名前:"
 
-#: drakups:143
+#: drakups:142
 #, c-format
 msgid "The name of your ups"
 msgstr "UPS の名前"
 
-#: drakups:144
+#: drakups:143
 #, c-format
 msgid "Driver:"
 msgstr "ドライバ:"
 
-#: drakups:144
+#: drakups:143
 #, c-format
 msgid "The driver that manages your ups"
 msgstr "UPS のドライバ"
 
-#: drakups:145
+#: drakups:144
 #, c-format
 msgid "Port:"
 msgstr "ポート:"
 
-#: drakups:147
+#: drakups:146
 #, c-format
 msgid "The port on which is connected your ups"
 msgstr "UPS が接続されているポート"
 
-#: drakups:157
+#: drakups:156
 #, c-format
 msgid "The wizard successfully configured the new \"%s\" UPS device."
 msgstr "新しい \"%s\" UPS デバイスを設定しました。"
 
-#: drakups:248
+#: drakups:247
 #, c-format
 msgid "UPS devices"
 msgstr "UPS デバイス"
 
-#: drakups:249 drakups:268 drakups:284 harddrake2:89 harddrake2:116
-#: harddrake2:123
+#: drakups:248 drakups:267 drakups:283 harddrake2:87 harddrake2:114
+#: harddrake2:121
 #, c-format
 msgid "Name"
 msgstr "名前"
 
-#: drakups:249 harddrake2:139
+#: drakups:248 harddrake2:137
 #, c-format
 msgid "Driver"
 msgstr "ドライバ"
 
-#: drakups:249 harddrake2:56
+#: drakups:248 harddrake2:54
 #, c-format
 msgid "Port"
 msgstr "ポート"
 
-#: drakups:267
+#: drakups:266
 #, c-format
 msgid "UPS users"
 msgstr "UPS ユーザ"
 
-#: drakups:283
+#: drakups:282
 #, c-format
 msgid "Access Control Lists"
 msgstr "アクセスコントロールリスト"
 
-#: drakups:284
+#: drakups:283
 #, c-format
 msgid "IP address"
 msgstr "IP アドレス"
 
-#: drakups:284
+#: drakups:283
 #, c-format
 msgid "IP mask"
 msgstr "IP マスク"
 
-#: drakups:296
+#: drakups:295
 #, c-format
 msgid "Rules"
 msgstr "ルール"
 
-#: drakups:297
+#: drakups:296
 #, c-format
 msgid "Action"
 msgstr "アクション"
 
-#: drakups:297 harddrake2:85
+#: drakups:296 harddrake2:83
 #, c-format
 msgid "Level"
 msgstr "レベル"
 
-#: drakups:297
+#: drakups:296
 #, c-format
 msgid "ACL name"
 msgstr "ACL の名前"
 
-#: drakups:297 finish-install:267
+#: drakups:296 finish-install:258
 #, c-format
 msgid "Password"
 msgstr "パスワード"
 
-#: drakups:329
+#: drakups:328
 #, c-format
 msgid "UPS Management"
 msgstr "UPS の管理"
 
-#: drakups:333 drakups:342
+#: drakups:332 drakups:341
 #, c-format
 msgid "DrakUPS"
 msgstr "DrakUPS"
 
-#: drakups:339
+#: drakups:338
 #, c-format
 msgid "Welcome to the UPS configuration tools"
 msgstr "UPS 設定ツールへようこそ"
 
-#: drakxtv:67
+#: drakxtv:66
 #, c-format
 msgid "No TV Card detected!"
 msgstr "テレビカードが見つかりません"
 
 #. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
-#: drakxtv:69
+#: drakxtv:68
 #, c-format
 msgid ""
 "No TV Card has been detected on your machine. Please verify that a Linux-"
@@ -1596,93 +1611,88 @@ msgstr "キーボードの配列を選んでください。"
 msgid "Testing your connection..."
 msgstr ""
 
-#: finish-install:184
+#: finish-install:185
 #, c-format
 msgid "Windows-compatible sharing system"
 msgstr ""
 
-#: finish-install:186
-#, c-format
-msgid "Virtual Private Network"
-msgstr ""
-
-#: finish-install:187
+#: finish-install:188
 #, fuzzy, c-format
 msgid "OpenSSH server"
 msgstr "SSH サーバ"
 
-#: finish-install:188
+#: finish-install:189
 #, fuzzy, c-format
 msgid "Print server"
 msgstr "FTP サーバ"
 
-#: finish-install:208
+#: finish-install:209
 #, c-format
-msgid "Please, specify which services should run at start-up:"
+msgid "Do you have any services that you want to run when starting up?"
 msgstr ""
 
-#: finish-install:240
+#: finish-install:241
 #, fuzzy, c-format
 msgid "The following services failed to start:\n"
 msgstr "以下のパッケージをインストールします:\n"
 
-#: finish-install:243
+#: finish-install:244
 #, fuzzy, c-format
 msgid "The following services failed to stop:\n"
 msgstr "以下のパッケージをインストールします:\n"
 
-#: finish-install:265 finish-install:283 finish-install:296
+#: finish-install:256 finish-install:274 finish-install:287
 #, c-format
 msgid "Encrypted home partition"
 msgstr "暗号化された home パーティション"
 
-#: finish-install:265
+#: finish-install:256
 #, c-format
 msgid "Please enter a password for the %s user"
 msgstr "ユーザ %s のパスワードを入力してください"
 
-#: finish-install:268
+#: finish-install:259
 #, c-format
 msgid "Password (again)"
 msgstr "パスワード (再入力)"
 
-#: finish-install:283
+#: finish-install:274
 #, c-format
 msgid "Creating encrypted home partition"
 msgstr "暗号化された home パーティションを作成"
 
-#: finish-install:296
+#: finish-install:287
 #, c-format
 msgid "Formatting encrypted home partition"
 msgstr "暗号化された home パーティションをフォーマット"
 
-#: harddrake2:30
+#: harddrake2:28
 #, c-format
 msgid "Alternative drivers"
 msgstr "代替ドライバ"
 
-#: harddrake2:31
+#: harddrake2:29
 #, c-format
 msgid "the list of alternative drivers for this sound card"
 msgstr "このサウンドカード用の代替ドライバのリスト"
 
-#: harddrake2:33 harddrake2:125
+#: harddrake2:31 harddrake2:123
 #, c-format
 msgid "Bus"
 msgstr "バス"
 
-#: harddrake2:34
+#: harddrake2:32
 #, c-format
 msgid ""
 "this is the physical bus on which the device is plugged (eg: PCI, USB, ...)"
 msgstr "デバイスを挿入する物理バス (PCI、USB など)"
 
-#: harddrake2:36 harddrake2:151
+#: harddrake2:34 harddrake2:149
 #, c-format
 msgid "Bus identification"
 msgstr "バスの識別"
 
-#: harddrake2:37
+#: harddrake2:35
 #, c-format
 msgid ""
 "- PCI and USB devices: this lists the vendor, device, subvendor and "
@@ -1691,12 +1701,12 @@ msgstr ""
 "- PCI と USB のデバイス: ベンダー、デバイス、サブベンダー、\n"
 "サブデバイスの PCI/USB の ID を表示します。"
 
-#: harddrake2:39
+#: harddrake2:37
 #, c-format
 msgid "Location on the bus"
 msgstr "バスの位置"
 
-#: harddrake2:40
+#: harddrake2:38
 #, c-format
 msgid ""
 "- pci devices: this gives the PCI slot, device and function of this card\n"
@@ -1707,233 +1717,233 @@ msgstr ""
 "- eide デバイス: スレーブかマスターのデバイス\n"
 "- scsi デバイス: scsi バスと scsi デバイスの ID"
 
-#: harddrake2:43
+#: harddrake2:41
 #, c-format
 msgid "Drive capacity"
 msgstr "ドライブの機能"
 
-#: harddrake2:43
+#: harddrake2:41
 #, c-format
 msgid "special capacities of the driver (burning ability and or DVD support)"
 msgstr "このドライブの特別な機能 (書き込み機能や DVD サポート)"
 
-#: harddrake2:44
+#: harddrake2:42
 #, c-format
 msgid "Description"
 msgstr "説明"
 
-#: harddrake2:44
+#: harddrake2:42
 #, c-format
 msgid "this field describes the device"
 msgstr "デバイスの説明を表示します"
 
-#: harddrake2:45
+#: harddrake2:43
 #, c-format
 msgid "Old device file"
 msgstr "古いデバイスファイル"
 
-#: harddrake2:46
+#: harddrake2:44
 #, c-format
 msgid "old static device name used in dev package"
 msgstr "dev パッケージで使われた古い静的デバイス名"
 
 #. -PO: here "module" is the "jargon term" for a kernel driver
-#: harddrake2:49
+#: harddrake2:47
 #, c-format
 msgid "Module"
 msgstr "モジュール"
 
-#: harddrake2:49
+#: harddrake2:47
 #, c-format
 msgid "the module of the GNU/Linux kernel that handles the device"
 msgstr "デバイスを扱う GNU/Linux カーネルのモジュール"
 
-#: harddrake2:50
+#: harddrake2:48
 #, c-format
 msgid "Extended partitions"
 msgstr "拡張パーティション"
 
-#: harddrake2:50
+#: harddrake2:48
 #, c-format
 msgid "the number of extended partitions"
 msgstr "拡張パーティションの番号"
 
-#: harddrake2:51
+#: harddrake2:49
 #, c-format
 msgid "Geometry"
 msgstr "ジオメトリ"
 
-#: harddrake2:51
+#: harddrake2:49
 #, c-format
 msgid "Cylinder/head/sectors geometry of the disk"
 msgstr "ディスクのシリンダ/ヘッド/セクタ ジオメトリ"
 
-#: harddrake2:52
+#: harddrake2:50
 #, c-format
 msgid "Disk controller"
 msgstr "ディスクコントローラ"
 
-#: harddrake2:52
+#: harddrake2:50
 #, c-format
 msgid "the disk controller on the host side"
 msgstr "ホスト側のディスクコントローラ"
 
-#: harddrake2:53
+#: harddrake2:51
 #, c-format
 msgid "Identifier"
 msgstr "識別子"
 
-#: harddrake2:53
+#: harddrake2:51
 #, c-format
 msgid "usually the device serial number"
 msgstr "通常はディスクのシリアルナンバー"
 
-#: harddrake2:54
+#: harddrake2:52
 #, c-format
 msgid "Media class"
 msgstr "メディアクラス"
 
-#: harddrake2:54
+#: harddrake2:52
 #, c-format
 msgid "class of hardware device"
 msgstr "ハードウェアデバイスのクラス"
 
-#: harddrake2:55 harddrake2:86
+#: harddrake2:53 harddrake2:84
 #, c-format
 msgid "Model"
 msgstr "モデル"
 
-#: harddrake2:55
+#: harddrake2:53
 #, c-format
 msgid "hard disk model"
 msgstr "ハードディスクのモデル"
 
-#: harddrake2:56
+#: harddrake2:54
 #, c-format
 msgid "network printer port"
 msgstr "ネットワークプリンタのポート"
 
-#: harddrake2:57
+#: harddrake2:55
 #, c-format
 msgid "Primary partitions"
 msgstr "プライマリパーティション"
 
-#: harddrake2:57
+#: harddrake2:55
 #, c-format
 msgid "the number of the primary partitions"
 msgstr "プライマリパーティションの番号"
 
-#: harddrake2:58 harddrake2:92
+#: harddrake2:56 harddrake2:90
 #, c-format
 msgid "Vendor"
 msgstr "ベンダー"
 
-#: harddrake2:58
+#: harddrake2:56
 #, c-format
 msgid "the vendor name of the device"
 msgstr "デバイスのベンダー名"
 
-#: harddrake2:59
+#: harddrake2:57
 #, c-format
 msgid "PCI domain"
 msgstr "PCI ドメイン"
 
-#: harddrake2:59 harddrake2:60
+#: harddrake2:57 harddrake2:58
 #, c-format
 msgid "the PCI domain of the device"
 msgstr "デバイスの PCI ドメイン"
 
-#: harddrake2:60
+#: harddrake2:58
 #, fuzzy, c-format
 msgid "PCI revision"
 msgstr "権限"
 
-#: harddrake2:61
+#: harddrake2:59
 #, c-format
 msgid "Bus PCI #"
 msgstr "バス PCI #"
 
-#: harddrake2:61
+#: harddrake2:59
 #, c-format
 msgid "the PCI bus on which the device is plugged"
 msgstr "デバイスが挿入されている PCI バス"
 
-#: harddrake2:62
+#: harddrake2:60
 #, c-format
 msgid "PCI device #"
 msgstr "PCI デバイス #"
 
-#: harddrake2:62
+#: harddrake2:60
 #, c-format
 msgid "PCI device number"
 msgstr "PCI デバイスの番号"
 
-#: harddrake2:63
+#: harddrake2:61
 #, c-format
 msgid "PCI function #"
 msgstr "PCI ファンクション #"
 
-#: harddrake2:63
+#: harddrake2:61
 #, c-format
 msgid "PCI function number"
 msgstr "PCI ファンクションの番号"
 
-#: harddrake2:64
+#: harddrake2:62
 #, c-format
 msgid "Vendor ID"
 msgstr "ベンダー ID"
 
-#: harddrake2:64
+#: harddrake2:62
 #, c-format
 msgid "this is the standard numerical identifier of the vendor"
 msgstr "ベンダーの識別子"
 
-#: harddrake2:65
+#: harddrake2:63
 #, c-format
 msgid "Device ID"
 msgstr "デバイス ID"
 
-#: harddrake2:65
+#: harddrake2:63
 #, c-format
 msgid "this is the numerical identifier of the device"
 msgstr "デバイスの識別子"
 
-#: harddrake2:66
+#: harddrake2:64
 #, c-format
 msgid "Sub vendor ID"
 msgstr "サブベンダー ID"
 
-#: harddrake2:66
+#: harddrake2:64
 #, c-format
 msgid "this is the minor numerical identifier of the vendor"
 msgstr "ベンダーのマイナー識別子"
 
-#: harddrake2:67
+#: harddrake2:65
 #, c-format
 msgid "Sub device ID"
 msgstr "サブデバイス ID"
 
-#: harddrake2:67
+#: harddrake2:65
 #, c-format
 msgid "this is the minor numerical identifier of the device"
 msgstr "デバイスのマイナー識別子"
 
-#: harddrake2:68
+#: harddrake2:66
 #, c-format
 msgid "Device USB ID"
 msgstr "デバイス USB ID"
 
-#: harddrake2:68
+#: harddrake2:66
 #, c-format
 msgid ".."
 msgstr ".."
 
-#: harddrake2:73 harddrake2:74
+#: harddrake2:71 harddrake2:72
 #, c-format
 msgid "Bogomips"
 msgstr "Bogomips"
 
-#: harddrake2:73 harddrake2:74
+#: harddrake2:71 harddrake2:72
 #, c-format
 msgid ""
 "the GNU/Linux kernel needs to run a calculation loop at boot time to "
@@ -1944,42 +1954,42 @@ msgstr ""
 "ループを実行します。その結果は bogomips として保存され、CPU 処理速度のベンチ"
 "マークに使われます。"
 
-#: harddrake2:75
+#: harddrake2:73
 #, c-format
 msgid "Cache size"
 msgstr "キャッシュサイズ"
 
-#: harddrake2:75
+#: harddrake2:73
 #, c-format
 msgid "size of the (second level) cpu cache"
 msgstr "CPU の第二キャッシュのサイズ"
 
-#: harddrake2:76
+#: harddrake2:74
 #, c-format
 msgid "Cpuid family"
 msgstr "Cpuid ファミリー"
 
-#: harddrake2:76
+#: harddrake2:74
 #, c-format
 msgid "family of the cpu (eg: 6 for i686 class)"
 msgstr "CPU のファミリー (例: i686 クラスなら 6)"
 
-#: harddrake2:77
+#: harddrake2:75
 #, c-format
 msgid "Cpuid level"
 msgstr "Cpuid レベル"
 
-#: harddrake2:77
+#: harddrake2:75
 #, c-format
 msgid "information level that can be obtained through the cpuid instruction"
 msgstr "cpuid の説明に含まれる情報のレベル"
 
-#: harddrake2:78
+#: harddrake2:76
 #, c-format
 msgid "Frequency (MHz)"
 msgstr "周波数 (MHz)"
 
-#: harddrake2:78
+#: harddrake2:76
 #, c-format
 msgid ""
 "the CPU frequency in MHz (Megahertz which in first approximation may be "
@@ -1989,102 +1999,102 @@ msgstr ""
 "CPU の周波数 (MHz) (Megahertz which in first approximation may be coarsely "
 "assimilated to number of instructions the cpu is able to execute per second)"
 
-#: harddrake2:79
+#: harddrake2:77
 #, c-format
 msgid "Flags"
 msgstr "フラグ"
 
-#: harddrake2:79
+#: harddrake2:77
 #, c-format
 msgid "CPU flags reported by the kernel"
 msgstr "カーネルが報告する CPU フラグ"
 
-#: harddrake2:80 harddrake2:144
+#: harddrake2:78 harddrake2:142
 #, fuzzy, c-format
 msgid "Cores"
 msgstr "閉じる"
 
-#: harddrake2:80
+#: harddrake2:78
 #, c-format
 msgid "CPU cores"
 msgstr ""
 
-#: harddrake2:81
+#: harddrake2:79
 #, fuzzy, c-format
 msgid "Core ID"
 msgstr "ベンダー ID"
 
-#: harddrake2:82
+#: harddrake2:80
 #, c-format
 msgid "Physical ID"
 msgstr ""
 
-#: harddrake2:83
+#: harddrake2:81
 #, c-format
 msgid "ACPI ID"
 msgstr ""
 
-#: harddrake2:84
+#: harddrake2:82
 #, fuzzy, c-format
 msgid "Siblings"
 msgstr "設定"
 
-#: harddrake2:85
+#: harddrake2:83
 #, c-format
 msgid "sub generation of the cpu"
 msgstr "CPU サブジェネレーション"
 
-#: harddrake2:86
+#: harddrake2:84
 #, c-format
 msgid "generation of the cpu (eg: 8 for Pentium III, ...)"
 msgstr "CPU のジェネレーション (例: Pentium III だと 8)"
 
-#: harddrake2:87 harddrake2:88
+#: harddrake2:85 harddrake2:86
 #, c-format
 msgid "Model name"
 msgstr "モデル名"
 
-#: harddrake2:87 harddrake2:88
+#: harddrake2:85 harddrake2:86
 #, c-format
 msgid "official vendor name of the cpu"
 msgstr "CPU の公式ベンダー名"
 
-#: harddrake2:89
+#: harddrake2:87
 #, c-format
 msgid "the name of the CPU"
 msgstr "CPU の名前"
 
-#: harddrake2:90
+#: harddrake2:88
 #, c-format
 msgid "Processor ID"
 msgstr "プロセッサ ID"
 
-#: harddrake2:90
+#: harddrake2:88
 #, c-format
 msgid "the number of the processor"
 msgstr "プロセッサの番号"
 
-#: harddrake2:91
+#: harddrake2:89
 #, c-format
 msgid "Model stepping"
 msgstr "モデルステッピング"
 
-#: harddrake2:91
+#: harddrake2:89
 #, c-format
 msgid "stepping of the cpu (sub model (generation) number)"
 msgstr "CPU のステッピング (sub model (generation) number)"
 
-#: harddrake2:92
+#: harddrake2:90
 #, c-format
 msgid "the vendor name of the processor"
 msgstr "プロセッサのベンダー名"
 
-#: harddrake2:93
+#: harddrake2:91
 #, c-format
 msgid "Write protection"
 msgstr "書き込み禁止"
 
-#: harddrake2:93
+#: harddrake2:91
 #, c-format
 msgid ""
 "the WP flag in the CR0 register of the cpu enforce write protection at the "
@@ -2095,47 +2105,47 @@ msgstr ""
 "書き込み禁止を強制します。これによって、プロセッサはユーザメモリにカーネルが"
 "無検査のままアクセスするのを防ぐことができます。(バグ対策の一種です)"
 
-#: harddrake2:97
+#: harddrake2:95
 #, c-format
 msgid "Floppy format"
 msgstr "フロッピーの形式"
 
-#: harddrake2:97
+#: harddrake2:95
 #, c-format
 msgid "format of floppies supported by the drive"
 msgstr "ドライブがサポートしているフロッピーの形式"
 
-#: harddrake2:101
+#: harddrake2:99
 #, c-format
 msgid "EIDE/SCSI channel"
 msgstr "EIDE/SCSI チャンネル"
 
-#: harddrake2:102
+#: harddrake2:100
 #, c-format
 msgid "Disk identifier"
 msgstr "ディスクの識別子"
 
-#: harddrake2:102
+#: harddrake2:100
 #, c-format
 msgid "usually the disk serial number"
 msgstr "多くの場合ディスクのシリアルナンバー"
 
-#: harddrake2:103
+#: harddrake2:101
 #, c-format
 msgid "Target id number"
 msgstr ""
 
-#: harddrake2:103
+#: harddrake2:101
 #, c-format
 msgid "the SCSI target identifier"
 msgstr ""
 
-#: harddrake2:104
+#: harddrake2:102
 #, c-format
 msgid "Logical unit number"
 msgstr "論理ユニット番号"
 
-#: harddrake2:104
+#: harddrake2:102
 #, fuzzy, c-format
 msgid ""
 "the SCSI Logical Unit Number (LUN). SCSI devices connected to a host are "
@@ -2147,189 +2157,184 @@ msgstr ""
 "論理ユニット番号で識別されます。"
 
 #. -PO: here, "size" is the size of the ram chip (eg: 128Mo, 256Mo, ...)
-#: harddrake2:111
+#: harddrake2:109
 #, c-format
 msgid "Installed size"
 msgstr "インストールされているサイズ"
 
-#: harddrake2:111
+#: harddrake2:109
 #, c-format
 msgid "Installed size of the memory bank"
 msgstr "メモリバンクのインストールされているサイズ"
 
-#: harddrake2:112
+#: harddrake2:110
 #, c-format
 msgid "Enabled Size"
 msgstr "有効になっているサイズ"
 
-#: harddrake2:112
+#: harddrake2:110
 #, c-format
 msgid "Enabled size of the memory bank"
 msgstr "メモリバンクの有効になっているサイズ"
 
-#: harddrake2:113 harddrake2:122
+#: harddrake2:111 harddrake2:120
 #, c-format
 msgid "Type"
 msgstr "種類"
 
-#: harddrake2:113
+#: harddrake2:111
 #, c-format
 msgid "type of the memory device"
 msgstr "メモリデバイスのタイプ"
 
-#: harddrake2:114
+#: harddrake2:112
 #, c-format
 msgid "Speed"
 msgstr "速度"
 
-#: harddrake2:114
+#: harddrake2:112
 #, c-format
 msgid "Speed of the memory bank"
 msgstr "メモリバンクの速度"
 
-#: harddrake2:115
+#: harddrake2:113
 #, c-format
 msgid "Bank connections"
 msgstr "バンクの接続"
 
-#: harddrake2:116
+#: harddrake2:114
 #, c-format
 msgid "Socket designation of the memory bank"
 msgstr "メモリバンクのソケット指定"
 
-#: harddrake2:120
+#: harddrake2:118
 #, c-format
 msgid "Device file"
 msgstr "デバイスファイル"
 
-#: harddrake2:120
+#: harddrake2:118
 #, c-format
 msgid ""
 "the device file used to communicate with the kernel driver for the mouse"
 msgstr "このデバイスファイルはマウス用のカーネルドライバとの通信に使います"
 
-#: harddrake2:121
+#: harddrake2:119
 #, c-format
 msgid "Emulated wheel"
 msgstr "ホイールをエミュレート"
 
-#: harddrake2:121
+#: harddrake2:119
 #, c-format
 msgid "whether the wheel is emulated or not"
 msgstr "ホイールをエミュレートする/しない"
 
-#: harddrake2:122
+#: harddrake2:120
 #, c-format
 msgid "the type of the mouse"
 msgstr "マウスの種類"
 
-#: harddrake2:123
+#: harddrake2:121
 #, c-format
 msgid "the name of the mouse"
 msgstr "マウスの名前"
 
-#: harddrake2:124
+#: harddrake2:122
 #, c-format
 msgid "Number of buttons"
 msgstr "ボタンの数"
 
-#: harddrake2:124
+#: harddrake2:122
 #, c-format
 msgid "the number of buttons the mouse has"
 msgstr "マウスボタンの数"
 
-#: harddrake2:125
+#: harddrake2:123
 #, c-format
 msgid "the type of bus on which the mouse is connected"
 msgstr "マウスを接続しているバスの種類"
 
-#: harddrake2:126
+#: harddrake2:124
 #, c-format
 msgid "Mouse protocol used by X11"
 msgstr "X11 が使用するマウスプロトコル"
 
-#: harddrake2:126
+#: harddrake2:124
 #, c-format
 msgid "the protocol that the graphical desktop use with the mouse"
 msgstr "グラフィカルデスクトップが使用するマウスプロトコル"
 
-#: harddrake2:130
+#: harddrake2:128
 #, c-format
 msgid "Identification"
 msgstr "識別"
 
-#: harddrake2:135 harddrake2:150
+#: harddrake2:133 harddrake2:148
 #, c-format
 msgid "Connection"
 msgstr "接続"
 
-#: harddrake2:145
+#: harddrake2:143
 #, c-format
 msgid "Performances"
 msgstr "パフォーマンス"
 
-#: harddrake2:152
+#: harddrake2:150
 #, c-format
 msgid "Device"
 msgstr "デバイス"
 
-#: harddrake2:153
+#: harddrake2:151
 #, c-format
 msgid "Partitions"
 msgstr "パーティション"
 
-#: harddrake2:158
+#: harddrake2:156
 #, c-format
 msgid "Features"
 msgstr "機能"
 
 #. -PO: please keep all "/" characters !!!
-#: harddrake2:181 logdrake:78
+#: harddrake2:179 logdrake:82
 #, c-format
 msgid "/_Options"
 msgstr "/オプション(_O)"
 
-#: harddrake2:182 harddrake2:208 logdrake:80
+#: harddrake2:180 harddrake2:203 logdrake:84
 #, c-format
 msgid "/_Help"
 msgstr "/ヘルプ(_H)"
 
-#: harddrake2:186
+#: harddrake2:184
 #, c-format
 msgid "/Autodetect _modems"
 msgstr "/モデムを自動検出(_M)"
 
-#: harddrake2:187
-#, c-format
-msgid "/Autodetect _jaz drives"
-msgstr "/Jaz ドライブを自動検出(_J)"
-
-#: harddrake2:188
+#: harddrake2:185
 #, c-format
 msgid "/Autodetect parallel _zip drives"
 msgstr "/パラレル Zip ドライブを自動検出(_Z)"
 
-#: harddrake2:192
+#: harddrake2:189
 #, c-format
 msgid "Hardware Configuration"
 msgstr "ハードウェアの設定"
 
-#: harddrake2:199
+#: harddrake2:196
 #, c-format
 msgid "/_Quit"
 msgstr "/終了(_Q)"
 
-#: harddrake2:210
+#: harddrake2:205
 #, c-format
 msgid "/_Fields description"
 msgstr "/項目の説明(_F)"
 
-#: harddrake2:212
+#: harddrake2:207
 #, c-format
 msgid "Harddrake help"
 msgstr "Harddrake のヘルプ"
 
-#: harddrake2:213
+#: harddrake2:208
 #, c-format
 msgid ""
 "Description of the fields:\n"
@@ -2338,101 +2343,106 @@ msgstr ""
 "項目の説明:\n"
 "\n"
 
-#: harddrake2:221
+#: harddrake2:216
 #, c-format
 msgid "Select a device!"
 msgstr "デバイスを選んでください"
 
-#: harddrake2:221
+#: harddrake2:216
 #, c-format
 msgid ""
 "Once you've selected a device, you'll be able to see the device information "
 "in fields displayed on the right frame (\"Information\")"
 msgstr "デバイスを選択すると右のフレームにデバイスの情報が表示されます。"
 
-#: harddrake2:227
+#: harddrake2:222
 #, c-format
 msgid "/_Report Bug"
 msgstr "/バグを報告(_R)"
 
-#: harddrake2:229
+#: harddrake2:224
 #, c-format
 msgid "/_About..."
 msgstr "/情報(_A)..."
 
-#: harddrake2:232
+#: harddrake2:227
 #, c-format
 msgid "Harddrake"
 msgstr "Harddrake"
 
-#: harddrake2:236
+#: harddrake2:231
 #, c-format
 msgid "This is HardDrake, a %s hardware configuration tool."
 msgstr "これは HardDrake %s ハードウェア設定ツールです。"
 
-#: harddrake2:269
+#: harddrake2:233
+#, fuzzy, c-format
+msgid "OpenMandriva Linux"
+msgstr "OpenMandriva Lx"
+
+#: harddrake2:264
 #, c-format
 msgid "Detected hardware"
 msgstr "検出したハードウェア"
 
-#: harddrake2:272 scannerdrake:284
+#: harddrake2:267 scannerdrake:283
 #, c-format
 msgid "Information"
 msgstr "情報"
 
-#: harddrake2:274
+#: harddrake2:269
 #, c-format
 msgid "Set current driver options"
 msgstr "現在のドライバのオプションを設定"
 
-#: harddrake2:281
+#: harddrake2:276
 #, c-format
 msgid "Run config tool"
 msgstr "設定ツールを実行"
 
-#: harddrake2:301
+#: harddrake2:296
 #, c-format
 msgid ""
 "Click on a device in the tree on the left in order to display its "
 "information here."
 msgstr "情報を表示するには左のデバイスをクリックしてください。"
 
-#: harddrake2:322 notify-x11-free-driver-switch:13
+#: harddrake2:317 notify-x11-free-driver-switch:13
 #, c-format
 msgid "unknown"
 msgstr "不明"
 
-#: harddrake2:323
+#: harddrake2:318
 #, c-format
 msgid "Unknown"
 msgstr "不明"
 
-#: harddrake2:343
+#: harddrake2:338
 #, c-format
 msgid "Misc"
 msgstr "その他"
 
-#: harddrake2:425
+#: harddrake2:420
 #, c-format
 msgid "secondary"
 msgstr "二次"
 
-#: harddrake2:425
+#: harddrake2:420
 #, c-format
 msgid "primary"
 msgstr "一次"
 
-#: harddrake2:429
+#: harddrake2:424
 #, c-format
 msgid "burner"
 msgstr "ライター"
 
-#: harddrake2:429
+#: harddrake2:424
 #, c-format
 msgid "DVD"
 msgstr "DVD"
 
-#: harddrake2:533
+#: harddrake2:528
 #, c-format
 msgid "The following packages need to be installed:\n"
 msgstr "以下のパッケージをインストールします:\n"
@@ -2453,220 +2463,220 @@ msgstr "次のパッケージをインストールしてください: %s"
 msgid ", "
 msgstr ", "
 
-#: logdrake:51
+#: logdrake:55
 #, c-format
-msgid "OpenMandriva Lx Tools Logs"
-msgstr "OpenMandriva Lx ツールのログ"
+msgid "%s Tools Logs"
+msgstr ""
 
-#: logdrake:65
+#: logdrake:69
 #, c-format
 msgid "Show only for the selected day"
 msgstr "指定した日の分だけを表示"
 
-#: logdrake:72
+#: logdrake:76
 #, c-format
 msgid "/File/_New"
 msgstr "/ファイル(F)/新規(_N)"
 
-#: logdrake:72
+#: logdrake:76
 #, c-format
 msgid "<control>N"
 msgstr "<control>N"
 
-#: logdrake:73
+#: logdrake:77
 #, c-format
 msgid "/File/_Open"
 msgstr "/ファイル(F)/開く(_O)"
 
-#: logdrake:73
+#: logdrake:77
 #, c-format
 msgid "<control>O"
 msgstr "<control>O"
 
-#: logdrake:74
+#: logdrake:78
 #, c-format
 msgid "/File/_Save"
 msgstr "/ファイル(F)/保存(_S)"
 
-#: logdrake:74
+#: logdrake:78
 #, c-format
 msgid "<control>S"
 msgstr "<control>S"
 
-#: logdrake:75
+#: logdrake:79
 #, c-format
 msgid "/File/Save _As"
 msgstr "/ファイル(F)/名前を付けて保存(_A)"
 
-#: logdrake:76
+#: logdrake:80
 #, c-format
 msgid "/File/-"
 msgstr "/ファイル(F)/-"
 
-#: logdrake:79
+#: logdrake:83
 #, c-format
 msgid "/Options/Test"
 msgstr "/オプション(O)/テスト"
 
-#: logdrake:81
+#: logdrake:85
 #, c-format
 msgid "/Help/_About..."
 msgstr "/ヘルプ(H)/情報(_A)..."
 
-#: logdrake:110
+#: logdrake:114
 #, c-format
 msgid ""
 "_:this is the auth.log log file\n"
 "Authentication"
 msgstr "Authentication"
 
-#: logdrake:111
+#: logdrake:115
 #, c-format
 msgid ""
 "_:this is the user.log log file\n"
 "User"
 msgstr "User"
 
-#: logdrake:112
+#: logdrake:116
 #, c-format
 msgid ""
 "_:this is the /var/log/messages log file\n"
 "Messages"
 msgstr "Messages"
 
-#: logdrake:113
+#: logdrake:117
 #, c-format
 msgid ""
 "_:this is the /var/log/syslog log file\n"
 "Syslog"
 msgstr "Syslog"
 
-#: logdrake:117
+#: logdrake:121
 #, c-format
 msgid "search"
 msgstr "検索"
 
-#: logdrake:129
+#: logdrake:133
 #, c-format
 msgid "A tool to monitor your logs"
 msgstr "ログを監視するツール"
 
-#: logdrake:131
+#: logdrake:135
 #, c-format
 msgid "Settings"
 msgstr "設定"
 
-#: logdrake:134
+#: logdrake:138
 #, c-format
 msgid "Matching"
 msgstr "一致するもの"
 
-#: logdrake:135
+#: logdrake:139
 #, c-format
 msgid "but not matching"
 msgstr "一致しないもの"
 
-#: logdrake:138
+#: logdrake:142
 #, c-format
 msgid "Choose file"
 msgstr "ファイルを選択"
 
-#: logdrake:150
+#: logdrake:154
 #, c-format
 msgid "Calendar"
 msgstr "カレンダー"
 
-#: logdrake:159
+#: logdrake:163
 #, c-format
 msgid "Content of the file"
 msgstr "ファイルの内容"
 
-#: logdrake:163 logdrake:407
+#: logdrake:167 logdrake:411
 #, c-format
 msgid "Mail alert"
 msgstr "メール警告"
 
-#: logdrake:170
+#: logdrake:174
 #, c-format
 msgid "The alert wizard has failed unexpectedly:"
 msgstr "警告ウィザードが異常終了しました:"
 
-#: logdrake:174
+#: logdrake:178
 #, c-format
 msgid "Save"
 msgstr "保存する"
 
-#: logdrake:222
+#: logdrake:226
 #, c-format
 msgid "please wait, parsing file: %s"
 msgstr "ファイル %s を探しています。お待ちください.."
 
-#: logdrake:244
+#: logdrake:248
 #, c-format
 msgid "Sorry, log file isn't available!"
 msgstr "ログファイルが利用できません。"
 
-#: logdrake:292
+#: logdrake:296
 #, c-format
 msgid "Error while opening \"%s\" log file: %s\n"
 msgstr "ログファイル \"%s\" を開く際にエラーが発生しました: %s\n"
 
-#: logdrake:385
+#: logdrake:389
 #, c-format
 msgid "Apache World Wide Web Server"
 msgstr "Apache WWW サーバ"
 
-#: logdrake:386
+#: logdrake:390
 #, c-format
 msgid "Domain Name Resolver"
 msgstr "ドメイン名リゾルバ"
 
-#: logdrake:387
+#: logdrake:391
 #, c-format
 msgid "Ftp Server"
 msgstr "FTP サーバ"
 
-#: logdrake:388
+#: logdrake:392
 #, c-format
 msgid "Postfix Mail Server"
 msgstr "Postfix メールサーバ"
 
-#: logdrake:389
+#: logdrake:393
 #, c-format
 msgid "Samba Server"
 msgstr "samba サーバ"
 
-#: logdrake:390
+#: logdrake:394
 #, c-format
 msgid "SSH Server"
 msgstr "SSH サーバ"
 
-#: logdrake:391
+#: logdrake:395
 #, c-format
 msgid "Webmin Service"
 msgstr "Webmin サービス"
 
-#: logdrake:392
+#: logdrake:396
 #, c-format
 msgid "Xinetd Service"
 msgstr "Xinetd サービス"
 
-#: logdrake:401
+#: logdrake:405
 #, c-format
 msgid "Configure the mail alert system"
 msgstr "メール警告システムを設定"
 
-#: logdrake:402
+#: logdrake:406
 #, c-format
 msgid "Stop the mail alert system"
 msgstr "メール警告システムを停止"
 
-#: logdrake:410
+#: logdrake:414
 #, c-format
 msgid "Mail alert configuration"
 msgstr "メール警告を設定"
 
-#: logdrake:411
+#: logdrake:415
 #, c-format
 msgid ""
 "Welcome to the mail configuration utility.\n"
@@ -2677,71 +2687,71 @@ msgstr ""
 "\n"
 "ここでは警告システムを設定します。\n"
 
-#: logdrake:414
+#: logdrake:418
 #, c-format
 msgid "What do you want to do?"
 msgstr "何をしますか？"
 
-#: logdrake:421
+#: logdrake:425
 #, c-format
 msgid "Services settings"
 msgstr "サービスの設定"
 
-#: logdrake:422
+#: logdrake:426
 #, c-format
 msgid ""
 "You will receive an alert if one of the selected services is no longer "
 "running"
 msgstr "選択したサービスが停止すると警告します"
 
-#: logdrake:429
+#: logdrake:433
 #, c-format
 msgid "Load setting"
 msgstr "負荷の設定"
 
-#: logdrake:430
+#: logdrake:434
 #, c-format
 msgid "You will receive an alert if the load is higher than this value"
 msgstr "負荷がこの値より大きくなると警告します"
 
-#: logdrake:431
+#: logdrake:435
 #, c-format
 msgid ""
 "_: load here is a noun, the load of the system\n"
 "Load"
 msgstr "ロード"
 
-#: logdrake:436
+#: logdrake:440
 #, c-format
 msgid "Alert configuration"
 msgstr "警告の設定"
 
-#: logdrake:437
+#: logdrake:441
 #, c-format
 msgid "Please enter your email address below "
 msgstr "メールアドレスを入力してください"
 
-#: logdrake:438
+#: logdrake:442
 #, c-format
 msgid "and enter the name (or the IP) of the SMTP server you wish to use"
 msgstr "/使用する SMTP サーバの名前 (または IP) を入力"
 
-#: logdrake:440
+#: logdrake:444
 #, fuzzy, c-format
 msgid "Email address"
 msgstr "IP アドレス"
 
-#: logdrake:441
+#: logdrake:445
 #, fuzzy, c-format
 msgid "Email server"
 msgstr "samba サーバ"
 
-#: logdrake:445
+#: logdrake:449
 #, c-format
 msgid "\"%s\" neither is a valid email nor is an existing local user!"
 msgstr "\"%s\" は有効なメールアドレス/ローカルユーザ名ではありません"
 
-#: logdrake:450
+#: logdrake:454
 #, c-format
 msgid ""
 "\"%s\" is a local user, but you did not select a local smtp, so you must use "
@@ -2750,23 +2760,23 @@ msgstr ""
 "\"%s\" は有効なローカルユーザ名ですが、ローカル smtp が選択されていないので、"
 "有効なメールアドレスを指定してください。"
 
-#: logdrake:457
+#: logdrake:461
 #, c-format
 msgid "The wizard successfully configured the mail alert."
 msgstr "メール警告の設定が完了しました。"
 
-#: logdrake:463
+#: logdrake:467
 #, c-format
 msgid "The wizard successfully disabled the mail alert."
 msgstr "メール警告を無効にしました。"
 
-#: logdrake:522
+#: logdrake:526
 #, c-format
 msgid "Save as.."
 msgstr "名前を付けて保存"
 
-#: notify-x11-free-driver-switch:18 service_harddrake:474
-#: service_harddrake:487
+#: notify-x11-free-driver-switch:18 service_harddrake:465
+#: service_harddrake:478
 #, c-format
 msgid "Display driver setup"
 msgstr ""
@@ -2781,7 +2791,7 @@ msgstr ""
 msgid "Reason: %s."
 msgstr ""
 
-#: scannerdrake:49
+#: scannerdrake:48
 #, c-format
 msgid ""
 "SANE packages need to be installed to use scanners.\n"
@@ -2792,99 +2802,99 @@ msgstr ""
 "\n"
 "SANE パッケージをインストールしますか？"
 
-#: scannerdrake:53
+#: scannerdrake:52
 #, c-format
 msgid "Aborting Scannerdrake."
 msgstr "Scannerdrake を中止します。"
 
-#: scannerdrake:58
+#: scannerdrake:57
 #, c-format
 msgid ""
 "Could not install the packages needed to set up a scanner with Scannerdrake."
 msgstr ""
 "Scannerdrake でスキャナを設定するのに必要なファイルをインストールできません。"
 
-#: scannerdrake:59
+#: scannerdrake:58
 #, c-format
 msgid "Scannerdrake will not be started now."
 msgstr "Scannerdrake は起動しません。"
 
-#: scannerdrake:65 scannerdrake:503
+#: scannerdrake:64 scannerdrake:502
 #, c-format
 msgid "Searching for configured scanners..."
 msgstr "設定済みのスキャナを検索中..."
 
-#: scannerdrake:69 scannerdrake:507
+#: scannerdrake:68 scannerdrake:506
 #, c-format
 msgid "Searching for new scanners..."
 msgstr "新しいスキャナを検索中..."
 
-#: scannerdrake:77 scannerdrake:529
+#: scannerdrake:76 scannerdrake:528
 #, c-format
 msgid "Re-generating list of configured scanners..."
 msgstr "設定済みのスキャナのリストを再生成中..."
 
-#: scannerdrake:99
+#: scannerdrake:98
 #, c-format
 msgid "The %s is not supported by this version of %s."
 msgstr "%s はこのバージョンの %s ではサポートしていません。"
 
-#: scannerdrake:102 scannerdrake:113
+#: scannerdrake:101 scannerdrake:112
 #, c-format
 msgid "Confirmation"
 msgstr "確認"
 
-#: scannerdrake:102
+#: scannerdrake:101
 #, c-format
 msgid "%s found on %s, configure it automatically?"
 msgstr "%s が %s に見つかりました。自動的に設定しますか？"
 
-#: scannerdrake:114
+#: scannerdrake:113
 #, c-format
 msgid "%s is not in the scanner database, configure it manually?"
 msgstr "%s はスキャナのデータベースにありません。手動で設定しますか？"
 
-#: scannerdrake:128
+#: scannerdrake:127
 #, c-format
 msgid "Scanner configuration"
 msgstr "スキャナの設定"
 
-#: scannerdrake:129
+#: scannerdrake:128
 #, c-format
 msgid "Select a scanner model (Detected model: %s, Port: %s)"
 msgstr "スキャナのモデルを選択 (検出したモデル : %s, ポート: %s)"
 
-#: scannerdrake:131
+#: scannerdrake:130
 #, c-format
 msgid "Select a scanner model (Detected model: %s)"
 msgstr "スキャナのモデルを選択 (検出したモデル : %s)"
 
-#: scannerdrake:132
+#: scannerdrake:131
 #, c-format
 msgid "Select a scanner model (Port: %s)"
 msgstr "スキャナのモデルを選択 (ポート: %s)"
 
-#: scannerdrake:134 scannerdrake:137
+#: scannerdrake:133 scannerdrake:136
 #, c-format
 msgid " (UNSUPPORTED)"
 msgstr " (サポートなし)"
 
-#: scannerdrake:140
+#: scannerdrake:139
 #, c-format
 msgid "The %s is not supported under Linux."
 msgstr "%s は Linux ではサポートされていません。"
 
-#: scannerdrake:167 scannerdrake:181
+#: scannerdrake:166 scannerdrake:180
 #, c-format
 msgid "Do not install firmware file"
 msgstr "ファームウェアファイルをインストールしない"
 
-#: scannerdrake:170 scannerdrake:220
+#: scannerdrake:169 scannerdrake:219
 #, c-format
 msgid "Scanner Firmware"
 msgstr "スキャナのファームウェア"
 
-#: scannerdrake:171 scannerdrake:223
+#: scannerdrake:170 scannerdrake:222
 #, c-format
 msgid ""
 "It is possible that your %s needs its firmware to be uploaded everytime when "
@@ -2893,12 +2903,12 @@ msgstr ""
 "お使いの %s は使用するたびにファームウェアをアップロードする必要があるかもし"
 "れません。"
 
-#: scannerdrake:172 scannerdrake:224
+#: scannerdrake:171 scannerdrake:223
 #, c-format
 msgid "If this is the case, you can make this be done automatically."
 msgstr "その場合は、これを自動的に行うように設定することができます。"
 
-#: scannerdrake:173 scannerdrake:227
+#: scannerdrake:172 scannerdrake:226
 #, c-format
 msgid ""
 "To do so, you need to supply the firmware file for your scanner so that it "
@@ -2907,7 +2917,7 @@ msgstr ""
 "そうするためには、お使いのスキャナ用のファームウェアをインストールする必要が"
 "あります。"
 
-#: scannerdrake:174 scannerdrake:228
+#: scannerdrake:173 scannerdrake:227
 #, c-format
 msgid ""
 "You find the file on the CD or floppy coming with the scanner, on the "
@@ -2916,37 +2926,37 @@ msgstr ""
 "ファイルはスキャナ付属の CD/フロッピー、メーカーのホームページまたは Windows "
 "のパーティションにあります。"
 
-#: scannerdrake:176 scannerdrake:235
+#: scannerdrake:175 scannerdrake:234
 #, c-format
 msgid "Install firmware file from"
 msgstr "以下からファームウェアをインストール"
 
-#: scannerdrake:178 scannerdrake:186 scannerdrake:237 scannerdrake:244
+#: scannerdrake:177 scannerdrake:185 scannerdrake:236 scannerdrake:243
 #, c-format
 msgid "CD-ROM"
 msgstr "CD-ROM"
 
-#: scannerdrake:179 scannerdrake:188 scannerdrake:238 scannerdrake:246
+#: scannerdrake:178 scannerdrake:187 scannerdrake:237 scannerdrake:245
 #, c-format
 msgid "Floppy Disk"
 msgstr "フロッピーディスク"
 
-#: scannerdrake:180 scannerdrake:190 scannerdrake:239 scannerdrake:248
+#: scannerdrake:179 scannerdrake:189 scannerdrake:238 scannerdrake:247
 #, c-format
 msgid "Other place"
 msgstr "その他の場所"
 
-#: scannerdrake:196
+#: scannerdrake:195
 #, c-format
 msgid "Select firmware file"
 msgstr "ファームウェアファイルを選択"
 
-#: scannerdrake:199 scannerdrake:258
+#: scannerdrake:198 scannerdrake:257
 #, c-format
 msgid "The firmware file %s does not exist or is unreadable!"
 msgstr "ファームウェアファイル %s は存在しないか読めません"
 
-#: scannerdrake:222
+#: scannerdrake:221
 #, c-format
 msgid ""
 "It is possible that your scanners need their firmware to be uploaded "
@@ -2955,7 +2965,7 @@ msgstr ""
 "お使いのスキャナは使用するたびにファームウェアをアップロードする必要があるか"
 "もしれません。"
 
-#: scannerdrake:226
+#: scannerdrake:225
 #, c-format
 msgid ""
 "To do so, you need to supply the firmware files for your scanners so that it "
@@ -2964,7 +2974,7 @@ msgstr ""
 "そうするためには、お使いのスキャナ用のファームウェアをインストールする必要が"
 "あります。"
 
-#: scannerdrake:229
+#: scannerdrake:228
 #, c-format
 msgid ""
 "If you have already installed your scanner's firmware you can update the "
@@ -2973,32 +2983,32 @@ msgstr ""
 "既にスキャナのファームウェアがインストールされている場合は、新しいファーム"
 "ウェアファイルを供給してアップデートすることができます。"
 
-#: scannerdrake:231
+#: scannerdrake:230
 #, c-format
 msgid "Install firmware for the"
 msgstr "以下からファームウェアをインストール"
 
-#: scannerdrake:254
+#: scannerdrake:253
 #, c-format
 msgid "Select firmware file for the %s"
 msgstr "%s のファームウェアファイルを選択"
 
-#: scannerdrake:272
+#: scannerdrake:271
 #, c-format
 msgid "Could not install the firmware file for the %s!"
 msgstr "%s のファームウェアファイルをインストールできません。"
 
-#: scannerdrake:285
+#: scannerdrake:284
 #, c-format
 msgid "The firmware file for your %s was successfully installed."
 msgstr "%s のファームウェアファイルをインストールしました。"
 
-#: scannerdrake:295
+#: scannerdrake:294
 #, c-format
 msgid "The %s is unsupported"
 msgstr "%s はサポートしていません"
 
-#: scannerdrake:300
+#: scannerdrake:299
 #, c-format
 msgid ""
 "The %s must be configured by system-config-printer.\n"
@@ -3009,49 +3019,49 @@ msgstr ""
 "system-config-printerは %s コントロールセンターのハードウェアから起動できま"
 "す。"
 
-#: scannerdrake:318
+#: scannerdrake:317
 #, c-format
 msgid "Setting up kernel modules..."
 msgstr "カーネルモジュールを設定中..."
 
-#: scannerdrake:328 scannerdrake:335 scannerdrake:365
+#: scannerdrake:327 scannerdrake:334 scannerdrake:364
 #, c-format
 msgid "Auto-detect available ports"
 msgstr "利用可能なポートを自動的に検出"
 
-#: scannerdrake:329 scannerdrake:375
+#: scannerdrake:328 scannerdrake:374
 #, c-format
 msgid "Device choice"
 msgstr "デバイスの選択"
 
-#: scannerdrake:330 scannerdrake:376
+#: scannerdrake:329 scannerdrake:375
 #, c-format
 msgid "Please select the device where your %s is attached"
 msgstr "%s が接続されているデバイスを選んでください"
 
-#: scannerdrake:331
+#: scannerdrake:330
 #, c-format
 msgid "(Note: Parallel ports cannot be auto-detected)"
 msgstr ""
 " \n"
 "(注意: パラレルポートは自動検出されません)"
 
-#: scannerdrake:333 scannerdrake:378
+#: scannerdrake:332 scannerdrake:377
 #, c-format
 msgid "choose device"
 msgstr "デバイスを選択"
 
-#: scannerdrake:367
+#: scannerdrake:366
 #, c-format
 msgid "Searching for scanners..."
 msgstr "スキャナを検索中..."
 
-#: scannerdrake:403 scannerdrake:410
+#: scannerdrake:402 scannerdrake:409
 #, c-format
 msgid "Attention!"
 msgstr "注意!!"
 
-#: scannerdrake:404
+#: scannerdrake:403
 #, c-format
 msgid ""
 "Your %s cannot be configured fully automatically.\n"
@@ -3064,7 +3074,7 @@ msgstr ""
 "手動で調整する必要があります。設定ファイル /etc/sane.d/%s.conf. を編集してく"
 "ださい。"
 
-#: scannerdrake:405 scannerdrake:414
+#: scannerdrake:404 scannerdrake:413
 #, c-format
 msgid ""
 "More info in the driver's manual page. Run the command \"man sane-%s\" to "
@@ -3073,7 +3083,7 @@ msgstr ""
 "詳しくはドライバのマニュアルを参照してください。コマンド 'man sane-%s' で読む"
 "ことができます。"
 
-#: scannerdrake:407 scannerdrake:416
+#: scannerdrake:406 scannerdrake:415
 #, fuzzy, c-format
 msgid ""
 "After that you may scan documents using \"XSane\" or \"%s\" from Multimedia/"
@@ -3082,7 +3092,7 @@ msgstr ""
 "設定が完了すると、メニューのマルチメディア/グラフィックスの XSane や Kooka を"
 "使って文書をスキャンできます。"
 
-#: scannerdrake:411
+#: scannerdrake:410
 #, c-format
 msgid ""
 "Your %s has been configured, but it is possible that additional manual "
@@ -3091,7 +3101,7 @@ msgstr ""
 "お使いの %s の設定が完了しましたが正常に動作させるためには手動で設定を調整す"
 "る必要があるかもしれません。"
 
-#: scannerdrake:412
+#: scannerdrake:411
 #, c-format
 msgid ""
 "If it does not appear in the list of configured scanners in the main window "
@@ -3099,17 +3109,17 @@ msgid ""
 msgstr ""
 "Scannerdrake の設定済みスキャナのリストにない場合または正常に動作しない場合は"
 
-#: scannerdrake:413
+#: scannerdrake:412
 #, c-format
 msgid "edit the configuration file /etc/sane.d/%s.conf. "
 msgstr "設定ファイル /etc/sane.d/%s.conf. を編集してください。"
 
-#: scannerdrake:418
+#: scannerdrake:417
 #, c-format
 msgid "Congratulations!"
 msgstr "おめでとうございます!"
 
-#: scannerdrake:419
+#: scannerdrake:418
 #, fuzzy, c-format
 msgid ""
 "Your %s has been configured.\n"
@@ -3120,7 +3130,7 @@ msgstr ""
 "XSane や Kooka を使って文書をスキャンできます。\n"
 "(マルチメディア->グラフィックスから選択)"
 
-#: scannerdrake:444
+#: scannerdrake:443
 #, c-format
 msgid ""
 "The following scanners\n"
@@ -3133,7 +3143,7 @@ msgstr ""
 "%s\n"
 "がこのシステムで利用できます。\n"
 
-#: scannerdrake:445
+#: scannerdrake:444
 #, c-format
 msgid ""
 "The following scanner\n"
@@ -3146,52 +3156,52 @@ msgstr ""
 "%s\n"
 "がこのシステムで利用できます。\n"
 
-#: scannerdrake:447 scannerdrake:450
+#: scannerdrake:446 scannerdrake:449
 #, c-format
 msgid "There are no scanners found which are available on your system.\n"
 msgstr "このシステムには利用可能なスキャナがありません。\n"
 
-#: scannerdrake:458
+#: scannerdrake:457
 #, c-format
 msgid "Scanner Management"
 msgstr "スキャナの管理"
 
-#: scannerdrake:464
+#: scannerdrake:463
 #, c-format
 msgid "Search for new scanners"
 msgstr "新しいスキャナを検索"
 
-#: scannerdrake:470
+#: scannerdrake:469
 #, c-format
 msgid "Add a scanner manually"
 msgstr "手動でスキャナを追加"
 
-#: scannerdrake:477
+#: scannerdrake:476
 #, c-format
 msgid "Install/Update firmware files"
 msgstr "ファームウェアファイルをインストール/更新"
 
-#: scannerdrake:483
+#: scannerdrake:482
 #, c-format
 msgid "Scanner sharing"
 msgstr "スキャナを共有"
 
-#: scannerdrake:542 scannerdrake:707
+#: scannerdrake:541 scannerdrake:706
 #, c-format
 msgid "All remote machines"
 msgstr "すべてのリモートマシンで"
 
-#: scannerdrake:554 scannerdrake:857
+#: scannerdrake:553 scannerdrake:856
 #, c-format
 msgid "This machine"
 msgstr "このマシン"
 
-#: scannerdrake:593
+#: scannerdrake:592
 #, c-format
 msgid "Scanner Sharing"
 msgstr "スキャナを共有"
 
-#: scannerdrake:594
+#: scannerdrake:593
 #, c-format
 msgid ""
 "Here you can choose whether the scanners connected to this machine should be "
@@ -3200,7 +3210,7 @@ msgstr ""
 "リモートマシンからこのマシンのスキャナへのアクセスを許可するかどうか、\n"
 "また、どのリモートマシンに許可するかを設定します。"
 
-#: scannerdrake:595
+#: scannerdrake:594
 #, c-format
 msgid ""
 "You can also decide here whether scanners on remote machines should be made "
@@ -3210,95 +3220,95 @@ msgstr ""
 "さらに、このマシンからリモートマシンのスキャナを利用できるようにするか\n"
 "どうかも、ここで設定できます。"
 
-#: scannerdrake:598
+#: scannerdrake:597
 #, c-format
 msgid "The scanners on this machine are available to other computers"
 msgstr "このマシンのスキャナをリモートマシンで利用可能にする"
 
-#: scannerdrake:600
+#: scannerdrake:599
 #, c-format
 msgid "Scanner sharing to hosts: "
 msgstr "以下のホストにスキャナを共有させる: "
 
-#: scannerdrake:605 scannerdrake:622
+#: scannerdrake:604 scannerdrake:621
 #, c-format
 msgid "No remote machines"
 msgstr "リモートマシンがありません"
 
-#: scannerdrake:614
+#: scannerdrake:613
 #, c-format
 msgid "Use scanners on remote computers"
 msgstr "リモートマシンのスキャナを利用する"
 
-#: scannerdrake:617
+#: scannerdrake:616
 #, c-format
 msgid "Use the scanners on hosts: "
 msgstr "以下のホストのスキャナを利用する: "
 
-#: scannerdrake:644 scannerdrake:716 scannerdrake:866
+#: scannerdrake:643 scannerdrake:715 scannerdrake:865
 #, c-format
 msgid "Sharing of local scanners"
 msgstr "ローカルスキャナを共有"
 
-#: scannerdrake:645
+#: scannerdrake:644
 #, c-format
 msgid ""
 "These are the machines on which the locally connected scanner(s) should be "
 "available:"
 msgstr "ローカルに接続されたスキャナを以下のマシンで利用可能にする:"
 
-#: scannerdrake:656 scannerdrake:806
+#: scannerdrake:655 scannerdrake:805
 #, c-format
 msgid "Add host"
 msgstr "ホストを追加"
 
-#: scannerdrake:662 scannerdrake:812
+#: scannerdrake:661 scannerdrake:811
 #, c-format
 msgid "Edit selected host"
 msgstr "選択されたホストを編集"
 
-#: scannerdrake:671 scannerdrake:821
+#: scannerdrake:670 scannerdrake:820
 #, c-format
 msgid "Remove selected host"
 msgstr "選択されたホストを削除"
 
-#: scannerdrake:680 scannerdrake:830
+#: scannerdrake:679 scannerdrake:829
 #, c-format
 msgid "Done"
 msgstr "完了"
 
-#: scannerdrake:695 scannerdrake:703 scannerdrake:708 scannerdrake:754
-#: scannerdrake:845 scannerdrake:853 scannerdrake:858 scannerdrake:904
+#: scannerdrake:694 scannerdrake:702 scannerdrake:707 scannerdrake:753
+#: scannerdrake:844 scannerdrake:852 scannerdrake:857 scannerdrake:903
 #, c-format
 msgid "Name/IP address of host:"
 msgstr "ホストの名前/IP アドレス:"
 
-#: scannerdrake:717 scannerdrake:867
+#: scannerdrake:716 scannerdrake:866
 #, c-format
 msgid "Choose the host on which the local scanners should be made available:"
 msgstr "ローカルスキャナを利用可能にするホストを選んでください:"
 
-#: scannerdrake:728 scannerdrake:878
+#: scannerdrake:727 scannerdrake:877
 #, c-format
 msgid "You must enter a host name or an IP address.\n"
 msgstr "ホスト名か IP アドレスを入力してください。\n"
 
-#: scannerdrake:739 scannerdrake:889
+#: scannerdrake:738 scannerdrake:888
 #, c-format
 msgid "This host is already in the list, it cannot be added again.\n"
 msgstr "このホストは既にリストにあります。追加できません。\n"
 
-#: scannerdrake:794
+#: scannerdrake:793
 #, c-format
 msgid "Usage of remote scanners"
 msgstr "リモートスキャナの使用"
 
-#: scannerdrake:795
+#: scannerdrake:794
 #, c-format
 msgid "These are the machines from which the scanners should be used:"
 msgstr "スキャナを利用できるリモートマシン:"
 
-#: scannerdrake:952
+#: scannerdrake:951
 #, c-format
 msgid ""
 "saned needs to be installed to share the local scanner(s).\n"
@@ -3309,72 +3319,72 @@ msgstr ""
 "\n"
 "saned パッケージをインストールしますか？"
 
-#: scannerdrake:956 scannerdrake:960
+#: scannerdrake:955 scannerdrake:959
 #, c-format
 msgid "Your scanner(s) will not be available on the network."
 msgstr "お使いのスキャナはネットワークで使用できません。"
 
-#: scannerdrake:959
+#: scannerdrake:958
 #, c-format
 msgid "Could not install the packages needed to share your scanner(s)."
 msgstr "スキャナを共有するために必要なパッケージをインストールできません"
 
-#: service_harddrake:173
+#: service_harddrake:170
 #, fuzzy, c-format
 msgid "The graphics card '%s' is no longer supported by driver '%s'"
 msgstr "%s はこのバージョンの %s ではサポートしていません。"
 
-#: service_harddrake:183
+#: service_harddrake:180
 #, c-format
 msgid "New release, reconfiguring X for %s"
 msgstr ""
 
-#: service_harddrake:274
+#: service_harddrake:271
 #, c-format
 msgid "The proprietary kernel driver was not found for X.org driver '%s'"
 msgstr ""
 
-#: service_harddrake:313
+#: service_harddrake:310
 #, c-format
 msgid "Some devices in the \"%s\" hardware class were removed:\n"
 msgstr "%s ハードウェアクラスのデバイスの一部を削除しました:\n"
 
-#: service_harddrake:314
+#: service_harddrake:311
 #, c-format
 msgid "- %s was removed\n"
 msgstr "- %s を削除しました\n"
 
-#: service_harddrake:317
+#: service_harddrake:314
 #, c-format
 msgid "Some devices were added: %s\n"
 msgstr "いくつかのデバイスを追加しました: %s\n"
 
-#: service_harddrake:318
+#: service_harddrake:315
 #, c-format
 msgid "- %s was added\n"
 msgstr "- %s を追加しました\n"
 
-#: service_harddrake:406
+#: service_harddrake:397
 #, c-format
 msgid "Hardware changes in \"%s\" class (%s seconds to answer)"
 msgstr "%s クラスのハードウェアの変更 (%s 秒以内に答えてください）"
 
-#: service_harddrake:407
+#: service_harddrake:398
 #, c-format
 msgid "Do you want to run the appropriate config tool?"
 msgstr "適切な設定ツールを起動しますか？"
 
-#: service_harddrake:432
+#: service_harddrake:423
 #, c-format
 msgid "Hardware probing in progress"
 msgstr "ハードウェアを検出中"
 
-#: service_harddrake:453 service_harddrake:458
+#: service_harddrake:444 service_harddrake:449
 #, c-format
 msgid "Display driver issue"
 msgstr ""
 
-#: service_harddrake:454
+#: service_harddrake:445
 #, c-format
 msgid ""
 "The display driver currently configured requires you to use the 'nokmsboot' "
@@ -3383,7 +3393,7 @@ msgid ""
 "specified."
 msgstr ""
 
-#: service_harddrake:459
+#: service_harddrake:450
 #, c-format
 msgid ""
 "Detected a loaded display driver kernel module which conflicts with the "
@@ -3391,12 +3401,12 @@ msgid ""
 "fail."
 msgstr ""
 
-#: service_harddrake:474 service_harddrake:487
+#: service_harddrake:465 service_harddrake:478
 #, c-format
 msgid "The system has to be rebooted due to a display driver change."
 msgstr ""
 
-#: service_harddrake:475 service_harddrake:488
+#: service_harddrake:466 service_harddrake:479
 #, c-format
 msgid "Press Cancel within %d seconds to abort."
 msgstr ""
@@ -3428,6 +3438,15 @@ msgstr "言語と国の設定"
 #: ../menu/localedrake-user.desktop.in.h:2
 msgid "Language & country configuration"
 msgstr "言語と国の設定"
+
+#~ msgid "Configure authentication required to access OpenMandriva tools"
+#~ msgstr "Mandriva ツールにアクセスするための認証方法を設定"
+
+#~ msgid "/Autodetect _jaz drives"
+#~ msgstr "/Jaz ドライブを自動検出(_J)"
+
+#~ msgid "OpenMandriva Lx Tools Logs"
+#~ msgstr "OpenMandriva Lx ツールのログ"
 
 #~ msgid "/Autodetect _printers"
 #~ msgstr "/プリンタを自動検出(_P)"

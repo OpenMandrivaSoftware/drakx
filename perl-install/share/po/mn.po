@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: DrakX\n"
-"POT-Creation-Date: 2012-08-25 11:38+0200\n"
+"POT-Creation-Date: 2015-06-24 12:07+0100\n"
 "PO-Revision-Date: 2004-01-02 00:35+0100\n"
 "Last-Translator: Sanlig Badral <Badral@openmn.org>\n"
 "Language-Team: Mongolian <openmn-core@lists.sf.net>\n"
@@ -17,21 +17,22 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.0.2\n"
 
-#: any.pm:268 any.pm:978 diskdrake/interactive.pm:645
+#: any.pm:280 any.pm:1003 diskdrake/interactive.pm:645
 #: diskdrake/interactive.pm:869 diskdrake/interactive.pm:929
-#: diskdrake/interactive.pm:1034 diskdrake/interactive.pm:1264
-#: diskdrake/interactive.pm:1322 do_pkgs.pm:242 do_pkgs.pm:287
-#: harddrake/sound.pm:270 interactive.pm:587 pkgs.pm:285
+#: diskdrake/interactive.pm:1034 diskdrake/interactive.pm:1266
+#: diskdrake/interactive.pm:1324 do_pkgs.pm:242 do_pkgs.pm:291
+#: harddrake/sound.pm:250 interactive.pm:585 pkgs.pm:257 pkgs.pm:266
+#: pkgs.pm:312
 #, fuzzy, c-format
 msgid "Please wait"
 msgstr "Ачаалж байна... Түр хүлээнэ үү"
 
-#: any.pm:268
+#: any.pm:280
 #, fuzzy, c-format
 msgid "Bootloader installation in progress"
 msgstr "Эхлүүлэгч ачаалагч суулгах"
 
-#: any.pm:279
+#: any.pm:291
 #, c-format
 msgid ""
 "LILO wants to assign a new Volume ID to drive %s.  However, changing\n"
@@ -42,12 +43,12 @@ msgid ""
 "Assign a new Volume ID?"
 msgstr ""
 
-#: any.pm:290
+#: any.pm:302
 #, fuzzy, c-format
 msgid "Installation of bootloader failed. The following error occurred:"
 msgstr "аас:"
 
-#: any.pm:296
+#: any.pm:308
 #, c-format
 msgid ""
 "You may need to change your Open Firmware boot-device to\n"
@@ -58,7 +59,7 @@ msgid ""
 "At your next boot you should see the bootloader prompt."
 msgstr ""
 
-#: any.pm:336
+#: any.pm:348
 #, c-format
 msgid ""
 "You decided to install the bootloader on a partition.\n"
@@ -68,540 +69,541 @@ msgid ""
 "On which drive are you booting?"
 msgstr ""
 
-#: any.pm:347
+#: any.pm:359
 #, fuzzy, c-format
 msgid "Bootloader Installation"
 msgstr "Эхлүүлэгч ачаалагч суулгах"
 
-#: any.pm:351
+#: any.pm:363
 #, fuzzy, c-format
 msgid "Where do you want to install the bootloader?"
 msgstr "Хаана вы?"
 
-#: any.pm:375
+#: any.pm:387
 #, fuzzy, c-format
 msgid "First sector (MBR) of drive %s"
 msgstr "Хөтлөгчийн эхний сектор (MBR)"
 
-#: any.pm:377
+#: any.pm:389
 #, c-format
 msgid "First sector of drive (MBR)"
 msgstr "Хөтлөгчийн эхний сектор (MBR)"
 
-#: any.pm:379
+#: any.pm:391
 #, c-format
 msgid "First sector of the root partition"
 msgstr "Үндсэн хуваалтын эхний сектор"
 
-#: any.pm:381
+#: any.pm:393
 #, fuzzy, c-format
 msgid "On Floppy"
 msgstr "Идэвхитэй"
 
-#: any.pm:383 pkgs.pm:281 ugtk2.pm:526
+#: any.pm:395 pkgs.pm:308 ugtk2.pm:523
 #, c-format
 msgid "Skip"
 msgstr "Алгасах"
 
-#: any.pm:418
+#: any.pm:430
 #, fuzzy, c-format
 msgid "Boot Style Configuration"
 msgstr "Загвар"
 
-#: any.pm:434 any.pm:467 any.pm:468
+#: any.pm:445 any.pm:474 any.pm:475
 #, c-format
 msgid "Bootloader main options"
 msgstr "Эхлүүлэгч ачаалагчийн үндсэн сонголтууд"
 
-#: any.pm:438
+#: any.pm:450 diskdrake/dav.pm:76 diskdrake/hd_gtk.pm:153
+#: diskdrake/hd_gtk.pm:319 diskdrake/interactive.pm:245
+#: diskdrake/interactive.pm:258 diskdrake/interactive.pm:456
+#: diskdrake/interactive.pm:527 diskdrake/interactive.pm:545
+#: diskdrake/interactive.pm:550 diskdrake/interactive.pm:712
+#: diskdrake/interactive.pm:1000 diskdrake/interactive.pm:1052
+#: diskdrake/interactive.pm:1209 diskdrake/interactive.pm:1222
+#: diskdrake/interactive.pm:1225 diskdrake/interactive.pm:1499
+#: diskdrake/smbnfs_gtk.pm:39 do_pkgs.pm:23 do_pkgs.pm:28 do_pkgs.pm:44
+#: do_pkgs.pm:60 do_pkgs.pm:65 do_pkgs.pm:83 fsedit.pm:258
+#: interactive/http.pm:113 interactive/http.pm:114 modules/interactive.pm:19
+#: scanner.pm:95 scanner.pm:106 scanner.pm:113 scanner.pm:120 wizards.pm:95
+#: wizards.pm:99 wizards.pm:121
+#, c-format
+msgid "Error"
+msgstr "Алдаа"
+
+#: any.pm:450
+#, c-format
+msgid "Grub2 cannot be installed on a partition, only on the MBR (whole disk)"
+msgstr ""
+
+#: any.pm:457
 #, c-format
 msgid "Bootloader"
 msgstr ""
 
-#: any.pm:439 any.pm:471
+#: any.pm:458 any.pm:478
 #, c-format
 msgid "Bootloader to use"
 msgstr ""
 
-#: any.pm:442 any.pm:474
+#: any.pm:461 any.pm:481
 #, c-format
 msgid "Boot device"
 msgstr ""
 
-#: any.pm:445
+#: any.pm:464
 #, c-format
 msgid "Main options"
 msgstr ""
 
-#: any.pm:446
+#: any.pm:465
 #, c-format
 msgid "Delay before booting default image"
 msgstr "Үндсэн зургийг ачаалахын өмнө түр саатах"
 
-#: any.pm:447
+#: any.pm:466
 #, fuzzy, c-format
 msgid "Enable ACPI"
 msgstr "Нээх"
 
-#: any.pm:448
+#: any.pm:467
 #, fuzzy, c-format
 msgid "Enable SMP"
 msgstr "Нээх"
 
-#: any.pm:449
+#: any.pm:468
 #, fuzzy, c-format
 msgid "Enable APIC"
 msgstr "Нээх"
 
-#: any.pm:451
+#: any.pm:470
 #, fuzzy, c-format
 msgid "Enable Local APIC"
 msgstr "Нээх"
 
-#: any.pm:452 security/level.pm:51
-#, c-format
-msgid "Security"
-msgstr "Нууцлал"
-
-#: any.pm:453 any.pm:913 any.pm:932 authentication.pm:249
-#: diskdrake/smbnfs_gtk.pm:181
-#, c-format
-msgid "Password"
-msgstr "Нууц үг"
-
-#: any.pm:456 authentication.pm:260
-#, c-format
-msgid "The passwords do not match"
-msgstr ""
-
-#: any.pm:456 authentication.pm:260 diskdrake/interactive.pm:1497
-#, c-format
-msgid "Please try again"
-msgstr "Дахин оролдоно уу"
-
-#: any.pm:458
-#, fuzzy, c-format
-msgid "You cannot use a password with %s"
-msgstr "Та Цэг"
-
-#: any.pm:462 any.pm:916 any.pm:934 authentication.pm:250
-#, c-format
-msgid "Password (again)"
-msgstr "Нууц үг (дахин)"
-
-#: any.pm:463
-#, c-format
-msgid "Clean /tmp at each boot"
-msgstr ""
-
-#: any.pm:473
+#: any.pm:480
 #, c-format
 msgid "Init Message"
 msgstr ""
 
-#: any.pm:475
+#: any.pm:482
 #, fuzzy, c-format
 msgid "Open Firmware Delay"
 msgstr "Нээх"
 
-#: any.pm:476
+#: any.pm:483
 #, c-format
 msgid "Kernel Boot Timeout"
 msgstr ""
 
-#: any.pm:477
+#: any.pm:484
 #, fuzzy, c-format
 msgid "Enable CD Boot?"
 msgstr "Нээх CD?"
 
-#: any.pm:478
+#: any.pm:485
 #, fuzzy, c-format
 msgid "Enable OF Boot?"
 msgstr "Нээх?"
 
-#: any.pm:479
+#: any.pm:486
 #, c-format
 msgid "Default OS?"
 msgstr "Үндсэн ҮС?"
 
-#: any.pm:553
+#: any.pm:552
 #, c-format
 msgid "Image"
 msgstr "Дүр"
 
-#: any.pm:554 any.pm:568
+#: any.pm:553 any.pm:567
 #, c-format
 msgid "Root"
 msgstr "Эзэн"
 
-#: any.pm:555 any.pm:581
+#: any.pm:554 any.pm:580
 #, c-format
 msgid "Append"
 msgstr "Залгах"
 
-#: any.pm:557
+#: any.pm:556
 #, c-format
 msgid "Xen append"
 msgstr ""
 
-#: any.pm:559
+#: any.pm:558
 #, c-format
 msgid "Requires password to boot"
 msgstr ""
 
-#: any.pm:561
+#: any.pm:560
 #, c-format
 msgid "Video mode"
 msgstr "Видео горим"
 
-#: any.pm:563
+#: any.pm:562
 #, c-format
 msgid "Initrd"
 msgstr "Initrd"
 
-#: any.pm:564
+#: any.pm:563
 #, fuzzy, c-format
 msgid "Network profile"
 msgstr "Сүлжээ-харьцах хэсэг"
 
-#: any.pm:573 any.pm:578 any.pm:580 diskdrake/interactive.pm:411
+#: any.pm:572 any.pm:577 any.pm:579 diskdrake/interactive.pm:411
 #, c-format
 msgid "Label"
 msgstr "Бичээс"
 
-#: any.pm:575 any.pm:583 harddrake/v4l.pm:438
+#: any.pm:574 any.pm:582 harddrake/v4l.pm:436
 #, c-format
 msgid "Default"
 msgstr "Стандарт"
 
-#: any.pm:582
+#: any.pm:581
 #, c-format
 msgid "NoVideo"
 msgstr ""
 
-#: any.pm:593
+#: any.pm:592
 #, fuzzy, c-format
 msgid "Empty label not allowed"
 msgstr "Бичээс"
 
-#: any.pm:594
+#: any.pm:593
 #, fuzzy, c-format
 msgid "You must specify a kernel image"
 msgstr "Та"
 
-#: any.pm:594
+#: any.pm:593
 #, fuzzy, c-format
 msgid "You must specify a root partition"
 msgstr "Та"
 
-#: any.pm:595
+#: any.pm:594
 #, fuzzy, c-format
 msgid "This label is already used"
 msgstr "Бичээс бол"
 
-#: any.pm:613
+#: any.pm:612
 #, c-format
 msgid "Which type of entry do you want to add?"
 msgstr "Ямар төрлийн өгөгдөл та оруулахыг хүсэж байна?"
 
-#: any.pm:614
+#: any.pm:613
 #, c-format
 msgid "Linux"
 msgstr "Линукс"
 
-#: any.pm:614
+#: any.pm:613
 #, c-format
 msgid "Other OS (SunOS...)"
 msgstr "Бусад ҮС (SunOS...)"
 
-#: any.pm:615
+#: any.pm:614
 #, c-format
 msgid "Other OS (MacOS...)"
 msgstr "Бусад ҮС (MacOS...)"
 
-#: any.pm:615
+#: any.pm:614
 #, c-format
 msgid "Other OS (Windows...)"
 msgstr "Бусад ҮС (Виндовс...)"
 
-#: any.pm:662
+#: any.pm:661
 #, fuzzy, c-format
 msgid "Bootloader Configuration"
 msgstr "Загвар"
 
-#: any.pm:663
+#: any.pm:662
 #, fuzzy, c-format
 msgid ""
 "Here are the entries on your boot menu so far.\n"
 "You can create additional entries or change the existing ones."
 msgstr "Цэс."
 
-#: any.pm:874
+#: any.pm:873
 #, c-format
 msgid "access to X programs"
 msgstr ""
 
-#: any.pm:875
+#: any.pm:874
 #, c-format
 msgid "access to rpm tools"
 msgstr "rpm хэрэгсэлүүд рүү хандах"
 
-#: any.pm:876
+#: any.pm:875
 #, c-format
 msgid "allow \"su\""
 msgstr ""
 
-#: any.pm:877
+#: any.pm:876
 #, c-format
 msgid "access to administrative files"
 msgstr ""
 
-#: any.pm:878
+#: any.pm:877
 #, c-format
 msgid "access to network tools"
 msgstr ""
 
-#: any.pm:879
+#: any.pm:878
 #, c-format
 msgid "access to compilation tools"
 msgstr ""
 
-#: any.pm:885
+#: any.pm:884
 #, c-format
 msgid "(already added %s)"
 msgstr ""
 
-#: any.pm:891
+#: any.pm:890
 #, c-format
 msgid "Please give a user name"
 msgstr ""
 
-#: any.pm:892
+#: any.pm:891
 #, fuzzy, c-format
 msgid ""
 "The user name must start with a lower case letter followed by only lower "
 "cased letters, numbers, `-' and `_'"
 msgstr "нэр"
 
-#: any.pm:893
+#: any.pm:892
 #, c-format
 msgid "The user name is too long"
 msgstr "Хэрэглэгчийн нэр хэт урт"
 
-#: any.pm:894
+#: any.pm:893
 #, fuzzy, c-format
 msgid "This user name has already been added"
 msgstr "нэр"
 
-#: any.pm:900 any.pm:936
+#: any.pm:899 any.pm:953
 #, c-format
 msgid "User ID"
 msgstr "Хэрэглэгчийн ID"
 
-#: any.pm:900 any.pm:937
+#: any.pm:899 any.pm:954
 #, c-format
 msgid "Group ID"
 msgstr "Группын ID"
 
-#: any.pm:901
+#: any.pm:900
 #, fuzzy, c-format
 msgid "%s must be a number"
 msgstr "%s сонголт нь тоо байх ёстой!"
 
-#: any.pm:902
+#: any.pm:901
 #, c-format
 msgid "%s should be above 500. Accept anyway?"
 msgstr ""
 
-#: any.pm:906
+#: any.pm:908 any.pm:931
 #, fuzzy, c-format
 msgid "User management"
 msgstr "Хэрэглэгчийн нэр"
 
-#: any.pm:911
+#: any.pm:913
 #, c-format
 msgid "Enable guest account"
 msgstr ""
 
-#: any.pm:912 authentication.pm:236
+#: any.pm:914 authentication.pm:236
 #, fuzzy, c-format
 msgid "Set administrator (root) password"
 msgstr "Нууцлалын Удирдлага (бүртгэл эсвэл и-мэйл)"
 
-#: any.pm:918
+#: any.pm:915 any.pm:949 authentication.pm:249 diskdrake/smbnfs_gtk.pm:178
+#, c-format
+msgid "Password"
+msgstr "Нууц үг"
+
+#: any.pm:918 any.pm:951 authentication.pm:250
+#, c-format
+msgid "Password (again)"
+msgstr "Нууц үг (дахин)"
+
+#: any.pm:935
 #, fuzzy, c-format
 msgid "Enter a user"
 msgstr "г"
 
-#: any.pm:920
+#: any.pm:937
 #, c-format
 msgid "Icon"
 msgstr "Эмблем"
 
-#: any.pm:923
+#: any.pm:940
 #, c-format
 msgid "Real name"
 msgstr ""
 
-#: any.pm:930
+#: any.pm:947
 #, fuzzy, c-format
 msgid "Login name"
 msgstr "Домэйн"
 
-#: any.pm:935
+#: any.pm:952
 #, c-format
 msgid "Shell"
 msgstr "Бүрхүүл"
 
-#: any.pm:978
+#: any.pm:1003
 #, c-format
 msgid "Please wait, adding media..."
 msgstr ""
 
-#: any.pm:1010 security/l10n.pm:14
+#: any.pm:1035 security/l10n.pm:14
 #, c-format
 msgid "Autologin"
 msgstr ""
 
-#: any.pm:1011
+#: any.pm:1036
 #, c-format
 msgid "I can set up your computer to automatically log on one user."
 msgstr ""
 
-#: any.pm:1012
+#: any.pm:1037
 #, fuzzy, c-format
-msgid "Use this feature"
+msgid "Use this feature?"
 msgstr "Та энэ чанарыг ашиглахыг хүсэж байна уу?"
 
-#: any.pm:1013
+#: any.pm:1038
 #, fuzzy, c-format
 msgid "Choose the default user:"
 msgstr "Сонгох:"
 
-#: any.pm:1014
+#: any.pm:1039
 #, fuzzy, c-format
 msgid "Choose the window manager to run:"
 msgstr "Цонх:"
 
-#: any.pm:1025 any.pm:1045 any.pm:1118
+#: any.pm:1050 any.pm:1064 any.pm:1138
 #, fuzzy, c-format
 msgid "Release Notes"
 msgstr "Хэвлэл:"
 
-#: any.pm:1052 any.pm:1406 interactive/gtk.pm:822
+#: any.pm:1071 any.pm:1428 interactive/gtk.pm:822
 #, c-format
 msgid "Close"
 msgstr "Хаах"
 
-#: any.pm:1104
+#: any.pm:1124
 #, fuzzy, c-format
 msgid "License agreement"
 msgstr "Лиценз"
 
-#: any.pm:1106 diskdrake/dav.pm:26
+#: any.pm:1126 diskdrake/dav.pm:24 mygtk2.pm:1227
 #, c-format
 msgid "Quit"
 msgstr "Гарах"
 
-#: any.pm:1113
+#: any.pm:1133
 #, fuzzy, c-format
 msgid "Do you accept this license ?"
 msgstr "Та ямар нэгэн %s гэсэн харагдалттай юу?"
 
-#: any.pm:1114
+#: any.pm:1134
 #, c-format
 msgid "Accept"
 msgstr "Зөвшөөрөх"
 
-#: any.pm:1114
+#: any.pm:1134
 #, c-format
 msgid "Refuse"
 msgstr ""
 
-#: any.pm:1140 any.pm:1202
-#, c-format
-msgid "Please choose a language to use"
+#: any.pm:1160 any.pm:1223
+#, fuzzy, c-format
+msgid "Please choose a language to use:"
 msgstr "Хэрэглэх хэлээ сонгоно уу"
 
-#: any.pm:1168
+#: any.pm:1188
 #, fuzzy, c-format
 msgid ""
-"OpenMandriva Lx can support multiple languages. Select\n"
+"%s can support multiple languages. Select\n"
 "the languages you would like to install. They will be available\n"
 "when your installation is complete and you restart your system."
 msgstr "вы бол вы."
 
-#: any.pm:1171
+#: any.pm:1191
+#, fuzzy, c-format
+msgid "Multiple languages"
+msgstr "Бүх хэл"
+
+#: any.pm:1192
 #, c-format
-msgid "Multi languages"
+msgid "Select Additional Languages"
 msgstr ""
 
-#: any.pm:1180 any.pm:1211
+#: any.pm:1201 any.pm:1232
 #, c-format
 msgid "Old compatibility (non UTF-8) encoding"
 msgstr ""
 
-#: any.pm:1181
+#: any.pm:1202
 #, c-format
 msgid "All languages"
 msgstr "Бүх хэл"
 
-#: any.pm:1203
+#: any.pm:1224
 #, fuzzy, c-format
-msgid "Language choice"
+msgid "Language"
 msgstr "Хэл"
 
-#: any.pm:1257
+#: any.pm:1278
 #, fuzzy, c-format
 msgid "Country / Region"
 msgstr " / Муж"
 
-#: any.pm:1258
-#, c-format
-msgid "Please choose your country"
+#: any.pm:1279
+#, fuzzy, c-format
+msgid "Please choose your country:"
 msgstr "Улсаа сонгоно уу"
 
-#: any.pm:1260
+#: any.pm:1281
 #, fuzzy, c-format
-msgid "Here is the full list of available countries"
+msgid "Here is the full list of available countries:"
 msgstr "бол бүрэн жигсаалт аас"
 
-#: any.pm:1261
+#: any.pm:1282
 #, fuzzy, c-format
 msgid "Other Countries"
 msgstr "Бусад"
 
-#: any.pm:1261 interactive.pm:488 interactive/gtk.pm:450
+#: any.pm:1282 interactive.pm:486 interactive/gtk.pm:446
 #, c-format
 msgid "Advanced"
 msgstr "Өргөтгөсөн"
 
-#: any.pm:1267
+#: any.pm:1288
 #, fuzzy, c-format
 msgid "Input method:"
 msgstr "Сүлжээний арга:"
 
-#: any.pm:1270
+#: any.pm:1291
 #, c-format
 msgid "None"
 msgstr "Алга"
 
-#: any.pm:1351
+#: any.pm:1373
 #, fuzzy, c-format
 msgid "No sharing"
 msgstr "Үгүй"
 
-#: any.pm:1351
+#: any.pm:1373
 #, c-format
 msgid "Allow all users"
 msgstr "Бүх хэрэглэгчдийг зөвшөөрөх"
 
-#: any.pm:1351
+#: any.pm:1373
 #, c-format
 msgid "Custom"
 msgstr "Тохир"
 
-#: any.pm:1355
+#: any.pm:1377
 #, fuzzy, c-format
 msgid ""
 "Would you like to allow users to share some of their directories?\n"
@@ -611,86 +613,86 @@ msgid ""
 "\"Custom\" permit a per-user granularity.\n"
 msgstr "вы хэрэглэгчид аас хэрэглэгчид Хамтын хэрэглээ ямх г г Хэрэглэгчийн"
 
-#: any.pm:1367
+#: any.pm:1389
 #, c-format
 msgid ""
 "NFS: the traditional Unix file sharing system, with less support on Mac and "
 "Windows."
 msgstr ""
 
-#: any.pm:1370
+#: any.pm:1392
 #, c-format
 msgid ""
 "SMB: a file sharing system used by Windows, Mac OS X and many modern Linux "
 "systems."
 msgstr ""
 
-#: any.pm:1378
+#: any.pm:1400
 #, fuzzy, c-format
 msgid ""
 "You can export using NFS or SMB. Please select which you would like to use."
 msgstr "Та Самба вы."
 
-#: any.pm:1406
+#: any.pm:1428
 #, c-format
 msgid "Launch userdrake"
 msgstr ""
 
-#: any.pm:1408
+#: any.pm:1430
 #, c-format
 msgid ""
 "The per-user sharing uses the group \"fileshare\". \n"
 "You can use userdrake to add a user to this group."
 msgstr ""
 
-#: any.pm:1515
+#: any.pm:1537
 #, c-format
 msgid ""
 "You need to logout and back in again for changes to take effect. Press OK to "
 "logout now."
 msgstr ""
 
-#: any.pm:1519
-#, c-format
-msgid "You need to log out and back in again for changes to take effect"
-msgstr ""
+#: any.pm:1541
+#, fuzzy, c-format
+msgid "You need to log out and back in again for changes to take effect."
+msgstr "Та хүснэгт"
 
-#: any.pm:1554
+#: any.pm:1576
 #, c-format
 msgid "Timezone"
 msgstr "Цагийн бүс"
 
-#: any.pm:1554
+#: any.pm:1576
 #, fuzzy, c-format
-msgid "Which is your timezone?"
+msgid "What is your current timezone?"
 msgstr "бол?"
 
-#: any.pm:1577 any.pm:1579
+#: any.pm:1599 any.pm:1601
 #, c-format
 msgid "Date, Clock & Time Zone Settings"
 msgstr ""
 
-#: any.pm:1580
-#, c-format
-msgid "What is the best time?"
-msgstr ""
+#: any.pm:1602
+#, fuzzy, c-format
+msgid "What is your current time?"
+msgstr "бол?"
 
-#: any.pm:1584
+#: any.pm:1606
 #, fuzzy, c-format
 msgid "%s (hardware clock set to UTC)"
 msgstr "Hardware"
 
-#: any.pm:1585
+#: any.pm:1607
 #, fuzzy, c-format
 msgid "%s (hardware clock set to local time)"
 msgstr "Hardware"
 
-#: any.pm:1587
+#: any.pm:1609
 #, c-format
 msgid "NTP Server"
 msgstr "NTP Сервер"
 
-#: any.pm:1588
+#: any.pm:1610
 #, fuzzy, c-format
 msgid "Automatic time synchronization (using NTP)"
 msgstr "Автоматаар"
@@ -982,6 +984,16 @@ msgstr "Баталгаажуулалт"
 msgid "No password"
 msgstr "Нууц үг байхгүй"
 
+#: authentication.pm:260
+#, c-format
+msgid "The passwords do not match"
+msgstr ""
+
+#: authentication.pm:260 diskdrake/interactive.pm:1499
+#, c-format
+msgid "Please try again"
+msgstr "Дахин оролдоно уу"
+
 #: authentication.pm:263
 #, c-format
 msgid "This password is too short (it must be at least %d characters long)"
@@ -1014,7 +1026,7 @@ msgid "Domain Admin Password"
 msgstr "Домэйн"
 
 #. -PO: these messages will be displayed at boot time in the BIOS, use only ASCII (7bit)
-#: bootloader.pm:982
+#: bootloader.pm:1057
 #, c-format
 msgid ""
 "Welcome to the operating system chooser!\n"
@@ -1024,155 +1036,160 @@ msgid ""
 "\n"
 msgstr ""
 
-#: bootloader.pm:1160
+#: bootloader.pm:1249
 #, fuzzy, c-format
 msgid "LILO with text menu"
 msgstr "текст"
 
-#: bootloader.pm:1161
+#: bootloader.pm:1250
+#, c-format
+msgid "GRUB2 with graphical menu"
+msgstr ""
+
+#: bootloader.pm:1251
 #, c-format
 msgid "GRUB with graphical menu"
 msgstr ""
 
-#: bootloader.pm:1162
+#: bootloader.pm:1252
 #, c-format
 msgid "GRUB with text menu"
 msgstr ""
 
-#: bootloader.pm:1163
+#: bootloader.pm:1253
 #, c-format
 msgid "Yaboot"
 msgstr ""
 
-#: bootloader.pm:1164
+#: bootloader.pm:1254
 #, c-format
 msgid "SILO"
 msgstr ""
 
-#: bootloader.pm:1248
+#: bootloader.pm:1340
 #, c-format
 msgid "not enough room in /boot"
 msgstr ""
 
-#: bootloader.pm:1974
+#: bootloader.pm:2127
 #, fuzzy, c-format
 msgid "You cannot install the bootloader on a %s partition\n"
 msgstr "Хаана вы?"
 
-#: bootloader.pm:2095
+#: bootloader.pm:2296
 #, c-format
 msgid ""
 "Your bootloader configuration must be updated because partition has been "
 "renumbered"
 msgstr ""
 
-#: bootloader.pm:2108
+#: bootloader.pm:2309
 #, c-format
 msgid ""
 "The bootloader cannot be installed correctly. You have to boot rescue and "
 "choose \"%s\""
 msgstr ""
 
-#: bootloader.pm:2109
+#: bootloader.pm:2310
 #, c-format
 msgid "Re-install Boot Loader"
 msgstr ""
 
-#: check_min_sys_requirements.pm:78
+#: check_min_sys_requirements.pm:90
 #, c-format
 msgid "System requirements warning\n"
 msgstr ""
 
-#: check_min_sys_requirements.pm:79
+#: check_min_sys_requirements.pm:91
 #, c-format
 msgid "Recommended system parameters:\n"
 msgstr ""
 
-#: check_min_sys_requirements.pm:80 check_min_sys_requirements.pm:85
+#: check_min_sys_requirements.pm:92 check_min_sys_requirements.pm:97
 #, c-format
 msgid "  RAM = "
 msgstr ""
 
-#: check_min_sys_requirements.pm:80 check_min_sys_requirements.pm:85
+#: check_min_sys_requirements.pm:92 check_min_sys_requirements.pm:97
 #, c-format
 msgid " Mb\n"
 msgstr ""
 
-#: check_min_sys_requirements.pm:81
+#: check_min_sys_requirements.pm:93
 #, c-format
 msgid "  HDD = "
 msgstr ""
 
-#: check_min_sys_requirements.pm:81
+#: check_min_sys_requirements.pm:93
 #, c-format
 msgid " Gb\n"
 msgstr ""
 
-#: check_min_sys_requirements.pm:82
+#: check_min_sys_requirements.pm:94
 #, c-format
 msgid ""
 "\n"
 "Your system parameters:\n"
 msgstr ""
 
-#: check_min_sys_requirements.pm:93
+#: check_min_sys_requirements.pm:105
 #, c-format
 msgid ""
 "\n"
 "Your system resources are too low\n"
 msgstr ""
 
-#: check_min_sys_requirements.pm:99
+#: check_min_sys_requirements.pm:111
 #, c-format
 msgid "System requirements warning"
 msgstr ""
 
-#: common.pm:142
+#: common.pm:140
 #, fuzzy, c-format
 msgid "B"
 msgstr "КБ"
 
-#: common.pm:142
+#: common.pm:140
 #, c-format
 msgid "KB"
 msgstr "КБ"
 
-#: common.pm:142
+#: common.pm:140
 #, c-format
 msgid "MB"
 msgstr "МБ"
 
-#: common.pm:142
+#: common.pm:140
 #, c-format
 msgid "GB"
 msgstr "ГБ"
 
-#: common.pm:142 common.pm:151
+#: common.pm:140 common.pm:149
 #, c-format
 msgid "TB"
 msgstr ""
 
-#: common.pm:159
+#: common.pm:157
 #, c-format
 msgid "%d minutes"
 msgstr "%d минут"
 
-#: common.pm:161
+#: common.pm:159
 #, c-format
 msgid "1 minute"
 msgstr "1 Минут"
 
-#: common.pm:163
+#: common.pm:161
 #, c-format
 msgid "%d seconds"
 msgstr ""
 
-#: common.pm:393
+#: common.pm:391
 #, c-format
 msgid "command %s missing"
 msgstr ""
 
-#: diskdrake/dav.pm:17
+#: diskdrake/dav.pm:15
 #, c-format
 msgid ""
 "WebDAV is a protocol that allows you to mount a web server's directory\n"
@@ -1181,154 +1198,133 @@ msgid ""
 "points, select \"New\"."
 msgstr ""
 
-#: diskdrake/dav.pm:25
+#: diskdrake/dav.pm:23
 #, c-format
 msgid "New"
 msgstr "Шинэ"
 
-#: diskdrake/dav.pm:63 diskdrake/interactive.pm:418 diskdrake/smbnfs_gtk.pm:75
+#: diskdrake/dav.pm:61 diskdrake/interactive.pm:418 diskdrake/smbnfs_gtk.pm:72
 #, c-format
 msgid "Unmount"
 msgstr "Дискийн төхөөрөмж салгах"
 
-#: diskdrake/dav.pm:64 diskdrake/interactive.pm:414 diskdrake/smbnfs_gtk.pm:76
+#: diskdrake/dav.pm:62 diskdrake/interactive.pm:414 diskdrake/smbnfs_gtk.pm:73
 #, c-format
 msgid "Mount"
 msgstr "Дискийн төхөөрөмж холбох"
 
-#: diskdrake/dav.pm:65
+#: diskdrake/dav.pm:63
 #, c-format
 msgid "Server"
 msgstr "Сервер"
 
-#: diskdrake/dav.pm:66 diskdrake/interactive.pm:408
+#: diskdrake/dav.pm:64 diskdrake/interactive.pm:408
 #: diskdrake/interactive.pm:722 diskdrake/interactive.pm:740
-#: diskdrake/interactive.pm:744 diskdrake/removable.pm:23
-#: diskdrake/smbnfs_gtk.pm:79
+#: diskdrake/interactive.pm:744 diskdrake/removable.pm:21
+#: diskdrake/smbnfs_gtk.pm:76
 #, fuzzy, c-format
 msgid "Mount point"
 msgstr "Дискийн төхөөрөмж холбох"
 
-#: diskdrake/dav.pm:67 diskdrake/interactive.pm:410
-#: diskdrake/interactive.pm:1161 diskdrake/removable.pm:24
-#: diskdrake/smbnfs_gtk.pm:80
+#: diskdrake/dav.pm:65 diskdrake/interactive.pm:410
+#: diskdrake/interactive.pm:1161 diskdrake/removable.pm:22
+#: diskdrake/smbnfs_gtk.pm:77
 #, c-format
 msgid "Options"
 msgstr "Сонголтууд"
 
-#: diskdrake/dav.pm:68 interactive.pm:387 interactive/gtk.pm:458
+#: diskdrake/dav.pm:66 interactive.pm:385 interactive/gtk.pm:458
 #, c-format
 msgid "Remove"
 msgstr "Устгах"
 
-#: diskdrake/dav.pm:69 diskdrake/hd_gtk.pm:193 diskdrake/removable.pm:26
-#: diskdrake/smbnfs_gtk.pm:82 interactive/http.pm:151
+#: diskdrake/dav.pm:67 diskdrake/hd_gtk.pm:213 diskdrake/removable.pm:24
+#: diskdrake/smbnfs_gtk.pm:79 interactive/http.pm:147
 #, c-format
 msgid "Done"
 msgstr "Биелэгдэв"
 
-#: diskdrake/dav.pm:78 diskdrake/hd_gtk.pm:133 diskdrake/hd_gtk.pm:299
-#: diskdrake/interactive.pm:247 diskdrake/interactive.pm:260
-#: diskdrake/interactive.pm:456 diskdrake/interactive.pm:527
-#: diskdrake/interactive.pm:545 diskdrake/interactive.pm:550
-#: diskdrake/interactive.pm:712 diskdrake/interactive.pm:1000
-#: diskdrake/interactive.pm:1052 diskdrake/interactive.pm:1207
-#: diskdrake/interactive.pm:1220 diskdrake/interactive.pm:1223
-#: diskdrake/interactive.pm:1497 diskdrake/smbnfs_gtk.pm:42 do_pkgs.pm:23
-#: do_pkgs.pm:28 do_pkgs.pm:44 do_pkgs.pm:60 do_pkgs.pm:65 do_pkgs.pm:83
-#: fsedit.pm:246 interactive/http.pm:117 interactive/http.pm:118
-#: modules/interactive.pm:19 scanner.pm:95 scanner.pm:106 scanner.pm:113
-#: scanner.pm:120 wizards.pm:96 wizards.pm:100 wizards.pm:122
-#, c-format
-msgid "Error"
-msgstr "Алдаа"
-
-#: diskdrake/dav.pm:86
+#: diskdrake/dav.pm:84
 #, c-format
 msgid "Please enter the WebDAV server URL"
 msgstr "WebDAV серверийн URL-г оруулна уу"
 
-#: diskdrake/dav.pm:90
+#: diskdrake/dav.pm:88
 #, fuzzy, c-format
 msgid "The URL must begin with http:// or https://"
 msgstr "Вэб хаяг"
 
-#: diskdrake/dav.pm:106 diskdrake/hd_gtk.pm:424 diskdrake/interactive.pm:306
-#: diskdrake/interactive.pm:391 diskdrake/interactive.pm:597
-#: diskdrake/interactive.pm:815 diskdrake/interactive.pm:880
-#: diskdrake/interactive.pm:1032 diskdrake/interactive.pm:1074
-#: diskdrake/interactive.pm:1075 diskdrake/interactive.pm:1307
-#: diskdrake/interactive.pm:1345 diskdrake/interactive.pm:1496 do_pkgs.pm:19
-#: do_pkgs.pm:39 do_pkgs.pm:57 do_pkgs.pm:78 harddrake/sound.pm:399
+#: diskdrake/dav.pm:104 diskdrake/hd_gtk.pm:135 diskdrake/hd_gtk.pm:479
+#: diskdrake/interactive.pm:304 diskdrake/interactive.pm:391
+#: diskdrake/interactive.pm:597 diskdrake/interactive.pm:815
+#: diskdrake/interactive.pm:880 diskdrake/interactive.pm:1032
+#: diskdrake/interactive.pm:1074 diskdrake/interactive.pm:1075
+#: diskdrake/interactive.pm:1309 diskdrake/interactive.pm:1347
+#: diskdrake/interactive.pm:1498 do_pkgs.pm:19 do_pkgs.pm:39 do_pkgs.pm:57
+#: do_pkgs.pm:78 harddrake/sound.pm:371
 #, c-format
 msgid "Warning"
 msgstr "Анхааруулга"
 
-#: diskdrake/dav.pm:106
+#: diskdrake/dav.pm:104
 #, fuzzy, c-format
 msgid "Are you sure you want to delete this mount point?"
 msgstr "Та суулгалтыг үргэлжлүүлэхийг хүсэж байна уу?"
 
-#: diskdrake/dav.pm:125
+#: diskdrake/dav.pm:123
 #, c-format
 msgid "Server: "
 msgstr "Сервер: "
 
-#: diskdrake/dav.pm:126 diskdrake/interactive.pm:501
-#: diskdrake/interactive.pm:1369 diskdrake/interactive.pm:1457
+#: diskdrake/dav.pm:124 diskdrake/interactive.pm:501
+#: diskdrake/interactive.pm:1371 diskdrake/interactive.pm:1459
 #, c-format
 msgid "Mount point: "
 msgstr "Оруулах(Mount) цэг: "
 
-#: diskdrake/dav.pm:127 diskdrake/interactive.pm:1464
+#: diskdrake/dav.pm:125 diskdrake/interactive.pm:1466
 #, c-format
 msgid "Options: %s"
 msgstr "Сонголтууд: %s"
 
-#: diskdrake/hd_gtk.pm:61 diskdrake/interactive.pm:301
-#: diskdrake/smbnfs_gtk.pm:22 fs/mount_point.pm:108
-#: fs/partitioning_wizard.pm:55 fs/partitioning_wizard.pm:238
-#: fs/partitioning_wizard.pm:246 fs/partitioning_wizard.pm:285
-#: fs/partitioning_wizard.pm:433 fs/partitioning_wizard.pm:496
-#: fs/partitioning_wizard.pm:579 fs/partitioning_wizard.pm:582
+#: diskdrake/hd_gtk.pm:59 diskdrake/interactive.pm:299
+#: diskdrake/smbnfs_gtk.pm:19 fs/mount_point.pm:113
+#: fs/partitioning_wizard.pm:53 fs/partitioning_wizard.pm:237
+#: fs/partitioning_wizard.pm:245 fs/partitioning_wizard.pm:286
+#: fs/partitioning_wizard.pm:434 fs/partitioning_wizard.pm:497
+#: fs/partitioning_wizard.pm:580 fs/partitioning_wizard.pm:583
 #, c-format
 msgid "Partitioning"
 msgstr ""
 
-#: diskdrake/hd_gtk.pm:73
+#: diskdrake/hd_gtk.pm:71
 #, c-format
 msgid "Click on a partition, choose a filesystem type then choose an action"
 msgstr ""
 
-#: diskdrake/hd_gtk.pm:115 diskdrake/interactive.pm:1182
-#: diskdrake/interactive.pm:1192 diskdrake/interactive.pm:1245
+#: diskdrake/hd_gtk.pm:135
 #, fuzzy, c-format
-msgid "Read carefully"
-msgstr "Унших"
-
-#: diskdrake/hd_gtk.pm:115
-#, fuzzy, c-format
-msgid "Please make a backup of your data first"
+msgid "Please make a backup of your data first."
 msgstr "аас"
 
-#: diskdrake/hd_gtk.pm:116 diskdrake/interactive.pm:240
+#: diskdrake/hd_gtk.pm:136 diskdrake/interactive.pm:238
 #, c-format
 msgid "Exit"
 msgstr "Гарах"
 
-#: diskdrake/hd_gtk.pm:116
+#: diskdrake/hd_gtk.pm:136
 #, c-format
 msgid "Continue"
 msgstr "Үргэлжилүүлэх"
 
-#: diskdrake/hd_gtk.pm:188 fs/partitioning_wizard.pm:555 interactive.pm:653
-#: interactive/gtk.pm:814 interactive/gtk.pm:832 interactive/gtk.pm:853
-#: ugtk2.pm:936
+#: diskdrake/hd_gtk.pm:208 fs/partitioning_wizard.pm:556 interactive.pm:651
+#: interactive/gtk.pm:814 interactive/gtk.pm:832 interactive/gtk.pm:863
+#: ugtk2.pm:933
 #, c-format
 msgid "Help"
 msgstr "Тусламж"
 
-#: diskdrake/hd_gtk.pm:234
+#: diskdrake/hd_gtk.pm:254
 #, c-format
 msgid ""
 "You have one big Microsoft Windows partition.\n"
@@ -1336,142 +1332,142 @@ msgid ""
 "(click on it, then click on \"Resize\")"
 msgstr ""
 
-#: diskdrake/hd_gtk.pm:236
+#: diskdrake/hd_gtk.pm:256
 #, c-format
 msgid "Please click on a partition"
 msgstr "Нэг хуваалтан дээр дарна уу"
 
-#: diskdrake/hd_gtk.pm:250 diskdrake/smbnfs_gtk.pm:63
+#: diskdrake/hd_gtk.pm:270 diskdrake/smbnfs_gtk.pm:60
 #, c-format
 msgid "Details"
 msgstr "Дэлгэрэнгүй"
 
-#: diskdrake/hd_gtk.pm:299
+#: diskdrake/hd_gtk.pm:319
 #, fuzzy, c-format
 msgid "No hard disk drives found"
 msgstr "Үгүй"
 
-#: diskdrake/hd_gtk.pm:330
+#: diskdrake/hd_gtk.pm:385
 #, c-format
 msgid "Unknown"
 msgstr "Үл мэдэгдэх"
 
-#: diskdrake/hd_gtk.pm:395
+#: diskdrake/hd_gtk.pm:450
 #, fuzzy, c-format
 msgid "Ext4"
 msgstr "Гарах"
 
-#: diskdrake/hd_gtk.pm:395 fs/partitioning_wizard.pm:403
+#: diskdrake/hd_gtk.pm:450 fs/partitioning_wizard.pm:404
 #, c-format
 msgid "XFS"
 msgstr ""
 
-#: diskdrake/hd_gtk.pm:395 fs/partitioning_wizard.pm:403
+#: diskdrake/hd_gtk.pm:450 fs/partitioning_wizard.pm:404
 #, fuzzy, c-format
 msgid "Swap"
 msgstr "Солилт"
 
-#: diskdrake/hd_gtk.pm:395 fs/partitioning_wizard.pm:403
+#: diskdrake/hd_gtk.pm:450 fs/partitioning_wizard.pm:404
 #, c-format
 msgid "SunOS"
 msgstr "СанОС"
 
-#: diskdrake/hd_gtk.pm:395 fs/partitioning_wizard.pm:403
+#: diskdrake/hd_gtk.pm:450 fs/partitioning_wizard.pm:404
 #, c-format
 msgid "HFS"
 msgstr ""
 
-#: diskdrake/hd_gtk.pm:395 fs/partitioning_wizard.pm:403
+#: diskdrake/hd_gtk.pm:450 fs/partitioning_wizard.pm:404
 #, c-format
 msgid "Windows"
 msgstr "Виндоус"
 
-#: diskdrake/hd_gtk.pm:396 fs/partitioning_wizard.pm:404 services.pm:192
+#: diskdrake/hd_gtk.pm:451 fs/partitioning_wizard.pm:405 services.pm:192
 #, c-format
 msgid "Other"
 msgstr "Бусад"
 
-#: diskdrake/hd_gtk.pm:396 diskdrake/interactive.pm:1384
-#: fs/partitioning_wizard.pm:404
+#: diskdrake/hd_gtk.pm:451 diskdrake/interactive.pm:1386
+#: fs/partitioning_wizard.pm:405
 #, c-format
 msgid "Empty"
 msgstr "Хоосон"
 
-#: diskdrake/hd_gtk.pm:403
+#: diskdrake/hd_gtk.pm:458
 #, fuzzy, c-format
 msgid "Filesystem types:"
 msgstr "Файлын систем:"
 
-#: diskdrake/hd_gtk.pm:424
+#: diskdrake/hd_gtk.pm:479
 #, fuzzy, c-format
 msgid "This partition is already empty"
 msgstr "Энэ хуваалтын хэмжээг өөрчилж болохгүй"
 
-#: diskdrake/hd_gtk.pm:433
+#: diskdrake/hd_gtk.pm:488
 #, fuzzy, c-format
 msgid "Use ``Unmount'' first"
 msgstr "Дискийн төхөөрөмж салгах"
 
-#: diskdrake/hd_gtk.pm:433
+#: diskdrake/hd_gtk.pm:488
 #, fuzzy, c-format
 msgid "Use ``%s'' instead (in expert mode)"
 msgstr "Дараахын оронд ``%s'' үүнийг хэрэглэ:"
 
-#: diskdrake/hd_gtk.pm:433 diskdrake/interactive.pm:409
-#: diskdrake/interactive.pm:639 diskdrake/removable.pm:25
-#: diskdrake/removable.pm:48
+#: diskdrake/hd_gtk.pm:488 diskdrake/interactive.pm:409
+#: diskdrake/interactive.pm:639 diskdrake/removable.pm:23
+#: diskdrake/removable.pm:46
 #, c-format
 msgid "Type"
 msgstr "Төрөл"
 
-#: diskdrake/interactive.pm:211
+#: diskdrake/interactive.pm:209
 #, c-format
 msgid "Choose another partition"
 msgstr "Ондоо хуваалт сонго"
 
-#: diskdrake/interactive.pm:211
+#: diskdrake/interactive.pm:209
 #, fuzzy, c-format
 msgid "Choose a partition"
 msgstr "Сонгох"
 
-#: diskdrake/interactive.pm:273 diskdrake/interactive.pm:382
-#: interactive/curses.pm:532
+#: diskdrake/interactive.pm:271 diskdrake/interactive.pm:382
+#: interactive/curses.pm:528
 #, c-format
 msgid "More"
 msgstr "Илүү"
 
-#: diskdrake/interactive.pm:281 diskdrake/interactive.pm:294
-#: diskdrake/interactive.pm:1291
+#: diskdrake/interactive.pm:279 diskdrake/interactive.pm:292
+#: diskdrake/interactive.pm:1293 mygtk2.pm:1226
 #, fuzzy, c-format
 msgid "Confirmation"
 msgstr "Тохиргоо"
 
-#: diskdrake/interactive.pm:281
+#: diskdrake/interactive.pm:279
 #, c-format
 msgid "Continue anyway?"
 msgstr "Ямар ч байсан үргэлжлүүлэх үү?"
 
-#: diskdrake/interactive.pm:286
+#: diskdrake/interactive.pm:284
 #, c-format
 msgid "Quit without saving"
 msgstr "Хадгалахгүйгээр гарах"
 
-#: diskdrake/interactive.pm:286
+#: diskdrake/interactive.pm:284
 #, fuzzy, c-format
 msgid "Quit without writing the partition table?"
 msgstr "Гарах хүснэгт?"
 
-#: diskdrake/interactive.pm:294
+#: diskdrake/interactive.pm:292
 #, fuzzy, c-format
 msgid "Do you want to save the /etc/fstab modifications?"
 msgstr "вы"
 
-#: diskdrake/interactive.pm:301 fs/partitioning_wizard.pm:285
+#: diskdrake/interactive.pm:299 fs/partitioning_wizard.pm:286
 #, fuzzy, c-format
 msgid "You need to reboot for the partition table modifications to take effect"
 msgstr "Та хүснэгт"
 
-#: diskdrake/interactive.pm:306
+#: diskdrake/interactive.pm:304
 #, c-format
 msgid ""
 "You should format partition %s.\n"
@@ -1479,27 +1475,27 @@ msgid ""
 "Quit anyway?"
 msgstr ""
 
-#: diskdrake/interactive.pm:319
+#: diskdrake/interactive.pm:317
 #, fuzzy, c-format
 msgid "Clear all"
 msgstr "Устгах"
 
-#: diskdrake/interactive.pm:320
+#: diskdrake/interactive.pm:318
 #, fuzzy, c-format
 msgid "Auto allocate"
 msgstr "Авто"
 
-#: diskdrake/interactive.pm:326
+#: diskdrake/interactive.pm:324
 #, c-format
 msgid "Toggle to normal mode"
 msgstr ""
 
-#: diskdrake/interactive.pm:326
+#: diskdrake/interactive.pm:324
 #, c-format
 msgid "Toggle to expert mode"
 msgstr "Мэргэжилтний горимд шилжүүлэх"
 
-#: diskdrake/interactive.pm:338
+#: diskdrake/interactive.pm:336
 #, c-format
 msgid "Hard disk drive information"
 msgstr "Хатуу диск хөтлөгчийн мэдээлэл"
@@ -1641,12 +1637,12 @@ msgstr "Баталгаажуулалт"
 msgid "Encryption key "
 msgstr "Файлын систем"
 
-#: diskdrake/interactive.pm:512 diskdrake/interactive.pm:1501
+#: diskdrake/interactive.pm:512 diskdrake/interactive.pm:1503
 #, c-format
 msgid "Encryption key (again)"
 msgstr ""
 
-#: diskdrake/interactive.pm:524 diskdrake/interactive.pm:1497
+#: diskdrake/interactive.pm:524 diskdrake/interactive.pm:1499
 #, c-format
 msgid "The encryption keys do not match"
 msgstr ""
@@ -1680,7 +1676,7 @@ msgstr ""
 msgid "Change partition type"
 msgstr "Хуваалтын төрлийг өөрчлөх"
 
-#: diskdrake/interactive.pm:638 diskdrake/removable.pm:47
+#: diskdrake/interactive.pm:638 diskdrake/removable.pm:45
 #, fuzzy, c-format
 msgid "Which filesystem do you want?"
 msgstr "Ямар төрлийн өгөгдөл та оруулахыг хүсэж байна?"
@@ -1738,7 +1734,7 @@ msgid "Where do you want to mount %s?"
 msgstr "Хаана вы с?"
 
 #: diskdrake/interactive.pm:773 diskdrake/interactive.pm:869
-#: fs/partitioning_wizard.pm:131 fs/partitioning_wizard.pm:207
+#: fs/partitioning_wizard.pm:130 fs/partitioning_wizard.pm:206
 #, c-format
 msgid "Resizing"
 msgstr "Хэмжээгөөрчилж байна"
@@ -1783,14 +1779,14 @@ msgstr ""
 msgid "Maximum size: %s MB"
 msgstr ""
 
-#: diskdrake/interactive.pm:880 fs/partitioning_wizard.pm:215
+#: diskdrake/interactive.pm:880 fs/partitioning_wizard.pm:214
 #, fuzzy, c-format
 msgid ""
 "To ensure data integrity after resizing the partition(s),\n"
 "filesystem checks will be run on your next boot into Microsoft Windows®"
 msgstr "тийш с Цонхнууд"
 
-#: diskdrake/interactive.pm:944 diskdrake/interactive.pm:1492
+#: diskdrake/interactive.pm:944 diskdrake/interactive.pm:1494
 #, fuzzy, c-format
 msgid "Filesystem encryption key"
 msgstr "Файлын систем"
@@ -1800,7 +1796,7 @@ msgstr "Файлын систем"
 msgid "Enter your filesystem encryption key"
 msgstr "Сонгох"
 
-#: diskdrake/interactive.pm:946 diskdrake/interactive.pm:1500
+#: diskdrake/interactive.pm:946 diskdrake/interactive.pm:1502
 #, c-format
 msgid "Encryption key"
 msgstr ""
@@ -1907,59 +1903,65 @@ msgstr ""
 msgid "chunk size in KiB"
 msgstr "хэмжээ с"
 
+#: diskdrake/interactive.pm:1182 diskdrake/interactive.pm:1192
+#: diskdrake/interactive.pm:1247
+#, fuzzy, c-format
+msgid "Read carefully"
+msgstr "Унших"
+
 #: diskdrake/interactive.pm:1183
 #, c-format
 msgid "Be careful: this operation is dangerous."
 msgstr ""
 
-#: diskdrake/interactive.pm:1198
+#: diskdrake/interactive.pm:1200
 #, fuzzy, c-format
 msgid "Partitioning Type"
 msgstr "Хуваалтын хүснэгтийн төрөл: %s\n"
 
-#: diskdrake/interactive.pm:1198
+#: diskdrake/interactive.pm:1200
 #, c-format
 msgid "What type of partitioning?"
 msgstr "Ямар төрлийн хуваалт бэ?"
 
-#: diskdrake/interactive.pm:1236
+#: diskdrake/interactive.pm:1238
 #, fuzzy, c-format
 msgid "You'll need to reboot before the modification can take effect"
 msgstr "Та хүснэгт"
 
-#: diskdrake/interactive.pm:1245
+#: diskdrake/interactive.pm:1247
 #, c-format
 msgid "Partition table of drive %s is going to be written to disk"
 msgstr "%s хөтлөгчийн хуваалтын хүснэгт нь одоо диск рүү бичигдэх болно"
 
-#: diskdrake/interactive.pm:1264 fs/format.pm:107 fs/format.pm:114
+#: diskdrake/interactive.pm:1266 fs/format.pm:105 fs/format.pm:112
 #, c-format
 msgid "Formatting partition %s"
 msgstr ""
 
-#: diskdrake/interactive.pm:1277
+#: diskdrake/interactive.pm:1279
 #, fuzzy, c-format
 msgid "After formatting partition %s, all data on this partition will be lost"
 msgstr ""
 "Хөтлөгчид уян диск оруулна уу\n"
 "Уян диск дээрх бүх өгөгдөл устгагдах болно"
 
-#: diskdrake/interactive.pm:1291
+#: diskdrake/interactive.pm:1293
 #, fuzzy, c-format
 msgid "Check bad blocks?"
 msgstr "Gá?"
 
-#: diskdrake/interactive.pm:1306
+#: diskdrake/interactive.pm:1308
 #, fuzzy, c-format
 msgid "Move files to the new partition"
 msgstr "Зөөх шинэ"
 
-#: diskdrake/interactive.pm:1306
+#: diskdrake/interactive.pm:1308
 #, c-format
 msgid "Hide files"
 msgstr "Файлуудыг далдлах"
 
-#: diskdrake/interactive.pm:1307
+#: diskdrake/interactive.pm:1309
 #, c-format
 msgid ""
 "Directory %s already contains data\n"
@@ -1970,162 +1972,162 @@ msgid ""
 "the contents of the mounted partition)"
 msgstr ""
 
-#: diskdrake/interactive.pm:1322
+#: diskdrake/interactive.pm:1324
 #, fuzzy, c-format
 msgid "Moving files to the new partition"
 msgstr "Зөөлт шинэ"
 
-#: diskdrake/interactive.pm:1326
+#: diskdrake/interactive.pm:1328
 #, c-format
 msgid "Copying %s"
 msgstr "%s-г хуулж байна"
 
-#: diskdrake/interactive.pm:1330
+#: diskdrake/interactive.pm:1332
 #, c-format
 msgid "Removing %s"
 msgstr "%s-г устгаж байна"
 
-#: diskdrake/interactive.pm:1344
+#: diskdrake/interactive.pm:1346
 #, c-format
 msgid "partition %s is now known as %s"
 msgstr "хуваалт %s нь одоо %s болсон"
 
-#: diskdrake/interactive.pm:1345
+#: diskdrake/interactive.pm:1347
 #, c-format
 msgid "Partitions have been renumbered: "
 msgstr ""
 
-#: diskdrake/interactive.pm:1370 diskdrake/interactive.pm:1441
+#: diskdrake/interactive.pm:1372 diskdrake/interactive.pm:1443
 #, c-format
 msgid "Device: "
 msgstr "Төхөөрөмж: "
 
-#: diskdrake/interactive.pm:1371
+#: diskdrake/interactive.pm:1373
 #, c-format
 msgid "Volume label: "
 msgstr ""
 
-#: diskdrake/interactive.pm:1372
+#: diskdrake/interactive.pm:1374
 #, c-format
 msgid "UUID: "
 msgstr ""
 
-#: diskdrake/interactive.pm:1373
+#: diskdrake/interactive.pm:1375
 #, c-format
 msgid "DOS drive letter: %s (just a guess)\n"
 msgstr ""
 
-#: diskdrake/interactive.pm:1377 diskdrake/interactive.pm:1386
-#: diskdrake/interactive.pm:1460
+#: diskdrake/interactive.pm:1379 diskdrake/interactive.pm:1388
+#: diskdrake/interactive.pm:1462
 #, c-format
 msgid "Type: "
 msgstr "Төрөл: "
 
-#: diskdrake/interactive.pm:1381 diskdrake/interactive.pm:1445
+#: diskdrake/interactive.pm:1383 diskdrake/interactive.pm:1447
 #, c-format
 msgid "Name: "
 msgstr "Нэр: "
 
-#: diskdrake/interactive.pm:1388
+#: diskdrake/interactive.pm:1390
 #, fuzzy, c-format
 msgid "Start: sector %s\n"
 msgstr "Эхлэх с"
 
-#: diskdrake/interactive.pm:1389
+#: diskdrake/interactive.pm:1391
 #, c-format
 msgid "Size: %s"
 msgstr "Хэмжээ: %s"
 
-#: diskdrake/interactive.pm:1391
+#: diskdrake/interactive.pm:1393
 #, c-format
 msgid ", %s sectors"
 msgstr ""
 
-#: diskdrake/interactive.pm:1393
+#: diskdrake/interactive.pm:1395
 #, c-format
 msgid "Cylinder %d to %d\n"
 msgstr ""
 
-#: diskdrake/interactive.pm:1394
+#: diskdrake/interactive.pm:1396
 #, c-format
 msgid "Number of logical extents: %d\n"
 msgstr ""
 
-#: diskdrake/interactive.pm:1395
+#: diskdrake/interactive.pm:1397
 #, c-format
 msgid "Formatted\n"
 msgstr ""
 
-#: diskdrake/interactive.pm:1396
+#: diskdrake/interactive.pm:1398
 #, c-format
 msgid "Not formatted\n"
 msgstr ""
 
-#: diskdrake/interactive.pm:1397
+#: diskdrake/interactive.pm:1399
 #, c-format
 msgid "Mounted\n"
 msgstr ""
 
-#: diskdrake/interactive.pm:1398
+#: diskdrake/interactive.pm:1400
 #, c-format
 msgid "RAID %s\n"
 msgstr ""
 
-#: diskdrake/interactive.pm:1400
+#: diskdrake/interactive.pm:1402
 #, c-format
 msgid "Encrypted"
 msgstr ""
 
-#: diskdrake/interactive.pm:1402
+#: diskdrake/interactive.pm:1404
 #, c-format
 msgid " (mapped on %s)"
 msgstr ""
 
-#: diskdrake/interactive.pm:1403
+#: diskdrake/interactive.pm:1405
 #, c-format
 msgid " (to map on %s)"
 msgstr ""
 
-#: diskdrake/interactive.pm:1404
+#: diskdrake/interactive.pm:1406
 #, c-format
 msgid " (inactive)"
 msgstr ""
 
-#: diskdrake/interactive.pm:1411
+#: diskdrake/interactive.pm:1413
 #, c-format
 msgid ""
 "Loopback file(s):\n"
 "   %s\n"
 msgstr ""
 
-#: diskdrake/interactive.pm:1412
+#: diskdrake/interactive.pm:1414
 #, c-format
 msgid ""
 "Partition booted by default\n"
 "    (for MS-DOS boot, not for lilo)\n"
 msgstr ""
 
-#: diskdrake/interactive.pm:1414
+#: diskdrake/interactive.pm:1416
 #, c-format
 msgid "Level %s\n"
 msgstr "Түвшин %s\n"
 
-#: diskdrake/interactive.pm:1415
+#: diskdrake/interactive.pm:1417
 #, fuzzy, c-format
 msgid "Chunk size %d KiB\n"
 msgstr "хэмжээ с"
 
-#: diskdrake/interactive.pm:1416
+#: diskdrake/interactive.pm:1418
 #, c-format
 msgid "RAID-disks %s\n"
 msgstr ""
 
-#: diskdrake/interactive.pm:1418
+#: diskdrake/interactive.pm:1420
 #, fuzzy, c-format
 msgid "Loopback file name: %s"
 msgstr "нэр"
 
-#: diskdrake/interactive.pm:1421
+#: diskdrake/interactive.pm:1423
 #, fuzzy, c-format
 msgid ""
 "\n"
@@ -2134,7 +2136,7 @@ msgid ""
 "probably leave it alone.\n"
 msgstr "бол Драйвер Та"
 
-#: diskdrake/interactive.pm:1424
+#: diskdrake/interactive.pm:1426
 #, fuzzy, c-format
 msgid ""
 "\n"
@@ -2143,116 +2145,116 @@ msgid ""
 "dual-booting your system.\n"
 msgstr "бол"
 
-#: diskdrake/interactive.pm:1433
+#: diskdrake/interactive.pm:1435
 #, c-format
 msgid "Free space on %s (%s)"
 msgstr ""
 
-#: diskdrake/interactive.pm:1442
+#: diskdrake/interactive.pm:1444
 #, c-format
 msgid "Read-only"
 msgstr "Зөвхөн-унших"
 
-#: diskdrake/interactive.pm:1443
+#: diskdrake/interactive.pm:1445
 #, fuzzy, c-format
 msgid "Size: %s\n"
 msgstr "Хэмжээ с"
 
-#: diskdrake/interactive.pm:1444
+#: diskdrake/interactive.pm:1446
 #, c-format
 msgid "Geometry: %s cylinders, %s heads, %s sectors\n"
 msgstr ""
 
-#: diskdrake/interactive.pm:1446
+#: diskdrake/interactive.pm:1448
 #, fuzzy, c-format
 msgid "Medium type: "
 msgstr "Файлын систем төрөл "
 
-#: diskdrake/interactive.pm:1447
+#: diskdrake/interactive.pm:1449
 #, c-format
 msgid "LVM-disks %s\n"
 msgstr ""
 
-#: diskdrake/interactive.pm:1448
+#: diskdrake/interactive.pm:1450
 #, c-format
 msgid "Partition table type: %s\n"
 msgstr "Хуваалтын хүснэгтийн төрөл: %s\n"
 
-#: diskdrake/interactive.pm:1449
+#: diskdrake/interactive.pm:1451
 #, fuzzy, c-format
 msgid "on channel %d id %d\n"
 msgstr "Нээх"
 
-#: diskdrake/interactive.pm:1493
+#: diskdrake/interactive.pm:1495
 #, fuzzy, c-format
 msgid "Choose your filesystem encryption key"
 msgstr "Сонгох"
 
-#: diskdrake/interactive.pm:1496
+#: diskdrake/interactive.pm:1498
 #, fuzzy, c-format
 msgid "This encryption key is too simple (must be at least %d characters long)"
 msgstr "бол"
 
-#: diskdrake/interactive.pm:1503
+#: diskdrake/interactive.pm:1505
 #, fuzzy, c-format
 msgid "Encryption algorithm"
 msgstr "Баталгаажуулалт"
 
-#: diskdrake/removable.pm:46
+#: diskdrake/removable.pm:44
 #, fuzzy, c-format
 msgid "Change type"
 msgstr "Өөрчилөх"
 
-#: diskdrake/smbnfs_gtk.pm:81 interactive.pm:129 interactive.pm:550
-#: interactive/curses.pm:267 interactive/http.pm:104 interactive/http.pm:160
-#: interactive/stdio.pm:39 interactive/stdio.pm:148 mygtk2.pm:846 ugtk2.pm:415
-#: ugtk2.pm:517 ugtk2.pm:526 ugtk2.pm:812
+#: diskdrake/smbnfs_gtk.pm:78 interactive.pm:127 interactive.pm:548
+#: interactive/curses.pm:263 interactive/http.pm:100 interactive/http.pm:156
+#: interactive/stdio.pm:35 interactive/stdio.pm:144 mygtk2.pm:844
+#: mygtk2.pm:1227 ugtk2.pm:412 ugtk2.pm:514 ugtk2.pm:523 ugtk2.pm:809
 #, c-format
 msgid "Cancel"
 msgstr "Хүчингүй"
 
-#: diskdrake/smbnfs_gtk.pm:164
+#: diskdrake/smbnfs_gtk.pm:161
 #, fuzzy, c-format
 msgid "Cannot login using username %s (bad password?)"
 msgstr "Хостын нэр, хэрэглэгчийн нэр болон нууц үг шаардлагатай!"
 
-#: diskdrake/smbnfs_gtk.pm:168 diskdrake/smbnfs_gtk.pm:177
+#: diskdrake/smbnfs_gtk.pm:165 diskdrake/smbnfs_gtk.pm:174
 #, fuzzy, c-format
 msgid "Domain Authentication Required"
 msgstr "Домэйн Баталгаажуулалт"
 
-#: diskdrake/smbnfs_gtk.pm:169
+#: diskdrake/smbnfs_gtk.pm:166
 #, c-format
 msgid "Which username"
 msgstr "Ямар хэрэглэгчийн нэр"
 
-#: diskdrake/smbnfs_gtk.pm:169
+#: diskdrake/smbnfs_gtk.pm:166
 #, c-format
 msgid "Another one"
 msgstr ""
 
-#: diskdrake/smbnfs_gtk.pm:178
+#: diskdrake/smbnfs_gtk.pm:175
 #, fuzzy, c-format
 msgid ""
 "Please enter your username, password and domain name to access this host."
 msgstr "нэр."
 
-#: diskdrake/smbnfs_gtk.pm:180
+#: diskdrake/smbnfs_gtk.pm:177
 #, c-format
 msgid "Username"
 msgstr "Хэрэглэгчийн нэр"
 
-#: diskdrake/smbnfs_gtk.pm:182
+#: diskdrake/smbnfs_gtk.pm:179
 #, c-format
 msgid "Domain"
 msgstr "Домэйн"
 
-#: diskdrake/smbnfs_gtk.pm:206
+#: diskdrake/smbnfs_gtk.pm:203
 #, c-format
 msgid "Search servers"
 msgstr "Серверүүд хайх"
 
-#: diskdrake/smbnfs_gtk.pm:211
+#: diskdrake/smbnfs_gtk.pm:208
 #, fuzzy, c-format
 msgid "Search for new servers"
 msgstr "Серверүүд хайх"
@@ -2282,120 +2284,125 @@ msgstr ""
 msgid "Installing packages..."
 msgstr ""
 
-#: do_pkgs.pm:287 pkgs.pm:285
+#: do_pkgs.pm:291
 #, fuzzy, c-format
 msgid "Removing packages..."
 msgstr "%s багцийг устгалт"
 
-#: fs/any.pm:18
+#: fs/any.pm:15
 #, c-format
 msgid ""
 "An error occurred - no valid devices were found on which to create new "
 "filesystems. Please check your hardware for the cause of this problem"
 msgstr ""
 
-#: fs/any.pm:76 fs/partitioning_wizard.pm:64
+#: fs/any.pm:72
 #, c-format
-msgid "You must have a FAT partition mounted in /boot/efi"
+msgid "You must have a ESP FAT32 partition mounted in /boot/efi"
 msgstr ""
 
-#: fs/format.pm:111
+#: fs/format.pm:109
 #, fuzzy, c-format
 msgid "Creating and formatting file %s"
 msgstr "Үүсгэж байна"
 
-#: fs/format.pm:130
+#: fs/format.pm:129
 #, fuzzy, c-format
 msgid "I do not know how to set label on %s with type %s"
 msgstr "%s-г %s төрөлд хэрхэн форматлахыг би мэдэхгүй байна."
 
-#: fs/format.pm:142
+#: fs/format.pm:141
 #, fuzzy, c-format
 msgid "setting label on %s failed, is it formatted?"
 msgstr "с."
 
-#: fs/format.pm:183
+#: fs/format.pm:182
 #, c-format
 msgid "I do not know how to format %s in type %s"
 msgstr "%s-г %s төрөлд хэрхэн форматлахыг би мэдэхгүй байна."
 
-#: fs/format.pm:188 fs/format.pm:190
+#: fs/format.pm:187 fs/format.pm:189
 #, c-format
 msgid "%s formatting of %s failed"
 msgstr ""
 
-#: fs/loopback.pm:24
+#: fs/loopback.pm:21
 #, c-format
 msgid "Circular mounts %s\n"
 msgstr ""
 
-#: fs/mount.pm:85
+#: fs/mount.pm:82
 #, c-format
 msgid "Mounting partition %s"
 msgstr "Хуваалтыг холбож байна %s"
 
-#: fs/mount.pm:86
+#: fs/mount.pm:84
 #, fuzzy, c-format
 msgid "mounting partition %s in directory %s failed"
 msgstr "Хуваалтыг холбож байна %s"
 
-#: fs/mount.pm:91 fs/mount.pm:108
+#: fs/mount.pm:89 fs/mount.pm:106
 #, c-format
 msgid "Checking %s"
 msgstr "%s-ийг шалгаж байна"
 
-#: fs/mount.pm:125 partition_table.pm:422
+#: fs/mount.pm:123 partition_table.pm:421
 #, fuzzy, c-format
 msgid "error unmounting %s: %s"
 msgstr "%s-ийг салгаж байна"
 
-#: fs/mount.pm:140
+#: fs/mount.pm:138
 #, c-format
 msgid "Enabling swap partition %s"
 msgstr ""
 
-#: fs/mount_options.pm:113
+#: fs/mount_options.pm:110
 #, c-format
 msgid "Enable POSIX Access Control Lists"
 msgstr ""
 
-#: fs/mount_options.pm:115
+#: fs/mount_options.pm:112
 #, c-format
 msgid "Flush write cache on file close"
 msgstr ""
 
-#: fs/mount_options.pm:117
+#: fs/mount_options.pm:114
 #, c-format
 msgid "Enable group disk quota accounting and optionally enforce limits"
 msgstr ""
 
-#: fs/mount_options.pm:119
+#: fs/mount_options.pm:116
+#, c-format
+msgid "Enable automatic TRIM for SSD disks"
+msgstr ""
+
+#: fs/mount_options.pm:118
 #, c-format
 msgid ""
 "Do not update inode access times on this filesystem\n"
 "(e.g, for faster access on the news spool to speed up news servers)."
 msgstr ""
 
-#: fs/mount_options.pm:122
+#: fs/mount_options.pm:121
 #, c-format
 msgid ""
 "Update inode access times on this filesystem in a more efficient way\n"
 "(e.g, for faster access on the news spool to speed up news servers)."
 msgstr ""
 
-#: fs/mount_options.pm:125
+#: fs/mount_options.pm:124
 #, c-format
 msgid ""
 "Can only be mounted explicitly (i.e.,\n"
 "the -a option will not cause the filesystem to be mounted)."
 msgstr ""
 
-#: fs/mount_options.pm:128
+#: fs/mount_options.pm:127
 #, c-format
 msgid "Do not interpret character or block special devices on the filesystem."
 msgstr ""
 
-#: fs/mount_options.pm:130
+#: fs/mount_options.pm:129
 #, c-format
 msgid ""
 "Do not allow execution of any binaries on the mounted\n"
@@ -2403,7 +2410,7 @@ msgid ""
 "containing binaries for architectures other than its own."
 msgstr ""
 
-#: fs/mount_options.pm:134
+#: fs/mount_options.pm:133
 #, c-format
 msgid ""
 "Do not allow set-user-identifier or set-group-identifier\n"
@@ -2411,89 +2418,89 @@ msgid ""
 "have suidperl(1) installed.)"
 msgstr ""
 
-#: fs/mount_options.pm:138
+#: fs/mount_options.pm:137
 #, c-format
 msgid "Mount the filesystem read-only."
 msgstr ""
 
-#: fs/mount_options.pm:140
+#: fs/mount_options.pm:139
 #, c-format
 msgid "All I/O to the filesystem should be done synchronously."
 msgstr ""
 
-#: fs/mount_options.pm:142
+#: fs/mount_options.pm:141
 #, c-format
 msgid "Allow every user to mount and umount the filesystem."
 msgstr ""
 
-#: fs/mount_options.pm:144
+#: fs/mount_options.pm:143
 #, c-format
 msgid "Allow an ordinary user to mount the filesystem."
 msgstr ""
 
-#: fs/mount_options.pm:146
+#: fs/mount_options.pm:145
 #, c-format
 msgid "Enable user disk quota accounting, and optionally enforce limits"
 msgstr ""
 
-#: fs/mount_options.pm:148
+#: fs/mount_options.pm:147
 #, c-format
 msgid "Support \"user.\" extended attributes"
 msgstr ""
 
-#: fs/mount_options.pm:150
+#: fs/mount_options.pm:149
 #, c-format
 msgid "Give write access to ordinary users"
 msgstr ""
 
-#: fs/mount_options.pm:152
+#: fs/mount_options.pm:151
 #, c-format
 msgid "Give read-only access to ordinary users"
 msgstr ""
 
-#: fs/mount_point.pm:82
+#: fs/mount_point.pm:87
 #, fuzzy, c-format
 msgid "Duplicate mount point %s"
 msgstr "Цэг"
 
-#: fs/mount_point.pm:97
+#: fs/mount_point.pm:102
 #, fuzzy, c-format
 msgid "No partition available"
 msgstr "Үгүй"
 
-#: fs/mount_point.pm:100
+#: fs/mount_point.pm:105
 #, c-format
 msgid "Scanning partitions to find mount points"
 msgstr "Холболтын цэгүүдийг олохын тулд хуваалтуудыг шалгаж байна"
 
-#: fs/mount_point.pm:107
+#: fs/mount_point.pm:112
 #, fuzzy, c-format
 msgid "Choose the mount points"
 msgstr "Сонгох"
 
-#: fs/partitioning.pm:46
+#: fs/partitioning.pm:43
 #, fuzzy, c-format
 msgid "Choose the partitions you want to format"
 msgstr "вы"
 
-#: fs/partitioning.pm:48
+#: fs/partitioning.pm:45
 #, fuzzy, c-format
 msgid "Check for bad blocks?"
 msgstr "Gá?"
 
-#: fs/partitioning.pm:75
+#: fs/partitioning.pm:72
 #, c-format
 msgid ""
 "Failed to check filesystem %s. Do you want to repair the errors? (beware, "
 "you can lose data)"
 msgstr ""
 
-#: fs/partitioning.pm:78
+#: fs/partitioning.pm:75
 #, c-format
 msgid "Not enough swap space to fulfill installation, please add some"
 msgstr ""
 
-#: fs/partitioning_wizard.pm:55
+#: fs/partitioning_wizard.pm:53
 #, c-format
 msgid ""
 "You must have a root partition.\n"
@@ -2501,7 +2508,7 @@ msgid ""
 "Then choose action ``Mount point'' and set it to `/'"
 msgstr ""
 
-#: fs/partitioning_wizard.pm:61
+#: fs/partitioning_wizard.pm:59
 #, c-format
 msgid ""
 "You do not have a swap partition.\n"
@@ -2509,42 +2516,47 @@ msgid ""
 "Continue anyway?"
 msgstr ""
 
-#: fs/partitioning_wizard.pm:95
+#: fs/partitioning_wizard.pm:62
+#, c-format
+msgid "You must have a FAT partition mounted in /boot/efi"
+msgstr ""
+
+#: fs/partitioning_wizard.pm:94
 #, c-format
 msgid "Use free space"
 msgstr "Сул зайг ашиглах"
 
-#: fs/partitioning_wizard.pm:97
+#: fs/partitioning_wizard.pm:96
 #, c-format
 msgid "Not enough free space to allocate new partitions"
 msgstr "Шинэ хуваалтуудыг хуваарилахад хангалттай зай байхгүй"
 
-#: fs/partitioning_wizard.pm:105
+#: fs/partitioning_wizard.pm:104
 #, fuzzy, c-format
 msgid "Use existing partitions"
 msgstr "Хуваалтыг холбож байна %s"
 
-#: fs/partitioning_wizard.pm:107
+#: fs/partitioning_wizard.pm:106
 #, c-format
 msgid "There is no existing partition to use"
 msgstr "Энд хэрэглэх ямар нэгэн хуваалт алга"
 
-#: fs/partitioning_wizard.pm:131
+#: fs/partitioning_wizard.pm:130
 #, fuzzy, c-format
 msgid "Computing the size of the Microsoft Windows® partition"
 msgstr "хэмжээ аас Цонхнууд"
 
-#: fs/partitioning_wizard.pm:167
+#: fs/partitioning_wizard.pm:166
 #, fuzzy, c-format
 msgid "Use the free space on a Microsoft Windows® partition"
 msgstr "Цонхнууд"
 
-#: fs/partitioning_wizard.pm:171
+#: fs/partitioning_wizard.pm:170
 #, fuzzy, c-format
 msgid "Which partition do you want to resize?"
 msgstr "вы?"
 
-#: fs/partitioning_wizard.pm:174
+#: fs/partitioning_wizard.pm:173
 #, fuzzy, c-format
 msgid ""
 "Your Microsoft Windows® partition is too fragmented. Please reboot your "
@@ -2552,7 +2564,7 @@ msgid ""
 "the OpenMandriva Lx installation."
 msgstr "Цонхнууд бол Цонхнууд."
 
-#: fs/partitioning_wizard.pm:182
+#: fs/partitioning_wizard.pm:181
 #, fuzzy, c-format
 msgid ""
 "WARNING!\n"
@@ -2573,137 +2585,137 @@ msgid ""
 msgstr "АНХААРУУЛГА г Цонхнууд бол вы Хийгдсэн вы Цонхнууд Та Ок."
 
 #. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
-#: fs/partitioning_wizard.pm:191 fs/partitioning_wizard.pm:559
-#: interactive.pm:549 interactive/curses.pm:270 ugtk2.pm:519
+#: fs/partitioning_wizard.pm:190 fs/partitioning_wizard.pm:560
+#: interactive.pm:547 interactive/curses.pm:266 ugtk2.pm:516
 #, c-format
 msgid "Next"
 msgstr "Дараагийн"
 
-#: fs/partitioning_wizard.pm:197
+#: fs/partitioning_wizard.pm:196
 #, fuzzy, c-format
 msgid "Partitionning"
 msgstr "Хуваалтын хүснэгтийн төрөл: %s\n"
 
-#: fs/partitioning_wizard.pm:197
+#: fs/partitioning_wizard.pm:196
 #, fuzzy, c-format
 msgid "Which size do you want to keep for Microsoft Windows® on partition %s?"
 msgstr "хэмжээ вы Цонхнууд"
 
-#: fs/partitioning_wizard.pm:198
+#: fs/partitioning_wizard.pm:197
 #, c-format
 msgid "Size"
 msgstr "Хэмжээ"
 
-#: fs/partitioning_wizard.pm:207
+#: fs/partitioning_wizard.pm:206
 #, fuzzy, c-format
 msgid "Resizing Microsoft Windows® partition"
 msgstr "Цонхнууд"
 
-#: fs/partitioning_wizard.pm:212
+#: fs/partitioning_wizard.pm:211
 #, c-format
 msgid "FAT resizing failed: %s"
 msgstr "FAT хэмжээ өөрчлөлт бүтэлгүйтэв: %s"
 
-#: fs/partitioning_wizard.pm:228
+#: fs/partitioning_wizard.pm:227
 #, fuzzy, c-format
 msgid "There is no FAT partition to resize (or not enough space left)"
 msgstr "бол үгүй зүүн"
 
-#: fs/partitioning_wizard.pm:233
+#: fs/partitioning_wizard.pm:232
 #, c-format
 msgid "Remove Microsoft Windows®"
 msgstr "Виндоусыг (ХТ) устгах"
 
-#: fs/partitioning_wizard.pm:233
+#: fs/partitioning_wizard.pm:232
 #, fuzzy, c-format
 msgid "Erase and use entire disk"
 msgstr "Устгах"
 
-#: fs/partitioning_wizard.pm:237
+#: fs/partitioning_wizard.pm:236
 #, fuzzy, c-format
 msgid ""
 "You have more than one hard disk drive, which one do you want the installer "
 "to use?"
 msgstr "Та вы?"
 
-#: fs/partitioning_wizard.pm:245 fsedit.pm:634
+#: fs/partitioning_wizard.pm:244 fsedit.pm:649
 #, fuzzy, c-format
 msgid "ALL existing partitions and their data will be lost on drive %s"
 msgstr "Нээх"
 
-#: fs/partitioning_wizard.pm:255
+#: fs/partitioning_wizard.pm:256
 #, fuzzy, c-format
 msgid "Custom disk partitioning"
 msgstr "Хэрэглэгчийн"
 
-#: fs/partitioning_wizard.pm:261
+#: fs/partitioning_wizard.pm:262
 #, fuzzy, c-format
 msgid "Use fdisk"
 msgstr "Хэрэглэгчид"
 
-#: fs/partitioning_wizard.pm:264
+#: fs/partitioning_wizard.pm:265
 #, fuzzy, c-format
 msgid ""
 "You can now partition %s.\n"
 "When you are done, do not forget to save using `w'"
 msgstr "Та с вы Хийгдсэн"
 
-#: fs/partitioning_wizard.pm:403
+#: fs/partitioning_wizard.pm:404
 #, fuzzy, c-format
 msgid "Ext2/3/4"
 msgstr "Гарах"
 
-#: fs/partitioning_wizard.pm:433 fs/partitioning_wizard.pm:579
+#: fs/partitioning_wizard.pm:434 fs/partitioning_wizard.pm:580
 #, fuzzy, c-format
 msgid "I cannot find any room for installing"
 msgstr "Би өшөө илүү хуваалт нэмж чадахгүйI"
 
-#: fs/partitioning_wizard.pm:442 fs/partitioning_wizard.pm:586
+#: fs/partitioning_wizard.pm:443 fs/partitioning_wizard.pm:587
 #, c-format
 msgid "The DrakX Partitioning wizard found the following solutions:"
 msgstr ""
 
-#: fs/partitioning_wizard.pm:512
+#: fs/partitioning_wizard.pm:513
 #, c-format
 msgid "Here is the content of your disk drive "
 msgstr ""
 
-#: fs/partitioning_wizard.pm:596
+#: fs/partitioning_wizard.pm:597
 #, fuzzy, c-format
 msgid "Partitioning failed: %s"
 msgstr "Хуваалтын хүснэгтийн төрөл: %s\n"
 
-#: fs/type.pm:389
+#: fs/type.pm:386
 #, fuzzy, c-format
 msgid "You cannot use JFS for partitions smaller than 16MB"
 msgstr "Та"
 
-#: fs/type.pm:390
+#: fs/type.pm:387
 #, fuzzy, c-format
 msgid "You cannot use ReiserFS for partitions smaller than 32MB"
 msgstr "Та"
 
-#: fsedit.pm:24
+#: fsedit.pm:21
 #, c-format
 msgid "simple"
 msgstr ""
 
-#: fsedit.pm:28
+#: fsedit.pm:25
 #, c-format
 msgid "with /usr"
 msgstr ""
 
-#: fsedit.pm:33
+#: fsedit.pm:30
 #, c-format
 msgid "server"
 msgstr ""
 
-#: fsedit.pm:137
+#: fsedit.pm:149
 #, c-format
 msgid "BIOS software RAID detected on disks %s. Activate it?"
 msgstr ""
 
-#: fsedit.pm:247
+#: fsedit.pm:259
 #, c-format
 msgid ""
 "I cannot read the partition table of device %s, it's too corrupted for me :"
@@ -2715,22 +2727,22 @@ msgid ""
 "Do you agree to lose all the partitions?\n"
 msgstr ""
 
-#: fsedit.pm:427
+#: fsedit.pm:439
 #, fuzzy, c-format
 msgid "Mount points must begin with a leading /"
 msgstr "Дискийн төхөөрөмж холбох Цэг"
 
-#: fsedit.pm:428
+#: fsedit.pm:440
 #, fuzzy, c-format
 msgid "Mount points should contain only alphanumerical characters"
 msgstr "Дискийн төхөөрөмж холбох Цэг"
 
-#: fsedit.pm:429
+#: fsedit.pm:441
 #, c-format
 msgid "There is already a partition with mount point %s\n"
 msgstr "Энд холболтын цэгтэй хуваалт хэдийн байна %s\n"
 
-#: fsedit.pm:434
+#: fsedit.pm:446
 #, fuzzy, c-format
 msgid ""
 "You've selected a software RAID partition as root (/).\n"
@@ -2738,26 +2750,26 @@ msgid ""
 "Please be sure to add a separate /boot partition"
 msgstr "Та бол"
 
-#: fsedit.pm:440
+#: fsedit.pm:452
 #, fuzzy, c-format
 msgid ""
 "Metadata version unsupported for a boot partition. Please be sure to add a "
 "separate /boot partition."
 msgstr "Та бол"
 
-#: fsedit.pm:448
+#: fsedit.pm:460
 #, fuzzy, c-format
 msgid ""
 "You've selected a software RAID partition as /boot.\n"
 "No bootloader is able to handle this."
 msgstr "Та бол"
 
-#: fsedit.pm:452
+#: fsedit.pm:464
 #, c-format
 msgid "Metadata version unsupported for a boot partition."
 msgstr ""
 
-#: fsedit.pm:459
+#: fsedit.pm:471
 #, fuzzy, c-format
 msgid ""
 "You've selected an encrypted partition as root (/).\n"
@@ -2765,19 +2777,19 @@ msgid ""
 "Please be sure to add a separate /boot partition"
 msgstr "Та бол"
 
-#: fsedit.pm:465 fsedit.pm:485
+#: fsedit.pm:477 fsedit.pm:497
 #, fuzzy, c-format
 msgid "You cannot use an encrypted filesystem for mount point %s"
 msgstr "Та Цэг"
 
-#: fsedit.pm:469
+#: fsedit.pm:481
 #, fuzzy, c-format
 msgid ""
 "You cannot use the LVM Logical Volume for mount point %s since it spans "
 "physical volumes"
 msgstr "Та Чанга Цэг"
 
-#: fsedit.pm:471
+#: fsedit.pm:483
 #, fuzzy, c-format
 msgid ""
 "You've selected the LVM Logical Volume as root (/).\n"
@@ -2786,312 +2798,312 @@ msgid ""
 "You should create a separate /boot partition first"
 msgstr "Та бол"
 
-#: fsedit.pm:475 fsedit.pm:477
+#: fsedit.pm:487 fsedit.pm:489
 #, c-format
 msgid "This directory should remain within the root filesystem"
 msgstr ""
 
-#: fsedit.pm:479 fsedit.pm:481 fsedit.pm:483
+#: fsedit.pm:491 fsedit.pm:493 fsedit.pm:495
 #, fuzzy, c-format
 msgid ""
 "You need a true filesystem (ext2/3/4, reiserfs, xfs, or jfs) for this mount "
 "point\n"
 msgstr "Та Цэг"
 
-#: fsedit.pm:550
+#: fsedit.pm:562
 #, c-format
 msgid "Not enough free space for auto-allocating"
 msgstr ""
 
-#: fsedit.pm:552
+#: fsedit.pm:564
 #, fuzzy, c-format
 msgid "Nothing to do"
 msgstr "Юу ч үгүй"
 
-#: harddrake/data.pm:62
+#: harddrake/data.pm:61
 #, c-format
 msgid "SATA controllers"
 msgstr "SATA хянагчууд"
 
-#: harddrake/data.pm:71
+#: harddrake/data.pm:70
 #, c-format
 msgid "RAID controllers"
 msgstr "RAID хянагчууд"
 
-#: harddrake/data.pm:81
+#: harddrake/data.pm:80
 #, c-format
 msgid "(E)IDE/ATA controllers"
 msgstr ""
 
-#: harddrake/data.pm:92
+#: harddrake/data.pm:91
 #, c-format
 msgid "Card readers"
 msgstr ""
 
-#: harddrake/data.pm:101
+#: harddrake/data.pm:100
 #, c-format
 msgid "Firewire controllers"
 msgstr "Галтханын хяналтууд"
 
-#: harddrake/data.pm:110
+#: harddrake/data.pm:109
 #, c-format
 msgid "PCMCIA controllers"
 msgstr ""
 
-#: harddrake/data.pm:119
+#: harddrake/data.pm:118
 #, c-format
 msgid "SCSI controllers"
 msgstr ""
 
-#: harddrake/data.pm:128
+#: harddrake/data.pm:127
 #, c-format
 msgid "USB controllers"
 msgstr "USB хянагчууд"
 
-#: harddrake/data.pm:137
+#: harddrake/data.pm:136
 #, fuzzy, c-format
 msgid "USB ports"
 msgstr "USB хэвлэгч"
 
-#: harddrake/data.pm:146
+#: harddrake/data.pm:145
 #, c-format
 msgid "SMBus controllers"
 msgstr "SMBus хянагчууд"
 
-#: harddrake/data.pm:155
+#: harddrake/data.pm:154
 #, c-format
 msgid "Bridges and system controllers"
 msgstr ""
 
-#: harddrake/data.pm:167
+#: harddrake/data.pm:166
 #, c-format
 msgid "Floppy"
 msgstr "Уян диск"
 
-#: harddrake/data.pm:177
+#: harddrake/data.pm:176
 #, c-format
 msgid "Zip"
 msgstr ""
 
-#: harddrake/data.pm:193
+#: harddrake/data.pm:192
 #, c-format
 msgid "Hard Disk"
 msgstr "Диск"
 
-#: harddrake/data.pm:203
+#: harddrake/data.pm:202
 #, c-format
 msgid "USB Mass Storage Devices"
 msgstr ""
 
-#: harddrake/data.pm:212
+#: harddrake/data.pm:211
 #, c-format
 msgid "CDROM"
 msgstr "CDROM"
 
-#: harddrake/data.pm:222
+#: harddrake/data.pm:221
 #, fuzzy, c-format
 msgid "CD/DVD burners"
 msgstr "CD"
 
-#: harddrake/data.pm:232
+#: harddrake/data.pm:231
 #, fuzzy, c-format
 msgid "DVD-ROM"
 msgstr "CD-ROM"
 
-#: harddrake/data.pm:242
+#: harddrake/data.pm:241
 #, c-format
 msgid "Tape"
 msgstr "Хальс"
 
-#: harddrake/data.pm:253
+#: harddrake/data.pm:252
 #, c-format
 msgid "AGP controllers"
 msgstr "AGP хянагчууд"
 
-#: harddrake/data.pm:262
+#: harddrake/data.pm:261
 #, c-format
 msgid "Videocard"
 msgstr ""
 
-#: harddrake/data.pm:271
+#: harddrake/data.pm:270
 #, c-format
 msgid "DVB card"
 msgstr ""
 
-#: harddrake/data.pm:279
+#: harddrake/data.pm:278
 #, c-format
 msgid "Tvcard"
 msgstr "Тв карт"
 
-#: harddrake/data.pm:289
+#: harddrake/data.pm:288
 #, fuzzy, c-format
 msgid "Other MultiMedia devices"
 msgstr "Бусад"
 
-#: harddrake/data.pm:298
+#: harddrake/data.pm:297
 #, c-format
 msgid "Soundcard"
 msgstr "Дууны карт"
 
-#: harddrake/data.pm:312
+#: harddrake/data.pm:311
 #, c-format
 msgid "Webcam"
 msgstr "Вэб дуран"
 
-#: harddrake/data.pm:327
+#: harddrake/data.pm:326
 #, c-format
 msgid "Processors"
 msgstr "Процессорууд"
 
-#: harddrake/data.pm:337
+#: harddrake/data.pm:336
 #, fuzzy, c-format
 msgid "ISDN adapters"
 msgstr "ИСДН(ISDN)"
 
-#: harddrake/data.pm:348
+#: harddrake/data.pm:347
 #, c-format
 msgid "USB sound devices"
 msgstr ""
 
-#: harddrake/data.pm:357
+#: harddrake/data.pm:356
 #, c-format
 msgid "Radio cards"
 msgstr ""
 
-#: harddrake/data.pm:366
+#: harddrake/data.pm:365
 #, c-format
 msgid "ATM network cards"
 msgstr ""
 
-#: harddrake/data.pm:375
+#: harddrake/data.pm:374
 #, c-format
 msgid "WAN network cards"
 msgstr ""
 
-#: harddrake/data.pm:384
+#: harddrake/data.pm:383
 #, c-format
 msgid "Bluetooth devices"
 msgstr ""
 
-#: harddrake/data.pm:393
+#: harddrake/data.pm:392
 #, c-format
 msgid "Ethernetcard"
 msgstr "Сүлжээний карт"
 
-#: harddrake/data.pm:410
+#: harddrake/data.pm:409
 #, c-format
 msgid "Modem"
 msgstr "Модем"
 
-#: harddrake/data.pm:420
+#: harddrake/data.pm:419
 #, c-format
 msgid "ADSL adapters"
 msgstr ""
 
-#: harddrake/data.pm:432
+#: harddrake/data.pm:431
 #, c-format
 msgid "Memory"
 msgstr "Санах ой"
 
-#: harddrake/data.pm:441
+#: harddrake/data.pm:440
 #, c-format
 msgid "Printer"
 msgstr "Хэвлэгч"
 
 #. -PO: these are joysticks controllers:
-#: harddrake/data.pm:455
+#: harddrake/data.pm:454
 #, c-format
 msgid "Game port controllers"
 msgstr ""
 
-#: harddrake/data.pm:464
+#: harddrake/data.pm:463
 #, c-format
 msgid "Joystick"
 msgstr ""
 
-#: harddrake/data.pm:474
+#: harddrake/data.pm:473
 #, c-format
 msgid "Keyboard"
 msgstr "Гар"
 
-#: harddrake/data.pm:488
+#: harddrake/data.pm:487
 #, c-format
 msgid "Tablet and touchscreen"
 msgstr ""
 
-#: harddrake/data.pm:497
+#: harddrake/data.pm:496
 #, c-format
 msgid "Mouse"
 msgstr "Хулгана"
 
-#: harddrake/data.pm:512
+#: harddrake/data.pm:511
 #, c-format
 msgid "Biometry"
 msgstr ""
 
-#: harddrake/data.pm:520
+#: harddrake/data.pm:519
 #, fuzzy, c-format
 msgid "UPS"
 msgstr "CUPS"
 
-#: harddrake/data.pm:529
+#: harddrake/data.pm:528
 #, c-format
 msgid "Scanner"
 msgstr "Хуулан оруулагч"
 
-#: harddrake/data.pm:540
+#: harddrake/data.pm:539
 #, fuzzy, c-format
 msgid "Unknown/Others"
 msgstr "Тодорхойгүй"
 
-#: harddrake/data.pm:570
+#: harddrake/data.pm:569
 #, c-format
 msgid "cpu # "
 msgstr ""
 
-#: harddrake/sound.pm:270
+#: harddrake/sound.pm:250
 #, fuzzy, c-format
 msgid "Please Wait... Applying the configuration"
 msgstr "Хүлээх"
 
-#: harddrake/sound.pm:331
+#: harddrake/sound.pm:303
 #, c-format
 msgid "Enable PulseAudio"
 msgstr ""
 
-#: harddrake/sound.pm:336
+#: harddrake/sound.pm:308
 #, c-format
 msgid "Use Glitch-Free mode"
 msgstr ""
 
-#: harddrake/sound.pm:342
+#: harddrake/sound.pm:314
 #, c-format
 msgid "Reset sound mixer to default values"
 msgstr ""
 
-#: harddrake/sound.pm:347
+#: harddrake/sound.pm:319
 #, c-format
 msgid "Troubleshooting"
 msgstr "Асуудал гарч байна"
 
-#: harddrake/sound.pm:354
+#: harddrake/sound.pm:326
 #, fuzzy, c-format
 msgid "No alternative driver"
 msgstr "Үгүй"
 
-#: harddrake/sound.pm:355
+#: harddrake/sound.pm:327
 #, c-format
 msgid ""
 "There's no known OSS/ALSA alternative driver for your sound card (%s) which "
 "currently uses \"%s\""
 msgstr ""
 
-#: harddrake/sound.pm:362
+#: harddrake/sound.pm:334
 #, fuzzy, c-format
 msgid "Sound configuration"
 msgstr "Драйвер"
 
-#: harddrake/sound.pm:364
+#: harddrake/sound.pm:336
 #, c-format
 msgid ""
 "Here you can select an alternative driver (either OSS or ALSA) for your "
@@ -3101,7 +3113,7 @@ msgstr ""
 #. -PO: here the first %s is either "OSS" or "ALSA", 
 #. -PO: the second %s is the name of the current driver
 #. -PO: and the third %s is the name of the default driver
-#: harddrake/sound.pm:369
+#: harddrake/sound.pm:341
 #, c-format
 msgid ""
 "\n"
@@ -3110,7 +3122,7 @@ msgid ""
 "card is \"%s\")"
 msgstr ""
 
-#: harddrake/sound.pm:371
+#: harddrake/sound.pm:343
 #, c-format
 msgid ""
 "OSS (Open Sound System) was the first sound API. It's an OS independent "
@@ -3130,12 +3142,12 @@ msgid ""
 "the ALSA library.\n"
 msgstr ""
 
-#: harddrake/sound.pm:385 harddrake/sound.pm:468
+#: harddrake/sound.pm:357 harddrake/sound.pm:455
 #, fuzzy, c-format
 msgid "Driver:"
 msgstr "Драйвер:"
 
-#: harddrake/sound.pm:399
+#: harddrake/sound.pm:371
 #, c-format
 msgid ""
 "The old \"%s\" driver is blacklisted.\n"
@@ -3145,71 +3157,101 @@ msgid ""
 "The new \"%s\" driver will only be used on next bootstrap."
 msgstr ""
 
-#: harddrake/sound.pm:407
+#: harddrake/sound.pm:379
 #, c-format
 msgid "No open source driver"
 msgstr "Нэллтэй эх код бүхий драйвер алга"
 
-#: harddrake/sound.pm:408
+#: harddrake/sound.pm:380
 #, c-format
 msgid ""
 "There's no free driver for your sound card (%s), but there's a proprietary "
 "driver at \"%s\"."
 msgstr ""
 
-#: harddrake/sound.pm:411
+#: harddrake/sound.pm:383
 #, fuzzy, c-format
 msgid "No known driver"
 msgstr "Нэллтэй эх код бүхий драйвер алга"
 
-#: harddrake/sound.pm:412
+#: harddrake/sound.pm:384
 #, fuzzy, c-format
 msgid "There's no known driver for your sound card (%s)"
 msgstr "Алдаа: Таны дууны картны \"%s\" драйвер жагсаалтанд байхгүй байна"
 
-#: harddrake/sound.pm:427
+#: harddrake/sound.pm:399
 #, fuzzy, c-format
 msgid "Sound troubleshooting"
 msgstr "Асуудал гарч байна"
 
 #. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
-#: harddrake/sound.pm:430
+#: harddrake/sound.pm:402
 #, c-format
 msgid ""
-"The classic bug sound tester is to run the following commands:\n"
+"Below are some basic tips to help debug audio problems. For up-to-date "
+"information, visit:\n"
+"\n"
+"http://wiki.openmandriva.org/ (The OpenMandriva Wiki)\n"
+"\n"
+"- General Recommendation: Enable PulseAudio. If you have opted to not to use "
+"PulseAudio, we would strongly advise you enable it. For the vast majority of "
+"desktop use cases, PulseAudio is the recommended and best supported option.\n"
+"\n"
+"- \"kmix\" (KDE), \"gnome-control-center sound\" (GNOME) and \"pauvucontrol"
+"\" (generic) will launch graphical applications to allow you to view your "
+"sound devices and adjust volume levels\n"
 "\n"
 "\n"
-"- \"lspcidrake -v | fgrep -i AUDIO\" will tell you which driver your card "
-"uses\n"
-"by default\n"
+"- \"ps aux | grep pulseaudio\" will check that PulseAudio is running.\n"
 "\n"
-"- \"grep sound-slot /etc/modprobe.conf\" will tell you what driver it\n"
-"currently uses\n"
 "\n"
-"- \"/sbin/lsmod\" will enable you to check if its module (driver) is\n"
-"loaded or not\n"
+"- \"pactl stat\" will check that you can connect to the PulseAudio daemon "
+"correctly.\n"
 "\n"
-"- \"/sbin/chkconfig --list sound\" and \"/sbin/chkconfig --list alsa\" will\n"
-"tell you if sound and alsa services are configured to be run on\n"
-"initlevel 3\n"
 "\n"
-"- \"aumix -q\" will tell you if the sound volume is muted or not\n"
+"- \"pactl list sink-inputs\" will tell you which programs are currently "
+"playing sound via PulseAudio.\n"
 "\n"
-"- \"/sbin/fuser -v /dev/dsp\" will tell which program uses the sound card.\n"
+"\n"
+"- \"systemctl status osspd.service\" will tell you the current state of the "
+"OSS Proxy Daemon. This is used to enable sound from legacy applications "
+"which use the OSS sound API. You should install the \"ossp\" package if you "
+"need this functionality.\n"
+"\n"
+"\n"
+"- \"pacmd ls\" will give you a LOT of debug information about the current "
+"state of your audio.\n"
+"\n"
+"\n"
+"- \"lspcidrake -v | grep -i audio\" will tell you which low-level driver "
+"your card uses by default.\n"
+"\n"
+"\n"
+"- \"/usr/sbin/lsmod | grep snd\" will enable you to check which sound "
+"related kernel modules (drivers) are loaded.\n"
+"\n"
+"\n"
+"- \"alsamixer -c 0\" will give you a text-based mixer to the low level ALSA "
+"mixer controls for first sound card\n"
+"\n"
+"\n"
+"- \"/usr/sbin/fuser -v /dev/snd/pcm* /dev/dsp\" will tell which programs are "
+"currently using the sound card directly (normally this should only show "
+"PulseAudio)\n"
 msgstr ""
 
-#: harddrake/sound.pm:457
+#: harddrake/sound.pm:444
 #, c-format
 msgid "Let me pick any driver"
 msgstr ""
 
-#: harddrake/sound.pm:460
+#: harddrake/sound.pm:447
 #, c-format
 msgid "Choosing an arbitrary driver"
 msgstr ""
 
 #. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
-#: harddrake/sound.pm:463
+#: harddrake/sound.pm:450
 #, fuzzy, c-format
 msgid ""
 "If you really think that you know which driver is the right one for your "
@@ -3219,27 +3261,27 @@ msgid ""
 "The current driver for your \"%s\" sound card is \"%s\" "
 msgstr "вы вы бол баруун ямх жигсаалт г с бол с "
 
-#: harddrake/v4l.pm:12
+#: harddrake/v4l.pm:10
 #, c-format
 msgid "Auto-detect"
 msgstr "Автомат танилт"
 
-#: harddrake/v4l.pm:97 harddrake/v4l.pm:285 harddrake/v4l.pm:337
+#: harddrake/v4l.pm:95 harddrake/v4l.pm:283 harddrake/v4l.pm:335
 #, fuzzy, c-format
 msgid "Unknown|Generic"
 msgstr "Тодорхойгүй"
 
-#: harddrake/v4l.pm:130
+#: harddrake/v4l.pm:128
 #, fuzzy, c-format
 msgid "Unknown|CPH05X (bt878) [many vendors]"
 msgstr "Тодорхойгүй"
 
-#: harddrake/v4l.pm:131
+#: harddrake/v4l.pm:129
 #, c-format
 msgid "Unknown|CPH06X (bt878) [many vendors]"
 msgstr "Тодорхойгүй|CPH06X (bt878) [олон нийлүүлэгчид]"
 
-#: harddrake/v4l.pm:475
+#: harddrake/v4l.pm:473
 #, c-format
 msgid ""
 "For most modern TV cards, the bttv module of the GNU/Linux kernel just auto-"
@@ -3253,75 +3295,75 @@ msgstr ""
 "төрлийг энд сонгож болно. Зүгээр л ТВ картныхаа хэрэгтэй параметрүүдийг "
 "сонгоно уу."
 
-#: harddrake/v4l.pm:478
+#: harddrake/v4l.pm:476
 #, c-format
 msgid "Card model:"
 msgstr ""
 
-#: harddrake/v4l.pm:479
+#: harddrake/v4l.pm:477
 #, fuzzy, c-format
 msgid "Tuner type:"
 msgstr "төрөл:"
 
-#: interactive.pm:128 interactive.pm:549 interactive/curses.pm:270
-#: interactive/http.pm:103 interactive/http.pm:156 interactive/stdio.pm:39
-#: interactive/stdio.pm:148 interactive/stdio.pm:149 mygtk2.pm:846
-#: ugtk2.pm:421 ugtk2.pm:519 ugtk2.pm:812 ugtk2.pm:835
+#: interactive.pm:126 interactive.pm:547 interactive/curses.pm:266
+#: interactive/http.pm:99 interactive/http.pm:152 interactive/stdio.pm:35
+#: interactive/stdio.pm:144 interactive/stdio.pm:145 mygtk2.pm:844
+#: ugtk2.pm:418 ugtk2.pm:516 ugtk2.pm:809 ugtk2.pm:832
 #, c-format
 msgid "Ok"
 msgstr "Ок"
 
-#: interactive.pm:228 modules/interactive.pm:72 ugtk2.pm:811 wizards.pm:157
+#: interactive.pm:226 modules/interactive.pm:72 ugtk2.pm:808 wizards.pm:156
 #, c-format
 msgid "Yes"
 msgstr "Тийм"
 
-#: interactive.pm:228 modules/interactive.pm:72 ugtk2.pm:811 wizards.pm:157
+#: interactive.pm:226 modules/interactive.pm:72 ugtk2.pm:808 wizards.pm:156
 #, c-format
 msgid "No"
 msgstr "Үгүй"
 
-#: interactive.pm:262
+#: interactive.pm:260
 #, fuzzy, c-format
 msgid "Choose a file"
 msgstr "Файл сонгох"
 
-#: interactive.pm:387 interactive/gtk.pm:458
+#: interactive.pm:385 interactive/gtk.pm:458
 #, c-format
 msgid "Add"
 msgstr "Нэмэх"
 
-#: interactive.pm:387 interactive/gtk.pm:458
+#: interactive.pm:385 interactive/gtk.pm:458
 #, c-format
 msgid "Modify"
 msgstr "Өөрчлөх"
 
-#: interactive.pm:549 interactive/curses.pm:270 ugtk2.pm:519
+#: interactive.pm:547 interactive/curses.pm:266 ugtk2.pm:516
 #, c-format
 msgid "Finish"
 msgstr "Дуусгах"
 
-#: interactive.pm:550 interactive/curses.pm:267 ugtk2.pm:517
+#: interactive.pm:548 interactive/curses.pm:263 ugtk2.pm:514
 #, c-format
 msgid "Previous"
 msgstr "Өмнөх"
 
-#: interactive/curses.pm:576 ugtk2.pm:872
+#: interactive/curses.pm:572 ugtk2.pm:869
 #, fuzzy, c-format
 msgid "No file chosen"
 msgstr "Файл сонгогч"
 
-#: interactive/curses.pm:580 ugtk2.pm:876
+#: interactive/curses.pm:576 ugtk2.pm:873
 #, fuzzy, c-format
 msgid "You have chosen a directory, not a file"
 msgstr "»/« нэр түлхүүр биш зөвхөн лавлах байх боломжтой. "
 
-#: interactive/curses.pm:582 ugtk2.pm:878
+#: interactive/curses.pm:578 ugtk2.pm:875
 #, fuzzy, c-format
 msgid "No such directory"
 msgstr "Лавлах биш"
 
-#: interactive/curses.pm:582 ugtk2.pm:878
+#: interactive/curses.pm:578 ugtk2.pm:875
 #, fuzzy, c-format
 msgid "No such file"
 msgstr "»%s« файл алга\n"
@@ -3331,17 +3373,17 @@ msgstr "»%s« файл алга\n"
 msgid "Beware, Caps Lock is enabled"
 msgstr ""
 
-#: interactive/stdio.pm:29 interactive/stdio.pm:154
+#: interactive/stdio.pm:25 interactive/stdio.pm:150
 #, c-format
 msgid "Bad choice, try again\n"
 msgstr ""
 
-#: interactive/stdio.pm:30 interactive/stdio.pm:155
+#: interactive/stdio.pm:26 interactive/stdio.pm:151
 #, c-format
 msgid "Your choice? (default %s) "
 msgstr "Таны сонголт уу? (үндсэн нь %s) "
 
-#: interactive/stdio.pm:54
+#: interactive/stdio.pm:50
 #, c-format
 msgid ""
 "Entries you'll have to fill:\n"
@@ -3350,37 +3392,37 @@ msgstr ""
 "Та бөглөх хэрэгтэй болох утгууд:\n"
 "%s"
 
-#: interactive/stdio.pm:70
+#: interactive/stdio.pm:66
 #, fuzzy, c-format
 msgid "Your choice? (0/1, default `%s') "
 msgstr "Таны сонголт уу? (үндсэн нь %s) "
 
-#: interactive/stdio.pm:97
+#: interactive/stdio.pm:93
 #, fuzzy, c-format
 msgid "Button `%s': %s"
 msgstr "Товч %d:"
 
-#: interactive/stdio.pm:98
+#: interactive/stdio.pm:94
 #, fuzzy, c-format
 msgid "Do you want to click on this button?"
 msgstr "Та суулгалтыг үргэлжлүүлэхийг хүсэж байна уу?"
 
-#: interactive/stdio.pm:110
+#: interactive/stdio.pm:106
 #, fuzzy, c-format
 msgid "Your choice? (default `%s'%s) "
 msgstr "Таны сонголт уу? (үндсэн нь %s) "
 
-#: interactive/stdio.pm:110
+#: interactive/stdio.pm:106
 #, c-format
 msgid " enter `void' for void entry"
 msgstr ""
 
-#: interactive/stdio.pm:128
+#: interactive/stdio.pm:124
 #, c-format
 msgid "=> There are many things to choose from (%s).\n"
 msgstr ""
 
-#: interactive/stdio.pm:131
+#: interactive/stdio.pm:127
 #, c-format
 msgid ""
 "Please choose the first number of the 10-range you wish to edit,\n"
@@ -3388,14 +3430,14 @@ msgid ""
 "Your choice? "
 msgstr ""
 
-#: interactive/stdio.pm:144
+#: interactive/stdio.pm:140
 #, fuzzy, c-format
 msgid ""
 "=> Notice, a label changed:\n"
 "%s"
 msgstr "Мэдэгдэл Бичээс г"
 
-#: interactive/stdio.pm:151
+#: interactive/stdio.pm:147
 #, c-format
 msgid "Re-submit"
 msgstr ""
@@ -3413,7 +3455,7 @@ msgstr "default:LTR"
 msgid "Andorra"
 msgstr "Андорра"
 
-#: lang.pm:221 timezone.pm:228
+#: lang.pm:221 timezone.pm:232
 #, c-format
 msgid "United Arab Emirates"
 msgstr "Арабын Нэгдсэн Эмират"
@@ -3458,7 +3500,7 @@ msgstr "Ангол"
 msgid "Antarctica"
 msgstr "Антрактид"
 
-#: lang.pm:230 timezone.pm:273
+#: lang.pm:230 timezone.pm:277
 #, c-format
 msgid "Argentina"
 msgstr "Аргентин"
@@ -3468,12 +3510,12 @@ msgstr "Аргентин"
 msgid "American Samoa"
 msgstr "Америкийн Самао"
 
-#: lang.pm:232 mirror.pm:12 timezone.pm:231
+#: lang.pm:232 mirror.pm:10 timezone.pm:235
 #, c-format
 msgid "Austria"
 msgstr "Австри"
 
-#: lang.pm:233 mirror.pm:11 timezone.pm:269
+#: lang.pm:233 mirror.pm:9 timezone.pm:273
 #, c-format
 msgid "Australia"
 msgstr "Австрали"
@@ -3498,12 +3540,12 @@ msgstr "Босни ба Херцеговина"
 msgid "Barbados"
 msgstr "Барбадос"
 
-#: lang.pm:238 timezone.pm:213
+#: lang.pm:238 timezone.pm:217
 #, c-format
 msgid "Bangladesh"
 msgstr "Бангладеш"
 
-#: lang.pm:239 mirror.pm:13 timezone.pm:233
+#: lang.pm:239 mirror.pm:11 timezone.pm:237
 #, c-format
 msgid "Belgium"
 msgstr "Бельги"
@@ -3513,7 +3555,7 @@ msgstr "Бельги"
 msgid "Burkina Faso"
 msgstr "Буркина Фасо"
 
-#: lang.pm:241 timezone.pm:234
+#: lang.pm:241 timezone.pm:238
 #, c-format
 msgid "Bulgaria"
 msgstr "Болгарь"
@@ -3548,7 +3590,7 @@ msgstr "Бруне Даруссалам"
 msgid "Bolivia"
 msgstr "Болив"
 
-#: lang.pm:248 mirror.pm:14 timezone.pm:274
+#: lang.pm:248 mirror.pm:12 timezone.pm:278
 #, c-format
 msgid "Brazil"
 msgstr "Бразил"
@@ -3573,7 +3615,7 @@ msgstr "Бувет Арал"
 msgid "Botswana"
 msgstr "Ботсвана"
 
-#: lang.pm:253 timezone.pm:232
+#: lang.pm:253 timezone.pm:236
 #, c-format
 msgid "Belarus"
 msgstr "Беларус"
@@ -3583,7 +3625,7 @@ msgstr "Беларус"
 msgid "Belize"
 msgstr "Белиз"
 
-#: lang.pm:255 mirror.pm:15 timezone.pm:263
+#: lang.pm:255 mirror.pm:13 timezone.pm:267
 #, c-format
 msgid "Canada"
 msgstr "Канад"
@@ -3608,7 +3650,7 @@ msgstr "Төв Африкийн Бүгд Найрамдах Улс"
 msgid "Congo (Brazzaville)"
 msgstr ""
 
-#: lang.pm:260 mirror.pm:39 timezone.pm:257
+#: lang.pm:260 mirror.pm:37 timezone.pm:261
 #, c-format
 msgid "Switzerland"
 msgstr "Швейцарь"
@@ -3623,7 +3665,7 @@ msgstr "Кот-д'Ивуар"
 msgid "Cook Islands"
 msgstr "Коок Аралууд"
 
-#: lang.pm:263 timezone.pm:275
+#: lang.pm:263 timezone.pm:279
 #, c-format
 msgid "Chile"
 msgstr "Чили"
@@ -3633,7 +3675,7 @@ msgstr "Чили"
 msgid "Cameroon"
 msgstr "Камерун"
 
-#: lang.pm:265 timezone.pm:214
+#: lang.pm:265 timezone.pm:218
 #, c-format
 msgid "China"
 msgstr "Хятад"
@@ -3643,7 +3685,7 @@ msgstr "Хятад"
 msgid "Colombia"
 msgstr "Колумб"
 
-#: lang.pm:267 mirror.pm:16
+#: lang.pm:267 mirror.pm:14
 #, c-format
 msgid "Costa Rica"
 msgstr "Коста Рика"
@@ -3673,12 +3715,12 @@ msgstr "Кристмасын Арал"
 msgid "Cyprus"
 msgstr "Кипр"
 
-#: lang.pm:273 mirror.pm:17 timezone.pm:235
+#: lang.pm:273 mirror.pm:15 timezone.pm:239
 #, c-format
 msgid "Czech Republic"
 msgstr "Чех"
 
-#: lang.pm:274 mirror.pm:22 timezone.pm:240
+#: lang.pm:274 mirror.pm:20 timezone.pm:244
 #, c-format
 msgid "Germany"
 msgstr "Герман"
@@ -3688,7 +3730,7 @@ msgstr "Герман"
 msgid "Djibouti"
 msgstr "Дижибути"
 
-#: lang.pm:276 mirror.pm:18 timezone.pm:236
+#: lang.pm:276 mirror.pm:16 timezone.pm:240
 #, c-format
 msgid "Denmark"
 msgstr "Дани"
@@ -3713,7 +3755,7 @@ msgstr "Алжир"
 msgid "Ecuador"
 msgstr "Эквадор"
 
-#: lang.pm:281 mirror.pm:19 timezone.pm:237
+#: lang.pm:281 mirror.pm:17 timezone.pm:241
 #, c-format
 msgid "Estonia"
 msgstr "Эстони"
@@ -3733,7 +3775,7 @@ msgstr "Баруун Сахара"
 msgid "Eritrea"
 msgstr "Эритреа"
 
-#: lang.pm:285 mirror.pm:37 timezone.pm:255
+#: lang.pm:285 mirror.pm:35 timezone.pm:259
 #, c-format
 msgid "Spain"
 msgstr "Испани"
@@ -3743,7 +3785,7 @@ msgstr "Испани"
 msgid "Ethiopia"
 msgstr "Этиоп"
 
-#: lang.pm:287 mirror.pm:20 timezone.pm:238
+#: lang.pm:287 mirror.pm:18 timezone.pm:242
 #, c-format
 msgid "Finland"
 msgstr "Финланд"
@@ -3768,7 +3810,7 @@ msgstr "Микронесиа"
 msgid "Faroe Islands"
 msgstr "Фарое Аралууд"
 
-#: lang.pm:292 mirror.pm:21 timezone.pm:239
+#: lang.pm:292 mirror.pm:19 timezone.pm:243
 #, c-format
 msgid "France"
 msgstr "Франц"
@@ -3778,7 +3820,7 @@ msgstr "Франц"
 msgid "Gabon"
 msgstr "Габон"
 
-#: lang.pm:294 timezone.pm:259
+#: lang.pm:294 timezone.pm:263
 #, c-format
 msgid "United Kingdom"
 msgstr "Англи"
@@ -3833,7 +3875,7 @@ msgstr "Гваделупа"
 msgid "Equatorial Guinea"
 msgstr "Эквадорын Гвинеа"
 
-#: lang.pm:305 mirror.pm:23 timezone.pm:241
+#: lang.pm:305 mirror.pm:21 timezone.pm:245
 #, c-format
 msgid "Greece"
 msgstr "Грек"
@@ -3843,7 +3885,7 @@ msgstr "Грек"
 msgid "South Georgia and the South Sandwich Islands"
 msgstr ""
 
-#: lang.pm:307 timezone.pm:264
+#: lang.pm:307 timezone.pm:268
 #, c-format
 msgid "Guatemala"
 msgstr "Гуатемала"
@@ -3888,27 +3930,27 @@ msgstr "Хорват"
 msgid "Haiti"
 msgstr "Гайти"
 
-#: lang.pm:316 mirror.pm:24 timezone.pm:242
+#: lang.pm:316 mirror.pm:22 timezone.pm:246
 #, c-format
 msgid "Hungary"
 msgstr "Унгар"
 
-#: lang.pm:317 timezone.pm:217
+#: lang.pm:317 timezone.pm:221
 #, c-format
 msgid "Indonesia"
 msgstr "Индонез"
 
-#: lang.pm:318 mirror.pm:25 timezone.pm:243
+#: lang.pm:318 mirror.pm:23 timezone.pm:247
 #, c-format
 msgid "Ireland"
 msgstr "Ирланд"
 
-#: lang.pm:319 mirror.pm:26 timezone.pm:219
+#: lang.pm:319 mirror.pm:24 timezone.pm:223
 #, c-format
 msgid "Israel"
 msgstr "Изриаль"
 
-#: lang.pm:320 timezone.pm:216
+#: lang.pm:320 timezone.pm:220
 #, c-format
 msgid "India"
 msgstr "Энэтхэг"
@@ -3923,7 +3965,7 @@ msgstr "Британийн Энэтхэгийн Далайн Газар Нута
 msgid "Iraq"
 msgstr "Ирак"
 
-#: lang.pm:323 timezone.pm:218
+#: lang.pm:323 timezone.pm:222
 #, c-format
 msgid "Iran"
 msgstr "Иран"
@@ -3933,7 +3975,7 @@ msgstr "Иран"
 msgid "Iceland"
 msgstr "Исланд"
 
-#: lang.pm:325 mirror.pm:27 timezone.pm:244
+#: lang.pm:325 mirror.pm:25 timezone.pm:248
 #, c-format
 msgid "Italy"
 msgstr "Итали"
@@ -3948,7 +3990,7 @@ msgstr "Ямайка"
 msgid "Jordan"
 msgstr "Иордан"
 
-#: lang.pm:328 mirror.pm:28 timezone.pm:220
+#: lang.pm:328 mirror.pm:26 timezone.pm:224
 #, c-format
 msgid "Japan"
 msgstr "Япон"
@@ -3988,7 +4030,7 @@ msgstr ""
 msgid "Korea (North)"
 msgstr ""
 
-#: lang.pm:336 timezone.pm:221
+#: lang.pm:336 timezone.pm:225
 #, c-format
 msgid "Korea"
 msgstr ""
@@ -4043,12 +4085,12 @@ msgstr "Либера"
 msgid "Lesotho"
 msgstr "Лесото"
 
-#: lang.pm:347 timezone.pm:245
+#: lang.pm:347 timezone.pm:249
 #, c-format
 msgid "Lithuania"
 msgstr "Литвани"
 
-#: lang.pm:348 timezone.pm:246
+#: lang.pm:348 timezone.pm:250
 #, c-format
 msgid "Luxembourg"
 msgstr "Люксенбүрг"
@@ -4148,12 +4190,12 @@ msgstr "Малдива"
 msgid "Malawi"
 msgstr "Малави"
 
-#: lang.pm:368 timezone.pm:265
+#: lang.pm:368 timezone.pm:269
 #, c-format
 msgid "Mexico"
 msgstr "Мексик"
 
-#: lang.pm:369 timezone.pm:222
+#: lang.pm:369 timezone.pm:226
 #, c-format
 msgid "Malaysia"
 msgstr "Малайз"
@@ -4193,12 +4235,12 @@ msgstr "Нигер"
 msgid "Nicaragua"
 msgstr "Никорагуа"
 
-#: lang.pm:377 mirror.pm:29 timezone.pm:247
+#: lang.pm:377 mirror.pm:27 timezone.pm:251
 #, c-format
 msgid "Netherlands"
 msgstr "Голланд"
 
-#: lang.pm:378 mirror.pm:31 timezone.pm:248
+#: lang.pm:378 mirror.pm:29 timezone.pm:252
 #, c-format
 msgid "Norway"
 msgstr "Норвеги"
@@ -4218,7 +4260,7 @@ msgstr "Науру"
 msgid "Niue"
 msgstr "Ниве"
 
-#: lang.pm:382 mirror.pm:30 timezone.pm:270
+#: lang.pm:382 mirror.pm:28 timezone.pm:274
 #, c-format
 msgid "New Zealand"
 msgstr "Шинэ Зеаланд"
@@ -4248,7 +4290,7 @@ msgstr "Франц Полинесиа"
 msgid "Papua New Guinea"
 msgstr "Папуа Шинэ Гвинеа"
 
-#: lang.pm:388 timezone.pm:223
+#: lang.pm:388 timezone.pm:227
 #, c-format
 msgid "Philippines"
 msgstr "Филлипинни"
@@ -4258,7 +4300,7 @@ msgstr "Филлипинни"
 msgid "Pakistan"
 msgstr "Пакистан"
 
-#: lang.pm:390 mirror.pm:32 timezone.pm:249
+#: lang.pm:390 mirror.pm:30 timezone.pm:253
 #, c-format
 msgid "Poland"
 msgstr "Польш"
@@ -4283,7 +4325,7 @@ msgstr "Порто Рико"
 msgid "Palestine"
 msgstr "Палестин"
 
-#: lang.pm:395 mirror.pm:33 timezone.pm:250
+#: lang.pm:395 mirror.pm:31 timezone.pm:254
 #, c-format
 msgid "Portugal"
 msgstr "Португали"
@@ -4308,12 +4350,12 @@ msgstr "Катар"
 msgid "Reunion"
 msgstr "Реюньон"
 
-#: lang.pm:400 timezone.pm:251
+#: lang.pm:400 timezone.pm:255
 #, c-format
 msgid "Romania"
 msgstr "Румин"
 
-#: lang.pm:401 mirror.pm:34
+#: lang.pm:401 mirror.pm:32
 #, c-format
 msgid "Russia"
 msgstr "Орос"
@@ -4343,12 +4385,12 @@ msgstr "Сейшеллийн арлууд"
 msgid "Sudan"
 msgstr "Судан"
 
-#: lang.pm:407 mirror.pm:38 timezone.pm:256
+#: lang.pm:407 mirror.pm:36 timezone.pm:260
 #, c-format
 msgid "Sweden"
 msgstr "Швед"
 
-#: lang.pm:408 timezone.pm:224
+#: lang.pm:408 timezone.pm:228
 #, c-format
 msgid "Singapore"
 msgstr "Сингапур"
@@ -4358,7 +4400,7 @@ msgstr "Сингапур"
 msgid "Saint Helena"
 msgstr "Сайнт Елена"
 
-#: lang.pm:410 timezone.pm:254
+#: lang.pm:410 timezone.pm:258
 #, c-format
 msgid "Slovenia"
 msgstr "Словени"
@@ -4368,7 +4410,7 @@ msgstr "Словени"
 msgid "Svalbard and Jan Mayen Islands"
 msgstr "Свалбард, Жан Майен Аралууд"
 
-#: lang.pm:412 mirror.pm:35 timezone.pm:253
+#: lang.pm:412 mirror.pm:33 timezone.pm:257
 #, c-format
 msgid "Slovakia"
 msgstr "Словак"
@@ -4438,7 +4480,7 @@ msgstr "Френчийн Өмнөд хэсгийн Газар нутаг"
 msgid "Togo"
 msgstr "Того"
 
-#: lang.pm:426 mirror.pm:41 timezone.pm:226
+#: lang.pm:426 mirror.pm:39 timezone.pm:230
 #, c-format
 msgid "Thailand"
 msgstr "Тайланд"
@@ -4473,7 +4515,7 @@ msgstr "Тунис"
 msgid "Tonga"
 msgstr "Тонга"
 
-#: lang.pm:433 timezone.pm:227
+#: lang.pm:433 timezone.pm:231
 #, c-format
 msgid "Turkey"
 msgstr "Турк"
@@ -4488,17 +4530,17 @@ msgstr "Тринидад болон Тобаго"
 msgid "Tuvalu"
 msgstr "Тувалу"
 
-#: lang.pm:436 mirror.pm:40 timezone.pm:225
+#: lang.pm:436 mirror.pm:38 timezone.pm:229
 #, c-format
 msgid "Taiwan"
 msgstr "Тайван"
 
-#: lang.pm:437 timezone.pm:210
+#: lang.pm:437 timezone.pm:214
 #, c-format
 msgid "Tanzania"
 msgstr "Танзан"
 
-#: lang.pm:438 timezone.pm:258
+#: lang.pm:438 timezone.pm:262
 #, c-format
 msgid "Ukraine"
 msgstr "Украйн"
@@ -4513,7 +4555,7 @@ msgstr "Уганда"
 msgid "United States Minor Outlying Islands"
 msgstr ""
 
-#: lang.pm:441 mirror.pm:42 timezone.pm:266
+#: lang.pm:441 mirror.pm:40 timezone.pm:270
 #, c-format
 msgid "United States"
 msgstr "АНУ"
@@ -4583,7 +4625,7 @@ msgstr "Иемэн"
 msgid "Mayotte"
 msgstr "Майотте"
 
-#: lang.pm:455 mirror.pm:36 timezone.pm:209
+#: lang.pm:455 mirror.pm:34 timezone.pm:213
 #, c-format
 msgid "South Africa"
 msgstr "Өмнөд Африк"
@@ -4598,12 +4640,12 @@ msgstr "Замби"
 msgid "Zimbabwe"
 msgstr "Зимбабе"
 
-#: lang.pm:1227
+#: lang.pm:1226
 #, fuzzy, c-format
 msgid "Welcome to %s"
 msgstr "Тавтай морил тийш"
 
-#: lvm.pm:92
+#: lvm.pm:89
 #, c-format
 msgid "Moving used physical extents to other physical volumes failed"
 msgstr ""
@@ -4623,85 +4665,85 @@ msgstr "Эхлээд логик хуваалтыг устга\n"
 msgid "The bootloader can't handle /boot on multiple physical volumes"
 msgstr ""
 
-#: messages.pm:11
+#: messages.pm:8
 #, c-format
 msgid ""
 "Introduction\n"
 "\n"
-"The operating system and the different components available in the Mandriva "
-"Linux distribution \n"
+"The operating system and the different components available in the "
+"OpenMandriva Lx distribution\n"
 "shall be called the \"Software Products\" hereafter. The Software Products "
-"include, but are not \n"
+"include, but are not\n"
 "restricted to, the set of programs, methods, rules and documentation related "
-"to the operating \n"
+"to the operating\n"
 "system and the different components of the OpenMandriva Lx distribution, and "
-"any applications \n"
-"distributed with these products provided by Mandriva's licensors or "
+"any applications\n"
+"distributed with these products provided by OpenMandriva's licensors or "
 "suppliers.\n"
 "\n"
 "\n"
 "1. License Agreement\n"
 "\n"
 "Please read this document carefully. This document is a license agreement "
-"between you and  \n"
-"Mandriva S.A. which applies to the Software Products.\n"
+"between you and\n"
+"the OpenMandriva Association which applies to the Software Products.\n"
 "By installing, duplicating or using any of the Software Products in any "
-"manner, you explicitly \n"
+"manner, you explicitly\n"
 "accept and fully agree to conform to the terms and conditions of this "
-"License. \n"
+"License.\n"
 "If you disagree with any portion of the License, you are not allowed to "
-"install, duplicate or use \n"
-"the Software Products. \n"
+"install, duplicate or use\n"
+"the Software Products.\n"
 "Any attempt to install, duplicate or use the Software Products in a manner "
-"which does not comply \n"
+"which does not comply\n"
 "with the terms and conditions of this License is void and will terminate "
-"your rights under this \n"
+"your rights under this\n"
 "License. Upon termination of the License,  you must immediately destroy all "
-"copies of the \n"
+"copies of the\n"
 "Software Products.\n"
 "\n"
 "\n"
 "2. Limited Warranty\n"
 "\n"
 "The Software Products and attached documentation are provided \"as is\", "
-"with no warranty, to the \n"
+"with no warranty, to the\n"
 "extent permitted by law.\n"
-"Neither Mandriva S.A. nor its licensors or suppliers will, in any "
-"circumstances and to the extent \n"
-"permitted by law, be liable for any special, incidental, direct or indirect "
-"damages whatsoever \n"
-"(including without limitation damages for loss of business, interruption of "
-"business, financial \n"
+"Neither the OpenMandriva Association nor its licensors or suppliers will, in "
+"any circumstances\n"
+"and to the extent permitted by law, be liable for any special, incidental, "
+"direct or indirect damages\n"
+"whatsoever (including without limitation damages for loss of business, "
+"interruption of business, financial\n"
 "loss, legal fees and penalties resulting from a court judgment, or any other "
-"consequential loss) \n"
+"consequential loss)\n"
 "arising out of  the use or inability to use the Software Products, even if "
-"Mandriva S.A. or its \n"
-"licensors or suppliers have been advised of the possibility or occurrence of "
-"such damages.\n"
+"the OpenMandriva Association\n"
+"or its licensors or suppliers have been advised of the possibility or "
+"occurrence of such damages.\n"
 "\n"
 "LIMITED LIABILITY LINKED TO POSSESSING OR USING PROHIBITED SOFTWARE IN SOME "
 "COUNTRIES\n"
 "\n"
-"To the extent permitted by law, neither Mandriva S.A. nor its licensors, "
-"suppliers or\n"
+"To the extent permitted by law, neither the OpenMandriva Association nor its "
+"licensors, suppliers or\n"
 "distributors will, in any circumstances, be liable for any special, "
-"incidental, direct or indirect \n"
+"incidental, direct or indirect\n"
 "damages whatsoever (including without limitation damages for loss of "
-"business, interruption of \n"
+"business, interruption of\n"
 "business, financial loss, legal fees and penalties resulting from a court "
-"judgment, or any \n"
+"judgment, or any\n"
 "other consequential loss) arising out of the possession and use of software "
-"components or \n"
-"arising out of  downloading software components from one of OpenMandriva Lx "
-"sites which are \n"
+"components or\n"
+"arising out of  downloading software components from one of OpenMandriva GNU/"
+"Linux sites which are\n"
 "prohibited or restricted in some countries by local laws.\n"
 "This limited liability applies to, but is not restricted to, the strong "
-"cryptography components \n"
+"cryptography components\n"
 "included in the Software Products.\n"
 "However, because some jurisdictions do not allow the exclusion or limitation "
-"or liability for \n"
+"or liability for\n"
 "consequential or incidental damages, the above limitation may not apply to "
-"you.  \n"
+"you.\n"
 "%s\n"
 "\n"
 "3. The GPL License and Related Licenses\n"
@@ -4709,97 +4751,97 @@ msgid ""
 "The Software Products consist of components created by different persons or "
 "entities. %s\n"
 "Most of these licenses allow you to use, duplicate, adapt or redistribute "
-"the components which \n"
+"the components which\n"
 "they cover. Please read carefully the terms and conditions of the license "
-"agreement for each component \n"
+"agreement for each component\n"
 "before using any component. Any question on a component license should be "
-"addressed to the component \n"
-"licensor or supplier and not to Mandriva.\n"
-"The programs developed by Mandriva S.A. are governed by the GPL License. "
-"Documentation written \n"
-"by Mandriva S.A. is governed by a specific license. Please refer to the "
-"documentation for \n"
+"addressed to the component\n"
+"licensor or supplier and not to the OpenMandriva Association.\n"
+"The programs developed by OpenMandriva are governed by the GPL License. "
+"Documentation written\n"
+"by OpenMandriva is governed by a specific license. Please refer to the "
+"documentation for\n"
 "further details.\n"
 "\n"
 "\n"
 "4. Intellectual Property Rights\n"
 "\n"
 "All rights to the components of the Software Products belong to their "
-"respective authors and are \n"
+"respective authors and are\n"
 "protected by intellectual property and copyright laws applicable to software "
 "programs.\n"
-"Mandriva S.A. and its suppliers and licensors reserves their rights to "
-"modify or adapt the Software \n"
+"OpenMandriva and its suppliers and licensors reserves their rights to modify "
+"or adapt the Software\n"
 "Products, as a whole or in parts, by all means and for all purposes.\n"
-"\"Mandriva\", \"OpenMandriva Lx\" and associated logos are trademarks of "
-"Mandriva S.A.  \n"
+"\"OpenMandriva\", \"OpenMandriva GNU/Linux\", \"OpenMandriva Lx\", and "
+"associated logos are trademarks of the OpenMandriva association.\n"
 "\n"
 "\n"
-"5. Governing Laws \n"
+"5. Governing Laws\n"
 "\n"
 "If any portion of this agreement is held void, illegal or inapplicable by a "
-"court judgment, this \n"
+"court judgment, this\n"
 "portion is excluded from this contract. You remain bound by the other "
-"applicable sections of the \n"
+"applicable sections of the\n"
 "agreement.\n"
 "The terms and conditions of this License are governed by the Laws of "
 "France.\n"
 "All disputes on the terms of this license will preferably be settled out of "
-"court. As a last \n"
+"court. As a last\n"
 "resort, the dispute will be referred to the appropriate Courts of Law of "
 "Paris - France.\n"
-"For any question on this document, please contact Mandriva S.A."
+"For any question on this document, please contact OpenMandriva."
 msgstr ""
 
 #. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
-#: messages.pm:90
+#: messages.pm:87
 #, c-format
 msgid ""
 "You agree not to (i) sell, export, re-export, transfer, divert, disclose "
-"technical data, or \n"
+"technical data, or\n"
 "dispose of, any Software to any person, entity, or destination prohibited by "
-"US export laws \n"
+"US export laws\n"
 "or regulations including, without limitation, Cuba, Iran, North Korea, Sudan "
-"and Syria; or \n"
+"and Syria; or\n"
 "(ii) use any Software for any use prohibited by the laws or regulations of "
 "the United States.\n"
 "\n"
-"U.S. GOVERNMENT RESTRICTED RIGHTS. \n"
+"U.S. GOVERNMENT RESTRICTED RIGHTS.\n"
 "\n"
 "The Software Products and any accompanying documentation are and shall be "
-"deemed to be \n"
+"deemed to be\n"
 "\"commercial computer software\" and \"commercial computer software "
-"documentation,\" respectively, \n"
+"documentation,\" respectively,\n"
 "as defined in DFAR 252.227-7013 and as described in FAR 12.212. Any use, "
-"modification, reproduction, \n"
+"modification, reproduction,\n"
 "release, performance, display or disclosure of the Software and any "
-"accompanying documentation \n"
+"accompanying documentation\n"
 "by the United States Government shall be governed solely by the terms of "
-"this Agreement and any \n"
+"this Agreement and any\n"
 "other applicable licence agreements and shall be prohibited except to the "
-"extent expressly permitted \n"
+"extent expressly permitted\n"
 "by the terms of this Agreement."
+msgstr ""
+
+#: messages.pm:101
+#, c-format
+msgid ""
+"Most of these components, but excluding the applications and software "
+"provided by Google Inc. or\n"
+"its subsidiaries (\"Google Software\"), are governed under the terms and "
+"conditions of the GNU\n"
+"General Public Licence, hereafter called \"GPL\", or of similar licenses."
 msgstr ""
 
 #: messages.pm:104
 #, c-format
 msgid ""
-"Most of these components, but excluding the applications and software "
-"provided by Google Inc. or \n"
-"its subsidiaries (\"Google Software\"), are governed under the terms and "
-"conditions of the GNU \n"
-"General Public Licence, hereafter called \"GPL\", or of similar licenses."
-msgstr ""
-
-#: messages.pm:107
-#, c-format
-msgid ""
 "Most of these components are governed under the terms and conditions of the "
-"GNU \n"
+"GNU\n"
 "General Public Licence, hereafter called \"GPL\", or of similar licenses."
 msgstr ""
 
-#: messages.pm:112
+#: messages.pm:109
 #, c-format
 msgid ""
 "Warning: Free Software may not necessarily be patent free, and some Free\n"
@@ -4811,7 +4853,7 @@ msgid ""
 "may be applicable to you, check your local laws."
 msgstr ""
 
-#: messages.pm:120
+#: messages.pm:117
 #, c-format
 msgid ""
 "6. Additional provisions applicable to those Software Products provided by "
@@ -4862,23 +4904,23 @@ msgid ""
 msgstr ""
 
 #. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
-#: messages.pm:150
+#: messages.pm:147
 #, c-format
 msgid ""
 "Congratulations, installation is complete.\n"
 "Remove the boot media and press Enter to reboot.\n"
 "\n"
 "\n"
-"For information on fixes which are available for this release of Mandriva "
-"Linux,\n"
-"consult the Errata available from:\n"
+"For information on fixes which are available for this release of "
+"OpenMandriva Lx,\n"
+"consult the Errata available at our wiki:\n"
 "\n"
 "\n"
 "%s\n"
 "\n"
 "\n"
-"Information on configuring your system is available in the post\n"
-"install chapter of the Official OpenMandriva Lx User's Guide."
+"Information on configuring your newly installed OpenMandriva Lx system\n"
+"is also available at our wiki."
 msgstr ""
 
 #: modules/interactive.pm:19
@@ -4923,17 +4965,17 @@ msgstr "%s карт %s-ийн драйверыг суулгаж байна"
 
 #: modules/interactive.pm:84
 #, fuzzy, c-format
-msgid "Installing driver for firewire controller %s"
+msgid "Installing driver for firewire controller \"%s\""
 msgstr "%s карт %s-ийн драйверыг суулгаж байна"
 
 #: modules/interactive.pm:85
 #, fuzzy, c-format
-msgid "Installing driver for hard disk drive controller %s"
+msgid "Installing driver for hard disk drive controller \"%s\""
 msgstr "%s карт %s-ийн драйверыг суулгаж байна"
 
 #: modules/interactive.pm:86
 #, fuzzy, c-format
-msgid "Installing driver for ethernet controller %s"
+msgid "Installing driver for ethernet controller \"%s\""
 msgstr "%s карт %s-ийн драйверыг суулгаж байна"
 
 #. -PO: the first %s is the card type (scsi, network, sound,...)
@@ -5003,32 +5045,37 @@ msgid ""
 "Do you want to try again with other parameters?"
 msgstr "Ачаалж байна... с вы бусад?"
 
-#: mygtk2.pm:1540 mygtk2.pm:1541
+#: mygtk2.pm:1227
+#, fuzzy, c-format
+msgid "Are you sure you want to quit?"
+msgstr "Та суулгалтыг үргэлжлүүлэхийг хүсэж байна уу?"
+
+#: mygtk2.pm:1569 mygtk2.pm:1570
 #, c-format
 msgid "Password is trivial to guess"
 msgstr ""
 
-#: mygtk2.pm:1542
+#: mygtk2.pm:1571
 #, c-format
 msgid "Password should be resistant to basic attacks"
 msgstr ""
 
-#: mygtk2.pm:1543 mygtk2.pm:1544
+#: mygtk2.pm:1572 mygtk2.pm:1573
 #, fuzzy, c-format
 msgid "Password seems secure"
 msgstr "Нууц үг шаардлагатай"
 
-#: partition_table.pm:428
+#: partition_table.pm:439
 #, c-format
 msgid "mount failed: "
 msgstr ""
 
-#: partition_table.pm:540
+#: partition_table.pm:551
 #, fuzzy, c-format
 msgid "Extended partition not supported on this platform"
 msgstr "Өргөтгөгдсөн"
 
-#: partition_table.pm:558
+#: partition_table.pm:569
 #, fuzzy, c-format
 msgid ""
 "You have a hole in your partition table but I cannot use it.\n"
@@ -5036,7 +5083,7 @@ msgid ""
 "to the extended partitions."
 msgstr "Та ямх хүснэгт бол."
 
-#: partition_table/raw.pm:288
+#: partition_table/raw.pm:293
 #, c-format
 msgid ""
 "Something bad is happening on your hard disk drive. \n"
@@ -5045,49 +5092,64 @@ msgid ""
 "data."
 msgstr ""
 
-#: pkgs.pm:252 pkgs.pm:255 pkgs.pm:268
+#: pkgs.pm:257
+#, c-format
+msgid "Gathering system information..."
+msgstr ""
+
+#: pkgs.pm:266
+#, c-format
+msgid "Preparing for installation..."
+msgstr ""
+
+#: pkgs.pm:276 pkgs.pm:279 pkgs.pm:295
 #, c-format
 msgid "Unused packages removal"
 msgstr ""
 
-#: pkgs.pm:252
+#: pkgs.pm:276
 #, c-format
 msgid "Finding unused hardware packages..."
 msgstr ""
 
-#: pkgs.pm:255
+#: pkgs.pm:279
 #, c-format
 msgid "Finding unused localization packages..."
 msgstr ""
 
-#: pkgs.pm:269
+#: pkgs.pm:296
 #, c-format
 msgid ""
 "We have detected that some packages are not needed for your system "
 "configuration."
 msgstr ""
 
-#: pkgs.pm:270
+#: pkgs.pm:297
 #, c-format
 msgid "We will remove the following packages, unless you choose otherwise:"
 msgstr ""
 
-#: pkgs.pm:273 pkgs.pm:274
+#: pkgs.pm:300 pkgs.pm:301
 #, fuzzy, c-format
 msgid "Unused hardware support"
 msgstr "Техник хангамжийн мэдээллийг харах"
 
-#: pkgs.pm:277 pkgs.pm:278
+#: pkgs.pm:304 pkgs.pm:305
 #, c-format
 msgid "Unused localization"
 msgstr ""
 
-#: raid.pm:43
+#: pkgs.pm:312
+#, fuzzy, c-format
+msgid "Removing packages (this may take some time)..."
+msgstr "%s багцийг устгалт"
+
+#: raid.pm:40
 #, c-format
 msgid "Cannot add a partition to _formatted_ RAID %s"
 msgstr ""
 
-#: raid.pm:166
+#: raid.pm:163
 #, c-format
 msgid "Not enough partitions for RAID level %d\n"
 msgstr ""
@@ -5127,26 +5189,26 @@ msgstr ""
 msgid "Your scanner(s) will not be available for non-root users."
 msgstr ""
 
-#: security/help.pm:11
+#: security/help.pm:10
 #, fuzzy, c-format
 msgid "Accept bogus IPv4 error messages."
 msgstr "Аргумент г."
 
-#: security/help.pm:13
+#: security/help.pm:12
 #, fuzzy, c-format
 msgid "Accept broadcasted icmp echo."
 msgstr ""
 "Аргумент г\n"
 " Зөвшөөрөх."
 
-#: security/help.pm:15
+#: security/help.pm:14
 #, fuzzy, c-format
 msgid "Accept icmp echo."
 msgstr ""
 "Аргумент г\n"
 " Зөвшөөрөх."
 
-#: security/help.pm:17
+#: security/help.pm:16
 #, fuzzy, c-format
 msgid "Allow autologin."
 msgstr ""
@@ -5155,7 +5217,7 @@ msgstr ""
 "автомат нэвтрэлтийг Зөвшөөр/Хоригло."
 
 #. -PO: here "ALL" is a value in a pull-down menu; translate it the same as "ALL" is
-#: security/help.pm:21
+#: security/help.pm:20
 #, fuzzy, c-format
 msgid ""
 "If set to \"ALL\", /etc/issue and /etc/issue.net are allowed to exist.\n"
@@ -5165,12 +5227,12 @@ msgid ""
 "Else only /etc/issue is allowed."
 msgstr "Аргумент г үгүй бол."
 
-#: security/help.pm:27
+#: security/help.pm:26
 #, fuzzy, c-format
 msgid "Allow reboot by the console user."
 msgstr "Аргумент г."
 
-#: security/help.pm:29
+#: security/help.pm:28
 #, fuzzy, c-format
 msgid "Allow remote root login."
 msgstr ""
@@ -5178,18 +5240,18 @@ msgstr ""
 "\n"
 "Эзний зайн нэвтрэлтийг Зөвшөөр/Хоригло."
 
-#: security/help.pm:31
+#: security/help.pm:30
 #, fuzzy, c-format
 msgid "Allow direct root login."
 msgstr "Аргумент г."
 
-#: security/help.pm:33
+#: security/help.pm:32
 #, c-format
 msgid ""
 "Allow the list of users on the system on display managers (kdm and gdm)."
 msgstr ""
 
-#: security/help.pm:35
+#: security/help.pm:34
 #, c-format
 msgid ""
 "Allow to export display when\n"
@@ -5198,7 +5260,7 @@ msgid ""
 "See pam_xauth(8) for more details.'"
 msgstr ""
 
-#: security/help.pm:40
+#: security/help.pm:39
 #, c-format
 msgid ""
 "Allow X connections:\n"
@@ -5210,7 +5272,7 @@ msgid ""
 "- \"None\" (no connection)."
 msgstr ""
 
-#: security/help.pm:48
+#: security/help.pm:47
 #, fuzzy, c-format
 msgid ""
 "The argument specifies if clients are authorized to connect\n"
@@ -5218,7 +5280,7 @@ msgid ""
 msgstr "Аргумент г X."
 
 #. -PO: here "ALL", "Local" and "None" are values in a pull-down menu; translate them the same as they're
-#: security/help.pm:53
+#: security/help.pm:52
 #, fuzzy, c-format
 msgid ""
 "Authorize:\n"
@@ -5230,11 +5292,11 @@ msgid ""
 "\n"
 "- none if set to \"None\".\n"
 "\n"
-"To authorize the services you need, use /etc/hosts.allow (see hosts.allow"
-"(5))."
+"To authorize the services you need, use /etc/hosts.allow (see hosts."
+"allow(5))."
 msgstr "Аргумент г байхгүй тийш вы г."
 
-#: security/help.pm:63
+#: security/help.pm:62
 #, fuzzy, c-format
 msgid ""
 "If SERVER_LEVEL (or SECURE_LEVEL if absent)\n"
@@ -5247,7 +5309,7 @@ msgid ""
 "packages."
 msgstr "Аргумент г ҮЕ ҮЕ бол Цэг<SERVER_LEVEL> бол ямх аас."
 
-#: security/help.pm:72
+#: security/help.pm:71
 #, c-format
 msgid ""
 "Enable crontab and at for users.\n"
@@ -5256,44 +5318,44 @@ msgid ""
 "and crontab(1))."
 msgstr ""
 
-#: security/help.pm:77
+#: security/help.pm:76
 #, c-format
 msgid "Enable syslog reports to console 12"
 msgstr ""
 
-#: security/help.pm:79
+#: security/help.pm:78
 #, fuzzy, c-format
 msgid ""
 "Enable name resolution spoofing protection.  If\n"
 "\"%s\" is true, also reports to syslog."
 msgstr "Аргумент Сонордуулга г нэр г бол."
 
-#: security/help.pm:80
+#: security/help.pm:79
 #, fuzzy, c-format
 msgid "Security Alerts:"
 msgstr "Хамгаалалт:"
 
-#: security/help.pm:82
+#: security/help.pm:81
 #, fuzzy, c-format
 msgid "Enable IP spoofing protection."
 msgstr "Аргумент Сонордуулга г."
 
-#: security/help.pm:84
+#: security/help.pm:83
 #, c-format
 msgid "Enable libsafe if libsafe is found on the system."
 msgstr ""
 
-#: security/help.pm:86
+#: security/help.pm:85
 #, fuzzy, c-format
 msgid "Enable the logging of IPv4 strange packets."
 msgstr "Аргумент г аас."
 
-#: security/help.pm:88
+#: security/help.pm:87
 #, fuzzy, c-format
 msgid "Enable msec hourly security check."
 msgstr "Аргумент г."
 
-#: security/help.pm:90
+#: security/help.pm:89
 #, fuzzy, c-format
 msgid ""
 "Enable su only from members of the wheel group. If set to no, allows su from "
@@ -5302,12 +5364,12 @@ msgstr ""
 "Аргумент г\n"
 " аас бүлэг."
 
-#: security/help.pm:92
+#: security/help.pm:91
 #, fuzzy, c-format
 msgid "Use password to authenticate users."
 msgstr "Аргумент г хэрэглэгчид."
 
-#: security/help.pm:94
+#: security/help.pm:93
 #, fuzzy, c-format
 msgid "Activate Ethernet cards promiscuity check."
 msgstr ""
@@ -5315,7 +5377,7 @@ msgstr ""
 "\n"
 "итернэт карт шалгалт идэвхижүүлэх/болих."
 
-#: security/help.pm:96
+#: security/help.pm:95
 #, fuzzy, c-format
 msgid "Activate daily security check."
 msgstr ""
@@ -5323,46 +5385,46 @@ msgstr ""
 "\n"
 " Өдөр тутмын нууцлалын шалгалтыг идэвхжүүлэх/ идэвхгүйжүүлэх."
 
-#: security/help.pm:98
+#: security/help.pm:97
 #, fuzzy, c-format
 msgid "Enable sulogin(8) in single user level."
 msgstr ""
 "Аргумент г\n"
 " Нээх ямх."
 
-#: security/help.pm:100
+#: security/help.pm:99
 #, fuzzy, c-format
 msgid "Add the name as an exception to the handling of password aging by msec."
 msgstr "Аргумент нэр г нэр аас."
 
-#: security/help.pm:102
+#: security/help.pm:101
 #, c-format
 msgid "Set password aging to \"max\" days and delay to change to \"inactive\"."
 msgstr ""
 
-#: security/help.pm:104
+#: security/help.pm:103
 #, fuzzy, c-format
 msgid "Set the password history length to prevent password reuse."
 msgstr "Аргумент г."
 
-#: security/help.pm:106
+#: security/help.pm:105
 #, fuzzy, c-format
 msgid ""
 "Set the password minimum length and minimum number of digit and minimum "
 "number of capitalized letters."
 msgstr "Аргумент г аас аас."
 
-#: security/help.pm:108
+#: security/help.pm:107
 #, fuzzy, c-format
 msgid "Set the root's file mode creation mask."
 msgstr "Аргумент г."
 
-#: security/help.pm:109
+#: security/help.pm:108
 #, fuzzy, c-format
 msgid "if set to yes, check open ports."
 msgstr "Тийм."
 
-#: security/help.pm:110
+#: security/help.pm:109
 #, fuzzy, c-format
 msgid ""
 "if set to yes, check for:\n"
@@ -5374,103 +5436,103 @@ msgid ""
 "- for users with the 0 id other than root."
 msgstr "Тийм үгүй ямх хэрэглэгчид бусад."
 
-#: security/help.pm:117
+#: security/help.pm:116
 #, fuzzy, c-format
 msgid "if set to yes, check permissions of files in the users' home."
 msgstr "Тийм эрх аас ямх хэрэглэгчид."
 
-#: security/help.pm:118
+#: security/help.pm:117
 #, fuzzy, c-format
 msgid "if set to yes, check if the network devices are in promiscuous mode."
 msgstr "Тийм ямх горим."
 
-#: security/help.pm:119
+#: security/help.pm:118
 #, fuzzy, c-format
 msgid "if set to yes, run the daily security checks."
 msgstr "Тийм өдөр тутам."
 
-#: security/help.pm:120
+#: security/help.pm:119
 #, fuzzy, c-format
 msgid "if set to yes, check additions/removals of sgid files."
 msgstr "Тийм аас."
 
-#: security/help.pm:121
+#: security/help.pm:120
 #, fuzzy, c-format
 msgid "if set to yes, check empty password in /etc/shadow."
 msgstr "Тийм ямх."
 
-#: security/help.pm:122
+#: security/help.pm:121
 #, fuzzy, c-format
 msgid "if set to yes, verify checksum of the suid/sgid files."
 msgstr "Тийм аас."
 
-#: security/help.pm:123
+#: security/help.pm:122
 #, fuzzy, c-format
 msgid "if set to yes, check additions/removals of suid root files."
 msgstr "Тийм аас."
 
-#: security/help.pm:124
+#: security/help.pm:123
 #, fuzzy, c-format
 msgid "if set to yes, report unowned files."
 msgstr "Тийм."
 
-#: security/help.pm:125
+#: security/help.pm:124
 #, fuzzy, c-format
 msgid "if set to yes, check files/directories writable by everybody."
 msgstr "Тийм."
 
-#: security/help.pm:126
+#: security/help.pm:125
 #, fuzzy, c-format
 msgid "if set to yes, run chkrootkit checks."
 msgstr "Тийм."
 
-#: security/help.pm:127
+#: security/help.pm:126
 #, c-format
 msgid ""
 "if set, send the mail report to this email address else send it to root."
 msgstr ""
 
-#: security/help.pm:128
+#: security/help.pm:127
 #, c-format
 msgid "if set to yes, report check result by mail."
 msgstr "хэрэв тийм гэвэл тайлангийн үр дүн и-мэйлээр шалгагдах болно."
 
-#: security/help.pm:129
+#: security/help.pm:128
 #, c-format
 msgid "Do not send mails if there's nothing to warn about"
 msgstr ""
 
-#: security/help.pm:130
+#: security/help.pm:129
 #, fuzzy, c-format
 msgid "if set to yes, run some checks against the rpm database."
 msgstr "Тийм."
 
-#: security/help.pm:131
+#: security/help.pm:130
 #, fuzzy, c-format
 msgid "if set to yes, report check result to syslog."
 msgstr "Тийм."
 
-#: security/help.pm:132
+#: security/help.pm:131
 #, fuzzy, c-format
 msgid "if set to yes, reports check result to tty."
 msgstr "Тийм."
 
-#: security/help.pm:134
+#: security/help.pm:133
 #, fuzzy, c-format
 msgid "Set shell commands history size. A value of -1 means unlimited."
 msgstr "Аргумент хэмжээ г хэмжээ аас."
 
-#: security/help.pm:136
+#: security/help.pm:135
 #, fuzzy, c-format
 msgid "Set the shell timeout. A value of zero means no timeout."
 msgstr "Аргумент г аас үгүй."
 
-#: security/help.pm:136
+#: security/help.pm:135
 #, c-format
 msgid "Timeout unit is second"
 msgstr ""
 
-#: security/help.pm:138
+#: security/help.pm:137
 #, fuzzy, c-format
 msgid "Set the user's file mode creation mask."
 msgstr "Аргумент г."
@@ -5742,22 +5804,22 @@ msgstr "Тийм."
 msgid "Reports check result to tty"
 msgstr "Тийм."
 
-#: security/level.pm:10
+#: security/level.pm:9
 #, c-format
 msgid "Disable msec"
 msgstr ""
 
-#: security/level.pm:11
+#: security/level.pm:10
 #, c-format
 msgid "Standard"
 msgstr "Стандарт"
 
-#: security/level.pm:12
+#: security/level.pm:11
 #, fuzzy, c-format
 msgid "Secure"
 msgstr "Нууцлал"
 
-#: security/level.pm:40
+#: security/level.pm:39
 #, c-format
 msgid ""
 "This level is to be used with care, as it disables all additional security\n"
@@ -5766,14 +5828,14 @@ msgid ""
 "on your own."
 msgstr ""
 
-#: security/level.pm:43
+#: security/level.pm:42
 #, fuzzy, c-format
 msgid ""
 "This is the standard security recommended for a computer that will be used "
 "to connect to the Internet as a client."
 msgstr "бол Интернэт."
 
-#: security/level.pm:44
+#: security/level.pm:43
 #, c-format
 msgid ""
 "With this security level, the use of this system as a server becomes "
@@ -5784,49 +5846,54 @@ msgid ""
 "Internet, you should choose a lower level."
 msgstr ""
 
-#: security/level.pm:51
+#: security/level.pm:50
+#, c-format
+msgid "Security"
+msgstr "Нууцлал"
+
+#: security/level.pm:50
 #, fuzzy, c-format
 msgid "DrakSec Basic Options"
 msgstr "Үндсэн"
 
-#: security/level.pm:54
+#: security/level.pm:53
 #, c-format
 msgid "Please choose the desired security level"
 msgstr ""
 
 #. -PO: this string is used to properly format "<security level>: <level description>"
-#: security/level.pm:58
+#: security/level.pm:57
 #, c-format
 msgid "%s: %s"
 msgstr ""
 
-#: security/level.pm:61
+#: security/level.pm:60
 #, fuzzy, c-format
 msgid "Security Administrator:"
 msgstr "Хамгаалалт:"
 
-#: security/level.pm:62
+#: security/level.pm:61
 #, c-format
 msgid "Login or email:"
 msgstr ""
 
-#: services.pm:17
+#: services.pm:16
 #, c-format
 msgid "Listen and dispatch ACPI events from the kernel"
 msgstr ""
 
-#: services.pm:18
+#: services.pm:17
 #, c-format
 msgid "Launch the ALSA (Advanced Linux Sound Architecture) sound system"
 msgstr ""
 "ЛДДА (Линуксын Дэлгэрэнгүй Дууны Архитектури) дууны системийг ажиллуулах"
 
-#: services.pm:19
+#: services.pm:18
 #, fuzzy, c-format
 msgid "Anacron is a periodic command scheduler."
 msgstr "бол."
 
-#: services.pm:20
+#: services.pm:19
 #, c-format
 msgid ""
 "apmd is used for monitoring battery status and logging it via syslog.\n"
@@ -5835,21 +5902,26 @@ msgstr ""
 "apmd нь цэнэгийн байдлыг хянахад хэрэглэгддэг ба syslog руу бүртгэдэг.\n"
 "Энэ нь мөн цэнэг бага болох үед машиныг унтрааж чадна."
 
-#: services.pm:22
+#: services.pm:21
 #, fuzzy, c-format
 msgid ""
 "Runs commands scheduled by the at command at the time specified when\n"
 "at was run, and runs batch commands when the load average is low enough."
 msgstr "ачаалах бол."
 
-#: services.pm:24
+#: services.pm:23
 #, c-format
 msgid "Avahi is a ZeroConf daemon which implements an mDNS stack"
 msgstr ""
 
+#: services.pm:24
+#, fuzzy, c-format
+msgid "An NTP client/server"
+msgstr "NTP Сервер"
+
 #: services.pm:25
 #, c-format
-msgid "Set CPU frequency settings"
+msgid "Set CPU powersafe mode"
 msgstr ""
 
 #: services.pm:26
@@ -6274,7 +6346,7 @@ msgstr "Дээд"
 msgid "Database Server"
 msgstr "Өгөгдлийн баазын сервер"
 
-#: services.pm:187 services.pm:226
+#: services.pm:187 services.pm:224
 #, c-format
 msgid "Services"
 msgstr "Үйлчилгээ"
@@ -6289,54 +6361,54 @@ msgstr "Сонгох"
 msgid "%d activated for %d registered"
 msgstr ""
 
-#: services.pm:242
+#: services.pm:240
 #, c-format
 msgid "running"
 msgstr ""
 
-#: services.pm:242
+#: services.pm:240
 #, c-format
 msgid "stopped"
 msgstr ""
 
-#: services.pm:247
+#: services.pm:245
 #, c-format
 msgid "Services and daemons"
 msgstr ""
 
-#: services.pm:253
+#: services.pm:251
 #, fuzzy, c-format
 msgid ""
 "No additional information\n"
 "about this service, sorry."
 msgstr "Үгүй."
 
-#: services.pm:258 ugtk2.pm:924
+#: services.pm:256 ugtk2.pm:921
 #, c-format
 msgid "Info"
 msgstr "Мэдээлэл"
 
-#: services.pm:261
+#: services.pm:259
 #, c-format
 msgid "Start when requested"
 msgstr ""
 
-#: services.pm:261
+#: services.pm:259
 #, fuzzy, c-format
 msgid "On boot"
 msgstr "Идэвхитэй"
 
-#: services.pm:279
+#: services.pm:277
 #, c-format
 msgid "Start"
 msgstr "Эхлэх"
 
-#: services.pm:279
+#: services.pm:277
 #, c-format
 msgid "Stop"
 msgstr "Зогсоох"
 
-#: standalone.pm:25
+#: standalone.pm:26
 #, fuzzy, c-format
 msgid ""
 "This program is free software; you can redistribute it and/or modify\n"
@@ -6357,7 +6429,7 @@ msgstr ""
 "Программ бол вы аас Ерөнхий Нийтийн Software г Программ бол ямх аас Ерөнхий "
 "Нийтийн г аас Ерөнхий Нийтийн Программ Software"
 
-#: standalone.pm:44
+#: standalone.pm:45
 #, fuzzy, c-format
 msgid ""
 "[--config-info] [--daemon] [--debug] [--default] [--show-conf]\n"
@@ -6373,7 +6445,7 @@ msgid ""
 "--version             : show version number.\n"
 msgstr "Сэргээх х.программ г г г г жигсаалт аас г X хэрэглэгчид г г г"
 
-#: standalone.pm:56
+#: standalone.pm:57
 #, c-format
 msgid ""
 "[--boot]\n"
@@ -6382,15 +6454,17 @@ msgid ""
 "default mode: offer to configure autologin feature"
 msgstr ""
 
-#: standalone.pm:60
+#: standalone.pm:61
 #, fuzzy, c-format
 msgid ""
 "[OPTIONS] [PROGRAM_NAME]\n"
 "\n"
 "OPTIONS:\n"
 "  --help            - print this help message.\n"
-"  --report          - program should be one of OpenMandriva Lx tools\n"
-"  --incident        - program should be one of OpenMandriva Lx tools"
+"  --report          - program should be an OpenMandriva Lx administrative "
+"tool\n"
+"  --incident        - program should be an OpenMandriva Lx administrative "
+"tool"
 msgstr ""
 "[СОНГОЛТУУД] [ПРОГРАМЫН_НЭР]\n"
 "\n"
@@ -6399,7 +6473,7 @@ msgstr ""
 "  --report          - програм нь мандраке хэрэгсэлүүдийн нэг байх ёстой\n"
 "  --incident        - програм нь мандраке хэрэгсэлүүдийн нэг байх ёстой"
 
-#: standalone.pm:66
+#: standalone.pm:67
 #, c-format
 msgid ""
 "[--add]\n"
@@ -6410,7 +6484,7 @@ msgid ""
 "  --wizard          - like --add"
 msgstr ""
 
-#: standalone.pm:72
+#: standalone.pm:73
 #, fuzzy, c-format
 msgid ""
 "\n"
@@ -6433,35 +6507,35 @@ msgstr ""
 " нэр аас х.программ\n"
 "."
 
-#: standalone.pm:87
+#: standalone.pm:88
 #, fuzzy, c-format
 msgid ""
 "[OPTIONS]...\n"
-"OpenMandriva Lx Terminal Server Configurator\n"
+"Terminal Server Configurator\n"
 "--enable         : enable MTS\n"
 "--disable        : disable MTS\n"
 "--start          : start MTS\n"
 "--stop           : stop MTS\n"
-"--adduser        : add an existing system user to MTS (requires username)\n"
-"--deluser        : delete an existing system user from MTS (requires "
+"--adduser        : add an existing system user to TS (requires username)\n"
+"--deluser        : delete an existing system user from TS (requires "
 "username)\n"
-"--addclient      : add a client machine to MTS (requires MAC address, IP, "
-"nbi image name)\n"
-"--delclient      : delete a client machine from MTS (requires MAC address, "
+"--addclient      : add a client machine to TS (requires MAC address, IP, nbi "
+"image name)\n"
+"--delclient      : delete a client machine from TS (requires MAC address, "
 "IP, nbi image name)"
 msgstr "СОНГОЛТУУД Терминал Сервер г г г г г г г Зураг нэр г Зураг нэр"
 
-#: standalone.pm:99
+#: standalone.pm:100
 #, c-format
 msgid "[keyboard]"
 msgstr "[гар]"
 
-#: standalone.pm:100
+#: standalone.pm:101
 #, fuzzy, c-format
 msgid "[--file=myfile] [--word=myword] [--explain=regexp] [--alert]"
 msgstr "Сонордуулга"
 
-#: standalone.pm:101
+#: standalone.pm:102
 #, fuzzy, c-format
 msgid ""
 "[OPTIONS]\n"
@@ -6475,11 +6549,11 @@ msgid ""
 "--quiet : do not be interactive. To be used with (dis)connect."
 msgstr "СОНГОЛТУУД Интернэт х.программ г г г г г г г аяархан тийш."
 
-#: standalone.pm:111
+#: standalone.pm:112
 #, fuzzy, c-format
 msgid ""
 "[OPTION]...\n"
-"  --no-confirmation      do not ask first confirmation question in Mandriva "
+"  --no-confirmation      do not ask first confirmation question in Online "
 "Update mode\n"
 "  --no-verify-rpm        do not verify packages signatures\n"
 "  --changelog-first      display changelog before filelist in the "
@@ -6491,7 +6565,7 @@ msgstr ""
 " үгүй\n"
 " ямх Тодорхойлолт Цонх\n"
 
-#: standalone.pm:116
+#: standalone.pm:117
 #, c-format
 msgid ""
 "[--manual] [--device=dev] [--update-sane=sane_source_dir] [--update-"
@@ -6500,7 +6574,7 @@ msgstr ""
 "[--manual] [--device=dev] [--update-sane=sane_source_dir] [--update-"
 "usbtable] [--dynamic=dev]"
 
-#: standalone.pm:117
+#: standalone.pm:118
 #, c-format
 msgid ""
 " [everything]\n"
@@ -6508,7 +6582,7 @@ msgid ""
 "       XFdrake resolution"
 msgstr ""
 
-#: standalone.pm:153
+#: standalone.pm:155
 #, c-format
 msgid ""
 "\n"
@@ -6516,82 +6590,86 @@ msgid ""
 "testing] [-v|--version] "
 msgstr ""
 
-#: timezone.pm:161 timezone.pm:162
+#: timezone.pm:165 timezone.pm:166
 #, fuzzy, c-format
 msgid "All servers"
 msgstr "Сервэр нэмэх"
 
-#: timezone.pm:198
+#: timezone.pm:202
 #, c-format
 msgid "Global"
 msgstr ""
 
-#: timezone.pm:201
+#: timezone.pm:205
 #, fuzzy, c-format
 msgid "Africa"
 msgstr "Өмнөд Африк"
 
-#: timezone.pm:202
+#: timezone.pm:206
 #, fuzzy, c-format
 msgid "Asia"
 msgstr "Австри"
 
-#: timezone.pm:203
+#: timezone.pm:207
 #, c-format
 msgid "Europe"
 msgstr ""
 
-#: timezone.pm:204
+#: timezone.pm:208
 #, fuzzy, c-format
 msgid "North America"
 msgstr "Өмнөд Африк"
 
-#: timezone.pm:205
+#: timezone.pm:209
 #, c-format
 msgid "Oceania"
 msgstr "Номхон далай"
 
-#: timezone.pm:206
+#: timezone.pm:210
 #, fuzzy, c-format
 msgid "South America"
 msgstr "Өмнөд Африк"
 
-#: timezone.pm:215
+#: timezone.pm:219
 #, c-format
 msgid "Hong Kong"
 msgstr "Гон Конг"
 
-#: timezone.pm:252
+#: timezone.pm:256
 #, c-format
 msgid "Russian Federation"
 msgstr "ОХУ"
 
-#: timezone.pm:260
+#: timezone.pm:264
 #, c-format
 msgid "Yugoslavia"
 msgstr "Югослав"
 
-#: ugtk2.pm:812
+#: ugtk2.pm:809
 #, c-format
 msgid "Is this correct?"
 msgstr ""
 
-#: ugtk2.pm:874
+#: ugtk2.pm:871
 #, fuzzy, c-format
 msgid "You have chosen a file, not a directory"
 msgstr "Та хавтас бус харин файл оруулах ёстой.\n"
 
-#: wizards.pm:96
+#: wizards.pm:95
 #, c-format
 msgid ""
 "%s is not installed\n"
 "Click \"Next\" to install or \"Cancel\" to quit"
 msgstr ""
 
-#: wizards.pm:100
+#: wizards.pm:99
 #, fuzzy, c-format
 msgid "Installation failed"
 msgstr "Хэлбэр!"
+
+#, fuzzy
+#~ msgid "You cannot use a password with %s"
+#~ msgstr "Та Цэг"
 
 #, fuzzy
 #~ msgid "File sharing"
@@ -6776,8 +6854,8 @@ msgstr "Хэлбэр!"
 #~ "If networking is not yet enabled, Drakx will attempt to join the domain "
 #~ "after the network setup step.\n"
 #~ "Should this setup fail for some reason and domain authentication is not "
-#~ "working, run 'smbpasswd -j DOMAIN -U USER%%PASSWORD' using your Windows"
-#~ "(tm) Domain, and Admin Username/Password, after system boot.\n"
+#~ "working, run 'smbpasswd -j DOMAIN -U USER%%PASSWORD' using your "
+#~ "Windows(tm) Domain, and Admin Username/Password, after system boot.\n"
 #~ "The command 'wbinfo -t' will test whether your authentication secrets are "
 #~ "good."
 #~ msgstr ""
