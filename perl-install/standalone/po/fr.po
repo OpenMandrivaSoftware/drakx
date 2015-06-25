@@ -76,7 +76,7 @@ msgstr ""
 "Project-Id-Version: DrakX-fr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-24 12:13+0100\n"
-"PO-Revision-Date: 2010-05-13 19:34+0100\n"
+"PO-Revision-Date: 2015-06-25 09:42+0100\n"
 "Last-Translator: Christophe Berthelé <berthy@mandriva.org>\n"
 "Language-Team: French <cooker-i18n@mandrivalinux.org>\n"
 "Language: fr\n"
@@ -270,9 +270,9 @@ msgid "Standalone Tools"
 msgstr "Outils autonomes"
 
 #: drakbug:70 drakbug:71
-#, fuzzy, c-format
+#, c-format
 msgid "OpenMandriva Online"
-msgstr "Mandriva Online"
+msgstr "OpenMandriva Online"
 
 #: drakbug:72
 #, c-format
@@ -295,9 +295,9 @@ msgid "Configuration Wizards"
 msgstr "Assistants de configuration"
 
 #: drakbug:97
-#, fuzzy, c-format
+#, c-format
 msgid "Select Tool:"
-msgstr "Choisissez un outil Mandriva :"
+msgstr "Choisissez un outil:"
 
 #: drakbug:98
 #, c-format
@@ -371,9 +371,9 @@ msgid "'%s'"
 msgstr "« %s »"
 
 #: drakbug:152
-#, fuzzy, c-format
+#, c-format
 msgid "You should also attach the following files if you have them: %s."
-msgstr "Vous devriez attacher les fichiers suivants : %s ainsi que %s."
+msgstr "Vous devriez attacher les fichiers suivants : %s."
 
 #: drakbug:158
 #, c-format
@@ -558,14 +558,14 @@ msgid "KDM (KDE Display Manager)"
 msgstr "KDM (Gestionnaire de connexion de KDE)"
 
 #: drakedm:42
-#, fuzzy, c-format
+#, c-format
 msgid "LIGHTDM (LightDM Display Manager)"
-msgstr "GDM (Gestionnaire de connexion de GNOME)"
+msgstr "LIGHTDM (Gestionnaire de connexion de LightDM)"
 
 #: drakedm:43
-#, fuzzy, c-format
+#, c-format
 msgid "SLIM (Simple Display Manager)"
-msgstr "XDM (Gestionaire de connexion X)"
+msgstr "SLIM (Gestionaire de connexion simple)"
 
 #: drakedm:44
 #, c-format
@@ -759,9 +759,9 @@ msgid "Drakfont"
 msgstr "Drakfont"
 
 #: drakfont:521 harddrake2:229
-#, fuzzy, c-format
+#, c-format
 msgid "Copyright (C) %s by OpenMandriva"
-msgstr "Copyright (C) %s par Mandriva"
+msgstr "Copyright (C) %s par OpenMandriva"
 
 #: drakfont:523
 #, c-format
@@ -807,7 +807,7 @@ msgstr "Ghostscript"
 #: drakfont:554
 #, c-format
 msgid "LibreOffice"
-msgstr ""
+msgstr "LibreOffice"
 
 #: drakfont:555
 #, c-format
@@ -1275,7 +1275,7 @@ msgstr "Niveau de sécurité et vérifications périodiques"
 #: draksec:108
 #, c-format
 msgid "Configure access to OpenMandriva Lx administrative tools"
-msgstr ""
+msgstr "Configurer l'accès aux outils d'administration OpenMandriva Lx"
 
 #: draksec:111
 #, c-format
@@ -1298,9 +1298,9 @@ msgid "Software Management"
 msgstr "Gestionnaire de logiciels"
 
 #: draksec:147
-#, fuzzy, c-format
+#, c-format
 msgid "Online Update"
-msgstr "Mandriva Update"
+msgstr "Online Update"
 
 #: draksec:148
 #, c-format
@@ -1328,9 +1328,9 @@ msgid "Keyboard Configuration"
 msgstr "Configuration du clavier"
 
 #: draksec:153
-#, fuzzy, c-format
+#, c-format
 msgid "Printer Configuration"
-msgstr "Configuration des serveurs mandataires"
+msgstr "La configuration de l'imprimante"
 
 #: draksec:154
 #, c-format
@@ -1709,32 +1709,32 @@ msgstr "Test de votre connexion..."
 #: finish-install:185
 #, c-format
 msgid "Windows-compatible sharing system"
-msgstr ""
+msgstr "Système de partage compatible Windows"
 
 #: finish-install:188
-#, fuzzy, c-format
+#, c-format
 msgid "OpenSSH server"
-msgstr "Serveur SSH"
+msgstr "Serveur OpenSSH"
 
 #: finish-install:189
-#, fuzzy, c-format
+#, c-format
 msgid "Print server"
-msgstr "Serveur FTP"
+msgstr "Serveur d'impression"
 
 #: finish-install:209
 #, c-format
 msgid "Do you have any services that you want to run when starting up?"
-msgstr ""
+msgstr "Avez-vous des services que vous souhaitez exécuter au démarrage?"
 
 #: finish-install:241
-#, fuzzy, c-format
+#, c-format
 msgid "The following services failed to start:\n"
-msgstr "Les paquetages suivants doivent être installés :\n"
+msgstr "Les services suivants n'a pas pu démarrer :\n"
 
 #: finish-install:244
-#, fuzzy, c-format
+#, c-format
 msgid "The following services failed to stop:\n"
-msgstr "Les paquetages suivants doivent être installés :\n"
+msgstr "Les services suivants ont échoué à arrêter :\n"
 
 #: finish-install:256 finish-install:274 finish-install:287
 #, c-format
@@ -2573,7 +2573,7 @@ msgstr ", "
 #: logdrake:55
 #, c-format
 msgid "%s Tools Logs"
-msgstr ""
+msgstr "Outils les Log %s"
 
 #: logdrake:69
 #, c-format
@@ -2846,14 +2846,14 @@ msgstr ""
 "et entrez le nom (ou l'adresse IP) du serveur SMTP que vous désirez utiliser"
 
 #: logdrake:444
-#, fuzzy, c-format
+#, c-format
 msgid "Email address"
-msgstr "Adresse IP"
+msgstr "Adresse e-mail"
 
 #: logdrake:445
-#, fuzzy, c-format
+#, c-format
 msgid "Email server"
-msgstr "Serveur Samba"
+msgstr "Serveur e-mail"
 
 #: logdrake:449
 #, c-format
@@ -2894,12 +2894,12 @@ msgstr "Enregistrer sous..."
 #: service_harddrake:478
 #, c-format
 msgid "Display driver setup"
-msgstr ""
+msgstr "Configuration du pilote d'affichage"
 
 #: notify-x11-free-driver-switch:20
 #, c-format
 msgid "The display driver has been automatically switched to '%s'."
-msgstr ""
+msgstr "Le pilote d'affichage a été automatiquement commuté sur '%s'."
 
 #: notify-x11-free-driver-switch:21
 #, c-format
@@ -3200,13 +3200,13 @@ msgstr ""
 "sane-%s» pour le lire."
 
 #: scannerdrake:406 scannerdrake:415
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "After that you may scan documents using \"XSane\" or \"%s\" from Multimedia/"
 "Graphics in the applications menu."
 msgstr ""
 "Vous pouvez maintenant scanner des documents en utilisant « XSane » ou "
-"« Kooka » à partir du menu Applications->Multimédia->Graphisme."
+"« %s » à partir du menu Applications->Multimédia->Graphisme."
 
 #: scannerdrake:410
 #, c-format
@@ -3237,7 +3237,7 @@ msgid "Congratulations!"
 msgstr "Félicitations !"
 
 #: scannerdrake:418
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Your %s has been configured.\n"
 "You may now scan documents using \"XSane\" or \"%s\" from Multimedia/"
@@ -3245,7 +3245,7 @@ msgid ""
 msgstr ""
 "Votre %s a été configuré.\n"
 "Vous pouvez maintenant scanner des documents en utilisant « XSane » ou "
-"« Kooka » à partir du menu général Multimédia->Graphisme."
+"« %s » à partir du menu général Multimédia->Graphisme."
 
 #: scannerdrake:443
 #, c-format
@@ -3462,7 +3462,7 @@ msgstr "La carte « %s » n'est plus supportée par le pilote « %s »"
 #: service_harddrake:180
 #, c-format
 msgid "New release, reconfiguring X for %s"
-msgstr ""
+msgstr "Nouvelle version, la reconfiguration X pour %s"
 
 #: service_harddrake:271
 #, fuzzy, c-format
@@ -3509,7 +3509,7 @@ msgstr "Détection du matériel en cours"
 #: service_harddrake:444 service_harddrake:449
 #, c-format
 msgid "Display driver issue"
-msgstr ""
+msgstr "Problème de pilote d'affichage"
 
 #: service_harddrake:445
 #, c-format
@@ -3519,6 +3519,10 @@ msgid ""
 "boot process. Startup of the X server may now fail as that option was not "
 "specified."
 msgstr ""
+"Le pilote d'affichage actuellement configuré vous oblige à utiliser l'option "
+"de démarrage 'nokmsboot' pour empêcher le pilote KMS du noyau d'être chargé "
+"dans le processus de démarrage. Démarrage du serveur X peut maintenant "
+"échouer que cette option n'a pas été spécifié."
 
 #: service_harddrake:450
 #, c-format
@@ -3527,16 +3531,21 @@ msgid ""
 "driver the X server is configured to use. Startup of the X server may now "
 "fail."
 msgstr ""
+"Détecté un module du noyau du pilote d'affichage chargée qui entre en "
+"conflit avec le pilote le serveur X est configuré pour utiliser. Démarrage "
+"du serveur X peut maintenant échouer."
 
 #: service_harddrake:465 service_harddrake:478
 #, c-format
 msgid "The system has to be rebooted due to a display driver change."
 msgstr ""
+"Le système doit être redémarré en raison d'un changement de pilote "
+"d'affichage."
 
 #: service_harddrake:466 service_harddrake:479
 #, c-format
 msgid "Press Cancel within %d seconds to abort."
-msgstr ""
+msgstr "Appuyez sur Annuler dans les% d secondes pour abandonner."
 
 #: ../menu/localedrake-system.desktop.in.h:1
 msgid "System Regional Settings"
