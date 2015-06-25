@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: es\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-24 12:13+0100\n"
-"PO-Revision-Date: 2011-04-28 13:04-0300\n"
+"PO-Revision-Date: 2015-06-25 12:33+0100\n"
 "Last-Translator: Diego Bello <dbello@gmail.com>\n"
 "Language-Team: Spanish <es@li.org>\n"
 "Language: es\n"
@@ -182,7 +182,7 @@ msgid "The \"%s\" program has crashed with the following error:"
 msgstr "El programa \"%s\" se ha detenido con el error siguiente:"
 
 #: drakbug:60
-#, fuzzy, c-format
+#, c-format
 msgid "OpenMandriva Lx Bug Reporting"
 msgstr "Herramienta de reporte de errores de OpenMandriva Lx"
 
@@ -207,9 +207,9 @@ msgid "Standalone Tools"
 msgstr "Herramientas 'standalone'"
 
 #: drakbug:70 drakbug:71
-#, fuzzy, c-format
+#, c-format
 msgid "OpenMandriva Online"
-msgstr "Mandriva Online"
+msgstr "OpenMandriva Online"
 
 #: drakbug:72
 #, c-format
@@ -232,9 +232,9 @@ msgid "Configuration Wizards"
 msgstr "Asistentes de configuración"
 
 #: drakbug:97
-#, fuzzy, c-format
+#, c-format
 msgid "Select Tool:"
-msgstr "Seleccione la herramienta Mandriva:"
+msgstr "Seleccione la herramienta:"
 
 #: drakbug:98
 #, c-format
@@ -273,7 +273,7 @@ msgstr ""
 "siguiente:"
 
 #: drakbug:142
-#, fuzzy, c-format
+#, c-format
 msgid "Used theme: %s"
 msgstr "Usuario: %s"
 
@@ -310,9 +310,9 @@ msgid "'%s'"
 msgstr "'%s'"
 
 #: drakbug:152
-#, fuzzy, c-format
+#, c-format
 msgid "You should also attach the following files if you have them: %s."
-msgstr "Usted debería adicionar los archivos siguientes: %s e %s."
+msgstr "Usted debería adicionar los archivos siguientes: %s."
 
 #: drakbug:158
 #, c-format
@@ -496,14 +496,14 @@ msgid "KDM (KDE Display Manager)"
 msgstr "XDM (administrador de conexión KDE)"
 
 #: drakedm:42
-#, fuzzy, c-format
+#, c-format
 msgid "LIGHTDM (LightDM Display Manager)"
-msgstr "XDM (administrador de conexión GNOME)"
+msgstr "LIGHTDM (administrador de conexión LightDM)"
 
 #: drakedm:43
-#, fuzzy, c-format
+#, c-format
 msgid "SLIM (Simple Display Manager)"
-msgstr "XDM (administrador de conexión X11)"
+msgstr "SLIM (administrador de conexión simple)"
 
 #: drakedm:44
 #, c-format
@@ -692,9 +692,9 @@ msgid "Drakfont"
 msgstr "Drakfont"
 
 #: drakfont:521 harddrake2:229
-#, fuzzy, c-format
+#, c-format
 msgid "Copyright (C) %s by OpenMandriva"
-msgstr "Copyright © %s por Mandriva"
+msgstr "Copyright © %s por OpenMandriva"
 
 #: drakfont:523
 #, c-format
@@ -729,7 +729,7 @@ msgstr "Ghostscript"
 #: drakfont:554
 #, c-format
 msgid "LibreOffice"
-msgstr ""
+msgstr "LibreOffice"
 
 #: drakfont:555
 #, c-format
@@ -1196,7 +1196,7 @@ msgstr "Nivel de seguridad y verificaciones:"
 #: draksec:108
 #, c-format
 msgid "Configure access to OpenMandriva Lx administrative tools"
-msgstr ""
+msgstr "Configurar el acceso a herramientas administrativas OpenMandriva Lx"
 
 #: draksec:111
 #, c-format
@@ -1219,9 +1219,9 @@ msgid "Software Management"
 msgstr "Administración de software"
 
 #: draksec:147
-#, fuzzy, c-format
+#, c-format
 msgid "Online Update"
-msgstr "Mandriva Update"
+msgstr "Online Update"
 
 #: draksec:148
 #, c-format
@@ -1249,9 +1249,9 @@ msgid "Keyboard Configuration"
 msgstr "Configuración del teclado"
 
 #: draksec:153
-#, fuzzy, c-format
+#, c-format
 msgid "Printer Configuration"
-msgstr "Configuración de Proxy"
+msgstr "Configuración de la impresora"
 
 #: draksec:154
 #, c-format
@@ -1620,7 +1620,7 @@ msgid "Keyboard"
 msgstr "Teclado"
 
 #: finish-install:58
-#, fuzzy, c-format
+#, c-format
 msgid "Please choose your keyboard layout."
 msgstr "Por favor, seleccione la distribución de su teclado."
 
@@ -1632,32 +1632,32 @@ msgstr "Probando su conexión..."
 #: finish-install:185
 #, c-format
 msgid "Windows-compatible sharing system"
-msgstr ""
+msgstr "Sistema de intercambio compatible con Windows"
 
 #: finish-install:188
-#, fuzzy, c-format
+#, c-format
 msgid "OpenSSH server"
-msgstr "Servidor SSH"
+msgstr "Servidor OpenSSH"
 
 #: finish-install:189
-#, fuzzy, c-format
+#, c-format
 msgid "Print server"
-msgstr "Servidor FTP"
+msgstr "Servidor De Impresión"
 
 #: finish-install:209
 #, c-format
 msgid "Do you have any services that you want to run when starting up?"
-msgstr ""
+msgstr "¿Tiene usted cualquier servicio que desee ejecutar en el arranque?"
 
 #: finish-install:241
-#, fuzzy, c-format
+#, c-format
 msgid "The following services failed to start:\n"
-msgstr "Se deben instalar los siguientes paquetes:\n"
+msgstr "Los siguientes servicios no pudieron empezar:\n"
 
 #: finish-install:244
-#, fuzzy, c-format
+#, c-format
 msgid "The following services failed to stop:\n"
-msgstr "Se deben instalar los siguientes paquetes:\n"
+msgstr "Los siguientes servicios no lograron detener:\n"
 
 #: finish-install:256 finish-install:274 finish-install:287
 #, c-format
@@ -2406,7 +2406,7 @@ msgstr ""
 "Esto es HardDrake, una herramienta de configuaración de hardware de %s."
 
 #: harddrake2:233
-#, fuzzy, c-format
+#, c-format
 msgid "OpenMandriva Linux"
 msgstr "OpenMandriva Lx"
 
@@ -2431,7 +2431,7 @@ msgid "Run config tool"
 msgstr "Ejecutar herramienta de configuración"
 
 #: harddrake2:296
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Click on a device in the tree on the left in order to display its "
 "information here."
@@ -2498,7 +2498,7 @@ msgstr ", "
 #: logdrake:55
 #, c-format
 msgid "%s Tools Logs"
-msgstr ""
+msgstr "Herramientas Logs %s"
 
 #: logdrake:69
 #, c-format
@@ -2771,14 +2771,14 @@ msgid "and enter the name (or the IP) of the SMTP server you wish to use"
 msgstr "e ingrese el nombre (o la IP) del servidor SMTP que desea usar"
 
 #: logdrake:444
-#, fuzzy, c-format
+#, c-format
 msgid "Email address"
-msgstr "Dirección IP"
+msgstr "Dirección De Correo Electrónico"
 
 #: logdrake:445
-#, fuzzy, c-format
+#, c-format
 msgid "Email server"
-msgstr "Servidor Samba"
+msgstr "Servidor De Correo Electrónico"
 
 #: logdrake:449
 #, c-format
@@ -2819,6 +2819,7 @@ msgstr "Configuración de controlador de pantalla"
 #, c-format
 msgid "The display driver has been automatically switched to '%s'."
 msgstr ""
+"El controlador de pantalla ha sido cambiado a '%s' de forma automática."
 
 #: notify-x11-free-driver-switch:21
 #, c-format
@@ -3118,13 +3119,13 @@ msgstr ""
 "\"man sane-%s\" para leerlo."
 
 #: scannerdrake:406 scannerdrake:415
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "After that you may scan documents using \"XSane\" or \"%s\" from Multimedia/"
 "Graphics in the applications menu."
 msgstr ""
-"Ahora puede escanear documentos usando \"XSane\" o \"Kooka\" desde "
-"Multimedios/Gráficos en el menú de aplicaciones."
+"Ahora puede escanear documentos usando \"XSane\" o \"%s\" desde Multimedios/"
+"Gráficos en el menú de aplicaciones."
 
 #: scannerdrake:410
 #, c-format
@@ -3155,15 +3156,15 @@ msgid "Congratulations!"
 msgstr "¡Felicidades!"
 
 #: scannerdrake:418
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Your %s has been configured.\n"
 "You may now scan documents using \"XSane\" or \"%s\" from Multimedia/"
 "Graphics in the applications menu."
 msgstr ""
 "Su %s ha sido configurado.\n"
-"Ahora puede escanear documentos usando \"XSane\" o \"Kooka\" desde "
-"Multimedios/Gráficos en el menú de aplicaciones."
+"Ahora puede escanear documentos usando \"XSane\" o \"%s\" desde Multimedios/"
+"Gráficos en el menú de aplicaciones."
 
 #: scannerdrake:443
 #, c-format
@@ -3370,9 +3371,9 @@ msgstr ""
 "No se pueden instalar los paquetes necesarios para compartir sus escáneres."
 
 #: service_harddrake:170
-#, fuzzy, c-format
+#, c-format
 msgid "The graphics card '%s' is no longer supported by driver '%s'"
-msgstr "La tarjeta gráfica '%s' ya no está soportada por el driver %s."
+msgstr "La tarjeta gráfica '%s' ya no está soportada por el driver %s"
 
 #: service_harddrake:180
 #, c-format
@@ -3380,7 +3381,7 @@ msgid "New release, reconfiguring X for %s"
 msgstr "Nueva versión, reconfigurando X para %s"
 
 #: service_harddrake:271
-#, fuzzy, c-format
+#, c-format
 msgid "The proprietary kernel driver was not found for X.org driver '%s'"
 msgstr ""
 "No se ha encontrado el controlador propietario del kernel para el "
@@ -3446,6 +3447,9 @@ msgid ""
 "driver the X server is configured to use. Startup of the X server may now "
 "fail."
 msgstr ""
+"Detectado un módulo del kernel controlador de pantalla cargado que entre en "
+"conflicto con el conductor el servidor X está configurado para utilizar. "
+"Puesta en marcha del servidor X puede ahora fallar."
 
 #: service_harddrake:465 service_harddrake:478
 #, c-format

@@ -11,15 +11,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DrakX-es\n"
 "POT-Creation-Date: 2015-06-24 12:07+0100\n"
-"PO-Revision-Date: 2010-06-06 19:54-0300\n"
+"PO-Revision-Date: 2015-06-25 12:48+0100\n"
 "Last-Translator: Diego Bello Carreño <dbello@gmail.com>\n"
 "Language-Team: Español <es@li.org>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 0.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es\n"
 
 #: any.pm:280 any.pm:1003 diskdrake/interactive.pm:645
 #: diskdrake/interactive.pm:869 diskdrake/interactive.pm:929
@@ -158,6 +158,7 @@ msgstr "Error"
 #, c-format
 msgid "Grub2 cannot be installed on a partition, only on the MBR (whole disk)"
 msgstr ""
+"Grub2 no se puede instalar en una partición, sólo en el MBR (todo el disco)"
 
 #: any.pm:457
 #, c-format
@@ -495,7 +496,7 @@ msgstr ""
 "usuario."
 
 #: any.pm:1037
-#, fuzzy, c-format
+#, c-format
 msgid "Use this feature?"
 msgstr "Utilizar esa característica"
 
@@ -545,30 +546,30 @@ msgid "Refuse"
 msgstr "Rechazar"
 
 #: any.pm:1160 any.pm:1223
-#, fuzzy, c-format
+#, c-format
 msgid "Please choose a language to use:"
-msgstr "Por favor, elija el idioma a usar"
+msgstr "Por favor, elija el idioma a usar:"
 
 #: any.pm:1188
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s can support multiple languages. Select\n"
 "the languages you would like to install. They will be available\n"
 "when your installation is complete and you restart your system."
 msgstr ""
-"OpenMandriva Lx puede soportar múltiples idiomas. Seleccione\n"
+"%s puede soportar múltiples idiomas. Seleccione\n"
 "los que desea instalar. Los mismos estarán disponibles cuando\n"
 "su instalación esté completa y Usted reinicie su sistema."
 
 #: any.pm:1191
-#, fuzzy, c-format
+#, c-format
 msgid "Multiple languages"
 msgstr "Multi-idiomas"
 
 #: any.pm:1192
 #, c-format
 msgid "Select Additional Languages"
-msgstr ""
+msgstr "Seleccione idiomas adicionales"
 
 #: any.pm:1201 any.pm:1232
 #, c-format
@@ -581,9 +582,9 @@ msgid "All languages"
 msgstr "Todos los idiomas"
 
 #: any.pm:1224
-#, fuzzy, c-format
+#, c-format
 msgid "Language"
-msgstr "Selección del idioma"
+msgstr "Idioma"
 
 #: any.pm:1278
 #, c-format
@@ -591,14 +592,14 @@ msgid "Country / Region"
 msgstr "País / Región"
 
 #: any.pm:1279
-#, fuzzy, c-format
+#, c-format
 msgid "Please choose your country:"
-msgstr "Seleccione su país, por favor"
+msgstr "Seleccione su país, por favor:"
 
 #: any.pm:1281
-#, fuzzy, c-format
+#, c-format
 msgid "Here is the full list of available countries:"
-msgstr "Aquí tiene la lista completa de países disponibles"
+msgstr "Aquí tiene la lista completa de países disponibles:"
 
 #: any.pm:1282
 #, c-format
@@ -699,10 +700,10 @@ msgstr ""
 "Pulse OK para conectarse ahora."
 
 #: any.pm:1541
-#, fuzzy, c-format
+#, c-format
 msgid "You need to log out and back in again for changes to take effect."
 msgstr ""
-"Debe desconectarse y volver a conectarse para que los cambios tengan efecto"
+"Debe desconectarse y volver a conectarse para que los cambios tengan efecto."
 
 #: any.pm:1576
 #, c-format
@@ -710,7 +711,7 @@ msgid "Timezone"
 msgstr "Huso horario"
 
 #: any.pm:1576
-#, fuzzy, c-format
+#, c-format
 msgid "What is your current timezone?"
 msgstr "¿Cuál es su huso horario?"
 
@@ -720,7 +721,7 @@ msgid "Date, Clock & Time Zone Settings"
 msgstr "Configuración de la fecha, hora y huso horario"
 
 #: any.pm:1602
-#, fuzzy, c-format
+#, c-format
 msgid "What is your current time?"
 msgstr "¿Cuál es la mejor hora?"
 
@@ -1113,9 +1114,9 @@ msgid "LILO with text menu"
 msgstr "LILO con menú de texto"
 
 #: bootloader.pm:1250
-#, fuzzy, c-format
+#, c-format
 msgid "GRUB2 with graphical menu"
-msgstr "GRUB con menú gráfico"
+msgstr "GRUB2 con menú gráfico"
 
 #: bootloader.pm:1251
 #, c-format
@@ -1173,12 +1174,12 @@ msgstr "Volver a instalar cargador de arranque"
 #: check_min_sys_requirements.pm:90
 #, c-format
 msgid "System requirements warning\n"
-msgstr ""
+msgstr "Requisitos del sistema de alerta\n"
 
 #: check_min_sys_requirements.pm:91
 #, c-format
 msgid "Recommended system parameters:\n"
-msgstr ""
+msgstr "Parámetros del sistema recomendados:\n"
 
 #: check_min_sys_requirements.pm:92 check_min_sys_requirements.pm:97
 #, c-format
@@ -1206,6 +1207,8 @@ msgid ""
 "\n"
 "Your system parameters:\n"
 msgstr ""
+"\n"
+"Sus parámetros del sistema:\n"
 
 #: check_min_sys_requirements.pm:105
 #, c-format
@@ -1213,11 +1216,13 @@ msgid ""
 "\n"
 "Your system resources are too low\n"
 msgstr ""
+"\n"
+"Sus recursos del sistema son demasiado bajos\n"
 
 #: check_min_sys_requirements.pm:111
 #, c-format
 msgid "System requirements warning"
-msgstr ""
+msgstr "Requisitos del sistema de alerta"
 
 #: common.pm:140
 #, c-format
@@ -1347,7 +1352,7 @@ msgid "Warning"
 msgstr "Advertencia"
 
 #: diskdrake/dav.pm:104
-#, fuzzy, c-format
+#, c-format
 msgid "Are you sure you want to delete this mount point?"
 msgstr "¿Está seguro de que desea eliminar este punto de montaje?"
 
@@ -1385,9 +1390,9 @@ msgstr ""
 "acción"
 
 #: diskdrake/hd_gtk.pm:135
-#, fuzzy, c-format
+#, c-format
 msgid "Please make a backup of your data first."
-msgstr "Por favor, haga primero una copia de seguridad de sus datos"
+msgstr "Por favor, haga primero una copia de seguridad de sus datos."
 
 #: diskdrake/hd_gtk.pm:136 diskdrake/interactive.pm:238
 #, c-format
@@ -2052,7 +2057,7 @@ msgid "After formatting partition %s, all data on this partition will be lost"
 msgstr "Se perderán todos los datos de la partición %s después de formatearla"
 
 #: diskdrake/interactive.pm:1293
-#, fuzzy, c-format
+#, c-format
 msgid "Check bad blocks?"
 msgstr "¿Verificar el disco en busca de bloques malos?"
 
@@ -2429,9 +2434,9 @@ msgstr ""
 "razón de este fallo"
 
 #: fs/any.pm:72
-#, fuzzy, c-format
+#, c-format
 msgid "You must have a ESP FAT32 partition mounted in /boot/efi"
-msgstr "Debe tener una partición FAT montada en /boot/efi"
+msgstr "Debe tener una partición ESP FAT32 montada en /boot/efi"
 
 #: fs/format.pm:109
 #, c-format
@@ -2508,7 +2513,7 @@ msgstr ""
 #: fs/mount_options.pm:116
 #, c-format
 msgid "Enable automatic TRIM for SSD disks"
-msgstr ""
+msgstr "Habilitar TRIM automática para discos SSD"
 
 #: fs/mount_options.pm:118
 #, c-format
@@ -2815,7 +2820,7 @@ msgid "Erase and use entire disk"
 msgstr "Borrar y usar el disco entero"
 
 #: fs/partitioning_wizard.pm:236
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "You have more than one hard disk drive, which one do you want the installer "
 "to use?"
@@ -2938,7 +2943,7 @@ msgid "There is already a partition with mount point %s\n"
 msgstr "Ya existe una partición con el punto de montaje %s\n"
 
 #: fsedit.pm:446
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "You've selected a software RAID partition as root (/).\n"
 "No bootloader is able to handle this without a /boot partition.\n"
@@ -2950,7 +2955,7 @@ msgstr ""
 "Por favor, asegúrese de añadir una partición /boot."
 
 #: fsedit.pm:452
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Metadata version unsupported for a boot partition. Please be sure to add a "
 "separate /boot partition."
@@ -2974,7 +2979,7 @@ msgstr ""
 "La versión de meta datos no está soportada para una partición de arranque."
 
 #: fsedit.pm:471
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "You've selected an encrypted partition as root (/).\n"
 "No bootloader is able to handle this without a /boot partition.\n"
@@ -2986,13 +2991,13 @@ msgstr ""
 "Por favor, asegúrese de añadir una partición /boot."
 
 #: fsedit.pm:477 fsedit.pm:497
-#, fuzzy, c-format
+#, c-format
 msgid "You cannot use an encrypted filesystem for mount point %s"
 msgstr ""
 "No puede usar un sistema de archivos cifrado para el punto de montaje %s"
 
 #: fsedit.pm:481
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "You cannot use the LVM Logical Volume for mount point %s since it spans "
 "physical volumes"
@@ -3001,7 +3006,7 @@ msgstr ""
 "varios volúmenes físicos"
 
 #: fsedit.pm:483
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "You've selected the LVM Logical Volume as root (/).\n"
 "The bootloader is not able to handle this when the volume spans physical "
@@ -3331,11 +3336,11 @@ msgstr ""
 "Aquí puede seleccionar un controlador alternativo (OSS o ALSA) para su "
 "tarjeta de sonido (%s)"
 
-#. -PO: here the first %s is either "OSS" or "ALSA", 
+#. -PO: here the first %s is either "OSS" or "ALSA",
 #. -PO: the second %s is the name of the current driver
 #. -PO: and the third %s is the name of the default driver
 #: harddrake/sound.pm:341
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "\n"
 "\n"
@@ -4922,7 +4927,7 @@ msgstr ""
 "El cargador de arranque no puede manejar /boot en múltiples volúmenes físicos"
 
 #: messages.pm:8
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Introduction\n"
 "\n"
@@ -5174,7 +5179,7 @@ msgstr ""
 
 #. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
 #: messages.pm:87
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "You agree not to (i) sell, export, re-export, transfer, divert, disclose "
 "technical data, or\n"
@@ -5227,7 +5232,7 @@ msgstr ""
 "by the terms of this Agreement."
 
 #: messages.pm:101
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Most of these components, but excluding the applications and software "
 "provided by Google Inc. or\n"
@@ -5242,7 +5247,7 @@ msgstr ""
 "de la GNU General Public Licence, en adelante \"GPL\", o licencias similares."
 
 #: messages.pm:104
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Most of these components are governed under the terms and conditions of the "
 "GNU\n"
@@ -5368,7 +5373,7 @@ msgstr ""
 
 #. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
 #: messages.pm:147
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Congratulations, installation is complete.\n"
 "Remove the boot media and press Enter to reboot.\n"
@@ -5396,10 +5401,8 @@ msgstr ""
 "%s\n"
 "\n"
 "\n"
-"Hay información disponible sobre cómo configurar su sistema en el capítulo "
-"de\n"
-"configuración tras la instalación de la Guía del Usuario de OpenMandriva Lx "
-"oficial."
+"Información sobre la configuración de su sistema OpenMandriva Lx\n"
+"recién instalado también está disponible en nuestro wiki."
 
 #: modules/interactive.pm:19
 #, c-format
@@ -5442,17 +5445,17 @@ msgid "Installing driver for USB controller"
 msgstr "Instalando controlador para el USB"
 
 #: modules/interactive.pm:84
-#, fuzzy, c-format
+#, c-format
 msgid "Installing driver for firewire controller \"%s\""
 msgstr "Instalando controlador para el firewire %s"
 
 #: modules/interactive.pm:85
-#, fuzzy, c-format
+#, c-format
 msgid "Installing driver for hard disk drive controller \"%s\""
 msgstr "Instalando controlador para la unidad de disco duro %s"
 
 #: modules/interactive.pm:86
-#, fuzzy, c-format
+#, c-format
 msgid "Installing driver for ethernet controller \"%s\""
 msgstr "Instalando controlador para la tarjeta ethernet %s"
 
@@ -5538,9 +5541,9 @@ msgstr ""
 "¿Desea intentarlo de nuevo con otros parámetros?"
 
 #: mygtk2.pm:1227
-#, fuzzy, c-format
+#, c-format
 msgid "Are you sure you want to quit?"
-msgstr "¿Está seguro de que desea eliminar este punto de montaje?"
+msgstr "Seguro que quieres salir?"
 
 #: mygtk2.pm:1569 mygtk2.pm:1570
 #, c-format
@@ -5594,12 +5597,12 @@ msgstr ""
 #: pkgs.pm:257
 #, c-format
 msgid "Gathering system information..."
-msgstr ""
+msgstr "La recopilación de la información del sistema ..."
 
 #: pkgs.pm:266
 #, c-format
 msgid "Preparing for installation..."
-msgstr ""
+msgstr "Preparación para la instalación ..."
 
 #: pkgs.pm:276 pkgs.pm:279 pkgs.pm:295
 #, c-format
@@ -5641,9 +5644,9 @@ msgid "Unused localization"
 msgstr "Idiomas no utilizados"
 
 #: pkgs.pm:312
-#, fuzzy, c-format
+#, c-format
 msgid "Removing packages (this may take some time)..."
-msgstr "Quitando paquetes..."
+msgstr "Eliminación de paquetes (esto puede tardar algún tiempo) ..."
 
 #: raid.pm:40
 #, c-format
@@ -6483,14 +6486,14 @@ msgid "Avahi is a ZeroConf daemon which implements an mDNS stack"
 msgstr "Avahi es un demonio ZeroConf que implementa una pila mDNS"
 
 #: services.pm:24
-#, fuzzy, c-format
+#, c-format
 msgid "An NTP client/server"
-msgstr "Servidor NTP"
+msgstr "Cliente/Servidor NTP"
 
 #: services.pm:25
 #, c-format
 msgid "Set CPU powersafe mode"
-msgstr ""
+msgstr "Ajuste el modo de PowerSafe CPU"
 
 #: services.pm:26
 #, c-format
@@ -7002,6 +7005,8 @@ msgid ""
 "_: Keep these entry short\n"
 "Networking"
 msgstr ""
+"_: Mantenga estos entrada corta\n"
+"Redes"
 
 #: services.pm:161
 #, c-format
@@ -7157,7 +7162,7 @@ msgstr ""
 "conexión automática."
 
 #: standalone.pm:61
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "[OPTIONS] [PROGRAM_NAME]\n"
 "\n"
@@ -7227,7 +7232,7 @@ msgstr ""
 "                   y gs para ghostscript."
 
 #: standalone.pm:88
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "[OPTIONS]...\n"
 "Terminal Server Configurator\n"
@@ -7244,7 +7249,7 @@ msgid ""
 "IP, nbi image name)"
 msgstr ""
 "[OPCIONES]...\n"
-"Configurador del Servidor de Terminales de OpenMandriva Lx\n"
+"Configurador del Servidor de Terminales\n"
 "--enable         : habilitar MTS\n"
 "--disable        : deshabilitar MTS\n"
 "--start          : iniciar MTS\n"
@@ -7293,7 +7298,7 @@ msgstr ""
 "--quiet                 : no ser interactivo. A utilizar con (dis)connect."
 
 #: standalone.pm:112
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "[OPTION]...\n"
 "  --no-confirmation      do not ask first confirmation question in Online "
@@ -7304,7 +7309,7 @@ msgid ""
 "  --merge-all-rpmnew     propose to merge all .rpmnew/.rpmsave files found"
 msgstr ""
 "[OPCIÓN]...\n"
-"  --no-confirmation     no pedir confirmación en modo Mandriva Update\n"
+"  --no-confirmation     no pedir confirmación en modo Online Update\n"
 "  --no-verify-rpm       no verificar firmas de los paquetes\n"
 "  --changelog-first     mostrar changelog antes de lista de archivos en "
 "ventana de descripción\n"
