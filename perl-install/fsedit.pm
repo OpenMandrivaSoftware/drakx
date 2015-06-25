@@ -54,6 +54,8 @@ sub init_efi_suggestions {
     foreach (values %suggestions) {
         @$_ = ({ mntpoint => "/boot/efi", size => MB(200), pt_type => 0xef, ratio => 1, maxsize => MB(300) }, @$_);
     }
+  
+    push @suggestions_mntpoints, "/boot/efi";
 }
 
 
