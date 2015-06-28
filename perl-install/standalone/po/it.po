@@ -14,15 +14,15 @@ msgstr ""
 "Project-Id-Version: it\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-24 12:13+0100\n"
-"PO-Revision-Date: 2011-04-25 17:50+0200\n"
-"Last-Translator: Moreno Manzini <moreno@mediacom.it>\n"
+"PO-Revision-Date: 2015-06-26 20:01+0100\n"
+"Last-Translator: Giorgio <gio_6b@yahoo.it>\n"
 "Language-Team: Italian <timl@frelists.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 1.2\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: display_help:54 display_help:59 drakbug:170 drakperm:134
 #, c-format
@@ -133,7 +133,7 @@ msgstr "Utente predefinito"
 #: drakboot:188
 #, c-format
 msgid "Default desktop"
-msgstr "Default desktop"
+msgstr "Desktop predefinito"
 
 #: drakboot:191
 #, c-format
@@ -143,7 +143,7 @@ msgstr "No, non voglio il login automatico"
 #: drakboot:192
 #, c-format
 msgid "Yes, I want autologin with this (user, desktop)"
-msgstr "Sì, voglio il login automatico con questo utente e desktop:"
+msgstr "Sì, voglio il login automatico con questo (utente, desktop):"
 
 #: drakboot:199
 #, c-format
@@ -158,7 +158,7 @@ msgstr "Lancia l'ambiente grafico all'avvio del sistema"
 #: drakboot:257
 #, c-format
 msgid "Boot Style Configuration"
-msgstr "Configurazione stile di avvio"
+msgstr "Configurazione dello stile di avvio"
 
 #: drakboot:259 drakboot:263
 #, c-format
@@ -207,9 +207,9 @@ msgid "Standalone Tools"
 msgstr "Strumenti non dipendenti da altri"
 
 #: drakbug:70 drakbug:71
-#, fuzzy, c-format
+#, c-format
 msgid "OpenMandriva Online"
-msgstr "Mandriva Online"
+msgstr "OpenMandriva Online"
 
 #: drakbug:72
 #, c-format
@@ -232,9 +232,9 @@ msgid "Configuration Wizards"
 msgstr "Assistenti di configurazione"
 
 #: drakbug:97
-#, fuzzy, c-format
+#, c-format
 msgid "Select Tool:"
-msgstr "Scegli uno degli strumenti Mandriva:"
+msgstr "Scegli uno degli strumenti OpenMandriva:"
 
 #: drakbug:98
 #, c-format
@@ -243,7 +243,7 @@ msgid ""
 "(or Full Path):"
 msgstr ""
 "o il nome dell'applicazione\n"
-"o il percorso completo:"
+"(o il percorso completo):"
 
 #: drakbug:101
 #, c-format
@@ -268,12 +268,12 @@ msgstr "Kernel:"
 #: drakbug:137
 #, c-format
 msgid "The \"%s\" program has segfaulted with the following error:"
-msgstr "Il programma \"%s\" si è interrotto(SEGV) per questo errore:"
+msgstr "Il programma \"%s\" si è interrotto (SEGV) per questo errore:"
 
 #: drakbug:142
-#, fuzzy, c-format
+#, c-format
 msgid "Used theme: %s"
-msgstr "Utente: %s"
+msgstr "Tema usato: %s"
 
 #: drakbug:144
 #, c-format
@@ -307,9 +307,9 @@ msgid "'%s'"
 msgstr "'%s'"
 
 #: drakbug:152
-#, fuzzy, c-format
+#, c-format
 msgid "You should also attach the following files if you have them: %s."
-msgstr "Potresti anche allegare i seguenti file: %s e %s."
+msgstr "Potresti anche allegare i seguenti file: %s."
 
 #: drakbug:158
 #, c-format
@@ -494,14 +494,14 @@ msgid "KDM (KDE Display Manager)"
 msgstr "KDM (KDE Display Manager)"
 
 #: drakedm:42
-#, fuzzy, c-format
+#, c-format
 msgid "LIGHTDM (LightDM Display Manager)"
-msgstr "GDM (GNOME Display Manager)"
+msgstr "LIGHTDM (LightDM Display Manager)"
 
 #: drakedm:43
-#, fuzzy, c-format
+#, c-format
 msgid "SLIM (Simple Display Manager)"
-msgstr "XDM (X Display Manager)"
+msgstr "SLIM (Simple Display Manager)"
 
 #: drakedm:44
 #, c-format
@@ -535,13 +535,13 @@ msgid ""
 "You are going to close all running programs and lose your current session. "
 "Are you really sure that you want to restart the dm service?"
 msgstr ""
-"Così facendo, bloccherai tutti i programmi in esecuzione e uscirai dalla "
+"Così facendo bloccherai tutti i programmi in esecuzione e uscirai dalla "
 "sessione. Sei davvero sicuro di voler riavviare il servizio dm?"
 
 #: drakfont:185
 #, c-format
 msgid "Search installed fonts"
-msgstr "ricerca dei font installati"
+msgstr "Ricerca dei font installati"
 
 #: drakfont:187
 #, c-format
@@ -582,7 +582,7 @@ msgstr "Impossibile trovare alcun font.\n"
 #: drakfont:272
 #, c-format
 msgid "Search for fonts in installed list"
-msgstr "ricerca font tra quelli installati"
+msgstr "Ricerca font tra quelli installati"
 
 #: drakfont:296
 #, c-format
@@ -592,7 +592,7 @@ msgstr "conversione font %s"
 #: drakfont:335
 #, c-format
 msgid "Fonts copy"
-msgstr "copia dei font"
+msgstr "Copia dei font"
 
 #: drakfont:338
 #, c-format
@@ -690,9 +690,9 @@ msgid "Drakfont"
 msgstr "Drakfont"
 
 #: drakfont:521 harddrake2:229
-#, fuzzy, c-format
+#, c-format
 msgid "Copyright (C) %s by OpenMandriva"
-msgstr "Copyright (C) %s di Mandriva"
+msgstr "Copyright (C) %s di OpenMandriva"
 
 #: drakfont:523
 #, c-format
@@ -724,7 +724,7 @@ msgstr "Ghostscript"
 #: drakfont:554
 #, c-format
 msgid "LibreOffice"
-msgstr ""
+msgstr "LibreOffice"
 
 #: drakfont:555
 #, c-format
@@ -876,8 +876,8 @@ msgid ""
 " --doc <link>          - link to another web page ( for WM welcome "
 "frontend)\n"
 msgstr ""
-" --doc <link>          - link ad un'altra pagina web (per l'interfaccia di "
-"benvenuto di WM)\n"
+" --doc <link>          - collegamento ad un'altra pagina web (per "
+"l'interfaccia di benvenuto di WM)\n"
 
 #: drakhelp:49
 #, c-format
@@ -1120,12 +1120,12 @@ msgstr "Utente attuale"
 #: drakperm:294
 #, c-format
 msgid "When checked, owner and group will not be changed"
-msgstr "Se è marcato, il proprietario e il gruppo non verranno cambiati"
+msgstr "Se è selezionato non si potranno cambiare il proprietario e il gruppo"
 
 #: drakperm:304
 #, c-format
 msgid "Path selection"
-msgstr "selezione del path"
+msgstr "selezione del percorso"
 
 #: drakperm:324
 #, c-format
@@ -1138,7 +1138,7 @@ msgid ""
 "The first character of the path must be a slash (\"/\"):\n"
 "\"%s\""
 msgstr ""
-"Il primo carattere del path deve essere una barra (\"/\"):\n"
+"Il primo carattere del percorso deve essere una barra (\"/\"):\n"
 "\"%s\""
 
 #: drakperm:384
@@ -1190,6 +1190,7 @@ msgstr "Livello di sicurezza e verifiche"
 #, c-format
 msgid "Configure access to OpenMandriva Lx administrative tools"
 msgstr ""
+"Configura l'accesso per gli strumenti di amministrazione di OpenMandriva Lx"
 
 #: draksec:111
 #, c-format
@@ -1199,12 +1200,12 @@ msgstr "No password needed"
 #: draksec:112
 #, c-format
 msgid "Root password required"
-msgstr "Password di root"
+msgstr "È richiesta la password di root"
 
 #: draksec:113
 #, c-format
 msgid "User password required"
-msgstr "Password dell'utente"
+msgstr "È richiesta la password dell'utente"
 
 #: draksec:146 draksec:202
 #, c-format
@@ -1212,9 +1213,9 @@ msgid "Software Management"
 msgstr "Gestione software"
 
 #: draksec:147
-#, fuzzy, c-format
+#, c-format
 msgid "Online Update"
-msgstr "Aggiornamenti Mandriva"
+msgstr "Aggiornamenti OpenMandriva"
 
 #: draksec:148
 #, c-format
@@ -1242,9 +1243,9 @@ msgid "Keyboard Configuration"
 msgstr "Configurazione della tastiera"
 
 #: draksec:153
-#, fuzzy, c-format
+#, c-format
 msgid "Printer Configuration"
-msgstr "Configurazione della stampante"
+msgstr "Configurazione stampanti"
 
 #: draksec:154
 #, c-format
@@ -1349,7 +1350,7 @@ msgid ""
 "\n"
 "http://www.mandrivalinux.com/en/hardware.php3"
 msgstr ""
-"Non è stata rilevata nessuna scheda audio sulla tua macchina. Per favore,\n"
+"Non è stata rilevata nessuna scheda audio sulla tua macchina. Per favore "
 "verifica che ci sia una scheda supportata da Linux correttamente inserita.\n"
 "\n"
 "\n"
@@ -1625,37 +1626,37 @@ msgstr "Verifica connessione in corso..."
 #: finish-install:185
 #, c-format
 msgid "Windows-compatible sharing system"
-msgstr ""
+msgstr "Condivisione compatibile con Windows"
 
 #: finish-install:188
-#, fuzzy, c-format
+#, c-format
 msgid "OpenSSH server"
-msgstr "Server SSH"
+msgstr "Server OpenSSH"
 
 #: finish-install:189
-#, fuzzy, c-format
+#, c-format
 msgid "Print server"
-msgstr "Server FTP"
+msgstr "Print Server"
 
 #: finish-install:209
 #, c-format
 msgid "Do you have any services that you want to run when starting up?"
-msgstr ""
+msgstr "C'è qualche servizio che vuoi far partire all'avvio? "
 
 #: finish-install:241
-#, fuzzy, c-format
+#, c-format
 msgid "The following services failed to start:\n"
-msgstr "I seguenti pacchetti devono essere installati:\n"
+msgstr "Non è riuscito l'avvio di questi servizi:\n"
 
 #: finish-install:244
-#, fuzzy, c-format
+#, c-format
 msgid "The following services failed to stop:\n"
-msgstr "I seguenti pacchetti devono essere installati:\n"
+msgstr "Non è riuscito l'arresto di questi servizi:\n"
 
 #: finish-install:256 finish-install:274 finish-install:287
 #, c-format
 msgid "Encrypted home partition"
-msgstr "Partizione home crittata"
+msgstr "Partizione home criptata"
 
 #: finish-install:256
 #, c-format
@@ -1670,12 +1671,12 @@ msgstr "Password (ripeti)"
 #: finish-install:274
 #, c-format
 msgid "Creating encrypted home partition"
-msgstr "Creazione della partizione home crittata..."
+msgstr "Creazione della partizione home criptata..."
 
 #: finish-install:287
 #, c-format
 msgid "Formatting encrypted home partition"
-msgstr "Formattazione della partizione home crittata"
+msgstr "Formattazione della partizione home criptata"
 
 #: harddrake2:28
 #, c-format
@@ -1929,7 +1930,7 @@ msgstr "Identificativo secondario della marca"
 #: harddrake2:64
 #, c-format
 msgid "this is the minor numerical identifier of the vendor"
-msgstr "questo è il numero minore che identifica la marca"
+msgstr "questo è il numero secondario che identifica la marca"
 
 #: harddrake2:65
 #, c-format
@@ -1939,7 +1940,7 @@ msgstr "Identificativo secondario del dispositivo"
 #: harddrake2:65
 #, c-format
 msgid "this is the minor numerical identifier of the device"
-msgstr "questo è il numero minore che identifica il dispositivo"
+msgstr "questo è il numero secondario che identifica il dispositivo"
 
 #: harddrake2:66
 #, c-format
@@ -2244,7 +2245,7 @@ msgstr "Rotellina in emulazione"
 #: harddrake2:119
 #, c-format
 msgid "whether the wheel is emulated or not"
-msgstr "se emulare o no la rotellina"
+msgstr "se la rotellina è emulata o no "
 
 #: harddrake2:120
 #, c-format
@@ -2372,7 +2373,7 @@ msgid ""
 "Once you've selected a device, you'll be able to see the device information "
 "in fields displayed on the right frame (\"Information\")"
 msgstr ""
-"Dopo aver selezionato un dispositivo, potrai vedere le informazioni che lo "
+"Dopo aver selezionato un dispositivo potrai vedere le informazioni che lo "
 "riguardano nel riquadro di destra (\"Informazioni\")"
 
 #: harddrake2:222
@@ -2396,9 +2397,9 @@ msgid "This is HardDrake, a %s hardware configuration tool."
 msgstr "Questo è HardDrake, uno strumento %s per configurare l'hardware."
 
 #: harddrake2:233
-#, fuzzy, c-format
+#, c-format
 msgid "OpenMandriva Linux"
-msgstr "OpenMandriva Lx"
+msgstr "OpenMandriva Linux"
 
 #: harddrake2:264
 #, c-format
@@ -2408,7 +2409,7 @@ msgstr "Hardware identificato"
 #: harddrake2:267 scannerdrake:283
 #, c-format
 msgid "Information"
-msgstr "Informazioni"
+msgstr "Informazione"
 
 #: harddrake2:269
 #, c-format
@@ -2759,14 +2760,14 @@ msgid "and enter the name (or the IP) of the SMTP server you wish to use"
 msgstr "e fornisci il nome (o l'IP) del server SMTP che vuoi utilizzare"
 
 #: logdrake:444
-#, fuzzy, c-format
+#, c-format
 msgid "Email address"
-msgstr "Indirizzo IP"
+msgstr "Indirizzo email"
 
 #: logdrake:445
-#, fuzzy, c-format
+#, c-format
 msgid "Email server"
-msgstr "Server Samba"
+msgstr "Server email"
 
 #: logdrake:449
 #, c-format
@@ -2807,7 +2808,7 @@ msgstr "Impostazione del driver video"
 #: notify-x11-free-driver-switch:20
 #, c-format
 msgid "The display driver has been automatically switched to '%s'."
-msgstr ""
+msgstr "Il driver dello schermo è stato impostato automaticamente a '%s'."
 
 #: notify-x11-free-driver-switch:21
 #, c-format
@@ -2907,7 +2908,7 @@ msgstr " (NON SUPPORTATO)"
 #: scannerdrake:139
 #, c-format
 msgid "The %s is not supported under Linux."
-msgstr "%s non viene supportato sotto Linux."
+msgstr "%s non viene supportato in Linux."
 
 #: scannerdrake:166 scannerdrake:180
 #, c-format
@@ -3094,7 +3095,7 @@ msgid ""
 msgstr ""
 "Questo %s non può essere configurato in modo del tutto automatico.\n"
 "\n"
-"Servono degli aggiustamenti manuali. E' necessario modificare il file di "
+"Servono degli aggiustamenti manuali. È necessario modificare il file di "
 "configurazione /etc/sane.d/%s.conf. "
 
 #: scannerdrake:404 scannerdrake:413
@@ -3121,7 +3122,7 @@ msgid ""
 "Your %s has been configured, but it is possible that additional manual "
 "adjustments are needed to get it to work. "
 msgstr ""
-"Il tuo %s è stato configurato, ma è possibile che occorra fare degli "
+"Il tuo %s è stato configurato ma è possibile che siano necessari degli "
 "aggiustamenti manuali per farlo funzionare. "
 
 #: scannerdrake:411
@@ -3358,10 +3359,10 @@ msgstr ""
 "scanner."
 
 #: service_harddrake:170
-#, fuzzy, c-format
+#, c-format
 msgid "The graphics card '%s' is no longer supported by driver '%s'"
 msgstr ""
-"La scheda grafica %s non è supportata da questa versione del driver %s."
+"La scheda grafica %s non è più supportata da questa versione del driver %s."
 
 #: service_harddrake:180
 #, c-format
@@ -3435,6 +3436,9 @@ msgid ""
 "driver the X server is configured to use. Startup of the X server may now "
 "fail."
 msgstr ""
+"E' caricato un modulo del kernel per il driver dello schermo che è in "
+"conflitto con il driver che il server X dovrebbe usare. Può darsi che non "
+"riesca l'avvio del server X. "
 
 #: service_harddrake:465 service_harddrake:478
 #, c-format
