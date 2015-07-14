@@ -14,14 +14,14 @@ msgstr ""
 "Project-Id-Version: it\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-24 12:13+0100\n"
-"PO-Revision-Date: 2015-06-26 20:01+0100\n"
+"PO-Revision-Date: 2015-07-14 06:45-0000\n"
 "Last-Translator: Giorgio <gio_6b@yahoo.it>\n"
 "Language-Team: Italian <timl@frelists.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.2\n"
+"X-Generator: Poedit 1.8.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: display_help:54 display_help:59 drakbug:170 drakperm:134
@@ -39,11 +39,10 @@ msgstr "Chiudi"
 msgid "Authentication"
 msgstr "Autenticazione"
 
-#: drakauth:37 drakclock:113 drakclock:138 drakdvb:74 drakfont:211
-#: drakfont:224 drakfont:262 finish-install:131 logdrake:174 logdrake:449
-#: logdrake:454 scannerdrake:56 scannerdrake:98 scannerdrake:139
-#: scannerdrake:197 scannerdrake:256 scannerdrake:726 scannerdrake:737
-#: scannerdrake:876 scannerdrake:887 scannerdrake:957
+#: drakauth:37 drakclock:113 drakclock:138 drakdvb:74 drakfont:211 drakfont:224
+#: drakfont:262 finish-install:131 logdrake:174 logdrake:449 logdrake:454
+#: scannerdrake:56 scannerdrake:98 scannerdrake:139 scannerdrake:197 scannerdrake:256
+#: scannerdrake:726 scannerdrake:737 scannerdrake:876 scannerdrake:887 scannerdrake:957
 #, c-format
 msgid "Error"
 msgstr "Errore"
@@ -93,12 +92,11 @@ msgstr "Attenzione"
 #: drakboot:136
 #, c-format
 msgid ""
-"Your system bootloader is not in framebuffer mode. To activate graphical "
-"boot, select a graphic video mode from the bootloader configuration tool."
+"Your system bootloader is not in framebuffer mode. To activate graphical boot, select "
+"a graphic video mode from the bootloader configuration tool."
 msgstr ""
-"Il bootloader non è in modalità framebuffer. Per attivare un boot grafico "
-"devi selezionare una modalità grafica per il video nel configuratore del "
-"bootloader."
+"Il bootloader non è in modalità framebuffer. Per attivare un boot grafico devi "
+"selezionare una modalità grafica per il video nel configuratore del bootloader."
 
 #: drakboot:137
 #, c-format
@@ -168,12 +166,12 @@ msgstr "Modo video"
 #: drakboot:260
 #, c-format
 msgid ""
-"Please choose a video mode, it will be applied to each of the boot entries "
-"selected below.\n"
+"Please choose a video mode, it will be applied to each of the boot entries selected "
+"below.\n"
 "Be sure your video card supports the mode you choose."
 msgstr ""
-"Scegli una modalità video. Sarà utilizzata per tutte le voci del menu di "
-"avvio selezionate qui sotto.\n"
+"Scegli una modalità video. Sarà utilizzata per tutte le voci del menu di avvio "
+"selezionate qui sotto.\n"
 "Assicurati che la scheda grafica supporti la modalità che hai scelto."
 
 #: drakbug:50 drakbug:138
@@ -182,7 +180,7 @@ msgid "The \"%s\" program has crashed with the following error:"
 msgstr "Il programma \"%s\" si è interrotto per questo errore:"
 
 #: drakbug:60
-#, fuzzy, c-format
+#, c-format
 msgid "OpenMandriva Lx Bug Reporting"
 msgstr "Procedura OpenMandriva Lx per segnalare bug"
 
@@ -279,27 +277,24 @@ msgstr "Tema usato: %s"
 #, c-format
 msgid ""
 "To submit a bug report, click on the report button.  \n"
-"This will open a web browser window on %s where you'll find a form to fill "
-"in.  The information displayed above will be transferred to that server"
+"This will open a web browser window on %s where you'll find a form to fill in.  The "
+"information displayed above will be transferred to that server"
 msgstr ""
 "Per inviare una segnalazione di bug, clicca sul pulsante Segnalazione.\n"
-"Si aprirà un browser web su %s dove troverai un modulo da compilare. Le "
-"informazioni mostrate qui sopra verranno inviate a quel server."
+"Si aprirà un browser web su %s dove troverai un modulo da compilare. Le informazioni "
+"mostrate qui sopra verranno inviate a quel server."
 
 #: drakbug:146
 #, c-format
 msgid ""
-"It would be very useful to attach to your report the output of the following "
-"command: %s."
+"It would be very useful to attach to your report the output of the following command: "
+"%s."
 msgid_plural ""
-"Things useful to attach to your report are the output of the following "
-"commands: %s."
+"Things useful to attach to your report are the output of the following commands: %s."
 msgstr[0] ""
-"Sarebbe utile aggiungere alla tua segnalazione l'output del seguente "
-"comando: %s."
+"Sarebbe utile aggiungere alla tua segnalazione l'output del seguente comando: %s."
 msgstr[1] ""
-"Sarebbe utile aggiungere alle tue segnalazioni l'output del seguente "
-"comando: %s."
+"Sarebbe utile aggiungere alle tue segnalazioni l'output del seguente comando: %s."
 
 #: drakbug:149
 #, c-format
@@ -334,11 +329,11 @@ msgstr "Pacchetto non installato"
 #: drakbug:248
 #, c-format
 msgid ""
-"You must type in what you were doing when this bug happened in order to "
-"enable us to reproduce this bug and to increase the odds of fixing it"
+"You must type in what you were doing when this bug happened in order to enable us to "
+"reproduce this bug and to increase the odds of fixing it"
 msgstr ""
-"Serve che tu scriva cosa stavi facendo quando si è verificato il problema. "
-"Ci permetterà di riprodurlo e aumentare le possibilità di risolverlo."
+"Serve che tu scriva cosa stavi facendo quando si è verificato il problema. Ci "
+"permetterà di riprodurlo e aumentare le possibilità di risolverlo."
 
 #: drakbug:249
 #, c-format
@@ -455,10 +450,9 @@ msgstr "%s esiste già e il suo contenuto andrà perso"
 msgid "Could not get the list of available channels"
 msgstr "Impossibile ottenere l'elenco dei canali disponibili"
 
-#: drakdvb:80 draksec:67 drakups:98 finish-install:106 harddrake2:374
-#: scannerdrake:63 scannerdrake:67 scannerdrake:75 scannerdrake:316
-#: scannerdrake:365 scannerdrake:501 scannerdrake:505 scannerdrake:527
-#: service_harddrake:423
+#: drakdvb:80 draksec:67 drakups:98 finish-install:106 harddrake2:374 scannerdrake:63
+#: scannerdrake:67 scannerdrake:75 scannerdrake:316 scannerdrake:365 scannerdrake:501
+#: scannerdrake:505 scannerdrake:527 service_harddrake:423
 #, c-format
 msgid "Please wait"
 msgstr "Attendere prego"
@@ -532,11 +526,11 @@ msgstr "Modifica apportata - vuoi riavviare il servizio dm?"
 #: drakedm:80
 #, c-format
 msgid ""
-"You are going to close all running programs and lose your current session. "
-"Are you really sure that you want to restart the dm service?"
+"You are going to close all running programs and lose your current session. Are you "
+"really sure that you want to restart the dm service?"
 msgstr ""
-"Così facendo bloccherai tutti i programmi in esecuzione e uscirai dalla "
-"sessione. Sei davvero sicuro di voler riavviare il servizio dm?"
+"Così facendo bloccherai tutti i programmi in esecuzione e uscirai dalla sessione. Sei "
+"davvero sicuro di voler riavviare il servizio dm?"
 
 #: drakfont:185
 #, c-format
@@ -558,8 +552,8 @@ msgstr "Nessun font trovato"
 msgid "parse all fonts"
 msgstr "analisi dei font"
 
-#: drakfont:220 drakfont:261 drakfont:337 drakfont:378 drakfont:382
-#: drakfont:408 drakfont:426 drakfont:434
+#: drakfont:220 drakfont:261 drakfont:337 drakfont:378 drakfont:382 drakfont:408
+#: drakfont:426 drakfont:434
 #, c-format
 msgid "done"
 msgstr "fatto"
@@ -632,17 +626,17 @@ msgstr "Eliminazione file dei font"
 #: drakfont:438
 #, c-format
 msgid ""
-"Before installing any fonts, be sure that you have the right to use and "
-"install them on your system.\n"
+"Before installing any fonts, be sure that you have the right to use and install them "
+"on your system.\n"
 "\n"
-"You can install the fonts the normal way. In rare cases, bogus fonts may "
-"hang up your X Server."
+"You can install the fonts the normal way. In rare cases, bogus fonts may hang up your "
+"X Server."
 msgstr ""
-"Prima di installare e usare qualsiasi font accertati di avere il diritto "
-"legale di farlo.\n"
+"Prima di installare e usare qualsiasi font accertati di avere il diritto legale di "
+"farlo.\n"
 "\n"
-"Puoi installare i font nel modo normale. In alcuni rari casi, dei font "
-"difettosi potrebbero bloccare il server X."
+"Puoi installare i font nel modo normale. In alcuni rari casi, dei font difettosi "
+"potrebbero bloccare il server X."
 
 #: drakfont:477
 #, c-format
@@ -846,15 +840,14 @@ msgstr "Post-disinstallazione"
 msgid ""
 " drakhelp 0.1\n"
 "Copyright (C) %s Mandriva.\n"
-"This is free software and may be redistributed under the terms of the GNU "
-"GPL.\n"
+"This is free software and may be redistributed under the terms of the GNU GPL.\n"
 "\n"
 "Usage: \n"
 msgstr ""
 " drakhelp 0.1\n"
 "Copyright (C) %s Mandriva.\n"
-"Questo è software libero e può essere ridistribuito nei termini fissati "
-"dalla GPL di GNU.\n"
+"Questo è software libero e può essere ridistribuito nei termini fissati dalla GPL di "
+"GNU.\n"
 "\n"
 "Utilizzo: \n"
 
@@ -865,19 +858,15 @@ msgstr " --help                - mostra questo messaggio     \n"
 
 #: drakhelp:20
 #, c-format
-msgid ""
-" --id <id_label>       - load the html help page which refers to id_label\n"
-msgstr ""
-" --id <id_label>       - carica la pagina html con informazioni su id_label\n"
+msgid " --id <id_label>       - load the html help page which refers to id_label\n"
+msgstr " --id <id_label>       - carica la pagina html con informazioni su id_label\n"
 
 #: drakhelp:21
 #, c-format
-msgid ""
-" --doc <link>          - link to another web page ( for WM welcome "
-"frontend)\n"
+msgid " --doc <link>          - link to another web page ( for WM welcome frontend)\n"
 msgstr ""
-" --doc <link>          - collegamento ad un'altra pagina web (per "
-"l'interfaccia di benvenuto di WM)\n"
+" --doc <link>          - collegamento ad un'altra pagina web (per l'interfaccia di "
+"benvenuto di WM)\n"
 
 #: drakhelp:49
 #, c-format
@@ -947,12 +936,12 @@ msgstr "Modifica regola attuale"
 #: drakperm:108
 #, c-format
 msgid ""
-"Here you can see files to use in order to fix permissions, owners, and "
-"groups via msec.\n"
+"Here you can see files to use in order to fix permissions, owners, and groups via "
+"msec.\n"
 "You can also edit your own rules which will owerwrite the default rules."
 msgstr ""
-"Qui puoi intervenire sui file che stabiliscono permessi, proprietari e "
-"gruppi in msec.\n"
+"Qui puoi intervenire sui file che stabiliscono permessi, proprietari e gruppi in "
+"msec.\n"
 "Puoi anche stabilire delle regole personalizzate che sostituiranno quelle "
 "preimpostate."
 
@@ -1189,8 +1178,7 @@ msgstr "Livello di sicurezza e verifiche"
 #: draksec:108
 #, c-format
 msgid "Configure access to OpenMandriva Lx administrative tools"
-msgstr ""
-"Configura l'accesso per gli strumenti di amministrazione di OpenMandriva Lx"
+msgstr "Configura l'accesso per gli strumenti di amministrazione di OpenMandriva Lx"
 
 #: draksec:111
 #, c-format
@@ -1341,8 +1329,8 @@ msgstr "Nessuna scheda audio rilevata!"
 #: draksound:50
 #, c-format
 msgid ""
-"No Sound Card has been detected on your machine. Please verify that a Linux-"
-"supported Sound Card is correctly plugged in.\n"
+"No Sound Card has been detected on your machine. Please verify that a Linux-supported "
+"Sound Card is correctly plugged in.\n"
 "\n"
 "\n"
 "You can visit our hardware database at:\n"
@@ -1350,8 +1338,8 @@ msgid ""
 "\n"
 "http://www.mandrivalinux.com/en/hardware.php3"
 msgstr ""
-"Non è stata rilevata nessuna scheda audio sulla tua macchina. Per favore "
-"verifica che ci sia una scheda supportata da Linux correttamente inserita.\n"
+"Non è stata rilevata nessuna scheda audio sulla tua macchina. Per favore verifica che "
+"ci sia una scheda supportata da Linux correttamente inserita.\n"
 "\n"
 "\n"
 "Puoi controllare il nostro elenco di hardware supportato a:\n"
@@ -1365,15 +1353,14 @@ msgid ""
 "\n"
 "\n"
 "\n"
-"Note: if you've an ISA PnP sound card, you'll have to use the alsaconf or "
-"the sndconfig program.  Just type \"alsaconf\" or \"sndconfig\" in a console."
+"Note: if you've an ISA PnP sound card, you'll have to use the alsaconf or the "
+"sndconfig program.  Just type \"alsaconf\" or \"sndconfig\" in a console."
 msgstr ""
 "\n"
 "\n"
 "\n"
-"Nota: se possiedi una scheda audio ISA PnP, dovrai utilizzare il programma "
-"alsaconf o sndconfig. Basterà lanciare \"alsaconf\" o \"sndconfig\" da una "
-"console."
+"Nota: se possiedi una scheda audio ISA PnP, dovrai utilizzare il programma alsaconf o "
+"sndconfig. Basterà lanciare \"alsaconf\" o \"sndconfig\" da una console."
 
 #: drakups:70
 #, c-format
@@ -1406,8 +1393,8 @@ msgstr ""
 msgid ""
 "We're going to add an UPS device.\n"
 "\n"
-"Do you want to autodetect UPS devices connected to this machine or to "
-"manually select them?"
+"Do you want to autodetect UPS devices connected to this machine or to manually select "
+"them?"
 msgstr ""
 "Stai per aggiungere un dispositivo UPS.\n"
 "\n"
@@ -1496,17 +1483,14 @@ msgstr "La porta a cui è connesso l'UPS"
 #: drakups:156
 #, c-format
 msgid "The wizard successfully configured the new \"%s\" UPS device."
-msgstr ""
-"L'assistente ha completato la configurazione del nuovo dispositivo UPS \"%s"
-"\"."
+msgstr "L'assistente ha completato la configurazione del nuovo dispositivo UPS \"%s\"."
 
 #: drakups:247
 #, c-format
 msgid "UPS devices"
 msgstr "Dispositivi UPS"
 
-#: drakups:248 drakups:267 drakups:283 harddrake2:87 harddrake2:114
-#: harddrake2:121
+#: drakups:248 drakups:267 drakups:283 harddrake2:87 harddrake2:114 harddrake2:121
 #, c-format
 msgid "Name"
 msgstr "Nome"
@@ -1590,8 +1574,8 @@ msgstr "Nessuna scheda TV rilevata!"
 #: drakxtv:68
 #, c-format
 msgid ""
-"No TV Card has been detected on your machine. Please verify that a Linux-"
-"supported Video/TV Card is correctly plugged in.\n"
+"No TV Card has been detected on your machine. Please verify that a Linux-supported "
+"Video/TV Card is correctly plugged in.\n"
 "\n"
 "\n"
 "You can visit our hardware database at:\n"
@@ -1614,7 +1598,7 @@ msgid "Keyboard"
 msgstr "Tastiera"
 
 #: finish-install:58
-#, fuzzy, c-format
+#, c-format
 msgid "Please choose your keyboard layout."
 msgstr "Indica la mappatura della tastiera."
 
@@ -1695,10 +1679,8 @@ msgstr "Bus"
 
 #: harddrake2:32
 #, c-format
-msgid ""
-"this is the physical bus on which the device is plugged (eg: PCI, USB, ...)"
-msgstr ""
-"questo è il bus fisico a cui è collegato il dispositivo (ad es. PCI, USB,...)"
+msgid "this is the physical bus on which the device is plugged (eg: PCI, USB, ...)"
+msgstr "questo è il bus fisico a cui è collegato il dispositivo (ad es. PCI, USB,...)"
 
 #: harddrake2:34 harddrake2:149
 #, c-format
@@ -1708,11 +1690,11 @@ msgstr "Identificazione bus"
 #: harddrake2:35
 #, c-format
 msgid ""
-"- PCI and USB devices: this lists the vendor, device, subvendor and "
-"subdevice PCI/USB ids"
+"- PCI and USB devices: this lists the vendor, device, subvendor and subdevice PCI/USB "
+"ids"
 msgstr ""
-"- dispositivi PCI e USB: lista degli ID dei produttori, dispositivi, "
-"rivenditori, e sotto-dispositivi PCI/USB"
+"- dispositivi PCI e USB: lista degli ID dei produttori, dispositivi, rivenditori, e "
+"sotto-dispositivi PCI/USB"
 
 #: harddrake2:37
 #, c-format
@@ -1738,8 +1720,7 @@ msgstr "Caratteristiche dell'unità"
 #: harddrake2:41
 #, c-format
 msgid "special capacities of the driver (burning ability and or DVD support)"
-msgstr ""
-"caratteristiche speciali dell'unità (masterizzazione o supporto per DVD)"
+msgstr "caratteristiche speciali dell'unità (masterizzazione o supporto per DVD)"
 
 #: harddrake2:42
 #, c-format
@@ -1960,13 +1941,12 @@ msgstr "Bogomips"
 #: harddrake2:71 harddrake2:72
 #, c-format
 msgid ""
-"the GNU/Linux kernel needs to run a calculation loop at boot time to "
-"initialize a timer counter.  Its result is stored as bogomips as a way to "
-"\"benchmark\" the cpu."
+"the GNU/Linux kernel needs to run a calculation loop at boot time to initialize a "
+"timer counter.  Its result is stored as bogomips as a way to \"benchmark\" the cpu."
 msgstr ""
-"il kernel di GNU/Linux deve eseguire, al momento del boot, un ciclo di "
-"calcoli per avviare un cronometro. I risultati vengono chiamati \"bogomips\" "
-"e sono una specie di \"benchmark\" per la CPU."
+"il kernel di GNU/Linux deve eseguire, al momento del boot, un ciclo di calcoli per "
+"avviare un cronometro. I risultati vengono chiamati \"bogomips\" e sono una specie di "
+"\"benchmark\" per la CPU."
 
 #: harddrake2:73
 #, c-format
@@ -2006,13 +1986,11 @@ msgstr "Frequenza (MHz)"
 #: harddrake2:76
 #, c-format
 msgid ""
-"the CPU frequency in MHz (Megahertz which in first approximation may be "
-"coarsely assimilated to number of instructions the cpu is able to execute "
-"per second)"
+"the CPU frequency in MHz (Megahertz which in first approximation may be coarsely "
+"assimilated to number of instructions the cpu is able to execute per second)"
 msgstr ""
-"frequenza della CPU in MHz ( i Megahertz forniscono una misura "
-"approssimativa del numero di istruzioni che la CPU può eseguire in un "
-"secondo)"
+"frequenza della CPU in MHz ( i Megahertz forniscono una misura approssimativa del "
+"numero di istruzioni che la CPU può eseguire in un secondo)"
 
 #: harddrake2:77
 #, c-format
@@ -2112,14 +2090,14 @@ msgstr "Protezione da scrittura"
 #: harddrake2:91
 #, c-format
 msgid ""
-"the WP flag in the CR0 register of the cpu enforce write protection at the "
-"memory page level, thus enabling the processor to prevent unchecked kernel "
-"accesses to user memory (aka this is a bug guard)"
+"the WP flag in the CR0 register of the cpu enforce write protection at the memory "
+"page level, thus enabling the processor to prevent unchecked kernel accesses to user "
+"memory (aka this is a bug guard)"
 msgstr ""
-"il flag WP nel registro CR0 della CPU attiva la protezione contro la "
-"scrittura a livello di pagine di memoria. Ciò permette al processore di "
-"prevenire accessi non controllati del kernel sulla memoria dei processi "
-"utente. Ossia, è una protezione contro i bug."
+"il flag WP nel registro CR0 della CPU attiva la protezione contro la scrittura a "
+"livello di pagine di memoria. Ciò permette al processore di prevenire accessi non "
+"controllati del kernel sulla memoria dei processi utente. Ossia, è una protezione "
+"contro i bug."
 
 #: harddrake2:95
 #, c-format
@@ -2164,14 +2142,13 @@ msgstr "Numero dell'unità logica"
 #: harddrake2:102
 #, c-format
 msgid ""
-"the SCSI Logical Unit Number (LUN). SCSI devices connected to a host are "
-"uniquely identified by a\n"
+"the SCSI Logical Unit Number (LUN). SCSI devices connected to a host are uniquely "
+"identified by a\n"
 "channel number, a target id and a logical unit number"
 msgstr ""
-"il numero dell'unità logica SCSI (LUN-). I dispositivi SCSI collegati ad un "
-"PC sono identificati\n"
-"univocamente dal numero del canale, dal target id e dal numero dell'unità "
-"logica."
+"il numero dell'unità logica SCSI (LUN-). I dispositivi SCSI collegati ad un PC sono "
+"identificati\n"
+"univocamente dal numero del canale, dal target id e dal numero dell'unità logica."
 
 #. -PO: here, "size" is the size of the ram chip (eg: 128Mo, 256Mo, ...)
 #: harddrake2:109
@@ -2231,11 +2208,9 @@ msgstr "File del dispositivo"
 
 #: harddrake2:118
 #, c-format
-msgid ""
-"the device file used to communicate with the kernel driver for the mouse"
+msgid "the device file used to communicate with the kernel driver for the mouse"
 msgstr ""
-"il file di dispositivo utilizzato per comunicare con il driver del kernel "
-"per il mouse"
+"il file di dispositivo utilizzato per comunicare con il driver del kernel per il mouse"
 
 #: harddrake2:119
 #, c-format
@@ -2370,11 +2345,11 @@ msgstr "Scegli un dispositivo!"
 #: harddrake2:216
 #, c-format
 msgid ""
-"Once you've selected a device, you'll be able to see the device information "
-"in fields displayed on the right frame (\"Information\")"
+"Once you've selected a device, you'll be able to see the device information in fields "
+"displayed on the right frame (\"Information\")"
 msgstr ""
-"Dopo aver selezionato un dispositivo potrai vedere le informazioni che lo "
-"riguardano nel riquadro di destra (\"Informazioni\")"
+"Dopo aver selezionato un dispositivo potrai vedere le informazioni che lo riguardano "
+"nel riquadro di destra (\"Informazioni\")"
 
 #: harddrake2:222
 #, c-format
@@ -2422,13 +2397,11 @@ msgid "Run config tool"
 msgstr "Lancia il tool di configurazione"
 
 #: harddrake2:296
-#, fuzzy, c-format
+#, c-format
 msgid ""
-"Click on a device in the tree on the left in order to display its "
-"information here."
+"Click on a device in the tree on the left in order to display its information here."
 msgstr ""
-"Clicca su un dispositivo dell'albero a sinistra per vedere le relative "
-"informazioni. "
+"Clicca su un dispositivo dell'albero a sinistra per vedere le relative informazioni."
 
 #: harddrake2:317 notify-x11-free-driver-switch:13
 #, c-format
@@ -2722,9 +2695,7 @@ msgstr "Impostazioni relative ai servizi"
 
 #: logdrake:426
 #, c-format
-msgid ""
-"You will receive an alert if one of the selected services is no longer "
-"running"
+msgid "You will receive an alert if one of the selected services is no longer running"
 msgstr "Verrai avvisato se uno dei servizi selezionati non è più in esecuzione"
 
 #: logdrake:433
@@ -2772,17 +2743,16 @@ msgstr "Server email"
 #: logdrake:449
 #, c-format
 msgid "\"%s\" neither is a valid email nor is an existing local user!"
-msgstr ""
-"\"%s\" non è né un indirizzo email valido, né un utente locale esistente!"
+msgstr "\"%s\" non è né un indirizzo email valido, né un utente locale esistente!"
 
 #: logdrake:454
 #, c-format
 msgid ""
-"\"%s\" is a local user, but you did not select a local smtp, so you must use "
-"a complete email address!"
+"\"%s\" is a local user, but you did not select a local smtp, so you must use a "
+"complete email address!"
 msgstr ""
-"\"%s\" è un utente locale, ma non hai indicato un smtp locale, quindi devi "
-"utilizzare un indirizzo email completo!"
+"\"%s\" è un utente locale, ma non hai indicato un smtp locale, quindi devi utilizzare "
+"un indirizzo email completo!"
 
 #: logdrake:461
 #, c-format
@@ -2799,8 +2769,7 @@ msgstr "L'assistente ha finito di disattivare gli avvisi tramite email."
 msgid "Save as.."
 msgstr "Salva con nome..."
 
-#: notify-x11-free-driver-switch:18 service_harddrake:465
-#: service_harddrake:478
+#: notify-x11-free-driver-switch:18 service_harddrake:465 service_harddrake:478
 #, c-format
 msgid "Display driver setup"
 msgstr "Impostazione del driver video"
@@ -2833,8 +2802,7 @@ msgstr "Interruzione di Scannerdrake."
 
 #: scannerdrake:57
 #, c-format
-msgid ""
-"Could not install the packages needed to set up a scanner with Scannerdrake."
+msgid "Could not install the packages needed to set up a scanner with Scannerdrake."
 msgstr ""
 "Non posso installare i programmi necessari per configurare uno scanner con "
 "Scannerdrake."
@@ -2887,8 +2855,7 @@ msgstr "Configurazione scanner"
 #: scannerdrake:128
 #, c-format
 msgid "Select a scanner model (Detected model: %s, Port: %s)"
-msgstr ""
-"Seleziona il modello dello scanner (Modello individuato: %s sulla porta %s)"
+msgstr "Seleziona il modello dello scanner (Modello individuato: %s sulla porta %s)"
 
 #: scannerdrake:130
 #, c-format
@@ -2923,11 +2890,11 @@ msgstr "Firmware scanner"
 #: scannerdrake:170 scannerdrake:222
 #, c-format
 msgid ""
-"It is possible that your %s needs its firmware to be uploaded everytime when "
-"it is turned on."
+"It is possible that your %s needs its firmware to be uploaded everytime when it is "
+"turned on."
 msgstr ""
-"È possibile che il %s richieda di caricare il proprio firmware ogni volta "
-"che viene acceso."
+"È possibile che il %s richieda di caricare il proprio firmware ogni volta che viene "
+"acceso."
 
 #: scannerdrake:171 scannerdrake:223
 #, c-format
@@ -2937,20 +2904,20 @@ msgstr "In tal caso, puoi decidere che venga fatto automaticamente."
 #: scannerdrake:172 scannerdrake:226
 #, c-format
 msgid ""
-"To do so, you need to supply the firmware file for your scanner so that it "
-"can be installed."
+"To do so, you need to supply the firmware file for your scanner so that it can be "
+"installed."
 msgstr ""
-"Per farlo devi fornire i file con il firmware dello scanner in modo che "
-"possa essere installato."
+"Per farlo devi fornire i file con il firmware dello scanner in modo che possa essere "
+"installato."
 
 #: scannerdrake:173 scannerdrake:227
 #, c-format
 msgid ""
-"You find the file on the CD or floppy coming with the scanner, on the "
-"manufacturer's home page, or on your Windows partition."
+"You find the file on the CD or floppy coming with the scanner, on the manufacturer's "
+"home page, or on your Windows partition."
 msgstr ""
-"Puoi trovare il file sul CD o floppy allegato allo scanner, o sulla pagina "
-"web del produttore o nella tua partizione Windows."
+"Puoi trovare il file sul CD o floppy allegato allo scanner, o sulla pagina web del "
+"produttore o nella tua partizione Windows."
 
 #: scannerdrake:175 scannerdrake:234
 #, c-format
@@ -2985,29 +2952,29 @@ msgstr "Il file %s contenente il firmware non esiste o non è leggibile!"
 #: scannerdrake:221
 #, c-format
 msgid ""
-"It is possible that your scanners need their firmware to be uploaded "
-"everytime when they are turned on."
+"It is possible that your scanners need their firmware to be uploaded everytime when "
+"they are turned on."
 msgstr ""
-"È possibile che questi scanner richiedano di caricare il proprio Firmware "
-"ogni volta che vengono accesi."
+"È possibile che questi scanner richiedano di caricare il proprio Firmware ogni volta "
+"che vengono accesi."
 
 #: scannerdrake:225
 #, c-format
 msgid ""
-"To do so, you need to supply the firmware files for your scanners so that it "
-"can be installed."
+"To do so, you need to supply the firmware files for your scanners so that it can be "
+"installed."
 msgstr ""
-"Per farlo è necessario fornire i file con il firmware degli scanner in modo "
-"che possano essere installati."
+"Per farlo è necessario fornire i file con il firmware degli scanner in modo che "
+"possano essere installati."
 
 #: scannerdrake:228
 #, c-format
 msgid ""
-"If you have already installed your scanner's firmware you can update the "
-"firmware here by supplying the new firmware file."
+"If you have already installed your scanner's firmware you can update the firmware "
+"here by supplying the new firmware file."
 msgstr ""
-"Se hai già installato il firmware del tuo scanner, puoi aggiornarlo da qui "
-"fornendo il file con quello nuovo."
+"Se hai già installato il firmware del tuo scanner, puoi aggiornarlo da qui fornendo "
+"il file con quello nuovo."
 
 #: scannerdrake:230
 #, c-format
@@ -3038,12 +3005,10 @@ msgstr "%s non è supportato"
 #, c-format
 msgid ""
 "The %s must be configured by system-config-printer.\n"
-"You can launch system-config-printer from the %s Control Center in Hardware "
-"section."
+"You can launch system-config-printer from the %s Control Center in Hardware section."
 msgstr ""
 "%s deve essere configurato con  system-config-printer.\n"
-"Puoi lanciare  system-config-printer dal Centro di Controllo %s, sezione "
-"Hardware."
+"Puoi lanciare  system-config-printer dal Centro di Controllo %s, sezione Hardware."
 
 #: scannerdrake:317
 #, c-format
@@ -3090,8 +3055,8 @@ msgstr "Attenzione!"
 msgid ""
 "Your %s cannot be configured fully automatically.\n"
 "\n"
-"Manual adjustments are required. Please edit the configuration file /etc/"
-"sane.d/%s.conf. "
+"Manual adjustments are required. Please edit the configuration file /etc/sane.d/%s."
+"conf. "
 msgstr ""
 "Questo %s non può essere configurato in modo del tutto automatico.\n"
 "\n"
@@ -3101,38 +3066,37 @@ msgstr ""
 #: scannerdrake:404 scannerdrake:413
 #, c-format
 msgid ""
-"More info in the driver's manual page. Run the command \"man sane-%s\" to "
-"read it."
+"More info in the driver's manual page. Run the command \"man sane-%s\" to read it."
 msgstr ""
-"Maggiori informazioni sono nella pagina di manuale del driver. Lancia \"man "
-"sane-%s\" per leggerla."
+"Maggiori informazioni sono nella pagina di manuale del driver. Lancia \"man sane-%s\" "
+"per leggerla."
 
 #: scannerdrake:406 scannerdrake:415
-#, fuzzy, c-format
+#, c-format
 msgid ""
-"After that you may scan documents using \"XSane\" or \"%s\" from Multimedia/"
-"Graphics in the applications menu."
+"After that you may scan documents using \"XSane\" or \"%s\" from Multimedia/Graphics "
+"in the applications menu."
 msgstr ""
-"Dopo di che sarà possibile digitalizzare documenti usando \"XSane\" o \"Kooka"
-"\" (sezione Multimedia/Grafica del menu delle applicazioni)."
+"Dopo di che sarà possibile digitalizzare documenti usando \"XSane\" o \"%s\" (sezione "
+"Multimedia/Grafica del menu delle applicazioni)."
 
 #: scannerdrake:410
 #, c-format
 msgid ""
-"Your %s has been configured, but it is possible that additional manual "
-"adjustments are needed to get it to work. "
+"Your %s has been configured, but it is possible that additional manual adjustments "
+"are needed to get it to work. "
 msgstr ""
-"Il tuo %s è stato configurato ma è possibile che siano necessari degli "
-"aggiustamenti manuali per farlo funzionare. "
+"Il tuo %s è stato configurato ma è possibile che siano necessari degli aggiustamenti "
+"manuali per farlo funzionare. "
 
 #: scannerdrake:411
 #, c-format
 msgid ""
-"If it does not appear in the list of configured scanners in the main window "
-"of Scannerdrake or if it does not work correctly, "
+"If it does not appear in the list of configured scanners in the main window of "
+"Scannerdrake or if it does not work correctly, "
 msgstr ""
-"Se non appare nell'elenco degli scanner configurati della finestra "
-"principale di Scannerdrake o se non funziona correttamente, "
+"Se non appare nell'elenco degli scanner configurati della finestra principale di "
+"Scannerdrake o se non funziona correttamente, "
 
 #: scannerdrake:412
 #, c-format
@@ -3145,15 +3109,15 @@ msgid "Congratulations!"
 msgstr "Congratulazioni!"
 
 #: scannerdrake:418
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Your %s has been configured.\n"
-"You may now scan documents using \"XSane\" or \"%s\" from Multimedia/"
-"Graphics in the applications menu."
+"You may now scan documents using \"XSane\" or \"%s\" from Multimedia/Graphics in the "
+"applications menu."
 msgstr ""
 "Lo scanner %s è stato configurato.\n"
-"Adesso è possibile digitalizzare documenti usando \"XSane\" o \"Kooka"
-"\" (sezione Multimedia/Grafica del menu delle applicazioni)."
+"Adesso è possibile digitalizzare documenti usando \"XSane\" o \"%s\" (sezione "
+"Multimedia/Grafica del menu delle applicazioni)."
 
 #: scannerdrake:443
 #, c-format
@@ -3238,11 +3202,11 @@ msgstr ""
 #: scannerdrake:594
 #, c-format
 msgid ""
-"You can also decide here whether scanners on remote machines should be made "
-"available on this machine."
+"You can also decide here whether scanners on remote machines should be made available "
+"on this machine."
 msgstr ""
-"Qui puoi anche decidere di rendere disponibili su questa macchina degli "
-"scanner collegati ad host remoti."
+"Qui puoi anche decidere di rendere disponibili su questa macchina degli scanner "
+"collegati ad host remoti."
 
 #: scannerdrake:597
 #, c-format
@@ -3277,11 +3241,8 @@ msgstr "Condivisione degli scanner locali"
 #: scannerdrake:644
 #, c-format
 msgid ""
-"These are the machines on which the locally connected scanner(s) should be "
-"available:"
-msgstr ""
-"Queste sono le macchine da cui gli scanner locali dovranno essere "
-"accessibili:"
+"These are the machines on which the locally connected scanner(s) should be available:"
+msgstr "Queste sono le macchine da cui gli scanner locali dovranno essere accessibili:"
 
 #: scannerdrake:655 scannerdrake:805
 #, c-format
@@ -3303,8 +3264,8 @@ msgstr "Rimuovi l'host selezionato"
 msgid "Done"
 msgstr "Fatto"
 
-#: scannerdrake:694 scannerdrake:702 scannerdrake:707 scannerdrake:753
-#: scannerdrake:844 scannerdrake:852 scannerdrake:857 scannerdrake:903
+#: scannerdrake:694 scannerdrake:702 scannerdrake:707 scannerdrake:753 scannerdrake:844
+#: scannerdrake:852 scannerdrake:857 scannerdrake:903
 #, c-format
 msgid "Name/IP address of host:"
 msgstr "Nome/indirizzo IP dell'host:"
@@ -3312,8 +3273,7 @@ msgstr "Nome/indirizzo IP dell'host:"
 #: scannerdrake:716 scannerdrake:866
 #, c-format
 msgid "Choose the host on which the local scanners should be made available:"
-msgstr ""
-"Scegli l'host su cui gli scanner locali dovranno essere resi disponibili:"
+msgstr "Scegli l'host su cui gli scanner locali dovranno essere resi disponibili:"
 
 #: scannerdrake:727 scannerdrake:877
 #, c-format
@@ -3354,15 +3314,12 @@ msgstr "I tuoi scanner non saranno disponibili via rete."
 #: scannerdrake:958
 #, c-format
 msgid "Could not install the packages needed to share your scanner(s)."
-msgstr ""
-"Non si possono installare i programmi necessari per condividere lo/gli "
-"scanner."
+msgstr "Non si possono installare i programmi necessari per condividere lo/gli scanner."
 
 #: service_harddrake:170
 #, c-format
 msgid "The graphics card '%s' is no longer supported by driver '%s'"
-msgstr ""
-"La scheda grafica %s non è più supportata da questa versione del driver %s."
+msgstr "La scheda grafica %s non è più supportata da questa versione del driver %s."
 
 #: service_harddrake:180
 #, c-format
@@ -3370,16 +3327,14 @@ msgid "New release, reconfiguring X for %s"
 msgstr "Nuovo rilascio, riconfigurazione di X per %s"
 
 #: service_harddrake:271
-#, fuzzy, c-format
+#, c-format
 msgid "The proprietary kernel driver was not found for X.org driver '%s'"
-msgstr ""
-"Impossibile trovare il modulo kernel proprietario per il driver X.org \"%s\"."
+msgstr "Impossibile trovare il modulo kernel proprietario per il driver X.org \"%s\"."
 
 #: service_harddrake:310
 #, c-format
 msgid "Some devices in the \"%s\" hardware class were removed:\n"
-msgstr ""
-"Alcuni dispositivi della categoria hardware \"%s\" sono stati rimossi:\n"
+msgstr "Alcuni dispositivi della categoria hardware \"%s\" sono stati rimossi:\n"
 
 #: service_harddrake:311
 #, c-format
@@ -3419,32 +3374,29 @@ msgstr "Problema con il driver video"
 #: service_harddrake:445
 #, c-format
 msgid ""
-"The display driver currently configured requires you to use the 'nokmsboot' "
-"boot option to prevent the KMS driver of the kernel from being loaded in the "
-"boot process. Startup of the X server may now fail as that option was not "
-"specified."
+"The display driver currently configured requires you to use the 'nokmsboot' boot "
+"option to prevent the KMS driver of the kernel from being loaded in the boot process. "
+"Startup of the X server may now fail as that option was not specified."
 msgstr ""
-"Il driver video attualmente configurato richiede che usiate l'opzione di "
-"avvio 'nokmsboot' per prevenire che il driver del kernel KMS sia caricato "
-"durante il processo d'avvio. L'avvio del server X potrà interrompersi se "
-"questa opzione non sarà specificata."
+"Il driver video attualmente configurato richiede che usiate l'opzione di avvio "
+"'nokmsboot' per prevenire che il driver del kernel KMS sia caricato durante il "
+"processo d'avvio. L'avvio del server X potrà interrompersi se questa opzione non sarà "
+"specificata."
 
 #: service_harddrake:450
 #, c-format
 msgid ""
-"Detected a loaded display driver kernel module which conflicts with the "
-"driver the X server is configured to use. Startup of the X server may now "
-"fail."
+"Detected a loaded display driver kernel module which conflicts with the driver the X "
+"server is configured to use. Startup of the X server may now fail."
 msgstr ""
-"E' caricato un modulo del kernel per il driver dello schermo che è in "
-"conflitto con il driver che il server X dovrebbe usare. Può darsi che non "
-"riesca l'avvio del server X. "
+"E' caricato un modulo del kernel per il driver dello schermo che è in conflitto con "
+"il driver che il server X dovrebbe usare. Può darsi che non riesca l'avvio del server "
+"X. "
 
 #: service_harddrake:465 service_harddrake:478
 #, c-format
 msgid "The system has to be rebooted due to a display driver change."
-msgstr ""
-"Il sistema deve essere riavviato a causa di modifiche nel driver video."
+msgstr "Il sistema deve essere riavviato a causa di modifiche nel driver video."
 
 #: service_harddrake:466 service_harddrake:479
 #, c-format
@@ -3480,8 +3432,7 @@ msgid "Language & country configuration"
 msgstr "Configurazione di lingua e paese"
 
 #~ msgid "Configure authentication required to access OpenMandriva tools"
-#~ msgstr ""
-#~ "Configura le autenticazioni richieste per usare gli strumenti Mandriva"
+#~ msgstr "Configura le autenticazioni richieste per usare gli strumenti Mandriva"
 
 #~ msgid "/Autodetect _jaz drives"
 #~ msgstr "/Rileva automaticamente dispositivi _jaz"
@@ -3499,11 +3450,11 @@ msgstr "Configurazione di lingua e paese"
 #~ msgstr "OpenOffice.org"
 
 #~ msgid ""
-#~ "The proprietary driver for your graphic card cannot be found, the system "
-#~ "is now using the free software driver (%s)."
+#~ "The proprietary driver for your graphic card cannot be found, the system is now "
+#~ "using the free software driver (%s)."
 #~ msgstr ""
-#~ "Impossibile trovare il driver proprietario per la tua scheda grafica, il "
-#~ "sistema ora sta utilizzando il driver free (%s)."
+#~ "Impossibile trovare il driver proprietario per la tua scheda grafica, il sistema "
+#~ "ora sta utilizzando il driver free (%s)."
 
 #~ msgid ""
 #~ "Display theme\n"

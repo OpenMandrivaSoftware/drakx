@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: it\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-24 12:07+0100\n"
-"PO-Revision-Date: 2015-06-28 11:42+0100\n"
+"PO-Revision-Date: 2015-07-14 06:44-0000\n"
 "Last-Translator: Giorgio <gio_6b@yahoo.it>\n"
 "Language-Team: Italian <timl@frelists.org>\n"
 "Language: it\n"
@@ -556,7 +556,7 @@ msgstr ""
 "quando riavvierai il sistema alla fine dell'installazione."
 
 #: any.pm:1191
-#, fuzzy, c-format
+#, c-format
 msgid "Multiple languages"
 msgstr "Multilingue"
 
@@ -576,7 +576,7 @@ msgid "All languages"
 msgstr "Tutte le lingue"
 
 #: any.pm:1224
-#, fuzzy, c-format
+#, c-format
 msgid "Language"
 msgstr "Scelta della lingua"
 
@@ -686,7 +686,7 @@ msgstr ""
 "disconnetterti."
 
 #: any.pm:1541
-#, fuzzy, c-format
+#, c-format
 msgid "You need to log out and back in again for changes to take effect."
 msgstr "Devi disconnetterti e rientrare affinché i cambiamenti abbiano effetto."
 
@@ -696,7 +696,7 @@ msgid "Timezone"
 msgstr "Fuso orario"
 
 #: any.pm:1576
-#, fuzzy, c-format
+#, c-format
 msgid "What is your current timezone?"
 msgstr "Qual è il fuso orario locale?"
 
@@ -2015,7 +2015,7 @@ msgstr ""
 "Dopo aver formattato la partizione %s, tutti i dati su questa partizione saranno persi"
 
 #: diskdrake/interactive.pm:1293
-#, fuzzy, c-format
+#, c-format
 msgid "Check bad blocks?"
 msgstr "Controllo blocchi danneggiati?"
 
@@ -2758,7 +2758,7 @@ msgid "Erase and use entire disk"
 msgstr "Cancella e utilizza l'intero disco"
 
 #: fs/partitioning_wizard.pm:236
-#, fuzzy, c-format
+#, c-format
 msgid "You have more than one hard disk drive, which one do you want the installer to use?"
 msgstr "Ci sono più dischi rigidi, su quale vuoi installare Linux?"
 
@@ -2876,7 +2876,7 @@ msgid "There is already a partition with mount point %s\n"
 msgstr "C'è già una partizione con punto di mount %s\n"
 
 #: fsedit.pm:446
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "You've selected a software RAID partition as root (/).\n"
 "No bootloader is able to handle this without a /boot partition.\n"
@@ -2910,7 +2910,7 @@ msgid "Metadata version unsupported for a boot partition."
 msgstr "Versione dei metadati non utilizzabile per una partizione di boot."
 
 #: fsedit.pm:471
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "You've selected an encrypted partition as root (/).\n"
 "No bootloader is able to handle this without a /boot partition.\n"
@@ -2921,12 +2921,12 @@ msgstr ""
 "Accertati di aver aggiunto una partizione /boot."
 
 #: fsedit.pm:477 fsedit.pm:497
-#, fuzzy, c-format
+#, c-format
 msgid "You cannot use an encrypted filesystem for mount point %s"
 msgstr "Non è possibile usare un filesystem cifrato per il punto di mount %s"
 
 #: fsedit.pm:481
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "You cannot use the LVM Logical Volume for mount point %s since it spans physical volumes"
 msgstr ""
@@ -2934,7 +2934,7 @@ msgstr ""
 "più volumi fisici"
 
 #: fsedit.pm:483
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "You've selected the LVM Logical Volume as root (/).\n"
 "The bootloader is not able to handle this when the volume spans physical volumes.\n"
@@ -3262,7 +3262,7 @@ msgstr ""
 #. -PO: the second %s is the name of the current driver
 #. -PO: and the third %s is the name of the default driver
 #: harddrake/sound.pm:341
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "\n"
 "\n"
@@ -4883,7 +4883,7 @@ msgid "The bootloader can't handle /boot on multiple physical volumes"
 msgstr "Il bootloader non può gestire una /boot ripartita su più volumi fisici"
 
 #: messages.pm:8
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Introduction\n"
 "\n"
@@ -5102,7 +5102,7 @@ msgstr ""
 
 #. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
 #: messages.pm:87
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "You agree not to (i) sell, export, re-export, transfer, divert, disclose technical data, "
 "or\n"
@@ -6362,7 +6362,7 @@ msgid "Avahi is a ZeroConf daemon which implements an mDNS stack"
 msgstr "Avahi è un demone ZeroConf che implementa lo stack mDNS"
 
 #: services.pm:24
-#, fuzzy, c-format
+#, c-format
 msgid "An NTP client/server"
 msgstr "Server NTP"
 
