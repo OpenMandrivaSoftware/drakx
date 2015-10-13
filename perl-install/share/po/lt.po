@@ -935,16 +935,6 @@ msgstr "Autentikacija"
 msgid "No password"
 msgstr "Jokio slaptažodžio"
 
-#: authentication.pm:260
-#, c-format
-msgid "The passwords do not match"
-msgstr "Slaptažodžiai nesutampa"
-
-#: authentication.pm:260 diskdrake/interactive.pm:1495
-#, c-format
-msgid "Please try again"
-msgstr "Prašom bandyti vėl"
-
 #: authentication.pm:263
 #, c-format
 msgid "This password is too short (it must be at least %d characters long)"
