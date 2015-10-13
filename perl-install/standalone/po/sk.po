@@ -486,12 +486,7 @@ msgstr "GDM (GNOME správca prihlásenia)"
 msgid "KDM (KDE Display Manager)"
 msgstr "KDM (KDE správca prihlásenia)"
 
-#: drakedm:42
-#, fuzzy, c-format
-msgid "LIGHTDM (LightDM Display Manager)"
-msgstr "GDM (GNOME správca prihlásenia)"
-
-#: drakedm:43
+#: drakedm:42 drakedm:43
 #, fuzzy, c-format
 msgid "LIGHTDM (LightDM Display Manager)"
 msgstr "GDM (GNOME správca prihlásenia)"

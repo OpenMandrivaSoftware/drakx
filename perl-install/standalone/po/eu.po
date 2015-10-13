@@ -494,12 +494,7 @@ msgstr "GDM (GNOME konexioen kudeatzailea)"
 msgid "KDM (KDE Display Manager)"
 msgstr "KDM (KDE konexioen kudeatzailea)"
 
-#: drakedm:42
-#, fuzzy, c-format
-msgid "LIGHTDM (LightDM Display Manager)"
-msgstr "GDM (GNOME konexioen kudeatzailea)"
-
-#: drakedm:43
+#: drakedm:42 drakedm:43
 #, fuzzy, c-format
 msgid "LIGHTDM (LightDM Display Manager)"
 msgstr "GDM (GNOME konexioen kudeatzailea)"
@@ -3592,11 +3587,12 @@ msgstr "Zerbitzari grafikoaren konfiguraketa"
 #~ "Authentication is required to run Openmandriva Lx Application Security "
 #~ "Configuration"
 #~ msgstr ""
-#~ "Egiaztapena beharrezkoa da Openmandriva Lx Segurtasun Aplikazio Konfigurazioa "
-#~ "exekutatzeko"
+#~ "Egiaztapena beharrezkoa da Openmandriva Lx Segurtasun Aplikazio "
+#~ "Konfigurazioa exekutatzeko"
 
 #~ msgid ""
-#~ "Authentication is required to run Openmandriva Lx Authentication Configuration"
+#~ "Authentication is required to run Openmandriva Lx Authentication "
+#~ "Configuration"
 #~ msgstr ""
 #~ "Egiaztapena beharrezkoa da Openmandriva Lx Autentifikazio konfigurazioa "
 #~ "exekutatzeko"
@@ -3606,49 +3602,61 @@ msgstr "Zerbitzari grafikoaren konfiguraketa"
 #~ "Egiaztapena beharrezkoa da Openmandriva Lx Abio Konfigurazioa exekutatzeko"
 
 #~ msgid ""
-#~ "Authentication is required to run Openmandriva Lx Date and Time Configuration"
+#~ "Authentication is required to run Openmandriva Lx Date and Time "
+#~ "Configuration"
 #~ msgstr ""
 #~ "Egiaztapena beharrezkoa da Openmandriva Lx Data eta Ordua Konfigurazioa "
 #~ "exekutatzeko"
 
 #~ msgid "Authentication is required to run Openmandriva Lx Disk Layout Editor"
 #~ msgstr ""
-#~ "Egiaztapena beharrezkoa da Openmandriva Lx Disko Maketatzailea exekutatzeko"
+#~ "Egiaztapena beharrezkoa da Openmandriva Lx Disko Maketatzailea "
+#~ "exekutatzeko"
 
 #~ msgid "Authentication is required to run Openmandriva Lx Font Configuration"
 #~ msgstr ""
-#~ "Egiaztapena beharrezkoa da Openmandriva Lx Letra Konfigurazioa exekutatzeko"
-
-#~ msgid "Authentication is required to run Openmandriva Lx Hardware Configuration"
-#~ msgstr ""
-#~ "Egiaztapena beharrezkoa da Openmandriva Lx Hardware Konfigurazioa exekutatzeko"
-
-#~ msgid "Authentication is required to run Openmandriva Lx Log Viewer"
-#~ msgstr "Egiaztapena beharrezkoa da Openmandriva Lx Log ikustailea exekutatzeko"
+#~ "Egiaztapena beharrezkoa da Openmandriva Lx Letra Konfigurazioa "
+#~ "exekutatzeko"
 
 #~ msgid ""
-#~ "Authentication is required to run Openmandriva Lx Login Manager Configuration"
+#~ "Authentication is required to run Openmandriva Lx Hardware Configuration"
+#~ msgstr ""
+#~ "Egiaztapena beharrezkoa da Openmandriva Lx Hardware Konfigurazioa "
+#~ "exekutatzeko"
+
+#~ msgid "Authentication is required to run Openmandriva Lx Log Viewer"
+#~ msgstr ""
+#~ "Egiaztapena beharrezkoa da Openmandriva Lx Log ikustailea exekutatzeko"
+
+#~ msgid ""
+#~ "Authentication is required to run Openmandriva Lx Login Manager "
+#~ "Configuration"
 #~ msgstr ""
 #~ "Egiaztapena beharrezkoa da Openmandriva Lx Saioa hasteko Kudeatzaileren "
 #~ "Konfigurazioa exekutatzeko"
 
-#~ msgid "Authentication is required to run Openmandriva Lx Scanner Configuration"
+#~ msgid ""
+#~ "Authentication is required to run Openmandriva Lx Scanner Configuration"
 #~ msgstr ""
-#~ "Egiaztapena beharrezkoa da Openmandriva Lx Eskaner Konfigurazioa exekutatzeko"
+#~ "Egiaztapena beharrezkoa da Openmandriva Lx Eskaner Konfigurazioa "
+#~ "exekutatzeko"
 
 #~ msgid ""
 #~ "Authentication is required to run Openmandriva Lx Security Permissions "
 #~ "Configuration"
 #~ msgstr ""
-#~ "Egiaztapena beharrezkoa da Openmandriva Lx Segurtasun Baimenen Konfigurazioa "
+#~ "Egiaztapena beharrezkoa da Openmandriva Lx Segurtasun Baimenen "
+#~ "Konfigurazioa exekutatzeko"
+
+#~ msgid ""
+#~ "Authentication is required to run Openmandriva Lx Service Configuration"
+#~ msgstr ""
+#~ "Egiaztapena beharrezkoa da Openmandriva Lx Zerbitzu Konfigurazioa "
 #~ "exekutatzeko"
 
-#~ msgid "Authentication is required to run Openmandriva Lx Service Configuration"
-#~ msgstr ""
-#~ "Egiaztapena beharrezkoa da Openmandriva Lx Zerbitzu Konfigurazioa exekutatzeko"
-
 #~ msgid "Authentication is required to run Openmandriva Lx UPS Configuration"
-#~ msgstr "Egiaztapena beharrezkoa da Openmandriva Lx UPS konfigurazioa exekutatzeko"
+#~ msgstr ""
+#~ "Egiaztapena beharrezkoa da Openmandriva Lx UPS konfigurazioa exekutatzeko"
 
 #~ msgid "Configure authentication required to access %s tools"
 #~ msgstr "Konfiguratzeko egiaztapena behar da %s tresnak eskuratzeko"
@@ -3692,7 +3700,8 @@ msgstr "Zerbitzari grafikoaren konfiguraketa"
 #~ msgstr "Exekutatu Openmandriva Lx Log ikustailea"
 
 #~ msgid "Run Openmandriva Lx Login Manager Configuration"
-#~ msgstr "Exekutatu Openmandriva Lx Saioa hasteko Kudeatzaileren Konfigurazioa"
+#~ msgstr ""
+#~ "Exekutatu Openmandriva Lx Saioa hasteko Kudeatzaileren Konfigurazioa"
 
 #~ msgid "Run Openmandriva Lx Scanner Configuration"
 #~ msgstr "Exekutatu Openmandriva Lx Eskaner Konfigurazioa"

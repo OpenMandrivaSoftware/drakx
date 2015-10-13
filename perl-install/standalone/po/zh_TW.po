@@ -496,12 +496,7 @@ msgstr "GDM (GNOME 登入管理員)"
 msgid "KDM (KDE Display Manager)"
 msgstr "KDM (KDE 登入管理員)"
 
-#: drakedm:42
-#, fuzzy, c-format
-msgid "LIGHTDM (LightDM Display Manager)"
-msgstr "GDM (GNOME 登入管理員)"
-
-#: drakedm:43
+#: drakedm:42 drakedm:43
 #, fuzzy, c-format
 msgid "LIGHTDM (LightDM Display Manager)"
 msgstr "GDM (GNOME 登入管理員)"
@@ -3534,14 +3529,16 @@ msgstr "執行 Openmandriva Lx 服務設定需要認證"
 #~ msgstr "執行 Openmandriva Lx 應用程式安全設定需要認證"
 
 #~ msgid ""
-#~ "Authentication is required to run Openmandriva Lx Authentication Configuration"
+#~ "Authentication is required to run Openmandriva Lx Authentication "
+#~ "Configuration"
 #~ msgstr "執行 Openmandriva Lx 認證設定需要認證"
 
 #~ msgid "Authentication is required to run Openmandriva Lx Boot Configuration"
 #~ msgstr "執行 Openmandriva Lx 開機設定需要認證"
 
 #~ msgid ""
-#~ "Authentication is required to run Openmandriva Lx Date and Time Configuration"
+#~ "Authentication is required to run Openmandriva Lx Date and Time "
+#~ "Configuration"
 #~ msgstr "執行 Openmandriva Lx 時間和日期設定需要認證"
 
 #~ msgid "Authentication is required to run Openmandriva Lx Disk Layout Editor"
@@ -3550,17 +3547,20 @@ msgstr "執行 Openmandriva Lx 服務設定需要認證"
 #~ msgid "Authentication is required to run Openmandriva Lx Font Configuration"
 #~ msgstr "執行 Openmandriva Lx 字型設定需要認證"
 
-#~ msgid "Authentication is required to run Openmandriva Lx Hardware Configuration"
+#~ msgid ""
+#~ "Authentication is required to run Openmandriva Lx Hardware Configuration"
 #~ msgstr "執行 Openmandriva Lx 硬體設定需要認證"
 
 #~ msgid "Authentication is required to run Openmandriva Lx Log Viewer"
 #~ msgstr "執行 Openmandriva Lx 記錄檔檢視器需要認證"
 
 #~ msgid ""
-#~ "Authentication is required to run Openmandriva Lx Login Manager Configuration"
+#~ "Authentication is required to run Openmandriva Lx Login Manager "
+#~ "Configuration"
 #~ msgstr "執行 Openmandriva Lx 登入管理員設定需要認證"
 
-#~ msgid "Authentication is required to run Openmandriva Lx Scanner Configuration"
+#~ msgid ""
+#~ "Authentication is required to run Openmandriva Lx Scanner Configuration"
 #~ msgstr "執行 Openmandriva Lx 掃描器設定需要認證"
 
 #~ msgid ""
@@ -3568,7 +3568,8 @@ msgstr "執行 Openmandriva Lx 服務設定需要認證"
 #~ "Configuration"
 #~ msgstr "執行 Openmandriva Lx 安全權限設定需要認證"
 
-#~ msgid "Authentication is required to run Openmandriva Lx Service Configuration"
+#~ msgid ""
+#~ "Authentication is required to run Openmandriva Lx Service Configuration"
 #~ msgstr "執行 Openmandriva Lx 服務設定需要認證"
 
 #~ msgid "Authentication is required to run Openmandriva Lx UPS Configuration"

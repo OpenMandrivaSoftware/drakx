@@ -494,12 +494,7 @@ msgstr "GDM (مدير عرض جينوم("
 msgid "KDM (KDE Display Manager)"
 msgstr "KDM (مدير عرض كيدي("
 
-#: drakedm:42
-#, fuzzy, c-format
-msgid "LIGHTDM (LightDM Display Manager)"
-msgstr "GDM (مدير عرض جينوم("
-
-#: drakedm:43
+#: drakedm:42 drakedm:43
 #, fuzzy, c-format
 msgid "LIGHTDM (LightDM Display Manager)"
 msgstr "GDM (مدير عرض جينوم("

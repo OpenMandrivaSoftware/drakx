@@ -501,12 +501,7 @@ msgstr "GDM (менеджер экрана GNOME)"
 msgid "KDM (KDE Display Manager)"
 msgstr "KDM (менеджер экрана KDE)"
 
-#: drakedm:42
-#, fuzzy, c-format
-msgid "LIGHTDM (LightDM Display Manager)"
-msgstr "GDM (менеджер экрана GNOME)"
-
-#: drakedm:43
+#: drakedm:42 drakedm:43
 #, fuzzy, c-format
 msgid "LIGHTDM (LightDM Display Manager)"
 msgstr "GDM (менеджер экрана GNOME)"
@@ -3589,14 +3584,16 @@ msgstr "Необходима аутентификация для запуска 
 #~ msgstr "Необходима аутентификация для запуска настройки защиты программ"
 
 #~ msgid ""
-#~ "Authentication is required to run Openmandriva Lx Authentication Configuration"
+#~ "Authentication is required to run Openmandriva Lx Authentication "
+#~ "Configuration"
 #~ msgstr "Необходима аутентификация для запуска настройки аутентификации"
 
 #~ msgid "Authentication is required to run Openmandriva Lx Boot Configuration"
 #~ msgstr "Необходима аутентификация для запуска настройки загрузки"
 
 #~ msgid ""
-#~ "Authentication is required to run Openmandriva Lx Date and Time Configuration"
+#~ "Authentication is required to run Openmandriva Lx Date and Time "
+#~ "Configuration"
 #~ msgstr "Необходима аутентификация для запуска настройки даты и времени"
 
 #~ msgid "Authentication is required to run Openmandriva Lx Disk Layout Editor"
@@ -3605,17 +3602,20 @@ msgstr "Необходима аутентификация для запуска 
 #~ msgid "Authentication is required to run Openmandriva Lx Font Configuration"
 #~ msgstr "Необходима аутентификация для запуска настройки шрифтов"
 
-#~ msgid "Authentication is required to run Openmandriva Lx Hardware Configuration"
+#~ msgid ""
+#~ "Authentication is required to run Openmandriva Lx Hardware Configuration"
 #~ msgstr "Необходима аутентификация для запуска настройки оборудования"
 
 #~ msgid "Authentication is required to run Openmandriva Lx Log Viewer"
 #~ msgstr "Необходима аутентификация для запуска просмотра журналов"
 
 #~ msgid ""
-#~ "Authentication is required to run Openmandriva Lx Login Manager Configuration"
+#~ "Authentication is required to run Openmandriva Lx Login Manager "
+#~ "Configuration"
 #~ msgstr "Необходима аутентификация для запуска настройки управления входом"
 
-#~ msgid "Authentication is required to run Openmandriva Lx Scanner Configuration"
+#~ msgid ""
+#~ "Authentication is required to run Openmandriva Lx Scanner Configuration"
 #~ msgstr "Необходима аутентификация для запуска настройки сканеров"
 
 #~ msgid ""
@@ -3623,7 +3623,8 @@ msgstr "Необходима аутентификация для запуска 
 #~ "Configuration"
 #~ msgstr "Необходима аутентификация для запуска настройки прав доступа"
 
-#~ msgid "Authentication is required to run Openmandriva Lx Service Configuration"
+#~ msgid ""
+#~ "Authentication is required to run Openmandriva Lx Service Configuration"
 #~ msgstr "Необходима аутентификация для запуска настройки сервисов"
 
 #~ msgid "Authentication is required to run Openmandriva Lx UPS Configuration"

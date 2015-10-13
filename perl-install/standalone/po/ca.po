@@ -494,12 +494,7 @@ msgstr "GDM (GNOME Display Manager)"
 msgid "KDM (KDE Display Manager)"
 msgstr "KDM (KDE Display Manager)"
 
-#: drakedm:42
-#, fuzzy, c-format
-msgid "LIGHTDM (LightDM Display Manager)"
-msgstr "GDM (GNOME Display Manager)"
-
-#: drakedm:43
+#: drakedm:42 drakedm:43
 #, fuzzy, c-format
 msgid "LIGHTDM (LightDM Display Manager)"
 msgstr "GDM (GNOME Display Manager)"
@@ -3584,7 +3579,8 @@ msgstr "Executa la configuració dels serveis de Openmandriva Lx"
 
 #~ msgid "Run Openmandriva Lx Application Security Configuration"
 #~ msgstr ""
-#~ "Executa la configuració de la seguretat de les aplicacions de Openmandriva Lx"
+#~ "Executa la configuració de la seguretat de les aplicacions de "
+#~ "Openmandriva Lx"
 
 #~ msgid "Run Openmandriva Lx Authentication Configuration"
 #~ msgstr "Executa la configuració d'autenticació de Openmandriva Lx"

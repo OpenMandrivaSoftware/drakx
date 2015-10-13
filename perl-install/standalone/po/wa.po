@@ -490,12 +490,7 @@ msgstr "GDM (manaedjeu di håynaedje Gnome)"
 msgid "KDM (KDE Display Manager)"
 msgstr "KDM (manaedjeu di håynaedje KDE)"
 
-#: drakedm:42
-#, fuzzy, c-format
-msgid "LIGHTDM (LightDM Display Manager)"
-msgstr "GDM (manaedjeu di håynaedje Gnome)"
-
-#: drakedm:43
+#: drakedm:42 drakedm:43
 #, fuzzy, c-format
 msgid "LIGHTDM (LightDM Display Manager)"
 msgstr "GDM (manaedjeu di håynaedje Gnome)"

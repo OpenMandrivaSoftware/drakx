@@ -491,12 +491,7 @@ msgstr "GDM (GNOME Ekran Yöneticisi)"
 msgid "KDM (KDE Display Manager)"
 msgstr "KDM (KDE Ekran Yöneticisi)"
 
-#: drakedm:42
-#, fuzzy, c-format
-msgid "LIGHTDM (LightDM Display Manager)"
-msgstr "GDM (GNOME Ekran Yöneticisi)"
-
-#: drakedm:43
+#: drakedm:42 drakedm:43
 #, fuzzy, c-format
 msgid "LIGHTDM (LightDM Display Manager)"
 msgstr "GDM (GNOME Ekran Yöneticisi)"
@@ -3442,8 +3437,8 @@ msgstr "Openmandriva Lx Kimlik Doğrulama Yapılandırması Çalıştır"
 #, fuzzy
 msgid "Authentication is required to run DrakX Authentication Configuration"
 msgstr ""
-"Openmandriva Lx Kimlik Doğrulama Yapılandırması çalıştırmak için kimlik doğrulama "
-"gerekli"
+"Openmandriva Lx Kimlik Doğrulama Yapılandırması çalıştırmak için kimlik "
+"doğrulama gerekli"
 
 #: ../polkit/org.moondrake.drakboot.policy.in.h:1
 #, fuzzy
@@ -3466,8 +3461,8 @@ msgstr "Openmandriva Lx Tarih ve Saat Yapılandırma Çalıştır"
 #, fuzzy
 msgid "Authentication is required to run DrakX Date and Time Configuration"
 msgstr ""
-"Openmandriva Lx Tarih ve Saat Yapılandırması çalıştırmak için kimlik doğrulama "
-"gerekli"
+"Openmandriva Lx Tarih ve Saat Yapılandırması çalıştırmak için kimlik "
+"doğrulama gerekli"
 
 #: ../polkit/org.moondrake.drakdisk.policy.in.h:1
 #, fuzzy
@@ -3478,8 +3473,8 @@ msgstr "Openmandriva Lx Disk Yerleşimi Düzenleyici Çalıştır"
 #, fuzzy
 msgid "Authentication is required to run DrakX Disk Layout Editor"
 msgstr ""
-"Openmandriva Lx Disk Yerleşimi Düzenleyici' yi çalıştırmak için kimlik doğrulama "
-"gerekli"
+"Openmandriva Lx Disk Yerleşimi Düzenleyici' yi çalıştırmak için kimlik "
+"doğrulama gerekli"
 
 #: ../polkit/org.moondrake.drakdm.policy.in.h:1
 #, fuzzy
@@ -3502,7 +3497,8 @@ msgstr "Openmandriva Lx Yazıtipi Yapılandırması Çalıştır"
 #, fuzzy
 msgid "Authentication is required to run DrakX Font Configuration"
 msgstr ""
-"Openmandriva Lx Yazıtipi Yapılandırması çalıştırmak için kimlik doğrulaması gerekli"
+"Openmandriva Lx Yazıtipi Yapılandırması çalıştırmak için kimlik doğrulaması "
+"gerekli"
 
 #: ../polkit/org.moondrake.drakhardware.policy.in.h:1
 #, fuzzy
@@ -3513,7 +3509,8 @@ msgstr "Openmandriva Lx Donanım Yapılandırması Çalıştır"
 #, fuzzy
 msgid "Authentication is required to run DrakX Hardware Configuration"
 msgstr ""
-"Openmandriva Lx Donanım Yapılandırması çalıştırmak için kimlik doğrulaması gerekli"
+"Openmandriva Lx Donanım Yapılandırması çalıştırmak için kimlik doğrulaması "
+"gerekli"
 
 #: ../polkit/org.moondrake.draklog.policy.in.h:1
 #, fuzzy
@@ -3524,8 +3521,8 @@ msgstr "Openmandriva Lx Günlük Kaydı Görüntüleyici Çalıştır"
 #, fuzzy
 msgid "Authentication is required to run DrakX Log Viewer"
 msgstr ""
-"Openmandriva Lx Günlük Kaydı Görüntüleyici' yi çalıştırmak için kimlik doğrulama "
-"gerekli"
+"Openmandriva Lx Günlük Kaydı Görüntüleyici' yi çalıştırmak için kimlik "
+"doğrulama gerekli"
 
 #: ../polkit/org.moondrake.drakperm.policy.in.h:1
 #, fuzzy
@@ -3537,8 +3534,8 @@ msgstr "Openmandriva Lx Güvenlik İzinleri Yapılandırması Çalıştır"
 msgid ""
 "Authentication is required to run DrakX Security Permissions Configuration"
 msgstr ""
-"Openmandriva Lx Güvenlik İzinleri Yapılandırması çalıştırmak için kimlik doğrulama "
-"gerekli"
+"Openmandriva Lx Güvenlik İzinleri Yapılandırması çalıştırmak için kimlik "
+"doğrulama gerekli"
 
 #: ../polkit/org.moondrake.drakscanner.policy.in.h:1
 #, fuzzy
@@ -3549,7 +3546,8 @@ msgstr "Openmandriva Lx Tarayıcı Yapılandırması Çalıştır"
 #, fuzzy
 msgid "Authentication is required to run DrakX Scanner Configuration"
 msgstr ""
-"Openmandriva Lx Tarayıcı Yapılandırması çalıştırmak için kimlik doğrulaması gerekli"
+"Openmandriva Lx Tarayıcı Yapılandırması çalıştırmak için kimlik doğrulaması "
+"gerekli"
 
 #: ../polkit/org.moondrake.draksec.policy.in.h:1
 #, fuzzy
@@ -3573,7 +3571,8 @@ msgstr "Openmandriva Lx UPS Yapılandırması Çalıştır"
 #, fuzzy
 msgid "Authentication is required to run DrakX UPS Configuration"
 msgstr ""
-"Openmandriva Lx UPS Yapılandırması çalıştırmak için kimlik doğrulaması gerekli"
+"Openmandriva Lx UPS Yapılandırması çalıştırmak için kimlik doğrulaması "
+"gerekli"
 
 #: ../polkit/org.moondrake.moondrakeservices.policy.in.h:1
 #, fuzzy
@@ -3584,7 +3583,8 @@ msgstr "Openmandriva Lx Hizmet Yapılandırması Çalıştır"
 #, fuzzy
 msgid "Authentication is required to run DrakX Service Configuration"
 msgstr ""
-"Openmandriva Lx Hizmet Yapılandırması çalıştırmak için kimlik doğrulaması gerekli"
+"Openmandriva Lx Hizmet Yapılandırması çalıştırmak için kimlik doğrulaması "
+"gerekli"
 
 #~ msgid "%s Bug Report Tool"
 #~ msgstr "%s Hata Bildirme Aracı"
@@ -3600,21 +3600,23 @@ msgstr ""
 #~ "doğrulaması gerekli"
 
 #~ msgid ""
-#~ "Authentication is required to run Openmandriva Lx Authentication Configuration"
+#~ "Authentication is required to run Openmandriva Lx Authentication "
+#~ "Configuration"
 #~ msgstr ""
 #~ "Openmandriva Lx Kimlik Doğrulama Yapılandırması çalıştırmak için kimlik "
 #~ "doğrulama gerekli"
 
 #~ msgid "Authentication is required to run Openmandriva Lx Boot Configuration"
 #~ msgstr ""
-#~ "Openmandriva Lx Önyükleme Yapılandırması çalıştırmak için kimlik doğrulaması "
-#~ "gerekli"
+#~ "Openmandriva Lx Önyükleme Yapılandırması çalıştırmak için kimlik "
+#~ "doğrulaması gerekli"
 
 #~ msgid ""
-#~ "Authentication is required to run Openmandriva Lx Date and Time Configuration"
+#~ "Authentication is required to run Openmandriva Lx Date and Time "
+#~ "Configuration"
 #~ msgstr ""
-#~ "Openmandriva Lx Tarih ve Saat Yapılandırması çalıştırmak için kimlik doğrulama "
-#~ "gerekli"
+#~ "Openmandriva Lx Tarih ve Saat Yapılandırması çalıştırmak için kimlik "
+#~ "doğrulama gerekli"
 
 #~ msgid "Authentication is required to run Openmandriva Lx Disk Layout Editor"
 #~ msgstr ""
@@ -3623,13 +3625,14 @@ msgstr ""
 
 #~ msgid "Authentication is required to run Openmandriva Lx Font Configuration"
 #~ msgstr ""
-#~ "Openmandriva Lx Yazıtipi Yapılandırması çalıştırmak için kimlik doğrulaması "
-#~ "gerekli"
+#~ "Openmandriva Lx Yazıtipi Yapılandırması çalıştırmak için kimlik "
+#~ "doğrulaması gerekli"
 
-#~ msgid "Authentication is required to run Openmandriva Lx Hardware Configuration"
+#~ msgid ""
+#~ "Authentication is required to run Openmandriva Lx Hardware Configuration"
 #~ msgstr ""
-#~ "Openmandriva Lx Donanım Yapılandırması çalıştırmak için kimlik doğrulaması "
-#~ "gerekli"
+#~ "Openmandriva Lx Donanım Yapılandırması çalıştırmak için kimlik "
+#~ "doğrulaması gerekli"
 
 #~ msgid "Authentication is required to run Openmandriva Lx Log Viewer"
 #~ msgstr ""
@@ -3637,15 +3640,17 @@ msgstr ""
 #~ "doğrulama gerekli"
 
 #~ msgid ""
-#~ "Authentication is required to run Openmandriva Lx Login Manager Configuration"
+#~ "Authentication is required to run Openmandriva Lx Login Manager "
+#~ "Configuration"
 #~ msgstr ""
 #~ "Openmandriva Lx Giriş Yöneticisi Yapılandırması çalıştırmak için kimlik "
 #~ "doğrulaması gerekli"
 
-#~ msgid "Authentication is required to run Openmandriva Lx Scanner Configuration"
+#~ msgid ""
+#~ "Authentication is required to run Openmandriva Lx Scanner Configuration"
 #~ msgstr ""
-#~ "Openmandriva Lx Tarayıcı Yapılandırması çalıştırmak için kimlik doğrulaması "
-#~ "gerekli"
+#~ "Openmandriva Lx Tarayıcı Yapılandırması çalıştırmak için kimlik "
+#~ "doğrulaması gerekli"
 
 #~ msgid ""
 #~ "Authentication is required to run Openmandriva Lx Security Permissions "
@@ -3654,14 +3659,16 @@ msgstr ""
 #~ "Openmandriva Lx Güvenlik İzinleri Yapılandırması çalıştırmak için kimlik "
 #~ "doğrulama gerekli"
 
-#~ msgid "Authentication is required to run Openmandriva Lx Service Configuration"
+#~ msgid ""
+#~ "Authentication is required to run Openmandriva Lx Service Configuration"
 #~ msgstr ""
 #~ "Openmandriva Lx Hizmet Yapılandırması çalıştırmak için kimlik doğrulaması "
 #~ "gerekli"
 
 #~ msgid "Authentication is required to run Openmandriva Lx UPS Configuration"
 #~ msgstr ""
-#~ "Openmandriva Lx UPS Yapılandırması çalıştırmak için kimlik doğrulaması gerekli"
+#~ "Openmandriva Lx UPS Yapılandırması çalıştırmak için kimlik doğrulaması "
+#~ "gerekli"
 
 #~ msgid "Configure authentication required to access %s tools"
 #~ msgstr "%s araçlarına erişim için gereken kimlik doğrulamayı yapılandırın"

@@ -488,12 +488,7 @@ msgstr "GDM (rheolwr dangos GNOME)"
 msgid "KDM (KDE Display Manager)"
 msgstr "KDM (rheolwr dangos KDE)"
 
-#: drakedm:42
-#, fuzzy, c-format
-msgid "LIGHTDM (LightDM Display Manager)"
-msgstr "GDM (rheolwr dangos GNOME)"
-
-#: drakedm:43
+#: drakedm:42 drakedm:43
 #, fuzzy, c-format
 msgid "LIGHTDM (LightDM Display Manager)"
 msgstr "GDM (rheolwr dangos GNOME)"
@@ -3555,7 +3550,8 @@ msgstr "Ffurfweddu Gweinydd Graffigol"
 
 #, fuzzy
 #~ msgid "Configure authentication required to access %s tools"
-#~ msgstr "Mae angen dilysu ffurfweddiad i gael mynediad at offer Openmandriva Lx"
+#~ msgstr ""
+#~ "Mae angen dilysu ffurfweddiad i gael mynediad at offer Openmandriva Lx"
 
 #, fuzzy
 #~ msgid "Run Openmandriva Lx Application Security Configuration"

@@ -486,12 +486,7 @@ msgstr "GDM (গুহ্‌নোম ডিসপ্লে ম্যানে�
 msgid "KDM (KDE Display Manager)"
 msgstr "KDM (কেডিই ডিসপ্লে ম্যানেজার)"
 
-#: drakedm:42
-#, fuzzy, c-format
-msgid "LIGHTDM (LightDM Display Manager)"
-msgstr "GDM (গুহ্‌নোম ডিসপ্লে ম্যানেজার)"
-
-#: drakedm:43
+#: drakedm:42 drakedm:43
 #, fuzzy, c-format
 msgid "LIGHTDM (LightDM Display Manager)"
 msgstr "GDM (গুহ্‌নোম ডিসপ্লে ম্যানেজার)"

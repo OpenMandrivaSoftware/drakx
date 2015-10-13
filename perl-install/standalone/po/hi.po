@@ -478,12 +478,7 @@ msgstr ""
 msgid "KDM (KDE Display Manager)"
 msgstr ""
 
-#: drakedm:42
-#, fuzzy, c-format
-msgid "LIGHTDM (LightDM Display Manager)"
-msgstr "एक अवलोकन प्रंबधक का चयन"
-
-#: drakedm:43
+#: drakedm:42 drakedm:43
 #, fuzzy, c-format
 msgid "LIGHTDM (LightDM Display Manager)"
 msgstr "एक अवलोकन प्रंबधक का चयन"

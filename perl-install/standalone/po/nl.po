@@ -497,12 +497,7 @@ msgstr "GDM (GNOME displaybeheer)"
 msgid "KDM (KDE Display Manager)"
 msgstr "KDM (KDE displaybeheer)"
 
-#: drakedm:42
-#, fuzzy, c-format
-msgid "LIGHTDM (LightDM Display Manager)"
-msgstr "GDM (GNOME displaybeheer)"
-
-#: drakedm:43
+#: drakedm:42 drakedm:43
 #, fuzzy, c-format
 msgid "LIGHTDM (LightDM Display Manager)"
 msgstr "GDM (GNOME displaybeheer)"
@@ -3475,7 +3470,8 @@ msgstr "Start Openmandriva Lx's Aunthenticatieconfiguratie"
 #, fuzzy
 msgid "Authentication is required to run DrakX Authentication Configuration"
 msgstr ""
-"Authenticatie is nodig om Openmandriva Lx's Authenticatieconfiguratie te starten"
+"Authenticatie is nodig om Openmandriva Lx's Authenticatieconfiguratie te "
+"starten"
 
 #: ../polkit/org.moondrake.drakboot.policy.in.h:1
 #, fuzzy
@@ -3485,7 +3481,8 @@ msgstr "Start Openmandriva Lx's Opstartconfiguratie"
 #: ../polkit/org.moondrake.drakboot.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Boot Configuration"
-msgstr "Authenticatie is nodig om Openmandriva Lx's Opstartconfiguratie te starten"
+msgstr ""
+"Authenticatie is nodig om Openmandriva Lx's Opstartconfiguratie te starten"
 
 #: ../polkit/org.moondrake.drakclock.policy.in.h:1
 #, fuzzy
@@ -3496,7 +3493,8 @@ msgstr "Start Openmandriva Lx's Datum- en Tijdconfiguratie"
 #, fuzzy
 msgid "Authentication is required to run DrakX Date and Time Configuration"
 msgstr ""
-"Authenticatie is nodig om Openmandriva Lx's Datum- en Tijdconfiguratie te starten"
+"Authenticatie is nodig om Openmandriva Lx's Datum- en Tijdconfiguratie te "
+"starten"
 
 #: ../polkit/org.moondrake.drakdisk.policy.in.h:1
 #, fuzzy
@@ -3507,7 +3505,8 @@ msgstr "Start Openmandriva Lx's Schijfindelingsbewerker"
 #, fuzzy
 msgid "Authentication is required to run DrakX Disk Layout Editor"
 msgstr ""
-"Authenticatie is nodig om Openmandriva Lx's Schijfindelingsbewerker te starten"
+"Authenticatie is nodig om Openmandriva Lx's Schijfindelingsbewerker te "
+"starten"
 
 #: ../polkit/org.moondrake.drakdm.policy.in.h:1
 #, fuzzy
@@ -3518,7 +3517,8 @@ msgstr "Start Openmandriva Lx's Login-beheerderconfiguratie"
 #, fuzzy
 msgid "Authentication is required to run DrakX Login Manager Configuration"
 msgstr ""
-"Authenticatie is nodig om Openmandriva Lx's Login-beheerderconfiguratie te starten"
+"Authenticatie is nodig om Openmandriva Lx's Login-beheerderconfiguratie te "
+"starten"
 
 #: ../polkit/org.moondrake.drakfont.policy.in.h:1
 #, fuzzy
@@ -3528,7 +3528,8 @@ msgstr "Start Openmandriva Lx's Fontconfiguratie"
 #: ../polkit/org.moondrake.drakfont.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Font Configuration"
-msgstr "Authenticatie is nodig om Openmandriva Lx's Fontconfiguratie te starten"
+msgstr ""
+"Authenticatie is nodig om Openmandriva Lx's Fontconfiguratie te starten"
 
 #: ../polkit/org.moondrake.drakhardware.policy.in.h:1
 #, fuzzy
@@ -3538,7 +3539,8 @@ msgstr "Start Openmandriva Lx's Apparaatconfiguratie"
 #: ../polkit/org.moondrake.drakhardware.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Hardware Configuration"
-msgstr "Authenticatie is nodig om Openmandriva Lx's Apparaatconfiguratie te starten"
+msgstr ""
+"Authenticatie is nodig om Openmandriva Lx's Apparaatconfiguratie te starten"
 
 #: ../polkit/org.moondrake.draklog.policy.in.h:1
 #, fuzzy
@@ -3560,8 +3562,8 @@ msgstr "Start Openmandriva Lx's Veiligheidsrechten-configuratie"
 msgid ""
 "Authentication is required to run DrakX Security Permissions Configuration"
 msgstr ""
-"Authenticatie is nodig om Openmandriva Lx's Veiligheidsrechten-configuratie te "
-"starten"
+"Authenticatie is nodig om Openmandriva Lx's Veiligheidsrechten-configuratie "
+"te starten"
 
 #: ../polkit/org.moondrake.drakscanner.policy.in.h:1
 #, fuzzy
@@ -3571,7 +3573,8 @@ msgstr "Start Openmandriva Lx's Scannerconfiguratie"
 #: ../polkit/org.moondrake.drakscanner.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Scanner Configuration"
-msgstr "Authenticatie is nodig om Openmandriva Lx's Scannerconfiguratie te starten"
+msgstr ""
+"Authenticatie is nodig om Openmandriva Lx's Scannerconfiguratie te starten"
 
 #: ../polkit/org.moondrake.draksec.policy.in.h:1
 #, fuzzy
@@ -3583,8 +3586,8 @@ msgstr "Start Openmandriva Lx's Programma-veiligheidsconfiguratie"
 msgid ""
 "Authentication is required to run DrakX Application Security Configuration"
 msgstr ""
-"Authenticatie is nodig om Openmandriva Lx's Programma-veiligheidsconfiguratie te "
-"starten"
+"Authenticatie is nodig om Openmandriva Lx's Programma-"
+"veiligheidsconfiguratie te starten"
 
 #: ../polkit/org.moondrake.drakups.policy.in.h:1
 #, fuzzy
@@ -3594,7 +3597,8 @@ msgstr "Start Openmandriva Lx's UPS-configuratie"
 #: ../polkit/org.moondrake.drakups.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX UPS Configuration"
-msgstr "Authenticatie is nodig om Openmandriva Lx's UPS-configuratie te starten"
+msgstr ""
+"Authenticatie is nodig om Openmandriva Lx's UPS-configuratie te starten"
 
 #: ../polkit/org.moondrake.moondrakeservices.policy.in.h:1
 #, fuzzy
@@ -3604,7 +3608,8 @@ msgstr "Start Openmandriva Lx's Dienstenconfiguratie"
 #: ../polkit/org.moondrake.moondrakeservices.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Service Configuration"
-msgstr "Authenticatie is nodig om Openmandriva Lx's Dienstenconfiguratie te starten"
+msgstr ""
+"Authenticatie is nodig om Openmandriva Lx's Dienstenconfiguratie te starten"
 
 #~ msgid "%s Bug Report Tool"
 #~ msgstr "%s foutrapportage-programma"
@@ -3616,45 +3621,54 @@ msgstr "Authenticatie is nodig om Openmandriva Lx's Dienstenconfiguratie te star
 #~ "Authentication is required to run Openmandriva Lx Application Security "
 #~ "Configuration"
 #~ msgstr ""
-#~ "Authenticatie is nodig om Openmandriva Lx's Programmabeveiligingsconfiguratie "
-#~ "te starten"
+#~ "Authenticatie is nodig om Openmandriva Lx's "
+#~ "Programmabeveiligingsconfiguratie te starten"
 
 #~ msgid ""
-#~ "Authentication is required to run Openmandriva Lx Authentication Configuration"
+#~ "Authentication is required to run Openmandriva Lx Authentication "
+#~ "Configuration"
 #~ msgstr ""
-#~ "Authenticatie is nodig om Openmandriva Lx's Authenticatieconfiguratie te starten"
+#~ "Authenticatie is nodig om Openmandriva Lx's Authenticatieconfiguratie te "
+#~ "starten"
 
 #~ msgid "Authentication is required to run Openmandriva Lx Boot Configuration"
 #~ msgstr ""
 #~ "Authenticatie is nodig om Openmandriva Lx's Opstartconfiguratie te starten"
 
 #~ msgid ""
-#~ "Authentication is required to run Openmandriva Lx Date and Time Configuration"
+#~ "Authentication is required to run Openmandriva Lx Date and Time "
+#~ "Configuration"
 #~ msgstr ""
 #~ "Authenticatie is nodig om Openmandriva Lx's Datum- en Tijdconfiguratie te "
 #~ "starten"
 
 #~ msgid "Authentication is required to run Openmandriva Lx Disk Layout Editor"
 #~ msgstr ""
-#~ "Authenticatie is nodig om Openmandriva Lx's Schijfindelingsbewerker te starten"
+#~ "Authenticatie is nodig om Openmandriva Lx's Schijfindelingsbewerker te "
+#~ "starten"
 
 #~ msgid "Authentication is required to run Openmandriva Lx Font Configuration"
-#~ msgstr "Authenticatie is nodig om Openmandriva Lx's Fontconfiguratie te starten"
-
-#~ msgid "Authentication is required to run Openmandriva Lx Hardware Configuration"
 #~ msgstr ""
-#~ "Authenticatie is nodig om Openmandriva Lx's Apparaatconfiguratie te starten"
+#~ "Authenticatie is nodig om Openmandriva Lx's Fontconfiguratie te starten"
+
+#~ msgid ""
+#~ "Authentication is required to run Openmandriva Lx Hardware Configuration"
+#~ msgstr ""
+#~ "Authenticatie is nodig om Openmandriva Lx's Apparaatconfiguratie te "
+#~ "starten"
 
 #~ msgid "Authentication is required to run Openmandriva Lx Log Viewer"
 #~ msgstr "Authenticatie is nodig om Openmandriva Lx's Logviewer te starten"
 
 #~ msgid ""
-#~ "Authentication is required to run Openmandriva Lx Login Manager Configuration"
+#~ "Authentication is required to run Openmandriva Lx Login Manager "
+#~ "Configuration"
 #~ msgstr ""
-#~ "Authenticatie is nodig om Openmandriva Lx's Login-beheerderconfiguratie te "
-#~ "starten"
+#~ "Authenticatie is nodig om Openmandriva Lx's Login-beheerderconfiguratie "
+#~ "te starten"
 
-#~ msgid "Authentication is required to run Openmandriva Lx Scanner Configuration"
+#~ msgid ""
+#~ "Authentication is required to run Openmandriva Lx Scanner Configuration"
 #~ msgstr ""
 #~ "Authenticatie is nodig om Openmandriva Lx's Scannerconfiguratie te starten"
 
@@ -3662,15 +3676,18 @@ msgstr "Authenticatie is nodig om Openmandriva Lx's Dienstenconfiguratie te star
 #~ "Authentication is required to run Openmandriva Lx Security Permissions "
 #~ "Configuration"
 #~ msgstr ""
-#~ "Authenticatie is nodig om Openmandriva Lx's Beveiligingsrechtenconfiguratie te "
+#~ "Authenticatie is nodig om Openmandriva Lx's "
+#~ "Beveiligingsrechtenconfiguratie te starten"
+
+#~ msgid ""
+#~ "Authentication is required to run Openmandriva Lx Service Configuration"
+#~ msgstr ""
+#~ "Authenticatie is nodig om Openmandriva Lx's Dienstenconfiguratie te "
 #~ "starten"
 
-#~ msgid "Authentication is required to run Openmandriva Lx Service Configuration"
-#~ msgstr ""
-#~ "Authenticatie is nodig om Openmandriva Lx's Dienstenconfiguratie te starten"
-
 #~ msgid "Authentication is required to run Openmandriva Lx UPS Configuration"
-#~ msgstr "Authenticatie is nodig om Openmandriva Lx's UPS-configuratie te starten"
+#~ msgstr ""
+#~ "Authenticatie is nodig om Openmandriva Lx's UPS-configuratie te starten"
 
 #~ msgid "Configure authentication required to access %s tools"
 #~ msgstr ""

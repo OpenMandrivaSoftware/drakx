@@ -498,12 +498,7 @@ msgstr "GDM (менеджер дисплею GNOME)"
 msgid "KDM (KDE Display Manager)"
 msgstr "KDM (менеджер дисплею KDE)"
 
-#: drakedm:42
-#, fuzzy, c-format
-msgid "LIGHTDM (LightDM Display Manager)"
-msgstr "GDM (менеджер дисплею GNOME)"
-
-#: drakedm:43
+#: drakedm:42 drakedm:43
 #, fuzzy, c-format
 msgid "LIGHTDM (LightDM Display Manager)"
 msgstr "GDM (менеджер дисплею GNOME)"
@@ -3454,8 +3449,8 @@ msgstr "Запуск засобу налаштовування розпізна�
 #, fuzzy
 msgid "Authentication is required to run DrakX Authentication Configuration"
 msgstr ""
-"Щоб запустити засіб налаштовування розпізнавання у Openmandriva Lx, слід пройти "
-"розпізнавання"
+"Щоб запустити засіб налаштовування розпізнавання у Openmandriva Lx, слід "
+"пройти розпізнавання"
 
 #: ../polkit/org.moondrake.drakboot.policy.in.h:1
 #, fuzzy
@@ -3478,8 +3473,8 @@ msgstr "Запуск засобу налаштовування дати і ча�
 #, fuzzy
 msgid "Authentication is required to run DrakX Date and Time Configuration"
 msgstr ""
-"Щоб запустити засіб налаштовування дати і часу у Openmandriva Lx, слід пройти "
-"розпізнавання"
+"Щоб запустити засіб налаштовування дати і часу у Openmandriva Lx, слід "
+"пройти розпізнавання"
 
 #: ../polkit/org.moondrake.drakdisk.policy.in.h:1
 #, fuzzy
@@ -3502,7 +3497,8 @@ msgstr "Запуск засобу керування входом до Openmandr
 #, fuzzy
 msgid "Authentication is required to run DrakX Login Manager Configuration"
 msgstr ""
-"Щоб запустити засіб керування входом до Openmandriva Lx, слід пройти розпізнавання"
+"Щоб запустити засіб керування входом до Openmandriva Lx, слід пройти "
+"розпізнавання"
 
 #: ../polkit/org.moondrake.drakfont.policy.in.h:1
 #, fuzzy
@@ -3537,7 +3533,8 @@ msgstr "Запуск засобу перегляду журналу Openmandriva
 #, fuzzy
 msgid "Authentication is required to run DrakX Log Viewer"
 msgstr ""
-"Щоб запустити засіб перегляду журналу Openmandriva Lx, слід пройти розпізнавання"
+"Щоб запустити засіб перегляду журналу Openmandriva Lx, слід пройти "
+"розпізнавання"
 
 #: ../polkit/org.moondrake.drakperm.policy.in.h:1
 #, fuzzy
@@ -3549,8 +3546,8 @@ msgstr "Запуск засобу налаштовування захисних 
 msgid ""
 "Authentication is required to run DrakX Security Permissions Configuration"
 msgstr ""
-"Щоб запустити засіб налаштовування захисних правил доступу Openmandriva Lx, слід "
-"пройти розпізнавання"
+"Щоб запустити засіб налаштовування захисних правил доступу Openmandriva Lx, "
+"слід пройти розпізнавання"
 
 #: ../polkit/org.moondrake.drakscanner.policy.in.h:1
 #, fuzzy
@@ -3574,8 +3571,8 @@ msgstr "Запуск засобу налаштовування захисту п
 msgid ""
 "Authentication is required to run DrakX Application Security Configuration"
 msgstr ""
-"Щоб запустити засіб налаштовування захисту програм Openmandriva Lx, слід пройти "
-"розпізнавання"
+"Щоб запустити засіб налаштовування захисту програм Openmandriva Lx, слід "
+"пройти розпізнавання"
 
 #: ../polkit/org.moondrake.drakups.policy.in.h:1
 #, fuzzy
@@ -3586,7 +3583,8 @@ msgstr "Запуск засобу налаштовування UPS Openmandriva 
 #, fuzzy
 msgid "Authentication is required to run DrakX UPS Configuration"
 msgstr ""
-"Щоб запустити засіб налаштовування UPS Openmandriva Lx, слід пройти розпізнавання"
+"Щоб запустити засіб налаштовування UPS Openmandriva Lx, слід пройти "
+"розпізнавання"
 
 #: ../polkit/org.moondrake.moondrakeservices.policy.in.h:1
 #, fuzzy
@@ -3597,7 +3595,8 @@ msgstr "Запуск засобу налаштовування служб Openma
 #, fuzzy
 msgid "Authentication is required to run DrakX Service Configuration"
 msgstr ""
-"Щоб запустити засіб налаштовування служб Openmandriva Lx, слід пройти розпізнавання"
+"Щоб запустити засіб налаштовування служб Openmandriva Lx, слід пройти "
+"розпізнавання"
 
 #~ msgid "%s Bug Report Tool"
 #~ msgstr "Програма для створення звітів щодо помилок у %s"
@@ -3609,25 +3608,27 @@ msgstr ""
 #~ "Authentication is required to run Openmandriva Lx Application Security "
 #~ "Configuration"
 #~ msgstr ""
-#~ "Щоб запустити засіб налаштовування захисту програм Openmandriva Lx, слід пройти "
-#~ "розпізнавання"
+#~ "Щоб запустити засіб налаштовування захисту програм Openmandriva Lx, слід "
+#~ "пройти розпізнавання"
 
 #~ msgid ""
-#~ "Authentication is required to run Openmandriva Lx Authentication Configuration"
+#~ "Authentication is required to run Openmandriva Lx Authentication "
+#~ "Configuration"
 #~ msgstr ""
-#~ "Щоб запустити засіб налаштовування розпізнавання у Openmandriva Lx, слід пройти "
-#~ "розпізнавання"
+#~ "Щоб запустити засіб налаштовування розпізнавання у Openmandriva Lx, слід "
+#~ "пройти розпізнавання"
 
 #~ msgid "Authentication is required to run Openmandriva Lx Boot Configuration"
 #~ msgstr ""
-#~ "Щоб запустити засіб налаштовування завантаження Openmandriva Lx, слід пройти "
-#~ "розпізнавання"
+#~ "Щоб запустити засіб налаштовування завантаження Openmandriva Lx, слід "
+#~ "пройти розпізнавання"
 
 #~ msgid ""
-#~ "Authentication is required to run Openmandriva Lx Date and Time Configuration"
+#~ "Authentication is required to run Openmandriva Lx Date and Time "
+#~ "Configuration"
 #~ msgstr ""
-#~ "Щоб запустити засіб налаштовування дати і часу у Openmandriva Lx, слід пройти "
-#~ "розпізнавання"
+#~ "Щоб запустити засіб налаштовування дати і часу у Openmandriva Lx, слід "
+#~ "пройти розпізнавання"
 
 #~ msgid "Authentication is required to run Openmandriva Lx Disk Layout Editor"
 #~ msgstr ""
@@ -3639,22 +3640,26 @@ msgstr ""
 #~ "Щоб запустити засіб налаштовування шрифтів Openmandriva Lx, слід пройти "
 #~ "розпізнавання"
 
-#~ msgid "Authentication is required to run Openmandriva Lx Hardware Configuration"
+#~ msgid ""
+#~ "Authentication is required to run Openmandriva Lx Hardware Configuration"
 #~ msgstr ""
-#~ "Щоб запустити засіб налаштовування обладнання Openmandriva Lx, слід пройти "
-#~ "розпізнавання"
+#~ "Щоб запустити засіб налаштовування обладнання Openmandriva Lx, слід "
+#~ "пройти розпізнавання"
 
 #~ msgid "Authentication is required to run Openmandriva Lx Log Viewer"
 #~ msgstr ""
-#~ "Щоб запустити засіб перегляду журналу Openmandriva Lx, слід пройти розпізнавання"
+#~ "Щоб запустити засіб перегляду журналу Openmandriva Lx, слід пройти "
+#~ "розпізнавання"
 
 #~ msgid ""
-#~ "Authentication is required to run Openmandriva Lx Login Manager Configuration"
+#~ "Authentication is required to run Openmandriva Lx Login Manager "
+#~ "Configuration"
 #~ msgstr ""
 #~ "Щоб запустити засіб керування входом до Openmandriva Lx, слід пройти "
 #~ "розпізнавання"
 
-#~ msgid "Authentication is required to run Openmandriva Lx Scanner Configuration"
+#~ msgid ""
+#~ "Authentication is required to run Openmandriva Lx Scanner Configuration"
 #~ msgstr ""
 #~ "Щоб запустити засіб налаштовування сканера Openmandriva Lx, слід пройти "
 #~ "розпізнавання"
@@ -3663,10 +3668,11 @@ msgstr ""
 #~ "Authentication is required to run Openmandriva Lx Security Permissions "
 #~ "Configuration"
 #~ msgstr ""
-#~ "Щоб запустити засіб налаштовування захисних правил доступу Openmandriva Lx, "
-#~ "слід пройти розпізнавання"
+#~ "Щоб запустити засіб налаштовування захисних правил доступу Openmandriva "
+#~ "Lx, слід пройти розпізнавання"
 
-#~ msgid "Authentication is required to run Openmandriva Lx Service Configuration"
+#~ msgid ""
+#~ "Authentication is required to run Openmandriva Lx Service Configuration"
 #~ msgstr ""
 #~ "Щоб запустити засіб налаштовування служб Openmandriva Lx, слід пройти "
 #~ "розпізнавання"
@@ -3710,7 +3716,8 @@ msgstr ""
 #~ msgstr "Запуск засобу налаштовування сканера Openmandriva Lx"
 
 #~ msgid "Run Openmandriva Lx Security Permissions Configuration"
-#~ msgstr "Запуск засобу налаштовування захисних правил доступу Openmandriva Lx"
+#~ msgstr ""
+#~ "Запуск засобу налаштовування захисних правил доступу Openmandriva Lx"
 
 #~ msgid "Run Openmandriva Lx Service Configuration"
 #~ msgstr "Запуск засобу налаштовування служб Openmandriva Lx"

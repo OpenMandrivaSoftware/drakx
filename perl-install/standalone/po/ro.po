@@ -532,12 +532,7 @@ msgstr "GDM (gestionarul de ecran Gnome)"
 msgid "KDM (KDE Display Manager)"
 msgstr "KDM (gestionarul de ecran KDE)"
 
-#: drakedm:42
-#, fuzzy, c-format
-msgid "LIGHTDM (LightDM Display Manager)"
-msgstr "GDM (gestionarul de ecran Gnome)"
-
-#: drakedm:43
+#: drakedm:42 drakedm:43
 #, fuzzy, c-format
 msgid "LIGHTDM (LightDM Display Manager)"
 msgstr "GDM (gestionarul de ecran Gnome)"
@@ -3500,8 +3495,8 @@ msgstr "Lansează configurarea autentificării pentru Openmandriva Lx"
 #, fuzzy
 msgid "Authentication is required to run DrakX Authentication Configuration"
 msgstr ""
-"Autentificare necesară pentru lansarea aplicației Openmandriva Lx de configurat "
-"autentificarea"
+"Autentificare necesară pentru lansarea aplicației Openmandriva Lx de "
+"configurat autentificarea"
 
 #: ../polkit/org.moondrake.drakboot.policy.in.h:1
 #, fuzzy
@@ -3512,8 +3507,8 @@ msgstr "Lansează configurarea demarării pentru Openmandriva Lx"
 #, fuzzy
 msgid "Authentication is required to run DrakX Boot Configuration"
 msgstr ""
-"Autentificare necesară pentru lansarea aplicației Openmandriva Lx de configurat "
-"demararea"
+"Autentificare necesară pentru lansarea aplicației Openmandriva Lx de "
+"configurat demararea"
 
 #: ../polkit/org.moondrake.drakclock.policy.in.h:1
 #, fuzzy
@@ -3524,8 +3519,8 @@ msgstr "Lansează configurarea datei și orei pentru Openmandriva Lx"
 #, fuzzy
 msgid "Authentication is required to run DrakX Date and Time Configuration"
 msgstr ""
-"Autentificare necesară pentru lansarea aplicației Openmandriva Lx de configurat "
-"data și ora"
+"Autentificare necesară pentru lansarea aplicației Openmandriva Lx de "
+"configurat data și ora"
 
 #: ../polkit/org.moondrake.drakdisk.policy.in.h:1
 #, fuzzy
@@ -3542,14 +3537,15 @@ msgstr ""
 #: ../polkit/org.moondrake.drakdm.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Login Manager Configuration"
-msgstr "Lansează configurarea gestionarului de autentificare pentru Openmandriva Lx"
+msgstr ""
+"Lansează configurarea gestionarului de autentificare pentru Openmandriva Lx"
 
 #: ../polkit/org.moondrake.drakdm.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Login Manager Configuration"
 msgstr ""
-"Autentificare necesară pentru lansarea aplicației Openmandriva Lx de configurat "
-"gestionarul de autentificare"
+"Autentificare necesară pentru lansarea aplicației Openmandriva Lx de "
+"configurat gestionarul de autentificare"
 
 #: ../polkit/org.moondrake.drakfont.policy.in.h:1
 #, fuzzy
@@ -3560,8 +3556,8 @@ msgstr "Lansează configurarea fonturilor pentru Openmandriva Lx"
 #, fuzzy
 msgid "Authentication is required to run DrakX Font Configuration"
 msgstr ""
-"Autentificare necesară pentru lansarea aplicației Openmandriva Lx de configurat "
-"fonturile"
+"Autentificare necesară pentru lansarea aplicației Openmandriva Lx de "
+"configurat fonturile"
 
 #: ../polkit/org.moondrake.drakhardware.policy.in.h:1
 #, fuzzy
@@ -3572,8 +3568,8 @@ msgstr "Lansează configurarea materială pentru Openmandriva Lx"
 #, fuzzy
 msgid "Authentication is required to run DrakX Hardware Configuration"
 msgstr ""
-"Autentificare necesară pentru lansarea aplicației Openmandriva Lx de configurare "
-"materială"
+"Autentificare necesară pentru lansarea aplicației Openmandriva Lx de "
+"configurare materială"
 
 #: ../polkit/org.moondrake.draklog.policy.in.h:1
 #, fuzzy
@@ -3584,21 +3580,22 @@ msgstr "Lansează vizualizatorul de fișiere jurnal pentru Openmandriva Lx"
 #, fuzzy
 msgid "Authentication is required to run DrakX Log Viewer"
 msgstr ""
-"Autentificare necesară pentru lansarea aplicației Openmandriva Lx de vizualizat "
-"fișiere jurnal"
+"Autentificare necesară pentru lansarea aplicației Openmandriva Lx de "
+"vizualizat fișiere jurnal"
 
 #: ../polkit/org.moondrake.drakperm.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Security Permissions Configuration"
-msgstr "Lansează configurarea permisiunilor de securitate pentru Openmandriva Lx"
+msgstr ""
+"Lansează configurarea permisiunilor de securitate pentru Openmandriva Lx"
 
 #: ../polkit/org.moondrake.drakperm.policy.in.h:2
 #, fuzzy
 msgid ""
 "Authentication is required to run DrakX Security Permissions Configuration"
 msgstr ""
-"Autentificare necesară pentru lansarea aplicației Openmandriva Lx de configurat "
-"permisiunile de securitate"
+"Autentificare necesară pentru lansarea aplicației Openmandriva Lx de "
+"configurat permisiunile de securitate"
 
 #: ../polkit/org.moondrake.drakscanner.policy.in.h:1
 #, fuzzy
@@ -3609,8 +3606,8 @@ msgstr "Lansează configurarea scanerului pentru Openmandriva Lx"
 #, fuzzy
 msgid "Authentication is required to run DrakX Scanner Configuration"
 msgstr ""
-"Autentificare necesară pentru lansarea aplicației Openmandriva Lx de configurat "
-"scanerul"
+"Autentificare necesară pentru lansarea aplicației Openmandriva Lx de "
+"configurat scanerul"
 
 #: ../polkit/org.moondrake.draksec.policy.in.h:1
 #, fuzzy
@@ -3622,8 +3619,8 @@ msgstr "Lansează configurarea securității aplicațiilor pentru Openmandriva L
 msgid ""
 "Authentication is required to run DrakX Application Security Configuration"
 msgstr ""
-"Autentificare necesară pentru lansarea aplicației Openmandriva Lx de configurat "
-"securitatea aplicațiilor"
+"Autentificare necesară pentru lansarea aplicației Openmandriva Lx de "
+"configurat securitatea aplicațiilor"
 
 #: ../polkit/org.moondrake.drakups.policy.in.h:1
 #, fuzzy
@@ -3634,8 +3631,8 @@ msgstr "Lansează configurarea UPS-ului pentru Openmandriva Lx"
 #, fuzzy
 msgid "Authentication is required to run DrakX UPS Configuration"
 msgstr ""
-"Autentificare necesară pentru lansarea programului Openmandriva Lx de configurat "
-"UPS-ul"
+"Autentificare necesară pentru lansarea programului Openmandriva Lx de "
+"configurat UPS-ul"
 
 #: ../polkit/org.moondrake.moondrakeservices.policy.in.h:1
 #, fuzzy
@@ -3646,7 +3643,8 @@ msgstr "Lansează configurarea seviciilor Openmandriva Lx"
 #, fuzzy
 msgid "Authentication is required to run DrakX Service Configuration"
 msgstr ""
-"Autentificare necesară pentru lansarea configurării serviciilor Openmandriva Lx"
+"Autentificare necesară pentru lansarea configurării serviciilor Openmandriva "
+"Lx"
 
 #~ msgid "%s Bug Report Tool"
 #~ msgstr "Utilitarul de raportat erori %s"
@@ -3658,67 +3656,74 @@ msgstr ""
 #~ "Authentication is required to run Openmandriva Lx Application Security "
 #~ "Configuration"
 #~ msgstr ""
-#~ "Autentificare necesară pentru lansarea aplicației Openmandriva Lx de configurat "
-#~ "securitatea aplicațiilor"
+#~ "Autentificare necesară pentru lansarea aplicației Openmandriva Lx de "
+#~ "configurat securitatea aplicațiilor"
 
 #~ msgid ""
-#~ "Authentication is required to run Openmandriva Lx Authentication Configuration"
+#~ "Authentication is required to run Openmandriva Lx Authentication "
+#~ "Configuration"
 #~ msgstr ""
-#~ "Autentificare necesară pentru lansarea aplicației Openmandriva Lx de configurat "
-#~ "autentificarea"
+#~ "Autentificare necesară pentru lansarea aplicației Openmandriva Lx de "
+#~ "configurat autentificarea"
 
 #~ msgid "Authentication is required to run Openmandriva Lx Boot Configuration"
 #~ msgstr ""
-#~ "Autentificare necesară pentru lansarea aplicației Openmandriva Lx de configurat "
-#~ "demarajul"
+#~ "Autentificare necesară pentru lansarea aplicației Openmandriva Lx de "
+#~ "configurat demarajul"
 
 #~ msgid ""
-#~ "Authentication is required to run Openmandriva Lx Date and Time Configuration"
+#~ "Authentication is required to run Openmandriva Lx Date and Time "
+#~ "Configuration"
 #~ msgstr ""
-#~ "Autentificare necesară pentru lansarea aplicației Openmandriva Lx de configurat "
-#~ "data și ora"
+#~ "Autentificare necesară pentru lansarea aplicației Openmandriva Lx de "
+#~ "configurat data și ora"
 
 #~ msgid "Authentication is required to run Openmandriva Lx Disk Layout Editor"
 #~ msgstr ""
-#~ "Autentificare necesară pentru lansarea aplicației Openmandriva Lx de editat "
-#~ "configurarea discului"
+#~ "Autentificare necesară pentru lansarea aplicației Openmandriva Lx de "
+#~ "editat configurarea discului"
 
 #~ msgid "Authentication is required to run Openmandriva Lx Font Configuration"
 #~ msgstr ""
-#~ "Autentificare necesară pentru lansarea aplicației Openmandriva Lx de configurat "
-#~ "fonturile"
+#~ "Autentificare necesară pentru lansarea aplicației Openmandriva Lx de "
+#~ "configurat fonturile"
 
-#~ msgid "Authentication is required to run Openmandriva Lx Hardware Configuration"
+#~ msgid ""
+#~ "Authentication is required to run Openmandriva Lx Hardware Configuration"
 #~ msgstr ""
 #~ "Autentificare necesară pentru lansarea aplicației Openmandriva Lx de "
 #~ "configurare materială"
 
 #~ msgid "Authentication is required to run Openmandriva Lx Log Viewer"
 #~ msgstr ""
-#~ "Autentificare necesară pentru lansarea aplicației Openmandriva Lx de vizualizat "
-#~ "fișiere jurnal"
+#~ "Autentificare necesară pentru lansarea aplicației Openmandriva Lx de "
+#~ "vizualizat fișiere jurnal"
 
 #~ msgid ""
-#~ "Authentication is required to run Openmandriva Lx Login Manager Configuration"
+#~ "Authentication is required to run Openmandriva Lx Login Manager "
+#~ "Configuration"
 #~ msgstr ""
-#~ "Autentificare necesară pentru lansarea aplicației Openmandriva Lx de configurat "
-#~ "gestionarul de autentificare"
+#~ "Autentificare necesară pentru lansarea aplicației Openmandriva Lx de "
+#~ "configurat gestionarul de autentificare"
 
-#~ msgid "Authentication is required to run Openmandriva Lx Scanner Configuration"
+#~ msgid ""
+#~ "Authentication is required to run Openmandriva Lx Scanner Configuration"
 #~ msgstr ""
-#~ "Autentificare necesară pentru lansarea aplicației Openmandriva Lx de configurat "
-#~ "scanerul"
+#~ "Autentificare necesară pentru lansarea aplicației Openmandriva Lx de "
+#~ "configurat scanerul"
 
 #~ msgid ""
 #~ "Authentication is required to run Openmandriva Lx Security Permissions "
 #~ "Configuration"
 #~ msgstr ""
-#~ "Autentificare necesară pentru lansarea aplicației Openmandriva Lx de configurat "
-#~ "permisiunile de securitate"
+#~ "Autentificare necesară pentru lansarea aplicației Openmandriva Lx de "
+#~ "configurat permisiunile de securitate"
 
-#~ msgid "Authentication is required to run Openmandriva Lx Service Configuration"
+#~ msgid ""
+#~ "Authentication is required to run Openmandriva Lx Service Configuration"
 #~ msgstr ""
-#~ "Autentificare necesară pentru lansarea configurării serviciilor Openmandriva Lx"
+#~ "Autentificare necesară pentru lansarea configurării serviciilor "
+#~ "Openmandriva Lx"
 
 #~ msgid "Authentication is required to run Openmandriva Lx UPS Configuration"
 #~ msgstr ""
@@ -3729,7 +3734,8 @@ msgstr ""
 #~ msgstr "Configurează autentificarea necesară pentru accesarea uneltelor %s"
 
 #~ msgid "Run Openmandriva Lx Application Security Configuration"
-#~ msgstr "Lansează configurarea securității aplicațiilor pentru Openmandriva Lx"
+#~ msgstr ""
+#~ "Lansează configurarea securității aplicațiilor pentru Openmandriva Lx"
 
 #~ msgid "Run Openmandriva Lx Authentication Configuration"
 #~ msgstr "Lansează configurarea autentificării pentru Openmandriva Lx"
@@ -3741,7 +3747,8 @@ msgstr ""
 #~ msgstr "Lansează configurarea datei și orei pentru Openmandriva Lx"
 
 #~ msgid "Run Openmandriva Lx Disk Layout Editor"
-#~ msgstr "Lansează editorul de configurare al discurilor pentru Openmandriva Lx"
+#~ msgstr ""
+#~ "Lansează editorul de configurare al discurilor pentru Openmandriva Lx"
 
 #~ msgid "Run Openmandriva Lx Font Configuration"
 #~ msgstr "Lansează configurarea fonturilor pentru Openmandriva Lx"
@@ -3754,13 +3761,15 @@ msgstr ""
 
 #~ msgid "Run Openmandriva Lx Login Manager Configuration"
 #~ msgstr ""
-#~ "Lansează configurarea gestionarului de autentificare pentru Openmandriva Lx"
+#~ "Lansează configurarea gestionarului de autentificare pentru Openmandriva "
+#~ "Lx"
 
 #~ msgid "Run Openmandriva Lx Scanner Configuration"
 #~ msgstr "Lansează configurarea scanerului pentru Openmandriva Lx"
 
 #~ msgid "Run Openmandriva Lx Security Permissions Configuration"
-#~ msgstr "Lansează configurarea permisiunilor de securitate pentru Openmandriva Lx"
+#~ msgstr ""
+#~ "Lansează configurarea permisiunilor de securitate pentru Openmandriva Lx"
 
 #~ msgid "Run Openmandriva Lx Service Configuration"
 #~ msgstr "Lansează configurarea seviciilor Openmandriva Lx"

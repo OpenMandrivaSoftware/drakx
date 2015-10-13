@@ -507,12 +507,7 @@ msgstr "GDM (Διαχειριστής Σύνδεσης GNOME)"
 msgid "KDM (KDE Display Manager)"
 msgstr "KDE (Διαχειριστής Σύνδεσης KDE)"
 
-#: drakedm:42
-#, fuzzy, c-format
-msgid "LIGHTDM (LightDM Display Manager)"
-msgstr "GDM (Διαχειριστής Σύνδεσης GNOME)"
-
-#: drakedm:43
+#: drakedm:42 drakedm:43
 #, fuzzy, c-format
 msgid "LIGHTDM (LightDM Display Manager)"
 msgstr "GDM (Διαχειριστής Σύνδεσης GNOME)"
@@ -3502,7 +3497,8 @@ msgstr "Εκτέλεση της Διαμόρφωσης Εκκίνησης Openma
 #, fuzzy
 msgid "Authentication is required to run DrakX Boot Configuration"
 msgstr ""
-"Απαιτείται πιστοποίηση για την εκτέλεση της Διαμόρφωσης Εκκίνησης Openmandriva Lx"
+"Απαιτείται πιστοποίηση για την εκτέλεση της Διαμόρφωσης Εκκίνησης "
+"Openmandriva Lx"
 
 #: ../polkit/org.moondrake.drakclock.policy.in.h:1
 #, fuzzy
@@ -3561,7 +3557,8 @@ msgstr "Εκτέλεση της Διαμόρφωσης Υλικού Openmandriva
 #, fuzzy
 msgid "Authentication is required to run DrakX Hardware Configuration"
 msgstr ""
-"Απαιτείται πιστοποίηση για την εκτέλεση της Διαμόρφωσης Υλικού Openmandriva Lx"
+"Απαιτείται πιστοποίηση για την εκτέλεση της Διαμόρφωσης Υλικού Openmandriva "
+"Lx"
 
 #: ../polkit/org.moondrake.draklog.policy.in.h:1
 #, fuzzy
@@ -3572,7 +3569,8 @@ msgstr "Εκτέλεση του Προβολέα Καταγραφών Openmandri
 #, fuzzy
 msgid "Authentication is required to run DrakX Log Viewer"
 msgstr ""
-"Απαιτείται πιστοποίηση για την εκτέλεση του Προβολέα Καταγραφών Openmandriva Lx"
+"Απαιτείται πιστοποίηση για την εκτέλεση του Προβολέα Καταγραφών Openmandriva "
+"Lx"
 
 #: ../polkit/org.moondrake.drakperm.policy.in.h:1
 #, fuzzy
@@ -3596,7 +3594,8 @@ msgstr "Εκτέλεση της Διαμόρφωσης Σαρωτή Openmandriva
 #, fuzzy
 msgid "Authentication is required to run DrakX Scanner Configuration"
 msgstr ""
-"Απαιτείται πιστοποίηση για την εκτέλεση της Διαμόρφωσης Σαρωτή Openmandriva Lx"
+"Απαιτείται πιστοποίηση για την εκτέλεση της Διαμόρφωσης Σαρωτή Openmandriva "
+"Lx"
 
 #: ../polkit/org.moondrake.draksec.policy.in.h:1
 #, fuzzy
@@ -3619,7 +3618,8 @@ msgstr "Εκτέλεση της Διαμόρφωσης UPS Openmandriva Lx"
 #: ../polkit/org.moondrake.drakups.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX UPS Configuration"
-msgstr "Απαιτείται πιστοποίηση για την εκτέλεση της Διαμόρφωσης UPS Openmandriva Lx"
+msgstr ""
+"Απαιτείται πιστοποίηση για την εκτέλεση της Διαμόρφωσης UPS Openmandriva Lx"
 
 #: ../polkit/org.moondrake.moondrakeservices.policy.in.h:1
 #, fuzzy
@@ -3630,7 +3630,8 @@ msgstr "Εκτέλεση της Διαμόρφωσης Υπηρεσιών Openma
 #, fuzzy
 msgid "Authentication is required to run DrakX Service Configuration"
 msgstr ""
-"Απαιτείται πιστοποίηση για την εκτέλεση της Διαμόρφωσης Υπηρεσιών Openmandriva Lx"
+"Απαιτείται πιστοποίηση για την εκτέλεση της Διαμόρφωσης Υπηρεσιών "
+"Openmandriva Lx"
 
 #~ msgid "%s Bug Report Tool"
 #~ msgstr "Εργαλείο αναφοράς σφαλμάτων %s"
@@ -3646,7 +3647,8 @@ msgstr ""
 #~ "Εφαρμογών Openmandriva Lx"
 
 #~ msgid ""
-#~ "Authentication is required to run Openmandriva Lx Authentication Configuration"
+#~ "Authentication is required to run Openmandriva Lx Authentication "
+#~ "Configuration"
 #~ msgstr ""
 #~ "Απαιτείται πιστοποίηση για την εκτέλεση της Διαμόρφωσης Πιστοποίησης "
 #~ "Openmandriva Lx"
@@ -3657,7 +3659,8 @@ msgstr ""
 #~ "Openmandriva Lx"
 
 #~ msgid ""
-#~ "Authentication is required to run Openmandriva Lx Date and Time Configuration"
+#~ "Authentication is required to run Openmandriva Lx Date and Time "
+#~ "Configuration"
 #~ msgstr ""
 #~ "Απαιτείται πιστοποίηση για την εκτέλεση της Διαμόρφωσης Ημερομηνίας και "
 #~ "Ώρας Openmandriva Lx"
@@ -3672,23 +3675,29 @@ msgstr ""
 #~ "Απαιτείται πιστοποίηση για την εκτέλεση της Διαμόρφωσης Γραμματοσειρών "
 #~ "Openmandriva Lx"
 
-#~ msgid "Authentication is required to run Openmandriva Lx Hardware Configuration"
+#~ msgid ""
+#~ "Authentication is required to run Openmandriva Lx Hardware Configuration"
 #~ msgstr ""
-#~ "Απαιτείται πιστοποίηση για την εκτέλεση της Διαμόρφωσης Υλικού Openmandriva Lx"
+#~ "Απαιτείται πιστοποίηση για την εκτέλεση της Διαμόρφωσης Υλικού "
+#~ "Openmandriva Lx"
 
 #~ msgid "Authentication is required to run Openmandriva Lx Log Viewer"
 #~ msgstr ""
-#~ "Απαιτείται πιστοποίηση για την εκτέλεση του Προβολέα Καταγραφών Openmandriva Lx"
+#~ "Απαιτείται πιστοποίηση για την εκτέλεση του Προβολέα Καταγραφών "
+#~ "Openmandriva Lx"
 
 #~ msgid ""
-#~ "Authentication is required to run Openmandriva Lx Login Manager Configuration"
+#~ "Authentication is required to run Openmandriva Lx Login Manager "
+#~ "Configuration"
 #~ msgstr ""
 #~ "Απαιτείται πιστοποίηση για την εκτέλεση της Διαμόρφωσης του Διαχειριστή "
 #~ "Σύνδεσης Openmandriva Lx"
 
-#~ msgid "Authentication is required to run Openmandriva Lx Scanner Configuration"
+#~ msgid ""
+#~ "Authentication is required to run Openmandriva Lx Scanner Configuration"
 #~ msgstr ""
-#~ "Απαιτείται πιστοποίηση για την εκτέλεση της Διαμόρφωσης Σαρωτή Openmandriva Lx"
+#~ "Απαιτείται πιστοποίηση για την εκτέλεση της Διαμόρφωσης Σαρωτή "
+#~ "Openmandriva Lx"
 
 #~ msgid ""
 #~ "Authentication is required to run Openmandriva Lx Security Permissions "
@@ -3697,14 +3706,16 @@ msgstr ""
 #~ "Απαιτείται πιστοποίηση για την εκτέλεση της Διαμόρφωσης Αδειών Ασφαλείας "
 #~ "Openmandriva Lx"
 
-#~ msgid "Authentication is required to run Openmandriva Lx Service Configuration"
+#~ msgid ""
+#~ "Authentication is required to run Openmandriva Lx Service Configuration"
 #~ msgstr ""
 #~ "Απαιτείται πιστοποίηση για την εκτέλεση της Διαμόρφωσης Υπηρεσιών "
 #~ "Openmandriva Lx"
 
 #~ msgid "Authentication is required to run Openmandriva Lx UPS Configuration"
 #~ msgstr ""
-#~ "Απαιτείται πιστοποίηση για την εκτέλεση της Διαμόρφωσης UPS Openmandriva Lx"
+#~ "Απαιτείται πιστοποίηση για την εκτέλεση της Διαμόρφωσης UPS Openmandriva "
+#~ "Lx"
 
 #~ msgid "Configure authentication required to access %s tools"
 #~ msgstr ""
