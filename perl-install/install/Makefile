@@ -2,7 +2,7 @@ include ../../Makefile.config
 include ../Makefile.config
 
 PRODUCT=$(FAMILY)-stage2
-COMPRESS ?= xz --x86 --lzma2 -ve --check=crc32
+COMPRESS ?= xz -T0 --x86 --lzma2 -ve9 --check=crc32
 
 STAGE2_DEST = $(ROOTDEST)/install/stage2
 DEST = $(STAGE2_DEST)/live
@@ -10,9 +10,13 @@ DEST = $(STAGE2_DEST)/live
 REP4PMS     = /usr/lib/libDrakX
 DESTREP4PMS = $(DEST)$(REP4PMS)
 
-all: xs
+all: pixmaps/left-background.png xs
 
-clean xs:
+xs:
+	make -C .. $@
+
+clean:
+	rm -f pixmaps/left-background.png
 	make -C .. $@
 
 dist: dist-git
@@ -27,8 +31,13 @@ dist-svn:
 	rm -rf $(PRODUCT)-$(VERSION)
 
 dist-git:
-	@cd ../..; git archive --prefix=$(PRODUCT)-$(VERSION)/ HEAD kernel perl-install tools Makefile.config | xz >$(PRODUCT)-$(VERSION).tar.xz;
-	@echo WARNING: rpmsrate is MISSING!!!
+	cd ../..; git archive --prefix=$(PRODUCT)-$(VERSION)/ HEAD kernel perl-install tools images/tree/root Makefile.config > perl-install/install/$(PRODUCT)-$(VERSION).tar
+	cd share/meta-task; \
+	git archive --format=tar --prefix=$(PRODUCT)-$(VERSION)/perl-install/install/share/meta-task/ HEAD . > meta-task-$(PRODUCT)-$(VERSION).tar
+	gtar --concatenate --file=$(PRODUCT)-$(VERSION).tar share/meta-task/meta-task-$(PRODUCT)-$(VERSION).tar
+	rm share/meta-task/meta-task-$(PRODUCT)-$(VERSION).tar
+	xz -v9ef -T0 $(PRODUCT)-$(VERSION).tar
+	git tag $(PRODUCT)-$(VERSION)
 
 tar:
 	rm -rf $(PRODUCT)*.tar* $(PRODUCT)-$(VERSION)
@@ -55,10 +64,10 @@ install_pms:
 	cd .. ; for i in $(PMS); do \
 		dest=$(DESTDIR)$(DESTREP4PMS)/`dirname $$i`; \
 		install -d $$dest; \
-		perl -pe 's/#[-+].*//; $$_ = "\n" if (/^=(back|begin|head|item)/ .. /^=cut/) || /use (diagnostics|strict|vars|warnings)/' $$i > $(DESTDIR)$(DESTREP4PMS)/$$i; \
+		perl -pe 's/#[-+].*//; $$_ = "\n" if (/^=(back|begin|head|item|over|pod)/ .. /^=cut/) || /use (diagnostics|strict|vars|warnings)/' $$i > $(DESTDIR)$(DESTREP4PMS)/$$i; \
 	done
 
-	cp ../share/*.rc share/*.rc $(DESTDIR)$(DESTREP4PMS)
+	cp ../share/*.css $(DESTDIR)$(DESTREP4PMS)
 	chmod a+x $(DESTDIR)$(DESTREP4PMS)/install/install2
 	chmod a+x $(DESTDIR)$(DESTREP4PMS)/install/commands
 
@@ -84,17 +93,20 @@ get_needed_files: xs
 # ta: font problem
 	rm -rf $(DESTDIR)$(DEST)/usr/share/locale_special/{be,fur,ta}
 
+
+pixmaps/left-background.png: pixmaps/left-background.xcf
+	../../tools/xcf2png  -i $^ -o $@ -a indexed -c 75
+
 full_stage2:
 	$(MAKE) stage2
 	@if [ "$${DEBUG_INSTALL+xxx}" ]; then make dont_run_directly_stage2; else : ; fi
 	$(MAKE) compress
 
 compress:
-	# simple & ugly hack for now..
-	(cd $(DESTDIR)$(STAGE2_DEST)/live; find | cpio -o -H newc | $(COMPRESS)) > $(DESTDIR)$(STAGE2_DEST)/mdkinst.cpio.xz
+	(cd $(DESTDIR)$(STAGE2_DEST)/live; find | cpio -o -H newc --owner=root:root | $(COMPRESS)) > $(DESTDIR)$(STAGE2_DEST)/mdkinst.cpio.xz
 	rm -rf $(DESTDIR)$(STAGE2_DEST)/live
 
-stage2:
+stage2: pixmaps/left-background.png
 	rm -rf $(DESTDIR)$(DEST)
 	mkdir -p $(DESTDIR)$(DEST)
 	$(MAKE) get_needed_files 

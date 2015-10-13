@@ -1,4 +1,4 @@
-package diskdrake::interactive; # $Id$
+package diskdrake::interactive;
 
 use utf8;
 
@@ -600,9 +600,6 @@ sub Delete {
 	delete $part->{loopback_device}{loopback} if @$l == 0;
 	fsedit::recompute_loopbacks($all_hds);
     } else {
-	if (arch() =~ /ppc/) {
-	    undef $partition_table::mac::bootstrap_part if isAppleBootstrap($part) && ($part->{device} = $partition_table::mac::bootstrap_part);
-	}
 	partition_table::remove($hd, $part);
 	warn_if_renumbered($in, $hd);
     }
@@ -950,8 +947,21 @@ sub dmcrypt_open {
 	delete $part->{dmcrypt_key};
 	die(($? >> 8) == 255 ? N("Invalid key") : $@);
     }
-    # Detect LVMs on top of dmcrypt
+    detect_lvms_on_dmcrypt($all_hds);
+}
+
+# Detect LVMs on top of dmcrypt
+sub detect_lvms_on_dmcrypt {
+    my ($all_hds) = @_,
+    require File::Temp;
+    require fs::dmcrypt;
+    my (undef, $tmp_file) = File::Temp::mkstemp('/tmp/crypttab.XXXXXXX');
+    fs::dmcrypt::save_crypttab_($all_hds, $tmp_file);
     $all_hds->{lvms} = [ fsedit::lvms($all_hds) ];
+    fs::dmcrypt::read_crypttab_($all_hds, $tmp_file);
+    rm_rf($tmp_file);
+    require lvm;
+    lvm::detect_during_install() if $::isInstall;
 }
 
 sub Add2RAID {
@@ -1369,16 +1379,7 @@ sub format_part_info {
     $info .= N("Volume label: ") . "$part->{device_LABEL}\n" if $part->{device_LABEL};
     $info .= N("UUID: ") . "$part->{device_UUID}\n" if $::expert && $part->{device_UUID};
     $info .= N("DOS drive letter: %s (just a guess)\n", $part->{device_windobe}) if $part->{device_windobe};
-    if (arch() eq "ppc") {
-	my $pType = $part->{pType};
-	$pType =~ s/[^A-Za-z0-9_]//g;
-	$info .= N("Type: ") . $pType . ($::expert ? sprintf " (0x%x)", $part->{pt_type} : '') . "\n";
-	if (defined $part->{pName}) {
-	    my $pName = $part->{pName};
-	    $pName =~ s/[^A-Za-z0-9_]//g;
-	    $info .= N("Name: ") . $pName . "\n";
-	}
-    } elsif (isEmpty($part)) {
+    if (isEmpty($part)) {
 	$info .= N("Empty") . "\n";
     } else {
 	$info .= N("Type: ") . (fs::type::part2type_name($part) || $part->{fs_type}) . ($::expert ? sprintf " (0x%x)", $part->{pt_type} : '') . "\n";

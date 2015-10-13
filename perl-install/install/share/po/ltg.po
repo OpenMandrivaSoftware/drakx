@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DrakX\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-22 00:44+0100\n"
+"POT-Creation-Date: 2015-02-18 12:31+0100\n"
 "PO-Revision-Date: 2006-09-24 17:51+0200\n"
 "Last-Translator: Māris Laureckis <marlau@inbox.lv>\n"
 "Language-Team: Latgalian <linux@latgola.lv>\n"
@@ -23,18 +23,22 @@ msgstr ""
 #: ../../advertising/MandrivaOne-advert-6.pl:1
 #: ../../advertising/MandrivaOne-advert-7.pl:1
 #: ../../advertising/MandrivaOne-advert-8.pl:1
-#: ../../advertising/MandrivaOne-advert-9.pl:1
-#, fuzzy, c-format
-msgid "OpenMandriva Lx 2013.0"
-msgstr "OpenMandriva Lx instaleišona %s"
+#, c-format
+msgid "Moondrake GNU/Linux 2013 Beta (Twelve Angry Penguins)"
+msgstr ""
 
-#: any.pm:110
+#: ../../advertising/MandrivaOne-advert-9.pl:1
+#, c-format
+msgid "Mandriva Linux 2012 Alpha (Tenacious Underdog)"
+msgstr ""
+
+#: any.pm:151
 #, c-format
 msgid "Do you have further supplementary media?"
 msgstr "Voi jiusim ir papyldus datu nesiejs?"
 
 #. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
-#: any.pm:113
+#: any.pm:154
 #, c-format
 msgid ""
 "The following media have been found and will be used during install: %s.\n"
@@ -48,91 +52,89 @@ msgstr ""
 "\n"
 "Voi jiusim ir papyldus datu nesieji deļ uzstuodeišonys?"
 
-#: any.pm:121
+#: any.pm:162
 #, c-format
 msgid "CD-ROM"
 msgstr "CD-ROM"
 
-#: any.pm:122
+#: any.pm:163
 #, c-format
 msgid "Network (HTTP)"
 msgstr "Teiklys (HTTP)"
 
-#: any.pm:123
+#: any.pm:164
 #, c-format
 msgid "Network (FTP)"
 msgstr "Teiklys (FTP)"
 
-#: any.pm:124
+#: any.pm:165
 #, c-format
 msgid "Network (NFS)"
 msgstr "Teiklys (NFS)"
 
-#: any.pm:171
+#: any.pm:224
 #, c-format
 msgid "URL of the mirror?"
 msgstr "Voi spūguļservera URL?"
 
-#: any.pm:177
+#: any.pm:230
 #, c-format
 msgid "URL must start with ftp:// or http://"
 msgstr "URL juosasuoc ar ftp:// voi http://"
 
-#: any.pm:188
-#, fuzzy, c-format
-msgid "Connecting to OpenMandriva to get the list of available mirrors..."
-msgstr ""
-"Pīsaslādzu OpenMandriva Lx teimekļam, lai sajimtu pīejamū spūguļserveru "
-"sarokstu..."
+#: any.pm:248
+#, c-format
+msgid "Contacting %s web site to get the list of available mirrors..."
+msgstr "Pīsaslādzu %s teimekļam, lai sajimtu pīejamū spūguļserveru sarokstu..."
 
-#: any.pm:193
-#, fuzzy, c-format
-msgid "Failed to get the list of available mirrors."
+#: any.pm:253
+#, c-format
+msgid "Failed contacting %s web site to get the list of available mirrors"
 msgstr ""
-"Pīsaslādzu OpenMandriva Lx teimekļam, lai sajimtu pīejamū spūguļserveru "
-"sarokstu..."
+"Dasasliegšona %s teimekļam cīta naveiksmi, lai sajimtu pīejamū spūguļserveru "
+"sarokstu"
 
-#: any.pm:203
+#: any.pm:263
 #, c-format
 msgid "Choose a mirror from which to get the packages"
 msgstr "Izavielejit spūguļserveri, nu kura jimt pakūtnis"
 
-#: any.pm:233
+#: any.pm:293
 #, c-format
 msgid "NFS setup"
 msgstr "NFS uzstuodeišona"
 
-#: any.pm:234
+#: any.pm:294
 #, c-format
 msgid "Please enter the hostname and directory of your NFS media"
 msgstr "Lyudzu, īvodit hosta vuordu i jiusu NFS datu nesieja katalogu"
 
-#: any.pm:238
+#: any.pm:298
 #, c-format
 msgid "Hostname missing"
 msgstr ""
 
-#: any.pm:239
+#: any.pm:299
 #, c-format
 msgid "Directory must begin with \"/\""
 msgstr ""
 
-#: any.pm:243
+#: any.pm:303
 #, c-format
 msgid "Hostname of the NFS mount ?"
 msgstr "Kaids ir NFS monteišonys hosta vuords?"
 
-#: any.pm:244
+#: any.pm:304
 #, c-format
 msgid "Directory"
 msgstr "Katalogs"
 
-#: any.pm:266
+#: any.pm:334
 #, c-format
 msgid "Supplementary"
 msgstr ""
 
-#: any.pm:301
+#: any.pm:369
 #, c-format
 msgid ""
 "Can't find a package list file on this mirror. Make sure the location is "
@@ -141,79 +143,79 @@ msgstr ""
 "Iz ituo spūguļservera navar atrast pakūtņu saroksta failu. Puorbaudit, voi "
 "atsarūn pareizā vītā."
 
-#: any.pm:317
+#: any.pm:394
 #, c-format
 msgid "Main Release"
 msgstr ""
 
-#: any.pm:319
+#: any.pm:396
 #, c-format
 msgid "Contrib Release"
 msgstr ""
 
-#: any.pm:321
+#: any.pm:398
 #, c-format
 msgid "Non-free Release"
 msgstr ""
 
-#: any.pm:335
+#: any.pm:436
 #, c-format
 msgid ""
 "Some hardware on your machine needs some non free firmwares in order for the "
 "free software drivers to work."
 msgstr ""
 
-#: any.pm:336
+#: any.pm:437
 #, c-format
 msgid "You should enable \"%s\""
 msgstr ""
 
-#: any.pm:355
+#: any.pm:476
 #, c-format
 msgid "\"%s\" contains the various pieces of the systems and its applications."
 msgstr ""
 
-#: any.pm:356
+#: any.pm:477
 #, c-format
 msgid ""
 "\"%s\" contains software that's not officially supported and might not "
 "receive the same level of maintenance."
 msgstr ""
 
-#: any.pm:357
+#: any.pm:478
 #, c-format
 msgid "\"%s\" contains non free software.\n"
 msgstr ""
 
-#: any.pm:358
+#: any.pm:479
 #, c-format
 msgid ""
 "It also contains firmware needed for certain devices to operate (eg: some "
 "ATI/AMD graphic cards, some network cards, some RAID cards, ...)"
 msgstr ""
 
-#: any.pm:362
+#: any.pm:483
 #, c-format
 msgid "Here you can enable more media if you want."
 msgstr ""
 
-#: any.pm:440
+#: any.pm:584
 #, c-format
 msgid "Looking at packages already installed..."
 msgstr "Mekleju jau īprīkš uzinstaleituos pakūtnis..."
 
-#: any.pm:475
+#: any.pm:619
 #, c-format
 msgid "Finding packages to upgrade..."
 msgstr "Mekleju uzlobuojamuos pakūtnis"
 
-#: any.pm:493
+#: any.pm:643
 #, c-format
 msgid "Removing packages prior to upgrade..."
 msgstr "Teik nūdzāstys pakūtnis pyrms atjaunynuošonys..."
 
 #. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
-#: any.pm:707
+#: any.pm:870
 #, c-format
 msgid ""
 "The following packages will be removed to allow upgrading your system: %s\n"
@@ -226,87 +228,87 @@ msgstr ""
 "\n"
 "Voi teišom gribit nūjimt ituos pakūtnis?\n"
 
-#: any.pm:926
+#: any.pm:1085
 #, c-format
 msgid "Error reading file %s"
 msgstr "Kliuda, nūlosūt failu %s"
 
-#: any.pm:1134
+#: any.pm:1293
 #, c-format
 msgid "The following disk(s) were renamed:"
 msgstr "Sekojūši diski tika puorsaukti:"
 
-#: any.pm:1136
+#: any.pm:1295
 #, c-format
 msgid "%s (previously named as %s)"
 msgstr "%s (īprīkš tika saukta kai %s)"
 
-#: any.pm:1193
+#: any.pm:1352
 #, c-format
 msgid "HTTP"
 msgstr "HTTP"
 
-#: any.pm:1193
+#: any.pm:1352
 #, c-format
 msgid "FTP"
 msgstr "FTP"
 
-#: any.pm:1193
+#: any.pm:1352
 #, c-format
 msgid "NFS"
 msgstr "NFS"
 
-#: any.pm:1212 steps_interactive.pm:960
+#: any.pm:1371 steps_interactive.pm:933
 #, c-format
 msgid "Network"
 msgstr "Teiklys"
 
-#: any.pm:1216
+#: any.pm:1375
 #, c-format
 msgid "Please choose a media"
 msgstr "Lyudzu, izavielejit datu nesieju"
 
-#: any.pm:1232
+#: any.pm:1391
 #, c-format
 msgid "File already exists. Overwrite it?"
 msgstr "Fails jau eksistej. Voi puorrakstēt pa viersu?"
 
-#: any.pm:1236
+#: any.pm:1395
 #, c-format
 msgid "Permission denied"
 msgstr "Pīeja līgta"
 
-#: any.pm:1284
+#: any.pm:1443
 #, c-format
 msgid "Bad NFS name"
 msgstr "Naveiksmeigs NFS vuords"
 
-#: any.pm:1305
+#: any.pm:1464
 #, c-format
 msgid "Bad media %s"
 msgstr "Napareizs datu nesiejs %s"
 
-#: any.pm:1349
+#: any.pm:1508
 #, c-format
 msgid "Cannot make screenshots before partitioning"
 msgstr "Navar izveiduot ekrana attālus pyrms sadaļu izveidis"
 
-#: any.pm:1357
+#: any.pm:1519
 #, c-format
 msgid "Screenshots will be available after install in %s"
 msgstr "Ekrana attāli byus pīejami piec instaleišonys %s"
 
-#: gtk.pm:128
+#: gtk.pm:135
 #, c-format
 msgid "Installation"
 msgstr "Instalaceja"
 
-#: gtk.pm:132
+#: gtk.pm:139 share/meta-task/compssUsers.pl:55
 #, c-format
 msgid "Configuration"
 msgstr "Konfiguraceja"
 
-#: install2.pm:168
+#: install2.pm:209
 #, c-format
 msgid "You must also format %s"
 msgstr "Jiusim ir juoformatej ari %s"
@@ -330,22 +332,22 @@ msgstr "Īdorbynoju teiklu"
 msgid "Bringing down the network"
 msgstr "Atslādzu teiklu"
 
-#: media.pm:409
+#: media.pm:404
 #, c-format
 msgid "Please wait, retrieving file"
 msgstr ""
 
-#: media.pm:717
+#: media.pm:712
 #, c-format
 msgid "unable to add medium"
 msgstr ""
 
-#: media.pm:757
+#: media.pm:752
 #, c-format
 msgid "Copying some packages on disks for future use"
 msgstr "Teik kopātys dažys pakūtnis lītuošonai nuokūtnē"
 
-#: media.pm:810
+#: media.pm:805
 #, c-format
 msgid "Copying in progress"
 msgstr "Nūteik kopeišona"
@@ -388,7 +390,7 @@ msgstr ""
 #: pkgs.pm:119
 #, c-format
 msgid "No description"
-msgstr ""
+msgstr "Nav aproksta"
 
 #: pkgs.pm:279
 #, c-format
@@ -403,9 +405,9 @@ msgid "An error occurred:"
 msgstr "Atkluota kliuda"
 
 #: pkgs.pm:394
-#, fuzzy, c-format
+#, c-format
 msgid "A fatal error occurred: %s."
-msgstr "Atkluota kliuda"
+msgstr "Nūtikuse fatala kliuda: %s."
 
 #: pkgs.pm:877 pkgs.pm:919
 #, c-format
@@ -413,14 +415,374 @@ msgid "Do not ask again"
 msgstr ""
 
 #: pkgs.pm:893
-#, fuzzy, c-format
+#, c-format
 msgid "%d installation transactions failed"
-msgstr "Instalaceja naizadeve"
+msgstr "%d instalacejis transakcejis naizadeve"
 
 #: pkgs.pm:894
 #, fuzzy, c-format
 msgid "Installation of packages failed:"
 msgstr "Instaleju pakūtni %s"
+
+#: share/meta-task/compssUsers.pl:17
+#, c-format
+msgid "Workstation"
+msgstr "Dorba staceja"
+
+#: share/meta-task/compssUsers.pl:19
+#, c-format
+msgid "Office Workstation"
+msgstr "Biroja dators"
+
+#: share/meta-task/compssUsers.pl:21
+#, c-format
+msgid ""
+"Office programs: wordprocessors (LibreOffice Writer, Kword), spreadsheets "
+"(LibreOffice Calc, Kspread), PDF viewers, etc"
+msgstr ""
+"Biroja programmys: teksta procesori (LibreOffice Writer, Kword), "
+"izkluojlopys (LibreOffice Calc, Kspread), PDF skateituoji, u.c."
+
+#: share/meta-task/compssUsers.pl:27
+#, c-format
+msgid "Game station"
+msgstr "Spēļu dators"
+
+#: share/meta-task/compssUsers.pl:28
+#, fuzzy, c-format
+msgid "Amusement programs: arcade, boards, strategy, etc."
+msgstr "Izklaidis programmys: arkade, goldaspēlis, strategeja u.c."
+
+#: share/meta-task/compssUsers.pl:32
+#, c-format
+msgid "Multimedia station"
+msgstr "Multimedeju dators"
+
+#: share/meta-task/compssUsers.pl:33
+#, c-format
+msgid "Sound and video playing/editing programs"
+msgstr "Skanis i video atskaņuošonys/redigeišonys programmys"
+
+#: share/meta-task/compssUsers.pl:38
+#, c-format
+msgid "Toys"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:39
+#, c-format
+msgid "Apps and tools of less useful value, yet entertaining..."
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:43
+#, c-format
+msgid "Internet station"
+msgstr "Interneta dators"
+
+#: share/meta-task/compssUsers.pl:44
+#, c-format
+msgid ""
+"Set of tools to read and send mail and news (mutt, tin..) and to browse the "
+"Web"
+msgstr ""
+"Reiku komplekts, lai laseitu i syuteitu postu voi jaunumus (mutt, tin..), i "
+"puorlyukuotu Puorstaipteiklu"
+
+#: share/meta-task/compssUsers.pl:49
+#, c-format
+msgid "Network Computer (client)"
+msgstr "Teikla dators (klients)"
+
+#: share/meta-task/compssUsers.pl:50
+#, c-format
+msgid "Clients for different protocols including ssh"
+msgstr "Klienti dažaidim protokolim, īskaitūt ssh"
+
+#: share/meta-task/compssUsers.pl:56
+#, c-format
+msgid "Tools to ease the configuration of your computer"
+msgstr "Reiki datora konfigureišonys atvīgluošonai"
+
+#: share/meta-task/compssUsers.pl:60
+#, c-format
+msgid "Console Tools"
+msgstr "Konsolis reiki"
+
+#: share/meta-task/compssUsers.pl:61
+#, c-format
+msgid "Editors, shells, file tools, terminals"
+msgstr "Redaktori, čaulys, failu reiki, terminali"
+
+#: share/meta-task/compssUsers.pl:65 share/meta-task/compssUsers.pl:201
+#: share/meta-task/compssUsers.pl:203
+#, c-format
+msgid "Development"
+msgstr "Izstruode"
+
+#: share/meta-task/compssUsers.pl:66 share/meta-task/compssUsers.pl:204
+#, c-format
+msgid "C and C++ development libraries, programs and include files"
+msgstr "C i C++ izstruodis bibliotekys, programmys i īkļautī faili"
+
+#: share/meta-task/compssUsers.pl:70 share/meta-task/compssUsers.pl:208
+#, c-format
+msgid "Documentation"
+msgstr "Dokumentaceja"
+
+#: share/meta-task/compssUsers.pl:71 share/meta-task/compssUsers.pl:209
+#, c-format
+msgid "Books and Howto's on Linux and Free Software"
+msgstr "Gruomotys i vaicuojumu par Linux i Breivū programmaturu"
+
+#: share/meta-task/compssUsers.pl:75 share/meta-task/compssUsers.pl:212
+#, c-format
+msgid "LSB"
+msgstr "LSB"
+
+#: share/meta-task/compssUsers.pl:76 share/meta-task/compssUsers.pl:213
+#, c-format
+msgid "Linux Standard Base. Third party applications support"
+msgstr "Linuks Standarta Bāze. Trešū izstruoduoju aplikaceju atbolsts"
+
+#: share/meta-task/compssUsers.pl:87
+#, c-format
+msgid "Web Server"
+msgstr "Puorstaipteikla (Web) servers"
+
+#: share/meta-task/compssUsers.pl:88
+#, c-format
+msgid "Apache"
+msgstr "Apache"
+
+#: share/meta-task/compssUsers.pl:92
+#, c-format
+msgid "Groupware"
+msgstr "Groupware"
+
+#: share/meta-task/compssUsers.pl:93
+#, c-format
+msgid "Kolab Server"
+msgstr "Kolab servers"
+
+#: share/meta-task/compssUsers.pl:96 share/meta-task/compssUsers.pl:146
+#, c-format
+msgid "Firewall/Router"
+msgstr "Gunsmyurs/Maršrutizators"
+
+#: share/meta-task/compssUsers.pl:97 share/meta-task/compssUsers.pl:147
+#, c-format
+msgid "Internet gateway"
+msgstr "Interneta vuorteja"
+
+#: share/meta-task/compssUsers.pl:100
+#, c-format
+msgid "Mail/News"
+msgstr "Posts/Jauns"
+
+#: share/meta-task/compssUsers.pl:101
+#, c-format
+msgid "Postfix mail server, Inn news server"
+msgstr "Postfix posta servers, Inn ziņu servers"
+
+#: share/meta-task/compssUsers.pl:105
+#, c-format
+msgid "Directory Server"
+msgstr "Katalogu Servers"
+
+#: share/meta-task/compssUsers.pl:110
+#, c-format
+msgid "FTP Server"
+msgstr "FTP servers"
+
+#: share/meta-task/compssUsers.pl:111
+#, c-format
+msgid "ProFTPd"
+msgstr "ProFTPd"
+
+#: share/meta-task/compssUsers.pl:115
+#, c-format
+msgid "DNS/NIS"
+msgstr "DNS/NIS"
+
+#: share/meta-task/compssUsers.pl:116
+#, c-format
+msgid "Domain Name and Network Information Server"
+msgstr "DNS i NIS servers"
+
+#: share/meta-task/compssUsers.pl:120
+#, c-format
+msgid "File and Printer Sharing Server"
+msgstr "Failu un Printeru Kūplītuošonys servers"
+
+#: share/meta-task/compssUsers.pl:121
+#, c-format
+msgid "NFS Server, Samba server"
+msgstr "NFS servers, Samba servers"
+
+#: share/meta-task/compssUsers.pl:125 share/meta-task/compssUsers.pl:141
+#, c-format
+msgid "Database"
+msgstr "Datubāzis"
+
+#: share/meta-task/compssUsers.pl:126
+#, c-format
+msgid "PostgreSQL and MariaDB Database Server"
+msgstr "PostgreSQL i MariaDB datubāžu servers"
+
+#: share/meta-task/compssUsers.pl:131
+#, c-format
+msgid "Web/FTP"
+msgstr "Teimeklis/FTP"
+
+#: share/meta-task/compssUsers.pl:132
+#, c-format
+msgid "Apache, Pro-ftpd"
+msgstr "Apache, Pro-ftpd"
+
+#: share/meta-task/compssUsers.pl:136
+#, c-format
+msgid "Mail"
+msgstr "Posts"
+
+#: share/meta-task/compssUsers.pl:137
+#, c-format
+msgid "Postfix mail server"
+msgstr "Postfix posta servers"
+
+#: share/meta-task/compssUsers.pl:142
+#, c-format
+msgid "PostgreSQL or MariaDB database server"
+msgstr "PostgreSQL voi MariaDB datubāžu servers"
+
+#: share/meta-task/compssUsers.pl:150
+#, c-format
+msgid "Network Computer server"
+msgstr "Teikla datoru servers"
+
+#: share/meta-task/compssUsers.pl:151
+#, c-format
+msgid "NFS server, SMB server, Proxy server, ssh server"
+msgstr "NFS servers, SMB servers, storpnīkservers (Proxy), ssh servers"
+
+#: share/meta-task/compssUsers.pl:159
+#, c-format
+msgid "Graphical Environment"
+msgstr "Grafiskuo vide"
+
+#: share/meta-task/compssUsers.pl:163
+#, c-format
+msgid "KDE Workstation"
+msgstr "KDE dorba staceja"
+
+#: share/meta-task/compssUsers.pl:164
+#, c-format
+msgid ""
+"The K Desktop Environment, the basic graphical environment with a collection "
+"of accompanying tools"
+msgstr ""
+"K Desktop Environment, golvonuo grafiskuo vide kūpā ar papyldus reiku "
+"kolekceju"
+
+#: share/meta-task/compssUsers.pl:169
+#, c-format
+msgid "GNOME Workstation"
+msgstr "Gnome dorba staceja"
+
+#: share/meta-task/compssUsers.pl:170
+#, c-format
+msgid ""
+"A graphical environment with user-friendly set of applications and desktop "
+"tools"
+msgstr ""
+"Grafiskuo vide ar lītuotuojam draudzeigu programmu komplektu i dorba "
+"viersmys reikim"
+
+#: share/meta-task/compssUsers.pl:175
+#, fuzzy, c-format
+msgid "Xfce Workstation"
+msgstr "Biroja dators"
+
+#: share/meta-task/compssUsers.pl:176
+#, fuzzy, c-format
+msgid ""
+"A lighter graphical environment with user-friendly set of applications and "
+"desktop tools"
+msgstr ""
+"Grafiskuo vide ar lītuotuojam draudzeigu programmu komplektu i dorba "
+"viersmys reikim"
+
+#: share/meta-task/compssUsers.pl:181
+#, fuzzy, c-format
+msgid "LXDE Desktop"
+msgstr "IceWm Dorba viersma"
+
+#: share/meta-task/compssUsers.pl:183
+#, fuzzy, c-format
+msgid ""
+"A lightweight & fast graphical environment with user-friendly set of "
+"applications and desktop tools"
+msgstr ""
+"Grafiskuo vide ar lītuotuojam draudzeigu programmu komplektu i dorba "
+"viersmys reikim"
+
+#: share/meta-task/compssUsers.pl:188
+#, c-format
+msgid "Other Graphical Desktops"
+msgstr "Cytys grafiskuos dorba viersmys"
+
+#: share/meta-task/compssUsers.pl:189
+#, fuzzy, c-format
+msgid "Window Maker, Enlightenment, Fvwm, etc."
+msgstr "Window Maker, Enlightenment, Fvwm u.c."
+
+#: share/meta-task/compssUsers.pl:192
+#, c-format
+msgid "Media Center"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:193
+#, c-format
+msgid "XBMC, MythTV, etc."
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:218
+#, c-format
+msgid "Utilities"
+msgstr "Utilitys"
+
+#: share/meta-task/compssUsers.pl:220 share/meta-task/compssUsers.pl:221
+#, c-format
+msgid "SSH Server"
+msgstr "SSH servers"
+
+#: share/meta-task/compssUsers.pl:225
+#, c-format
+msgid "Webmin"
+msgstr "Webmin"
+
+#: share/meta-task/compssUsers.pl:226
+#, c-format
+msgid "Webmin Remote Configuration Server"
+msgstr "Webmin attuolynuotuos konfiguracejis servers "
+
+#: share/meta-task/compssUsers.pl:230
+#, c-format
+msgid "Network Utilities/Monitoring"
+msgstr "Teikla utilitys/puorraudzeiba"
+
+#: share/meta-task/compssUsers.pl:231
+#, c-format
+msgid "Monitoring tools, processes accounting, tcpdump, nmap, ..."
+msgstr "Puorraudzeibys reiki, procesu uzskaite, tcpdump, nmap, ..."
+
+#: share/meta-task/compssUsers.pl:235
+#, fuzzy, c-format
+msgid "DrakX Wizards"
+msgstr "Moondrake paleigi"
+
+#: share/meta-task/compssUsers.pl:236
+#, c-format
+msgid "Wizards to configure server"
+msgstr "Servera konfiguracejis paleigi"
 
 #: steps.pm:85
 #, c-format
@@ -431,7 +793,7 @@ msgstr ""
 "Nūtyka klaida, bet es nazynu, kai tū korekti apstruoduot.\n"
 "Turpynuot iz jiusu poša riska."
 
-#: steps.pm:452
+#: steps.pm:449
 #, c-format
 msgid ""
 "Some important packages did not get installed properly.\n"
@@ -451,143 +813,142 @@ msgstr "Teik uzsuokts sūļs `%s'\n"
 
 #: steps_curses.pm:22
 #, c-format
-msgid "OpenMandriva Lx Installation %s"
-msgstr "OpenMandriva Lx instaleišona %s"
+msgid "%s Installation %s"
+msgstr "%s instaleišona %s"
 
 #: steps_curses.pm:32
 #, c-format
 msgid "<Tab>/<Alt-Tab> between elements"
 msgstr "<Tab>/<Alt-Tab> puorīt"
 
-#: steps_gtk.pm:151
+#: steps_gtk.pm:158
 #, c-format
 msgid "Xorg server is slow to start. Please wait..."
 msgstr ""
 
-#: steps_gtk.pm:216
-#, fuzzy, c-format
+#: steps_gtk.pm:223
+#, c-format
 msgid ""
 "Your system is low on resources. You may have some problem installing\n"
-"OpenMandriva Lx. If that occurs, you can try a text install instead. To do "
-"this,\n"
-"press `F1' at the boot menu, then enter `text'."
+"%s. If that occurs, you can try a text install instead. For this,\n"
+"press `F1' when booting on CDROM, then enter `text'."
 msgstr ""
-"Jiusu sistemai tryukst resursu. OpenMandriva Lx instaleišonys laikā var\n"
+"Jiusu sistemai tryukst resursu. %s instaleišonys laikā var\n"
 "rastīs problemys. Ja tai nūteik, varit pamieginuot teksta režima "
 "instaleišonu. Lai tū izdareitu,\n"
 "nūspīdit`F1', kod nūteik īluode nu CDROM, tod īvodit `text'."
 
-#: steps_gtk.pm:246 steps_gtk.pm:761
+#: steps_gtk.pm:253 steps_gtk.pm:790
 #, fuzzy, c-format
 msgid "Media Selection"
 msgstr "Pakūtņu grupu izviele"
 
-#: steps_gtk.pm:257
-#, c-format
-msgid "Install KDE Desktop Environment"
-msgstr ""
+#: steps_gtk.pm:264
+#, fuzzy, c-format
+msgid "Install %s KDE Desktop"
+msgstr "IceWm Dorba viersma"
 
-#: steps_gtk.pm:258
-#, c-format
-msgid "Install GNOME Desktop Environment"
-msgstr ""
+#: steps_gtk.pm:265
+#, fuzzy, c-format
+msgid "Install %s GNOME Desktop"
+msgstr "IceWm Dorba viersma"
 
-#: steps_gtk.pm:259
+#: steps_gtk.pm:266
 #, fuzzy, c-format
 msgid "Custom install"
 msgstr "Minimala instaleišona"
 
-#: steps_gtk.pm:280
+#: steps_gtk.pm:287
 #, fuzzy, c-format
 msgid "KDE Desktop"
 msgstr "IceWm Dorba viersma"
 
-#: steps_gtk.pm:281
+#: steps_gtk.pm:288
 #, fuzzy, c-format
 msgid "GNOME Desktop"
 msgstr "IceWm Dorba viersma"
 
-#: steps_gtk.pm:282
+#: steps_gtk.pm:289
 #, fuzzy, c-format
 msgid "Custom Desktop"
 msgstr "IceWm Dorba viersma"
 
-#: steps_gtk.pm:288
+#: steps_gtk.pm:295
 #, c-format
 msgid "Here's a preview of the '%s' desktop."
 msgstr ""
 
-#: steps_gtk.pm:315
+#: steps_gtk.pm:322
 #, c-format
 msgid "Click on images in order to see a bigger preview"
 msgstr ""
 
-#: steps_gtk.pm:331 steps_interactive.pm:628 steps_list.pm:31
+#: steps_gtk.pm:338 steps_interactive.pm:595 steps_list.pm:31
 #, c-format
 msgid "Package Group Selection"
 msgstr "Pakūtņu grupu izviele"
 
-#: steps_gtk.pm:355 steps_interactive.pm:645
+#: steps_gtk.pm:361 steps_interactive.pm:612
 #, c-format
 msgid "Individual package selection"
 msgstr "Atsevišku pakūtņu izviele"
 
-#: steps_gtk.pm:362
+#: steps_gtk.pm:368
 #, c-format
 msgid "Unselect All"
 msgstr ""
 
-#: steps_gtk.pm:380 steps_interactive.pm:557
+#: steps_gtk.pm:387 steps_interactive.pm:524
 #, c-format
 msgid "Total size: %d / %d MB"
 msgstr "Kūpejais izmārs: %d / %d MB"
 
-#: steps_gtk.pm:425
+#: steps_gtk.pm:432
 #, c-format
 msgid "Version: "
 msgstr "Verseja: "
 
-#: steps_gtk.pm:426
+#: steps_gtk.pm:433
 #, c-format
 msgid "Size: "
 msgstr "Izmārs: "
 
-#: steps_gtk.pm:426
+#: steps_gtk.pm:433
 #, c-format
 msgid "%d KB\n"
 msgstr "%d KB\n"
 
-#: steps_gtk.pm:427
+#: steps_gtk.pm:434
 #, c-format
 msgid "Importance: "
 msgstr "Svareigums: "
 
-#: steps_gtk.pm:462
+#: steps_gtk.pm:469
 #, c-format
 msgid "You cannot select/unselect this package"
 msgstr "Jius varit izavielēt/atsateikt nu ituos pakūtnis"
 
-#: steps_gtk.pm:466
+#: steps_gtk.pm:473
 #, c-format
 msgid "due to missing %s"
 msgstr "tryukuma dieļ %s"
 
-#: steps_gtk.pm:467
+#: steps_gtk.pm:474
 #, c-format
 msgid "due to unsatisfied %s"
 msgstr "deļ naapmīrynuojuma %s"
 
-#: steps_gtk.pm:468
+#: steps_gtk.pm:475
 #, c-format
 msgid "trying to promote %s"
 msgstr "teik mieginuots aktivizēt %s"
 
-#: steps_gtk.pm:469
+#: steps_gtk.pm:476
 #, c-format
 msgid "in order to keep %s"
 msgstr "lai saglobuot %s"
 
-#: steps_gtk.pm:474
+#: steps_gtk.pm:481
 #, c-format
 msgid ""
 "You cannot select this package as there is not enough space left to install "
@@ -596,109 +957,119 @@ msgstr ""
 "Jius navarit izavielēt itū pakūtni, par tū ka napīteik vītys tuos "
 "instaleišonai"
 
-#: steps_gtk.pm:477
+#: steps_gtk.pm:484
 #, c-format
 msgid "The following packages are going to be installed"
 msgstr "Tiks instaleitys sekojūšys pakūtnis"
 
-#: steps_gtk.pm:478
+#: steps_gtk.pm:485
 #, c-format
 msgid "The following packages are going to be removed"
 msgstr "Tiks nūjimtys sekojūšys pakūtnis"
 
-#: steps_gtk.pm:504
+#: steps_gtk.pm:511
 #, c-format
 msgid "This is a mandatory package, it cannot be unselected"
 msgstr "Itei ir obligata pakūtne, nu tuos navar atsateikt"
 
-#: steps_gtk.pm:506
+#: steps_gtk.pm:513
 #, c-format
 msgid "You cannot unselect this package. It is already installed"
 msgstr "Jius navarit atsateikt nu ituos pakūtnis. Tei jau ir instaleita"
 
-#: steps_gtk.pm:508
+#: steps_gtk.pm:515
 #, c-format
 msgid "You cannot unselect this package. It must be upgraded"
 msgstr "Jius navarit atsateikt nu ituos pakūtnis. Tū ir napīcīšoms uzlobuot"
 
-#: steps_gtk.pm:512
+#: steps_gtk.pm:519
 #, c-format
 msgid "Show automatically selected packages"
 msgstr "Paruodeit automatiski izvālātuos pakūtnis"
 
-#: steps_gtk.pm:516
+#: steps_gtk.pm:523
 #, c-format
 msgid "Install"
 msgstr "Instalēt"
 
-#: steps_gtk.pm:519
+#: steps_gtk.pm:526
 #, c-format
 msgid "Load/Save selection"
 msgstr "Īluodēt/Saglobuot izviele"
 
-#: steps_gtk.pm:520
+#: steps_gtk.pm:527
 #, c-format
 msgid "Updating package selection"
 msgstr "Teik atjaunynuota pakūtņu izviele"
 
-#: steps_gtk.pm:525
+#: steps_gtk.pm:532
 #, c-format
 msgid "Minimal install"
 msgstr "Minimala instaleišona"
 
-#: steps_gtk.pm:538
+#: steps_gtk.pm:545
 #, c-format
 msgid "Software Management"
 msgstr "Programmaturys puorvaļdeišona"
 
-#: steps_gtk.pm:538 steps_interactive.pm:438
+#: steps_gtk.pm:545 steps_interactive.pm:405
 #, c-format
 msgid "Choose the packages you want to install"
 msgstr "Izavielejit pakūtnis, kū gribit instalēt"
 
-#: steps_gtk.pm:555 steps_interactive.pm:659 steps_list.pm:33
+#: steps_gtk.pm:562 steps_interactive.pm:626 steps_list.pm:33
 #, c-format
 msgid "Installing"
 msgstr "Teik instaleits"
 
-#: steps_gtk.pm:586
+#: steps_gtk.pm:593
+#, c-format
+msgid "Bored?"
+msgstr ""
+
+#: steps_gtk.pm:593
+#, c-format
+msgid "Boss button"
+msgstr ""
+
+#: steps_gtk.pm:599
 #, c-format
 msgid "No details"
 msgstr "Nav detaļu"
 
-#: steps_gtk.pm:605
+#: steps_gtk.pm:633
 #, fuzzy, c-format
 msgid "Time remaining:"
 msgstr "Atlykušais laiks"
 
-#: steps_gtk.pm:606
+#: steps_gtk.pm:634
 #, fuzzy, c-format
 msgid "(estimating...)"
 msgstr "Aptuvenais nūviertiejums"
 
-#: steps_gtk.pm:636
+#: steps_gtk.pm:664
 #, fuzzy, c-format
 msgid "%d package"
 msgid_plural "%d packages"
 msgstr[0] "%d pakūtnis"
 msgstr[1] "%d pakūtnis"
 
-#: steps_gtk.pm:691 steps_interactive.pm:824 steps_list.pm:44
+#: steps_gtk.pm:720 steps_interactive.pm:794 steps_list.pm:44
 #, c-format
 msgid "Summary"
 msgstr "Kūpsavylkums"
 
-#: steps_gtk.pm:710
+#: steps_gtk.pm:739
 #, c-format
 msgid "Configure"
 msgstr "Konfigurēt"
 
-#: steps_gtk.pm:727 steps_interactive.pm:820 steps_interactive.pm:973
+#: steps_gtk.pm:756 steps_interactive.pm:790 steps_interactive.pm:946
 #, c-format
 msgid "not configured"
 msgstr "nav konfigurāts"
 
-#: steps_gtk.pm:770 steps_interactive.pm:336
+#: steps_gtk.pm:799 steps_interactive.pm:303
 #, c-format
 msgid ""
 "The following installation media have been found.\n"
@@ -707,7 +1078,7 @@ msgstr ""
 "Atrosti sekojūši instalacejis datu nesieji.\n"
 "Ja jius gribit izlaist dažus nu tim, jius tagad varit nūjimt atzeimi nu tim."
 
-#: steps_gtk.pm:786 steps_interactive.pm:342
+#: steps_gtk.pm:815 steps_interactive.pm:309
 #, c-format
 msgid ""
 "You have the option to copy the contents of the CDs onto the hard disk drive "
@@ -720,7 +1091,7 @@ msgstr ""
 "Taidā veidā turpynuosīs nu cītuo diska un pakūtnis byus pīejamys cikom "
 "sistema tiks piļneibā uzinstaleita."
 
-#: steps_gtk.pm:788 steps_interactive.pm:344
+#: steps_gtk.pm:817 steps_interactive.pm:311
 #, c-format
 msgid "Copy whole CDs"
 msgstr "Kopēt vysu kompaktdisku"
@@ -785,8 +1156,7 @@ msgstr ""
 #: steps_interactive.pm:215
 #, c-format
 msgid ""
-"The installer has detected that your current OpenMandriva Lx system could "
-"not\n"
+"Installer has detected that your installed %s system could not\n"
 "safely be upgraded to %s.\n"
 "\n"
 "A new installation replacing your previous one is recommended.\n"
@@ -795,38 +1165,7 @@ msgid ""
 "Installation\"."
 msgstr ""
 
-#: steps_interactive.pm:262
-#, c-format
-msgid "IDE"
-msgstr "IDE"
-
-#: steps_interactive.pm:262
-#, c-format
-msgid "Configuring IDE"
-msgstr "Teik konfigurāts IDE"
-
-#: steps_interactive.pm:294
-#, c-format
-msgid ""
-"No free space for 1MB bootstrap! Install will continue, but to boot your "
-"system, you'll need to create the bootstrap partition in DiskDrake"
-msgstr ""
-"Nav 1MB breivys vītys suokneišonys programmai! Instaleišona turpynuosīs, bet "
-"lai īluodātu sistemu, jiusim vajadzēs izveiduot suokneišonys programmys "
-"diska sadali programmā DiskDrake"
-
-#: steps_interactive.pm:299
-#, c-format
-msgid ""
-"You'll need to create a PPC PReP Boot bootstrap! Install will continue, but "
-"to boot your system, you'll need to create the bootstrap partition in "
-"DiskDrake"
-msgstr ""
-"Jiusim vajadzēs izveiduot PPC PReP Boot suokneišonys programmu! Instaleišona "
-"turpynuosīs, bet lai īluodātu sistemu, jiusim vajadzēs izveiduot "
-"suokneišonys programmys diska sadali programmā DiskDrake"
-
-#: steps_interactive.pm:375
+#: steps_interactive.pm:342
 #, c-format
 msgid ""
 "Change your Cd-Rom!\n"
@@ -840,19 +1179,19 @@ msgstr ""
 "Ja jiusim nav ituo diska, nūspīdit Atceļt, lai nainstaleitu nu ituo "
 "kompaktdiska."
 
-#: steps_interactive.pm:393
+#: steps_interactive.pm:360
 #, c-format
 msgid "Looking for available packages..."
 msgstr "Mekleju pīejamuos pakūtnis"
 
-#: steps_interactive.pm:401
+#: steps_interactive.pm:368
 #, c-format
 msgid ""
 "Your system does not have enough space left for installation or upgrade "
 "(%dMB > %dMB)"
 msgstr ""
 
-#: steps_interactive.pm:451
+#: steps_interactive.pm:418
 #, c-format
 msgid ""
 "Please choose load or save package selection.\n"
@@ -861,52 +1200,52 @@ msgstr ""
 "Lyudzu izavielejit īluodēt voi saglobuot pakūtņu izvieli.\n"
 "Formats ir taids pats, kai ar auto_install generātom failim."
 
-#: steps_interactive.pm:453
+#: steps_interactive.pm:420
 #, c-format
 msgid "Load"
 msgstr "Īluodēt"
 
-#: steps_interactive.pm:453
+#: steps_interactive.pm:420
 #, c-format
 msgid "Save"
 msgstr "Saglobuot"
 
-#: steps_interactive.pm:461
+#: steps_interactive.pm:428
 #, c-format
 msgid "Bad file"
 msgstr "Napareizs fails"
 
-#: steps_interactive.pm:478
-#, fuzzy, c-format
+#: steps_interactive.pm:445
+#, c-format
 msgid "KDE"
-msgstr "IDE"
+msgstr "KDE"
 
-#: steps_interactive.pm:479
+#: steps_interactive.pm:446
 #, c-format
 msgid "GNOME"
 msgstr "GNOME"
 
-#: steps_interactive.pm:482
+#: steps_interactive.pm:449
 #, fuzzy, c-format
 msgid "Desktop Selection"
 msgstr "Pakūtņu grupu izviele"
 
-#: steps_interactive.pm:483
+#: steps_interactive.pm:450
 #, c-format
 msgid "You can choose your workstation desktop profile."
 msgstr ""
 
-#: steps_interactive.pm:571
+#: steps_interactive.pm:538
 #, c-format
 msgid "Selected size is larger than available space"
 msgstr "Izvālātais apjūms ir leluoks nakai pīejamuo vīta"
 
-#: steps_interactive.pm:595
+#: steps_interactive.pm:562
 #, c-format
 msgid "Type of install"
 msgstr "Instalacejis tips"
 
-#: steps_interactive.pm:596
+#: steps_interactive.pm:563
 #, c-format
 msgid ""
 "You have not selected any group of packages.\n"
@@ -915,87 +1254,87 @@ msgstr ""
 "Jius naizavielēt nivīnu pakūtņu grupu.\n"
 "Lyudzu, izavielejit minimalū instalaceju, kaidu jius gribit:"
 
-#: steps_interactive.pm:601
+#: steps_interactive.pm:568
 #, c-format
 msgid "With X"
 msgstr "Ar X"
 
-#: steps_interactive.pm:602
+#: steps_interactive.pm:569
 #, fuzzy, c-format
 msgid "Install suggested packages"
 msgstr "Instaleju pakūtni %s"
 
-#: steps_interactive.pm:603
+#: steps_interactive.pm:570
 #, c-format
 msgid "With basic documentation (recommended!)"
 msgstr "Ar pamatdokumentaceju (īteicams!)"
 
-#: steps_interactive.pm:604
+#: steps_interactive.pm:571
 #, c-format
 msgid "Truly minimal install (especially no urpmi)"
 msgstr "Patīši minimala instalaceja (īpaši bez urpmi)"
 
-#: steps_interactive.pm:660
+#: steps_interactive.pm:627
 #, c-format
 msgid "Preparing installation"
 msgstr "Sagataveju instaleišonu"
 
-#: steps_interactive.pm:668
+#: steps_interactive.pm:635
 #, c-format
 msgid "Installing package %s"
 msgstr "Instaleju pakūtni %s"
 
-#: steps_interactive.pm:692
+#: steps_interactive.pm:659
 #, c-format
 msgid "There was an error ordering packages:"
 msgstr "Pakūtņu kuortuošonys laikā atkluota kliuda:"
 
-#: steps_interactive.pm:692
+#: steps_interactive.pm:659
 #, c-format
 msgid "Go on anyway?"
 msgstr "Tūmār turpynuot?"
 
-#: steps_interactive.pm:696
+#: steps_interactive.pm:663
 #, c-format
 msgid "Retry"
 msgstr ""
 
-#: steps_interactive.pm:697
+#: steps_interactive.pm:664
 #, c-format
 msgid "Skip this package"
 msgstr ""
 
-#: steps_interactive.pm:698
+#: steps_interactive.pm:665
 #, c-format
 msgid "Skip all packages from medium \"%s\""
 msgstr ""
 
-#: steps_interactive.pm:699
+#: steps_interactive.pm:666
 #, fuzzy, c-format
 msgid "Go back to media and packages selection"
 msgstr "Saglobuot pakūtņu izvieli"
 
-#: steps_interactive.pm:702
+#: steps_interactive.pm:669
 #, fuzzy, c-format
 msgid "There was an error installing package %s."
 msgstr "Pakūtņu instaleišonys laikā atkluota kliuda:"
 
-#: steps_interactive.pm:721
+#: steps_interactive.pm:688
 #, c-format
 msgid "Post-install configuration"
 msgstr "Piecinstaleišonys konfigureišona"
 
-#: steps_interactive.pm:728
+#: steps_interactive.pm:695
 #, c-format
 msgid "Please ensure the Update Modules media is in drive %s"
 msgstr "Lyudzu, puorsalīcynojit ka Update Modules atsarū īkuortā %s"
 
-#: steps_interactive.pm:759
+#: steps_interactive.pm:726
 #, c-format
 msgid "Updates"
 msgstr "Atjaunynuojumi"
 
-#: steps_interactive.pm:760
+#: steps_interactive.pm:727
 #, c-format
 msgid ""
 "You now have the opportunity to download updated packages. These packages\n"
@@ -1018,28 +1357,28 @@ msgstr ""
 "Voi jius gribit instalēt atjaunynuojumus?"
 
 #. -PO: example: lilo-graphic on /dev/hda1
-#: steps_interactive.pm:868
+#: steps_interactive.pm:838
 #, c-format
 msgid "%s on %s"
 msgstr "%s iz %s"
 
-#: steps_interactive.pm:900 steps_interactive.pm:907 steps_interactive.pm:920
-#: steps_interactive.pm:937 steps_interactive.pm:952
+#: steps_interactive.pm:873 steps_interactive.pm:880 steps_interactive.pm:893
+#: steps_interactive.pm:910 steps_interactive.pm:925
 #, c-format
 msgid "Hardware"
 msgstr "Aparatura"
 
-#: steps_interactive.pm:921 steps_interactive.pm:938
+#: steps_interactive.pm:894 steps_interactive.pm:911
 #, c-format
 msgid "Sound card"
 msgstr "Skanis karte"
 
-#: steps_interactive.pm:941
+#: steps_interactive.pm:914
 #, c-format
 msgid "Do you have an ISA sound card?"
 msgstr "Vai jiusim ir ISA skanis karte?"
 
-#: steps_interactive.pm:943
+#: steps_interactive.pm:916
 #, c-format
 msgid ""
 "Run \"alsaconf\" or \"sndconfig\" after installation to configure your sound "
@@ -1048,87 +1387,74 @@ msgstr ""
 "Piec instaleišonys palaidit \"alsaconf\" voi \"sndconfig\", lai konfigurātu "
 "jiusu skanis karti"
 
-#: steps_interactive.pm:945
+#: steps_interactive.pm:918
 #, c-format
 msgid "No sound card detected. Try \"harddrake\" after installation"
 msgstr "Nav atrosta skanis karte. Piec instaleišonys izmieginit \"harddrake\""
 
-#: steps_interactive.pm:953
+#: steps_interactive.pm:926
 #, c-format
 msgid "Graphical interface"
 msgstr "Grafiskuo saskarne"
 
-#: steps_interactive.pm:959 steps_interactive.pm:971
+#: steps_interactive.pm:932 steps_interactive.pm:944
 #, c-format
 msgid "Network & Internet"
 msgstr "Teiklys & Internets"
 
-#: steps_interactive.pm:972
+#: steps_interactive.pm:945
 #, c-format
 msgid "Proxies"
 msgstr "Storpnīkserveri"
 
-#: steps_interactive.pm:973
+#: steps_interactive.pm:946
 #, c-format
 msgid "configured"
 msgstr "konfigurāts"
 
-#: steps_interactive.pm:983
+#: steps_interactive.pm:956
 #, c-format
 msgid "Security Level"
 msgstr "Drūšeibys leimiņs"
 
-#: steps_interactive.pm:1003
+#: steps_interactive.pm:976
 #, c-format
 msgid "Firewall"
 msgstr "Guņsmyurs"
 
-#: steps_interactive.pm:1007
+#: steps_interactive.pm:980
 #, c-format
 msgid "activated"
 msgstr "aktivizāts"
 
-#: steps_interactive.pm:1007
+#: steps_interactive.pm:980
 #, c-format
 msgid "disabled"
 msgstr "atslāgts"
 
-#: steps_interactive.pm:1021
+#: steps_interactive.pm:994
 #, c-format
 msgid "You have not configured X. Are you sure you really want this?"
 msgstr ""
 "Jiusim nav nūkonfigurāts X servers. Voi jius asot puorlīcynuoti, ka jius tū "
 "gribit?"
 
-#: steps_interactive.pm:1050
+#: steps_interactive.pm:1023
 #, c-format
 msgid "Preparing bootloader..."
 msgstr "Sagataveju suokneituoju"
 
-#: steps_interactive.pm:1050
+#: steps_interactive.pm:1023
 #, fuzzy, c-format
 msgid "Preparing initial startup program..."
 msgstr "Sagataveju instaleišonu"
 
-#: steps_interactive.pm:1051
+#: steps_interactive.pm:1024
 #, c-format
 msgid "Be patient, this may take a while..."
 msgstr ""
 
-#: steps_interactive.pm:1062
-#, c-format
-msgid ""
-"You appear to have an OldWorld or Unknown machine, the yaboot bootloader "
-"will not work for you. The install will continue, but you'll need to use "
-"BootX or some other means to boot your machine. The kernel argument for the "
-"root fs is: root=%s"
-msgstr ""
-"Izaver, ka jiusim ir vaca voi nazynomys izceļsmis dators, yaboot "
-"suokneituojs nastruoduos. Instaleišona turpynuosīs, bet jiusim byus "
-"juoizmontoj BootX voi kas cyts, lai īluodātu datoru. Kūdula arguments deļ "
-"root fs ir: root=%s"
-
-#: steps_interactive.pm:1075
+#: steps_interactive.pm:1040
 #, c-format
 msgid ""
 "In this security level, access to the files in the Windows partition is "
@@ -1137,17 +1463,17 @@ msgstr ""
 "Šymā drūšeibys leiminī, pīeeja Windows sadalis failim ir tikai "
 "administratoram."
 
-#: steps_interactive.pm:1107
+#: steps_interactive.pm:1072
 #, c-format
 msgid "Insert a blank floppy in drive %s"
 msgstr "Īlicit tukšu disketi īkuortā %s"
 
-#: steps_interactive.pm:1109
+#: steps_interactive.pm:1074
 #, c-format
 msgid "Creating auto install floppy..."
 msgstr "Sagataveju auto instaleišonys disketi"
 
-#: steps_interactive.pm:1120
+#: steps_interactive.pm:1085
 #, c-format
 msgid ""
 "Some steps are not completed.\n"
@@ -1158,12 +1484,12 @@ msgstr ""
 "\n"
 "Voi tīšom gribit izīt tagad?"
 
-#: steps_interactive.pm:1130
+#: steps_interactive.pm:1095
 #, c-format
 msgid "Congratulations"
 msgstr "Apsveicam"
 
-#: steps_interactive.pm:1133
+#: steps_interactive.pm:1098
 #, c-format
 msgid "Reboot"
 msgstr "Puorsuoknēt"
@@ -1179,7 +1505,7 @@ msgstr "Volūdys izviele"
 #: steps_list.pm:16 steps_list.pm:24
 #, c-format
 msgid "Localization"
-msgstr ""
+msgstr "Lokaliziešona"
 
 #: steps_list.pm:19
 #, c-format
@@ -1286,11 +1612,193 @@ msgid ""
 "Exit"
 msgstr "Izīt"
 
-#~ msgid "Workstation"
+#, fuzzy
+#~ msgid "A lightweight fast graphical environment"
+#~ msgstr ""
+#~ "Grafiskuo vide ar lītuotuojam draudzeigu programmu komplektu i dorba "
+#~ "viersmys reikim"
+
+#, fuzzy
+#~ msgid "Install recommended packages"
+#~ msgstr "Instaleju pakūtni %s"
+
+#, fuzzy
+#~ msgid "LXQT Desktop"
+#~ msgstr "IceWm Dorba viersma"
+
+#~ msgid "Moondrake Wizards"
+#~ msgstr "Moondrake paleigi"
+
+#, fuzzy
+#~ msgid "Plasma Desktop"
+#~ msgstr "IceWm Dorba viersma"
+
+#, fuzzy
+#~ msgid ""
+#~ "The Plasma Desktop, the basic graphical environment with a collection of "
+#~ "accompanying tools"
+#~ msgstr ""
+#~ "K Desktop Environment, golvonuo grafiskuo vide kūpā ar papyldus reiku "
+#~ "kolekceju"
+
+#~ msgid "%d packages"
+#~ msgstr "%d pakūtnis"
+
+#, fuzzy
+#~ msgid "(%d package, %d MB)"
+#~ msgid_plural "(%d packages, %d MB)"
+#~ msgstr[0] "%d pakūtnis"
+#~ msgstr[1] "%d pakūtnis"
+
+#~ msgid "2007 product line"
+#~ msgstr "2007 produktu lineja"
+
+#~ msgid "3D"
+#~ msgstr "3D"
+
+#, fuzzy
+#~ msgid "A graphical environment based on GNOME"
+#~ msgstr "Grafiskuo vide"
+
+#, fuzzy
+#~ msgid "A lightweight fast graphical environment with a dedicated following"
+#~ msgstr ""
+#~ "Grafiskuo vide ar lītuotuojam draudzeigu programmu komplektu i dorba "
+#~ "viersmys reikim"
+
+#~ msgid "All"
+#~ msgstr "Vyss"
+
+#~ msgid "Amusement programs: arcade, boards, strategy, etc"
+#~ msgstr "Izklaidis programmys: arkade, goldaspēlis, strategeja u.c."
+
+#~ msgid "Arkeia"
+#~ msgstr "Arkeia"
+
+#~ msgid "Automated"
+#~ msgstr "Automatisks"
+
+#~ msgid "Bad package"
+#~ msgstr "Slykta pakūtne"
+
+#~ msgid "Boot"
+#~ msgstr "Suoknēt"
+
+#~ msgid "CMS"
+#~ msgstr "CMS"
+
+#~ msgid "CRM"
+#~ msgstr "CRM"
+
+#~ msgid ""
+#~ "Cannot access kernel modules corresponding to your kernel (file %s is "
+#~ "missing), this generally means your boot floppy in not in sync with the "
+#~ "Installation medium (please create a newer boot floppy)"
+#~ msgstr ""
+#~ "Navar pīkliut kūdula moduļam, atbylstūšim jiusu kūdulam (fails %s nav "
+#~ "atrūnams), parosti tys nūzeimej, ka īluodis diskete nav sinhronizeita ar "
+#~ "instalacejis datu nesieju (lyudzu izveidojit jaunuoku īluodis disketi)"
+
+#~ msgid "Choosing packages"
+#~ msgstr "Pakūtņu izviele"
+
+#, fuzzy
+#~ msgid "Cinnamon Workstation"
 #~ msgstr "Dorba staceja"
 
-#~ msgid "Office Workstation"
-#~ msgstr "Biroja dators"
+#~ msgid "Configure X"
+#~ msgstr "X konfigureišona"
+
+#~ msgid "Configuring IDE"
+#~ msgstr "Teik konfigurāts IDE"
+
+#~ msgid "Contacting the mirror to get the list of available packages..."
+#~ msgstr "Pīsaslādzu spūguļserveram, lai sajimtu pīejamū pakūtņu sarokstu"
+
+#~ msgid "Discovery Live Mode"
+#~ msgstr "Discovery Dzeivaja reižimā"
+
+#~ msgid "Do you want to use aboot?"
+#~ msgstr "Voi gribit izmontuot aboot?"
+
+#~ msgid "Downloading file %s..."
+#~ msgstr "Teik šursyuteiti fail %s..."
+
+#~ msgid "DrakVPN"
+#~ msgstr "DrakVPN"
+
+#~ msgid ""
+#~ "Error installing aboot, \n"
+#~ "try to force installation even if that destroys the first partition?"
+#~ msgstr ""
+#~ "Kliuda, instalejūt aboot, \n"
+#~ "voi instalēt pīspīdu kuortā pat tod, ja tiks iznycynuota pyrmuo sadaļa?"
+
+#~ msgid "Flatout"
+#~ msgstr "Flatout"
+
+#~ msgid "Formatting"
+#~ msgstr "Formateišona"
+
+#~ msgid "Generate auto install floppy"
+#~ msgstr "Sagatavēt auto instaleišonys disketi"
+
+#~ msgid "Gwenview"
+#~ msgstr "Gwenview"
+
+#~ msgid "How to register"
+#~ msgstr "Kai pīsaregistrēt"
+
+#~ msgid "IDE"
+#~ msgstr "IDE"
+
+#~ msgid "IceWm Desktop"
+#~ msgstr "IceWm Dorba viersma"
+
+#~ msgid "Installation class"
+#~ msgstr "Instaleišonys klase"
+
+#~ msgid "Invictus Firewall"
+#~ msgstr "Invictus guņsmyurs"
+
+#~ msgid "Kaspersky"
+#~ msgstr "Kaspersky"
+
+#~ msgid "Language"
+#~ msgstr "Volūdys izviele"
+
+#~ msgid "License"
+#~ msgstr "License"
+
+#~ msgid "LinDVD"
+#~ msgstr "LinDVD"
+
+#, fuzzy
+#~ msgid "MATE Workstation"
+#~ msgstr "Gnome dorba staceja"
+
+#~ msgid "Mandriva Linux Installation %s"
+#~ msgstr "Mandriva Linux instaleišona %s"
+
+#~ msgid "Mandriva Online Services"
+#~ msgstr "Mandriva Tīšsaistis pakolpuojumi"
+
+#~ msgid "Mandriva Wizards"
+#~ msgstr "Mandriva paleigi"
+
+#~ msgid "Networking"
+#~ msgstr "Teikluošona"
+
+#~ msgid "New Theme"
+#~ msgstr "Jauna tema"
+
+#~ msgid ""
+#~ "No free space for 1MB bootstrap! Install will continue, but to boot your "
+#~ "system, you'll need to create the bootstrap partition in DiskDrake"
+#~ msgstr ""
+#~ "Nav 1MB breivys vītys suokneišonys programmai! Instaleišona turpynuosīs, "
+#~ "bet lai īluodātu sistemu, jiusim vajadzēs izveiduot suokneišonys "
+#~ "programmys diska sadali programmā DiskDrake"
 
 #, fuzzy
 #~ msgid ""
@@ -1300,224 +1808,6 @@ msgstr "Izīt"
 #~ "Biroja programmys: teksta procesori (LibreOffice Writer, Kword), "
 #~ "izkluojlopys (LibreOffice Calc, Kspread), PDF skateituoji, u.c."
 
-#~ msgid "Game station"
-#~ msgstr "Spēļu dators"
-
-#, fuzzy
-#~ msgid "Amusement programs: arcade, boards, strategy, etc."
-#~ msgstr "Izklaidis programmys: arkade, goldaspēlis, strategeja u.c."
-
-#~ msgid "Multimedia station"
-#~ msgstr "Multimedeju dators"
-
-#~ msgid "Sound and video playing/editing programs"
-#~ msgstr "Skanis i video atskaņuošonys/redigeišonys programmys"
-
-#~ msgid "Internet station"
-#~ msgstr "Interneta dators"
-
-#~ msgid ""
-#~ "Set of tools to read and send mail and news (mutt, tin..) and to browse "
-#~ "the Web"
-#~ msgstr ""
-#~ "Reiku komplekts, lai laseitu i syuteitu postu voi jaunumus (mutt, tin..), "
-#~ "i puorlyukuotu Puorstaipteiklu"
-
-#~ msgid "Network Computer (client)"
-#~ msgstr "Teikla dators (klients)"
-
-#~ msgid "Clients for different protocols including ssh"
-#~ msgstr "Klienti dažaidim protokolim, īskaitūt ssh"
-
-#~ msgid "Tools to ease the configuration of your computer"
-#~ msgstr "Reiki datora konfigureišonys atvīgluošonai"
-
-#~ msgid "Console Tools"
-#~ msgstr "Konsolis reiki"
-
-#~ msgid "Editors, shells, file tools, terminals"
-#~ msgstr "Redaktori, čaulys, failu reiki, terminali"
-
-#~ msgid "Development"
-#~ msgstr "Izstruode"
-
-#~ msgid "C and C++ development libraries, programs and include files"
-#~ msgstr "C i C++ izstruodis bibliotekys, programmys i īkļautī faili"
-
-#~ msgid "Documentation"
-#~ msgstr "Dokumentaceja"
-
-#~ msgid "Books and Howto's on Linux and Free Software"
-#~ msgstr "Gruomotys i vaicuojumu par Linux i Breivū programmaturu"
-
-#~ msgid "LSB"
-#~ msgstr "LSB"
-
-#~ msgid "Linux Standard Base. Third party applications support"
-#~ msgstr "Linuks Standarta Bāze. Trešū izstruoduoju aplikaceju atbolsts"
-
-#~ msgid "Web Server"
-#~ msgstr "Puorstaipteikla (Web) servers"
-
-#~ msgid "Apache"
-#~ msgstr "Apache"
-
-#~ msgid "Groupware"
-#~ msgstr "Groupware"
-
-#~ msgid "Kolab Server"
-#~ msgstr "Kolab servers"
-
-#~ msgid "Firewall/Router"
-#~ msgstr "Gunsmyurs/Maršrutizators"
-
-#~ msgid "Internet gateway"
-#~ msgstr "Interneta vuorteja"
-
-#~ msgid "Mail/News"
-#~ msgstr "Posts/Jauns"
-
-#~ msgid "Postfix mail server, Inn news server"
-#~ msgstr "Postfix posta servers, Inn ziņu servers"
-
-#~ msgid "Directory Server"
-#~ msgstr "Katalogu Servers"
-
-#~ msgid "FTP Server"
-#~ msgstr "FTP servers"
-
-#~ msgid "ProFTPd"
-#~ msgstr "ProFTPd"
-
-#~ msgid "DNS/NIS"
-#~ msgstr "DNS/NIS"
-
-#~ msgid "Domain Name and Network Information Server"
-#~ msgstr "DNS i NIS servers"
-
-#~ msgid "File and Printer Sharing Server"
-#~ msgstr "Failu un Printeru Kūplītuošonys servers"
-
-#~ msgid "NFS Server, Samba server"
-#~ msgstr "NFS servers, Samba servers"
-
-#~ msgid "Database"
-#~ msgstr "Datubāzis"
-
-#~ msgid "PostgreSQL and MySQL Database Server"
-#~ msgstr "PostgreSQL i MySQL datubāžu servers"
-
-#~ msgid "Web/FTP"
-#~ msgstr "Teimeklis/FTP"
-
-#~ msgid "Apache, Pro-ftpd"
-#~ msgstr "Apache, Pro-ftpd"
-
-#~ msgid "Mail"
-#~ msgstr "Posts"
-
-#~ msgid "Postfix mail server"
-#~ msgstr "Postfix posta servers"
-
-#~ msgid "PostgreSQL or MySQL database server"
-#~ msgstr "PostgreSQL voi MySQL datubāžu servers"
-
-#~ msgid "Network Computer server"
-#~ msgstr "Teikla datoru servers"
-
-#~ msgid "NFS server, SMB server, Proxy server, ssh server"
-#~ msgstr "NFS servers, SMB servers, storpnīkservers (Proxy), ssh servers"
-
-#~ msgid "Graphical Environment"
-#~ msgstr "Grafiskuo vide"
-
-#~ msgid "KDE Workstation"
-#~ msgstr "KDE dorba staceja"
-
-#~ msgid ""
-#~ "The K Desktop Environment, the basic graphical environment with a "
-#~ "collection of accompanying tools"
-#~ msgstr ""
-#~ "K Desktop Environment, golvonuo grafiskuo vide kūpā ar papyldus reiku "
-#~ "kolekceju"
-
-#~ msgid "GNOME Workstation"
-#~ msgstr "Gnome dorba staceja"
-
-#~ msgid ""
-#~ "A graphical environment with user-friendly set of applications and "
-#~ "desktop tools"
-#~ msgstr ""
-#~ "Grafiskuo vide ar lītuotuojam draudzeigu programmu komplektu i dorba "
-#~ "viersmys reikim"
-
-#, fuzzy
-#~ msgid "LXDE Desktop"
-#~ msgstr "IceWm Dorba viersma"
-
-#, fuzzy
-#~ msgid ""
-#~ "A lightweight & fast graphical environment with user-friendly set of "
-#~ "applications and desktop tools"
-#~ msgstr ""
-#~ "Grafiskuo vide ar lītuotuojam draudzeigu programmu komplektu i dorba "
-#~ "viersmys reikim"
-
-#~ msgid "Other Graphical Desktops"
-#~ msgstr "Cytys grafiskuos dorba viersmys"
-
-#~ msgid "Window Maker, Enlightenment, Fvwm, etc"
-#~ msgstr "Window Maker, Enlightenment, Fvwm u.c."
-
-#~ msgid "Utilities"
-#~ msgstr "Utilitys"
-
-#~ msgid "SSH Server"
-#~ msgstr "SSH servers"
-
-#~ msgid "Webmin"
-#~ msgstr "Webmin"
-
-#~ msgid "Webmin Remote Configuration Server"
-#~ msgstr "Webmin attuolynuotuos konfiguracejis servers "
-
-#~ msgid "Network Utilities/Monitoring"
-#~ msgstr "Teikla utilitys/puorraudzeiba"
-
-#~ msgid "Monitoring tools, processes accounting, tcpdump, nmap, ..."
-#~ msgstr "Puorraudzeibys reiki, procesu uzskaite, tcpdump, nmap, ..."
-
-#~ msgid "Mandriva Wizards"
-#~ msgstr "Mandriva paleigi"
-
-#~ msgid "Wizards to configure server"
-#~ msgstr "Servera konfiguracejis paleigi"
-
-#~ msgid ""
-#~ "Failed contacting OpenMandriva Lx web site to get the list of available "
-#~ "mirrors"
-#~ msgstr ""
-#~ "Dasasliegšona OpenMandriva Lx teimekļam cīta naveiksmi, lai sajimtu "
-#~ "pīejamū spūguļserveru sarokstu"
-
-#~ msgid ""
-#~ "_: Keep these entry short\n"
-#~ "License"
-#~ msgstr "License"
-
-#~ msgid "Bad package"
-#~ msgstr "Slykta pakūtne"
-
-#~ msgid ""
-#~ "_: Keep these entry short\n"
-#~ "Networking"
-#~ msgstr "Teikluošona"
-
-#~ msgid ""
-#~ "_: Keep these entry short\n"
-#~ "Updates"
-#~ msgstr "Atjaunynuojumi"
-
 #~ msgid ""
 #~ "Office programs: wordprocessors (kword, abiword), spreadsheets (kspread, "
 #~ "gnumeric), pdf viewers, etc"
@@ -1525,8 +1815,92 @@ msgstr "Izīt"
 #~ "Biroja programmys: teksta procesori (kword, abiword), izkluojlopys "
 #~ "(kspread, gnumeric), pdf skateituoji, u.c."
 
-#~ msgid "Downloading file %s..."
-#~ msgstr "Teik šursyuteiti fail %s..."
+#, fuzzy
+#~ msgid "Office tools"
+#~ msgstr "Biroja dators"
+
+#~ msgid "PostgreSQL and MySQL Database Server"
+#~ msgstr "PostgreSQL i MySQL datubāžu servers"
+
+#~ msgid "PostgreSQL or MySQL database server"
+#~ msgstr "PostgreSQL voi MySQL datubāžu servers"
+
+#, fuzzy
+#~ msgid "Preparing boot images..."
+#~ msgstr "Sagataveju suokneituoju"
+
+#, fuzzy
+#~ msgid "Preparing upgrade..."
+#~ msgstr "Sagataveju suokneituoju"
+
+#, fuzzy
+#~ msgid "RazorQT Desktop"
+#~ msgstr "IceWm Dorba viersma"
+
+#~ msgid "Replay"
+#~ msgstr "Atkuortuot"
+
+#~ msgid "Rpmdrake 2"
+#~ msgstr "Rpmdrake 2"
+
+#~ msgid "Save packages selection"
+#~ msgstr "Saglobuot pakūtņu izvieli"
+
+#~ msgid "Select All"
+#~ msgstr "Izavielēt vysys"
+
+#~ msgid "Skype"
+#~ msgstr "Skype"
+
+#~ msgid "TV card"
+#~ msgstr "TV karte"
+
+#~ msgid ""
+#~ "The auto install can be fully automated if wanted,\n"
+#~ "in that case it will take over the hard disk drive!!\n"
+#~ "(this is meant for installing on another box).\n"
+#~ "\n"
+#~ "You may prefer to replay the installation.\n"
+#~ msgstr ""
+#~ "Ja gribit, automatiskuo instalaceja var byut piļneigi\n"
+#~ "automatizāta, taidā gadīnī tei nūkopēs vysu cītū disku!!\n"
+#~ "(tys ir dūmuots uzstuodēt uz cyta datora).\n"
+#~ "\n"
+#~ "Jius varbyut gribēsit atkuortuot instalaceju.\n"
+
+#~ msgid "Transgaming/Cedega"
+#~ msgstr "Transgaming/Cedega"
+
+#~ msgid "Unable to contact mirror %s"
+#~ msgstr "Navar dasavīnuot pi spūguļservera %s"
+
+#~ msgid "Users"
+#~ msgstr "Lītuotuoji"
+
+#~ msgid "Web 2.0"
+#~ msgstr "Web 2.0"
+
+#~ msgid "Welcome"
+#~ msgstr "Laipni lyugtum"
+
+#, fuzzy
+#~ msgid "Window Maker, Fvwm, etc"
+#~ msgstr "Window Maker, Enlightenment, Fvwm u.c."
+
+#, fuzzy
+#~ msgid "XFCE Workstation"
+#~ msgstr "KDE dorba staceja"
+
+#~ msgid ""
+#~ "You appear to have an OldWorld or Unknown machine, the yaboot bootloader "
+#~ "will not work for you. The install will continue, but you'll need to use "
+#~ "BootX or some other means to boot your machine. The kernel argument for "
+#~ "the root fs is: root=%s"
+#~ msgstr ""
+#~ "Izaver, ka jiusim ir vaca voi nazynomys izceļsmis dators, yaboot "
+#~ "suokneituojs nastruoduos. Instaleišona turpynuosīs, bet jiusim byus "
+#~ "juoizmontoj BootX voi kas cyts, lai īluodātu datoru. Kūdula arguments deļ "
+#~ "root fs ir: root=%s"
 
 #~ msgid ""
 #~ "You have selected the following server(s): %s\n"
@@ -1553,159 +1927,31 @@ msgstr "Izīt"
 #~ "\n"
 #~ "Voi tīšom gribit instalēt šūs serverus?\n"
 
-#~ msgid "IceWm Desktop"
-#~ msgstr "IceWm Dorba viersma"
-
-#~ msgid "Contacting the mirror to get the list of available packages..."
-#~ msgstr "Pīsaslādzu spūguļserveram, lai sajimtu pīejamū pakūtņu sarokstu"
-
-#~ msgid "Unable to contact mirror %s"
-#~ msgstr "Navar dasavīnuot pi spūguļservera %s"
-
-#~ msgid "Generate auto install floppy"
-#~ msgstr "Sagatavēt auto instaleišonys disketi"
-
 #~ msgid ""
-#~ "The auto install can be fully automated if wanted,\n"
-#~ "in that case it will take over the hard disk drive!!\n"
-#~ "(this is meant for installing on another box).\n"
-#~ "\n"
-#~ "You may prefer to replay the installation.\n"
+#~ "You'll need to create a PPC PReP Boot bootstrap! Install will continue, "
+#~ "but to boot your system, you'll need to create the bootstrap partition in "
+#~ "DiskDrake"
 #~ msgstr ""
-#~ "Ja gribit, automatiskuo instalaceja var byut piļneigi\n"
-#~ "automatizāta, taidā gadīnī tei nūkopēs vysu cītū disku!!\n"
-#~ "(tys ir dūmuots uzstuodēt uz cyta datora).\n"
-#~ "\n"
-#~ "Jius varbyut gribēsit atkuortuot instalaceju.\n"
-
-#~ msgid "Replay"
-#~ msgstr "Atkuortuot"
-
-#~ msgid "Automated"
-#~ msgstr "Automatisks"
-
-#~ msgid "Save packages selection"
-#~ msgstr "Saglobuot pakūtņu izvieli"
-
-#~ msgid "Do you want to use aboot?"
-#~ msgstr "Voi gribit izmontuot aboot?"
-
-#~ msgid ""
-#~ "Error installing aboot, \n"
-#~ "try to force installation even if that destroys the first partition?"
-#~ msgstr ""
-#~ "Kliuda, instalejūt aboot, \n"
-#~ "voi instalēt pīspīdu kuortā pat tod, ja tiks iznycynuota pyrmuo sadaļa?"
-
-#~ msgid "All"
-#~ msgstr "Vyss"
-
-#~ msgid "TV card"
-#~ msgstr "TV karte"
-
-#~ msgid "Boot"
-#~ msgstr "Suoknēt"
+#~ "Jiusim vajadzēs izveiduot PPC PReP Boot suokneišonys programmu! "
+#~ "Instaleišona turpynuosīs, bet lai īluodātu sistemu, jiusim vajadzēs "
+#~ "izveiduot suokneišonys programmys diska sadali programmā DiskDrake"
 
 #~ msgid ""
 #~ "_: Keep these entry short\n"
 #~ "Authentication"
 #~ msgstr "Autentifikaceja"
 
-#~ msgid "Arkeia"
-#~ msgstr "Arkeia"
-
-#~ msgid "Flatout"
-#~ msgstr "Flatout"
-
-#~ msgid "Gwenview"
-#~ msgstr "Gwenview"
-
-#~ msgid "3D"
-#~ msgstr "3D"
-
-#~ msgid "CMS"
-#~ msgstr "CMS"
-
-#~ msgid "CRM"
-#~ msgstr "CRM"
-
-#~ msgid "2007 product line"
-#~ msgstr "2007 produktu lineja"
-
-#~ msgid "Invictus Firewall"
-#~ msgstr "Invictus guņsmyurs"
-
-#~ msgid "Discovery Live Mode"
-#~ msgstr "Discovery Dzeivaja reižimā"
-
-#~ msgid "How to register"
-#~ msgstr "Kai pīsaregistrēt"
-
-#~ msgid "Rpmdrake 2"
-#~ msgstr "Rpmdrake 2"
-
-#~ msgid "Mandriva Online Services"
-#~ msgstr "Mandriva Tīšsaistis pakolpuojumi"
-
-#~ msgid "New Theme"
-#~ msgstr "Jauna tema"
-
-#~ msgid "Web 2.0"
-#~ msgstr "Web 2.0"
-
-#~ msgid "Kaspersky"
-#~ msgstr "Kaspersky"
-
-#~ msgid "LinDVD"
-#~ msgstr "LinDVD"
-
-#~ msgid "Skype"
-#~ msgstr "Skype"
-
-#~ msgid "Transgaming/Cedega"
-#~ msgstr "Transgaming/Cedega"
-
-#~ msgid "DrakVPN"
-#~ msgstr "DrakVPN"
-
-#, fuzzy
-#~ msgid "(%d package, %d MB)"
-#~ msgid_plural "(%d packages, %d MB)"
-#~ msgstr[0] "%d pakūtnis"
-#~ msgstr[1] "%d pakūtnis"
-
-#~ msgid "%d packages"
-#~ msgstr "%d pakūtnis"
-
-#~ msgid "Language"
-#~ msgstr "Volūdys izviele"
-
-#~ msgid "License"
+#~ msgid ""
+#~ "_: Keep these entry short\n"
+#~ "License"
 #~ msgstr "License"
 
-#~ msgid "Installation class"
-#~ msgstr "Instaleišonys klase"
-
-#~ msgid "Formatting"
-#~ msgstr "Formateišona"
-
-#~ msgid "Choosing packages"
-#~ msgstr "Pakūtņu izviele"
-
-#~ msgid "Users"
-#~ msgstr "Lītuotuoji"
-
-#~ msgid "Networking"
+#~ msgid ""
+#~ "_: Keep these entry short\n"
+#~ "Networking"
 #~ msgstr "Teikluošona"
 
-#~ msgid "Configure X"
-#~ msgstr "X konfigureišona"
-
 #~ msgid ""
-#~ "Cannot access kernel modules corresponding to your kernel (file %s is "
-#~ "missing), this generally means your boot floppy in not in sync with the "
-#~ "Installation medium (please create a newer boot floppy)"
-#~ msgstr ""
-#~ "Navar pīkliut kūdula moduļam, atbylstūšim jiusu kūdulam (fails %s nav "
-#~ "atrūnams), parosti tys nūzeimej, ka īluodis diskete nav sinhronizeita ar "
-#~ "instalacejis datu nesieju (lyudzu izveidojit jaunuoku īluodis disketi)"
+#~ "_: Keep these entry short\n"
+#~ "Updates"
+#~ msgstr "Atjaunynuojumi"

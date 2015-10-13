@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DrakX\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-22 00:53+0100\n"
+"POT-Creation-Date: 2015-02-18 12:28+0100\n"
 "PO-Revision-Date: 2008-09-28 12:21+0800\n"
 "Last-Translator: Shiva Huang <shivahuang@gmail.com>\n"
 "Language-Team: Traditional Chinese <zh@li.org>\n"
@@ -30,73 +30,73 @@ msgstr ""
 "X-Generator: KBabel 1.3.1\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: display_help:54 display_help:59 drakbug:170 drakperm:134
+#: display_help:53 display_help:58 drakbug:173 drakperm:134
 #, c-format
 msgid "Help"
 msgstr "說明"
 
-#: display_help:67 drakbug:175 drakfont:505
+#: display_help:66 drakbug:178 drakfont:507
 #, c-format
 msgid "Close"
 msgstr "關閉"
 
-#: drakauth:24 drakauth:26 draksec:162
+#: drakauth:24 drakauth:26 draksec:184
 #, c-format
 msgid "Authentication"
 msgstr "認證方式"
 
-#: drakauth:37 drakclock:113 drakclock:138 drakdvb:74 drakfont:211
-#: drakfont:224 drakfont:262 finish-install:131 logdrake:174 logdrake:449
-#: logdrake:454 scannerdrake:56 scannerdrake:98 scannerdrake:139
+#: drakauth:37 drakclock:117 drakclock:142 drakdvb:74 drakfont:213
+#: drakfont:226 drakfont:264 finish-install:133 logdrake:177 logdrake:453
+#: logdrake:458 scannerdrake:56 scannerdrake:98 scannerdrake:139
 #: scannerdrake:197 scannerdrake:256 scannerdrake:726 scannerdrake:737
 #: scannerdrake:876 scannerdrake:887 scannerdrake:957
 #, c-format
 msgid "Error"
 msgstr "錯誤"
 
-#: drakboot:53
+#: drakboot:54
 #, c-format
 msgid "No bootloader found, creating a new configuration"
 msgstr "找不到開機管理程式，正在建立新的設定"
 
-#: drakboot:86 harddrake2:195 harddrake2:196 logdrake:75
+#: drakboot:89 harddrake2:191 logdrake:77
 #, c-format
-msgid "/_File"
-msgstr "/檔案 (_F)"
+msgid "_File"
+msgstr "檔案 (_F)"
 
-#: drakboot:87 logdrake:81
+#: drakboot:90 harddrake2:192 logdrake:78 logdrake:79
 #, c-format
-msgid "/File/_Quit"
-msgstr "/檔案 (F)/結束 (_Q)"
+msgid "_Quit"
+msgstr "結束 (_Q)"
 
-#: drakboot:87 harddrake2:196 logdrake:81
+#: drakboot:90 harddrake2:192 logdrake:79
 #, c-format
 msgid "<control>Q"
 msgstr "<control>Q"
 
-#: drakboot:127
+#: drakboot:138
 #, c-format
 msgid "Text only"
 msgstr "只顯示文字"
 
-#: drakboot:128
+#: drakboot:139
 #, c-format
 msgid "Verbose"
 msgstr "顯示詳細訊息"
 
-#: drakboot:129
+#: drakboot:140
 #, c-format
 msgid "Silent"
 msgstr "隱藏訊息"
 
-#: drakboot:135 drakbug:247 drakdvb:57 drakfont:681 drakperm:374 drakperm:384
-#: drakups:26 harddrake2:528 localedrake:45 scannerdrake:48 scannerdrake:51
+#: drakboot:146 drakbug:250 drakdvb:57 drakfont:682 drakperm:371 drakperm:381
+#: drakups:27 harddrake2:504 localedrake:45 scannerdrake:48 scannerdrake:51
 #: scannerdrake:294 scannerdrake:299 scannerdrake:951
 #, c-format
 msgid "Warning"
 msgstr "警告"
 
-#: drakboot:136
+#: drakboot:147
 #, c-format
 msgid ""
 "Your system bootloader is not in framebuffer mode. To activate graphical "
@@ -105,72 +105,72 @@ msgstr ""
 "您的系統開機管理程式並未使用 framebuffer 模式。要啟用圖形開機，請從開機管理程"
 "式設定工具選擇一種圖形顯示模式。"
 
-#: drakboot:137
+#: drakboot:148
 #, c-format
 msgid "Do you want to configure it now?"
 msgstr "您想要現在設定它嗎？"
 
-#: drakboot:146
+#: drakboot:157
 #, c-format
 msgid "Install themes"
 msgstr "安裝佈景"
 
-#: drakboot:148
+#: drakboot:159
 #, c-format
 msgid "Graphical boot theme selection"
 msgstr "圖形開機佈景主題選擇"
 
-#: drakboot:151
+#: drakboot:162
 #, c-format
 msgid "Graphical boot mode:"
 msgstr "圖形化開機模式："
 
-#: drakboot:153
+#: drakboot:164
 #, c-format
 msgid "Theme"
 msgstr "佈景主題"
 
-#: drakboot:187
+#: drakboot:198
 #, c-format
 msgid "Default user"
 msgstr "預設使用者"
 
-#: drakboot:188
+#: drakboot:199
 #, c-format
 msgid "Default desktop"
 msgstr "預設桌面"
 
-#: drakboot:191
+#: drakboot:202
 #, c-format
 msgid "No, I do not want autologin"
 msgstr "不，我不需要自動登入 (AutoLogin)"
 
-#: drakboot:192
+#: drakboot:203
 #, c-format
 msgid "Yes, I want autologin with this (user, desktop)"
 msgstr "是的，我要用這個 (使用者、桌面) 來自動登入"
 
-#: drakboot:199
+#: drakboot:210
 #, c-format
 msgid "System mode"
 msgstr "系統模式"
 
-#: drakboot:202
+#: drakboot:213
 #, c-format
 msgid "Launch the graphical environment when your system starts"
 msgstr "開機時啟動 X Window 圖形作業環境"
 
-#: drakboot:257
+#: drakboot:268
 #, c-format
 msgid "Boot Style Configuration"
 msgstr "開機樣式組態設定"
 
-#: drakboot:259 drakboot:263
+#: drakboot:270 drakboot:274
 #, c-format
 msgid "Video mode"
 msgstr "顯示模式"
 
-#: drakboot:260
+#: drakboot:271
 #, c-format
 msgid ""
 "Please choose a video mode, it will be applied to each of the boot entries "
@@ -185,15 +185,15 @@ msgstr ""
 msgid "The \"%s\" program has crashed with the following error:"
 msgstr "程式 \"%s\" 發生了錯誤，錯誤訊息如下："
 
-#: drakbug:60
+#: drakbug:62
 #, fuzzy, c-format
-msgid "OpenMandriva Lx Bug Reporting"
-msgstr "OpenMandriva Lx 臭蟲回報工具"
+msgid "DrakX Bug Report Tool"
+msgstr "%s 錯誤回報工具"
 
-#: drakbug:65
-#, c-format
-msgid "OpenMandriva Lx Control Center"
-msgstr "OpenMandriva Lx 控制中心"
+#: drakbug:67
+#, fuzzy, c-format
+msgid "DrakX Linux Control Center"
+msgstr "Mandriva Linux 控制中心"
 
 #: drakbug:66
 #, c-format
@@ -210,10 +210,15 @@ msgstr "同步工具"
 msgid "Standalone Tools"
 msgstr "單一工具"
 
-#: drakbug:70 drakbug:71
+#: drakbug:72 drakbug:73
+#, c-format
+msgid "%s Online"
+msgstr "%s 線上支援"
+
+#: drakbug:72 drakbug:73 drakbug:99 draksec:169
 #, fuzzy, c-format
-msgid "OpenMandriva Online"
-msgstr "Mandriva Online 線上服務"
+msgid "DrakX"
+msgstr "DrakUPS"
 
 #: drakbug:72
 #, c-format
@@ -235,10 +240,10 @@ msgstr "Windows 整合工具"
 msgid "Configuration Wizards"
 msgstr "設定精靈"
 
-#: drakbug:97
-#, fuzzy, c-format
-msgid "Select Tool:"
-msgstr "選擇 Mandriva 工具："
+#: drakbug:99
+#, c-format
+msgid "Select %s Tool:"
+msgstr "請選擇 %s 工具："
 
 #: drakbug:98
 #, c-format
@@ -274,10 +279,10 @@ msgstr "核心："
 msgid "The \"%s\" program has segfaulted with the following error:"
 msgstr "程式 \"%s\" 發生了記憶體區段錯誤，錯誤訊息如下："
 
-#: drakbug:142
-#, fuzzy, c-format
+#: drakbug:144
+#, c-format
 msgid "Used theme: %s"
-msgstr "使用者：%s"
+msgstr "使用的主題：%s"
 
 #: drakbug:144
 #, c-format
@@ -344,27 +349,27 @@ msgstr ""
 msgid "Thanks."
 msgstr "感謝。"
 
-#: drakclock:28 draksec:168
+#: drakclock:29 draksec:190
 #, c-format
 msgid "Date, Clock & Time Zone Settings"
 msgstr "日期、時間與時區設定"
 
-#: drakclock:37
+#: drakclock:38
 #, c-format
 msgid "not defined"
 msgstr "尚未設定"
 
-#: drakclock:39
+#: drakclock:40
 #, c-format
 msgid "Change Time Zone"
 msgstr "變更時區"
 
-#: drakclock:44
+#: drakclock:45
 #, c-format
 msgid "Timezone - DrakClock"
 msgstr "時區 - DakClock"
 
-#: drakclock:44
+#: drakclock:45
 #, c-format
 msgid "Which is your timezone?"
 msgstr "您的時區為何？"
@@ -379,12 +384,12 @@ msgstr "GMT - DrakClock"
 msgid "Is your hardware clock set to GMT?"
 msgstr "硬體時鐘設定為 GMT 時間嗎?"
 
-#: drakclock:72
+#: drakclock:75
 #, c-format
 msgid "Network Time Protocol"
 msgstr "網路時間協定"
 
-#: drakclock:74
+#: drakclock:77
 #, c-format
 msgid ""
 "Your computer can synchronize its clock\n"
@@ -393,42 +398,42 @@ msgstr ""
 "您的電腦可以利用 NTP 將它的時鐘與一個遠端的時間\n"
 "伺服器同步"
 
-#: drakclock:75
+#: drakclock:78
 #, c-format
 msgid "Enable Network Time Protocol"
 msgstr "啟用網路時間協定"
 
-#: drakclock:83
+#: drakclock:86
 #, c-format
 msgid "Server:"
 msgstr "伺服器："
 
-#: drakclock:97
+#: drakclock:100
 #, c-format
 msgid "Timezone"
 msgstr "時區"
 
-#: drakclock:113
+#: drakclock:117
 #, c-format
 msgid "Please enter a valid NTP server address."
 msgstr "請輸入一個合法的 NTP 伺服器位址。"
 
-#: drakclock:139
+#: drakclock:143
 #, c-format
 msgid "Could not synchronize with %s."
 msgstr "無法與 %s 同步。"
 
-#: drakclock:140 drakdvb:149 logdrake:179 scannerdrake:488
+#: drakclock:144 drakdvb:149 logdrake:182 scannerdrake:488
 #, c-format
 msgid "Quit"
 msgstr "離開"
 
-#: drakclock:141
+#: drakclock:145
 #, c-format
 msgid "Retry"
 msgstr "重試"
 
-#: drakclock:166 drakclock:176
+#: drakclock:168 drakclock:178
 #, c-format
 msgid "Reset"
 msgstr "重設"
@@ -453,10 +458,10 @@ msgstr "%s 已經存在而且它的內容將會消失"
 msgid "Could not get the list of available channels"
 msgstr "無法取得可用的頻道清單"
 
-#: drakdvb:80 draksec:67 drakups:98 finish-install:106 harddrake2:374
+#: drakdvb:80 draksec:69 drakups:99 finish-install:106 harddrake2:358
 #: scannerdrake:63 scannerdrake:67 scannerdrake:75 scannerdrake:316
 #: scannerdrake:365 scannerdrake:501 scannerdrake:505 scannerdrake:527
-#: service_harddrake:423
+#: service_harddrake:426
 #, c-format
 msgid "Please wait"
 msgstr "請稍候"
@@ -466,7 +471,7 @@ msgstr "請稍候"
 msgid "Detecting DVB channels, this will take a few minutes"
 msgstr "正在偵測 DVB 頻道，這會需要幾分鐘"
 
-#: drakdvb:85 drakfont:571 drakfont:651 drakfont:735 drakups:216 logdrake:179
+#: drakdvb:85 drakfont:571 drakfont:651 drakfont:736 drakups:217 logdrake:182
 #, c-format
 msgid "Cancel"
 msgstr "取消"
@@ -498,20 +503,25 @@ msgstr "GDM (GNOME 登入管理員)"
 
 #: drakedm:43
 #, fuzzy, c-format
+msgid "LIGHTDM (LightDM Display Manager)"
+msgstr "GDM (GNOME 登入管理員)"
+
+#: drakedm:44
+#, fuzzy, c-format
 msgid "SLIM (Simple Display Manager)"
 msgstr "XDM (X 環境登入管理員)"
 
-#: drakedm:44
+#: drakedm:45
 #, c-format
 msgid "XDM (X Display Manager)"
 msgstr "XDM (X 環境登入管理員)"
 
-#: drakedm:55
+#: drakedm:56
 #, c-format
 msgid "Choosing a display manager"
 msgstr "選擇一個登入管理員"
 
-#: drakedm:56
+#: drakedm:57
 #, c-format
 msgid ""
 "X11 Display Manager allows you to graphically log\n"
@@ -521,12 +531,12 @@ msgstr ""
 "X11 顯示管理程式讓您從圖形介面登入已經執行 X Window 系統的電腦\n"
 "並且支援同時在您的本地端主機上執行數個不同的 X 作業階段。"
 
-#: drakedm:79
+#: drakedm:80
 #, c-format
 msgid "The change is done, do you want to restart the dm service?"
 msgstr "改變完成，您要重新啟動 dm 服務嗎？"
 
-#: drakedm:80
+#: drakedm:81
 #, c-format
 msgid ""
 "You are going to close all running programs and lose your current session. "
@@ -650,7 +660,7 @@ msgstr "字型安裝"
 msgid "DrakFont"
 msgstr "DrakFont"
 
-#: drakfont:489 drakfont:641
+#: drakfont:491 drakfont:641
 #, c-format
 msgid "Font List"
 msgstr "字型清單"
@@ -665,12 +675,12 @@ msgstr "取得 Windows 字型"
 msgid "About"
 msgstr "關於"
 
-#: drakfont:499 drakfont:540
+#: drakfont:501 drakfont:540
 #, c-format
 msgid "Options"
 msgstr "選項"
 
-#: drakfont:500 drakfont:720
+#: drakfont:502 drakfont:721
 #, c-format
 msgid "Uninstall"
 msgstr "移除"
@@ -685,9 +695,9 @@ msgstr "匯入"
 msgid "Drakfont"
 msgstr "Drakfont"
 
-#: drakfont:521 harddrake2:229
-#, fuzzy, c-format
-msgid "Copyright (C) %s by OpenMandriva"
+#: drakfont:523
+#, c-format
+msgid "Copyright (C) %s by Mandriva"
 msgstr "Copyright (C) %s by Mandriva"
 
 #: drakfont:523
@@ -695,14 +705,14 @@ msgstr "Copyright (C) %s by Mandriva"
 msgid "Font installer."
 msgstr "字型安裝程式"
 
-#: drakfont:525 logdrake:55
-#, c-format
-msgid "OpenMandriva Lx"
-msgstr "OpenMandriva Lx"
+#: drakfont:527
+#, fuzzy, c-format
+msgid "Moondrake GNU/Linux"
+msgstr "Mandriva Linux"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
-#: drakfont:532 harddrake2:238
+#: drakfont:532 harddrake2:531
 #, c-format
 msgid "_: Translator(s) name(s) & email(s)\n"
 msgstr ""
@@ -722,7 +732,7 @@ msgstr "GhostScript"
 #: drakfont:554
 #, c-format
 msgid "LibreOffice"
-msgstr ""
+msgstr "LibreOffice"
 
 #: drakfont:555
 #, c-format
@@ -734,7 +744,7 @@ msgstr "Abiword"
 msgid "Generic Printers"
 msgstr "一般印表機"
 
-#: drakfont:561 drakfont:571 drakups:209
+#: drakfont:561 drakfont:571 drakups:210
 #, c-format
 msgid "Ok"
 msgstr "確定"
@@ -754,17 +764,17 @@ msgstr "檔案選取"
 msgid "Fonts"
 msgstr "字型"
 
-#: drakfont:639 draksec:164
+#: drakfont:639 draksec:186
 #, c-format
 msgid "Import fonts"
 msgstr "匯入字型"
 
-#: drakfont:645 drakups:298 drakups:374
+#: drakfont:645 drakups:299 drakups:375
 #, c-format
 msgid "Add"
 msgstr "新增"
 
-#: drakfont:646 drakfont:734 drakups:300 drakups:376
+#: drakfont:646 drakfont:735 drakups:301 drakups:377
 #, c-format
 msgid "Remove"
 msgstr "移除"
@@ -774,67 +784,67 @@ msgstr "移除"
 msgid "Install"
 msgstr "安裝"
 
-#: drakfont:683
+#: drakfont:684
 #, c-format
 msgid "Are you sure you want to uninstall the following fonts?"
 msgstr "您確定您要移除下列的字型？"
 
-#: drakfont:687 draksec:57 harddrake2:319
+#: drakfont:688 draksec:59 harddrake2:302
 #, c-format
 msgid "Yes"
 msgstr "是的"
 
-#: drakfont:689 draksec:56 harddrake2:320
+#: drakfont:690 draksec:58 harddrake2:303
 #, c-format
 msgid "No"
 msgstr "否"
 
-#: drakfont:728
+#: drakfont:729
 #, c-format
 msgid "Unselect All"
 msgstr "取消選取所有項目"
 
-#: drakfont:731
+#: drakfont:732
 #, c-format
 msgid "Select All"
 msgstr "選取所有項目"
 
-#: drakfont:748
+#: drakfont:749
 #, c-format
 msgid "Importing fonts"
 msgstr "正在匯入字型"
 
-#: drakfont:752 drakfont:772
+#: drakfont:753 drakfont:773
 #, c-format
 msgid "Initial tests"
 msgstr "初始測試"
 
-#: drakfont:753
+#: drakfont:754
 #, c-format
 msgid "Copy fonts on your system"
 msgstr "複製字體至系統"
 
-#: drakfont:754
+#: drakfont:755
 #, c-format
 msgid "Install & convert Fonts"
 msgstr "安裝與轉換字體"
 
-#: drakfont:755
+#: drakfont:756
 #, c-format
 msgid "Post Install"
 msgstr "後續安裝設定"
 
-#: drakfont:767
+#: drakfont:768
 #, c-format
 msgid "Removing fonts"
 msgstr "正在移除字型"
 
-#: drakfont:773
+#: drakfont:774
 #, c-format
 msgid "Remove fonts on your system"
 msgstr "從您的系統中移除字型"
 
-#: drakfont:774
+#: drakfont:775
 #, c-format
 msgid "Post Uninstall"
 msgstr "後續移除設定"
@@ -908,22 +918,22 @@ msgstr "安全性權限"
 msgid "Editable"
 msgstr "可編輯的"
 
-#: drakperm:48 drakperm:318
+#: drakperm:50 drakperm:318
 #, c-format
 msgid "Path"
 msgstr "路徑"
 
-#: drakperm:48 drakperm:247
+#: drakperm:50 drakperm:247
 #, c-format
 msgid "User"
 msgstr "使用者"
 
-#: drakperm:48 drakperm:247
+#: drakperm:50 drakperm:247
 #, c-format
 msgid "Group"
 msgstr "群組"
 
-#: drakperm:48 drakperm:107 drakperm:330 draksec:179
+#: drakperm:50 drakperm:107 drakperm:330 draksec:201
 #, c-format
 msgid "Permissions"
 msgstr "權限"
@@ -933,7 +943,7 @@ msgstr "權限"
 msgid "Add a new rule"
 msgstr "新增規則"
 
-#: drakperm:65 drakperm:100 drakperm:126
+#: drakperm:67 drakperm:102 drakperm:126
 #, c-format
 msgid "Edit current rule"
 msgstr "編輯目前的規則"
@@ -943,7 +953,7 @@ msgstr "編輯目前的規則"
 msgid ""
 "Here you can see files to use in order to fix permissions, owners, and "
 "groups via msec.\n"
-"You can also edit your own rules which will owerwrite the default rules."
+"You can also edit your own rules which will overwrite the default rules."
 msgstr ""
 "這裡讓您可以藉由 msec 檢視以及修改重要檔案的權限、擁有者、群組等資訊。\n"
 "另外您也可以編輯自訂的規則以取代預設的項目。"
@@ -997,7 +1007,7 @@ msgstr "刪除"
 msgid "Delete selected rule"
 msgstr "刪除所選取的規則"
 
-#: drakperm:126 drakups:299 drakups:375
+#: drakperm:126 drakups:300 drakups:376
 #, c-format
 msgid "Edit"
 msgstr "編輯"
@@ -1124,7 +1134,7 @@ msgstr "路徑選擇"
 msgid "Property"
 msgstr "特性"
 
-#: drakperm:374
+#: drakperm:371
 #, c-format
 msgid ""
 "The first character of the path must be a slash (\"/\"):\n"
@@ -1133,17 +1143,17 @@ msgstr ""
 "路徑的第一個字母必須是斜線(\"/\")：\n"
 "\"%s\""
 
-#: drakperm:384
+#: drakperm:381
 #, c-format
 msgid "Both the username and the group must valid!"
 msgstr "使用者名稱與群組必須皆為有效的！"
 
-#: drakperm:385
+#: drakperm:382
 #, c-format
 msgid "User: %s"
 msgstr "使用者：%s"
 
-#: drakperm:386
+#: drakperm:383
 #, c-format
 msgid "Group: %s"
 msgstr "群組：%s"
@@ -1163,7 +1173,7 @@ msgstr "本地端"
 msgid "NONE"
 msgstr "無"
 
-#: draksec:54
+#: draksec:56 draksec:113
 #, c-format
 msgid "Default"
 msgstr "預設"
@@ -1178,147 +1188,147 @@ msgstr "忽略"
 msgid "Security Level and Checks"
 msgstr "安全層級與檢查"
 
-#: draksec:108
-#, c-format
-msgid "Configure access to OpenMandriva Lx administrative tools"
-msgstr ""
+#: draksec:110
+#, fuzzy, c-format
+msgid "Configure authentication required to access DrakX tools"
+msgstr "設定存取 %s 工具時所需要的認證"
 
-#: draksec:111
+#: draksec:114
 #, c-format
 msgid "No password needed"
 msgstr "沒有密碼"
 
-#: draksec:112
+#: draksec:115
 #, c-format
-msgid "Root password required"
+msgid "Administrator password"
 msgstr "Root 密碼"
 
-#: draksec:113
+#: draksec:116
 #, c-format
 msgid "User password required"
 msgstr "使用者密碼"
 
-#: draksec:146 draksec:202
+#: draksec:168 draksec:223
 #, c-format
 msgid "Software Management"
 msgstr "軟體管理"
 
-#: draksec:147
-#, fuzzy, c-format
-msgid "Online Update"
-msgstr "Mandriva 更新"
+#: draksec:169
+#, c-format
+msgid "%s Update"
+msgstr "%s 更新"
 
-#: draksec:148
+#: draksec:170
 #, c-format
 msgid "Software Media Manager"
 msgstr "軟體套件媒體管理員"
 
-#: draksec:149
+#: draksec:171
 #, c-format
 msgid "Configure 3D Desktop effects"
 msgstr "設定 3D 桌面效果"
 
-#: draksec:150
+#: draksec:172
 #, c-format
 msgid "Graphical Server Configuration"
 msgstr "圖形伺服器組態設定"
 
-#: draksec:151
+#: draksec:173
 #, c-format
 msgid "Mouse Configuration"
 msgstr "滑鼠組態設定"
 
-#: draksec:152
+#: draksec:174
 #, c-format
 msgid "Keyboard Configuration"
 msgstr "鍵盤組態設定"
 
-#: draksec:153
+#: draksec:175
 #, fuzzy, c-format
 msgid "Printer Configuration"
 msgstr "Proxy 組態設定"
 
-#: draksec:154
+#: draksec:176
 #, c-format
 msgid "UPS Configuration"
 msgstr "UPS 組態設定"
 
-#: draksec:155
+#: draksec:177
 #, c-format
 msgid "Network Configuration"
 msgstr "網路組態設定"
 
-#: draksec:156
+#: draksec:178
 #, c-format
 msgid "Hosts definitions"
 msgstr "主機定義"
 
-#: draksec:157
+#: draksec:179
 #, c-format
 msgid "Network Center"
 msgstr "網路中心"
 
-#: draksec:158
+#: draksec:180
 #, c-format
 msgid "Wireless Network Roaming"
 msgstr "無線網路漫遊"
 
-#: draksec:159
+#: draksec:181
 #, c-format
 msgid "VPN"
 msgstr "VPN"
 
-#: draksec:160
+#: draksec:182
 #, c-format
 msgid "Proxy Configuration"
 msgstr "Proxy 組態設定"
 
-#: draksec:161
+#: draksec:183
 #, c-format
 msgid "Connection Sharing"
 msgstr "連線共享"
 
-#: draksec:163
+#: draksec:185
 #, c-format
 msgid "Backups"
 msgstr "備份"
 
-#: draksec:165 logdrake:56
+#: draksec:187 logdrake:56
 #, c-format
 msgid "Logs"
 msgstr "日誌記錄"
 
-#: draksec:166 finish-install:210 finish-install:249
+#: draksec:188 finish-install:212 finish-install:251
 #, c-format
 msgid "Services"
 msgstr "服務"
 
-#: draksec:167
+#: draksec:189
 #, c-format
 msgid "Users"
 msgstr "使用者"
 
-#: draksec:169
+#: draksec:191
 #, c-format
 msgid "Boot Configuration"
 msgstr "開機組態設定"
 
-#: draksec:203
+#: draksec:224
 #, c-format
 msgid "Hardware"
 msgstr "硬體"
 
-#: draksec:204
+#: draksec:225
 #, c-format
 msgid "Network"
 msgstr "網路"
 
-#: draksec:205
+#: draksec:226
 #, c-format
 msgid "System"
 msgstr "系統"
 
-#: draksec:206
+#: draksec:227
 #, c-format
 msgid "Boot"
 msgstr "開機"
@@ -1407,12 +1417,12 @@ msgstr ""
 msgid "Autodetection"
 msgstr "自動偵測"
 
-#: drakups:98 harddrake2:374
+#: drakups:99 harddrake2:358
 #, c-format
 msgid "Detection in progress"
 msgstr "正在偵測中"
 
-#: drakups:117 drakups:156 logdrake:461 logdrake:467
+#: drakups:118 drakups:157 logdrake:465 logdrake:471
 #, c-format
 msgid "Congratulations"
 msgstr "恭喜"
@@ -1547,7 +1557,7 @@ msgstr "難度"
 msgid "ACL name"
 msgstr "ACL 名稱"
 
-#: drakups:296 finish-install:258
+#: drakups:297 finish-install:260
 #, c-format
 msgid "Password"
 msgstr "密碼"
@@ -1599,7 +1609,7 @@ msgid "Keyboard"
 msgstr "鍵盤"
 
 #: finish-install:58
-#, fuzzy, c-format
+#, c-format
 msgid "Please choose your keyboard layout."
 msgstr "請選取鍵盤排列的格式是那一種。"
 
@@ -1608,57 +1618,62 @@ msgstr "請選取鍵盤排列的格式是那一種。"
 msgid "Testing your connection..."
 msgstr "正在測試您的連線..."
 
-#: finish-install:185
+#: finish-install:187
 #, c-format
 msgid "Windows-compatible sharing system"
 msgstr ""
 
-#: finish-install:188
+#: finish-install:189
+#, c-format
+msgid "Virtual Private Network"
+msgstr ""
+
+#: finish-install:190
 #, fuzzy, c-format
 msgid "OpenSSH server"
 msgstr "SSH 伺服主機"
 
-#: finish-install:189
+#: finish-install:191
 #, fuzzy, c-format
 msgid "Print server"
 msgstr "FTP 伺服器"
 
-#: finish-install:209
+#: finish-install:211
 #, c-format
 msgid "Do you have any services that you want to run when starting up?"
 msgstr ""
 
-#: finish-install:241
+#: finish-install:243
 #, fuzzy, c-format
 msgid "The following services failed to start:\n"
 msgstr "需要安裝下列套件：\n"
 
-#: finish-install:244
+#: finish-install:246
 #, fuzzy, c-format
 msgid "The following services failed to stop:\n"
 msgstr "需要安裝下列套件：\n"
 
-#: finish-install:256 finish-install:274 finish-install:287
+#: finish-install:258 finish-install:276 finish-install:289
 #, c-format
 msgid "Encrypted home partition"
 msgstr "加密的家目錄磁區"
 
-#: finish-install:256
+#: finish-install:258
 #, c-format
 msgid "Please enter a password for the %s user"
 msgstr "請為使用者 %s 輸入一個密碼"
 
-#: finish-install:259
+#: finish-install:261
 #, c-format
 msgid "Password (again)"
 msgstr "密碼 (再一次)"
 
-#: finish-install:274
+#: finish-install:276
 #, c-format
 msgid "Creating encrypted home partition"
 msgstr "正在建立加密的家目錄磁區"
 
-#: finish-install:287
+#: finish-install:289
 #, c-format
 msgid "Formatting encrypted home partition"
 msgstr "正在格式化加密的家目錄磁區"
@@ -2029,10 +2044,10 @@ msgstr "實體 ID"
 msgid "ACPI ID"
 msgstr "ACPI ID"
 
-#: harddrake2:82
-#, fuzzy, c-format
+#: harddrake2:84
+#, c-format
 msgid "Siblings"
-msgstr "設定"
+msgstr "同類商品"
 
 #: harddrake2:83
 #, c-format
@@ -2287,48 +2302,144 @@ msgstr "磁碟分割區"
 msgid "Features"
 msgstr "功能"
 
-#. -PO: please keep all "/" characters !!!
-#: harddrake2:179 logdrake:82
+#: harddrake2:179
 #, c-format
-msgid "/_Options"
-msgstr "/選項 (_O)"
+msgid "Autodetect _modems"
+msgstr "自動偵測數據機 (_M)"
 
-#: harddrake2:180 harddrake2:203 logdrake:84
+#: harddrake2:180
 #, c-format
-msgid "/_Help"
-msgstr "/說明 (_H)"
+msgid "Autodetect parallel _zip drives"
+msgstr "自動偵測平行埠的 ZIP 磁碟 (_Z)"
 
 #: harddrake2:184
-#, c-format
-msgid "/Autodetect _modems"
-msgstr "/自動偵測數據機 (_M)"
-
-#: harddrake2:185
-#, c-format
-msgid "/Autodetect parallel _zip drives"
-msgstr "/自動偵測平行埠的 ZIP 磁碟 (_Z)"
-
-#: harddrake2:189
 #, c-format
 msgid "Hardware Configuration"
 msgstr "硬體組態設定"
 
+#: harddrake2:193
+#, c-format
+msgid "_Options"
+msgstr "選項 (_O)"
+
+#: harddrake2:194 harddrake2:195
+#, c-format
+msgid "_Help"
+msgstr "說明 (_H)"
+
+#: harddrake2:195
+#, fuzzy, c-format
+msgid "<control>H"
+msgstr "<control>Q"
+
 #: harddrake2:196
 #, c-format
-msgid "/_Quit"
-msgstr "/結束 (_Q)"
+msgid "_Fields description"
+msgstr "欄位的描述資訊 (_F)"
 
-#: harddrake2:205
+#: harddrake2:197
 #, c-format
-msgid "/_Fields description"
-msgstr "/欄位的描述資訊 (_F)"
+msgid "_Report Bug"
+msgstr "報告錯誤 (_R)"
 
-#: harddrake2:207
+#: harddrake2:198
+#, c-format
+msgid "_About..."
+msgstr "關於 (_A)"
+
+#: harddrake2:242
+#, c-format
+msgid "Detected hardware"
+msgstr "已偵測到的硬體"
+
+#: harddrake2:245 scannerdrake:283
+#, c-format
+msgid "Information"
+msgstr "資訊"
+
+#: harddrake2:247
+#, c-format
+msgid "Set current driver options"
+msgstr "設定目前驅動程式的選項"
+
+#: harddrake2:254
+#, c-format
+msgid "Run config tool"
+msgstr "執行設定程式"
+
+#: harddrake2:280
+#, c-format
+msgid ""
+"Click on a device in the tree on the left in order to display its "
+"information here."
+msgstr "在左側的樹狀結構中點選一個裝置以在此顯示它的資訊。"
+
+#: harddrake2:300 notify-x11-free-driver-switch:13
+#, c-format
+msgid "unknown"
+msgstr "不詳"
+
+#: harddrake2:301
+#, c-format
+msgid "Unknown"
+msgstr "未知的"
+
+#: harddrake2:321
+#, c-format
+msgid "Misc"
+msgstr "其它"
+
+#: harddrake2:404
+#, c-format
+msgid "secondary"
+msgstr "次要的"
+
+#: harddrake2:404
+#, c-format
+msgid "primary"
+msgstr "主要的"
+
+#: harddrake2:408
+#, c-format
+msgid "burner"
+msgstr "燒錄器"
+
+#: harddrake2:408
+#, c-format
+msgid "DVD"
+msgstr "DVD"
+
+#: harddrake2:504
+#, c-format
+msgid "The following packages need to be installed:\n"
+msgstr "需要安裝下列套件：\n"
+
+#: harddrake2:521
+#, c-format
+msgid "Harddrake"
+msgstr "Harddrake"
+
+#: harddrake2:523
+#, c-format
+msgid "Copyright (C) %s by %s"
+msgstr "Copyright (C) %s by %s"
+
+#: harddrake2:523 harddrake2:527
+#, c-format
+msgid "Mageia"
+msgstr ""
+
+#: harddrake2:525
+#, c-format
+msgid "This is HardDrake, a %s hardware configuration tool."
+msgstr "這是 HardDrake，一個 %s 硬體設定工具。"
+
+#: harddrake2:540
 #, c-format
 msgid "Harddrake help"
 msgstr "Harddrake 說明"
 
-#: harddrake2:208
+#: harddrake2:541
 #, c-format
 msgid ""
 "Description of the fields:\n"
@@ -2337,109 +2448,17 @@ msgstr ""
 "欄位的描述資訊：\n"
 "\n"
 
-#: harddrake2:216
+#: harddrake2:548
 #, c-format
 msgid "Select a device!"
 msgstr "選取一個裝置！"
 
-#: harddrake2:216
+#: harddrake2:548
 #, c-format
 msgid ""
 "Once you've selected a device, you'll be able to see the device information "
 "in fields displayed on the right frame (\"Information\")"
 msgstr "只要您選擇了一項裝置，您就能在右方的欄位 (\"資訊\") 中看到該裝置的資訊"
-
-#: harddrake2:222
-#, c-format
-msgid "/_Report Bug"
-msgstr "/報告錯誤 (_R)"
-
-#: harddrake2:224
-#, c-format
-msgid "/_About..."
-msgstr "/關於 (_A)"
-
-#: harddrake2:227
-#, c-format
-msgid "Harddrake"
-msgstr "Harddrake"
-
-#: harddrake2:231
-#, c-format
-msgid "This is HardDrake, a %s hardware configuration tool."
-msgstr "這是 HardDrake，一個 %s 硬體設定工具。"
-
-#: harddrake2:233
-#, fuzzy, c-format
-msgid "OpenMandriva Linux"
-msgstr "OpenMandriva Lx"
-
-#: harddrake2:264
-#, c-format
-msgid "Detected hardware"
-msgstr "已偵測到的硬體"
-
-#: harddrake2:267 scannerdrake:283
-#, c-format
-msgid "Information"
-msgstr "資訊"
-
-#: harddrake2:269
-#, c-format
-msgid "Set current driver options"
-msgstr "設定目前驅動程式的選項"
-
-#: harddrake2:276
-#, c-format
-msgid "Run config tool"
-msgstr "執行設定程式"
-
-#: harddrake2:296
-#, c-format
-msgid ""
-"Click on a device in the tree on the left in order to display its "
-"information here."
-msgstr "在左側的樹狀結構中點選一個裝置以在此顯示它的資訊。"
-
-#: harddrake2:317 notify-x11-free-driver-switch:13
-#, c-format
-msgid "unknown"
-msgstr "不詳"
-
-#: harddrake2:318
-#, c-format
-msgid "Unknown"
-msgstr "未知的"
-
-#: harddrake2:338
-#, c-format
-msgid "Misc"
-msgstr "其它"
-
-#: harddrake2:420
-#, c-format
-msgid "secondary"
-msgstr "次要的"
-
-#: harddrake2:420
-#, c-format
-msgid "primary"
-msgstr "主要的"
-
-#: harddrake2:424
-#, c-format
-msgid "burner"
-msgstr "燒錄器"
-
-#: harddrake2:424
-#, c-format
-msgid "DVD"
-msgstr "DVD"
-
-#: harddrake2:528
-#, c-format
-msgid "The following packages need to be installed:\n"
-msgstr "需要安裝下列套件：\n"
 
 #: localedrake:38
 #, c-format
@@ -2458,219 +2477,174 @@ msgid ", "
 msgstr "，"
 
 #: logdrake:55
-#, c-format
-msgid "%s Tools Logs"
-msgstr ""
+#, fuzzy, c-format
+msgid "DrakX Tools Logs"
+msgstr "%s 工具紀錄"
 
 #: logdrake:69
 #, c-format
 msgid "Show only for the selected day"
 msgstr "僅顯示所選取日期"
 
-#: logdrake:76
-#, c-format
-msgid "/File/_New"
-msgstr "/檔案/新增 (_N)"
-
-#: logdrake:76
-#, c-format
-msgid "<control>N"
-msgstr "<control>N"
-
-#: logdrake:77
-#, c-format
-msgid "/File/_Open"
-msgstr "/檔案/開啟 (_O)"
-
-#: logdrake:77
-#, c-format
-msgid "<control>O"
-msgstr "<control>O"
-
-#: logdrake:78
-#, c-format
-msgid "/File/_Save"
-msgstr "/檔案/儲存 (_S)"
-
 #: logdrake:78
 #, c-format
 msgid "<control>S"
 msgstr "<control>S"
 
-#: logdrake:79
-#, c-format
-msgid "/File/Save _As"
-msgstr "/檔案/另存新檔 (_A)"
-
-#: logdrake:80
-#, c-format
-msgid "/File/-"
-msgstr "/檔案/-"
-
-#: logdrake:83
-#, c-format
-msgid "/Options/Test"
-msgstr "/選項/測試"
-
-#: logdrake:85
-#, c-format
-msgid "/Help/_About..."
-msgstr "/說明/關於 (_A)"
-
-#: logdrake:114
+#: logdrake:117
 #, c-format
 msgid ""
 "_:this is the auth.log log file\n"
 "Authentication"
 msgstr "認證紀錄檔 (auth.log)"
 
-#: logdrake:115
+#: logdrake:118
 #, c-format
 msgid ""
 "_:this is the user.log log file\n"
 "User"
 msgstr "使用者紀錄檔 (user.log)"
 
-#: logdrake:116
+#: logdrake:119
 #, c-format
 msgid ""
 "_:this is the /var/log/messages log file\n"
 "Messages"
 msgstr "訊息紀錄檔 (Messages)"
 
-#: logdrake:117
+#: logdrake:120
 #, c-format
 msgid ""
 "_:this is the /var/log/syslog log file\n"
 "Syslog"
 msgstr "系統紀錄檔 (Syslog)"
 
-#: logdrake:121
+#: logdrake:124
 #, c-format
 msgid "search"
 msgstr "尋找"
 
-#: logdrake:133
+#: logdrake:136
 #, c-format
 msgid "A tool to monitor your logs"
 msgstr "監察記錄檔的工具"
 
-#: logdrake:135
+#: logdrake:138
 #, c-format
 msgid "Settings"
 msgstr "設定"
 
-#: logdrake:138
+#: logdrake:141
 #, c-format
 msgid "Matching"
 msgstr "相配的"
 
-#: logdrake:139
+#: logdrake:142
 #, c-format
 msgid "but not matching"
 msgstr "但是不相配"
 
-#: logdrake:142
+#: logdrake:145
 #, c-format
 msgid "Choose file"
 msgstr "選取檔案"
 
-#: logdrake:154
+#: logdrake:157
 #, c-format
 msgid "Calendar"
 msgstr "行事曆"
 
-#: logdrake:163
+#: logdrake:166
 #, c-format
 msgid "Content of the file"
 msgstr "檔案內容"
 
-#: logdrake:167 logdrake:411
+#: logdrake:170 logdrake:415
 #, c-format
 msgid "Mail alert"
 msgstr "郵件警示"
 
-#: logdrake:174
+#: logdrake:177
 #, c-format
 msgid "The alert wizard has failed unexpectedly:"
 msgstr "警示精靈無預警的結束："
 
-#: logdrake:178
+#: logdrake:181
 #, c-format
 msgid "Save"
 msgstr "儲存"
 
-#: logdrake:226
+#: logdrake:230
 #, c-format
 msgid "please wait, parsing file: %s"
 msgstr "請稍候，正在解析檔案：%s"
 
-#: logdrake:248
+#: logdrake:252
 #, c-format
 msgid "Sorry, log file isn't available!"
 msgstr "抱歉，log 檔無法使用！"
 
-#: logdrake:296
+#: logdrake:300
 #, c-format
 msgid "Error while opening \"%s\" log file: %s\n"
 msgstr "開啟 \"%s\" log 檔：%s 時發生錯誤\n"
 
-#: logdrake:389
+#: logdrake:393
 #, c-format
 msgid "Apache World Wide Web Server"
 msgstr "Apache WWW 伺服器"
 
-#: logdrake:390
+#: logdrake:394
 #, c-format
 msgid "Domain Name Resolver"
 msgstr "網域名稱解析器"
 
-#: logdrake:391
+#: logdrake:395
 #, c-format
 msgid "Ftp Server"
 msgstr "FTP 伺服器"
 
-#: logdrake:392
+#: logdrake:396
 #, c-format
 msgid "Postfix Mail Server"
 msgstr "Postfix 郵件伺服器"
 
-#: logdrake:393
+#: logdrake:397
 #, c-format
 msgid "Samba Server"
 msgstr "Samba 伺服器"
 
-#: logdrake:394
+#: logdrake:398
 #, c-format
 msgid "SSH Server"
 msgstr "SSH 伺服主機"
 
-#: logdrake:395
+#: logdrake:399
 #, c-format
 msgid "Webmin Service"
 msgstr "Webmin 服務"
 
-#: logdrake:396
+#: logdrake:400
 #, c-format
 msgid "Xinetd Service"
 msgstr "Xinetd 服務"
 
-#: logdrake:405
+#: logdrake:409
 #, c-format
 msgid "Configure the mail alert system"
 msgstr "設定郵件警示系統"
 
-#: logdrake:406
+#: logdrake:410
 #, c-format
 msgid "Stop the mail alert system"
 msgstr "停止郵件警示系統"
 
-#: logdrake:414
+#: logdrake:418
 #, c-format
 msgid "Mail alert configuration"
 msgstr "郵件警示通知組態設定"
 
-#: logdrake:415
+#: logdrake:419
 #, c-format
 msgid ""
 "Welcome to the mail configuration utility.\n"
@@ -2681,71 +2655,71 @@ msgstr ""
 "\n"
 "在這裡, 您能夠設定您的警示通知的方式。\n"
 
-#: logdrake:418
+#: logdrake:422
 #, c-format
 msgid "What do you want to do?"
 msgstr "您想要做什麼？"
 
-#: logdrake:425
+#: logdrake:429
 #, c-format
 msgid "Services settings"
 msgstr "服務設定"
 
-#: logdrake:426
+#: logdrake:430
 #, c-format
 msgid ""
 "You will receive an alert if one of the selected services is no longer "
 "running"
 msgstr "若是您所選取的服務項目沒有執行的話，您將會收到警示通知"
 
-#: logdrake:433
+#: logdrake:437
 #, c-format
 msgid "Load setting"
 msgstr "載入設定"
 
-#: logdrake:434
+#: logdrake:438
 #, c-format
 msgid "You will receive an alert if the load is higher than this value"
 msgstr "當系統負載超過此數值時，您將會收到警示通知"
 
-#: logdrake:435
+#: logdrake:439
 #, c-format
 msgid ""
 "_: load here is a noun, the load of the system\n"
 "Load"
 msgstr "負載"
 
-#: logdrake:440
+#: logdrake:444
 #, c-format
 msgid "Alert configuration"
 msgstr "警示設定"
 
-#: logdrake:441
+#: logdrake:445
 #, c-format
 msgid "Please enter your email address below "
 msgstr "請於下方輸入你的 e-mail"
 
-#: logdrake:442
+#: logdrake:446
 #, c-format
 msgid "and enter the name (or the IP) of the SMTP server you wish to use"
 msgstr "並輸入您要使用的 SMTP 伺服器名稱 (或 IP)"
 
-#: logdrake:444
-#, fuzzy, c-format
+#: logdrake:448
+#, c-format
 msgid "Email address"
-msgstr "IP 位址"
-
-#: logdrake:445
-#, fuzzy, c-format
-msgid "Email server"
-msgstr "Samba 伺服器"
+msgstr "郵件位址"
 
 #: logdrake:449
+#, c-format
+msgid "Email server"
+msgstr "郵件伺服器"
+
+#: logdrake:453
 #, c-format
 msgid "\"%s\" neither is a valid email nor is an existing local user!"
 msgstr "\"%s\" 既不是有效的信箱也不是既有的本地使用者！"
 
-#: logdrake:454
+#: logdrake:458
 #, c-format
 msgid ""
 "\"%s\" is a local user, but you did not select a local smtp, so you must use "
@@ -2754,31 +2728,31 @@ msgstr ""
 "\"%s\" 是一位本地使用者，但您沒有選擇一個本地的 smtp，所以您必須使用完整的郵"
 "件位址！"
 
-#: logdrake:461
+#: logdrake:465
 #, c-format
 msgid "The wizard successfully configured the mail alert."
 msgstr "本精靈成功的設定了郵件警示。"
 
-#: logdrake:467
+#: logdrake:471
 #, c-format
 msgid "The wizard successfully disabled the mail alert."
 msgstr "本精靈成功的關閉了郵件警示。"
 
-#: logdrake:526
+#: logdrake:530
 #, c-format
 msgid "Save as.."
 msgstr "另存新檔..."
 
-#: notify-x11-free-driver-switch:18 service_harddrake:465
-#: service_harddrake:478
+#: notify-x11-free-driver-switch:18 service_harddrake:468
+#: service_harddrake:481
 #, c-format
 msgid "Display driver setup"
-msgstr ""
+msgstr "顯示卡驅動程式設定"
 
 #: notify-x11-free-driver-switch:20
 #, c-format
 msgid "The display driver has been automatically switched to '%s'."
-msgstr ""
+msgstr "顯示驅動程式已經自動轉換成「%s」。"
 
 #: notify-x11-free-driver-switch:21
 #, c-format
@@ -3062,13 +3036,13 @@ msgstr ""
 "驅動程式使用手冊中有更多的資訊。請執行如下指令 \"man sane-%s\" 來閱讀。"
 
 #: scannerdrake:406 scannerdrake:415
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "After that you may scan documents using \"XSane\" or \"%s\" from Multimedia/"
 "Graphics in the applications menu."
 msgstr ""
-"之後您就可以使用應用程式選單的多媒體/圖形分類中的 \"XSane\" 或\"Kooka\" 來掃"
-"描文件。"
+"之後您就可以使用應用程式選單的多媒體/圖形分類中的 \"XSane\" 或 \"%s\" 來掃描"
+"文件。"
 
 #: scannerdrake:410
 #, c-format
@@ -3096,15 +3070,15 @@ msgid "Congratulations!"
 msgstr "恭喜！"
 
 #: scannerdrake:418
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Your %s has been configured.\n"
 "You may now scan documents using \"XSane\" or \"%s\" from Multimedia/"
 "Graphics in the applications menu."
 msgstr ""
 "您的 %s 已經設定完成。\n"
-"您現在可以立即使用應用程式選單的多媒體/圖形分類中的 \"XSane\" 或 \"Kooka\"來"
-"掃描文件。"
+"您現在可以立即使用應用程式選單的多媒體/圖形分類中的 \"XSane\" 或 \"%s\"來掃描"
+"文件。"
 
 #: scannerdrake:443
 #, c-format
@@ -3302,18 +3276,18 @@ msgstr "您的掃描器將無法從網路上使用。"
 msgid "Could not install the packages needed to share your scanner(s)."
 msgstr "無法安裝分享掃描器所需的套件。"
 
-#: service_harddrake:170
-#, fuzzy, c-format
+#: service_harddrake:173
+#, c-format
 msgid "The graphics card '%s' is no longer supported by driver '%s'"
 msgstr "'%s' 顯示卡已經不再被 '%s' 驅動程式所支援"
 
 #: service_harddrake:180
 #, c-format
 msgid "New release, reconfiguring X for %s"
-msgstr ""
+msgstr "有新的發行版，為 %s 重新設定 X"
 
-#: service_harddrake:271
-#, fuzzy, c-format
+#: service_harddrake:274
+#, c-format
 msgid "The proprietary kernel driver was not found for X.org driver '%s'"
 msgstr "找不到 '%s' X.org 驅動程式的專利核心驅動"
 
@@ -3337,27 +3311,27 @@ msgstr "新增了一些裝置：%s\n"
 msgid "- %s was added\n"
 msgstr "- %s 已經加入\n"
 
-#: service_harddrake:397
+#: service_harddrake:400
 #, c-format
 msgid "Hardware changes in \"%s\" class (%s seconds to answer)"
 msgstr "\"%s\" 類別的硬體有變更 (%s 秒內回應)"
 
-#: service_harddrake:398
+#: service_harddrake:401
 #, c-format
 msgid "Do you want to run the appropriate config tool?"
 msgstr "您想要執行適合的設定工具嗎？"
 
-#: service_harddrake:423
+#: service_harddrake:426
 #, c-format
 msgid "Hardware probing in progress"
 msgstr "硬體偵測正在進行中"
 
-#: service_harddrake:444 service_harddrake:449
+#: service_harddrake:447 service_harddrake:452
 #, c-format
 msgid "Display driver issue"
-msgstr ""
+msgstr "顯示卡驅動程式問題"
 
-#: service_harddrake:445
+#: service_harddrake:448
 #, c-format
 msgid ""
 "The display driver currently configured requires you to use the 'nokmsboot' "
@@ -3365,32 +3339,28 @@ msgid ""
 "boot process. Startup of the X server may now fail as that option was not "
 "specified."
 msgstr ""
+"目前設定的顯示卡驅動程式需要您使用 'nokmsboot' 開機選項來避免核心中的 KMS 驅"
+"動程式在開機過程中被載入。若未指定該選項，X 伺服器可能無法啟動。"
 
-#: service_harddrake:450
+#: service_harddrake:453
 #, c-format
 msgid ""
 "Detected a loaded display driver kernel module which conflicts with the "
 "driver the X server is configured to use. Startup of the X server may now "
 "fail."
 msgstr ""
+"偵測到載入的顯示驅動核心模組和 X server 設定要使用的驅動衝突。現在啟動 X "
+"server 可能會失敗。"
 
-#: service_harddrake:465 service_harddrake:478
+#: service_harddrake:468 service_harddrake:481
 #, c-format
 msgid "The system has to be rebooted due to a display driver change."
-msgstr ""
+msgstr "因為顯示卡驅動程式已變更，系統必須重新開機。"
 
-#: service_harddrake:466 service_harddrake:479
+#: service_harddrake:469 service_harddrake:482
 #, c-format
 msgid "Press Cancel within %d seconds to abort."
-msgstr ""
-
-#: ../menu/localedrake-system.desktop.in.h:1
-msgid "System Regional Settings"
-msgstr "系統地區設定"
-
-#: ../menu/localedrake-system.desktop.in.h:2
-msgid "System wide language & country configurator"
-msgstr "系統語言與國家設定"
+msgstr "請在 %d 秒內按下「取消」以中止。"
 
 #: ../menu/harddrake.desktop.in.h:1
 msgid "HardDrake"
@@ -3404,6 +3374,14 @@ msgstr "硬體組態設定中心/資訊工具"
 msgid "Hardware Configuration Tool"
 msgstr "硬體設定工具"
 
+#: ../menu/localedrake-system.desktop.in.h:1
+msgid "System Regional Settings"
+msgstr "系統地區設定"
+
+#: ../menu/localedrake-system.desktop.in.h:2
+msgid "System wide language & country configurator"
+msgstr "系統語言與國家設定"
+
 #: ../menu/localedrake-user.desktop.in.h:1
 msgid "Regional Settings"
 msgstr "區域設定"
@@ -3412,23 +3390,392 @@ msgstr "區域設定"
 msgid "Language & country configuration"
 msgstr "語言與國家設定"
 
-#~ msgid "Configure authentication required to access OpenMandriva tools"
-#~ msgstr "設定存取 Mandiva 工具所需要的認證"
+#: ../polkit/org.moondrake.drakauth.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Authentication Configuration"
+msgstr "執行 Moondrake 認證設定"
+
+#: ../polkit/org.moondrake.drakauth.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Authentication Configuration"
+msgstr "執行 Moondrake 認證設定需要認證"
+
+#: ../polkit/org.moondrake.drakboot.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Boot Configuration"
+msgstr "執行 Moondrake 開機設定"
+
+#: ../polkit/org.moondrake.drakboot.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Boot Configuration"
+msgstr "執行 Moondrake 開機設定需要認證"
+
+#: ../polkit/org.moondrake.drakclock.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Date and Time Configuration"
+msgstr "執行 Moondrake 時間和日期設定"
+
+#: ../polkit/org.moondrake.drakclock.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Date and Time Configuration"
+msgstr "執行 Moondrake 時間和日期設定需要認證"
+
+#: ../polkit/org.moondrake.drakdisk.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Disk Layout Editor"
+msgstr "執行 Moondrake 磁碟分割設定"
+
+#: ../polkit/org.moondrake.drakdisk.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Disk Layout Editor"
+msgstr "執行 Moondrake 磁碟分割設定需要認證"
+
+#: ../polkit/org.moondrake.drakdm.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Login Manager Configuration"
+msgstr "執行 Moondrake 登入管理員設定"
+
+#: ../polkit/org.moondrake.drakdm.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Login Manager Configuration"
+msgstr "執行 Moondrake 登入管理員設定需要認證"
+
+#: ../polkit/org.moondrake.drakfont.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Font Configuration"
+msgstr "執行 Moondrake 字型設定"
+
+#: ../polkit/org.moondrake.drakfont.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Font Configuration"
+msgstr "執行 Moondrake 字型設定需要認證"
+
+#: ../polkit/org.moondrake.drakhardware.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Hardware Configuration"
+msgstr "執行 Moondrake 硬體設定"
+
+#: ../polkit/org.moondrake.drakhardware.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Hardware Configuration"
+msgstr "執行 Moondrake 硬體設定需要認證"
+
+#: ../polkit/org.moondrake.draklog.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Log Viewer"
+msgstr "執行 Moondrake 記錄檔檢視器"
+
+#: ../polkit/org.moondrake.draklog.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Log Viewer"
+msgstr "執行 Moondrake 記錄檔檢視器需要認證"
+
+#: ../polkit/org.moondrake.drakperm.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Security Permissions Configuration"
+msgstr "執行 Moondrake 安全權限設定"
+
+#: ../polkit/org.moondrake.drakperm.policy.in.h:2
+#, fuzzy
+msgid ""
+"Authentication is required to run DrakX Security Permissions Configuration"
+msgstr "執行 Moondrake 安全權限設定需要認證"
+
+#: ../polkit/org.moondrake.drakscanner.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Scanner Configuration"
+msgstr "執行 Moondrake 掃描器設定"
+
+#: ../polkit/org.moondrake.drakscanner.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Scanner Configuration"
+msgstr "執行 Moondrake 掃描器設定需要認證"
+
+#: ../polkit/org.moondrake.draksec.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Application Security Configuration"
+msgstr "執行 Moondrake 應用程式安全設定"
+
+#: ../polkit/org.moondrake.draksec.policy.in.h:2
+#, fuzzy
+msgid ""
+"Authentication is required to run DrakX Application Security Configuration"
+msgstr "執行 Moondrake 應用程式安全設定需要認證"
+
+#: ../polkit/org.moondrake.drakups.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX UPS Configuration"
+msgstr "執行 Moondrake UPS 設定"
+
+#: ../polkit/org.moondrake.drakups.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX UPS Configuration"
+msgstr "執行 Moondrake UPS 設定需要認證"
+
+#: ../polkit/org.moondrake.moondrakeservices.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Service Configuration"
+msgstr "執行 Moondrake 服務設定"
+
+#: ../polkit/org.moondrake.moondrakeservices.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Service Configuration"
+msgstr "執行 Moondrake 服務設定需要認證"
+
+#~ msgid "%s Bug Report Tool"
+#~ msgstr "%s 錯誤回報工具"
+
+#~ msgid "%s Tools Logs"
+#~ msgstr "%s 工具紀錄"
+
+#~ msgid ""
+#~ "Authentication is required to run Moondrake Application Security "
+#~ "Configuration"
+#~ msgstr "執行 Moondrake 應用程式安全設定需要認證"
+
+#~ msgid ""
+#~ "Authentication is required to run Moondrake Authentication Configuration"
+#~ msgstr "執行 Moondrake 認證設定需要認證"
+
+#~ msgid "Authentication is required to run Moondrake Boot Configuration"
+#~ msgstr "執行 Moondrake 開機設定需要認證"
+
+#~ msgid ""
+#~ "Authentication is required to run Moondrake Date and Time Configuration"
+#~ msgstr "執行 Moondrake 時間和日期設定需要認證"
+
+#~ msgid "Authentication is required to run Moondrake Disk Layout Editor"
+#~ msgstr "執行 Moondrake 磁碟分割設定需要認證"
+
+#~ msgid "Authentication is required to run Moondrake Font Configuration"
+#~ msgstr "執行 Moondrake 字型設定需要認證"
+
+#~ msgid "Authentication is required to run Moondrake Hardware Configuration"
+#~ msgstr "執行 Moondrake 硬體設定需要認證"
+
+#~ msgid "Authentication is required to run Moondrake Log Viewer"
+#~ msgstr "執行 Moondrake 記錄檔檢視器需要認證"
+
+#~ msgid ""
+#~ "Authentication is required to run Moondrake Login Manager Configuration"
+#~ msgstr "執行 Moondrake 登入管理員設定需要認證"
+
+#~ msgid "Authentication is required to run Moondrake Scanner Configuration"
+#~ msgstr "執行 Moondrake 掃描器設定需要認證"
+
+#~ msgid ""
+#~ "Authentication is required to run Moondrake Security Permissions "
+#~ "Configuration"
+#~ msgstr "執行 Moondrake 安全權限設定需要認證"
+
+#~ msgid "Authentication is required to run Moondrake Service Configuration"
+#~ msgstr "執行 Moondrake 服務設定需要認證"
+
+#~ msgid "Authentication is required to run Moondrake UPS Configuration"
+#~ msgstr "執行 Moondrake UPS 設定需要認證"
+
+#~ msgid "Configure authentication required to access %s tools"
+#~ msgstr "設定存取 %s 工具時所需要的認證"
+
+#~ msgid "Run Moondrake Application Security Configuration"
+#~ msgstr "執行 Moondrake 應用程式安全設定"
+
+#~ msgid "Run Moondrake Authentication Configuration"
+#~ msgstr "執行 Moondrake 認證設定"
+
+#~ msgid "Run Moondrake Boot Configuration"
+#~ msgstr "執行 Moondrake 開機設定"
+
+#~ msgid "Run Moondrake Date and Time Configuration"
+#~ msgstr "執行 Moondrake 時間和日期設定"
+
+#~ msgid "Run Moondrake Disk Layout Editor"
+#~ msgstr "執行 Moondrake 磁碟分割設定"
+
+#~ msgid "Run Moondrake Font Configuration"
+#~ msgstr "執行 Moondrake 字型設定"
+
+#~ msgid "Run Moondrake Hardware Configuration"
+#~ msgstr "執行 Moondrake 硬體設定"
+
+#~ msgid "Run Moondrake Log Viewer"
+#~ msgstr "執行 Moondrake 記錄檔檢視器"
+
+#~ msgid "Run Moondrake Login Manager Configuration"
+#~ msgstr "執行 Moondrake 登入管理員設定"
+
+#~ msgid "Run Moondrake Scanner Configuration"
+#~ msgstr "執行 Moondrake 掃描器設定"
+
+#~ msgid "Run Moondrake Security Permissions Configuration"
+#~ msgstr "執行 Moondrake 安全權限設定"
+
+#~ msgid "Run Moondrake Service Configuration"
+#~ msgstr "執行 Moondrake 服務設定"
+
+#~ msgid "Run Moondrake UPS Configuration"
+#~ msgstr "執行 Moondrake UPS 設定"
+
+#~ msgid "  --help                - display this help     \n"
+#~ msgstr " --help                - 顯示本說明\n"
+
+#~ msgid ""
+#~ " drakhelp 0.1\n"
+#~ "Copyright (C) %s Mandriva.\n"
+#~ "Copyright (C) %s Moondrake.\n"
+#~ "This is free software and may be redistributed under the terms of the GNU "
+#~ "GPL.\n"
+#~ "\n"
+#~ "Usage: \n"
+#~ msgstr ""
+#~ " drakhelp 0.1\n"
+#~ "Copyright (C) %s Mandriva.\n"
+#~ "Copyright (C) %s Moondrake.\n"
+#~ "這是自由軟體並可於 GNU GPL 條款下重新散佈。\n"
+#~ "\n"
+#~ "用法：\n"
+
+#~ msgid "%s Control Center"
+#~ msgstr "%s 控制中心"
+
+#~ msgid "%s Help Center"
+#~ msgstr "%s 說明中心"
 
 #~ msgid "/Autodetect _jaz drives"
 #~ msgstr "/自動偵測 Jaz 裝置 (_J)"
 
-#~ msgid "OpenMandriva Lx Tools Logs"
-#~ msgstr "Mandriva 工具紀錄"
+#~ msgid "/Autodetect _modems"
+#~ msgstr "/自動偵測數據機 (_M)"
 
 #~ msgid "/Autodetect _printers"
 #~ msgstr "/自動偵測印表機 (_P)"
 
+#~ msgid "/Autodetect parallel _zip drives"
+#~ msgstr "/自動偵測平行埠的 ZIP 磁碟 (_Z)"
+
+#~ msgid "/File/-"
+#~ msgstr "/檔案/-"
+
+#~ msgid "/File/Save _As"
+#~ msgstr "/檔案/另存新檔 (_A)"
+
+#~ msgid "/File/_New"
+#~ msgstr "/檔案/新增 (_N)"
+
+#~ msgid "/File/_Open"
+#~ msgstr "/檔案/開啟 (_O)"
+
+#~ msgid "/File/_Quit"
+#~ msgstr "/檔案 (F)/結束 (_Q)"
+
+#~ msgid "/File/_Save"
+#~ msgstr "/檔案/儲存 (_S)"
+
+#~ msgid "/Help/_About..."
+#~ msgstr "/說明/關於 (_A)"
+
+#~ msgid "/Options/Test"
+#~ msgstr "/選項/測試"
+
+#~ msgid "/_About..."
+#~ msgstr "/關於 (_A)"
+
+#~ msgid "/_Fields description"
+#~ msgstr "/欄位的描述資訊 (_F)"
+
+#~ msgid "/_File"
+#~ msgstr "/檔案 (_F)"
+
+#~ msgid "/_Help"
+#~ msgstr "/說明 (_H)"
+
+#~ msgid "/_Options"
+#~ msgstr "/選項 (_O)"
+
+#~ msgid "/_Quit"
+#~ msgstr "/結束 (_Q)"
+
+#~ msgid "/_Report Bug"
+#~ msgstr "/報告錯誤 (_R)"
+
+#~ msgid "<control>N"
+#~ msgstr "<control>N"
+
+#~ msgid "<control>O"
+#~ msgstr "<control>O"
+
+#~ msgid "Autodetect _jaz drives"
+#~ msgstr "自動偵測 Jaz 裝置 (_J)"
+
+#~ msgid "Configure authentication required to access Mandriva tools"
+#~ msgstr "設定存取 Mandiva 工具所需要的認證"
+
+#, fuzzy
+#~ msgid "DrakX Online"
+#~ msgstr "Mandriva Online 線上服務"
+
+#~ msgid "File/-"
+#~ msgstr "檔案/-"
+
+#~ msgid "File/Save _As"
+#~ msgstr "檔案/另存新檔 (_A)"
+
+#~ msgid "File/_New"
+#~ msgstr "檔案/新增 (_N)"
+
+#~ msgid "File/_Open"
+#~ msgstr "檔案/開啟 (_O)"
+
+#~ msgid "File/_Quit"
+#~ msgstr "檔案 (F)/結束 (_Q)"
+
+#~ msgid "File/_Save"
+#~ msgstr "檔案/儲存 (_S)"
+
+#~ msgid "Help/_About..."
+#~ msgstr "說明/關於 (_A)"
+
+#~ msgid ""
+#~ "Here you can see files to use in order to fix permissions, owners, and "
+#~ "groups via msec.\n"
+#~ "You can also edit your own rules which will owerwrite the default rules."
+#~ msgstr ""
+#~ "這裡讓您可以藉由 msec 檢視以及修改重要檔案的權限、擁有者、群組等資訊。\n"
+#~ "另外您也可以編輯自訂的規則以取代預設的項目。"
+
 #~ msgid "Its GDB trace is:"
 #~ msgstr "它的 GDB 追蹤為："
 
+#~ msgid "Mandriva Linux Bug Report Tool"
+#~ msgstr "Mandriva Linux 臭蟲回報工具"
+
+#~ msgid "Mandriva Linux Tools Logs"
+#~ msgstr "Mandriva 工具紀錄"
+
+#~ msgid "Mandriva Update"
+#~ msgstr "Mandriva 更新"
+
+#~ msgid "Moondrake"
+#~ msgstr "Moondrake"
+
+#~ msgid ""
+#~ "No Sound Card has been detected on your machine. Please verify that a "
+#~ "Linux-supported Sound Card is correctly plugged in"
+#~ msgstr "在您的系統中偵測不到音效卡。請檢查是否已經將音效卡插入"
+
+#~ msgid ""
+#~ "No TV Card has been detected on your machine. Please verify that a Linux-"
+#~ "supported Video/TV Card is correctly plugged in."
+#~ msgstr "在您的系統中偵測不到電視卡。請檢查是否已經將電視卡插入。"
+
 #~ msgid "OpenOffice.org"
 #~ msgstr "OpenOffice.org"
+
+#~ msgid "Options/Test"
+#~ msgstr "選項/測試"
+
+#~ msgid "Select Mandriva Tool:"
+#~ msgstr "選擇 Mandriva 工具："
 
 #~ msgid ""
 #~ "The proprietary driver for your graphic card cannot be found, the system "

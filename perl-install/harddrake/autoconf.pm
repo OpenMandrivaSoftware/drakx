@@ -113,6 +113,7 @@ sub laptop {
     services::set_status("apmd", -e "/proc/apm");
     services::set_status("numlock", !$on_laptop);
     services::set_status("cpupower", $on_laptop);
+    
 }
 
 sub cpufreq() {

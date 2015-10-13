@@ -1,4 +1,4 @@
-package fs::format; # $Id$
+package fs::format;
 
 use String::ShellQuote;
 
@@ -39,7 +39,7 @@ my %LABELs = ( #- option, length, handled_by_mount
     ntfs     => [ '-L', 128, 0 ],
    'ntfs-3g' => [ '-L', 128, 0 ],
     btrfs    => [ '-L', 256, 1 ],
-    nilfs2   => [ '-L', 16, 1],
+    nilfs2   => [ '-L', 16, 1 ],
 );
 
 my %edit_LABEL = ( # package, command, option
@@ -192,8 +192,10 @@ sub part_raw {
     delete $part->{device_LABEL_changed};
 
     # Preserve UUID on fs where we couldn't enforce it while formatting
-    (undef, $cmd) = @{$preserve_UUID{$fs_type}};
-    run_program::raw({}, $cmd, '-U', devices::make($dev)) if $cmd;
+    if (my $uuid_cmd = $preserve_UUID{$fs_type}) {
+	(undef, $cmd) = @$uuid_cmd;
+	run_program::raw({}, $cmd, '-U', devices::make($dev)) if $cmd;
+    }
     
     if (member($fs_type, qw(ext3 ext4))) {
 	disable_forced_fsck($dev);

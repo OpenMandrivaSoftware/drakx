@@ -1,4 +1,4 @@
-package fs; # $Id$
+package fs;
 
 use common;
 use log;
@@ -206,7 +206,9 @@ sub prepare_write_fstab {
 	$comment ||= "# Entry for /dev/$_->{device} :\n" if $device =~ /^(UUID|LABEL)=/;
 
 	my $real_mntpoint = $_->{mntpoint} || ${{ '/tmp/hdimage' => '/mnt/hd' }}{$_->{real_mntpoint}};
-	mkdir_p("$o_prefix$real_mntpoint") if $real_mntpoint =~ m|^/|;
+	if (!member('bind', split(',', $_->{options}))) {
+	   mkdir_p("$o_prefix$real_mntpoint") if $real_mntpoint =~ m|^/|;
+	}
 	my $mntpoint = fs::type::carry_root_loopback($_) ? '/initrd/loopfs' : $real_mntpoint;
 
 	my ($freq, $passno) =
@@ -295,7 +297,7 @@ sub set_removable_mntpoints {
     my %names;
     foreach (@{$all_hds->{raw_hds}}) {
 	my $name = detect_devices::suggest_mount_point($_) or next;
-	$name eq 'zip' || $name eq 'cdrom' and next;
+	member($name, qw(zip cdrom)) and next;
 	
 	my $s = ++$names{$name};
 	$_->{mntpoint} ||= "/media/$name" . ($s == 1 ? '' : $s);
@@ -315,7 +317,9 @@ sub get_raw_hds {
     $all_hds->{smbs} = [ grep { $_->{fs_type} eq 'cifs' } @fstab ];
     $all_hds->{davs} = [ grep { $_->{fs_type} eq 'davfs2' } @fstab ];
     $all_hds->{special} = [
-       (grep { $_->{fs_type} eq 'tmpfs' } @fstab),
+       (grep { $_->{fs_type} eq 'tmpfs' or $_->{fs_type} eq 'devtmpfs' or
+	       $_->{fs_type} eq 'sysfs' or $_->{fs_type} eq 'devpts' or
+	       $_->{fs_type} eq 'debugfs'} @fstab),
        { device => 'none', mntpoint => '/proc', fs_type => 'proc' },
     ];
 }

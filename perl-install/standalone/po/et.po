@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DrakX-et\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-22 00:53+0100\n"
+"POT-Creation-Date: 2015-02-18 12:28+0100\n"
 "PO-Revision-Date: 2011-04-25 13:31+0200\n"
 "Last-Translator: Marek Laane <bald@smail.ee>\n"
 "Language-Team: Estonian <et@li.org>\n"
@@ -18,73 +18,73 @@ msgstr ""
 "X-Generator: KBabel 1.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: display_help:54 display_help:59 drakbug:170 drakperm:134
+#: display_help:53 display_help:58 drakbug:173 drakperm:134
 #, c-format
 msgid "Help"
 msgstr "Abi"
 
-#: display_help:67 drakbug:175 drakfont:505
+#: display_help:66 drakbug:178 drakfont:507
 #, c-format
 msgid "Close"
 msgstr "Sulge"
 
-#: drakauth:24 drakauth:26 draksec:162
+#: drakauth:24 drakauth:26 draksec:184
 #, c-format
 msgid "Authentication"
 msgstr "Autentimisviis"
 
-#: drakauth:37 drakclock:113 drakclock:138 drakdvb:74 drakfont:211
-#: drakfont:224 drakfont:262 finish-install:131 logdrake:174 logdrake:449
-#: logdrake:454 scannerdrake:56 scannerdrake:98 scannerdrake:139
+#: drakauth:37 drakclock:117 drakclock:142 drakdvb:74 drakfont:213
+#: drakfont:226 drakfont:264 finish-install:133 logdrake:177 logdrake:453
+#: logdrake:458 scannerdrake:56 scannerdrake:98 scannerdrake:139
 #: scannerdrake:197 scannerdrake:256 scannerdrake:726 scannerdrake:737
 #: scannerdrake:876 scannerdrake:887 scannerdrake:957
 #, c-format
 msgid "Error"
 msgstr "Viga"
 
-#: drakboot:53
+#: drakboot:54
 #, c-format
 msgid "No bootloader found, creating a new configuration"
 msgstr "Alglaadurit ei leitud, luuakse uus konfiguratsioon"
 
-#: drakboot:86 harddrake2:195 harddrake2:196 logdrake:75
+#: drakboot:89 harddrake2:191 logdrake:77
 #, c-format
-msgid "/_File"
-msgstr "/_Fail"
+msgid "_File"
+msgstr "_Fail"
 
-#: drakboot:87 logdrake:81
+#: drakboot:90 harddrake2:192 logdrake:78 logdrake:79
 #, c-format
-msgid "/File/_Quit"
-msgstr "/Fail/_Välju"
+msgid "_Quit"
+msgstr "_Välju"
 
-#: drakboot:87 harddrake2:196 logdrake:81
+#: drakboot:90 harddrake2:192 logdrake:79
 #, c-format
 msgid "<control>Q"
 msgstr "<control>Q"
 
-#: drakboot:127
+#: drakboot:138
 #, c-format
 msgid "Text only"
 msgstr "Ainult tekst"
 
-#: drakboot:128
+#: drakboot:139
 #, c-format
 msgid "Verbose"
 msgstr "Jutukas"
 
-#: drakboot:129
+#: drakboot:140
 #, c-format
 msgid "Silent"
 msgstr "Vaikne"
 
-#: drakboot:135 drakbug:247 drakdvb:57 drakfont:681 drakperm:374 drakperm:384
-#: drakups:26 harddrake2:528 localedrake:45 scannerdrake:48 scannerdrake:51
+#: drakboot:146 drakbug:250 drakdvb:57 drakfont:682 drakperm:371 drakperm:381
+#: drakups:27 harddrake2:504 localedrake:45 scannerdrake:48 scannerdrake:51
 #: scannerdrake:294 scannerdrake:299 scannerdrake:951
 #, c-format
 msgid "Warning"
 msgstr "Hoiatus"
 
-#: drakboot:136
+#: drakboot:147
 #, c-format
 msgid ""
 "Your system bootloader is not in framebuffer mode. To activate graphical "
@@ -93,73 +93,73 @@ msgstr ""
 "Teie süsteemi alglaadur ei tööta konsoolirežiimis. Graafilise alglaadimise "
 "kasutamiseks valige sobiv režiim alglaaduri seadistamistööriistaga."
 
-#: drakboot:137
+#: drakboot:148
 #, c-format
 msgid "Do you want to configure it now?"
 msgstr "Kas soovite seda nüüd seadistada?"
 
-#: drakboot:146
+#: drakboot:157
 #, c-format
 msgid "Install themes"
 msgstr "Teemade paigaldamine"
 
-#: drakboot:148
+#: drakboot:159
 #, c-format
 msgid "Graphical boot theme selection"
 msgstr "Graafilise algkäivitusteema valik"
 
-#: drakboot:151
+#: drakboot:162
 #, c-format
 msgid "Graphical boot mode:"
 msgstr "Graafilise algkäivituse režiim:"
 
-#: drakboot:153
+#: drakboot:164
 #, c-format
 msgid "Theme"
 msgstr "Teema"
 
-#: drakboot:187
+#: drakboot:198
 #, c-format
 msgid "Default user"
 msgstr "Vaikimisi kasutaja"
 
-#: drakboot:188
+#: drakboot:199
 #, c-format
 msgid "Default desktop"
 msgstr "Vaikimisi töölaud"
 
-#: drakboot:191
+#: drakboot:202
 #, c-format
 msgid "No, I do not want autologin"
 msgstr "Ei taha automaatselt siseneda"
 
-#: drakboot:192
+#: drakboot:203
 #, c-format
 msgid "Yes, I want autologin with this (user, desktop)"
 msgstr ""
 "Jah, soovin automaatset sisselogimist sellele (kasutajale, keskkonnale)"
 
-#: drakboot:199
+#: drakboot:210
 #, c-format
 msgid "System mode"
 msgstr "Töömood"
 
-#: drakboot:202
+#: drakboot:213
 #, c-format
 msgid "Launch the graphical environment when your system starts"
 msgstr "X Windows käivitatakse alglaadimisel"
 
-#: drakboot:257
+#: drakboot:268
 #, c-format
 msgid "Boot Style Configuration"
 msgstr "Alglaaduri stiil"
 
-#: drakboot:259 drakboot:263
+#: drakboot:270 drakboot:274
 #, c-format
 msgid "Video mode"
 msgstr "Ekraanilahutus"
 
-#: drakboot:260
+#: drakboot:271
 #, c-format
 msgid ""
 "Please choose a video mode, it will be applied to each of the boot entries "
@@ -175,15 +175,15 @@ msgstr ""
 msgid "The \"%s\" program has crashed with the following error:"
 msgstr "Programm \"%s\" jooksis kokku järgmise veaga:"
 
-#: drakbug:60
+#: drakbug:62
 #, fuzzy, c-format
-msgid "OpenMandriva Lx Bug Reporting"
-msgstr "OpenMandriva Lxi vigadest teatamise tööriist"
+msgid "DrakX Bug Report Tool"
+msgstr "%s vigadest teatamise tööriist"
 
-#: drakbug:65
-#, c-format
-msgid "OpenMandriva Lx Control Center"
-msgstr "OpenMandriva Lxi juhtimiskeskus"
+#: drakbug:67
+#, fuzzy, c-format
+msgid "DrakX Linux Control Center"
+msgstr "Mandriva Linuxi juhtimiskeskus"
 
 #: drakbug:66
 #, c-format
@@ -200,10 +200,15 @@ msgstr "Sünkroniseerimistööriist"
 msgid "Standalone Tools"
 msgstr "Autonoomsed tööriistad"
 
-#: drakbug:70 drakbug:71
+#: drakbug:72 drakbug:73
+#, c-format
+msgid "%s Online"
+msgstr "%s Online"
+
+#: drakbug:72 drakbug:73 drakbug:99 draksec:169
 #, fuzzy, c-format
-msgid "OpenMandriva Online"
-msgstr "Mandriva Online"
+msgid "DrakX"
+msgstr "DrakUPS"
 
 #: drakbug:72
 #, c-format
@@ -225,10 +230,10 @@ msgstr "Windowsi ümberkolimise tööriist"
 msgid "Configuration Wizards"
 msgstr "Seadistamise nõustajad"
 
-#: drakbug:97
-#, fuzzy, c-format
-msgid "Select Tool:"
-msgstr "Valige Mandriva tööriist:"
+#: drakbug:99
+#, c-format
+msgid "Select %s Tool:"
+msgstr "Valige %s tööriist:"
 
 #: drakbug:98
 #, c-format
@@ -264,10 +269,10 @@ msgstr "Kernel:"
 msgid "The \"%s\" program has segfaulted with the following error:"
 msgstr "Programm \"%s\" jooksis kokku järgmise veaga:"
 
-#: drakbug:142
-#, fuzzy, c-format
+#: drakbug:144
+#, c-format
 msgid "Used theme: %s"
-msgstr "Kasutaja: %s"
+msgstr "Kasutatud teema: %s"
 
 #: drakbug:144
 #, c-format
@@ -337,27 +342,27 @@ msgstr ""
 msgid "Thanks."
 msgstr "Täname."
 
-#: drakclock:28 draksec:168
+#: drakclock:29 draksec:190
 #, c-format
 msgid "Date, Clock & Time Zone Settings"
 msgstr "Kuupäeva, kellaaja ja ajavööndi seadistamine"
 
-#: drakclock:37
+#: drakclock:38
 #, c-format
 msgid "not defined"
 msgstr "määramata"
 
-#: drakclock:39
+#: drakclock:40
 #, c-format
 msgid "Change Time Zone"
 msgstr "Ajavööndi muutmine"
 
-#: drakclock:44
+#: drakclock:45
 #, c-format
 msgid "Timezone - DrakClock"
 msgstr "Ajavöönd - DrakClock"
 
-#: drakclock:44
+#: drakclock:45
 #, c-format
 msgid "Which is your timezone?"
 msgstr "Millises ajavöötmes asute?"
@@ -372,12 +377,12 @@ msgstr "GMT - DrakClock"
 msgid "Is your hardware clock set to GMT?"
 msgstr "Kas arvuti sisekell on seatud GMT ajale?"
 
-#: drakclock:72
+#: drakclock:75
 #, c-format
 msgid "Network Time Protocol"
 msgstr "Võrguajaprotokoll"
 
-#: drakclock:74
+#: drakclock:77
 #, c-format
 msgid ""
 "Your computer can synchronize its clock\n"
@@ -386,42 +391,42 @@ msgstr ""
 "Teie arvuti võib sünkroniseerida oma aja\n"
 "mõne internetis asuva ajaserveriga NTP vahendusel"
 
-#: drakclock:75
+#: drakclock:78
 #, c-format
 msgid "Enable Network Time Protocol"
 msgstr "Võrguajaprotokolli lubamine"
 
-#: drakclock:83
+#: drakclock:86
 #, c-format
 msgid "Server:"
 msgstr "Server:"
 
-#: drakclock:97
+#: drakclock:100
 #, c-format
 msgid "Timezone"
 msgstr "Ajavöönd"
 
-#: drakclock:113
+#: drakclock:117
 #, c-format
 msgid "Please enter a valid NTP server address."
 msgstr "Palun andke sobiv NTP-serveri aadress."
 
-#: drakclock:139
+#: drakclock:143
 #, c-format
 msgid "Could not synchronize with %s."
 msgstr "Sünkroniseerimine serveriga %s ebaõnnestus."
 
-#: drakclock:140 drakdvb:149 logdrake:179 scannerdrake:488
+#: drakclock:144 drakdvb:149 logdrake:182 scannerdrake:488
 #, c-format
 msgid "Quit"
 msgstr "Välju"
 
-#: drakclock:141
+#: drakclock:145
 #, c-format
 msgid "Retry"
 msgstr "Proovi uuesti"
 
-#: drakclock:166 drakclock:176
+#: drakclock:168 drakclock:178
 #, c-format
 msgid "Reset"
 msgstr "Lähtesta"
@@ -446,10 +451,10 @@ msgstr "%s on juba olemas ja selle sisu läheb kaotsi"
 msgid "Could not get the list of available channels"
 msgstr "Saadaolevate kanalite nimekirja hankimine nurjus"
 
-#: drakdvb:80 draksec:67 drakups:98 finish-install:106 harddrake2:374
+#: drakdvb:80 draksec:69 drakups:99 finish-install:106 harddrake2:358
 #: scannerdrake:63 scannerdrake:67 scannerdrake:75 scannerdrake:316
 #: scannerdrake:365 scannerdrake:501 scannerdrake:505 scannerdrake:527
-#: service_harddrake:423
+#: service_harddrake:426
 #, c-format
 msgid "Please wait"
 msgstr "Palun oodake"
@@ -459,7 +464,7 @@ msgstr "Palun oodake"
 msgid "Detecting DVB channels, this will take a few minutes"
 msgstr "DVB kanalite tuvastamine - see võib võtta veidi aega"
 
-#: drakdvb:85 drakfont:571 drakfont:651 drakfont:735 drakups:216 logdrake:179
+#: drakdvb:85 drakfont:571 drakfont:651 drakfont:736 drakups:217 logdrake:182
 #, c-format
 msgid "Cancel"
 msgstr "Loobu"
@@ -491,20 +496,25 @@ msgstr "GDM (GNOME kuvahaldur)"
 
 #: drakedm:43
 #, fuzzy, c-format
+msgid "LIGHTDM (LightDM Display Manager)"
+msgstr "GDM (GNOME kuvahaldur)"
+
+#: drakedm:44
+#, fuzzy, c-format
 msgid "SLIM (Simple Display Manager)"
 msgstr "XDM (X'i kuvahaldur)"
 
-#: drakedm:44
+#: drakedm:45
 #, c-format
 msgid "XDM (X Display Manager)"
 msgstr "XDM (X'i kuvahaldur)"
 
-#: drakedm:55
+#: drakedm:56
 #, c-format
 msgid "Choosing a display manager"
 msgstr "Kuvahalduri valimine"
 
-#: drakedm:56
+#: drakedm:57
 #, c-format
 msgid ""
 "X11 Display Manager allows you to graphically log\n"
@@ -515,12 +525,12 @@ msgstr ""
 "süsteemi, kus töötab X Window System, samuti toetab see korraga \n"
 "mitme X-seansi käivitamist ja neis töötamist."
 
-#: drakedm:79
+#: drakedm:80
 #, c-format
 msgid "The change is done, do you want to restart the dm service?"
 msgstr "Muutus on tehtud. Kas käivitada nüüd kuvahaldur uuesti?"
 
-#: drakedm:80
+#: drakedm:81
 #, c-format
 msgid ""
 "You are going to close all running programs and lose your current session. "
@@ -645,7 +655,7 @@ msgstr "Fontide paigaldamine"
 msgid "DrakFont"
 msgstr "DrakFont"
 
-#: drakfont:489 drakfont:641
+#: drakfont:491 drakfont:641
 #, c-format
 msgid "Font List"
 msgstr "Fontide nimekiri"
@@ -660,12 +670,12 @@ msgstr "Paigalda Windowsi fondid"
 msgid "About"
 msgstr "Misvärk"
 
-#: drakfont:499 drakfont:540
+#: drakfont:501 drakfont:540
 #, c-format
 msgid "Options"
 msgstr "Eelistused"
 
-#: drakfont:500 drakfont:720
+#: drakfont:502 drakfont:721
 #, c-format
 msgid "Uninstall"
 msgstr "Eemalda"
@@ -680,9 +690,9 @@ msgstr "Import"
 msgid "Drakfont"
 msgstr "Drakfont"
 
-#: drakfont:521 harddrake2:229
-#, fuzzy, c-format
-msgid "Copyright (C) %s by OpenMandriva"
+#: drakfont:523
+#, c-format
+msgid "Copyright (C) %s by Mandriva"
 msgstr "Autoriõigus (C) %s: Mandriva"
 
 #: drakfont:523
@@ -690,14 +700,14 @@ msgstr "Autoriõigus (C) %s: Mandriva"
 msgid "Font installer."
 msgstr "Fondipaigaldaja."
 
-#: drakfont:525 logdrake:55
-#, c-format
-msgid "OpenMandriva Lx"
-msgstr "OpenMandriva Lx"
+#: drakfont:527
+#, fuzzy, c-format
+msgid "Moondrake GNU/Linux"
+msgstr "Mandriva Linux"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
-#: drakfont:532 harddrake2:238
+#: drakfont:532 harddrake2:531
 #, c-format
 msgid "_: Translator(s) name(s) & email(s)\n"
 msgstr "Marek Laane <bald@starman.ee>\n"
@@ -715,7 +725,7 @@ msgstr "Ghostscript"
 #: drakfont:554
 #, c-format
 msgid "LibreOffice"
-msgstr ""
+msgstr "LibreOffice"
 
 #: drakfont:555
 #, c-format
@@ -727,7 +737,7 @@ msgstr "Abiword"
 msgid "Generic Printers"
 msgstr "Tavalised printerid"
 
-#: drakfont:561 drakfont:571 drakups:209
+#: drakfont:561 drakfont:571 drakups:210
 #, c-format
 msgid "Ok"
 msgstr "Olgu"
@@ -747,17 +757,17 @@ msgstr "Failivalik"
 msgid "Fonts"
 msgstr "Fondid"
 
-#: drakfont:639 draksec:164
+#: drakfont:639 draksec:186
 #, c-format
 msgid "Import fonts"
 msgstr "Fontide importimine"
 
-#: drakfont:645 drakups:298 drakups:374
+#: drakfont:645 drakups:299 drakups:375
 #, c-format
 msgid "Add"
 msgstr "Lisa"
 
-#: drakfont:646 drakfont:734 drakups:300 drakups:376
+#: drakfont:646 drakfont:735 drakups:301 drakups:377
 #, c-format
 msgid "Remove"
 msgstr "Eemalda"
@@ -767,67 +777,67 @@ msgstr "Eemalda"
 msgid "Install"
 msgstr "Paigaldamine"
 
-#: drakfont:683
+#: drakfont:684
 #, c-format
 msgid "Are you sure you want to uninstall the following fonts?"
 msgstr "Kas tõesti eemaldada järgmised fondid?"
 
-#: drakfont:687 draksec:57 harddrake2:319
+#: drakfont:688 draksec:59 harddrake2:302
 #, c-format
 msgid "Yes"
 msgstr "Jah"
 
-#: drakfont:689 draksec:56 harddrake2:320
+#: drakfont:690 draksec:58 harddrake2:303
 #, c-format
 msgid "No"
 msgstr "Ei"
 
-#: drakfont:728
+#: drakfont:729
 #, c-format
 msgid "Unselect All"
 msgstr "Tühista kõigi valimine"
 
-#: drakfont:731
+#: drakfont:732
 #, c-format
 msgid "Select All"
 msgstr "Kõigi valimine"
 
-#: drakfont:748
+#: drakfont:749
 #, c-format
 msgid "Importing fonts"
 msgstr "Fontide importimine"
 
-#: drakfont:752 drakfont:772
+#: drakfont:753 drakfont:773
 #, c-format
 msgid "Initial tests"
 msgstr "Käivitustestid"
 
-#: drakfont:753
+#: drakfont:754
 #, c-format
 msgid "Copy fonts on your system"
 msgstr "Fontide kopeerimine Teie süsteemi"
 
-#: drakfont:754
+#: drakfont:755
 #, c-format
 msgid "Install & convert Fonts"
 msgstr "Fontide paigaldamine ja teisendamine"
 
-#: drakfont:755
+#: drakfont:756
 #, c-format
 msgid "Post Install"
 msgstr "Paigaldamisjärgne seadistamine"
 
-#: drakfont:767
+#: drakfont:768
 #, c-format
 msgid "Removing fonts"
 msgstr "Fontide eemaldamine"
 
-#: drakfont:773
+#: drakfont:774
 #, c-format
 msgid "Remove fonts on your system"
 msgstr "Fontide eemaldamine Teie süsteemist"
 
-#: drakfont:774
+#: drakfont:775
 #, c-format
 msgid "Post Uninstall"
 msgstr "Eemaldamisjärgne seadistamine"
@@ -905,22 +915,22 @@ msgstr "Turvaõigused"
 msgid "Editable"
 msgstr "Redigeeritav"
 
-#: drakperm:48 drakperm:318
+#: drakperm:50 drakperm:318
 #, c-format
 msgid "Path"
 msgstr "Asukoht"
 
-#: drakperm:48 drakperm:247
+#: drakperm:50 drakperm:247
 #, c-format
 msgid "User"
 msgstr "Kasutaja"
 
-#: drakperm:48 drakperm:247
+#: drakperm:50 drakperm:247
 #, c-format
 msgid "Group"
 msgstr "Grupp"
 
-#: drakperm:48 drakperm:107 drakperm:330 draksec:179
+#: drakperm:50 drakperm:107 drakperm:330 draksec:201
 #, c-format
 msgid "Permissions"
 msgstr "Õigused"
@@ -930,7 +940,7 @@ msgstr "Õigused"
 msgid "Add a new rule"
 msgstr "Lisa uus reegel"
 
-#: drakperm:65 drakperm:100 drakperm:126
+#: drakperm:67 drakperm:102 drakperm:126
 #, c-format
 msgid "Edit current rule"
 msgstr "Muuda praegust reeglit"
@@ -940,7 +950,7 @@ msgstr "Muuda praegust reeglit"
 msgid ""
 "Here you can see files to use in order to fix permissions, owners, and "
 "groups via msec.\n"
-"You can also edit your own rules which will owerwrite the default rules."
+"You can also edit your own rules which will overwrite the default rules."
 msgstr ""
 "Siin saab näha faile ja mseci abil parandada õigusi, omanikke ja gruppe.\n"
 "Võite ka muuta oma reegleid, mis tühistavad vaikereeglid."
@@ -994,7 +1004,7 @@ msgstr "Kustuta"
 msgid "Delete selected rule"
 msgstr "Kustuta valitud reegel"
 
-#: drakperm:126 drakups:299 drakups:375
+#: drakperm:126 drakups:300 drakups:376
 #, c-format
 msgid "Edit"
 msgstr "Muuda"
@@ -1121,7 +1131,7 @@ msgstr "Asukoha valik"
 msgid "Property"
 msgstr "Omadus"
 
-#: drakperm:374
+#: drakperm:371
 #, c-format
 msgid ""
 "The first character of the path must be a slash (\"/\"):\n"
@@ -1130,17 +1140,17 @@ msgstr ""
 "Asukoha esimene sümbol peab olema kaldkriips (\"/\"):\n"
 "\"%s\""
 
-#: drakperm:384
+#: drakperm:381
 #, c-format
 msgid "Both the username and the group must valid!"
 msgstr "Nii kasutajanimi kui grupp peavad olema korrektsed!"
 
-#: drakperm:385
+#: drakperm:382
 #, c-format
 msgid "User: %s"
 msgstr "Kasutaja: %s"
 
-#: drakperm:386
+#: drakperm:383
 #, c-format
 msgid "Group: %s"
 msgstr "Grupp: %s"
@@ -1160,7 +1170,7 @@ msgstr "KOHALIK"
 msgid "NONE"
 msgstr "PUUDUB"
 
-#: draksec:54
+#: draksec:56 draksec:113
 #, c-format
 msgid "Default"
 msgstr "Vaikimisi"
@@ -1175,147 +1185,147 @@ msgstr "Ignoreeritakse"
 msgid "Security Level and Checks"
 msgstr "Turvatasemed"
 
-#: draksec:108
-#, c-format
-msgid "Configure access to OpenMandriva Lx administrative tools"
-msgstr ""
+#: draksec:110
+#, fuzzy, c-format
+msgid "Configure authentication required to access DrakX tools"
+msgstr "Autentimise seadistamine %s tööriistade kasutamiseks"
 
-#: draksec:111
+#: draksec:114
 #, c-format
 msgid "No password needed"
 msgstr "Parool puudub"
 
-#: draksec:112
+#: draksec:115
 #, c-format
-msgid "Root password required"
+msgid "Administrator password"
 msgstr "Administraatori parool"
 
-#: draksec:113
+#: draksec:116
 #, c-format
 msgid "User password required"
 msgstr "Kasutaja parool"
 
-#: draksec:146 draksec:202
+#: draksec:168 draksec:223
 #, c-format
 msgid "Software Management"
 msgstr "Tarkvarahaldus"
 
-#: draksec:147
-#, fuzzy, c-format
-msgid "Online Update"
-msgstr "Mandriva Update"
+#: draksec:169
+#, c-format
+msgid "%s Update"
+msgstr "%s Update"
 
-#: draksec:148
+#: draksec:170
 #, c-format
 msgid "Software Media Manager"
 msgstr "Tarkvaraallikate haldur"
 
-#: draksec:149
+#: draksec:171
 #, c-format
 msgid "Configure 3D Desktop effects"
 msgstr "Ruumilise töölaua efektide seadistamine"
 
-#: draksec:150
+#: draksec:172
 #, c-format
 msgid "Graphical Server Configuration"
 msgstr "Graafikaserveri seadistamine"
 
-#: draksec:151
+#: draksec:173
 #, c-format
 msgid "Mouse Configuration"
 msgstr "Hiire seadistamine"
 
-#: draksec:152
+#: draksec:174
 #, c-format
 msgid "Keyboard Configuration"
 msgstr "Klaviatuuri seadistamine"
 
-#: draksec:153
+#: draksec:175
 #, fuzzy, c-format
 msgid "Printer Configuration"
 msgstr "Puhverserveri seadistamine"
 
-#: draksec:154
+#: draksec:176
 #, c-format
 msgid "UPS Configuration"
 msgstr "UPS-i seadistamine"
 
-#: draksec:155
+#: draksec:177
 #, c-format
 msgid "Network Configuration"
 msgstr "Võrgu seadistamine"
 
-#: draksec:156
+#: draksec:178
 #, c-format
 msgid "Hosts definitions"
 msgstr "Masinate määratlemine"
 
-#: draksec:157
+#: draksec:179
 #, c-format
 msgid "Network Center"
 msgstr "Võrgukeskus"
 
-#: draksec:158
+#: draksec:180
 #, c-format
 msgid "Wireless Network Roaming"
 msgstr "Juhtmeta side rändlus"
 
-#: draksec:159
+#: draksec:181
 #, c-format
 msgid "VPN"
 msgstr "VPN"
 
-#: draksec:160
+#: draksec:182
 #, c-format
 msgid "Proxy Configuration"
 msgstr "Puhverserveri seadistamine"
 
-#: draksec:161
+#: draksec:183
 #, c-format
 msgid "Connection Sharing"
 msgstr "Ühenduse jagamine"
 
-#: draksec:163
+#: draksec:185
 #, c-format
 msgid "Backups"
 msgstr "Varukoopiad"
 
-#: draksec:165 logdrake:56
+#: draksec:187 logdrake:56
 #, c-format
 msgid "Logs"
 msgstr "Logid"
 
-#: draksec:166 finish-install:210 finish-install:249
+#: draksec:188 finish-install:212 finish-install:251
 #, c-format
 msgid "Services"
 msgstr "Teenused"
 
-#: draksec:167
+#: draksec:189
 #, c-format
 msgid "Users"
 msgstr "Kasutajad"
 
-#: draksec:169
+#: draksec:191
 #, c-format
 msgid "Boot Configuration"
 msgstr "Alglaadimise seadistamine"
 
-#: draksec:203
+#: draksec:224
 #, c-format
 msgid "Hardware"
 msgstr "Riistvara"
 
-#: draksec:204
+#: draksec:225
 #, c-format
 msgid "Network"
 msgstr "Võrk"
 
-#: draksec:205
+#: draksec:226
 #, c-format
 msgid "System"
 msgstr "Süsteem"
 
-#: draksec:206
+#: draksec:227
 #, c-format
 msgid "Boot"
 msgstr "Algkäivitus"
@@ -1406,12 +1416,12 @@ msgstr ""
 msgid "Autodetection"
 msgstr "Automaattuvastus"
 
-#: drakups:98 harddrake2:374
+#: drakups:99 harddrake2:358
 #, c-format
 msgid "Detection in progress"
 msgstr "Toimub tuvastamine..."
 
-#: drakups:117 drakups:156 logdrake:461 logdrake:467
+#: drakups:118 drakups:157 logdrake:465 logdrake:471
 #, c-format
 msgid "Congratulations"
 msgstr "Õnnitleme!"
@@ -1546,7 +1556,7 @@ msgstr "Tase"
 msgid "ACL name"
 msgstr "ACL nimi"
 
-#: drakups:296 finish-install:258
+#: drakups:297 finish-install:260
 #, c-format
 msgid "Password"
 msgstr "Parool"
@@ -1599,7 +1609,7 @@ msgid "Keyboard"
 msgstr "Klaviatuur"
 
 #: finish-install:58
-#, fuzzy, c-format
+#, c-format
 msgid "Please choose your keyboard layout."
 msgstr "Palun valige klaviatuuriasetus."
 
@@ -1608,57 +1618,62 @@ msgstr "Palun valige klaviatuuriasetus."
 msgid "Testing your connection..."
 msgstr "Ühenduse testimine..."
 
-#: finish-install:185
+#: finish-install:187
 #, c-format
 msgid "Windows-compatible sharing system"
 msgstr ""
 
-#: finish-install:188
+#: finish-install:189
+#, c-format
+msgid "Virtual Private Network"
+msgstr ""
+
+#: finish-install:190
 #, fuzzy, c-format
 msgid "OpenSSH server"
 msgstr "SSH-server"
 
-#: finish-install:189
+#: finish-install:191
 #, fuzzy, c-format
 msgid "Print server"
 msgstr "FTP server"
 
-#: finish-install:209
+#: finish-install:211
 #, c-format
 msgid "Do you have any services that you want to run when starting up?"
 msgstr ""
 
-#: finish-install:241
+#: finish-install:243
 #, fuzzy, c-format
 msgid "The following services failed to start:\n"
 msgstr "Paigaldada tuleb järgmised paketid:\n"
 
-#: finish-install:244
+#: finish-install:246
 #, fuzzy, c-format
 msgid "The following services failed to stop:\n"
 msgstr "Paigaldada tuleb järgmised paketid:\n"
 
-#: finish-install:256 finish-install:274 finish-install:287
+#: finish-install:258 finish-install:276 finish-install:289
 #, c-format
 msgid "Encrypted home partition"
 msgstr "Krüptitud kodupartitsioon"
 
-#: finish-install:256
+#: finish-install:258
 #, c-format
 msgid "Please enter a password for the %s user"
 msgstr "Palun andke kasutaja %s parool"
 
-#: finish-install:259
+#: finish-install:261
 #, c-format
 msgid "Password (again)"
 msgstr "Parool (uuesti)"
 
-#: finish-install:274
+#: finish-install:276
 #, c-format
 msgid "Creating encrypted home partition"
 msgstr "Krüptitud kodupartitsiooni loomine"
 
-#: finish-install:287
+#: finish-install:289
 #, c-format
 msgid "Formatting encrypted home partition"
 msgstr "Krüptitud kodupartitsiooni vormindamine"
@@ -2288,48 +2303,145 @@ msgstr "Partitsioonid"
 msgid "Features"
 msgstr "Omadused"
 
-#. -PO: please keep all "/" characters !!!
-#: harddrake2:179 logdrake:82
+#: harddrake2:179
 #, c-format
-msgid "/_Options"
-msgstr "/_Eelistused"
+msgid "Autodetect _modems"
+msgstr "_Modemite automaattuvastus"
 
-#: harddrake2:180 harddrake2:203 logdrake:84
+#: harddrake2:180
 #, c-format
-msgid "/_Help"
-msgstr "/_Abi"
+msgid "Autodetect parallel _zip drives"
+msgstr "Paralleelpordi _ZIP-ketaste automaattuvastus"
 
 #: harddrake2:184
-#, c-format
-msgid "/Autodetect _modems"
-msgstr "/_Modemite automaattuvastus"
-
-#: harddrake2:185
-#, c-format
-msgid "/Autodetect parallel _zip drives"
-msgstr "/Paralleelpordi _ZIP-ketaste automaattuvastus"
-
-#: harddrake2:189
 #, c-format
 msgid "Hardware Configuration"
 msgstr "Riistvara seadistamine"
 
+#: harddrake2:193
+#, c-format
+msgid "_Options"
+msgstr "_Eelistused"
+
+#: harddrake2:194 harddrake2:195
+#, c-format
+msgid "_Help"
+msgstr "_Abi"
+
+#: harddrake2:195
+#, c-format
+msgid "<control>H"
+msgstr "<control>H"
+
 #: harddrake2:196
 #, c-format
-msgid "/_Quit"
-msgstr "/_Välju"
+msgid "_Fields description"
+msgstr "Välja_de kirjeldus"
 
-#: harddrake2:205
+#: harddrake2:197
 #, c-format
-msgid "/_Fields description"
-msgstr "/Välja_de kirjeldus"
+msgid "_Report Bug"
+msgstr "_Veast teatamine"
 
-#: harddrake2:207
+#: harddrake2:198
+#, c-format
+msgid "_About..."
+msgstr "_Misvärk"
+
+#: harddrake2:242
+#, c-format
+msgid "Detected hardware"
+msgstr "Tuvastatud riistvara"
+
+#: harddrake2:245 scannerdrake:283
+#, c-format
+msgid "Information"
+msgstr "Info"
+
+#: harddrake2:247
+#, c-format
+msgid "Set current driver options"
+msgstr "Aktiivse draiveri võtmete määramine"
+
+#: harddrake2:254
+#, c-format
+msgid "Run config tool"
+msgstr "Seadistamistööriista käivitamine"
+
+#: harddrake2:280
+#, c-format
+msgid ""
+"Click on a device in the tree on the left in order to display its "
+"information here."
+msgstr ""
+"Klõps seadmel vasakul asuvas puus näitab siin selle kohta käivat infot."
+
+#: harddrake2:300 notify-x11-free-driver-switch:13
+#, c-format
+msgid "unknown"
+msgstr "tundmatu"
+
+#: harddrake2:301
+#, c-format
+msgid "Unknown"
+msgstr "Tundmatu"
+
+#: harddrake2:321
+#, c-format
+msgid "Misc"
+msgstr "Muud"
+
+#: harddrake2:404
+#, c-format
+msgid "secondary"
+msgstr "teisene"
+
+#: harddrake2:404
+#, c-format
+msgid "primary"
+msgstr "esmane"
+
+#: harddrake2:408
+#, c-format
+msgid "burner"
+msgstr "CD-kirjutaja"
+
+#: harddrake2:408
+#, c-format
+msgid "DVD"
+msgstr "DVD"
+
+#: harddrake2:504
+#, c-format
+msgid "The following packages need to be installed:\n"
+msgstr "Paigaldada tuleb järgmised paketid:\n"
+
+#: harddrake2:521
+#, c-format
+msgid "Harddrake"
+msgstr "Harddrake"
+
+#: harddrake2:523
+#, c-format
+msgid "Copyright (C) %s by %s"
+msgstr "Autoriõigus (C) %s: %s"
+
+#: harddrake2:523 harddrake2:527
+#, c-format
+msgid "Mageia"
+msgstr ""
+
+#: harddrake2:525
+#, c-format
+msgid "This is HardDrake, a %s hardware configuration tool."
+msgstr "Harddrake on %si riistvara seadistamise tööriist."
+
+#: harddrake2:540
 #, c-format
 msgid "Harddrake help"
 msgstr "HardDrake abi"
 
-#: harddrake2:208
+#: harddrake2:541
 #, c-format
 msgid ""
 "Description of the fields:\n"
@@ -2338,12 +2450,12 @@ msgstr ""
 "Väljade kirjeldus:\n"
 "\n"
 
-#: harddrake2:216
+#: harddrake2:548
 #, c-format
 msgid "Select a device!"
 msgstr "Valige seade!"
 
-#: harddrake2:216
+#: harddrake2:548
 #, c-format
 msgid ""
 "Once you've selected a device, you'll be able to see the device information "
@@ -2351,99 +2463,6 @@ msgid ""
 msgstr ""
 "Kui valite seadme, näete selle kohta infot väljadel paremal asuvas paneelis "
 "(\"Info\")"
-
-#: harddrake2:222
-#, c-format
-msgid "/_Report Bug"
-msgstr "/_Vearaport"
-
-#: harddrake2:224
-#, c-format
-msgid "/_About..."
-msgstr "/_Misvärk"
-
-#: harddrake2:227
-#, c-format
-msgid "Harddrake"
-msgstr "Harddrake"
-
-#: harddrake2:231
-#, c-format
-msgid "This is HardDrake, a %s hardware configuration tool."
-msgstr "Harddrake on %si riistvara seadistamise tööriist."
-
-#: harddrake2:233
-#, fuzzy, c-format
-msgid "OpenMandriva Linux"
-msgstr "OpenMandriva Lx"
-
-#: harddrake2:264
-#, c-format
-msgid "Detected hardware"
-msgstr "Tuvastatud riistvara"
-
-#: harddrake2:267 scannerdrake:283
-#, c-format
-msgid "Information"
-msgstr "Info"
-
-#: harddrake2:269
-#, c-format
-msgid "Set current driver options"
-msgstr "Aktiivse draiveri võtmete määramine"
-
-#: harddrake2:276
-#, c-format
-msgid "Run config tool"
-msgstr "Seadistamistööriista käivitamine"
-
-#: harddrake2:296
-#, c-format
-msgid ""
-"Click on a device in the tree on the left in order to display its "
-"information here."
-msgstr ""
-"Klõps seadmel vasakul asuvas puus näitab siin selle kohta käivat infot."
-
-#: harddrake2:317 notify-x11-free-driver-switch:13
-#, c-format
-msgid "unknown"
-msgstr "tundmatu"
-
-#: harddrake2:318
-#, c-format
-msgid "Unknown"
-msgstr "Tundmatu"
-
-#: harddrake2:338
-#, c-format
-msgid "Misc"
-msgstr "Muud"
-
-#: harddrake2:420
-#, c-format
-msgid "secondary"
-msgstr "teisene"
-
-#: harddrake2:420
-#, c-format
-msgid "primary"
-msgstr "esmane"
-
-#: harddrake2:424
-#, c-format
-msgid "burner"
-msgstr "CD-kirjutaja"
-
-#: harddrake2:424
-#, c-format
-msgid "DVD"
-msgstr "DVD"
-
-#: harddrake2:528
-#, c-format
-msgid "The following packages need to be installed:\n"
-msgstr "Paigaldada tuleb järgmised paketid:\n"
 
 #: localedrake:38
 #, c-format
@@ -2462,219 +2481,174 @@ msgid ", "
 msgstr ", "
 
 #: logdrake:55
-#, c-format
-msgid "%s Tools Logs"
-msgstr ""
+#, fuzzy, c-format
+msgid "DrakX Tools Logs"
+msgstr "%s tööriistade logid"
 
 #: logdrake:69
 #, c-format
 msgid "Show only for the selected day"
 msgstr "Ainult valitud päeval näitamine"
 
-#: logdrake:76
-#, c-format
-msgid "/File/_New"
-msgstr "/Fail/_Uus"
-
-#: logdrake:76
-#, c-format
-msgid "<control>N"
-msgstr "<control>N"
-
-#: logdrake:77
-#, c-format
-msgid "/File/_Open"
-msgstr "/Fail/_Ava"
-
-#: logdrake:77
-#, c-format
-msgid "<control>O"
-msgstr "<control>O"
-
-#: logdrake:78
-#, c-format
-msgid "/File/_Save"
-msgstr "/Fail/_Salvesta"
-
 #: logdrake:78
 #, c-format
 msgid "<control>S"
 msgstr "<control>S"
 
-#: logdrake:79
-#, c-format
-msgid "/File/Save _As"
-msgstr "/Fail/Salvesta _kui"
-
-#: logdrake:80
-#, c-format
-msgid "/File/-"
-msgstr "/Fail/-"
-
-#: logdrake:83
-#, c-format
-msgid "/Options/Test"
-msgstr "/Eelistused/Test"
-
-#: logdrake:85
-#, c-format
-msgid "/Help/_About..."
-msgstr "/Abi/_Misvärk"
-
-#: logdrake:114
+#: logdrake:117
 #, c-format
 msgid ""
 "_:this is the auth.log log file\n"
 "Authentication"
 msgstr "Autentimine"
 
-#: logdrake:115
+#: logdrake:118
 #, c-format
 msgid ""
 "_:this is the user.log log file\n"
 "User"
 msgstr "Kasutaja"
 
-#: logdrake:116
+#: logdrake:119
 #, c-format
 msgid ""
 "_:this is the /var/log/messages log file\n"
 "Messages"
 msgstr "Teated"
 
-#: logdrake:117
+#: logdrake:120
 #, c-format
 msgid ""
 "_:this is the /var/log/syslog log file\n"
 "Syslog"
 msgstr "Süsteemilogi"
 
-#: logdrake:121
+#: logdrake:124
 #, c-format
 msgid "search"
 msgstr "otsing"
 
-#: logdrake:133
+#: logdrake:136
 #, c-format
 msgid "A tool to monitor your logs"
 msgstr "Tööriist logide jälgimiseks"
 
-#: logdrake:135
+#: logdrake:138
 #, c-format
 msgid "Settings"
 msgstr "Seadistused"
 
-#: logdrake:138
+#: logdrake:141
 #, c-format
 msgid "Matching"
 msgstr "Sobib"
 
-#: logdrake:139
+#: logdrake:142
 #, c-format
 msgid "but not matching"
 msgstr "aga ei sobi"
 
-#: logdrake:142
+#: logdrake:145
 #, c-format
 msgid "Choose file"
 msgstr "Faili valimine"
 
-#: logdrake:154
+#: logdrake:157
 #, c-format
 msgid "Calendar"
 msgstr "Kalender"
 
-#: logdrake:163
+#: logdrake:166
 #, c-format
 msgid "Content of the file"
 msgstr "Faili sisu"
 
-#: logdrake:167 logdrake:411
+#: logdrake:170 logdrake:415
 #, c-format
 msgid "Mail alert"
 msgstr "Hoiatus e-kirjaga"
 
-#: logdrake:174
+#: logdrake:177
 #, c-format
 msgid "The alert wizard has failed unexpectedly:"
 msgstr "Hoiatusnõustajat tabas ootamatu krahh:"
 
-#: logdrake:178
+#: logdrake:181
 #, c-format
 msgid "Save"
 msgstr "Salvesta"
 
-#: logdrake:226
+#: logdrake:230
 #, c-format
 msgid "please wait, parsing file: %s"
 msgstr "palun oodake, parsitakse faili %s"
 
-#: logdrake:248
+#: logdrake:252
 #, c-format
 msgid "Sorry, log file isn't available!"
 msgstr "Vabandust, logifaili pole!"
 
-#: logdrake:296
+#: logdrake:300
 #, c-format
 msgid "Error while opening \"%s\" log file: %s\n"
 msgstr "Viga \"%s\" logifaili avamisel: %s\n"
 
-#: logdrake:389
+#: logdrake:393
 #, c-format
 msgid "Apache World Wide Web Server"
 msgstr "Apache veebiserver"
 
-#: logdrake:390
+#: logdrake:394
 #, c-format
 msgid "Domain Name Resolver"
 msgstr "Domeeninimede lahendaja"
 
-#: logdrake:391
+#: logdrake:395
 #, c-format
 msgid "Ftp Server"
 msgstr "FTP server"
 
-#: logdrake:392
+#: logdrake:396
 #, c-format
 msgid "Postfix Mail Server"
 msgstr "Postfix e-posti server"
 
-#: logdrake:393
+#: logdrake:397
 #, c-format
 msgid "Samba Server"
 msgstr "Samba server"
 
-#: logdrake:394
+#: logdrake:398
 #, c-format
 msgid "SSH Server"
 msgstr "SSH-server"
 
-#: logdrake:395
+#: logdrake:399
 #, c-format
 msgid "Webmin Service"
 msgstr "Webmin teenus"
 
-#: logdrake:396
+#: logdrake:400
 #, c-format
 msgid "Xinetd Service"
 msgstr "Xinetd teenus"
 
-#: logdrake:405
+#: logdrake:409
 #, c-format
 msgid "Configure the mail alert system"
 msgstr "E-kirjaga hoiatamise süsteemi seadistamine"
 
-#: logdrake:406
+#: logdrake:410
 #, c-format
 msgid "Stop the mail alert system"
 msgstr "Peata e-kirjaga hoiatamise süsteem"
 
-#: logdrake:414
+#: logdrake:418
 #, c-format
 msgid "Mail alert configuration"
 msgstr "E-kirjaga hoiatamise seadistamine"
 
-#: logdrake:415
+#: logdrake:419
 #, c-format
 msgid ""
 "Welcome to the mail configuration utility.\n"
@@ -2685,72 +2659,72 @@ msgstr ""
 "\n"
 "Siin saab seadistada hoiatussüsteemi.\n"
 
-#: logdrake:418
+#: logdrake:422
 #, c-format
 msgid "What do you want to do?"
 msgstr "Mida soovite ette võtta?"
 
-#: logdrake:425
+#: logdrake:429
 #, c-format
 msgid "Services settings"
 msgstr "Teenuste seadistamine"
 
-#: logdrake:426
+#: logdrake:430
 #, c-format
 msgid ""
 "You will receive an alert if one of the selected services is no longer "
 "running"
 msgstr "Saate hoiatuse, kui mõni valitud teenustest enam ei tööta"
 
-#: logdrake:433
+#: logdrake:437
 #, c-format
 msgid "Load setting"
 msgstr "Koormuse seadistamine"
 
-#: logdrake:434
+#: logdrake:438
 #, c-format
 msgid "You will receive an alert if the load is higher than this value"
 msgstr "Saate hoiatuse, kui koormus on siin määratust suurem"
 
-#: logdrake:435
+#: logdrake:439
 #, c-format
 msgid ""
 "_: load here is a noun, the load of the system\n"
 "Load"
 msgstr "Koormus"
 
-#: logdrake:440
+#: logdrake:444
 #, c-format
 msgid "Alert configuration"
 msgstr "Hoiatuse seadistamine"
 
-#: logdrake:441
+#: logdrake:445
 #, c-format
 msgid "Please enter your email address below "
 msgstr "Sisestage palun siia oma e-posti aadress"
 
-#: logdrake:442
+#: logdrake:446
 #, c-format
 msgid "and enter the name (or the IP) of the SMTP server you wish to use"
 msgstr "ja sisestage SMTP serveri nimi (või IP), mida soovite kasutada"
 
-#: logdrake:444
-#, fuzzy, c-format
+#: logdrake:448
+#, c-format
 msgid "Email address"
-msgstr "IP-aadress"
-
-#: logdrake:445
-#, fuzzy, c-format
-msgid "Email server"
-msgstr "Samba server"
+msgstr "E-posti aadress"
 
 #: logdrake:449
+#, c-format
+msgid "Email server"
+msgstr "E-posti server"
+
+#: logdrake:453
 #, c-format
 msgid "\"%s\" neither is a valid email nor is an existing local user!"
 msgstr ""
 "\"%s\" ei ole korrektne e-posti aadress ega olemasolev kohalik kasutaja!"
 
-#: logdrake:454
+#: logdrake:458
 #, c-format
 msgid ""
 "\"%s\" is a local user, but you did not select a local smtp, so you must use "
@@ -2759,23 +2733,23 @@ msgstr ""
 "\"%s\" on kohalik kasutaja, aga Te ei valinud kohalikku SMPT-d, nii et peate "
 "kasutama täielikku e-posti aadressi!"
 
-#: logdrake:461
+#: logdrake:465
 #, c-format
 msgid "The wizard successfully configured the mail alert."
 msgstr "Nõustaja seadistas edukalt e-kirjaga hoiatamise."
 
-#: logdrake:467
+#: logdrake:471
 #, c-format
 msgid "The wizard successfully disabled the mail alert."
 msgstr "Nõustaja keelustas edukalt e-kirjaga hoiatamise."
 
-#: logdrake:526
+#: logdrake:530
 #, c-format
 msgid "Save as.."
 msgstr "Salvesta kui..."
 
-#: notify-x11-free-driver-switch:18 service_harddrake:465
-#: service_harddrake:478
+#: notify-x11-free-driver-switch:18 service_harddrake:468
+#: service_harddrake:481
 #, c-format
 msgid "Display driver setup"
 msgstr "Graafikadraiveri seadistus"
@@ -2783,7 +2757,7 @@ msgstr "Graafikadraiveri seadistus"
 #: notify-x11-free-driver-switch:20
 #, c-format
 msgid "The display driver has been automatically switched to '%s'."
-msgstr ""
+msgstr "Videodraiveriks määrati automaatselt '%s'."
 
 #: notify-x11-free-driver-switch:21
 #, c-format
@@ -3078,13 +3052,13 @@ msgstr ""
 "käsureal käsk \"man sane-%s\"."
 
 #: scannerdrake:406 scannerdrake:415
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "After that you may scan documents using \"XSane\" or \"%s\" from Multimedia/"
 "Graphics in the applications menu."
 msgstr ""
 "Pärast seda võite skaneerida dokumente, kasutades selleks rakendust \"XSane"
-"\" või \"Kooka\", mille leiate rakenduste menüüs rubriigist Multimeedia/"
+"\" või \"%s\", mille leiate rakenduste menüüs rubriigist Multimeedia/"
 "Graafika."
 
 #: scannerdrake:410
@@ -3116,7 +3090,7 @@ msgid "Congratulations!"
 msgstr "Õnnitleme!"
 
 #: scannerdrake:418
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Your %s has been configured.\n"
 "You may now scan documents using \"XSane\" or \"%s\" from Multimedia/"
@@ -3124,7 +3098,7 @@ msgid ""
 msgstr ""
 "Teie %s on seadistatud.\n"
 "Nüüd võite skaneerida dokumente, kasutades selleks rakendust \"XSane\" või "
-"\"Kooka\", mille leiate rakenduste menüüs rubriigist Multimeedia/Graafika."
+"\"%s\", mille leiate rakenduste menüüs rubriigist Multimeedia/Graafika."
 
 #: scannerdrake:443
 #, c-format
@@ -3330,8 +3304,8 @@ msgstr ""
 "Pakettide paigaldamine, mis on vajalikud Teie skanneri(te) jagamiseks, ei "
 "õnnestunud."
 
-#: service_harddrake:170
-#, fuzzy, c-format
+#: service_harddrake:173
+#, c-format
 msgid "The graphics card '%s' is no longer supported by driver '%s'"
 msgstr "'%s' draiver ei toeta enam graafikakaarti '%s'."
 
@@ -3340,8 +3314,8 @@ msgstr "'%s' draiver ei toeta enam graafikakaarti '%s'."
 msgid "New release, reconfiguring X for %s"
 msgstr "Uus väljalase, X seadistatakse %s jaoks ümber"
 
-#: service_harddrake:271
-#, fuzzy, c-format
+#: service_harddrake:274
+#, c-format
 msgid "The proprietary kernel driver was not found for X.org driver '%s'"
 msgstr "'%s' X.org-i draiverile ei leitud kerneli kommertsdraiverit"
 
@@ -3365,27 +3339,27 @@ msgstr "Mõned seadmed lisati: %s\n"
 msgid "- %s was added\n"
 msgstr "- %s lisati\n"
 
-#: service_harddrake:397
+#: service_harddrake:400
 #, c-format
 msgid "Hardware changes in \"%s\" class (%s seconds to answer)"
 msgstr "Riistvara muutused \"%s\" klassis (%s sekundit vastata)"
 
-#: service_harddrake:398
+#: service_harddrake:401
 #, c-format
 msgid "Do you want to run the appropriate config tool?"
 msgstr "Kas soovite käivitada vastava seadistamistööriista?"
 
-#: service_harddrake:423
+#: service_harddrake:426
 #, c-format
 msgid "Hardware probing in progress"
 msgstr "Riistvara tuvastamine..."
 
-#: service_harddrake:444 service_harddrake:449
+#: service_harddrake:447 service_harddrake:452
 #, c-format
 msgid "Display driver issue"
 msgstr "Graafikadraiveri probleem"
 
-#: service_harddrake:445
+#: service_harddrake:448
 #, c-format
 msgid ""
 "The display driver currently configured requires you to use the 'nokmsboot' "
@@ -3397,31 +3371,25 @@ msgstr ""
 "kasutamist, et vältida kerneli KMS draiveri laadimist alglaadimise ajal. X-"
 "serveri käivitamine ei pruugi nüüd õnnestuda, sest seda võtit pole määratud."
 
-#: service_harddrake:450
+#: service_harddrake:453
 #, c-format
 msgid ""
 "Detected a loaded display driver kernel module which conflicts with the "
 "driver the X server is configured to use. Startup of the X server may now "
 "fail."
 msgstr ""
+"Leiti laaditud videodraiveri kerneli moodul, mis on konfliktis draiveriga, "
+"mida X on seadistatud kasutama. X-serveri käivitamine võib seepärast nurjuda."
 
-#: service_harddrake:465 service_harddrake:478
+#: service_harddrake:468 service_harddrake:481
 #, c-format
 msgid "The system has to be rebooted due to a display driver change."
 msgstr "Graafikadraiveri muutuse tõttu tuleb süsteem taaskäivitada."
 
-#: service_harddrake:466 service_harddrake:479
+#: service_harddrake:469 service_harddrake:482
 #, c-format
 msgid "Press Cancel within %d seconds to abort."
 msgstr "Katkestamiseks vajutage %d sekundi jooksul Loobu."
-
-#: ../menu/localedrake-system.desktop.in.h:1
-msgid "System Regional Settings"
-msgstr "Süsteemsed asukohaseadistused"
-
-#: ../menu/localedrake-system.desktop.in.h:2
-msgid "System wide language & country configurator"
-msgstr "Süsteemne keele ja riigi seadistaja"
 
 #: ../menu/harddrake.desktop.in.h:1
 msgid "HardDrake"
@@ -3435,6 +3403,14 @@ msgstr "Keskne riistvara seadistamise ja teabe tööriist"
 msgid "Hardware Configuration Tool"
 msgstr "Riistvara seadistamise tööriist"
 
+#: ../menu/localedrake-system.desktop.in.h:1
+msgid "System Regional Settings"
+msgstr "Süsteemsed asukohaseadistused"
+
+#: ../menu/localedrake-system.desktop.in.h:2
+msgid "System wide language & country configurator"
+msgstr "Süsteemne keele ja riigi seadistaja"
+
 #: ../menu/localedrake-user.desktop.in.h:1
 msgid "Regional Settings"
 msgstr "Asukohaseadistused"
@@ -3443,30 +3419,404 @@ msgstr "Asukohaseadistused"
 msgid "Language & country configuration"
 msgstr "Keele ja riigi seadistamine"
 
-#~ msgid "Configure authentication required to access OpenMandriva tools"
-#~ msgstr "Autentimise seadistamine Mandriva tööriistade kasutamiseks"
+#: ../polkit/org.moondrake.drakauth.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Authentication Configuration"
+msgstr "Moondrake autentimise seadistamise käivitamine"
+
+#: ../polkit/org.moondrake.drakauth.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Authentication Configuration"
+msgstr "Moondrake autentimise seadistamine nõuab autentimist"
+
+#: ../polkit/org.moondrake.drakboot.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Boot Configuration"
+msgstr "Moondrake alglaadimise seadistamise käivitamine"
+
+#: ../polkit/org.moondrake.drakboot.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Boot Configuration"
+msgstr "Moondrake alglaadimise seadistamine nõuab autentimist"
+
+#: ../polkit/org.moondrake.drakclock.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Date and Time Configuration"
+msgstr "Moondrake kuupäeva ja kellaaja seadistamise käivitamine"
+
+#: ../polkit/org.moondrake.drakclock.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Date and Time Configuration"
+msgstr "Moondrake kuupäeva ja kellaaja seadistamine nõuab autentimist"
+
+#: ../polkit/org.moondrake.drakdisk.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Disk Layout Editor"
+msgstr "Moondrake kettajagamise programmi käivitamine"
+
+#: ../polkit/org.moondrake.drakdisk.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Disk Layout Editor"
+msgstr "Moondrake kettajagamise programm nõuab autentimist"
+
+#: ../polkit/org.moondrake.drakdm.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Login Manager Configuration"
+msgstr "Moondrake sisselogimishalduri seadistamise käivitamine"
+
+#: ../polkit/org.moondrake.drakdm.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Login Manager Configuration"
+msgstr "Moondrake sisselogimishalduri seadistamine nõuab autentimist"
+
+#: ../polkit/org.moondrake.drakfont.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Font Configuration"
+msgstr "Moondrake fontide seadistamise käivitamine"
+
+#: ../polkit/org.moondrake.drakfont.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Font Configuration"
+msgstr "Moondrake fontide seadistamine nõuab autentimist"
+
+#: ../polkit/org.moondrake.drakhardware.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Hardware Configuration"
+msgstr "Moondrake riistvara seadistamise käivitamine"
+
+#: ../polkit/org.moondrake.drakhardware.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Hardware Configuration"
+msgstr "Moondrake riistvara seadistamine nõuab autentimist"
+
+#: ../polkit/org.moondrake.draklog.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Log Viewer"
+msgstr "Moondrake loginäitaja käivitamine"
+
+#: ../polkit/org.moondrake.draklog.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Log Viewer"
+msgstr "Moondrake loginäitaja käivitamine nõuab autentimist"
+
+#: ../polkit/org.moondrake.drakperm.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Security Permissions Configuration"
+msgstr "Moondrake turbeõiguste seadistamise käivitamine"
+
+#: ../polkit/org.moondrake.drakperm.policy.in.h:2
+#, fuzzy
+msgid ""
+"Authentication is required to run DrakX Security Permissions Configuration"
+msgstr "Moondrake turbeõiguste seadistamine nõuab autentimist"
+
+#: ../polkit/org.moondrake.drakscanner.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Scanner Configuration"
+msgstr "Moondrake skanneri seadistamise käivitamine"
+
+#: ../polkit/org.moondrake.drakscanner.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Scanner Configuration"
+msgstr "Moondrake skanneri seadistamine nõuab autentimist"
+
+#: ../polkit/org.moondrake.draksec.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Application Security Configuration"
+msgstr "Moondrake rakenduste turbe seadistamise käivitamine"
+
+#: ../polkit/org.moondrake.draksec.policy.in.h:2
+#, fuzzy
+msgid ""
+"Authentication is required to run DrakX Application Security Configuration"
+msgstr "Moondrake rakenduste turbe seadistamine nõuab autentimist"
+
+#: ../polkit/org.moondrake.drakups.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX UPS Configuration"
+msgstr "Moondrake UPS-i seadistamise käivitamine"
+
+#: ../polkit/org.moondrake.drakups.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX UPS Configuration"
+msgstr "Moondrake UPS-i seadistamine nõuab autentimist"
+
+#: ../polkit/org.moondrake.moondrakeservices.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Service Configuration"
+msgstr "Moondrake teenuste seadistamise käivitamine"
+
+#: ../polkit/org.moondrake.moondrakeservices.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Service Configuration"
+msgstr "Moondrake teenuste seadistamine nõuab autentimist"
+
+#~ msgid "%s Bug Report Tool"
+#~ msgstr "%s vigadest teatamise tööriist"
+
+#~ msgid "%s Tools Logs"
+#~ msgstr "%s tööriistade logid"
+
+#~ msgid ""
+#~ "Authentication is required to run Moondrake Application Security "
+#~ "Configuration"
+#~ msgstr "Moondrake rakenduste turbe seadistamine nõuab autentimist"
+
+#~ msgid ""
+#~ "Authentication is required to run Moondrake Authentication Configuration"
+#~ msgstr "Moondrake autentimise seadistamine nõuab autentimist"
+
+#~ msgid "Authentication is required to run Moondrake Boot Configuration"
+#~ msgstr "Moondrake alglaadimise seadistamine nõuab autentimist"
+
+#~ msgid ""
+#~ "Authentication is required to run Moondrake Date and Time Configuration"
+#~ msgstr "Moondrake kuupäeva ja kellaaja seadistamine nõuab autentimist"
+
+#~ msgid "Authentication is required to run Moondrake Disk Layout Editor"
+#~ msgstr "Moondrake kettajagamise programm nõuab autentimist"
+
+#~ msgid "Authentication is required to run Moondrake Font Configuration"
+#~ msgstr "Moondrake fontide seadistamine nõuab autentimist"
+
+#~ msgid "Authentication is required to run Moondrake Hardware Configuration"
+#~ msgstr "Moondrake riistvara seadistamine nõuab autentimist"
+
+#~ msgid "Authentication is required to run Moondrake Log Viewer"
+#~ msgstr "Moondrake loginäitaja käivitamine nõuab autentimist"
+
+#~ msgid ""
+#~ "Authentication is required to run Moondrake Login Manager Configuration"
+#~ msgstr "Moondrake sisselogimishalduri seadistamine nõuab autentimist"
+
+#~ msgid "Authentication is required to run Moondrake Scanner Configuration"
+#~ msgstr "Moondrake skanneri seadistamine nõuab autentimist"
+
+#~ msgid ""
+#~ "Authentication is required to run Moondrake Security Permissions "
+#~ "Configuration"
+#~ msgstr "Moondrake turbeõiguste seadistamine nõuab autentimist"
+
+#~ msgid "Authentication is required to run Moondrake Service Configuration"
+#~ msgstr "Moondrake teenuste seadistamine nõuab autentimist"
+
+#~ msgid "Authentication is required to run Moondrake UPS Configuration"
+#~ msgstr "Moondrake UPS-i seadistamine nõuab autentimist"
+
+#~ msgid "Configure authentication required to access %s tools"
+#~ msgstr "Autentimise seadistamine %s tööriistade kasutamiseks"
+
+#~ msgid "Run Moondrake Application Security Configuration"
+#~ msgstr "Moondrake rakenduste turbe seadistamise käivitamine"
+
+#~ msgid "Run Moondrake Authentication Configuration"
+#~ msgstr "Moondrake autentimise seadistamise käivitamine"
+
+#~ msgid "Run Moondrake Boot Configuration"
+#~ msgstr "Moondrake alglaadimise seadistamise käivitamine"
+
+#~ msgid "Run Moondrake Date and Time Configuration"
+#~ msgstr "Moondrake kuupäeva ja kellaaja seadistamise käivitamine"
+
+#~ msgid "Run Moondrake Disk Layout Editor"
+#~ msgstr "Moondrake kettajagamise programmi käivitamine"
+
+#~ msgid "Run Moondrake Font Configuration"
+#~ msgstr "Moondrake fontide seadistamise käivitamine"
+
+#~ msgid "Run Moondrake Hardware Configuration"
+#~ msgstr "Moondrake riistvara seadistamise käivitamine"
+
+#~ msgid "Run Moondrake Log Viewer"
+#~ msgstr "Moondrake loginäitaja käivitamine"
+
+#~ msgid "Run Moondrake Login Manager Configuration"
+#~ msgstr "Moondrake sisselogimishalduri seadistamise käivitamine"
+
+#~ msgid "Run Moondrake Scanner Configuration"
+#~ msgstr "Moondrake skanneri seadistamise käivitamine"
+
+#~ msgid "Run Moondrake Security Permissions Configuration"
+#~ msgstr "Moondrake turbeõiguste seadistamise käivitamine"
+
+#~ msgid "Run Moondrake Service Configuration"
+#~ msgstr "Moondrake teenuste seadistamise käivitamine"
+
+#~ msgid "Run Moondrake UPS Configuration"
+#~ msgstr "Moondrake UPS-i seadistamise käivitamine"
+
+#~ msgid ""
+#~ "\n"
+#~ "Welcome.\n"
+#~ "\n"
+#~ "The parameters of the auto-install are available in the sections on the "
+#~ "left"
+#~ msgstr ""
+#~ "\n"
+#~ "Tere tulemast!\n"
+#~ "\n"
+#~ "Automaatpaigalduse parameetrid on näha vasakul"
+
+#~ msgid "  --help                - display this help     \n"
+#~ msgstr " --help                - näitab seda abiteadet     \n"
+
+#~ msgid ""
+#~ " drakhelp 0.1\n"
+#~ "Copyright (C) %s Mandriva.\n"
+#~ "Copyright (C) %s Moondrake.\n"
+#~ "This is free software and may be redistributed under the terms of the GNU "
+#~ "GPL.\n"
+#~ "\n"
+#~ "Usage: \n"
+#~ msgstr ""
+#~ " drakhelp 0.1\n"
+#~ "Autoriõigus © %s: Mandriva.\n"
+#~ "Autoriõigus © %s: Moondrake.\n"
+#~ "See on vaba tarkvara, mida võib levitada vastavalt GNU Üldise Avaliku "
+#~ "Litsentsi tingimustele.\n"
+#~ "\n"
+#~ "Kasutamine:\n"
+
+#~ msgid "%s Control Center"
+#~ msgstr "%s juhtimiskeskus"
+
+#~ msgid "%s Help Center"
+#~ msgstr "%s abikeskus"
+
+#~ msgid "(default value: %s)"
+#~ msgstr "(vaikeväärtus: %s)"
 
 #~ msgid "/Autodetect _jaz drives"
 #~ msgstr "/_JAZ ketaste automaattuvastus"
 
-#~ msgid "OpenMandriva Lx Tools Logs"
-#~ msgstr "OpenMandriva Lxi tööriistade logi"
+#~ msgid "/Autodetect _modems"
+#~ msgstr "/_Modemite automaattuvastus"
 
 #~ msgid "/Autodetect _printers"
 #~ msgstr "/_Printerite automaattuvastus"
 
-#~ msgid "Its GDB trace is:"
-#~ msgstr "Selle GDB tagasijälitus on järgmine:"
+#~ msgid "/Autodetect parallel _zip drives"
+#~ msgstr "/Paralleelpordi _ZIP-ketaste automaattuvastus"
 
-#~ msgid "OpenOffice.org"
-#~ msgstr "OpenOffice.org"
+#~ msgid "/File/-"
+#~ msgstr "/Fail/-"
 
-#~ msgid ""
-#~ "The proprietary driver for your graphic card cannot be found, the system "
-#~ "is now using the free software driver (%s)."
-#~ msgstr ""
-#~ "Teie graafikakaardile ei leitud kommertsdraiverit, süsteem kasutab nüüd "
-#~ "vaba tarkvara draiverit (%s)."
+#~ msgid "/File/Save _As"
+#~ msgstr "/Fail/Salvesta _kui"
+
+#~ msgid "/File/_New"
+#~ msgstr "/Fail/_Uus"
+
+#~ msgid "/File/_Open"
+#~ msgstr "/Fail/_Ava"
+
+#~ msgid "/File/_Quit"
+#~ msgstr "/Fail/_Välju"
+
+#~ msgid "/File/_Save"
+#~ msgstr "/Fail/_Salvesta"
+
+#~ msgid "/Help/_About..."
+#~ msgstr "/Abi/_Misvärk"
+
+#~ msgid "/Options/Test"
+#~ msgstr "/Eelistused/Test"
+
+#~ msgid "/_About..."
+#~ msgstr "/_Misvärk"
+
+#~ msgid "/_Fields description"
+#~ msgstr "/Välja_de kirjeldus"
+
+#~ msgid "/_File"
+#~ msgstr "/_Fail"
+
+#~ msgid "/_Help"
+#~ msgstr "/_Abi"
+
+#~ msgid "/_Options"
+#~ msgstr "/_Eelistused"
+
+#~ msgid "/_Quit"
+#~ msgstr "/_Välju"
+
+#~ msgid "/_Report Bug"
+#~ msgstr "/_Vearaport"
+
+#~ msgid "<control>N"
+#~ msgstr "<control>N"
+
+#~ msgid "<control>O"
+#~ msgstr "<control>O"
+
+#~ msgid "Add an item"
+#~ msgstr "Lisa element"
+
+#~ msgid "Auto Install"
+#~ msgstr "Automaatpaigaldus"
+
+#~ msgid "Auto Install Configurator"
+#~ msgstr "Automaatpaigalduse seadistaja"
+
+#~ msgid "Autodetect _jaz drives"
+#~ msgstr "_JAZ ketaste automaattuvastus"
+
+#~ msgid "Autodetect _printers"
+#~ msgstr "_Printerite automaattuvastus"
+
+#~ msgid "Automatic Steps Configuration"
+#~ msgstr "Automaatsete sammude seadistamine"
+
+#~ msgid "Background color"
+#~ msgstr "Tausta värv"
+
+#~ msgid "Basic options"
+#~ msgstr "Põhiseadistused"
+
+#~ msgid "Bugs"
+#~ msgstr "Vead"
+
+#~ msgid "Choose picture"
+#~ msgstr "Pilt"
+
+#~ msgid "Choose progress bar background"
+#~ msgstr "Edenemisriba taust"
+
+#~ msgid "Choose progress bar color 1"
+#~ msgstr "Edenemisriba värv 1"
+
+#~ msgid "Choose progress bar color 2"
+#~ msgstr "Edenemisriba värv 2"
+
+#~ msgid "Choose text color"
+#~ msgstr "Teksti värv"
+
+#~ msgid "Choose text zone color"
+#~ msgstr "Tekstitsooni värv"
+
+#~ msgid "Color selection"
+#~ msgstr "Värvi valik"
+
+#~ msgid "Coma bug"
+#~ msgstr "\"Koomaviga\""
+
+#~ msgid "Configure authentication required to access Mandriva tools"
+#~ msgstr "Autentimise seadistamine Mandriva tööriistade kasutamiseks"
+
+#~ msgid "Copyright (C) 2001-2008 by Mandriva"
+#~ msgstr "Autoriõigus (C) 2001-2008: Mandriva"
+
+#~ msgid "Create new theme"
+#~ msgstr "Uue teema loomine"
+
+#~ msgid "Creating auto install floppy"
+#~ msgstr "Automaatpaigaldusdisketi loomine"
+
+#~ msgid "Creating auto install floppy (drivers disk)"
+#~ msgstr "Automaatpaigaldusdisketi (draiverid) loomine"
+
+#~ msgid "Display logo on Console"
+#~ msgstr "Logo näitamine konsoolil"
 
 #~ msgid ""
 #~ "Display theme\n"
@@ -3475,133 +3825,12 @@ msgstr "Keele ja riigi seadistamine"
 #~ "Teema näitamine\n"
 #~ "konsoolis"
 
-#~ msgid "Create new theme"
-#~ msgstr "Uue teema loomine"
+#~ msgid "Do you want to remove these packages?"
+#~ msgstr "Kas soovite need paketid eemaldada?"
 
-#~ msgid "X coordinate of text box"
-#~ msgstr "Tekstikasti X-koordinaat"
-
-#~ msgid "Y coordinate of text box"
-#~ msgstr "Tekstikasti y-koordinaat"
-
-#~ msgid "Text box width"
-#~ msgstr "Tekstikasti laius"
-
-#~ msgid "Text box height"
-#~ msgstr "Tekstikasti kõrgus"
-
-#~ msgid ""
-#~ "The progress bar X coordinate\n"
-#~ "of its upper left corner"
-#~ msgstr ""
-#~ "Edenemisriba ülemise vasaku\n"
-#~ "nurga X-koordinaat"
-
-#~ msgid ""
-#~ "The progress bar Y coordinate\n"
-#~ "of its upper left corner"
-#~ msgstr ""
-#~ "Edenemisriba ülemise vasaku\n"
-#~ "nurga Y-koordinaat"
-
-#~ msgid "The width of the progress bar"
-#~ msgstr "Edenemisriba laius"
-
-#~ msgid "The height of the progress bar"
-#~ msgstr "Edenemisriba kõrgus"
-
-#~ msgid "X coordinate of the text"
-#~ msgstr "Teksti X-koordinaat"
-
-#~ msgid "Y coordinate of the text"
-#~ msgstr "Teksti Y-koordinaat"
-
-#~ msgid "Text box transparency"
-#~ msgstr "Tekstikasti läbipaistvus"
-
-#~ msgid "Progress box transparency"
-#~ msgstr "Edenemiskasti läbipaistvus"
-
-#~ msgid "Text size"
-#~ msgstr "Teksti suurus"
-
-#~ msgid "Progress Bar"
-#~ msgstr "Edenemisriba"
-
-#~ msgid "Choose progress bar color 1"
-#~ msgstr "Edenemisriba värv 1"
-
-#~ msgid "Choose progress bar color 2"
-#~ msgstr "Edenemisriba värv 2"
-
-#~ msgid "Choose progress bar background"
-#~ msgstr "Edenemisriba taust"
-
-#~ msgid "Gradient type"
-#~ msgstr "Ülemineku tüüp"
-
-#~ msgid "Text"
-#~ msgstr "Tekst"
-
-#~ msgid "Choose text color"
-#~ msgstr "Teksti värv"
-
-#~ msgid "Choose picture"
-#~ msgstr "Pilt"
-
-#~ msgid "Silent bootsplash"
-#~ msgstr "Vaikne käivituslogo"
-
-#~ msgid "Choose text zone color"
-#~ msgstr "Tekstitsooni värv"
-
-#~ msgid "Text color"
-#~ msgstr "Teksti värv"
-
-#~ msgid "Background color"
-#~ msgstr "Tausta värv"
-
-#~ msgid "Verbose bootsplash"
-#~ msgstr "Jutukas käivituslogo"
-
-#~ msgid "Theme name"
-#~ msgstr "Teema nimi"
-
-#~ msgid "Final resolution"
-#~ msgstr "Lõplik ekraanilahutus"
-
-#~ msgid "Display logo on Console"
-#~ msgstr "Logo näitamine konsoolil"
-
-#~ msgid "Save theme"
-#~ msgstr "Teema salvestamine"
-
-#~ msgid "Please enter a theme name"
-#~ msgstr "Palun sisestage teema nimi"
-
-#~ msgid "Please select a splash image"
-#~ msgstr "Palun valige käivituslogo pilt"
-
-#~ msgid "saving Bootsplash theme..."
-#~ msgstr "Käivituslogo teema salvestamine..."
-
-#~ msgid "Unable to load image file %s"
-#~ msgstr "Pildifaili %s laadimine ebaõnnestus"
-
-#~ msgid "choose image"
-#~ msgstr "valige pilt"
-
-#~ msgid "Color selection"
-#~ msgstr "Värvi valik"
-
-#~ msgid "Coma bug"
-#~ msgstr "\"Koomaviga\""
-
-#~ msgid "whether this cpu has the Cyrix 6x86 Coma bug"
-#~ msgstr "kas sel CPU-l on Cyrix 6x86 \"koomaviga\""
-
-#~ msgid "Fdiv bug"
-#~ msgstr "FDIV viga"
+#, fuzzy
+#~ msgid "DrakX Online"
+#~ msgstr "Mandriva Online"
 
 #~ msgid ""
 #~ "Early Intel Pentium chips manufactured have a bug in their floating point "
@@ -3611,46 +3840,61 @@ msgstr "Keele ja riigi seadistamine"
 #~ "Varastel Inteli Pentium-kiipidel oli viga ujukomaprotsessoris, mis ei "
 #~ "saavutanud vajalikku täpsust ujukomajagamist (FDIV) sooritades"
 
-#~ msgid "Is FPU present"
-#~ msgstr "FPU olemasolu"
-
-#~ msgid "yes means the processor has an arithmetic coprocessor"
-#~ msgstr "jah tähendab, et protsessoril on matemaatika-kaasprotsessor"
-
-#~ msgid "Whether the FPU has an irq vector"
-#~ msgstr "Kas FPU-l on irq vektor"
-
-#~ msgid ""
-#~ "yes means the arithmetic coprocessor has an exception vector attached"
-#~ msgstr "jah tähendab, et matemaatika-kaasprotsessoril on erandivektor"
-
 #~ msgid "F00f bug"
 #~ msgstr "F00f viga"
-
-#~ msgid ""
-#~ "early pentiums were buggy and freezed when decoding the F00F bytecode"
-#~ msgstr ""
-#~ "varased pentiumid olid vigased ning hangusid F00F baidikoodi "
-#~ "dekodeerimisel"
-
-#~ msgid "Halt bug"
-#~ msgstr "Seiskamisviga"
-
-#~ msgid ""
-#~ "Some of the early i486DX-100 chips cannot reliably return to operating "
-#~ "mode after the \"halt\" instruction is used"
-#~ msgstr ""
-#~ "Mõned varasemad i486DX-100 kiibid ei suutnud korralikult naasta "
-#~ "töörežiimi, kui oli kasutatud käsklust \"seiska\" (\"halt\")"
-
-#~ msgid "Bugs"
-#~ msgstr "Vead"
 
 #~ msgid "FPU"
 #~ msgstr "FPU"
 
-#~ msgid "Unknown/Others"
-#~ msgstr "Tundmatu/Muu"
+#~ msgid "Fdiv bug"
+#~ msgstr "FDIV viga"
+
+#~ msgid "File/-"
+#~ msgstr "Fail/-"
+
+#~ msgid "File/Save _As"
+#~ msgstr "Fail/Salvesta _kui"
+
+#~ msgid "File/_New"
+#~ msgstr "Fail/_Uus"
+
+#~ msgid "File/_Open"
+#~ msgstr "Fail/_Ava"
+
+#~ msgid "File/_Quit"
+#~ msgstr "Fail/_Välju"
+
+#~ msgid "File/_Save"
+#~ msgstr "Fail/_Salvesta"
+
+#~ msgid "Final resolution"
+#~ msgstr "Lõplik ekraanilahutus"
+
+#~ msgid "Finding unused hardware packages..."
+#~ msgstr "Ülearuste riistvarapakettide otsing..."
+
+#~ msgid "Finding unused localization packages..."
+#~ msgstr "Ülearuste lokaliseerimispakettide otsing..."
+
+#~ msgid "Gradient type"
+#~ msgstr "Ülemineku tüüp"
+
+#~ msgid "Halt bug"
+#~ msgstr "Seiskamisviga"
+
+#~ msgid "Hardware packages removal"
+#~ msgstr "Riistvarapakettide eemaldamine"
+
+#~ msgid "Help/_About..."
+#~ msgstr "Abi/_Misvärk"
+
+#~ msgid ""
+#~ "Here you can see files to use in order to fix permissions, owners, and "
+#~ "groups via msec.\n"
+#~ "You can also edit your own rules which will owerwrite the default rules."
+#~ msgstr ""
+#~ "Siin saab näha faile ja mseci abil parandada õigusi, omanikke ja gruppe.\n"
+#~ "Võite ka muuta oma reegleid, mis tühistavad vaikereeglid."
 
 #~ msgid ""
 #~ "Here, you can setup the security level and administrator of your "
@@ -3749,29 +3993,77 @@ msgstr "Keele ja riigi seadistamine"
 #~ "eelmisele\n"
 #~ "tasemele, ainult et süsteem on täiesti suletud ja turvalisus maksimaalne."
 
-#~ msgid "(default value: %s)"
-#~ msgstr "(vaikeväärtus: %s)"
+#~ msgid "I cannot find needed image file `%s'."
+#~ msgstr "Ei suudetud leida laadefaili \"%s\"."
 
-#~ msgid "Security Level:"
-#~ msgstr "Turvatase:"
+#~ msgid "Insert a blank floppy in drive %s"
+#~ msgstr "Pange palun tühi diskett seadmesse %s"
 
-#~ msgid "Security Alerts:"
-#~ msgstr "Turvahoiatused:"
+#~ msgid "Insert another blank floppy in drive %s (for drivers disk)"
+#~ msgstr "Pange palun draiverite jaoks tühi diskett seadmesse %s"
 
-#~ msgid "Security Administrator:"
-#~ msgstr "Turvaadministraator:"
+#~ msgid "Is FPU present"
+#~ msgstr "FPU olemasolu"
 
-#~ msgid "Basic options"
-#~ msgstr "Põhiseadistused"
+#~ msgid "Its GDB trace is:"
+#~ msgstr "Selle GDB tagasijälitus on järgmine:"
+
+#~ msgid "Localization packages removal"
+#~ msgstr "Lokaliseerimispakettide eemaldamine"
+
+#~ msgid "Mandriva Linux Bug Report Tool"
+#~ msgstr "Mandriva Linuxi vigadest teatamise tööriist"
+
+#~ msgid "Mandriva Linux Tools Logs"
+#~ msgstr "Mandriva Linuxi tööriistade logi"
+
+#~ msgid "Mandriva Update"
+#~ msgstr "Mandriva Update"
+
+#~ msgid "Moondrake"
+#~ msgstr "Moondrake"
 
 #~ msgid "Network Options"
 #~ msgstr "Võrguparameetrid"
 
-#~ msgid "System Options"
-#~ msgstr "Süsteemi parameetrid"
+#~ msgid ""
+#~ "No Sound Card has been detected on your machine. Please verify that a "
+#~ "Linux-supported Sound Card is correctly plugged in"
+#~ msgstr ""
+#~ "Teie masinas ei leitud helikaarti. Kontrollige palun, et Linuxi toega "
+#~ "helikaart on korrektselt ühendatud."
+
+#~ msgid ""
+#~ "No TV Card has been detected on your machine. Please verify that a Linux-"
+#~ "supported Video/TV Card is correctly plugged in."
+#~ msgstr ""
+#~ "Teie süsteemis ei leitud TV-kaarti. Kontrollige palun, et Linuxi toega "
+#~ "video/TV-kaart on korrektselt ühendatud."
+
+#~ msgid "OpenOffice.org"
+#~ msgstr "OpenOffice.org"
+
+#~ msgid "Options/Test"
+#~ msgstr "Eelistused/Test"
 
 #~ msgid "Periodic Checks"
 #~ msgstr "Perioodiline kontroll"
+
+#~ msgid ""
+#~ "Please choose for each step whether it will replay like your install, or "
+#~ "it will be manual"
+#~ msgstr ""
+#~ "Valige palun iga sammu puhul, kas selle peaks läbi viima automaatselt, "
+#~ "nagu see sooritati paigaldamise ajal, või soovite seal ise kaasa rääkida"
+
+#~ msgid "Please enter a theme name"
+#~ msgstr "Palun sisestage teema nimi"
+
+#~ msgid "Please select a splash image"
+#~ msgstr "Palun valige käivituslogo pilt"
+
+#~ msgid "Please wait, adding media..."
+#~ msgstr "Palun oodake, lisatakse andmekandja..."
 
 #~ msgid "Please wait, setting security level..."
 #~ msgstr "Palun oodake, kehtestatakse turvatase..."
@@ -3779,11 +4071,81 @@ msgstr "Keele ja riigi seadistamine"
 #~ msgid "Please wait, setting security options..."
 #~ msgstr "Palun oodake, kehtestatakse turvaparameetrid..."
 
-#~ msgid "Localization packages removal"
-#~ msgstr "Lokaliseerimispakettide eemaldamine"
+#~ msgid "Progress Bar"
+#~ msgstr "Edenemisriba"
 
-#~ msgid "Finding unused localization packages..."
-#~ msgstr "Ülearuste lokaliseerimispakettide otsing..."
+#~ msgid "Progress box transparency"
+#~ msgstr "Edenemiskasti läbipaistvus"
+
+#~ msgid "Remove the last item"
+#~ msgstr "Eemalda viimane element"
+
+#~ msgid "Removing packages..."
+#~ msgstr "Pakettide eemaldamine..."
+
+#~ msgid "Restart XFS"
+#~ msgstr "XFS taaskäivitamine"
+
+#~ msgid "Save theme"
+#~ msgstr "Teema salvestamine"
+
+#~ msgid "Security Administrator:"
+#~ msgstr "Turvaadministraator:"
+
+#~ msgid "Security Alerts:"
+#~ msgstr "Turvahoiatused:"
+
+#~ msgid "Security Level:"
+#~ msgstr "Turvatase:"
+
+#~ msgid "Select Mandriva Tool:"
+#~ msgstr "Valige Mandriva tööriist:"
+
+#~ msgid "Silent bootsplash"
+#~ msgstr "Vaikne käivituslogo"
+
+#~ msgid ""
+#~ "Some of the early i486DX-100 chips cannot reliably return to operating "
+#~ "mode after the \"halt\" instruction is used"
+#~ msgstr ""
+#~ "Mõned varasemad i486DX-100 kiibid ei suutnud korralikult naasta "
+#~ "töörežiimi, kui oli kasutatud käsklust \"seiska\" (\"halt\")"
+
+#~ msgid "System Options"
+#~ msgstr "Süsteemi parameetrid"
+
+#~ msgid "Text"
+#~ msgstr "Tekst"
+
+#~ msgid "Text box height"
+#~ msgstr "Tekstikasti kõrgus"
+
+#~ msgid "Text box transparency"
+#~ msgstr "Tekstikasti läbipaistvus"
+
+#~ msgid "Text box width"
+#~ msgstr "Tekstikasti laius"
+
+#~ msgid "Text color"
+#~ msgstr "Teksti värv"
+
+#~ msgid "Text size"
+#~ msgstr "Teksti suurus"
+
+#~ msgid "The change is done, but to be effective you must logout"
+#~ msgstr "Muudatus on tehtud, aga selle rakendamiseks tuleb välja logida"
+
+#~ msgid ""
+#~ "The floppy has been successfully generated.\n"
+#~ "You may now replay your installation."
+#~ msgstr ""
+#~ "Diskett on edukalt loodud.\n"
+#~ "Nüüd võite vajadusel paigaldamist korrata."
+
+#~ msgid ""
+#~ "The following hardware packages do not seem to be useful for your system:"
+#~ msgstr ""
+#~ "Järgmised riistvarapaketid tunduvad olevat Teie süsteemis ülearused:"
 
 #~ msgid ""
 #~ "The following localization packages do not seem to be useful for your "
@@ -3791,40 +4153,59 @@ msgstr "Keele ja riigi seadistamine"
 #~ msgstr ""
 #~ "Järgmised lokaliseerimispaketid tunduvad olevat Teie süsteemis ülearused:"
 
-#~ msgid "Do you want to remove these packages?"
-#~ msgstr "Kas soovite need paketid eemaldada?"
-
-#~ msgid "Removing packages..."
-#~ msgstr "Pakettide eemaldamine..."
-
-#~ msgid "Hardware packages removal"
-#~ msgstr "Riistvarapakettide eemaldamine"
-
-#~ msgid "Finding unused hardware packages..."
-#~ msgstr "Ülearuste riistvarapakettide otsing..."
+#~ msgid "The height of the progress bar"
+#~ msgstr "Edenemisriba kõrgus"
 
 #~ msgid ""
-#~ "The following hardware packages do not seem to be useful for your system:"
+#~ "The progress bar X coordinate\n"
+#~ "of its upper left corner"
 #~ msgstr ""
-#~ "Järgmised riistvarapaketid tunduvad olevat Teie süsteemis ülearused:"
+#~ "Edenemisriba ülemise vasaku\n"
+#~ "nurga X-koordinaat"
 
-#~ msgid "Please wait, adding media..."
-#~ msgstr "Palun oodake, lisatakse andmekandja..."
+#~ msgid ""
+#~ "The progress bar Y coordinate\n"
+#~ "of its upper left corner"
+#~ msgstr ""
+#~ "Edenemisriba ülemise vasaku\n"
+#~ "nurga Y-koordinaat"
 
-#~ msgid "The change is done, but to be effective you must logout"
-#~ msgstr "Muudatus on tehtud, aga selle rakendamiseks tuleb välja logida"
+#~ msgid ""
+#~ "The proprietary driver for your graphic card cannot be found, the system "
+#~ "is now using the free software driver (%s)."
+#~ msgstr ""
+#~ "Teie graafikakaardile ei leitud kommertsdraiverit, süsteem kasutab nüüd "
+#~ "vaba tarkvara draiverit (%s)."
 
-#~ msgid "Restart XFS"
-#~ msgstr "XFS taaskäivitamine"
+#~ msgid "The width of the progress bar"
+#~ msgstr "Edenemisriba laius"
 
-#~ msgid "Copyright (C) 2001-2008 by Mandriva"
-#~ msgstr "Autoriõigus (C) 2001-2008: Mandriva"
+#~ msgid "Theme name"
+#~ msgstr "Teema nimi"
 
-#~ msgid "I cannot find needed image file `%s'."
-#~ msgstr "Ei suudetud leida laadefaili \"%s\"."
+#~ msgid "Unable to load image file %s"
+#~ msgstr "Pildifaili %s laadimine ebaõnnestus"
 
-#~ msgid "Auto Install Configurator"
-#~ msgstr "Automaatpaigalduse seadistaja"
+#~ msgid "Unknown/Others"
+#~ msgstr "Tundmatu/Muu"
+
+#~ msgid "Verbose bootsplash"
+#~ msgstr "Jutukas käivituslogo"
+
+#~ msgid "Whether the FPU has an irq vector"
+#~ msgstr "Kas FPU-l on irq vektor"
+
+#~ msgid "X coordinate of text box"
+#~ msgstr "Tekstikasti X-koordinaat"
+
+#~ msgid "X coordinate of the text"
+#~ msgstr "Teksti X-koordinaat"
+
+#~ msgid "Y coordinate of text box"
+#~ msgstr "Tekstikasti y-koordinaat"
+
+#~ msgid "Y coordinate of the text"
+#~ msgstr "Teksti Y-koordinaat"
 
 #~ msgid ""
 #~ "You are about to configure an Auto Install floppy. This feature is "
@@ -3852,58 +4233,30 @@ msgstr "Keele ja riigi seadistamine"
 #~ "\n"
 #~ "Klõpsake jätkamiseks nupule \"Olgu\"."
 
-#~ msgid "replay"
-#~ msgstr "kordamine"
+#~ msgid "choose image"
+#~ msgstr "valige pilt"
+
+#~ msgid ""
+#~ "early pentiums were buggy and freezed when decoding the F00F bytecode"
+#~ msgstr ""
+#~ "varased pentiumid olid vigased ning hangusid F00F baidikoodi "
+#~ "dekodeerimisel"
 
 #~ msgid "manual"
 #~ msgstr "käsitsi"
 
-#~ msgid "Automatic Steps Configuration"
-#~ msgstr "Automaatsete sammude seadistamine"
+#~ msgid "replay"
+#~ msgstr "kordamine"
+
+#~ msgid "saving Bootsplash theme..."
+#~ msgstr "Käivituslogo teema salvestamine..."
+
+#~ msgid "whether this cpu has the Cyrix 6x86 Coma bug"
+#~ msgstr "kas sel CPU-l on Cyrix 6x86 \"koomaviga\""
 
 #~ msgid ""
-#~ "Please choose for each step whether it will replay like your install, or "
-#~ "it will be manual"
-#~ msgstr ""
-#~ "Valige palun iga sammu puhul, kas selle peaks läbi viima automaatselt, "
-#~ "nagu see sooritati paigaldamise ajal, või soovite seal ise kaasa rääkida"
+#~ "yes means the arithmetic coprocessor has an exception vector attached"
+#~ msgstr "jah tähendab, et matemaatika-kaasprotsessoril on erandivektor"
 
-#~ msgid "Insert a blank floppy in drive %s"
-#~ msgstr "Pange palun tühi diskett seadmesse %s"
-
-#~ msgid "Creating auto install floppy"
-#~ msgstr "Automaatpaigaldusdisketi loomine"
-
-#~ msgid "Insert another blank floppy in drive %s (for drivers disk)"
-#~ msgstr "Pange palun draiverite jaoks tühi diskett seadmesse %s"
-
-#~ msgid "Creating auto install floppy (drivers disk)"
-#~ msgstr "Automaatpaigaldusdisketi (draiverid) loomine"
-
-#~ msgid ""
-#~ "\n"
-#~ "Welcome.\n"
-#~ "\n"
-#~ "The parameters of the auto-install are available in the sections on the "
-#~ "left"
-#~ msgstr ""
-#~ "\n"
-#~ "Tere tulemast!\n"
-#~ "\n"
-#~ "Automaatpaigalduse parameetrid on näha vasakul"
-
-#~ msgid ""
-#~ "The floppy has been successfully generated.\n"
-#~ "You may now replay your installation."
-#~ msgstr ""
-#~ "Diskett on edukalt loodud.\n"
-#~ "Nüüd võite vajadusel paigaldamist korrata."
-
-#~ msgid "Auto Install"
-#~ msgstr "Automaatpaigaldus"
-
-#~ msgid "Add an item"
-#~ msgstr "Lisa element"
-
-#~ msgid "Remove the last item"
-#~ msgstr "Eemalda viimane element"
+#~ msgid "yes means the processor has an arithmetic coprocessor"
+#~ msgstr "jah tähendab, et protsessoril on matemaatika-kaasprotsessor"

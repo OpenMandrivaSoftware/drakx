@@ -5,14 +5,19 @@ perl.require("urpm")
 perl.require("urpm::select")
 
 class Distribution(object):
-    def __init__(self, config, arch, media, includelist, excludelist, rpmsrate, compssusers, filedeps, suggests = False, synthfilter = ".cz:gzip -9", stage1=None, stage2="../mdkinst.cpio.xz", advertising="../../advertising/"):
+    def __init__(self, config, arch, media, includelist, excludelist, rpmsrate, compssusers, filedeps, suggests = False, synthfilter = ".cz:gzip -9", root="/usr/lib64/drakx-installer/root", stage1=None, stage2=None, advertising=None, gpgName=None, gpgPass=None):
+        volumeid = ("%s-%s-%s-%s" % (config.vendor, config.product, config.version, arch)).upper()
+        if len(volumeid) > 32:
+            print "length of volumeid '%s' (%d) > 32" % (volumeid, len(volumeid))
+            exit(1)
         self.arch = arch
         self.media = {}
         for m in media:
             self.media[m.name] = m
 
-        outdir = config.outdir+"/"+arch
+        tmpdir = config.tmpdir+"/"+arch
         repopath = config.repopath+"/"+self.arch
+        config.rootdir = root
 
         print color("Parsing lists of packages to include", GREEN)
         includes = []
@@ -60,13 +65,13 @@ class Distribution(object):
 
         for m in self.media.keys():
             synthesis = repopath + "/" + self.media[m].getSynthesis()
-            print color("Retrieving synthesis for %s: %s" % (m, synthesis), GREEN)
-            synthesisfile = urllib2.urlopen(synthesis)
-            output = open(self.media[m].getLocalName(), 'wb')
-            output.write(synthesisfile.read())
-            output.close()
-            print color("Parsing synthesis for %s: %s" % (m, self.media[m].getLocalName()), GREEN)
-            urpm.parse_synthesis(self.media[m].getLocalName())
+            print color("Parsing synthesis for %s: %s" % (m, synthesis), GREEN)
+            urpm.parse_synthesis(synthesis) 
+            updates = repopath + "/" + self.media[m].getSynthesis("updates")
+            if os.path.exists(updates):
+                print color("Parsing updates synthesis for %s: %s" % (m, synthesis), GREEN)
+                urpm.parse_synthesis(updates) 
+
 
         perlexc = perl.eval("@excludes = ();")
         perlexc = perl.get_ref("@excludes")
@@ -132,8 +137,10 @@ class Distribution(object):
                         dep = pkg
                 if dep:
                     if len(pkgids) > 1:
-                        requested.pop(key)
-                        requested[str(dep.id())] = 1
+                        # XXX
+                        if key in requested:
+                            requested.pop(key)
+                            requested[str(dep.id())] = 1
                     pkgdict[pkg.fullname()] = dep
 
             urpm.resolve_requested(empty_db, state, requested, 
@@ -162,11 +169,15 @@ class Distribution(object):
                                 conflicts = backtrack['conflicts']
                                 skip = False
                                 for c in conflicts:
-                                    cpkg = pkgdict[c]
-                                    # if it's a package rejected due to conflict with a package of same name,
-                                    # it's most likely some leftover package in repos that haven't been
-                                    # removed yet and that we can safely ignore
-                                    if cpkg.name() == pkg.name():
+                                    # XXX
+                                    if c in pkgdict:
+                                        cpkg = pkgdict[c]
+                                        # if it's a package rejected due to conflict with a package of same name,
+                                        # it's most likely some leftover package in repos that haven't been
+                                        # removed yet and that we can safely ignore
+                                        if cpkg.name() == pkg.name():
+                                            skip = True
+                                    else:
                                         skip = True
                                 if not skip:
                                     print color("The requested package %s has been rejected due to conflicts with: %s" %
@@ -221,18 +232,18 @@ class Distribution(object):
 
         print color("Initiating distribution tree", GREEN)
         smartopts = "channel -o sync-urpmi-medialist=no --data-dir smartdata"
-        os.system("rm -rf " + outdir)
+        os.system("rm -rf " + tmpdir)
         os.system("rm -rf smartdata")
         os.mkdir("smartdata")
-        os.system("mkdir -p %s/media/media_info/" % outdir) 
-        shutil.copy(compssusers, "%s/media/media_info/compssUsers.pl" % outdir)
-        shutil.copy(filedeps, "%s/media/media_info/file-deps" % outdir)
+        os.system("mkdir -p %s/media/media_info/" % tmpdir) 
+        shutil.copy(compssusers, "%s/media/media_info/compssUsers.pl" % tmpdir)
+        shutil.copy(filedeps, "%s/media/media_info/file-deps" % tmpdir)
         rootfiles = ['COPYING', 'index.htm', 'install.htm', 'INSTALL.txt', 'LICENSE-APPS.txt', 'LICENSE.txt',
                 'README.txt', 'release-notes.html', 'release-notes.txt', 'doc', 'misc']
         for f in rootfiles:
-            os.symlink("%s" % f, "%s/%s" % (outdir, f))
+            os.symlink("%s/%s" % (repopath, f), "%s/%s" % (tmpdir, f))
 
-        f = open(outdir+"/product.id", "w")
+        f = open(tmpdir+"/product.id", "w")
         # unsure about relevance of all these fields, will just hardcode those seeming irrelevant for now..
         f.write("vendor=%s,distribution=%s,type=basic,version=%s,branch=%s,release=1,arch=%s,product=%s\n" % (config.vendor,config.distribution,config.version,config.branch,arch,config.product))
         f.close()
@@ -240,42 +251,32 @@ class Distribution(object):
         ext = synthfilter.split(":")[0]
         for m in media:
             print color("Generating media tree for " + m.name, GREEN)
-            os.system("mkdir -p %s/media/%s" % (outdir, m.name))
+            os.system("mkdir -p %s/media/%s" % (tmpdir, m.name))
 
             pkgs = []
             for pkg in allpkgs:
                 if excludere.match(pkg.name()):
                     print color("skipping2: " + pkg.name(), YELLOW, RESET, DIM)
                     continue
-
-                source = "%s/%s/release/%s.rpm" % (repopath, m.name, pkg.fullname())
-                try:
-		    remotefile = urllib2.urlopen(source)
-		except urllib2.URLError as urlerr:
-		    continue
-		target = "%s/media/%s/%s.rpm" % (outdir, m.name, pkg.fullname())
-		if not os.path.exists(target):
-		    pkgs.append(source)
-		    targetout = open(target, 'wb')
-		    targetout.write(remotefile.read())
-		    targetout.close()
-		    s = os.stat(target)
-		    m.size += s.st_size
+                for rep in "release", "updates":
+                    source = "%s/media/%s/%s/%s.rpm" % (repopath, m.name, rep, pkg.fullname())
+                    if os.path.exists(source):
+                        target = "%s/media/%s/%s.rpm" % (tmpdir, m.name, pkg.fullname())
+                        if not os.path.islink(target):
+                            pkgs.append(source)
+                            os.symlink(source, target)
+                            s = os.stat(source)
+                            m.size += s.st_size
             self.media[m.name].pkgs = pkgs
-            if not os.path.exists("%s/media/%s/media_info" % (outdir, m.name)):
-                os.mkdir("%s/media/%s/media_info" % (outdir, m.name))
-            
-            try:
-		remotepubkey = urllib2.urlopen("%s/%s/release/media_info/pubkey" % (repopath, m.name))
-		targetpubkey = open("%s/media/%s/media_info/pubkey" % (outdir, m.name), 'wb')
-		targetpubkey.write(remotepubkey.read())
-		targetpubkey.close()
-	    except urllib2.URLError as urlerr:
-		print color("Couldn't retrieve pubkey for %s; ignoring..." % m.name, YELLOW)
+            if not os.path.exists("%s/media/%s/media_info" % (tmpdir, m.name)):
+                os.mkdir("%s/media/%s/media_info" % (tmpdir, m.name))
+            if gpgName:
+                #signPackage(gpgName, gpgPass, " ".join(pkgs))
+                os.system("gpg --export --armor %s > %s/media/%s/media_info/pubkey" % (gpgName, tmpdir, m.name))
 
-        print color("Writing %s/media/media_info/media.cfg" % outdir, GREEN)
-        if not os.path.exists("%s/media/media_info" % outdir):
-            os.mkdir("%s/media/media_info" % outdir)
+        print color("Writing %s/media/media_info/media.cfg" % tmpdir, GREEN)
+        if not os.path.exists("%s/media/media_info" % tmpdir):
+            os.mkdir("%s/media/media_info" % tmpdir)
         mediaCfg = \
                 "[media_info]\n" \
                 "mediacfg_version=2\n" \
@@ -290,59 +291,65 @@ class Distribution(object):
         for m in media:
             mediaCfg += m.getCfgEntry(ext=ext)
 
-        f = open("%s/media/media_info/media.cfg" % outdir, "w")
+        f = open("%s/media/media_info/media.cfg" % tmpdir, "w")
         f.write(mediaCfg)
         f.close()
-        os.system("gendistrib "+outdir)
-        os.system("bash -c 'rm %s/media/media_info/{MD5SUM,*.cz}'" % outdir)
+        os.system("gendistrib "+tmpdir)
+        os.system("rm %s/media/media_info/{MD5SUM,*.cz}" % tmpdir)
 
         for m in media:
             # workaround for urpmi spaghetti code which hardcodes .cz
             if ext != ".cz":
-                os.symlink("synthesis.hdlist%s" % ext, "%s/media/%s/media_info/synthesis.hdlist.cz" % (outdir, m.name))
+                os.symlink("synthesis.hdlist%s" % ext, "%s/media/%s/media_info/synthesis.hdlist.cz" % (tmpdir, m.name))
 
-            os.unlink("%s/media/%s/media_info/hdlist.cz" % (outdir, m.name))
-            os.system("bash -c 'cd %s/media/%s/media_info/; md5sum * > MD5SUM'" % (outdir, m.name))
+            os.unlink("%s/media/%s/media_info/hdlist.cz" % (tmpdir, m.name))
+            os.system("cd %s/media/%s/media_info/; md5sum * > MD5SUM" % (tmpdir, m.name))
 
             smartopts = "-o sync-urpmi-medialist=no --data-dir %s/smartdata" % os.getenv("PWD")
-            os.system("smart channel --yes %s --add %s type=urpmi baseurl=%s/%s/media/%s/ hdlurl=media_info/synthesis.hdlist%s" %
-                    (smartopts, m.name, os.getenv("PWD"), outdir, m.name, ext))
+            os.system("smart channel --yes %s --add %s type=urpmi baseurl=%s/media/%s/ hdlurl=media_info/synthesis.hdlist%s" %
+                    (smartopts, m.name, tmpdir, m.name, ext))
 
         print color("Checking packages", GREEN)
         rpmdirs = []
         for m in self.media.keys():
-            rpmdirs.append("%s/media/%s" % (outdir, m))
+            rpmdirs.append("%s/media/%s" % (tmpdir, m))
         os.system("smart update %s" % smartopts)
         os.system("smart check %s --channels=%s" % (smartopts, string.join(self.media.keys(),",")))
         os.system("sleep 5");
 
-        print color("Generating %s/media/media_info/rpmsrate" % outdir, GREEN)
+        print color("Generating %s/media/media_info/rpmsrate" % tmpdir, GREEN)
         # TODO: reimplement clean-rpmsrate in python(?)
         #       can probably replace much of it's functionality with meta packages
-        os.system("clean-rpmsrate -o %s/media/media_info/rpmsrate %s %s" % (outdir, rpmsrate, string.join(rpmdirs," ")))
-        if not os.path.exists("%s/media/media_info/rpmsrate" % outdir):
+        os.system("clean-rpmsrate -o %s/media/media_info/rpmsrate %s %s" % (tmpdir, rpmsrate, string.join(rpmdirs," ")))
+        if not os.path.exists("%s/media/media_info/rpmsrate" % tmpdir):
             print "error in rpmsrate"
             exit(1)
 
         # if none specified, rely on it's presence in grub target tree...
         if not stage1:
-            stage1 = "../grub/%s/install/images/all.cpio.xz" % self.arch
-        print color("Copying first stage installer: %s -> %s/install/images/all.cpio.xz" % (stage1, outdir), GREEN)
-        os.mkdir("%s/install" % outdir)
-        os.mkdir("%s/install/images" % outdir)
-        os.system("cp -rv %s %s/install/images/all.cpio.xz" % (stage1, outdir))
+            stage1 = "%s/grub/%s/install/images/all.cpio.xz" % (config.rootdir, self.arch)
+        print color("Copying first stage installer: %s -> %s/install/images/all.cpio.xz" % (stage1, tmpdir), GREEN)
+        os.mkdir("%s/install" % tmpdir)
+        os.mkdir("%s/install/images" % tmpdir)
+        os.symlink(os.path.realpath(stage1), tmpdir + "/install/images/all.cpio.xz")
 
-        print color("Copying second stage installer: %s -> %s/install/stage2/mdkinst.cpio.xz" % (stage2, outdir), GREEN)
-        os.mkdir("%s/install/stage2" % outdir)
-        os.system("cp -rv %s %s/install/stage2/mdkinst.cpio.xz" % (stage2, outdir))
-        os.system("cp -rv ../VERSION %s/install/stage2/VERSION" % outdir)
+        if not stage2:
+            stage2 = os.path.realpath(config.rootdir) + "/install/stage2/mdkinst.cpio.xz"
 
-        print color("Copying advertising: %s -> %s/install/extra/advertising" % (advertising, outdir), GREEN)
-        os.mkdir("%s/install/extra" % outdir)
-        os.system("cp -rv %s %s/install/extra/advertising" % (advertising, outdir))
+        versionFile = os.path.realpath(config.rootdir) + "/install/stage2/VERSION"
+        print color("Copying second stage installer: %s -> %s/install/stage2/mdkinst.cpio.xz" % (stage2, tmpdir), GREEN)
+        os.mkdir(tmpdir + "/install/stage2")
+        os.symlink(stage2, tmpdir + "/install/stage2/mdkinst.cpio.xz")
+        os.symlink(versionFile, tmpdir + "/install/stage2/VERSION")
 
-        print color("Generating %s/media/media_info/MD5SUM" % outdir, GREEN)
-        os.system("bash -c 'cd %s/media/media_info/; md5sum * > MD5SUM'" % outdir)
+        if not advertising:
+            advertising="%s/install/extra/advertising" % config.rootdir
+        print color("Copying advertising: %s -> %s/install/extra/advertising" % (advertising, tmpdir), GREEN)
+        os.mkdir("%s/install/extra" % tmpdir)
+        os.symlink(os.path.realpath(advertising), tmpdir + "/install/extra/advertising")
+
+        print color("Generating %s/media/media_info/MD5SUM" % tmpdir, GREEN)
+        os.system("cd %s/media/media_info/; md5sum * > MD5SUM" % tmpdir)
 
         self.pkgs = []
         def get_pkgs(pkg):
@@ -350,7 +357,7 @@ class Distribution(object):
 
         urpm.traverse(get_pkgs)
         self.pkgs.sort()
-        idxfile = open("%s/pkg-%s-%s-%s.idx" % (outdir, config.version, config.subversion.replace(" ","").lower(),config.codename.replace(" ","-").lower()), "w")
+        idxfile = open("%s/pkg-%s-%s-%s.idx" % (tmpdir, config.version, config.subversion.replace(" ","").lower(),config.codename.replace(" ","-").lower()), "w")
         for pkg in self.pkgs:
             idxfile.write(pkg+"\n")
 
@@ -367,6 +374,8 @@ class Distribution(object):
     
         pkgs = []
         weight = None
+        # XXX
+        breaknext = False
         for line in f.readlines():
             if "META_CLASS" in line:
                 continue
@@ -374,9 +383,15 @@ class Distribution(object):
             if line.startswith("#"):
                 continue
             if not line:
-               cat = None
-               weight = None
-               continue
+                if breaknext:
+                    cat = None
+                    weight = None
+                    breaknext = False
+                else:
+                    breaknext = True
+                continue
+            if breaknext:
+               breaknext = False
             if line.startswith("CAT_"):
                 if line == category:
                     cat = category
@@ -415,7 +430,7 @@ class Distribution(object):
         return pkgs
 
     def getOutdir(self):
-        return self.outdir
+        return self.tmpdir
 
     arch = None
     media = []

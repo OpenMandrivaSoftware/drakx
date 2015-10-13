@@ -1,5 +1,122 @@
-Version 2.0 - 31 March 2013, by Per Øyvind Karlsen
+- add support for specifying what keytable to load with a kernel argument
+- compress grub files with xz
 
+Version 2.16 - 28 January 2015 by Thierry Vignaud
+
+- sync with kernel-3.19
+- add efibootmgr on x86_64
+
+Version 2.15 - 20 December 2014 by Thierry Vignaud
+
+- sync with kernel-3.18 (mga#14799)
+
+ Version 2.14 - 20 December 2014 by Thierry Vignaud
+
+- include new 3.18 USB host drivers (mga#14799)
+
+Version 2.12 - 12 December 2014 by Thierry Vignaud
+
+- include hv_balloon & hyperv_fb
+- include virtio_balloon & vmw_balloon as well
+
+Version 2.10 - 22 August 2014 by Thierry Vignaud
+
+- set $NLSPATH to read locale from /usr/share/locale rather than /usr/lib/locale
+- fix correct path of /bin/loadkeys
+- sync with kernel-3.17
+- include paravirtual network driver for hyper-v
+
+Version 2.11 -  4 July 2014 by Per Øyvind Karlsen <proyvind@moondrake.org>
+
+- update to kernel-nrj-2.14.10-1
+- rename from 'rescue' to 'ucDrakx' for prompt & hostname
+
+Version 2.10 - 23 June 2014 by Per Øyvind Karlsen <proyvind@moondrake.org>
+
+- fix broken title text in grub theme
+
+Version 2.9 - 23 June 2014 by Per Øyvind Karlsen <proyvind@moondrake.org>
+
+- use /etc/fstab from setup package
+
+Version 2.8 - 22 June 2014 by Per Øyvind Karlsen <proyvind@moondrake.org>
+
+- revert accidental inclusion of udev network interface renaming rule again
+
+Version 2.7 - 15 June 2014 by Per Øyvind Karlsen <proyvind@moondrake.org>
+
+- include acpi-cpufreq
+- include platform driver autoload udev rules
+- sync with kernel-3.15
+- make sure to not include default grub2 theme
+
+Version 2.6 - 24 May, by Per Øyvind Karlsen <proyvind@moondrake.org>
+
+- include configuration, init script etc. for udhcpd
+
+Version 2.5 - 19 May, by Per Øyvind Karlsen <proyvind@moondrake.org>
+
+- drop gnome-themes-standard
+- add /lib/module-init-tools/ldetect-lst-modules.alias
+- replace 'tset' with 'tty'
+- add xfs_freeze & xfs_io
+- update for compatibility with latest grub2
+- sync with kernel-3.14
+
+Version 2.4 - 10 April, by Per Øyvind Karlsen <proyvind@moondrake.org>
+
+- drop mount.nfs from stage1 as busybox has nfs mount support
+- sync installer grub2 theme with system grub2 theme
+- sync with kernel-3.12
+- include "sdhci-acpi" for eMMC (mga#11812)
+
+Version 2.3 - 11 January, by Per Øyvind Karlsen <proyvind@moondrake.org>
+
+- include some more of jfs utils
+- ship uClibc build of hdparm to be able to repair damaged sectors
+
+Version 2.2 - 20 December, by Per Øyvind Karlsen <proyvind@moondrake.org>
+
+- adapt to latest mdadm
+- fix boot from harddisk option properly
+- revert inclusion of network name udev rule that got accidentally merged from
+  mageia earlier
+- don't ship packdrake due to it's perl dependency and lack of relevance since
+  we switched from using hdlist to synthesis by default ages ago
+- fix paths to terminal background and fonts in grub2 theme
+- replace dd_rescue with ddrescue
+
+Version 2.1 - 28 October, by Per Øyvind Karlsen <proyvind@moondrake.org>
+
+- drop termcap, terminfos cuts it :)
+- many btrfs tools no longer exist
+- adapt to latest mdadm
+- sync with kernel-3.12
+- sync with kernel-3.11
+- partial sync with kernel-3.11 regarding USB: include
+  ehci-tegra, ohci-pci ohci-platform fusbh200-hcd & usb_common
+  (might fix mga#11377)
+- add xterm-256color to terminfos
+- add utils for harddisk recovery
+- prelink files
+- include db*_dump, db*_load & db*_recover also in ucDrakx environment
+- include network interface name udev rule (mga#10947)
+- sync with kernel-3.10
+- sync with kernel-3.9
+- add 'dd_rescue' to uCdrakx
+- ensure /dev is bind mounted before re-installing bootloader (mga#10107)
+
+Version 2.0 - 24 April 2013, by Per Øyvind Karlsen
+
+- move firmware into separate initrd
+- add framebuffer driver modules
+- add /etc/fb.modes
+- add a script to simplfy grabbing of journal logs for bug reports
+- include persistant storage udev rules needed to see new uuids
+- use Moondrake linux_logo splash during boot
+- rebrand to "Moondrake"
+- include vmvgfx module in order for us to get framebuffer support under vmware
+  during install
 - decompress individual kernel modules if they're compressed before archiving
 - fix loading modules with "-" in their names (mga#9242)
 - update list_modules for xen dom0 and virtio support (#9242)

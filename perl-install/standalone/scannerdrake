@@ -1,6 +1,5 @@
 #!/usr/bin/perl
 
-# scannerdrake $Id$
 # Yves Duret
 # Till Kamppeter
 # Copyright (C) 2001-2008 Mandriva
@@ -28,8 +27,8 @@ use scanner;
 use handle_configs;
 use services;
 
-my $distroname = "OpenMandriva Lx";
-my $shortdistroname = "OpenMandriva";
+my $distroname = "Moondrake GNU/Linux";
+my $shortdistroname = "Moondrake GNU/Linux";
 
 foreach (@ARGV) {
     /^--update-usbtable$/ and do { scanner::updateScannerDBfromUsbtable(); exit() };
@@ -38,7 +37,7 @@ foreach (@ARGV) {
     /^--dynamic=(.*)$/ and do { dynamic(); exit() };
 }
 
-$ugtk2::wm_icon = "scannerdrake";
+$ugtk3::wm_icon = "scannerdrake";
 my $in = 'interactive'->vnew('su');
 if (!files_exist(qw(/usr/bin/scanimage
 		    /etc/sane.d/dll.conf)) ||

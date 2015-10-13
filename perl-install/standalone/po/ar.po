@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DrakX\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-22 00:53+0100\n"
+"POT-Creation-Date: 2015-02-18 12:28+0100\n"
 "PO-Revision-Date: 2005-03-03 01:06+0300\n"
 "Last-Translator: Ossama M. Khayat <okhayat@yahoo.com>\n"
 "Language-Team: Arabic <support@arabeyes.org>\n"
@@ -22,73 +22,73 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n==1 ? 0 : n==2 ? 1 : n>=3 && n<=10 ? 2 : "
 "3\n"
 
-#: display_help:54 display_help:59 drakbug:170 drakperm:134
+#: display_help:53 display_help:58 drakbug:173 drakperm:134
 #, c-format
 msgid "Help"
 msgstr "مساعدة"
 
-#: display_help:67 drakbug:175 drakfont:505
+#: display_help:66 drakbug:178 drakfont:507
 #, c-format
 msgid "Close"
 msgstr "إغلاق"
 
-#: drakauth:24 drakauth:26 draksec:162
+#: drakauth:24 drakauth:26 draksec:184
 #, c-format
 msgid "Authentication"
 msgstr "المصادقة"
 
-#: drakauth:37 drakclock:113 drakclock:138 drakdvb:74 drakfont:211
-#: drakfont:224 drakfont:262 finish-install:131 logdrake:174 logdrake:449
-#: logdrake:454 scannerdrake:56 scannerdrake:98 scannerdrake:139
+#: drakauth:37 drakclock:117 drakclock:142 drakdvb:74 drakfont:213
+#: drakfont:226 drakfont:264 finish-install:133 logdrake:177 logdrake:453
+#: logdrake:458 scannerdrake:56 scannerdrake:98 scannerdrake:139
 #: scannerdrake:197 scannerdrake:256 scannerdrake:726 scannerdrake:737
 #: scannerdrake:876 scannerdrake:887 scannerdrake:957
 #, c-format
 msgid "Error"
 msgstr "خطأ"
 
-#: drakboot:53
+#: drakboot:54
 #, c-format
 msgid "No bootloader found, creating a new configuration"
-msgstr ""
+msgstr "لم يُعثر على محمِّل اﻹقلاع , إنشاء إعدادات جديدة"
 
-#: drakboot:86 harddrake2:195 harddrake2:196 logdrake:75
+#: drakboot:89 harddrake2:191 logdrake:77
 #, c-format
-msgid "/_File"
-msgstr "/_ملف"
+msgid "_File"
+msgstr "_ملف"
 
-#: drakboot:87 logdrake:81
+#: drakboot:90 harddrake2:192 logdrake:78 logdrake:79
 #, c-format
-msgid "/File/_Quit"
-msgstr "/ملف/_خروج"
+msgid "_Quit"
+msgstr "_خروج"
 
-#: drakboot:87 harddrake2:196 logdrake:81
+#: drakboot:90 harddrake2:192 logdrake:79
 #, c-format
 msgid "<control>Q"
 msgstr "<control>Q"
 
-#: drakboot:127
+#: drakboot:138
 #, c-format
 msgid "Text only"
 msgstr "نص فقط"
 
-#: drakboot:128
+#: drakboot:139
 #, c-format
 msgid "Verbose"
 msgstr "مُطنب"
 
-#: drakboot:129
+#: drakboot:140
 #, c-format
 msgid "Silent"
 msgstr "صامت"
 
-#: drakboot:135 drakbug:247 drakdvb:57 drakfont:681 drakperm:374 drakperm:384
-#: drakups:26 harddrake2:528 localedrake:45 scannerdrake:48 scannerdrake:51
+#: drakboot:146 drakbug:250 drakdvb:57 drakfont:682 drakperm:371 drakperm:381
+#: drakups:27 harddrake2:504 localedrake:45 scannerdrake:48 scannerdrake:51
 #: scannerdrake:294 scannerdrake:299 scannerdrake:951
 #, c-format
 msgid "Warning"
 msgstr "تحذير"
 
-#: drakboot:136
+#: drakboot:147
 #, c-format
 msgid ""
 "Your system bootloader is not in framebuffer mode. To activate graphical "
@@ -97,72 +97,72 @@ msgstr ""
 "محمّل الإقلاع لنظامك ليس في وضع framebuffer. لتُنشّط\n"
 "الإقلاع الرّسوميّ، اختر وضع فيديو رسومي من أداة تهيئة محمّل الإقلاع."
 
-#: drakboot:137
+#: drakboot:148
 #, c-format
 msgid "Do you want to configure it now?"
 msgstr "هل تريد تهيئته الآن؟"
 
-#: drakboot:146
+#: drakboot:157
 #, c-format
 msgid "Install themes"
 msgstr "تثبيت السمات"
 
-#: drakboot:148
+#: drakboot:159
 #, c-format
 msgid "Graphical boot theme selection"
 msgstr "تحديد سمة الإقلاع الرّسومي"
 
-#: drakboot:151
-#, fuzzy, c-format
+#: drakboot:162
+#, c-format
 msgid "Graphical boot mode:"
-msgstr "استعمال إقلاع رسومي"
+msgstr "وضع إقلاع رسومي:"
 
-#: drakboot:153
+#: drakboot:164
 #, c-format
 msgid "Theme"
 msgstr "سمة"
 
-#: drakboot:187
+#: drakboot:198
 #, c-format
 msgid "Default user"
 msgstr "المستخدم الإفتراضي"
 
-#: drakboot:188
+#: drakboot:199
 #, c-format
 msgid "Default desktop"
 msgstr "سطح المكتب الإفتراضي"
 
-#: drakboot:191
+#: drakboot:202
 #, c-format
 msgid "No, I do not want autologin"
 msgstr "لا، لا أريد دخولا أليا"
 
-#: drakboot:192
+#: drakboot:203
 #, c-format
 msgid "Yes, I want autologin with this (user, desktop)"
 msgstr "نعم، أريد دخولا آليا مع هذا (المستخدم، سطح المكتب)"
 
-#: drakboot:199
+#: drakboot:210
 #, c-format
 msgid "System mode"
 msgstr "وضع النظام"
 
-#: drakboot:202
+#: drakboot:213
 #, c-format
 msgid "Launch the graphical environment when your system starts"
 msgstr "تشغيل X-Window عند بدء التشغيل"
 
-#: drakboot:257
+#: drakboot:268
 #, c-format
 msgid "Boot Style Configuration"
 msgstr "تهيئة أسلوب الإقلاع"
 
-#: drakboot:259 drakboot:263
+#: drakboot:270 drakboot:274
 #, c-format
 msgid "Video mode"
 msgstr "وضعية الفيديو"
 
-#: drakboot:260
+#: drakboot:271
 #, c-format
 msgid ""
 "Please choose a video mode, it will be applied to each of the boot entries "
@@ -176,16 +176,16 @@ msgstr ""
 #: drakbug:50 drakbug:138
 #, c-format
 msgid "The \"%s\" program has crashed with the following error:"
-msgstr ""
+msgstr "البرنامج \"%s\" تحطم بسبب العلل التالية:"
 
-#: drakbug:60
+#: drakbug:62
 #, fuzzy, c-format
-msgid "OpenMandriva Lx Bug Reporting"
-msgstr "أداة تقرير العيوب في ماندريبا لينكس"
+msgid "DrakX Bug Report Tool"
+msgstr "أداة تقرير العيوب في %s"
 
-#: drakbug:65
-#, c-format
-msgid "OpenMandriva Lx Control Center"
+#: drakbug:67
+#, fuzzy, c-format
+msgid "DrakX Linux Control Center"
 msgstr "مركز تحكّم ماندريبا لينكس"
 
 #: drakbug:66
@@ -203,10 +203,15 @@ msgstr "أداة المزامنة"
 msgid "Standalone Tools"
 msgstr "الأدوات المنفصلة"
 
-#: drakbug:70 drakbug:71
+#: drakbug:72 drakbug:73
+#, c-format
+msgid "%s Online"
+msgstr "%s متصل"
+
+#: drakbug:72 drakbug:73 drakbug:99 draksec:169
 #, fuzzy, c-format
-msgid "OpenMandriva Online"
-msgstr "Mandriva Online"
+msgid "DrakX"
+msgstr "DrakUPS"
 
 #: drakbug:72
 #, c-format
@@ -228,10 +233,10 @@ msgstr "أداة الإنتقال من ويندوز"
 msgid "Configuration Wizards"
 msgstr "مرشدو التهيئة"
 
-#: drakbug:97
-#, fuzzy, c-format
-msgid "Select Tool:"
-msgstr "اختيار أداة ماندريبا:"
+#: drakbug:99
+#, c-format
+msgid "Select %s Tool:"
+msgstr "اختيار أداة %s:"
 
 #: drakbug:98
 #, c-format
@@ -247,10 +252,10 @@ msgstr ""
 msgid "Find Package"
 msgstr "بحث عن حزمة"
 
-#: drakbug:102
-#, fuzzy, c-format
+#: drakbug:104
+#, c-format
 msgid "Browse"
-msgstr "استعراض"
+msgstr "استعرض"
 
 #: drakbug:104
 #, c-format
@@ -265,26 +270,23 @@ msgstr "النواة:"
 #: drakbug:137
 #, c-format
 msgid "The \"%s\" program has segfaulted with the following error:"
-msgstr ""
+msgstr " بحث برنامج\"%s\" عن حزمة في ضل وجود اﻷخطاء التالية :"
 
 #: drakbug:142
 #, c-format
 msgid "Used theme: %s"
 msgstr ""
 
-#: drakbug:144
-#, fuzzy, c-format
+#: drakbug:146
+#, c-format
 msgid ""
 "To submit a bug report, click on the report button.  \n"
 "This will open a web browser window on %s where you'll find a form to fill "
 "in.  The information displayed above will be transferred to that server"
 msgstr ""
 "لتسليم تقرير العيوب، اضغط على زر تقرير.\n"
-"سيقوم هذا بفتح نافذة متصفح وب على الصفحة %s\n"
-" حيث ستجد استمارة عليك ملؤها. المعلومات الظاهرة أعلاه سيتم نقلها\n"
-"إلى ذلك الخادم.  \n"
-"بعض الأشياء المفيد شملها في تقريرك هي مخرجات lspcidrake -v، ونسخة النواة، و/"
-"proc/cpuinfo."
+"سيقوم هذا بفتح نافذة متصفح وب على الصفحة %s حيث ستجد استمارة عليك ملؤها. "
+"المعلومات الظاهرة أعلاه سيتم نقلها إلى ذلك الخادم."
 
 #: drakbug:146
 #, c-format
@@ -294,25 +296,27 @@ msgid ""
 msgid_plural ""
 "Things useful to attach to your report are the output of the following "
 "commands: %s."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "سيكون من المفيد جدا لو أرفقت مع تقريرك مخرجات اﻷوامر التالية : %s."
+msgstr[1] "من المفيد جدا لو أرفقت مع تقريرك مخرجات اﻷمرين التاليين : %s."
+msgstr[2] "من المفيد جدا لو أرفقت مع تقريرك مخرجات اﻷمر التالي : %s."
+msgstr[3] "سيكون من المفيد جدا لو أرفقت مع تقريرك مخرجات اﻷوامر التالية : %s."
+msgstr[4] "سيكون من المفيد جدا لو أرفقت مع تقريرك مخرجات اﻷمر : %s."
+msgstr[5] "سيكون من المفيد جدا لو أرفقت مع تقريرك مخرجات اﻷوامر التالية : %s."
 
 #: drakbug:149
 #, c-format
 msgid "'%s'"
-msgstr ""
+msgstr "'%s'"
 
-#: drakbug:152
-#, fuzzy, c-format
-msgid "You should also attach the following files if you have them: %s."
-msgstr "عليك بتثبيت الحزم التالية: %s"
+#: drakbug:154
+#, c-format
+msgid "You should also attach the following files: %s as well as %s."
+msgstr "عليك أن ترفق الملفات التالية: %s بالإضافة إلى %s."
 
 #: drakbug:158
 #, c-format
 msgid "Please describe what you were doing when it crashed:"
-msgstr ""
+msgstr "فضلا اشرح ماذا كنت تفعل عند انهياره و تحطمه :"
 
 #: drakbug:174
 #, c-format
@@ -335,33 +339,35 @@ msgid ""
 "You must type in what you were doing when this bug happened in order to "
 "enable us to reproduce this bug and to increase the odds of fixing it"
 msgstr ""
+"يجب أن تكتب عن ماذا كنت تفعل عند حدوث هذه العلَّة لنتمكن من التعرف عليها و على "
+"مشاكلها و من ثم إصلاحها"
 
 #: drakbug:249
 #, c-format
 msgid "Thanks."
-msgstr ""
+msgstr "شكرا."
 
-#: drakclock:28 draksec:168
+#: drakclock:29 draksec:190
 #, c-format
 msgid "Date, Clock & Time Zone Settings"
-msgstr ""
+msgstr "إعدادات التاريخ ، الساعة و المنطقة الزمنية"
 
-#: drakclock:37
+#: drakclock:38
 #, c-format
 msgid "not defined"
 msgstr "غير معرّف"
 
-#: drakclock:39
+#: drakclock:40
 #, c-format
 msgid "Change Time Zone"
 msgstr "تغيير المنطقة الزمنية"
 
-#: drakclock:44
+#: drakclock:45
 #, c-format
 msgid "Timezone - DrakClock"
 msgstr "المنطقة الزمنيّة - DrakClock"
 
-#: drakclock:44
+#: drakclock:45
 #, c-format
 msgid "Which is your timezone?"
 msgstr "ما هي منطقتك الزمنية؟"
@@ -376,12 +382,12 @@ msgstr "GMT - DrakClock"
 msgid "Is your hardware clock set to GMT?"
 msgstr "هل ساعة الجهاز مضبوطة على توقيت غرينتش؟"
 
-#: drakclock:72
+#: drakclock:75
 #, c-format
 msgid "Network Time Protocol"
 msgstr "بروتوكول وقت الشّبكة"
 
-#: drakclock:74
+#: drakclock:77
 #, c-format
 msgid ""
 "Your computer can synchronize its clock\n"
@@ -390,50 +396,50 @@ msgstr ""
 "يمكن لحاسبك أن يُزامن ساعته\n"
 " مع خادم وقت بعيد باستخدام NTP"
 
-#: drakclock:75
+#: drakclock:78
 #, c-format
 msgid "Enable Network Time Protocol"
 msgstr "تمكين بروتوكول وقت الشّبكة"
 
-#: drakclock:83
+#: drakclock:86
 #, c-format
 msgid "Server:"
 msgstr "الخادم:"
 
-#: drakclock:97
+#: drakclock:100
 #, c-format
 msgid "Timezone"
 msgstr "المنطقة الزمنية"
 
-#: drakclock:113
-#, fuzzy, c-format
+#: drakclock:117
+#, c-format
 msgid "Please enter a valid NTP server address."
-msgstr "الرجاء إدخال عنوان IP صالح."
+msgstr "الرجاء إدخال عنوان NTP صالح."
 
-#: drakclock:139
+#: drakclock:143
 #, c-format
 msgid "Could not synchronize with %s."
 msgstr "لم يمكن المزامنة مع %s."
 
-#: drakclock:140 drakdvb:149 logdrake:179 scannerdrake:488
+#: drakclock:144 drakdvb:149 logdrake:182 scannerdrake:488
 #, c-format
 msgid "Quit"
 msgstr "خروج"
 
-#: drakclock:141
-#, fuzzy, c-format
+#: drakclock:145
+#, c-format
 msgid "Retry"
-msgstr "استعادة"
+msgstr "اعادة"
 
-#: drakclock:166 drakclock:176
+#: drakclock:168 drakclock:178
 #, c-format
 msgid "Reset"
 msgstr "إعادة للأصل"
 
 #: drakdvb:30
-#, fuzzy, c-format
+#, c-format
 msgid "DVB"
-msgstr "DVD"
+msgstr "DVB"
 
 #: drakdvb:39 harddrake2:99
 #, c-format
@@ -443,17 +449,17 @@ msgstr "القناة"
 #: drakdvb:57
 #, c-format
 msgid "%s already exists and its contents will be lost"
-msgstr ""
+msgstr "%s موجودة مسبقا و ستفقد محتوياتها"
 
 #: drakdvb:74
 #, c-format
 msgid "Could not get the list of available channels"
-msgstr ""
+msgstr "لا يمكن الحصول على لائحة القنوات المتوفرة"
 
-#: drakdvb:80 draksec:67 drakups:98 finish-install:106 harddrake2:374
+#: drakdvb:80 draksec:69 drakups:99 finish-install:106 harddrake2:358
 #: scannerdrake:63 scannerdrake:67 scannerdrake:75 scannerdrake:316
 #: scannerdrake:365 scannerdrake:501 scannerdrake:505 scannerdrake:527
-#: service_harddrake:423
+#: service_harddrake:426
 #, c-format
 msgid "Please wait"
 msgstr "الرجاء الانتظار"
@@ -461,22 +467,22 @@ msgstr "الرجاء الانتظار"
 #: drakdvb:84
 #, c-format
 msgid "Detecting DVB channels, this will take a few minutes"
-msgstr ""
+msgstr "جاري تفقد و التماس قنوات بث الفيديو الرقمي ،  سيستغرق اﻷمر بضع دقائق"
 
-#: drakdvb:85 drakfont:571 drakfont:651 drakfont:735 drakups:216 logdrake:179
+#: drakdvb:85 drakfont:571 drakfont:651 drakfont:736 drakups:217 logdrake:182
 #, c-format
 msgid "Cancel"
 msgstr "إلغاء"
 
 #: drakdvb:148
-#, fuzzy, c-format
+#, c-format
 msgid "Detect Channels"
-msgstr "القناة"
+msgstr "ابحث و التمس القنوات"
 
 #: drakdvb:150
-#, fuzzy, c-format
+#, c-format
 msgid "View Channel"
-msgstr "القناة"
+msgstr "قناة العرض و المشاهدة"
 
 #: drakedm:40
 #, c-format
@@ -495,20 +501,25 @@ msgstr "GDM (مدير عرض جينوم("
 
 #: drakedm:43
 #, fuzzy, c-format
+msgid "LIGHTDM (LightDM Display Manager)"
+msgstr "GDM (مدير عرض جينوم("
+
+#: drakedm:44
+#, fuzzy, c-format
 msgid "SLIM (Simple Display Manager)"
 msgstr "XDM (مدير عرض X("
 
-#: drakedm:44
+#: drakedm:45
 #, c-format
 msgid "XDM (X Display Manager)"
 msgstr "XDM (مدير عرض X("
 
-#: drakedm:55
+#: drakedm:56
 #, c-format
 msgid "Choosing a display manager"
 msgstr "جاري اختيار مدير العرض"
 
-#: drakedm:56
+#: drakedm:57
 #, c-format
 msgid ""
 "X11 Display Manager allows you to graphically log\n"
@@ -519,12 +530,12 @@ msgstr ""
 "نظامك مع تشغيل خادم النوافذ X و يدعم تشغيل\n"
 "عدة جلسات X مختلفة على ماكينتك المحلية في نفس الوقت."
 
-#: drakedm:79
+#: drakedm:80
 #, c-format
 msgid "The change is done, do you want to restart the dm service?"
 msgstr "تم عمل التغيير، هل تريد إعادة تشغيل خدمة dm؟"
 
-#: drakedm:80
+#: drakedm:81
 #, c-format
 msgid ""
 "You are going to close all running programs and lose your current session. "
@@ -638,17 +649,17 @@ msgstr ""
 "يمكنك تثبيت الخطوط بالطريقة العادية. في حالات نادرة، قد تتسبب الخطوط المزيفة "
 "في تعليق خادم X."
 
-#: drakfont:477
-#, fuzzy, c-format
+#: drakfont:479
+#, c-format
 msgid "Font Installation"
-msgstr "ما بعد التثبيت"
+msgstr "تثبيت الخط"
 
 #: drakfont:488
 #, c-format
 msgid "DrakFont"
 msgstr "DrakFont"
 
-#: drakfont:489 drakfont:641
+#: drakfont:491 drakfont:641
 #, c-format
 msgid "Font List"
 msgstr "قائمة الخطوط"
@@ -656,19 +667,19 @@ msgstr "قائمة الخطوط"
 #: drakfont:492
 #, c-format
 msgid "Get Windows Fonts"
-msgstr ""
+msgstr "أحصل عل خطوط ويندوز"
 
 #: drakfont:498
 #, c-format
 msgid "About"
 msgstr "حَوْل"
 
-#: drakfont:499 drakfont:540
+#: drakfont:501 drakfont:540
 #, c-format
 msgid "Options"
 msgstr "خيارات"
 
-#: drakfont:500 drakfont:720
+#: drakfont:502 drakfont:721
 #, c-format
 msgid "Uninstall"
 msgstr "إزالة التّثبيت"
@@ -678,29 +689,29 @@ msgstr "إزالة التّثبيت"
 msgid "Import"
 msgstr "استيراد"
 
-#: drakfont:519
-#, fuzzy, c-format
+#: drakfont:521
+#, c-format
 msgid "Drakfont"
-msgstr "DrakFont"
-
-#: drakfont:521 harddrake2:229
-#, fuzzy, c-format
-msgid "Copyright (C) %s by OpenMandriva"
-msgstr "حقوق النّسخ 2001-2008 لماندريبا "
+msgstr "دريك - فونت ( Drakfont )"
 
 #: drakfont:523
-#, fuzzy, c-format
-msgid "Font installer."
-msgstr "غير مثبت"
-
-#: drakfont:525 logdrake:55
 #, c-format
-msgid "OpenMandriva Lx"
+msgid "Copyright (C) %s by Mandriva"
+msgstr ""
+
+#: drakfont:525
+#, c-format
+msgid "Font installer."
+msgstr "مُثبِّت الخطوط"
+
+#: drakfont:527
+#, fuzzy, c-format
+msgid "Moondrake GNU/Linux"
 msgstr "ﻡﺎﻧﺩﺮﻴﺑﺍ ﻞﻴﻨﻜﺳ"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
-#: drakfont:532 harddrake2:238
+#: drakfont:532 harddrake2:531
 #, c-format
 msgid "_: Translator(s) name(s) & email(s)\n"
 msgstr "Arabeyes <support@arabeyes.org>\n"
@@ -730,7 +741,7 @@ msgstr "Abiword"
 msgid "Generic Printers"
 msgstr "طابعات شاملة"
 
-#: drakfont:561 drakfont:571 drakups:209
+#: drakfont:561 drakfont:571 drakups:210
 #, c-format
 msgid "Ok"
 msgstr "موافق"
@@ -750,17 +761,17 @@ msgstr "اختيار الملفات"
 msgid "Fonts"
 msgstr "خطوط"
 
-#: drakfont:639 draksec:164
+#: drakfont:639 draksec:186
 #, c-format
 msgid "Import fonts"
 msgstr "استيراد الخطوط"
 
-#: drakfont:645 drakups:298 drakups:374
+#: drakfont:645 drakups:299 drakups:375
 #, c-format
 msgid "Add"
 msgstr "إضافة"
 
-#: drakfont:646 drakfont:734 drakups:300 drakups:376
+#: drakfont:646 drakfont:735 drakups:301 drakups:377
 #, c-format
 msgid "Remove"
 msgstr "حذف"
@@ -770,67 +781,67 @@ msgstr "حذف"
 msgid "Install"
 msgstr "تثبيت"
 
-#: drakfont:683
+#: drakfont:684
 #, c-format
 msgid "Are you sure you want to uninstall the following fonts?"
-msgstr ""
+msgstr "هل تريد تأكيد رغبتك في إزالة الخطوط التالية؟"
 
-#: drakfont:687 draksec:57 harddrake2:319
+#: drakfont:688 draksec:59 harddrake2:302
 #, c-format
 msgid "Yes"
 msgstr "نعم"
 
-#: drakfont:689 draksec:56 harddrake2:320
+#: drakfont:690 draksec:58 harddrake2:303
 #, c-format
 msgid "No"
 msgstr "لا"
 
-#: drakfont:728
+#: drakfont:729
 #, c-format
 msgid "Unselect All"
 msgstr "تم إزالة اختيار الكل"
 
-#: drakfont:731
+#: drakfont:732
 #, c-format
 msgid "Select All"
 msgstr "تم اختيار الكل"
 
-#: drakfont:748
+#: drakfont:749
 #, c-format
 msgid "Importing fonts"
 msgstr "استيراد الخطوط"
 
-#: drakfont:752 drakfont:772
+#: drakfont:753 drakfont:773
 #, c-format
 msgid "Initial tests"
 msgstr "الاختبارات الأولية"
 
-#: drakfont:753
+#: drakfont:754
 #, c-format
 msgid "Copy fonts on your system"
 msgstr "نسخ الخطوط إلى نظامك"
 
-#: drakfont:754
+#: drakfont:755
 #, c-format
 msgid "Install & convert Fonts"
 msgstr "تثبيت و تحويل الخطوط"
 
-#: drakfont:755
+#: drakfont:756
 #, c-format
 msgid "Post Install"
 msgstr "ما بعد التثبيت"
 
-#: drakfont:767
-#, fuzzy, c-format
+#: drakfont:768
+#, c-format
 msgid "Removing fonts"
-msgstr "استيراد الخطوط"
+msgstr "إزالة الخطوط"
 
-#: drakfont:773
+#: drakfont:774
 #, c-format
 msgid "Remove fonts on your system"
 msgstr "حذف الخطوط من النظام"
 
-#: drakfont:774
+#: drakfont:775
 #, c-format
 msgid "Post Uninstall"
 msgstr "ما بعد إزالة التثبيت"
@@ -878,7 +889,7 @@ msgstr "مركز مساعدة ماندريبا لينكس"
 #: drakhelp:49
 #, c-format
 msgid "No Help entry for %s\n"
-msgstr ""
+msgstr "لا يوجد مدخل مساعدة لـ %s\n"
 
 #: drakperm:21
 #, c-format
@@ -895,32 +906,32 @@ msgstr "إعدادات مخصصة"
 msgid "Custom & system settings"
 msgstr "إعدادات مُخصّصة وإعدادت النّظام"
 
-#: drakperm:31
-#, fuzzy, c-format
+#: drakperm:33
+#, c-format
 msgid "Security Permissions"
-msgstr "التصاريح"
+msgstr "تصاريح أمنية"
 
 #: drakperm:43
 #, c-format
 msgid "Editable"
 msgstr "قابل للتّعديل"
 
-#: drakperm:48 drakperm:318
+#: drakperm:50 drakperm:318
 #, c-format
 msgid "Path"
 msgstr "المسار"
 
-#: drakperm:48 drakperm:247
+#: drakperm:50 drakperm:247
 #, c-format
 msgid "User"
 msgstr "المستخدم"
 
-#: drakperm:48 drakperm:247
+#: drakperm:50 drakperm:247
 #, c-format
 msgid "Group"
 msgstr "المجموعة"
 
-#: drakperm:48 drakperm:107 drakperm:330 draksec:179
+#: drakperm:50 drakperm:107 drakperm:330 draksec:201
 #, c-format
 msgid "Permissions"
 msgstr "التصاريح"
@@ -928,9 +939,9 @@ msgstr "التصاريح"
 #: drakperm:58
 #, c-format
 msgid "Add a new rule"
-msgstr ""
+msgstr "أضف قاعدة جديدة"
 
-#: drakperm:65 drakperm:100 drakperm:126
+#: drakperm:67 drakperm:102 drakperm:126
 #, c-format
 msgid "Edit current rule"
 msgstr "تحرير القاعدة الحالية"
@@ -940,7 +951,7 @@ msgstr "تحرير القاعدة الحالية"
 msgid ""
 "Here you can see files to use in order to fix permissions, owners, and "
 "groups via msec.\n"
-"You can also edit your own rules which will owerwrite the default rules."
+"You can also edit your own rules which will overwrite the default rules."
 msgstr ""
 "يمكنك هنا رؤية الملفات التي يتم استخدامها لتعديل الصلاحيات، والمالكين "
 "والمجموعات عبر msec.\n"
@@ -995,7 +1006,7 @@ msgstr "حذف"
 msgid "Delete selected rule"
 msgstr "حذف القاعدة المختارة"
 
-#: drakperm:126 drakups:299 drakups:375
+#: drakperm:126 drakups:300 drakups:376
 #, c-format
 msgid "Edit"
 msgstr "تحرير"
@@ -1122,27 +1133,29 @@ msgstr "اختيار المسار"
 msgid "Property"
 msgstr "الخاصية"
 
-#: drakperm:374
+#: drakperm:371
 #, c-format
 msgid ""
 "The first character of the path must be a slash (\"/\"):\n"
 "\"%s\""
 msgstr ""
+"يجب أبدء المسار بالشرطة المائلة (\"/\"):\n"
+"\"%s\""
 
-#: drakperm:384
+#: drakperm:381
 #, c-format
 msgid "Both the username and the group must valid!"
-msgstr ""
+msgstr "يجب أن يكون كِلَي اسم المستخدم و المجموعة صالحا!"
 
-#: drakperm:385
+#: drakperm:382
 #, c-format
 msgid "User: %s"
-msgstr ""
+msgstr "المستخدم: %s"
 
-#: drakperm:386
+#: drakperm:383
 #, c-format
 msgid "Group: %s"
-msgstr ""
+msgstr "المجموعة: %s"
 
 #: draksec:51
 #, c-format
@@ -1159,7 +1172,7 @@ msgstr "LOCAL"
 msgid "NONE"
 msgstr "لاشيء"
 
-#: draksec:54
+#: draksec:56 draksec:113
 #, c-format
 msgid "Default"
 msgstr "افتراضي"
@@ -1169,152 +1182,152 @@ msgstr "افتراضي"
 msgid "Ignore"
 msgstr "تجاهل"
 
-#: draksec:85
-#, fuzzy, c-format
-msgid "Security Level and Checks"
-msgstr "مستوى الأمن:"
-
-#: draksec:108
+#: draksec:87
 #, c-format
-msgid "Configure access to OpenMandriva Lx administrative tools"
-msgstr ""
+msgid "Security Level and Checks"
+msgstr "مستوى الفحص و الأمن:"
 
-#: draksec:111
+#: draksec:110
+#, fuzzy, c-format
+msgid "Configure authentication required to access DrakX tools"
+msgstr "تتطلب تهيئة الإستيثاق النفاذ إلى أدوات %s"
+
+#: draksec:114
 #, c-format
 msgid "No password needed"
 msgstr "بدون كلمة مرور"
 
-#: draksec:112
+#: draksec:115
 #, c-format
-msgid "Root password required"
-msgstr ""
+msgid "Administrator password"
+msgstr "كلمة مرور الجذر"
 
-#: draksec:113
+#: draksec:116
 #, c-format
-msgid "User password required"
-msgstr ""
+msgid "User password"
+msgstr "كلمة مرور المستخدم"
 
-#: draksec:146 draksec:202
+#: draksec:168 draksec:223
 #, c-format
 msgid "Software Management"
 msgstr "إدارة البرامج"
 
-#: draksec:147
-#, fuzzy, c-format
-msgid "Online Update"
-msgstr "Mandriva Online"
+#: draksec:169
+#, c-format
+msgid "%s Update"
+msgstr "تحديث %s"
 
-#: draksec:148
+#: draksec:170
 #, c-format
 msgid "Software Media Manager"
 msgstr "مدير وسائط البرمجيات"
 
-#: draksec:149
-#, fuzzy, c-format
+#: draksec:171
+#, c-format
 msgid "Configure 3D Desktop effects"
-msgstr "تهيئة خادم مجموعات أخبار"
+msgstr "أعدَّ تأثيرات سطح المكتب الثلاثية اﻷبعاد"
 
-#: draksec:150
-#, fuzzy, c-format
+#: draksec:172
+#, c-format
 msgid "Graphical Server Configuration"
-msgstr "تهيئة تنبيه البريد"
+msgstr "إعداد الخادم الرسومي"
 
-#: draksec:151
-#, fuzzy, c-format
+#: draksec:173
+#, c-format
 msgid "Mouse Configuration"
-msgstr "تهيئة يدوية"
+msgstr "إعداد الفأرة"
 
-#: draksec:152
-#, fuzzy, c-format
+#: draksec:174
+#, c-format
 msgid "Keyboard Configuration"
-msgstr "تهيئة الشبكة"
+msgstr "إعداد لوحة المفاتيح"
 
-#: draksec:153
+#: draksec:175
 #, fuzzy, c-format
 msgid "Printer Configuration"
 msgstr "تهيئة البروكسي"
 
-#: draksec:154
-#, fuzzy, c-format
+#: draksec:176
+#, c-format
 msgid "UPS Configuration"
-msgstr "تهيئة مُشغّل الـUPS"
+msgstr "إعداد UPS"
 
-#: draksec:155
-#, fuzzy, c-format
+#: draksec:177
+#, c-format
 msgid "Network Configuration"
-msgstr "تهيئة التّنبيه"
+msgstr "إعداد الشبكة"
 
-#: draksec:156
+#: draksec:178
 #, c-format
 msgid "Hosts definitions"
-msgstr ""
+msgstr "تعريفات المضيفين"
 
-#: draksec:157
-#, fuzzy, c-format
+#: draksec:179
+#, c-format
 msgid "Network Center"
-msgstr "الشبكة والإنترنت"
+msgstr "مركز الشبكة"
 
-#: draksec:158
+#: draksec:180
 #, c-format
 msgid "Wireless Network Roaming"
-msgstr ""
+msgstr "تجوال شبكة لاسلكية"
 
-#: draksec:159
+#: draksec:181
 #, c-format
 msgid "VPN"
-msgstr ""
+msgstr "شبكة إفتراضية خاصة ( VPN )"
 
-#: draksec:160
+#: draksec:182
 #, c-format
 msgid "Proxy Configuration"
 msgstr "تهيئة البروكسي"
 
-#: draksec:161
-#, fuzzy, c-format
+#: draksec:183
+#, c-format
 msgid "Connection Sharing"
-msgstr "الوصلة"
+msgstr "مشاركة اتصال"
 
-#: draksec:163
+#: draksec:185
 #, c-format
 msgid "Backups"
 msgstr "النسخ الاحتياطية"
 
-#: draksec:165 logdrake:56
+#: draksec:187 logdrake:56
 #, c-format
 msgid "Logs"
 msgstr "السّجلّات"
 
-#: draksec:166 finish-install:210 finish-install:249
+#: draksec:188 finish-install:212 finish-install:251
 #, c-format
 msgid "Services"
 msgstr "الخدمات"
 
-#: draksec:167
-#, fuzzy, c-format
+#: draksec:189
+#, c-format
 msgid "Users"
-msgstr "المستخدم"
+msgstr "مستخدمين"
 
-#: draksec:169
-#, fuzzy, c-format
+#: draksec:191
+#, c-format
 msgid "Boot Configuration"
-msgstr "تهيئة التّنبيه"
+msgstr "إعداد اﻹقلاع"
 
-#: draksec:203
+#: draksec:224
 #, c-format
 msgid "Hardware"
 msgstr "العتاد"
 
-#: draksec:204
-#, fuzzy, c-format
+#: draksec:225
+#, c-format
 msgid "Network"
-msgstr "خيارات الشبكة"
+msgstr "شبكة"
 
-#: draksec:205
+#: draksec:226
 #, c-format
 msgid "System"
 msgstr "النظام"
 
-#: draksec:206
+#: draksec:227
 #, c-format
 msgid "Boot"
 msgstr "الإقلاع"
@@ -1404,12 +1417,12 @@ msgstr ""
 msgid "Autodetection"
 msgstr "كشف آلي"
 
-#: drakups:98 harddrake2:374
+#: drakups:99 harddrake2:358
 #, c-format
 msgid "Detection in progress"
 msgstr "جاري التحقّق"
 
-#: drakups:117 drakups:156 logdrake:461 logdrake:467
+#: drakups:118 drakups:157 logdrake:465 logdrake:471
 #, c-format
 msgid "Congratulations"
 msgstr "تهانينا"
@@ -1544,15 +1557,15 @@ msgstr "المستوى"
 msgid "ACL name"
 msgstr "إسم ACL"
 
-#: drakups:296 finish-install:258
+#: drakups:297 finish-install:260
 #, c-format
 msgid "Password"
 msgstr "كلمة المرور"
 
-#: drakups:328
-#, fuzzy, c-format
+#: drakups:329
+#, c-format
 msgid "UPS Management"
-msgstr "إدارة الطّابعة %s"
+msgstr "إدارة UPS"
 
 #: drakups:332 drakups:341
 #, c-format
@@ -1597,69 +1610,74 @@ msgid "Keyboard"
 msgstr "لوحة المفاتيح"
 
 #: finish-install:58
-#, fuzzy, c-format
+#, c-format
 msgid "Please choose your keyboard layout."
 msgstr "من فضلك اختر توزيعة لوحة مفاتيحك"
 
 #: finish-install:106
 #, c-format
 msgid "Testing your connection..."
-msgstr ""
+msgstr "يتم اختبار إتصالك"
 
-#: finish-install:185
+#: finish-install:187
 #, c-format
 msgid "Windows-compatible sharing system"
 msgstr ""
 
-#: finish-install:188
+#: finish-install:189
+#, c-format
+msgid "Virtual Private Network"
+msgstr ""
+
+#: finish-install:190
 #, fuzzy, c-format
 msgid "OpenSSH server"
 msgstr "خادم SSH"
 
-#: finish-install:189
+#: finish-install:191
 #, fuzzy, c-format
 msgid "Print server"
 msgstr "الخادم FTP"
 
-#: finish-install:209
+#: finish-install:211
 #, c-format
 msgid "Do you have any services that you want to run when starting up?"
 msgstr ""
 
-#: finish-install:241
+#: finish-install:243
 #, fuzzy, c-format
 msgid "The following services failed to start:\n"
 msgstr "يجب تثبيت الحزم التالية:\n"
 
-#: finish-install:244
+#: finish-install:246
 #, fuzzy, c-format
 msgid "The following services failed to stop:\n"
 msgstr "يجب تثبيت الحزم التالية:\n"
 
-#: finish-install:256 finish-install:274 finish-install:287
+#: finish-install:258 finish-install:276 finish-install:289
 #, c-format
 msgid "Encrypted home partition"
-msgstr ""
+msgstr "تجزيء منزل مشفّر"
 
-#: finish-install:256
+#: finish-install:258
 #, c-format
 msgid "Please enter a password for the %s user"
-msgstr ""
+msgstr "رجاء أدخل كلمة المرور للمستخدم  %s "
 
-#: finish-install:259
+#: finish-install:261
 #, c-format
 msgid "Password (again)"
 msgstr "كلمة المرور (مجدداً)"
 
-#: finish-install:274
+#: finish-install:276
 #, c-format
 msgid "Creating encrypted home partition"
-msgstr ""
+msgstr "إنشاء تجزيء منزل مشفّر"
 
-#: finish-install:287
+#: finish-install:289
 #, c-format
 msgid "Formatting encrypted home partition"
-msgstr ""
+msgstr "تهيئة تجزيء منزل مشفّر"
 
 #: harddrake2:28
 #, c-format
@@ -1783,15 +1801,15 @@ msgstr "مُتحكّم القرص"
 msgid "the disk controller on the host side"
 msgstr "مُتحمّم القرص من جهة المضيف"
 
-#: harddrake2:51
-#, fuzzy, c-format
+#: harddrake2:53
+#, c-format
 msgid "Identifier"
-msgstr "معرّف القرص"
+msgstr "معرّف"
 
-#: harddrake2:51
-#, fuzzy, c-format
+#: harddrake2:53
+#, c-format
 msgid "usually the device serial number"
-msgstr "عامّة العدد التّسلسلي للقرص"
+msgstr "عادةً العدد التّسلسلي للقرص"
 
 #: harddrake2:52
 #, c-format
@@ -1841,17 +1859,17 @@ msgstr "اسم مصنّع الجهاز"
 #: harddrake2:57
 #, c-format
 msgid "PCI domain"
-msgstr ""
+msgstr "مجال منفذ الملحقات الإضافية السريع ( PCI domain )"
 
-#: harddrake2:57 harddrake2:58
-#, fuzzy, c-format
+#: harddrake2:59 harddrake2:60
+#, c-format
 msgid "the PCI domain of the device"
-msgstr "اسم مصنّع الجهاز"
+msgstr "مجال PCI الخاص بالجهاز"
 
-#: harddrake2:58
-#, fuzzy, c-format
+#: harddrake2:60
+#, c-format
 msgid "PCI revision"
-msgstr "التصاريح"
+msgstr "نسخة PCI منقحة"
 
 #: harddrake2:59
 #, c-format
@@ -2005,35 +2023,35 @@ msgstr "الأعلام"
 msgid "CPU flags reported by the kernel"
 msgstr "علامات وحدة المعالجة المركزية (cpu) التي قرّرتها النّواة"
 
-#: harddrake2:78 harddrake2:142
-#, fuzzy, c-format
+#: harddrake2:80 harddrake2:144
+#, c-format
 msgid "Cores"
-msgstr "إغلاق"
+msgstr "أنوية"
 
 #: harddrake2:78
 #, c-format
 msgid "CPU cores"
-msgstr ""
+msgstr " أنوية وحدة المعالجة المركزية ( CPU cores )"
 
-#: harddrake2:79
-#, fuzzy, c-format
+#: harddrake2:81
+#, c-format
 msgid "Core ID"
-msgstr "معرّف الصّانع"
+msgstr "هويّة النواة ( core ID )"
 
 #: harddrake2:80
 #, c-format
 msgid "Physical ID"
-msgstr ""
+msgstr "الهويّة المحسوسة ( Physical ID )"
 
 #: harddrake2:81
 #, c-format
 msgid "ACPI ID"
-msgstr ""
+msgstr "هويّة وحدة إعدادات الطاقة ( ACPI )"
 
-#: harddrake2:82
-#, fuzzy, c-format
+#: harddrake2:84
+#, c-format
 msgid "Siblings"
-msgstr "الإعدادات"
+msgstr "اﻷنوية اﻷخرى (( الشقيقات ))"
 
 #: harddrake2:83
 #, c-format
@@ -2129,20 +2147,20 @@ msgstr "عامّة العدد التّسلسلي للقرص"
 #: harddrake2:101
 #, c-format
 msgid "Target id number"
-msgstr ""
+msgstr "انتقِ رقم الهويّة"
 
 #: harddrake2:101
 #, c-format
 msgid "the SCSI target identifier"
-msgstr ""
+msgstr "معرِّف هدف SCSI "
 
 #: harddrake2:102
 #, c-format
 msgid "Logical unit number"
 msgstr "رقم الوحدة المنطقيّة"
 
-#: harddrake2:102
-#, fuzzy, c-format
+#: harddrake2:104
+#, c-format
 msgid ""
 "the SCSI Logical Unit Number (LUN). SCSI devices connected to a host are "
 "uniquely identified by a\n"
@@ -2288,48 +2306,144 @@ msgstr "التّجزيئات"
 msgid "Features"
 msgstr "الميزات"
 
-#. -PO: please keep all "/" characters !!!
-#: harddrake2:179 logdrake:82
+#: harddrake2:179
 #, c-format
-msgid "/_Options"
-msgstr "/_خيارات"
+msgid "Autodetect _modems"
+msgstr "تحقق آلي من أ_جهزة المودم"
 
-#: harddrake2:180 harddrake2:203 logdrake:84
+#: harddrake2:180
 #, c-format
-msgid "/_Help"
-msgstr "/_مساعدة"
+msgid "Autodetect parallel _zip drives"
+msgstr "التمس  تلقائي لتعريفات _zip الموازية"
 
 #: harddrake2:184
 #, c-format
-msgid "/Autodetect _modems"
-msgstr "/تحقق آلي من أ_جهزة المودم"
-
-#: harddrake2:185
-#, c-format
-msgid "/Autodetect parallel _zip drives"
-msgstr ""
-
-#: harddrake2:189
-#, fuzzy, c-format
 msgid "Hardware Configuration"
-msgstr "تهيئة الشبكة"
+msgstr "إعداد العتاد"
+
+#: harddrake2:193
+#, c-format
+msgid "_Options"
+msgstr "_خيارات"
+
+#: harddrake2:194 harddrake2:195
+#, c-format
+msgid "_Help"
+msgstr "_مساعدة"
+
+#: harddrake2:195
+#, fuzzy, c-format
+msgid "<control>H"
+msgstr "<control>Q"
 
 #: harddrake2:196
 #, c-format
-msgid "/_Quit"
-msgstr "/_خروج"
+msgid "_Fields description"
+msgstr "_وصف الحقول"
 
-#: harddrake2:205
+#: harddrake2:197
 #, c-format
-msgid "/_Fields description"
-msgstr "/_وصف الحقول"
+msgid "_Report Bug"
+msgstr "_تقرير خطأ"
 
-#: harddrake2:207
+#: harddrake2:198
+#, c-format
+msgid "_About..."
+msgstr "_حول..."
+
+#: harddrake2:242
+#, c-format
+msgid "Detected hardware"
+msgstr "العتاد المُكتشف"
+
+#: harddrake2:245 scannerdrake:283
+#, c-format
+msgid "Information"
+msgstr "معلومات"
+
+#: harddrake2:247
+#, c-format
+msgid "Set current driver options"
+msgstr "اضبط خيارات التعريف الحالي"
+
+#: harddrake2:254
+#, c-format
+msgid "Run config tool"
+msgstr "تشغيل أداة التهيئة"
+
+#: harddrake2:280
+#, c-format
+msgid ""
+"Click on a device in the tree on the left in order to display its "
+"information here."
+msgstr "اضغط على جهاز في السلسلة اليسرى لعرض معلوماته هنا."
+
+#: harddrake2:300 notify-x11-free-driver-switch:13
+#, c-format
+msgid "unknown"
+msgstr "مجهول"
+
+#: harddrake2:301
+#, c-format
+msgid "Unknown"
+msgstr "مجهول"
+
+#: harddrake2:321
+#, c-format
+msgid "Misc"
+msgstr "متفرّقات"
+
+#: harddrake2:404
+#, c-format
+msgid "secondary"
+msgstr "ثانوي"
+
+#: harddrake2:404
+#, c-format
+msgid "primary"
+msgstr "أوّلي"
+
+#: harddrake2:408
+#, c-format
+msgid "burner"
+msgstr "ناسخ أقراص"
+
+#: harddrake2:408
+#, c-format
+msgid "DVD"
+msgstr "DVD"
+
+#: harddrake2:504
+#, c-format
+msgid "The following packages need to be installed:\n"
+msgstr "يجب تثبيت الحزم التالية:\n"
+
+#: harddrake2:521
+#, c-format
+msgid "Harddrake"
+msgstr "مدير العتاد دريك ( Harddrake )"
+
+#: harddrake2:523
+#, c-format
+msgid "Copyright (C) %s by %s"
+msgstr "حقوق النسخ %s by %s"
+
+#: harddrake2:523 harddrake2:527
+#, c-format
+msgid "Mageia"
+msgstr ""
+
+#: harddrake2:525
+#, c-format
+msgid "This is HardDrake, a %s hardware configuration tool."
+msgstr "هذا مدير العتاد-دريك ( HardDrake ) , و هي أداة تهيئة العتاد %s ."
+
+#: harddrake2:540
 #, c-format
 msgid "Harddrake help"
 msgstr "مساعدة Harddrake"
 
-#: harddrake2:208
+#: harddrake2:541
 #, c-format
 msgid ""
 "Description of the fields:\n"
@@ -2338,12 +2452,12 @@ msgstr ""
 "وصف الحقول:\n"
 "\n"
 
-#: harddrake2:216
+#: harddrake2:548
 #, c-format
 msgid "Select a device!"
 msgstr "اختيار جهاز!"
 
-#: harddrake2:216
+#: harddrake2:548
 #, c-format
 msgid ""
 "Once you've selected a device, you'll be able to see the device information "
@@ -2351,98 +2465,6 @@ msgid ""
 msgstr ""
 "عند اختيارك لجهاز، ستستطيع رؤية معلومات هذا الجهاز في الحقول المعروضة في "
 "الإطار الأيمن (\"معلومات\")"
-
-#: harddrake2:222
-#, c-format
-msgid "/_Report Bug"
-msgstr "/_تقرير خطأ"
-
-#: harddrake2:224
-#, c-format
-msgid "/_About..."
-msgstr "/_حول..."
-
-#: harddrake2:227
-#, fuzzy, c-format
-msgid "Harddrake"
-msgstr "Harddrake2"
-
-#: harddrake2:231
-#, c-format
-msgid "This is HardDrake, a %s hardware configuration tool."
-msgstr ""
-
-#: harddrake2:233
-#, fuzzy, c-format
-msgid "OpenMandriva Linux"
-msgstr "ﻡﺎﻧﺩﺮﻴﺑﺍ ﻞﻴﻨﻜﺳ"
-
-#: harddrake2:264
-#, c-format
-msgid "Detected hardware"
-msgstr "العتاد المُكتشف"
-
-#: harddrake2:267 scannerdrake:283
-#, c-format
-msgid "Information"
-msgstr "معلومات"
-
-#: harddrake2:269
-#, c-format
-msgid "Set current driver options"
-msgstr ""
-
-#: harddrake2:276
-#, c-format
-msgid "Run config tool"
-msgstr "تشغيل أداة التهيئة"
-
-#: harddrake2:296
-#, c-format
-msgid ""
-"Click on a device in the tree on the left in order to display its "
-"information here."
-msgstr "اضغط على جهاز في السلسلة اليسرى لعرض معلوماته هنا."
-
-#: harddrake2:317 notify-x11-free-driver-switch:13
-#, c-format
-msgid "unknown"
-msgstr "مجهول"
-
-#: harddrake2:318
-#, c-format
-msgid "Unknown"
-msgstr "مجهول"
-
-#: harddrake2:338
-#, c-format
-msgid "Misc"
-msgstr "متفرّقات"
-
-#: harddrake2:420
-#, c-format
-msgid "secondary"
-msgstr "ثانوي"
-
-#: harddrake2:420
-#, c-format
-msgid "primary"
-msgstr "أوّلي"
-
-#: harddrake2:424
-#, c-format
-msgid "burner"
-msgstr "ناسخ أقراص"
-
-#: harddrake2:424
-#, c-format
-msgid "DVD"
-msgstr "DVD"
-
-#: harddrake2:528
-#, c-format
-msgid "The following packages need to be installed:\n"
-msgstr "يجب تثبيت الحزم التالية:\n"
 
 #: localedrake:38
 #, c-format
@@ -2461,219 +2483,174 @@ msgid ", "
 msgstr "، "
 
 #: logdrake:55
-#, c-format
-msgid "%s Tools Logs"
-msgstr ""
+#, fuzzy, c-format
+msgid "DrakX Tools Logs"
+msgstr "سجلات أدوات %s"
 
 #: logdrake:69
 #, c-format
 msgid "Show only for the selected day"
 msgstr "عرض سجلات اليوم المختار فقط"
 
-#: logdrake:76
-#, c-format
-msgid "/File/_New"
-msgstr "/ملف/_جديد"
-
-#: logdrake:76
-#, c-format
-msgid "<control>N"
-msgstr "<control>N"
-
-#: logdrake:77
-#, c-format
-msgid "/File/_Open"
-msgstr "/ملف/_فتح"
-
-#: logdrake:77
-#, c-format
-msgid "<control>O"
-msgstr "<control>O"
-
-#: logdrake:78
-#, c-format
-msgid "/File/_Save"
-msgstr "/ملف/_حفظ"
-
 #: logdrake:78
 #, c-format
 msgid "<control>S"
 msgstr "<control>S"
 
-#: logdrake:79
-#, c-format
-msgid "/File/Save _As"
-msgstr "/ملف/حفظ _باسم"
-
-#: logdrake:80
-#, c-format
-msgid "/File/-"
-msgstr "/ملف/-"
-
-#: logdrake:83
-#, c-format
-msgid "/Options/Test"
-msgstr "/خيارات/اختبار"
-
-#: logdrake:85
-#, c-format
-msgid "/Help/_About..."
-msgstr "/مساعدة/_حول..."
-
-#: logdrake:114
+#: logdrake:117
 #, c-format
 msgid ""
 "_:this is the auth.log log file\n"
 "Authentication"
 msgstr "المواثقة"
 
-#: logdrake:115
+#: logdrake:118
 #, c-format
 msgid ""
 "_:this is the user.log log file\n"
 "User"
 msgstr "المستخدم"
 
-#: logdrake:116
+#: logdrake:119
 #, c-format
 msgid ""
 "_:this is the /var/log/messages log file\n"
 "Messages"
 msgstr "الرّسائل"
 
-#: logdrake:117
+#: logdrake:120
 #, c-format
 msgid ""
 "_:this is the /var/log/syslog log file\n"
 "Syslog"
 msgstr "سجلّ النّظام"
 
-#: logdrake:121
+#: logdrake:124
 #, c-format
 msgid "search"
 msgstr "بحث"
 
-#: logdrake:133
+#: logdrake:136
 #, c-format
 msgid "A tool to monitor your logs"
 msgstr "أداة لمراقبة سجلات نظامك"
 
-#: logdrake:135
+#: logdrake:138
 #, c-format
 msgid "Settings"
 msgstr "الإعدادات"
 
-#: logdrake:138
+#: logdrake:141
 #, c-format
 msgid "Matching"
 msgstr "المطابقة"
 
-#: logdrake:139
+#: logdrake:142
 #, c-format
 msgid "but not matching"
 msgstr "لكن غير مطابقة"
 
-#: logdrake:142
+#: logdrake:145
 #, c-format
 msgid "Choose file"
 msgstr "اختيار ملف"
 
-#: logdrake:154
+#: logdrake:157
 #, c-format
 msgid "Calendar"
 msgstr "التقويم"
 
-#: logdrake:163
+#: logdrake:166
 #, c-format
 msgid "Content of the file"
 msgstr "محتويات الملف"
 
-#: logdrake:167 logdrake:411
+#: logdrake:170 logdrake:415
 #, c-format
 msgid "Mail alert"
 msgstr "تنبية بريدي"
 
-#: logdrake:174
+#: logdrake:177
 #, c-format
 msgid "The alert wizard has failed unexpectedly:"
 msgstr "فشل معالج التّنبيه بشكل غير متوقّع:"
 
-#: logdrake:178
+#: logdrake:181
 #, c-format
 msgid "Save"
 msgstr "حفظ"
 
-#: logdrake:226
+#: logdrake:230
 #, c-format
 msgid "please wait, parsing file: %s"
 msgstr "يرجى الإنتظار، جاري تحليل الملف: %s"
 
-#: logdrake:248
+#: logdrake:252
 #, c-format
 msgid "Sorry, log file isn't available!"
-msgstr ""
+msgstr "نأسف ، ملف السجل غير متوفر!"
 
-#: logdrake:296
+#: logdrake:300
 #, c-format
 msgid "Error while opening \"%s\" log file: %s\n"
-msgstr ""
+msgstr "خطأ أثناء فتح \"%s\" ملفة السجل: %s\n"
 
-#: logdrake:389
+#: logdrake:393
 #, c-format
 msgid "Apache World Wide Web Server"
 msgstr "خادم الوب Apache"
 
-#: logdrake:390
+#: logdrake:394
 #, c-format
 msgid "Domain Name Resolver"
 msgstr "مُترجم أسماء النطاقات"
 
-#: logdrake:391
+#: logdrake:395
 #, c-format
 msgid "Ftp Server"
 msgstr "الخادم FTP"
 
-#: logdrake:392
+#: logdrake:396
 #, c-format
 msgid "Postfix Mail Server"
 msgstr "خادم البريد Postfix"
 
-#: logdrake:393
+#: logdrake:397
 #, c-format
 msgid "Samba Server"
 msgstr "خادم سامبا"
 
-#: logdrake:394
+#: logdrake:398
 #, c-format
 msgid "SSH Server"
 msgstr "خادم SSH"
 
-#: logdrake:395
+#: logdrake:399
 #, c-format
 msgid "Webmin Service"
 msgstr "خدمة Webmin"
 
-#: logdrake:396
+#: logdrake:400
 #, c-format
 msgid "Xinetd Service"
 msgstr "خدمات Xinetd"
 
-#: logdrake:405
+#: logdrake:409
 #, c-format
 msgid "Configure the mail alert system"
 msgstr "تهيئة نظام التّنبيه بالبريد"
 
-#: logdrake:406
+#: logdrake:410
 #, c-format
 msgid "Stop the mail alert system"
 msgstr "إيقاف نظام التّنبيه للبريد"
 
-#: logdrake:414
+#: logdrake:418
 #, c-format
 msgid "Mail alert configuration"
 msgstr "تهيئة تنبيه البريد"
 
-#: logdrake:415
+#: logdrake:419
 #, c-format
 msgid ""
 "Welcome to the mail configuration utility.\n"
@@ -2684,71 +2661,71 @@ msgstr ""
 "\n"
 "هنا سيمكنك إعداد نظام التنبيه\n"
 
-#: logdrake:418
+#: logdrake:422
 #, c-format
 msgid "What do you want to do?"
 msgstr "ماذا تريد أن تفعل؟"
 
-#: logdrake:425
+#: logdrake:429
 #, c-format
 msgid "Services settings"
 msgstr "إعدادات الخدمات"
 
-#: logdrake:426
+#: logdrake:430
 #, c-format
 msgid ""
 "You will receive an alert if one of the selected services is no longer "
 "running"
 msgstr "سوف تستلم تنبيهاً إذا كانت أحد الخدمات المختارة لا تعمل."
 
-#: logdrake:433
+#: logdrake:437
 #, c-format
 msgid "Load setting"
 msgstr "تحميل الإعداد"
 
-#: logdrake:434
+#: logdrake:438
 #, c-format
 msgid "You will receive an alert if the load is higher than this value"
 msgstr "سوف تستلم تنبيها إذا كان الحِمْل أعلى من هذه القيمة"
 
-#: logdrake:435
+#: logdrake:439
 #, c-format
 msgid ""
 "_: load here is a noun, the load of the system\n"
 "Load"
 msgstr "تحميل"
 
-#: logdrake:440
+#: logdrake:444
 #, c-format
 msgid "Alert configuration"
 msgstr "تهيئة التّنبيه"
 
-#: logdrake:441
+#: logdrake:445
 #, c-format
 msgid "Please enter your email address below "
 msgstr "الرجاء إدخال عنوان بريدك الألكتروني أدناه "
 
-#: logdrake:442
+#: logdrake:446
 #, c-format
 msgid "and enter the name (or the IP) of the SMTP server you wish to use"
 msgstr "وأدخل الاسم (أو عنوان IP) وخادم SMTP الذي تودّ استخدامه"
 
-#: logdrake:444
+#: logdrake:448
 #, fuzzy, c-format
 msgid "Email address"
 msgstr "عنوان IP"
 
-#: logdrake:445
+#: logdrake:449
 #, fuzzy, c-format
 msgid "Email server"
 msgstr "خادم سامبا"
 
-#: logdrake:449
+#: logdrake:453
 #, c-format
 msgid "\"%s\" neither is a valid email nor is an existing local user!"
 msgstr "\"%s\" ليس عنوان بريد إلكترونيّ صالح ولا مستخدم محلّي موجود!"
 
-#: logdrake:454
+#: logdrake:458
 #, c-format
 msgid ""
 "\"%s\" is a local user, but you did not select a local smtp, so you must use "
@@ -2757,26 +2734,26 @@ msgstr ""
 "\"%s\" هو مستخدم محلّي، إلّا أنّك لم تحدّد smtp محلّي، لذلك على استخدام عنوان "
 "بريد الكترونيّ كامل!"
 
-#: logdrake:461
+#: logdrake:465
 #, c-format
 msgid "The wizard successfully configured the mail alert."
 msgstr "قام المرشد بتهيئة تنبيه البريد بنجاح."
 
-#: logdrake:467
+#: logdrake:471
 #, c-format
 msgid "The wizard successfully disabled the mail alert."
 msgstr "قام المرشد بتعطيل تنبيه البريد بنجاح."
 
-#: logdrake:526
+#: logdrake:530
 #, c-format
 msgid "Save as.."
 msgstr "حفظ باسم.."
 
-#: notify-x11-free-driver-switch:18 service_harddrake:465
-#: service_harddrake:478
+#: notify-x11-free-driver-switch:18 service_harddrake:468
+#: service_harddrake:481
 #, c-format
 msgid "Display driver setup"
-msgstr ""
+msgstr "إعداد تعريف العرض"
 
 #: notify-x11-free-driver-switch:20
 #, c-format
@@ -2786,7 +2763,7 @@ msgstr ""
 #: notify-x11-free-driver-switch:21
 #, c-format
 msgid "Reason: %s."
-msgstr ""
+msgstr "السبب: %s."
 
 #: scannerdrake:48
 #, c-format
@@ -2836,9 +2813,9 @@ msgid "The %s is not supported by this version of %s."
 msgstr "الـ%s غير مدعوم من قبل هذا الإصدار من %s."
 
 #: scannerdrake:101 scannerdrake:112
-#, fuzzy, c-format
+#, c-format
 msgid "Confirmation"
-msgstr "التهيئة"
+msgstr "تأكيد"
 
 #: scannerdrake:101
 #, c-format
@@ -2851,24 +2828,24 @@ msgid "%s is not in the scanner database, configure it manually?"
 msgstr "%s غير موجودة في قاعدة بيانات الماسحات الضوئية، هل تريد تهيئتها يدوياً؟"
 
 #: scannerdrake:127
-#, fuzzy, c-format
+#, c-format
 msgid "Scanner configuration"
-msgstr "تهيئة التّنبيه"
+msgstr "إعداد الماسح الضوئي"
 
 #: scannerdrake:128
 #, c-format
 msgid "Select a scanner model (Detected model: %s, Port: %s)"
-msgstr ""
+msgstr "اختر صنف الماسح الضوئي  ( الصنف المكتشف : %s ، المنفذ: %s)"
 
 #: scannerdrake:130
 #, c-format
 msgid "Select a scanner model (Detected model: %s)"
-msgstr ""
+msgstr "اختر صنف الماسح الضوئي  ( الصنف المكتشف : %s)"
 
 #: scannerdrake:131
 #, c-format
 msgid "Select a scanner model (Port: %s)"
-msgstr ""
+msgstr "اختر صنف الماسح الضوئي  (المنفذ: %s)"
 
 #: scannerdrake:133 scannerdrake:136
 #, c-format
@@ -2886,9 +2863,9 @@ msgid "Do not install firmware file"
 msgstr "عدم تثبيت ملفّ firmware"
 
 #: scannerdrake:169 scannerdrake:219
-#, fuzzy, c-format
+#, c-format
 msgid "Scanner Firmware"
-msgstr "مشاركة الماسحات الضوئية"
+msgstr "البرنامج الثابت للماسح الضوئي"
 
 #: scannerdrake:170 scannerdrake:222
 #, c-format
@@ -3018,9 +2995,9 @@ msgid "Auto-detect available ports"
 msgstr "اكتشاف المنافذ المتوفرة آلياً"
 
 #: scannerdrake:328 scannerdrake:374
-#, fuzzy, c-format
+#, c-format
 msgid "Device choice"
-msgstr "ملفّ الجهاز"
+msgstr "خيار الجهاز"
 
 #: scannerdrake:329 scannerdrake:375
 #, c-format
@@ -3148,9 +3125,9 @@ msgid "There are no scanners found which are available on your system.\n"
 msgstr "لا توجد ماسحات ضوئية متوفرة على نظامك.\n"
 
 #: scannerdrake:457
-#, fuzzy, c-format
+#, c-format
 msgid "Scanner Management"
-msgstr "إدارة الطّابعة %s"
+msgstr "إدارة الماسح الضوئي"
 
 #: scannerdrake:463
 #, c-format
@@ -3183,9 +3160,9 @@ msgid "This machine"
 msgstr "هذه الماكينة"
 
 #: scannerdrake:592
-#, fuzzy, c-format
+#, c-format
 msgid "Scanner Sharing"
-msgstr "مشاركة الماسحات الضوئية"
+msgstr "مشاركة الماسح الضوئي"
 
 #: scannerdrake:593
 #, c-format
@@ -3314,20 +3291,20 @@ msgstr "ماسحاتك لن تكون متوفّرة على الشّبكة."
 msgid "Could not install the packages needed to share your scanner(s)."
 msgstr "لم يمكن تثبيت الحزم المطلوبة لمشاركة الماسحات الضّوئيّة."
 
-#: service_harddrake:170
-#, fuzzy, c-format
+#: service_harddrake:173
+#, c-format
 msgid "The graphics card '%s' is no longer supported by driver '%s'"
-msgstr "الـ%s غير مدعوم من قبل هذا الإصدار من %s."
+msgstr "بطاقة الرسوميات %s غير مدعومة من قبل التعريف %s."
 
 #: service_harddrake:180
 #, c-format
 msgid "New release, reconfiguring X for %s"
-msgstr ""
+msgstr "نسخة جديدة , إعيد تهيئة X ﻷجل %s"
 
 #: service_harddrake:271
 #, c-format
 msgid "The proprietary kernel driver was not found for X.org driver '%s'"
-msgstr ""
+msgstr "لم يُعثر على تعريف النواة المملوك لتعريف '%s' X.org driver"
 
 #: service_harddrake:310
 #, c-format
@@ -3349,27 +3326,27 @@ msgstr "تمّت إضافة بعض الأجهزة: %s\n"
 msgid "- %s was added\n"
 msgstr "- تمّت إضافة %s\n"
 
-#: service_harddrake:397
+#: service_harddrake:400
 #, c-format
 msgid "Hardware changes in \"%s\" class (%s seconds to answer)"
 msgstr "تغييرات العتاد في الصّنف \"%s\" (%s ثانية للإجابة("
 
-#: service_harddrake:398
+#: service_harddrake:401
 #, c-format
 msgid "Do you want to run the appropriate config tool?"
 msgstr "هل تريد تشغيل أداة التّهيئة الملائمة؟"
 
-#: service_harddrake:423
+#: service_harddrake:426
 #, c-format
 msgid "Hardware probing in progress"
 msgstr "جاري جس العتاد"
 
-#: service_harddrake:444 service_harddrake:449
+#: service_harddrake:447 service_harddrake:452
 #, c-format
 msgid "Display driver issue"
-msgstr ""
+msgstr "مشكلة تعريف االعرض"
 
-#: service_harddrake:445
+#: service_harddrake:448
 #, c-format
 msgid ""
 "The display driver currently configured requires you to use the 'nokmsboot' "
@@ -3377,8 +3354,11 @@ msgid ""
 "boot process. Startup of the X server may now fail as that option was not "
 "specified."
 msgstr ""
+"يتطلب منك تعريف العرض الحالي و المعاد تهيئته استخدام خيار اﻹقلاع \"nokmsboot"
+"\" لتفادي تحميل تعريف KMS الخاص بالنواة عند اﻹقلاع . ربما سيكون بدء الخادم x "
+"فاشلاإذا لم يتم تعيين ذلك الخيار."
 
-#: service_harddrake:450
+#: service_harddrake:453
 #, c-format
 msgid ""
 "Detected a loaded display driver kernel module which conflicts with the "
@@ -3386,57 +3366,368 @@ msgid ""
 "fail."
 msgstr ""
 
-#: service_harddrake:465 service_harddrake:478
+#: service_harddrake:468 service_harddrake:481
 #, c-format
 msgid "The system has to be rebooted due to a display driver change."
-msgstr ""
+msgstr "يجب إعادة إقلاع النظام  بما أن تعريف العرض قد تغير."
 
-#: service_harddrake:466 service_harddrake:479
+#: service_harddrake:469 service_harddrake:482
 #, c-format
 msgid "Press Cancel within %d seconds to abort."
-msgstr ""
-
-#: ../menu/localedrake-system.desktop.in.h:1
-#, fuzzy
-msgid "System Regional Settings"
-msgstr "إعدادات النّظام"
-
-#: ../menu/localedrake-system.desktop.in.h:2
-msgid "System wide language & country configurator"
-msgstr ""
+msgstr "اضغط إلغاء خلال %d ثانية/ثوان  للإلغاء."
 
 #: ../menu/harddrake.desktop.in.h:1
 msgid "HardDrake"
 msgstr "HardDrake"
 
 #: ../menu/harddrake.desktop.in.h:2
-#, fuzzy
 msgid "Hardware Central Configuration/information tool"
-msgstr "تهيئة الشبكة"
+msgstr "اﻷداة المركزية لـ إعدادات/معلومات العتاد"
 
 #: ../menu/harddrake.desktop.in.h:3
-#, fuzzy
 msgid "Hardware Configuration Tool"
-msgstr "تهيئة الشبكة"
+msgstr "أداة إعداد العتاد"
+
+#: ../menu/localedrake-system.desktop.in.h:1
+msgid "System Regional Settings"
+msgstr "الإعدادات الإقليمية للنّظام"
+
+#: ../menu/localedrake-system.desktop.in.h:2
+msgid "System wide language & country configurator"
+msgstr "مهيئ دولة و لغة النظام"
 
 #: ../menu/localedrake-user.desktop.in.h:1
-#, fuzzy
 msgid "Regional Settings"
-msgstr "الإعدادات"
+msgstr "الإعدادات الإقليمية"
 
 #: ../menu/localedrake-user.desktop.in.h:2
-#, fuzzy
 msgid "Language & country configuration"
-msgstr "تهيئة يدوية"
+msgstr "إعدادات الدولة و اللغة"
+
+#: ../polkit/org.moondrake.drakauth.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Authentication Configuration"
+msgstr "تهيئة تنبيه البريد"
+
+#: ../polkit/org.moondrake.drakauth.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Authentication Configuration"
+msgstr "تهيئة تنبيه البريد"
+
+#: ../polkit/org.moondrake.drakboot.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Boot Configuration"
+msgstr "إعداد اﻹقلاع"
+
+#: ../polkit/org.moondrake.drakboot.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Boot Configuration"
+msgstr "إعداد اﻹقلاع"
+
+#: ../polkit/org.moondrake.drakclock.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Date and Time Configuration"
+msgstr "تهيئة تنبيه البريد"
+
+#: ../polkit/org.moondrake.drakclock.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Date and Time Configuration"
+msgstr "تهيئة تنبيه البريد"
+
+#: ../polkit/org.moondrake.drakdisk.policy.in.h:1
+msgid "Run DrakX Disk Layout Editor"
+msgstr ""
+
+#: ../polkit/org.moondrake.drakdisk.policy.in.h:2
+msgid "Authentication is required to run DrakX Disk Layout Editor"
+msgstr ""
+
+#: ../polkit/org.moondrake.drakdm.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Login Manager Configuration"
+msgstr "إعدادات الدولة و اللغة"
+
+#: ../polkit/org.moondrake.drakdm.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Login Manager Configuration"
+msgstr "إعدادات الدولة و اللغة"
+
+#: ../polkit/org.moondrake.drakfont.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Font Configuration"
+msgstr "إعدادات الدولة و اللغة"
+
+#: ../polkit/org.moondrake.drakfont.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Font Configuration"
+msgstr "إعدادات الدولة و اللغة"
+
+#: ../polkit/org.moondrake.drakhardware.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Hardware Configuration"
+msgstr "إعداد الخادم الرسومي"
+
+#: ../polkit/org.moondrake.drakhardware.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Hardware Configuration"
+msgstr "إعداد الخادم الرسومي"
+
+#: ../polkit/org.moondrake.draklog.policy.in.h:1
+msgid "Run DrakX Log Viewer"
+msgstr ""
+
+#: ../polkit/org.moondrake.draklog.policy.in.h:2
+msgid "Authentication is required to run DrakX Log Viewer"
+msgstr ""
+
+#: ../polkit/org.moondrake.drakperm.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Security Permissions Configuration"
+msgstr "إعداد الخادم الرسومي"
+
+#: ../polkit/org.moondrake.drakperm.policy.in.h:2
+#, fuzzy
+msgid ""
+"Authentication is required to run DrakX Security Permissions Configuration"
+msgstr "إعداد الخادم الرسومي"
+
+#: ../polkit/org.moondrake.drakscanner.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Scanner Configuration"
+msgstr "إعداد الخادم الرسومي"
+
+#: ../polkit/org.moondrake.drakscanner.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Scanner Configuration"
+msgstr "إعداد الخادم الرسومي"
+
+#: ../polkit/org.moondrake.draksec.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Application Security Configuration"
+msgstr "تهيئة تنبيه البريد"
+
+#: ../polkit/org.moondrake.draksec.policy.in.h:2
+#, fuzzy
+msgid ""
+"Authentication is required to run DrakX Application Security Configuration"
+msgstr "تهيئة تنبيه البريد"
+
+#: ../polkit/org.moondrake.drakups.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX UPS Configuration"
+msgstr "إعداد UPS"
+
+#: ../polkit/org.moondrake.drakups.policy.in.h:2
+msgid "Authentication is required to run DrakX UPS Configuration"
+msgstr ""
+
+#: ../polkit/org.moondrake.moondrakeservices.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Service Configuration"
+msgstr "إعداد الخادم الرسومي"
+
+#: ../polkit/org.moondrake.moondrakeservices.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Service Configuration"
+msgstr "إعداد الخادم الرسومي"
+
+#~ msgid "%s Bug Report Tool"
+#~ msgstr "أداة تقرير العيوب في %s"
+
+#~ msgid "%s Tools Logs"
+#~ msgstr "سجلات أدوات %s"
+
+#~ msgid "Configure authentication required to access %s tools"
+#~ msgstr "تتطلب تهيئة الإستيثاق النفاذ إلى أدوات %s"
+
+#, fuzzy
+#~ msgid "Run Moondrake Application Security Configuration"
+#~ msgstr "تهيئة تنبيه البريد"
+
+#, fuzzy
+#~ msgid "Run Moondrake Authentication Configuration"
+#~ msgstr "تهيئة تنبيه البريد"
+
+#, fuzzy
+#~ msgid "Run Moondrake Boot Configuration"
+#~ msgstr "إعداد اﻹقلاع"
+
+#, fuzzy
+#~ msgid "Run Moondrake Date and Time Configuration"
+#~ msgstr "تهيئة تنبيه البريد"
+
+#, fuzzy
+#~ msgid "Run Moondrake Font Configuration"
+#~ msgstr "إعدادات الدولة و اللغة"
+
+#, fuzzy
+#~ msgid "Run Moondrake Hardware Configuration"
+#~ msgstr "إعداد الخادم الرسومي"
+
+#, fuzzy
+#~ msgid "Run Moondrake Login Manager Configuration"
+#~ msgstr "إعدادات الدولة و اللغة"
+
+#, fuzzy
+#~ msgid "Run Moondrake Scanner Configuration"
+#~ msgstr "إعداد الخادم الرسومي"
+
+#, fuzzy
+#~ msgid "Run Moondrake Security Permissions Configuration"
+#~ msgstr "إعداد الخادم الرسومي"
+
+#, fuzzy
+#~ msgid "Run Moondrake Service Configuration"
+#~ msgstr "إعداد الخادم الرسومي"
+
+#, fuzzy
+#~ msgid "Run Moondrake UPS Configuration"
+#~ msgstr "إعداد UPS"
+
+#~ msgid ""
+#~ "\n"
+#~ "Welcome.\n"
+#~ "\n"
+#~ "The parameters of the auto-install are available in the sections on the "
+#~ "left"
+#~ msgstr ""
+#~ "\n"
+#~ "أهلاً بكم.\n"
+#~ "\n"
+#~ "مُعطيات التثبيت الآلي موجودة على اليمين"
+
+#~ msgid "  --help                - display this help     \n"
+#~ msgstr " --help                - إظهار هذه المساعدة     \n"
+
+#~ msgid ""
+#~ " drakhelp 0.1\n"
+#~ "Copyright (C) %s Mandriva.\n"
+#~ "Copyright (C) %s Moondrake.\n"
+#~ "This is free software and may be redistributed under the terms of the GNU "
+#~ "GPL.\n"
+#~ "\n"
+#~ "Usage: \n"
+#~ msgstr ""
+#~ " drakhelp 0.1\n"
+#~ "حقوق النّسخ %s ماندريفا.\n"
+#~ "حقوق النسخ %s ماجيَّا.\n"
+#~ "هذا برنامج حرّ ويمكن إعادة توزيعه تحت بنود رخصة GNU GPL.\n"
+#~ "\n"
+#~ "الاستعمال: \n"
+
+#~ msgid "%s Control Center"
+#~ msgstr "مركز تحكّم %s"
+
+#~ msgid "%s Help Center"
+#~ msgstr "مركز مساعدة %s"
+
+#~ msgid "(default value: %s)"
+#~ msgstr "(القيمة الإفتراضية: %s)"
 
 #~ msgid "/Autodetect _jaz drives"
 #~ msgstr "/تحقق آلي من _سواقات Jaz"
 
-#~ msgid "OpenMandriva Lx Tools Logs"
-#~ msgstr "سجلات أدوات ماندريبا لينكس"
+#~ msgid "/Autodetect _modems"
+#~ msgstr "/تحقق آلي من أ_جهزة المودم"
 
 #~ msgid "/Autodetect _printers"
 #~ msgstr "/تحقق آلي من ال_طابعات"
+
+#~ msgid "/File/-"
+#~ msgstr "/ملف/-"
+
+#~ msgid "/File/Save _As"
+#~ msgstr "/ملف/حفظ _باسم"
+
+#~ msgid "/File/_New"
+#~ msgstr "/ملف/_جديد"
+
+#~ msgid "/File/_Open"
+#~ msgstr "/ملف/_فتح"
+
+#~ msgid "/File/_Quit"
+#~ msgstr "/ملف/_خروج"
+
+#~ msgid "/File/_Save"
+#~ msgstr "/ملف/_حفظ"
+
+#~ msgid "/Help/_About..."
+#~ msgstr "/مساعدة/_حول..."
+
+#~ msgid "/Options/Test"
+#~ msgstr "/خيارات/اختبار"
+
+#~ msgid "/_About..."
+#~ msgstr "/_حول..."
+
+#~ msgid "/_Fields description"
+#~ msgstr "/_وصف الحقول"
+
+#~ msgid "/_File"
+#~ msgstr "/_ملف"
+
+#~ msgid "/_Help"
+#~ msgstr "/_مساعدة"
+
+#~ msgid "/_Options"
+#~ msgstr "/_خيارات"
+
+#~ msgid "/_Quit"
+#~ msgstr "/_خروج"
+
+#~ msgid "/_Report Bug"
+#~ msgstr "/_تقرير خطأ"
+
+#~ msgid "<control>N"
+#~ msgstr "<control>N"
+
+#~ msgid "<control>O"
+#~ msgstr "<control>O"
+
+#~ msgid "Add an item"
+#~ msgstr "إضافة عنصر"
+
+#~ msgid "Auto Install"
+#~ msgstr "تثبيت آلي"
+
+#~ msgid "Auto Install Configurator"
+#~ msgstr "أداة إعداد التثبيت الآلي"
+
+#~ msgid "Autodetect _jaz drives"
+#~ msgstr "تحقق آلي من _سواقات Jaz"
+
+#~ msgid "Autodetect _printers"
+#~ msgstr "تحقق آلي من ال_طابعات"
+
+#~ msgid "Automatic Steps Configuration"
+#~ msgstr "تهيئة آلية للخطوات"
+
+#~ msgid "Background color"
+#~ msgstr "لون الخلفية:"
+
+#~ msgid "Basic options"
+#~ msgstr "الخيارات الأساسية"
+
+#~ msgid "Bugs"
+#~ msgstr "العلل"
+
+#~ msgid "Coma bug"
+#~ msgstr "علّة الغيبوبة"
+
+#~ msgid "Copyright (C) 2001-2008 by Mandriva"
+#~ msgstr "حقوق النّسخ 2001-2008 لماندريبا "
+
+#~ msgid "Create new theme"
+#~ msgstr "إنشاء سمة جديدة"
+
+#~ msgid "Creating auto install floppy"
+#~ msgstr "جاري إنشاء قرص التثبيت الآلي"
+
+#~ msgid "Creating auto install floppy (drivers disk)"
+#~ msgstr "جاري إنشاء قرص التثبيت الآلي (قرص المشغّلات)"
+
+#~ msgid "Display logo on Console"
+#~ msgstr "إظهار الشعار في سطر الأوامر"
 
 #~ msgid ""
 #~ "Display theme\n"
@@ -3445,76 +3736,13 @@ msgstr "تهيئة يدوية"
 #~ "عرض السمات\n"
 #~ "في سطر الأوامر"
 
-#~ msgid "Create new theme"
-#~ msgstr "إنشاء سمة جديدة"
-
-#~ msgid "Text box height"
-#~ msgstr "ارتفاع مربّع النص"
-
-#~ msgid ""
-#~ "The progress bar X coordinate\n"
-#~ "of its upper left corner"
-#~ msgstr ""
-#~ "الإحداثي السيني للركن الأيسر الأعلى\n"
-#~ "لشريط التقدم"
-
-#~ msgid ""
-#~ "The progress bar Y coordinate\n"
-#~ "of its upper left corner"
-#~ msgstr ""
-#~ "الإحداثي الصادي للركن الأيسر الأعلى\n"
-#~ "لشريط التقدم"
-
-#~ msgid "The width of the progress bar"
-#~ msgstr "عرض شريط التقدم"
-
-#~ msgid "The height of the progress bar"
-#~ msgstr "ارتفاع شريط التقدم"
+#, fuzzy
+#~ msgid "Do you want to remove these packages?"
+#~ msgstr "هل تريد تشغيل أداة التّهيئة الملائمة؟"
 
 #, fuzzy
-#~ msgid "Text"
-#~ msgstr "نص فقط"
-
-#~ msgid "Text color"
-#~ msgstr "لون النص"
-
-#~ msgid "Background color"
-#~ msgstr "لون الخلفية:"
-
-#~ msgid "Theme name"
-#~ msgstr "اسم السمة"
-
-#~ msgid "Final resolution"
-#~ msgstr "الاستبانة النهائية"
-
-#~ msgid "Display logo on Console"
-#~ msgstr "إظهار الشعار في سطر الأوامر"
-
-#~ msgid "Save theme"
-#~ msgstr "حفظ السمة"
-
-#, fuzzy
-#~ msgid "Please enter a theme name"
-#~ msgstr "الرجاء إدخال مُعطيات اللاسلكيّة لهذه البطاقة:"
-
-#, fuzzy
-#~ msgid "Please select a splash image"
-#~ msgstr "الرجاء اختيار طراز الـ UPS الخاصّ بك."
-
-#~ msgid "saving Bootsplash theme..."
-#~ msgstr "جاري حفظ سمة Bootsplash..."
-
-#~ msgid "choose image"
-#~ msgstr "اختيار صورة"
-
-#~ msgid "Coma bug"
-#~ msgstr "علّة الغيبوبة"
-
-#~ msgid "whether this cpu has the Cyrix 6x86 Coma bug"
-#~ msgstr "إذا كان المرشد لديه علّة الغيبوبة Cyrix 6x86"
-
-#~ msgid "Fdiv bug"
-#~ msgstr "علّة Fdiv"
+#~ msgid "DrakX Online"
+#~ msgstr "Mandriva Online"
 
 #~ msgid ""
 #~ "Early Intel Pentium chips manufactured have a bug in their floating point "
@@ -3524,45 +3752,53 @@ msgstr "تهيئة يدوية"
 #~ "بعض رقاقات إنتل بنتيوم المصنّعة قديما تحتوي على علّة في مُعالج النّقاط "
 #~ "العائمة والتي لا تحقّق الدقّة المطلوبة عند أداء قسمة النّقاط العائمة (FDIV)"
 
-#~ msgid "Is FPU present"
-#~ msgstr "هل FPU موجود"
-
-#~ msgid "yes means the processor has an arithmetic coprocessor"
-#~ msgstr "نعم تعني أن المعالج لديه معالج مساعد للعمليات الحسابية"
-
-#~ msgid "Whether the FPU has an irq vector"
-#~ msgstr "إذا كان الـFPU لديه متجه irq"
-
-#~ msgid ""
-#~ "yes means the arithmetic coprocessor has an exception vector attached"
-#~ msgstr "نعم تعني أن المرشد المساعد للعمليات الحسابية لديه متجه للإستثناءات"
+#~ msgid "Error!"
+#~ msgstr "خطأ!"
 
 #~ msgid "F00f bug"
 #~ msgstr "علّة F00f"
 
-#~ msgid ""
-#~ "early pentiums were buggy and freezed when decoding the F00F bytecode"
-#~ msgstr ""
-#~ "معالجات pentium القديمة كانت تتوقف عن العمل عند استخدام F00F bytecode"
+#~ msgid "FPU"
+#~ msgstr "FPU"
+
+#~ msgid "Fdiv bug"
+#~ msgstr "علّة Fdiv"
+
+#~ msgid "File/-"
+#~ msgstr "ملف/-"
+
+#~ msgid "File/Save _As"
+#~ msgstr "ملف/حفظ _باسم"
+
+#~ msgid "File/_New"
+#~ msgstr "ملف/_جديد"
+
+#~ msgid "File/_Open"
+#~ msgstr "ملف/_فتح"
+
+#~ msgid "File/_Quit"
+#~ msgstr "ملف/_خروج"
+
+#~ msgid "File/_Save"
+#~ msgstr "ملف/_حفظ"
+
+#~ msgid "Final resolution"
+#~ msgstr "الاستبانة النهائية"
 
 #~ msgid "Halt bug"
 #~ msgstr "علّة Halt"
 
+#~ msgid "Help/_About..."
+#~ msgstr "مساعدة/_حول..."
+
 #~ msgid ""
-#~ "Some of the early i486DX-100 chips cannot reliably return to operating "
-#~ "mode after the \"halt\" instruction is used"
+#~ "Here you can see files to use in order to fix permissions, owners, and "
+#~ "groups via msec.\n"
+#~ "You can also edit your own rules which will owerwrite the default rules."
 #~ msgstr ""
-#~ "بعض رقاقات i486DX-100 القديمة لا يمكنها الرّجوع إلى وضع التّشغيل بعد أن "
-#~ "تستخدم تعليمة \"halt\" "
-
-#~ msgid "Bugs"
-#~ msgstr "العلل"
-
-#~ msgid "FPU"
-#~ msgstr "FPU"
-
-#~ msgid "Unknown/Others"
-#~ msgstr "غير معروف/أخرى"
+#~ "يمكنك هنا رؤية الملفات التي يتم استخدامها لتعديل الصلاحيات، والمالكين "
+#~ "والمجموعات عبر msec.\n"
+#~ "يمكنك كذلك تحرير قواعدك الخاصة التي ستُكتَب فوق القواعد الإفتراضية."
 
 #~ msgid ""
 #~ "Here, you can setup the security level and administrator of your "
@@ -3652,29 +3888,95 @@ msgstr "تهيئة يدوية"
 #~ "إلا أنّ النّظام مقفل بالكامل ومزايا الأمن محدّدة على\n"
 #~ "أقصاها "
 
-#~ msgid "(default value: %s)"
-#~ msgstr "(القيمة الإفتراضية: %s)"
+#~ msgid "I cannot find needed image file `%s'."
+#~ msgstr "لا يمكنني العثور على ملف الصورة `%s'."
 
-#~ msgid "Security Level:"
-#~ msgstr "مستوى الأمن:"
+#~ msgid "Insert a blank floppy in drive %s"
+#~ msgstr "أدخل قرص مرن فارغ في السواقة %s"
 
-#~ msgid "Security Alerts:"
-#~ msgstr "تنبيهات أمنية:"
+#~ msgid "Insert another blank floppy in drive %s (for drivers disk)"
+#~ msgstr "أدخل قرص مرن فارغ آخر في السواقة %s (من أجل المشغّلات)"
 
-#~ msgid "Security Administrator:"
-#~ msgstr "مدير الأمن:"
+#~ msgid "Is FPU present"
+#~ msgstr "هل FPU موجود"
 
-#~ msgid "Basic options"
-#~ msgstr "الخيارات الأساسية"
+#~ msgid "Its GDB trace is:"
+#~ msgstr "أثر  GDB هو :"
+
+#~ msgid "Mandriva Linux Bug Report Tool"
+#~ msgstr "أداة تقرير العيوب في ماندريبا لينكس"
+
+#~ msgid "Mandriva Linux Tools Logs"
+#~ msgstr "سجلات أدوات ماندريبا لينكس"
+
+#, fuzzy
+#~ msgid "Mandriva Update"
+#~ msgstr "Mandriva Online"
+
+#~ msgid "Menudrake"
+#~ msgstr "Menudrake"
+
+#~ msgid "Moondrake"
+#~ msgstr "ماجيّا"
+
+#~ msgid "Msec"
+#~ msgstr "Msec"
 
 #~ msgid "Network Options"
 #~ msgstr "خيارات الشبكة"
 
-#~ msgid "System Options"
-#~ msgstr "خيارات النظام"
+#~ msgid ""
+#~ "No Sound Card has been detected on your machine. Please verify that a "
+#~ "Linux-supported Sound Card is correctly plugged in"
+#~ msgstr ""
+#~ "لا توجد بطاقة صوت على جهازك. رجاء تأكّد من أن بطاقة الصوت المدعومة من "
+#~ "لينكس موصولة بشكل صحيح.\n"
+#~ "\n"
+#~ "\n"
+#~ "يمكنك زيارة قاعدة بيانات العتاد المدعوم الخاصة بنا على:\n"
+#~ "\n"
+#~ "\n"
+#~ "http://www.mandrivalinux.com/en/hardware.php3"
+
+#~ msgid ""
+#~ "No TV Card has been detected on your machine. Please verify that a Linux-"
+#~ "supported Video/TV Card is correctly plugged in."
+#~ msgstr ""
+#~ "لا توجد بطاقة تلفاز على جهازك. رجاء تأكّد من أن بطاقة الفيديو/التلفاز "
+#~ "المدعومة في لينكس موصولة بشكل صحيح.\n"
+#~ "\n"
+#~ "\n"
+#~ "يمكنك زيارة قاعدة بيانات العتاد المدعوم الخاصة بنا على:\n"
+#~ "\n"
+#~ "\n"
+#~ "http://www.mandrivalinux.com/en/hardware.php3"
+
+#~ msgid "OpenOffice.org"
+#~ msgstr "OpenOffice.org"
+
+#~ msgid "Options/Test"
+#~ msgstr "خيارات/اختبار"
 
 #~ msgid "Periodic Checks"
 #~ msgstr "تحقّق دَوْري"
+
+#~ msgid ""
+#~ "Please choose for each step whether it will replay like your install, or "
+#~ "it will be manual"
+#~ msgstr ""
+#~ "رجاء الاختيار لكل خطوة إذا كنت ستقوم بإعادتها آلياً أم أنك تريد أن يكون "
+#~ "التثبيت بشكل يدوي."
+
+#, fuzzy
+#~ msgid "Please enter a theme name"
+#~ msgstr "الرجاء إدخال مُعطيات اللاسلكيّة لهذه البطاقة:"
+
+#, fuzzy
+#~ msgid "Please select a splash image"
+#~ msgstr "الرجاء اختيار طراز الـ UPS الخاصّ بك."
+
+#~ msgid "Please wait, adding media..."
+#~ msgstr "انتظر من فضلك، جاري إضافة الوسائط..."
 
 #~ msgid "Please wait, setting security level..."
 #~ msgstr "الرجاء الانتظار، تعيين مستوى الأمن.."
@@ -3682,38 +3984,109 @@ msgstr "تهيئة يدوية"
 #~ msgid "Please wait, setting security options..."
 #~ msgstr "الرجاء الانتظار، تعيين خيارات الأمن..."
 
-#, fuzzy
+#~ msgid "Remove the last item"
+#~ msgstr "إزالة العنصر الأخير"
+
+#~ msgid "Restart XFS"
+#~ msgstr "إعادة تشغيل XFS"
+
+#~ msgid "Save theme"
+#~ msgstr "حفظ السمة"
+
+#~ msgid "Security Administrator:"
+#~ msgstr "مدير الأمن:"
+
+#~ msgid "Security Alerts:"
+#~ msgstr "تنبيهات أمنية:"
+
+#~ msgid "Security Level:"
+#~ msgstr "مستوى الأمن:"
+
+#~ msgid "Select Mandriva Tool:"
+#~ msgstr "اختيار أداة ماندريبا:"
+
 #~ msgid ""
-#~ "The following localization packages do not seem to be useful for your "
-#~ "system:"
-#~ msgstr "يجب تثبيت الحزم التالية:\n"
+#~ "Some of the early i486DX-100 chips cannot reliably return to operating "
+#~ "mode after the \"halt\" instruction is used"
+#~ msgstr ""
+#~ "بعض رقاقات i486DX-100 القديمة لا يمكنها الرّجوع إلى وضع التّشغيل بعد أن "
+#~ "تستخدم تعليمة \"halt\" "
+
+#~ msgid "System Options"
+#~ msgstr "خيارات النظام"
 
 #, fuzzy
-#~ msgid "Do you want to remove these packages?"
-#~ msgstr "هل تريد تشغيل أداة التّهيئة الملائمة؟"
+#~ msgid "Text"
+#~ msgstr "نص فقط"
+
+#~ msgid "Text box height"
+#~ msgstr "ارتفاع مربّع النص"
+
+#~ msgid "Text color"
+#~ msgstr "لون النص"
+
+#~ msgid "The change is done, but to be effective you must logout"
+#~ msgstr "تم عمل التغيير، و لكن ليتم تفعيله يجب عليك الخروج"
+
+#~ msgid ""
+#~ "The floppy has been successfully generated.\n"
+#~ "You may now replay your installation."
+#~ msgstr ""
+#~ "تم توليد القرص المرن بنجاح.\n"
+#~ "يمكنك الآن إعادة التثبيت."
 
 #, fuzzy
 #~ msgid ""
 #~ "The following hardware packages do not seem to be useful for your system:"
 #~ msgstr "يجب تثبيت الحزم التالية:\n"
 
-#~ msgid "Please wait, adding media..."
-#~ msgstr "انتظر من فضلك، جاري إضافة الوسائط..."
+#, fuzzy
+#~ msgid ""
+#~ "The following localization packages do not seem to be useful for your "
+#~ "system:"
+#~ msgstr "يجب تثبيت الحزم التالية:\n"
 
-#~ msgid "The change is done, but to be effective you must logout"
-#~ msgstr "تم عمل التغيير، و لكن ليتم تفعيله يجب عليك الخروج"
+#~ msgid "The height of the progress bar"
+#~ msgstr "ارتفاع شريط التقدم"
 
-#~ msgid "Restart XFS"
-#~ msgstr "إعادة تشغيل XFS"
+#~ msgid ""
+#~ "The progress bar X coordinate\n"
+#~ "of its upper left corner"
+#~ msgstr ""
+#~ "الإحداثي السيني للركن الأيسر الأعلى\n"
+#~ "لشريط التقدم"
 
-#~ msgid "Error!"
-#~ msgstr "خطأ!"
+#~ msgid ""
+#~ "The progress bar Y coordinate\n"
+#~ "of its upper left corner"
+#~ msgstr ""
+#~ "الإحداثي الصادي للركن الأيسر الأعلى\n"
+#~ "لشريط التقدم"
 
-#~ msgid "I cannot find needed image file `%s'."
-#~ msgstr "لا يمكنني العثور على ملف الصورة `%s'."
+#~ msgid ""
+#~ "The proprietary driver for your graphic card cannot be found, the system "
+#~ "is now using the free software driver (%s)."
+#~ msgstr ""
+#~ "لا يمكن العثور على التعريف المملوك لبطاقة الرسوميات لديك ، و النظام لديك "
+#~ "اﻵن يعمل على التعريف الحر (%s)."
 
-#~ msgid "Auto Install Configurator"
-#~ msgstr "أداة إعداد التثبيت الآلي"
+#~ msgid "The width of the progress bar"
+#~ msgstr "عرض شريط التقدم"
+
+#~ msgid "Theme name"
+#~ msgstr "اسم السمة"
+
+#~ msgid "Unknown/Others"
+#~ msgstr "غير معروف/أخرى"
+
+#~ msgid "Urpmi"
+#~ msgstr "Urpmi"
+
+#~ msgid "Userdrake"
+#~ msgstr "Userdrake"
+
+#~ msgid "Whether the FPU has an irq vector"
+#~ msgstr "إذا كان الـFPU لديه متجه irq"
 
 #~ msgid ""
 #~ "You are about to configure an Auto Install floppy. This feature is "
@@ -3740,70 +4113,29 @@ msgstr "تهيئة يدوية"
 #~ "\n"
 #~ "اضغط موافق للاستمرار."
 
-#~ msgid "replay"
-#~ msgstr "إعادة"
+#~ msgid "choose image"
+#~ msgstr "اختيار صورة"
+
+#~ msgid ""
+#~ "early pentiums were buggy and freezed when decoding the F00F bytecode"
+#~ msgstr ""
+#~ "معالجات pentium القديمة كانت تتوقف عن العمل عند استخدام F00F bytecode"
 
 #~ msgid "manual"
 #~ msgstr "يدوي"
 
-#~ msgid "Automatic Steps Configuration"
-#~ msgstr "تهيئة آلية للخطوات"
+#~ msgid "replay"
+#~ msgstr "إعادة"
+
+#~ msgid "saving Bootsplash theme..."
+#~ msgstr "جاري حفظ سمة Bootsplash..."
+
+#~ msgid "whether this cpu has the Cyrix 6x86 Coma bug"
+#~ msgstr "إذا كان المرشد لديه علّة الغيبوبة Cyrix 6x86"
 
 #~ msgid ""
-#~ "Please choose for each step whether it will replay like your install, or "
-#~ "it will be manual"
-#~ msgstr ""
-#~ "رجاء الاختيار لكل خطوة إذا كنت ستقوم بإعادتها آلياً أم أنك تريد أن يكون "
-#~ "التثبيت بشكل يدوي."
+#~ "yes means the arithmetic coprocessor has an exception vector attached"
+#~ msgstr "نعم تعني أن المرشد المساعد للعمليات الحسابية لديه متجه للإستثناءات"
 
-#~ msgid "Insert a blank floppy in drive %s"
-#~ msgstr "أدخل قرص مرن فارغ في السواقة %s"
-
-#~ msgid "Creating auto install floppy"
-#~ msgstr "جاري إنشاء قرص التثبيت الآلي"
-
-#~ msgid "Insert another blank floppy in drive %s (for drivers disk)"
-#~ msgstr "أدخل قرص مرن فارغ آخر في السواقة %s (من أجل المشغّلات)"
-
-#~ msgid "Creating auto install floppy (drivers disk)"
-#~ msgstr "جاري إنشاء قرص التثبيت الآلي (قرص المشغّلات)"
-
-#~ msgid ""
-#~ "\n"
-#~ "Welcome.\n"
-#~ "\n"
-#~ "The parameters of the auto-install are available in the sections on the "
-#~ "left"
-#~ msgstr ""
-#~ "\n"
-#~ "أهلاً بكم.\n"
-#~ "\n"
-#~ "مُعطيات التثبيت الآلي موجودة على اليمين"
-
-#~ msgid ""
-#~ "The floppy has been successfully generated.\n"
-#~ "You may now replay your installation."
-#~ msgstr ""
-#~ "تم توليد القرص المرن بنجاح.\n"
-#~ "يمكنك الآن إعادة التثبيت."
-
-#~ msgid "Auto Install"
-#~ msgstr "تثبيت آلي"
-
-#~ msgid "Add an item"
-#~ msgstr "إضافة عنصر"
-
-#~ msgid "Remove the last item"
-#~ msgstr "إزالة العنصر الأخير"
-
-#~ msgid "Menudrake"
-#~ msgstr "Menudrake"
-
-#~ msgid "Msec"
-#~ msgstr "Msec"
-
-#~ msgid "Urpmi"
-#~ msgstr "Urpmi"
-
-#~ msgid "Userdrake"
-#~ msgstr "Userdrake"
+#~ msgid "yes means the processor has an arithmetic coprocessor"
+#~ msgstr "نعم تعني أن المعالج لديه معالج مساعد للعمليات الحسابية"

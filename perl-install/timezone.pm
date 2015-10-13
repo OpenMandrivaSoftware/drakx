@@ -1,10 +1,12 @@
-package timezone; # $Id$
+package timezone;
 
 use common;
 use log;
 
-sub get_timezone_prefix() {
-    my $prefix = $::testing ? '' : $::prefix;
+sub get_timezone_prefix {
+    my ($b_use_system_prefix) = @_;
+
+    my $prefix = ($::testing || $b_use_system_prefix) ? '' : $::prefix;
     $prefix . "/usr/share/zoneinfo";
 }
 
@@ -29,11 +31,11 @@ sub read() {
     return ($@) ? {} : { timezone => $tz, UTC => $lrtc ? 0 : 1 };
 }
 
-our $ntp = "chrony";
-my $servername_config_suffix = " iburst";
-unless (-f $::prefix . "/etc/" . $ntp . ".conf") {
-    $ntp = "ntp";
-    $servername_config_suffix = "";
+our $ntp = "ntp";
+my $servername_config_suffix = "";
+if (-f $::prefix . "/etc/chrony.conf") {
+    $ntp = "chrony";
+    $servername_config_suffix = " iburst";
 }
 
 sub ntp_server() {
@@ -69,7 +71,7 @@ sub write {
 
     set_ntp_server($t->{ntp});
 
-    my $tz_prefix = get_timezone_prefix();
+    my $tz_prefix = get_timezone_prefix(1);
     eval { symlinkf($tz_prefix . '/' . $t->{timezone}, "$::prefix/etc/localtime") };
     $@ and log::l("installing /etc/localtime failed");
     run_program::run('timedatectl', 'set-timezone', $t->{timezone});

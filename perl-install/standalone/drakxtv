@@ -1,6 +1,5 @@
 #!/usr/bin/perl
 # DrakxTV
-# $Id$
 
 # Copyright (C) 2002-2008 Mandriva (tvignaud@mandriva.com)
 #
@@ -28,7 +27,7 @@ use detect_devices;
 use lang;
 use log;
 
-$ugtk2::wm_icon = "/usr/share/mcc/themes/default/tv-mdk.png";
+$ugtk3::wm_icon = "/usr/share/mcc/themes/default/tv-mdk.png";
 
 my $in = 'interactive'->vnew;
 

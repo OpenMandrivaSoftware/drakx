@@ -1,4 +1,4 @@
-package diskdrake::removable; # $Id$
+package diskdrake::removable;
 
 use diskdrake::interactive;
 use common;

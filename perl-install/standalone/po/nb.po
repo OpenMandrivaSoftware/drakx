@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nb\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-22 00:53+0100\n"
+"POT-Creation-Date: 2015-02-18 12:28+0100\n"
 "PO-Revision-Date: 2010-05-04 00:13+0200\n"
 "Last-Translator: Olav Dahlum <odahlum@gmail.com>\n"
 "Language-Team: Norwegian Bokmål <cooker-i18n@mandrivalinux.org>\n"
@@ -20,73 +20,73 @@ msgstr ""
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 "X-Language: nb_NO\n"
 
-#: display_help:54 display_help:59 drakbug:170 drakperm:134
+#: display_help:53 display_help:58 drakbug:173 drakperm:134
 #, c-format
 msgid "Help"
 msgstr "Hjelp"
 
-#: display_help:67 drakbug:175 drakfont:505
+#: display_help:66 drakbug:178 drakfont:507
 #, c-format
 msgid "Close"
 msgstr "Lukk"
 
-#: drakauth:24 drakauth:26 draksec:162
+#: drakauth:24 drakauth:26 draksec:184
 #, c-format
 msgid "Authentication"
 msgstr "Autentisering"
 
-#: drakauth:37 drakclock:113 drakclock:138 drakdvb:74 drakfont:211
-#: drakfont:224 drakfont:262 finish-install:131 logdrake:174 logdrake:449
-#: logdrake:454 scannerdrake:56 scannerdrake:98 scannerdrake:139
+#: drakauth:37 drakclock:117 drakclock:142 drakdvb:74 drakfont:213
+#: drakfont:226 drakfont:264 finish-install:133 logdrake:177 logdrake:453
+#: logdrake:458 scannerdrake:56 scannerdrake:98 scannerdrake:139
 #: scannerdrake:197 scannerdrake:256 scannerdrake:726 scannerdrake:737
 #: scannerdrake:876 scannerdrake:887 scannerdrake:957
 #, c-format
 msgid "Error"
 msgstr "Feil"
 
-#: drakboot:53
+#: drakboot:54
 #, c-format
 msgid "No bootloader found, creating a new configuration"
 msgstr "Fant ingen oppstartslaster, lager nytt oppsett."
 
-#: drakboot:86 harddrake2:195 harddrake2:196 logdrake:75
+#: drakboot:89 harddrake2:191 logdrake:77
 #, c-format
-msgid "/_File"
-msgstr "/_Fil"
+msgid "_File"
+msgstr "_Fil"
 
-#: drakboot:87 logdrake:81
+#: drakboot:90 harddrake2:192 logdrake:78 logdrake:79
 #, c-format
-msgid "/File/_Quit"
-msgstr "/Fil/_Avslutt"
+msgid "_Quit"
+msgstr "_Avslutt"
 
-#: drakboot:87 harddrake2:196 logdrake:81
+#: drakboot:90 harddrake2:192 logdrake:79
 #, c-format
 msgid "<control>Q"
 msgstr "<control>A"
 
-#: drakboot:127
+#: drakboot:138
 #, c-format
 msgid "Text only"
 msgstr "Bare tekst"
 
-#: drakboot:128
+#: drakboot:139
 #, c-format
 msgid "Verbose"
 msgstr "Utvidete meldinger"
 
-#: drakboot:129
+#: drakboot:140
 #, c-format
 msgid "Silent"
 msgstr "Stille"
 
-#: drakboot:135 drakbug:247 drakdvb:57 drakfont:681 drakperm:374 drakperm:384
-#: drakups:26 harddrake2:528 localedrake:45 scannerdrake:48 scannerdrake:51
+#: drakboot:146 drakbug:250 drakdvb:57 drakfont:682 drakperm:371 drakperm:381
+#: drakups:27 harddrake2:504 localedrake:45 scannerdrake:48 scannerdrake:51
 #: scannerdrake:294 scannerdrake:299 scannerdrake:951
 #, c-format
 msgid "Warning"
 msgstr "Advarsel"
 
-#: drakboot:136
+#: drakboot:147
 #, c-format
 msgid ""
 "Your system bootloader is not in framebuffer mode. To activate graphical "
@@ -96,72 +96,72 @@ msgstr ""
 "grafisk oppstart må du velge et skjermmodus fra oppsettverktøyet for "
 "oppstartslasteren."
 
-#: drakboot:137
+#: drakboot:148
 #, c-format
 msgid "Do you want to configure it now?"
 msgstr "Vil du sette det opp nå?"
 
-#: drakboot:146
+#: drakboot:157
 #, c-format
 msgid "Install themes"
 msgstr "Installer temaer"
 
-#: drakboot:148
+#: drakboot:159
 #, c-format
 msgid "Graphical boot theme selection"
 msgstr "Valg av grafisk oppstartstema"
 
-#: drakboot:151
+#: drakboot:162
 #, c-format
 msgid "Graphical boot mode:"
 msgstr "Grafisk oppstartsmodus:"
 
-#: drakboot:153
+#: drakboot:164
 #, c-format
 msgid "Theme"
 msgstr "Tema"
 
-#: drakboot:187
+#: drakboot:198
 #, c-format
 msgid "Default user"
 msgstr "Forhåndsvalgt bruker:"
 
-#: drakboot:188
+#: drakboot:199
 #, c-format
 msgid "Default desktop"
 msgstr "Forhåndsvalgt skrivebord:"
 
-#: drakboot:191
+#: drakboot:202
 #, c-format
 msgid "No, I do not want autologin"
 msgstr "Ikke logg inn automatisk"
 
-#: drakboot:192
+#: drakboot:203
 #, c-format
 msgid "Yes, I want autologin with this (user, desktop)"
 msgstr "Logg inn automatisk med følgende bruker og skrivebord"
 
-#: drakboot:199
+#: drakboot:210
 #, c-format
 msgid "System mode"
 msgstr "Systemmodus"
 
-#: drakboot:202
+#: drakboot:213
 #, c-format
 msgid "Launch the graphical environment when your system starts"
 msgstr "Start det grafiske miljøet ved oppstart"
 
-#: drakboot:257
+#: drakboot:268
 #, c-format
 msgid "Boot Style Configuration"
 msgstr "Oppsettstype"
 
-#: drakboot:259 drakboot:263
+#: drakboot:270 drakboot:274
 #, c-format
 msgid "Video mode"
 msgstr "Videomodus"
 
-#: drakboot:260
+#: drakboot:271
 #, c-format
 msgid ""
 "Please choose a video mode, it will be applied to each of the boot entries "
@@ -177,15 +177,15 @@ msgstr ""
 msgid "The \"%s\" program has crashed with the following error:"
 msgstr "Programmet «%s» krasjet med følgende feil:"
 
-#: drakbug:60
+#: drakbug:62
 #, fuzzy, c-format
-msgid "OpenMandriva Lx Bug Reporting"
-msgstr "Feilrapporteringsverktøy for OpenMandriva Lx"
+msgid "DrakX Bug Report Tool"
+msgstr "Feilrapporteringsverktøy for Moondrake"
 
-#: drakbug:65
-#, c-format
-msgid "OpenMandriva Lx Control Center"
-msgstr "OpenMandriva Lx Kontrollsenter"
+#: drakbug:67
+#, fuzzy, c-format
+msgid "DrakX Linux Control Center"
+msgstr "Mandriva Linux Kontrollsenter"
 
 #: drakbug:66
 #, c-format
@@ -202,10 +202,15 @@ msgstr "Synkroniseringsverktøy"
 msgid "Standalone Tools"
 msgstr "Frittstående verktøy"
 
-#: drakbug:70 drakbug:71
+#: drakbug:72 drakbug:73
 #, fuzzy, c-format
-msgid "OpenMandriva Online"
-msgstr "Mandriva Online"
+msgid "%s Online"
+msgstr "Moondrake Online"
+
+#: drakbug:72 drakbug:73 drakbug:99 draksec:169
+#, fuzzy, c-format
+msgid "DrakX"
+msgstr "DrakUPS"
 
 #: drakbug:72
 #, c-format
@@ -227,9 +232,9 @@ msgstr "Migreringsverktøy for Windows"
 msgid "Configuration Wizards"
 msgstr "Oppsettveivisere"
 
-#: drakbug:97
+#: drakbug:99
 #, fuzzy, c-format
-msgid "Select Tool:"
+msgid "Select %s Tool:"
 msgstr "Velg verktøy:"
 
 #: drakbug:98
@@ -340,27 +345,27 @@ msgstr ""
 msgid "Thanks."
 msgstr "Takk."
 
-#: drakclock:28 draksec:168
+#: drakclock:29 draksec:190
 #, c-format
 msgid "Date, Clock & Time Zone Settings"
 msgstr "Dato, klokkeslett og tidssone"
 
-#: drakclock:37
+#: drakclock:38
 #, c-format
 msgid "not defined"
 msgstr "ikke angitt"
 
-#: drakclock:39
+#: drakclock:40
 #, c-format
 msgid "Change Time Zone"
 msgstr "Endre tidssone"
 
-#: drakclock:44
+#: drakclock:45
 #, c-format
 msgid "Timezone - DrakClock"
 msgstr "Tidssone – DrakClock"
 
-#: drakclock:44
+#: drakclock:45
 #, c-format
 msgid "Which is your timezone?"
 msgstr "I hvilken tidssone holder du til?"
@@ -375,12 +380,12 @@ msgstr "GMT – DrakClock"
 msgid "Is your hardware clock set to GMT?"
 msgstr "Bruker maskinvareklokka GMT?"
 
-#: drakclock:72
+#: drakclock:75
 #, c-format
 msgid "Network Time Protocol"
 msgstr "Nettverkstidsprotokoll"
 
-#: drakclock:74
+#: drakclock:77
 #, c-format
 msgid ""
 "Your computer can synchronize its clock\n"
@@ -389,42 +394,42 @@ msgstr ""
 "Datamaskinen din kan automatisk synkronisere klokken\n"
 " med en tidstjener på nettverket ved hjelp av NTP."
 
-#: drakclock:75
+#: drakclock:78
 #, c-format
 msgid "Enable Network Time Protocol"
 msgstr "Bruk nettverktidsprotokoll"
 
-#: drakclock:83
+#: drakclock:86
 #, c-format
 msgid "Server:"
 msgstr "Tjener:"
 
-#: drakclock:97
+#: drakclock:100
 #, c-format
 msgid "Timezone"
 msgstr "Tidssone"
 
-#: drakclock:113
+#: drakclock:117
 #, c-format
 msgid "Please enter a valid NTP server address."
 msgstr "Skriv inn en gyldig tjeneradresse."
 
-#: drakclock:139
+#: drakclock:143
 #, c-format
 msgid "Could not synchronize with %s."
 msgstr "Klarte ikke å synkronisere med %s."
 
-#: drakclock:140 drakdvb:149 logdrake:179 scannerdrake:488
+#: drakclock:144 drakdvb:149 logdrake:182 scannerdrake:488
 #, c-format
 msgid "Quit"
 msgstr "Avslutt"
 
-#: drakclock:141
+#: drakclock:145
 #, c-format
 msgid "Retry"
 msgstr "Prøv på nytt"
 
-#: drakclock:166 drakclock:176
+#: drakclock:168 drakclock:178
 #, c-format
 msgid "Reset"
 msgstr "Tilbakestill"
@@ -449,10 +454,10 @@ msgstr "%s finnes allerede og innholdet vil gå tapt"
 msgid "Could not get the list of available channels"
 msgstr "Kunne ikke motta listen over tilgjengelige kanaler"
 
-#: drakdvb:80 draksec:67 drakups:98 finish-install:106 harddrake2:374
+#: drakdvb:80 draksec:69 drakups:99 finish-install:106 harddrake2:358
 #: scannerdrake:63 scannerdrake:67 scannerdrake:75 scannerdrake:316
 #: scannerdrake:365 scannerdrake:501 scannerdrake:505 scannerdrake:527
-#: service_harddrake:423
+#: service_harddrake:426
 #, c-format
 msgid "Please wait"
 msgstr "Vent litt"
@@ -462,7 +467,7 @@ msgstr "Vent litt"
 msgid "Detecting DVB channels, this will take a few minutes"
 msgstr "Oppdager DVB-kanaler, dette vil ta et par minutter"
 
-#: drakdvb:85 drakfont:571 drakfont:651 drakfont:735 drakups:216 logdrake:179
+#: drakdvb:85 drakfont:571 drakfont:651 drakfont:736 drakups:217 logdrake:182
 #, c-format
 msgid "Cancel"
 msgstr "Avbryt"
@@ -494,20 +499,25 @@ msgstr "GDM (GNOME Display Manager)"
 
 #: drakedm:43
 #, fuzzy, c-format
+msgid "LIGHTDM (LightDM Display Manager)"
+msgstr "GDM (GNOME Display Manager)"
+
+#: drakedm:44
+#, fuzzy, c-format
 msgid "SLIM (Simple Display Manager)"
 msgstr "XDM (X Display Manager)"
 
-#: drakedm:44
+#: drakedm:45
 #, c-format
 msgid "XDM (X Display Manager)"
 msgstr "XDM (X Display Manager)"
 
-#: drakedm:55
+#: drakedm:56
 #, c-format
 msgid "Choosing a display manager"
 msgstr "Velg innloggingsbehandler"
 
-#: drakedm:56
+#: drakedm:57
 #, c-format
 msgid ""
 "X11 Display Manager allows you to graphically log\n"
@@ -518,12 +528,12 @@ msgstr ""
 "på systemet når X kjører, og støtter også flere\n"
 "samtidige økter på maskina."
 
-#: drakedm:79
+#: drakedm:80
 #, c-format
 msgid "The change is done, do you want to restart the dm service?"
 msgstr "Endringene er nå lagret. Vil du starte tjenesten dm på nytt?"
 
-#: drakedm:80
+#: drakedm:81
 #, c-format
 msgid ""
 "You are going to close all running programs and lose your current session. "
@@ -648,7 +658,7 @@ msgstr "Skriftinstallering"
 msgid "DrakFont"
 msgstr "DrakFont"
 
-#: drakfont:489 drakfont:641
+#: drakfont:491 drakfont:641
 #, c-format
 msgid "Font List"
 msgstr "Skriftliste"
@@ -663,12 +673,12 @@ msgstr "Hent Windows-skrifter"
 msgid "About"
 msgstr "Om"
 
-#: drakfont:499 drakfont:540
+#: drakfont:501 drakfont:540
 #, c-format
 msgid "Options"
 msgstr "Valg"
 
-#: drakfont:500 drakfont:720
+#: drakfont:502 drakfont:721
 #, c-format
 msgid "Uninstall"
 msgstr "Avinstaller"
@@ -683,9 +693,9 @@ msgstr "Importer"
 msgid "Drakfont"
 msgstr "DrakFont"
 
-#: drakfont:521 harddrake2:229
-#, fuzzy, c-format
-msgid "Copyright (C) %s by OpenMandriva"
+#: drakfont:523
+#, c-format
+msgid "Copyright (C) %s by Mandriva"
 msgstr "Copyright © %s Mandriva"
 
 #: drakfont:523
@@ -693,14 +703,14 @@ msgstr "Copyright © %s Mandriva"
 msgid "Font installer."
 msgstr "Skriftinstallering."
 
-#: drakfont:525 logdrake:55
-#, c-format
-msgid "OpenMandriva Lx"
-msgstr "OpenMandriva Lx"
+#: drakfont:527
+#, fuzzy, c-format
+msgid "Moondrake GNU/Linux"
+msgstr "Mandriva Linux"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
-#: drakfont:532 harddrake2:238
+#: drakfont:532 harddrake2:531
 #, c-format
 msgid "_: Translator(s) name(s) & email(s)\n"
 msgstr "Olav Dahlum <odahlum@gmail.com>\n"
@@ -730,7 +740,7 @@ msgstr "Abiword"
 msgid "Generic Printers"
 msgstr "Generelle skrivere"
 
-#: drakfont:561 drakfont:571 drakups:209
+#: drakfont:561 drakfont:571 drakups:210
 #, c-format
 msgid "Ok"
 msgstr "OK"
@@ -750,17 +760,17 @@ msgstr "Filvalg"
 msgid "Fonts"
 msgstr "Skrifter"
 
-#: drakfont:639 draksec:164
+#: drakfont:639 draksec:186
 #, c-format
 msgid "Import fonts"
 msgstr "Importer skrifter"
 
-#: drakfont:645 drakups:298 drakups:374
+#: drakfont:645 drakups:299 drakups:375
 #, c-format
 msgid "Add"
 msgstr "Legg til"
 
-#: drakfont:646 drakfont:734 drakups:300 drakups:376
+#: drakfont:646 drakfont:735 drakups:301 drakups:377
 #, c-format
 msgid "Remove"
 msgstr "Fjern"
@@ -770,67 +780,67 @@ msgstr "Fjern"
 msgid "Install"
 msgstr "Installer"
 
-#: drakfont:683
+#: drakfont:684
 #, c-format
 msgid "Are you sure you want to uninstall the following fonts?"
 msgstr "Er du sikker på at du vil avinstallere disse skriftene?"
 
-#: drakfont:687 draksec:57 harddrake2:319
+#: drakfont:688 draksec:59 harddrake2:302
 #, c-format
 msgid "Yes"
 msgstr "Ja"
 
-#: drakfont:689 draksec:56 harddrake2:320
+#: drakfont:690 draksec:58 harddrake2:303
 #, c-format
 msgid "No"
 msgstr "Nei"
 
-#: drakfont:728
+#: drakfont:729
 #, c-format
 msgid "Unselect All"
 msgstr "Velg bort alle"
 
-#: drakfont:731
+#: drakfont:732
 #, c-format
 msgid "Select All"
 msgstr "Velg alle"
 
-#: drakfont:748
+#: drakfont:749
 #, c-format
 msgid "Importing fonts"
 msgstr "Importerer skrifter"
 
-#: drakfont:752 drakfont:772
+#: drakfont:753 drakfont:773
 #, c-format
 msgid "Initial tests"
 msgstr "Førtest"
 
-#: drakfont:753
+#: drakfont:754
 #, c-format
 msgid "Copy fonts on your system"
 msgstr "Kopier skrifter på systemet"
 
-#: drakfont:754
+#: drakfont:755
 #, c-format
 msgid "Install & convert Fonts"
 msgstr "Installer og konverter skrifter"
 
-#: drakfont:755
+#: drakfont:756
 #, c-format
 msgid "Post Install"
 msgstr "Etterinstallering"
 
-#: drakfont:767
+#: drakfont:768
 #, c-format
 msgid "Removing fonts"
 msgstr "Fjerner skrifter"
 
-#: drakfont:773
+#: drakfont:774
 #, c-format
 msgid "Remove fonts on your system"
 msgstr "Fjern skrifter fra systemet"
 
-#: drakfont:774
+#: drakfont:775
 #, c-format
 msgid "Post Uninstall"
 msgstr "Etteravinstallering"
@@ -907,22 +917,22 @@ msgstr "Sikkerhetstillatelser"
 msgid "Editable"
 msgstr "Redigerbar"
 
-#: drakperm:48 drakperm:318
+#: drakperm:50 drakperm:318
 #, c-format
 msgid "Path"
 msgstr "Sti"
 
-#: drakperm:48 drakperm:247
+#: drakperm:50 drakperm:247
 #, c-format
 msgid "User"
 msgstr "Bruker"
 
-#: drakperm:48 drakperm:247
+#: drakperm:50 drakperm:247
 #, c-format
 msgid "Group"
 msgstr "Gruppe"
 
-#: drakperm:48 drakperm:107 drakperm:330 draksec:179
+#: drakperm:50 drakperm:107 drakperm:330 draksec:201
 #, c-format
 msgid "Permissions"
 msgstr "Tillatelser"
@@ -932,7 +942,7 @@ msgstr "Tillatelser"
 msgid "Add a new rule"
 msgstr "Legg til ny regel"
 
-#: drakperm:65 drakperm:100 drakperm:126
+#: drakperm:67 drakperm:102 drakperm:126
 #, c-format
 msgid "Edit current rule"
 msgstr "Rediger gjeldende regel"
@@ -942,7 +952,7 @@ msgstr "Rediger gjeldende regel"
 msgid ""
 "Here you can see files to use in order to fix permissions, owners, and "
 "groups via msec.\n"
-"You can also edit your own rules which will owerwrite the default rules."
+"You can also edit your own rules which will overwrite the default rules."
 msgstr ""
 "Her kan du se filer som du kan bruke i msec for å rette tillatelse, eiere og "
 "grupper.\n"
@@ -997,7 +1007,7 @@ msgstr "Slett"
 msgid "Delete selected rule"
 msgstr "Slett den merkede regelen."
 
-#: drakperm:126 drakups:299 drakups:375
+#: drakperm:126 drakups:300 drakups:376
 #, c-format
 msgid "Edit"
 msgstr "Rediger"
@@ -1124,7 +1134,7 @@ msgstr "Stivalg"
 msgid "Property"
 msgstr "Egenskap"
 
-#: drakperm:374
+#: drakperm:371
 #, c-format
 msgid ""
 "The first character of the path must be a slash (\"/\"):\n"
@@ -1133,17 +1143,17 @@ msgstr ""
 "Første tegnet i stien må være en skråstrek («/»):\n"
 "«%s»"
 
-#: drakperm:384
+#: drakperm:381
 #, c-format
 msgid "Both the username and the group must valid!"
 msgstr "Både brukernavnet og gruppa må være gyldig."
 
-#: drakperm:385
+#: drakperm:382
 #, c-format
 msgid "User: %s"
 msgstr "Bruker: %s"
 
-#: drakperm:386
+#: drakperm:383
 #, c-format
 msgid "Group: %s"
 msgstr "Gruppe: %s"
@@ -1163,7 +1173,7 @@ msgstr "LOKALE"
 msgid "NONE"
 msgstr "INGEN"
 
-#: draksec:54
+#: draksec:56 draksec:113
 #, c-format
 msgid "Default"
 msgstr "Standard"
@@ -1178,147 +1188,147 @@ msgstr "Ignorer"
 msgid "Security Level and Checks"
 msgstr "Sikkerhetsnivå og kontroller"
 
-#: draksec:108
-#, c-format
-msgid "Configure access to OpenMandriva Lx administrative tools"
-msgstr ""
+#: draksec:110
+#, fuzzy, c-format
+msgid "Configure authentication required to access DrakX tools"
+msgstr "Sett opp autentisering nødvendig for tilgang til Moondrakes verktøy"
 
-#: draksec:111
+#: draksec:114
 #, c-format
 msgid "No password needed"
 msgstr "Ingen passord"
 
-#: draksec:112
+#: draksec:115
 #, c-format
-msgid "Root password required"
+msgid "Administrator password"
 msgstr "Root-passord"
 
-#: draksec:113
+#: draksec:116
 #, c-format
 msgid "User password required"
 msgstr "Brukerpassord"
 
-#: draksec:146 draksec:202
+#: draksec:168 draksec:223
 #, c-format
 msgid "Software Management"
 msgstr "Programvarehåndtering"
 
-#: draksec:147
+#: draksec:169
 #, fuzzy, c-format
-msgid "Online Update"
-msgstr "Mandriva oppdatering"
+msgid "%s Update"
+msgstr "Moondrake oppdatering"
 
-#: draksec:148
+#: draksec:170
 #, c-format
 msgid "Software Media Manager"
 msgstr "Mediahåndterer"
 
-#: draksec:149
+#: draksec:171
 #, c-format
 msgid "Configure 3D Desktop effects"
 msgstr "Sett opp 3D-effekter for skrivebord"
 
-#: draksec:150
+#: draksec:172
 #, c-format
 msgid "Graphical Server Configuration"
 msgstr "Oppsett av skjermtjener"
 
-#: draksec:151
+#: draksec:173
 #, c-format
 msgid "Mouse Configuration"
 msgstr "Oppsett av mus"
 
-#: draksec:152
+#: draksec:174
 #, c-format
 msgid "Keyboard Configuration"
 msgstr "Tastaturoppsett"
 
-#: draksec:153
+#: draksec:175
 #, fuzzy, c-format
 msgid "Printer Configuration"
 msgstr "Mellomtjener"
 
-#: draksec:154
+#: draksec:176
 #, c-format
 msgid "UPS Configuration"
 msgstr "UPS-oppsett"
 
-#: draksec:155
+#: draksec:177
 #, c-format
 msgid "Network Configuration"
 msgstr "Nettverksoppsett"
 
-#: draksec:156
+#: draksec:178
 #, c-format
 msgid "Hosts definitions"
 msgstr "Vertsdefinisjoner"
 
-#: draksec:157
+#: draksec:179
 #, c-format
 msgid "Network Center"
 msgstr "Nettverkssenter"
 
-#: draksec:158
+#: draksec:180
 #, c-format
 msgid "Wireless Network Roaming"
 msgstr "Trådløs nettverksvandring"
 
-#: draksec:159
+#: draksec:181
 #, c-format
 msgid "VPN"
 msgstr "VPN"
 
-#: draksec:160
+#: draksec:182
 #, c-format
 msgid "Proxy Configuration"
 msgstr "Mellomtjener"
 
-#: draksec:161
+#: draksec:183
 #, c-format
 msgid "Connection Sharing"
 msgstr "Tilkoblingsdeling"
 
-#: draksec:163
+#: draksec:185
 #, c-format
 msgid "Backups"
 msgstr "Sikkerhetskopiering"
 
-#: draksec:165 logdrake:56
+#: draksec:187 logdrake:56
 #, c-format
 msgid "Logs"
 msgstr "Logger"
 
-#: draksec:166 finish-install:210 finish-install:249
+#: draksec:188 finish-install:212 finish-install:251
 #, c-format
 msgid "Services"
 msgstr "Tjenester"
 
-#: draksec:167
+#: draksec:189
 #, c-format
 msgid "Users"
 msgstr "Brukere"
 
-#: draksec:169
+#: draksec:191
 #, c-format
 msgid "Boot Configuration"
 msgstr "Oppsett for oppstart"
 
-#: draksec:203
+#: draksec:224
 #, c-format
 msgid "Hardware"
 msgstr "Maskinvare"
 
-#: draksec:204
+#: draksec:225
 #, c-format
 msgid "Network"
 msgstr "Nettverk"
 
-#: draksec:205
+#: draksec:226
 #, c-format
 msgid "System"
 msgstr "System"
 
-#: draksec:206
+#: draksec:227
 #, c-format
 msgid "Boot"
 msgstr "Oppstart"
@@ -1408,12 +1418,12 @@ msgstr ""
 msgid "Autodetection"
 msgstr "Automatisk søk"
 
-#: drakups:98 harddrake2:374
+#: drakups:99 harddrake2:358
 #, c-format
 msgid "Detection in progress"
 msgstr "Søking pågår"
 
-#: drakups:117 drakups:156 logdrake:461 logdrake:467
+#: drakups:118 drakups:157 logdrake:465 logdrake:471
 #, c-format
 msgid "Congratulations"
 msgstr "Gratulerer"
@@ -1548,7 +1558,7 @@ msgstr "Nivå"
 msgid "ACL name"
 msgstr "ACL-navn"
 
-#: drakups:296 finish-install:258
+#: drakups:297 finish-install:260
 #, c-format
 msgid "Password"
 msgstr "Passord"
@@ -1601,7 +1611,7 @@ msgid "Keyboard"
 msgstr "Tastatur"
 
 #: finish-install:58
-#, fuzzy, c-format
+#, c-format
 msgid "Please choose your keyboard layout."
 msgstr "Velg tastaturoppsett."
 
@@ -1610,57 +1620,62 @@ msgstr "Velg tastaturoppsett."
 msgid "Testing your connection..."
 msgstr "Tester tilkoblingen …"
 
-#: finish-install:185
+#: finish-install:187
 #, c-format
 msgid "Windows-compatible sharing system"
 msgstr ""
 
-#: finish-install:188
+#: finish-install:189
+#, c-format
+msgid "Virtual Private Network"
+msgstr ""
+
+#: finish-install:190
 #, fuzzy, c-format
 msgid "OpenSSH server"
 msgstr "SSH-tjener"
 
-#: finish-install:189
+#: finish-install:191
 #, fuzzy, c-format
 msgid "Print server"
 msgstr "FTP-tjener"
 
-#: finish-install:209
+#: finish-install:211
 #, c-format
 msgid "Do you have any services that you want to run when starting up?"
 msgstr ""
 
-#: finish-install:241
+#: finish-install:243
 #, fuzzy, c-format
 msgid "The following services failed to start:\n"
 msgstr "Disse pakkene må installeres:\n"
 
-#: finish-install:244
+#: finish-install:246
 #, fuzzy, c-format
 msgid "The following services failed to stop:\n"
 msgstr "Disse pakkene må installeres:\n"
 
-#: finish-install:256 finish-install:274 finish-install:287
+#: finish-install:258 finish-install:276 finish-install:289
 #, c-format
 msgid "Encrypted home partition"
 msgstr "Kryptert hjemmepartisjon"
 
-#: finish-install:256
+#: finish-install:258
 #, c-format
 msgid "Please enter a password for the %s user"
 msgstr "Skriv inn et passord for brukeren «%s»"
 
-#: finish-install:259
+#: finish-install:261
 #, c-format
 msgid "Password (again)"
 msgstr "Passord (igjen)"
 
-#: finish-install:274
+#: finish-install:276
 #, c-format
 msgid "Creating encrypted home partition"
 msgstr "Lager kryptert hjemmepartisjon"
 
-#: finish-install:287
+#: finish-install:289
 #, c-format
 msgid "Formatting encrypted home partition"
 msgstr "Formaterer kryptert hjemmepartisjon"
@@ -2294,48 +2309,144 @@ msgstr "Partisjoner"
 msgid "Features"
 msgstr "Funksjoner"
 
-#. -PO: please keep all "/" characters !!!
-#: harddrake2:179 logdrake:82
+#: harddrake2:179
 #, c-format
-msgid "/_Options"
-msgstr "/_Innstillinger"
+msgid "Autodetect _modems"
+msgstr "Finn _modem automatisk"
 
-#: harddrake2:180 harddrake2:203 logdrake:84
+#: harddrake2:180
 #, c-format
-msgid "/_Help"
-msgstr "/_Hjelp"
+msgid "Autodetect parallel _zip drives"
+msgstr "Finn automatisk _ZIP-stasjoner på parallellporter"
 
 #: harddrake2:184
-#, c-format
-msgid "/Autodetect _modems"
-msgstr "/Finn _modem automatisk"
-
-#: harddrake2:185
-#, c-format
-msgid "/Autodetect parallel _zip drives"
-msgstr "/Finn automatisk _ZIP-stasjoner på parallellporter"
-
-#: harddrake2:189
 #, c-format
 msgid "Hardware Configuration"
 msgstr "Oppsett av maskinvare"
 
+#: harddrake2:193
+#, c-format
+msgid "_Options"
+msgstr "_Innstillinger"
+
+#: harddrake2:194 harddrake2:195
+#, c-format
+msgid "_Help"
+msgstr "_Hjelp"
+
+#: harddrake2:195
+#, fuzzy, c-format
+msgid "<control>H"
+msgstr "<control>A"
+
 #: harddrake2:196
 #, c-format
-msgid "/_Quit"
-msgstr "/_Avslutt"
+msgid "_Fields description"
+msgstr "_Feltbeskrivelser"
 
-#: harddrake2:205
+#: harddrake2:197
 #, c-format
-msgid "/_Fields description"
-msgstr "/_Feltbeskrivelser"
+msgid "_Report Bug"
+msgstr "_Meld fra om feil"
 
-#: harddrake2:207
+#: harddrake2:198
+#, c-format
+msgid "_About..."
+msgstr "_Om …"
+
+#: harddrake2:242
+#, c-format
+msgid "Detected hardware"
+msgstr "Fant maskinvare"
+
+#: harddrake2:245 scannerdrake:283
+#, c-format
+msgid "Information"
+msgstr "Informasjon"
+
+#: harddrake2:247
+#, c-format
+msgid "Set current driver options"
+msgstr "Sett gjeldende drivervalg"
+
+#: harddrake2:254
+#, c-format
+msgid "Run config tool"
+msgstr "Kjør oppsettverktøy"
+
+#: harddrake2:280
+#, c-format
+msgid ""
+"Click on a device in the tree on the left in order to display its "
+"information here."
+msgstr "Trykk på en enhet til venstre for å se informasjon om enheten her."
+
+#: harddrake2:300 notify-x11-free-driver-switch:13
+#, c-format
+msgid "unknown"
+msgstr "ukjent"
+
+#: harddrake2:301
+#, c-format
+msgid "Unknown"
+msgstr "Ukjent"
+
+#: harddrake2:321
+#, c-format
+msgid "Misc"
+msgstr "Forskjellig"
+
+#: harddrake2:404
+#, c-format
+msgid "secondary"
+msgstr "sekundær"
+
+#: harddrake2:404
+#, c-format
+msgid "primary"
+msgstr "primær"
+
+#: harddrake2:408
+#, c-format
+msgid "burner"
+msgstr "brenner"
+
+#: harddrake2:408
+#, c-format
+msgid "DVD"
+msgstr "DVD"
+
+#: harddrake2:504
+#, c-format
+msgid "The following packages need to be installed:\n"
+msgstr "Disse pakkene må installeres:\n"
+
+#: harddrake2:521
+#, c-format
+msgid "Harddrake"
+msgstr "Harddrake"
+
+#: harddrake2:523
+#, c-format
+msgid "Copyright (C) %s by %s"
+msgstr "Copyright © %s %s"
+
+#: harddrake2:523 harddrake2:527
+#, c-format
+msgid "Mageia"
+msgstr ""
+
+#: harddrake2:525
+#, c-format
+msgid "This is HardDrake, a %s hardware configuration tool."
+msgstr "Dette er HardDrake, et %s oppsettsverktøy for maskinvare."
+
+#: harddrake2:540
 #, c-format
 msgid "Harddrake help"
 msgstr "Hjelp"
 
-#: harddrake2:208
+#: harddrake2:541
 #, c-format
 msgid ""
 "Description of the fields:\n"
@@ -2344,12 +2455,12 @@ msgstr ""
 "Feltbeskrivelser:\n"
 "\n"
 
-#: harddrake2:216
+#: harddrake2:548
 #, c-format
 msgid "Select a device!"
 msgstr "Velg en enhet."
 
-#: harddrake2:216
+#: harddrake2:548
 #, c-format
 msgid ""
 "Once you've selected a device, you'll be able to see the device information "
@@ -2357,98 +2468,6 @@ msgid ""
 msgstr ""
 "Når du har valgt en enhet, vil du se informasjon om enheten i feltet i høyre "
 "vindusramme («Informasjon»)."
-
-#: harddrake2:222
-#, c-format
-msgid "/_Report Bug"
-msgstr "/_Meld fra om feil"
-
-#: harddrake2:224
-#, c-format
-msgid "/_About..."
-msgstr "/_Om …"
-
-#: harddrake2:227
-#, c-format
-msgid "Harddrake"
-msgstr "Harddrake"
-
-#: harddrake2:231
-#, c-format
-msgid "This is HardDrake, a %s hardware configuration tool."
-msgstr "Dette er HardDrake, et %s oppsettsverktøy for maskinvare."
-
-#: harddrake2:233
-#, fuzzy, c-format
-msgid "OpenMandriva Linux"
-msgstr "OpenMandriva Lx"
-
-#: harddrake2:264
-#, c-format
-msgid "Detected hardware"
-msgstr "Fant maskinvare"
-
-#: harddrake2:267 scannerdrake:283
-#, c-format
-msgid "Information"
-msgstr "Informasjon"
-
-#: harddrake2:269
-#, c-format
-msgid "Set current driver options"
-msgstr "Sett gjeldende drivervalg"
-
-#: harddrake2:276
-#, c-format
-msgid "Run config tool"
-msgstr "Kjør oppsettverktøy"
-
-#: harddrake2:296
-#, c-format
-msgid ""
-"Click on a device in the tree on the left in order to display its "
-"information here."
-msgstr "Trykk på en enhet til venstre for å se informasjon om enheten her."
-
-#: harddrake2:317 notify-x11-free-driver-switch:13
-#, c-format
-msgid "unknown"
-msgstr "ukjent"
-
-#: harddrake2:318
-#, c-format
-msgid "Unknown"
-msgstr "Ukjent"
-
-#: harddrake2:338
-#, c-format
-msgid "Misc"
-msgstr "Forskjellig"
-
-#: harddrake2:420
-#, c-format
-msgid "secondary"
-msgstr "sekundær"
-
-#: harddrake2:420
-#, c-format
-msgid "primary"
-msgstr "primær"
-
-#: harddrake2:424
-#, c-format
-msgid "burner"
-msgstr "brenner"
-
-#: harddrake2:424
-#, c-format
-msgid "DVD"
-msgstr "DVD"
-
-#: harddrake2:528
-#, c-format
-msgid "The following packages need to be installed:\n"
-msgstr "Disse pakkene må installeres:\n"
 
 #: localedrake:38
 #, c-format
@@ -2467,219 +2486,174 @@ msgid ", "
 msgstr ", "
 
 #: logdrake:55
-#, c-format
-msgid "%s Tools Logs"
-msgstr ""
+#, fuzzy, c-format
+msgid "DrakX Tools Logs"
+msgstr "Loggverktøy for Moondrake"
 
 #: logdrake:69
 #, c-format
 msgid "Show only for the selected day"
 msgstr "Vis bare for valgt dag"
 
-#: logdrake:76
-#, c-format
-msgid "/File/_New"
-msgstr "/Fil/_Ny"
-
-#: logdrake:76
-#, c-format
-msgid "<control>N"
-msgstr "<control>N"
-
-#: logdrake:77
-#, c-format
-msgid "/File/_Open"
-msgstr "/Fil/_Åpne"
-
-#: logdrake:77
-#, c-format
-msgid "<control>O"
-msgstr "<control>O"
-
-#: logdrake:78
-#, c-format
-msgid "/File/_Save"
-msgstr "/Fil/_Lagre"
-
 #: logdrake:78
 #, c-format
 msgid "<control>S"
 msgstr "<control>S"
 
-#: logdrake:79
-#, c-format
-msgid "/File/Save _As"
-msgstr "/Fil/Lagre _som"
-
-#: logdrake:80
-#, c-format
-msgid "/File/-"
-msgstr "/Fil/–"
-
-#: logdrake:83
-#, c-format
-msgid "/Options/Test"
-msgstr "/Innstillinger/Test"
-
-#: logdrake:85
-#, c-format
-msgid "/Help/_About..."
-msgstr "/Hjelp/_Om …"
-
-#: logdrake:114
+#: logdrake:117
 #, c-format
 msgid ""
 "_:this is the auth.log log file\n"
 "Authentication"
 msgstr "Autentisering"
 
-#: logdrake:115
+#: logdrake:118
 #, c-format
 msgid ""
 "_:this is the user.log log file\n"
 "User"
 msgstr "Bruker"
 
-#: logdrake:116
+#: logdrake:119
 #, c-format
 msgid ""
 "_:this is the /var/log/messages log file\n"
 "Messages"
 msgstr "Meldinger"
 
-#: logdrake:117
+#: logdrake:120
 #, c-format
 msgid ""
 "_:this is the /var/log/syslog log file\n"
 "Syslog"
 msgstr "Systemlogg"
 
-#: logdrake:121
+#: logdrake:124
 #, c-format
 msgid "search"
 msgstr "søk"
 
-#: logdrake:133
+#: logdrake:136
 #, c-format
 msgid "A tool to monitor your logs"
 msgstr "Et verktøy for å lese loggfiler"
 
-#: logdrake:135
+#: logdrake:138
 #, c-format
 msgid "Settings"
 msgstr "Innstillinger"
 
-#: logdrake:138
+#: logdrake:141
 #, c-format
 msgid "Matching"
 msgstr "Samsvar"
 
-#: logdrake:139
+#: logdrake:142
 #, c-format
 msgid "but not matching"
 msgstr "men ikke samsvar"
 
-#: logdrake:142
+#: logdrake:145
 #, c-format
 msgid "Choose file"
 msgstr "Velg fil"
 
-#: logdrake:154
+#: logdrake:157
 #, c-format
 msgid "Calendar"
 msgstr "Kalender"
 
-#: logdrake:163
+#: logdrake:166
 #, c-format
 msgid "Content of the file"
 msgstr "Innhold i fila"
 
-#: logdrake:167 logdrake:411
+#: logdrake:170 logdrake:415
 #, c-format
 msgid "Mail alert"
 msgstr "E-postvarsling"
 
-#: logdrake:174
+#: logdrake:177
 #, c-format
 msgid "The alert wizard has failed unexpectedly:"
 msgstr "Varslingsveiviseren fikk en uventet feil:"
 
-#: logdrake:178
+#: logdrake:181
 #, c-format
 msgid "Save"
 msgstr "Lagre"
 
-#: logdrake:226
+#: logdrake:230
 #, c-format
 msgid "please wait, parsing file: %s"
 msgstr "Vent litt, tolker fil: %s"
 
-#: logdrake:248
+#: logdrake:252
 #, c-format
 msgid "Sorry, log file isn't available!"
 msgstr "Loggfila er ikke tilgjengelig."
 
-#: logdrake:296
+#: logdrake:300
 #, c-format
 msgid "Error while opening \"%s\" log file: %s\n"
 msgstr "Feil ved åpning av «%s». Loggfil: %s\n"
 
-#: logdrake:389
+#: logdrake:393
 #, c-format
 msgid "Apache World Wide Web Server"
 msgstr "Vevtjeneren Apache"
 
-#: logdrake:390
+#: logdrake:394
 #, c-format
 msgid "Domain Name Resolver"
 msgstr "Domenenavnoppslagstjeneste"
 
-#: logdrake:391
+#: logdrake:395
 #, c-format
 msgid "Ftp Server"
 msgstr "FTP-tjener"
 
-#: logdrake:392
+#: logdrake:396
 #, c-format
 msgid "Postfix Mail Server"
 msgstr "E-posttjeneren Postfix"
 
-#: logdrake:393
+#: logdrake:397
 #, c-format
 msgid "Samba Server"
 msgstr "Samba-tjener"
 
-#: logdrake:394
+#: logdrake:398
 #, c-format
 msgid "SSH Server"
 msgstr "SSH-tjener"
 
-#: logdrake:395
+#: logdrake:399
 #, c-format
 msgid "Webmin Service"
 msgstr "Webmin-tjeneste"
 
-#: logdrake:396
+#: logdrake:400
 #, c-format
 msgid "Xinetd Service"
 msgstr "Xinetd-tjeneste"
 
-#: logdrake:405
+#: logdrake:409
 #, c-format
 msgid "Configure the mail alert system"
 msgstr "Sett opp e-postvarslingstjenesten"
 
-#: logdrake:406
+#: logdrake:410
 #, c-format
 msgid "Stop the mail alert system"
 msgstr "Stopp e-postvarslingstjenesten"
 
-#: logdrake:414
+#: logdrake:418
 #, c-format
 msgid "Mail alert configuration"
 msgstr "Sett opp e-postvarsling"
 
-#: logdrake:415
+#: logdrake:419
 #, c-format
 msgid ""
 "Welcome to the mail configuration utility.\n"
@@ -2690,17 +2664,17 @@ msgstr ""
 "\n"
 "Her kan du sette opp varslingssystemet.\n"
 
-#: logdrake:418
+#: logdrake:422
 #, c-format
 msgid "What do you want to do?"
 msgstr "Hva vil du gjøre?"
 
-#: logdrake:425
+#: logdrake:429
 #, c-format
 msgid "Services settings"
 msgstr "Tjenesteoppsett"
 
-#: logdrake:426
+#: logdrake:430
 #, c-format
 msgid ""
 "You will receive an alert if one of the selected services is no longer "
@@ -2708,56 +2682,56 @@ msgid ""
 msgstr ""
 "Du vil motta et varsel om en av de valgte tjenestene ikke lengre kjører"
 
-#: logdrake:433
+#: logdrake:437
 #, c-format
 msgid "Load setting"
 msgstr "Lastoppsett"
 
-#: logdrake:434
+#: logdrake:438
 #, c-format
 msgid "You will receive an alert if the load is higher than this value"
 msgstr ""
 "Du vil motta et varsel om lasten/ressursbruken er høyere enn denne verdien"
 
-#: logdrake:435
+#: logdrake:439
 #, c-format
 msgid ""
 "_: load here is a noun, the load of the system\n"
 "Load"
 msgstr "Last"
 
-#: logdrake:440
+#: logdrake:444
 #, c-format
 msgid "Alert configuration"
 msgstr "Varseloppsett"
 
-#: logdrake:441
+#: logdrake:445
 #, c-format
 msgid "Please enter your email address below "
 msgstr "Skriv inn e-postadressen din under"
 
-#: logdrake:442
+#: logdrake:446
 #, c-format
 msgid "and enter the name (or the IP) of the SMTP server you wish to use"
 msgstr ""
 "og skriv inn navnet (eller IP-adressen) til SMTP-tjeneren som skal brukes"
 
-#: logdrake:444
+#: logdrake:448
 #, fuzzy, c-format
 msgid "Email address"
 msgstr "IP-adresse"
 
-#: logdrake:445
+#: logdrake:449
 #, fuzzy, c-format
 msgid "Email server"
 msgstr "Samba-tjener"
 
-#: logdrake:449
+#: logdrake:453
 #, c-format
 msgid "\"%s\" neither is a valid email nor is an existing local user!"
 msgstr "«%s» er verken en gyldig e-postadresse eller en lokal bruker."
 
-#: logdrake:454
+#: logdrake:458
 #, c-format
 msgid ""
 "\"%s\" is a local user, but you did not select a local smtp, so you must use "
@@ -2766,23 +2740,23 @@ msgstr ""
 "«%s» er en lokal bruker, men du har ikke valgt noen lokal SMTP, og du må "
 "derfor bruke en fullstendig e-postadresse."
 
-#: logdrake:461
+#: logdrake:465
 #, c-format
 msgid "The wizard successfully configured the mail alert."
 msgstr "E-postvarsel er nå satt opp."
 
-#: logdrake:467
+#: logdrake:471
 #, c-format
 msgid "The wizard successfully disabled the mail alert."
 msgstr "E-postvarsel er nå slått av."
 
-#: logdrake:526
+#: logdrake:530
 #, c-format
 msgid "Save as.."
 msgstr "Lagre som …"
 
-#: notify-x11-free-driver-switch:18 service_harddrake:465
-#: service_harddrake:478
+#: notify-x11-free-driver-switch:18 service_harddrake:468
+#: service_harddrake:481
 #, c-format
 msgid "Display driver setup"
 msgstr ""
@@ -3328,8 +3302,8 @@ msgstr "Skanneren/-ene vil ikke være tilgjengelig(e) på nettverket."
 msgid "Could not install the packages needed to share your scanner(s)."
 msgstr "Klarte ikke installere pakkene for deling av skanner(e)."
 
-#: service_harddrake:170
-#, fuzzy, c-format
+#: service_harddrake:173
+#, c-format
 msgid "The graphics card '%s' is no longer supported by driver '%s'"
 msgstr "Skjermkortet «%s» er ikke lenger støttet av driveren «%s»"
 
@@ -3338,8 +3312,8 @@ msgstr "Skjermkortet «%s» er ikke lenger støttet av driveren «%s»"
 msgid "New release, reconfiguring X for %s"
 msgstr ""
 
-#: service_harddrake:271
-#, fuzzy, c-format
+#: service_harddrake:274
+#, c-format
 msgid "The proprietary kernel driver was not found for X.org driver '%s'"
 msgstr "Den godseide kjernedriveren for X.org-driveren «%s» ble ikke funnet."
 
@@ -3363,27 +3337,27 @@ msgstr "Noen enheter ble lagt til: %s\n"
 msgid "- %s was added\n"
 msgstr "– %s ble lagt til\n"
 
-#: service_harddrake:397
+#: service_harddrake:400
 #, c-format
 msgid "Hardware changes in \"%s\" class (%s seconds to answer)"
 msgstr "Maskinvareendringer i klassen «%s» (%s sekunder å svare på)"
 
-#: service_harddrake:398
+#: service_harddrake:401
 #, c-format
 msgid "Do you want to run the appropriate config tool?"
 msgstr "Vil du kjøre det nødvendige oppsettverktøyet?"
 
-#: service_harddrake:423
+#: service_harddrake:426
 #, c-format
 msgid "Hardware probing in progress"
 msgstr "Søker etter maskinvare"
 
-#: service_harddrake:444 service_harddrake:449
+#: service_harddrake:447 service_harddrake:452
 #, c-format
 msgid "Display driver issue"
 msgstr ""
 
-#: service_harddrake:445
+#: service_harddrake:448
 #, c-format
 msgid ""
 "The display driver currently configured requires you to use the 'nokmsboot' "
@@ -3392,7 +3366,7 @@ msgid ""
 "specified."
 msgstr ""
 
-#: service_harddrake:450
+#: service_harddrake:453
 #, c-format
 msgid ""
 "Detected a loaded display driver kernel module which conflicts with the "
@@ -3400,23 +3374,15 @@ msgid ""
 "fail."
 msgstr ""
 
-#: service_harddrake:465 service_harddrake:478
+#: service_harddrake:468 service_harddrake:481
 #, c-format
 msgid "The system has to be rebooted due to a display driver change."
 msgstr ""
 
-#: service_harddrake:466 service_harddrake:479
+#: service_harddrake:469 service_harddrake:482
 #, c-format
 msgid "Press Cancel within %d seconds to abort."
 msgstr ""
-
-#: ../menu/localedrake-system.desktop.in.h:1
-msgid "System Regional Settings"
-msgstr "Regionale systeminnstillinger"
-
-#: ../menu/localedrake-system.desktop.in.h:2
-msgid "System wide language & country configurator"
-msgstr "Oppsett av systemspråk og land"
 
 #: ../menu/harddrake.desktop.in.h:1
 msgid "HardDrake"
@@ -3430,6 +3396,14 @@ msgstr "Sentralt verktøy for maskinvareoppsett/informasjon"
 msgid "Hardware Configuration Tool"
 msgstr "Verktøy for maskinvareoppsett"
 
+#: ../menu/localedrake-system.desktop.in.h:1
+msgid "System Regional Settings"
+msgstr "Regionale systeminnstillinger"
+
+#: ../menu/localedrake-system.desktop.in.h:2
+msgid "System wide language & country configurator"
+msgstr "Oppsett av systemspråk og land"
+
 #: ../menu/localedrake-user.desktop.in.h:1
 msgid "Regional Settings"
 msgstr "Språk og land"
@@ -3438,30 +3412,328 @@ msgstr "Språk og land"
 msgid "Language & country configuration"
 msgstr "Oppsett for språk og land"
 
-#~ msgid "Configure authentication required to access OpenMandriva tools"
-#~ msgstr "Sett opp autentisering nødvendig for tilgang til Mandrivas verktøy"
+#: ../polkit/org.moondrake.drakauth.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Authentication Configuration"
+msgstr "Sett opp e-postvarsling"
+
+#: ../polkit/org.moondrake.drakauth.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Authentication Configuration"
+msgstr "Sett opp e-postvarsling"
+
+#: ../polkit/org.moondrake.drakboot.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Boot Configuration"
+msgstr "Oppsett for oppstart"
+
+#: ../polkit/org.moondrake.drakboot.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Boot Configuration"
+msgstr "Oppsett for oppstart"
+
+#: ../polkit/org.moondrake.drakclock.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Date and Time Configuration"
+msgstr "Sett opp e-postvarsling"
+
+#: ../polkit/org.moondrake.drakclock.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Date and Time Configuration"
+msgstr "Sett opp e-postvarsling"
+
+#: ../polkit/org.moondrake.drakdisk.policy.in.h:1
+msgid "Run DrakX Disk Layout Editor"
+msgstr ""
+
+#: ../polkit/org.moondrake.drakdisk.policy.in.h:2
+msgid "Authentication is required to run DrakX Disk Layout Editor"
+msgstr ""
+
+#: ../polkit/org.moondrake.drakdm.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Login Manager Configuration"
+msgstr "Oppsett for språk og land"
+
+#: ../polkit/org.moondrake.drakdm.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Login Manager Configuration"
+msgstr "Oppsett for språk og land"
+
+#: ../polkit/org.moondrake.drakfont.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Font Configuration"
+msgstr "Oppsett for språk og land"
+
+#: ../polkit/org.moondrake.drakfont.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Font Configuration"
+msgstr "Oppsett for språk og land"
+
+#: ../polkit/org.moondrake.drakhardware.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Hardware Configuration"
+msgstr "Oppsett av skjermtjener"
+
+#: ../polkit/org.moondrake.drakhardware.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Hardware Configuration"
+msgstr "Oppsett av skjermtjener"
+
+#: ../polkit/org.moondrake.draklog.policy.in.h:1
+msgid "Run DrakX Log Viewer"
+msgstr ""
+
+#: ../polkit/org.moondrake.draklog.policy.in.h:2
+msgid "Authentication is required to run DrakX Log Viewer"
+msgstr ""
+
+#: ../polkit/org.moondrake.drakperm.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Security Permissions Configuration"
+msgstr "Oppsett av skjermtjener"
+
+#: ../polkit/org.moondrake.drakperm.policy.in.h:2
+#, fuzzy
+msgid ""
+"Authentication is required to run DrakX Security Permissions Configuration"
+msgstr "Oppsett av skjermtjener"
+
+#: ../polkit/org.moondrake.drakscanner.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Scanner Configuration"
+msgstr "Oppsett av skjermtjener"
+
+#: ../polkit/org.moondrake.drakscanner.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Scanner Configuration"
+msgstr "Oppsett av skjermtjener"
+
+#: ../polkit/org.moondrake.draksec.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Application Security Configuration"
+msgstr "Sett opp e-postvarsling"
+
+#: ../polkit/org.moondrake.draksec.policy.in.h:2
+#, fuzzy
+msgid ""
+"Authentication is required to run DrakX Application Security Configuration"
+msgstr "Sett opp e-postvarsling"
+
+#: ../polkit/org.moondrake.drakups.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX UPS Configuration"
+msgstr "UPS-oppsett"
+
+#: ../polkit/org.moondrake.drakups.policy.in.h:2
+msgid "Authentication is required to run DrakX UPS Configuration"
+msgstr ""
+
+#: ../polkit/org.moondrake.moondrakeservices.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Service Configuration"
+msgstr "Oppsett av skjermtjener"
+
+#: ../polkit/org.moondrake.moondrakeservices.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Service Configuration"
+msgstr "Oppsett av skjermtjener"
+
+#, fuzzy
+#~ msgid "%s Bug Report Tool"
+#~ msgstr "Feilrapporteringsverktøy for Moondrake"
+
+#, fuzzy
+#~ msgid "%s Tools Logs"
+#~ msgstr "Loggverktøy for Moondrake"
+
+#, fuzzy
+#~ msgid "Configure authentication required to access %s tools"
+#~ msgstr "Sett opp autentisering nødvendig for tilgang til Moondrakes verktøy"
+
+#, fuzzy
+#~ msgid "Run Moondrake Application Security Configuration"
+#~ msgstr "Sett opp e-postvarsling"
+
+#, fuzzy
+#~ msgid "Run Moondrake Authentication Configuration"
+#~ msgstr "Sett opp e-postvarsling"
+
+#, fuzzy
+#~ msgid "Run Moondrake Boot Configuration"
+#~ msgstr "Oppsett for oppstart"
+
+#, fuzzy
+#~ msgid "Run Moondrake Date and Time Configuration"
+#~ msgstr "Sett opp e-postvarsling"
+
+#, fuzzy
+#~ msgid "Run Moondrake Font Configuration"
+#~ msgstr "Oppsett for språk og land"
+
+#, fuzzy
+#~ msgid "Run Moondrake Hardware Configuration"
+#~ msgstr "Oppsett av skjermtjener"
+
+#, fuzzy
+#~ msgid "Run Moondrake Login Manager Configuration"
+#~ msgstr "Oppsett for språk og land"
+
+#, fuzzy
+#~ msgid "Run Moondrake Scanner Configuration"
+#~ msgstr "Oppsett av skjermtjener"
+
+#, fuzzy
+#~ msgid "Run Moondrake Security Permissions Configuration"
+#~ msgstr "Oppsett av skjermtjener"
+
+#, fuzzy
+#~ msgid "Run Moondrake Service Configuration"
+#~ msgstr "Oppsett av skjermtjener"
+
+#, fuzzy
+#~ msgid "Run Moondrake UPS Configuration"
+#~ msgstr "UPS-oppsett"
+
+#, fuzzy
+#~ msgid "  --help                - display this help     \n"
+#~ msgstr " --help                – Vis denne hjelpeteksten.\n"
+
+#, fuzzy
+#~ msgid ""
+#~ " drakhelp 0.1\n"
+#~ "Copyright (C) %s Mandriva.\n"
+#~ "Copyright (C) %s Moondrake.\n"
+#~ "This is free software and may be redistributed under the terms of the GNU "
+#~ "GPL.\n"
+#~ "\n"
+#~ "Usage: \n"
+#~ msgstr ""
+#~ " drakhelp 0.1\n"
+#~ "Copyright © %s Mandriva.\n"
+#~ "Dette er fri programvare, og du kan distribuere det under GNU GPL-"
+#~ "lisensen.\n"
+#~ "\n"
+#~ "Bruk: \n"
+
+#~ msgid "%s Control Center"
+#~ msgstr "%s Kontrollsenter"
+
+#, fuzzy
+#~ msgid "%s Help Center"
+#~ msgstr "Hjelpesenter for Moondrake"
 
 #~ msgid "/Autodetect _jaz drives"
 #~ msgstr "/Finn _JAZ-stasjoner automatisk"
 
-#~ msgid "OpenMandriva Lx Tools Logs"
-#~ msgstr "Loggverktøy for OpenMandriva Lx"
+#~ msgid "/Autodetect _modems"
+#~ msgstr "/Finn _modem automatisk"
 
 #~ msgid "/Autodetect _printers"
 #~ msgstr "/Finn _skrivere automatisk"
 
-#~ msgid "Its GDB trace is:"
-#~ msgstr "GDB-sporing er:"
+#~ msgid "/Autodetect parallel _zip drives"
+#~ msgstr "/Finn automatisk _ZIP-stasjoner på parallellporter"
 
-#~ msgid "OpenOffice.org"
-#~ msgstr "OpenOffice.org"
+#~ msgid "/File/-"
+#~ msgstr "/Fil/–"
 
-#~ msgid ""
-#~ "The proprietary driver for your graphic card cannot be found, the system "
-#~ "is now using the free software driver (%s)."
-#~ msgstr ""
-#~ "Fant ikke den godseide skjermkortdriveren. Bruker derfor den frie "
-#~ "driveren (%s)."
+#~ msgid "/File/Save _As"
+#~ msgstr "/Fil/Lagre _som"
+
+#~ msgid "/File/_New"
+#~ msgstr "/Fil/_Ny"
+
+#~ msgid "/File/_Open"
+#~ msgstr "/Fil/_Åpne"
+
+#~ msgid "/File/_Quit"
+#~ msgstr "/Fil/_Avslutt"
+
+#~ msgid "/File/_Save"
+#~ msgstr "/Fil/_Lagre"
+
+#~ msgid "/Help/_About..."
+#~ msgstr "/Hjelp/_Om …"
+
+#~ msgid "/Options/Test"
+#~ msgstr "/Innstillinger/Test"
+
+#~ msgid "/_About..."
+#~ msgstr "/_Om …"
+
+#~ msgid "/_Fields description"
+#~ msgstr "/_Feltbeskrivelser"
+
+#~ msgid "/_File"
+#~ msgstr "/_Fil"
+
+#~ msgid "/_Help"
+#~ msgstr "/_Hjelp"
+
+#~ msgid "/_Options"
+#~ msgstr "/_Innstillinger"
+
+#~ msgid "/_Quit"
+#~ msgstr "/_Avslutt"
+
+#~ msgid "/_Report Bug"
+#~ msgstr "/_Meld fra om feil"
+
+#~ msgid "<control>N"
+#~ msgstr "<control>N"
+
+#~ msgid "<control>O"
+#~ msgstr "<control>O"
+
+#~ msgid "Autodetect _jaz drives"
+#~ msgstr "Finn _JAZ-stasjoner automatisk"
+
+#~ msgid "Autodetect _printers"
+#~ msgstr "Finn _skrivere automatisk"
+
+#~ msgid "Background color"
+#~ msgstr "Bakgrunnsfarge"
+
+#~ msgid "Bugs"
+#~ msgstr "Feil"
+
+#~ msgid "Choose picture"
+#~ msgstr "Velg bilde"
+
+#~ msgid "Choose progress bar background"
+#~ msgstr "Velg bakgrunn for framgangslinja"
+
+#~ msgid "Choose progress bar color 1"
+#~ msgstr "Velg farge 1 for framgangslinja"
+
+#~ msgid "Choose progress bar color 2"
+#~ msgstr "Velg farge 2 for framgangslinja"
+
+#~ msgid "Choose text color"
+#~ msgstr "Velg tekstfarge"
+
+#~ msgid "Choose text zone color"
+#~ msgstr "Velg tekstsonefarge"
+
+#~ msgid "Color selection"
+#~ msgstr "Fargevalg"
+
+#~ msgid "Coma bug"
+#~ msgstr "Coma-feil"
+
+#~ msgid "Configure authentication required to access Mandriva tools"
+#~ msgstr "Sett opp autentisering nødvendig for tilgang til Mandrivas verktøy"
+
+#, fuzzy
+#~ msgid "Copyright (C) %s by Moondrake"
+#~ msgstr "Copyright © %s Mandriva"
+
+#~ msgid "Create new theme"
+#~ msgstr "Lag nytt tema"
+
+#~ msgid "Display logo on Console"
+#~ msgstr "Vis logo på konsollet"
 
 #~ msgid ""
 #~ "Display theme\n"
@@ -3470,20 +3742,166 @@ msgstr "Oppsett for språk og land"
 #~ "Vis tema\n"
 #~ "under konsoll"
 
-#~ msgid "Create new theme"
-#~ msgstr "Lag nytt tema"
+#, fuzzy
+#~ msgid "DrakX Online"
+#~ msgstr "Mandriva Online"
 
-#~ msgid "X coordinate of text box"
-#~ msgstr "X-koordinat til skrivefeltet"
+#~ msgid ""
+#~ "Early Intel Pentium chips manufactured have a bug in their floating point "
+#~ "processor which did not achieve the required precision when performing a "
+#~ "Floating point DIVision (FDIV)"
+#~ msgstr ""
+#~ "Tidlige Intel Pentium-brikker hadde en feil i flytetallsprosessoren som "
+#~ "førte til dårlig presisjon ved flytetallsdivisjoner (FDIV)"
 
-#~ msgid "Y coordinate of text box"
-#~ msgstr "Y-koordinat til skrivefeltet"
+#~ msgid "F00f bug"
+#~ msgstr "F00f-feil"
+
+#~ msgid "FPU"
+#~ msgstr "FPU"
+
+#~ msgid "Fdiv bug"
+#~ msgstr "FDIV-feil"
+
+#~ msgid "File/-"
+#~ msgstr "Fil/–"
+
+#~ msgid "File/Save _As"
+#~ msgstr "Fil/Lagre _som"
+
+#~ msgid "File/_New"
+#~ msgstr "Fil/_Ny"
+
+#~ msgid "File/_Open"
+#~ msgstr "Fil/_Åpne"
+
+#~ msgid "File/_Quit"
+#~ msgstr "Fil/_Avslutt"
+
+#~ msgid "File/_Save"
+#~ msgstr "Fil/_Lagre"
+
+#~ msgid "Final resolution"
+#~ msgstr "Endelig oppløsning"
+
+#~ msgid "Gradient type"
+#~ msgstr "Fargeovergangtype"
+
+#~ msgid "Halt bug"
+#~ msgstr "Halt-feil"
+
+#~ msgid "Help/_About..."
+#~ msgstr "Hjelp/_Om …"
+
+#~ msgid ""
+#~ "Here you can see files to use in order to fix permissions, owners, and "
+#~ "groups via msec.\n"
+#~ "You can also edit your own rules which will owerwrite the default rules."
+#~ msgstr ""
+#~ "Her kan du se filer som du kan bruke i msec for å rette tillatelse, eiere "
+#~ "og grupper.\n"
+#~ "Du kan ogå legge til egne regler, som så vil overstyre standardreglene."
+
+#~ msgid "Is FPU present"
+#~ msgstr "Finnes FPU"
+
+#~ msgid "Its GDB trace is:"
+#~ msgstr "GDB-sporing er:"
+
+#~ msgid "Mandriva Linux Bug Report Tool"
+#~ msgstr "Feilrapporteringsverktøy for Mandriva Linux"
+
+#~ msgid "Mandriva Linux Tools Logs"
+#~ msgstr "Loggverktøy for Mandriva Linux"
+
+#~ msgid "Mandriva Update"
+#~ msgstr "Mandriva oppdatering"
+
+#~ msgid "Moondrake"
+#~ msgstr "Moondrake"
+
+#, fuzzy
+#~ msgid ""
+#~ "No Sound Card has been detected on your machine. Please verify that a "
+#~ "Linux-supported Sound Card is correctly plugged in"
+#~ msgstr ""
+#~ "Fant ingen TV-kort koblet til maskina. Kontroller at du har et kort som "
+#~ "er støttet i Linux koblet til.\n"
+#~ "\n"
+#~ "\n"
+#~ "Du finner maskinvaredatabasen vår på:\n"
+#~ "\n"
+#~ "\n"
+#~ "http://www.mandrivalinux.com/en/hardware.php3"
+
+#, fuzzy
+#~ msgid ""
+#~ "No TV Card has been detected on your machine. Please verify that a Linux-"
+#~ "supported Video/TV Card is correctly plugged in."
+#~ msgstr ""
+#~ "Fant ingen TV-kort koblet til maskina. Kontroller at du har et kort som "
+#~ "er støttet i Linux koblet til.\n"
+#~ "\n"
+#~ "\n"
+#~ "Du finner maskinvaredatabasen vår på:\n"
+#~ "\n"
+#~ "\n"
+#~ "http://www.mandrivalinux.com/en/hardware.php3"
+
+#~ msgid "OpenOffice.org"
+#~ msgstr "OpenOffice.org"
+
+#~ msgid "Options/Test"
+#~ msgstr "Innstillinger/Test"
+
+#~ msgid "Please enter a theme name"
+#~ msgstr "Skriv inn et temanavn"
+
+#~ msgid "Please select a splash image"
+#~ msgstr "Velg oppstartsbilde"
+
+#~ msgid "Progress Bar"
+#~ msgstr "Framdriftsviser "
+
+#~ msgid "Progress box transparency"
+#~ msgstr "Gjennomsiktighet for framgangslinja"
+
+#~ msgid "Save theme"
+#~ msgstr "Lagre tema"
+
+#~ msgid "Select Mandriva Tool:"
+#~ msgstr "Velg verktøy:"
+
+#~ msgid "Silent bootsplash"
+#~ msgstr "Stille oppstartsbilde"
+
+#~ msgid ""
+#~ "Some of the early i486DX-100 chips cannot reliably return to operating "
+#~ "mode after the \"halt\" instruction is used"
+#~ msgstr ""
+#~ "Noen av de tidlige i486DX-100-brikkene kan ikke vende tilbake til "
+#~ "kjøremodus etter at instruksjonen «halt» er brukt"
+
+#~ msgid "Text"
+#~ msgstr "Tekst"
+
+#~ msgid "Text box height"
+#~ msgstr "Høyde på skrivefeltet"
+
+#~ msgid "Text box transparency"
+#~ msgstr "Gjennomsiktighet for skrivefeltet"
 
 #~ msgid "Text box width"
 #~ msgstr "Bredde på skrivefeltet"
 
-#~ msgid "Text box height"
-#~ msgstr "Høyde på skrivefeltet"
+#~ msgid "Text color"
+#~ msgstr "Tekstfarge"
+
+#~ msgid "Text size"
+#~ msgstr "Tekststørrelse"
+
+#~ msgid "The height of the progress bar"
+#~ msgstr "Høyden til skrivefeltet."
 
 #~ msgid ""
 #~ "The progress bar X coordinate\n"
@@ -3499,128 +3917,42 @@ msgstr "Oppsett for språk og land"
 #~ "Y-koordinat for øvre venstre\n"
 #~ "hjørne til fremgangsviseren."
 
+#~ msgid ""
+#~ "The proprietary driver for your graphic card cannot be found, the system "
+#~ "is now using the free software driver (%s)."
+#~ msgstr ""
+#~ "Fant ikke den godseide skjermkortdriveren. Bruker derfor den frie "
+#~ "driveren (%s)."
+
 #~ msgid "The width of the progress bar"
 #~ msgstr "Bredden til skrivefeltet."
-
-#~ msgid "The height of the progress bar"
-#~ msgstr "Høyden til skrivefeltet."
-
-#~ msgid "X coordinate of the text"
-#~ msgstr "X-koordinat til teksten"
-
-#~ msgid "Y coordinate of the text"
-#~ msgstr "Y-koordinat til teksten"
-
-#~ msgid "Text box transparency"
-#~ msgstr "Gjennomsiktighet for skrivefeltet"
-
-#~ msgid "Progress box transparency"
-#~ msgstr "Gjennomsiktighet for framgangslinja"
-
-#~ msgid "Text size"
-#~ msgstr "Tekststørrelse"
-
-#~ msgid "Progress Bar"
-#~ msgstr "Framdriftsviser "
-
-#~ msgid "Choose progress bar color 1"
-#~ msgstr "Velg farge 1 for framgangslinja"
-
-#~ msgid "Choose progress bar color 2"
-#~ msgstr "Velg farge 2 for framgangslinja"
-
-#~ msgid "Choose progress bar background"
-#~ msgstr "Velg bakgrunn for framgangslinja"
-
-#~ msgid "Gradient type"
-#~ msgstr "Fargeovergangtype"
-
-#~ msgid "Text"
-#~ msgstr "Tekst"
-
-#~ msgid "Choose text color"
-#~ msgstr "Velg tekstfarge"
-
-#~ msgid "Choose picture"
-#~ msgstr "Velg bilde"
-
-#~ msgid "Silent bootsplash"
-#~ msgstr "Stille oppstartsbilde"
-
-#~ msgid "Choose text zone color"
-#~ msgstr "Velg tekstsonefarge"
-
-#~ msgid "Text color"
-#~ msgstr "Tekstfarge"
-
-#~ msgid "Background color"
-#~ msgstr "Bakgrunnsfarge"
-
-#~ msgid "Verbose bootsplash"
-#~ msgstr "Oppstart med utvidete meldinger"
 
 #~ msgid "Theme name"
 #~ msgstr "Temanavn"
 
-#~ msgid "Final resolution"
-#~ msgstr "Endelig oppløsning"
-
-#~ msgid "Display logo on Console"
-#~ msgstr "Vis logo på konsollet"
-
-#~ msgid "Save theme"
-#~ msgstr "Lagre tema"
-
-#~ msgid "Please enter a theme name"
-#~ msgstr "Skriv inn et temanavn"
-
-#~ msgid "Please select a splash image"
-#~ msgstr "Velg oppstartsbilde"
-
-#~ msgid "saving Bootsplash theme..."
-#~ msgstr "Lagrer oppstartstema …"
-
 #~ msgid "Unable to load image file %s"
 #~ msgstr "Klarte ikke å åpne bildefila %s"
 
-#~ msgid "choose image"
-#~ msgstr "Velg bilde"
-
-#~ msgid "Color selection"
-#~ msgstr "Fargevalg"
-
-#~ msgid "Coma bug"
-#~ msgstr "Coma-feil"
-
-#~ msgid "whether this cpu has the Cyrix 6x86 Coma bug"
-#~ msgstr "om prosessoren har Cyrix 6x86 Coma-feilen"
-
-#~ msgid "Fdiv bug"
-#~ msgstr "FDIV-feil"
-
-#~ msgid ""
-#~ "Early Intel Pentium chips manufactured have a bug in their floating point "
-#~ "processor which did not achieve the required precision when performing a "
-#~ "Floating point DIVision (FDIV)"
-#~ msgstr ""
-#~ "Tidlige Intel Pentium-brikker hadde en feil i flytetallsprosessoren som "
-#~ "førte til dårlig presisjon ved flytetallsdivisjoner (FDIV)"
-
-#~ msgid "Is FPU present"
-#~ msgstr "Finnes FPU"
-
-#~ msgid "yes means the processor has an arithmetic coprocessor"
-#~ msgstr "ja tyder på at prosessoren har en mattekoprosessor"
+#~ msgid "Verbose bootsplash"
+#~ msgstr "Oppstart med utvidete meldinger"
 
 #~ msgid "Whether the FPU has an irq vector"
 #~ msgstr "Om mattekoprosessoren har en avbruddsvektor"
 
-#~ msgid ""
-#~ "yes means the arithmetic coprocessor has an exception vector attached"
-#~ msgstr "ja tyder på at mattekoprosessoren har en unntaksvektor tilkoblet"
+#~ msgid "X coordinate of text box"
+#~ msgstr "X-koordinat til skrivefeltet"
 
-#~ msgid "F00f bug"
-#~ msgstr "F00f-feil"
+#~ msgid "X coordinate of the text"
+#~ msgstr "X-koordinat til teksten"
+
+#~ msgid "Y coordinate of text box"
+#~ msgstr "Y-koordinat til skrivefeltet"
+
+#~ msgid "Y coordinate of the text"
+#~ msgstr "Y-koordinat til teksten"
+
+#~ msgid "choose image"
+#~ msgstr "Velg bilde"
 
 #~ msgid ""
 #~ "early pentiums were buggy and freezed when decoding the F00F bytecode"
@@ -3628,18 +3960,15 @@ msgstr "Oppsett for språk og land"
 #~ "tidlige Pentium-prosessorer innehodt en feil, og frøs ved dekoding av "
 #~ "F00F-bytekode"
 
-#~ msgid "Halt bug"
-#~ msgstr "Halt-feil"
+#~ msgid "saving Bootsplash theme..."
+#~ msgstr "Lagrer oppstartstema …"
+
+#~ msgid "whether this cpu has the Cyrix 6x86 Coma bug"
+#~ msgstr "om prosessoren har Cyrix 6x86 Coma-feilen"
 
 #~ msgid ""
-#~ "Some of the early i486DX-100 chips cannot reliably return to operating "
-#~ "mode after the \"halt\" instruction is used"
-#~ msgstr ""
-#~ "Noen av de tidlige i486DX-100-brikkene kan ikke vende tilbake til "
-#~ "kjøremodus etter at instruksjonen «halt» er brukt"
+#~ "yes means the arithmetic coprocessor has an exception vector attached"
+#~ msgstr "ja tyder på at mattekoprosessoren har en unntaksvektor tilkoblet"
 
-#~ msgid "Bugs"
-#~ msgstr "Feil"
-
-#~ msgid "FPU"
-#~ msgstr "FPU"
+#~ msgid "yes means the processor has an arithmetic coprocessor"
+#~ msgstr "ja tyder på at prosessoren har en mattekoprosessor"

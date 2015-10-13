@@ -12,10 +12,10 @@ wireless-tools
 msec
 #msec-gui
 
-mandriva-theme-OpenMandriva
-mandriva-gfxboot-theme
-mandriva-release-common
-mandriva-release-Free
+distro-theme-Moondrake
+distro-gfxboot-theme
+distro-release-common
+distro-release-Moondrake
 #mandriva-release-Powerpack
 plymouth-system-theme
 #
@@ -51,7 +51,7 @@ networkmanager
 dvd+rw-tools
 cdrkit
 rsync
-grub
+grub2
 acpi
 acpid
 aumix
@@ -93,7 +93,6 @@ CAT_GAMES 5
 #xarchiver
 pptp-linux
 ppp
-nfs-utils-clients
 nfs-utils
 ppp-pppoe
 rp-pppoe

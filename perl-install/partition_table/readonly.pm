@@ -1,4 +1,4 @@
-package partition_table::readonly; # $Id: $
+package partition_table::readonly;
 
 our @ISA = qw(partition_table::raw);
 

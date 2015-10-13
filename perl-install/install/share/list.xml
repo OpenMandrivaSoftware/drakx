@@ -1,9 +1,8 @@
 <list no-arch-libraries="on">
 
 <from expand="binary">
-  <if ARCH="ppc">
-    pdisk 
-  </if>
+  aria2c curl <!-- needed by urpmi -->
+  vmmouse_detect
 
   <mode copy="dereference">
     Xorg
@@ -20,25 +19,47 @@
   </filter>
 
   <if ARCH="ia64">
-  efibootmgr 
-  </if>
-
-  <if ARCH="ppc">
-    hattrib hcopy hcd
-    hformat hmount humount 
+    efibootmgr 
   </if>
 
   <if set="DEBUG_INSTALL">
-    strace bash less ps top gdb
+    bash gdb
   </if>
+</from>
+
+<!-- when adding udev rules, think whether they're needed in rescue too
+     (../../../rescue/list.xml) -->
+<from dir="/lib/udev/rules.d">
+  70-wacom.rules
+  69-xorg-vmmouse.rules
+</from>
+
+<from dir="/usr/LIB/girepository-1.0">
+  Atk-1.0.typelib
+  cairo-1.0.typelib
+  Gdk-3.0.typelib
+  GdkPixbuf-2.0.typelib
+  GdkX11-3.0.typelib
+  Gio-2.0.typelib
+  GLib-2.0.typelib
+  GModule-2.0.typelib
+  GObject-2.0.typelib
+  Gtk-3.0.typelib
+  JavaScriptCore-3.0.typelib <!-- needed by WebKit-3.0.typelib -->
+  Pango-1.0.typelib
+  Soup-2.4.typelib <!-- needed by WebKit-3.0.typelib -->
+  WebKit-3.0.typelib
+  xlib-2.0.typelib
 </from>
 
 <from dir="/usr/LIB/xorg/modules">
   drivers/fbdev_drv.so
+  drivers/modesetting_drv.so
+  drivers/vboxvideo_drv.so
   drivers/vesa_drv.so
   drivers/vmware_drv.so
-  input/kbd_drv.so
-  input/mouse_drv.so
+  input/evdev_drv.so
+  input/synaptics_drv.so
   input/vmmouse_drv.so
   input/wacom_drv.so
   libfbdevhw.so
@@ -48,13 +69,29 @@
   libvbe.so
 </from>
 
+<from dir="/usr/share/X11/xorg.conf.d">
+  <from expand="glob">
+     *.conf
+  </from>
+</from>
+
+<from dir="/usr/share/glib-2.0/schemas">
+  <from expand="glob">
+    gschema*
+  </from>
+</from>
+
 <from dir="/usr/share/X11/xkb">
  <filter subst="s!//.*!!">
   geometry/pc
   keycodes/aliases
+  keycodes/evdev
   keycodes/xfree86
   rules/base
   rules/base.lst
+  <from expand="glob">
+     rules/evdev*
+  </from>
   rules/xorg
   rules/xorg.lst
   compat types
@@ -78,14 +115,27 @@
   </to>
 </from>
 
+<from dir="/usr/share/icons/Adwaita/">
+    index.theme
+    16x16/actions/go-down.png
+    16x16/actions/go-up.png
+    16x16/status/image-missing.png
+    scalable/actions/pan-down-symbolic.svg
+    scalable/actions/pan-end-symbolic-rtl.svg
+    scalable/actions/pan-end-symbolic.svg
+    scalable/actions/pan-start-symbolic-rtl.svg
+    scalable/actions/pan-start-symbolic.svg
+    scalable/actions/pan-up-symbolic.svg
+</from>
+
 <from dir="/usr/share/locale">
   <to dir="/usr/share/locale_special">
     <from expand="glob">
       */LC_MESSAGES/draksnapshot.mo
       */LC_MESSAGES/drakx-net.mo
       */LC_MESSAGES/drakx-kbd-mouse-x11.mo
+      */LC_MESSAGES/gtk30.mo
       */LC_MESSAGES/urpmi.mo
-      */LC_MESSAGES/gtk20.mo
     </from>
   </to>
 </from>
@@ -99,29 +149,39 @@
 <filter command="strip">
 <from dir="/LIB">
   libnss_nis.so.2
-  libnss_files.so.2
-  libnss_dns.so.2
-  libresolv.so.2
-  <!-- needed for mount.ntfs-3g -->
 
   <!-- modules used by libnss3 -->
   libfreebl3.so
   libsoftokn3.so
 
-  <!-- needed by dmraid -->
-  libdmraid-events-isw.so
 </from>
 </filter>
+
+<filter command="strip">
+<from dir="/usr/LIB">
+  <!-- needed for Gtk3-WebKit -->
+  libwebkitgtk-3.0.so.0
+</from>
+</filter>
+
+<from dir="../../images/tree/root/">
+  <to dir="/">
+    .digger.sco
+   </to>
+</from>
+<from>
+  /usr/games/digger
+</from>
 
 <from>
   /etc/urpmi/prefer.vendor.list
   /etc/fonts/
   /etc/rpm/macros.d/legacy_compat.macros
+
 <!--  /usr/share/X11/XKeysymDB -->
   /etc/pango/*/pango.modules
   /usr/LIB/libgdk_pixbuf-2.0.so.0
-  /usr/LIB/gtk-2.0/*/immodules/im-cedilla.so
-  /usr/LIB/gtk-2.0/*/engines/libia_ora.so
+  /usr/LIB/gtk-3.0/*/immodules/im-cedilla.so
   /usr/share/mime/mime.cache
 
   /usr/lib/libDrakX/keyboard.pm
@@ -134,25 +194,15 @@
      /usr/share/doc/installer-help/
   </mode>
   /usr/share/libDrakX/pixmaps
-  <mode copy="keep-links">
-     /usr/share/doc/installer-help/
-  </mode>
-  /usr/share/usb.ids
   /usr/share/locale/UTF-8
   /bin/brltty
-  <mode copy="system">
-    /sbin/blkid
-  </mode>
 
   /usr/bin/drakx-matchbox-window-manager
   /usr/share/matchbox/mbnoapp.xpm
 
+  /usr/share/themes/Adwaita/gtk-3.0/gtk.css
+
   /etc/pki/tls/certs/ca-bundle.crt
-
-  /lib/udev/ata_id
-  /lib/udev/scsi_id
-  /lib/udev/pcmcia-socket-startup
-
 
   <!-- for GDB: -->
   <if set="DEBUG_INSTALL">
@@ -162,6 +212,7 @@
     /usr/LIB/python2.7/_abcoll.py
     /usr/LIB/python2.7/abc.py
     /usr/LIB/python2.7/codecs.py
+    /usr/LIB/python2.7/collections.py
     /usr/LIB/python2.7/config/Makefile
     /usr/LIB/python2.7/copy.py
     /usr/LIB/python2.7/copy_reg.py
@@ -169,7 +220,11 @@
     /usr/LIB/python2.7/encodings/__init__.py
     /usr/LIB/python2.7/encodings/utf_8.py
     /usr/LIB/python2.7/genericpath.py
+    /usr/LIB/python2.7/heapq.py
+    /usr/LIB/python2.7/keyword.py
+    /usr/LIB/python2.7/lib-dynload/_collections.so
     /usr/LIB/python2.7/lib-dynload/itertools.so
+    /usr/LIB/python2.7/lib-dynload/operator.so
     /usr/LIB/python2.7/linecache.py
     /usr/LIB/python2.7/os.py
     /usr/LIB/python2.7/posixpath.py
@@ -181,45 +236,26 @@
     /usr/LIB/python2.7/sre_parse.py
     /usr/LIB/python2.7/stat.py
     /usr/LIB/python2.7/sysconfig.py
+    /usr/LIB/python2.7/_sysconfigdata.py
     /usr/LIB/python2.7/traceback.py
     /usr/LIB/python2.7/types.py
     /usr/LIB/python2.7/UserDict.py
     /usr/LIB/python2.7/warnings.py
     /usr/LIB/python2.7/weakref.py
     /usr/LIB/python2.7/_weakrefset.py
-    /usr/share/gdb/python/gdb/backtrace.py
-    /usr/share/gdb/python/gdb/command/alias.py
-    /usr/share/gdb/python/gdb/command/backtrace.py
-    /usr/share/gdb/python/gdb/command/ignore_errors.py
-    /usr/share/gdb/python/gdb/command/__init__.py
-    /usr/share/gdb/python/gdb/command/pahole.py
-    /usr/share/gdb/python/gdb/command/pretty_printers.py
-    /usr/share/gdb/python/gdb/command/require.py
-    /usr/share/gdb/python/gdb/command/upto.py
-    /usr/share/gdb/python/gdb/FrameIterator.py
-    /usr/share/gdb/python/gdb/FrameWrapper.py
-    /usr/share/gdb/python/gdb/function/caller_is.py
-    /usr/share/gdb/python/gdb/function/__init__.py
-    /usr/share/gdb/python/gdb/function/in_scope.py
-    /usr/share/gdb/python/gdb/__init__.py
+    <from expand="glob">
+      /usr/share/gdb/python/gdb/*
+    </from>
   </if>
 
   <from expand="glob">
-    <from spaces_in_filename="1">
-       /usr/share/themes/Ia Ora*
-    </from>
-    <from spaces_in_filename="1">
-       /usr/share/themes/Ia Ora*/*
-    </from>
+    <!-- needed by matchbox -->
     <from spaces_in_filename="1">
        /usr/share/themes/Ia Ora*/matchbox/*
     </from>
-    <from spaces_in_filename="1">
-       /usr/share/themes/Ia Ora*/gtk-2.0/gtkrc
-    </from>
     /usr/LIB/gdk-pixbuf-2.0/*/loaders.cache
     /usr/LIB/gdk-pixbuf-2.0/*/loaders/libpixbufloader-png.so
-    /etc/gtk-2.0/gtk.immodules.*
+    /usr/LIB/gdk-pixbuf-2.0/*/loaders/libpixbufloader-svg.so
     /etc/brltty/*.ttb
     /etc/brltty/*.txt
     /LIB/brltty/libbrlttyb??.so
@@ -228,19 +264,7 @@
   <from expand="command">
     perl -Mlang -I.. -le 'print foreach lang::console_font_files()'
   </from>
-
-  <if set="DEBUG_INSTALL">
-    /etc/termcap
-  </if>
 </from>
-
-<from dir="/usr/share/ldetect-lst">
-  <filter command="gunzip">
-    dmitable.gz  
-  </filter>
-  Cards+ MonitorsDB isdn.db
-</from>
-
 
 <from dir="/usr/LIB/pango/*/modules">
   pango-arabic-lang.so
@@ -264,6 +288,7 @@
   ISO8859-5.so
   ISO8859-3.so
   ISO8859-2.so
+  ISO8859-1.so
  <from expand="glob"> 
   KOI8-*.so
  </from>
@@ -271,12 +296,21 @@
   CP1251.so
   GEORGIAN-PS.so
   EUC-CN.so
+  gconv-modules
 </from>
 
 <filter subst="/^__END__/ and $_ = '', close ARGV">
 <from expand="main-perl">
+  AutoLoader.pm
+  Carp/Heavy.pm
+  Carp.pm
+  Exporter/Heavy.pm
+  Exporter.pm
+  File/Basename.pm
+  Env.pm
   File/Find.pm
   FileHandle.pm
+  File/Path.pm
   File/Temp.pm
   Getopt/Long.pm
   IPC/Open2.pm
@@ -290,48 +324,89 @@
   Net/Netrc.pm
   Net/Ping.pm
   PerlIO.pm
+  SelectSaver.pm
   SelfLoader.pm
+  Symbol.pm
+  Tie/Hash.pm
+  Tie/Array.pm
   Time/Local.pm
+  XSLoader.pm
+  base.pm
+  bytes.pm
   bytes_heavy.pl <!-- needed by urpm::mirrors -->
   constant.pm
   dumpvar.pl
+  feature.pm
   integer.pm
   locale.pm
   overload.pm
   overloading.pm
+  parent.pm
+  strict.pm
   unicore/Heavy.pl
   unicore/To/Digit.pl
   unicore/To/Fold.pl
   unicore/To/Lower.pl
   unicore/To/Uc.pl      <!-- needed for uc() on UTF-8 -->
   unicore/To/Upper.pl
+  utf8.pm
   utf8_heavy.pl
+  vars.pm
+  warnings.pm
+  warnings/register.pm
   ARCH-linux-thread-multi/B.pm
+  ARCH-linux-thread-multi/Config.pm
   ARCH-linux-thread-multi/Config_git.pl
   ARCH-linux-thread-multi/Config_heavy.pl
+  ARCH-linux-thread-multi/Cwd.pm
   ARCH-linux-thread-multi/Data/Dumper.pm
+  ARCH-linux-thread-multi/DynaLoader.pm
+  ARCH-linux-thread-multi/Errno.pm
   ARCH-linux-thread-multi/Encode.pm
   ARCH-linux-thread-multi/Encode/Alias.pm
   ARCH-linux-thread-multi/Encode/Config.pm
   ARCH-linux-thread-multi/Encode/Encoding.pm
+  ARCH-linux-thread-multi/Fcntl.pm
+  ARCH-linux-thread-multi/File/Glob.pm
   ARCH-linux-thread-multi/File/Spec.pm
   ARCH-linux-thread-multi/File/Spec/Unix.pm
+  ARCH-linux-thread-multi/_h2ph_pre.ph
+  ARCH-linux-thread-multi/IO.pm
   ARCH-linux-thread-multi/IO/File.pm
+  ARCH-linux-thread-multi/IO/Handle.pm
   ARCH-linux-thread-multi/IO/Seekable.pm
   ARCH-linux-thread-multi/IO/Select.pm
+  ARCH-linux-thread-multi/IO/Socket/INET.pm
+  ARCH-linux-thread-multi/IO/Socket.pm
+  ARCH-linux-thread-multi/IO/Socket/UNIX.pm
   ARCH-linux-thread-multi/List/Util.pm
+  ARCH-linux-thread-multi/POSIX.pm
   ARCH-linux-thread-multi/Scalar/Util.pm
+  ARCH-linux-thread-multi/Socket.pm
   ARCH-linux-thread-multi/Time/HiRes.pm
-  <if ARCH="ia64">
-  ARCH-linux-thread-multi/asm-i386/unistd.ph 
-  ARCH-linux-thread-multi/asm-x86_64/unistd.ph 
-  ARCH-linux-thread-multi/asm/break.ph 
+  <if ARCH="i.86|x86_64">
+  ARCH-linux-thread-multi/asm/unistd_32.ph
+  ARCH-linux-thread-multi/asm/unistd_64.ph
   </if>
+  ARCH-linux-thread-multi/asm/unistd.ph
   ARCH-linux-thread-multi/auto/B/B.so
+  ARCH-linux-thread-multi/auto/Cwd/Cwd.so
   ARCH-linux-thread-multi/auto/Data/Dumper/Dumper.so
   ARCH-linux-thread-multi/auto/Encode/Encode.so
+  ARCH-linux-thread-multi/auto/Fcntl/Fcntl.so
+  ARCH-linux-thread-multi/auto/File/Glob/Glob.so
+  ARCH-linux-thread-multi/auto/IO/IO.so
   ARCH-linux-thread-multi/auto/List/Util/Util.so
+  ARCH-linux-thread-multi/auto/POSIX/POSIX.so
+  ARCH-linux-thread-multi/auto/Socket/Socket.so
+  ARCH-linux-thread-multi/auto/re/re.so
   ARCH-linux-thread-multi/auto/Time/HiRes/HiRes.so
+  ARCH-linux-thread-multi/bits/syscall.ph
+  ARCH-linux-thread-multi/bits/wordsize.ph
+  ARCH-linux-thread-multi/lib.pm
+  ARCH-linux-thread-multi/re.pm
+  ARCH-linux-thread-multi/syscall.ph
+  ARCH-linux-thread-multi/sys/syscall.ph
   <if set="DEBUG_INSTALL">
     perl5db.pl
     Term/ReadLine.pm
@@ -344,7 +419,9 @@
   MDV/Snapshot/Common.pm
   MDV/Snapshot/Restore.pm
   Parse/EDID.pm
+  String/ShellQuote.pm
   XML/SAX/Exception.pm
+  ARCH-linux-thread-multi/Cairo.pm
   ARCH-linux-thread-multi/List/MoreUtils.pm
   ARCH-linux-thread-multi/RPMBDB.pm
   ARCH-linux-thread-multi/Term/ReadKey.pm
@@ -358,6 +435,7 @@
   ARCH-linux-thread-multi/XML/LibXML/Literal.pm
   ARCH-linux-thread-multi/XML/LibXML/Number.pm
   ARCH-linux-thread-multi/auto/RPMBDB/RPMBDB.so
+  ARCH-linux-thread-multi/auto/Cairo/Cairo.so
   ARCH-linux-thread-multi/auto/Term/ReadKey/ReadKey.so
   ARCH-linux-thread-multi/auto/XML/LibXML/LibXML.so
   urpm.pm
@@ -397,11 +475,17 @@
   perl-Curses
   perl-Curses-UI
   perl-File-FnMatch
+  perl-File-Sync
   perl-Filesys-Df
+  perl-Cairo-GObject
   perl-Clone
   perl-Glib
-  perl-Gtk2
-  perl-Gtk2-WebKit
+  perl-Glib-Object-Introspection
+  perl-Gtk3
+  perl-Gtk3-WebKit
+  perl-LDetect
+  perl-Locale-gettext
+  perl-MDK-Common
   perl-Pango
   perl-URPM
 </from>
@@ -417,12 +501,6 @@
   </to>
 </from>
 
-<from dir="../../tools">
-  <to dir="/usr/bin" flatten="on">
-    xhost+
-  </to>
-</from>
-
 <from dir="../standalone">
   <to dir="/usr/bin">
     display_installer_help
@@ -435,6 +513,14 @@
   <to dir="/usr/share">
     consolefonts symlinks
     upgrade
+  </to>
+
+  <!-- for gtk+3 that needs dbus to be initialized -->
+  <to dir="/etc">
+    <!-- abusing '<from expand="command">' -->
+    <from expand="command">
+      dbus-uuidgen > share/machine-id; echo machine-id
+    </from>
   </to>
 </from>
 
@@ -454,17 +540,29 @@
   </to>
 </from>
 
-<from dir="share">
-  <to dir="/etc/gtk-2.0/">
-    gtkrc
-  </to>
-</from>
-
-
 <from dir="pixmaps">
   <to dir="/usr/share">
     <from expand="glob">
-      *.png
+      cadre-blanc_600.png
+      cadre-blanc_768.png
+      desktop-Custom-big.png
+      desktop-Custom.png
+      desktop-GNOME-big.png
+      desktop-GNOME.png
+      desktop-KDE-big.png
+      desktop-KDE.png
+      empty-banner.png
+      left-background.png
+      left-border.png
+      left-bottom-corner.png
+      left-top-corner.png
+      reload.png
+      right-white-background_left_part_600.png
+      right-white-background_left_part_768.png
+      right-white-background_right_part_600.png
+      right-white-background_right_part_768.png
+      semiselected.png
+      unselected.png
     </from>   
   </to>
 </from>

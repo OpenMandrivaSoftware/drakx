@@ -1,4 +1,4 @@
-package lvm; # $Id$
+package lvm;
 
 #-######################################################################################
 #- misc imports
@@ -8,6 +8,16 @@ use modules;
 use devices;
 use fs::type;
 use run_program;
+
+=head1 SYNOPSYS
+
+Manage LVM (PV, VG, LV)
+
+=head1 Functions
+
+=over 4
+
+=cut
 
 #- for partition_table_xxx emulation
 sub new {
@@ -25,6 +35,12 @@ sub cylinder_size {
     my ($hd) = @_;
     $hd->{extent_size};
 }
+
+=item detect_durting_install()
+
+Explicitly scan VGs.
+
+=cut
 
 sub detect_during_install() {
     run_program::run('lvm2', 'vgscan');

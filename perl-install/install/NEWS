@@ -1,3 +1,500 @@
+Version 16.62 - 19 February 2015
+
+- partitioning (mga#12422, mga#11988, mga#14839, mga#15272, mga#15264):
+  o use an horizontal scrolling bar when needed
+  o use a vertical scrolling bar when needed (mga#15272)
+  o workaround too wide togglebuttons with empty label with gtk+3 and/or Adwaita
+
+Version 16.61 - 18 February 2015
+
+- ensure we install radeon-firmware too if needed (mga#15203)
+
+Version 16.60 - 18 February 2015
+
+- ensure we install kernel-firmware-nonfree if needed (mga#15203)
+
+Version 16.59 - 18 February 2015
+
+- bug:
+  o display a nicer message when no removable medium is found (mga#14435)
+
+Version 16.57 - 11 February 2015
+
+- fix taking screenshots on UEFI 24bit bpp framebuffer (mga#13684)
+
+Version 16.55 - 9 February 2015
+
+- drakclock: Ensure that /etc/localtime is a symlink (mga#14888)
+- users: Make sure to restart accounts-daemon after adding users (mga#15113)
+- finish-install: Ensure i18n settings are loaded
+- Create a symlink instead a hard copy to localtime see issue #14888
+- i18n: Write the desired console font to /etc/vconsole.conf
+- i18n: Use the x-distro /etc/locale.conf file instead of /etc/sysconfig/i18n
+- drakedm: Don't run ancient dm init script (which no longer exists)
+- Update traslations
+- switch from oxygen-gtk to Adwaita theme
+  o remove oxygen-gtk
+  o add missing icons (mga#13673, mga#14355, mga#14840, mga#14844)
+  o add libpixbufloader-svg.so for Adwaita svg icons
+  o add gtk.css
+
+Version 16.52 - 5 February 2015
+
+- default to GPT on disks larger than 4TB, not LVM
+- fix GPT initialization on empty disk
+- fix failure to delete partitions after switching to GPT
+- fix stage2 loading graphical installer in efi mode
+
+Version 16.51 - 3 February 2015
+
+- recognize new kernel-3.19 drivers
+
+Version 16.50 - 9 January 2015
+
+- initial uefi support
+
+Version 16.49 - 31 December 2014
+
+- translation updates
+- drakx-in-chroot:
+  o pre-create /dev/null & co before mounting devtmpfs
+- recognize new kernel-3.18 drivers (mga#14799)
+
+Version 16.48 - 16 December 2014
+
+- do not load hyper-v modules (already done by udev in stage1)
+
+Version 16.47 - 5 December 2014
+
+- do not crash loading stage2 in Virtual PC (mga#14117)
+- bootloader config:
+  o do not crash if fstab contains a bind mount on a file (mga#14657)
+
+Version 16.45 - 26 October 2014
+
+- drakx-in-chroot:
+  o pre-create /dev/null & co again (for draklive)
+- fix selecting of uneeded locales (mga#3723)
+
+Version 16.44 - 23 October 2014
+
+- drakx-in-chroot:
+  o document --stage2-update in --help
+  o mount /dev -o ro
+  o try harder to umount everything when sg went havroc
+
+Version 16.43 - 20 October 2014
+
+- drakx-in-chroot:
+  o adapt to the fact that stage2 expects a /dev fully populated by udev
+
+Version 16.42 - 18 September 2014
+
+- only allow GRUB2 when booting on btrfs
+
+Version 16.41 - 31 August 2014
+
+- allow /boot on btrfs
+- recognize new kernel-3.17 drivers
+
+Version 16.40 - 22 August 2014
+
+- adwaita-gtk3-theme no longer provides a settings.ini file
+- log X.org server logs when it fails to start up (mga#13471, ...)
+- recognize hyper-v paravirtual network driver
+
+Version 16.38 - 11 July 2014
+
+- adwaita-gtk3-theme no longer provides a settings.ini file
+- set locale path to /usr/share/locale so that translations may be used
+  during install
+- try fix auto detect mode tried first
+- try modesetting driver last
+
+Version 16.37 - 3 July 2014
+
+- fix /etc/fstab writing (mga#13114, also reported by Joseph Wang)
+- partitioning:
+  o improve fs sorting in combo box (mga#13640)
+
+Version 16.34.2 -  4 July 2014
+
+- try modesetting before fbdev driver
+- try auto detect Xorg settings by default before trying fbdev & vesa drivers
+- let udev handle floppies
+
+Version 16.34.1 -  1 July 2014
+
+- default to chrony if found
+- fix export of correct distro_release & distro_release_information subroutines
+- fix unnecessary '-noleaf' argument passed to 'find' in timezone.pm that
+  breaks with busybox implementation
+- fix not being able to select packages when list contains only one (mga#13492)
+
+Version 16.33 - 18 June 2014
+
+- stop creating some /dev entries that are managed by udev
+- do not even try to create basic /dev nodes
+
+Version 16.32.1 - 15 June 2014
+
+- include platform driver autoload udev rules
+- don't keep on mounting a new /tmp/.X11-unix for each time the graphical
+  installer would be restarted/crash, just check whether it's already mounted
+  first
+- fix an inverted conditional which prevents an updated version of /etc/fstab
+  to be written
+
+Version 16.32 - 17 June 2014
+
+- in stead of installing only one package per transaction, increase it to 20
+  in order to improve install speed
+- keep existing entries from /etc/fstab when writing a new
+- include the following more "generic"'ish xorg drivers that might come in
+  handy if any of the other fails:
+	* modesetting_drv.so
+	* vboxvideo_drv.so
+	* vesa_drv.so
+	* vmware_drv.so
+	* evdev_drv.so
+	* mouse_drv.so
+	* kbd_drv.so
+	* synaptics_drv.so
+	* vmmouse_drv.so
+- only complain about missing /boot/efi on EFI systems
+- recognize new kernel-3.15 drivers
+
+Version 16.31.1 - 6 June 2014
+
+- include udev rule for VMmouse
+
+Version 16.31 - 6 June 2014
+
+- xorg config:
+  o rely on evdev/udev for input devices
+  o Wacom tablets should work better
+    (we now load the wacom driver again)
+  o Synaptics touchpads should now work during install (mga#11524)
+
+Version 16.30 - 4 June 2014
+
+- locale setting
+  o update locales list
+- drop (broken) support for Alpha, PPC, Sparc & IA64
+- add some POD documentation
+- do not unavailable kernel-xbox
+- change detection order of bootloader so that it'll prioritize in the order
+  of grub2 -> grub -> lilo rather than lilo -> grub -> grub2
+- in stead of modifying /etc/passwd directly, just simply use 'usermod'
+- add support for SHA512
+- properly enable nofsync for package installation
+- drop (broken) support for Alpha, PPC, Sparc & IA64
+
+Version 16.29 -  3 May 2014
+
+- gnome-icon-theme is now adwaita-icon-theme
+
+Version 16.28 - 28 April 2014
+
+- recognize new kernel-3.14 drivers
+
+Version 16.27.1 - 29 April 2014
+
+- add support for merging updated translations from Mageia
+
+Version 16.27 - 16 April 2014
+
+- media step:
+  o hint that nonfree is needed if a driver needs a nonfree firmware
+
+Version 16.27 - 18 February 2014
+
+- fix crash when choosing a RTL language (mga#12793)
+- Ensure uid/gid extraction works when adding users via summary page
+  (fixes chown'ing user to root when adding existing user on upgrade mga#12375)
+
+Version 16.26.6 - 23 January 2014
+
+- fix hidden icon in individual package selection (mga#12397)
+
+Version 16.26.5 - 22 January 2014
+
+- release notes dialog:
+  o fix untranslated button
+
+Version 16.26.4 - 22 January 2014
+
+- debug image:
+  o add a warning about QWERTY keyboard
+- help dialogs:
+  o do warn on first screenshot (mga#11176)
+  o fix lost help screenshots (mga#11176)
+
+Version 16.26.3 - 21 January 2014
+
+- help dialogs:
+  o do not warn if a screenshot already has been taked (mga#11176)
+
+Version 16.26.2 - 20 January 2014
+
+- left background for final release of Mageia 4
+
+Version 16.26.1 - 20 January 2014
+
+- partitioning:
+  o increase back minimum partition width for Oxygen (mga#11977)
+
+Version 16.26 - 20 January 2014
+
+- fix detecting if basesystem is installed (mga#10722)
+  thus fixing "basesystem package not selected"
+- partitioning:
+  o fix sizing partition widgets
+  o fix not moving window (mga#11790, mga#11988, mga#11977)
+  o revert minimum partition width to its pre-gtk3 value
+  o show labels on partition buttons
+
+Version 16.25 - 19 January 2014
+
+- add Mageia 4 desktop images
+
+Version 16.24 - 18 January 2014
+
+- help dialogs:
+  o make screenshots work (mga#11176)
+  o fix untranslated button & title (mga#9828)
+
+Version 16.23 - 16 January 2014
+
+- partitioning:
+  o do not show labels on partition buttons (mga#11988)
+
+Version 16.22 - 15 January 2014
+
+- partitioning:
+  o fix "No GSettings schemas are installed on the system" error when
+    inspecting partitions (mga#12279)
+- services:
+  o use --no-block with chkconfig and systemctl enable to prevent systemd reload
+    and potential crash (especially during first/live boot)
+
+Version 16.21 - 13 January 2014
+
+- partitioning:
+  o do not propose check bad blocks for btrfs (Manuel Hiebel, mga#10116)
+  o increase minimum partition width for Oxygen (mga#11977)
+    (if not enough, we will disable labels on partitions buttons again)
+- revert back to matchbox instead of mutter as it doesn't fix
+  diskdrake issues (mga#11977)
+  (thus fixing missing window decorations (mga#12218))
+
+Version 16.17 - 20 December 2013
+
+- media step:
+  o hint that nonfree is needed if a CPU needs a microcode
+- install:
+  o fix pausing installing while displaying release notes
+- drakx-in-chroot:
+  o advise to install xephyr if missing
+- use mutter instead of matchbox in order to try to workaround
+  diskdrake issues (mga#11790, mga#11988, ...)
+  as a side effect, stage2 shrinks by 3Mb...
+
+Version 16.14 - 10 December 2013
+
+- Mageia 4 beta 2 left background
+
+Version 16.13 - 10 December 2013
+
+- fix crash when selecting an input method (mga#11939)
+
+Version 16.10 - 6 December 2013
+
+- package group selection:
+  o make bottom buttons always available
+    (by puting the scrolling window only around the package group check boxes)
+
+Version 16.9 - 6 December 2013
+
+- fix retrieving network info from stage2 after dracut migration (mga#11504)
+
+Version 16.7 - 5 December 2013
+
+- partitioning:
+  o fix a crash when creating partitions (mga#11876)
+
+Version 16.6 - 4 December 2013
+
+- fix blue background behind left panel text (mga#11866)
+
+Version 16.5 - 3 December 2013
+
+- partitioning:
+  o detect eMMc block devices (Luc Menut, mga#11812)
+  o fix a crash in partitioning wizard (mga#11820)
+  o show labels on partition buttons again but ellipsized (mga#11858)
+
+Version 16.4 - 2 December 2013
+
+- fix partitioning wizard moving the main window to left (mga#11790)
+- fix titles not being blue anymore
+
+Version 16.2 - 29 November 2013
+
+- no more run urpmi.update when adding media
+  (uneeded with urpmi-7.27+)
+
+Version 16.1 - 28 November 2013
+
+- fix a warning: include dialog-warning-symbolic
+- fix left panel text being black instead of white (mga#11792)
+- fix calling "child1_shrink" via package "Gtk3::HPaned" (mga#11797)
+- fix using old toolbar API that is no more available (mga#11791)
+- wrap too big labels in summary dialog (mga#11793)
+
+Version 16.0 - 23 November 2013
+
+- switch from Gtk+-2 to Gtk+-3:
+  o Banners: most themes work OK but Oxygen-gtk3...
+  o diskdrake: most themes work OK but Oxygen-gtk3...
+- detect_devices:
+  fix ids to be numeric
+- drakx-in-chroot:
+  o add --depth in order to force 16bit colors mode
+
+Version 15.73.1 - 19 November 2013
+
+- debug image:
+  o include enough python in order to generate a stack trace from within stage2
+  o fix passing arguments from drakx-in-chroot
+- do not compile/include xhost+ anymore (unused for years)
+- log why updates were not applied
+
+Version 15.73 - 12 November 2013
+
+- polkit: fix wrappers to properly escape arguments when calling the binary
+
+Version 15.72.2 - 11 November 2013
+
+- properly escape $$UID
+- use $$UID instead of $$(id -u)
+- use $UID instead of $(id -u)
+- use /usr/libexec/drakrpm-addmedia directly in stage2 (colin, #11319)
+- don't force default color depth as some gpus won't necessary support 16bpp
+- drop module section as there's no need for disabling modules that won't be
+  present during install anyways, and it also prevents automatic loading of
+  necessary modules
+- include evdev keycodes and rules
+
+Version 15.68 - 14 October 2013
+
+- adapt to latest mdadm
+
+Version 14.50, 17 November, by Per Øyvind Karlsen
+
+- debug image:
+  o add missing python modules for latest gdb
+  o fix building with latest gdb
+- do not use automatically gdm for xfce
+- recognize new kernel-3.12 drivers
+- drop /etc/termcap as it's no longer part of our build
+- make urpmi install check more reliable (polkit related path change mga#11125)
+- log when user reject applying updates (mga#11319)
+- include another network interface name udev rule (mga#10947)
+- diskdrake:
+  o enable to format already formated btrfs partitions (mga#11256)
+- fix detecting some soft RAID (mga#11139 and the like)
+- install open-vm-tools on VMware hypervisor
+- fix a lang pixmap (mga#10795)
+- change ntp client from ntpd to chronyd
+- improve userdrake face theming to support several themes at once
+- include network interface name udev rule (mga#10947)
+- add missing re.so for utf8_heavy.pl (mga#10893)
+- detect wifi cards managed by ssb driver (mga#9378)
+- adapt to latest btrfs utils for resizing
+- bootloader:
+  o fix displaying need to install acpi* packages when they're already installed
+  o read/save choosen default entry
+- detect wifi cards managed by bcma driver (mga#9378)
+- detect new kernel-3.10 drivers
+- append newly generated output from 'mdadm -Es' rather than old from
+  /etc/mdadm.conf to new install environment
+
+Version 14.49, 21 May 2013, by Per Øyvind Karlsen
+
+- fix offering to install shorewall & shorewall-ipv6 when already installed
+- do not enable to pick xguest (mga#9750)
+- fix displaying release notes while installing (mga#10087)
+
+Version 14.48, 15 May 2013, by Per Øyvind Karlsen
+
+- any.pm: dont add arch() to release-notes file name (mga#10087)
+- enable Non-free/Restricted repositories if a package having a matching
+  name is installed (similar to mga#8379)
+- detect_devices: check for phy80211 sysfs directory as well to detect
+  wireless devices
+
+Version 14.47,  6 May 2013, by Per Øyvind Karlsen
+
+- fix displaying ads (mga#9939)
+- install 'basesystem-minimal' instead of 'basesystem' prior to add extra media
+  thus fixing "basesystem package not selected" (mga#9611)
+- make xdm installation automatic in auto_inst mode (mga#9875)
+- include mount options in auto_inst.pl
+- include more partition fields in auto_inst.pl (mga#9784)
+- skip comments in /etc/crypttab (Colin, mga#9905)
+- services:
+  o list 'shorewall-ipv6' along 'shorewall'
+- fix doble logging of 'filesystem' installation (mga#7758)
+- install shorewall-ipv6 along shorewall (mga#9401)
+- bootloader:
+  o try harder to get a label for other OSes (mga#9849,9681)
+- partionning:
+  o only allow 'acl' option for extX & reiserfs (mga#9884)
+
+Version 14.45, 24 April 2013, by Per Øyvind Karlsen
+
+- revert inclusion of vmware video driver as fbdev issue has been solved now
+- partionning:
+  o fix a crash when reloading partition table (mga#9838)
+  o fix a crash when trying to create a encrypted LVM partition (mga#9837)
+
+Version 14.43, 20 April 2013, by Per Øyvind Karlsen
+
+- partionning (mga#5661):
+  o ensure LVMs on top of dmcrypt are activated after unlocking
+  o fix UI redraw issue after unlocking dmcrypt partition
+- partionning (mga#5661):
+  o fix loosing crypt key when detecting LVMs on top of dmcrypt
+  o fix loosing crypt key when re-reading partition tables
+
+Version 14.42, 18 April 2013, by Per Øyvind Karlsen
+
+- authentication:
+  o 'nss-pam-ldapd' obsoletes 'pam_ldap' (mga#9769)
+- library:
+  o fix detecting some USB devices due to not reporting their class (mga#9674)
+- bind mount /run in chroot, thus fixing dracut runs (Dave Hodgins, mga#9213)
+- create /etc/machine-id after all packages has been installed
+- drop perl 'lspcidrake' command as we now ship with 'lspcidrake' itself
+
+Version 14.41,  9 April 2013, by Per Øyvind Karlsen
+
+- rebrand to Moondrake
+
+Version 14.40,  6 April 2013, by Per Øyvind Karlsen
+
+- make boot quiet again by default
+- bootloader:
+  o assume grub2.cfg is UTF-8 encoded
+  o read back more conf from grub2
+  o set entries type when reading back grub2 conf, thus fixing
+    switching back to grub-legacy (mga#9563)
+  o fix other Mga OS names in menu (mga#8710)
+- fix finding translated help (mga#9619)
+- log ignored dmraid devices (might help mga#9467)
+- force loading NSS modules (mga#9326)
+
 Version 14.39 -  1 April 2013, by Per Øyvind Karlsen
 
 - ship with vmware video driver as vmware seems to have problems with using

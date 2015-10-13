@@ -15,37 +15,31 @@ our %l = (
   {
     atm => [ qw(ambassador eni firestream fore_200e he horizon idt77252 iphase lanai nicstar solos-pci zatm) ],
     main => [
-      if_(arch() =~ /ppc/, qw(bmac fec_mpc52xx ibm_emac mace oaknet sungem)),
-      if_(arch() =~ /^sparc/, qw(sunbmac sunhme sunqe)),
-      if_(arch() !~ /alpha|sparc/,
         qw(3c501 3c503 3c505 3c507 3c509 3c515 3c990 3c990fx),
-        qw(82596 ac3200 acenic aironet4500_card amd8111e at1700 atl2 atp),
+        qw(82596 ac3200 acenic aironet4500_card altera_tse amd8111e at1700 atl2 atp),
         qw(bcm4400 cassini cs89x0 cx82310_eth de600 de620),
-        qw(depca dmfe e2100 eepro eexpress enic eth16i),
-        qw(ewrk3 hp hp-plus hp100 i40e),
+        qw(depca dmfe e2100 ec_bhf eepro eexpress enic eth16i),
+        qw(ewrk3 fm10k bcmgenet hp hp-plus hp100 i40e i40evf),
         qw(iph5526), #- fibre channel
-        qw(jme lance ne ni5010 ni52 ni65 nvnet),
+        qw(i40evf jme lance ne ni5010 ni52 ni65 nvnet),
         qw(prism2_plx qlge r6040 rcpci rhineget),
         qw(sb1000 sc92031 sh_eth smc-ultra smsc911x smc9194 smsc9420 smsc95xx),
-        qw(tc35815 tlan uli526x ),
-      ),
-      if_(arch() !~ /alpha/,
+        qw(tc35815 tlan uli526x vmxnet3),
         qw(b44 com20020-pci de2104x),
         qw(defxx), # most unused
         qw(dgrs e100 eepro100 epic100 fealnx hamachi natsemi),
-        qw(ne2k-pci pcnet32 plip sis900 skfp starfire tulip),
+        qw(ne2k-pci pcnet32 plip sis900 skfp starfire stmmac-platform tulip),
         qw(typhoon via-rhine winbond-840 xgene-enet forcedeth),
         qw(sungem sunhme), # drivers for ultrasparc, but compiled in ix86 kernels...
-      ),
       qw(3c59x 8139too 8139cp cpmac niu sundance), #rtl8139
       # add all phys
-      qw(amd at803x bcm87xx broadcom cicada davicom et1011c icplus lxt marvell mdio-bitbang mdio-gpiomicrel),
+      qw(amd at803x bcm7xxx bcm87xx broadcom cicada davicom et1011c fixed_phy icplus lxt marvell mdio-bcm-unimac mdio-bitbang mdio-gpiomicrel),
       qw(national qsemi r8152 r815x realtek smsc spi_ks8995 ste10Xp vitesse),
     ],
     firewire => [ qw(eth1394 pcilynx) ],
     gigabit => [
       qw(alx atl1 atl1c atl1e at91_ether ax88179_178a be2net bna bnx2 bnx2x cxgb cxgb3 cxgb4 dl2k e1000 e1000e et131x igb ipg ixgb ixgbe),
-      qw(macb mvmdio myri_sbus myri10ge netxen_nic ns83820 pch_gbe qla3xxx r8169 s2io sfc sxg_nic),
+      qw(macb mvmdio myri_sbus myri10ge netxen_nic ns83820 pch_gbe qla3xxx r8169 s2io samsung-sxgbe sfc sxg_nic),
       qw(sis190 sk98lin skge sky2 slicoss spidernet stmmac tehuti tg3 via-velocity vxge yellowfin),
       qw(bcm5820 bcm5700), #- encrypted
     ],
@@ -62,23 +56,22 @@ our %l = (
    #- protocol reported are not accurate) so we match network adapters against
    #- known drivers :-(
     usb => [ 
-      qw(asix catc cdc_ether cdc_mbim dm9601 kaweth mcs7830 pegasus rtl8150 smsc75xx smsc95xx usbnet),
+      qw(asix catc cdc_ether cdc_mbim dm9601 huawei_cdc_ncm kaweth mcs7830 pegasus rtl8150 smsc75xx smsc95xx usbnet),
     ],
     wireless => [
       qw(acx-pci acx-usb adm8211 agnx airo airo_cs aironet4500_cs),
-      qw(aironet_cs ar5523 ar9170usb arlan arusb_lnx at76c50x_usb ath10k_pci ath5k ath6kl ath6kl_usb ath9k ath9k_htc),
+      qw(aironet_cs ar5523 ar9170usb arlan arusb_lnx ath10k_pci ath5k ath6kl ath6kl_usb ath9k ath9k_htc), # at76c50x_usb lacks firmware
       qw(ath_pci atmel_cs atmel_pci b43 b43legacy bcm43xx bcm_wimax bcma brcm80211 brcmsmac brcmfmac carl9170 com20020_cs),
       qw(dyc_ar5 hostap_cs hostap_pci hostap_plx i2400m_usb ipw2100),
       qw(ipw2200 ipw3945 iwl3945 iwl4965 iwlagn iwldvm iwlmvm iwlwifi madwifi_pci),
       qw(mwifiex_usb mwl8k ndiswrapper netwave_cs orinoco orinoco_cs),
       qw(orinoco_nortel orinoco_pci orinoco_plx orinoco_tmd orinoco_usb p54pci),
       qw(p54usb prism2_cs prism2_pci prism2_usb prism54 qmi_wwan r8180),
-      qw(r8187se rtl8188ee r8192_pci r8192s_usb r8192u_usb r8712u rtl8723ae ray_cs rndis_wlan rt2400 rt2400pci rt2500),
+      qw(r8187se rtl8188ee r8192_pci r8192s_usb r8192u_usb r8712u ray_cs rndis_wlan rsi_sdio rt2400 rt2400pci rt2500),
       qw(rt2500pci rt2500usb rt2570 rt2800pci rt2800usb rt2860 rt2860sta rt2870),
-      qw(rt3070sta rt61 rt61pci rt73 rt73usb rtl8180 rtl8187 rtl8187se rtl818x_pci r8188eu r8192ee r8723au rtl8821ae rtl_pci rtl_usb rtusb),
-      qw(rtl8192se rtl8192cu rtl8192de spectrum_cs sr9700 ssb usb8xxx usbvnet_rfmd vt6655_stage vt6656_stage vt_ar5k w35und),
-      qw(wavelan_cs wl wl3501_cs wvlan_cs zd1201 zd1211rw),
-      if_(arch() =~ /ppc/, qw(airport)),
+      qw(rt3070sta rt61 rt61pci rt73 rt73usb rtl8180 rtl8187 rtl8187se r8188eu r8723au rtl_pci rtl_usb rtusb),
+      qw(rtl8192se rtl8192cu rtl8192de rtl8192ee rtl8723ae rtl8723be rtl8821ae spectrum_cs sr9700 sr9800 ssb usb8xxx usbvnet_rfmd vt6655_stage vt6656_stage vt_ar5k w35und),
+      qw(wavelan_cs wcn36xx wl wl3501_cs wvlan_cs zd1201 zd1211rw),
     ],
     isdn => [
       qw(avmfritz c4 cdc-acm b1pci divas hfc4s8s_l1 hfc_usb hfc4s8s_l1 hisax hisax_st5481 hisax_fcpcipnp hysdn sedlfax t1pci tpam w6692pci),
@@ -96,7 +89,7 @@ our %l = (
     ],
     wan => [ qw(c101 cosa cyclomx cycx_drv dlci dscc4 farsync hdlc hostess_sv11 lapbether lmc n2 pc300 pci200syn sbni sdla sdladrv sealevel syncppp wanxl z85230) ],
     usb_dsl => [ qw(cxacru speedtch ueagle-atm usbatm xusbatm) ],
-    virtual => [ qw(hv_netvsc vboxdrv virtio_net vmxnet3 xen-netfront) ],
+    virtual => [ qw(hv_netvsc vboxdrv virtio_net xen-netfront) ],
   },
 
   ################################################################################
@@ -110,18 +103,14 @@ our %l = (
         qw(tc86c001 triflex trm290 tx4938ide tx4939ide umc8672 via82cxxx ide-pci-generic ide-generic),
     ],
     scsi => [
-      if_(arch() =~ /ppc/, qw(mesh mac53c94)),
-      if_(arch() =~ /^sparc/, qw(qlogicpti)),
-      if_(arch() !~ /alpha|sparc/,
 	'53c7,8xx',
-        qw(a100u2w advansys aha152x aha1542 aha1740 AM53C974 atp870u),
+        qw(a100u2w advansys aha152x aha1542 aha1740 am53c974 atp870u),
         qw(be2iscsi bfa BusLogic dc395x dc395x_trm dmx3191d dtc eata eata_dma),
         qw(eata_pio fdomain g_NCR5380 in2000 initio mpt2sas mpt3sas mvsas NCR53c406a),
         qw(nsp32 pas16 pci2220i pm80xx pm8001 psi240i qla1280 qla2x00 qla2xxx),
-        qw(qlogicfas qlogicfc rsxx seagate shasta sim710 stex sym53c416),
-        qw(t128 tmscsim u14-34f ultrastor wd7000),
-      ),
-      qw(aic7xxx aic7xxx_old aic79xx pci2000 qlogicfas408 sym53c8xx lpfc lpfcdd), # ncr53c8xx
+        qw(qlogicfas qlogicfc rsxx seagate shasta skd sim710 stex sym53c416),
+        qw(t128 tmscsim u14-34f ultrastor wd7000 xen-scsiback xen-scsifront),
+      qw(aic7xxx aic7xxx_old aic79xx pci2000 qlogicfas408 sym53c8xx wd719x lpfc lpfcdd), # ncr53c8xx
     ],
     sata => [
       # note that ata_piix manage RAID devices on ICH6R
@@ -140,29 +129,25 @@ our %l = (
       qw(pata_radisys pata_rdc pata_rz1000 pata_sc1200 pata_sch),
       qw(pata_serverworks pata_sil680 pata_sis pata_sl82c105),
       qw(pata_triflex pata_via pata_winbond),
-      if_(arch() =~ /ppc/, 'sata_fsl'),
       qw(pata_acpi),
     ],
     hardware_raid => [
-      if_(arch() =~ /^sparc/, qw(pluto)),
-      if_(arch() !~ /alpha|sparc/,
         # 3w-xxxx drives ATA-RAID, 3w-9xxx and arcmsr drive SATA-RAID
         qw(3w-9xxx 3w-sas 3w-xxxx a320raid aacraid arcmsr cciss cpqarray),
         qw(cpqfc csiostor DAC960 dpt_i2o esas2r gdth hpsa hptiop i2o_block imm ipr ips isci),
         qw(it8212 it821x iteraid megaide megaraid megaraid_mbox),
         qw(megaraid_sas mptfc mptsas mptscsih mptspi pdc-ultra pmcraid ppa),
         qw(qla2100 qla2200 qla2300 qla2322 qla4xxx qla6312 qla6322),
-      ),
     ],
     video => [ qw(vmwgfx cirrusfb radeonfb kyrofb i740fb matroxfb_crct2 matroxfb_DAC1064 matroxfb_g450 matroxfb_misc matroxfb_accel matroxfb_Ti3026 matroxfb_base aty128fb vga16fb vt8236fb sstfb s3fb rivafb  mb862xfb nvidiafb fb_ddc udlfb tdfxfb uvesafb viafb tridentfb savagefb cfag1286bfb) ],
-    virtual => [ qw(hv_storvsc virtio_blk virtio_scsi vmw_pvscsi xenblk xen-blkfront) ],
+    virtual => [ qw(hv_storvsc virtio_blk virtio_scsi xenblk xen-blkfront) ],
     pcmcia => [ qw(aha152x_cs fdomain_cs nsp_cs qlogic_cs ide-cs pata_pcmcia sym53c500_cs) ],
     raw => [ qw(ide-gd_mod sd_mod) ],
     usb => [ qw(keucr uas ums-alauda ums-cypress ums-datafab ums-eneub6250 ums-freecom ums-isd200),
 	     qw(ums-jumpshot ums-karma ums-onetouch ums-realtek ums-sddr09 ums-sddr55 ums-usbat usb-storage) ],
     firewire => [ qw(sbp2) ],
     cdrom => [ qw(ide-cd_mod sr_mod) ],
-    card_reader => [ qw(sdhci sdhci-pci tifm_sd tifm_7xx1) ],
+    card_reader => [ qw(rts5208 sdhci sdhci-pci tifm_sd tifm_7xx1 toshsd ushc via-sdmmc) ],
   },
 
   ################################################################################
@@ -172,28 +157,28 @@ our %l = (
     usb => [ qw(bcma-hcd c67x00 dwc3 dwc3-pci ehci-hcd ehci-pci ehci-platform ehci-tegra fhci fusbh200-hcd hwa-hc
 		imx21-hcd isp116x-hcd isp1362-hcd isp1760 ohci-hcd ohci-pci ohci-platform oxu210hp-hcd
 		r8a66597-hcd renesas-usbhs sl811_cs sl811-hcd ssb-hcd u132-hcd
-		uhci-hcd usb-ohci usb-uhci whci-hcd xhci-hcd) ],
+		uhci-hcd usb-ohci usb-uhci vhci-hcd whci-hcd xhci-hcd xhci-pci xhci-plat-hcd) ],
     bluetooth => [ qw(ath3k bcm203x bfusb bluecard_cs bpa10x bt3c_cs btusb dtl1_cs) ],
     firewire => [ qw(ohci1394) ],
     i2c => [
       qw(i2c-ali1535 i2c-ali1563 i2c-ali15x3 i2c-amd756 i2c-amd8111 i2c-i801 i2c-i810 i2c-nforce2),
       qw(i2c-piix4 i2c-prosavage i2c-savage4 i2c-sis5595 i2c-sis630 i2c-sis96x i2c-via i2c-viapro i2c-voodoo3),
-      if_(arch() !~ /^ppc/, qw(i2c-hydra i2c-ibm_iic i2c-mpc)),
+      qw(i2c-hydra i2c-ibm_iic i2c-mpc),
     ],
     pcmcia => [
-      if_(arch() !~ /^sparc/, qw(au1x00_ss i82365 i82092 pd6729 tcic vrc4171_card vrc4173_cardu yenta_socket)), # cb_enabler
+      qw(au1x00_ss i82365 i82092 pd6729 tcic vrc4171_card vrc4173_cardu yenta_socket), # cb_enabler
     ],
     hid => [ qw(ff-memless hid hid-a4tech hid-apple hid-appleir hid-aureal hid-axff hid-belkin
-	    hid-cherry hid-chicony hid-cypress hid-dr hid-drff hid-elecom hid-elo hid-emsff
+	    hid-cherry hid-chicony hid-cp2112 hid-cypress hid-dr hid-drff hid-elecom hid-elo hid-emsff
 	    hid-ezkey hid-gaff hid-generic hid-gt683r hid-gyration hid-holtek-kbd hid-holtekff hid-holtek-mouse hid-huion
 	    hid-hyperv hid-icade hid-kensington hid-keytouch hid-kye hid-lcpower hid-lenovo hid-lenovo-tpkbd
-	    hid-logitech hid-logitech-dj hid-magicmouse hid-microsoft hid-monterey
-	    hid-multilaser hid-multitouch hid-ntrig hid-ortek hid-petalynx hid-picolcd
-	    hid-pl hid-primax hid-prodikeys hid-roccat hid-roccat-arvo hid-roccat-common hid-rmi
+	    hid-logitech hid-logitech-dj hid-logitech-hidpp hid-magicmouse hid-microsoft hid-monterey
+	    hid-multilaser hid-multitouch hid-ntrig hid-ortek hid-penmount hid-petalynx hid-picolcd
+	    hid-pl hid-plantronics hid-primax hid-prodikeys hid-roccat hid-roccat-arvo hid-roccat-common hid-rmi
 	    hid-roccat-isku hid-roccat-kone hid-roccat-koneplus hid-roccat-konepure hid-roccat-kovaplus hid-roccat-lua
-	    hid-roccat-pyra hid-roccat-savu hid-saitek hid-samsung hid-sensor-hub hid-sjoy hid-sony
+	    hid-roccat-pyra hid-roccat-ryos hid-roccat-savu hid-saitek hid-samsung hid-sensor-hub hid-sjoy hid-sony
 	    hid-speedlink hid-steelseries hid-sunplus hid-tivo hid-thingm hid-tmff hid-topseed hid-twinhan
-	    hid-uclogic hid-wacom hid-waltop hid-wiimote hid-xinmo hid-zpff hid-zydacron wacom) ],
+	    hid-uclogic hid-waltop hid-wiimote hid-xinmo hid-zpff hid-zydacron wacom) ],
 
    #serial_cs
    #ftl_cs 3c575_cb apa1480_cb epic_cb serial_cb tulip_cb iflash2+_mtd iflash2_mtd
@@ -206,10 +191,9 @@ our %l = (
     cdrom => [ qw(isofs) ],
     loopback => [ qw(isofs loop squashfs) ],
     local => [
-      if_(arch() =~ /^ppc/, qw(hfs)),
       qw(btrfs ext3 ext4 jfs nilfs2 ntfs reiserfs vfat xfs),
     ],
-    various => [ qw(efivarfs overlayfs romfs ufs fuse) ],
+    various => [ qw(efivarfs overlay romfs ufs fuse) ],
 
   },
 
@@ -217,9 +201,6 @@ our %l = (
   multimedia => 
   {
     sound => [
-      if_(arch() =~ /ppc/, qw(dmasound_pmac snd-aoa snd-powermac)),
-      if_(arch() =~ /sparc/, qw(snd-sun-amd7930 snd-sun-cs4231 snd-sun-dbri)),
-      if_(arch() !~ /^sparc/,
           qw(ad1816 ad1848 ad1889 ali5455 audigy audio awe_wave cmpci cs4232 cs4281 cs46xx cx88-alsa),
           qw(emu10k1 es1370 es1371 esssolo1 forte gus i810_audio ice1712 kahlua mad16 maestro),
           qw(maestro3 mpu401 msnd_pinnacle nm256_audio nvaudio opl3 opl3sa opl3sa2 pas2 pss),
@@ -240,7 +221,6 @@ our %l = (
           qw(snd-rme96 snd-rme9652 snd-sb16 snd-sb8 snd-sbawe snd-sc6000 snd-sgalaxy snd-sis7019 snd-sonicvibes),
           qw(snd-sscape snd-trident snd-via82xx snd-virtuoso snd-vx222 snd-vxp440 snd-vxpocket snd-wavefront),
           qw(snd-ymfpci sonicvibes sscape trident via82cxxx_audio wavefront ymfpci),
-      ),
   ],
     tv => [ qw(bt878 bttv cx23885 cx25821 cx8800 cx8802 cx88-blackbird dpc7146),
             qw(ivtv mxb pvrusb2 saa7134 saa7164 zr36067) ],
@@ -257,10 +237,10 @@ our %l = (
     ],
     photo => [ qw(dc2xx mdc800) ],
     radio => [ qw(radio-gemtek-pci radio-keene radio-maestro radio-ma901
-	    radio-maxiradio radio-miropcm20 radio-mr800  radio-shark
+	    radio-maxiradio radio-miropcm20 radio-mr800 radio-raremono radio-shark
 	    radio-usb-si470x shark2) ],
     scanner => [ qw(scanner microtek) ],
-    firewire => [ qw(snd-firewire-speakers snd-isight snd-scs1x) ],
+    firewire => [ qw(snd-dice snd-firewire-speakers snd-isight snd-oxfw snd-scs1x) ],
     gameport => [ qw(cs461x ns558 emu10k1-gp fm801-gp lightning ns558 vortex) ],
     usb_sound => [ qw(audio dabusb dsbr100 snd-usb-audio snd-usb-6fire snd-usb-caiaq snd-usb-hiface snd-usb-usx2y usb-midi) ],
     webcam => [
@@ -299,7 +279,7 @@ our %l = (
       remote => [ qw(ati_remote) ],
       # USB tablets and touchscreens:
       tablet => [ qw(acecad aiptek wacom wacom_serial4 kbtab) ],
-      touchscreen => [ qw(ads7846_ts gunze hp680_ts_input itmtouch mk712 mtouch usbtouchscreen) ],
+      touchscreen => [ qw(ads7846_ts gunze hp680_ts_input itmtouch mk712 mtouch sur40 usbtouchscreen) ],
   },
 
   various => 
@@ -313,7 +293,6 @@ our %l = (
     ],
     mouse => [
       qw(atixlmouse busmouse generic_serial inport ioc3_serial logibm logibusmouse msbusmouse pcips2 qpmouse synclinkmp),
-      if_(arch() =~ /ppc/, 'macserial'),
       qw(mousedev usbhid usbmouse synaptics_usb),
     ],
     char => [
@@ -337,24 +316,32 @@ our %l = (
       qw(mmc_block sdhci-acpi), # eMMC
 
       'cryptoloop',
-      if_(arch() =~ /sparc/, 'openprom'),
+      qw(hv_balloon hyperv_fb),
+      qw(virtio_balloon vmw_balloon),
 
       qw(crc32c crc32c-intel),
       
       qw(evdev), qw(usblp printer), 'floppy', 'microcode', 'usb_common',
+      qw(acpi_cpufreq processor),
+      qw(bcm_sf2),
+      qw(usbip-host),
+
+      # drivers/platform/x86:
+      qw(acerhdf acer-wmi alienware-wmi amilo-rfkill apple-gmux asus-laptop asus-nb-wmi asus-wmi classmate-laptop compal-laptop dell-laptop),
+      qw(dell-smo8800 dell-wmi-aio dell-wmi eeepc-laptop eeepc-wmi fujitsu-laptop),
+      qw(fujitsu-tablet hdaps hp_accel hp-wireless hp-wmi ibm_rtl ideapad-laptop intel_ips intel_menlow intel_oaktrail intel-rst intel-smartconnect),
+      qw(msi-laptop msi-wmi mxm-wmi panasonic-laptop pvpanic samsung-laptop samsung-q10 shuttle-wmi sony-laptop thinkpad_acpi topstar-laptop),
+      qw(toshiba_acpi toshiba_bluetooth toshiba_haps wmi),
+
 
       #- these need checking
       qw(rrunner meye),
 
-      qw(virtio virtio_balloon virtio_pci virtio_ring vhost_scsi),
+      qw(virtio virtio_balloon virtio_pci virtio_ring vhost_scsi hyperv-keyboard),
       qw(mei pch_phub),
       qw(vmvgfx),
     ],
     agpgart => [
-      if_(arch() =~ /alpha/, qw(alpha-agp)),
-      if_(arch() =~ /ia64/, qw(hp-agp i460-agp)),
-      if_(arch() =~ /ppc/, qw(uninorth-agp)),
-
       qw(ali-agp amd64-agp amd-k7-agp ati-agp efficeon-agp intel-agp),
 	 qw(k7-agp mch-agp nvidia-agp sis-agp sworks-agp via-agp),
     ],

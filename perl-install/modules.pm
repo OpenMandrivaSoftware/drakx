@@ -1,4 +1,4 @@
-package modules; # $Id$
+package modules;
 
 use common;
 use detect_devices;
@@ -155,13 +155,6 @@ sub load_category {
       if_($category =~ /scsi/,
 	  if_(detect_devices::usbStorage(), 'usb_storage'),
       ),
-      arch() =~ /ppc/ ? (
-	  if_($category =~ /scsi/,
-	    if_(detect_devices::has_mesh(), 'mesh'),
-	    if_(detect_devices::has_53c94(), 'mac53c94'),
-	  ),
-	  if_($category =~ /net/, 'bmac', 'gmac', 'mace', 'airport'),
-      ) : (),
     );
     my @l = (
 	(map {
@@ -185,8 +178,6 @@ sub load_category {
 
 sub load_parallel_zip {
     my ($conf) = @_;
-
-    arch() !~ /ppc/ or return;
 
     grep { 
 	eval { load_and_configure($conf, $_); 1 };
@@ -275,11 +266,6 @@ sub when_load_category {
 	eval { load('ide_gd_mod') };
     } elsif ($category =~ m,disk/(scsi|hardware_raid|sata|firewire|virtual),) {
 	$conf->add_probeall('scsi_hostadapter', $name);
-	if (detect_devices::isHyperv()) {
-	    log::l("HyperV detected. Loading storvsc");
-	    load('hv_vmbus');
-	    load('hv_storvsc');
-	}
 	eval { load('sd_mod') };
     } elsif ($category eq 'bus/usb') {
 	$conf->add_probeall('usb-interface', $name);

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DrakX-fa\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-22 00:53+0100\n"
+"POT-Creation-Date: 2015-02-18 12:28+0100\n"
 "PO-Revision-Date: 2005-02-26 06:31+0100\n"
 "Last-Translator: Abbas Izad <abbasizad@hotmail.com>\n"
 "Language-Team: Persian\n"
@@ -16,73 +16,73 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.3.1\n"
 
-#: display_help:54 display_help:59 drakbug:170 drakperm:134
+#: display_help:53 display_help:58 drakbug:173 drakperm:134
 #, c-format
 msgid "Help"
 msgstr "راهنما"
 
-#: display_help:67 drakbug:175 drakfont:505
+#: display_help:66 drakbug:178 drakfont:507
 #, c-format
 msgid "Close"
 msgstr "بستن"
 
-#: drakauth:24 drakauth:26 draksec:162
+#: drakauth:24 drakauth:26 draksec:184
 #, c-format
 msgid "Authentication"
 msgstr "تأیید هویت"
 
-#: drakauth:37 drakclock:113 drakclock:138 drakdvb:74 drakfont:211
-#: drakfont:224 drakfont:262 finish-install:131 logdrake:174 logdrake:449
-#: logdrake:454 scannerdrake:56 scannerdrake:98 scannerdrake:139
+#: drakauth:37 drakclock:117 drakclock:142 drakdvb:74 drakfont:213
+#: drakfont:226 drakfont:264 finish-install:133 logdrake:177 logdrake:453
+#: logdrake:458 scannerdrake:56 scannerdrake:98 scannerdrake:139
 #: scannerdrake:197 scannerdrake:256 scannerdrake:726 scannerdrake:737
 #: scannerdrake:876 scannerdrake:887 scannerdrake:957
 #, c-format
 msgid "Error"
 msgstr "خطا"
 
-#: drakboot:53
+#: drakboot:54
 #, c-format
 msgid "No bootloader found, creating a new configuration"
 msgstr ""
 
-#: drakboot:86 harddrake2:195 harddrake2:196 logdrake:75
+#: drakboot:89 harddrake2:191 logdrake:77
 #, c-format
-msgid "/_File"
-msgstr "/_پرونده"
+msgid "_File"
+msgstr "_پرونده"
 
-#: drakboot:87 logdrake:81
+#: drakboot:90 harddrake2:192 logdrake:78 logdrake:79
 #, c-format
-msgid "/File/_Quit"
-msgstr "/پرونده/_خروج"
+msgid "_Quit"
+msgstr "_ترک"
 
-#: drakboot:87 harddrake2:196 logdrake:81
+#: drakboot:90 harddrake2:192 logdrake:79
 #, c-format
 msgid "<control>Q"
 msgstr "<control>Q"
 
-#: drakboot:127
+#: drakboot:138
 #, c-format
 msgid "Text only"
 msgstr "فقط متن"
 
-#: drakboot:128
+#: drakboot:139
 #, c-format
 msgid "Verbose"
 msgstr ""
 
-#: drakboot:129
+#: drakboot:140
 #, c-format
 msgid "Silent"
 msgstr ""
 
-#: drakboot:135 drakbug:247 drakdvb:57 drakfont:681 drakperm:374 drakperm:384
-#: drakups:26 harddrake2:528 localedrake:45 scannerdrake:48 scannerdrake:51
+#: drakboot:146 drakbug:250 drakdvb:57 drakfont:682 drakperm:371 drakperm:381
+#: drakups:27 harddrake2:504 localedrake:45 scannerdrake:48 scannerdrake:51
 #: scannerdrake:294 scannerdrake:299 scannerdrake:951
 #, c-format
 msgid "Warning"
 msgstr "هشدار"
 
-#: drakboot:136
+#: drakboot:147
 #, c-format
 msgid ""
 "Your system bootloader is not in framebuffer mode. To activate graphical "
@@ -91,72 +91,72 @@ msgstr ""
 "بارگذار آغازگر سیستم‌تان در حالت framebuffer نیست. برای فعال کردن آغازگری "
 "تصویری، حالت ویدیوی گرافیکی را از ابزار پیکربندی بارگذار آغازگری انتخاب کنید."
 
-#: drakboot:137
+#: drakboot:148
 #, c-format
 msgid "Do you want to configure it now?"
 msgstr "آیا میخواهید آن را اکنون پیکربندی کنید؟"
 
-#: drakboot:146
+#: drakboot:157
 #, c-format
 msgid "Install themes"
 msgstr "نصب تم‌ها"
 
-#: drakboot:148
+#: drakboot:159
 #, c-format
 msgid "Graphical boot theme selection"
 msgstr "گزینش تم آغازگری گرافیکی"
 
-#: drakboot:151
+#: drakboot:162
 #, fuzzy, c-format
 msgid "Graphical boot mode:"
 msgstr "استفاده از آغازگری گرافیکی"
 
-#: drakboot:153
+#: drakboot:164
 #, c-format
 msgid "Theme"
 msgstr "طرح"
 
-#: drakboot:187
+#: drakboot:198
 #, c-format
 msgid "Default user"
 msgstr "کاربر پیش‌فرض"
 
-#: drakboot:188
+#: drakboot:199
 #, c-format
 msgid "Default desktop"
 msgstr "رومیزی پیش‌فرض"
 
-#: drakboot:191
+#: drakboot:202
 #, c-format
 msgid "No, I do not want autologin"
 msgstr "نه، ثبت‌ورود خودکار را نمی‌خواهم"
 
-#: drakboot:192
+#: drakboot:203
 #, c-format
 msgid "Yes, I want autologin with this (user, desktop)"
 msgstr "بله، من ثبت‌ورود خودکار را با این (کاربر، رومیزی) می‌خواهم"
 
-#: drakboot:199
+#: drakboot:210
 #, c-format
 msgid "System mode"
 msgstr "حالت سیستم"
 
-#: drakboot:202
+#: drakboot:213
 #, c-format
 msgid "Launch the graphical environment when your system starts"
 msgstr "راه‌اندازی محیط گرافیکی هنگام شروع سیستم‌تان"
 
-#: drakboot:257
+#: drakboot:268
 #, c-format
 msgid "Boot Style Configuration"
 msgstr "پیکربندی سبک آغازگری"
 
-#: drakboot:259 drakboot:263
+#: drakboot:270 drakboot:274
 #, c-format
 msgid "Video mode"
 msgstr "حالت ویدیوئی"
 
-#: drakboot:260
+#: drakboot:271
 #, c-format
 msgid ""
 "Please choose a video mode, it will be applied to each of the boot entries "
@@ -172,14 +172,14 @@ msgstr ""
 msgid "The \"%s\" program has crashed with the following error:"
 msgstr ""
 
-#: drakbug:60
+#: drakbug:62
 #, fuzzy, c-format
-msgid "OpenMandriva Lx Bug Reporting"
+msgid "DrakX Bug Report Tool"
 msgstr "ابزار گزارش اشکال لینوکس ماندریبا"
 
-#: drakbug:65
-#, c-format
-msgid "OpenMandriva Lx Control Center"
+#: drakbug:67
+#, fuzzy, c-format
+msgid "DrakX Linux Control Center"
 msgstr "مرکز کنترل ماندریبا"
 
 #: drakbug:66
@@ -197,12 +197,17 @@ msgstr "ابزار هم‌گاه‌سازی"
 msgid "Standalone Tools"
 msgstr "ابزارهای تک‌رایانه"
 
-#: drakbug:70 drakbug:71
+#: drakbug:72 drakbug:73
 #, fuzzy, c-format
-msgid "OpenMandriva Online"
+msgid "%s Online"
 msgstr "ماندریبا بر اینترنت"
 
-#: drakbug:72
+#: drakbug:72 drakbug:73 drakbug:99 draksec:169
+#, fuzzy, c-format
+msgid "DrakX"
+msgstr "DrakUPS"
+
+#: drakbug:74
 #, c-format
 msgid "Remote Control"
 msgstr "کنترل از راه دور"
@@ -222,9 +227,9 @@ msgstr "ابزار در بسترسازی ویندوز"
 msgid "Configuration Wizards"
 msgstr "جادوگرهای پیکربندی"
 
-#: drakbug:97
+#: drakbug:99
 #, fuzzy, c-format
-msgid "Select Tool:"
+msgid "Select %s Tool:"
 msgstr "ابزار نرم‌افزار ماندریبا را انتخاب کنید:"
 
 #: drakbug:98
@@ -333,27 +338,27 @@ msgstr ""
 msgid "Thanks."
 msgstr ""
 
-#: drakclock:28 draksec:168
+#: drakclock:29 draksec:190
 #, c-format
 msgid "Date, Clock & Time Zone Settings"
 msgstr ""
 
-#: drakclock:37
+#: drakclock:38
 #, c-format
 msgid "not defined"
 msgstr "مشخص نشده است"
 
-#: drakclock:39
+#: drakclock:40
 #, c-format
 msgid "Change Time Zone"
 msgstr "تغییر دادن منطقه‌ی زمانی"
 
-#: drakclock:44
+#: drakclock:45
 #, c-format
 msgid "Timezone - DrakClock"
 msgstr "منطقه‌ی زمانی - DrakClock"
 
-#: drakclock:44
+#: drakclock:45
 #, c-format
 msgid "Which is your timezone?"
 msgstr "منطقه‌ی زمانی شما کدام است؟"
@@ -368,12 +373,12 @@ msgstr "GMT - DrakClock"
 msgid "Is your hardware clock set to GMT?"
 msgstr "آیا ساعت سخت‌افزارتان به GMT گذاشته شده است؟"
 
-#: drakclock:72
+#: drakclock:75
 #, c-format
 msgid "Network Time Protocol"
 msgstr "پایان‌نامه‌ی زمان شبکه"
 
-#: drakclock:74
+#: drakclock:77
 #, c-format
 msgid ""
 "Your computer can synchronize its clock\n"
@@ -382,42 +387,42 @@ msgstr ""
 "رایانه‌ی شما می‌تواند ساعت خود را با کارگزار زمان\n"
 "از راه دور با استفاده از NTP هم‌گاه‌سازی کند"
 
-#: drakclock:75
+#: drakclock:78
 #, c-format
 msgid "Enable Network Time Protocol"
 msgstr "بکار انداختن پایان‌نامه‌ی زمان شبکه"
 
-#: drakclock:83
+#: drakclock:86
 #, c-format
 msgid "Server:"
 msgstr "کارگزار‌:"
 
-#: drakclock:97
+#: drakclock:100
 #, c-format
 msgid "Timezone"
 msgstr "زمان منطقه‌ای"
 
-#: drakclock:113
+#: drakclock:117
 #, fuzzy, c-format
 msgid "Please enter a valid NTP server address."
 msgstr "لطفا نشانی آی پی معتبری را وارد کنید."
 
-#: drakclock:139
+#: drakclock:143
 #, c-format
 msgid "Could not synchronize with %s."
 msgstr "نمیتوان با %s همگاه سازی کرد."
 
-#: drakclock:140 drakdvb:149 logdrake:179 scannerdrake:488
+#: drakclock:144 drakdvb:149 logdrake:182 scannerdrake:488
 #, c-format
 msgid "Quit"
 msgstr "ترک"
 
-#: drakclock:141
+#: drakclock:145
 #, fuzzy, c-format
 msgid "Retry"
 msgstr "بازسازی"
 
-#: drakclock:166 drakclock:176
+#: drakclock:168 drakclock:178
 #, c-format
 msgid "Reset"
 msgstr "بازنشاندن"
@@ -442,10 +447,10 @@ msgstr ""
 msgid "Could not get the list of available channels"
 msgstr ""
 
-#: drakdvb:80 draksec:67 drakups:98 finish-install:106 harddrake2:374
+#: drakdvb:80 draksec:69 drakups:99 finish-install:106 harddrake2:358
 #: scannerdrake:63 scannerdrake:67 scannerdrake:75 scannerdrake:316
 #: scannerdrake:365 scannerdrake:501 scannerdrake:505 scannerdrake:527
-#: service_harddrake:423
+#: service_harddrake:426
 #, c-format
 msgid "Please wait"
 msgstr "لطفاً صبر کنید"
@@ -455,7 +460,7 @@ msgstr "لطفاً صبر کنید"
 msgid "Detecting DVB channels, this will take a few minutes"
 msgstr ""
 
-#: drakdvb:85 drakfont:571 drakfont:651 drakfont:735 drakups:216 logdrake:179
+#: drakdvb:85 drakfont:571 drakfont:651 drakfont:736 drakups:217 logdrake:182
 #, c-format
 msgid "Cancel"
 msgstr "لغو"
@@ -487,20 +492,25 @@ msgstr "GDM (مدیر نمایش گنوم)"
 
 #: drakedm:43
 #, fuzzy, c-format
+msgid "LIGHTDM (LightDM Display Manager)"
+msgstr "GDM (مدیر نمایش گنوم)"
+
+#: drakedm:44
+#, fuzzy, c-format
 msgid "SLIM (Simple Display Manager)"
 msgstr "XDM (X مدیر نمایش)"
 
-#: drakedm:44
+#: drakedm:45
 #, c-format
 msgid "XDM (X Display Manager)"
 msgstr "XDM (X مدیر نمایش)"
 
-#: drakedm:55
+#: drakedm:56
 #, c-format
 msgid "Choosing a display manager"
 msgstr "انتخاب مدیر نمایشی"
 
-#: drakedm:56
+#: drakedm:57
 #, c-format
 msgid ""
 "X11 Display Manager allows you to graphically log\n"
@@ -511,12 +521,12 @@ msgstr ""
 "پنجره‌ی ایکس در حال اجرا ثبت‌ورود کرده و هم‌زمان از اجرای چندین\n"
 "نشست گوناگون ایکس بر رایانه‌ی محلی‌تان پشتیبانی می‌کند."
 
-#: drakedm:79
+#: drakedm:80
 #, c-format
 msgid "The change is done, do you want to restart the dm service?"
 msgstr "تغییر انجام شد، آیا می‌خواهید سرویس dm را دوباره راه‌اندازی کنید؟"
 
-#: drakedm:80
+#: drakedm:81
 #, c-format
 msgid ""
 "You are going to close all running programs and lose your current session. "
@@ -641,7 +651,7 @@ msgstr "بعد از نصب"
 msgid "DrakFont"
 msgstr "DrakFont"
 
-#: drakfont:489 drakfont:641
+#: drakfont:491 drakfont:641
 #, c-format
 msgid "Font List"
 msgstr "لیست قلم"
@@ -656,12 +666,12 @@ msgstr ""
 msgid "About"
 msgstr "درباره"
 
-#: drakfont:499 drakfont:540
+#: drakfont:501 drakfont:540
 #, c-format
 msgid "Options"
 msgstr "گزینه‌ها"
 
-#: drakfont:500 drakfont:720
+#: drakfont:502 drakfont:721
 #, c-format
 msgid "Uninstall"
 msgstr "نصب‌برداری"
@@ -676,24 +686,24 @@ msgstr "واردات"
 msgid "Drakfont"
 msgstr "DrakFont"
 
-#: drakfont:521 harddrake2:229
-#, fuzzy, c-format
-msgid "Copyright (C) %s by OpenMandriva"
-msgstr "حق نسخه‌برداری (C) 2001-2008 Mandriva."
+#: drakfont:523
+#, c-format
+msgid "Copyright (C) %s by Mandriva"
+msgstr ""
 
 #: drakfont:523
 #, fuzzy, c-format
 msgid "Font installer."
 msgstr "نصب نشده"
 
-#: drakfont:525 logdrake:55
-#, c-format
-msgid "OpenMandriva Lx"
+#: drakfont:527
+#, fuzzy, c-format
+msgid "Moondrake GNU/Linux"
 msgstr "ماندریبا لینوکس"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
-#: drakfont:532 harddrake2:238
+#: drakfont:532 harddrake2:531
 #, c-format
 msgid "_: Translator(s) name(s) & email(s)\n"
 msgstr "Abbas Izad <abbasizad@hotmail.com>\n"
@@ -723,7 +733,7 @@ msgstr "Abiword"
 msgid "Generic Printers"
 msgstr "چاپگرهای عمومی"
 
-#: drakfont:561 drakfont:571 drakups:209
+#: drakfont:561 drakfont:571 drakups:210
 #, c-format
 msgid "Ok"
 msgstr "تأیید"
@@ -743,17 +753,17 @@ msgstr "انتخاب پرونده"
 msgid "Fonts"
 msgstr "قلم‌ها"
 
-#: drakfont:639 draksec:164
+#: drakfont:639 draksec:186
 #, c-format
 msgid "Import fonts"
 msgstr "واردات قلم‌ها"
 
-#: drakfont:645 drakups:298 drakups:374
+#: drakfont:645 drakups:299 drakups:375
 #, c-format
 msgid "Add"
 msgstr "افزودن"
 
-#: drakfont:646 drakfont:734 drakups:300 drakups:376
+#: drakfont:646 drakfont:735 drakups:301 drakups:377
 #, c-format
 msgid "Remove"
 msgstr "برداشتن"
@@ -763,67 +773,67 @@ msgstr "برداشتن"
 msgid "Install"
 msgstr "نصب"
 
-#: drakfont:683
+#: drakfont:684
 #, c-format
 msgid "Are you sure you want to uninstall the following fonts?"
 msgstr ""
 
-#: drakfont:687 draksec:57 harddrake2:319
+#: drakfont:688 draksec:59 harddrake2:302
 #, c-format
 msgid "Yes"
 msgstr "بله"
 
-#: drakfont:689 draksec:56 harddrake2:320
+#: drakfont:690 draksec:58 harddrake2:303
 #, c-format
 msgid "No"
 msgstr "نه"
 
-#: drakfont:728
+#: drakfont:729
 #, c-format
 msgid "Unselect All"
 msgstr "همه انتخاب نشده‌اند"
 
-#: drakfont:731
+#: drakfont:732
 #, c-format
 msgid "Select All"
 msgstr "همه انتخاب شده‌اند"
 
-#: drakfont:748
+#: drakfont:749
 #, c-format
 msgid "Importing fonts"
 msgstr "وارد کردن قلم‌ها"
 
-#: drakfont:752 drakfont:772
+#: drakfont:753 drakfont:773
 #, c-format
 msgid "Initial tests"
 msgstr "آزمایش‌های شروعی"
 
-#: drakfont:753
+#: drakfont:754
 #, c-format
 msgid "Copy fonts on your system"
 msgstr "کپی قلم‌ها بر سیستم‌تان"
 
-#: drakfont:754
+#: drakfont:755
 #, c-format
 msgid "Install & convert Fonts"
 msgstr "نصب و تبدیل قلم‌ها"
 
-#: drakfont:755
+#: drakfont:756
 #, c-format
 msgid "Post Install"
 msgstr "بعد از نصب"
 
-#: drakfont:767
+#: drakfont:768
 #, fuzzy, c-format
 msgid "Removing fonts"
 msgstr "وارد کردن قلم‌ها"
 
-#: drakfont:773
+#: drakfont:774
 #, c-format
 msgid "Remove fonts on your system"
 msgstr "برداشتن قلم‌ها از سیستم‌تان"
 
-#: drakfont:774
+#: drakfont:775
 #, c-format
 msgid "Post Uninstall"
 msgstr "بعد از نصب‌برداری"
@@ -901,22 +911,22 @@ msgstr "اجازه‌ها"
 msgid "Editable"
 msgstr "قابل ویرایش"
 
-#: drakperm:48 drakperm:318
+#: drakperm:50 drakperm:318
 #, c-format
 msgid "Path"
 msgstr "مسیر"
 
-#: drakperm:48 drakperm:247
+#: drakperm:50 drakperm:247
 #, c-format
 msgid "User"
 msgstr "کاربر"
 
-#: drakperm:48 drakperm:247
+#: drakperm:50 drakperm:247
 #, c-format
 msgid "Group"
 msgstr "گروه"
 
-#: drakperm:48 drakperm:107 drakperm:330 draksec:179
+#: drakperm:50 drakperm:107 drakperm:330 draksec:201
 #, c-format
 msgid "Permissions"
 msgstr "اجازه‌ها"
@@ -926,7 +936,7 @@ msgstr "اجازه‌ها"
 msgid "Add a new rule"
 msgstr ""
 
-#: drakperm:65 drakperm:100 drakperm:126
+#: drakperm:67 drakperm:102 drakperm:126
 #, c-format
 msgid "Edit current rule"
 msgstr "ويرايش قاعده‌ی کنونی"
@@ -936,7 +946,7 @@ msgstr "ويرايش قاعده‌ی کنونی"
 msgid ""
 "Here you can see files to use in order to fix permissions, owners, and "
 "groups via msec.\n"
-"You can also edit your own rules which will owerwrite the default rules."
+"You can also edit your own rules which will overwrite the default rules."
 msgstr ""
 "در اینجا می‌توانید پرونده‌های مورد استفاده برای تعیین اجازه‌ها، مالکیت‌ها و "
 "گروه‌هارا از طریق msec ببینید.\n"
@@ -992,7 +1002,7 @@ msgstr "حذف کردن"
 msgid "Delete selected rule"
 msgstr "حذف قواعد انتخاب‌شده"
 
-#: drakperm:126 drakups:299 drakups:375
+#: drakperm:126 drakups:300 drakups:376
 #, c-format
 msgid "Edit"
 msgstr "ویرایش"
@@ -1119,24 +1129,24 @@ msgstr "انتخاب مسیر"
 msgid "Property"
 msgstr "مشخصات"
 
-#: drakperm:374
+#: drakperm:371
 #, c-format
 msgid ""
 "The first character of the path must be a slash (\"/\"):\n"
 "\"%s\""
 msgstr ""
 
-#: drakperm:384
+#: drakperm:381
 #, c-format
 msgid "Both the username and the group must valid!"
 msgstr ""
 
-#: drakperm:385
+#: drakperm:382
 #, c-format
 msgid "User: %s"
 msgstr ""
 
-#: drakperm:386
+#: drakperm:383
 #, c-format
 msgid "Group: %s"
 msgstr ""
@@ -1156,7 +1166,7 @@ msgstr "محلی"
 msgid "NONE"
 msgstr "هیچکدام"
 
-#: draksec:54
+#: draksec:56 draksec:113
 #, c-format
 msgid "Default"
 msgstr "پیش‌فرض"
@@ -1173,145 +1183,145 @@ msgstr "سطح امنیت:"
 
 #: draksec:108
 #, c-format
-msgid "Configure access to OpenMandriva Lx administrative tools"
+msgid "Configure authentication required to access DrakX tools"
 msgstr ""
 
-#: draksec:111
+#: draksec:114
 #, c-format
 msgid "No password needed"
 msgstr "بدون گذرواژه"
 
-#: draksec:112
+#: draksec:115
 #, c-format
-msgid "Root password required"
+msgid "Administrator password"
 msgstr ""
 
-#: draksec:113
+#: draksec:116
 #, c-format
 msgid "User password required"
 msgstr ""
 
-#: draksec:146 draksec:202
+#: draksec:168 draksec:223
 #, c-format
 msgid "Software Management"
 msgstr "مدیریت نرم‌افزار"
 
-#: draksec:147
+#: draksec:169
 #, fuzzy, c-format
-msgid "Online Update"
+msgid "%s Update"
 msgstr "ماندریبا بر اینترنت"
 
-#: draksec:148
+#: draksec:170
 #, c-format
 msgid "Software Media Manager"
 msgstr "مدیر رسانه‌های نرم‌افزاری"
 
-#: draksec:149
+#: draksec:171
 #, fuzzy, c-format
 msgid "Configure 3D Desktop effects"
 msgstr "پیکربندی یک کارگزار گروه‌اخبار"
 
-#: draksec:150
+#: draksec:172
 #, fuzzy, c-format
 msgid "Graphical Server Configuration"
 msgstr "پیکربندی اخطار پست"
 
-#: draksec:151
+#: draksec:173
 #, fuzzy, c-format
 msgid "Mouse Configuration"
 msgstr "پیکربندی دستی"
 
-#: draksec:152
+#: draksec:174
 #, fuzzy, c-format
 msgid "Keyboard Configuration"
 msgstr "پیکربندی شبکه"
 
-#: draksec:153
+#: draksec:175
 #, fuzzy, c-format
 msgid "Printer Configuration"
 msgstr "پیکربندی پراکسی"
 
-#: draksec:154
+#: draksec:176
 #, fuzzy, c-format
 msgid "UPS Configuration"
 msgstr "پیکربندی راه‌انداز UPS"
 
-#: draksec:155
+#: draksec:177
 #, fuzzy, c-format
 msgid "Network Configuration"
 msgstr "پیکربندی اخطار"
 
-#: draksec:156
+#: draksec:178
 #, c-format
 msgid "Hosts definitions"
 msgstr ""
 
-#: draksec:157
+#: draksec:179
 #, fuzzy, c-format
 msgid "Network Center"
 msgstr "شبکه و اینترنت"
 
-#: draksec:158
+#: draksec:180
 #, c-format
 msgid "Wireless Network Roaming"
 msgstr ""
 
-#: draksec:159
+#: draksec:181
 #, c-format
 msgid "VPN"
 msgstr ""
 
-#: draksec:160
+#: draksec:182
 #, c-format
 msgid "Proxy Configuration"
 msgstr "پیکربندی پراکسی"
 
-#: draksec:161
+#: draksec:183
 #, fuzzy, c-format
 msgid "Connection Sharing"
 msgstr "اتصال"
 
-#: draksec:163
+#: draksec:185
 #, c-format
 msgid "Backups"
 msgstr "ذخیره‌های پشتیبانی"
 
-#: draksec:165 logdrake:56
+#: draksec:187 logdrake:56
 #, c-format
 msgid "Logs"
 msgstr "ثبت‌ها"
 
-#: draksec:166 finish-install:210 finish-install:249
+#: draksec:188 finish-install:212 finish-install:251
 #, c-format
 msgid "Services"
 msgstr "سرویس‌ها"
 
-#: draksec:167
+#: draksec:189
 #, fuzzy, c-format
 msgid "Users"
 msgstr "کاربر"
 
-#: draksec:169
+#: draksec:191
 #, fuzzy, c-format
 msgid "Boot Configuration"
 msgstr "پیکربندی اخطار"
 
-#: draksec:203
+#: draksec:224
 #, c-format
 msgid "Hardware"
 msgstr "سخت‌افزار"
 
-#: draksec:204
+#: draksec:225
 #, fuzzy, c-format
 msgid "Network"
 msgstr "گزینه‌های شبکه"
 
-#: draksec:205
+#: draksec:226
 #, c-format
 msgid "System"
 msgstr "سیستم"
 
-#: draksec:206
+#: draksec:227
 #, c-format
 msgid "Boot"
 msgstr "آغازگری"
@@ -1402,12 +1412,12 @@ msgstr ""
 msgid "Autodetection"
 msgstr "شناسائی خودکار"
 
-#: drakups:98 harddrake2:374
+#: drakups:99 harddrake2:358
 #, c-format
 msgid "Detection in progress"
 msgstr "شناسایی در پیشروی است"
 
-#: drakups:117 drakups:156 logdrake:461 logdrake:467
+#: drakups:118 drakups:157 logdrake:465 logdrake:471
 #, c-format
 msgid "Congratulations"
 msgstr "تبریک می‌گوئیم!"
@@ -1542,7 +1552,7 @@ msgstr "سطح"
 msgid "ACL name"
 msgstr "نام ACL"
 
-#: drakups:296 finish-install:258
+#: drakups:297 finish-install:260
 #, c-format
 msgid "Password"
 msgstr "گذرواژه"
@@ -1595,7 +1605,7 @@ msgid "Keyboard"
 msgstr "صفحه‌کلید"
 
 #: finish-install:58
-#, fuzzy, c-format
+#, c-format
 msgid "Please choose your keyboard layout."
 msgstr "لطفاً، طرح صفحه‌کلید خود را انتخاب کنید."
 
@@ -1604,57 +1614,62 @@ msgstr "لطفاً، طرح صفحه‌کلید خود را انتخاب کنی�
 msgid "Testing your connection..."
 msgstr ""
 
-#: finish-install:185
+#: finish-install:187
 #, c-format
 msgid "Windows-compatible sharing system"
 msgstr ""
 
-#: finish-install:188
+#: finish-install:189
+#, c-format
+msgid "Virtual Private Network"
+msgstr ""
+
+#: finish-install:190
 #, fuzzy, c-format
 msgid "OpenSSH server"
 msgstr "کارگزار‌ SSH"
 
-#: finish-install:189
+#: finish-install:191
 #, fuzzy, c-format
 msgid "Print server"
 msgstr "کارگزار FTP "
 
-#: finish-install:209
+#: finish-install:211
 #, c-format
 msgid "Do you have any services that you want to run when starting up?"
 msgstr ""
 
-#: finish-install:241
+#: finish-install:243
 #, fuzzy, c-format
 msgid "The following services failed to start:\n"
 msgstr "بسته‌های بدنبال آمده لازم است نصب شوند:\n"
 
-#: finish-install:244
+#: finish-install:246
 #, fuzzy, c-format
 msgid "The following services failed to stop:\n"
 msgstr "بسته‌های بدنبال آمده لازم است نصب شوند:\n"
 
-#: finish-install:256 finish-install:274 finish-install:287
+#: finish-install:258 finish-install:276 finish-install:289
 #, c-format
 msgid "Encrypted home partition"
 msgstr ""
 
-#: finish-install:256
+#: finish-install:258
 #, c-format
 msgid "Please enter a password for the %s user"
 msgstr ""
 
-#: finish-install:259
+#: finish-install:261
 #, c-format
 msgid "Password (again)"
 msgstr "گذرواژه (دوباره)"
 
-#: finish-install:274
+#: finish-install:276
 #, c-format
 msgid "Creating encrypted home partition"
 msgstr ""
 
-#: finish-install:287
+#: finish-install:289
 #, c-format
 msgid "Formatting encrypted home partition"
 msgstr ""
@@ -2286,48 +2301,144 @@ msgstr "قسمت‌بندیها"
 msgid "Features"
 msgstr "قابلیتها"
 
-#. -PO: please keep all "/" characters !!!
-#: harddrake2:179 logdrake:82
+#: harddrake2:179
 #, c-format
-msgid "/_Options"
-msgstr "/_گزینه‌ها"
+msgid "Autodetect _modems"
+msgstr "شناسایی‌خودکار _مودم‌ها"
 
-#: harddrake2:180 harddrake2:203 logdrake:84
+#: harddrake2:180
 #, c-format
-msgid "/_Help"
-msgstr "/ـراهنما"
-
-#: harddrake2:184
-#, c-format
-msgid "/Autodetect _modems"
-msgstr "/شناسایی‌خودکار _مودم‌ها"
-
-#: harddrake2:185
-#, c-format
-msgid "/Autodetect parallel _zip drives"
+msgid "Autodetect parallel _zip drives"
 msgstr ""
 
-#: harddrake2:189
+#: harddrake2:184
 #, fuzzy, c-format
 msgid "Hardware Configuration"
 msgstr "پیکربندی شبکه"
 
+#: harddrake2:193
+#, c-format
+msgid "_Options"
+msgstr "_گزینه‌ها"
+
+#: harddrake2:194 harddrake2:195
+#, c-format
+msgid "_Help"
+msgstr "ـراهنما"
+
+#: harddrake2:195
+#, fuzzy, c-format
+msgid "<control>H"
+msgstr "<control>Q"
+
 #: harddrake2:196
 #, c-format
-msgid "/_Quit"
-msgstr "/_ترک"
+msgid "_Fields description"
+msgstr "توضیحات _محوطه‌ها"
 
-#: harddrake2:205
+#: harddrake2:197
 #, c-format
-msgid "/_Fields description"
-msgstr "/توضیحات _محوطه‌ها"
+msgid "_Report Bug"
+msgstr "_گزارش اشکال"
 
-#: harddrake2:207
+#: harddrake2:198
+#, c-format
+msgid "_About..."
+msgstr "_درباره..."
+
+#: harddrake2:242
+#, c-format
+msgid "Detected hardware"
+msgstr "سخت‌افزار شناسایی شده"
+
+#: harddrake2:245 scannerdrake:283
+#, c-format
+msgid "Information"
+msgstr "اطلاعات"
+
+#: harddrake2:247
+#, c-format
+msgid "Set current driver options"
+msgstr ""
+
+#: harddrake2:254
+#, c-format
+msgid "Run config tool"
+msgstr "اجرای ابزار پیکربندی"
+
+#: harddrake2:280
+#, c-format
+msgid ""
+"Click on a device in the tree on the left in order to display its "
+"information here."
+msgstr "بر روی دستگاهی در درخت چپ برای نمایش اطلاعات آن در اینجا، کلیک کنید."
+
+#: harddrake2:300 notify-x11-free-driver-switch:13
+#, c-format
+msgid "unknown"
+msgstr "ناشناس"
+
+#: harddrake2:301
+#, c-format
+msgid "Unknown"
+msgstr "نامعلوم"
+
+#: harddrake2:321
+#, c-format
+msgid "Misc"
+msgstr "Misc"
+
+#: harddrake2:404
+#, c-format
+msgid "secondary"
+msgstr "دومین"
+
+#: harddrake2:404
+#, c-format
+msgid "primary"
+msgstr "اولین"
+
+#: harddrake2:408
+#, c-format
+msgid "burner"
+msgstr "سوزنده"
+
+#: harddrake2:408
+#, c-format
+msgid "DVD"
+msgstr "دی‌وی‌دی"
+
+#: harddrake2:504
+#, c-format
+msgid "The following packages need to be installed:\n"
+msgstr "بسته‌های بدنبال آمده لازم است نصب شوند:\n"
+
+#: harddrake2:521
+#, fuzzy, c-format
+msgid "Harddrake"
+msgstr "Harddrake2"
+
+#: harddrake2:523
+#, c-format
+msgid "Copyright (C) %s by %s"
+msgstr ""
+
+#: harddrake2:523 harddrake2:527
+#, c-format
+msgid "Mageia"
+msgstr ""
+
+#: harddrake2:525
+#, c-format
+msgid "This is HardDrake, a %s hardware configuration tool."
+msgstr ""
+
+#: harddrake2:540
 #, c-format
 msgid "Harddrake help"
 msgstr "راهنمای سخت‌درایک"
 
-#: harddrake2:208
+#: harddrake2:541
 #, c-format
 msgid ""
 "Description of the fields:\n"
@@ -2336,12 +2447,12 @@ msgstr ""
 "توضیح محوطه‌ها:\n"
 "\n"
 
-#: harddrake2:216
+#: harddrake2:548
 #, c-format
 msgid "Select a device!"
 msgstr "انتخاب یک دستگاه !"
 
-#: harddrake2:216
+#: harddrake2:548
 #, c-format
 msgid ""
 "Once you've selected a device, you'll be able to see the device information "
@@ -2349,98 +2460,6 @@ msgid ""
 msgstr ""
 "هنگامی که شما یک دستگاه را انتخاب کرده‌اید، می‌توانید اطلاعات دستگاه را در "
 "مناطق نمایش داده شده در قاب سمت راست (\"اطلاعات\") مشاهده کنید"
-
-#: harddrake2:222
-#, c-format
-msgid "/_Report Bug"
-msgstr "/_گزارش اشکال"
-
-#: harddrake2:224
-#, c-format
-msgid "/_About..."
-msgstr "/_درباره..."
-
-#: harddrake2:227
-#, fuzzy, c-format
-msgid "Harddrake"
-msgstr "Harddrake2"
-
-#: harddrake2:231
-#, c-format
-msgid "This is HardDrake, a %s hardware configuration tool."
-msgstr ""
-
-#: harddrake2:233
-#, fuzzy, c-format
-msgid "OpenMandriva Linux"
-msgstr "ماندریبا لینوکس"
-
-#: harddrake2:264
-#, c-format
-msgid "Detected hardware"
-msgstr "سخت‌افزار شناسایی شده"
-
-#: harddrake2:267 scannerdrake:283
-#, c-format
-msgid "Information"
-msgstr "اطلاعات"
-
-#: harddrake2:269
-#, c-format
-msgid "Set current driver options"
-msgstr ""
-
-#: harddrake2:276
-#, c-format
-msgid "Run config tool"
-msgstr "اجرای ابزار پیکربندی"
-
-#: harddrake2:296
-#, c-format
-msgid ""
-"Click on a device in the tree on the left in order to display its "
-"information here."
-msgstr "بر روی دستگاهی در درخت چپ برای نمایش اطلاعات آن در اینجا، کلیک کنید."
-
-#: harddrake2:317 notify-x11-free-driver-switch:13
-#, c-format
-msgid "unknown"
-msgstr "ناشناس"
-
-#: harddrake2:318
-#, c-format
-msgid "Unknown"
-msgstr "نامعلوم"
-
-#: harddrake2:338
-#, c-format
-msgid "Misc"
-msgstr "Misc"
-
-#: harddrake2:420
-#, c-format
-msgid "secondary"
-msgstr "دومین"
-
-#: harddrake2:420
-#, c-format
-msgid "primary"
-msgstr "اولین"
-
-#: harddrake2:424
-#, c-format
-msgid "burner"
-msgstr "سوزنده"
-
-#: harddrake2:424
-#, c-format
-msgid "DVD"
-msgstr "دی‌وی‌دی"
-
-#: harddrake2:528
-#, c-format
-msgid "The following packages need to be installed:\n"
-msgstr "بسته‌های بدنبال آمده لازم است نصب شوند:\n"
 
 #: localedrake:38
 #, c-format
@@ -2459,219 +2478,174 @@ msgid ", "
 msgstr ", "
 
 #: logdrake:55
-#, c-format
-msgid "%s Tools Logs"
-msgstr ""
+#, fuzzy, c-format
+msgid "DrakX Tools Logs"
+msgstr "ثبتهای ابزارهای لینوکس ماندریبا"
 
 #: logdrake:69
 #, c-format
 msgid "Show only for the selected day"
 msgstr "فقط برای روز انتخاب شده نشان داده شود"
 
-#: logdrake:76
-#, c-format
-msgid "/File/_New"
-msgstr "/پرونده/_جدید"
-
-#: logdrake:76
-#, c-format
-msgid "<control>N"
-msgstr "<control>N"
-
-#: logdrake:77
-#, c-format
-msgid "/File/_Open"
-msgstr "/پرونده/_باز کردن"
-
-#: logdrake:77
-#, c-format
-msgid "<control>O"
-msgstr "<control>O"
-
-#: logdrake:78
-#, c-format
-msgid "/File/_Save"
-msgstr "/پرونده/_ذخیره"
-
 #: logdrake:78
 #, c-format
 msgid "<control>S"
 msgstr "<control>S"
 
-#: logdrake:79
-#, c-format
-msgid "/File/Save _As"
-msgstr "/پرونده/ذخیره _بنام"
-
-#: logdrake:80
-#, c-format
-msgid "/File/-"
-msgstr "/پرونده/-"
-
-#: logdrake:83
-#, c-format
-msgid "/Options/Test"
-msgstr "/گزینه‌ها/آزمایش"
-
-#: logdrake:85
-#, c-format
-msgid "/Help/_About..."
-msgstr "/راهنما/_درباره..."
-
-#: logdrake:114
+#: logdrake:117
 #, c-format
 msgid ""
 "_:this is the auth.log log file\n"
 "Authentication"
 msgstr "تأیید هویت"
 
-#: logdrake:115
+#: logdrake:118
 #, c-format
 msgid ""
 "_:this is the user.log log file\n"
 "User"
 msgstr "کاربر"
 
-#: logdrake:116
+#: logdrake:119
 #, c-format
 msgid ""
 "_:this is the /var/log/messages log file\n"
 "Messages"
 msgstr "پیغام‌ها"
 
-#: logdrake:117
+#: logdrake:120
 #, c-format
 msgid ""
 "_:this is the /var/log/syslog log file\n"
 "Syslog"
 msgstr "Syslog"
 
-#: logdrake:121
+#: logdrake:124
 #, c-format
 msgid "search"
 msgstr "جستجو"
 
-#: logdrake:133
+#: logdrake:136
 #, c-format
 msgid "A tool to monitor your logs"
 msgstr "ابزاری برای پایشگری ثبت‌هایتان"
 
-#: logdrake:135
+#: logdrake:138
 #, c-format
 msgid "Settings"
 msgstr "تنظیمات"
 
-#: logdrake:138
+#: logdrake:141
 #, c-format
 msgid "Matching"
 msgstr "تطابق"
 
-#: logdrake:139
+#: logdrake:142
 #, c-format
 msgid "but not matching"
 msgstr "ولی تطبیق نمی‌کند"
 
-#: logdrake:142
+#: logdrake:145
 #, c-format
 msgid "Choose file"
 msgstr "انتخاب پرونده"
 
-#: logdrake:154
+#: logdrake:157
 #, c-format
 msgid "Calendar"
 msgstr "تقویم"
 
-#: logdrake:163
+#: logdrake:166
 #, c-format
 msgid "Content of the file"
 msgstr "محتوای پرونده"
 
-#: logdrake:167 logdrake:411
+#: logdrake:170 logdrake:415
 #, c-format
 msgid "Mail alert"
 msgstr "اخطار پست"
 
-#: logdrake:174
+#: logdrake:177
 #, c-format
 msgid "The alert wizard has failed unexpectedly:"
 msgstr "جادوگر اخطار بطور غیرمنتظره‌ای شکست خورد:"
 
-#: logdrake:178
+#: logdrake:181
 #, c-format
 msgid "Save"
 msgstr "ذخیره"
 
-#: logdrake:226
+#: logdrake:230
 #, c-format
 msgid "please wait, parsing file: %s"
 msgstr "لطفاً صبر کنید، تجزیه‌ی پرونده: %s"
 
-#: logdrake:248
+#: logdrake:252
 #, c-format
 msgid "Sorry, log file isn't available!"
 msgstr ""
 
-#: logdrake:296
+#: logdrake:300
 #, c-format
 msgid "Error while opening \"%s\" log file: %s\n"
 msgstr ""
 
-#: logdrake:389
+#: logdrake:393
 #, c-format
 msgid "Apache World Wide Web Server"
 msgstr "کارگزار تورنمای گیتی آپاچی"
 
-#: logdrake:390
+#: logdrake:394
 #, c-format
 msgid "Domain Name Resolver"
 msgstr "یابنده‌ی دامنه‌ی نام"
 
-#: logdrake:391
+#: logdrake:395
 #, c-format
 msgid "Ftp Server"
 msgstr "کارگزار FTP "
 
-#: logdrake:392
+#: logdrake:396
 #, c-format
 msgid "Postfix Mail Server"
 msgstr "پسوند کارگزار پست"
 
-#: logdrake:393
+#: logdrake:397
 #, c-format
 msgid "Samba Server"
 msgstr "کارگزار سامبا"
 
-#: logdrake:394
+#: logdrake:398
 #, c-format
 msgid "SSH Server"
 msgstr "کارگزار‌ SSH"
 
-#: logdrake:395
+#: logdrake:399
 #, c-format
 msgid "Webmin Service"
 msgstr "سرویس Webmin"
 
-#: logdrake:396
+#: logdrake:400
 #, c-format
 msgid "Xinetd Service"
 msgstr "سرویس Xinetd"
 
-#: logdrake:405
+#: logdrake:409
 #, c-format
 msgid "Configure the mail alert system"
 msgstr "پیکربندی سیستم هشدار پست"
 
-#: logdrake:406
+#: logdrake:410
 #, c-format
 msgid "Stop the mail alert system"
 msgstr "ایست سیستم هشدار پست"
 
-#: logdrake:414
+#: logdrake:418
 #, c-format
 msgid "Mail alert configuration"
 msgstr "پیکربندی اخطار پست"
 
-#: logdrake:415
+#: logdrake:419
 #, c-format
 msgid ""
 "Welcome to the mail configuration utility.\n"
@@ -2682,17 +2656,17 @@ msgstr ""
 "\n"
 "در اینجا می‌توانید اخطار سیستم را برپاسازی کنید.\n"
 
-#: logdrake:418
+#: logdrake:422
 #, c-format
 msgid "What do you want to do?"
 msgstr "چکار می‌خواهید بکنید؟"
 
-#: logdrake:425
+#: logdrake:429
 #, c-format
 msgid "Services settings"
 msgstr "تنظیمات سرویس‌ها"
 
-#: logdrake:426
+#: logdrake:430
 #, c-format
 msgid ""
 "You will receive an alert if one of the selected services is no longer "
@@ -2701,55 +2675,55 @@ msgstr ""
 "اگر یکی از سرویس‌های انتخاب شده دیگر در حال اجرا نباشد اخطاری دریافت خواهید "
 "کرد"
 
-#: logdrake:433
+#: logdrake:437
 #, c-format
 msgid "Load setting"
 msgstr "تنظیم بارگذاری"
 
-#: logdrake:434
+#: logdrake:438
 #, c-format
 msgid "You will receive an alert if the load is higher than this value"
 msgstr "اگر بارگذاری بیش از این مقدار باشد اخطاری دریافت خواهید کرد"
 
-#: logdrake:435
+#: logdrake:439
 #, c-format
 msgid ""
 "_: load here is a noun, the load of the system\n"
 "Load"
 msgstr "بار"
 
-#: logdrake:440
+#: logdrake:444
 #, c-format
 msgid "Alert configuration"
 msgstr "پیکربندی اخطار"
 
-#: logdrake:441
+#: logdrake:445
 #, c-format
 msgid "Please enter your email address below "
 msgstr "لطفاً نشانی پست الکترونیکی خود را در زیر وارد کنید"
 
-#: logdrake:442
+#: logdrake:446
 #, c-format
 msgid "and enter the name (or the IP) of the SMTP server you wish to use"
 msgstr ""
 "و نام (یا نشانی آی‌پی) کارگزار SMTP را که می‌خواهید استفاده کنید را وارد کنید"
 
-#: logdrake:444
+#: logdrake:448
 #, fuzzy, c-format
 msgid "Email address"
 msgstr "نشانی آی‌پی"
 
-#: logdrake:445
+#: logdrake:449
 #, fuzzy, c-format
 msgid "Email server"
 msgstr "کارگزار سامبا"
 
-#: logdrake:449
+#: logdrake:453
 #, c-format
 msgid "\"%s\" neither is a valid email nor is an existing local user!"
 msgstr "\"%s\" نه پست معتبری است و نه کاربر محلی موجود"
 
-#: logdrake:454
+#: logdrake:458
 #, c-format
 msgid ""
 "\"%s\" is a local user, but you did not select a local smtp, so you must use "
@@ -2758,23 +2732,23 @@ msgstr ""
 "\"%s\" کاربر محلی است، ولی شما یک SMTP محلی را انتخاب نکردید، بنابرین باید "
 "از نشانی کامل پست ایکترونیکی استفاده کنید!"
 
-#: logdrake:461
+#: logdrake:465
 #, c-format
 msgid "The wizard successfully configured the mail alert."
 msgstr "جادوگر با موفقیت اخطار پست را پیکربندی کرد."
 
-#: logdrake:467
+#: logdrake:471
 #, c-format
 msgid "The wizard successfully disabled the mail alert."
 msgstr "جادوگر با موفقیت هشدار پستی را از کار انداخت."
 
-#: logdrake:526
+#: logdrake:530
 #, c-format
 msgid "Save as.."
 msgstr "ذخیره بنام..."
 
-#: notify-x11-free-driver-switch:18 service_harddrake:465
-#: service_harddrake:478
+#: notify-x11-free-driver-switch:18 service_harddrake:468
+#: service_harddrake:481
 #, c-format
 msgid "Display driver setup"
 msgstr ""
@@ -3360,27 +3334,27 @@ msgstr "چند دستگاه اضافه شده‌اند: %s\n"
 msgid "- %s was added\n"
 msgstr "- %s افزوده شده است\n"
 
-#: service_harddrake:397
+#: service_harddrake:400
 #, c-format
 msgid "Hardware changes in \"%s\" class (%s seconds to answer)"
 msgstr "تغییرات سخت‌افزاری در رده‌ی \"%s\" (%s ثانیه برای جواب دادن)"
 
-#: service_harddrake:398
+#: service_harddrake:401
 #, c-format
 msgid "Do you want to run the appropriate config tool?"
 msgstr "آیا می‌خواهید ابزار پیکربندی مناسب را اجرا کنید؟"
 
-#: service_harddrake:423
+#: service_harddrake:426
 #, c-format
 msgid "Hardware probing in progress"
 msgstr "وارسی سخت‌افزار در پیشروی است"
 
-#: service_harddrake:444 service_harddrake:449
+#: service_harddrake:447 service_harddrake:452
 #, c-format
 msgid "Display driver issue"
 msgstr ""
 
-#: service_harddrake:445
+#: service_harddrake:448
 #, c-format
 msgid ""
 "The display driver currently configured requires you to use the 'nokmsboot' "
@@ -3389,7 +3363,7 @@ msgid ""
 "specified."
 msgstr ""
 
-#: service_harddrake:450
+#: service_harddrake:453
 #, c-format
 msgid ""
 "Detected a loaded display driver kernel module which conflicts with the "
@@ -3397,23 +3371,14 @@ msgid ""
 "fail."
 msgstr ""
 
-#: service_harddrake:465 service_harddrake:478
+#: service_harddrake:468 service_harddrake:481
 #, c-format
 msgid "The system has to be rebooted due to a display driver change."
 msgstr ""
 
-#: service_harddrake:466 service_harddrake:479
+#: service_harddrake:469 service_harddrake:482
 #, c-format
 msgid "Press Cancel within %d seconds to abort."
-msgstr ""
-
-#: ../menu/localedrake-system.desktop.in.h:1
-#, fuzzy
-msgid "System Regional Settings"
-msgstr "تنظیمات سیستم"
-
-#: ../menu/localedrake-system.desktop.in.h:2
-msgid "System wide language & country configurator"
 msgstr ""
 
 #: ../menu/harddrake.desktop.in.h:1
@@ -3430,6 +3395,15 @@ msgstr "پیکربندی شبکه"
 msgid "Hardware Configuration Tool"
 msgstr "پیکربندی شبکه"
 
+#: ../menu/localedrake-system.desktop.in.h:1
+#, fuzzy
+msgid "System Regional Settings"
+msgstr "تنظیمات سیستم"
+
+#: ../menu/localedrake-system.desktop.in.h:2
+msgid "System wide language & country configurator"
+msgstr ""
+
 #: ../menu/localedrake-user.desktop.in.h:1
 #, fuzzy
 msgid "Regional Settings"
@@ -3440,14 +3414,336 @@ msgstr "تنظیمات"
 msgid "Language & country configuration"
 msgstr "پیکربندی دستی"
 
+#: ../polkit/org.moondrake.drakauth.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Authentication Configuration"
+msgstr "پیکربندی گام‌های خودکار"
+
+#: ../polkit/org.moondrake.drakauth.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Authentication Configuration"
+msgstr "پیکربندی گام‌های خودکار"
+
+#: ../polkit/org.moondrake.drakboot.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Boot Configuration"
+msgstr "پیکربندی اخطار"
+
+#: ../polkit/org.moondrake.drakboot.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Boot Configuration"
+msgstr "پیکربندی اخطار"
+
+#: ../polkit/org.moondrake.drakclock.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Date and Time Configuration"
+msgstr "پیکربندی اخطار پست"
+
+#: ../polkit/org.moondrake.drakclock.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Date and Time Configuration"
+msgstr "پیکربندی اخطار پست"
+
+#: ../polkit/org.moondrake.drakdisk.policy.in.h:1
+msgid "Run DrakX Disk Layout Editor"
+msgstr ""
+
+#: ../polkit/org.moondrake.drakdisk.policy.in.h:2
+msgid "Authentication is required to run DrakX Disk Layout Editor"
+msgstr ""
+
+#: ../polkit/org.moondrake.drakdm.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Login Manager Configuration"
+msgstr "پیکربندی دستی"
+
+#: ../polkit/org.moondrake.drakdm.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Login Manager Configuration"
+msgstr "پیکربندی دستی"
+
+#: ../polkit/org.moondrake.drakfont.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Font Configuration"
+msgstr "پیکربندی دستی"
+
+#: ../polkit/org.moondrake.drakfont.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Font Configuration"
+msgstr "پیکربندی دستی"
+
+#: ../polkit/org.moondrake.drakhardware.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Hardware Configuration"
+msgstr "پیکربندی اخطار پست"
+
+#: ../polkit/org.moondrake.drakhardware.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Hardware Configuration"
+msgstr "پیکربندی اخطار پست"
+
+#: ../polkit/org.moondrake.draklog.policy.in.h:1
+msgid "Run DrakX Log Viewer"
+msgstr ""
+
+#: ../polkit/org.moondrake.draklog.policy.in.h:2
+msgid "Authentication is required to run DrakX Log Viewer"
+msgstr ""
+
+#: ../polkit/org.moondrake.drakperm.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Security Permissions Configuration"
+msgstr "پیکربندی اخطار پست"
+
+#: ../polkit/org.moondrake.drakperm.policy.in.h:2
+#, fuzzy
+msgid ""
+"Authentication is required to run DrakX Security Permissions Configuration"
+msgstr "پیکربندی اخطار پست"
+
+#: ../polkit/org.moondrake.drakscanner.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Scanner Configuration"
+msgstr "پیکربندی اخطار پست"
+
+#: ../polkit/org.moondrake.drakscanner.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Scanner Configuration"
+msgstr "پیکربندی اخطار پست"
+
+#: ../polkit/org.moondrake.draksec.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Application Security Configuration"
+msgstr "پیکربندی گام‌های خودکار"
+
+#: ../polkit/org.moondrake.draksec.policy.in.h:2
+#, fuzzy
+msgid ""
+"Authentication is required to run DrakX Application Security Configuration"
+msgstr "پیکربندی گام‌های خودکار"
+
+#: ../polkit/org.moondrake.drakups.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX UPS Configuration"
+msgstr "پیکربندی راه‌انداز UPS"
+
+#: ../polkit/org.moondrake.drakups.policy.in.h:2
+msgid "Authentication is required to run DrakX UPS Configuration"
+msgstr ""
+
+#: ../polkit/org.moondrake.moondrakeservices.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Service Configuration"
+msgstr "پیکربندی اخطار پست"
+
+#: ../polkit/org.moondrake.moondrakeservices.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Service Configuration"
+msgstr "پیکربندی اخطار پست"
+
+#, fuzzy
+#~ msgid "%s Bug Report Tool"
+#~ msgstr "ابزار گزارش اشکال لینوکس ماندریبا"
+
+#, fuzzy
+#~ msgid "%s Tools Logs"
+#~ msgstr "ثبتهای ابزارهای لینوکس ماندریبا"
+
+#, fuzzy
+#~ msgid "Run Moondrake Application Security Configuration"
+#~ msgstr "پیکربندی گام‌های خودکار"
+
+#, fuzzy
+#~ msgid "Run Moondrake Authentication Configuration"
+#~ msgstr "پیکربندی گام‌های خودکار"
+
+#, fuzzy
+#~ msgid "Run Moondrake Boot Configuration"
+#~ msgstr "پیکربندی اخطار"
+
+#, fuzzy
+#~ msgid "Run Moondrake Date and Time Configuration"
+#~ msgstr "پیکربندی اخطار پست"
+
+#, fuzzy
+#~ msgid "Run Moondrake Font Configuration"
+#~ msgstr "پیکربندی دستی"
+
+#, fuzzy
+#~ msgid "Run Moondrake Hardware Configuration"
+#~ msgstr "پیکربندی اخطار پست"
+
+#, fuzzy
+#~ msgid "Run Moondrake Login Manager Configuration"
+#~ msgstr "پیکربندی دستی"
+
+#, fuzzy
+#~ msgid "Run Moondrake Scanner Configuration"
+#~ msgstr "پیکربندی اخطار پست"
+
+#, fuzzy
+#~ msgid "Run Moondrake Security Permissions Configuration"
+#~ msgstr "پیکربندی اخطار پست"
+
+#, fuzzy
+#~ msgid "Run Moondrake Service Configuration"
+#~ msgstr "پیکربندی اخطار پست"
+
+#, fuzzy
+#~ msgid "Run Moondrake UPS Configuration"
+#~ msgstr "پیکربندی راه‌انداز UPS"
+
+#~ msgid ""
+#~ "\n"
+#~ "Welcome.\n"
+#~ "\n"
+#~ "The parameters of the auto-install are available in the sections on the "
+#~ "left"
+#~ msgstr ""
+#~ "\n"
+#~ "خوش آمدید.\n"
+#~ "\n"
+#~ "پارامترهای نصب-خودکار در قسمت‌های در سمت چپ در دسترس هستند"
+
+#, fuzzy
+#~ msgid "  --help                - display this help     \n"
+#~ msgstr " --help                - این راهنما را نشان می‌دهد     \n"
+
+#, fuzzy
+#~ msgid ""
+#~ " drakhelp 0.1\n"
+#~ "Copyright (C) %s Mandriva.\n"
+#~ "Copyright (C) %s Moondrake.\n"
+#~ "This is free software and may be redistributed under the terms of the GNU "
+#~ "GPL.\n"
+#~ "\n"
+#~ "Usage: \n"
+#~ msgstr ""
+#~ " drakhelp 0.1\n"
+#~ "Copyright (C) %s Mandriva.\n"
+#~ "این یک نرم‌افزار آزاد بوده و ممکن است تحت شروط GNU GPL انتشار مجدد گردد.\n"
+#~ "\n"
+#~ "طرز استفاده: \n"
+
+#, fuzzy
+#~ msgid "%s Control Center"
+#~ msgstr "مرکز کنترل لینوکس ماندریبا "
+
+#, fuzzy
+#~ msgid "%s Help Center"
+#~ msgstr "مرکز راهنمای لینوکس ماندریبا"
+
+#~ msgid "(default value: %s)"
+#~ msgstr "(مقدار پیش‌فرض: %s)"
+
 #~ msgid "/Autodetect _jaz drives"
 #~ msgstr "/شناسایی _خودکار راه‌انداز jaz"
 
-#~ msgid "OpenMandriva Lx Tools Logs"
-#~ msgstr "ثبتهای ابزارهای لینوکس ماندریبا"
+#~ msgid "/Autodetect _modems"
+#~ msgstr "/شناسایی‌خودکار _مودم‌ها"
 
 #~ msgid "/Autodetect _printers"
 #~ msgstr "/شناسایی‌خودکار _چاپگرها"
+
+#~ msgid "/File/-"
+#~ msgstr "/پرونده/-"
+
+#~ msgid "/File/Save _As"
+#~ msgstr "/پرونده/ذخیره _بنام"
+
+#~ msgid "/File/_New"
+#~ msgstr "/پرونده/_جدید"
+
+#~ msgid "/File/_Open"
+#~ msgstr "/پرونده/_باز کردن"
+
+#~ msgid "/File/_Quit"
+#~ msgstr "/پرونده/_خروج"
+
+#~ msgid "/File/_Save"
+#~ msgstr "/پرونده/_ذخیره"
+
+#~ msgid "/Help/_About..."
+#~ msgstr "/راهنما/_درباره..."
+
+#~ msgid "/Options/Test"
+#~ msgstr "/گزینه‌ها/آزمایش"
+
+#~ msgid "/_About..."
+#~ msgstr "/_درباره..."
+
+#~ msgid "/_Fields description"
+#~ msgstr "/توضیحات _محوطه‌ها"
+
+#~ msgid "/_File"
+#~ msgstr "/_پرونده"
+
+#~ msgid "/_Help"
+#~ msgstr "/ـراهنما"
+
+#~ msgid "/_Options"
+#~ msgstr "/_گزینه‌ها"
+
+#~ msgid "/_Quit"
+#~ msgstr "/_ترک"
+
+#~ msgid "/_Report Bug"
+#~ msgstr "/_گزارش اشکال"
+
+#~ msgid "<control>N"
+#~ msgstr "<control>N"
+
+#~ msgid "<control>O"
+#~ msgstr "<control>O"
+
+#~ msgid "Add an item"
+#~ msgstr "افزودن یک آیتم"
+
+#~ msgid "Auto Install"
+#~ msgstr "نصب خودکار"
+
+#~ msgid "Auto Install Configurator"
+#~ msgstr "پیکربند نصب خودکار"
+
+#~ msgid "Autodetect _jaz drives"
+#~ msgstr "شناسایی _خودکار راه‌انداز jaz"
+
+#~ msgid "Autodetect _printers"
+#~ msgstr "شناسایی‌خودکار _چاپگرها"
+
+#~ msgid "Automatic Steps Configuration"
+#~ msgstr "پیکربندی گام‌های خودکار"
+
+#~ msgid "Background color"
+#~ msgstr "رنگ پس‌زمینه"
+
+#~ msgid "Basic options"
+#~ msgstr "گزینه‌های پایه"
+
+#~ msgid "Bugs"
+#~ msgstr "اشکالها"
+
+#~ msgid "Coma bug"
+#~ msgstr "اشکال ویرگول"
+
+#, fuzzy
+#~ msgid "Copyright (C) %s by Moondrake"
+#~ msgstr "حق نسخه‌برداری (C) 2001-2008 Mandriva."
+
+#~ msgid "Copyright (C) 2001-2008 by Mandriva"
+#~ msgstr "حق نسخه‌برداری (C) 2001-2008 Mandriva."
+
+#~ msgid "Create new theme"
+#~ msgstr "ایجاد تم‌ جدید"
+
+#~ msgid "Creating auto install floppy"
+#~ msgstr "ایجاد دیسکچه نصب خودکار"
+
+#~ msgid "Creating auto install floppy (drivers disk)"
+#~ msgstr "ایجاد دیسکچه نصب خودکار (دیسک راه‌اندازها)"
+
+#~ msgid "Display logo on Console"
+#~ msgstr "نمایش ثبت‌ورود بر کنسول"
 
 #~ msgid ""
 #~ "Display theme\n"
@@ -3456,73 +3752,13 @@ msgstr "پیکربندی دستی"
 #~ "نمایش تم \n"
 #~ "در کنسول"
 
-#~ msgid "Create new theme"
-#~ msgstr "ایجاد تم‌ جدید"
-
-#~ msgid "Text box height"
-#~ msgstr "ارتفاع جعبه متن"
-
-#~ msgid ""
-#~ "The progress bar X coordinate\n"
-#~ "of its upper left corner"
-#~ msgstr ""
-#~ "مختصات x گوشه‌ی چپ بالای\n"
-#~ "نوار پیشروی"
-
-#~ msgid ""
-#~ "The progress bar Y coordinate\n"
-#~ "of its upper left corner"
-#~ msgstr ""
-#~ "مختصات y گوشه‌ی چپ بالای\n"
-#~ "نوار پیشروی"
-
-#~ msgid "The width of the progress bar"
-#~ msgstr "عرض نوار پیشروی"
-
-#~ msgid "The height of the progress bar"
-#~ msgstr "ارتفاع نوار پیشروی"
+#, fuzzy
+#~ msgid "Do you want to remove these packages?"
+#~ msgstr "آیا می‌خواهید ابزار پیکربندی مناسب را اجرا کنید؟"
 
 #, fuzzy
-#~ msgid "Text"
-#~ msgstr "فقط متن"
-
-#~ msgid "Background color"
-#~ msgstr "رنگ پس‌زمینه"
-
-#~ msgid "Theme name"
-#~ msgstr "نام تم"
-
-#~ msgid "Final resolution"
-#~ msgstr "تفکیک‌پذیری نهایی"
-
-#~ msgid "Display logo on Console"
-#~ msgstr "نمایش ثبت‌ورود بر کنسول"
-
-#~ msgid "Save theme"
-#~ msgstr "ذخیره‌ی تم"
-
-#, fuzzy
-#~ msgid "Please enter a theme name"
-#~ msgstr "لطفاً پارامترهای بی‌سیم را برای این کارت وارد کنید:"
-
-#, fuzzy
-#~ msgid "Please select a splash image"
-#~ msgstr "لطفا مدل UPS خود را انتخاب کنید."
-
-#~ msgid "saving Bootsplash theme..."
-#~ msgstr "در حال ذخیره‌ی تم تصویرآغاز..."
-
-#~ msgid "choose image"
-#~ msgstr "انتخاب تصویر"
-
-#~ msgid "Coma bug"
-#~ msgstr "اشکال ویرگول"
-
-#~ msgid "whether this cpu has the Cyrix 6x86 Coma bug"
-#~ msgstr "آیا این واحد پردازنده‌ی مرکزی اشکال ویرگول Cyrix 6x86 دارد"
-
-#~ msgid "Fdiv bug"
-#~ msgstr "اشکال Fdiv"
+#~ msgid "DrakX Online"
+#~ msgstr "ماندریبا بر اینترنت"
 
 #~ msgid ""
 #~ "Early Intel Pentium chips manufactured have a bug in their floating point "
@@ -3532,46 +3768,54 @@ msgstr "پیکربندی دستی"
 #~ "تراشه‌های اینتل پنتیوم تولید شده در اوایل اشکالی در پردازنده‌ی نقطه‌ی اعشاری "
 #~ "خود داشتندکه لازم به دقت هنگام اجرای یک تقسیم نقطه اعشاری (FDIV) داشتند."
 
-#~ msgid "Is FPU present"
-#~ msgstr "آیا FPU حاضر است"
-
-#~ msgid "yes means the processor has an arithmetic coprocessor"
-#~ msgstr "بله بدین معنی است که پردازنده یک هم‌پرداز حساب دارد"
-
-#~ msgid "Whether the FPU has an irq vector"
-#~ msgstr "آیا FPU یک بردار irq دارد"
-
-#~ msgid ""
-#~ "yes means the arithmetic coprocessor has an exception vector attached"
-#~ msgstr "بله بدین معنی است که هم‌پرداز حساب یک بردار استثنای وصل شده دارد"
+#~ msgid "Error!"
+#~ msgstr "خطا!"
 
 #~ msgid "F00f bug"
 #~ msgstr "اشکال F00f"
 
-#~ msgid ""
-#~ "early pentiums were buggy and freezed when decoding the F00F bytecode"
-#~ msgstr ""
-#~ "pentiums قدیمی دارای اشکال بوده و هنگام رمزگشایی F00F bytecode از کار "
-#~ "می‌ایستادند"
+#~ msgid "FPU"
+#~ msgstr "FPU"
+
+#~ msgid "Fdiv bug"
+#~ msgstr "اشکال Fdiv"
+
+#~ msgid "File/-"
+#~ msgstr "پرونده/-"
+
+#~ msgid "File/Save _As"
+#~ msgstr "پرونده/ذخیره _بنام"
+
+#~ msgid "File/_New"
+#~ msgstr "پرونده/_جدید"
+
+#~ msgid "File/_Open"
+#~ msgstr "پرونده/_باز کردن"
+
+#~ msgid "File/_Quit"
+#~ msgstr "پرونده/_خروج"
+
+#~ msgid "File/_Save"
+#~ msgstr "پرونده/_ذخیره"
+
+#~ msgid "Final resolution"
+#~ msgstr "تفکیک‌پذیری نهایی"
 
 #~ msgid "Halt bug"
 #~ msgstr "اشکال ایست"
 
+#~ msgid "Help/_About..."
+#~ msgstr "راهنما/_درباره..."
+
 #~ msgid ""
-#~ "Some of the early i486DX-100 chips cannot reliably return to operating "
-#~ "mode after the \"halt\" instruction is used"
+#~ "Here you can see files to use in order to fix permissions, owners, and "
+#~ "groups via msec.\n"
+#~ "You can also edit your own rules which will owerwrite the default rules."
 #~ msgstr ""
-#~ "بعضی از تراشه‌های i486DX-100 نمی‌توانند بطور مطمئن بعد از استفاده از دستور "
-#~ "\"ایست\" به حالت عامل برگردند."
-
-#~ msgid "Bugs"
-#~ msgstr "اشکالها"
-
-#~ msgid "FPU"
-#~ msgstr "FPU"
-
-#~ msgid "Unknown/Others"
-#~ msgstr "ناشناس/دیگران"
+#~ "در اینجا می‌توانید پرونده‌های مورد استفاده برای تعیین اجازه‌ها، مالکیت‌ها و "
+#~ "گروه‌هارا از طریق msec ببینید.\n"
+#~ "شما همچنین می‌توانید قواعد خود را ویرایش کرده که در آن صورت قواعد پیش‌فرض "
+#~ "را بازنگاری خواهد کرد."
 
 #~ msgid ""
 #~ "Here, you can setup the security level and administrator of your "
@@ -3668,29 +3912,92 @@ msgstr "پیکربندی دستی"
 #~ "می‌باشد،\n"
 #~ "اما سیستم کاملاً بسته بوده و قابلیت‌های امنیتی در حد اعلای خود می‌باشند."
 
-#~ msgid "(default value: %s)"
-#~ msgstr "(مقدار پیش‌فرض: %s)"
+#~ msgid "I cannot find needed image file `%s'."
+#~ msgstr "نمی‌توانم تصویر مورد نیاز `%s' را پیدا کنم."
 
-#~ msgid "Security Level:"
-#~ msgstr "سطح امنیت:"
+#~ msgid "Insert a blank floppy in drive %s"
+#~ msgstr "یک دیسکچه‌ی خالی را در گرداننده‌ی %s داخل کنید"
 
-#~ msgid "Security Alerts:"
-#~ msgstr "هشدارهای امنیتی:"
+#~ msgid "Insert another blank floppy in drive %s (for drivers disk)"
+#~ msgstr ""
+#~ "دیسکچه‌ی خالی دیگری را در گرداننده‌ی %s داخل کنید (برای دیسک راه‌اندازها)"
 
-#~ msgid "Security Administrator:"
-#~ msgstr "مدیر امنیت:"
+#~ msgid "Is FPU present"
+#~ msgstr "آیا FPU حاضر است"
 
-#~ msgid "Basic options"
-#~ msgstr "گزینه‌های پایه"
+#~ msgid "Mandriva Linux Bug Report Tool"
+#~ msgstr "ابزار گزارش اشکال لینوکس ماندریبا"
+
+#~ msgid "Mandriva Linux Tools Logs"
+#~ msgstr "ثبتهای ابزارهای لینوکس ماندریبا"
+
+#, fuzzy
+#~ msgid "Mandriva Update"
+#~ msgstr "ماندریبا بر اینترنت"
+
+#~ msgid "Menudrake"
+#~ msgstr "Menudrake"
+
+#~ msgid "Moondrake"
+#~ msgstr "ماندریبا لینوکس"
+
+#~ msgid "Msec"
+#~ msgstr "Msec"
 
 #~ msgid "Network Options"
 #~ msgstr "گزینه‌های شبکه"
 
-#~ msgid "System Options"
-#~ msgstr "گزینه‌ها‌ی سیستم"
+#, fuzzy
+#~ msgid ""
+#~ "No Sound Card has been detected on your machine. Please verify that a "
+#~ "Linux-supported Sound Card is correctly plugged in"
+#~ msgstr ""
+#~ "هیچ کارت تلویزیونی بر روی ماشین شما شناسایی نشده است. لطفاً تصدیق کنید که "
+#~ "یک کارت تلویزیون/ویدیویی حمایت شده بدرستی وصل شده است.\n"
+#~ "\n"
+#~ "\n"
+#~ "می‌توانید از بانک اطلاعات سخت‌افزار ما را در نشانی زیر بازدید کنید:\n"
+#~ "\n"
+#~ "\n"
+#~ "http://www.mandrivalinux.com/en/hardware.php3"
+
+#, fuzzy
+#~ msgid ""
+#~ "No TV Card has been detected on your machine. Please verify that a Linux-"
+#~ "supported Video/TV Card is correctly plugged in."
+#~ msgstr ""
+#~ "هیچ کارت تلویزیونی بر روی ماشین شما شناسایی نشده است. لطفاً تصدیق کنید که "
+#~ "یک کارت تلویزیون/ویدیویی حمایت شده بدرستی وصل شده است.\n"
+#~ "\n"
+#~ "\n"
+#~ "می‌توانید از بانک اطلاعات سخت‌افزار ما را در نشانی زیر بازدید کنید:\n"
+#~ "\n"
+#~ "\n"
+#~ "http://www.mandrivalinux.com/en/hardware.php3"
+
+#~ msgid "Options/Test"
+#~ msgstr "گزینه‌ها/آزمایش"
 
 #~ msgid "Periodic Checks"
 #~ msgstr "بررسی‌های متناوب"
+
+#~ msgid ""
+#~ "Please choose for each step whether it will replay like your install, or "
+#~ "it will be manual"
+#~ msgstr ""
+#~ "لطفاً برای هر گام انتخاب کنید که آیا آن مانند نصب شما بازخوانی می‌شود، یا "
+#~ "آن دستی خواهد بود"
+
+#, fuzzy
+#~ msgid "Please enter a theme name"
+#~ msgstr "لطفاً پارامترهای بی‌سیم را برای این کارت وارد کنید:"
+
+#, fuzzy
+#~ msgid "Please select a splash image"
+#~ msgstr "لطفا مدل UPS خود را انتخاب کنید."
+
+#~ msgid "Please wait, adding media..."
+#~ msgstr "لطفا صبر کنید، در حال افزودن رسانه..."
 
 #~ msgid "Please wait, setting security level..."
 #~ msgstr "لطفاً صبر کنید، در حال گذاردن سطح امنیتی..."
@@ -3698,38 +4005,99 @@ msgstr "پیکربندی دستی"
 #~ msgid "Please wait, setting security options..."
 #~ msgstr "لطفا صبر کنید، در حال گذاشتن گزینه‌های امنیتی..."
 
-#, fuzzy
+#~ msgid "Remove the last item"
+#~ msgstr "برداشتن آخرین آیتم"
+
+#~ msgid "Restart XFS"
+#~ msgstr "راه‌اندازی مجدد XFS"
+
+#~ msgid "Save theme"
+#~ msgstr "ذخیره‌ی تم"
+
+#~ msgid "Security Administrator:"
+#~ msgstr "مدیر امنیت:"
+
+#~ msgid "Security Alerts:"
+#~ msgstr "هشدارهای امنیتی:"
+
+#~ msgid "Security Level:"
+#~ msgstr "سطح امنیت:"
+
+#~ msgid "Select Mandriva Tool:"
+#~ msgstr "ابزار نرم‌افزار ماندریبا را انتخاب کنید:"
+
 #~ msgid ""
-#~ "The following localization packages do not seem to be useful for your "
-#~ "system:"
-#~ msgstr "بسته‌های بدنبال آمده لازم است نصب شوند:\n"
+#~ "Some of the early i486DX-100 chips cannot reliably return to operating "
+#~ "mode after the \"halt\" instruction is used"
+#~ msgstr ""
+#~ "بعضی از تراشه‌های i486DX-100 نمی‌توانند بطور مطمئن بعد از استفاده از دستور "
+#~ "\"ایست\" به حالت عامل برگردند."
+
+#~ msgid "System Options"
+#~ msgstr "گزینه‌ها‌ی سیستم"
 
 #, fuzzy
-#~ msgid "Do you want to remove these packages?"
-#~ msgstr "آیا می‌خواهید ابزار پیکربندی مناسب را اجرا کنید؟"
+#~ msgid "Text"
+#~ msgstr "فقط متن"
+
+#~ msgid "Text box height"
+#~ msgstr "ارتفاع جعبه متن"
+
+#~ msgid "The change is done, but to be effective you must logout"
+#~ msgstr "تغییر انجام شده است، ولی برای مؤثر واقع شدن باید ثبت‌خروج کنید"
+
+#~ msgid ""
+#~ "The floppy has been successfully generated.\n"
+#~ "You may now replay your installation."
+#~ msgstr ""
+#~ "دیسکچه با موفقیت تولید شد.\n"
+#~ "اکنون میتوانید نصب را دوباره بازنوازی کنید."
 
 #, fuzzy
 #~ msgid ""
 #~ "The following hardware packages do not seem to be useful for your system:"
 #~ msgstr "بسته‌های بدنبال آمده لازم است نصب شوند:\n"
 
-#~ msgid "Please wait, adding media..."
-#~ msgstr "لطفا صبر کنید، در حال افزودن رسانه..."
+#, fuzzy
+#~ msgid ""
+#~ "The following localization packages do not seem to be useful for your "
+#~ "system:"
+#~ msgstr "بسته‌های بدنبال آمده لازم است نصب شوند:\n"
 
-#~ msgid "The change is done, but to be effective you must logout"
-#~ msgstr "تغییر انجام شده است، ولی برای مؤثر واقع شدن باید ثبت‌خروج کنید"
+#~ msgid "The height of the progress bar"
+#~ msgstr "ارتفاع نوار پیشروی"
 
-#~ msgid "Restart XFS"
-#~ msgstr "راه‌اندازی مجدد XFS"
+#~ msgid ""
+#~ "The progress bar X coordinate\n"
+#~ "of its upper left corner"
+#~ msgstr ""
+#~ "مختصات x گوشه‌ی چپ بالای\n"
+#~ "نوار پیشروی"
 
-#~ msgid "Error!"
-#~ msgstr "خطا!"
+#~ msgid ""
+#~ "The progress bar Y coordinate\n"
+#~ "of its upper left corner"
+#~ msgstr ""
+#~ "مختصات y گوشه‌ی چپ بالای\n"
+#~ "نوار پیشروی"
 
-#~ msgid "I cannot find needed image file `%s'."
-#~ msgstr "نمی‌توانم تصویر مورد نیاز `%s' را پیدا کنم."
+#~ msgid "The width of the progress bar"
+#~ msgstr "عرض نوار پیشروی"
 
-#~ msgid "Auto Install Configurator"
-#~ msgstr "پیکربند نصب خودکار"
+#~ msgid "Theme name"
+#~ msgstr "نام تم"
+
+#~ msgid "Unknown/Others"
+#~ msgstr "ناشناس/دیگران"
+
+#~ msgid "Urpmi"
+#~ msgstr "Urpmi"
+
+#~ msgid "Userdrake"
+#~ msgstr "Userdrake"
+
+#~ msgid "Whether the FPU has an irq vector"
+#~ msgstr "آیا FPU یک بردار irq دارد"
 
 #~ msgid ""
 #~ "You are about to configure an Auto Install floppy. This feature is "
@@ -3757,71 +4125,30 @@ msgstr "پیکربندی دستی"
 #~ "\n"
 #~ "تأیید را برای ادامه فشار دهید؟"
 
-#~ msgid "replay"
-#~ msgstr "بازنوازی"
+#~ msgid "choose image"
+#~ msgstr "انتخاب تصویر"
+
+#~ msgid ""
+#~ "early pentiums were buggy and freezed when decoding the F00F bytecode"
+#~ msgstr ""
+#~ "pentiums قدیمی دارای اشکال بوده و هنگام رمزگشایی F00F bytecode از کار "
+#~ "می‌ایستادند"
 
 #~ msgid "manual"
 #~ msgstr "دستورالعمل"
 
-#~ msgid "Automatic Steps Configuration"
-#~ msgstr "پیکربندی گام‌های خودکار"
+#~ msgid "replay"
+#~ msgstr "بازنوازی"
+
+#~ msgid "saving Bootsplash theme..."
+#~ msgstr "در حال ذخیره‌ی تم تصویرآغاز..."
+
+#~ msgid "whether this cpu has the Cyrix 6x86 Coma bug"
+#~ msgstr "آیا این واحد پردازنده‌ی مرکزی اشکال ویرگول Cyrix 6x86 دارد"
 
 #~ msgid ""
-#~ "Please choose for each step whether it will replay like your install, or "
-#~ "it will be manual"
-#~ msgstr ""
-#~ "لطفاً برای هر گام انتخاب کنید که آیا آن مانند نصب شما بازخوانی می‌شود، یا "
-#~ "آن دستی خواهد بود"
+#~ "yes means the arithmetic coprocessor has an exception vector attached"
+#~ msgstr "بله بدین معنی است که هم‌پرداز حساب یک بردار استثنای وصل شده دارد"
 
-#~ msgid "Insert a blank floppy in drive %s"
-#~ msgstr "یک دیسکچه‌ی خالی را در گرداننده‌ی %s داخل کنید"
-
-#~ msgid "Creating auto install floppy"
-#~ msgstr "ایجاد دیسکچه نصب خودکار"
-
-#~ msgid "Insert another blank floppy in drive %s (for drivers disk)"
-#~ msgstr ""
-#~ "دیسکچه‌ی خالی دیگری را در گرداننده‌ی %s داخل کنید (برای دیسک راه‌اندازها)"
-
-#~ msgid "Creating auto install floppy (drivers disk)"
-#~ msgstr "ایجاد دیسکچه نصب خودکار (دیسک راه‌اندازها)"
-
-#~ msgid ""
-#~ "\n"
-#~ "Welcome.\n"
-#~ "\n"
-#~ "The parameters of the auto-install are available in the sections on the "
-#~ "left"
-#~ msgstr ""
-#~ "\n"
-#~ "خوش آمدید.\n"
-#~ "\n"
-#~ "پارامترهای نصب-خودکار در قسمت‌های در سمت چپ در دسترس هستند"
-
-#~ msgid ""
-#~ "The floppy has been successfully generated.\n"
-#~ "You may now replay your installation."
-#~ msgstr ""
-#~ "دیسکچه با موفقیت تولید شد.\n"
-#~ "اکنون میتوانید نصب را دوباره بازنوازی کنید."
-
-#~ msgid "Auto Install"
-#~ msgstr "نصب خودکار"
-
-#~ msgid "Add an item"
-#~ msgstr "افزودن یک آیتم"
-
-#~ msgid "Remove the last item"
-#~ msgstr "برداشتن آخرین آیتم"
-
-#~ msgid "Menudrake"
-#~ msgstr "Menudrake"
-
-#~ msgid "Msec"
-#~ msgstr "Msec"
-
-#~ msgid "Urpmi"
-#~ msgstr "Urpmi"
-
-#~ msgid "Userdrake"
-#~ msgstr "Userdrake"
+#~ msgid "yes means the processor has an arithmetic coprocessor"
+#~ msgstr "بله بدین معنی است که پردازنده یک هم‌پرداز حساب دارد"

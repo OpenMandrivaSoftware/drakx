@@ -1,15 +1,16 @@
-package standalone; # $Id$
+package standalone;
 
 use c;
 use strict;
 use subs qw(exit);
 use common qw(N N_ if_ backtrace);
 use Config;
+use drakbug;
 
 BEGIN { unshift @::textdomains, 'libDrakX-standalone' }
 
-#- for sanity (if a use standalone is made during install, MANY problems will happen)
 require 'log.pm'; #- "require log" causes some pb, perl thinking that "log" is the log() function
+#- for sanity (if a use standalone is made during install, MANY problems will happen)
 if ($::isInstall) {
     log::l('ERROR: use standalone made during install :-(');
     log::l('backtrace: ' . backtrace());
@@ -62,8 +63,8 @@ default mode: offer to configure autologin feature"),
 
 OPTIONS:
   --help            - print this help message.
-  --report          - program should be an OpenMandriva Lx administrative tool
-  --incident        - program should be an OpenMandriva Lx administrative tool"),
+  --report          - program should be one of %s tools
+  --incident        - program should be one of %s tools", "Moondrake GNU/Linux", "Moondrake GNU/Linux"),
            'drakconnect' => N_("[--add]
   --add             - \"add a network interface\" wizard
   --del             - \"delete a network interface\" wizard
@@ -86,15 +87,15 @@ OPTIONS:
            'draksec' => "[--debug]
 --debug: print debugging information",
            'drakTermServ' => N_("[OPTIONS]...
-Terminal Server Configurator
+%s Terminal Server Configurator
 --enable         : enable MTS
 --disable        : disable MTS
 --start          : start MTS
 --stop           : stop MTS
---adduser        : add an existing system user to TS (requires username)
---deluser        : delete an existing system user from TS (requires username)
---addclient      : add a client machine to TS (requires MAC address, IP, nbi image name)
---delclient      : delete a client machine from TS (requires MAC address, IP, nbi image name)"),
+--adduser        : add an existing system user to MTS (requires username)
+--deluser        : delete an existing system user from MTS (requires username)
+--addclient      : add a client machine to MTS (requires MAC address, IP, nbi image name)
+--delclient      : delete a client machine from MTS (requires MAC address, IP, nbi image name)", "Moondrake GNU/Linux"),
 	      'drakxtv' => "[--no-guess]",
 	      'drakupdate_fstab' => " [--add | --del] <device>\n",
 	      'keyboardrake' => N_("[keyboard]"),
@@ -110,10 +111,10 @@ Network & Internet connection and monitoring application
 --quiet : do not be interactive. To be used with (dis)connect."),
 	      'printerdrake' => " [--skiptest] [--cups] [--lprng] [--lpd] [--pdq]",
 	      'rpmdrake' => N_("[OPTION]...
-  --no-confirmation      do not ask first confirmation question in Online Update mode
+  --no-confirmation      do not ask first confirmation question in %s Update mode
   --no-verify-rpm        do not verify packages signatures
   --changelog-first      display changelog before filelist in the description window
-  --merge-all-rpmnew     propose to merge all .rpmnew/.rpmsave files found"),
+  --merge-all-rpmnew     propose to merge all .rpmnew/.rpmsave files found", "Moondrake"),
            'scannerdrake' => N_("[--manual] [--device=dev] [--update-sane=sane_source_dir] [--update-usbtable] [--dynamic=dev]"),
 	      'XFdrake' => N_(" [everything]
        XFdrake [--noauto] monitor
@@ -142,7 +143,7 @@ sub real_version() {
 sub version() {
     print 'Drakxtools version ' . real_version() . '
 Copyright (C) 1999-2008 Mandriva by <install@mandriva.com>
-Copyright (C) 2013 OpenMandriva Association
+Copyright (C) 2010-2014 Mageia
 ',  $::license, "\n";
 }
 
@@ -189,43 +190,6 @@ sub explanations { log::explanations("@_") }
 our @common_functs = qw(renamef linkf symlinkf output substInFile mkdir_p rm_rf cp_af cp_afx touch setVarsInSh setExportedVarsInSh setExportedVarsInCsh update_gnomekderc);
 our @builtin_functs = qw(chmod chown __exit exit unlink link symlink rename system);
 our @drakx_modules = qw(Xconfig::card Xconfig::default Xconfig::main Xconfig::monitor Xconfig::parse Xconfig::proprietary Xconfig::resolution_and_depth Xconfig::screen Xconfig::test Xconfig::various Xconfig::xfree any bootloader bootlook c commands crypto detect_devices devices diskdrake diskdrake::hd_gtk diskdrake::interactive diskdrake::removable diskdrake::removable_gtk diskdrake::smbnfs_gtk fs fsedit http keyboard lang log loopback lvm modules::parameters modules mouse my_gtk network network::adsl network::ethernet network::connection network::isdn_consts network::isdn network::modem network::netconnect network::network fs::remote::nfs fs::remote::smb network::tools partition_table partition_table_bsd partition_table::dos partition_table::empty partition_table::gpt partition_table::mac partition_table::raw partition_table::sun printer printerdrake proxy raid run_program scanner services steps swap timezone network::drakfirewall network::shorewall);
-
-sub bug_handler {
-    my ($error, $is_signal) = @_;
-
-    # exceptions in eval are OK:
-    return if $error && $^S ne '0' && !$is_signal;
-
-    # exceptions with "\n" are normal ways to quit:
-    if (!$is_signal && eval { $error eq MDK::Common::String::formatError($error) }) {
-        warn $error;
-        exit(255);
-    }
-
-    # we want the full backtrace:
-    if ($is_signal) {
-        my $ctrace = c::C_backtrace();
-        $ctrace =~ s/0:.*(\d+:[^:]*Perl_sighandler)/$1/sig if $ctrace =~ /0:.*(\d+:[^:]*Perl_sighandler)/sig;
-        $error .= "\nGlibc's trace:\n$ctrace\n";
-    }
-    $error .= "Perl's trace:\n" . common::backtrace() if $error;
-
-    my $progname = $0;
-
-    # do not loop if drakbug crashes and do not complain about wizcancel:
-    if ($progname =~ /drakbug/ || $error =~ /wizcancel/ || !-x '/usr/bin/drakbug') {
-    	warn $error;
-    	exit(1);
-    }
-    $progname =~ s|.*/||;
-    exec('drakbug',  if_($error, '--error', $error), '--incident', $progname);
-    c::_exit(1);
-}
-
-if (!$ENV{DISABLE_DRAKBUG}) {
-    $SIG{SEGV} = sub { bug_handler(@_, 1) };
-    $SIG{__DIE__} = \&bug_handler;
-}
 
 sub import() {
     ($standalone_name = $0) =~ s|.*/||;

@@ -61,14 +61,15 @@ if ($image) {
 my $all_hds = fsedit::get_hds();
 fs::get_info_from_fstab($all_hds);
 
-if( !-e "/boot/grub2/grub.cfg" ) {
-    my $bootloader = bootloader::read($all_hds);
-    if (!$bootloader) {
-        if (member($action, 'add-kernel', 'remove-kernel')) {
-	    warn "Cannot find a boot loader installed. Only taking care of initrd\n";
-        } else {
-    	    die "Cannot find a boot loader installed\n";
-        }
+my $bootloader = bootloader::read($all_hds);
+if (!$bootloader) {
+    if (member($action, 'add-kernel', 'remove-kernel')) {
+	if ($no_initrd) {
+	    die "Cannot find a bootloader installed and initrd build suppressed\n";
+	}
+	warn "Cannot find a boot loader installed. Only taking care of initrd\n";
+    } else {
+	die "Cannot find a boot loader installed\n";
     }
 }
 
@@ -145,7 +146,6 @@ sub remove_kernel() {
 #-###############################################################################
 sub add_kernel() {
     configure_ide_controller();
-    bootloader::create_link_source();
 
     my $kernel_str = bootloader::vmlinuz2kernel_str($image) or die "bad kernel name $image\n";
 
@@ -154,12 +154,12 @@ sub add_kernel() {
 	my $fake_bootloader = { vga => undef };
 	my %opts = (initrd_options => $initrd_options);
 	my $initrd_long = bootloader::kernel_str2initrd_long($kernel_str);
-	bootloader::mkinitrd($kernel_str->{version}, $fake_bootloader, { %opts }, "/boot/$initrd_long");
+	bootloader::mkinitrd($kernel_str->{version}, $fake_bootloader, \%opts, "/boot/$initrd_long");
 	return;
     }
 
-    my $root_part = fs::get::root([ fs::get::fstab($all_hds) ]) or warn "cannot find root partition in /etc/fstab; trying mounted\n";
-    $root_part ||= fs::get::root_from_mounted() or die "cannot find root partition from mounted; dying\n";
+    my $root_part = fs::get::root_([ fs::get::fstab($all_hds) ]) or warn "cannot find root partition in /etc/fstab\n";
+    $root_part ||= fs::get::root_from_mounted() or die "cannot find root partition\n";
     my %opts = (
 		root => fs::wild_device::from_part('', $root_part), 
 		initrd_options => $initrd_options,

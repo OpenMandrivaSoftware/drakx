@@ -1,4 +1,4 @@
-package install::steps; # $Id$
+package install::steps;
 
 use diagnostics;
 use strict;
@@ -360,9 +360,6 @@ sub beforeInstallPackages {
     #- some packages need such files for proper installation.
     install::any::write_fstab($o);
 
-    require network::network;
-    network::network::add2hosts("localhost", "127.0.0.1");
-
     #- resolv.conf will be modified at boot time
     #- the following will ensure we have a working DNS during install
     if (-e "/etc/resolv.conf" && ! -e "$::prefix/etc/resolv.conf") {
@@ -454,7 +451,7 @@ Either your cdrom drive or your cdrom is defective.
 Check the cdrom on an installed computer using \"rpm -qpl media/main/*.rpm\"
 ") if any { m|read failed: Input/output error| } cat_("$::prefix/root/drakx/install.log");
 
-    if (arch() !~ /^sparc/ && !$o->{justdb}) { #- TODO restore it as may be needed for sparc
+    if (!$o->{justdb}) {
 	-x "$::prefix/bin/dumpkeys" or $::testing or die 
 "Some important packages did not get installed properly.
 
@@ -470,8 +467,12 @@ Consoles 1,3,4,7 may also contain interesting information";
     #- generate mchnie id after installation
     run_program::rooted($::prefix, "systemd-machine-id-setup");
 
+    run_program::rooted($::prefix, "systemd-machine-id-setup");
+
     #- generate /etc/lvmtab needed for rc.sysinit
     run_program::rooted($::prefix, 'lvm2', 'vgscan') if -e '/etc/lvmtab';
+    # necessary?
+    system("mdadm -Es >> $::prefix/etc/mdadm.conf") if -e "/etc/mdadm.conf";
 
     require harddrake::autoconf;
     #- configure PCMCIA services if needed.
@@ -494,15 +495,12 @@ Consoles 1,3,4,7 may also contain interesting information";
     #- these are normally base package post install scripts or important services to start.
     foreach my $service (qw(netfs network networkmanager)) {
 	if (-f "$::prefix/lib/systemd/system/$service.service") {
-	    log::l("use systemctl enable $service.service");
-	    run_program::rooted($::prefix, "systemctl", "enable", $service . ".service");
-	} else {
-	    log::l("use chkconfig --add $service");
-	    run_program::rooted($::prefix, "chkconfig", "--add", $service);
+	    log::l("use systemctl preset $service.service");
+	    run_program::rooted($::prefix, "/bin/systemctl", "preset", $service . ".service");
 	}
     }
     log::l("fix hostname");
-    system("echo omvlx &> $::prefix/etc/hostname");
+    system("echo Moondrake &> $::prefix/etc/hostname");
     
     log::l("fix missing /media/cdrom");
     run_program::rooted($::prefix, "mkdir", "/media/cdrom");
@@ -515,7 +513,7 @@ Consoles 1,3,4,7 may also contain interesting information";
 
     if ($o->{mouse}{device} =~ /ttyS/) {
 	log::l("disabling gpm for serial mice (does not get along nicely with X)");
-	run_program::rooted($::prefix, "chkconfig", "--del", "gpm"); 
+	run_program::rooted($::prefix, "/bin/systemctl", "disable", "gpm"); 
     }
 
     if ($o->{pcmcia}) {
@@ -763,7 +761,7 @@ sub addUser {
         $autologin->{user} = $o->{autologin};
         $autologin->{desktop} = $o->{desktop} if $o->{desktop};
         $autologin->{dm} = $o->{dm} if $o->{dm};
-        any::set_autologin($o->do_pkgs, $autologin);
+        any::set_autologin($o->do_pkgs, $autologin, $o->{step}{auto});
     }
 
     install::any::disable_user_view() if @$users == ();
@@ -784,7 +782,7 @@ sub setupBootloaderBefore {
     my ($o) = @_;
     my $bool = $o->{meta_class} ne 'server';
     any::setupBootloaderBefore($o->do_pkgs, $o->{bootloader}, $o->{all_hds}, $o->{fstab}, $o->{keyboard},
-                               $o->{allowFB}, $o->{vga}, $bool, 0);
+                               $o->{allowFB}, $o->{vga}, $bool, $bool);
 }
 
 sub setupBootloader {
@@ -866,14 +864,14 @@ sub exitInstall {
     };
     output("$::prefix/root/drakx/package_list.pl", install::any::selected_leaves_pl($o));
 
-    eval { install::any::getAndSaveAutoInstallFloppies($o, 1) } if arch() !~ /^ppc/;
-    eval { output "$::prefix/root/drakx/README", "This directory contains several installation-related files,
+    eval { install::any::getAndSaveAutoInstallFloppies($o, 1) };
+    eval { output "$::prefix/root/drakx/README", sprintf("This directory contains several installation-related files,
 mostly log files (very useful if you ever report a bug!).
 
-Beware that some OpenMandriva tools rely on the contents of some
+Beware that some %s tools rely on the contents of some
 of these files... so remove any file from here at your own
 risk!
-" };
+", "Moondrake GNU/Linux") };
     #- wait for remaining processes.
     foreach (@{$o->{waitpids}}) {
 	waitpid $_, 0;
@@ -916,8 +914,7 @@ sub upNetwork {
     install::any::is_network_install($o) || $::local_install and return 1;
     $o->{modules_conf}->write;
     if (! -e "/etc/resolv.conf") {
-        #- symlink resolv.conf in install root too so that updates and suppl media can be added
-        symlink "$::prefix/etc/resolv.conf", "/etc/resolv.conf";
+	cp_af("/etc/resolv.conf", "$::prefix/etc/resolv.conf");
     }
     if (hasNetwork($o)) {
 	if (network_is_cheap($o)) {
@@ -927,7 +924,7 @@ sub upNetwork {
 	} elsif (!$b_pppAvoided) {
 	    log::l("starting network (ppp: $o->{net}{type})");
 	    eval { modules::load(qw(serial ppp bsd_comp ppp_deflate)) };
-	    run_program::rooted($::prefix, "/etc/rc.d/init.d/syslog", "start");
+	    run_program::rooted($::prefix, "/bin/systemctl", "start", "systemd-journald");
 	    start_network_interface($o);
 	    return 1;
 	} else {
@@ -949,7 +946,7 @@ sub downNetwork {
 	    return 1;
 	} elsif (!network_is_cheap($o)) {
 	    stop_network_interface($o);
-	    run_program::rooted($::prefix, "/etc/rc.d/init.d/syslog", "stop");
+	    run_program::rooted($::prefix, "/bin/systemctl", "stop", "systemd-journald");
 	    eval { modules::unload(qw(ppp_deflate bsd_comp ppp serial)) };
 	    return 1;
 	}

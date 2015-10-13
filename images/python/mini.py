@@ -4,8 +4,7 @@ from drakx.media import Media
 from drakx.distribution import Distribution
 import os
 
-config = ReleaseConfig("2013.0", "Oxygen", "Free", subversion="Alpha", medium="CD")
-os.system("rm -rf "+config.outdir)
+config = ReleaseConfig("2013", "Twelve Angry Penguins", "LXDE", subversion="Beta", medium="CD", outdir="/mnt/BIG/")
 
 srcdir = "./"
 rpmsrate = "../../perl-install/install/share/meta-task/rpmsrate-raw"
@@ -14,11 +13,11 @@ filedeps = srcdir + "file-deps"
 
 
 media = []
-for m in "main", "contrib":
+for m in "moondrake", "main", "main-updates", "contrib", "contrib-updates", "non-free", "non-free-updates", "restricted", "restricted-updates":
     media.append(Media(m))
 
 includelist = []
-for l in ["basesystem_mini", "languages"]:
+for l in ["basesystem_mini", "languages", "firmware_nonfree", "theme-moondrake"]:
     includelist.append(srcdir + "lists/" + l)
 
 includelist32 = includelist + [srcdir + "lists/" + "kernel32"]
@@ -29,8 +28,10 @@ for e in ["exclude", "exclude_mini", "exclude_ancient", "exclude_tofix", "exclud
     excludelist.append(srcdir + "lists/" + e)
 
 x86_64 = Distribution(config, "x86_64", media, includelist64, excludelist, rpmsrate, compssusers, filedeps, synthfilter=".xz:xz --text")
-i586 = Distribution(config, "i586", media, includelist32, excludelist, rpmsrate, compssusers, filedeps, synthfilter=".xz:xz --text", stage2="../mdkinst-i586.cpio.xz")
+#i586 = Distribution(config, "i586", media, includelist32, excludelist, rpmsrate, compssusers, filedeps, synthfilter=".xz:xz --text", stage2="../mdkinst-i586.cpio.xz")
 
-distrib=[i586,x86_64]
+distrib=[x86_64]
+
+#distrib=[i586,x86_64]
 
 image = IsoImage(config, distrib, maxsize=700)

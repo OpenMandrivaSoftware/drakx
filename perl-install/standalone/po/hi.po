@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DrakX-hi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-22 00:53+0100\n"
+"POT-Creation-Date: 2015-02-18 12:28+0100\n"
 "PO-Revision-Date: 2004-04-04 21:54+0530\n"
 "Last-Translator: धनञ्जय शर्मा (Dhananjaya Sharma) <dysxhi@yahoo.co.in>\n"
 "Language-Team: हिन्दी (Hindi) <dysxhi@yahoo.co.in>\n"
@@ -16,145 +16,145 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.3\n"
 
-#: display_help:54 display_help:59 drakbug:170 drakperm:134
+#: display_help:53 display_help:58 drakbug:173 drakperm:134
 #, c-format
 msgid "Help"
 msgstr "सहायता"
 
-#: display_help:67 drakbug:175 drakfont:505
+#: display_help:66 drakbug:178 drakfont:507
 #, c-format
 msgid "Close"
 msgstr "समाप्त"
 
-#: drakauth:24 drakauth:26 draksec:162
+#: drakauth:24 drakauth:26 draksec:184
 #, c-format
 msgid "Authentication"
 msgstr "प्रमाणीकरण"
 
-#: drakauth:37 drakclock:113 drakclock:138 drakdvb:74 drakfont:211
-#: drakfont:224 drakfont:262 finish-install:131 logdrake:174 logdrake:449
-#: logdrake:454 scannerdrake:56 scannerdrake:98 scannerdrake:139
+#: drakauth:37 drakclock:117 drakclock:142 drakdvb:74 drakfont:213
+#: drakfont:226 drakfont:264 finish-install:133 logdrake:177 logdrake:453
+#: logdrake:458 scannerdrake:56 scannerdrake:98 scannerdrake:139
 #: scannerdrake:197 scannerdrake:256 scannerdrake:726 scannerdrake:737
 #: scannerdrake:876 scannerdrake:887 scannerdrake:957
 #, c-format
 msgid "Error"
 msgstr "त्रुटि"
 
-#: drakboot:53
+#: drakboot:54
 #, c-format
 msgid "No bootloader found, creating a new configuration"
 msgstr ""
 
-#: drakboot:86 harddrake2:195 harddrake2:196 logdrake:75
+#: drakboot:89 harddrake2:191 logdrake:77
 #, c-format
-msgid "/_File"
-msgstr "/संचिका (_F)"
+msgid "_File"
+msgstr "संचिका (_F)"
 
-#: drakboot:87 logdrake:81
+#: drakboot:90 harddrake2:192 logdrake:78 logdrake:79
 #, c-format
-msgid "/File/_Quit"
-msgstr "/संचिका (F)/निकास (_Q)"
+msgid "_Quit"
+msgstr "निर्गम (_Q)"
 
-#: drakboot:87 harddrake2:196 logdrake:81
+#: drakboot:90 harddrake2:192 logdrake:79
 #, c-format
 msgid "<control>Q"
 msgstr "<control>Q"
 
-#: drakboot:127
+#: drakboot:138
 #, c-format
 msgid "Text only"
 msgstr "सिर्फ पाठ"
 
-#: drakboot:128
+#: drakboot:139
 #, c-format
 msgid "Verbose"
 msgstr "बड़बोला"
 
-#: drakboot:129
+#: drakboot:140
 #, c-format
 msgid "Silent"
 msgstr "मूक"
 
-#: drakboot:135 drakbug:247 drakdvb:57 drakfont:681 drakperm:374 drakperm:384
-#: drakups:26 harddrake2:528 localedrake:45 scannerdrake:48 scannerdrake:51
+#: drakboot:146 drakbug:250 drakdvb:57 drakfont:682 drakperm:371 drakperm:381
+#: drakups:27 harddrake2:504 localedrake:45 scannerdrake:48 scannerdrake:51
 #: scannerdrake:294 scannerdrake:299 scannerdrake:951
 #, c-format
 msgid "Warning"
 msgstr "चेतावनी"
 
-#: drakboot:136
+#: drakboot:147
 #, c-format
 msgid ""
 "Your system bootloader is not in framebuffer mode. To activate graphical "
 "boot, select a graphic video mode from the bootloader configuration tool."
 msgstr ""
 
-#: drakboot:137
+#: drakboot:148
 #, fuzzy, c-format
 msgid "Do you want to configure it now?"
 msgstr "क्या आप इस संरचना का परीक्षण करना चाहते है?"
 
-#: drakboot:146
+#: drakboot:157
 #, c-format
 msgid "Install themes"
 msgstr "थीमों को संसाधित करें"
 
-#: drakboot:148
+#: drakboot:159
 #, c-format
 msgid "Graphical boot theme selection"
 msgstr "ग्राफ़िक्ल बूट थीम का चयन"
 
-#: drakboot:151
+#: drakboot:162
 #, fuzzy, c-format
 msgid "Graphical boot mode:"
 msgstr "ग्राफ़िक्ल बूट का उपयोग"
 
-#: drakboot:153
+#: drakboot:164
 #, c-format
 msgid "Theme"
 msgstr "थीम"
 
-#: drakboot:187
+#: drakboot:198
 #, c-format
 msgid "Default user"
 msgstr "डिफ़ाल्ट उपयोगकर्ता"
 
-#: drakboot:188
+#: drakboot:199
 #, c-format
 msgid "Default desktop"
 msgstr "डिफ़ाल्ट डेस्कटाप"
 
-#: drakboot:191
+#: drakboot:202
 #, c-format
 msgid "No, I do not want autologin"
 msgstr "नहीं, मै स्वतः संत्र आरम्भ नहीं चाहता हूँ"
 
-#: drakboot:192
+#: drakboot:203
 #, c-format
 msgid "Yes, I want autologin with this (user, desktop)"
 msgstr "हाँ, मै इस (उपयोगकर्ता, डेस्कटाप) के साथ स्वतः संत्र-आरम्भ करना चाहता हूँ ।"
 
-#: drakboot:199
+#: drakboot:210
 #, c-format
 msgid "System mode"
 msgstr "तंत्र विधा"
 
-#: drakboot:202
+#: drakboot:213
 #, c-format
 msgid "Launch the graphical environment when your system starts"
 msgstr "सचित्र वातावरण को शुरू करें जब आपका तंत्र आरम्भ हो "
 
-#: drakboot:257
+#: drakboot:268
 #, c-format
 msgid "Boot Style Configuration"
 msgstr "बूट शैली संरचना"
 
-#: drakboot:259 drakboot:263
+#: drakboot:270 drakboot:274
 #, c-format
 msgid "Video mode"
 msgstr "विडियो विधा"
 
-#: drakboot:260
+#: drakboot:271
 #, c-format
 msgid ""
 "Please choose a video mode, it will be applied to each of the boot entries "
@@ -169,12 +169,12 @@ msgstr ""
 
 #: drakbug:60
 #, fuzzy, c-format
-msgid "OpenMandriva Lx Bug Reporting"
+msgid "DrakX Bug Report Tool"
 msgstr "मैनड्रिव दोष रिपोर्ट औज़ार"
 
-#: drakbug:65
-#, c-format
-msgid "OpenMandriva Lx Control Center"
+#: drakbug:67
+#, fuzzy, c-format
+msgid "DrakX Linux Control Center"
 msgstr "मैनड्रिव नियंत्रण केन्द्र"
 
 #: drakbug:66
@@ -192,12 +192,17 @@ msgstr "एकसारीकरण औजार"
 msgid "Standalone Tools"
 msgstr ""
 
-#: drakbug:70 drakbug:71
+#: drakbug:72 drakbug:73
 #, fuzzy, c-format
-msgid "OpenMandriva Online"
+msgid "%s Online"
 msgstr "मैनड्रिव ऑनलाइन"
 
-#: drakbug:72
+#: drakbug:72 drakbug:73 drakbug:99 draksec:169
+#, fuzzy, c-format
+msgid "DrakX"
+msgstr "ड्रैकयूपीएस"
+
+#: drakbug:74
 #, c-format
 msgid "Remote Control"
 msgstr "सुदूर नियंत्रण"
@@ -217,9 +222,9 @@ msgstr ""
 msgid "Configuration Wizards"
 msgstr "संरचना विज़ार्ड"
 
-#: drakbug:97
+#: drakbug:99
 #, fuzzy, c-format
-msgid "Select Tool:"
+msgid "Select %s Tool:"
 msgstr "सभी का चयन"
 
 #: drakbug:98
@@ -326,27 +331,27 @@ msgstr ""
 msgid "Thanks."
 msgstr ""
 
-#: drakclock:28 draksec:168
+#: drakclock:29 draksec:190
 #, c-format
 msgid "Date, Clock & Time Zone Settings"
 msgstr ""
 
-#: drakclock:37
+#: drakclock:38
 #, c-format
 msgid "not defined"
 msgstr "परिभाषित नहीं"
 
-#: drakclock:39
+#: drakclock:40
 #, c-format
 msgid "Change Time Zone"
 msgstr "समय क्षेत्र का परिवर्तन"
 
-#: drakclock:44
+#: drakclock:45
 #, c-format
 msgid "Timezone - DrakClock"
 msgstr "समयक्षेत्र -ड्रैकक्लॉक"
 
-#: drakclock:44
+#: drakclock:45
 #, c-format
 msgid "Which is your timezone?"
 msgstr "आपका समय-क्षेत्र क्या है?"
@@ -361,12 +366,12 @@ msgstr "जीएमटी - ड्रैकक्लॉक"
 msgid "Is your hardware clock set to GMT?"
 msgstr "क्या आपकी हार्डवेयर घड़ी जी०एम०टी० पर स्थापित है ?"
 
-#: drakclock:72
+#: drakclock:75
 #, c-format
 msgid "Network Time Protocol"
 msgstr "नेटवर्क समय प्रोटोकॉल"
 
-#: drakclock:74
+#: drakclock:77
 #, c-format
 msgid ""
 "Your computer can synchronize its clock\n"
@@ -375,42 +380,42 @@ msgstr ""
 "आपका कम्प्यूटर अपनी घड़ी को एक सुदूर समय सर्वर के साथ\n"
 " एन०टी०पी० का उपयोग करके एकसारीकॄत कर सकता है"
 
-#: drakclock:75
+#: drakclock:78
 #, c-format
 msgid "Enable Network Time Protocol"
 msgstr "नेटवर्क समय प्रोटोकॉल को सक्रिय करें"
 
-#: drakclock:83
+#: drakclock:86
 #, c-format
 msgid "Server:"
 msgstr "सर्वर:"
 
-#: drakclock:97
+#: drakclock:100
 #, c-format
 msgid "Timezone"
 msgstr "समय क्षेत्र"
 
-#: drakclock:113
+#: drakclock:117
 #, fuzzy, c-format
 msgid "Please enter a valid NTP server address."
 msgstr "कृपया एक वैध आईपी पता बताएँ।"
 
-#: drakclock:139
+#: drakclock:143
 #, c-format
 msgid "Could not synchronize with %s."
 msgstr ""
 
-#: drakclock:140 drakdvb:149 logdrake:179 scannerdrake:488
+#: drakclock:144 drakdvb:149 logdrake:182 scannerdrake:488
 #, c-format
 msgid "Quit"
 msgstr "निकास"
 
-#: drakclock:141
+#: drakclock:145
 #, fuzzy, c-format
 msgid "Retry"
 msgstr "पुनः स्थापना"
 
-#: drakclock:166 drakclock:176
+#: drakclock:168 drakclock:178
 #, c-format
 msgid "Reset"
 msgstr "पुनःस्थापना"
@@ -435,10 +440,10 @@ msgstr ""
 msgid "Could not get the list of available channels"
 msgstr ""
 
-#: drakdvb:80 draksec:67 drakups:98 finish-install:106 harddrake2:374
+#: drakdvb:80 draksec:69 drakups:99 finish-install:106 harddrake2:358
 #: scannerdrake:63 scannerdrake:67 scannerdrake:75 scannerdrake:316
 #: scannerdrake:365 scannerdrake:501 scannerdrake:505 scannerdrake:527
-#: service_harddrake:423
+#: service_harddrake:426
 #, c-format
 msgid "Please wait"
 msgstr "कृपया प्रतीक्षा करें"
@@ -448,7 +453,7 @@ msgstr "कृपया प्रतीक्षा करें"
 msgid "Detecting DVB channels, this will take a few minutes"
 msgstr ""
 
-#: drakdvb:85 drakfont:571 drakfont:651 drakfont:735 drakups:216 logdrake:179
+#: drakdvb:85 drakfont:571 drakfont:651 drakfont:736 drakups:217 logdrake:182
 #, c-format
 msgid "Cancel"
 msgstr "निरस्त करें"
@@ -480,20 +485,25 @@ msgstr "एक अवलोकन प्रंबधक का चयन"
 
 #: drakedm:43
 #, fuzzy, c-format
-msgid "SLIM (Simple Display Manager)"
+msgid "LIGHTDM (LightDM Display Manager)"
 msgstr "एक अवलोकन प्रंबधक का चयन"
 
 #: drakedm:44
 #, fuzzy, c-format
+msgid "SLIM (Simple Display Manager)"
+msgstr "एक अवलोकन प्रंबधक का चयन"
+
+#: drakedm:45
+#, fuzzy, c-format
 msgid "XDM (X Display Manager)"
 msgstr "एक अवलोकन प्रंबधक का चयन"
 
-#: drakedm:55
+#: drakedm:56
 #, c-format
 msgid "Choosing a display manager"
 msgstr "एक अवलोकन प्रंबधक का चयन"
 
-#: drakedm:56
+#: drakedm:57
 #, c-format
 msgid ""
 "X11 Display Manager allows you to graphically log\n"
@@ -504,12 +514,12 @@ msgstr ""
 "सचित्र संत्र-आरम्भ करने तथा एक ही समय पर आपकी स्थानीय कम्प्यूटर पर\n"
 "अनेको विभिन्न एक्स संत्रों को चलाने के योग्य बनाता है ।"
 
-#: drakedm:79
+#: drakedm:80
 #, c-format
 msgid "The change is done, do you want to restart the dm service?"
 msgstr "परिवर्तन हो गये है, क्या आप डी०एम० सेवाओं को पुनः आरम्भ करना चाहते है ?"
 
-#: drakedm:80
+#: drakedm:81
 #, c-format
 msgid ""
 "You are going to close all running programs and lose your current session. "
@@ -627,7 +637,7 @@ msgstr "संसाधन के उपरान्त"
 msgid "DrakFont"
 msgstr "ड्रैकफ़ॉन्ट"
 
-#: drakfont:489 drakfont:641
+#: drakfont:491 drakfont:641
 #, c-format
 msgid "Font List"
 msgstr "फ़ान्ट सूची"
@@ -642,12 +652,12 @@ msgstr ""
 msgid "About"
 msgstr "के बारे में"
 
-#: drakfont:499 drakfont:540
+#: drakfont:501 drakfont:540
 #, c-format
 msgid "Options"
 msgstr "विकल्पों"
 
-#: drakfont:500 drakfont:720
+#: drakfont:502 drakfont:721
 #, c-format
 msgid "Uninstall"
 msgstr "असंसाधन"
@@ -662,24 +672,24 @@ msgstr "इम्पोर्ट"
 msgid "Drakfont"
 msgstr "ड्रैकफ़ॉन्ट"
 
-#: drakfont:521 harddrake2:229
-#, fuzzy, c-format
-msgid "Copyright (C) %s by OpenMandriva"
-msgstr "सर्वाधिकार (C) २००१-२००६ मैनड्रिव एसऐ"
+#: drakfont:523
+#, c-format
+msgid "Copyright (C) %s by Mandriva"
+msgstr ""
 
 #: drakfont:523
 #, fuzzy, c-format
 msgid "Font installer."
 msgstr "संसाधन नहीं किया गया है"
 
-#: drakfont:525 logdrake:55
-#, c-format
-msgid "OpenMandriva Lx"
+#: drakfont:527
+#, fuzzy, c-format
+msgid "Moondrake GNU/Linux"
 msgstr "मैनड्रैकलिनक्स"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
-#: drakfont:532 harddrake2:238
+#: drakfont:532 harddrake2:531
 #, c-format
 msgid "_: Translator(s) name(s) & email(s)\n"
 msgstr "धनञ्जय शर्मा (Dhananjaya Sharma)\n"
@@ -709,7 +719,7 @@ msgstr "आबीवर्ड"
 msgid "Generic Printers"
 msgstr ""
 
-#: drakfont:561 drakfont:571 drakups:209
+#: drakfont:561 drakfont:571 drakups:210
 #, c-format
 msgid "Ok"
 msgstr "ठीक"
@@ -729,17 +739,17 @@ msgstr "संचिका चयन"
 msgid "Fonts"
 msgstr "फ़ॉन्ट"
 
-#: drakfont:639 draksec:164
+#: drakfont:639 draksec:186
 #, c-format
 msgid "Import fonts"
 msgstr "इम्पोर्ट फ़ान्टों को इम्पोर्ट करना"
 
-#: drakfont:645 drakups:298 drakups:374
+#: drakfont:645 drakups:299 drakups:375
 #, c-format
 msgid "Add"
 msgstr "जोड़ें"
 
-#: drakfont:646 drakfont:734 drakups:300 drakups:376
+#: drakfont:646 drakfont:735 drakups:301 drakups:377
 #, c-format
 msgid "Remove"
 msgstr "हटाना"
@@ -749,67 +759,67 @@ msgstr "हटाना"
 msgid "Install"
 msgstr "संसाधन"
 
-#: drakfont:683
+#: drakfont:684
 #, c-format
 msgid "Are you sure you want to uninstall the following fonts?"
 msgstr ""
 
-#: drakfont:687 draksec:57 harddrake2:319
+#: drakfont:688 draksec:59 harddrake2:302
 #, c-format
 msgid "Yes"
 msgstr "हाँ"
 
-#: drakfont:689 draksec:56 harddrake2:320
+#: drakfont:690 draksec:58 harddrake2:303
 #, c-format
 msgid "No"
 msgstr "नहीं"
 
-#: drakfont:728
+#: drakfont:729
 #, c-format
 msgid "Unselect All"
 msgstr "सभी को अचयनित करें"
 
-#: drakfont:731
+#: drakfont:732
 #, c-format
 msgid "Select All"
 msgstr "सभी का चयन"
 
-#: drakfont:748
+#: drakfont:749
 #, c-format
 msgid "Importing fonts"
 msgstr "फ़ान्टों को इम्पोर्ट किया जा रहा है"
 
-#: drakfont:752 drakfont:772
+#: drakfont:753 drakfont:773
 #, c-format
 msgid "Initial tests"
 msgstr "आरम्भिक परीक्षण"
 
-#: drakfont:753
+#: drakfont:754
 #, c-format
 msgid "Copy fonts on your system"
 msgstr "आपके तंत्र पर फ़ान्टों की प्रतिलिपि"
 
-#: drakfont:754
+#: drakfont:755
 #, c-format
 msgid "Install & convert Fonts"
 msgstr "फ़ॉन्टों को संसाधित व रूपान्तरित करें"
 
-#: drakfont:755
+#: drakfont:756
 #, c-format
 msgid "Post Install"
 msgstr "संसाधन के उपरान्त"
 
-#: drakfont:767
+#: drakfont:768
 #, fuzzy, c-format
 msgid "Removing fonts"
 msgstr "फ़ान्टों को इम्पोर्ट किया जा रहा है"
 
-#: drakfont:773
+#: drakfont:774
 #, c-format
 msgid "Remove fonts on your system"
 msgstr "आपके तंत्र से फ़ान्टों को हटाना"
 
-#: drakfont:774
+#: drakfont:775
 #, c-format
 msgid "Post Uninstall"
 msgstr "असंसाधन के उपरान्त"
@@ -887,22 +897,22 @@ msgstr "अनुमतियां"
 msgid "Editable"
 msgstr "संपादन करने योग्य"
 
-#: drakperm:48 drakperm:318
+#: drakperm:50 drakperm:318
 #, c-format
 msgid "Path"
 msgstr "पथ"
 
-#: drakperm:48 drakperm:247
+#: drakperm:50 drakperm:247
 #, c-format
 msgid "User"
 msgstr "उपयोगकर्ता"
 
-#: drakperm:48 drakperm:247
+#: drakperm:50 drakperm:247
 #, c-format
 msgid "Group"
 msgstr "समूह"
 
-#: drakperm:48 drakperm:107 drakperm:330 draksec:179
+#: drakperm:50 drakperm:107 drakperm:330 draksec:201
 #, c-format
 msgid "Permissions"
 msgstr "अनुमतियां"
@@ -912,7 +922,7 @@ msgstr "अनुमतियां"
 msgid "Add a new rule"
 msgstr ""
 
-#: drakperm:65 drakperm:100 drakperm:126
+#: drakperm:67 drakperm:102 drakperm:126
 #, c-format
 msgid "Edit current rule"
 msgstr "वर्तमान नियम को संपादित करें"
@@ -922,7 +932,7 @@ msgstr "वर्तमान नियम को संपादित कर�
 msgid ""
 "Here you can see files to use in order to fix permissions, owners, and "
 "groups via msec.\n"
-"You can also edit your own rules which will owerwrite the default rules."
+"You can also edit your own rules which will overwrite the default rules."
 msgstr ""
 
 #: drakperm:110
@@ -974,7 +984,7 @@ msgstr "मिटायें"
 msgid "Delete selected rule"
 msgstr "चयनित नियम को हटायें"
 
-#: drakperm:126 drakups:299 drakups:375
+#: drakperm:126 drakups:300 drakups:376
 #, c-format
 msgid "Edit"
 msgstr "संपादन"
@@ -1101,24 +1111,24 @@ msgstr "पथ चयन"
 msgid "Property"
 msgstr "गुण"
 
-#: drakperm:374
+#: drakperm:371
 #, c-format
 msgid ""
 "The first character of the path must be a slash (\"/\"):\n"
 "\"%s\""
 msgstr ""
 
-#: drakperm:384
+#: drakperm:381
 #, c-format
 msgid "Both the username and the group must valid!"
 msgstr ""
 
-#: drakperm:385
+#: drakperm:382
 #, c-format
 msgid "User: %s"
 msgstr ""
 
-#: drakperm:386
+#: drakperm:383
 #, c-format
 msgid "Group: %s"
 msgstr ""
@@ -1138,7 +1148,7 @@ msgstr "स्थानीय"
 msgid "NONE"
 msgstr "कुछ नहीं"
 
-#: draksec:54
+#: draksec:56 draksec:113
 #, c-format
 msgid "Default"
 msgstr "डिफ़ाल्ट"
@@ -1155,145 +1165,145 @@ msgstr "सुरक्षा स्तर:"
 
 #: draksec:108
 #, c-format
-msgid "Configure access to OpenMandriva Lx administrative tools"
+msgid "Configure authentication required to access DrakX tools"
 msgstr ""
 
-#: draksec:111
+#: draksec:114
 #, c-format
 msgid "No password needed"
 msgstr "कोई कूट-शब्द नहीं"
 
-#: draksec:112
+#: draksec:115
 #, c-format
-msgid "Root password required"
+msgid "Administrator password"
 msgstr ""
 
-#: draksec:113
+#: draksec:116
 #, c-format
 msgid "User password required"
 msgstr ""
 
-#: draksec:146 draksec:202
+#: draksec:168 draksec:223
 #, c-format
 msgid "Software Management"
 msgstr "सॉफ़्टवेयर प्रबंधक"
 
-#: draksec:147
+#: draksec:169
 #, fuzzy, c-format
-msgid "Online Update"
+msgid "%s Update"
 msgstr "मैनड्रिव ऑनलाइन"
 
-#: draksec:148
+#: draksec:170
 #, c-format
 msgid "Software Media Manager"
 msgstr "सॉफ़्टवेयर मीडीया प्रबंधक"
 
-#: draksec:149
+#: draksec:171
 #, fuzzy, c-format
 msgid "Configure 3D Desktop effects"
 msgstr "एक न्यूजसमूह सर्वर की संरचना"
 
-#: draksec:150
+#: draksec:172
 #, fuzzy, c-format
 msgid "Graphical Server Configuration"
 msgstr "विपत्र चेतावनी संरचना"
 
-#: draksec:151
+#: draksec:173
 #, fuzzy, c-format
 msgid "Mouse Configuration"
 msgstr "स्वंम के द्वारा संरचना"
 
-#: draksec:152
+#: draksec:174
 #, fuzzy, c-format
 msgid "Keyboard Configuration"
 msgstr "नेटवर्क संरचना"
 
-#: draksec:153
+#: draksec:175
 #, fuzzy, c-format
 msgid "Printer Configuration"
 msgstr "प्रोक्सी संरचना"
 
-#: draksec:154
+#: draksec:176
 #, fuzzy, c-format
 msgid "UPS Configuration"
 msgstr "यूपीएस चालक संरचना"
 
-#: draksec:155
+#: draksec:177
 #, fuzzy, c-format
 msgid "Network Configuration"
 msgstr "चेतावनी का आकार"
 
-#: draksec:156
+#: draksec:178
 #, c-format
 msgid "Hosts definitions"
 msgstr ""
 
-#: draksec:157
+#: draksec:179
 #, fuzzy, c-format
 msgid "Network Center"
 msgstr "नेटवर्क और इंटरनेट"
 
-#: draksec:158
+#: draksec:180
 #, c-format
 msgid "Wireless Network Roaming"
 msgstr ""
 
-#: draksec:159
+#: draksec:181
 #, c-format
 msgid "VPN"
 msgstr ""
 
-#: draksec:160
+#: draksec:182
 #, c-format
 msgid "Proxy Configuration"
 msgstr "प्रोक्सी संरचना"
 
-#: draksec:161
+#: draksec:183
 #, fuzzy, c-format
 msgid "Connection Sharing"
 msgstr "कनेक्शन"
 
-#: draksec:163
+#: draksec:185
 #, c-format
 msgid "Backups"
 msgstr "बैक-अप"
 
-#: draksec:165 logdrake:56
+#: draksec:187 logdrake:56
 #, c-format
 msgid "Logs"
 msgstr "रोज़नामचे"
 
-#: draksec:166 finish-install:210 finish-install:249
+#: draksec:188 finish-install:212 finish-install:251
 #, c-format
 msgid "Services"
 msgstr "सेवायें"
 
-#: draksec:167
+#: draksec:189
 #, fuzzy, c-format
 msgid "Users"
 msgstr "उपयोगकर्ता"
 
-#: draksec:169
+#: draksec:191
 #, fuzzy, c-format
 msgid "Boot Configuration"
 msgstr "चेतावनी का आकार"
 
-#: draksec:203
+#: draksec:224
 #, c-format
 msgid "Hardware"
 msgstr "हार्डवेयर"
 
-#: draksec:204
+#: draksec:225
 #, fuzzy, c-format
 msgid "Network"
 msgstr "नेटवर्क विकल्प"
 
-#: draksec:205
+#: draksec:226
 #, c-format
 msgid "System"
 msgstr "तंत्र"
 
-#: draksec:206
+#: draksec:227
 #, c-format
 msgid "Boot"
 msgstr "बूट"
@@ -1384,12 +1394,12 @@ msgstr ""
 msgid "Autodetection"
 msgstr "स्वतःखोज"
 
-#: drakups:98 harddrake2:374
+#: drakups:99 harddrake2:358
 #, c-format
 msgid "Detection in progress"
 msgstr "खोज जारी है"
 
-#: drakups:117 drakups:156 logdrake:461 logdrake:467
+#: drakups:118 drakups:157 logdrake:465 logdrake:471
 #, c-format
 msgid "Congratulations"
 msgstr "बधाई हो"
@@ -1524,7 +1534,7 @@ msgstr "स्तर"
 msgid "ACL name"
 msgstr "ऐसीएल नाम"
 
-#: drakups:296 finish-install:258
+#: drakups:297 finish-install:260
 #, c-format
 msgid "Password"
 msgstr "कूट-शब्द"
@@ -1577,7 +1587,7 @@ msgid "Keyboard"
 msgstr "की-बोर्ड"
 
 #: finish-install:58
-#, fuzzy, c-format
+#, c-format
 msgid "Please choose your keyboard layout."
 msgstr "कृपया, अपने की-बोर्ड खाके का चयन करें"
 
@@ -1586,57 +1596,62 @@ msgstr "कृपया, अपने की-बोर्ड खाके का
 msgid "Testing your connection..."
 msgstr ""
 
-#: finish-install:185
+#: finish-install:187
 #, c-format
 msgid "Windows-compatible sharing system"
 msgstr ""
 
-#: finish-install:188
+#: finish-install:189
+#, c-format
+msgid "Virtual Private Network"
+msgstr ""
+
+#: finish-install:190
 #, fuzzy, c-format
 msgid "OpenSSH server"
 msgstr "एसएसएच सर्वर"
 
-#: finish-install:189
+#: finish-install:191
 #, fuzzy, c-format
 msgid "Print server"
 msgstr "एफ़०टी०पी० सर्वर"
 
-#: finish-install:209
+#: finish-install:211
 #, c-format
 msgid "Do you have any services that you want to run when starting up?"
 msgstr ""
 
-#: finish-install:241
+#: finish-install:243
 #, fuzzy, c-format
 msgid "The following services failed to start:\n"
 msgstr "निम्नलिखित पैकेजों का संसाधन करना आवश्यक है:\n"
 
-#: finish-install:244
+#: finish-install:246
 #, fuzzy, c-format
 msgid "The following services failed to stop:\n"
 msgstr "निम्नलिखित पैकेजों का संसाधन करना आवश्यक है:\n"
 
-#: finish-install:256 finish-install:274 finish-install:287
+#: finish-install:258 finish-install:276 finish-install:289
 #, c-format
 msgid "Encrypted home partition"
 msgstr ""
 
-#: finish-install:256
+#: finish-install:258
 #, c-format
 msgid "Please enter a password for the %s user"
 msgstr ""
 
-#: finish-install:259
+#: finish-install:261
 #, c-format
 msgid "Password (again)"
 msgstr "कूट-शब्द (पुनः बतायें)"
 
-#: finish-install:274
+#: finish-install:276
 #, c-format
 msgid "Creating encrypted home partition"
 msgstr ""
 
-#: finish-install:287
+#: finish-install:289
 #, c-format
 msgid "Formatting encrypted home partition"
 msgstr ""
@@ -2266,48 +2281,144 @@ msgstr "पार्टीशन्स"
 msgid "Features"
 msgstr "विशेषताएँ"
 
-#. -PO: please keep all "/" characters !!!
-#: harddrake2:179 logdrake:82
+#: harddrake2:179
 #, c-format
-msgid "/_Options"
-msgstr "/विकल्प (_O)"
+msgid "Autodetect _modems"
+msgstr "स्वतःखोजी मॉडम (_m)"
 
-#: harddrake2:180 harddrake2:203 logdrake:84
+#: harddrake2:180
 #, c-format
-msgid "/_Help"
-msgstr "/सहायता (_H)"
-
-#: harddrake2:184
-#, c-format
-msgid "/Autodetect _modems"
-msgstr "/स्वतःखोजी मॉडम (_m)"
-
-#: harddrake2:185
-#, c-format
-msgid "/Autodetect parallel _zip drives"
+msgid "Autodetect parallel _zip drives"
 msgstr ""
 
-#: harddrake2:189
+#: harddrake2:184
 #, fuzzy, c-format
 msgid "Hardware Configuration"
 msgstr "नेटवर्क संरचना"
 
+#: harddrake2:193
+#, c-format
+msgid "_Options"
+msgstr "विकल्प (_O)"
+
+#: harddrake2:194 harddrake2:195
+#, c-format
+msgid "_Help"
+msgstr "सहायता (_H)"
+
+#: harddrake2:195
+#, fuzzy, c-format
+msgid "<control>H"
+msgstr "<control>Q"
+
 #: harddrake2:196
 #, c-format
-msgid "/_Quit"
-msgstr "/निर्गम (_Q)"
+msgid "_Fields description"
+msgstr "प्रविष्टियों का विवरण (_F)"
 
-#: harddrake2:205
+#: harddrake2:197
 #, c-format
-msgid "/_Fields description"
-msgstr "/प्रविष्टियों का विवरण (_F)"
+msgid "_Report Bug"
+msgstr "दोष के बारे में बतायें (_R)"
 
-#: harddrake2:207
+#: harddrake2:198
+#, c-format
+msgid "_About..."
+msgstr "के बारे में (_A)..."
+
+#: harddrake2:242
+#, c-format
+msgid "Detected hardware"
+msgstr "हार्डवेयर को पहचान गया"
+
+#: harddrake2:245 scannerdrake:283
+#, c-format
+msgid "Information"
+msgstr "सूचना"
+
+#: harddrake2:247
+#, c-format
+msgid "Set current driver options"
+msgstr ""
+
+#: harddrake2:254
+#, c-format
+msgid "Run config tool"
+msgstr "संरचना औजार को चलायें"
+
+#: harddrake2:280
+#, c-format
+msgid ""
+"Click on a device in the tree on the left in order to display its "
+"information here."
+msgstr "यहाँ सूचना के प्रदर्शन के लिए, बांयें और दिये हुए वृक्ष में एक उपकरण पर क्लिक करें ।"
+
+#: harddrake2:300 notify-x11-free-driver-switch:13
+#, c-format
+msgid "unknown"
+msgstr "अज्ञात"
+
+#: harddrake2:301
+#, c-format
+msgid "Unknown"
+msgstr "अज्ञात"
+
+#: harddrake2:321
+#, c-format
+msgid "Misc"
+msgstr "विविध"
+
+#: harddrake2:404
+#, c-format
+msgid "secondary"
+msgstr "द्वितीय"
+
+#: harddrake2:404
+#, c-format
+msgid "primary"
+msgstr "प्राथमिक"
+
+#: harddrake2:408
+#, c-format
+msgid "burner"
+msgstr "बर्नर"
+
+#: harddrake2:408
+#, c-format
+msgid "DVD"
+msgstr "डीवीडी"
+
+#: harddrake2:504
+#, c-format
+msgid "The following packages need to be installed:\n"
+msgstr "निम्नलिखित पैकेजों का संसाधन करना आवश्यक है:\n"
+
+#: harddrake2:521
+#, fuzzy, c-format
+msgid "Harddrake"
+msgstr "हार्ड ड्रैक"
+
+#: harddrake2:523
+#, fuzzy, c-format
+msgid "Copyright (C) %s by %s"
+msgstr "सर्वाधिकार (C) १९९९-२००४ मैनड्रिव सॉफ़्ट ।"
+
+#: harddrake2:523 harddrake2:527
+#, c-format
+msgid "Mageia"
+msgstr ""
+
+#: harddrake2:525
+#, c-format
+msgid "This is HardDrake, a %s hardware configuration tool."
+msgstr ""
+
+#: harddrake2:540
 #, c-format
 msgid "Harddrake help"
 msgstr "हार्डड्रैक सहायता"
 
-#: harddrake2:208
+#: harddrake2:541
 #, c-format
 msgid ""
 "Description of the fields:\n"
@@ -2316,12 +2427,12 @@ msgstr ""
 "प्रविष्टियों का विवरण:\n"
 "\n"
 
-#: harddrake2:216
+#: harddrake2:548
 #, c-format
 msgid "Select a device!"
 msgstr "एक उपकरण का चयन करें !"
 
-#: harddrake2:216
+#: harddrake2:548
 #, c-format
 msgid ""
 "Once you've selected a device, you'll be able to see the device information "
@@ -2329,98 +2440,6 @@ msgid ""
 msgstr ""
 "जब आप एक उपकरण का चयन करते है, तो दाहिने फ़्रेम (\"Information\") में दिखाई जाने "
 "वालीप्रविष्टीयों में आप उपकरण के वारे में जानकारी को देख सकते है"
-
-#: harddrake2:222
-#, c-format
-msgid "/_Report Bug"
-msgstr "/दोष के बारे में बतायें (_R)"
-
-#: harddrake2:224
-#, c-format
-msgid "/_About..."
-msgstr "/के बारे में (_A)..."
-
-#: harddrake2:227
-#, fuzzy, c-format
-msgid "Harddrake"
-msgstr "हार्ड ड्रैक"
-
-#: harddrake2:231
-#, c-format
-msgid "This is HardDrake, a %s hardware configuration tool."
-msgstr ""
-
-#: harddrake2:233
-#, fuzzy, c-format
-msgid "OpenMandriva Linux"
-msgstr "मैनड्रैकलिनक्स"
-
-#: harddrake2:264
-#, c-format
-msgid "Detected hardware"
-msgstr "हार्डवेयर को पहचान गया"
-
-#: harddrake2:267 scannerdrake:283
-#, c-format
-msgid "Information"
-msgstr "सूचना"
-
-#: harddrake2:269
-#, c-format
-msgid "Set current driver options"
-msgstr ""
-
-#: harddrake2:276
-#, c-format
-msgid "Run config tool"
-msgstr "संरचना औजार को चलायें"
-
-#: harddrake2:296
-#, c-format
-msgid ""
-"Click on a device in the tree on the left in order to display its "
-"information here."
-msgstr "यहाँ सूचना के प्रदर्शन के लिए, बांयें और दिये हुए वृक्ष में एक उपकरण पर क्लिक करें ।"
-
-#: harddrake2:317 notify-x11-free-driver-switch:13
-#, c-format
-msgid "unknown"
-msgstr "अज्ञात"
-
-#: harddrake2:318
-#, c-format
-msgid "Unknown"
-msgstr "अज्ञात"
-
-#: harddrake2:338
-#, c-format
-msgid "Misc"
-msgstr "विविध"
-
-#: harddrake2:420
-#, c-format
-msgid "secondary"
-msgstr "द्वितीय"
-
-#: harddrake2:420
-#, c-format
-msgid "primary"
-msgstr "प्राथमिक"
-
-#: harddrake2:424
-#, c-format
-msgid "burner"
-msgstr "बर्नर"
-
-#: harddrake2:424
-#, c-format
-msgid "DVD"
-msgstr "डीवीडी"
-
-#: harddrake2:528
-#, c-format
-msgid "The following packages need to be installed:\n"
-msgstr "निम्नलिखित पैकेजों का संसाधन करना आवश्यक है:\n"
 
 #: localedrake:38
 #, c-format
@@ -2439,219 +2458,174 @@ msgid ", "
 msgstr ", "
 
 #: logdrake:55
-#, c-format
-msgid "%s Tools Logs"
-msgstr ""
+#, fuzzy, c-format
+msgid "DrakX Tools Logs"
+msgstr "मैनड्रिव टूल्स लॉग्स"
 
 #: logdrake:69
 #, c-format
 msgid "Show only for the selected day"
 msgstr "सिर्फ़ चयनित दिवस के लिए ही दिखायें"
 
-#: logdrake:76
-#, c-format
-msgid "/File/_New"
-msgstr "/संचिका (F)/नवीन (_N)"
-
-#: logdrake:76
-#, c-format
-msgid "<control>N"
-msgstr "<control>N"
-
-#: logdrake:77
-#, c-format
-msgid "/File/_Open"
-msgstr "/संचिका (F)/खोलें (_O)"
-
-#: logdrake:77
-#, c-format
-msgid "<control>O"
-msgstr "<control>O"
-
-#: logdrake:78
-#, c-format
-msgid "/File/_Save"
-msgstr "/संचिका (F)/सुरक्षित (_S)"
-
 #: logdrake:78
 #, c-format
 msgid "<control>S"
 msgstr "<control>S"
 
-#: logdrake:79
-#, c-format
-msgid "/File/Save _As"
-msgstr "/संचिका (F)/जैसे सुरक्षित करें ( _A)"
-
-#: logdrake:80
-#, c-format
-msgid "/File/-"
-msgstr "/संचिका (F)/-"
-
-#: logdrake:83
-#, c-format
-msgid "/Options/Test"
-msgstr "/विकल्प (O)/परीक्षण"
-
-#: logdrake:85
-#, c-format
-msgid "/Help/_About..."
-msgstr "/सहायता (H)/के बारें में (_A)..."
-
-#: logdrake:114
+#: logdrake:117
 #, c-format
 msgid ""
 "_:this is the auth.log log file\n"
 "Authentication"
 msgstr "प्रमाणीकरण"
 
-#: logdrake:115
+#: logdrake:118
 #, c-format
 msgid ""
 "_:this is the user.log log file\n"
 "User"
 msgstr "उपयोगकर्ता"
 
-#: logdrake:116
+#: logdrake:119
 #, c-format
 msgid ""
 "_:this is the /var/log/messages log file\n"
 "Messages"
 msgstr "संदेशें"
 
-#: logdrake:117
+#: logdrake:120
 #, c-format
 msgid ""
 "_:this is the /var/log/syslog log file\n"
 "Syslog"
 msgstr "सिस्लॉग (Syslog)"
 
-#: logdrake:121
+#: logdrake:124
 #, c-format
 msgid "search"
 msgstr "खोज"
 
-#: logdrake:133
+#: logdrake:136
 #, c-format
 msgid "A tool to monitor your logs"
 msgstr "आपके लॉगों को मॉनिटर करने के लिए एक औज़ार"
 
-#: logdrake:135
+#: logdrake:138
 #, c-format
 msgid "Settings"
 msgstr "समायोजनायें"
 
-#: logdrake:138
+#: logdrake:141
 #, c-format
 msgid "Matching"
 msgstr "मिलान"
 
-#: logdrake:139
+#: logdrake:142
 #, c-format
 msgid "but not matching"
 msgstr "परन्तु मिलान नहीं है"
 
-#: logdrake:142
+#: logdrake:145
 #, c-format
 msgid "Choose file"
 msgstr "संचिका का चयन करें"
 
-#: logdrake:154
+#: logdrake:157
 #, c-format
 msgid "Calendar"
 msgstr "कैलेन्डर"
 
-#: logdrake:163
+#: logdrake:166
 #, c-format
 msgid "Content of the file"
 msgstr "इस संचिका की विषयवस्तु"
 
-#: logdrake:167 logdrake:411
+#: logdrake:170 logdrake:415
 #, c-format
 msgid "Mail alert"
 msgstr "विपत्र सूचना"
 
-#: logdrake:174
+#: logdrake:177
 #, fuzzy, c-format
 msgid "The alert wizard has failed unexpectedly:"
 msgstr "यह सचेतक विजार्ड अचानक असफ़ल हो गया:"
 
-#: logdrake:178
+#: logdrake:181
 #, c-format
 msgid "Save"
 msgstr "सुरक्षित"
 
-#: logdrake:226
+#: logdrake:230
 #, c-format
 msgid "please wait, parsing file: %s"
 msgstr "कॄपया प्रतीक्षा करें, संचिका का पदभंजन हो रहा है: %s"
 
-#: logdrake:248
+#: logdrake:252
 #, c-format
 msgid "Sorry, log file isn't available!"
 msgstr ""
 
-#: logdrake:296
+#: logdrake:300
 #, c-format
 msgid "Error while opening \"%s\" log file: %s\n"
 msgstr ""
 
-#: logdrake:389
+#: logdrake:393
 #, c-format
 msgid "Apache World Wide Web Server"
 msgstr "आपचे विश्व व्यापी वेब सर्वर"
 
-#: logdrake:390
+#: logdrake:394
 #, c-format
 msgid "Domain Name Resolver"
 msgstr "डोमेन नाम को सुलझाने वाला"
 
-#: logdrake:391
+#: logdrake:395
 #, c-format
 msgid "Ftp Server"
 msgstr "एफ़०टी०पी० सर्वर"
 
-#: logdrake:392
+#: logdrake:396
 #, c-format
 msgid "Postfix Mail Server"
 msgstr "पोस्टफ़िक्स विपत्र सर्वर"
 
-#: logdrake:393
+#: logdrake:397
 #, c-format
 msgid "Samba Server"
 msgstr "सॉबा सर्वर"
 
-#: logdrake:394
+#: logdrake:398
 #, c-format
 msgid "SSH Server"
 msgstr "एसएसएच सर्वर"
 
-#: logdrake:395
+#: logdrake:399
 #, c-format
 msgid "Webmin Service"
 msgstr "वेबमिन सेवा"
 
-#: logdrake:396
+#: logdrake:400
 #, c-format
 msgid "Xinetd Service"
 msgstr "एक्सईनिटडी सेवा"
 
-#: logdrake:405
+#: logdrake:409
 #, c-format
 msgid "Configure the mail alert system"
 msgstr "विपत्र सचेतक प्रणाली की संरचना"
 
-#: logdrake:406
+#: logdrake:410
 #, c-format
 msgid "Stop the mail alert system"
 msgstr "विपत्र सचेतक प्रणाली को बन्द करें"
 
-#: logdrake:414
+#: logdrake:418
 #, c-format
 msgid "Mail alert configuration"
 msgstr "विपत्र चेतावनी संरचना"
 
-#: logdrake:415
+#: logdrake:419
 #, c-format
 msgid ""
 "Welcome to the mail configuration utility.\n"
@@ -2662,94 +2636,94 @@ msgstr ""
 "\n"
 "यहाँ, आप चेतावनी प्रणाली की स्थापना कर पाने में समर्थ होगें ।\n"
 
-#: logdrake:418
+#: logdrake:422
 #, c-format
 msgid "What do you want to do?"
 msgstr "आप क्या करना चाहते है?"
 
-#: logdrake:425
+#: logdrake:429
 #, c-format
 msgid "Services settings"
 msgstr "सेवाओं की समायोजनायें"
 
-#: logdrake:426
+#: logdrake:430
 #, c-format
 msgid ""
 "You will receive an alert if one of the selected services is no longer "
 "running"
 msgstr "आपको एक चेतावनी मिलेगी यदि चयनित सेवाओं में कोई एक अब नहीं चल रही है"
 
-#: logdrake:433
+#: logdrake:437
 #, c-format
 msgid "Load setting"
 msgstr "अधिभारण समायोजन"
 
-#: logdrake:434
+#: logdrake:438
 #, c-format
 msgid "You will receive an alert if the load is higher than this value"
 msgstr "आप एक चेतावनी पायेगें यदि भार इस मुल्य से अधिक है"
 
-#: logdrake:435
+#: logdrake:439
 #, c-format
 msgid ""
 "_: load here is a noun, the load of the system\n"
 "Load"
 msgstr "अधिभार"
 
-#: logdrake:440
+#: logdrake:444
 #, c-format
 msgid "Alert configuration"
 msgstr "चेतावनी का आकार"
 
-#: logdrake:441
+#: logdrake:445
 #, c-format
 msgid "Please enter your email address below "
 msgstr "कृपया नीचे दिए गए स्थान में अपना विपत्र पता बतायें "
 
-#: logdrake:442
+#: logdrake:446
 #, c-format
 msgid "and enter the name (or the IP) of the SMTP server you wish to use"
 msgstr "और एसएमटीपी सर्वर का नाम (या आईपी) बतायें, जिसका आप उपयोग करना चाहते है"
 
-#: logdrake:444
+#: logdrake:448
 #, fuzzy, c-format
 msgid "Email address"
 msgstr "आईपी पता"
 
-#: logdrake:445
+#: logdrake:449
 #, fuzzy, c-format
 msgid "Email server"
 msgstr "सॉबा सर्वर"
 
-#: logdrake:449
+#: logdrake:453
 #, c-format
 msgid "\"%s\" neither is a valid email nor is an existing local user!"
 msgstr ""
 
-#: logdrake:454
+#: logdrake:458
 #, c-format
 msgid ""
 "\"%s\" is a local user, but you did not select a local smtp, so you must use "
 "a complete email address!"
 msgstr ""
 
-#: logdrake:461
+#: logdrake:465
 #, c-format
 msgid "The wizard successfully configured the mail alert."
 msgstr "इस विजार्ड ने विपत्र सचेतक को सफ़लतापूर्वक संरचित कर दिया है।"
 
-#: logdrake:467
+#: logdrake:471
 #, c-format
 msgid "The wizard successfully disabled the mail alert."
 msgstr "विजार्ड ने सफ़लतापूर्वक विपत्र सचेतक को निष्क्रिय कर दिया है:"
 
-#: logdrake:526
+#: logdrake:530
 #, c-format
 msgid "Save as.."
 msgstr "जैसे सुरक्षित करें.."
 
-#: notify-x11-free-driver-switch:18 service_harddrake:465
-#: service_harddrake:478
+#: notify-x11-free-driver-switch:18 service_harddrake:468
+#: service_harddrake:481
 #, c-format
 msgid "Display driver setup"
 msgstr ""
@@ -3326,27 +3300,27 @@ msgstr "कुछ उपकरणों को जोड़ा गया था: %s
 msgid "- %s was added\n"
 msgstr ""
 
-#: service_harddrake:397
+#: service_harddrake:400
 #, c-format
 msgid "Hardware changes in \"%s\" class (%s seconds to answer)"
 msgstr ""
 
-#: service_harddrake:398
+#: service_harddrake:401
 #, c-format
 msgid "Do you want to run the appropriate config tool?"
 msgstr "क्या आप उचित संरचना टूल को चलाना चाहते है ?"
 
-#: service_harddrake:423
+#: service_harddrake:426
 #, c-format
 msgid "Hardware probing in progress"
 msgstr "हार्डवेयर खोज जारी है"
 
-#: service_harddrake:444 service_harddrake:449
+#: service_harddrake:447 service_harddrake:452
 #, c-format
 msgid "Display driver issue"
 msgstr ""
 
-#: service_harddrake:445
+#: service_harddrake:448
 #, c-format
 msgid ""
 "The display driver currently configured requires you to use the 'nokmsboot' "
@@ -3355,7 +3329,7 @@ msgid ""
 "specified."
 msgstr ""
 
-#: service_harddrake:450
+#: service_harddrake:453
 #, c-format
 msgid ""
 "Detected a loaded display driver kernel module which conflicts with the "
@@ -3363,23 +3337,14 @@ msgid ""
 "fail."
 msgstr ""
 
-#: service_harddrake:465 service_harddrake:478
+#: service_harddrake:468 service_harddrake:481
 #, c-format
 msgid "The system has to be rebooted due to a display driver change."
 msgstr ""
 
-#: service_harddrake:466 service_harddrake:479
+#: service_harddrake:469 service_harddrake:482
 #, c-format
 msgid "Press Cancel within %d seconds to abort."
-msgstr ""
-
-#: ../menu/localedrake-system.desktop.in.h:1
-#, fuzzy
-msgid "System Regional Settings"
-msgstr "तंत्र समायोजनायें"
-
-#: ../menu/localedrake-system.desktop.in.h:2
-msgid "System wide language & country configurator"
 msgstr ""
 
 #: ../menu/harddrake.desktop.in.h:1
@@ -3396,6 +3361,15 @@ msgstr "नेटवर्क संरचना"
 msgid "Hardware Configuration Tool"
 msgstr "नेटवर्क संरचना"
 
+#: ../menu/localedrake-system.desktop.in.h:1
+#, fuzzy
+msgid "System Regional Settings"
+msgstr "तंत्र समायोजनायें"
+
+#: ../menu/localedrake-system.desktop.in.h:2
+msgid "System wide language & country configurator"
+msgstr ""
+
 #: ../menu/localedrake-user.desktop.in.h:1
 #, fuzzy
 msgid "Regional Settings"
@@ -3406,211 +3380,184 @@ msgstr "समायोजनायें"
 msgid "Language & country configuration"
 msgstr "स्वंम के द्वारा संरचना"
 
-#~ msgid "/Autodetect _jaz drives"
-#~ msgstr "/जैज़ ड्राइवों की स्वतः खोज (_j)"
+#: ../polkit/org.moondrake.drakauth.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Authentication Configuration"
+msgstr "विपत्र चेतावनी संरचना"
+
+#: ../polkit/org.moondrake.drakauth.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Authentication Configuration"
+msgstr "विपत्र चेतावनी संरचना"
+
+#: ../polkit/org.moondrake.drakboot.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Boot Configuration"
+msgstr "चेतावनी का आकार"
+
+#: ../polkit/org.moondrake.drakboot.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Boot Configuration"
+msgstr "चेतावनी का आकार"
+
+#: ../polkit/org.moondrake.drakclock.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Date and Time Configuration"
+msgstr "विपत्र चेतावनी संरचना"
+
+#: ../polkit/org.moondrake.drakclock.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Date and Time Configuration"
+msgstr "विपत्र चेतावनी संरचना"
+
+#: ../polkit/org.moondrake.drakdisk.policy.in.h:1
+msgid "Run DrakX Disk Layout Editor"
+msgstr ""
+
+#: ../polkit/org.moondrake.drakdisk.policy.in.h:2
+msgid "Authentication is required to run DrakX Disk Layout Editor"
+msgstr ""
+
+#: ../polkit/org.moondrake.drakdm.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Login Manager Configuration"
+msgstr "स्वंम के द्वारा संरचना"
+
+#: ../polkit/org.moondrake.drakdm.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Login Manager Configuration"
+msgstr "स्वंम के द्वारा संरचना"
+
+#: ../polkit/org.moondrake.drakfont.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Font Configuration"
+msgstr "स्वंम के द्वारा संरचना"
+
+#: ../polkit/org.moondrake.drakfont.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Font Configuration"
+msgstr "स्वंम के द्वारा संरचना"
+
+#: ../polkit/org.moondrake.drakhardware.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Hardware Configuration"
+msgstr "विपत्र चेतावनी संरचना"
+
+#: ../polkit/org.moondrake.drakhardware.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Hardware Configuration"
+msgstr "विपत्र चेतावनी संरचना"
+
+#: ../polkit/org.moondrake.draklog.policy.in.h:1
+msgid "Run DrakX Log Viewer"
+msgstr ""
+
+#: ../polkit/org.moondrake.draklog.policy.in.h:2
+msgid "Authentication is required to run DrakX Log Viewer"
+msgstr ""
+
+#: ../polkit/org.moondrake.drakperm.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Security Permissions Configuration"
+msgstr "विपत्र चेतावनी संरचना"
+
+#: ../polkit/org.moondrake.drakperm.policy.in.h:2
+#, fuzzy
+msgid ""
+"Authentication is required to run DrakX Security Permissions Configuration"
+msgstr "विपत्र चेतावनी संरचना"
+
+#: ../polkit/org.moondrake.drakscanner.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Scanner Configuration"
+msgstr "विपत्र चेतावनी संरचना"
+
+#: ../polkit/org.moondrake.drakscanner.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Scanner Configuration"
+msgstr "विपत्र चेतावनी संरचना"
+
+#: ../polkit/org.moondrake.draksec.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Application Security Configuration"
+msgstr "विपत्र चेतावनी संरचना"
+
+#: ../polkit/org.moondrake.draksec.policy.in.h:2
+#, fuzzy
+msgid ""
+"Authentication is required to run DrakX Application Security Configuration"
+msgstr "विपत्र चेतावनी संरचना"
+
+#: ../polkit/org.moondrake.drakups.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX UPS Configuration"
+msgstr "यूपीएस चालक संरचना"
+
+#: ../polkit/org.moondrake.drakups.policy.in.h:2
+msgid "Authentication is required to run DrakX UPS Configuration"
+msgstr ""
+
+#: ../polkit/org.moondrake.moondrakeservices.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Service Configuration"
+msgstr "विपत्र चेतावनी संरचना"
+
+#: ../polkit/org.moondrake.moondrakeservices.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Service Configuration"
+msgstr "विपत्र चेतावनी संरचना"
 
 #, fuzzy
-#~ msgid "OpenMandriva Lx Tools Logs"
+#~ msgid "%s Bug Report Tool"
+#~ msgstr "मैनड्रिव दोष रिपोर्ट औज़ार"
+
+#, fuzzy
+#~ msgid "%s Tools Logs"
 #~ msgstr "मैनड्रिव टूल्स लॉग्स"
 
-#~ msgid "/Autodetect _printers"
-#~ msgstr "/प्रिंटरों की स्वतः खोज (_p)"
-
-#~ msgid ""
-#~ "Display theme\n"
-#~ "under console"
-#~ msgstr ""
-#~ "कन्सोल के अन्तर्गत\n"
-#~ "डिस्पले थीम"
-
-#~ msgid "Create new theme"
-#~ msgstr "नवीन थीम का निर्माण"
-
-#~ msgid "Text box height"
-#~ msgstr "टेक्स्ट बाक्स की ऊंचाई"
-
-#~ msgid "The width of the progress bar"
-#~ msgstr "प्रगति पट्टी की चौड़ाई"
+#, fuzzy
+#~ msgid "Run Moondrake Application Security Configuration"
+#~ msgstr "विपत्र चेतावनी संरचना"
 
 #, fuzzy
-#~ msgid "Text"
-#~ msgstr "सिर्फ पाठ"
-
-#~ msgid "Text color"
-#~ msgstr "पाठ रंग"
-
-#~ msgid "Background color"
-#~ msgstr "पृष्ठभूमि रंग"
-
-#~ msgid "Theme name"
-#~ msgstr "थीम का नाम"
-
-#~ msgid "Display logo on Console"
-#~ msgstr "पहचान-चिह्न का कन्सोल पर अवलोकन"
-
-#~ msgid "Save theme"
-#~ msgstr "थीम को सुरक्षित करें"
+#~ msgid "Run Moondrake Authentication Configuration"
+#~ msgstr "विपत्र चेतावनी संरचना"
 
 #, fuzzy
-#~ msgid "Please enter a theme name"
-#~ msgstr "कृपया इस कार्ड हेतु बेतार के पैरामीटरों को बतायें:"
+#~ msgid "Run Moondrake Boot Configuration"
+#~ msgstr "चेतावनी का आकार"
 
 #, fuzzy
-#~ msgid "Please select a splash image"
-#~ msgstr "कृपया अपने यूपीएस मॉडल का चयन करें"
-
-#~ msgid "saving Bootsplash theme..."
-#~ msgstr "बूटस्प्लॉश शैली को सुरक्षित किया जा रहा है..."
-
-#~ msgid "choose image"
-#~ msgstr "प्रतिबिंब का चयन करें"
-
-#~ msgid "Coma bug"
-#~ msgstr "कॉमा दोष"
-
-#~ msgid "whether this cpu has the Cyrix 6x86 Coma bug"
-#~ msgstr "क्या इस सीपीयू में साइरिक्स ६x८६ कॉमा दोष है"
-
-#~ msgid "Fdiv bug"
-#~ msgstr "एफ़-डिव दोष"
-
-#~ msgid ""
-#~ "Early Intel Pentium chips manufactured have a bug in their floating point "
-#~ "processor which did not achieve the required precision when performing a "
-#~ "Floating point DIVision (FDIV)"
-#~ msgstr ""
-#~ "पूर्ववर्ती निर्मित इन्टेल पेन्टियम चिपों के फ़्लोटिंग पाइंट प्रोसेसर में एक दोष थाजिसके कारण "
-#~ "जब एक फ़्लोटिंग पाइंट डिवीजन (एफ़डीआईवी) किया जा रहा हो,तब इच्छित सूक्ष्मता प्राप्त "
-#~ "नहीं होती थी"
-
-#~ msgid "Is FPU present"
-#~ msgstr "क्या एफ़पीयू उपस्थिति है"
-
-#~ msgid "yes means the processor has an arithmetic coprocessor"
-#~ msgstr "हाँ का अर्थ है कि प्रोसेसर के साथ एक गणतीय सह-प्रोसेसर है "
-
-#~ msgid "Whether the FPU has an irq vector"
-#~ msgstr "क्या एफ़०पी०यू० के पास एक आई०आर०क्यू० वेक्टर है"
-
-#~ msgid ""
-#~ "yes means the arithmetic coprocessor has an exception vector attached"
-#~ msgstr "हाँ का अर्थ है कि गणतीय सहप्रोसेसर में एक अपवाद वेक्टर भी संलग्न है"
-
-#~ msgid "F00f bug"
-#~ msgstr "एफ़००एफ़ दोष"
-
-#~ msgid ""
-#~ "early pentiums were buggy and freezed when decoding the F00F bytecode"
-#~ msgstr ""
-#~ "पूर्ववर्ती पेन्टियम दोषपूर्ण थे और जड़ हो जाते थे जबकि एफ़००एफ़ बाइटकूट का कूटवाचन किया "
-#~ "जा रहा हो"
-
-#~ msgid "Halt bug"
-#~ msgstr "दोष को तुरन्त रोकों"
-
-#~ msgid ""
-#~ "Some of the early i486DX-100 chips cannot reliably return to operating "
-#~ "mode after the \"halt\" instruction is used"
-#~ msgstr ""
-#~ "कुछ पूर्ववर्ती आई४८६डीएक्स-१०० चिपें संचालन विधा में विश्वास के साथ नहीं लौट सकती "
-#~ "हैजबकि \"halt\" निर्देश का उपयोग किया गया हो"
+#~ msgid "Run Moondrake Date and Time Configuration"
+#~ msgstr "विपत्र चेतावनी संरचना"
 
 #, fuzzy
-#~ msgid "Bugs"
-#~ msgstr "बस"
-
-#~ msgid "Unknown/Others"
-#~ msgstr "अज्ञात/अन्य"
-
-#~ msgid "(default value: %s)"
-#~ msgstr "(डिफ़ाल्ट मूल्य: %s)"
-
-#~ msgid "Security Level:"
-#~ msgstr "सुरक्षा स्तर:"
-
-#~ msgid "Security Alerts:"
-#~ msgstr "सुरक्षा चेतावनियां:"
-
-#~ msgid "Security Administrator:"
-#~ msgstr "सुरक्षा प्रबंधक:"
-
-#~ msgid "Basic options"
-#~ msgstr "आधार-भूत विकल्प"
-
-#~ msgid "Network Options"
-#~ msgstr "नेटवर्क विकल्प"
-
-#~ msgid "System Options"
-#~ msgstr "तंत्र के विकल्प"
-
-#~ msgid "Periodic Checks"
-#~ msgstr "समय-समय पर की जाने वाली जाँचें"
-
-#~ msgid "Please wait, setting security level..."
-#~ msgstr "कृपया प्रतीक्षा करें, सुरक्षा स्तर की स्थापना हो रही है..."
-
-#~ msgid "Please wait, setting security options..."
-#~ msgstr "कृपया प्रतिक्षा करें, सुरक्षा विकल्पों को स्थापित किया जा रहा है..."
+#~ msgid "Run Moondrake Font Configuration"
+#~ msgstr "स्वंम के द्वारा संरचना"
 
 #, fuzzy
-#~ msgid ""
-#~ "The following localization packages do not seem to be useful for your "
-#~ "system:"
-#~ msgstr "निम्नलिखित पैकेजों का संसाधन करना आवश्यक है:\n"
+#~ msgid "Run Moondrake Hardware Configuration"
+#~ msgstr "विपत्र चेतावनी संरचना"
 
 #, fuzzy
-#~ msgid "Do you want to remove these packages?"
-#~ msgstr "क्या आप उचित संरचना टूल को चलाना चाहते है ?"
+#~ msgid "Run Moondrake Login Manager Configuration"
+#~ msgstr "स्वंम के द्वारा संरचना"
 
 #, fuzzy
-#~ msgid ""
-#~ "The following hardware packages do not seem to be useful for your system:"
-#~ msgstr "निम्नलिखित पैकेजों का संसाधन करना आवश्यक है:\n"
+#~ msgid "Run Moondrake Scanner Configuration"
+#~ msgstr "विपत्र चेतावनी संरचना"
 
-#~ msgid "Please wait, adding media..."
-#~ msgstr "कृपया प्रतीक्षा करें, माध्यम को जोड़ा जा रहा है..."
+#, fuzzy
+#~ msgid "Run Moondrake Security Permissions Configuration"
+#~ msgstr "विपत्र चेतावनी संरचना"
 
-#~ msgid "The change is done, but to be effective you must logout"
-#~ msgstr ""
-#~ "परिवर्तनों को कर दिया गया है, परन्तु इनको प्रभाव में लाये जाने के लिए आपको संत्र-समाप्त "
-#~ "करना पड़ेगा "
+#, fuzzy
+#~ msgid "Run Moondrake Service Configuration"
+#~ msgstr "विपत्र चेतावनी संरचना"
 
-#~ msgid "Restart XFS"
-#~ msgstr "एक्सएफ़एस को पुनः आरम्भ करें"
-
-#~ msgid "Error!"
-#~ msgstr "त्रुटि !"
-
-#~ msgid "I cannot find needed image file `%s'."
-#~ msgstr "मै आवश्यक प्रतिबिंब संचिका `%s' को खोज नहीं सका ।"
-
-#~ msgid "Auto Install Configurator"
-#~ msgstr "स्वचालित संसाधन संरचनाकर्ता"
-
-#~ msgid "replay"
-#~ msgstr "पुनः चलाना"
-
-#~ msgid "manual"
-#~ msgstr "मैनुअल"
-
-#~ msgid ""
-#~ "Please choose for each step whether it will replay like your install, or "
-#~ "it will be manual"
-#~ msgstr ""
-#~ "कृपया प्रत्येक चरण के लिए चयन करें कि वह आपके संसाधन जैसा ही चलाया जायेगा,या यह मैनुयल "
-#~ "होगा"
-
-#~ msgid "Insert a blank floppy in drive %s"
-#~ msgstr "%s में एक खाली फ़्लापी डालें"
-
-#~ msgid "Creating auto install floppy"
-#~ msgstr "स्वतः संसाधन फ़्लापी का निर्माण किया जा रहा है"
-
-#~ msgid "Insert another blank floppy in drive %s (for drivers disk)"
-#~ msgstr "ड्राइव %s में एक अन्य खाली फ़्लापी को डालें (चालकों की डिस्क के लिए)"
-
-#~ msgid "Creating auto install floppy (drivers disk)"
-#~ msgstr "स्वतः संसाधन फ़्लापी का निर्माण किया जा रहा है (चालकों की डिस्क)"
+#, fuzzy
+#~ msgid "Run Moondrake UPS Configuration"
+#~ msgstr "यूपीएस चालक संरचना"
 
 #~ msgid ""
 #~ "\n"
@@ -3624,6 +3571,339 @@ msgstr "स्वंम के द्वारा संरचना"
 #~ "\n"
 #~ "विभागों के बाँयें तरफ़ स्वतः-संसाधन के पैरामीटर उपलब्ध है"
 
+#, fuzzy
+#~ msgid "  --help                - display this help     \n"
+#~ msgstr " --help                - इस सहायता का अवलोकन \n"
+
+#, fuzzy
+#~ msgid ""
+#~ " drakhelp 0.1\n"
+#~ "Copyright (C) %s Mandriva.\n"
+#~ "Copyright (C) %s Moondrake.\n"
+#~ "This is free software and may be redistributed under the terms of the GNU "
+#~ "GPL.\n"
+#~ "\n"
+#~ "Usage: \n"
+#~ msgstr ""
+#~ " ड्रैकहैल्प ०।१\n"
+#~ "सर्वाधिकार (C) २००३-२००४ मैनड्रिव सॉफ़्ट ।\n"
+#~ "यह निःशुल्क सॉफ़्टवेय है और इसे जीएनयू/जीपीएल की शर्तों के अन्तर्गत पुनः वितरित किया जा "
+#~ "सकता है ।\n"
+#~ "\n"
+#~ "उपयोगिता: \n"
+
+#, fuzzy
+#~ msgid "%s Control Center"
+#~ msgstr "मैनड्रिव लिनक्स नियंत्रण केन्द्र"
+
+#, fuzzy
+#~ msgid "%s Help Center"
+#~ msgstr "मैनड्रिव नियंत्रण केन्द्र"
+
+#~ msgid "(default value: %s)"
+#~ msgstr "(डिफ़ाल्ट मूल्य: %s)"
+
+#~ msgid "/Autodetect _jaz drives"
+#~ msgstr "/जैज़ ड्राइवों की स्वतः खोज (_j)"
+
+#~ msgid "/Autodetect _modems"
+#~ msgstr "/स्वतःखोजी मॉडम (_m)"
+
+#~ msgid "/Autodetect _printers"
+#~ msgstr "/प्रिंटरों की स्वतः खोज (_p)"
+
+#~ msgid "/File/-"
+#~ msgstr "/संचिका (F)/-"
+
+#~ msgid "/File/Save _As"
+#~ msgstr "/संचिका (F)/जैसे सुरक्षित करें ( _A)"
+
+#~ msgid "/File/_New"
+#~ msgstr "/संचिका (F)/नवीन (_N)"
+
+#~ msgid "/File/_Open"
+#~ msgstr "/संचिका (F)/खोलें (_O)"
+
+#~ msgid "/File/_Quit"
+#~ msgstr "/संचिका (F)/निकास (_Q)"
+
+#~ msgid "/File/_Save"
+#~ msgstr "/संचिका (F)/सुरक्षित (_S)"
+
+#~ msgid "/Help/_About..."
+#~ msgstr "/सहायता (H)/के बारें में (_A)..."
+
+#~ msgid "/Options/Test"
+#~ msgstr "/विकल्प (O)/परीक्षण"
+
+#~ msgid "/_About..."
+#~ msgstr "/के बारे में (_A)..."
+
+#~ msgid "/_Fields description"
+#~ msgstr "/प्रविष्टियों का विवरण (_F)"
+
+#~ msgid "/_File"
+#~ msgstr "/संचिका (_F)"
+
+#~ msgid "/_Help"
+#~ msgstr "/सहायता (_H)"
+
+#~ msgid "/_Options"
+#~ msgstr "/विकल्प (_O)"
+
+#~ msgid "/_Quit"
+#~ msgstr "/निर्गम (_Q)"
+
+#~ msgid "/_Report Bug"
+#~ msgstr "/दोष के बारे में बतायें (_R)"
+
+#~ msgid "<control>N"
+#~ msgstr "<control>N"
+
+#~ msgid "<control>O"
+#~ msgstr "<control>O"
+
+#~ msgid "Add an item"
+#~ msgstr "एक ईकाई (आईटम) को जोड़ें"
+
+#~ msgid "Auto Install"
+#~ msgstr "स्वतः संसाधन"
+
+#~ msgid "Auto Install Configurator"
+#~ msgstr "स्वचालित संसाधन संरचनाकर्ता"
+
+#~ msgid "Autodetect _jaz drives"
+#~ msgstr "जैज़ ड्राइवों की स्वतः खोज (_j)"
+
+#~ msgid "Autodetect _printers"
+#~ msgstr "प्रिंटरों की स्वतः खोज (_p)"
+
+#~ msgid "Background color"
+#~ msgstr "पृष्ठभूमि रंग"
+
+#~ msgid "Basic options"
+#~ msgstr "आधार-भूत विकल्प"
+
+#, fuzzy
+#~ msgid "Bugs"
+#~ msgstr "बस"
+
+#~ msgid "Coma bug"
+#~ msgstr "कॉमा दोष"
+
+#, fuzzy
+#~ msgid "Copyright (C) %s by Moondrake"
+#~ msgstr "सर्वाधिकार (C) २००१-२००६ मैनड्रिव एसऐ"
+
+#~ msgid "Copyright (C) 2001-2008 by Mandriva"
+#~ msgstr "सर्वाधिकार (C) २००१-२००६ मैनड्रिव एसऐ"
+
+#~ msgid "Create new theme"
+#~ msgstr "नवीन थीम का निर्माण"
+
+#~ msgid "Creating auto install floppy"
+#~ msgstr "स्वतः संसाधन फ़्लापी का निर्माण किया जा रहा है"
+
+#~ msgid "Creating auto install floppy (drivers disk)"
+#~ msgstr "स्वतः संसाधन फ़्लापी का निर्माण किया जा रहा है (चालकों की डिस्क)"
+
+#~ msgid "Display logo on Console"
+#~ msgstr "पहचान-चिह्न का कन्सोल पर अवलोकन"
+
+#~ msgid ""
+#~ "Display theme\n"
+#~ "under console"
+#~ msgstr ""
+#~ "कन्सोल के अन्तर्गत\n"
+#~ "डिस्पले थीम"
+
+#, fuzzy
+#~ msgid "Do you want to remove these packages?"
+#~ msgstr "क्या आप उचित संरचना टूल को चलाना चाहते है ?"
+
+#, fuzzy
+#~ msgid "DrakX Online"
+#~ msgstr "मैनड्रिव ऑनलाइन"
+
+#~ msgid ""
+#~ "Early Intel Pentium chips manufactured have a bug in their floating point "
+#~ "processor which did not achieve the required precision when performing a "
+#~ "Floating point DIVision (FDIV)"
+#~ msgstr ""
+#~ "पूर्ववर्ती निर्मित इन्टेल पेन्टियम चिपों के फ़्लोटिंग पाइंट प्रोसेसर में एक दोष थाजिसके कारण "
+#~ "जब एक फ़्लोटिंग पाइंट डिवीजन (एफ़डीआईवी) किया जा रहा हो,तब इच्छित सूक्ष्मता प्राप्त "
+#~ "नहीं होती थी"
+
+#~ msgid "Error!"
+#~ msgstr "त्रुटि !"
+
+#~ msgid "F00f bug"
+#~ msgstr "एफ़००एफ़ दोष"
+
+#~ msgid "Fdiv bug"
+#~ msgstr "एफ़-डिव दोष"
+
+#~ msgid "File/-"
+#~ msgstr "संचिका (F)/-"
+
+#~ msgid "File/Save _As"
+#~ msgstr "संचिका (F)/जैसे सुरक्षित करें ( _A)"
+
+#~ msgid "File/_New"
+#~ msgstr "संचिका (F)/नवीन (_N)"
+
+#~ msgid "File/_Open"
+#~ msgstr "संचिका (F)/खोलें (_O)"
+
+#~ msgid "File/_Quit"
+#~ msgstr "संचिका (F)/निकास (_Q)"
+
+#~ msgid "File/_Save"
+#~ msgstr "संचिका (F)/सुरक्षित (_S)"
+
+#~ msgid "Halt bug"
+#~ msgstr "दोष को तुरन्त रोकों"
+
+#~ msgid "Help/_About..."
+#~ msgstr "सहायता (H)/के बारें में (_A)..."
+
+#~ msgid "I cannot find needed image file `%s'."
+#~ msgstr "मै आवश्यक प्रतिबिंब संचिका `%s' को खोज नहीं सका ।"
+
+#~ msgid "Insert a blank floppy in drive %s"
+#~ msgstr "%s में एक खाली फ़्लापी डालें"
+
+#~ msgid "Insert another blank floppy in drive %s (for drivers disk)"
+#~ msgstr "ड्राइव %s में एक अन्य खाली फ़्लापी को डालें (चालकों की डिस्क के लिए)"
+
+#~ msgid "Is FPU present"
+#~ msgstr "क्या एफ़पीयू उपस्थिति है"
+
+#, fuzzy
+#~ msgid "Mandriva Linux Bug Report Tool"
+#~ msgstr "मैनड्रिव दोष रिपोर्ट औज़ार"
+
+#, fuzzy
+#~ msgid "Mandriva Linux Tools Logs"
+#~ msgstr "मैनड्रिव टूल्स लॉग्स"
+
+#, fuzzy
+#~ msgid "Mandriva Update"
+#~ msgstr "मैनड्रिव ऑनलाइन"
+
+#~ msgid "Menudrake"
+#~ msgstr "मीनूड्रैक"
+
+#~ msgid "Moondrake"
+#~ msgstr "मैनड्रैकलिनक्स"
+
+#~ msgid "Msec"
+#~ msgstr "मिली-सेकंड"
+
+#~ msgid "Network Options"
+#~ msgstr "नेटवर्क विकल्प"
+
+#, fuzzy
+#~ msgid ""
+#~ "No Sound Card has been detected on your machine. Please verify that a "
+#~ "Linux-supported Sound Card is correctly plugged in"
+#~ msgstr ""
+#~ "आपके कम्प्यूटर पर कोई टीवी कार्ड नहीं खोजा जा सका । कृपया सत्यापित कर लें कि इसमेंएक "
+#~ "लिनक्स समर्थित वीडीओ/टीवी कार्ड भली-भांति लगा हुआ है ।\n"
+#~ "\n"
+#~ "\n"
+#~ "आप हमारे हार्डवेयर डाटाबेस को निम्नलिखित वेब-कड़ी पर देख सकते है:\n"
+#~ "\n"
+#~ "\n"
+#~ "http://www.mandrivalinux.com/hi/hardware.php3"
+
+#, fuzzy
+#~ msgid ""
+#~ "No TV Card has been detected on your machine. Please verify that a Linux-"
+#~ "supported Video/TV Card is correctly plugged in."
+#~ msgstr ""
+#~ "आपके कम्प्यूटर पर कोई टीवी कार्ड नहीं खोजा जा सका । कृपया सत्यापित कर लें कि इसमेंएक "
+#~ "लिनक्स समर्थित वीडीओ/टीवी कार्ड भली-भांति लगा हुआ है ।\n"
+#~ "\n"
+#~ "\n"
+#~ "आप हमारे हार्डवेयर डाटाबेस को निम्नलिखित वेब-कड़ी पर देख सकते है:\n"
+#~ "\n"
+#~ "\n"
+#~ "http://www.mandrivalinux.com/hi/hardware.php3"
+
+#~ msgid "Options/Test"
+#~ msgstr "विकल्प (O)/परीक्षण"
+
+#~ msgid "Periodic Checks"
+#~ msgstr "समय-समय पर की जाने वाली जाँचें"
+
+#~ msgid ""
+#~ "Please choose for each step whether it will replay like your install, or "
+#~ "it will be manual"
+#~ msgstr ""
+#~ "कृपया प्रत्येक चरण के लिए चयन करें कि वह आपके संसाधन जैसा ही चलाया जायेगा,या यह मैनुयल "
+#~ "होगा"
+
+#, fuzzy
+#~ msgid "Please enter a theme name"
+#~ msgstr "कृपया इस कार्ड हेतु बेतार के पैरामीटरों को बतायें:"
+
+#, fuzzy
+#~ msgid "Please select a splash image"
+#~ msgstr "कृपया अपने यूपीएस मॉडल का चयन करें"
+
+#~ msgid "Please wait, adding media..."
+#~ msgstr "कृपया प्रतीक्षा करें, माध्यम को जोड़ा जा रहा है..."
+
+#~ msgid "Please wait, setting security level..."
+#~ msgstr "कृपया प्रतीक्षा करें, सुरक्षा स्तर की स्थापना हो रही है..."
+
+#~ msgid "Please wait, setting security options..."
+#~ msgstr "कृपया प्रतिक्षा करें, सुरक्षा विकल्पों को स्थापित किया जा रहा है..."
+
+#~ msgid "Remove the last item"
+#~ msgstr "अंतिम मद को हटायें"
+
+#~ msgid "Restart XFS"
+#~ msgstr "एक्सएफ़एस को पुनः आरम्भ करें"
+
+#~ msgid "Save theme"
+#~ msgstr "थीम को सुरक्षित करें"
+
+#~ msgid "Security Administrator:"
+#~ msgstr "सुरक्षा प्रबंधक:"
+
+#~ msgid "Security Alerts:"
+#~ msgstr "सुरक्षा चेतावनियां:"
+
+#~ msgid "Security Level:"
+#~ msgstr "सुरक्षा स्तर:"
+
+#~ msgid ""
+#~ "Some of the early i486DX-100 chips cannot reliably return to operating "
+#~ "mode after the \"halt\" instruction is used"
+#~ msgstr ""
+#~ "कुछ पूर्ववर्ती आई४८६डीएक्स-१०० चिपें संचालन विधा में विश्वास के साथ नहीं लौट सकती "
+#~ "हैजबकि \"halt\" निर्देश का उपयोग किया गया हो"
+
+#~ msgid "System Options"
+#~ msgstr "तंत्र के विकल्प"
+
+#, fuzzy
+#~ msgid "Text"
+#~ msgstr "सिर्फ पाठ"
+
+#~ msgid "Text box height"
+#~ msgstr "टेक्स्ट बाक्स की ऊंचाई"
+
+#~ msgid "Text color"
+#~ msgstr "पाठ रंग"
+
+#~ msgid "The change is done, but to be effective you must logout"
+#~ msgstr ""
+#~ "परिवर्तनों को कर दिया गया है, परन्तु इनको प्रभाव में लाये जाने के लिए आपको संत्र-समाप्त "
+#~ "करना पड़ेगा "
+
 #~ msgid ""
 #~ "The floppy has been successfully generated.\n"
 #~ "You may now replay your installation."
@@ -3631,23 +3911,59 @@ msgstr "स्वंम के द्वारा संरचना"
 #~ "फ़्लापी का निर्माण सफ़लतापूर्वक हो चुका है ।\n"
 #~ "आप अपने संसाधन को पुनः चला सकते है ।"
 
-#~ msgid "Auto Install"
-#~ msgstr "स्वतः संसाधन"
+#, fuzzy
+#~ msgid ""
+#~ "The following hardware packages do not seem to be useful for your system:"
+#~ msgstr "निम्नलिखित पैकेजों का संसाधन करना आवश्यक है:\n"
 
-#~ msgid "Add an item"
-#~ msgstr "एक ईकाई (आईटम) को जोड़ें"
+#, fuzzy
+#~ msgid ""
+#~ "The following localization packages do not seem to be useful for your "
+#~ "system:"
+#~ msgstr "निम्नलिखित पैकेजों का संसाधन करना आवश्यक है:\n"
 
-#~ msgid "Remove the last item"
-#~ msgstr "अंतिम मद को हटायें"
+#~ msgid "The width of the progress bar"
+#~ msgstr "प्रगति पट्टी की चौड़ाई"
 
-#~ msgid "Menudrake"
-#~ msgstr "मीनूड्रैक"
+#~ msgid "Theme name"
+#~ msgstr "थीम का नाम"
 
-#~ msgid "Msec"
-#~ msgstr "मिली-सेकंड"
+#~ msgid "Unknown/Others"
+#~ msgstr "अज्ञात/अन्य"
 
 #~ msgid "Urpmi"
 #~ msgstr "यू०आर०पी०एम०आई०"
 
 #~ msgid "Userdrake"
 #~ msgstr "यूज़रड्रैक"
+
+#~ msgid "Whether the FPU has an irq vector"
+#~ msgstr "क्या एफ़०पी०यू० के पास एक आई०आर०क्यू० वेक्टर है"
+
+#~ msgid "choose image"
+#~ msgstr "प्रतिबिंब का चयन करें"
+
+#~ msgid ""
+#~ "early pentiums were buggy and freezed when decoding the F00F bytecode"
+#~ msgstr ""
+#~ "पूर्ववर्ती पेन्टियम दोषपूर्ण थे और जड़ हो जाते थे जबकि एफ़००एफ़ बाइटकूट का कूटवाचन किया "
+#~ "जा रहा हो"
+
+#~ msgid "manual"
+#~ msgstr "मैनुअल"
+
+#~ msgid "replay"
+#~ msgstr "पुनः चलाना"
+
+#~ msgid "saving Bootsplash theme..."
+#~ msgstr "बूटस्प्लॉश शैली को सुरक्षित किया जा रहा है..."
+
+#~ msgid "whether this cpu has the Cyrix 6x86 Coma bug"
+#~ msgstr "क्या इस सीपीयू में साइरिक्स ६x८६ कॉमा दोष है"
+
+#~ msgid ""
+#~ "yes means the arithmetic coprocessor has an exception vector attached"
+#~ msgstr "हाँ का अर्थ है कि गणतीय सहप्रोसेसर में एक अपवाद वेक्टर भी संलग्न है"
+
+#~ msgid "yes means the processor has an arithmetic coprocessor"
+#~ msgstr "हाँ का अर्थ है कि प्रोसेसर के साथ एक गणतीय सह-प्रोसेसर है "

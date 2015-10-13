@@ -1,5 +1,9 @@
 <list no-arch-libraries="on">
 
+<from expand="rpm">
+  uclibc-kmod
+</from>
+
 <from expand="binary">
   busybox
   sh
@@ -28,11 +32,9 @@
 
   df du
 
-  packdrake
   cpio ncftp tar
   rsync
   telnet
-  tcpdump
 
   date
   dmesg
@@ -41,19 +43,24 @@
   sync
 
   eject
-  mount mount.nfs umount
+  mount umount
   losetup
 
-  kill killall5 ps strace
+  kill ps strace
   sed tr
   strings
 
-  tset stty
+  tty stty
 
   ping hostname ifconfig route
 
   fdformat
   swapon swapoff
+
+  smartd
+  smartctl
+  sg_verify
+  sg_reassign
 
 
   <mode copy="system">
@@ -67,12 +74,12 @@
 
     partimage
 
-    sfdisk quotacheck mkswap swaplabel setterm
+    quotacheck mkswap swaplabel setterm
 
     blkid
     dmeventd
     dmsetup lvm2
-    udevadm
+    udevadm <!-- needed by mouse::detect & stage2 -->
 
     mke2fs mkfs.ext2 mkfs.ext3 mkfs.ext4
     e2fsck fsck.ext2 fsck.ext3 fsck.ext4
@@ -81,18 +88,27 @@
     mkswap swaplabel resize2fs
 
     mkfs.reiserfs resize_reiserfs reiserfstune reiserfsck
+    hdparm
   </mode>
 
   mkfs.xfs xfs_admin xfs_repair fsck.xfs
-  mkfs.ntfs mkdosfs dosfslabel mkntfs ntfsresize ntfslabel
+  xfs_freeze xfs_io <!-- needed for setup grub on XFS formated / -->
+
+  mkfs.ntfs mkdosfs fatlabel dosfslabel mkntfs ntfsresize ntfslabel
+  mkfs.btrfs btrfs btrfsck fsck.btrfs
   mkfs.nilfs2 nilfs-tune
-  mkfs.jfs fsck.jfs jfs_tune
+  jfs_debugfs mkfs.jfs fsck.jfs jfs_fscklog jfs_logdump jfs_tune
+
+  btrfs btrfsck btrfs-convert btrfs-debug-tree
+  btrfs-map-logical mkfs.btrfs fsck.btrfs
 
   screen
 
   quotacheck
   cryptsetup
+  ddrescue
 
+  setfont kbd_mode
   <if ARCH="ppc">
     hformat
   </if>
@@ -102,10 +118,6 @@
     testdisk photorec
   </if-not>
 
-  <if-not ARCH="ppc|sparc">
-    sfdisk
-  </if-not>
- 
   <if ARCH="ppc">
     pdisk 
   </if>
@@ -129,8 +141,11 @@
   lspci
 
   rpm
-  db52_verify
   db52_archive
+  db52_dump
+  db52_load
+  db52_recover
+  db52_verify
   rpm2cpio
 
   hexedit
@@ -149,7 +164,7 @@
   <if ARCH="i.86|x86_64">
     grub grub-install
   </if>
-  <if ARCH="ia64">
+  <if ARCH="x86_64">
     efibootmgr 
   </if>
   <if ARCH="ppc">
@@ -162,7 +177,7 @@
   </if>
 </from>
 
-<from dir="/LIB/device-mapper">
+<from dir="/usr/uclibc/LIB/device-mapper">
   <from expand="glob"> 
     *.so
   </from>
@@ -170,25 +185,30 @@
 
 <from dir="../images/setup">
 	<to dir="/etc">
+		fstab
+		group
 		host.conf
 		hosts
 		inputrc
-		profile
-	</to>
-</from>
-
-<from dir="../images/setup/passgrp">
-	<to dir="/etc">
-		group
 		passwd
 	</to>
 </from>
 
+<from dir="/usr/LIB/drakx-installer/binaries">
+       <to dir="/sbin">
+               stage1
+       </to>
+</from>
 
-<from dir="../mdk-stage1">
-	<to dir="/sbin">
-		stage1
-	</to>
+<from dir="/etc">
+  <to dir="/etc">
+    smartd.conf
+  </to>
+</from>
+<from dir="/usr/share/smartmontools">
+  <to dir="/usr/share/smartmontools">
+    drivedb.h
+  </to>
 </from>
 
 <from dir="bkeymaps">
@@ -211,18 +231,13 @@
   </to>
 </from>
 
-<from dir="../tools">
-  <to dir="/usr/bin">
-    loadkeys
-  </to>
-</from>
-
 <from>
   /usr/share/misc/magic.mgc
   /usr/share/terminfo/s/screen
+  /usr/share/terminfo/x/xterm-256color
 
   <if ARCH="i.86|x86_64">    
-    <from dir="/lib/grub/ARCH-mandriva" expand="glob">
+    <from dir="/lib/grub/ARCH-*mandriva" expand="glob">
       stage1
       stage2
       *_stage1_5
@@ -262,6 +277,10 @@
   /usr/lib/rpm/macros
   /usr/lib/rpm/cpuinfo.yaml
   /usr/lib/rpm/macros.d/mandriva
+
+  /lib/udev/ata_id
+  /lib/udev/scsi_id
+  /lib/udev/pcmcia-socket-startup
 </from>
 
 <filter subst="/^__END__/ and $_ = '', close ARGV">
@@ -295,28 +314,38 @@
   ARCH-linux-thread-multi/IO/Socket/INET.pm
   ARCH-linux-thread-multi/IO/Socket/UNIX.pm
 </from>
-<from expand="perl">
-  packdrake.pm
-  MDV/Packdrakeng.pm
-</from>
 </filter>
 
 <from dir="/etc">
+  fb.modes
   gpm-root.conf
   mke2fs.conf
   netconfig
   inputrc
-  termcap
   protocols
   services
   shells
+  udhcpd.conf
   <if ARCH="i.86|x86_64">
     pcmcia/config.opts
   </if>
 </from>
 <from dir="/etc/rc.d/init.d">
+	udhcpd
 	functions
 	gpm
+</from>
+
+<from dir="/etc/udhcpc">
+  default.bound
+  default.deconfig
+  default.nak
+  default.renew
+  default.script
+</from>
+
+<from>
+  /var/lib/udhcpd/udhcpd.leases
 </from>
 
 <from dir="/lib/systemd">
@@ -325,14 +354,28 @@
 
 <from dir="/lib/udev/rules.d">
   10-dm.rules
-  13-dm-disk.rules
-  64-md-raid.rules
-  65-md-incremental.rules
-
   11-dm-lvm.rules
+  13-dm-disk.rules
+  50-udev-default.rules <!-- needed for input in X11 -->
+  60-keyboard.rules
+  60-persistent-input.rules
+  60-persistent-storage.rules
+  63-md-raid-arrays.rules
+  64-md-raid-assembly.rules
+  65-md-incremental.rules
+  75-net-description.rules
+  80-drivers.rules
+  <!-- "predictable names" don't wanna! 80-net-name-slot.rules -->
   95-dm-notify.rules
 </from>
 
+<from dir="/usr/share/ldetect-lst">
+  dkms-modules.alias fallback-modules.alias
+  <filter command="gunzip">
+    dmitable.gz  
+  </filter>
+  Cards+ MonitorsDB isdn.db
+</from>
 
 <mode copy="dereference">
   <filter command="strip">
@@ -379,7 +422,6 @@
 <if set="RESCUE_FLASH">
   <from expand="binary">
     dirname
-    losetup
     mlabel
     nash
     pv
@@ -395,9 +437,8 @@
 
 <from dir="./tree/etc">
     <to dir="/etc">
-	fstab
-	init.d
 	inittab
+	modprobe.conf
 	profile
     </to>
 </from>
@@ -416,6 +457,7 @@
 </from>
 <from dir="./tree/bin">
     <to dir="/bin">
+	loadkeys
 	login.bash
     </to>
 </from>
@@ -428,6 +470,7 @@
     <to dir="/usr/sbin">
 	diskdrake-resize
 	startssh
+	grabjournallogs
     </to>
 </from>
 <from dir="./tree/usr/share/doc/rescue">

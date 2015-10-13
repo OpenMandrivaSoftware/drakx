@@ -1,4 +1,4 @@
-package c; # $Id$
+package c;
 
 use c::stuff;
 use MDK::Common;

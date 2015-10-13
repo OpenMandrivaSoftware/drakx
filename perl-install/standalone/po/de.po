@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: de\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-22 00:53+0100\n"
+"POT-Creation-Date: 2015-02-18 12:28+0100\n"
 "PO-Revision-Date: 2010-04-27 11:20+0200\n"
 "Last-Translator: Oliver Burger <oliver@mandrivauser.de>\n"
 "Language-Team: German <cooker-i18n@mandrivalinux.org>\n"
@@ -31,73 +31,73 @@ msgstr ""
 "X-Generator: Lokalize 1.0\n"
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
-#: display_help:54 display_help:59 drakbug:170 drakperm:134
+#: display_help:53 display_help:58 drakbug:173 drakperm:134
 #, c-format
 msgid "Help"
 msgstr "Hilfe"
 
-#: display_help:67 drakbug:175 drakfont:505
+#: display_help:66 drakbug:178 drakfont:507
 #, c-format
 msgid "Close"
 msgstr "Schließen"
 
-#: drakauth:24 drakauth:26 draksec:162
+#: drakauth:24 drakauth:26 draksec:184
 #, c-format
 msgid "Authentication"
 msgstr "Authentifizierung"
 
-#: drakauth:37 drakclock:113 drakclock:138 drakdvb:74 drakfont:211
-#: drakfont:224 drakfont:262 finish-install:131 logdrake:174 logdrake:449
-#: logdrake:454 scannerdrake:56 scannerdrake:98 scannerdrake:139
+#: drakauth:37 drakclock:117 drakclock:142 drakdvb:74 drakfont:213
+#: drakfont:226 drakfont:264 finish-install:133 logdrake:177 logdrake:453
+#: logdrake:458 scannerdrake:56 scannerdrake:98 scannerdrake:139
 #: scannerdrake:197 scannerdrake:256 scannerdrake:726 scannerdrake:737
 #: scannerdrake:876 scannerdrake:887 scannerdrake:957
 #, c-format
 msgid "Error"
 msgstr "Fehler"
 
-#: drakboot:53
+#: drakboot:54
 #, c-format
 msgid "No bootloader found, creating a new configuration"
 msgstr "Kein Systemstarter gefunden, erzeuge eine neue Konfiguration"
 
-#: drakboot:86 harddrake2:195 harddrake2:196 logdrake:75
+#: drakboot:89 harddrake2:191 logdrake:77
 #, c-format
-msgid "/_File"
-msgstr "/_Datei"
+msgid "_File"
+msgstr "_Datei"
 
-#: drakboot:87 logdrake:81
+#: drakboot:90 harddrake2:192 logdrake:78 logdrake:79
 #, c-format
-msgid "/File/_Quit"
-msgstr "/Datei/B_eenden"
+msgid "_Quit"
+msgstr "_Beenden"
 
-#: drakboot:87 harddrake2:196 logdrake:81
+#: drakboot:90 harddrake2:192 logdrake:79
 #, c-format
 msgid "<control>Q"
 msgstr "<control>Q"
 
-#: drakboot:127
+#: drakboot:138
 #, c-format
 msgid "Text only"
 msgstr "Nur Text"
 
-#: drakboot:128
+#: drakboot:139
 #, c-format
 msgid "Verbose"
 msgstr "Ausführlich"
 
-#: drakboot:129
+#: drakboot:140
 #, c-format
 msgid "Silent"
 msgstr "Still"
 
-#: drakboot:135 drakbug:247 drakdvb:57 drakfont:681 drakperm:374 drakperm:384
-#: drakups:26 harddrake2:528 localedrake:45 scannerdrake:48 scannerdrake:51
+#: drakboot:146 drakbug:250 drakdvb:57 drakfont:682 drakperm:371 drakperm:381
+#: drakups:27 harddrake2:504 localedrake:45 scannerdrake:48 scannerdrake:51
 #: scannerdrake:294 scannerdrake:299 scannerdrake:951
 #, c-format
 msgid "Warning"
 msgstr "Warnung"
 
-#: drakboot:136
+#: drakboot:147
 #, c-format
 msgid ""
 "Your system bootloader is not in framebuffer mode. To activate graphical "
@@ -107,72 +107,72 @@ msgstr ""
 "aktivieren wählen Sie einen grafischen Videomodus im Konfigurationswerkzeug "
 "des System-Starters."
 
-#: drakboot:137
+#: drakboot:148
 #, c-format
 msgid "Do you want to configure it now?"
 msgstr "Möchten Sie es jetzt einstellen?"
 
-#: drakboot:146
+#: drakboot:157
 #, c-format
 msgid "Install themes"
 msgstr "Designs installieren"
 
-#: drakboot:148
+#: drakboot:159
 #, c-format
 msgid "Graphical boot theme selection"
 msgstr "Auswahl des grafischen Startthemas"
 
-#: drakboot:151
+#: drakboot:162
 #, c-format
 msgid "Graphical boot mode:"
 msgstr "Grafischer Startmodus:"
 
-#: drakboot:153
+#: drakboot:164
 #, c-format
 msgid "Theme"
 msgstr "Thema"
 
-#: drakboot:187
+#: drakboot:198
 #, c-format
 msgid "Default user"
 msgstr "Standardbenutzer"
 
-#: drakboot:188
+#: drakboot:199
 #, c-format
 msgid "Default desktop"
 msgstr "Standard Arbeitsumgebung"
 
-#: drakboot:191
+#: drakboot:202
 #, c-format
 msgid "No, I do not want autologin"
 msgstr "Nein, ich will kein Autologin"
 
-#: drakboot:192
+#: drakboot:203
 #, c-format
 msgid "Yes, I want autologin with this (user, desktop)"
 msgstr "Ja, ich will Autologin mit diesem Benutzer und dieser Arbeitsumgebung"
 
-#: drakboot:199
+#: drakboot:210
 #, c-format
 msgid "System mode"
 msgstr "System-Modus"
 
-#: drakboot:202
+#: drakboot:213
 #, c-format
 msgid "Launch the graphical environment when your system starts"
 msgstr "Arbeitsoberfläche nach dem Hochfahren automatisch starten "
 
-#: drakboot:257
+#: drakboot:268
 #, c-format
 msgid "Boot Style Configuration"
 msgstr "Konfiguration der Boot-Einstellungen"
 
-#: drakboot:259 drakboot:263
+#: drakboot:270 drakboot:274
 #, c-format
 msgid "Video mode"
 msgstr "Video-Modus"
 
-#: drakboot:260
+#: drakboot:271
 #, c-format
 msgid ""
 "Please choose a video mode, it will be applied to each of the boot entries "
@@ -188,15 +188,15 @@ msgstr ""
 msgid "The \"%s\" program has crashed with the following error:"
 msgstr "Das Programm \"%s\" ist folgender Fehlermeldung abgestürzt:"
 
-#: drakbug:60
+#: drakbug:62
 #, fuzzy, c-format
-msgid "OpenMandriva Lx Bug Reporting"
-msgstr "OpenMandriva Lx Fehlerberichte"
+msgid "DrakX Bug Report Tool"
+msgstr "%s-Bugreport-Werkzeug"
 
-#: drakbug:65
-#, c-format
-msgid "OpenMandriva Lx Control Center"
-msgstr "OpenMandriva Lx Kontrollzentrum"
+#: drakbug:67
+#, fuzzy, c-format
+msgid "DrakX Linux Control Center"
+msgstr "Mandriva Linux Kontrollzentrum"
 
 #: drakbug:66
 #, c-format
@@ -213,10 +213,15 @@ msgstr "Synchronisationsprogramm"
 msgid "Standalone Tools"
 msgstr "Eingenständige Werkzeuge"
 
-#: drakbug:70 drakbug:71
+#: drakbug:72 drakbug:73
+#, c-format
+msgid "%s Online"
+msgstr "%s-Online"
+
+#: drakbug:72 drakbug:73 drakbug:99 draksec:169
 #, fuzzy, c-format
-msgid "OpenMandriva Online"
-msgstr "Mandriva Online"
+msgid "DrakX"
+msgstr "DrakUSV"
 
 #: drakbug:72
 #, c-format
@@ -238,10 +243,10 @@ msgstr "Windows-Migrationswerkzeug"
 msgid "Configuration Wizards"
 msgstr "Konfigurationsassistenten"
 
-#: drakbug:97
-#, fuzzy, c-format
-msgid "Select Tool:"
-msgstr "Wählen Sie ein Mandriva-Werkzeug:"
+#: drakbug:99
+#, c-format
+msgid "Select %s Tool:"
+msgstr "Wählen Sie ein %s-Werkzeug"
 
 #: drakbug:98
 #, c-format
@@ -257,8 +262,8 @@ msgstr ""
 msgid "Find Package"
 msgstr "Finde Pakete"
 
-#: drakbug:102
-#, fuzzy, c-format
+#: drakbug:104
+#, c-format
 msgid "Browse"
 msgstr "durchsuchen"
 
@@ -277,10 +282,10 @@ msgstr "Kernel:"
 msgid "The \"%s\" program has segfaulted with the following error:"
 msgstr "Das Programm \"%s\" hat ein segfaulted mit folgender Fehlermeldung::"
 
-#: drakbug:142
-#, fuzzy, c-format
+#: drakbug:144
+#, c-format
 msgid "Used theme: %s"
-msgstr "Benutzer: %s"
+msgstr "Benutztes Theme: %s"
 
 #: drakbug:144
 #, c-format
@@ -357,27 +362,27 @@ msgstr ""
 msgid "Thanks."
 msgstr "Danke."
 
-#: drakclock:28 draksec:168
+#: drakclock:29 draksec:190
 #, c-format
 msgid "Date, Clock & Time Zone Settings"
 msgstr "Datum, Zeit und Zeitzonen Einstellungen"
 
-#: drakclock:37
+#: drakclock:38
 #, c-format
 msgid "not defined"
 msgstr "nicht definiert"
 
-#: drakclock:39
+#: drakclock:40
 #, c-format
 msgid "Change Time Zone"
 msgstr "Zeitzone ändern"
 
-#: drakclock:44
+#: drakclock:45
 #, c-format
 msgid "Timezone - DrakClock"
 msgstr "Zeitzone - DrakClock"
 
-#: drakclock:44
+#: drakclock:45
 #, c-format
 msgid "Which is your timezone?"
 msgstr "Wählen Sie Ihre Zeitzone"
@@ -392,12 +397,12 @@ msgstr "GMT - DrakClock"
 msgid "Is your hardware clock set to GMT?"
 msgstr "Ist Ihre Hardware Uhr auf GMT eingestellt?"
 
-#: drakclock:72
+#: drakclock:75
 #, c-format
 msgid "Network Time Protocol"
 msgstr "Netzwerk Zeitprotokoll (NTP)"
 
-#: drakclock:74
+#: drakclock:77
 #, c-format
 msgid ""
 "Your computer can synchronize its clock\n"
@@ -406,42 +411,42 @@ msgstr ""
 "Dieser Computer kann seine Zeit mit einem\n"
 " Remote Time Server synchronisieren"
 
-#: drakclock:75
+#: drakclock:78
 #, c-format
 msgid "Enable Network Time Protocol"
 msgstr "Aktiviere das Network Time Protocol"
 
-#: drakclock:83
+#: drakclock:86
 #, c-format
 msgid "Server:"
 msgstr "Server:"
 
-#: drakclock:97
+#: drakclock:100
 #, c-format
 msgid "Timezone"
 msgstr "Zeitzone"
 
-#: drakclock:113
+#: drakclock:117
 #, c-format
 msgid "Please enter a valid NTP server address."
 msgstr "Bitte geben Sie eine gültige NTP Server Adresse ein."
 
-#: drakclock:139
+#: drakclock:143
 #, c-format
 msgid "Could not synchronize with %s."
 msgstr "Konnte nicht mit %s synchronisieren."
 
-#: drakclock:140 drakdvb:149 logdrake:179 scannerdrake:488
+#: drakclock:144 drakdvb:149 logdrake:182 scannerdrake:488
 #, c-format
 msgid "Quit"
 msgstr "Beenden"
 
-#: drakclock:141
+#: drakclock:145
 #, c-format
 msgid "Retry"
 msgstr "Wiederholen"
 
-#: drakclock:166 drakclock:176
+#: drakclock:168 drakclock:178
 #, c-format
 msgid "Reset"
 msgstr "Zurücksetzen"
@@ -466,10 +471,10 @@ msgstr "%s existiert bereits und sein Inhalt wird verloren gehen"
 msgid "Could not get the list of available channels"
 msgstr "Konnte die Liste der verfügbaren Kanäle nicht beziehen"
 
-#: drakdvb:80 draksec:67 drakups:98 finish-install:106 harddrake2:374
+#: drakdvb:80 draksec:69 drakups:99 finish-install:106 harddrake2:358
 #: scannerdrake:63 scannerdrake:67 scannerdrake:75 scannerdrake:316
 #: scannerdrake:365 scannerdrake:501 scannerdrake:505 scannerdrake:527
-#: service_harddrake:423
+#: service_harddrake:426
 #, c-format
 msgid "Please wait"
 msgstr "Bitte warten"
@@ -479,7 +484,7 @@ msgstr "Bitte warten"
 msgid "Detecting DVB channels, this will take a few minutes"
 msgstr "DVB-Kanäle werden erkannt, dies kann einige Minuten dauern"
 
-#: drakdvb:85 drakfont:571 drakfont:651 drakfont:735 drakups:216 logdrake:179
+#: drakdvb:85 drakfont:571 drakfont:651 drakfont:736 drakups:217 logdrake:182
 #, c-format
 msgid "Cancel"
 msgstr "Abbrechen"
@@ -511,20 +516,25 @@ msgstr "GDM (GNOME Display Manager)"
 
 #: drakedm:43
 #, fuzzy, c-format
+msgid "LIGHTDM (LightDM Display Manager)"
+msgstr "GDM (GNOME Display Manager)"
+
+#: drakedm:44
+#, fuzzy, c-format
 msgid "SLIM (Simple Display Manager)"
 msgstr "XDM (X Display Manager)"
 
-#: drakedm:44
+#: drakedm:45
 #, c-format
 msgid "XDM (X Display Manager)"
 msgstr "XDM (X Display Manager)"
 
-#: drakedm:55
+#: drakedm:56
 #, c-format
 msgid "Choosing a display manager"
 msgstr "Wähle einen Display-Manager"
 
-#: drakedm:56
+#: drakedm:57
 #, c-format
 msgid ""
 "X11 Display Manager allows you to graphically log\n"
@@ -535,12 +545,12 @@ msgstr ""
 "an das System, sowie das gleichzeitige Ausführen mehrerer verschiedener \n"
 "lokaler X-Sitzungen."
 
-#: drakedm:79
+#: drakedm:80
 #, c-format
 msgid "The change is done, do you want to restart the dm service?"
 msgstr "Die Änderungen wurden ausgeführt, soll ich den dm-Dienst neu starten?"
 
-#: drakedm:80
+#: drakedm:81
 #, c-format
 msgid ""
 "You are going to close all running programs and lose your current session. "
@@ -665,7 +675,7 @@ msgstr "Schrift  Installation"
 msgid "DrakFont"
 msgstr "DrakFont"
 
-#: drakfont:489 drakfont:641
+#: drakfont:491 drakfont:641
 #, c-format
 msgid "Font List"
 msgstr "Font-Liste"
@@ -680,12 +690,12 @@ msgstr "Windows-Schriftarten holen"
 msgid "About"
 msgstr "Über"
 
-#: drakfont:499 drakfont:540
+#: drakfont:501 drakfont:540
 #, c-format
 msgid "Options"
 msgstr "Optionen"
 
-#: drakfont:500 drakfont:720
+#: drakfont:502 drakfont:721
 #, c-format
 msgid "Uninstall"
 msgstr "Deinstallieren"
@@ -700,9 +710,9 @@ msgstr "Importieren"
 msgid "Drakfont"
 msgstr "DrakFont"
 
-#: drakfont:521 harddrake2:229
-#, fuzzy, c-format
-msgid "Copyright (C) %s by OpenMandriva"
+#: drakfont:523
+#, c-format
+msgid "Copyright (C) %s by Mandriva"
 msgstr "Copyright·(C)·%s·bei·Mandriva"
 
 #: drakfont:523
@@ -710,14 +720,14 @@ msgstr "Copyright·(C)·%s·bei·Mandriva"
 msgid "Font installer."
 msgstr "Schriftarten installieren."
 
-#: drakfont:525 logdrake:55
-#, c-format
-msgid "OpenMandriva Lx"
-msgstr "OpenMandriva Lx"
+#: drakfont:527
+#, fuzzy, c-format
+msgid "Moondrake GNU/Linux"
+msgstr "Mandriva Linux"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
-#: drakfont:532 harddrake2:238
+#: drakfont:532 harddrake2:531
 #, c-format
 msgid "_: Translator(s) name(s) & email(s)\n"
 msgstr ""
@@ -737,7 +747,7 @@ msgstr "Ghostscript"
 #: drakfont:554
 #, c-format
 msgid "LibreOffice"
-msgstr ""
+msgstr "LibreOffice"
 
 #: drakfont:555
 #, c-format
@@ -749,7 +759,7 @@ msgstr "Abiword"
 msgid "Generic Printers"
 msgstr "Generische Drucker"
 
-#: drakfont:561 drakfont:571 drakups:209
+#: drakfont:561 drakfont:571 drakups:210
 #, c-format
 msgid "Ok"
 msgstr "OK"
@@ -771,17 +781,17 @@ msgstr "Dateiauswahl"
 msgid "Fonts"
 msgstr "Schriftarten"
 
-#: drakfont:639 draksec:164
+#: drakfont:639 draksec:186
 #, c-format
 msgid "Import fonts"
 msgstr "Schriftarten importieren"
 
-#: drakfont:645 drakups:298 drakups:374
+#: drakfont:645 drakups:299 drakups:375
 #, c-format
 msgid "Add"
 msgstr "Hinzufügen"
 
-#: drakfont:646 drakfont:734 drakups:300 drakups:376
+#: drakfont:646 drakfont:735 drakups:301 drakups:377
 #, c-format
 msgid "Remove"
 msgstr "Entfernen"
@@ -791,67 +801,67 @@ msgstr "Entfernen"
 msgid "Install"
 msgstr "Installieren"
 
-#: drakfont:683
+#: drakfont:684
 #, c-format
 msgid "Are you sure you want to uninstall the following fonts?"
 msgstr "Sind Sie sicher, dass Sie die folgenden Schriften entfernen möchten?"
 
-#: drakfont:687 draksec:57 harddrake2:319
+#: drakfont:688 draksec:59 harddrake2:302
 #, c-format
 msgid "Yes"
 msgstr "Ja"
 
-#: drakfont:689 draksec:56 harddrake2:320
+#: drakfont:690 draksec:58 harddrake2:303
 #, c-format
 msgid "No"
 msgstr "Nein"
 
-#: drakfont:728
+#: drakfont:729
 #, c-format
 msgid "Unselect All"
 msgstr "Markierung löschen"
 
-#: drakfont:731
+#: drakfont:732
 #, c-format
 msgid "Select All"
 msgstr "Alle auswählen"
 
-#: drakfont:748
+#: drakfont:749
 #, c-format
 msgid "Importing fonts"
 msgstr "Importiere Schriftarten"
 
-#: drakfont:752 drakfont:772
+#: drakfont:753 drakfont:773
 #, c-format
 msgid "Initial tests"
 msgstr "Vortests"
 
-#: drakfont:753
+#: drakfont:754
 #, c-format
 msgid "Copy fonts on your system"
 msgstr "Schriftarten auf Ihren Rechner kopieren"
 
-#: drakfont:754
+#: drakfont:755
 #, c-format
 msgid "Install & convert Fonts"
 msgstr "Schriftarten installieren und konvertieren"
 
-#: drakfont:755
+#: drakfont:756
 #, c-format
 msgid "Post Install"
 msgstr "Nach der Installation"
 
-#: drakfont:767
+#: drakfont:768
 #, c-format
 msgid "Removing fonts"
 msgstr "Schriftarten werden entfernt"
 
-#: drakfont:773
+#: drakfont:774
 #, c-format
 msgid "Remove fonts on your system"
 msgstr "Entfernen von Schriftarten auf Ihrem Rechner"
 
-#: drakfont:774
+#: drakfont:775
 #, c-format
 msgid "Post Uninstall"
 msgstr "Nach dem Entfernen"
@@ -930,22 +940,22 @@ msgstr "Sicherheits Einstellung"
 msgid "Editable"
 msgstr "änderbar"
 
-#: drakperm:48 drakperm:318
+#: drakperm:50 drakperm:318
 #, c-format
 msgid "Path"
 msgstr "Pfad"
 
-#: drakperm:48 drakperm:247
+#: drakperm:50 drakperm:247
 #, c-format
 msgid "User"
 msgstr "Benutzer"
 
-#: drakperm:48 drakperm:247
+#: drakperm:50 drakperm:247
 #, c-format
 msgid "Group"
 msgstr "Gruppe"
 
-#: drakperm:48 drakperm:107 drakperm:330 draksec:179
+#: drakperm:50 drakperm:107 drakperm:330 draksec:201
 #, c-format
 msgid "Permissions"
 msgstr "Berechtigungen"
@@ -955,7 +965,7 @@ msgstr "Berechtigungen"
 msgid "Add a new rule"
 msgstr "Neue Regel hinzufügen"
 
-#: drakperm:65 drakperm:100 drakperm:126
+#: drakperm:67 drakperm:102 drakperm:126
 #, c-format
 msgid "Edit current rule"
 msgstr "Aktuelle Regel bearbeiten"
@@ -965,12 +975,12 @@ msgstr "Aktuelle Regel bearbeiten"
 msgid ""
 "Here you can see files to use in order to fix permissions, owners, and "
 "groups via msec.\n"
-"You can also edit your own rules which will owerwrite the default rules."
+"You can also edit your own rules which will overwrite the default rules."
 msgstr ""
 "Hier sind die Dateien aufgelistet um die Berechtigungen, Eigentümer und "
 "Gruppen via msec anzupassen.\n"
-"Es können auch eigene Regeln definiert werden, die die Default Regeln "
-"überschreiben."
+"Es können auch eigene Regeln definiert werden, welche die voreingestellten "
+"Regeln überschreiben."
 
 #: drakperm:110
 #, c-format
@@ -1021,7 +1031,7 @@ msgstr "Löschen"
 msgid "Delete selected rule"
 msgstr "Markierte Regel entfernen"
 
-#: drakperm:126 drakups:299 drakups:375
+#: drakperm:126 drakups:300 drakups:376
 #, c-format
 msgid "Edit"
 msgstr "Bearbeiten"
@@ -1148,7 +1158,7 @@ msgstr "Pfad-Auswahl"
 msgid "Property"
 msgstr "Eigenschaft"
 
-#: drakperm:374
+#: drakperm:371
 #, c-format
 msgid ""
 "The first character of the path must be a slash (\"/\"):\n"
@@ -1157,17 +1167,17 @@ msgstr ""
 "Das erste Zeichen des Pfades muss ein Schrägstrich sein (\"/\"):\n"
 "\"%s\""
 
-#: drakperm:384
+#: drakperm:381
 #, c-format
 msgid "Both the username and the group must valid!"
 msgstr "Sowohl der Benutzername als auch die Gruppe müssen gültig sein!"
 
-#: drakperm:385
+#: drakperm:382
 #, c-format
 msgid "User: %s"
 msgstr "Benutzer: %s"
 
-#: drakperm:386
+#: drakperm:383
 #, c-format
 msgid "Group: %s"
 msgstr "Gruppe: %s"
@@ -1187,7 +1197,7 @@ msgstr "LOKAL"
 msgid "NONE"
 msgstr "KEINER"
 
-#: draksec:54
+#: draksec:56 draksec:113
 #, c-format
 msgid "Default"
 msgstr "Standard"
@@ -1202,147 +1212,149 @@ msgstr "Ignorieren"
 msgid "Security Level and Checks"
 msgstr "Sicherheits Level und Checks"
 
-#: draksec:108
-#, c-format
-msgid "Configure access to OpenMandriva Lx administrative tools"
+#: draksec:110
+#, fuzzy, c-format
+msgid "Configure authentication required to access DrakX tools"
 msgstr ""
+"Richten Sie die für die Nutzung der %s-Werkzeuge notwendigen Berechtigungen "
+"ein"
 
-#: draksec:111
+#: draksec:114
 #, c-format
 msgid "No password needed"
 msgstr "Kein Passwort"
 
-#: draksec:112
+#: draksec:115
 #, c-format
-msgid "Root password required"
+msgid "Administrator password"
 msgstr "Root Passwort"
 
-#: draksec:113
+#: draksec:116
 #, c-format
 msgid "User password required"
 msgstr "Benutzer Passwort"
 
-#: draksec:146 draksec:202
+#: draksec:168 draksec:223
 #, c-format
 msgid "Software Management"
 msgstr "Software verwalten"
 
-#: draksec:147
-#, fuzzy, c-format
-msgid "Online Update"
-msgstr "Mandriva Update"
+#: draksec:169
+#, c-format
+msgid "%s Update"
+msgstr "%s-Aktualisierungen"
 
-#: draksec:148
+#: draksec:170
 #, c-format
 msgid "Software Media Manager"
 msgstr "Paketquellen-Manager"
 
-#: draksec:149
+#: draksec:171
 #, c-format
 msgid "Configure 3D Desktop effects"
 msgstr "Konfigurieren der 3D Desktop Effekte"
 
-#: draksec:150
+#: draksec:172
 #, c-format
 msgid "Graphical Server Configuration"
 msgstr "Grafischer Server Konfiguration"
 
-#: draksec:151
+#: draksec:173
 #, c-format
 msgid "Mouse Configuration"
 msgstr "Maus Konfiguration"
 
-#: draksec:152
+#: draksec:174
 #, c-format
 msgid "Keyboard Configuration"
 msgstr "Tastatur Konfiguration"
 
-#: draksec:153
+#: draksec:175
 #, fuzzy, c-format
 msgid "Printer Configuration"
 msgstr "Proxy-Konfiguration"
 
-#: draksec:154
+#: draksec:176
 #, c-format
 msgid "UPS Configuration"
 msgstr "UPS Konfiguration"
 
-#: draksec:155
+#: draksec:177
 #, c-format
 msgid "Network Configuration"
 msgstr "Netzwerkkonfiguration"
 
-#: draksec:156
+#: draksec:178
 #, c-format
 msgid "Hosts definitions"
 msgstr "Hosts Definitionen"
 
-#: draksec:157
+#: draksec:179
 #, c-format
 msgid "Network Center"
 msgstr "Netzwerkcenter"
 
-#: draksec:158
+#: draksec:180
 #, c-format
 msgid "Wireless Network Roaming"
 msgstr "Roaming von drahtlosen Netzwerken"
 
-#: draksec:159
+#: draksec:181
 #, c-format
 msgid "VPN"
 msgstr "VPN"
 
-#: draksec:160
+#: draksec:182
 #, c-format
 msgid "Proxy Configuration"
 msgstr "Proxy-Konfiguration"
 
-#: draksec:161
+#: draksec:183
 #, c-format
 msgid "Connection Sharing"
 msgstr "Verbindungteilen"
 
-#: draksec:163
+#: draksec:185
 #, c-format
 msgid "Backups"
 msgstr "Sicherungen"
 
-#: draksec:165 logdrake:56
+#: draksec:187 logdrake:56
 #, c-format
 msgid "Logs"
 msgstr "Logs"
 
-#: draksec:166 finish-install:210 finish-install:249
+#: draksec:188 finish-install:212 finish-install:251
 #, c-format
 msgid "Services"
 msgstr "Dienste"
 
-#: draksec:167
+#: draksec:189
 #, c-format
 msgid "Users"
 msgstr "Benutzer"
 
-#: draksec:169
+#: draksec:191
 #, c-format
 msgid "Boot Configuration"
 msgstr "Boot Konfiguration"
 
-#: draksec:203
+#: draksec:224
 #, c-format
 msgid "Hardware"
 msgstr "Hardware"
 
-#: draksec:204
+#: draksec:225
 #, c-format
 msgid "Network"
 msgstr "Netzwerk"
 
-#: draksec:205
+#: draksec:226
 #, c-format
 msgid "System"
 msgstr "System"
 
-#: draksec:206
+#: draksec:227
 #, c-format
 msgid "Boot"
 msgstr "Systemstart"
@@ -1434,12 +1446,12 @@ msgstr ""
 msgid "Autodetection"
 msgstr "Automatische Erkennung"
 
-#: drakups:98 harddrake2:374
+#: drakups:99 harddrake2:358
 #, c-format
 msgid "Detection in progress"
 msgstr "Erkennung läuft"
 
-#: drakups:117 drakups:156 logdrake:461 logdrake:467
+#: drakups:118 drakups:157 logdrake:465 logdrake:471
 #, c-format
 msgid "Congratulations"
 msgstr "Herzlichen Glückwunsch"
@@ -1574,7 +1586,7 @@ msgstr "Ebene"
 msgid "ACL name"
 msgstr "ACL-Name"
 
-#: drakups:296 finish-install:258
+#: drakups:297 finish-install:260
 #, c-format
 msgid "Password"
 msgstr "Passwort"
@@ -1628,66 +1640,71 @@ msgid "Keyboard"
 msgstr "Tastatur"
 
 #: finish-install:58
-#, fuzzy, c-format
+#, c-format
 msgid "Please choose your keyboard layout."
 msgstr "Bitte wählen Sie Ihren Tastaturtyp."
 
 #: finish-install:106
 #, c-format
 msgid "Testing your connection..."
-msgstr ""
+msgstr "Ihre Verbindung wird getestet ..."
 
-#: finish-install:185
+#: finish-install:187
 #, c-format
 msgid "Windows-compatible sharing system"
 msgstr ""
 
-#: finish-install:188
+#: finish-install:189
+#, c-format
+msgid "Virtual Private Network"
+msgstr ""
+
+#: finish-install:190
 #, fuzzy, c-format
 msgid "OpenSSH server"
 msgstr "SSH-Server"
 
-#: finish-install:189
+#: finish-install:191
 #, fuzzy, c-format
 msgid "Print server"
 msgstr "FTP-Server"
 
-#: finish-install:209
+#: finish-install:211
 #, c-format
 msgid "Do you have any services that you want to run when starting up?"
 msgstr ""
 
-#: finish-install:241
+#: finish-install:243
 #, fuzzy, c-format
 msgid "The following services failed to start:\n"
 msgstr "Die folgenden Pakete müssen installiert werden:\n"
 
-#: finish-install:244
+#: finish-install:246
 #, fuzzy, c-format
 msgid "The following services failed to stop:\n"
 msgstr "Die folgenden Pakete müssen installiert werden:\n"
 
-#: finish-install:256 finish-install:274 finish-install:287
+#: finish-install:258 finish-install:276 finish-install:289
 #, c-format
 msgid "Encrypted home partition"
 msgstr "Verschlüsselte Home Partition"
 
-#: finish-install:256
+#: finish-install:258
 #, c-format
 msgid "Please enter a password for the %s user"
 msgstr "Bitte geben Sie das Passwort für den Benutzer %s ein"
 
-#: finish-install:259
+#: finish-install:261
 #, c-format
 msgid "Password (again)"
 msgstr "Passwort (erneut)"
 
-#: finish-install:274
+#: finish-install:276
 #, c-format
 msgid "Creating encrypted home partition"
 msgstr "Erstelle Verschlüsselte Home Partition"
 
-#: finish-install:287
+#: finish-install:289
 #, c-format
 msgid "Formatting encrypted home partition"
 msgstr "Formatiere verschlüsselte Home Partition"
@@ -1882,8 +1899,8 @@ msgstr "PCI Domain"
 msgid "the PCI domain of the device"
 msgstr "die PCI Domain des Gerätes"
 
-#: harddrake2:58
-#, fuzzy, c-format
+#: harddrake2:60
+#, c-format
 msgid "PCI revision"
 msgstr "PCI-Revision"
 
@@ -2066,7 +2083,7 @@ msgstr "ACPI-ID"
 #: harddrake2:82
 #, c-format
 msgid "Siblings"
-msgstr ""
+msgstr "Geschwister"
 
 #: harddrake2:83
 #, c-format
@@ -2160,31 +2177,32 @@ msgstr "Festplattenbezeichnung"
 msgid "usually the disk serial number"
 msgstr "üblicherweise die Seriennummer der Festplatte"
 
-#: harddrake2:101
-#, fuzzy, c-format
+#: harddrake2:103
+#, c-format
 msgid "Target id number"
-msgstr "Ziel-ID-Nummer"
+msgstr "Ziel ID-Nummer"
 
 #: harddrake2:101
 #, c-format
 msgid "the SCSI target identifier"
-msgstr ""
+msgstr "der SCSI Ziel-Identifikator"
 
 #: harddrake2:102
 #, c-format
 msgid "Logical unit number"
 msgstr "Logische Einheitennummer"
 
-#: harddrake2:102
-#, fuzzy, c-format
+#: harddrake2:104
+#, c-format
 msgid ""
 "the SCSI Logical Unit Number (LUN). SCSI devices connected to a host are "
 "uniquely identified by a\n"
 "channel number, a target id and a logical unit number"
 msgstr ""
-"die SCSI Zielnummer (LUN). SCSI Geräte an einem Rechner werden eindeutig "
-"durch eine Kanalnummer identifiziert, eine Zielnummer und einer logischen "
-"Einheitennummer"
+"die SCSI Logische Einheitennummer (LUN). SCSI Geräte die an einen Host "
+"angeschlossen sind, können über\n"
+"eine Kanalnummer, eine Ziel-ID und eine logische Einheitennummer "
+"identifiziert werden."
 
 #. -PO: here, "size" is the size of the ram chip (eg: 128Mo, 256Mo, ...)
 #: harddrake2:109
@@ -2325,48 +2343,146 @@ msgstr "Partitionen"
 msgid "Features"
 msgstr "Funktionen"
 
-#. -PO: please keep all "/" characters !!!
-#: harddrake2:179 logdrake:82
+#: harddrake2:179
 #, c-format
-msgid "/_Options"
-msgstr "/_Optionen"
+msgid "Autodetect _modems"
+msgstr "_Modems automatisch erkennen"
 
-#: harddrake2:180 harddrake2:203 logdrake:84
+#: harddrake2:180
 #, c-format
-msgid "/_Help"
-msgstr "/_Hilfe"
+msgid "Autodetect parallel _zip drives"
+msgstr "Parallele _Zip-Laufwerke automatisch erkennen"
 
 #: harddrake2:184
-#, c-format
-msgid "/Autodetect _modems"
-msgstr "/_Modems automatisch erkennen"
-
-#: harddrake2:185
-#, c-format
-msgid "/Autodetect parallel _zip drives"
-msgstr "/Parallele _Zip-Laufwerke automatisch erkennen"
-
-#: harddrake2:189
 #, c-format
 msgid "Hardware Configuration"
 msgstr "Hardware Konfiguration"
 
+#: harddrake2:193
+#, c-format
+msgid "_Options"
+msgstr "_Optionen"
+
+#: harddrake2:194 harddrake2:195
+#, c-format
+msgid "_Help"
+msgstr "_Hilfe"
+
+#: harddrake2:195
+#, fuzzy, c-format
+msgid "<control>H"
+msgstr "<STRG>-Q"
+
 #: harddrake2:196
 #, c-format
-msgid "/_Quit"
-msgstr "/_Beenden"
+msgid "_Fields description"
+msgstr "_Felderbeschreibung"
 
-#: harddrake2:205
+#: harddrake2:197
 #, c-format
-msgid "/_Fields description"
-msgstr "/_Felderbeschreibung"
+msgid "_Report Bug"
+msgstr "_Fehler melden"
 
-#: harddrake2:207
+#: harddrake2:198
+#, c-format
+msgid "_About..."
+msgstr "_Über ..."
+
+#: harddrake2:242
+#, c-format
+msgid "Detected hardware"
+msgstr "Gefundene Hardware"
+
+#: harddrake2:245 scannerdrake:283
+#, c-format
+msgid "Information"
+msgstr "Informationen"
+
+#: harddrake2:247
+#, c-format
+msgid "Set current driver options"
+msgstr "Aktuelle Treiberoptionen setzen"
+
+#: harddrake2:254
+#, c-format
+msgid "Run config tool"
+msgstr "Konfigurationswerkzeug starten"
+
+#: harddrake2:280
+#, c-format
+msgid ""
+"Click on a device in the tree on the left in order to display its "
+"information here."
+msgstr ""
+"Klicken Sie auf ein Gerät in der linken Leiste, um die entsprechende "
+"Information anzuzeigen."
+
+#: harddrake2:300 notify-x11-free-driver-switch:13
+#, c-format
+msgid "unknown"
+msgstr "Unbekannt"
+
+#: harddrake2:301
+#, c-format
+msgid "Unknown"
+msgstr "Unbekannt"
+
+#: harddrake2:321
+#, c-format
+msgid "Misc"
+msgstr "Sonstiges"
+
+#: harddrake2:404
+#, c-format
+msgid "secondary"
+msgstr "sekundär"
+
+#: harddrake2:404
+#, c-format
+msgid "primary"
+msgstr "primär"
+
+#: harddrake2:408
+#, c-format
+msgid "burner"
+msgstr "Brenner"
+
+#: harddrake2:408
+#, c-format
+msgid "DVD"
+msgstr "DVD"
+
+#: harddrake2:504
+#, c-format
+msgid "The following packages need to be installed:\n"
+msgstr "Die folgenden Pakete müssen installiert werden:\n"
+
+#: harddrake2:521
+#, c-format
+msgid "Harddrake"
+msgstr "Harddrake"
+
+#: harddrake2:523
+#, c-format
+msgid "Copyright (C) %s by %s"
+msgstr "Copyright (C) %s durch %s"
+
+#: harddrake2:523 harddrake2:527
+#, c-format
+msgid "Mageia"
+msgstr ""
+
+#: harddrake2:525
+#, c-format
+msgid "This is HardDrake, a %s hardware configuration tool."
+msgstr "Dies ist HardDrake, ein %s Werkzeug zur Hardware-Konfiguration."
+
+#: harddrake2:540
 #, c-format
 msgid "Harddrake help"
 msgstr "HardDrake Hilfe"
 
-#: harddrake2:208
+#: harddrake2:541
 #, c-format
 msgid ""
 "Description of the fields:\n"
@@ -2375,12 +2491,12 @@ msgstr ""
 "Beschreibung der Felder:\n"
 "\n"
 
-#: harddrake2:216
+#: harddrake2:548
 #, c-format
 msgid "Select a device!"
 msgstr "Wählen Sie ein Gerät!"
 
-#: harddrake2:216
+#: harddrake2:548
 #, c-format
 msgid ""
 "Once you've selected a device, you'll be able to see the device information "
@@ -2388,100 +2504,6 @@ msgid ""
 msgstr ""
 "Wenn Sie ein Gerät auswählen, werden im rechten Rahmen die Geräte-"
 "Informationen angezeigt („Informationen“)"
-
-#: harddrake2:222
-#, c-format
-msgid "/_Report Bug"
-msgstr "/_Fehler melden"
-
-#: harddrake2:224
-#, c-format
-msgid "/_About..."
-msgstr "/_Über ..."
-
-#: harddrake2:227
-#, c-format
-msgid "Harddrake"
-msgstr "Harddrake"
-
-#: harddrake2:231
-#, c-format
-msgid "This is HardDrake, a %s hardware configuration tool."
-msgstr "Dies ist HardDrake, ein %s Werkzeug zur Hardware-Konfiguration."
-
-#: harddrake2:233
-#, fuzzy, c-format
-msgid "OpenMandriva Linux"
-msgstr "OpenMandriva Lx"
-
-#: harddrake2:264
-#, c-format
-msgid "Detected hardware"
-msgstr "Gefundene Hardware"
-
-#: harddrake2:267 scannerdrake:283
-#, c-format
-msgid "Information"
-msgstr "Informationen"
-
-#: harddrake2:269
-#, c-format
-msgid "Set current driver options"
-msgstr "Aktuelle Treiberoptionen setzen"
-
-#: harddrake2:276
-#, c-format
-msgid "Run config tool"
-msgstr "Konfigurationswerkzeug starten"
-
-#: harddrake2:296
-#, fuzzy, c-format
-msgid ""
-"Click on a device in the tree on the left in order to display its "
-"information here."
-msgstr ""
-"Klicken Sie auf ein Gerät in der linken Leiste, um die entsprechende "
-"Information anzuzeigen."
-
-#: harddrake2:317 notify-x11-free-driver-switch:13
-#, c-format
-msgid "unknown"
-msgstr "Unbekannt"
-
-#: harddrake2:318
-#, c-format
-msgid "Unknown"
-msgstr "Unbekannt"
-
-#: harddrake2:338
-#, c-format
-msgid "Misc"
-msgstr "Sonstiges"
-
-#: harddrake2:420
-#, c-format
-msgid "secondary"
-msgstr "sekundär"
-
-#: harddrake2:420
-#, c-format
-msgid "primary"
-msgstr "primär"
-
-#: harddrake2:424
-#, c-format
-msgid "burner"
-msgstr "Brenner"
-
-#: harddrake2:424
-#, c-format
-msgid "DVD"
-msgstr "DVD"
-
-#: harddrake2:528
-#, c-format
-msgid "The following packages need to be installed:\n"
-msgstr "Die folgenden Pakete müssen installiert werden:\n"
 
 #: localedrake:38
 #, c-format
@@ -2500,219 +2522,174 @@ msgid ", "
 msgstr ", "
 
 #: logdrake:55
-#, c-format
-msgid "%s Tools Logs"
-msgstr ""
+#, fuzzy, c-format
+msgid "DrakX Tools Logs"
+msgstr "%s Werkzeug-Logs"
 
 #: logdrake:69
 #, c-format
 msgid "Show only for the selected day"
 msgstr "Nur für diesen Tag zeigen"
 
-#: logdrake:76
-#, c-format
-msgid "/File/_New"
-msgstr "/Datei/_Neu"
-
-#: logdrake:76
-#, c-format
-msgid "<control>N"
-msgstr "<control>N"
-
-#: logdrake:77
-#, c-format
-msgid "/File/_Open"
-msgstr "/Datei/_Öffnen"
-
-#: logdrake:77
-#, c-format
-msgid "<control>O"
-msgstr "<control>O"
-
-#: logdrake:78
-#, c-format
-msgid "/File/_Save"
-msgstr "/Datei/_Speichern"
-
 #: logdrake:78
 #, c-format
 msgid "<control>S"
 msgstr "<control>S"
 
-#: logdrake:79
-#, c-format
-msgid "/File/Save _As"
-msgstr "/Datei/Speichern _unter"
-
-#: logdrake:80
-#, c-format
-msgid "/File/-"
-msgstr "/Datei/-"
-
-#: logdrake:83
-#, c-format
-msgid "/Options/Test"
-msgstr "/Optionen/Test"
-
-#: logdrake:85
-#, c-format
-msgid "/Help/_About..."
-msgstr "/Hilfe/_Über ..."
-
-#: logdrake:114
+#: logdrake:117
 #, c-format
 msgid ""
 "_:this is the auth.log log file\n"
 "Authentication"
 msgstr "Authentifizierung"
 
-#: logdrake:115
+#: logdrake:118
 #, c-format
 msgid ""
 "_:this is the user.log log file\n"
 "User"
 msgstr "Benutzer"
 
-#: logdrake:116
+#: logdrake:119
 #, c-format
 msgid ""
 "_:this is the /var/log/messages log file\n"
 "Messages"
 msgstr "Meldungen"
 
-#: logdrake:117
+#: logdrake:120
 #, c-format
 msgid ""
 "_:this is the /var/log/syslog log file\n"
 "Syslog"
 msgstr "Systemprotokoll"
 
-#: logdrake:121
+#: logdrake:124
 #, c-format
 msgid "search"
 msgstr "Suche"
 
-#: logdrake:133
+#: logdrake:136
 #, c-format
 msgid "A tool to monitor your logs"
 msgstr "Ein Werkzeug zum Überwachen Ihrer Logbücher"
 
-#: logdrake:135
+#: logdrake:138
 #, c-format
 msgid "Settings"
 msgstr "Einstellungen"
 
-#: logdrake:138
+#: logdrake:141
 #, c-format
 msgid "Matching"
 msgstr "Übereinstimmung mit"
 
-#: logdrake:139
+#: logdrake:142
 #, c-format
 msgid "but not matching"
 msgstr "keine Übereinstimmung mit"
 
-#: logdrake:142
+#: logdrake:145
 #, c-format
 msgid "Choose file"
 msgstr "Datei wählen"
 
-#: logdrake:154
+#: logdrake:157
 #, c-format
 msgid "Calendar"
 msgstr "Kalender"
 
-#: logdrake:163
+#: logdrake:166
 #, c-format
 msgid "Content of the file"
 msgstr "Inhalt der Logbücher"
 
-#: logdrake:167 logdrake:411
+#: logdrake:170 logdrake:415
 #, c-format
 msgid "Mail alert"
 msgstr "E-Mail-Benachrichtigung"
 
-#: logdrake:174
+#: logdrake:177
 #, c-format
 msgid "The alert wizard has failed unexpectedly:"
 msgstr "Der Benachrichtungsassistent ist unerwartet fehlgeschlagen:"
 
-#: logdrake:178
+#: logdrake:181
 #, c-format
 msgid "Save"
 msgstr "Speichern"
 
-#: logdrake:226
+#: logdrake:230
 #, c-format
 msgid "please wait, parsing file: %s"
 msgstr "Einen Moment, ich durchsuche: %s"
 
-#: logdrake:248
+#: logdrake:252
 #, c-format
 msgid "Sorry, log file isn't available!"
 msgstr "Entschuldigung, Logfile ist nicht verfügbar!"
 
-#: logdrake:296
+#: logdrake:300
 #, c-format
 msgid "Error while opening \"%s\" log file: %s\n"
 msgstr "Fehler beim Öffnen des \"%s\" Logfile: %s\n"
 
-#: logdrake:389
+#: logdrake:393
 #, c-format
 msgid "Apache World Wide Web Server"
 msgstr "Apache Web-Server"
 
-#: logdrake:390
+#: logdrake:394
 #, c-format
 msgid "Domain Name Resolver"
 msgstr "DNS"
 
-#: logdrake:391
+#: logdrake:395
 #, c-format
 msgid "Ftp Server"
 msgstr "FTP-Server"
 
-#: logdrake:392
+#: logdrake:396
 #, c-format
 msgid "Postfix Mail Server"
 msgstr "Postfix E-Mail-Server"
 
-#: logdrake:393
+#: logdrake:397
 #, c-format
 msgid "Samba Server"
 msgstr "Samba-Server"
 
-#: logdrake:394
+#: logdrake:398
 #, c-format
 msgid "SSH Server"
 msgstr "SSH-Server"
 
-#: logdrake:395
+#: logdrake:399
 #, c-format
 msgid "Webmin Service"
 msgstr "Webmin-Dienst"
 
-#: logdrake:396
+#: logdrake:400
 #, c-format
 msgid "Xinetd Service"
 msgstr "Xinetd-Dienst"
 
-#: logdrake:405
+#: logdrake:409
 #, c-format
 msgid "Configure the mail alert system"
 msgstr "Stellen die das E-Mail-Benachrichtigungssystem ein"
 
-#: logdrake:406
+#: logdrake:410
 #, c-format
 msgid "Stop the mail alert system"
 msgstr "Mailbenachrichtungssystem beenden"
 
-#: logdrake:414
+#: logdrake:418
 #, c-format
 msgid "Mail alert configuration"
 msgstr "Mail-Benachrichtigungskonfiguration"
 
-#: logdrake:415
+#: logdrake:419
 #, c-format
 msgid ""
 "Welcome to the mail configuration utility.\n"
@@ -2723,17 +2700,17 @@ msgstr ""
 "\n"
 "Hier können Sie Ihr Benachrichtigungssystem einrichten.\n"
 
-#: logdrake:418
+#: logdrake:422
 #, c-format
 msgid "What do you want to do?"
 msgstr "Wo wollen Sie machen?"
 
-#: logdrake:425
+#: logdrake:429
 #, c-format
 msgid "Services settings"
 msgstr "Dienste-Einstellungen"
 
-#: logdrake:426
+#: logdrake:430
 #, c-format
 msgid ""
 "You will receive an alert if one of the selected services is no longer "
@@ -2741,58 +2718,58 @@ msgid ""
 msgstr ""
 "Sie werden benachrichtigt, falls einer der gewählten Dienste nicht mehr läuft"
 
-#: logdrake:433
+#: logdrake:437
 #, c-format
 msgid "Load setting"
 msgstr "Einstellungen laden"
 
-#: logdrake:434
+#: logdrake:438
 #, c-format
 msgid "You will receive an alert if the load is higher than this value"
 msgstr "Sie erhalten eine Nachricht, wenn die Load über diesen Wert steigt"
 
-#: logdrake:435
+#: logdrake:439
 #, c-format
 msgid ""
 "_: load here is a noun, the load of the system\n"
 "Load"
 msgstr "Systemauslastung"
 
-#: logdrake:440
+#: logdrake:444
 #, c-format
 msgid "Alert configuration"
 msgstr "Benachrichtigungskonfiguration"
 
-#: logdrake:441
+#: logdrake:445
 #, c-format
 msgid "Please enter your email address below "
 msgstr "Bitte geben Sie Ihre E-Mail-Adresse ein"
 
-#: logdrake:442
+#: logdrake:446
 #, c-format
 msgid "and enter the name (or the IP) of the SMTP server you wish to use"
 msgstr ""
 "und geben Sie den Namen (oder die IP) des SMTP-Servers ein, den Sie "
 "verwenden wollen"
 
-#: logdrake:444
-#, fuzzy, c-format
+#: logdrake:448
+#, c-format
 msgid "Email address"
-msgstr "IP-Adresse"
-
-#: logdrake:445
-#, fuzzy, c-format
-msgid "Email server"
-msgstr "Samba-Server"
+msgstr "Email-Adresse"
 
 #: logdrake:449
+#, c-format
+msgid "Email server"
+msgstr "Email-Server"
+
+#: logdrake:453
 #, c-format
 msgid "\"%s\" neither is a valid email nor is an existing local user!"
 msgstr ""
 "„%s“ ist weder eine zulässige Emailadresse noch ein existierender lokaler "
 "Benutzer!"
 
-#: logdrake:454
+#: logdrake:458
 #, c-format
 msgid ""
 "\"%s\" is a local user, but you did not select a local smtp, so you must use "
@@ -2801,31 +2778,31 @@ msgstr ""
 "„%s“ ist ein lokaler Benutzer, aber Sie haben keinen lokalen SMTP-Server "
 "ausgewählt. Sie müssen deshalb eine vollständige Emailadresse benutzen!"
 
-#: logdrake:461
+#: logdrake:465
 #, c-format
 msgid "The wizard successfully configured the mail alert."
 msgstr "Der Assistent hat den Email Alarm erfolgreich konfiguriert."
 
-#: logdrake:467
+#: logdrake:471
 #, c-format
 msgid "The wizard successfully disabled the mail alert."
 msgstr "Der Assistent hat den Email Alarm erfolgreich ausgeschalten."
 
-#: logdrake:526
+#: logdrake:530
 #, c-format
 msgid "Save as.."
 msgstr "Speichern unter.."
 
-#: notify-x11-free-driver-switch:18 service_harddrake:465
-#: service_harddrake:478
+#: notify-x11-free-driver-switch:18 service_harddrake:468
+#: service_harddrake:481
 #, c-format
 msgid "Display driver setup"
-msgstr ""
+msgstr "Bildschirmtreiber-Setup"
 
 #: notify-x11-free-driver-switch:20
 #, c-format
 msgid "The display driver has been automatically switched to '%s'."
-msgstr ""
+msgstr "Der Anzeigentreiber wurde automatisch zu \"%s\" geändert."
 
 #: notify-x11-free-driver-switch:21
 #, c-format
@@ -3126,13 +3103,13 @@ msgstr ""
 "„man sane-%s“ auf und lesen sie es."
 
 #: scannerdrake:406 scannerdrake:415
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "After that you may scan documents using \"XSane\" or \"%s\" from Multimedia/"
 "Graphics in the applications menu."
 msgstr ""
-"Danach können Sie Dokumente mit „XSane“ oder „Kooka“ im Menu Multimedia/"
-"Grafik scannen."
+"Danach können Sie Dokumente mit \"XSane\" oder \"%s\" aus dem Menü im "
+"BereichMultimedia/Grafik einscannen."
 
 #: scannerdrake:410
 #, c-format
@@ -3163,15 +3140,15 @@ msgid "Congratulations!"
 msgstr "Herzlichen Glückwunsch!"
 
 #: scannerdrake:418
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Your %s has been configured.\n"
 "You may now scan documents using \"XSane\" or \"%s\" from Multimedia/"
 "Graphics in the applications menu."
 msgstr ""
-"Ihr %s wurde konfiguriert.\n"
-"Sie können nun Dokumente mit „XSane“ oder „Kooka“ scannen (unter „Multimedia/"
-"Graphik“ im Mandriva-Menü)."
+"Ihr %s wurde eingerichtet.\n"
+"Sie können nun Dokumente mit \"XSane\" oder \"%s\" aus dem Menü im "
+"BereichMultimedia/Grafik einscannen."
 
 #: scannerdrake:443
 #, c-format
@@ -3378,8 +3355,8 @@ msgstr ""
 "Konnte die notwendigen Programme zum Freigeben Ihrer Scanner nicht "
 "installieren."
 
-#: service_harddrake:170
-#, fuzzy, c-format
+#: service_harddrake:173
+#, c-format
 msgid "The graphics card '%s' is no longer supported by driver '%s'"
 msgstr ""
 "Die '%s' Grafikkarte wird von der Version '%s' des Grafiktreibers nicht mehr "
@@ -3388,10 +3365,10 @@ msgstr ""
 #: service_harddrake:180
 #, c-format
 msgid "New release, reconfiguring X for %s"
-msgstr ""
+msgstr "Neuerscheinung, Neukonfiguration X wegen %s"
 
-#: service_harddrake:271
-#, fuzzy, c-format
+#: service_harddrake:274
+#, c-format
 msgid "The proprietary kernel driver was not found for X.org driver '%s'"
 msgstr ""
 "Der proprietäre Kerneltreiber wurde für den '%s' X.org-Treiber nicht gefunden"
@@ -3416,27 +3393,27 @@ msgstr "Einige Geräte wurden hinzugefügt:%s\n"
 msgid "- %s was added\n"
 msgstr "- %s wurde hinzugefügt\n"
 
-#: service_harddrake:397
+#: service_harddrake:400
 #, c-format
 msgid "Hardware changes in \"%s\" class (%s seconds to answer)"
 msgstr "Hardwareänderungen in der „%s“-Klasse (%s Sekunden zum Antworten)"
 
-#: service_harddrake:398
+#: service_harddrake:401
 #, c-format
 msgid "Do you want to run the appropriate config tool?"
 msgstr "Möchten Sie die zugehörenden Einstellungen aufrufen?"
 
-#: service_harddrake:423
+#: service_harddrake:426
 #, c-format
 msgid "Hardware probing in progress"
 msgstr "Hardwareerkennung läuft"
 
-#: service_harddrake:444 service_harddrake:449
+#: service_harddrake:447 service_harddrake:452
 #, c-format
 msgid "Display driver issue"
-msgstr ""
+msgstr "Bildschirm-Treiber Problem"
 
-#: service_harddrake:445
+#: service_harddrake:448
 #, c-format
 msgid ""
 "The display driver currently configured requires you to use the 'nokmsboot' "
@@ -3444,32 +3421,33 @@ msgid ""
 "boot process. Startup of the X server may now fail as that option was not "
 "specified."
 msgstr ""
+"Der momentan konfigurierte Bildschirmtreiber erfordert, dass Sie die "
+"\"nokmsboot\" Boot-Option verwenden um zu verhindern, dass der KMS-Treiber "
+"des Kernels während des Bootvorgangs geladen wird. Die Inbetriebnahme des X-"
+"Servers kann sonst fehlschlagen, wenn die Option nicht angegeben wurde."
 
-#: service_harddrake:450
+#: service_harddrake:453
 #, c-format
 msgid ""
 "Detected a loaded display driver kernel module which conflicts with the "
 "driver the X server is configured to use. Startup of the X server may now "
 "fail."
 msgstr ""
+"Ein Anzeigentreiber-Kernelmodul wurde erkannt und geladen, das in Konflikt "
+"mit dem Treiber steht, der für Ihren X-Server konfiguriert ist. Der Start "
+"des X-Servers könnte nun fehlschlagen"
 
-#: service_harddrake:465 service_harddrake:478
+#: service_harddrake:468 service_harddrake:481
 #, c-format
 msgid "The system has to be rebooted due to a display driver change."
 msgstr ""
+"Das System muss wegen der Änderung des Bildschirmtreibers neugestartet "
+"werden."
 
-#: service_harddrake:466 service_harddrake:479
+#: service_harddrake:469 service_harddrake:482
 #, c-format
 msgid "Press Cancel within %d seconds to abort."
-msgstr ""
-
-#: ../menu/localedrake-system.desktop.in.h:1
-msgid "System Regional Settings"
-msgstr "Regional Systemeinstellungen"
-
-#: ../menu/localedrake-system.desktop.in.h:2
-msgid "System wide language & country configurator"
-msgstr "Systemweite Sprach- & Ländereinstellung"
+msgstr "Drücken Sie innerhalb %d Sekunden auf Abbrechen um abzubrechen."
 
 #: ../menu/harddrake.desktop.in.h:1
 msgid "HardDrake"
@@ -3483,6 +3461,14 @@ msgstr "Zentrales Hardware Konfigurations/Informations Tool"
 msgid "Hardware Configuration Tool"
 msgstr "Hardware-Konfigurationswerkzeug"
 
+#: ../menu/localedrake-system.desktop.in.h:1
+msgid "System Regional Settings"
+msgstr "Regional Systemeinstellungen"
+
+#: ../menu/localedrake-system.desktop.in.h:2
+msgid "System wide language & country configurator"
+msgstr "Systemweite Sprach- & Ländereinstellung"
+
 #: ../menu/localedrake-user.desktop.in.h:1
 msgid "Regional Settings"
 msgstr "Regionaleeinstellungen"
@@ -3491,32 +3477,329 @@ msgstr "Regionaleeinstellungen"
 msgid "Language & country configuration"
 msgstr "Sprach & Länder Konfiguration"
 
-#~ msgid "Configure authentication required to access OpenMandriva tools"
+#: ../polkit/org.moondrake.drakauth.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Authentication Configuration"
+msgstr "Mail-Benachrichtigungskonfiguration"
+
+#: ../polkit/org.moondrake.drakauth.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Authentication Configuration"
+msgstr "Mail-Benachrichtigungskonfiguration"
+
+#: ../polkit/org.moondrake.drakboot.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Boot Configuration"
+msgstr "Boot Konfiguration"
+
+#: ../polkit/org.moondrake.drakboot.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Boot Configuration"
+msgstr "Boot Konfiguration"
+
+#: ../polkit/org.moondrake.drakclock.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Date and Time Configuration"
+msgstr "Mail-Benachrichtigungskonfiguration"
+
+#: ../polkit/org.moondrake.drakclock.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Date and Time Configuration"
+msgstr "Mail-Benachrichtigungskonfiguration"
+
+#: ../polkit/org.moondrake.drakdisk.policy.in.h:1
+msgid "Run DrakX Disk Layout Editor"
+msgstr ""
+
+#: ../polkit/org.moondrake.drakdisk.policy.in.h:2
+msgid "Authentication is required to run DrakX Disk Layout Editor"
+msgstr ""
+
+#: ../polkit/org.moondrake.drakdm.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Login Manager Configuration"
+msgstr "Sprach- & Länder-Konfiguration"
+
+#: ../polkit/org.moondrake.drakdm.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Login Manager Configuration"
+msgstr "Sprach- & Länder-Konfiguration"
+
+#: ../polkit/org.moondrake.drakfont.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Font Configuration"
+msgstr "Sprach- & Länder-Konfiguration"
+
+#: ../polkit/org.moondrake.drakfont.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Font Configuration"
+msgstr "Sprach- & Länder-Konfiguration"
+
+#: ../polkit/org.moondrake.drakhardware.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Hardware Configuration"
+msgstr "Konfiguration des grafischen Servers"
+
+#: ../polkit/org.moondrake.drakhardware.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Hardware Configuration"
+msgstr "Konfiguration des grafischen Servers"
+
+#: ../polkit/org.moondrake.draklog.policy.in.h:1
+msgid "Run DrakX Log Viewer"
+msgstr ""
+
+#: ../polkit/org.moondrake.draklog.policy.in.h:2
+msgid "Authentication is required to run DrakX Log Viewer"
+msgstr ""
+
+#: ../polkit/org.moondrake.drakperm.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Security Permissions Configuration"
+msgstr "Konfiguration des grafischen Servers"
+
+#: ../polkit/org.moondrake.drakperm.policy.in.h:2
+#, fuzzy
+msgid ""
+"Authentication is required to run DrakX Security Permissions Configuration"
+msgstr "Konfiguration des grafischen Servers"
+
+#: ../polkit/org.moondrake.drakscanner.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Scanner Configuration"
+msgstr "Konfiguration des grafischen Servers"
+
+#: ../polkit/org.moondrake.drakscanner.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Scanner Configuration"
+msgstr "Konfiguration des grafischen Servers"
+
+#: ../polkit/org.moondrake.draksec.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Application Security Configuration"
+msgstr "Mail-Benachrichtigungskonfiguration"
+
+#: ../polkit/org.moondrake.draksec.policy.in.h:2
+#, fuzzy
+msgid ""
+"Authentication is required to run DrakX Application Security Configuration"
+msgstr "Mail-Benachrichtigungskonfiguration"
+
+#: ../polkit/org.moondrake.drakups.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX UPS Configuration"
+msgstr "USV Konfiguration"
+
+#: ../polkit/org.moondrake.drakups.policy.in.h:2
+msgid "Authentication is required to run DrakX UPS Configuration"
+msgstr ""
+
+#: ../polkit/org.moondrake.moondrakeservices.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Service Configuration"
+msgstr "Konfiguration des grafischen Servers"
+
+#: ../polkit/org.moondrake.moondrakeservices.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Service Configuration"
+msgstr "Konfiguration des grafischen Servers"
+
+#~ msgid "%s Bug Report Tool"
+#~ msgstr "%s-Bugreport-Werkzeug"
+
+#~ msgid "%s Tools Logs"
+#~ msgstr "%s Werkzeug-Logs"
+
+#~ msgid "Configure authentication required to access %s tools"
 #~ msgstr ""
-#~ "Legen Sie die notwendige Authentifizierung fest, um Zugang zu den "
-#~ "Mandriva Werkzeugen zu erhalten"
+#~ "Richten Sie die für die Nutzung der %s-Werkzeuge notwendigen "
+#~ "Berechtigungen ein"
+
+#, fuzzy
+#~ msgid "Run Moondrake Application Security Configuration"
+#~ msgstr "Mail-Benachrichtigungskonfiguration"
+
+#, fuzzy
+#~ msgid "Run Moondrake Authentication Configuration"
+#~ msgstr "Mail-Benachrichtigungskonfiguration"
+
+#, fuzzy
+#~ msgid "Run Moondrake Boot Configuration"
+#~ msgstr "Boot Konfiguration"
+
+#, fuzzy
+#~ msgid "Run Moondrake Date and Time Configuration"
+#~ msgstr "Mail-Benachrichtigungskonfiguration"
+
+#, fuzzy
+#~ msgid "Run Moondrake Font Configuration"
+#~ msgstr "Sprach- & Länder-Konfiguration"
+
+#, fuzzy
+#~ msgid "Run Moondrake Hardware Configuration"
+#~ msgstr "Konfiguration des grafischen Servers"
+
+#, fuzzy
+#~ msgid "Run Moondrake Login Manager Configuration"
+#~ msgstr "Sprach- & Länder-Konfiguration"
+
+#, fuzzy
+#~ msgid "Run Moondrake Scanner Configuration"
+#~ msgstr "Konfiguration des grafischen Servers"
+
+#, fuzzy
+#~ msgid "Run Moondrake Security Permissions Configuration"
+#~ msgstr "Konfiguration des grafischen Servers"
+
+#, fuzzy
+#~ msgid "Run Moondrake Service Configuration"
+#~ msgstr "Konfiguration des grafischen Servers"
+
+#, fuzzy
+#~ msgid "Run Moondrake UPS Configuration"
+#~ msgstr "USV Konfiguration"
+
+#~ msgid "  --help                - display this help     \n"
+#~ msgstr " --help                - diesen Hilfetext anzeigen     \n"
+
+#~ msgid ""
+#~ " drakhelp 0.1\n"
+#~ "Copyright (C) %s Mandriva.\n"
+#~ "Copyright (C) %s Moondrake.\n"
+#~ "This is free software and may be redistributed under the terms of the GNU "
+#~ "GPL.\n"
+#~ "\n"
+#~ "Usage: \n"
+#~ msgstr ""
+#~ " drakhelp 0.1\n"
+#~ "Copyright (C) %s Mandriva.\n"
+#~ "Copyright (C) %s Moondrake.\n"
+#~ "Dies ist freie Software und kann unter den Bedingungen der GNU GPL "
+#~ "weitergegeben werden.\n"
+#~ "\n"
+#~ "Benutzung:\n"
+
+#~ msgid "%s Control Center"
+#~ msgstr "%s-Kontrollzentrum"
+
+#~ msgid "%s Help Center"
+#~ msgstr "%s-Hilfe-Center"
+
+#~ msgid "(default value: %s)"
+#~ msgstr " (Voreinstellung: %s)"
 
 #~ msgid "/Autodetect _jaz drives"
 #~ msgstr "/_Jaz-Laufwerke automatisch erkennen"
 
-#~ msgid "OpenMandriva Lx Tools Logs"
-#~ msgstr "OpenMandriva Lx Werkzeugprotokolle"
+#~ msgid "/Autodetect _modems"
+#~ msgstr "/_Modems automatisch erkennen"
 
 #~ msgid "/Autodetect _printers"
 #~ msgstr "/_Drucker automatisch erkennen"
 
-#~ msgid "Its GDB trace is:"
-#~ msgstr "GDB verfolgt die Spur:"
+#~ msgid "/Autodetect parallel _zip drives"
+#~ msgstr "/Parallele _Zip-Laufwerke automatisch erkennen"
 
-#~ msgid "OpenOffice.org"
-#~ msgstr "OpenOffice.org"
+#~ msgid "/File/-"
+#~ msgstr "/Datei/-"
 
-#~ msgid ""
-#~ "The proprietary driver for your graphic card cannot be found, the system "
-#~ "is now using the free software driver (%s)."
+#~ msgid "/File/Save _As"
+#~ msgstr "/Datei/Speichern _unter"
+
+#~ msgid "/File/_New"
+#~ msgstr "/Datei/_Neu"
+
+#~ msgid "/File/_Open"
+#~ msgstr "/Datei/_Öffnen"
+
+#~ msgid "/File/_Quit"
+#~ msgstr "/Datei/B_eenden"
+
+#~ msgid "/File/_Save"
+#~ msgstr "/Datei/_Speichern"
+
+#~ msgid "/Help/_About..."
+#~ msgstr "/Hilfe/_Über ..."
+
+#~ msgid "/Options/Test"
+#~ msgstr "/Optionen/Test"
+
+#~ msgid "/_About..."
+#~ msgstr "/_Über ..."
+
+#~ msgid "/_Fields description"
+#~ msgstr "/_Felderbeschreibung"
+
+#~ msgid "/_File"
+#~ msgstr "/_Datei"
+
+#~ msgid "/_Help"
+#~ msgstr "/_Hilfe"
+
+#~ msgid "/_Options"
+#~ msgstr "/_Optionen"
+
+#~ msgid "/_Quit"
+#~ msgstr "/_Beenden"
+
+#~ msgid "/_Report Bug"
+#~ msgstr "/_Fehler melden"
+
+#~ msgid "<control>N"
+#~ msgstr "<control>N"
+
+#~ msgid "<control>O"
+#~ msgstr "<control>O"
+
+#~ msgid "Autodetect _jaz drives"
+#~ msgstr "_Jaz-Laufwerke automatisch erkennen"
+
+#~ msgid "Autodetect _printers"
+#~ msgstr "_Drucker automatisch erkennen"
+
+#~ msgid "Background color"
+#~ msgstr "Hintergrundfarbe"
+
+#~ msgid "Basic options"
+#~ msgstr "grundlegende Optionen"
+
+#~ msgid "Bugs"
+#~ msgstr "Fehler"
+
+#~ msgid "Choose picture"
+#~ msgstr "Wählen Sie ein Bild"
+
+#~ msgid "Choose progress bar background"
+#~ msgstr "Wählen Sie die Hintergrundfarbe des Fortschrittsbalkens"
+
+#~ msgid "Choose progress bar color 1"
+#~ msgstr "Wählen Sie die Farbe 1 des Fortschrittsbalkens"
+
+#~ msgid "Choose progress bar color 2"
+#~ msgstr "Wählen Sie die Farbe 1 des Fortschrittsbalkens"
+
+#~ msgid "Choose text color"
+#~ msgstr "Wählen Sie die Textfarbe"
+
+#~ msgid "Choose text zone color"
+#~ msgstr "Wählen Sie die Farbe des Textfeldes"
+
+#~ msgid "Color selection"
+#~ msgstr "Farbauswahl"
+
+#~ msgid "Coma bug"
+#~ msgstr "Coma-Fehler"
+
+#~ msgid "Configure authentication required to access Mandriva tools"
 #~ msgstr ""
-#~ "Der proprietäre Treiber für Ihre Grafikkarte kann in Ihrem System nicht "
-#~ "gefunden werden, das System nutzt jetzt den freien Treiber (%s)."
+#~ "Legen Sie die notwendige Authentifizierung fest, um Zugang zu den "
+#~ "Mandriva Werkzeugen zu erhalten"
+
+#~ msgid "Create new theme"
+#~ msgstr "Ein neues Design erzeugen"
+
+#~ msgid "Display logo on Console"
+#~ msgstr "Logo auf Konsole anzeigen"
 
 #~ msgid ""
 #~ "Display theme\n"
@@ -3525,133 +3808,9 @@ msgstr "Sprach & Länder Konfiguration"
 #~ "Design in der\n"
 #~ "Konsole anzeigen"
 
-#~ msgid "Create new theme"
-#~ msgstr "Ein neues Design erzeugen"
-
-#~ msgid "X coordinate of text box"
-#~ msgstr "X-Koordinate der Textbox"
-
-#~ msgid "Y coordinate of text box"
-#~ msgstr "Y-Koordinate der Textbox"
-
-#~ msgid "Text box width"
-#~ msgstr "Textboxbreite"
-
-#~ msgid "Text box height"
-#~ msgstr "Höhe des Textfelds"
-
-#~ msgid ""
-#~ "The progress bar X coordinate\n"
-#~ "of its upper left corner"
-#~ msgstr ""
-#~ "Linke obere Ecke des\n"
-#~ "Fortschrittsbalkens"
-
-#~ msgid ""
-#~ "The progress bar Y coordinate\n"
-#~ "of its upper left corner"
-#~ msgstr ""
-#~ "Y-Koordinate der oberen linken Ecke\n"
-#~ "der Fortschrittsanzeige"
-
-#~ msgid "The width of the progress bar"
-#~ msgstr "Die Breite des Fortschrittbalkens"
-
-#~ msgid "The height of the progress bar"
-#~ msgstr "Die Höhe des Fortschrittbalkens"
-
-#~ msgid "X coordinate of the text"
-#~ msgstr "X-Koordinate des Textes"
-
-#~ msgid "Y coordinate of the text"
-#~ msgstr "Y-Koordinate des Textes"
-
-#~ msgid "Text box transparency"
-#~ msgstr "Textbox-Transparenz"
-
-#~ msgid "Progress box transparency"
-#~ msgstr "Fortschrittsbox-Transparenz"
-
-#~ msgid "Text size"
-#~ msgstr "Textgröße"
-
-#~ msgid "Progress Bar"
-#~ msgstr "Fortschrittsbalken"
-
-#~ msgid "Choose progress bar color 1"
-#~ msgstr "Wählen Sie die Farbe 1 des Fortschrittsbalkens"
-
-#~ msgid "Choose progress bar color 2"
-#~ msgstr "Wählen Sie die Farbe 1 des Fortschrittsbalkens"
-
-#~ msgid "Choose progress bar background"
-#~ msgstr "Wählen Sie die Hintergrundfarbe des Fortschrittsbalkens"
-
-#~ msgid "Gradient type"
-#~ msgstr "Gradiententyp"
-
-#~ msgid "Text"
-#~ msgstr "Text"
-
-#~ msgid "Choose text color"
-#~ msgstr "Wählen Sie die Textfarbe"
-
-#~ msgid "Choose picture"
-#~ msgstr "Wählen Sie ein Bild"
-
-#~ msgid "Silent bootsplash"
-#~ msgstr "Stiller Bootsplash"
-
-#~ msgid "Choose text zone color"
-#~ msgstr "Wählen Sie die Farbe des Textfeldes"
-
-#~ msgid "Text color"
-#~ msgstr "Textfarbe"
-
-#~ msgid "Background color"
-#~ msgstr "Hintergrundfarbe"
-
-#~ msgid "Verbose bootsplash"
-#~ msgstr "Ausführlicher Bootsplash"
-
-#~ msgid "Theme name"
-#~ msgstr "Design-Name"
-
-#~ msgid "Final resolution"
-#~ msgstr "Endgültige Auflösung"
-
-#~ msgid "Display logo on Console"
-#~ msgstr "Logo auf Konsole anzeigen"
-
-#~ msgid "Save theme"
-#~ msgstr "Design speichern"
-
-#~ msgid "Please enter a theme name"
-#~ msgstr "Bitte geben Sie ein Themenname ein"
-
-#~ msgid "Please select a splash image"
-#~ msgstr "Bitte wählen Sie ein splash Image"
-
-#~ msgid "saving Bootsplash theme..."
-#~ msgstr "Sichere das Bootsplash-Design..."
-
-#~ msgid "Unable to load image file %s"
-#~ msgstr "Konnte Abbild-Datei %s nicht laden"
-
-#~ msgid "choose image"
-#~ msgstr "Image-Datei auswählen"
-
-#~ msgid "Color selection"
-#~ msgstr "Farbauswahl"
-
-#~ msgid "Coma bug"
-#~ msgstr "Coma-Fehler"
-
-#~ msgid "whether this cpu has the Cyrix 6x86 Coma bug"
-#~ msgstr "Angabe, ob der Prozessor den Cyrix 6x86 Coma-Fehler aufweist"
-
-#~ msgid "Fdiv bug"
-#~ msgstr "Fdiv Fehler"
+#, fuzzy
+#~ msgid "DrakX Online"
+#~ msgstr "Mandriva Online"
 
 #~ msgid ""
 #~ "Early Intel Pentium chips manufactured have a bug in their floating point "
@@ -3662,49 +3821,54 @@ msgstr "Sprach & Länder Konfiguration"
 #~ "Fließkommaprozessor, der nicht die gewünschte Genauigkeit bei Divisionen "
 #~ "(FDIV) erreicht"
 
-#~ msgid "Is FPU present"
-#~ msgstr "Ist FPU vorhanden"
-
-#~ msgid "yes means the processor has an arithmetic coprocessor"
-#~ msgstr ""
-#~ "Ja bedeutet, dass der Prozessor einen mathematischen Coprozessor besitzt"
-
-#~ msgid "Whether the FPU has an irq vector"
-#~ msgstr "Ob die FPU einen IRQ Vector hat"
-
-#~ msgid ""
-#~ "yes means the arithmetic coprocessor has an exception vector attached"
-#~ msgstr ""
-#~ "Ja bedeutet, dass der mathematische Coprozessor einen Ausnahmevektor "
-#~ "besitzt"
-
 #~ msgid "F00f bug"
 #~ msgstr "F00f: Fehler"
-
-#~ msgid ""
-#~ "early pentiums were buggy and freezed when decoding the F00F bytecode"
-#~ msgstr ""
-#~ "frühe Pentium waren fehleranfällig und stürzten beim dekodieren des F00F "
-#~ "Bytecodes ab"
-
-#~ msgid "Halt bug"
-#~ msgstr "Herunterfahren-Fehler"
-
-#~ msgid ""
-#~ "Some of the early i486DX-100 chips cannot reliably return to operating "
-#~ "mode after the \"halt\" instruction is used"
-#~ msgstr ""
-#~ "Einige der früheren i486DX-100 Chips wechseln nicht verlässlich in "
-#~ "denBetriebsmodus nachdem der „halt“ Befehl benutzt wurde"
-
-#~ msgid "Bugs"
-#~ msgstr "Fehler"
 
 #~ msgid "FPU"
 #~ msgstr "FPU"
 
-#~ msgid "Unknown/Others"
-#~ msgstr "Unbekannt/Andere"
+#~ msgid "Fdiv bug"
+#~ msgstr "Fdiv Fehler"
+
+#~ msgid "File/-"
+#~ msgstr "Datei/-"
+
+#~ msgid "File/Save _As"
+#~ msgstr "Datei/Speichern _unter"
+
+#~ msgid "File/_New"
+#~ msgstr "Datei/_Neu"
+
+#~ msgid "File/_Open"
+#~ msgstr "Datei/_Öffnen"
+
+#~ msgid "File/_Quit"
+#~ msgstr "Datei/_Beenden"
+
+#~ msgid "File/_Save"
+#~ msgstr "Datei/_Speichern"
+
+#~ msgid "Final resolution"
+#~ msgstr "Endgültige Auflösung"
+
+#~ msgid "Gradient type"
+#~ msgstr "Gradiententyp"
+
+#~ msgid "Halt bug"
+#~ msgstr "Herunterfahren-Fehler"
+
+#~ msgid "Help/_About..."
+#~ msgstr "Hilfe/_Über ..."
+
+#~ msgid ""
+#~ "Here you can see files to use in order to fix permissions, owners, and "
+#~ "groups via msec.\n"
+#~ "You can also edit your own rules which will owerwrite the default rules."
+#~ msgstr ""
+#~ "Hier sind die Dateien aufgelistet um die Berechtigungen, Eigentümer und "
+#~ "Gruppen via msec anzupassen.\n"
+#~ "Es können auch eigene Regeln definiert werden, die die Default Regeln "
+#~ "überschreiben."
 
 #~ msgid ""
 #~ "Here, you can setup the security level and administrator of your "
@@ -3808,32 +3972,190 @@ msgstr "Sprach & Länder Konfiguration"
 #~ "Sicherheitsregeln\n"
 #~ "sind auf Maximum"
 
-#~ msgid "(default value: %s)"
-#~ msgstr " (Voreinstellung: %s)"
+#~ msgid "Is FPU present"
+#~ msgstr "Ist FPU vorhanden"
 
-#~ msgid "Security Level:"
-#~ msgstr "Sicherheitsebene:"
+#~ msgid "Its GDB trace is:"
+#~ msgstr "GDB verfolgt die Spur:"
 
-#~ msgid "Security Alerts:"
-#~ msgstr "Sicherheitswarnungen:"
+#~ msgid "Mandriva Linux Bug Report Tool"
+#~ msgstr "Mandriva Linux Fehlerberichte"
 
-#~ msgid "Security Administrator:"
-#~ msgstr "Sicherheitsadministrator (Benutzername oder E-Mail):"
+#~ msgid "Mandriva Linux Tools Logs"
+#~ msgstr "Mandriva Linux Werkzeugprotokolle"
 
-#~ msgid "Basic options"
-#~ msgstr "grundlegende Optionen"
+#~ msgid "Mandriva Update"
+#~ msgstr "Mandriva Update"
+
+#~ msgid "Moondrake"
+#~ msgstr "Moondrake"
 
 #~ msgid "Network Options"
 #~ msgstr "Netzwerkoptionen"
 
-#~ msgid "System Options"
-#~ msgstr "Systemoptionen"
+#~ msgid ""
+#~ "No Sound Card has been detected on your machine. Please verify that a "
+#~ "Linux-supported Sound Card is correctly plugged in"
+#~ msgstr ""
+#~ "Es wurde keine Soundkarte in Ihrem Rechner gefunden. Bitte überprüfen "
+#~ "Sie, ob die Soundkarte korrekt eingesteckt ist und von Linux unterstützt "
+#~ "wird."
+
+#~ msgid ""
+#~ "No TV Card has been detected on your machine. Please verify that a Linux-"
+#~ "supported Video/TV Card is correctly plugged in."
+#~ msgstr ""
+#~ "Es wurde keine TV-Karte in Ihrem Rechner gefunden. Bitte überprüfen Sie, "
+#~ "ob die TV-Karte korrekt eingesteckt ist und von Linux unterstützt wird."
+
+#~ msgid "OpenOffice.org"
+#~ msgstr "OpenOffice.org"
+
+#~ msgid "Options/Test"
+#~ msgstr "Optionen/Test"
 
 #~ msgid "Periodic Checks"
 #~ msgstr "Periodische Checks"
+
+#~ msgid "Please enter a theme name"
+#~ msgstr "Bitte geben Sie ein Themenname ein"
+
+#~ msgid "Please select a splash image"
+#~ msgstr "Bitte wählen Sie ein splash Image"
 
 #~ msgid "Please wait, setting security level..."
 #~ msgstr "Bitte warten, Sicherheitsebene wird eingestellt..."
 
 #~ msgid "Please wait, setting security options..."
 #~ msgstr "Bitte warten, Sicherheitsoptionen werden eingestellt..."
+
+#~ msgid "Progress Bar"
+#~ msgstr "Fortschrittsbalken"
+
+#~ msgid "Progress box transparency"
+#~ msgstr "Fortschrittsbox-Transparenz"
+
+#~ msgid "Save theme"
+#~ msgstr "Design speichern"
+
+#~ msgid "Security Administrator:"
+#~ msgstr "Sicherheitsadministrator (Benutzername oder E-Mail):"
+
+#~ msgid "Security Alerts:"
+#~ msgstr "Sicherheitswarnungen:"
+
+#~ msgid "Security Level:"
+#~ msgstr "Sicherheitsebene:"
+
+#~ msgid "Select Mandriva Tool:"
+#~ msgstr "Wählen Sie ein Mandriva-Werkzeug:"
+
+#~ msgid "Silent bootsplash"
+#~ msgstr "Stiller Bootsplash"
+
+#~ msgid ""
+#~ "Some of the early i486DX-100 chips cannot reliably return to operating "
+#~ "mode after the \"halt\" instruction is used"
+#~ msgstr ""
+#~ "Einige der früheren i486DX-100 Chips wechseln nicht verlässlich in "
+#~ "denBetriebsmodus nachdem der „halt“ Befehl benutzt wurde"
+
+#~ msgid "System Options"
+#~ msgstr "Systemoptionen"
+
+#~ msgid "Text"
+#~ msgstr "Text"
+
+#~ msgid "Text box height"
+#~ msgstr "Höhe des Textfelds"
+
+#~ msgid "Text box transparency"
+#~ msgstr "Textbox-Transparenz"
+
+#~ msgid "Text box width"
+#~ msgstr "Textboxbreite"
+
+#~ msgid "Text color"
+#~ msgstr "Textfarbe"
+
+#~ msgid "Text size"
+#~ msgstr "Textgröße"
+
+#~ msgid "The height of the progress bar"
+#~ msgstr "Die Höhe des Fortschrittbalkens"
+
+#~ msgid ""
+#~ "The progress bar X coordinate\n"
+#~ "of its upper left corner"
+#~ msgstr ""
+#~ "Linke obere Ecke des\n"
+#~ "Fortschrittsbalkens"
+
+#~ msgid ""
+#~ "The progress bar Y coordinate\n"
+#~ "of its upper left corner"
+#~ msgstr ""
+#~ "Y-Koordinate der oberen linken Ecke\n"
+#~ "der Fortschrittsanzeige"
+
+#~ msgid ""
+#~ "The proprietary driver for your graphic card cannot be found, the system "
+#~ "is now using the free software driver (%s)."
+#~ msgstr ""
+#~ "Der proprietäre Treiber für Ihre Grafikkarte kann in Ihrem System nicht "
+#~ "gefunden werden, das System nutzt jetzt den freien Treiber (%s)."
+
+#~ msgid "The width of the progress bar"
+#~ msgstr "Die Breite des Fortschrittbalkens"
+
+#~ msgid "Theme name"
+#~ msgstr "Design-Name"
+
+#~ msgid "Unable to load image file %s"
+#~ msgstr "Konnte Abbild-Datei %s nicht laden"
+
+#~ msgid "Unknown/Others"
+#~ msgstr "Unbekannt/Andere"
+
+#~ msgid "Verbose bootsplash"
+#~ msgstr "Ausführlicher Bootsplash"
+
+#~ msgid "Whether the FPU has an irq vector"
+#~ msgstr "Ob die FPU einen IRQ Vector hat"
+
+#~ msgid "X coordinate of text box"
+#~ msgstr "X-Koordinate der Textbox"
+
+#~ msgid "X coordinate of the text"
+#~ msgstr "X-Koordinate des Textes"
+
+#~ msgid "Y coordinate of text box"
+#~ msgstr "Y-Koordinate der Textbox"
+
+#~ msgid "Y coordinate of the text"
+#~ msgstr "Y-Koordinate des Textes"
+
+#~ msgid "choose image"
+#~ msgstr "Image-Datei auswählen"
+
+#~ msgid ""
+#~ "early pentiums were buggy and freezed when decoding the F00F bytecode"
+#~ msgstr ""
+#~ "frühe Pentium waren fehleranfällig und stürzten beim dekodieren des F00F "
+#~ "Bytecodes ab"
+
+#~ msgid "saving Bootsplash theme..."
+#~ msgstr "Sichere das Bootsplash-Design..."
+
+#~ msgid "whether this cpu has the Cyrix 6x86 Coma bug"
+#~ msgstr "Angabe, ob der Prozessor den Cyrix 6x86 Coma-Fehler aufweist"
+
+#~ msgid ""
+#~ "yes means the arithmetic coprocessor has an exception vector attached"
+#~ msgstr ""
+#~ "Ja bedeutet, dass der mathematische Coprozessor einen Ausnahmevektor "
+#~ "besitzt"
+
+#~ msgid "yes means the processor has an arithmetic coprocessor"
+#~ msgstr ""
+#~ "Ja bedeutet, dass der Prozessor einen mathematischen Coprozessor besitzt"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uz@cyrillic\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-22 00:44+0100\n"
+"POT-Creation-Date: 2015-02-18 12:31+0100\n"
 "PO-Revision-Date: 2010-01-07 11:35+0500\n"
 "Last-Translator: Nurali Abdurahmonov <mavnur@gmail.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -28,18 +28,22 @@ msgstr ""
 #: ../../advertising/MandrivaOne-advert-6.pl:1
 #: ../../advertising/MandrivaOne-advert-7.pl:1
 #: ../../advertising/MandrivaOne-advert-8.pl:1
-#: ../../advertising/MandrivaOne-advert-9.pl:1
-#, fuzzy, c-format
-msgid "OpenMandriva Lx 2013.0"
-msgstr "OpenMandriva Lx ОТни ўрнатиш %s"
+#, c-format
+msgid "Moondrake GNU/Linux 2013 Beta (Twelve Angry Penguins)"
+msgstr ""
 
-#: any.pm:110
+#: ../../advertising/MandrivaOne-advert-9.pl:1
+#, c-format
+msgid "Mandriva Linux 2012 Alpha (Tenacious Underdog)"
+msgstr ""
+
+#: any.pm:151
 #, c-format
 msgid "Do you have further supplementary media?"
 msgstr "Сизда қўшимча компакт-диск борми?"
 
 #. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
-#: any.pm:113
+#: any.pm:154
 #, c-format
 msgid ""
 "The following media have been found and will be used during install: %s.\n"
@@ -52,91 +56,91 @@ msgstr ""
 "\n"
 "Мосланиши керак бўлган қўшимча ўрнатиш манбаси борми?"
 
-#: any.pm:121
+#: any.pm:162
 #, c-format
 msgid "CD-ROM"
 msgstr "Компакт-диск"
 
-#: any.pm:122
+#: any.pm:163
 #, c-format
 msgid "Network (HTTP)"
 msgstr "Тармоқ (HTTP)"
 
-#: any.pm:123
+#: any.pm:164
 #, c-format
 msgid "Network (FTP)"
 msgstr "Тармоқ (FTP)"
 
-#: any.pm:124
+#: any.pm:165
 #, c-format
 msgid "Network (NFS)"
 msgstr "Тармоқ (NFS)"
 
-#: any.pm:171
+#: any.pm:224
 #, c-format
 msgid "URL of the mirror?"
 msgstr "Ойнанинг манзили (URL)"
 
-#: any.pm:177
+#: any.pm:230
 #, c-format
 msgid "URL must start with ftp:// or http://"
 msgstr "Манзил ftp:// ёки http:// билан бошланиши керак"
 
-#: any.pm:188
-#, fuzzy, c-format
-msgid "Connecting to OpenMandriva to get the list of available mirrors..."
+#: any.pm:248
+#, c-format
+msgid "Contacting %s web site to get the list of available mirrors..."
 msgstr ""
-"Мавжуд бўлган ойналарнинг рўйхатини олиш учун OpenMandriva Lx сайти билан "
-"алоқа ўрнатилмоқда..."
+"Мавжуд бўлган ойналарнинг рўйхатини олиш учун %s сайти билан алоқа "
+"ўрнатилмоқда..."
 
-#: any.pm:193
-#, fuzzy, c-format
-msgid "Failed to get the list of available mirrors."
+#: any.pm:253
+#, c-format
+msgid "Failed contacting %s web site to get the list of available mirrors"
 msgstr ""
-"Мавжуд бўлган ойналарнинг рўйхатини олиш учун OpenMandriva Lx сайти билан "
-"алоқа ўрнатилмоқда..."
+"Мавжуд бўлган ойналарнинг рўйхатини олиш учун %s сайти билан алоқа ўрнатиб "
+"бўлмади"
 
-#: any.pm:203
+#: any.pm:263
 #, c-format
 msgid "Choose a mirror from which to get the packages"
 msgstr "Пакетларни олиш учун ойнани танланг"
 
-#: any.pm:233
+#: any.pm:293
 #, c-format
 msgid "NFS setup"
 msgstr "NFS орқали ўрнатиш"
 
-#: any.pm:234
+#: any.pm:294
 #, c-format
 msgid "Please enter the hostname and directory of your NFS media"
 msgstr "NFS тўпламининг компьютер номини ва директорияни киритинг"
 
-#: any.pm:238
+#: any.pm:298
 #, c-format
 msgid "Hostname missing"
 msgstr "Компьютернинг номи кўрсатилмаган"
 
-#: any.pm:239
+#: any.pm:299
 #, c-format
 msgid "Directory must begin with \"/\""
 msgstr "Директория \"/\" белги билан бошлаши керак"
 
-#: any.pm:243
+#: any.pm:303
 #, c-format
 msgid "Hostname of the NFS mount ?"
 msgstr "NFS серверининг хост номи"
 
-#: any.pm:244
+#: any.pm:304
 #, c-format
 msgid "Directory"
 msgstr "Директория"
 
-#: any.pm:266
+#: any.pm:334
 #, c-format
 msgid "Supplementary"
 msgstr "Қўшимча"
 
-#: any.pm:301
+#: any.pm:369
 #, c-format
 msgid ""
 "Can't find a package list file on this mirror. Make sure the location is "
@@ -145,79 +149,79 @@ msgstr ""
 "Ойнада пакетлар рўйхатини топиб бўлмади. Манзил (URL) тўғри "
 "кўрсатилганлигини текширинг."
 
-#: any.pm:317
+#: any.pm:394
 #, c-format
 msgid "Main Release"
 msgstr ""
 
-#: any.pm:319
+#: any.pm:396
 #, c-format
 msgid "Contrib Release"
 msgstr ""
 
-#: any.pm:321
+#: any.pm:398
 #, c-format
 msgid "Non-free Release"
 msgstr ""
 
-#: any.pm:335
+#: any.pm:436
 #, c-format
 msgid ""
 "Some hardware on your machine needs some non free firmwares in order for the "
 "free software drivers to work."
 msgstr ""
 
-#: any.pm:336
+#: any.pm:437
 #, c-format
 msgid "You should enable \"%s\""
 msgstr ""
 
-#: any.pm:355
+#: any.pm:476
 #, c-format
 msgid "\"%s\" contains the various pieces of the systems and its applications."
 msgstr ""
 
-#: any.pm:356
+#: any.pm:477
 #, c-format
 msgid ""
 "\"%s\" contains software that's not officially supported and might not "
 "receive the same level of maintenance."
 msgstr ""
 
-#: any.pm:357
+#: any.pm:478
 #, c-format
 msgid "\"%s\" contains non free software.\n"
 msgstr ""
 
-#: any.pm:358
+#: any.pm:479
 #, c-format
 msgid ""
 "It also contains firmware needed for certain devices to operate (eg: some "
 "ATI/AMD graphic cards, some network cards, some RAID cards, ...)"
 msgstr ""
 
-#: any.pm:362
+#: any.pm:483
 #, c-format
 msgid "Here you can enable more media if you want."
 msgstr ""
 
-#: any.pm:440
+#: any.pm:584
 #, c-format
 msgid "Looking at packages already installed..."
 msgstr "Аллақачон ўрнатилган пакетлар қидирилмоқда..."
 
-#: any.pm:475
+#: any.pm:619
 #, c-format
 msgid "Finding packages to upgrade..."
 msgstr "Янгилаш учун пакетлар қидирилмоқда..."
 
-#: any.pm:493
+#: any.pm:643
 #, c-format
 msgid "Removing packages prior to upgrade..."
 msgstr "Янгилашдан аввал пакетлар олиб ташланмоқда..."
 
 #. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
-#: any.pm:707
+#: any.pm:870
 #, c-format
 msgid ""
 "The following packages will be removed to allow upgrading your system: %s\n"
@@ -230,88 +234,88 @@ msgstr ""
 "\n"
 "Давом этишни истайсизми?\n"
 
-#: any.pm:926
+#: any.pm:1085
 #, c-format
 msgid "Error reading file %s"
 msgstr "%s файлини ўқишда хато рўй берди"
 
-#: any.pm:1134
+#: any.pm:1293
 #, c-format
 msgid "The following disk(s) were renamed:"
 msgstr "Қуйидаги диск(лар)нинг номи ўзгартирилди:"
 
-#: any.pm:1136
+#: any.pm:1295
 #, c-format
 msgid "%s (previously named as %s)"
 msgstr "%s (олдинги номи %s)"
 
-#: any.pm:1193
+#: any.pm:1352
 #, c-format
 msgid "HTTP"
 msgstr "HTTP"
 
-#: any.pm:1193
+#: any.pm:1352
 #, c-format
 msgid "FTP"
 msgstr "FTP"
 
-#: any.pm:1193
+#: any.pm:1352
 #, c-format
 msgid "NFS"
 msgstr "NFS"
 
-#: any.pm:1212 steps_interactive.pm:960
+#: any.pm:1371 steps_interactive.pm:933
 #, c-format
 msgid "Network"
 msgstr "Тармоқ"
 
-#: any.pm:1216
+#: any.pm:1375
 #, c-format
 msgid "Please choose a media"
 msgstr "Илтимос тўпламни танланг"
 
-#: any.pm:1232
+#: any.pm:1391
 #, c-format
 msgid "File already exists. Overwrite it?"
 msgstr "Файл аллақачон мавжуд. Уни алмаштиришни истайсизми?"
 
-#: any.pm:1236
+#: any.pm:1395
 #, c-format
 msgid "Permission denied"
 msgstr "Рухсат йўқ"
 
-#: any.pm:1284
+#: any.pm:1443
 #, c-format
 msgid "Bad NFS name"
 msgstr "NFS номи нотўғри"
 
-#: any.pm:1305
+#: any.pm:1464
 #, c-format
 msgid "Bad media %s"
 msgstr "Нотўғри тўплам %s"
 
-#: any.pm:1349
+#: any.pm:1508
 #, c-format
 msgid "Cannot make screenshots before partitioning"
 msgstr "Скриншотларни дискни бўлишдан аввал олиб бўлмайди"
 
-#: any.pm:1357
+#: any.pm:1519
 #, c-format
 msgid "Screenshots will be available after install in %s"
 msgstr ""
 "Ўрнатиш тугаганидан кейин скриншотларни қуйидаги жойдан топиш мумкин: %s"
 
-#: gtk.pm:128
+#: gtk.pm:135
 #, c-format
 msgid "Installation"
 msgstr "Ўрнатиш"
 
-#: gtk.pm:132
+#: gtk.pm:139 share/meta-task/compssUsers.pl:55
 #, c-format
 msgid "Configuration"
 msgstr "Мослаш"
 
-#: install2.pm:168
+#: install2.pm:209
 #, c-format
 msgid "You must also format %s"
 msgstr "Сиз %s'ни ҳам формат қилишингиз керак"
@@ -335,22 +339,22 @@ msgstr "Тармоқ ишга туширилмоқда"
 msgid "Bringing down the network"
 msgstr "Тармоқ ўчирилмоқда"
 
-#: media.pm:409
+#: media.pm:404
 #, c-format
 msgid "Please wait, retrieving file"
 msgstr "Илтимос кутиб туринг, файл олинмоқда"
 
-#: media.pm:717
+#: media.pm:712
 #, c-format
 msgid "unable to add medium"
 msgstr "манбани қўшиб бўлмади"
 
-#: media.pm:757
+#: media.pm:752
 #, c-format
 msgid "Copying some packages on disks for future use"
 msgstr "Баъзи пакетлардан дискка нусха олинмоқда"
 
-#: media.pm:810
+#: media.pm:805
 #, c-format
 msgid "Copying in progress"
 msgstr "Нусха олиш давом этмоқда"
@@ -393,7 +397,7 @@ msgstr ""
 #: pkgs.pm:119
 #, c-format
 msgid "No description"
-msgstr ""
+msgstr "Таъриф йўқ"
 
 #: pkgs.pm:279
 #, c-format
@@ -410,9 +414,9 @@ msgid "An error occurred:"
 msgstr "Хато рўй берди:"
 
 #: pkgs.pm:394
-#, fuzzy, c-format
+#, c-format
 msgid "A fatal error occurred: %s."
-msgstr "Хато рўй берди:"
+msgstr "Жуда жиддий хато рўй берди: %s."
 
 #: pkgs.pm:877 pkgs.pm:919
 #, c-format
@@ -429,6 +433,364 @@ msgstr "%d ўрнатиш транзакцияси муваффақиятсиз 
 msgid "Installation of packages failed:"
 msgstr "Пакетларни ўрнатиб бўлмади:"
 
+#: share/meta-task/compssUsers.pl:17
+#, c-format
+msgid "Workstation"
+msgstr "Иш станцияси"
+
+#: share/meta-task/compssUsers.pl:19
+#, c-format
+msgid "Office Workstation"
+msgstr "Идора станцияси"
+
+#: share/meta-task/compssUsers.pl:21
+#, c-format
+msgid ""
+"Office programs: wordprocessors (LibreOffice Writer, Kword), spreadsheets "
+"(LibreOffice Calc, Kspread), PDF viewers, etc"
+msgstr ""
+"Идора учун дастурлар: матн процессорлари (LibreOffice Writer, Kword), "
+"электрон жадваллар (LibreOffice Calc, Kspread), PDF кўрувчилар ва ҳоказо"
+
+#: share/meta-task/compssUsers.pl:27
+#, c-format
+msgid "Game station"
+msgstr "Ўйин станцияси"
+
+#: share/meta-task/compssUsers.pl:28
+#, fuzzy, c-format
+msgid "Amusement programs: arcade, boards, strategy, etc."
+msgstr "Овунчоқ дастурлар: аркада, стол ўйинлари, стратегия ва ҳоказо"
+
+#: share/meta-task/compssUsers.pl:32
+#, c-format
+msgid "Multimedia station"
+msgstr "Мултимедиа станцияси"
+
+#: share/meta-task/compssUsers.pl:33
+#, c-format
+msgid "Sound and video playing/editing programs"
+msgstr "Аудио ва видеони ўйнаш/таҳрирлаш учун дастурлар"
+
+#: share/meta-task/compssUsers.pl:38
+#, c-format
+msgid "Toys"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:39
+#, c-format
+msgid "Apps and tools of less useful value, yet entertaining..."
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:43
+#, c-format
+msgid "Internet station"
+msgstr "Интернет станцияси"
+
+#: share/meta-task/compssUsers.pl:44
+#, c-format
+msgid ""
+"Set of tools to read and send mail and news (mutt, tin..) and to browse the "
+"Web"
+msgstr ""
+"Хат-хабар, янгиликларни ўқиш ва жўнатиш (mutt, tin..) ва Интернетда сайр "
+"қилиш учун воситалар тўплами"
+
+#: share/meta-task/compssUsers.pl:49
+#, c-format
+msgid "Network Computer (client)"
+msgstr "Тармоқдаги компьютер (клиент)"
+
+#: share/meta-task/compssUsers.pl:50
+#, c-format
+msgid "Clients for different protocols including ssh"
+msgstr "Турли протоколлар, шу жумлада SSH, учун клиентлар"
+
+#: share/meta-task/compssUsers.pl:56
+#, c-format
+msgid "Tools to ease the configuration of your computer"
+msgstr "Компьютерни мослашни енгилаштириш учун воситалар"
+
+#: share/meta-task/compssUsers.pl:60
+#, c-format
+msgid "Console Tools"
+msgstr "Консол воситалари"
+
+#: share/meta-task/compssUsers.pl:61
+#, c-format
+msgid "Editors, shells, file tools, terminals"
+msgstr "Таҳрирчилар, консоллар, файл воситалари, терминаллар"
+
+#: share/meta-task/compssUsers.pl:65 share/meta-task/compssUsers.pl:201
+#: share/meta-task/compssUsers.pl:203
+#, c-format
+msgid "Development"
+msgstr "Тузиш"
+
+#: share/meta-task/compssUsers.pl:66 share/meta-task/compssUsers.pl:204
+#, c-format
+msgid "C and C++ development libraries, programs and include files"
+msgstr "C ва C++ тузиш кутубхоналари, воситалар ва хедер файллар"
+
+#: share/meta-task/compssUsers.pl:70 share/meta-task/compssUsers.pl:208
+#, c-format
+msgid "Documentation"
+msgstr "Қўлланмалар"
+
+#: share/meta-task/compssUsers.pl:71 share/meta-task/compssUsers.pl:209
+#, c-format
+msgid "Books and Howto's on Linux and Free Software"
+msgstr "Linux ва эркин дастурлар ҳақида китоблар ва Howto'лар"
+
+#: share/meta-task/compssUsers.pl:75 share/meta-task/compssUsers.pl:212
+#, c-format
+msgid "LSB"
+msgstr "LSB"
+
+#: share/meta-task/compssUsers.pl:76 share/meta-task/compssUsers.pl:213
+#, c-format
+msgid "Linux Standard Base. Third party applications support"
+msgstr "Linux Standard Base. Учинчи томон дастур тузувчилари қўллануви"
+
+#: share/meta-task/compssUsers.pl:87
+#, c-format
+msgid "Web Server"
+msgstr "Веб-сервери"
+
+#: share/meta-task/compssUsers.pl:88
+#, c-format
+msgid "Apache"
+msgstr "Apache"
+
+#: share/meta-task/compssUsers.pl:92
+#, c-format
+msgid "Groupware"
+msgstr "Groupware"
+
+#: share/meta-task/compssUsers.pl:93
+#, c-format
+msgid "Kolab Server"
+msgstr "Kolab сервери"
+
+#: share/meta-task/compssUsers.pl:96 share/meta-task/compssUsers.pl:146
+#, c-format
+msgid "Firewall/Router"
+msgstr "Файервол/Рутер"
+
+#: share/meta-task/compssUsers.pl:97 share/meta-task/compssUsers.pl:147
+#, c-format
+msgid "Internet gateway"
+msgstr "Интернет гейтвэйи"
+
+#: share/meta-task/compssUsers.pl:100
+#, c-format
+msgid "Mail/News"
+msgstr "Хат-хабар/Янгиликлар"
+
+#: share/meta-task/compssUsers.pl:101
+#, c-format
+msgid "Postfix mail server, Inn news server"
+msgstr "Postfix хат-хабар сервери, Inn янгиликлар сервери"
+
+#: share/meta-task/compssUsers.pl:105
+#, c-format
+msgid "Directory Server"
+msgstr "Директория сервери"
+
+#: share/meta-task/compssUsers.pl:110
+#, c-format
+msgid "FTP Server"
+msgstr "FTP сервери"
+
+#: share/meta-task/compssUsers.pl:111
+#, c-format
+msgid "ProFTPd"
+msgstr "ProFTPd"
+
+#: share/meta-task/compssUsers.pl:115
+#, c-format
+msgid "DNS/NIS"
+msgstr "DNS/NIS"
+
+#: share/meta-task/compssUsers.pl:116
+#, c-format
+msgid "Domain Name and Network Information Server"
+msgstr "DNS ва NIS"
+
+#: share/meta-task/compssUsers.pl:120
+#, c-format
+msgid "File and Printer Sharing Server"
+msgstr "Файл ва принтерни бўлишиш сервери"
+
+#: share/meta-task/compssUsers.pl:121
+#, c-format
+msgid "NFS Server, Samba server"
+msgstr "NFS сервери, Samba сервери"
+
+#: share/meta-task/compssUsers.pl:125 share/meta-task/compssUsers.pl:141
+#, c-format
+msgid "Database"
+msgstr "Маълумот базаси"
+
+#: share/meta-task/compssUsers.pl:126
+#, c-format
+msgid "PostgreSQL and MariaDB Database Server"
+msgstr "PostgreSQL ва MariaDB маълумот базаси"
+
+#: share/meta-task/compssUsers.pl:131
+#, c-format
+msgid "Web/FTP"
+msgstr "Web/FTP"
+
+#: share/meta-task/compssUsers.pl:132
+#, c-format
+msgid "Apache, Pro-ftpd"
+msgstr "Apache, Pro-ftpd"
+
+#: share/meta-task/compssUsers.pl:136
+#, c-format
+msgid "Mail"
+msgstr "Хат-хабар"
+
+#: share/meta-task/compssUsers.pl:137
+#, c-format
+msgid "Postfix mail server"
+msgstr "Postfix хат-хабар сервери"
+
+#: share/meta-task/compssUsers.pl:142
+#, c-format
+msgid "PostgreSQL or MariaDB database server"
+msgstr "PostgreSQL ёки MariaDB маълумот базаси"
+
+#: share/meta-task/compssUsers.pl:150
+#, c-format
+msgid "Network Computer server"
+msgstr "Тармоқдаги компьютер (сервер)"
+
+#: share/meta-task/compssUsers.pl:151
+#, c-format
+msgid "NFS server, SMB server, Proxy server, ssh server"
+msgstr "NFS сервери, SMB сервери, Proxy сервери, SSH сервери"
+
+#: share/meta-task/compssUsers.pl:159
+#, c-format
+msgid "Graphical Environment"
+msgstr "График муҳит"
+
+#: share/meta-task/compssUsers.pl:163
+#, c-format
+msgid "KDE Workstation"
+msgstr "KDE станцияси"
+
+#: share/meta-task/compssUsers.pl:164
+#, c-format
+msgid ""
+"The K Desktop Environment, the basic graphical environment with a collection "
+"of accompanying tools"
+msgstr "KDE - воситалар тўплами билан бирга асосий график муҳит"
+
+#: share/meta-task/compssUsers.pl:169
+#, c-format
+msgid "GNOME Workstation"
+msgstr "GNOME станцияси"
+
+#: share/meta-task/compssUsers.pl:170
+#, c-format
+msgid ""
+"A graphical environment with user-friendly set of applications and desktop "
+"tools"
+msgstr ""
+"Фойдаланувчилар учун қулай дастурлар ва иш столи воситаларидан иборат график "
+"муҳит"
+
+#: share/meta-task/compssUsers.pl:175
+#, fuzzy, c-format
+msgid "Xfce Workstation"
+msgstr "Идора станцияси"
+
+#: share/meta-task/compssUsers.pl:176
+#, fuzzy, c-format
+msgid ""
+"A lighter graphical environment with user-friendly set of applications and "
+"desktop tools"
+msgstr ""
+"Фойдаланувчилар учун қулай дастурлар ва иш столи воситаларидан иборат график "
+"муҳит"
+
+#: share/meta-task/compssUsers.pl:181
+#, c-format
+msgid "LXDE Desktop"
+msgstr "LXDE иш столи"
+
+#: share/meta-task/compssUsers.pl:183
+#, c-format
+msgid ""
+"A lightweight & fast graphical environment with user-friendly set of "
+"applications and desktop tools"
+msgstr ""
+"Фойдаланувчи учун қулай дастурлар ва иш столи восилари мавжуд бўлган енгил "
+"ва тез ишловчи график муҳит"
+
+#: share/meta-task/compssUsers.pl:188
+#, c-format
+msgid "Other Graphical Desktops"
+msgstr "Бошқа график иш столлари"
+
+#: share/meta-task/compssUsers.pl:189
+#, fuzzy, c-format
+msgid "Window Maker, Enlightenment, Fvwm, etc."
+msgstr "Window Maker, Enlightenment, Fvwm, ва ҳоказо"
+
+#: share/meta-task/compssUsers.pl:192
+#, c-format
+msgid "Media Center"
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:193
+#, c-format
+msgid "XBMC, MythTV, etc."
+msgstr ""
+
+#: share/meta-task/compssUsers.pl:218
+#, c-format
+msgid "Utilities"
+msgstr "Воситалар"
+
+#: share/meta-task/compssUsers.pl:220 share/meta-task/compssUsers.pl:221
+#, c-format
+msgid "SSH Server"
+msgstr "SSH сервери"
+
+#: share/meta-task/compssUsers.pl:225
+#, c-format
+msgid "Webmin"
+msgstr "Webmin"
+
+#: share/meta-task/compssUsers.pl:226
+#, c-format
+msgid "Webmin Remote Configuration Server"
+msgstr "Webmin масофадан бошқариш сервери"
+
+#: share/meta-task/compssUsers.pl:230
+#, c-format
+msgid "Network Utilities/Monitoring"
+msgstr "Тармоқ воситалари/Назорат қилиш"
+
+#: share/meta-task/compssUsers.pl:231
+#, c-format
+msgid "Monitoring tools, processes accounting, tcpdump, nmap, ..."
+msgstr "Назорат қилиш воситалари, вазифалар ҳисоботчилари, tcpdump, nmap, ..."
+
+#: share/meta-task/compssUsers.pl:235
+#, fuzzy, c-format
+msgid "DrakX Wizards"
+msgstr "Moondrake ёрдамчилари"
+
+#: share/meta-task/compssUsers.pl:236
+#, c-format
+msgid "Wizards to configure server"
+msgstr "Серверни мослаш учун ёрдамчилар"
+
 #: steps.pm:85
 #, c-format
 msgid ""
@@ -438,7 +800,7 @@ msgstr ""
 "Хатолик юз берди аммо унинг сабаби аниқланмади.\n"
 "Тавваккал қилган ҳолда давом этишингиз мумкин."
 
-#: steps.pm:452
+#: steps.pm:449
 #, c-format
 msgid ""
 "Some important packages did not get installed properly.\n"
@@ -458,143 +820,142 @@ msgstr "%s босқичга ўтилмоқда\n"
 
 #: steps_curses.pm:22
 #, c-format
-msgid "OpenMandriva Lx Installation %s"
-msgstr "OpenMandriva Lx ОТни ўрнатиш %s"
+msgid "%s Installation %s"
+msgstr "%s ОТни ўрнатиш %s"
 
 #: steps_curses.pm:32
 #, c-format
 msgid "<Tab>/<Alt-Tab> between elements"
 msgstr "<Tab>/<Alt-Tab> банддан-бандга"
 
-#: steps_gtk.pm:151
+#: steps_gtk.pm:158
 #, c-format
 msgid "Xorg server is slow to start. Please wait..."
 msgstr "Xorg дастури жуда секин ишга тушяпти. Илтимос кутиб туринг..."
 
-#: steps_gtk.pm:216
-#, fuzzy, c-format
+#: steps_gtk.pm:223
+#, c-format
 msgid ""
 "Your system is low on resources. You may have some problem installing\n"
-"OpenMandriva Lx. If that occurs, you can try a text install instead. To do "
-"this,\n"
-"press `F1' at the boot menu, then enter `text'."
+"%s. If that occurs, you can try a text install instead. For this,\n"
+"press `F1' when booting on CDROM, then enter `text'."
 msgstr ""
-"Тизимда ресурслар етишмайди. OpenMandriva Lx тизимини ўрнатиш мобайнида\n"
+"Тизимда ресурслар етишмайди. %s тизимини ўрнатиш мобайнида\n"
 "муаммога дуч келишингиз мумкин. Агар шундай бўлса, матн усулида ўрнатиш "
 "воситасидан фойдаланиб кўринг,\n"
 "Бунинг учун дискдан юкланаётганда `F1' тугмасини босинг ва `text' деб ёзинг."
 
-#: steps_gtk.pm:246 steps_gtk.pm:761
+#: steps_gtk.pm:253 steps_gtk.pm:790
 #, c-format
 msgid "Media Selection"
 msgstr "Манбани танлаш"
 
-#: steps_gtk.pm:257
+#: steps_gtk.pm:264
 #, fuzzy, c-format
-msgid "Install KDE Desktop Environment"
+msgid "Install %s KDE Desktop"
 msgstr "KDE иш столи"
 
-#: steps_gtk.pm:258
+#: steps_gtk.pm:265
 #, fuzzy, c-format
-msgid "Install GNOME Desktop Environment"
+msgid "Install %s GNOME Desktop"
 msgstr "GNOME иш столи"
 
-#: steps_gtk.pm:259
+#: steps_gtk.pm:266
 #, c-format
 msgid "Custom install"
 msgstr "Бошқа"
 
-#: steps_gtk.pm:280
+#: steps_gtk.pm:287
 #, c-format
 msgid "KDE Desktop"
 msgstr "KDE иш столи"
 
-#: steps_gtk.pm:281
+#: steps_gtk.pm:288
 #, c-format
 msgid "GNOME Desktop"
 msgstr "GNOME иш столи"
 
-#: steps_gtk.pm:282
+#: steps_gtk.pm:289
 #, c-format
 msgid "Custom Desktop"
 msgstr "Бошқа иш столи"
 
-#: steps_gtk.pm:288
+#: steps_gtk.pm:295
 #, c-format
 msgid "Here's a preview of the '%s' desktop."
 msgstr "Бу '%s' иш столининг кўриниши."
 
-#: steps_gtk.pm:315
+#: steps_gtk.pm:322
 #, c-format
 msgid "Click on images in order to see a bigger preview"
 msgstr "Иш столини яқинроқдан кўриш учун расмни сичқонча билан босинг"
 
-#: steps_gtk.pm:331 steps_interactive.pm:628 steps_list.pm:31
+#: steps_gtk.pm:338 steps_interactive.pm:595 steps_list.pm:31
 #, c-format
 msgid "Package Group Selection"
 msgstr "Пакетларни гуруҳ бўйича танлаш"
 
-#: steps_gtk.pm:355 steps_interactive.pm:645
+#: steps_gtk.pm:361 steps_interactive.pm:612
 #, c-format
 msgid "Individual package selection"
 msgstr "Пакетларни биттама-битта танлаш"
 
-#: steps_gtk.pm:362
+#: steps_gtk.pm:368
 #, c-format
 msgid "Unselect All"
-msgstr ""
+msgstr "Ҳеч қайси танланмасин"
 
-#: steps_gtk.pm:380 steps_interactive.pm:557
+#: steps_gtk.pm:387 steps_interactive.pm:524
 #, c-format
 msgid "Total size: %d / %d MB"
 msgstr "Жами: %d / %d Мб"
 
-#: steps_gtk.pm:425
+#: steps_gtk.pm:432
 #, c-format
 msgid "Version: "
 msgstr "Версияси: "
 
-#: steps_gtk.pm:426
+#: steps_gtk.pm:433
 #, c-format
 msgid "Size: "
 msgstr "Ҳажми: "
 
-#: steps_gtk.pm:426
+#: steps_gtk.pm:433
 #, c-format
 msgid "%d KB\n"
 msgstr "%d Кб\n"
 
-#: steps_gtk.pm:427
+#: steps_gtk.pm:434
 #, c-format
 msgid "Importance: "
 msgstr "Муҳимлиги: "
 
-#: steps_gtk.pm:462
+#: steps_gtk.pm:469
 #, c-format
 msgid "You cannot select/unselect this package"
 msgstr "Бу пакетни танлолмайсиз/танлашни бекор қилолмайсиз"
 
-#: steps_gtk.pm:466
+#: steps_gtk.pm:473
 #, c-format
 msgid "due to missing %s"
 msgstr "%s етишмагани учун"
 
-#: steps_gtk.pm:467
+#: steps_gtk.pm:474
 #, c-format
 msgid "due to unsatisfied %s"
 msgstr ""
 
-#: steps_gtk.pm:468
+#: steps_gtk.pm:475
 #, c-format
 msgid "trying to promote %s"
 msgstr "%s ативлаштиришга ҳаракат қилинмоқда"
 
-#: steps_gtk.pm:469
+#: steps_gtk.pm:476
 #, c-format
 msgid "in order to keep %s"
 msgstr "%s'ни қолдириш учун"
 
-#: steps_gtk.pm:474
+#: steps_gtk.pm:481
 #, c-format
 msgid ""
 "You cannot select this package as there is not enough space left to install "
@@ -602,108 +963,118 @@ msgid ""
 msgstr ""
 "Бу пакетни танлолмайсиз, чунки уни ўрнатиш учун етарли жой мавжуд эмас."
 
-#: steps_gtk.pm:477
+#: steps_gtk.pm:484
 #, c-format
 msgid "The following packages are going to be installed"
 msgstr "Қуйидаги пакетлар ўрнатилади"
 
-#: steps_gtk.pm:478
+#: steps_gtk.pm:485
 #, c-format
 msgid "The following packages are going to be removed"
 msgstr "Қуйидаги пакетлар олиб ташланилади."
 
-#: steps_gtk.pm:504
+#: steps_gtk.pm:511
 #, c-format
 msgid "This is a mandatory package, it cannot be unselected"
 msgstr "Бу ўрнатилиши шарт бўлган пакет, уни танлашни бекор қилиб бўлмайди."
 
-#: steps_gtk.pm:506
+#: steps_gtk.pm:513
 #, c-format
 msgid "You cannot unselect this package. It is already installed"
 msgstr "Бу пакетни танлашни бекор қилолмайсиз. У аллақачон ўрнатилган."
 
-#: steps_gtk.pm:508
+#: steps_gtk.pm:515
 #, c-format
 msgid "You cannot unselect this package. It must be upgraded"
 msgstr "Бу пакетни танлашни бекор қилолмайсиз. У янгиланиши шарт."
 
-#: steps_gtk.pm:512
+#: steps_gtk.pm:519
 #, c-format
 msgid "Show automatically selected packages"
 msgstr "Автоматик равишда танланган пакетларни кўрсатиш"
 
-#: steps_gtk.pm:516
+#: steps_gtk.pm:523
 #, c-format
 msgid "Install"
 msgstr "Ўрнатиш"
 
-#: steps_gtk.pm:519
+#: steps_gtk.pm:526
 #, c-format
 msgid "Load/Save selection"
 msgstr "Танланганни юклаш/сақлаш"
 
-#: steps_gtk.pm:520
+#: steps_gtk.pm:527
 #, c-format
 msgid "Updating package selection"
 msgstr "Пакетлар танлови янгиланмоқда"
 
-#: steps_gtk.pm:525
+#: steps_gtk.pm:532
 #, c-format
 msgid "Minimal install"
 msgstr "Минимал ўрнатиш"
 
-#: steps_gtk.pm:538
+#: steps_gtk.pm:545
 #, c-format
 msgid "Software Management"
 msgstr "Дастурлар бошқаруви"
 
-#: steps_gtk.pm:538 steps_interactive.pm:438
+#: steps_gtk.pm:545 steps_interactive.pm:405
 #, c-format
 msgid "Choose the packages you want to install"
 msgstr "Сиз ўрнатмоқчи бўлган пакетларни танланг"
 
-#: steps_gtk.pm:555 steps_interactive.pm:659 steps_list.pm:33
+#: steps_gtk.pm:562 steps_interactive.pm:626 steps_list.pm:33
 #, c-format
 msgid "Installing"
 msgstr "Ўрнатилмоқда"
 
-#: steps_gtk.pm:586
+#: steps_gtk.pm:593
+#, c-format
+msgid "Bored?"
+msgstr ""
+
+#: steps_gtk.pm:593
+#, c-format
+msgid "Boss button"
+msgstr ""
+
+#: steps_gtk.pm:599
 #, c-format
 msgid "No details"
 msgstr "Тафсилотларсиз"
 
-#: steps_gtk.pm:605
+#: steps_gtk.pm:633
 #, c-format
 msgid "Time remaining:"
 msgstr "Қолган вақт:"
 
-#: steps_gtk.pm:606
+#: steps_gtk.pm:634
 #, c-format
 msgid "(estimating...)"
 msgstr "(чамаланмоқда)"
 
-#: steps_gtk.pm:636
+#: steps_gtk.pm:664
 #, c-format
 msgid "%d package"
 msgid_plural "%d packages"
 msgstr[0] "%d-та пакет"
 
-#: steps_gtk.pm:691 steps_interactive.pm:824 steps_list.pm:44
+#: steps_gtk.pm:720 steps_interactive.pm:794 steps_list.pm:44
 #, c-format
 msgid "Summary"
 msgstr "Ҳисобот"
 
-#: steps_gtk.pm:710
+#: steps_gtk.pm:739
 #, c-format
 msgid "Configure"
 msgstr "Мослаш"
 
-#: steps_gtk.pm:727 steps_interactive.pm:820 steps_interactive.pm:973
+#: steps_gtk.pm:756 steps_interactive.pm:790 steps_interactive.pm:946
 #, c-format
 msgid "not configured"
 msgstr "мосланмаган"
 
-#: steps_gtk.pm:770 steps_interactive.pm:336
+#: steps_gtk.pm:799 steps_interactive.pm:303
 #, c-format
 msgid ""
 "The following installation media have been found.\n"
@@ -712,7 +1083,7 @@ msgstr ""
 "Қуйидаги ўрнатиш манбалари аниқланди.\n"
 "Фақат танланган манбалар ўрнатиш учун ишлатилади."
 
-#: steps_gtk.pm:786 steps_interactive.pm:342
+#: steps_gtk.pm:815 steps_interactive.pm:309
 #, c-format
 msgid ""
 "You have the option to copy the contents of the CDs onto the hard disk drive "
@@ -724,7 +1095,7 @@ msgstr ""
 "олиш мумкин.\n"
 "Ўрнатиш тўлиқ тугагандан сўнг улар тизимга маълум бўлади."
 
-#: steps_gtk.pm:788 steps_interactive.pm:344
+#: steps_gtk.pm:817 steps_interactive.pm:311
 #, c-format
 msgid "Copy whole CDs"
 msgstr "Бутун дискдан нусха олиш"
@@ -789,8 +1160,7 @@ msgstr "Олдинги ўрнатишни янгилаш (тавсия этил�
 #: steps_interactive.pm:215
 #, c-format
 msgid ""
-"The installer has detected that your current OpenMandriva Lx system could "
-"not\n"
+"Installer has detected that your installed %s system could not\n"
 "safely be upgraded to %s.\n"
 "\n"
 "A new installation replacing your previous one is recommended.\n"
@@ -799,34 +1169,7 @@ msgid ""
 "Installation\"."
 msgstr ""
 
-#: steps_interactive.pm:262
-#, c-format
-msgid "IDE"
-msgstr "IDE"
-
-#: steps_interactive.pm:262
-#, c-format
-msgid "Configuring IDE"
-msgstr "IDE'ни мослаш"
-
-#: steps_interactive.pm:294
-#, c-format
-msgid ""
-"No free space for 1MB bootstrap! Install will continue, but to boot your "
-"system, you'll need to create the bootstrap partition in DiskDrake"
-msgstr ""
-"1Мблик юкловчи дастур учун етарли жой қолмаган! Ўрнатиш давом этади аммо "
-"тизимни юклаш учун DiskDrake'да дастлабки юкловчи яратилиши керак"
-
-#: steps_interactive.pm:299
-#, c-format
-msgid ""
-"You'll need to create a PPC PReP Boot bootstrap! Install will continue, but "
-"to boot your system, you'll need to create the bootstrap partition in "
-"DiskDrake"
-msgstr ""
-
-#: steps_interactive.pm:375
+#: steps_interactive.pm:342
 #, c-format
 msgid ""
 "Change your Cd-Rom!\n"
@@ -840,71 +1183,71 @@ msgstr ""
 "Агар у сизда бўлмаса, бу компакт-дискдан ўрнатишни бекор қилиш учун \"Бекор "
 "қилиш\" тугмасини босинг."
 
-#: steps_interactive.pm:393
+#: steps_interactive.pm:360
 #, c-format
 msgid "Looking for available packages..."
 msgstr "Мавжуд бўлган пакетлар қидирилмоқда..."
 
-#: steps_interactive.pm:401
+#: steps_interactive.pm:368
 #, c-format
 msgid ""
 "Your system does not have enough space left for installation or upgrade "
 "(%dMB > %dMB)"
 msgstr "Тизимда ўрнатиш ёки янгилаш учун етарли жой қолмади (%d Мб > %d Мб)"
 
-#: steps_interactive.pm:451
+#: steps_interactive.pm:418
 #, c-format
 msgid ""
 "Please choose load or save package selection.\n"
 "The format is the same as auto_install generated files."
 msgstr ""
 
-#: steps_interactive.pm:453
+#: steps_interactive.pm:420
 #, c-format
 msgid "Load"
 msgstr "Юклаш"
 
-#: steps_interactive.pm:453
+#: steps_interactive.pm:420
 #, c-format
 msgid "Save"
 msgstr "Сақлаш"
 
-#: steps_interactive.pm:461
+#: steps_interactive.pm:428
 #, c-format
 msgid "Bad file"
 msgstr "Нотўғри файл"
 
-#: steps_interactive.pm:478
+#: steps_interactive.pm:445
 #, c-format
 msgid "KDE"
 msgstr "KDE"
 
-#: steps_interactive.pm:479
+#: steps_interactive.pm:446
 #, c-format
 msgid "GNOME"
 msgstr "GNOME"
 
-#: steps_interactive.pm:482
+#: steps_interactive.pm:449
 #, c-format
 msgid "Desktop Selection"
 msgstr "Иш столини танлаш"
 
-#: steps_interactive.pm:483
+#: steps_interactive.pm:450
 #, c-format
 msgid "You can choose your workstation desktop profile."
 msgstr "Қуйидагилардан ўрнатиладиган иш столини танланг"
 
-#: steps_interactive.pm:571
+#: steps_interactive.pm:538
 #, c-format
 msgid "Selected size is larger than available space"
 msgstr "Танланган ҳажм мавжуд бўлган бўш жойдан катта"
 
-#: steps_interactive.pm:595
+#: steps_interactive.pm:562
 #, c-format
 msgid "Type of install"
 msgstr "Ўрнатишнинг тури"
 
-#: steps_interactive.pm:596
+#: steps_interactive.pm:563
 #, c-format
 msgid ""
 "You have not selected any group of packages.\n"
@@ -913,87 +1256,87 @@ msgstr ""
 "Сиз ҳеч қандай пакетлар гуруҳини танламадингиз.\n"
 "Илтимос сиз истаган минимал ўрнатишни танланг:"
 
-#: steps_interactive.pm:601
+#: steps_interactive.pm:568
 #, c-format
 msgid "With X"
 msgstr "X билан"
 
-#: steps_interactive.pm:602
+#: steps_interactive.pm:569
 #, c-format
 msgid "Install suggested packages"
 msgstr "Таклиф қилинган пакетларни ўрнатиш"
 
-#: steps_interactive.pm:603
+#: steps_interactive.pm:570
 #, c-format
 msgid "With basic documentation (recommended!)"
 msgstr "Асосий қўлланмалар билан (тавсия қилинади!)"
 
-#: steps_interactive.pm:604
+#: steps_interactive.pm:571
 #, c-format
 msgid "Truly minimal install (especially no urpmi)"
 msgstr "Ҳақиқий минимал ўрнатиш (хусусан urpmi'сиз)"
 
-#: steps_interactive.pm:660
+#: steps_interactive.pm:627
 #, c-format
 msgid "Preparing installation"
 msgstr "Ўрнатишга тайёрланмоқда"
 
-#: steps_interactive.pm:668
+#: steps_interactive.pm:635
 #, c-format
 msgid "Installing package %s"
 msgstr "%s пакети ўрнатилмоқда"
 
-#: steps_interactive.pm:692
+#: steps_interactive.pm:659
 #, c-format
 msgid "There was an error ordering packages:"
 msgstr "Қуйидаги пакетларни саралашда хато рўй берди:"
 
-#: steps_interactive.pm:692
+#: steps_interactive.pm:659
 #, c-format
 msgid "Go on anyway?"
 msgstr "Бунга қарамасдан давом этишни истайсизми?"
 
-#: steps_interactive.pm:696
+#: steps_interactive.pm:663
 #, c-format
 msgid "Retry"
 msgstr "Қайтадан уриниш"
 
-#: steps_interactive.pm:697
+#: steps_interactive.pm:664
 #, c-format
 msgid "Skip this package"
 msgstr "Бу пакетга эътибор берилмасин"
 
-#: steps_interactive.pm:698
+#: steps_interactive.pm:665
 #, c-format
 msgid "Skip all packages from medium \"%s\""
 msgstr "\"%s\" тўпламидан ҳамма пакетларга эътибор берилмасин"
 
-#: steps_interactive.pm:699
+#: steps_interactive.pm:666
 #, c-format
 msgid "Go back to media and packages selection"
 msgstr "Ўрнатиш манбаларни ва пакетларни танлашга қайтиш"
 
-#: steps_interactive.pm:702
+#: steps_interactive.pm:669
 #, c-format
 msgid "There was an error installing package %s."
 msgstr "Қуйидаги пакетни ўрнатишда хато рўй берди: %s"
 
-#: steps_interactive.pm:721
+#: steps_interactive.pm:688
 #, c-format
 msgid "Post-install configuration"
 msgstr "Ўрнатишдан кейин мослаш"
 
-#: steps_interactive.pm:728
+#: steps_interactive.pm:695
 #, c-format
 msgid "Please ensure the Update Modules media is in drive %s"
 msgstr "%s ичида Update Modules тўплами мавжудлигини текшириб кўринг"
 
-#: steps_interactive.pm:759
+#: steps_interactive.pm:726
 #, c-format
 msgid "Updates"
 msgstr "Янгиланишлар"
 
-#: steps_interactive.pm:760
+#: steps_interactive.pm:727
 #, c-format
 msgid ""
 "You now have the opportunity to download updated packages. These packages\n"
@@ -1016,28 +1359,28 @@ msgstr ""
 "Янгиланишларни ўрнатишни истайсизми?"
 
 #. -PO: example: lilo-graphic on /dev/hda1
-#: steps_interactive.pm:868
+#: steps_interactive.pm:838
 #, c-format
 msgid "%s on %s"
 msgstr "%s %s'да"
 
-#: steps_interactive.pm:900 steps_interactive.pm:907 steps_interactive.pm:920
-#: steps_interactive.pm:937 steps_interactive.pm:952
+#: steps_interactive.pm:873 steps_interactive.pm:880 steps_interactive.pm:893
+#: steps_interactive.pm:910 steps_interactive.pm:925
 #, c-format
 msgid "Hardware"
 msgstr "Асбоб-ускуналар"
 
-#: steps_interactive.pm:921 steps_interactive.pm:938
+#: steps_interactive.pm:894 steps_interactive.pm:911
 #, c-format
 msgid "Sound card"
 msgstr "Товуш карта"
 
-#: steps_interactive.pm:941
+#: steps_interactive.pm:914
 #, c-format
 msgid "Do you have an ISA sound card?"
 msgstr "Сизда ISA товуш картаси борми?"
 
-#: steps_interactive.pm:943
+#: steps_interactive.pm:916
 #, c-format
 msgid ""
 "Run \"alsaconf\" or \"sndconfig\" after installation to configure your sound "
@@ -1046,87 +1389,74 @@ msgstr ""
 "Ўрнатишдан кейин, товуш картангизни мослаш учун, \"sndconfig\" ёки \"alsaconf"
 "\" дастурини ишга туширинг"
 
-#: steps_interactive.pm:945
+#: steps_interactive.pm:918
 #, c-format
 msgid "No sound card detected. Try \"harddrake\" after installation"
 msgstr ""
 "Товуш картаси топилмади. Ўрнатишдан кейин \"harddrake\" дастурини синаб "
 "кўринг."
 
-#: steps_interactive.pm:953
+#: steps_interactive.pm:926
 #, c-format
 msgid "Graphical interface"
 msgstr "График интерфейс"
 
-#: steps_interactive.pm:959 steps_interactive.pm:971
+#: steps_interactive.pm:932 steps_interactive.pm:944
 #, c-format
 msgid "Network & Internet"
 msgstr "Тармоқ ва Интернет"
 
-#: steps_interactive.pm:972
+#: steps_interactive.pm:945
 #, c-format
 msgid "Proxies"
 msgstr "Проксилар"
 
-#: steps_interactive.pm:973
+#: steps_interactive.pm:946
 #, c-format
 msgid "configured"
 msgstr "мосланган"
 
-#: steps_interactive.pm:983
+#: steps_interactive.pm:956
 #, c-format
 msgid "Security Level"
 msgstr "Хавфсизлик даражаси"
 
-#: steps_interactive.pm:1003
+#: steps_interactive.pm:976
 #, c-format
 msgid "Firewall"
 msgstr "Файервол"
 
-#: steps_interactive.pm:1007
+#: steps_interactive.pm:980
 #, c-format
 msgid "activated"
 msgstr "ишлаяпти"
 
-#: steps_interactive.pm:1007
+#: steps_interactive.pm:980
 #, c-format
 msgid "disabled"
 msgstr "ўчирилган"
 
-#: steps_interactive.pm:1021
+#: steps_interactive.pm:994
 #, c-format
 msgid "You have not configured X. Are you sure you really want this?"
 msgstr "Сиз X'ни мосламадингиз. Ростдан буни истайсизми?"
 
-#: steps_interactive.pm:1050
+#: steps_interactive.pm:1023
 #, c-format
 msgid "Preparing bootloader..."
 msgstr "ОТ юклагичи тайёрланмоқда..."
 
-#: steps_interactive.pm:1050
+#: steps_interactive.pm:1023
 #, fuzzy, c-format
 msgid "Preparing initial startup program..."
 msgstr "Ўрнатишга тайёрланмоқда"
 
-#: steps_interactive.pm:1051
+#: steps_interactive.pm:1024
 #, c-format
 msgid "Be patient, this may take a while..."
 msgstr "Кутиб туринг, бу бироз вақт олиши мумкин..."
 
-#: steps_interactive.pm:1062
-#, c-format
-msgid ""
-"You appear to have an OldWorld or Unknown machine, the yaboot bootloader "
-"will not work for you. The install will continue, but you'll need to use "
-"BootX or some other means to boot your machine. The kernel argument for the "
-"root fs is: root=%s"
-msgstr ""
-"Компьютерингиз жуда эски русумга ёки номаълум русмга ўхшайди, шу сабабдан "
-"yaboot тизим юкловчиси ишламайди. Ўрнатиш давом этади аммо тизимни юклаш "
-"учун BootX ёки бошқа усулдан фойдаланишингиз лозим бўлади. Root файл тизими "
-"учун учун кернел аргументи: root=%s"
-
-#: steps_interactive.pm:1075
+#: steps_interactive.pm:1040
 #, c-format
 msgid ""
 "In this security level, access to the files in the Windows partition is "
@@ -1135,17 +1465,17 @@ msgstr ""
 "Ушбу хавфсизлик даража қўлланилганда дискнинг Windows қисмидаги файлларга "
 "фақат администратор мурожаат қилиши мумкин."
 
-#: steps_interactive.pm:1107
+#: steps_interactive.pm:1072
 #, c-format
 msgid "Insert a blank floppy in drive %s"
 msgstr "Бўш дискетни %s ускунасига қўйинг"
 
-#: steps_interactive.pm:1109
+#: steps_interactive.pm:1074
 #, c-format
 msgid "Creating auto install floppy..."
 msgstr "Авто-ўрнатиш дискети яратилмоқда..."
 
-#: steps_interactive.pm:1120
+#: steps_interactive.pm:1085
 #, c-format
 msgid ""
 "Some steps are not completed.\n"
@@ -1156,12 +1486,12 @@ msgstr ""
 "\n"
 "Ростдан чиқишни истайсизми?"
 
-#: steps_interactive.pm:1130
+#: steps_interactive.pm:1095
 #, c-format
 msgid "Congratulations"
 msgstr "Табриклаймиз!"
 
-#: steps_interactive.pm:1133
+#: steps_interactive.pm:1098
 #, c-format
 msgid "Reboot"
 msgstr "Ўчириб-ёқиш"
@@ -1284,11 +1614,113 @@ msgid ""
 "Exit"
 msgstr "Чиқиш"
 
-#~ msgid "Workstation"
+#, fuzzy
+#~ msgid "A lightweight fast graphical environment"
+#~ msgstr ""
+#~ "Фойдаланувчи учун қулай дастурлар ва иш столи восилари мавжуд бўлган "
+#~ "енгил ва тез ишловчи график муҳит"
+
+#, fuzzy
+#~ msgid "Install recommended packages"
+#~ msgstr "Таклиф қилинган пакетларни ўрнатиш"
+
+#, fuzzy
+#~ msgid "LXQT Desktop"
+#~ msgstr "LXDE иш столи"
+
+#~ msgid "Moondrake Wizards"
+#~ msgstr "Moondrake ёрдамчилари"
+
+#, fuzzy
+#~ msgid "Plasma Desktop"
+#~ msgstr "Бошқа иш столи"
+
+#, fuzzy
+#~ msgid ""
+#~ "The Plasma Desktop, the basic graphical environment with a collection of "
+#~ "accompanying tools"
+#~ msgstr "KDE - воситалар тўплами билан бирга асосий график муҳит"
+
+#~ msgid "A full Mandriva Linux desktop, with support"
+#~ msgstr "Тўлиқ Mandriva Linux иш столи, қўллаб-қувватлаш билан"
+
+#~ msgid "A full Moondrake desktop, with support"
+#~ msgstr "Тўлиқ Moondrake иш столи, қўллаб-қувватлаш билан"
+
+#, fuzzy
+#~ msgid "A graphical environment based on GNOME"
+#~ msgstr "График муҳит"
+
+#, fuzzy
+#~ msgid "A lightweight fast graphical environment with a dedicated following"
+#~ msgstr ""
+#~ "Фойдаланувчи учун қулай дастурлар ва иш столи восилари мавжуд бўлган "
+#~ "енгил ва тез ишловчи график муҳит"
+
+#~ msgid "Amusement programs: arcade, boards, strategy, etc"
+#~ msgstr "Овунчоқ дастурлар: аркада, стол ўйинлари, стратегия ва ҳоказо"
+
+#~ msgid "Automated"
+#~ msgstr "Автоматик"
+
+#~ msgid "Bad package"
+#~ msgstr "Ёмон пакет"
+
+#, fuzzy
+#~ msgid "Cinnamon Workstation"
 #~ msgstr "Иш станцияси"
 
-#~ msgid "Office Workstation"
-#~ msgstr "Идора станцияси"
+#~ msgid "Configuring IDE"
+#~ msgstr "IDE'ни мослаш"
+
+#~ msgid "Contacting the mirror to get the list of available packages..."
+#~ msgstr ""
+#~ "Мавжуд бўлган пакетларнинг рўйхатини олиш учун ойна билан алоқа "
+#~ "ўрнатилмоқда..."
+
+#~ msgid "Do you want to use aboot?"
+#~ msgstr "aboot дастуридан фойдаланишни истайсизми?"
+
+#~ msgid "Downloading file %s..."
+#~ msgstr "%s файли ёзиб олинмоқда..."
+
+#~ msgid "Explore Linux easily with Mandriva One"
+#~ msgstr "Mandriva One ёрдамида Linux'ни осонгина кашф этинг"
+
+#~ msgid "Explore Linux easily with Moondrake One"
+#~ msgstr "Moondrake One ёрдамида Linux'ни осонгина кашф этинг"
+
+#~ msgid "Generate auto install floppy"
+#~ msgstr "Авто-ўрнатиш дискетни яратиш"
+
+#~ msgid "IDE"
+#~ msgstr "IDE"
+
+#~ msgid "IceWm Desktop"
+#~ msgstr "IceWm иш столи"
+
+#, fuzzy
+#~ msgid "MATE Workstation"
+#~ msgstr "GNOME станцияси"
+
+#~ msgid "Mandriva Linux Installation %s"
+#~ msgstr "Mandriva Linux ОТни ўрнатиш %s"
+
+#~ msgid "Mandriva Wizards"
+#~ msgstr "Mandriva ёрдамчилари"
+
+#~ msgid "Mandriva: distributions for everybody's needs"
+#~ msgstr "Mandriva: барчага мўлжалланган дистрибутив"
+
+#~ msgid "Moondrake: distributions for everybody's needs"
+#~ msgstr "Moondrake: барчага мўлжалланган дистрибутив"
+
+#~ msgid ""
+#~ "No free space for 1MB bootstrap! Install will continue, but to boot your "
+#~ "system, you'll need to create the bootstrap partition in DiskDrake"
+#~ msgstr ""
+#~ "1Мблик юкловчи дастур учун етарли жой қолмаган! Ўрнатиш давом этади аммо "
+#~ "тизимни юклаш учун DiskDrake'да дастлабки юкловчи яратилиши керак"
 
 #, fuzzy
 #~ msgid ""
@@ -1298,236 +1730,6 @@ msgstr "Чиқиш"
 #~ "Идора учун дастурлар: матн процессорлари (LibreOffice Writer, Kword), "
 #~ "электрон жадваллар (LibreOffice Calc, Kspread), PDF кўрувчилар ва ҳоказо"
 
-#~ msgid "Game station"
-#~ msgstr "Ўйин станцияси"
-
-#, fuzzy
-#~ msgid "Amusement programs: arcade, boards, strategy, etc."
-#~ msgstr "Овунчоқ дастурлар: аркада, стол ўйинлари, стратегия ва ҳоказо"
-
-#~ msgid "Multimedia station"
-#~ msgstr "Мултимедиа станцияси"
-
-#~ msgid "Sound and video playing/editing programs"
-#~ msgstr "Аудио ва видеони ўйнаш/таҳрирлаш учун дастурлар"
-
-#~ msgid "Internet station"
-#~ msgstr "Интернет станцияси"
-
-#~ msgid ""
-#~ "Set of tools to read and send mail and news (mutt, tin..) and to browse "
-#~ "the Web"
-#~ msgstr ""
-#~ "Хат-хабар, янгиликларни ўқиш ва жўнатиш (mutt, tin..) ва Интернетда сайр "
-#~ "қилиш учун воситалар тўплами"
-
-#~ msgid "Network Computer (client)"
-#~ msgstr "Тармоқдаги компьютер (клиент)"
-
-#~ msgid "Clients for different protocols including ssh"
-#~ msgstr "Турли протоколлар, шу жумлада SSH, учун клиентлар"
-
-#~ msgid "Tools to ease the configuration of your computer"
-#~ msgstr "Компьютерни мослашни енгилаштириш учун воситалар"
-
-#~ msgid "Console Tools"
-#~ msgstr "Консол воситалари"
-
-#~ msgid "Editors, shells, file tools, terminals"
-#~ msgstr "Таҳрирчилар, консоллар, файл воситалари, терминаллар"
-
-#~ msgid "Development"
-#~ msgstr "Тузиш"
-
-#~ msgid "C and C++ development libraries, programs and include files"
-#~ msgstr "C ва C++ тузиш кутубхоналари, воситалар ва хедер файллар"
-
-#~ msgid "Documentation"
-#~ msgstr "Қўлланмалар"
-
-#~ msgid "Books and Howto's on Linux and Free Software"
-#~ msgstr "Linux ва эркин дастурлар ҳақида китоблар ва Howto'лар"
-
-#~ msgid "LSB"
-#~ msgstr "LSB"
-
-#~ msgid "Linux Standard Base. Third party applications support"
-#~ msgstr "Linux Standard Base. Учинчи томон дастур тузувчилари қўллануви"
-
-#~ msgid "Web Server"
-#~ msgstr "Веб-сервери"
-
-#~ msgid "Apache"
-#~ msgstr "Apache"
-
-#~ msgid "Groupware"
-#~ msgstr "Groupware"
-
-#~ msgid "Kolab Server"
-#~ msgstr "Kolab сервери"
-
-#~ msgid "Firewall/Router"
-#~ msgstr "Файервол/Рутер"
-
-#~ msgid "Internet gateway"
-#~ msgstr "Интернет гейтвэйи"
-
-#~ msgid "Mail/News"
-#~ msgstr "Хат-хабар/Янгиликлар"
-
-#~ msgid "Postfix mail server, Inn news server"
-#~ msgstr "Postfix хат-хабар сервери, Inn янгиликлар сервери"
-
-#~ msgid "Directory Server"
-#~ msgstr "Директория сервери"
-
-#~ msgid "FTP Server"
-#~ msgstr "FTP сервери"
-
-#~ msgid "ProFTPd"
-#~ msgstr "ProFTPd"
-
-#~ msgid "DNS/NIS"
-#~ msgstr "DNS/NIS"
-
-#~ msgid "Domain Name and Network Information Server"
-#~ msgstr "DNS ва NIS"
-
-#~ msgid "File and Printer Sharing Server"
-#~ msgstr "Файл ва принтерни бўлишиш сервери"
-
-#~ msgid "NFS Server, Samba server"
-#~ msgstr "NFS сервери, Samba сервери"
-
-#~ msgid "Database"
-#~ msgstr "Маълумот базаси"
-
-#~ msgid "PostgreSQL and MySQL Database Server"
-#~ msgstr "PostgreSQL ва MySQL маълумот базаси"
-
-#~ msgid "Web/FTP"
-#~ msgstr "Web/FTP"
-
-#~ msgid "Apache, Pro-ftpd"
-#~ msgstr "Apache, Pro-ftpd"
-
-#~ msgid "Mail"
-#~ msgstr "Хат-хабар"
-
-#~ msgid "Postfix mail server"
-#~ msgstr "Postfix хат-хабар сервери"
-
-#~ msgid "PostgreSQL or MySQL database server"
-#~ msgstr "PostgreSQL ёки MySQL маълумот базаси"
-
-#~ msgid "Network Computer server"
-#~ msgstr "Тармоқдаги компьютер (сервер)"
-
-#~ msgid "NFS server, SMB server, Proxy server, ssh server"
-#~ msgstr "NFS сервери, SMB сервери, Proxy сервери, SSH сервери"
-
-#~ msgid "Graphical Environment"
-#~ msgstr "График муҳит"
-
-#~ msgid "KDE Workstation"
-#~ msgstr "KDE станцияси"
-
-#~ msgid ""
-#~ "The K Desktop Environment, the basic graphical environment with a "
-#~ "collection of accompanying tools"
-#~ msgstr "KDE - воситалар тўплами билан бирга асосий график муҳит"
-
-#~ msgid "GNOME Workstation"
-#~ msgstr "GNOME станцияси"
-
-#~ msgid ""
-#~ "A graphical environment with user-friendly set of applications and "
-#~ "desktop tools"
-#~ msgstr ""
-#~ "Фойдаланувчилар учун қулай дастурлар ва иш столи воситаларидан иборат "
-#~ "график муҳит"
-
-#~ msgid "LXDE Desktop"
-#~ msgstr "LXDE иш столи"
-
-#~ msgid ""
-#~ "A lightweight & fast graphical environment with user-friendly set of "
-#~ "applications and desktop tools"
-#~ msgstr ""
-#~ "Фойдаланувчи учун қулай дастурлар ва иш столи восилари мавжуд бўлган "
-#~ "енгил ва тез ишловчи график муҳит"
-
-#~ msgid "Other Graphical Desktops"
-#~ msgstr "Бошқа график иш столлари"
-
-#~ msgid "Window Maker, Enlightenment, Fvwm, etc"
-#~ msgstr "Window Maker, Enlightenment, Fvwm, ва ҳоказо"
-
-#~ msgid "Utilities"
-#~ msgstr "Воситалар"
-
-#~ msgid "SSH Server"
-#~ msgstr "SSH сервери"
-
-#~ msgid "Webmin"
-#~ msgstr "Webmin"
-
-#~ msgid "Webmin Remote Configuration Server"
-#~ msgstr "Webmin масофадан бошқариш сервери"
-
-#~ msgid "Network Utilities/Monitoring"
-#~ msgstr "Тармоқ воситалари/Назорат қилиш"
-
-#~ msgid "Monitoring tools, processes accounting, tcpdump, nmap, ..."
-#~ msgstr ""
-#~ "Назорат қилиш воситалари, вазифалар ҳисоботчилари, tcpdump, nmap, ..."
-
-#~ msgid "Mandriva Wizards"
-#~ msgstr "Mandriva ёрдамчилари"
-
-#~ msgid "Wizards to configure server"
-#~ msgstr "Серверни мослаш учун ёрдамчилар"
-
-#~ msgid ""
-#~ "Failed contacting OpenMandriva Lx web site to get the list of available "
-#~ "mirrors"
-#~ msgstr ""
-#~ "Мавжуд бўлган ойналарнинг рўйхатини олиш учун OpenMandriva Lx сайти билан "
-#~ "алоқа ўрнатиб бўлмади"
-
-#~ msgid ""
-#~ "_: Keep these entry short\n"
-#~ "License"
-#~ msgstr "Лицензия"
-
-#~ msgid "Your desktop on a USB key"
-#~ msgstr "Сизнинг иш столингиз USB калитда"
-
-#~ msgid "The 100%% open source OpenMandriva Lx distribution"
-#~ msgstr "100%% очиқ кодли OpenMandriva Lx дистрибутиви"
-
-#~ msgid "Explore Linux easily with Mandriva One"
-#~ msgstr "Mandriva One ёрдамида Linux'ни осонгина кашф этинг"
-
-#~ msgid "A full OpenMandriva Lx desktop, with support"
-#~ msgstr "Тўлиқ OpenMandriva Lx иш столи, қўллаб-қувватлаш билан"
-
-#~ msgid "Mandriva: distributions for everybody's needs"
-#~ msgstr "Mandriva: барчага мўлжалланган дистрибутив"
-
-#~ msgid "Bad package"
-#~ msgstr "Ёмон пакет"
-
-#~ msgid ""
-#~ "_: Keep these entry short\n"
-#~ "Networking"
-#~ msgstr "Тармоқ"
-
-#~ msgid ""
-#~ "_: Keep these entry short\n"
-#~ "Updates"
-#~ msgstr "Янгиланишлар"
-
 #~ msgid ""
 #~ "Office programs: wordprocessors (kword, abiword), spreadsheets (kspread, "
 #~ "gnumeric), pdf viewers, etc"
@@ -1535,8 +1737,71 @@ msgstr "Чиқиш"
 #~ "Идора учун дастурлар: матн процессорлари (kword, abiword), электрон "
 #~ "жадваллар (kspread, gnumeric), PDF кўрувчилар ва ҳоказо"
 
-#~ msgid "Downloading file %s..."
-#~ msgstr "%s файли ёзиб олинмоқда..."
+#, fuzzy
+#~ msgid "Office tools"
+#~ msgstr "Идора станцияси"
+
+#~ msgid "PostgreSQL and MySQL Database Server"
+#~ msgstr "PostgreSQL ва MySQL маълумот базаси"
+
+#~ msgid "PostgreSQL or MySQL database server"
+#~ msgstr "PostgreSQL ёки MySQL маълумот базаси"
+
+#, fuzzy
+#~ msgid "Preparing boot images..."
+#~ msgstr "ОТ юклагичи тайёрланмоқда..."
+
+#, fuzzy
+#~ msgid "Preparing upgrade..."
+#~ msgstr "ОТ юклагичи тайёрланмоқда..."
+
+#, fuzzy
+#~ msgid "RazorQT Desktop"
+#~ msgstr "Бошқа иш столи"
+
+#~ msgid "Replay"
+#~ msgstr "Қайтариш"
+
+#~ msgid "Save packages selection"
+#~ msgstr "Пакетлар танловини сақлаш"
+
+#~ msgid "Select All"
+#~ msgstr "Ҳаммасини танлаш"
+
+#~ msgid "The 100%% open source Mandriva Linux distribution"
+#~ msgstr "100%% очиқ кодли Mandriva Linux дистрибутиви"
+
+#~ msgid "The 100%% open source Moondrake distribution"
+#~ msgstr "100%% очиқ кодли Moondrake дистрибутиви"
+
+#, fuzzy
+#~ msgid "This medium provides package updates for medium \"%s\""
+#~ msgstr "\"%s\" тўпламидан ҳамма пакетларга эътибор берилмасин"
+
+#~ msgid "Unable to contact mirror %s"
+#~ msgstr "Ойна (%s)билан алоқа ўрнатиб бўлмади."
+
+#~ msgid "Welcome"
+#~ msgstr "Марҳамат"
+
+#, fuzzy
+#~ msgid "Window Maker, Fvwm, etc"
+#~ msgstr "Window Maker, Enlightenment, Fvwm, ва ҳоказо"
+
+#, fuzzy
+#~ msgid "XFCE Workstation"
+#~ msgstr "KDE станцияси"
+
+#~ msgid ""
+#~ "You appear to have an OldWorld or Unknown machine, the yaboot bootloader "
+#~ "will not work for you. The install will continue, but you'll need to use "
+#~ "BootX or some other means to boot your machine. The kernel argument for "
+#~ "the root fs is: root=%s"
+#~ msgstr ""
+#~ "Компьютерингиз жуда эски русумга ёки номаълум русмга ўхшайди, шу сабабдан "
+#~ "yaboot тизим юкловчиси ишламайди. Ўрнатиш давом этади аммо тизимни юклаш "
+#~ "учун BootX ёки бошқа усулдан фойдаланишингиз лозим бўлади. Root файл "
+#~ "тизими учун учун кернел аргументи: root=%s"
 
 #~ msgid ""
 #~ "You have selected the following server(s): %s\n"
@@ -1562,28 +1827,20 @@ msgstr "Чиқиш"
 #~ "\n"
 #~ "Бу сервер дастурларни ростдан ҳам ўрнатишни истайсизми?\n"
 
-#~ msgid "IceWm Desktop"
-#~ msgstr "IceWm иш столи"
+#~ msgid "Your desktop on a USB key"
+#~ msgstr "Сизнинг иш столингиз USB калитда"
 
-#~ msgid "Contacting the mirror to get the list of available packages..."
-#~ msgstr ""
-#~ "Мавжуд бўлган пакетларнинг рўйхатини олиш учун ойна билан алоқа "
-#~ "ўрнатилмоқда..."
+#~ msgid ""
+#~ "_: Keep these entry short\n"
+#~ "License"
+#~ msgstr "Лицензия"
 
-#~ msgid "Unable to contact mirror %s"
-#~ msgstr "Ойна (%s)билан алоқа ўрнатиб бўлмади."
+#~ msgid ""
+#~ "_: Keep these entry short\n"
+#~ "Networking"
+#~ msgstr "Тармоқ"
 
-#~ msgid "Generate auto install floppy"
-#~ msgstr "Авто-ўрнатиш дискетни яратиш"
-
-#~ msgid "Replay"
-#~ msgstr "Қайтариш"
-
-#~ msgid "Automated"
-#~ msgstr "Автоматик"
-
-#~ msgid "Save packages selection"
-#~ msgstr "Пакетлар танловини сақлаш"
-
-#~ msgid "Do you want to use aboot?"
-#~ msgstr "aboot дастуридан фойдаланишни истайсизми?"
+#~ msgid ""
+#~ "_: Keep these entry short\n"
+#~ "Updates"
+#~ msgstr "Янгиланишлар"

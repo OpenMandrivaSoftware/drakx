@@ -1,4 +1,4 @@
-package resize_fat::fat; # $Id$
+package resize_fat::fat;
 
 use resize_fat::any;
 use resize_fat::io;

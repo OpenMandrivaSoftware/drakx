@@ -1,3 +1,4 @@
+CAT_MEDIA_CENTER 3
 CAT_NETWORKING_NEWS_SERVER 3
 CAT_NETWORKING_OTHER 3
 CAT_NETWORKING_OTHER_SERVER 3
@@ -34,7 +35,6 @@ INSTALL 1
 CAT_LSB 3
 CAT_LXDE 1
 CAT_GRAPHICAL_DESKTOP 4
-CAT_GNOME 1
 CAT_KDE 1
 CAT_XFCE 1
 CAT_VIDEO 3
@@ -67,8 +67,8 @@ CAT_NETWORKING_NEWS 3
 # all task- packages
 #task-c-devel
 #task-c++-devel
-task-gnome-2010.1
-task-gnome-minimal-2010.1
+#task-gnome-2010.1
+#task-gnome-minimal-2010.1
 task-kde4
 #task-kde4-devel
 task-kde4-minimal
@@ -119,4 +119,4 @@ vpnclient
 vpnc
 openvpn
 openvpn-admin
-dhcp-client
+dhcp-client-daemon

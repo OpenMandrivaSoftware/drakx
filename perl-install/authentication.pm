@@ -1,4 +1,4 @@
-package authentication; # $Id$
+package authentication;
 
 use common;
 
@@ -52,7 +52,7 @@ my $lib = (arch() =~ /x86_64/ ? 'lib64' : 'lib');
 my %kind2packages = (
     local     => [],
     SmartCard => [ 'castella-pam' ],
-    LDAP      => [ 'openldap-clients', 'nss-pam-ldapd', 'pam_ldap', 'autofs', 'nss_updatedb' ],
+    LDAP      => [ 'openldap-clients', 'nss-pam-ldapd', 'autofs', 'nss_updatedb' ],
     KRB5       => [ 'nss-pam-ldapd', 'pam_krb5', "${lib}sasl2-plug-gssapi", 'nss_updatedb' ],
     NIS       => [ 'ypbind', 'autofs' ],
     winbind   => [ 'samba-winbind', 'nss-pam-ldapd', 'pam_krb5', "${lib}sasl2-plug-gssapi" ],
@@ -268,10 +268,11 @@ sub check_given_password {
 }
 
 sub get() {
-    my $system_auth = cat_("/etc/pam.d/system-auth");
+    my $system_auth = cat_("$::prefix/etc/pam.d/system-auth");
     my $authentication = {
 	blowfish => to_bool($system_auth =~ /\$2a\$/),
 	md5      => to_bool($system_auth =~ /md5/), 
+	sha512	 => to_bool($system_auth =~ /sha512/),
 	shadow   => to_bool($system_auth =~ /shadow/),
     };
 
@@ -649,7 +650,7 @@ sub read_ldap_conf() {
     my %conf = map { 
 	s/^\s*#.*//; 
 	if_(_after_read_ldap_line($_) =~ /(\S+)\s+(.*)/, $1 => $2);
-    } cat_("$::prefix/etc/ldap.conf");
+    } cat_("$::prefix/etc/nslcd.conf");
     \%conf;
 }
 
@@ -669,7 +670,7 @@ sub update_ldap_conf {
 		$_ .= _pre_write_ldap_line("$cmd $val\n");
 	    }
 	}
-    } "$::prefix/etc/ldap.conf";
+    } "$::prefix/etc/nslcd.conf";
 }
 
 sub configure_krb5_for_AD {
@@ -811,7 +812,8 @@ sub user_crypted_passwd {
 	utf8::encode($u->{password}); #- we don't want perl to do "smart" things in crypt()
 
 	crypt($u->{password}, 
-	      !$authentication || $authentication->{blowfish} ? '$2a$08$' . salt(60) :
+	      !$authentication || $authentication->{sha512} ? '$6$' . salt(88) :
+	      $authentication->{blowfish} ? '$2a$08$' . salt(60) :
 	      $authentication->{md5} ? '$1$' . salt(8) : salt(2));
     } else {
 	$u->{pw} || '';
@@ -821,38 +823,22 @@ sub user_crypted_passwd {
 sub set_root_passwd {
     my ($superuser, $authentication) = @_;
     $superuser->{name} = 'root';
-    write_passwd_user($superuser, $authentication);    
+    modify_user($superuser, $authentication);
     delete $superuser->{name};
 }
 
-sub write_passwd_user {
+sub modify_user {
     my ($u, $authentication) = @_;
 
-    $u->{pw} = user_crypted_passwd($u, $authentication);
-    $u->{shell} ||= '/bin/bash';
-
-    substInFile {
-	my $l = unpack_passwd($_);
-	if ($l->{name} eq $u->{name}) {
-	    add2hash_($u, $l);
-	    $_ = pack_passwd($u);
-	    $u = {};
-	}
-	if (eof && $u->{name}) {
-	    $_ .= pack_passwd($u);
-	}
-    } "$::prefix/etc/passwd";
-}
-
-my @etc_pass_fields = qw(name pw uid gid realname home shell);
-sub unpack_passwd {
-    my ($l) = @_;
-    my %l; @l{@etc_pass_fields} = split ':', chomp_($l);
-    \%l;
-}
-sub pack_passwd {
-    my ($l) = @_;
-    join(':', @$l{@etc_pass_fields}) . "\n";
+    run_program::raw({ root => $::prefix, sensitive_arguments => 1 },
+			    'usermod',
+			    '-p', user_crypted_passwd($u, $authentication),
+			    if_($uid, '-u', $uid), if_($gid, '-g', $gid),
+			    if_($u->{realname}, '-c', $u->{realname}),
+			    if_($u->{home}, '-d', $u->{home}),
+			    if_($u->{shell}, '-s', $u->{shell}),
+			    $u->{name}
+		    );
 }
 
 sub add_cafile() {
@@ -897,23 +883,25 @@ sub fetch_dn {
 sub configure_nss_ldap {
 	my ($authentication) = @_;
 	update_ldap_conf(
-                         host => $authentication->{LDAP_server},
+			 uri => $authentication->{cafile} eq '1' ? "ldaps://" . $authentication->{LDAP_server} . "/" : "ldap://" . $authentication->{LDAP_server} . "/",
                          base => $authentication->{LDAPDOMAIN},
                         );
 
         if ($authentication->{nssgrp} eq '1') {
 
         update_ldap_conf(
-                         nss_base_shadow => $authentication->{nss_shadow} . "?sub",
-                         nss_base_passwd => $authentication->{nss_pwd} . "?sub",
-                         nss_base_group => $authentication->{nss_grp} . "?sub",
+                         'base shadow' => $authentication->{nss_shadow},
+                         'base passwd' => $authentication->{nss_pwd},
+                         'base group' => $authentication->{nss_grp},
+			 scope => "sub",
                         );
         } else {
 
         update_ldap_conf(
-                         nss_base_shadow => $authentication->{LDAPDOMAIN} . "?sub",
-                         nss_base_passwd => $authentication->{LDAPDOMAIN} . "?sub",
-                         nss_base_group => $authentication->{LDAPDOMAIN}  . "?sub",
+                         'base shadow' => $authentication->{LDAPDOMAIN},
+                         'base passwd' => $authentication->{LDAPDOMAIN},
+                         'base group' => $authentication->{LDAPDOMAIN},
+			 scope => "sub",
                         );
                 }
         if ($authentication->{anonymous} eq '1') {
@@ -926,7 +914,7 @@ sub configure_nss_ldap {
         if ($authentication->{cafile} eq '1') {
                  update_ldap_conf(
                  ssl => "on",
-                 tls_checkpeer => "yes",
+                 tls_reqcert => "allow",
                  tls_cacertfile => $authentication->{file},
                 );
         }

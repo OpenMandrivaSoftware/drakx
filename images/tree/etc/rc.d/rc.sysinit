@@ -7,10 +7,9 @@ action "Setting hostname stage1" hostname stage1
 
 mount /dev
 mkdir /dev/pts /dev/shm
-mount /proc
 mount -a
 
-echo -e "\t\t\tWelcome to \\033[1;36mOpenMandriva Lx\\033[0;39m"
+cat /usr/share/moondrake.logo
 
 # disabled for now..
 #echo "/sbin/mdev" > /proc/sys/kernel/hotplug
@@ -23,6 +22,13 @@ export UDEVRULESD=/run/udev/rules.d
 /lib/systemd/systemd-udevd --daemon --resolve-names=never
 udevadm trigger --type=subsystems --action=add
 udevadm trigger --type=devices --action=add
+
+grep -q noauto /proc/cmdline || drvinst SERIAL_USB
+
+if grep -q vconsole.keymap /proc/cmdline; then
+	keymap=$(sed -e 's#.*vconsole.keymap=\(.*\)\ .*#\1#g')
+	action "Loading keymap: $keymap" loadkeys $keymap
+fi
 
 /etc/rc.d/init.d/gpm start
 

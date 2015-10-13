@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DrakX\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-22 00:53+0100\n"
+"POT-Creation-Date: 2015-02-18 12:28+0100\n"
 "PO-Revision-Date: 2006-09-05 19:54+0200\n"
 "Last-Translator: Pablo Saratxaga <pablo@walon.org>\n"
 "Language-Team: Walloon <linux-wa@walon.org>\n"
@@ -20,73 +20,73 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: KBabel 1.9.1\n"
 
-#: display_help:54 display_help:59 drakbug:170 drakperm:134
+#: display_help:53 display_help:58 drakbug:173 drakperm:134
 #, c-format
 msgid "Help"
 msgstr "Aidance"
 
-#: display_help:67 drakbug:175 drakfont:505
+#: display_help:66 drakbug:178 drakfont:507
 #, c-format
 msgid "Close"
 msgstr "Clôre"
 
-#: drakauth:24 drakauth:26 draksec:162
+#: drakauth:24 drakauth:26 draksec:184
 #, c-format
 msgid "Authentication"
 msgstr "Otintifiaedje"
 
-#: drakauth:37 drakclock:113 drakclock:138 drakdvb:74 drakfont:211
-#: drakfont:224 drakfont:262 finish-install:131 logdrake:174 logdrake:449
-#: logdrake:454 scannerdrake:56 scannerdrake:98 scannerdrake:139
+#: drakauth:37 drakclock:117 drakclock:142 drakdvb:74 drakfont:213
+#: drakfont:226 drakfont:264 finish-install:133 logdrake:177 logdrake:453
+#: logdrake:458 scannerdrake:56 scannerdrake:98 scannerdrake:139
 #: scannerdrake:197 scannerdrake:256 scannerdrake:726 scannerdrake:737
 #: scannerdrake:876 scannerdrake:887 scannerdrake:957
 #, c-format
 msgid "Error"
 msgstr "Aroke"
 
-#: drakboot:53
+#: drakboot:54
 #, c-format
 msgid "No bootloader found, creating a new configuration"
 msgstr "Nole enondrece di trvêye, askepiant on novea apontiaedje"
 
-#: drakboot:86 harddrake2:195 harddrake2:196 logdrake:75
+#: drakboot:89 harddrake2:191 logdrake:77
 #, c-format
-msgid "/_File"
-msgstr "/_Fitchî"
+msgid "_File"
+msgstr "_Fitchî"
 
-#: drakboot:87 logdrake:81
+#: drakboot:90 harddrake2:192 logdrake:78 logdrake:79
 #, c-format
-msgid "/File/_Quit"
-msgstr "/Fitchî/Moussî _foû"
+msgid "_Quit"
+msgstr "Moussî _foû"
 
-#: drakboot:87 harddrake2:196 logdrake:81
+#: drakboot:90 harddrake2:192 logdrake:79
 #, c-format
 msgid "<control>Q"
 msgstr "<control>Q"
 
-#: drakboot:127
+#: drakboot:138
 #, c-format
 msgid "Text only"
 msgstr "Seulmint tecse"
 
-#: drakboot:128
+#: drakboot:139
 #, c-format
 msgid "Verbose"
 msgstr "Badjawe"
 
-#: drakboot:129
+#: drakboot:140
 #, c-format
 msgid "Silent"
 msgstr "Sins nou brut"
 
-#: drakboot:135 drakbug:247 drakdvb:57 drakfont:681 drakperm:374 drakperm:384
-#: drakups:26 harddrake2:528 localedrake:45 scannerdrake:48 scannerdrake:51
+#: drakboot:146 drakbug:250 drakdvb:57 drakfont:682 drakperm:371 drakperm:381
+#: drakups:27 harddrake2:504 localedrake:45 scannerdrake:48 scannerdrake:51
 #: scannerdrake:294 scannerdrake:299 scannerdrake:951
 #, c-format
 msgid "Warning"
 msgstr "Adviertixhmint"
 
-#: drakboot:136
+#: drakboot:147
 #, c-format
 msgid ""
 "Your system bootloader is not in framebuffer mode. To activate graphical "
@@ -96,72 +96,72 @@ msgstr ""
 "alaedje l' enondaedje grafike, tchoezixhoz on môde videyo grafike avou "
 "l' usteye d' apontiaedje di l' enondrece."
 
-#: drakboot:137
+#: drakboot:148
 #, c-format
 msgid "Do you want to configure it now?"
 msgstr "El voloz vs apontyî do côp?"
 
-#: drakboot:146
+#: drakboot:157
 #, c-format
 msgid "Install themes"
 msgstr "Astaler tinmes"
 
-#: drakboot:148
+#: drakboot:159
 #, c-format
 msgid "Graphical boot theme selection"
 msgstr "Tchuze do tinme grafike po l' enondaedje"
 
-#: drakboot:151
+#: drakboot:162
 #, c-format
 msgid "Graphical boot mode:"
 msgstr "Môde d' enondaedje grafike:"
 
-#: drakboot:153
+#: drakboot:164
 #, c-format
 msgid "Theme"
 msgstr "Tinme"
 
-#: drakboot:187
+#: drakboot:198
 #, c-format
 msgid "Default user"
 msgstr "Prémetowe uzeu"
 
-#: drakboot:188
+#: drakboot:199
 #, c-format
 msgid "Default desktop"
 msgstr "Prémetou scribanne"
 
-#: drakboot:191
+#: drakboot:202
 #, c-format
 msgid "No, I do not want autologin"
 msgstr "Neni, dji n' vou nén di l' elodjaedje otomatike"
 
-#: drakboot:192
+#: drakboot:203
 #, c-format
 msgid "Yes, I want autologin with this (user, desktop)"
 msgstr "Oyi, dji vou l' elodjaedje otomatike po ci (uzeu, scribanne) chal"
 
-#: drakboot:199
+#: drakboot:210
 #, c-format
 msgid "System mode"
 msgstr "Môde do sistinme"
 
-#: drakboot:202
+#: drakboot:213
 #, c-format
 msgid "Launch the graphical environment when your system starts"
 msgstr "Enonder li sistinme X-Window a l' enonda di l' éndjole"
 
-#: drakboot:257
+#: drakboot:268
 #, c-format
 msgid "Boot Style Configuration"
 msgstr "Apontiaedje del sôre d' enondaedje"
 
-#: drakboot:259 drakboot:263
+#: drakboot:270 drakboot:274
 #, c-format
 msgid "Video mode"
 msgstr "Môde videyo"
 
-#: drakboot:260
+#: drakboot:271
 #, c-format
 msgid ""
 "Please choose a video mode, it will be applied to each of the boot entries "
@@ -177,15 +177,15 @@ msgstr ""
 msgid "The \"%s\" program has crashed with the following error:"
 msgstr ""
 
-#: drakbug:60
+#: drakbug:62
 #, fuzzy, c-format
-msgid "OpenMandriva Lx Bug Reporting"
-msgstr "Usteye di rapoirtaedje di bugs di OpenMandriva Lx"
+msgid "DrakX Bug Report Tool"
+msgstr "Usteye di rapoirtaedje di bugs di Moondrake"
 
-#: drakbug:65
-#, c-format
-msgid "OpenMandriva Lx Control Center"
-msgstr "Cinte di contrôle di OpenMandriva Lx"
+#: drakbug:67
+#, fuzzy, c-format
+msgid "DrakX Linux Control Center"
+msgstr "Cinte di contrôle di Mandriva Linux"
 
 #: drakbug:66
 #, c-format
@@ -202,10 +202,15 @@ msgstr "Usteye di sincronijhaedje"
 msgid "Standalone Tools"
 msgstr "Mierseulès usteyes"
 
-#: drakbug:70 drakbug:71
+#: drakbug:72 drakbug:73
 #, fuzzy, c-format
-msgid "OpenMandriva Online"
-msgstr "Mandriva Online (Mandriva so fyis)"
+msgid "%s Online"
+msgstr "Moondrake Online (Mandriva so fyis)"
+
+#: drakbug:72 drakbug:73 drakbug:99 draksec:169
+#, fuzzy, c-format
+msgid "DrakX"
+msgstr "DrakUPS"
 
 #: drakbug:72
 #, c-format
@@ -227,10 +232,10 @@ msgstr "Usteye po-z ebaguer di Windows"
 msgid "Configuration Wizards"
 msgstr "Macreas d' apontiaedje"
 
-#: drakbug:97
+#: drakbug:99
 #, fuzzy, c-format
-msgid "Select Tool:"
-msgstr "Tchoezixhoz l' usteye da Mandriva:"
+msgid "Select %s Tool:"
+msgstr "Tchoezixhoz l' usteye da Moondrake:"
 
 #: drakbug:98
 #, c-format
@@ -337,27 +342,27 @@ msgstr ""
 msgid "Thanks."
 msgstr ""
 
-#: drakclock:28 draksec:168
+#: drakclock:29 draksec:190
 #, c-format
 msgid "Date, Clock & Time Zone Settings"
 msgstr "Apontiaedjes del date, di l' eure eyet del coisse d' eureye"
 
-#: drakclock:37
+#: drakclock:38
 #, c-format
 msgid "not defined"
 msgstr "nén defini"
 
-#: drakclock:39
+#: drakclock:40
 #, c-format
 msgid "Change Time Zone"
 msgstr "Candjî l' coisse d' eureye"
 
-#: drakclock:44
+#: drakclock:45
 #, c-format
 msgid "Timezone - DrakClock"
 msgstr "Coisse d' eureye - DrakClock"
 
-#: drakclock:44
+#: drakclock:45
 #, c-format
 msgid "Which is your timezone?"
 msgstr "Dins kéne coisse d' eureye vikez?"
@@ -372,12 +377,12 @@ msgstr "Tins univiersel (UTC) - DrakClock"
 msgid "Is your hardware clock set to GMT?"
 msgstr "L' ôrlodje di l' éndjolreye est ele metowe e tins universel (GMT)?"
 
-#: drakclock:72
+#: drakclock:75
 #, c-format
 msgid "Network Time Protocol"
 msgstr "Protocole d' ôrlodje pa rantoele"
 
-#: drakclock:74
+#: drakclock:77
 #, c-format
 msgid ""
 "Your computer can synchronize its clock\n"
@@ -387,42 +392,42 @@ msgstr ""
 "avou on sierveu d' eure å lon avou l' protocole\n"
 "d' ôrlodje pa rantoele NTP"
 
-#: drakclock:75
+#: drakclock:78
 #, c-format
 msgid "Enable Network Time Protocol"
 msgstr "Mete ene alaedje li protocole d' ôrlodje rantoele"
 
-#: drakclock:83
+#: drakclock:86
 #, c-format
 msgid "Server:"
 msgstr "Sierveu:"
 
-#: drakclock:97
+#: drakclock:100
 #, c-format
 msgid "Timezone"
 msgstr "Coisse d' eureye"
 
-#: drakclock:113
+#: drakclock:117
 #, c-format
 msgid "Please enter a valid NTP server address."
 msgstr "Dinez ene adresse di sierveu NTP valide s' i vs plait."
 
-#: drakclock:139
+#: drakclock:143
 #, c-format
 msgid "Could not synchronize with %s."
 msgstr "Dji n' sai sincronijhî avou %s."
 
-#: drakclock:140 drakdvb:149 logdrake:179 scannerdrake:488
+#: drakclock:144 drakdvb:149 logdrake:182 scannerdrake:488
 #, c-format
 msgid "Quit"
 msgstr "Cwiter"
 
-#: drakclock:141
+#: drakclock:145
 #, c-format
 msgid "Retry"
 msgstr "Rissayî"
 
-#: drakclock:166 drakclock:176
+#: drakclock:168 drakclock:178
 #, c-format
 msgid "Reset"
 msgstr "Rimete"
@@ -447,10 +452,10 @@ msgstr ""
 msgid "Could not get the list of available channels"
 msgstr ""
 
-#: drakdvb:80 draksec:67 drakups:98 finish-install:106 harddrake2:374
+#: drakdvb:80 draksec:69 drakups:99 finish-install:106 harddrake2:358
 #: scannerdrake:63 scannerdrake:67 scannerdrake:75 scannerdrake:316
 #: scannerdrake:365 scannerdrake:501 scannerdrake:505 scannerdrake:527
-#: service_harddrake:423
+#: service_harddrake:426
 #, c-format
 msgid "Please wait"
 msgstr "Tårdjîz on pô, s' i vs plait"
@@ -460,7 +465,7 @@ msgstr "Tårdjîz on pô, s' i vs plait"
 msgid "Detecting DVB channels, this will take a few minutes"
 msgstr ""
 
-#: drakdvb:85 drakfont:571 drakfont:651 drakfont:735 drakups:216 logdrake:179
+#: drakdvb:85 drakfont:571 drakfont:651 drakfont:736 drakups:217 logdrake:182
 #, c-format
 msgid "Cancel"
 msgstr "Rinoncî"
@@ -492,20 +497,25 @@ msgstr "GDM (manaedjeu di håynaedje Gnome)"
 
 #: drakedm:43
 #, fuzzy, c-format
+msgid "LIGHTDM (LightDM Display Manager)"
+msgstr "GDM (manaedjeu di håynaedje Gnome)"
+
+#: drakedm:44
+#, fuzzy, c-format
 msgid "SLIM (Simple Display Manager)"
 msgstr "XDM (manaedjeu di håynaedje X11)"
 
-#: drakedm:44
+#: drakedm:45
 #, c-format
 msgid "XDM (X Display Manager)"
 msgstr "XDM (manaedjeu di håynaedje X11)"
 
-#: drakedm:55
+#: drakedm:56
 #, c-format
 msgid "Choosing a display manager"
 msgstr "Tchoezixhant on manaedjeu di håynaedje"
 
-#: drakedm:56
+#: drakedm:57
 #, c-format
 msgid ""
 "X11 Display Manager allows you to graphically log\n"
@@ -517,13 +527,13 @@ msgstr ""
 "eyet do sopoirt po-z aveur sacwantès sessions grafikes e minme tins sol\n"
 "minme éndjole locåle."
 
-#: drakedm:79
+#: drakedm:80
 #, c-format
 msgid "The change is done, do you want to restart the dm service?"
 msgstr ""
 "Li candjmint a stî fwait, voloz renonder li siervice manaedjeu di håynaedje?"
 
-#: drakedm:80
+#: drakedm:81
 #, c-format
 msgid ""
 "You are going to close all running programs and lose your current session. "
@@ -649,7 +659,7 @@ msgstr "Astalaedje di fontes"
 msgid "DrakFont"
 msgstr "DrakFont"
 
-#: drakfont:489 drakfont:641
+#: drakfont:491 drakfont:641
 #, c-format
 msgid "Font List"
 msgstr "Djivêye des fontes"
@@ -666,12 +676,12 @@ msgstr ""
 msgid "About"
 msgstr "Åd fwait"
 
-#: drakfont:499 drakfont:540
+#: drakfont:501 drakfont:540
 #, c-format
 msgid "Options"
 msgstr "Tchuzes"
 
-#: drakfont:500 drakfont:720
+#: drakfont:502 drakfont:721
 #, c-format
 msgid "Uninstall"
 msgstr "Dizastaler"
@@ -686,9 +696,9 @@ msgstr "Astaler"
 msgid "Drakfont"
 msgstr "Drakfont"
 
-#: drakfont:521 harddrake2:229
-#, fuzzy, c-format
-msgid "Copyright (C) %s by OpenMandriva"
+#: drakfont:523
+#, c-format
+msgid "Copyright (C) %s by Mandriva"
 msgstr "Copyright © %s pa Mandriva"
 
 #: drakfont:523
@@ -696,14 +706,14 @@ msgstr "Copyright © %s pa Mandriva"
 msgid "Font installer."
 msgstr "Astaleu d' fontes."
 
-#: drakfont:525 logdrake:55
-#, c-format
-msgid "OpenMandriva Lx"
-msgstr "OpenMandriva Lx"
+#: drakfont:527
+#, fuzzy, c-format
+msgid "Moondrake GNU/Linux"
+msgstr "Mandriva Linux"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
-#: drakfont:532 harddrake2:238
+#: drakfont:532 harddrake2:531
 #, c-format
 msgid "_: Translator(s) name(s) & email(s)\n"
 msgstr "Pablo Saratxaga <pablo@mandriva.com>\n"
@@ -733,7 +743,7 @@ msgstr "Abiword"
 msgid "Generic Printers"
 msgstr "Sicrireces djenerikes"
 
-#: drakfont:561 drakfont:571 drakups:209
+#: drakfont:561 drakfont:571 drakups:210
 #, c-format
 msgid "Ok"
 msgstr "'l est bon"
@@ -755,17 +765,17 @@ msgstr "Tchoezi les fitchîs"
 msgid "Fonts"
 msgstr "Fontes"
 
-#: drakfont:639 draksec:164
+#: drakfont:639 draksec:186
 #, c-format
 msgid "Import fonts"
 msgstr "Abaguer les fontes"
 
-#: drakfont:645 drakups:298 drakups:374
+#: drakfont:645 drakups:299 drakups:375
 #, c-format
 msgid "Add"
 msgstr "Radjouter"
 
-#: drakfont:646 drakfont:734 drakups:300 drakups:376
+#: drakfont:646 drakfont:735 drakups:301 drakups:377
 #, c-format
 msgid "Remove"
 msgstr "Oister"
@@ -775,67 +785,67 @@ msgstr "Oister"
 msgid "Install"
 msgstr "Astaler"
 
-#: drakfont:683
+#: drakfont:684
 #, c-format
 msgid "Are you sure you want to uninstall the following fonts?"
 msgstr "Estoz vs seur ki vos vloz disastaler les fontes ki shuvèt?"
 
-#: drakfont:687 draksec:57 harddrake2:319
+#: drakfont:688 draksec:59 harddrake2:302
 #, c-format
 msgid "Yes"
 msgstr "Oyi"
 
-#: drakfont:689 draksec:56 harddrake2:320
+#: drakfont:690 draksec:58 harddrake2:303
 #, c-format
 msgid "No"
 msgstr "Neni"
 
-#: drakfont:728
+#: drakfont:729
 #, c-format
 msgid "Unselect All"
 msgstr "Distchoezi tot"
 
-#: drakfont:731
+#: drakfont:732
 #, c-format
 msgid "Select All"
 msgstr "Tchoezi tot"
 
-#: drakfont:748
+#: drakfont:749
 #, c-format
 msgid "Importing fonts"
 msgstr "Abagaedje des fontes"
 
-#: drakfont:752 drakfont:772
+#: drakfont:753 drakfont:773
 #, c-format
 msgid "Initial tests"
 msgstr "Sayes po cmincî"
 
-#: drakfont:753
+#: drakfont:754
 #, c-format
 msgid "Copy fonts on your system"
 msgstr "Copyî les fontes so vosse sistinme"
 
-#: drakfont:754
+#: drakfont:755
 #, c-format
 msgid "Install & convert Fonts"
 msgstr "Astaler & covierti les fontes"
 
-#: drakfont:755
+#: drakfont:756
 #, c-format
 msgid "Post Install"
 msgstr "Post-astalaedje"
 
-#: drakfont:767
+#: drakfont:768
 #, fuzzy, c-format
 msgid "Removing fonts"
 msgstr "Abagaedje des fontes"
 
-#: drakfont:773
+#: drakfont:774
 #, c-format
 msgid "Remove fonts on your system"
 msgstr "Oister les fontes foû di vosse sistinme"
 
-#: drakfont:774
+#: drakfont:775
 #, c-format
 msgid "Post Uninstall"
 msgstr "Post-disastalaedje"
@@ -914,22 +924,22 @@ msgstr "Permissions di såvrité"
 msgid "Editable"
 msgstr "Candjåve"
 
-#: drakperm:48 drakperm:318
+#: drakperm:50 drakperm:318
 #, c-format
 msgid "Path"
 msgstr "Tchimin"
 
-#: drakperm:48 drakperm:247
+#: drakperm:50 drakperm:247
 #, c-format
 msgid "User"
 msgstr "Uzeu"
 
-#: drakperm:48 drakperm:247
+#: drakperm:50 drakperm:247
 #, c-format
 msgid "Group"
 msgstr "Groupe"
 
-#: drakperm:48 drakperm:107 drakperm:330 draksec:179
+#: drakperm:50 drakperm:107 drakperm:330 draksec:201
 #, c-format
 msgid "Permissions"
 msgstr "Permissions"
@@ -939,7 +949,7 @@ msgstr "Permissions"
 msgid "Add a new rule"
 msgstr "Radjouter ene novele rîle"
 
-#: drakperm:65 drakperm:100 drakperm:126
+#: drakperm:67 drakperm:102 drakperm:126
 #, c-format
 msgid "Edit current rule"
 msgstr "Candjî l' rîle do moumint"
@@ -949,7 +959,7 @@ msgstr "Candjî l' rîle do moumint"
 msgid ""
 "Here you can see files to use in order to fix permissions, owners, and "
 "groups via msec.\n"
-"You can also edit your own rules which will owerwrite the default rules."
+"You can also edit your own rules which will overwrite the default rules."
 msgstr ""
 "Chal vos ploz vey les fitchîs a-z eployî po coridjî les permissions, "
 "prôpietaires, et groupes avou msec.\n"
@@ -1004,7 +1014,7 @@ msgstr "Disfacer"
 msgid "Delete selected rule"
 msgstr "Disfacer li tchoezeye rîle"
 
-#: drakperm:126 drakups:299 drakups:375
+#: drakperm:126 drakups:300 drakups:376
 #, c-format
 msgid "Edit"
 msgstr "Candjî"
@@ -1131,7 +1141,7 @@ msgstr "Tchoezixhaedje do tchmin"
 msgid "Property"
 msgstr "Prôpietés"
 
-#: drakperm:374
+#: drakperm:371
 #, c-format
 msgid ""
 "The first character of the path must be a slash (\"/\"):\n"
@@ -1140,17 +1150,17 @@ msgstr ""
 "Li prumî caracter do tchimin doet esse on slache («/»):\n"
 "«%s»"
 
-#: drakperm:384
+#: drakperm:381
 #, c-format
 msgid "Both the username and the group must valid!"
 msgstr "Li no d' uzeu eyet l' groupe divèt esse valides ambedeus!"
 
-#: drakperm:385
+#: drakperm:382
 #, c-format
 msgid "User: %s"
 msgstr "Uzeu: %s"
 
-#: drakperm:386
+#: drakperm:383
 #, c-format
 msgid "Group: %s"
 msgstr "Groupe: %s"
@@ -1170,7 +1180,7 @@ msgstr "LOCÅ"
 msgid "NONE"
 msgstr "NOUK"
 
-#: draksec:54
+#: draksec:56 draksec:113
 #, c-format
 msgid "Default"
 msgstr "Prémetou"
@@ -1187,145 +1197,145 @@ msgstr "Livea di såvrité eyet verifiaedjes"
 
 #: draksec:108
 #, c-format
-msgid "Configure access to OpenMandriva Lx administrative tools"
+msgid "Configure authentication required to access DrakX tools"
 msgstr ""
 
-#: draksec:111
+#: draksec:114
 #, c-format
 msgid "No password needed"
 msgstr "Nou scret"
 
-#: draksec:112
+#: draksec:115
 #, c-format
-msgid "Root password required"
+msgid "Administrator password"
 msgstr ""
 
-#: draksec:113
+#: draksec:116
 #, c-format
 msgid "User password required"
 msgstr ""
 
-#: draksec:146 draksec:202
+#: draksec:168 draksec:223
 #, c-format
 msgid "Software Management"
 msgstr "Manaedjeu di programes"
 
-#: draksec:147
+#: draksec:169
 #, fuzzy, c-format
-msgid "Online Update"
-msgstr "Mandriva Online (Mandriva so fyis)"
+msgid "%s Update"
+msgstr "Moondrake Online (Mandriva so fyis)"
 
-#: draksec:148
+#: draksec:170
 #, c-format
 msgid "Software Media Manager"
 msgstr "Manaedjeu des sopoirts d' astalaedje"
 
-#: draksec:149
+#: draksec:171
 #, c-format
 msgid "Configure 3D Desktop effects"
 msgstr "Apontyî les efets do scribanne 3D"
 
-#: draksec:150
+#: draksec:172
 #, fuzzy, c-format
 msgid "Graphical Server Configuration"
 msgstr "Apontiaedje des abranles pa emile"
 
-#: draksec:151
+#: draksec:173
 #, fuzzy, c-format
 msgid "Mouse Configuration"
 msgstr "Apontiaedje manuwel"
 
-#: draksec:152
+#: draksec:174
 #, fuzzy, c-format
 msgid "Keyboard Configuration"
 msgstr "Apontiaedje di l' éndjolreye"
 
-#: draksec:153
+#: draksec:175
 #, fuzzy, c-format
 msgid "Printer Configuration"
 msgstr "Apontiaedje des procsis"
 
-#: draksec:154
+#: draksec:176
 #, fuzzy, c-format
 msgid "UPS Configuration"
 msgstr "Apontiaedje do mineu di l' UPS"
 
-#: draksec:155
+#: draksec:177
 #, fuzzy, c-format
 msgid "Network Configuration"
 msgstr "Apontiaedje di l' abranle"
 
-#: draksec:156
+#: draksec:178
 #, c-format
 msgid "Hosts definitions"
 msgstr "Definixhas des lodjoes"
 
-#: draksec:157
+#: draksec:179
 #, c-format
 msgid "Network Center"
 msgstr "Cinte rantoele"
 
-#: draksec:158
+#: draksec:180
 #, c-format
 msgid "Wireless Network Roaming"
 msgstr ""
 
-#: draksec:159
+#: draksec:181
 #, c-format
 msgid "VPN"
 msgstr ""
 
-#: draksec:160
+#: draksec:182
 #, c-format
 msgid "Proxy Configuration"
 msgstr "Apontiaedje des procsis"
 
-#: draksec:161
+#: draksec:183
 #, c-format
 msgid "Connection Sharing"
 msgstr "Pårtaedje do raloyaedje al daegntoele"
 
-#: draksec:163
+#: draksec:185
 #, c-format
 msgid "Backups"
 msgstr "Copeyes di såvrité"
 
-#: draksec:165 logdrake:56
+#: draksec:187 logdrake:56
 #, c-format
 msgid "Logs"
 msgstr "Djournås"
 
-#: draksec:166 finish-install:210 finish-install:249
+#: draksec:188 finish-install:212 finish-install:251
 #, c-format
 msgid "Services"
 msgstr "Siervices"
 
-#: draksec:167
+#: draksec:189
 #, fuzzy, c-format
 msgid "Users"
 msgstr "Uzeu"
 
-#: draksec:169
+#: draksec:191
 #, fuzzy, c-format
 msgid "Boot Configuration"
 msgstr "Apontiaedje di l' abranle"
 
-#: draksec:203
+#: draksec:224
 #, c-format
 msgid "Hardware"
 msgstr "Éndjolreye"
 
-#: draksec:204
+#: draksec:225
 #, fuzzy, c-format
 msgid "Network"
 msgstr "Tchuzes pol rantoele"
 
-#: draksec:205
+#: draksec:226
 #, c-format
 msgid "System"
 msgstr "Sistinme"
 
-#: draksec:206
+#: draksec:227
 #, c-format
 msgid "Boot"
 msgstr "Enondaedje"
@@ -1416,12 +1426,12 @@ msgstr ""
 msgid "Autodetection"
 msgstr "Deteccion otomatike"
 
-#: drakups:98 harddrake2:374
+#: drakups:99 harddrake2:358
 #, c-format
 msgid "Detection in progress"
 msgstr "Deteccion en alaedje"
 
-#: drakups:117 drakups:156 logdrake:461 logdrake:467
+#: drakups:118 drakups:157 logdrake:465 logdrake:471
 #, c-format
 msgid "Congratulations"
 msgstr "Complumints"
@@ -1556,7 +1566,7 @@ msgstr "Livea"
 msgid "ACL name"
 msgstr "No d' ACL"
 
-#: drakups:296 finish-install:258
+#: drakups:297 finish-install:260
 #, c-format
 msgid "Password"
 msgstr "Sicret"
@@ -1608,7 +1618,7 @@ msgid "Keyboard"
 msgstr "Taprece"
 
 #: finish-install:58
-#, fuzzy, c-format
+#, c-format
 msgid "Please choose your keyboard layout."
 msgstr "Tchoezixhoz li sôre di vosse taprece."
 
@@ -1617,57 +1627,62 @@ msgstr "Tchoezixhoz li sôre di vosse taprece."
 msgid "Testing your connection..."
 msgstr ""
 
-#: finish-install:185
+#: finish-install:187
 #, c-format
 msgid "Windows-compatible sharing system"
 msgstr ""
 
-#: finish-install:188
+#: finish-install:189
+#, c-format
+msgid "Virtual Private Network"
+msgstr ""
+
+#: finish-install:190
 #, fuzzy, c-format
 msgid "OpenSSH server"
 msgstr "Sierveu SSH"
 
-#: finish-install:189
+#: finish-install:191
 #, fuzzy, c-format
 msgid "Print server"
 msgstr "Sierveu FTP"
 
-#: finish-install:209
+#: finish-install:211
 #, c-format
 msgid "Do you have any services that you want to run when starting up?"
 msgstr ""
 
-#: finish-install:241
+#: finish-install:243
 #, fuzzy, c-format
 msgid "The following services failed to start:\n"
 msgstr "Les pacaedjes ki shuvèt dvèt esse astalés:\n"
 
-#: finish-install:244
+#: finish-install:246
 #, fuzzy, c-format
 msgid "The following services failed to stop:\n"
 msgstr "Les pacaedjes ki shuvèt dvèt esse astalés:\n"
 
-#: finish-install:256 finish-install:274 finish-install:287
+#: finish-install:258 finish-install:276 finish-install:289
 #, c-format
 msgid "Encrypted home partition"
 msgstr ""
 
-#: finish-install:256
+#: finish-install:258
 #, c-format
 msgid "Please enter a password for the %s user"
 msgstr ""
 
-#: finish-install:259
+#: finish-install:261
 #, c-format
 msgid "Password (again)"
 msgstr "Sicret (co ene feye)"
 
-#: finish-install:274
+#: finish-install:276
 #, c-format
 msgid "Creating encrypted home partition"
 msgstr ""
 
-#: finish-install:287
+#: finish-install:289
 #, c-format
 msgid "Formatting encrypted home partition"
 msgstr ""
@@ -2307,116 +2322,72 @@ msgstr "Pårticions"
 msgid "Features"
 msgstr "Fonccionålités"
 
-#. -PO: please keep all "/" characters !!!
-#: harddrake2:179 logdrake:82
+#: harddrake2:179
 #, c-format
-msgid "/_Options"
-msgstr "/_Tchuzes"
+msgid "Autodetect _modems"
+msgstr "Oto-detecter les _modems"
 
-#: harddrake2:180 harddrake2:203 logdrake:84
+#: harddrake2:180
 #, c-format
-msgid "/_Help"
-msgstr "/_Aidance"
+msgid "Autodetect parallel _zip drives"
+msgstr "Oto-detecter les lijheus _ZIP paraleles"
 
 #: harddrake2:184
-#, c-format
-msgid "/Autodetect _modems"
-msgstr "/Oto-detecter les _modems"
-
-#: harddrake2:185
-#, c-format
-msgid "/Autodetect parallel _zip drives"
-msgstr "/Oto-detecter les lijheus _ZIP paraleles"
-
-#: harddrake2:189
 #, c-format
 msgid "Hardware Configuration"
 msgstr "Apontiaedje di l' éndjolreye"
 
+#: harddrake2:193
+#, c-format
+msgid "_Options"
+msgstr "_Tchuzes"
+
+#: harddrake2:194 harddrake2:195
+#, c-format
+msgid "_Help"
+msgstr "_Aidance"
+
+#: harddrake2:195
+#, fuzzy, c-format
+msgid "<control>H"
+msgstr "<control>Q"
+
 #: harddrake2:196
 #, c-format
-msgid "/_Quit"
-msgstr "/Moussî _foû"
+msgid "_Fields description"
+msgstr "Discrijhaedje des _tchamps"
 
-#: harddrake2:205
+#: harddrake2:197
 #, c-format
-msgid "/_Fields description"
-msgstr "/Discrijhaedje des _tchamps"
+msgid "_Report Bug"
+msgstr "_Rapoirter on bug"
 
-#: harddrake2:207
+#: harddrake2:198
 #, c-format
-msgid "Harddrake help"
-msgstr "Aidance di Harddrake"
+msgid "_About..."
+msgstr "Å_d fwait..."
 
-#: harddrake2:208
-#, c-format
-msgid ""
-"Description of the fields:\n"
-"\n"
-msgstr ""
-"Discrijhaedje des tchamps:\n"
-"\n"
-
-#: harddrake2:216
-#, c-format
-msgid "Select a device!"
-msgstr "Tchoezixhoz èn éndjin!"
-
-#: harddrake2:216
-#, c-format
-msgid ""
-"Once you've selected a device, you'll be able to see the device information "
-"in fields displayed on the right frame (\"Information\")"
-msgstr ""
-"On côp ki vos avoz tchoezi èn éndjin, vos pôroz vey des esplikêyes dins les "
-"tchamps håynés a droete («Informåcion»)"
-
-#: harddrake2:222
-#, c-format
-msgid "/_Report Bug"
-msgstr "/_Rapoirter on bug"
-
-#: harddrake2:224
-#, c-format
-msgid "/_About..."
-msgstr "/Å_d fwait..."
-
-#: harddrake2:227
-#, c-format
-msgid "Harddrake"
-msgstr "Harddrake"
-
-#: harddrake2:231
-#, c-format
-msgid "This is HardDrake, a %s hardware configuration tool."
-msgstr "Çouchal c' est HardDrake, ene usteye %s po-z apontyî l' éndjolreye."
-
-#: harddrake2:233
-#, fuzzy, c-format
-msgid "OpenMandriva Linux"
-msgstr "OpenMandriva Lx"
-
-#: harddrake2:264
+#: harddrake2:242
 #, c-format
 msgid "Detected hardware"
 msgstr "Éndjolreye di trovêye"
 
-#: harddrake2:267 scannerdrake:283
+#: harddrake2:245 scannerdrake:283
 #, c-format
 msgid "Information"
 msgstr "Informåcions"
 
-#: harddrake2:269
+#: harddrake2:247
 #, c-format
 msgid "Set current driver options"
 msgstr "Defini les tchuzes do mineu do moumint"
 
-#: harddrake2:276
+#: harddrake2:254
 #, c-format
 msgid "Run config tool"
 msgstr "Enonder l' usteye d' apontiaedje"
 
-#: harddrake2:296
+#: harddrake2:280
 #, c-format
 msgid ""
 "Click on a device in the tree on the left in order to display its "
@@ -2425,45 +2396,93 @@ msgstr ""
 "Clitchî so èn éndjin del djivêye di hintche po-z aveur ses informåcions di "
 "håynêyes chal."
 
-#: harddrake2:317 notify-x11-free-driver-switch:13
+#: harddrake2:300 notify-x11-free-driver-switch:13
 #, c-format
 msgid "unknown"
 msgstr "nén cnoxhou"
 
-#: harddrake2:318
+#: harddrake2:301
 #, c-format
 msgid "Unknown"
 msgstr "Nén cnoxhou"
 
-#: harddrake2:338
+#: harddrake2:321
 #, c-format
 msgid "Misc"
 msgstr "Totes sôres"
 
-#: harddrake2:420
+#: harddrake2:404
 #, c-format
 msgid "secondary"
 msgstr "deujhinme"
 
-#: harddrake2:420
+#: harddrake2:404
 #, c-format
 msgid "primary"
 msgstr "prumî"
 
-#: harddrake2:424
+#: harddrake2:408
 #, c-format
 msgid "burner"
 msgstr "broûleu"
 
-#: harddrake2:424
+#: harddrake2:408
 #, c-format
 msgid "DVD"
 msgstr "DVD"
 
-#: harddrake2:528
+#: harddrake2:504
 #, c-format
 msgid "The following packages need to be installed:\n"
 msgstr "Les pacaedjes ki shuvèt dvèt esse astalés:\n"
+
+#: harddrake2:521
+#, c-format
+msgid "Harddrake"
+msgstr "Harddrake"
+
+#: harddrake2:523
+#, c-format
+msgid "Copyright (C) %s by %s"
+msgstr "Copyright © %s pa %s"
+
+#: harddrake2:523 harddrake2:527
+#, c-format
+msgid "Mageia"
+msgstr ""
+
+#: harddrake2:525
+#, c-format
+msgid "This is HardDrake, a %s hardware configuration tool."
+msgstr "Çouchal c' est HardDrake, ene usteye %s po-z apontyî l' éndjolreye."
+
+#: harddrake2:540
+#, c-format
+msgid "Harddrake help"
+msgstr "Aidance di Harddrake"
+
+#: harddrake2:541
+#, c-format
+msgid ""
+"Description of the fields:\n"
+"\n"
+msgstr ""
+"Discrijhaedje des tchamps:\n"
+"\n"
+
+#: harddrake2:548
+#, c-format
+msgid "Select a device!"
+msgstr "Tchoezixhoz èn éndjin!"
+
+#: harddrake2:548
+#, c-format
+msgid ""
+"Once you've selected a device, you'll be able to see the device information "
+"in fields displayed on the right frame (\"Information\")"
+msgstr ""
+"On côp ki vos avoz tchoezi èn éndjin, vos pôroz vey des esplikêyes dins les "
+"tchamps håynés a droete («Informåcion»)"
 
 #: localedrake:38
 #, c-format
@@ -2482,219 +2501,174 @@ msgid ", "
 msgstr ", "
 
 #: logdrake:55
-#, c-format
-msgid "%s Tools Logs"
-msgstr ""
+#, fuzzy, c-format
+msgid "DrakX Tools Logs"
+msgstr "Djournås des usteyes di Moondrake"
 
 #: logdrake:69
 #, c-format
 msgid "Show only for the selected day"
 msgstr "Mostrer seulmint pol djoû tchoezi"
 
-#: logdrake:76
-#, c-format
-msgid "/File/_New"
-msgstr "/Fitchî/_Novea"
-
-#: logdrake:76
-#, c-format
-msgid "<control>N"
-msgstr "<control>N"
-
-#: logdrake:77
-#, c-format
-msgid "/File/_Open"
-msgstr "/Fitchî/_Drovi"
-
-#: logdrake:77
-#, c-format
-msgid "<control>O"
-msgstr "<control>O"
-
-#: logdrake:78
-#, c-format
-msgid "/File/_Save"
-msgstr "/Fitchî/_Schaper"
-
 #: logdrake:78
 #, c-format
 msgid "<control>S"
 msgstr "<control>S"
 
-#: logdrake:79
-#, c-format
-msgid "/File/Save _As"
-msgstr "/Fitchî/Schaper et r_lomer"
-
-#: logdrake:80
-#, c-format
-msgid "/File/-"
-msgstr "/Fitchî/-"
-
-#: logdrake:83
-#, c-format
-msgid "/Options/Test"
-msgstr "/Tchuzes/Saye"
-
-#: logdrake:85
-#, c-format
-msgid "/Help/_About..."
-msgstr "/Aidance/Å_d fwait..."
-
-#: logdrake:114
+#: logdrake:117
 #, c-format
 msgid ""
 "_:this is the auth.log log file\n"
 "Authentication"
 msgstr "Verifiaedje"
 
-#: logdrake:115
+#: logdrake:118
 #, c-format
 msgid ""
 "_:this is the user.log log file\n"
 "User"
 msgstr "Uzeu"
 
-#: logdrake:116
+#: logdrake:119
 #, c-format
 msgid ""
 "_:this is the /var/log/messages log file\n"
 "Messages"
 msgstr "Messaedjes"
 
-#: logdrake:117
+#: logdrake:120
 #, c-format
 msgid ""
 "_:this is the /var/log/syslog log file\n"
 "Syslog"
 msgstr "Syslog"
 
-#: logdrake:121
+#: logdrake:124
 #, c-format
 msgid "search"
 msgstr "cweri"
 
-#: logdrake:133
+#: logdrake:136
 #, c-format
 msgid "A tool to monitor your logs"
 msgstr "Ene usteye po vey vos fitchîs djournås"
 
-#: logdrake:135
+#: logdrake:138
 #, c-format
 msgid "Settings"
 msgstr "Apontiaedjes"
 
-#: logdrake:138
+#: logdrake:141
 #, c-format
 msgid "Matching"
 msgstr "Avou"
 
-#: logdrake:139
+#: logdrake:142
 #, c-format
 msgid "but not matching"
 msgstr "mins nerén sins"
 
-#: logdrake:142
+#: logdrake:145
 #, c-format
 msgid "Choose file"
 msgstr "Tchoezixhoz on fitchî"
 
-#: logdrake:154
+#: logdrake:157
 #, c-format
 msgid "Calendar"
 msgstr "Calindrî"
 
-#: logdrake:163
+#: logdrake:166
 #, c-format
 msgid "Content of the file"
 msgstr "Håynaedje do fitchî"
 
-#: logdrake:167 logdrake:411
+#: logdrake:170 logdrake:415
 #, c-format
 msgid "Mail alert"
 msgstr "Abranle pa emile"
 
-#: logdrake:174
+#: logdrake:177
 #, c-format
 msgid "The alert wizard has failed unexpectedly:"
 msgstr "Li macrea d' abranles a fwait berwete la k' on s' atindeut nén:"
 
-#: logdrake:178
+#: logdrake:181
 #, c-format
 msgid "Save"
 msgstr "Schaper"
 
-#: logdrake:226
+#: logdrake:230
 #, c-format
 msgid "please wait, parsing file: %s"
 msgstr "tårdjîz s' i vs plait, dji lé l' fitchî: %s"
 
-#: logdrake:248
+#: logdrake:252
 #, c-format
 msgid "Sorry, log file isn't available!"
 msgstr ""
 
-#: logdrake:296
+#: logdrake:300
 #, c-format
 msgid "Error while opening \"%s\" log file: %s\n"
 msgstr ""
 
-#: logdrake:389
+#: logdrake:393
 #, c-format
 msgid "Apache World Wide Web Server"
 msgstr "Sierveu waibe Apache"
 
-#: logdrake:390
+#: logdrake:394
 #, c-format
 msgid "Domain Name Resolver"
 msgstr "Sierveu di nos d' dominne"
 
-#: logdrake:391
+#: logdrake:395
 #, c-format
 msgid "Ftp Server"
 msgstr "Sierveu FTP"
 
-#: logdrake:392
+#: logdrake:396
 #, c-format
 msgid "Postfix Mail Server"
 msgstr "Sierveu d' emilaedje postfix"
 
-#: logdrake:393
+#: logdrake:397
 #, c-format
 msgid "Samba Server"
 msgstr "Sierveu Samba"
 
-#: logdrake:394
+#: logdrake:398
 #, c-format
 msgid "SSH Server"
 msgstr "Sierveu SSH"
 
-#: logdrake:395
+#: logdrake:399
 #, c-format
 msgid "Webmin Service"
 msgstr "Siervice Webmin"
 
-#: logdrake:396
+#: logdrake:400
 #, c-format
 msgid "Xinetd Service"
 msgstr "Siervice xinetd"
 
-#: logdrake:405
+#: logdrake:409
 #, c-format
 msgid "Configure the mail alert system"
 msgstr "Apontyî l' sistinme d' abranle pa emile"
 
-#: logdrake:406
+#: logdrake:410
 #, c-format
 msgid "Stop the mail alert system"
 msgstr "Arester l' sistinme d' abranle pa emile"
 
-#: logdrake:414
+#: logdrake:418
 #, c-format
 msgid "Mail alert configuration"
 msgstr "Apontiaedje des abranles pa emile"
 
-#: logdrake:415
+#: logdrake:419
 #, c-format
 msgid ""
 "Welcome to the mail configuration utility.\n"
@@ -2705,72 +2679,72 @@ msgstr ""
 "\n"
 "Chal, vos pôroz apontyî li sistinme d' abranles.\n"
 
-#: logdrake:418
+#: logdrake:422
 #, c-format
 msgid "What do you want to do?"
 msgstr "Cwè voloz vs fé?"
 
-#: logdrake:425
+#: logdrake:429
 #, c-format
 msgid "Services settings"
 msgstr "Apontiaedje des siervices"
 
-#: logdrake:426
+#: logdrake:430
 #, c-format
 msgid ""
 "You will receive an alert if one of the selected services is no longer "
 "running"
 msgstr "Vos rçuroz ene abranle si onk des tchoezis siervices si djoke di roter"
 
-#: logdrake:433
+#: logdrake:437
 #, c-format
 msgid "Load setting"
 msgstr "Apontiaedjes pol tchedje"
 
-#: logdrake:434
+#: logdrake:438
 #, c-format
 msgid "You will receive an alert if the load is higher than this value"
 msgstr ""
 "Vos rçuroz ene abranle si l' tchedje est pus hôte kel valixhance dinêye chal"
 
-#: logdrake:435
+#: logdrake:439
 #, c-format
 msgid ""
 "_: load here is a noun, the load of the system\n"
 "Load"
 msgstr "Tchedje"
 
-#: logdrake:440
+#: logdrake:444
 #, c-format
 msgid "Alert configuration"
 msgstr "Apontiaedje di l' abranle"
 
-#: logdrake:441
+#: logdrake:445
 #, c-format
 msgid "Please enter your email address below "
 msgstr "Dinez voste adresse emile s' i vs plait"
 
-#: logdrake:442
+#: logdrake:446
 #, c-format
 msgid "and enter the name (or the IP) of the SMTP server you wish to use"
 msgstr "et dnez l' no (ou l' adresse IP) do sierveu SMTP a-z eployî"
 
-#: logdrake:444
+#: logdrake:448
 #, fuzzy, c-format
 msgid "Email address"
 msgstr "Adresse IP"
 
-#: logdrake:445
+#: logdrake:449
 #, fuzzy, c-format
 msgid "Email server"
 msgstr "Sierveu Samba"
 
-#: logdrake:449
+#: logdrake:453
 #, c-format
 msgid "\"%s\" neither is a valid email nor is an existing local user!"
 msgstr "«%s» n' est nén ene adresse emile valide nerén èn uzeu locå!"
 
-#: logdrake:454
+#: logdrake:458
 #, c-format
 msgid ""
 "\"%s\" is a local user, but you did not select a local smtp, so you must use "
@@ -2779,23 +2753,23 @@ msgstr ""
 "«%s» est èn uzeu locå mins vos n' avoz nén tchoezi di SMTP locå, do côp vos "
 "dvoz eployî ene adresse emile complete!"
 
-#: logdrake:461
+#: logdrake:465
 #, c-format
 msgid "The wizard successfully configured the mail alert."
 msgstr "Li macrea a-st apontyî comifåt l' abranle pa emile."
 
-#: logdrake:467
+#: logdrake:471
 #, c-format
 msgid "The wizard successfully disabled the mail alert."
 msgstr "Li macrea a dismetou comifåt les abranles pa emile."
 
-#: logdrake:526
+#: logdrake:530
 #, c-format
 msgid "Save as.."
 msgstr "Schaper eyet rlomer..."
 
-#: notify-x11-free-driver-switch:18 service_harddrake:465
-#: service_harddrake:478
+#: notify-x11-free-driver-switch:18 service_harddrake:468
+#: service_harddrake:481
 #, c-format
 msgid "Display driver setup"
 msgstr ""
@@ -3392,27 +3366,27 @@ msgstr "Sacwants éndjins ont stî radjoutés: %s\n"
 msgid "- %s was added\n"
 msgstr "- %s a stî radjouté\n"
 
-#: service_harddrake:397
+#: service_harddrake:400
 #, c-format
 msgid "Hardware changes in \"%s\" class (%s seconds to answer)"
 msgstr "Candjmints d' éndjolreye dins l' classe «%s» (%s segondes po responde)"
 
-#: service_harddrake:398
+#: service_harddrake:401
 #, c-format
 msgid "Do you want to run the appropriate config tool?"
 msgstr "Voloz vs enonder l' usteye d' apontiaedje k' i fåt?"
 
-#: service_harddrake:423
+#: service_harddrake:426
 #, c-format
 msgid "Hardware probing in progress"
 msgstr "Deteccion di l' éndjolreye en alaedje"
 
-#: service_harddrake:444 service_harddrake:449
+#: service_harddrake:447 service_harddrake:452
 #, c-format
 msgid "Display driver issue"
 msgstr ""
 
-#: service_harddrake:445
+#: service_harddrake:448
 #, c-format
 msgid ""
 "The display driver currently configured requires you to use the 'nokmsboot' "
@@ -3421,7 +3395,7 @@ msgid ""
 "specified."
 msgstr ""
 
-#: service_harddrake:450
+#: service_harddrake:453
 #, c-format
 msgid ""
 "Detected a loaded display driver kernel module which conflicts with the "
@@ -3429,23 +3403,14 @@ msgid ""
 "fail."
 msgstr ""
 
-#: service_harddrake:465 service_harddrake:478
+#: service_harddrake:468 service_harddrake:481
 #, c-format
 msgid "The system has to be rebooted due to a display driver change."
 msgstr ""
 
-#: service_harddrake:466 service_harddrake:479
+#: service_harddrake:469 service_harddrake:482
 #, c-format
 msgid "Press Cancel within %d seconds to abort."
-msgstr ""
-
-#: ../menu/localedrake-system.desktop.in.h:1
-#, fuzzy
-msgid "System Regional Settings"
-msgstr "Apontiaedjes do sistinme"
-
-#: ../menu/localedrake-system.desktop.in.h:2
-msgid "System wide language & country configurator"
 msgstr ""
 
 #: ../menu/harddrake.desktop.in.h:1
@@ -3462,6 +3427,15 @@ msgstr "Apontiaedje di l' éndjolreye"
 msgid "Hardware Configuration Tool"
 msgstr "Apontiaedje di l' éndjolreye"
 
+#: ../menu/localedrake-system.desktop.in.h:1
+#, fuzzy
+msgid "System Regional Settings"
+msgstr "Apontiaedjes do sistinme"
+
+#: ../menu/localedrake-system.desktop.in.h:2
+msgid "System wide language & country configurator"
+msgstr ""
+
 #: ../menu/localedrake-user.desktop.in.h:1
 #, fuzzy
 msgid "Regional Settings"
@@ -3472,17 +3446,363 @@ msgstr "Apontiaedjes"
 msgid "Language & country configuration"
 msgstr "Apontiaedje manuwel"
 
+#: ../polkit/org.moondrake.drakauth.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Authentication Configuration"
+msgstr "Apontiaedje des etapes otomatikes"
+
+#: ../polkit/org.moondrake.drakauth.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Authentication Configuration"
+msgstr "Apontiaedje des etapes otomatikes"
+
+#: ../polkit/org.moondrake.drakboot.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Boot Configuration"
+msgstr "Apontiaedje di l' abranle"
+
+#: ../polkit/org.moondrake.drakboot.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Boot Configuration"
+msgstr "Apontiaedje di l' abranle"
+
+#: ../polkit/org.moondrake.drakclock.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Date and Time Configuration"
+msgstr "Apontiaedje des abranles pa emile"
+
+#: ../polkit/org.moondrake.drakclock.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Date and Time Configuration"
+msgstr "Apontiaedje des abranles pa emile"
+
+#: ../polkit/org.moondrake.drakdisk.policy.in.h:1
+msgid "Run DrakX Disk Layout Editor"
+msgstr ""
+
+#: ../polkit/org.moondrake.drakdisk.policy.in.h:2
+msgid "Authentication is required to run DrakX Disk Layout Editor"
+msgstr ""
+
+#: ../polkit/org.moondrake.drakdm.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Login Manager Configuration"
+msgstr "Apontiaedje manuwel"
+
+#: ../polkit/org.moondrake.drakdm.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Login Manager Configuration"
+msgstr "Apontiaedje manuwel"
+
+#: ../polkit/org.moondrake.drakfont.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Font Configuration"
+msgstr "Apontiaedje manuwel"
+
+#: ../polkit/org.moondrake.drakfont.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Font Configuration"
+msgstr "Apontiaedje manuwel"
+
+#: ../polkit/org.moondrake.drakhardware.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Hardware Configuration"
+msgstr "Apontiaedje des abranles pa emile"
+
+#: ../polkit/org.moondrake.drakhardware.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Hardware Configuration"
+msgstr "Apontiaedje des abranles pa emile"
+
+#: ../polkit/org.moondrake.draklog.policy.in.h:1
+msgid "Run DrakX Log Viewer"
+msgstr ""
+
+#: ../polkit/org.moondrake.draklog.policy.in.h:2
+msgid "Authentication is required to run DrakX Log Viewer"
+msgstr ""
+
+#: ../polkit/org.moondrake.drakperm.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Security Permissions Configuration"
+msgstr "Apontiaedje des abranles pa emile"
+
+#: ../polkit/org.moondrake.drakperm.policy.in.h:2
+#, fuzzy
+msgid ""
+"Authentication is required to run DrakX Security Permissions Configuration"
+msgstr "Apontiaedje des abranles pa emile"
+
+#: ../polkit/org.moondrake.drakscanner.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Scanner Configuration"
+msgstr "Apontiaedje des abranles pa emile"
+
+#: ../polkit/org.moondrake.drakscanner.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Scanner Configuration"
+msgstr "Apontiaedje des abranles pa emile"
+
+#: ../polkit/org.moondrake.draksec.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Application Security Configuration"
+msgstr "Apontiaedje des etapes otomatikes"
+
+#: ../polkit/org.moondrake.draksec.policy.in.h:2
+#, fuzzy
+msgid ""
+"Authentication is required to run DrakX Application Security Configuration"
+msgstr "Apontiaedje des etapes otomatikes"
+
+#: ../polkit/org.moondrake.drakups.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX UPS Configuration"
+msgstr "Apontiaedje do mineu di l' UPS"
+
+#: ../polkit/org.moondrake.drakups.policy.in.h:2
+msgid "Authentication is required to run DrakX UPS Configuration"
+msgstr ""
+
+#: ../polkit/org.moondrake.moondrakeservices.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Service Configuration"
+msgstr "Apontiaedje des abranles pa emile"
+
+#: ../polkit/org.moondrake.moondrakeservices.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Service Configuration"
+msgstr "Apontiaedje des abranles pa emile"
+
+#, fuzzy
+#~ msgid "%s Bug Report Tool"
+#~ msgstr "Usteye di rapoirtaedje di bugs di Moondrake"
+
+#, fuzzy
+#~ msgid "%s Tools Logs"
+#~ msgstr "Djournås des usteyes di Moondrake"
+
+#, fuzzy
+#~ msgid "Run Moondrake Application Security Configuration"
+#~ msgstr "Apontiaedje des etapes otomatikes"
+
+#, fuzzy
+#~ msgid "Run Moondrake Authentication Configuration"
+#~ msgstr "Apontiaedje des etapes otomatikes"
+
+#, fuzzy
+#~ msgid "Run Moondrake Boot Configuration"
+#~ msgstr "Apontiaedje di l' abranle"
+
+#, fuzzy
+#~ msgid "Run Moondrake Date and Time Configuration"
+#~ msgstr "Apontiaedje des abranles pa emile"
+
+#, fuzzy
+#~ msgid "Run Moondrake Font Configuration"
+#~ msgstr "Apontiaedje manuwel"
+
+#, fuzzy
+#~ msgid "Run Moondrake Hardware Configuration"
+#~ msgstr "Apontiaedje des abranles pa emile"
+
+#, fuzzy
+#~ msgid "Run Moondrake Login Manager Configuration"
+#~ msgstr "Apontiaedje manuwel"
+
+#, fuzzy
+#~ msgid "Run Moondrake Scanner Configuration"
+#~ msgstr "Apontiaedje des abranles pa emile"
+
+#, fuzzy
+#~ msgid "Run Moondrake Security Permissions Configuration"
+#~ msgstr "Apontiaedje des abranles pa emile"
+
+#, fuzzy
+#~ msgid "Run Moondrake Service Configuration"
+#~ msgstr "Apontiaedje des abranles pa emile"
+
+#, fuzzy
+#~ msgid "Run Moondrake UPS Configuration"
+#~ msgstr "Apontiaedje do mineu di l' UPS"
+
+#~ msgid ""
+#~ "\n"
+#~ "Welcome.\n"
+#~ "\n"
+#~ "The parameters of the auto-install are available in the sections on the "
+#~ "left"
+#~ msgstr ""
+#~ "\n"
+#~ "Bénvnowe.\n"
+#~ "\n"
+#~ "Les parametes di l' astalaedje otomatike sont ezès seccions sol hintche"
+
+#, fuzzy
+#~ msgid "  --help                - display this help     \n"
+#~ msgstr " --help                - mostere ci messaedje d' aidance chal.\n"
+
+#, fuzzy
+#~ msgid ""
+#~ " drakhelp 0.1\n"
+#~ "Copyright (C) %s Mandriva.\n"
+#~ "Copyright (C) %s Moondrake.\n"
+#~ "This is free software and may be redistributed under the terms of the GNU "
+#~ "GPL.\n"
+#~ "\n"
+#~ "Usage: \n"
+#~ msgstr ""
+#~ " drakhelp 0.1\n"
+#~ "Copyright © %s Mandriva.\n"
+#~ "Çouchal est on libe programe et pout esse cossemé dzo les termes del "
+#~ "licince GPL.\n"
+#~ "\n"
+#~ "Po s' è siervi:\n"
+
+#~ msgid "%s Control Center"
+#~ msgstr "Cinte di contrôle di %s"
+
+#, fuzzy
+#~ msgid "%s Help Center"
+#~ msgstr "Cinte di l' aidance di Moondrake"
+
+#~ msgid "(default value: %s)"
+#~ msgstr "(prémetowe valixhance: %s)"
+
 #~ msgid "/Autodetect _jaz drives"
 #~ msgstr "/Oto-detecter les lijheus _jaz"
 
-#~ msgid "OpenMandriva Lx Tools Logs"
-#~ msgstr "Djournås des usteyes di OpenMandriva Lx"
+#~ msgid "/Autodetect _modems"
+#~ msgstr "/Oto-detecter les _modems"
 
 #~ msgid "/Autodetect _printers"
 #~ msgstr "/Oto-detecter les _scrireces"
 
-#~ msgid "OpenOffice.org"
-#~ msgstr "OpenOffice.org"
+#~ msgid "/Autodetect parallel _zip drives"
+#~ msgstr "/Oto-detecter les lijheus _ZIP paraleles"
+
+#~ msgid "/File/-"
+#~ msgstr "/Fitchî/-"
+
+#~ msgid "/File/Save _As"
+#~ msgstr "/Fitchî/Schaper et r_lomer"
+
+#~ msgid "/File/_New"
+#~ msgstr "/Fitchî/_Novea"
+
+#~ msgid "/File/_Open"
+#~ msgstr "/Fitchî/_Drovi"
+
+#~ msgid "/File/_Quit"
+#~ msgstr "/Fitchî/Moussî _foû"
+
+#~ msgid "/File/_Save"
+#~ msgstr "/Fitchî/_Schaper"
+
+#~ msgid "/Help/_About..."
+#~ msgstr "/Aidance/Å_d fwait..."
+
+#~ msgid "/Options/Test"
+#~ msgstr "/Tchuzes/Saye"
+
+#~ msgid "/_About..."
+#~ msgstr "/Å_d fwait..."
+
+#~ msgid "/_Fields description"
+#~ msgstr "/Discrijhaedje des _tchamps"
+
+#~ msgid "/_File"
+#~ msgstr "/_Fitchî"
+
+#~ msgid "/_Help"
+#~ msgstr "/_Aidance"
+
+#~ msgid "/_Options"
+#~ msgstr "/_Tchuzes"
+
+#~ msgid "/_Quit"
+#~ msgstr "/Moussî _foû"
+
+#~ msgid "/_Report Bug"
+#~ msgstr "/_Rapoirter on bug"
+
+#~ msgid "<control>N"
+#~ msgstr "<control>N"
+
+#~ msgid "<control>O"
+#~ msgstr "<control>O"
+
+#~ msgid "Add an item"
+#~ msgstr "Radjouter on cayet"
+
+#~ msgid "Auto Install"
+#~ msgstr "Astalaedje otomatike"
+
+#~ msgid "Auto Install Configurator"
+#~ msgstr "Apontieu di l' astalaedje otomatike"
+
+#~ msgid "Autodetect _jaz drives"
+#~ msgstr "Oto-detecter les lijheus _jaz"
+
+#~ msgid "Autodetect _printers"
+#~ msgstr "Oto-detecter les _scrireces"
+
+#~ msgid "Automatic Steps Configuration"
+#~ msgstr "Apontiaedje des etapes otomatikes"
+
+#~ msgid "Background color"
+#~ msgstr "Coleur do fond"
+
+#~ msgid "Basic options"
+#~ msgstr "Tchuzes di båze"
+
+#~ msgid "Bugs"
+#~ msgstr "Bugs"
+
+#~ msgid "Choose picture"
+#~ msgstr "Tchoezixhoz l' imådje"
+
+#~ msgid "Choose progress bar background"
+#~ msgstr "Tchoezixhoz l' fond del bår d' avançmint"
+
+#~ msgid "Choose progress bar color 1"
+#~ msgstr "Tchoezixhoz l' coleur 1 del bår d' avançmint"
+
+#~ msgid "Choose progress bar color 2"
+#~ msgstr "Tchoezixhoz l' coleur 2 del bår d' avançmint"
+
+#~ msgid "Choose text color"
+#~ msgstr "Tchoezixhoz l' coleur do tecse"
+
+#~ msgid "Choose text zone color"
+#~ msgstr "Tchoezixhoz l' coleur del redjon d' tecse"
+
+#~ msgid "Color selection"
+#~ msgstr "Tchoezixhaedje del coleur"
+
+#~ msgid "Coma bug"
+#~ msgstr "Bug «coma»"
+
+#, fuzzy
+#~ msgid "Copyright (C) %s by Moondrake"
+#~ msgstr "Copyright © %s pa Mandriva"
+
+#~ msgid "Copyright (C) 2001-2008 by %s"
+#~ msgstr "Copyright © 2001-2008 pa %s"
+
+#~ msgid "Copyright (C) 2001-2008 by Mandriva"
+#~ msgstr "Copyright © 2001-2008 pa Mandriva"
+
+#~ msgid "Create new theme"
+#~ msgstr "Askepyî on novea tinme"
+
+#~ msgid "Creating auto install floppy"
+#~ msgstr "Dji fé li plakete d' enondaedje otomatike"
+
+#~ msgid "Creating auto install floppy (drivers disk)"
+#~ msgstr "Dji fé li plakete d' enondaedje otomatike (avou les mineus)"
+
+#~ msgid "Display logo on Console"
+#~ msgstr "Håyner imådjete sol conzôle"
 
 #~ msgid ""
 #~ "Display theme\n"
@@ -3491,131 +3811,13 @@ msgstr "Apontiaedje manuwel"
 #~ "Håyner tinme\n"
 #~ "dizo l' conzôle"
 
-#~ msgid "Create new theme"
-#~ msgstr "Askepyî on novea tinme"
-
-#~ msgid "X coordinate of text box"
-#~ msgstr "Cordonêye X del boesse di tecse"
-
-#~ msgid "Y coordinate of text box"
-#~ msgstr "Cordonêye Y del boesse di tecse"
-
-#~ msgid "Text box width"
-#~ msgstr "Lårdjeu del boesse di tecse"
-
-#~ msgid "Text box height"
-#~ msgstr "Hôteur del boesse di tecse"
-
-#~ msgid ""
-#~ "The progress bar X coordinate\n"
-#~ "of its upper left corner"
-#~ msgstr ""
-#~ "Cordonêye X del coine a hintche\n"
-#~ "et å dzeu del bår d' avançmint"
-
-#~ msgid ""
-#~ "The progress bar Y coordinate\n"
-#~ "of its upper left corner"
-#~ msgstr ""
-#~ "Cordonêye Y del coine a hintche\n"
-#~ "et å dzeu del bår d' avançmint"
-
-#~ msgid "The width of the progress bar"
-#~ msgstr "Li lårdjeur del bår d' avançmint"
-
-#~ msgid "The height of the progress bar"
-#~ msgstr "Li hôteur del bår d' avançmint"
-
-#~ msgid "X coordinate of the text"
-#~ msgstr "Cordonêye X do tecse"
-
-#~ msgid "Y coordinate of the text"
-#~ msgstr "Cordonêye Y do tecse"
-
-#~ msgid "Text box transparency"
-#~ msgstr "Voeyaedje houte del boesse di tecse"
-
-#~ msgid "Progress box transparency"
-#~ msgstr "Voeyaedje houte del bår d' avançmint"
-
-#~ msgid "Text size"
-#~ msgstr "Grandeu do tecse"
-
-#~ msgid "Choose progress bar color 1"
-#~ msgstr "Tchoezixhoz l' coleur 1 del bår d' avançmint"
-
-#~ msgid "Choose progress bar color 2"
-#~ msgstr "Tchoezixhoz l' coleur 2 del bår d' avançmint"
-
-#~ msgid "Choose progress bar background"
-#~ msgstr "Tchoezixhoz l' fond del bår d' avançmint"
-
-#~ msgid "Gradient type"
-#~ msgstr "Sôre di gradyint"
+#, fuzzy
+#~ msgid "Do you want to remove these packages?"
+#~ msgstr "Voloz vs enonder l' usteye d' apontiaedje k' i fåt?"
 
 #, fuzzy
-#~ msgid "Text"
-#~ msgstr "Seulmint tecse"
-
-#~ msgid "Choose text color"
-#~ msgstr "Tchoezixhoz l' coleur do tecse"
-
-#~ msgid "Choose picture"
-#~ msgstr "Tchoezixhoz l' imådje"
-
-#~ msgid "Silent bootsplash"
-#~ msgstr "Taijheuse waitroûlêye d' enondaedje"
-
-#~ msgid "Choose text zone color"
-#~ msgstr "Tchoezixhoz l' coleur del redjon d' tecse"
-
-#~ msgid "Text color"
-#~ msgstr "Coleur do tecse"
-
-#~ msgid "Background color"
-#~ msgstr "Coleur do fond"
-
-#~ msgid "Verbose bootsplash"
-#~ msgstr "Badjawe waitroûlêye d' enondaedje"
-
-#~ msgid "Theme name"
-#~ msgstr "No do tinme"
-
-#~ msgid "Final resolution"
-#~ msgstr "Finté finåle"
-
-#~ msgid "Display logo on Console"
-#~ msgstr "Håyner imådjete sol conzôle"
-
-#~ msgid "Save theme"
-#~ msgstr "Schaper l' tinme"
-
-#~ msgid "Please enter a theme name"
-#~ msgstr "Intrez on no d' tinme s' i vs plait"
-
-#~ msgid "Please select a splash image"
-#~ msgstr "Tchoezixhoz ene imådje a håyner a l' enondaedje s' i vs plait."
-
-#~ msgid "saving Bootsplash theme..."
-#~ msgstr "dji schape li tinme d' enondaedje di l' éndjole..."
-
-#~ msgid "Unable to load image file %s"
-#~ msgstr "Dji n' a nén savou tcherdjî l' imådje %s"
-
-#~ msgid "choose image"
-#~ msgstr "tchoezixhoz ene imådje"
-
-#~ msgid "Color selection"
-#~ msgstr "Tchoezixhaedje del coleur"
-
-#~ msgid "Coma bug"
-#~ msgstr "Bug «coma»"
-
-#~ msgid "whether this cpu has the Cyrix 6x86 Coma bug"
-#~ msgstr "si ç' processeu chal a l' bug di coma des Cyrix 6x86 ou nén"
-
-#~ msgid "Fdiv bug"
-#~ msgstr "Bug «fdiv»"
+#~ msgid "DrakX Online"
+#~ msgstr "Mandriva Online (Mandriva so fyis)"
 
 #~ msgid ""
 #~ "Early Intel Pentium chips manufactured have a bug in their floating point "
@@ -3627,47 +3829,57 @@ msgstr "Apontiaedje manuwel"
 #~ "carculaedje esteut crombe cwand on fjheut ene operåcion di pårtaedje e "
 #~ "coma flotant (fdiv)"
 
-#~ msgid "Is FPU present"
-#~ msgstr "I gn a-st on FPU"
-
-#~ msgid "yes means the processor has an arithmetic coprocessor"
-#~ msgstr "«oyi» vout dire ki l' processeu a-st on coprocesseu aritmetike"
-
-#~ msgid "Whether the FPU has an irq vector"
-#~ msgstr "Si l' FPU a-st on vecteur d' irq ou nén"
-
-#~ msgid ""
-#~ "yes means the arithmetic coprocessor has an exception vector attached"
-#~ msgstr ""
-#~ "«oyi» vout dire ki l' coprocesseu aritmetike a-st on vecteur d' egzepcions"
+#~ msgid "Error!"
+#~ msgstr "Aroke!"
 
 #~ msgid "F00f bug"
 #~ msgstr "Bug «f00f»"
 
-#~ msgid ""
-#~ "early pentiums were buggy and freezed when decoding the F00F bytecode"
-#~ msgstr ""
-#~ "les prumîs pentiums avént-st on bug ki les fjheut edjaler å moumint di "
-#~ "discôder l' comande F00F"
+#~ msgid "FPU"
+#~ msgstr "FPU"
+
+#~ msgid "Fdiv bug"
+#~ msgstr "Bug «fdiv»"
+
+#~ msgid "File/-"
+#~ msgstr "Fitchî/-"
+
+#~ msgid "File/Save _As"
+#~ msgstr "Fitchî/Schaper et r_lomer"
+
+#~ msgid "File/_New"
+#~ msgstr "Fitchî/_Novea"
+
+#~ msgid "File/_Open"
+#~ msgstr "Fitchî/_Drovi"
+
+#~ msgid "File/_Quit"
+#~ msgstr "Fitchî/Moussî _foû"
+
+#~ msgid "File/_Save"
+#~ msgstr "Fitchî/_Schaper"
+
+#~ msgid "Final resolution"
+#~ msgstr "Finté finåle"
+
+#~ msgid "Gradient type"
+#~ msgstr "Sôre di gradyint"
 
 #~ msgid "Halt bug"
 #~ msgstr "Bug «halt»"
 
+#~ msgid "Help/_About..."
+#~ msgstr "Aidance/Å_d fwait..."
+
 #~ msgid ""
-#~ "Some of the early i486DX-100 chips cannot reliably return to operating "
-#~ "mode after the \"halt\" instruction is used"
+#~ "Here you can see files to use in order to fix permissions, owners, and "
+#~ "groups via msec.\n"
+#~ "You can also edit your own rules which will owerwrite the default rules."
 #~ msgstr ""
-#~ "Sacwantes des prumirès tchikes i486DX-100 èn polént nén ritourner comifåt "
-#~ "å môde d' ovraedje après aveur riçuvou l' instruccion «halt»"
-
-#~ msgid "Bugs"
-#~ msgstr "Bugs"
-
-#~ msgid "FPU"
-#~ msgstr "FPU"
-
-#~ msgid "Unknown/Others"
-#~ msgstr "Nén cnoxhou|Ôtes"
+#~ "Chal vos ploz vey les fitchîs a-z eployî po coridjî les permissions, "
+#~ "prôpietaires, et groupes avou msec.\n"
+#~ "Vos ploz eto fé vos prôpès rîles a-z eployî el plaece des prémetowès "
+#~ "rîles."
 
 #~ msgid ""
 #~ "Here, you can setup the security level and administrator of your "
@@ -3767,29 +3979,90 @@ msgstr "Apontiaedje manuwel"
 #~ "livea di dvant, mins li sistinme est\n"
 #~ "totafwaitmint seré eyet les fonccions di såvrité a leu macsimom."
 
-#~ msgid "(default value: %s)"
-#~ msgstr "(prémetowe valixhance: %s)"
+#~ msgid "I cannot find needed image file `%s'."
+#~ msgstr "Dji n' sai trover li fitchî imådje «%s» k' i gn a mezåjhe."
 
-#~ msgid "Security Level:"
-#~ msgstr "Livea di såvrité:"
+#~ msgid "Insert a blank floppy in drive %s"
+#~ msgstr "Metoz ene blanke plakete divins li lijheu %s"
 
-#~ msgid "Security Alerts:"
-#~ msgstr "Abranles di såvrité:"
+#~ msgid "Insert another blank floppy in drive %s (for drivers disk)"
+#~ msgstr "Metoz ene ôte blanke plakete divins l' lijheu %s (po les mineus)"
 
-#~ msgid "Security Administrator:"
-#~ msgstr "Manaedjeu pol såvrité:"
+#~ msgid "Is FPU present"
+#~ msgstr "I gn a-st on FPU"
 
-#~ msgid "Basic options"
-#~ msgstr "Tchuzes di båze"
+#~ msgid "Mandriva Linux Bug Report Tool"
+#~ msgstr "Usteye di rapoirtaedje di bugs di Mandriva Linux"
+
+#~ msgid "Mandriva Linux Tools Logs"
+#~ msgstr "Djournås des usteyes di Mandriva Linux"
+
+#, fuzzy
+#~ msgid "Mandriva Update"
+#~ msgstr "Mandriva Online (Mandriva so fyis)"
+
+#~ msgid "Menudrake"
+#~ msgstr "Menudrake"
+
+#~ msgid "Moondrake"
+#~ msgstr "Moondrake"
+
+#~ msgid "Msec"
+#~ msgstr "Msec"
 
 #~ msgid "Network Options"
 #~ msgstr "Tchuzes pol rantoele"
 
-#~ msgid "System Options"
-#~ msgstr "Tchuzes pol sistinme"
+#, fuzzy
+#~ msgid ""
+#~ "No Sound Card has been detected on your machine. Please verify that a "
+#~ "Linux-supported Sound Card is correctly plugged in"
+#~ msgstr ""
+#~ "Nole cåte tévé a stî detectêye so voste éndjole. Acertinez vs k' ene cåte "
+#~ "videyo/tévé ricnoxhowe pa Linux est bén raloyeye al copiutrece.\n"
+#~ "\n"
+#~ "Vos ploz viziter nosse båze di dnêyes del sopoirtêye éndjolreye so:\n"
+#~ "\n"
+#~ "\n"
+#~ "http://www.mandrivalinux.com/en/hardware.php3"
+
+#, fuzzy
+#~ msgid ""
+#~ "No TV Card has been detected on your machine. Please verify that a Linux-"
+#~ "supported Video/TV Card is correctly plugged in."
+#~ msgstr ""
+#~ "Nole cåte tévé a stî detectêye so voste éndjole. Acertinez vs k' ene cåte "
+#~ "videyo/tévé ricnoxhowe pa Linux est bén raloyeye al copiutrece.\n"
+#~ "\n"
+#~ "Vos ploz viziter nosse båze di dnêyes del sopoirtêye éndjolreye so:\n"
+#~ "\n"
+#~ "\n"
+#~ "http://www.mandrivalinux.com/en/hardware.php3"
+
+#~ msgid "OpenOffice.org"
+#~ msgstr "OpenOffice.org"
+
+#~ msgid "Options/Test"
+#~ msgstr "Tchuzes/Saye"
 
 #~ msgid "Periodic Checks"
 #~ msgstr "Verifiaedjes periodikes"
+
+#~ msgid ""
+#~ "Please choose for each step whether it will replay like your install, or "
+#~ "it will be manual"
+#~ msgstr ""
+#~ "S' i vs plait, tchoezixhoz po tchaeke etape s' i l' fåt rifé come vos "
+#~ "l' avoz fwait po voste astalaedje, ou s' i l' fåt fé manuwelmint"
+
+#~ msgid "Please enter a theme name"
+#~ msgstr "Intrez on no d' tinme s' i vs plait"
+
+#~ msgid "Please select a splash image"
+#~ msgstr "Tchoezixhoz ene imådje a håyner a l' enondaedje s' i vs plait."
+
+#~ msgid "Please wait, adding media..."
+#~ msgstr "Tårdjîz on pô s' i vs plait, radjoutaedje do sopoirt..."
 
 #~ msgid "Please wait, setting security level..."
 #~ msgstr "Tårdjîz on pô s' i vs plait, dji mete li livea di såvrité..."
@@ -3797,43 +4070,137 @@ msgstr "Apontiaedje manuwel"
 #~ msgid "Please wait, setting security options..."
 #~ msgstr "Tårdjîz on pô s' i vs plait, dji mete les tchuzes di såvrité..."
 
-#, fuzzy
+#~ msgid "Progress box transparency"
+#~ msgstr "Voeyaedje houte del bår d' avançmint"
+
+#~ msgid "Remove the last item"
+#~ msgstr "Oister li dierin cayet"
+
+#~ msgid "Restart XFS"
+#~ msgstr "Renonder XFS"
+
+#~ msgid "Save theme"
+#~ msgstr "Schaper l' tinme"
+
+#~ msgid "Security Administrator:"
+#~ msgstr "Manaedjeu pol såvrité:"
+
+#~ msgid "Security Alerts:"
+#~ msgstr "Abranles di såvrité:"
+
+#~ msgid "Security Level:"
+#~ msgstr "Livea di såvrité:"
+
+#~ msgid "Select Mandriva Tool:"
+#~ msgstr "Tchoezixhoz l' usteye da Mandriva:"
+
+#~ msgid "Silent bootsplash"
+#~ msgstr "Taijheuse waitroûlêye d' enondaedje"
+
 #~ msgid ""
-#~ "The following localization packages do not seem to be useful for your "
-#~ "system:"
-#~ msgstr "Les pacaedjes ki shuvèt dvèt esse astalés:\n"
+#~ "Some of the early i486DX-100 chips cannot reliably return to operating "
+#~ "mode after the \"halt\" instruction is used"
+#~ msgstr ""
+#~ "Sacwantes des prumirès tchikes i486DX-100 èn polént nén ritourner comifåt "
+#~ "å môde d' ovraedje après aveur riçuvou l' instruccion «halt»"
+
+#~ msgid "System Options"
+#~ msgstr "Tchuzes pol sistinme"
 
 #, fuzzy
-#~ msgid "Do you want to remove these packages?"
-#~ msgstr "Voloz vs enonder l' usteye d' apontiaedje k' i fåt?"
+#~ msgid "Text"
+#~ msgstr "Seulmint tecse"
 
-#, fuzzy
-#~ msgid ""
-#~ "The following hardware packages do not seem to be useful for your system:"
-#~ msgstr "Les pacaedjes ki shuvèt dvèt esse astalés:\n"
+#~ msgid "Text box height"
+#~ msgstr "Hôteur del boesse di tecse"
 
-#~ msgid "Please wait, adding media..."
-#~ msgstr "Tårdjîz on pô s' i vs plait, radjoutaedje do sopoirt..."
+#~ msgid "Text box transparency"
+#~ msgstr "Voeyaedje houte del boesse di tecse"
+
+#~ msgid "Text box width"
+#~ msgstr "Lårdjeu del boesse di tecse"
+
+#~ msgid "Text color"
+#~ msgstr "Coleur do tecse"
+
+#~ msgid "Text size"
+#~ msgstr "Grandeu do tecse"
 
 #~ msgid "The change is done, but to be effective you must logout"
 #~ msgstr ""
 #~ "Li candjmint a stî fwait, mins i vs fåt dislodjî et rvini e session po "
 #~ "k' i prindaxhe efet"
 
-#~ msgid "Restart XFS"
-#~ msgstr "Renonder XFS"
+#~ msgid ""
+#~ "The floppy has been successfully generated.\n"
+#~ "You may now replay your installation."
+#~ msgstr ""
+#~ "Li plakete a stî fwaite comifåt.\n"
+#~ "Vos ploz asteure rifé èn astalaedje avou."
 
-#~ msgid "Copyright (C) 2001-2008 by Mandriva"
-#~ msgstr "Copyright © 2001-2008 pa Mandriva"
+#, fuzzy
+#~ msgid ""
+#~ "The following hardware packages do not seem to be useful for your system:"
+#~ msgstr "Les pacaedjes ki shuvèt dvèt esse astalés:\n"
 
-#~ msgid "Error!"
-#~ msgstr "Aroke!"
+#, fuzzy
+#~ msgid ""
+#~ "The following localization packages do not seem to be useful for your "
+#~ "system:"
+#~ msgstr "Les pacaedjes ki shuvèt dvèt esse astalés:\n"
 
-#~ msgid "I cannot find needed image file `%s'."
-#~ msgstr "Dji n' sai trover li fitchî imådje «%s» k' i gn a mezåjhe."
+#~ msgid "The height of the progress bar"
+#~ msgstr "Li hôteur del bår d' avançmint"
 
-#~ msgid "Auto Install Configurator"
-#~ msgstr "Apontieu di l' astalaedje otomatike"
+#~ msgid ""
+#~ "The progress bar X coordinate\n"
+#~ "of its upper left corner"
+#~ msgstr ""
+#~ "Cordonêye X del coine a hintche\n"
+#~ "et å dzeu del bår d' avançmint"
+
+#~ msgid ""
+#~ "The progress bar Y coordinate\n"
+#~ "of its upper left corner"
+#~ msgstr ""
+#~ "Cordonêye Y del coine a hintche\n"
+#~ "et å dzeu del bår d' avançmint"
+
+#~ msgid "The width of the progress bar"
+#~ msgstr "Li lårdjeur del bår d' avançmint"
+
+#~ msgid "Theme name"
+#~ msgstr "No do tinme"
+
+#~ msgid "Unable to load image file %s"
+#~ msgstr "Dji n' a nén savou tcherdjî l' imådje %s"
+
+#~ msgid "Unknown/Others"
+#~ msgstr "Nén cnoxhou|Ôtes"
+
+#~ msgid "Urpmi"
+#~ msgstr "Urpmi"
+
+#~ msgid "Userdrake"
+#~ msgstr "Userdrake"
+
+#~ msgid "Verbose bootsplash"
+#~ msgstr "Badjawe waitroûlêye d' enondaedje"
+
+#~ msgid "Whether the FPU has an irq vector"
+#~ msgstr "Si l' FPU a-st on vecteur d' irq ou nén"
+
+#~ msgid "X coordinate of text box"
+#~ msgstr "Cordonêye X del boesse di tecse"
+
+#~ msgid "X coordinate of the text"
+#~ msgstr "Cordonêye X do tecse"
+
+#~ msgid "Y coordinate of text box"
+#~ msgstr "Cordonêye Y del boesse di tecse"
+
+#~ msgid "Y coordinate of the text"
+#~ msgstr "Cordonêye Y do tecse"
 
 #~ msgid ""
 #~ "You are about to configure an Auto Install floppy. This feature is "
@@ -3861,70 +4228,31 @@ msgstr "Apontiaedje manuwel"
 #~ "\n"
 #~ "Clitchî «'l est bon» po continouwer."
 
-#~ msgid "replay"
-#~ msgstr "Rifé"
+#~ msgid "choose image"
+#~ msgstr "tchoezixhoz ene imådje"
+
+#~ msgid ""
+#~ "early pentiums were buggy and freezed when decoding the F00F bytecode"
+#~ msgstr ""
+#~ "les prumîs pentiums avént-st on bug ki les fjheut edjaler å moumint di "
+#~ "discôder l' comande F00F"
 
 #~ msgid "manual"
 #~ msgstr "Al mwin"
 
-#~ msgid "Automatic Steps Configuration"
-#~ msgstr "Apontiaedje des etapes otomatikes"
+#~ msgid "replay"
+#~ msgstr "Rifé"
+
+#~ msgid "saving Bootsplash theme..."
+#~ msgstr "dji schape li tinme d' enondaedje di l' éndjole..."
+
+#~ msgid "whether this cpu has the Cyrix 6x86 Coma bug"
+#~ msgstr "si ç' processeu chal a l' bug di coma des Cyrix 6x86 ou nén"
 
 #~ msgid ""
-#~ "Please choose for each step whether it will replay like your install, or "
-#~ "it will be manual"
+#~ "yes means the arithmetic coprocessor has an exception vector attached"
 #~ msgstr ""
-#~ "S' i vs plait, tchoezixhoz po tchaeke etape s' i l' fåt rifé come vos "
-#~ "l' avoz fwait po voste astalaedje, ou s' i l' fåt fé manuwelmint"
+#~ "«oyi» vout dire ki l' coprocesseu aritmetike a-st on vecteur d' egzepcions"
 
-#~ msgid "Insert a blank floppy in drive %s"
-#~ msgstr "Metoz ene blanke plakete divins li lijheu %s"
-
-#~ msgid "Creating auto install floppy"
-#~ msgstr "Dji fé li plakete d' enondaedje otomatike"
-
-#~ msgid "Insert another blank floppy in drive %s (for drivers disk)"
-#~ msgstr "Metoz ene ôte blanke plakete divins l' lijheu %s (po les mineus)"
-
-#~ msgid "Creating auto install floppy (drivers disk)"
-#~ msgstr "Dji fé li plakete d' enondaedje otomatike (avou les mineus)"
-
-#~ msgid ""
-#~ "\n"
-#~ "Welcome.\n"
-#~ "\n"
-#~ "The parameters of the auto-install are available in the sections on the "
-#~ "left"
-#~ msgstr ""
-#~ "\n"
-#~ "Bénvnowe.\n"
-#~ "\n"
-#~ "Les parametes di l' astalaedje otomatike sont ezès seccions sol hintche"
-
-#~ msgid ""
-#~ "The floppy has been successfully generated.\n"
-#~ "You may now replay your installation."
-#~ msgstr ""
-#~ "Li plakete a stî fwaite comifåt.\n"
-#~ "Vos ploz asteure rifé èn astalaedje avou."
-
-#~ msgid "Auto Install"
-#~ msgstr "Astalaedje otomatike"
-
-#~ msgid "Add an item"
-#~ msgstr "Radjouter on cayet"
-
-#~ msgid "Remove the last item"
-#~ msgstr "Oister li dierin cayet"
-
-#~ msgid "Menudrake"
-#~ msgstr "Menudrake"
-
-#~ msgid "Msec"
-#~ msgstr "Msec"
-
-#~ msgid "Urpmi"
-#~ msgstr "Urpmi"
-
-#~ msgid "Userdrake"
-#~ msgstr "Userdrake"
+#~ msgid "yes means the processor has an arithmetic coprocessor"
+#~ msgstr "«oyi» vout dire ki l' processeu a-st on coprocesseu aritmetike"

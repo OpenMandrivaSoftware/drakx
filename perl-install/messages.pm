@@ -1,4 +1,4 @@
-package messages; # $Id$
+package messages;
 
 use common;
 
@@ -7,24 +7,24 @@ sub main_license() {
 #-PO: keep the double empty lines between sections, this is formatted a la LaTeX
 N("Introduction
 
-The operating system and the different components available in the OpenMandriva Lx distribution
-shall be called the \"Software Products\" hereafter. The Software Products include, but are not
-restricted to, the set of programs, methods, rules and documentation related to the operating
-system and the different components of the OpenMandriva Lx distribution, and any applications
-distributed with these products provided by OpenMandriva's licensors or suppliers.
+The operating system and the different components available in the Moondrake GNU/Linux distribution 
+shall be called the \"Software Products\" hereafter. The Software Products include, but are not 
+restricted to, the set of programs, methods, rules and documentation related to the operating 
+system and the different components of the Moondrake GNU/Linux distribution, and any applications 
+distributed with these products provided by Moondrake's licensors or suppliers.
 
 
 1. License Agreement
 
-Please read this document carefully. This document is a license agreement between you and
-the OpenMandriva Association which applies to the Software Products.
-By installing, duplicating or using any of the Software Products in any manner, you explicitly
-accept and fully agree to conform to the terms and conditions of this License.
-If you disagree with any portion of the License, you are not allowed to install, duplicate or use
-the Software Products.
-Any attempt to install, duplicate or use the Software Products in a manner which does not comply
-with the terms and conditions of this License is void and will terminate your rights under this
-License. Upon termination of the License,  you must immediately destroy all copies of the
+Please read this document carefully. This document is a license agreement between you and  
+Moondrake which applies to the Software Products.
+By installing, duplicating or using any of the Software Products in any manner, you explicitly 
+accept and fully agree to conform to the terms and conditions of this License. 
+If you disagree with any portion of the License, you are not allowed to install, duplicate or use 
+the Software Products. 
+Any attempt to install, duplicate or use the Software Products in a manner which does not comply 
+with the terms and conditions of this License is void and will terminate your rights under this 
+License. Upon termination of the License,  you must immediately destroy all copies of the 
 Software Products.
 
 
@@ -32,21 +32,21 @@ Software Products.
 
 The Software Products and attached documentation are provided \"as is\", with no warranty, to the
 extent permitted by law.
-Neither the OpenMandriva Association nor its licensors or suppliers will, in any circumstances
-and to the extent permitted by law, be liable for any special, incidental, direct or indirect damages
-whatsoever (including without limitation damages for loss of business, interruption of business, financial
-loss, legal fees and penalties resulting from a court judgment, or any other consequential loss)
-arising out of  the use or inability to use the Software Products, even if the OpenMandriva Association
-or its licensors or suppliers have been advised of the possibility or occurrence of such damages.
+Neither Moondrake nor its licensors or suppliers will, in any circumstances and to the extent 
+permitted by law, be liable for any special, incidental, direct or indirect damages whatsoever 
+(including without limitation damages for loss of business, interruption of business, financial 
+loss, legal fees and penalties resulting from a court judgment, or any other consequential loss) 
+arising out of  the use or inability to use the Software Products, even if Moondrake or its 
+licensors or suppliers have been advised of the possibility or occurrence of such damages.
 
 LIMITED LIABILITY LINKED TO POSSESSING OR USING PROHIBITED SOFTWARE IN SOME COUNTRIES
 
-To the extent permitted by law, neither the OpenMandriva Association nor its licensors, suppliers or
-distributors will, in any circumstances, be liable for any special, incidental, direct or indirect
-damages whatsoever (including without limitation damages for loss of business, interruption of
-business, financial loss, legal fees and penalties resulting from a court judgment, or any
-other consequential loss) arising out of the possession and use of software components or
-arising out of  downloading software components from one of OpenMandriva GNU/Linux sites which are
+To the extent permitted by law, neither Moondrake nor its licensors, suppliers or
+distributors will, in any circumstances, be liable for any special, incidental, direct or indirect 
+damages whatsoever (including without limitation damages for loss of business, interruption of 
+business, financial loss, legal fees and penalties resulting from a court judgment, or any 
+other consequential loss) arising out of the possession and use of software components or 
+arising out of  downloading software components from one of Moondrake GNU/Linux sites which are 
 prohibited or restricted in some countries by local laws.
 This limited liability applies to, but is not restricted to, the strong cryptography components
 included in the Software Products.
@@ -57,12 +57,12 @@ consequential or incidental damages, the above limitation may not apply to you.
 3. The GPL License and Related Licenses
 
 The Software Products consist of components created by different persons or entities. %s
-Most of these licenses allow you to use, duplicate, adapt or redistribute the components which
-they cover. Please read carefully the terms and conditions of the license agreement for each component
-before using any component. Any question on a component license should be addressed to the component
-licensor or supplier and not to the OpenMandriva Association.
-The programs developed by OpenMandriva are governed by the GPL License. Documentation written
-by OpenMandriva is governed by a specific license. Please refer to the documentation for
+Most of these licenses allow you to use, duplicate, adapt or redistribute the components which 
+they cover. Please read carefully the terms and conditions of the license agreement for each component 
+before using any component. Any question on a component license should be addressed to the component 
+licensor or supplier and not to Moondrake.
+The programs developed by Moondrake are governed by the GPL License. Documentation written 
+by Moondrake is governed by a specific license. Please refer to the documentation for 
 further details.
 
 
@@ -70,9 +70,9 @@ further details.
 
 All rights to the components of the Software Products belong to their respective authors and are
 protected by intellectual property and copyright laws applicable to software programs.
-OpenMandriva and its suppliers and licensors reserves their rights to modify or adapt the Software
+Moondrake and its suppliers and licensors reserves their rights to modify or adapt the Software 
 Products, as a whole or in parts, by all means and for all purposes.
-\"OpenMandriva\", \"OpenMandriva GNU/Linux\", \"OpenMandriva Lx\", and associated logos are trademarks of the OpenMandriva association.
+\"Moondrake\", \"Moondrake GNU/Linux\" and associated logos are trademarks of Moondrake  
 
 
 5. Governing Laws
@@ -83,10 +83,10 @@ agreement.
 The terms and conditions of this License are governed by the Laws of France.
 All disputes on the terms of this license will preferably be settled out of court. As a last
 resort, the dispute will be referred to the appropriate Courts of Law of Paris - France.
-For any question on this document, please contact OpenMandriva.",
-$us ? "\n\n" . N("You agree not to (i) sell, export, re-export, transfer, divert, disclose technical data, or
-dispose of, any Software to any person, entity, or destination prohibited by US export laws
-or regulations including, without limitation, Cuba, Iran, North Korea, Sudan and Syria; or
+For any question on this document, please contact Moondrake",
+$us ? "\n\n" . N("You agree not to (i) sell, export, re-export, transfer, divert, disclose technical data, or 
+dispose of, any Software to any person, entity, or destination prohibited by US export laws 
+or regulations including, without limitation, Cuba, Iran, North Korea, Sudan and Syria; or 
 (ii) use any Software for any use prohibited by the laws or regulations of the United States.
 
 U.S. GOVERNMENT RESTRICTED RIGHTS.
@@ -148,16 +148,16 @@ N("Congratulations, installation is complete.
 Remove the boot media and press Enter to reboot.
 
 
-For information on fixes which are available for this release of OpenMandriva Lx,
-consult the Errata available at our wiki:
+For information on fixes which are available for this release of Moondrake GNU/Linux,
+consult the Errata available from:
 
 
 %s
 
 
-Information on configuring your newly installed OpenMandriva Lx system
-is also available at our wiki.",
-'http://wiki.openmandriva.org/');
+Information on configuring your system is available in the post
+install chapter of the Official Moondrake GNU/Linux User's Guide.",
+'http://www.mandriva.com/en/security/advisories');
 }
 
 1;

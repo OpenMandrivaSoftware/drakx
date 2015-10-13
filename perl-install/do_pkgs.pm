@@ -1,4 +1,22 @@
-package do_pkgs; # $Id$
+package do_pkgs;
+
+=head1 SYNOPSYS
+
+B<do_pkgs> enables to install packages (through urpmi) from our tools.
+It works both during installer and in standalone tools.
+
+
+=head1 Functions
+
+=over
+
+=cut
+
+=item do_pkgs($in)
+
+Returns a new B<do_pkgs> object from a L<interactive> object.
+
+=cut
 
 sub do_pkgs {
     my ($in) = @_;
@@ -8,6 +26,14 @@ sub do_pkgs {
 ################################################################################
 package do_pkgs_common;
 use common;
+
+=item ensure_is_installed($do, $pkg, $o_file, $b_auto)
+
+Makes sure that the $pkg package is installed.
+If $o_file is provided, the already installed check is I<way> faster.
+If $b_auto is set, (g)urpmi will not ask any questions.
+
+=cut
 
 sub ensure_is_installed {
     my ($do, $pkg, $o_file, $b_auto) = @_;
@@ -31,6 +57,15 @@ sub ensure_is_installed {
     1;
 }
 
+=item ensure_are_installed($do, $pkgs, $b_auto)
+
+Makes sure that the packages listed in $pkgs array ref are installed.
+If $b_auto is set, (g)urpmi will not ask any questions.
+
+It's quite costly, so it's better to use the B<ensure_files_are_installed> instead.
+
+=cut
+
 sub ensure_are_installed {
     my ($do, $pkgs, $b_auto) = @_;
 
@@ -50,6 +85,14 @@ sub ensure_are_installed {
     1;
 }
 
+=item ensure_binary_is_installed($do, $pkg, $binary, $b_auto)
+
+Makes sure that the $pkg package is installed.
+$binary is looked for in $PATH. If not found, the package is installed.
+If $b_auto is set, (g)urpmi will not ask any questions.
+
+=cut
+
 sub ensure_binary_is_installed {
     my ($do, $pkg, $binary, $b_auto) = @_;
 
@@ -68,11 +111,27 @@ sub ensure_binary_is_installed {
     1;
 }
 
-# takes a list of [ "package", "file" ] and installs package if file is not there
+sub _find_file {
+    my ($file) = @_;
+    if ($file =~ m!/!) {
+	-e "$::prefix$file";
+    } else {
+	# assume it's a binary to search in $PATH:
+	whereis_binary($file, $::prefix);
+    }
+}
+
+=item ensure_files_are_installed($do, $pkgs, $b_auto)
+
+Takes a list of [ "package", "file" ] and installs package if file is not there.
+If $b_auto is set, (g)urpmi will not ask any questions.
+
+=cut
+
 sub ensure_files_are_installed {
     my ($do, $pkgs, $b_auto) = @_;
 
-    my @not_installed = map { my ($package, $file) = @$_; if_(!-e "$::prefix$file", $package) } @$pkgs;
+    my @not_installed = map { my ($package, $file) = @$_; if_(!_find_file($file), $package) } @$pkgs;
     return 1 if !@not_installed;
 
     $do->in->ask_okcancel(N("Warning"), N("The following packages need to be installed:\n") . join(', ', @not_installed), 1)
@@ -89,6 +148,12 @@ sub ensure_files_are_installed {
     1;
 }
 
+=item ensure_is_installed_if_available($do, $pkg, $file) = @_;
+
+Install $pkg if $file is not present and if $pkg is actually known to urpmi.
+
+=cut
+
 sub ensure_is_installed_if_available {
     my ($do, $pkg, $file) = @_;
     if (-e "$::prefix$file" || $::testing) {
@@ -98,20 +163,48 @@ sub ensure_is_installed_if_available {
     }
 }
 
+=item is_available($do, $name)
+
+=item are_available($do, @names)
+
+Returns name(s) of package(s) that are available (aka known to urpmi).
+This is somewhat costly (needs to parse urpmi synthesis...)
+
+=cut
+
 sub is_available {
     my ($do, $name) = @_;
     $do->are_available($name);
 }
+
+=item is_installed($do, $name)
+
+=item are_installed($do, @names)
+
+Returns name(s) of package(s) that are already installed on the system.
+This is less costly (needs to query RPM DB)
+
+=cut
 
 sub is_installed {
     my ($do, $name) = @_;
     $do->are_installed($name);
 }
 
-#- takes something like "ati-kernel"
-#- returns:
-#- - the various ati-kernel-2.6.XX-XXmdk available for the installed kernels
-#- - dkms-ati if available
+=item check_kernel_module_packages($do, $base_name)
+
+Takes something like "C<ati-kernel>" and returns:
+
+=over 4
+
+=item * the various C<ati-kernel-3.Y.XX-ZZmga> available for the installed kernels
+
+=item * C<dkms-ati> if available
+
+=back
+
+=cut
+
 sub check_kernel_module_packages {
     my ($do, $base_name) = @_;
     
@@ -135,6 +228,12 @@ use run_program;
 use common;
 
 our @ISA = qw(do_pkgs_common);
+
+=item new($type, $in)
+
+Returns a C<do_pkg> object.
+
+=cut
 
 sub new {
     my ($type, $in) = @_;
@@ -234,15 +333,16 @@ sub install {
 	return 1;
     }
 
+    my @wrapper = is_mgalive() ? qw(chroot /mnt/install) : ();
     my @options = ('--allow-medium-change', '--auto', '--no-verify-rpm', '--expect-install', @l);
     my $ret;
     if (check_for_xserver() && -x '/usr/bin/gurpmi') {
-        $ret = system('gurpmi', @options) == 0;
+        $ret = system(@wrapper, 'gurpmi', @options) == 0;
     } else {
         my $_wait = $do->in && $do->in->wait_message(N("Please wait"), N("Installing packages..."));
         $do->in->suspend if $do->in;
         log::explanations("installing packages @l");
-        $ret = system('urpmi', @options) == 0;
+        $ret = system(@wrapper, 'urpmi', @options) == 0;
         $do->in->resume if $do->in;
     }
     $ret;
@@ -300,3 +400,7 @@ sub remove_nodeps {
     my ($do, @l) = @_;
     remove($do, '--nodeps', @l) == 0;
 }
+
+=back
+
+=cut

@@ -17,7 +17,8 @@ install_only:
 	make -C rescue install DESTDIR=$(DESTDIR)
 	make -C advertising install DESTDIR=$(DESTDIR)
 
-	LC_ALL=C svn info ChangeLog  | egrep '^Revision|^Last Changed Date' > $(DESTDIR)$(STAGE2_DEST)/VERSION
+fetchsubmodules:
+	git submodule update --recursive --checkout
 
 clean:
 #	force taking new rpms from repository

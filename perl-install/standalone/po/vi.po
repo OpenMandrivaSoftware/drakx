@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DrakX-vi version\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-22 00:53+0100\n"
+"POT-Creation-Date: 2015-02-18 12:28+0100\n"
 "PO-Revision-Date: 2005-06-02 21:17+0700\n"
 "Last-Translator: Larry Nguyen <larry@vnlinux.org>\n"
 "Language-Team:  <gnomevi-list@lists.sourceforge.net>\n"
@@ -16,73 +16,73 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: display_help:54 display_help:59 drakbug:170 drakperm:134
+#: display_help:53 display_help:58 drakbug:173 drakperm:134
 #, c-format
 msgid "Help"
 msgstr "Trợ giúp"
 
-#: display_help:67 drakbug:175 drakfont:505
+#: display_help:66 drakbug:178 drakfont:507
 #, c-format
 msgid "Close"
 msgstr "Đóng"
 
-#: drakauth:24 drakauth:26 draksec:162
+#: drakauth:24 drakauth:26 draksec:184
 #, c-format
 msgid "Authentication"
 msgstr "Xác thực"
 
-#: drakauth:37 drakclock:113 drakclock:138 drakdvb:74 drakfont:211
-#: drakfont:224 drakfont:262 finish-install:131 logdrake:174 logdrake:449
-#: logdrake:454 scannerdrake:56 scannerdrake:98 scannerdrake:139
+#: drakauth:37 drakclock:117 drakclock:142 drakdvb:74 drakfont:213
+#: drakfont:226 drakfont:264 finish-install:133 logdrake:177 logdrake:453
+#: logdrake:458 scannerdrake:56 scannerdrake:98 scannerdrake:139
 #: scannerdrake:197 scannerdrake:256 scannerdrake:726 scannerdrake:737
 #: scannerdrake:876 scannerdrake:887 scannerdrake:957
 #, c-format
 msgid "Error"
 msgstr "Lỗi"
 
-#: drakboot:53
+#: drakboot:54
 #, c-format
 msgid "No bootloader found, creating a new configuration"
 msgstr ""
 
-#: drakboot:86 harddrake2:195 harddrake2:196 logdrake:75
+#: drakboot:89 harddrake2:191 logdrake:77
 #, c-format
-msgid "/_File"
-msgstr "/_Tệp"
+msgid "_File"
+msgstr "_Tệp"
 
-#: drakboot:87 logdrake:81
+#: drakboot:90 harddrake2:192 logdrake:78 logdrake:79
 #, c-format
-msgid "/File/_Quit"
-msgstr "/Tệp/T_hoát"
+msgid "_Quit"
+msgstr "T_hoát"
 
-#: drakboot:87 harddrake2:196 logdrake:81
+#: drakboot:90 harddrake2:192 logdrake:79
 #, c-format
 msgid "<control>Q"
 msgstr "<control>Q"
 
-#: drakboot:127
+#: drakboot:138
 #, c-format
 msgid "Text only"
 msgstr "Text only"
 
-#: drakboot:128
+#: drakboot:139
 #, c-format
 msgid "Verbose"
 msgstr "Verbose"
 
-#: drakboot:129
+#: drakboot:140
 #, c-format
 msgid "Silent"
 msgstr "Silent"
 
-#: drakboot:135 drakbug:247 drakdvb:57 drakfont:681 drakperm:374 drakperm:384
-#: drakups:26 harddrake2:528 localedrake:45 scannerdrake:48 scannerdrake:51
+#: drakboot:146 drakbug:250 drakdvb:57 drakfont:682 drakperm:371 drakperm:381
+#: drakups:27 harddrake2:504 localedrake:45 scannerdrake:48 scannerdrake:51
 #: scannerdrake:294 scannerdrake:299 scannerdrake:951
 #, c-format
 msgid "Warning"
 msgstr "Cảnh báo"
 
-#: drakboot:136
+#: drakboot:147
 #, c-format
 msgid ""
 "Your system bootloader is not in framebuffer mode. To activate graphical "
@@ -92,72 +92,72 @@ msgstr ""
 "động đồ họa, hãy chọn chế độ graphic video bằng công cụ cấu hình trình nạp "
 "khởi động."
 
-#: drakboot:137
+#: drakboot:148
 #, c-format
 msgid "Do you want to configure it now?"
 msgstr "Bạn muốn cấu hình không?"
 
-#: drakboot:146
+#: drakboot:157
 #, c-format
 msgid "Install themes"
 msgstr "Cài đặt theme"
 
-#: drakboot:148
+#: drakboot:159
 #, c-format
 msgid "Graphical boot theme selection"
 msgstr "Lựa chọn theme khởi động đồ họa"
 
-#: drakboot:151
+#: drakboot:162
 #, c-format
 msgid "Graphical boot mode:"
 msgstr "Dùng khởi động đồ họa"
 
-#: drakboot:153
+#: drakboot:164
 #, c-format
 msgid "Theme"
 msgstr "Theme"
 
-#: drakboot:187
+#: drakboot:198
 #, c-format
 msgid "Default user"
 msgstr "Người dùng mặc định"
 
-#: drakboot:188
+#: drakboot:199
 #, c-format
 msgid "Default desktop"
 msgstr "Desktop mặc định"
 
-#: drakboot:191
+#: drakboot:202
 #, c-format
 msgid "No, I do not want autologin"
 msgstr "Tôi không muốn đăng nhập tự động"
 
-#: drakboot:192
+#: drakboot:203
 #, c-format
 msgid "Yes, I want autologin with this (user, desktop)"
 msgstr "Tôi muốn đăng nhập tự động với cái này (người dùng, màn hình nền)"
 
-#: drakboot:199
+#: drakboot:210
 #, c-format
 msgid "System mode"
 msgstr "Chế độ hệ thống"
 
-#: drakboot:202
+#: drakboot:213
 #, c-format
 msgid "Launch the graphical environment when your system starts"
 msgstr "Chạy hệ thống X-Window khi khởi động"
 
-#: drakboot:257
+#: drakboot:268
 #, c-format
 msgid "Boot Style Configuration"
 msgstr "Cấu Hình Khuôn Thức Khởi Động"
 
-#: drakboot:259 drakboot:263
+#: drakboot:270 drakboot:274
 #, c-format
 msgid "Video mode"
 msgstr "Chế độ Video"
 
-#: drakboot:260
+#: drakboot:271
 #, c-format
 msgid ""
 "Please choose a video mode, it will be applied to each of the boot entries "
@@ -173,15 +173,15 @@ msgstr ""
 msgid "The \"%s\" program has crashed with the following error:"
 msgstr ""
 
-#: drakbug:60
+#: drakbug:62
 #, fuzzy, c-format
-msgid "OpenMandriva Lx Bug Reporting"
-msgstr "Công cụ báo cáo lỗi của OpenMandriva Lx"
+msgid "DrakX Bug Report Tool"
+msgstr "Công cụ báo cáo lỗi của Moondrake"
 
-#: drakbug:65
-#, c-format
-msgid "OpenMandriva Lx Control Center"
-msgstr "Trung tâm Điều khiển OpenMandriva Lx"
+#: drakbug:67
+#, fuzzy, c-format
+msgid "DrakX Linux Control Center"
+msgstr "Trung tâm Điều khiển Mandriva Linux"
 
 #: drakbug:66
 #, c-format
@@ -198,10 +198,15 @@ msgstr "Công Cụ Đồng Bộ Hoá"
 msgid "Standalone Tools"
 msgstr "Các Công Cụ Chuẩn"
 
-#: drakbug:70 drakbug:71
+#: drakbug:72 drakbug:73
 #, fuzzy, c-format
-msgid "OpenMandriva Online"
-msgstr "Mandriva Online"
+msgid "%s Online"
+msgstr "Moondrake Online"
+
+#: drakbug:72 drakbug:73 drakbug:99 draksec:169
+#, fuzzy, c-format
+msgid "DrakX"
+msgstr "DrakUPS"
 
 #: drakbug:72
 #, c-format
@@ -223,10 +228,10 @@ msgstr "Công Cụ Di Cư Từ Windows"
 msgid "Configuration Wizards"
 msgstr "Đồ Thuật Cấu Hình"
 
-#: drakbug:97
+#: drakbug:99
 #, fuzzy, c-format
-msgid "Select Tool:"
-msgstr "Hãy chọn công cụ Mandriva:"
+msgid "Select %s Tool:"
+msgstr "Hãy chọn công cụ Moondrake:"
 
 #: drakbug:98
 #, c-format
@@ -333,27 +338,27 @@ msgstr ""
 msgid "Thanks."
 msgstr ""
 
-#: drakclock:28 draksec:168
+#: drakclock:29 draksec:190
 #, c-format
 msgid "Date, Clock & Time Zone Settings"
 msgstr ""
 
-#: drakclock:37
+#: drakclock:38
 #, c-format
 msgid "not defined"
 msgstr "chưa định nghĩa"
 
-#: drakclock:39
+#: drakclock:40
 #, c-format
 msgid "Change Time Zone"
 msgstr "Đổi múi giờ"
 
-#: drakclock:44
+#: drakclock:45
 #, c-format
 msgid "Timezone - DrakClock"
 msgstr "Múi giờ - DrakClock"
 
-#: drakclock:44
+#: drakclock:45
 #, c-format
 msgid "Which is your timezone?"
 msgstr "Bạn ở múi giờ nào?"
@@ -368,12 +373,12 @@ msgstr "GMT - DrakClock"
 msgid "Is your hardware clock set to GMT?"
 msgstr "Đồng hồ trong máy đặt theo GMT?"
 
-#: drakclock:72
+#: drakclock:75
 #, c-format
 msgid "Network Time Protocol"
 msgstr "Giao thức thời gian mạng"
 
-#: drakclock:74
+#: drakclock:77
 #, c-format
 msgid ""
 "Your computer can synchronize its clock\n"
@@ -382,42 +387,42 @@ msgstr ""
 "Máy tính của bạn có thể đồng bộ hóa đồng hồ\n"
 "với máy chủ thời gian ở xa bằng NTP"
 
-#: drakclock:75
+#: drakclock:78
 #, c-format
 msgid "Enable Network Time Protocol"
 msgstr "Bật giao thức thời gian mạng"
 
-#: drakclock:83
+#: drakclock:86
 #, c-format
 msgid "Server:"
 msgstr "Máy chủ:"
 
-#: drakclock:97
+#: drakclock:100
 #, c-format
 msgid "Timezone"
 msgstr "Múi giờ"
 
-#: drakclock:113
+#: drakclock:117
 #, fuzzy, c-format
 msgid "Please enter a valid NTP server address."
 msgstr "Vui lòng điền vào địa chỉ IP hợp lệ."
 
-#: drakclock:139
+#: drakclock:143
 #, c-format
 msgid "Could not synchronize with %s."
 msgstr "Không thể đồng bộ hóa với %s."
 
-#: drakclock:140 drakdvb:149 logdrake:179 scannerdrake:488
+#: drakclock:144 drakdvb:149 logdrake:182 scannerdrake:488
 #, c-format
 msgid "Quit"
 msgstr "Thoát"
 
-#: drakclock:141
+#: drakclock:145
 #, fuzzy, c-format
 msgid "Retry"
 msgstr "Khôi phục"
 
-#: drakclock:166 drakclock:176
+#: drakclock:168 drakclock:178
 #, c-format
 msgid "Reset"
 msgstr "Đặt lại"
@@ -442,10 +447,10 @@ msgstr ""
 msgid "Could not get the list of available channels"
 msgstr ""
 
-#: drakdvb:80 draksec:67 drakups:98 finish-install:106 harddrake2:374
+#: drakdvb:80 draksec:69 drakups:99 finish-install:106 harddrake2:358
 #: scannerdrake:63 scannerdrake:67 scannerdrake:75 scannerdrake:316
 #: scannerdrake:365 scannerdrake:501 scannerdrake:505 scannerdrake:527
-#: service_harddrake:423
+#: service_harddrake:426
 #, c-format
 msgid "Please wait"
 msgstr "Hãy đợi"
@@ -455,7 +460,7 @@ msgstr "Hãy đợi"
 msgid "Detecting DVB channels, this will take a few minutes"
 msgstr ""
 
-#: drakdvb:85 drakfont:571 drakfont:651 drakfont:735 drakups:216 logdrake:179
+#: drakdvb:85 drakfont:571 drakfont:651 drakfont:736 drakups:217 logdrake:182
 #, c-format
 msgid "Cancel"
 msgstr "Bỏ qua"
@@ -487,20 +492,25 @@ msgstr "GDM (Trình quản lý hiển thị GNOME)"
 
 #: drakedm:43
 #, fuzzy, c-format
+msgid "LIGHTDM (LightDM Display Manager)"
+msgstr "GDM (Trình quản lý hiển thị GNOME)"
+
+#: drakedm:44
+#, fuzzy, c-format
 msgid "SLIM (Simple Display Manager)"
 msgstr "XDM (Trình quản lý hiển thị X)"
 
-#: drakedm:44
+#: drakedm:45
 #, c-format
 msgid "XDM (X Display Manager)"
 msgstr "XDM (Trình quản lý hiển thị X)"
 
-#: drakedm:55
+#: drakedm:56
 #, c-format
 msgid "Choosing a display manager"
 msgstr "Đang chọn một trình quản lý hiển thị"
 
-#: drakedm:56
+#: drakedm:57
 #, c-format
 msgid ""
 "X11 Display Manager allows you to graphically log\n"
@@ -511,12 +521,12 @@ msgstr ""
 "vào hệ thống chạy Hệ Thống Cửa Sổ X và hỗ trợ việc chạy một vài\n"
 "phiên làm việc X khác cùng một lúc trên máy tính cục bộ của bạn."
 
-#: drakedm:79
+#: drakedm:80
 #, c-format
 msgid "The change is done, do you want to restart the dm service?"
 msgstr "Hoàn thành việc thay đổi, bạn có muốn chạy lại dịch vụ dm không?"
 
-#: drakedm:80
+#: drakedm:81
 #, c-format
 msgid ""
 "You are going to close all running programs and lose your current session. "
@@ -641,7 +651,7 @@ msgstr "Sau cài đặt"
 msgid "DrakFont"
 msgstr "DrakFont"
 
-#: drakfont:489 drakfont:641
+#: drakfont:491 drakfont:641
 #, c-format
 msgid "Font List"
 msgstr "Danh sách phông"
@@ -656,12 +666,12 @@ msgstr ""
 msgid "About"
 msgstr "Giới thiệu về"
 
-#: drakfont:499 drakfont:540
+#: drakfont:501 drakfont:540
 #, c-format
 msgid "Options"
 msgstr "Tùy chọn"
 
-#: drakfont:500 drakfont:720
+#: drakfont:502 drakfont:721
 #, c-format
 msgid "Uninstall"
 msgstr "Gỡ bỏ cài đặt"
@@ -676,24 +686,24 @@ msgstr "Nhập"
 msgid "Drakfont"
 msgstr "DrakFont"
 
-#: drakfont:521 harddrake2:229
-#, fuzzy, c-format
-msgid "Copyright (C) %s by OpenMandriva"
-msgstr "Bản quyền (C) 2001-2008 Mandriva"
+#: drakfont:523
+#, c-format
+msgid "Copyright (C) %s by Mandriva"
+msgstr ""
 
 #: drakfont:523
 #, fuzzy, c-format
 msgid "Font installer."
 msgstr "Không được cài đặt"
 
-#: drakfont:525 logdrake:55
-#, c-format
-msgid "OpenMandriva Lx"
-msgstr "OpenMandriva Lx"
+#: drakfont:527
+#, fuzzy, c-format
+msgid "Moondrake GNU/Linux"
+msgstr "Mandriva Linux"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
-#: drakfont:532 harddrake2:238
+#: drakfont:532 harddrake2:531
 #, c-format
 msgid "_: Translator(s) name(s) & email(s)\n"
 msgstr ""
@@ -723,7 +733,7 @@ msgstr "Abiword"
 msgid "Generic Printers"
 msgstr "Máy in Chung"
 
-#: drakfont:561 drakfont:571 drakups:209
+#: drakfont:561 drakfont:571 drakups:210
 #, c-format
 msgid "Ok"
 msgstr "Ok"
@@ -743,17 +753,17 @@ msgstr "Lựa chọn File"
 msgid "Fonts"
 msgstr "Phông chữ"
 
-#: drakfont:639 draksec:164
+#: drakfont:639 draksec:186
 #, c-format
 msgid "Import fonts"
 msgstr "Nhập phông chữ"
 
-#: drakfont:645 drakups:298 drakups:374
+#: drakfont:645 drakups:299 drakups:375
 #, c-format
 msgid "Add"
 msgstr "Thêm"
 
-#: drakfont:646 drakfont:734 drakups:300 drakups:376
+#: drakfont:646 drakfont:735 drakups:301 drakups:377
 #, c-format
 msgid "Remove"
 msgstr "Gỡ bỏ"
@@ -763,67 +773,67 @@ msgstr "Gỡ bỏ"
 msgid "Install"
 msgstr "Cài đặt"
 
-#: drakfont:683
+#: drakfont:684
 #, c-format
 msgid "Are you sure you want to uninstall the following fonts?"
 msgstr ""
 
-#: drakfont:687 draksec:57 harddrake2:319
+#: drakfont:688 draksec:59 harddrake2:302
 #, c-format
 msgid "Yes"
 msgstr "Có"
 
-#: drakfont:689 draksec:56 harddrake2:320
+#: drakfont:690 draksec:58 harddrake2:303
 #, c-format
 msgid "No"
 msgstr "Không"
 
-#: drakfont:728
+#: drakfont:729
 #, c-format
 msgid "Unselect All"
 msgstr "Mọi thứ không được chọn"
 
-#: drakfont:731
+#: drakfont:732
 #, c-format
 msgid "Select All"
 msgstr "Mọi thứ được chọn"
 
-#: drakfont:748
+#: drakfont:749
 #, c-format
 msgid "Importing fonts"
 msgstr "Nhập phông chữ"
 
-#: drakfont:752 drakfont:772
+#: drakfont:753 drakfont:773
 #, c-format
 msgid "Initial tests"
 msgstr "Các test sơ khởi"
 
-#: drakfont:753
+#: drakfont:754
 #, c-format
 msgid "Copy fonts on your system"
 msgstr "Sao chép các phông chữ vào hệ thống"
 
-#: drakfont:754
+#: drakfont:755
 #, c-format
 msgid "Install & convert Fonts"
 msgstr "Cài đặt & chuyển đổi phông"
 
-#: drakfont:755
+#: drakfont:756
 #, c-format
 msgid "Post Install"
 msgstr "Sau cài đặt"
 
-#: drakfont:767
+#: drakfont:768
 #, fuzzy, c-format
 msgid "Removing fonts"
 msgstr "Nhập phông chữ"
 
-#: drakfont:773
+#: drakfont:774
 #, c-format
 msgid "Remove fonts on your system"
 msgstr "Gỡ bỏ phông chữ trong hệ thống"
 
-#: drakfont:774
+#: drakfont:775
 #, c-format
 msgid "Post Uninstall"
 msgstr "Sau gỡ cài đặt"
@@ -902,22 +912,22 @@ msgstr "Tự hưởng các quyền"
 msgid "Editable"
 msgstr "Có thể hiệu chỉnh"
 
-#: drakperm:48 drakperm:318
+#: drakperm:50 drakperm:318
 #, c-format
 msgid "Path"
 msgstr "Đường dẫn"
 
-#: drakperm:48 drakperm:247
+#: drakperm:50 drakperm:247
 #, c-format
 msgid "User"
 msgstr "Người dùng"
 
-#: drakperm:48 drakperm:247
+#: drakperm:50 drakperm:247
 #, c-format
 msgid "Group"
 msgstr "Nhóm"
 
-#: drakperm:48 drakperm:107 drakperm:330 draksec:179
+#: drakperm:50 drakperm:107 drakperm:330 draksec:201
 #, c-format
 msgid "Permissions"
 msgstr "Sự chấp thuận"
@@ -927,7 +937,7 @@ msgstr "Sự chấp thuận"
 msgid "Add a new rule"
 msgstr "Thêm quy tắc mới"
 
-#: drakperm:65 drakperm:100 drakperm:126
+#: drakperm:67 drakperm:102 drakperm:126
 #, c-format
 msgid "Edit current rule"
 msgstr "Biên soạn quy tắc hiện thời"
@@ -937,7 +947,7 @@ msgstr "Biên soạn quy tắc hiện thời"
 msgid ""
 "Here you can see files to use in order to fix permissions, owners, and "
 "groups via msec.\n"
-"You can also edit your own rules which will owerwrite the default rules."
+"You can also edit your own rules which will overwrite the default rules."
 msgstr ""
 "Tại đây bạn có thể xem các tập tin dùng để sửa lỗi quyền hạn, chủ sở hữu, và "
 "nhóm thông qua msec.\n"
@@ -993,7 +1003,7 @@ msgstr "Xóa"
 msgid "Delete selected rule"
 msgstr "Xóa quy tắc được chọn"
 
-#: drakperm:126 drakups:299 drakups:375
+#: drakperm:126 drakups:300 drakups:376
 #, c-format
 msgid "Edit"
 msgstr "Biên soạn"
@@ -1120,24 +1130,24 @@ msgstr "Chọn đường dẫn"
 msgid "Property"
 msgstr "Đặc tính"
 
-#: drakperm:374
+#: drakperm:371
 #, c-format
 msgid ""
 "The first character of the path must be a slash (\"/\"):\n"
 "\"%s\""
 msgstr ""
 
-#: drakperm:384
+#: drakperm:381
 #, c-format
 msgid "Both the username and the group must valid!"
 msgstr ""
 
-#: drakperm:385
+#: drakperm:382
 #, c-format
 msgid "User: %s"
 msgstr ""
 
-#: drakperm:386
+#: drakperm:383
 #, c-format
 msgid "Group: %s"
 msgstr ""
@@ -1157,7 +1167,7 @@ msgstr "CỤC BỘ"
 msgid "NONE"
 msgstr "KHÔNG PHẢI"
 
-#: draksec:54
+#: draksec:56 draksec:113
 #, c-format
 msgid "Default"
 msgstr "Mặc định"
@@ -1174,145 +1184,145 @@ msgstr "Mức độ bảo mật:"
 
 #: draksec:108
 #, c-format
-msgid "Configure access to OpenMandriva Lx administrative tools"
+msgid "Configure authentication required to access DrakX tools"
 msgstr ""
 
-#: draksec:111
+#: draksec:114
 #, c-format
 msgid "No password needed"
 msgstr "Không có mật khẩu"
 
-#: draksec:112
+#: draksec:115
 #, c-format
-msgid "Root password required"
+msgid "Administrator password"
 msgstr ""
 
-#: draksec:113
+#: draksec:116
 #, c-format
 msgid "User password required"
 msgstr ""
 
-#: draksec:146 draksec:202
+#: draksec:168 draksec:223
 #, c-format
 msgid "Software Management"
 msgstr "Quản Lý Phần Mềm"
 
-#: draksec:147
+#: draksec:169
 #, fuzzy, c-format
-msgid "Online Update"
-msgstr "Mandriva Online"
+msgid "%s Update"
+msgstr "Moondrake Online"
 
-#: draksec:148
+#: draksec:170
 #, c-format
 msgid "Software Media Manager"
 msgstr "Trình Quản Lý Nguồn Phần Mềm"
 
-#: draksec:149
+#: draksec:171
 #, fuzzy, c-format
 msgid "Configure 3D Desktop effects"
 msgstr "Cấu hình máy chủ newsgroup"
 
-#: draksec:150
+#: draksec:172
 #, fuzzy, c-format
 msgid "Graphical Server Configuration"
 msgstr "Cấu hình Thư Cảnh Báo"
 
-#: draksec:151
+#: draksec:173
 #, fuzzy, c-format
 msgid "Mouse Configuration"
 msgstr "Cấu hình thủ công"
 
-#: draksec:152
+#: draksec:174
 #, fuzzy, c-format
 msgid "Keyboard Configuration"
 msgstr "Đồ thuật Cấu hình"
 
-#: draksec:153
+#: draksec:175
 #, fuzzy, c-format
 msgid "Printer Configuration"
 msgstr "Cấu hình proxy"
 
-#: draksec:154
+#: draksec:176
 #, fuzzy, c-format
 msgid "UPS Configuration"
 msgstr "Cấu hình UPS driver"
 
-#: draksec:155
+#: draksec:177
 #, fuzzy, c-format
 msgid "Network Configuration"
 msgstr "Cấu hình cảnh báo"
 
-#: draksec:156
+#: draksec:178
 #, c-format
 msgid "Hosts definitions"
 msgstr ""
 
-#: draksec:157
+#: draksec:179
 #, fuzzy, c-format
 msgid "Network Center"
 msgstr "Mạng & Internet"
 
-#: draksec:158
+#: draksec:180
 #, c-format
 msgid "Wireless Network Roaming"
 msgstr ""
 
-#: draksec:159
+#: draksec:181
 #, c-format
 msgid "VPN"
 msgstr ""
 
-#: draksec:160
+#: draksec:182
 #, c-format
 msgid "Proxy Configuration"
 msgstr "Cấu hình proxy"
 
-#: draksec:161
+#: draksec:183
 #, fuzzy, c-format
 msgid "Connection Sharing"
 msgstr "Kết nối"
 
-#: draksec:163
+#: draksec:185
 #, c-format
 msgid "Backups"
 msgstr "Sao lưu"
 
-#: draksec:165 logdrake:56
+#: draksec:187 logdrake:56
 #, c-format
 msgid "Logs"
 msgstr "Logs"
 
-#: draksec:166 finish-install:210 finish-install:249
+#: draksec:188 finish-install:212 finish-install:251
 #, c-format
 msgid "Services"
 msgstr "Dịch vụ"
 
-#: draksec:167
+#: draksec:189
 #, fuzzy, c-format
 msgid "Users"
 msgstr "Người dùng"
 
-#: draksec:169
+#: draksec:191
 #, fuzzy, c-format
 msgid "Boot Configuration"
 msgstr "Cấu hình cảnh báo"
 
-#: draksec:203
+#: draksec:224
 #, c-format
 msgid "Hardware"
 msgstr "Phần Cứng"
 
-#: draksec:204
+#: draksec:225
 #, fuzzy, c-format
 msgid "Network"
 msgstr "Tùy Chọn Mạng"
 
-#: draksec:205
+#: draksec:226
 #, c-format
 msgid "System"
 msgstr "Hệ Thống"
 
-#: draksec:206
+#: draksec:227
 #, c-format
 msgid "Boot"
 msgstr "Khởi Động"
@@ -1403,12 +1413,12 @@ msgstr ""
 msgid "Autodetection"
 msgstr "Tự động phát hiện"
 
-#: drakups:98 harddrake2:374
+#: drakups:99 harddrake2:358
 #, c-format
 msgid "Detection in progress"
 msgstr "Đang dò tìm"
 
-#: drakups:117 drakups:156 logdrake:461 logdrake:467
+#: drakups:118 drakups:157 logdrake:465 logdrake:471
 #, c-format
 msgid "Congratulations"
 msgstr "Chúc mừng"
@@ -1543,7 +1553,7 @@ msgstr "Mức độ"
 msgid "ACL name"
 msgstr "Tên ACL"
 
-#: drakups:296 finish-install:258
+#: drakups:297 finish-install:260
 #, c-format
 msgid "Password"
 msgstr "Mật khẩu"
@@ -1597,7 +1607,7 @@ msgid "Keyboard"
 msgstr "Bàn phím"
 
 #: finish-install:58
-#, fuzzy, c-format
+#, c-format
 msgid "Please choose your keyboard layout."
 msgstr "Hãy chọn tổ chức bàn phím"
 
@@ -1606,57 +1616,62 @@ msgstr "Hãy chọn tổ chức bàn phím"
 msgid "Testing your connection..."
 msgstr ""
 
-#: finish-install:185
+#: finish-install:187
 #, c-format
 msgid "Windows-compatible sharing system"
 msgstr ""
 
-#: finish-install:188
+#: finish-install:189
+#, c-format
+msgid "Virtual Private Network"
+msgstr ""
+
+#: finish-install:190
 #, fuzzy, c-format
 msgid "OpenSSH server"
 msgstr "Máy chủ SSH"
 
-#: finish-install:189
+#: finish-install:191
 #, fuzzy, c-format
 msgid "Print server"
 msgstr "Máy chủ FTP"
 
-#: finish-install:209
+#: finish-install:211
 #, c-format
 msgid "Do you have any services that you want to run when starting up?"
 msgstr ""
 
-#: finish-install:241
+#: finish-install:243
 #, fuzzy, c-format
 msgid "The following services failed to start:\n"
 msgstr "Các gói sau đây cần được cài đặt:\n"
 
-#: finish-install:244
+#: finish-install:246
 #, fuzzy, c-format
 msgid "The following services failed to stop:\n"
 msgstr "Các gói sau đây cần được cài đặt:\n"
 
-#: finish-install:256 finish-install:274 finish-install:287
+#: finish-install:258 finish-install:276 finish-install:289
 #, c-format
 msgid "Encrypted home partition"
 msgstr ""
 
-#: finish-install:256
+#: finish-install:258
 #, c-format
 msgid "Please enter a password for the %s user"
 msgstr ""
 
-#: finish-install:259
+#: finish-install:261
 #, c-format
 msgid "Password (again)"
 msgstr "Nhập lại mật khẩu"
 
-#: finish-install:274
+#: finish-install:276
 #, c-format
 msgid "Creating encrypted home partition"
 msgstr ""
 
-#: finish-install:287
+#: finish-install:289
 #, c-format
 msgid "Formatting encrypted home partition"
 msgstr ""
@@ -2289,48 +2304,144 @@ msgstr "Phân vùng"
 msgid "Features"
 msgstr "Tính năng"
 
-#. -PO: please keep all "/" characters !!!
-#: harddrake2:179 logdrake:82
+#: harddrake2:179
 #, c-format
-msgid "/_Options"
-msgstr "/Tuỳ _chọn"
+msgid "Autodetect _modems"
+msgstr "Tự động dò mo_dem"
 
-#: harddrake2:180 harddrake2:203 logdrake:84
+#: harddrake2:180
 #, c-format
-msgid "/_Help"
-msgstr "/Trợ _giúp"
+msgid "Autodetect parallel _zip drives"
+msgstr "Tự động phát hiện parallel _zip drives"
 
 #: harddrake2:184
-#, c-format
-msgid "/Autodetect _modems"
-msgstr "/Tự động dò mo_dem"
-
-#: harddrake2:185
-#, c-format
-msgid "/Autodetect parallel _zip drives"
-msgstr "/Tự động phát hiện parallel _zip drives"
-
-#: harddrake2:189
 #, fuzzy, c-format
 msgid "Hardware Configuration"
 msgstr "Đồ thuật Cấu hình"
 
+#: harddrake2:193
+#, c-format
+msgid "_Options"
+msgstr "Tuỳ _chọn"
+
+#: harddrake2:194 harddrake2:195
+#, c-format
+msgid "_Help"
+msgstr "Trợ _giúp"
+
+#: harddrake2:195
+#, fuzzy, c-format
+msgid "<control>H"
+msgstr "<control>Q"
+
 #: harddrake2:196
 #, c-format
-msgid "/_Quit"
-msgstr "/T_hoát"
+msgid "_Fields description"
+msgstr "Mô tả các t_rường"
 
-#: harddrake2:205
+#: harddrake2:197
 #, c-format
-msgid "/_Fields description"
-msgstr "/Mô tả các t_rường"
+msgid "_Report Bug"
+msgstr "_Báo cáo lỗi"
 
-#: harddrake2:207
+#: harddrake2:198
+#, c-format
+msgid "_About..."
+msgstr "Giới thiệ_u..."
+
+#: harddrake2:242
+#, c-format
+msgid "Detected hardware"
+msgstr "Phần cứng được phát hiện"
+
+#: harddrake2:245 scannerdrake:283
+#, c-format
+msgid "Information"
+msgstr "Thông tin"
+
+#: harddrake2:247
+#, fuzzy, c-format
+msgid "Set current driver options"
+msgstr "Sử dụng driver của máy trạm"
+
+#: harddrake2:254
+#, c-format
+msgid "Run config tool"
+msgstr "Chạy công cụ cấu hình"
+
+#: harddrake2:280
+#, c-format
+msgid ""
+"Click on a device in the tree on the left in order to display its "
+"information here."
+msgstr "Nhấn chuột lên thiết bị ở cây bên trái để xem thông tin về nó tại đây."
+
+#: harddrake2:300 notify-x11-free-driver-switch:13
+#, c-format
+msgid "unknown"
+msgstr "không xác định"
+
+#: harddrake2:301
+#, c-format
+msgid "Unknown"
+msgstr "Không xác định"
+
+#: harddrake2:321
+#, c-format
+msgid "Misc"
+msgstr "Linh tinh"
+
+#: harddrake2:404
+#, c-format
+msgid "secondary"
+msgstr "phụ"
+
+#: harddrake2:404
+#, c-format
+msgid "primary"
+msgstr "chính"
+
+#: harddrake2:408
+#, c-format
+msgid "burner"
+msgstr "ổ ghi"
+
+#: harddrake2:408
+#, c-format
+msgid "DVD"
+msgstr "DVD"
+
+#: harddrake2:504
+#, c-format
+msgid "The following packages need to be installed:\n"
+msgstr "Các gói sau đây cần được cài đặt:\n"
+
+#: harddrake2:521
+#, fuzzy, c-format
+msgid "Harddrake"
+msgstr "Harddrake2"
+
+#: harddrake2:523
+#, c-format
+msgid "Copyright (C) %s by %s"
+msgstr "Bản quyền (C) %s %s"
+
+#: harddrake2:523 harddrake2:527
+#, c-format
+msgid "Mageia"
+msgstr ""
+
+#: harddrake2:525
+#, c-format
+msgid "This is HardDrake, a %s hardware configuration tool."
+msgstr ""
+
+#: harddrake2:540
 #, c-format
 msgid "Harddrake help"
 msgstr "Trợ Giúp Mandriva"
 
-#: harddrake2:208
+#: harddrake2:541
 #, c-format
 msgid ""
 "Description of the fields:\n"
@@ -2339,12 +2450,12 @@ msgstr ""
 "Mô tả về các trường:\n"
 "\n"
 
-#: harddrake2:216
+#: harddrake2:548
 #, c-format
 msgid "Select a device!"
 msgstr "Chọn thiết bị !"
 
-#: harddrake2:216
+#: harddrake2:548
 #, c-format
 msgid ""
 "Once you've selected a device, you'll be able to see the device information "
@@ -2352,98 +2463,6 @@ msgid ""
 msgstr ""
 "Mỗi lần chọn một thiết bị, bạn sẽ thấy thông tin thiết bị trong các trường "
 "được hiển thị trên khung bên phải (\"Thông tin\")"
-
-#: harddrake2:222
-#, c-format
-msgid "/_Report Bug"
-msgstr "/_Báo cáo lỗi"
-
-#: harddrake2:224
-#, c-format
-msgid "/_About..."
-msgstr "/Giới thiệ_u..."
-
-#: harddrake2:227
-#, fuzzy, c-format
-msgid "Harddrake"
-msgstr "Harddrake2"
-
-#: harddrake2:231
-#, c-format
-msgid "This is HardDrake, a %s hardware configuration tool."
-msgstr ""
-
-#: harddrake2:233
-#, fuzzy, c-format
-msgid "OpenMandriva Linux"
-msgstr "OpenMandriva Lx"
-
-#: harddrake2:264
-#, c-format
-msgid "Detected hardware"
-msgstr "Phần cứng được phát hiện"
-
-#: harddrake2:267 scannerdrake:283
-#, c-format
-msgid "Information"
-msgstr "Thông tin"
-
-#: harddrake2:269
-#, fuzzy, c-format
-msgid "Set current driver options"
-msgstr "Sử dụng driver của máy trạm"
-
-#: harddrake2:276
-#, c-format
-msgid "Run config tool"
-msgstr "Chạy công cụ cấu hình"
-
-#: harddrake2:296
-#, c-format
-msgid ""
-"Click on a device in the tree on the left in order to display its "
-"information here."
-msgstr "Nhấn chuột lên thiết bị ở cây bên trái để xem thông tin về nó tại đây."
-
-#: harddrake2:317 notify-x11-free-driver-switch:13
-#, c-format
-msgid "unknown"
-msgstr "không xác định"
-
-#: harddrake2:318
-#, c-format
-msgid "Unknown"
-msgstr "Không xác định"
-
-#: harddrake2:338
-#, c-format
-msgid "Misc"
-msgstr "Linh tinh"
-
-#: harddrake2:420
-#, c-format
-msgid "secondary"
-msgstr "phụ"
-
-#: harddrake2:420
-#, c-format
-msgid "primary"
-msgstr "chính"
-
-#: harddrake2:424
-#, c-format
-msgid "burner"
-msgstr "ổ ghi"
-
-#: harddrake2:424
-#, c-format
-msgid "DVD"
-msgstr "DVD"
-
-#: harddrake2:528
-#, c-format
-msgid "The following packages need to be installed:\n"
-msgstr "Các gói sau đây cần được cài đặt:\n"
 
 #: localedrake:38
 #, c-format
@@ -2462,219 +2481,174 @@ msgid ", "
 msgstr ", "
 
 #: logdrake:55
-#, c-format
-msgid "%s Tools Logs"
-msgstr ""
+#, fuzzy, c-format
+msgid "DrakX Tools Logs"
+msgstr "Bản ghi công cụ của Moondrake"
 
 #: logdrake:69
 #, c-format
 msgid "Show only for the selected day"
 msgstr "Chỉ hiển thị với ngày được chọn"
 
-#: logdrake:76
-#, c-format
-msgid "/File/_New"
-msgstr "/Tệp/M_ới"
-
-#: logdrake:76
-#, c-format
-msgid "<control>N"
-msgstr "<control>N"
-
-#: logdrake:77
-#, c-format
-msgid "/File/_Open"
-msgstr "/Tệp/M_ở"
-
-#: logdrake:77
-#, c-format
-msgid "<control>O"
-msgstr "<control>O"
-
-#: logdrake:78
-#, c-format
-msgid "/File/_Save"
-msgstr "/Tệp/_Lưu"
-
 #: logdrake:78
 #, c-format
 msgid "<control>S"
 msgstr "<control>S"
 
-#: logdrake:79
-#, c-format
-msgid "/File/Save _As"
-msgstr "/Tệp/Lưu l_à"
-
-#: logdrake:80
-#, c-format
-msgid "/File/-"
-msgstr "/Tệp/-"
-
-#: logdrake:83
-#, c-format
-msgid "/Options/Test"
-msgstr "/Tuỳ chọn/Thử"
-
-#: logdrake:85
-#, c-format
-msgid "/Help/_About..."
-msgstr "/Trợ giúp/Giới thiệ_u..."
-
-#: logdrake:114
+#: logdrake:117
 #, c-format
 msgid ""
 "_:this is the auth.log log file\n"
 "Authentication"
 msgstr "Xác thực"
 
-#: logdrake:115
+#: logdrake:118
 #, c-format
 msgid ""
 "_:this is the user.log log file\n"
 "User"
 msgstr "Người dùng"
 
-#: logdrake:116
+#: logdrake:119
 #, c-format
 msgid ""
 "_:this is the /var/log/messages log file\n"
 "Messages"
 msgstr "Thông điệp"
 
-#: logdrake:117
+#: logdrake:120
 #, c-format
 msgid ""
 "_:this is the /var/log/syslog log file\n"
 "Syslog"
 msgstr "Syslog"
 
-#: logdrake:121
+#: logdrake:124
 #, c-format
 msgid "search"
 msgstr "tìm kiếm"
 
-#: logdrake:133
+#: logdrake:136
 #, c-format
 msgid "A tool to monitor your logs"
 msgstr "Công cụ xem bản ghi"
 
-#: logdrake:135
+#: logdrake:138
 #, c-format
 msgid "Settings"
 msgstr "Các thiết lập"
 
-#: logdrake:138
+#: logdrake:141
 #, c-format
 msgid "Matching"
 msgstr "Khớp nhau"
 
-#: logdrake:139
+#: logdrake:142
 #, c-format
 msgid "but not matching"
 msgstr "nhưng không khớp"
 
-#: logdrake:142
+#: logdrake:145
 #, c-format
 msgid "Choose file"
 msgstr "Chọn tập tin"
 
-#: logdrake:154
+#: logdrake:157
 #, c-format
 msgid "Calendar"
 msgstr "Lịch"
 
-#: logdrake:163
+#: logdrake:166
 #, c-format
 msgid "Content of the file"
 msgstr "Nội dung tập tin"
 
-#: logdrake:167 logdrake:411
+#: logdrake:170 logdrake:415
 #, c-format
 msgid "Mail alert"
 msgstr "Thư Cảnh báo"
 
-#: logdrake:174
+#: logdrake:177
 #, c-format
 msgid "The alert wizard has failed unexpectedly:"
 msgstr "Lỗi đồ thuật cảnh báo :"
 
-#: logdrake:178
+#: logdrake:181
 #, c-format
 msgid "Save"
 msgstr "Lưu"
 
-#: logdrake:226
+#: logdrake:230
 #, c-format
 msgid "please wait, parsing file: %s"
 msgstr "Hãy đợi, đang phân tích tập tin: %s"
 
-#: logdrake:248
+#: logdrake:252
 #, c-format
 msgid "Sorry, log file isn't available!"
 msgstr ""
 
-#: logdrake:296
+#: logdrake:300
 #, c-format
 msgid "Error while opening \"%s\" log file: %s\n"
 msgstr ""
 
-#: logdrake:389
+#: logdrake:393
 #, c-format
 msgid "Apache World Wide Web Server"
 msgstr "Máy Chủ WWW Apache"
 
-#: logdrake:390
+#: logdrake:394
 #, c-format
 msgid "Domain Name Resolver"
 msgstr "Trình Xử Lý Tên Miền"
 
-#: logdrake:391
+#: logdrake:395
 #, c-format
 msgid "Ftp Server"
 msgstr "Máy chủ FTP"
 
-#: logdrake:392
+#: logdrake:396
 #, c-format
 msgid "Postfix Mail Server"
 msgstr "Máy Chủ Thư Postfix"
 
-#: logdrake:393
+#: logdrake:397
 #, c-format
 msgid "Samba Server"
 msgstr "Máy Chủ Samba"
 
-#: logdrake:394
+#: logdrake:398
 #, c-format
 msgid "SSH Server"
 msgstr "Máy chủ SSH"
 
-#: logdrake:395
+#: logdrake:399
 #, c-format
 msgid "Webmin Service"
 msgstr "Dịch vụ Webmin"
 
-#: logdrake:396
+#: logdrake:400
 #, c-format
 msgid "Xinetd Service"
 msgstr "Dịch Vụ Xinetd"
 
-#: logdrake:405
+#: logdrake:409
 #, c-format
 msgid "Configure the mail alert system"
 msgstr "Cấu hình hệ thống cảnh báo qua thư"
 
-#: logdrake:406
+#: logdrake:410
 #, c-format
 msgid "Stop the mail alert system"
 msgstr "Dừng hệ thống cảnh báo qua thư"
 
-#: logdrake:414
+#: logdrake:418
 #, c-format
 msgid "Mail alert configuration"
 msgstr "Cấu hình Thư Cảnh Báo"
 
-#: logdrake:415
+#: logdrake:419
 #, c-format
 msgid ""
 "Welcome to the mail configuration utility.\n"
@@ -2685,17 +2659,17 @@ msgstr ""
 "\n"
 "Tại đây, có thể thiết lập hệ thống cảnh báo.\n"
 
-#: logdrake:418
+#: logdrake:422
 #, c-format
 msgid "What do you want to do?"
 msgstr "Bạn muốn làm gì?"
 
-#: logdrake:425
+#: logdrake:429
 #, c-format
 msgid "Services settings"
 msgstr "Các thiết lập dịch vụ"
 
-#: logdrake:426
+#: logdrake:430
 #, c-format
 msgid ""
 "You will receive an alert if one of the selected services is no longer "
@@ -2704,54 +2678,54 @@ msgstr ""
 "Bạn sẽ nhận được cảnh báo nếu một trong những dịch vụ được chọn không còn "
 "chạy nữa"
 
-#: logdrake:433
+#: logdrake:437
 #, c-format
 msgid "Load setting"
 msgstr "Nạp thiết lập"
 
-#: logdrake:434
+#: logdrake:438
 #, c-format
 msgid "You will receive an alert if the load is higher than this value"
 msgstr "Bạn sẽ nhận được cảnh báo nếu tải cao hơn giá trị này"
 
-#: logdrake:435
+#: logdrake:439
 #, c-format
 msgid ""
 "_: load here is a noun, the load of the system\n"
 "Load"
 msgstr "Tải"
 
-#: logdrake:440
+#: logdrake:444
 #, c-format
 msgid "Alert configuration"
 msgstr "Cấu hình cảnh báo"
 
-#: logdrake:441
+#: logdrake:445
 #, c-format
 msgid "Please enter your email address below "
 msgstr "Hãy nhập địa chỉ e-mail của bạn ở dưới"
 
-#: logdrake:442
+#: logdrake:446
 #, c-format
 msgid "and enter the name (or the IP) of the SMTP server you wish to use"
 msgstr "và nhập tên hoặc IP của máy chủ SMTP mà bạn muốn dùng."
 
-#: logdrake:444
+#: logdrake:448
 #, fuzzy, c-format
 msgid "Email address"
 msgstr "Địa chỉ IP"
 
-#: logdrake:445
+#: logdrake:449
 #, fuzzy, c-format
 msgid "Email server"
 msgstr "Máy Chủ Samba"
 
-#: logdrake:449
+#: logdrake:453
 #, c-format
 msgid "\"%s\" neither is a valid email nor is an existing local user!"
 msgstr "\"%s\" không phải là email hợp lệ hay người dùng cục bộ hiện có!"
 
-#: logdrake:454
+#: logdrake:458
 #, c-format
 msgid ""
 "\"%s\" is a local user, but you did not select a local smtp, so you must use "
@@ -2760,23 +2734,23 @@ msgstr ""
 "\"%s\" là một người dùng cục bộ, nhưng bạn đã không chọn một local smtp, do "
 "đó bạn phải dùng một địa chỉ email hoàn chỉnh!"
 
-#: logdrake:461
+#: logdrake:465
 #, c-format
 msgid "The wizard successfully configured the mail alert."
 msgstr "Đồ thuật cấu hình thành công cảnh báo qua thư."
 
-#: logdrake:467
+#: logdrake:471
 #, c-format
 msgid "The wizard successfully disabled the mail alert."
 msgstr "Đồ thuật tắt thành công cảnh báo qua thư."
 
-#: logdrake:526
+#: logdrake:530
 #, c-format
 msgid "Save as.."
 msgstr "Lưu là.."
 
-#: notify-x11-free-driver-switch:18 service_harddrake:465
-#: service_harddrake:478
+#: notify-x11-free-driver-switch:18 service_harddrake:468
+#: service_harddrake:481
 #, c-format
 msgid "Display driver setup"
 msgstr ""
@@ -3359,27 +3333,27 @@ msgstr "Đã thêm một số thiết bị: %s\n"
 msgid "- %s was added\n"
 msgstr "- %s đã được thêm\n"
 
-#: service_harddrake:397
+#: service_harddrake:400
 #, c-format
 msgid "Hardware changes in \"%s\" class (%s seconds to answer)"
 msgstr "Thay đổi phần cứng trong \"%s\" class (%s giây để trả lời)"
 
-#: service_harddrake:398
+#: service_harddrake:401
 #, c-format
 msgid "Do you want to run the appropriate config tool?"
 msgstr "Bạn muốn chạy công cụ cấu hình thích ứng không?"
 
-#: service_harddrake:423
+#: service_harddrake:426
 #, c-format
 msgid "Hardware probing in progress"
 msgstr "Đang dò tìm phần cứng"
 
-#: service_harddrake:444 service_harddrake:449
+#: service_harddrake:447 service_harddrake:452
 #, c-format
 msgid "Display driver issue"
 msgstr ""
 
-#: service_harddrake:445
+#: service_harddrake:448
 #, c-format
 msgid ""
 "The display driver currently configured requires you to use the 'nokmsboot' "
@@ -3388,7 +3362,7 @@ msgid ""
 "specified."
 msgstr ""
 
-#: service_harddrake:450
+#: service_harddrake:453
 #, c-format
 msgid ""
 "Detected a loaded display driver kernel module which conflicts with the "
@@ -3396,23 +3370,14 @@ msgid ""
 "fail."
 msgstr ""
 
-#: service_harddrake:465 service_harddrake:478
+#: service_harddrake:468 service_harddrake:481
 #, c-format
 msgid "The system has to be rebooted due to a display driver change."
 msgstr ""
 
-#: service_harddrake:466 service_harddrake:479
+#: service_harddrake:469 service_harddrake:482
 #, c-format
 msgid "Press Cancel within %d seconds to abort."
-msgstr ""
-
-#: ../menu/localedrake-system.desktop.in.h:1
-#, fuzzy
-msgid "System Regional Settings"
-msgstr "Thiết lập của hệ thống"
-
-#: ../menu/localedrake-system.desktop.in.h:2
-msgid "System wide language & country configurator"
 msgstr ""
 
 #: ../menu/harddrake.desktop.in.h:1
@@ -3429,6 +3394,15 @@ msgstr "Đồ thuật Cấu hình"
 msgid "Hardware Configuration Tool"
 msgstr "Đồ thuật Cấu hình"
 
+#: ../menu/localedrake-system.desktop.in.h:1
+#, fuzzy
+msgid "System Regional Settings"
+msgstr "Thiết lập của hệ thống"
+
+#: ../menu/localedrake-system.desktop.in.h:2
+msgid "System wide language & country configurator"
+msgstr ""
+
 #: ../menu/localedrake-user.desktop.in.h:1
 #, fuzzy
 msgid "Regional Settings"
@@ -3439,14 +3413,342 @@ msgstr "Các thiết lập"
 msgid "Language & country configuration"
 msgstr "Cấu hình thủ công"
 
+#: ../polkit/org.moondrake.drakauth.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Authentication Configuration"
+msgstr "Cấu hình các bước tự động"
+
+#: ../polkit/org.moondrake.drakauth.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Authentication Configuration"
+msgstr "Cấu hình các bước tự động"
+
+#: ../polkit/org.moondrake.drakboot.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Boot Configuration"
+msgstr "Cấu hình cảnh báo"
+
+#: ../polkit/org.moondrake.drakboot.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Boot Configuration"
+msgstr "Cấu hình cảnh báo"
+
+#: ../polkit/org.moondrake.drakclock.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Date and Time Configuration"
+msgstr "Cấu hình Thư Cảnh Báo"
+
+#: ../polkit/org.moondrake.drakclock.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Date and Time Configuration"
+msgstr "Cấu hình Thư Cảnh Báo"
+
+#: ../polkit/org.moondrake.drakdisk.policy.in.h:1
+msgid "Run DrakX Disk Layout Editor"
+msgstr ""
+
+#: ../polkit/org.moondrake.drakdisk.policy.in.h:2
+msgid "Authentication is required to run DrakX Disk Layout Editor"
+msgstr ""
+
+#: ../polkit/org.moondrake.drakdm.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Login Manager Configuration"
+msgstr "Cấu hình thủ công"
+
+#: ../polkit/org.moondrake.drakdm.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Login Manager Configuration"
+msgstr "Cấu hình thủ công"
+
+#: ../polkit/org.moondrake.drakfont.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Font Configuration"
+msgstr "Cấu hình thủ công"
+
+#: ../polkit/org.moondrake.drakfont.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Font Configuration"
+msgstr "Cấu hình thủ công"
+
+#: ../polkit/org.moondrake.drakhardware.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Hardware Configuration"
+msgstr "Cấu hình Thư Cảnh Báo"
+
+#: ../polkit/org.moondrake.drakhardware.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Hardware Configuration"
+msgstr "Cấu hình Thư Cảnh Báo"
+
+#: ../polkit/org.moondrake.draklog.policy.in.h:1
+msgid "Run DrakX Log Viewer"
+msgstr ""
+
+#: ../polkit/org.moondrake.draklog.policy.in.h:2
+msgid "Authentication is required to run DrakX Log Viewer"
+msgstr ""
+
+#: ../polkit/org.moondrake.drakperm.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Security Permissions Configuration"
+msgstr "Cấu hình Thư Cảnh Báo"
+
+#: ../polkit/org.moondrake.drakperm.policy.in.h:2
+#, fuzzy
+msgid ""
+"Authentication is required to run DrakX Security Permissions Configuration"
+msgstr "Cấu hình Thư Cảnh Báo"
+
+#: ../polkit/org.moondrake.drakscanner.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Scanner Configuration"
+msgstr "Cấu hình Thư Cảnh Báo"
+
+#: ../polkit/org.moondrake.drakscanner.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Scanner Configuration"
+msgstr "Cấu hình Thư Cảnh Báo"
+
+#: ../polkit/org.moondrake.draksec.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Application Security Configuration"
+msgstr "Cấu hình các bước tự động"
+
+#: ../polkit/org.moondrake.draksec.policy.in.h:2
+#, fuzzy
+msgid ""
+"Authentication is required to run DrakX Application Security Configuration"
+msgstr "Cấu hình các bước tự động"
+
+#: ../polkit/org.moondrake.drakups.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX UPS Configuration"
+msgstr "Cấu hình UPS driver"
+
+#: ../polkit/org.moondrake.drakups.policy.in.h:2
+msgid "Authentication is required to run DrakX UPS Configuration"
+msgstr ""
+
+#: ../polkit/org.moondrake.moondrakeservices.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Service Configuration"
+msgstr "Cấu hình Thư Cảnh Báo"
+
+#: ../polkit/org.moondrake.moondrakeservices.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Service Configuration"
+msgstr "Cấu hình Thư Cảnh Báo"
+
+#, fuzzy
+#~ msgid "%s Bug Report Tool"
+#~ msgstr "Công cụ báo cáo lỗi của Moondrake"
+
+#, fuzzy
+#~ msgid "%s Tools Logs"
+#~ msgstr "Bản ghi công cụ của Moondrake"
+
+#, fuzzy
+#~ msgid "Run Moondrake Application Security Configuration"
+#~ msgstr "Cấu hình các bước tự động"
+
+#, fuzzy
+#~ msgid "Run Moondrake Authentication Configuration"
+#~ msgstr "Cấu hình các bước tự động"
+
+#, fuzzy
+#~ msgid "Run Moondrake Boot Configuration"
+#~ msgstr "Cấu hình cảnh báo"
+
+#, fuzzy
+#~ msgid "Run Moondrake Date and Time Configuration"
+#~ msgstr "Cấu hình Thư Cảnh Báo"
+
+#, fuzzy
+#~ msgid "Run Moondrake Font Configuration"
+#~ msgstr "Cấu hình thủ công"
+
+#, fuzzy
+#~ msgid "Run Moondrake Hardware Configuration"
+#~ msgstr "Cấu hình Thư Cảnh Báo"
+
+#, fuzzy
+#~ msgid "Run Moondrake Login Manager Configuration"
+#~ msgstr "Cấu hình thủ công"
+
+#, fuzzy
+#~ msgid "Run Moondrake Scanner Configuration"
+#~ msgstr "Cấu hình Thư Cảnh Báo"
+
+#, fuzzy
+#~ msgid "Run Moondrake Security Permissions Configuration"
+#~ msgstr "Cấu hình Thư Cảnh Báo"
+
+#, fuzzy
+#~ msgid "Run Moondrake Service Configuration"
+#~ msgstr "Cấu hình Thư Cảnh Báo"
+
+#, fuzzy
+#~ msgid "Run Moondrake UPS Configuration"
+#~ msgstr "Cấu hình UPS driver"
+
+#~ msgid ""
+#~ "\n"
+#~ "Welcome.\n"
+#~ "\n"
+#~ "The parameters of the auto-install are available in the sections on the "
+#~ "left"
+#~ msgstr ""
+#~ "\n"
+#~ "Chào mừng.\n"
+#~ "\n"
+#~ "Các thông số có sẵn cho việc cài đặt tự động nằm ở các mục ở bên trái"
+
+#, fuzzy
+#~ msgid "  --help                - display this help     \n"
+#~ msgstr " --help                - hiển thị trợ giúp này  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ " drakhelp 0.1\n"
+#~ "Copyright (C) %s Mandriva.\n"
+#~ "Copyright (C) %s Moondrake.\n"
+#~ "This is free software and may be redistributed under the terms of the GNU "
+#~ "GPL.\n"
+#~ "\n"
+#~ "Usage: \n"
+#~ msgstr ""
+#~ "Bản Drakhelp 0.1\n"
+#~ "Bản quyền (C) %s Moondrake.\n"
+#~ "Đây là phần mềm tự do và có thể phân phối lại theo các điều khoản của GNU "
+#~ "GPL.\n"
+#~ "\n"
+#~ "Cách dùng: \n"
+
+#~ msgid "%s Control Center"
+#~ msgstr "Trung Tâm Điều Khiển %s"
+
+#, fuzzy
+#~ msgid "%s Help Center"
+#~ msgstr "Trung tâm trợ giúp Moondrake"
+
+#~ msgid "(default value: %s)"
+#~ msgstr "(giá trị mặc định: %s)"
+
 #~ msgid "/Autodetect _jaz drives"
 #~ msgstr "/Tự động phát hiện _jaz drive"
 
-#~ msgid "OpenMandriva Lx Tools Logs"
-#~ msgstr "Bản ghi công cụ của OpenMandriva Lx"
+#~ msgid "/Autodetect _modems"
+#~ msgstr "/Tự động dò mo_dem"
 
 #~ msgid "/Autodetect _printers"
 #~ msgstr "/Tự động dò Máy _in"
+
+#~ msgid "/Autodetect parallel _zip drives"
+#~ msgstr "/Tự động phát hiện parallel _zip drives"
+
+#~ msgid "/File/-"
+#~ msgstr "/Tệp/-"
+
+#~ msgid "/File/Save _As"
+#~ msgstr "/Tệp/Lưu l_à"
+
+#~ msgid "/File/_New"
+#~ msgstr "/Tệp/M_ới"
+
+#~ msgid "/File/_Open"
+#~ msgstr "/Tệp/M_ở"
+
+#~ msgid "/File/_Quit"
+#~ msgstr "/Tệp/T_hoát"
+
+#~ msgid "/File/_Save"
+#~ msgstr "/Tệp/_Lưu"
+
+#~ msgid "/Help/_About..."
+#~ msgstr "/Trợ giúp/Giới thiệ_u..."
+
+#~ msgid "/Options/Test"
+#~ msgstr "/Tuỳ chọn/Thử"
+
+#~ msgid "/_About..."
+#~ msgstr "/Giới thiệ_u..."
+
+#~ msgid "/_Fields description"
+#~ msgstr "/Mô tả các t_rường"
+
+#~ msgid "/_File"
+#~ msgstr "/_Tệp"
+
+#~ msgid "/_Help"
+#~ msgstr "/Trợ _giúp"
+
+#~ msgid "/_Options"
+#~ msgstr "/Tuỳ _chọn"
+
+#~ msgid "/_Quit"
+#~ msgstr "/T_hoát"
+
+#~ msgid "/_Report Bug"
+#~ msgstr "/_Báo cáo lỗi"
+
+#~ msgid "<control>N"
+#~ msgstr "<control>N"
+
+#~ msgid "<control>O"
+#~ msgstr "<control>O"
+
+#~ msgid "Add an item"
+#~ msgstr "Thêm một mục"
+
+#~ msgid "Auto Install"
+#~ msgstr "Cài đặt tự động"
+
+#~ msgid "Auto Install Configurator"
+#~ msgstr "Cấu hình cài đặt tự động"
+
+#~ msgid "Autodetect _jaz drives"
+#~ msgstr "Tự động phát hiện _jaz drive"
+
+#~ msgid "Autodetect _printers"
+#~ msgstr "Tự động dò Máy _in"
+
+#~ msgid "Automatic Steps Configuration"
+#~ msgstr "Cấu hình các bước tự động"
+
+#~ msgid "Background color"
+#~ msgstr "Màu nền"
+
+#~ msgid "Basic options"
+#~ msgstr "Tùy Chọn Cơ Bản"
+
+#~ msgid "Bugs"
+#~ msgstr "Bugs"
+
+#~ msgid "Choose picture"
+#~ msgstr "Chọn ảnh"
+
+#~ msgid "Coma bug"
+#~ msgstr "Lỗi Coma"
+
+#, fuzzy
+#~ msgid "Copyright (C) %s by Moondrake"
+#~ msgstr "Bản quyền (C) 2001-2008 Mandriva"
+
+#~ msgid "Copyright (C) 2001-2008 by Mandriva"
+#~ msgstr "Bản quyền (C) 2001-2008 Mandriva"
+
+#~ msgid "Create new theme"
+#~ msgstr "Tạo theme mới"
+
+#~ msgid "Creating auto install floppy"
+#~ msgstr "Tạo đĩa mềm cài đặt tự động"
+
+#~ msgid "Creating auto install floppy (drivers disk)"
+#~ msgstr "Tạo đĩa mềm cài đặt tự động"
+
+#~ msgid "Display logo on Console"
+#~ msgstr "Hiển thị Logo trên Console"
 
 #~ msgid ""
 #~ "Display theme\n"
@@ -3455,85 +3757,13 @@ msgstr "Cấu hình thủ công"
 #~ "Hiển thị theme\n"
 #~ "dưới console"
 
-#~ msgid "Create new theme"
-#~ msgstr "Tạo theme mới"
-
-#~ msgid "Text box height"
-#~ msgstr "Chiều cao hộp văn bản"
-
-#~ msgid ""
-#~ "The progress bar X coordinate\n"
-#~ "of its upper left corner"
-#~ msgstr ""
-#~ "Thanh tiến trình X coordinate\n"
-#~ "của góc trên trái của nó"
-
-#~ msgid ""
-#~ "The progress bar Y coordinate\n"
-#~ "of its upper left corner"
-#~ msgstr ""
-#~ "Thanh tiến trình Y coordinate\n"
-#~ "của góc trên trái của nó"
-
-#~ msgid "The width of the progress bar"
-#~ msgstr "Bề rộng của thanh tiến trình"
-
-#~ msgid "The height of the progress bar"
-#~ msgstr "Chiều cao của thanh tiến trình"
+#, fuzzy
+#~ msgid "Do you want to remove these packages?"
+#~ msgstr "Bạn muốn chạy công cụ cấu hình thích ứng không?"
 
 #, fuzzy
-#~ msgid "Text"
-#~ msgstr "Text only"
-
-#~ msgid "Choose picture"
-#~ msgstr "Chọn ảnh"
-
-#~ msgid "Silent bootsplash"
-#~ msgstr "Silent bootsplash"
-
-#~ msgid "Text color"
-#~ msgstr "Màu chữ"
-
-#~ msgid "Background color"
-#~ msgstr "Màu nền"
-
-#~ msgid "Verbose bootsplash"
-#~ msgstr "Verbose bootsplash"
-
-#~ msgid "Theme name"
-#~ msgstr "Tên của theme"
-
-#~ msgid "Final resolution"
-#~ msgstr "Độ phân giải cuối cùng"
-
-#~ msgid "Display logo on Console"
-#~ msgstr "Hiển thị Logo trên Console"
-
-#~ msgid "Save theme"
-#~ msgstr "lưu theme"
-
-#, fuzzy
-#~ msgid "Please enter a theme name"
-#~ msgstr "Vui lòng điền vào chú thích cho điểm chia sẻ này."
-
-#, fuzzy
-#~ msgid "Please select a splash image"
-#~ msgstr "Hãy chọn UPS model của bạn."
-
-#~ msgid "saving Bootsplash theme..."
-#~ msgstr "đang lưu theme của Bootsplash..."
-
-#~ msgid "choose image"
-#~ msgstr "Chọn ảnh"
-
-#~ msgid "Coma bug"
-#~ msgstr "Lỗi Coma"
-
-#~ msgid "whether this cpu has the Cyrix 6x86 Coma bug"
-#~ msgstr "CPU này có Cyrix 6x86 Coma bug hay không"
-
-#~ msgid "Fdiv bug"
-#~ msgstr "Lỗi Fdiv"
+#~ msgid "DrakX Online"
+#~ msgstr "Mandriva Online"
 
 #~ msgid ""
 #~ "Early Intel Pentium chips manufactured have a bug in their floating point "
@@ -3544,44 +3774,54 @@ msgstr "Cấu hình thủ công"
 #~ "không đạt được sự chính xác đi cùng khi thực hiện một Floating point "
 #~ "DIVision (FDIV)"
 
-#~ msgid "Is FPU present"
-#~ msgstr "FPU có mặt không"
-
-#~ msgid "yes means the processor has an arithmetic coprocessor"
-#~ msgstr "có nghĩa là bộ vi xử lý có một bộ đồng bộ vi xử lý số học"
-
-#~ msgid "Whether the FPU has an irq vector"
-#~ msgstr "FPU có một irq vector hay không"
-
-#~ msgid ""
-#~ "yes means the arithmetic coprocessor has an exception vector attached"
-#~ msgstr "có nghĩa là bộ đồng xử lý số học có kèm một exception vector"
+#~ msgid "Error!"
+#~ msgstr "Lỗi!"
 
 #~ msgid "F00f bug"
 #~ msgstr "Lỗi F00f"
 
-#~ msgid ""
-#~ "early pentiums were buggy and freezed when decoding the F00F bytecode"
-#~ msgstr "Pentium cũ bị lỗi và ì ra khi giải mã F00F bytecode"
+#~ msgid "FPU"
+#~ msgstr "FPU"
+
+#~ msgid "Fdiv bug"
+#~ msgstr "Lỗi Fdiv"
+
+#~ msgid "File/-"
+#~ msgstr "Tệp/-"
+
+#~ msgid "File/Save _As"
+#~ msgstr "Tệp/Lưu l_à"
+
+#~ msgid "File/_New"
+#~ msgstr "Tệp/M_ới"
+
+#~ msgid "File/_Open"
+#~ msgstr "Tệp/M_ở"
+
+#~ msgid "File/_Quit"
+#~ msgstr "Tệp/T_hoát"
+
+#~ msgid "File/_Save"
+#~ msgstr "Tệp/_Lưu"
+
+#~ msgid "Final resolution"
+#~ msgstr "Độ phân giải cuối cùng"
 
 #~ msgid "Halt bug"
 #~ msgstr "Ngừng lỗi"
 
+#~ msgid "Help/_About..."
+#~ msgstr "Trợ giúp/Giới thiệ_u..."
+
 #~ msgid ""
-#~ "Some of the early i486DX-100 chips cannot reliably return to operating "
-#~ "mode after the \"halt\" instruction is used"
+#~ "Here you can see files to use in order to fix permissions, owners, and "
+#~ "groups via msec.\n"
+#~ "You can also edit your own rules which will owerwrite the default rules."
 #~ msgstr ""
-#~ "Một số i486DX-100 chip cũ không thể thật sự trở về chế độ hoạt động sau "
-#~ "khi dùng hướng dẫn \"ngừng\""
-
-#~ msgid "Bugs"
-#~ msgstr "Bugs"
-
-#~ msgid "FPU"
-#~ msgstr "FPU"
-
-#~ msgid "Unknown/Others"
-#~ msgstr "Không xác định/Cái khác"
+#~ "Tại đây bạn có thể xem các tập tin dùng để sửa lỗi quyền hạn, chủ sở hữu, "
+#~ "và nhóm thông qua msec.\n"
+#~ "Bạn cũng có thể biên soạn quy tắc riêng, nó sẽ ghi đè lên các quy tắc mặc "
+#~ "định."
 
 #~ msgid ""
 #~ "Here, you can setup the security level and administrator of your "
@@ -3678,29 +3918,91 @@ msgstr "Cấu hình thủ công"
 #~ "ở\n"
 #~ "mức tối đa."
 
-#~ msgid "(default value: %s)"
-#~ msgstr "(giá trị mặc định: %s)"
+#~ msgid "I cannot find needed image file `%s'."
+#~ msgstr "Không thể tìm thấy tập tin ảnh cần dùng `%s'."
 
-#~ msgid "Security Level:"
-#~ msgstr "Mức độ bảo mật:"
+#~ msgid "Insert a blank floppy in drive %s"
+#~ msgstr "Nạp một đĩa mềm trắng vào ổ %s"
 
-#~ msgid "Security Alerts:"
-#~ msgstr "Cảnh Báo Bảo Mật:"
+#~ msgid "Insert another blank floppy in drive %s (for drivers disk)"
+#~ msgstr "Hãy nạp một đĩa mềm trắng khácvào ổ %s"
 
-#~ msgid "Security Administrator:"
-#~ msgstr "Người Quản Trị Bảo Mật:"
+#~ msgid "Is FPU present"
+#~ msgstr "FPU có mặt không"
 
-#~ msgid "Basic options"
-#~ msgstr "Tùy Chọn Cơ Bản"
+#~ msgid "Mandriva Linux Bug Report Tool"
+#~ msgstr "Công cụ báo cáo lỗi của Mandriva Linux"
+
+#~ msgid "Mandriva Linux Tools Logs"
+#~ msgstr "Bản ghi công cụ của Mandriva Linux"
+
+#, fuzzy
+#~ msgid "Mandriva Update"
+#~ msgstr "Mandriva Online"
+
+#~ msgid "Menudrake"
+#~ msgstr "Menudrake"
+
+#~ msgid "Moondrake"
+#~ msgstr "Moondrake"
+
+#~ msgid "Msec"
+#~ msgstr "Msec"
 
 #~ msgid "Network Options"
 #~ msgstr "Tùy Chọn Mạng"
 
-#~ msgid "System Options"
-#~ msgstr "Tùy Chọn Hệ Thống"
+#, fuzzy
+#~ msgid ""
+#~ "No Sound Card has been detected on your machine. Please verify that a "
+#~ "Linux-supported Sound Card is correctly plugged in"
+#~ msgstr ""
+#~ "Không phát hiện được Card TV nào trong máy. Hãy kiểm tra xem card TV/"
+#~ "Video được linux hỗ trợ đã được gắn đúng hay không.\n"
+#~ "\n"
+#~ "\n"
+#~ "Bạn có thể tham khảo cơ sở dữ liệu về phần cứng tại:\n"
+#~ "\n"
+#~ "\n"
+#~ "http://www.mandrivalinux.com/en/hardware.php3"
+
+#, fuzzy
+#~ msgid ""
+#~ "No TV Card has been detected on your machine. Please verify that a Linux-"
+#~ "supported Video/TV Card is correctly plugged in."
+#~ msgstr ""
+#~ "Không phát hiện được Card TV nào trong máy. Hãy kiểm tra xem card TV/"
+#~ "Video được linux hỗ trợ đã được gắn đúng hay không.\n"
+#~ "\n"
+#~ "\n"
+#~ "Bạn có thể tham khảo cơ sở dữ liệu về phần cứng tại:\n"
+#~ "\n"
+#~ "\n"
+#~ "http://www.mandrivalinux.com/en/hardware.php3"
+
+#~ msgid "Options/Test"
+#~ msgstr "Tuỳ chọn/Thử"
 
 #~ msgid "Periodic Checks"
 #~ msgstr "Kiểm tra theo giai đoạn"
+
+#~ msgid ""
+#~ "Please choose for each step whether it will replay like your install, or "
+#~ "it will be manual"
+#~ msgstr ""
+#~ "Hãy thực hiện chọn cho từng bước: nó sẽ diễn lại giống như bạn đã cài đặt "
+#~ "hay là sẽ được thao tác thủ công"
+
+#, fuzzy
+#~ msgid "Please enter a theme name"
+#~ msgstr "Vui lòng điền vào chú thích cho điểm chia sẻ này."
+
+#, fuzzy
+#~ msgid "Please select a splash image"
+#~ msgstr "Hãy chọn UPS model của bạn."
+
+#~ msgid "Please wait, adding media..."
+#~ msgstr "Hãy chờ, đang thêm phương tiện..."
 
 #~ msgid "Please wait, setting security level..."
 #~ msgstr "Hãy đợi, đang thiết lập mức bảo mật..."
@@ -3708,38 +4010,108 @@ msgstr "Cấu hình thủ công"
 #~ msgid "Please wait, setting security options..."
 #~ msgstr "Hãy đợi, đang thiết lập tùy chọn bảo mật..."
 
-#, fuzzy
+#~ msgid "Remove the last item"
+#~ msgstr "Bỏ mục gần đây nhất"
+
+#~ msgid "Restart XFS"
+#~ msgstr "Khởi chạy lại XFS"
+
+#~ msgid "Save theme"
+#~ msgstr "lưu theme"
+
+#~ msgid "Security Administrator:"
+#~ msgstr "Người Quản Trị Bảo Mật:"
+
+#~ msgid "Security Alerts:"
+#~ msgstr "Cảnh Báo Bảo Mật:"
+
+#~ msgid "Security Level:"
+#~ msgstr "Mức độ bảo mật:"
+
+#~ msgid "Select Mandriva Tool:"
+#~ msgstr "Hãy chọn công cụ Mandriva:"
+
+#~ msgid "Silent bootsplash"
+#~ msgstr "Silent bootsplash"
+
 #~ msgid ""
-#~ "The following localization packages do not seem to be useful for your "
-#~ "system:"
-#~ msgstr "Các gói sau đây cần được cài đặt:\n"
+#~ "Some of the early i486DX-100 chips cannot reliably return to operating "
+#~ "mode after the \"halt\" instruction is used"
+#~ msgstr ""
+#~ "Một số i486DX-100 chip cũ không thể thật sự trở về chế độ hoạt động sau "
+#~ "khi dùng hướng dẫn \"ngừng\""
+
+#~ msgid "System Options"
+#~ msgstr "Tùy Chọn Hệ Thống"
 
 #, fuzzy
-#~ msgid "Do you want to remove these packages?"
-#~ msgstr "Bạn muốn chạy công cụ cấu hình thích ứng không?"
+#~ msgid "Text"
+#~ msgstr "Text only"
+
+#~ msgid "Text box height"
+#~ msgstr "Chiều cao hộp văn bản"
+
+#~ msgid "Text color"
+#~ msgstr "Màu chữ"
+
+#~ msgid "The change is done, but to be effective you must logout"
+#~ msgstr "Thay đổi đã xong, nhưng để có hiệu lực bạn phải thoát ra"
+
+#~ msgid ""
+#~ "The floppy has been successfully generated.\n"
+#~ "You may now replay your installation."
+#~ msgstr ""
+#~ "Đĩa mềm tự động cài đặt đã được tạo ra.\n"
+#~ "Bạn có thể diễn lại quá trình cài đặt đã thực hiện."
 
 #, fuzzy
 #~ msgid ""
 #~ "The following hardware packages do not seem to be useful for your system:"
 #~ msgstr "Các gói sau đây cần được cài đặt:\n"
 
-#~ msgid "Please wait, adding media..."
-#~ msgstr "Hãy chờ, đang thêm phương tiện..."
+#, fuzzy
+#~ msgid ""
+#~ "The following localization packages do not seem to be useful for your "
+#~ "system:"
+#~ msgstr "Các gói sau đây cần được cài đặt:\n"
 
-#~ msgid "The change is done, but to be effective you must logout"
-#~ msgstr "Thay đổi đã xong, nhưng để có hiệu lực bạn phải thoát ra"
+#~ msgid "The height of the progress bar"
+#~ msgstr "Chiều cao của thanh tiến trình"
 
-#~ msgid "Restart XFS"
-#~ msgstr "Khởi chạy lại XFS"
+#~ msgid ""
+#~ "The progress bar X coordinate\n"
+#~ "of its upper left corner"
+#~ msgstr ""
+#~ "Thanh tiến trình X coordinate\n"
+#~ "của góc trên trái của nó"
 
-#~ msgid "Error!"
-#~ msgstr "Lỗi!"
+#~ msgid ""
+#~ "The progress bar Y coordinate\n"
+#~ "of its upper left corner"
+#~ msgstr ""
+#~ "Thanh tiến trình Y coordinate\n"
+#~ "của góc trên trái của nó"
 
-#~ msgid "I cannot find needed image file `%s'."
-#~ msgstr "Không thể tìm thấy tập tin ảnh cần dùng `%s'."
+#~ msgid "The width of the progress bar"
+#~ msgstr "Bề rộng của thanh tiến trình"
 
-#~ msgid "Auto Install Configurator"
-#~ msgstr "Cấu hình cài đặt tự động"
+#~ msgid "Theme name"
+#~ msgstr "Tên của theme"
+
+#~ msgid "Unknown/Others"
+#~ msgstr "Không xác định/Cái khác"
+
+#~ msgid "Urpmi"
+#~ msgstr "Urpmi"
+
+#~ msgid "Userdrake"
+#~ msgstr "Userdrake"
+
+#~ msgid "Verbose bootsplash"
+#~ msgstr "Verbose bootsplash"
+
+#~ msgid "Whether the FPU has an irq vector"
+#~ msgstr "FPU có một irq vector hay không"
 
 #~ msgid ""
 #~ "You are about to configure an Auto Install floppy. This feature is "
@@ -3767,70 +4139,28 @@ msgstr "Cấu hình thủ công"
 #~ "\n"
 #~ "Nhấn Ok để tiếp tục."
 
-#~ msgid "replay"
-#~ msgstr "Diễn lại"
+#~ msgid "choose image"
+#~ msgstr "Chọn ảnh"
+
+#~ msgid ""
+#~ "early pentiums were buggy and freezed when decoding the F00F bytecode"
+#~ msgstr "Pentium cũ bị lỗi và ì ra khi giải mã F00F bytecode"
 
 #~ msgid "manual"
 #~ msgstr "thủ công"
 
-#~ msgid "Automatic Steps Configuration"
-#~ msgstr "Cấu hình các bước tự động"
+#~ msgid "replay"
+#~ msgstr "Diễn lại"
+
+#~ msgid "saving Bootsplash theme..."
+#~ msgstr "đang lưu theme của Bootsplash..."
+
+#~ msgid "whether this cpu has the Cyrix 6x86 Coma bug"
+#~ msgstr "CPU này có Cyrix 6x86 Coma bug hay không"
 
 #~ msgid ""
-#~ "Please choose for each step whether it will replay like your install, or "
-#~ "it will be manual"
-#~ msgstr ""
-#~ "Hãy thực hiện chọn cho từng bước: nó sẽ diễn lại giống như bạn đã cài đặt "
-#~ "hay là sẽ được thao tác thủ công"
+#~ "yes means the arithmetic coprocessor has an exception vector attached"
+#~ msgstr "có nghĩa là bộ đồng xử lý số học có kèm một exception vector"
 
-#~ msgid "Insert a blank floppy in drive %s"
-#~ msgstr "Nạp một đĩa mềm trắng vào ổ %s"
-
-#~ msgid "Creating auto install floppy"
-#~ msgstr "Tạo đĩa mềm cài đặt tự động"
-
-#~ msgid "Insert another blank floppy in drive %s (for drivers disk)"
-#~ msgstr "Hãy nạp một đĩa mềm trắng khácvào ổ %s"
-
-#~ msgid "Creating auto install floppy (drivers disk)"
-#~ msgstr "Tạo đĩa mềm cài đặt tự động"
-
-#~ msgid ""
-#~ "\n"
-#~ "Welcome.\n"
-#~ "\n"
-#~ "The parameters of the auto-install are available in the sections on the "
-#~ "left"
-#~ msgstr ""
-#~ "\n"
-#~ "Chào mừng.\n"
-#~ "\n"
-#~ "Các thông số có sẵn cho việc cài đặt tự động nằm ở các mục ở bên trái"
-
-#~ msgid ""
-#~ "The floppy has been successfully generated.\n"
-#~ "You may now replay your installation."
-#~ msgstr ""
-#~ "Đĩa mềm tự động cài đặt đã được tạo ra.\n"
-#~ "Bạn có thể diễn lại quá trình cài đặt đã thực hiện."
-
-#~ msgid "Auto Install"
-#~ msgstr "Cài đặt tự động"
-
-#~ msgid "Add an item"
-#~ msgstr "Thêm một mục"
-
-#~ msgid "Remove the last item"
-#~ msgstr "Bỏ mục gần đây nhất"
-
-#~ msgid "Menudrake"
-#~ msgstr "Menudrake"
-
-#~ msgid "Msec"
-#~ msgstr "Msec"
-
-#~ msgid "Urpmi"
-#~ msgstr "Urpmi"
-
-#~ msgid "Userdrake"
-#~ msgstr "Userdrake"
+#~ msgid "yes means the processor has an arithmetic coprocessor"
+#~ msgstr "có nghĩa là bộ vi xử lý có một bộ đồng bộ vi xử lý số học"

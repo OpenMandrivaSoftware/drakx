@@ -35,7 +35,6 @@
 #include <signal.h>
 #include <linux/unistd.h>
 #include <libldetect.h>
-#include <hid.h>
 #include <libgen.h>
 
 #include "stage1.h"
@@ -45,6 +44,7 @@
 #include "ldetect/lspcidrake.h"
 #include "serial_probe.h"
 #include "consoletype.h"
+#include "reboot.h"
 
 #include "log.h"
 #include "probing.h"
@@ -248,17 +248,6 @@ static void handle_pcmcia(void)
 }
 #endif
 
-static void handle_hid(void)
-{
-    hid h;
-    h.probe();
-    for (uint16_t i = 0; i < h.size(); i++) {
-	if (!h[i].module.empty())
-	    my_modprobe(h[i].module.c_str(), ANY_DRIVER_TYPE, NULL);
-    }
-    my_modprobe("hid_generic", ANY_DRIVER_TYPE, NULL);
-}
-
 
 /************************************************************
  */
@@ -400,6 +389,8 @@ int main(int argc __attribute__ ((unused)), char *argv[], char *env[])
 		return serial_probe_main();
 	if (!strcmp(binary_name, "consoletype"))
 		return consoletype_main(argc, argv);
+	if (!strcmp(binary_name, "reboot"))
+		return reboot_main(argc, argv);
 
 
 	if (strcmp(binary_name, "stage1")) {
@@ -430,7 +421,7 @@ int main(int argc __attribute__ ((unused)), char *argv[], char *env[])
 
 	probe_that_type(VIRTIO_DEVICES, BUS_ANY);
 
-        /* load usb interface as soon as possible, helps usb mouse detection in stage2 */
+        /* load usb interface as soon as possible, helps usb keyboard & mouse  */
 	probe_that_type(USB_CONTROLLERS, BUS_USB);
 
 	if (IS_THIRDPARTY)

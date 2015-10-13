@@ -1,4 +1,4 @@
-package partition_table::raw; # $Id$
+package partition_table::raw;
 
 use common;
 use devices;
@@ -8,16 +8,12 @@ use log;
 use c;
 
 my @MBR_signatures = (
-if_(arch() =~ /ppc/,
-    (map { [ 'yaboot', 0, "PM", 0x200 * $_ + 0x10, "bootstrap\0" ] } 0 .. 61), #- "PM" is a Partition Map
-    [ 'yaboot', 0x400, "BD", 0x424, "\011bootstrap" ], #- "BD" is a HFS filesystem
-),
     [ 'empty', 0, "\0\0\0\0" ],
     [ 'grub', 0, "\xEBG", 0x17d, "stage1 \0" ],
     [ 'grub', 0, "\xEBH", 0x17e, "stage1 \0" ],
     [ 'grub', 0, "\xEBH", 0x18a, "stage1 \0" ],
     sub { my ($F) = @_;
-	  #- standard grub has no good magic (our grub is patched to have "GRUB" at offset 6)
+	  #- standard grub has no good magic (Moondrake's grub is patched to have "GRUB" at offset 6)
 	  #- so scanning a range of possible places where grub can have its string
 	  #- 0x176 found on Conectiva 10
 	  my ($min, $max, $magic) = (0x176, 0x181, "GRUB \0");

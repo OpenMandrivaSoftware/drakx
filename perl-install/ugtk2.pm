@@ -209,7 +209,7 @@ sub gtkpowerpack {
 	#- attr value directly in the arg list (avoiding confusion between value 0 and Gtk::Label("0"). That can simplify some writings but
 	#- this arg(s) MUST then be present...
 	my (%attr, $attrs);
-	ref($_[0]) eq 'HASH' || ref($_[0]) eq 'ARRAY' and $attrs = shift;
+	member(ref($_[0]), qw(HASH ARRAY)) and $attrs = shift;
 	foreach (@attributes_list) {
 	    if (($default_attrs->{$_} || '') eq 'arg') {
 		ref($_[0]) and internal_error "error in packing definition\n";
@@ -524,7 +524,7 @@ sub create_okcancel {
     if (!defined $wm_is_kde) {
         require any;
         my $wm = any::running_window_manager();
-        $wm_is_kde = !$::isInstall && ($wm eq "kwin" || $wm eq "compiz" && fuzzy_pidofs(qr/\bkde-window-decorator\b/)) || 0;
+        $wm_is_kde = !$::isInstall && (member($wm, qw(kwin compiz)) && fuzzy_pidofs(qr/\bkde-window-decorator\b/)) || 0;
     }
     my $f = sub { $w->{buttons}{$_[0][0]} = ref($_[0][0]) =~ /Gtk2::Button/ ?
                     $_[0][0] :
@@ -1142,7 +1142,7 @@ sub ask_browse_tree_info_given_widgets {
 
     $w->{tree}->signal_connect(key_press_event => sub {
 	my $c = chr($_[1]->keyval & 0xff);
-	if ($_[1]->keyval >= 0x100 ? $c eq "\r" || $c eq "\x8d" : $c eq ' ') {
+	if ($_[1]->keyval >= 0x100 ? member($c, "\r", "\x8d") : $c eq ' ') {
 	    $toggle->(0);
 	}
 	0;
@@ -1151,7 +1151,10 @@ sub ask_browse_tree_info_given_widgets {
     $w->{tree}->get_selection->signal_connect(changed => sub {
 	my ($model, $iter) = $_[0]->get_selected;
 	$model && $iter or return;
-	Glib::Source->remove($idle) if $idle;
+	if ($idle) {
+	    Glib::Source->remove($idle);
+	    undef $idle;
+	}
 	
 	if (!$model->iter_has_child($iter)) {
 	    $curr = $model->get($iter, 0);
@@ -1464,8 +1467,8 @@ sub new {
                                my $d_width = $darea->allocation->width;
                                my $x_blue = $is_rtl ? $d_width - $blue_width : 0;
                                my $x_icon = $is_rtl ? $d_width - 12 - $width : 12;
-                               # here: 48 is the amount of white background in the blue background we wish to ignore:
-                               my $x_text = $is_rtl ? $d_width - $blue_width + 48 - $darea->{txt_width} : $blue_width - 48;
+                               # here: 10 is the amount of padding (white background) wish to add betwen text & blue background:
+                               my $x_text = $is_rtl ? $d_width - $blue_width - 10 - $darea->{txt_width} : $blue_width + 10;
                                $darea->{layout_height} ||= second($darea->{layout}->get_pixel_size);
                                $blue_part->render_to_drawable($darea->window, $style->bg_gc('normal'),
                                                                   0, 0, $x_blue, 0, -1, -1, 'none', 0, 0);

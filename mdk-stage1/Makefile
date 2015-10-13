@@ -2,9 +2,7 @@
  #
  #    mdk-stage1 - the program that will load second-stage install
  #
- # $Id$
- #
- # Pixel (pixel@mandriva.com) (mostly done by Guillaume Cottenceau)
+ # Pixel (pixel) (mostly done by Guillaume Cottenceau)
  #
  # Copyright 2000-2004 Mandriva
  #
@@ -15,7 +13,7 @@
  # along with this program; if not, write to the Free Software
  # Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
-VERSION=2.2
+VERSION=2.12
 PRODUCT = $(FAMILY)-binaries
 
  #
@@ -108,7 +106,7 @@ endif
 SERIAL_PROBE_SRC = serial.cpp serial_probe.cpp
 LOCAL_SRC += $(SERIAL_PROBE_SRC)
 
-BINS_SRC = drvinst.cpp probe-modules.cpp rescue-gui.cpp ldetect/lspcidrake.cpp consoletype.cpp
+BINS_SRC = drvinst.cpp probe-modules.cpp rescue-gui.cpp ldetect/lspcidrake.cpp consoletype.cpp reboot.cpp
 LOCAL_SRC += $(BINS_SRC)
 
 FRONTEND_OBJS = $(subst .c,.o,$(FRONTEND_SRC))
@@ -159,7 +157,7 @@ STAGE1OBJS_FULL = $(subst .cpp,-FULL.o,$(STAGE1_ALLSRC))
 
 LOCALOBJS = $(subst .cpp,.o,$(LOCAL_SRC))
 
-ADD_BINS = dhcp-client rescue-gui probe-modules drvinst lspcidrake serial_probe consoletype
+ADD_BINS = dhcp-client rescue-gui probe-modules drvinst lspcidrake serial_probe consoletype reboot
 
 BINS := stage1 $(ADD_BINS)
 
@@ -295,7 +293,8 @@ $(CLEANDIRS):
 .PHONY: subdirs ldetect
 .PHONY: all clean test
 
-dist: tar
+dist: dist-git
+
 tar:
 	rm -rf $(PRODUCT)*.tar* $(PRODUCT)-$(VERSION)
 	@if [ -e "../.svn" ]; then \
@@ -319,7 +318,13 @@ dist-svn:
 	rm -rf $(PRODUCT)-$(VERSION)
 
 dist-git:
-	@cd ..; git archive --prefix=$(PRODUCT)-$(VERSION)/ HEAD mdk-stage1 kernel Makefile.config | xz >mdk-stage1/$(PRODUCT)-$(VERSION).tar.xz;
+	mkdir -p $(PRODUCT)-$(VERSION)
+	cd ..; git archive HEAD mdk-stage1 kernel Makefile.config | (cd mdk-stage1/$(PRODUCT)-$(VERSION) && tar xf -)
+	cd ldetect; git archive --prefix=mdk-stage1/ldetect/ HEAD | (cd ../$(PRODUCT)-$(VERSION)  && tar xf -)
+	tar -Jcf $(PRODUCT)-$(VERSION).tar.xz $(PRODUCT)-$(VERSION)
+	rm -rf $(PRODUCT)-$(VERSION)
+	$(info $(PRODUCT)-$(VERSION).tar.xz is ready)
+
 
 install:
 	install -m755 stage1 -D $(DESTDIR)$(ROOTDEST)/stage1
@@ -329,12 +334,14 @@ ifeq (0, $(ONE_BINARY))
 	install -m755 probe-modules -D $(DESTDIR)$(ROOTDEST)/probe-modules
 	install -m755 drvinst -D $(DESTDIR)$(ROOTDEST)/drvinst
 	install -m755 lspcidrake -D $(DESTDIR)$(ROOTDEST)/lspcidrake
+	install -m755 reboot -D $(DESTDIR)$(ROOTDEST)/reeboot
 else
 	ln -f $(DESTDIR)$(ROOTDEST)/stage1 $(DESTDIR)$(ROOTDEST)/rescue-gui
 	ln -f $(DESTDIR)$(ROOTDEST)/stage1 $(DESTDIR)$(ROOTDEST)/dhcp-client
 	ln -f $(DESTDIR)$(ROOTDEST)/stage1 $(DESTDIR)$(ROOTDEST)/probe-modules
 	ln -f $(DESTDIR)$(ROOTDEST)/stage1 $(DESTDIR)$(ROOTDEST)/drvinst
 	ln -f $(DESTDIR)$(ROOTDEST)/stage1 $(DESTDIR)$(ROOTDEST)/lspcidrake
+	ln -f $(DESTDIR)$(ROOTDEST)/stage1 $(DESTDIR)$(ROOTDEST)/reboot
 endif
 	if [ -e pcmcia/pcmcia_probe.o ]; then \
 		install -m644 pcmcia/pcmcia_probe.o -D $(DESTDIR)$(ROOTDEST)/pcmcia_probe.o; \

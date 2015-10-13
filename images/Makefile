@@ -1,6 +1,6 @@
 include ../Makefile.config
 
-VERSION=2.0
+VERSION=2.16
 PRODUCT=$(FAMILY)-images
 KERNELS=$(shell rpm -qf /lib/modules/3.*)
 IMAGES_DEST = $(ROOTDEST)/install/images
@@ -9,7 +9,7 @@ ARCH=$(shell arch)
 ifeq (x86_64, $(ARCH))
 WORDSIZE = 64
 else
-WORSIZE=32
+WORDSIZE=32
 ARCH=i586
 endif
 
@@ -20,15 +20,13 @@ images/:
 
 USE_LOCAL_STAGE1 = $(shell test -f ../mdk-stage1/stage1 && echo 1 || echo 0)
 
-ifneq (0, $(USE_LOCAL_STAGE1))
-STAGE1_BINS = ../mdk-stage1/dhcp-client ../mdk-stage1/probe-modules ../mdk-stage1/rescue-gui ../mdk-stage1/stage1 ../mdk-stage1/drvinst ../mdk-stage/lspcidrake
-endif
-
-images: images/hd_grub.img images/hd_grub.img images/boot.iso grub/$(ARCH)/install/images/all.cpio.xz grub/boot/alt0/$(WORDSIZE)/modules.cpio.xz
-
-#../mdk-stage1/dhcp-client ../mdk-stage1/probe-modules ../mdk-stage1/rescue-gui ../mdk-stage1/stage1 ../mdk-stage1/drvinst ../mdk-stage1/lspcidrake:
+ifeq (1, $(USE_LOCAL_STAGE1))
+STAGE1_BINS = ../mdk-stage1/stage1
 $(STAGE1_BINS):
 	make -C ../mdk-stage1 $(shell basename $@)
+endif
+
+images: images/hd_grub.img images/hd_grub.img images/boot.iso grub/$(ARCH)/install/images/all.cpio.xz grub/boot/alt0/$(WORDSIZE)/modules.cpio.xz grub/boot/firmware.cpio.xz
 
 images/hd_grub.img:
 	DISTRIB_DESCR=$(DISTRIB_DESCR) ./make_boot_img.pl --compress "$(COMPRESS)" $@
@@ -36,14 +34,17 @@ images/hd_grub.img:
 grub/$(ARCH)/install/images/all.cpio.xz: list.xml guessmounts
 	DISTRIB_DESCR=$(DISTRIB_DESCR) ./make_boot_img $@
 
-grub/boot/grub/grub.cfg: grub_data/grub.cfg grub_data/themes/OpenMandriva/theme.txt grub_data/themes/OpenMandriva/openmandriva.png grub_data/themes/OpenMandriva/openmandriva_grey.png grub_data/themes/OpenMandriva/tick.png make_boot_img all.kernels/.list
+grub/boot/grub/grub.cfg: grub_data/grub.cfg make_boot_img all.kernels/.list
 	DISTRIB_DESCR=$(DISTRIB_DESCR) ./make_boot_img grub
 
-images/boot.iso: grub/boot/grub/grub.cfg grub/boot/alt0/$(WORDSIZE)/modules.cpio.xz grub/$(ARCH)/install/images/all.cpio.xz
+images/boot.iso: grub/boot/grub/grub.cfg grub/boot/alt0/$(WORDSIZE)/modules.cpio.xz grub/$(ARCH)/install/images/all.cpio.xz grub/boot/firmware.cpio.xz
 	DISTRIB_DESCR=$(DISTRIB_DESCR) ./make_boot_img $@
 	cd images; md5sum boot.iso > MD5SUM
 
 grub/boot/alt0/$(WORDSIZE)/modules.cpio.xz: all.kernels/.list
+	DISTRIB_DESCR=$(DISTRIB_DESCR) ./make_boot_img $@
+
+grub/boot/firmware.cpio.xz: grub/boot/alt0/$(WORDSIZE)/modules.cpio.xz
 	DISTRIB_DESCR=$(DISTRIB_DESCR) ./make_boot_img $@
 
 all.kernels/.list: update_kernel ../kernel/list_modules.pm
@@ -72,7 +73,14 @@ dist-svn:
 	rm -rf $(PRODUCT)-$(VERSION)
 
 dist-git:
-	@cd ..; git archive --prefix=$(PRODUCT)-$(VERSION)/ HEAD images kernel Makefile.config | xz >images/$(PRODUCT)-$(VERSION).tar.xz;
+	cd ..; git archive --prefix=$(PRODUCT)-$(VERSION)/ HEAD tools/install-xml-file-list images kernel Makefile.config > $(PRODUCT)-$(VERSION).tar
+	cd setup; git archive --prefix=$(PRODUCT)-$(VERSION)/images/setup/ HEAD . > setup-$(PRODUCT)-$(VERSION).tar
+	gtar --concatenate --file=../$(PRODUCT)-$(VERSION).tar setup/setup-$(PRODUCT)-$(VERSION).tar
+	rm setup/setup-$(PRODUCT)-$(VERSION).tar
+	mv ../$(PRODUCT)-$(VERSION).tar .
+	xz -vf $(PRODUCT)-$(VERSION).tar
+	git tag mdk-$(PRODUCT)-$(VERSION)
+
 
 clean:
 	rm -rf images grub all.kernels modules.description
@@ -82,7 +90,7 @@ install:
 	install -d $(DESTDIR)$(IMAGES_DEST)
 	rm -rf $(DESTDIR)$(IMAGES_DEST)/alternatives 
 	cp -r images/* $(DESTDIR)$(IMAGES_DEST)
-ifneq (,$(findstring $(ARCH), i386 x86_64))
+ifneq (,$(findstring $(ARCH), i586 x86_64))
 	rm -rf $(DESTDIR)$(ROOTDEST)/grub
 	cp -af grub $(DESTDIR)$(ROOTDEST)
 endif

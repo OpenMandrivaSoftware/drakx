@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DrakX\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-22 00:53+0100\n"
+"POT-Creation-Date: 2015-02-18 12:28+0100\n"
 "PO-Revision-Date: 2005-09-21 14:03+0100\n"
 "Last-Translator: Tibor Pittich <Tibor.Pittich@mandriva.org>\n"
 "Language-Team:  <i18n@mandrake.sk>\n"
@@ -17,73 +17,73 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms:  nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
-#: display_help:54 display_help:59 drakbug:170 drakperm:134
+#: display_help:53 display_help:58 drakbug:173 drakperm:134
 #, c-format
 msgid "Help"
 msgstr "Pomoc"
 
-#: display_help:67 drakbug:175 drakfont:505
+#: display_help:66 drakbug:178 drakfont:507
 #, c-format
 msgid "Close"
 msgstr "Zavrieť"
 
-#: drakauth:24 drakauth:26 draksec:162
+#: drakauth:24 drakauth:26 draksec:184
 #, c-format
 msgid "Authentication"
 msgstr "Autentifikácia"
 
-#: drakauth:37 drakclock:113 drakclock:138 drakdvb:74 drakfont:211
-#: drakfont:224 drakfont:262 finish-install:131 logdrake:174 logdrake:449
-#: logdrake:454 scannerdrake:56 scannerdrake:98 scannerdrake:139
+#: drakauth:37 drakclock:117 drakclock:142 drakdvb:74 drakfont:213
+#: drakfont:226 drakfont:264 finish-install:133 logdrake:177 logdrake:453
+#: logdrake:458 scannerdrake:56 scannerdrake:98 scannerdrake:139
 #: scannerdrake:197 scannerdrake:256 scannerdrake:726 scannerdrake:737
 #: scannerdrake:876 scannerdrake:887 scannerdrake:957
 #, c-format
 msgid "Error"
 msgstr "Chyba"
 
-#: drakboot:53
+#: drakboot:54
 #, c-format
 msgid "No bootloader found, creating a new configuration"
 msgstr "Nebol nájdený žiaden zavádzač, bude vytvorená nová konfigurácia"
 
-#: drakboot:86 harddrake2:195 harddrake2:196 logdrake:75
+#: drakboot:89 harddrake2:191 logdrake:77
 #, c-format
-msgid "/_File"
-msgstr "/_Súbory"
+msgid "_File"
+msgstr "_Súbory"
 
-#: drakboot:87 logdrake:81
+#: drakboot:90 harddrake2:192 logdrake:78 logdrake:79
 #, c-format
-msgid "/File/_Quit"
-msgstr "/Súbor/_Koniec"
+msgid "_Quit"
+msgstr "_Koniec"
 
-#: drakboot:87 harddrake2:196 logdrake:81
+#: drakboot:90 harddrake2:192 logdrake:79
 #, c-format
 msgid "<control>Q"
 msgstr "<control>K"
 
-#: drakboot:127
+#: drakboot:138
 #, c-format
 msgid "Text only"
 msgstr "Iba text"
 
-#: drakboot:128
+#: drakboot:139
 #, c-format
 msgid "Verbose"
 msgstr "Podrobnosti"
 
-#: drakboot:129
+#: drakboot:140
 #, c-format
 msgid "Silent"
 msgstr "Bez podrobností"
 
-#: drakboot:135 drakbug:247 drakdvb:57 drakfont:681 drakperm:374 drakperm:384
-#: drakups:26 harddrake2:528 localedrake:45 scannerdrake:48 scannerdrake:51
+#: drakboot:146 drakbug:250 drakdvb:57 drakfont:682 drakperm:371 drakperm:381
+#: drakups:27 harddrake2:504 localedrake:45 scannerdrake:48 scannerdrake:51
 #: scannerdrake:294 scannerdrake:299 scannerdrake:951
 #, c-format
 msgid "Warning"
 msgstr "Varovanie"
 
-#: drakboot:136
+#: drakboot:147
 #, c-format
 msgid ""
 "Your system bootloader is not in framebuffer mode. To activate graphical "
@@ -92,72 +92,72 @@ msgstr ""
 "Váš zavádzač systému nie je v režime framebuffer. Pre aktiváciu grafického "
 "spustenia si vyberte grafický režim v nástroji pre nastavovanie zavádzača."
 
-#: drakboot:137
+#: drakboot:148
 #, c-format
 msgid "Do you want to configure it now?"
 msgstr "Chcete teraz otestovať konfiguráciu?"
 
-#: drakboot:146
+#: drakboot:157
 #, c-format
 msgid "Install themes"
 msgstr "Inštalácia tém"
 
-#: drakboot:148
+#: drakboot:159
 #, c-format
 msgid "Graphical boot theme selection"
 msgstr "Výber témy pre grafické spustenie"
 
-#: drakboot:151
+#: drakboot:162
 #, c-format
 msgid "Graphical boot mode:"
 msgstr "Režim grafického spúšťania:"
 
-#: drakboot:153
+#: drakboot:164
 #, c-format
 msgid "Theme"
 msgstr "Téma"
 
-#: drakboot:187
+#: drakboot:198
 #, c-format
 msgid "Default user"
 msgstr "Štandardný používateľ"
 
-#: drakboot:188
+#: drakboot:199
 #, c-format
 msgid "Default desktop"
 msgstr "Štandardný desktop"
 
-#: drakboot:191
+#: drakboot:202
 #, c-format
 msgid "No, I do not want autologin"
 msgstr "Nie, nechcem automatické prihlásenie"
 
-#: drakboot:192
+#: drakboot:203
 #, c-format
 msgid "Yes, I want autologin with this (user, desktop)"
 msgstr "Áno, chcem automatické prihlásenie (používateľ, desktop)"
 
-#: drakboot:199
+#: drakboot:210
 #, c-format
 msgid "System mode"
 msgstr "Mód systému"
 
-#: drakboot:202
+#: drakboot:213
 #, c-format
 msgid "Launch the graphical environment when your system starts"
 msgstr "Spustiť grafické rozhranie po štarte systému"
 
-#: drakboot:257
+#: drakboot:268
 #, c-format
 msgid "Boot Style Configuration"
 msgstr "Konfigurácia štýlu štartovania"
 
-#: drakboot:259 drakboot:263
+#: drakboot:270 drakboot:274
 #, c-format
 msgid "Video mode"
 msgstr "Video mód"
 
-#: drakboot:260
+#: drakboot:271
 #, c-format
 msgid ""
 "Please choose a video mode, it will be applied to each of the boot entries "
@@ -173,15 +173,15 @@ msgstr ""
 msgid "The \"%s\" program has crashed with the following error:"
 msgstr ""
 
-#: drakbug:60
+#: drakbug:62
 #, fuzzy, c-format
-msgid "OpenMandriva Lx Bug Reporting"
-msgstr "Nástroj pre oznámenie chýb OpenMandriva Lxu"
+msgid "DrakX Bug Report Tool"
+msgstr "Nástroj pre oznámenie chýb Moondrakeu"
 
-#: drakbug:65
-#, c-format
-msgid "OpenMandriva Lx Control Center"
-msgstr "Kontrolné centrum OpenMandriva Lx"
+#: drakbug:67
+#, fuzzy, c-format
+msgid "DrakX Linux Control Center"
+msgstr "Kontrolné centrum Mandriva Linux"
 
 #: drakbug:66
 #, c-format
@@ -198,10 +198,15 @@ msgstr "Synchronizačný nástroj"
 msgid "Standalone Tools"
 msgstr "Konzolové nástroje"
 
-#: drakbug:70 drakbug:71
+#: drakbug:72 drakbug:73
 #, fuzzy, c-format
-msgid "OpenMandriva Online"
-msgstr "Mandriva Online"
+msgid "%s Online"
+msgstr "Moondrake Online"
+
+#: drakbug:72 drakbug:73 drakbug:99 draksec:169
+#, fuzzy, c-format
+msgid "DrakX"
+msgstr "DrakUPS"
 
 #: drakbug:72
 #, c-format
@@ -223,10 +228,10 @@ msgstr "Nástroj pre migráciu Windows"
 msgid "Configuration Wizards"
 msgstr "Sprievodca konfiguráciou"
 
-#: drakbug:97
+#: drakbug:99
 #, fuzzy, c-format
-msgid "Select Tool:"
-msgstr "Vyberte si nástroj od Mandriva:"
+msgid "Select %s Tool:"
+msgstr "Vyberte si nástroj od Moondrake:"
 
 #: drakbug:98
 #, c-format
@@ -334,27 +339,27 @@ msgstr ""
 msgid "Thanks."
 msgstr ""
 
-#: drakclock:28 draksec:168
+#: drakclock:29 draksec:190
 #, c-format
 msgid "Date, Clock & Time Zone Settings"
 msgstr ""
 
-#: drakclock:37
+#: drakclock:38
 #, c-format
 msgid "not defined"
 msgstr "nedefinované"
 
-#: drakclock:39
+#: drakclock:40
 #, c-format
 msgid "Change Time Zone"
 msgstr "Zmeniť časovú zónu"
 
-#: drakclock:44
+#: drakclock:45
 #, c-format
 msgid "Timezone - DrakClock"
 msgstr "Časová zóna - DrakClock"
 
-#: drakclock:44
+#: drakclock:45
 #, c-format
 msgid "Which is your timezone?"
 msgstr "Aké je vaše časové pásmo?"
@@ -369,12 +374,12 @@ msgstr "GMT - DrakClock"
 msgid "Is your hardware clock set to GMT?"
 msgstr "Sú vaše hodiny nastavené na GMT?"
 
-#: drakclock:72
+#: drakclock:75
 #, c-format
 msgid "Network Time Protocol"
 msgstr "Sieťový protokol času"
 
-#: drakclock:74
+#: drakclock:77
 #, c-format
 msgid ""
 "Your computer can synchronize its clock\n"
@@ -383,42 +388,42 @@ msgstr ""
 "Váš počítač si môže synchronizovať svoje\n"
 " hodiny so vzdialeným časovým serverom pomocou NTP"
 
-#: drakclock:75
+#: drakclock:78
 #, c-format
 msgid "Enable Network Time Protocol"
 msgstr "Povoliť sieťový časový protokol"
 
-#: drakclock:83
+#: drakclock:86
 #, c-format
 msgid "Server:"
 msgstr "Server:"
 
-#: drakclock:97
+#: drakclock:100
 #, c-format
 msgid "Timezone"
 msgstr "Časová zóna"
 
-#: drakclock:113
+#: drakclock:117
 #, fuzzy, c-format
 msgid "Please enter a valid NTP server address."
 msgstr "Vložte prosím korektnú IP adresu."
 
-#: drakclock:139
+#: drakclock:143
 #, c-format
 msgid "Could not synchronize with %s."
 msgstr "Nie je možné synchronizovať s %s"
 
-#: drakclock:140 drakdvb:149 logdrake:179 scannerdrake:488
+#: drakclock:144 drakdvb:149 logdrake:182 scannerdrake:488
 #, c-format
 msgid "Quit"
 msgstr "Koniec"
 
-#: drakclock:141
+#: drakclock:145
 #, fuzzy, c-format
 msgid "Retry"
 msgstr "Obnova"
 
-#: drakclock:166 drakclock:176
+#: drakclock:168 drakclock:178
 #, c-format
 msgid "Reset"
 msgstr "Reset"
@@ -443,10 +448,10 @@ msgstr ""
 msgid "Could not get the list of available channels"
 msgstr ""
 
-#: drakdvb:80 draksec:67 drakups:98 finish-install:106 harddrake2:374
+#: drakdvb:80 draksec:69 drakups:99 finish-install:106 harddrake2:358
 #: scannerdrake:63 scannerdrake:67 scannerdrake:75 scannerdrake:316
 #: scannerdrake:365 scannerdrake:501 scannerdrake:505 scannerdrake:527
-#: service_harddrake:423
+#: service_harddrake:426
 #, c-format
 msgid "Please wait"
 msgstr "Prosím čakajte"
@@ -456,7 +461,7 @@ msgstr "Prosím čakajte"
 msgid "Detecting DVB channels, this will take a few minutes"
 msgstr ""
 
-#: drakdvb:85 drakfont:571 drakfont:651 drakfont:735 drakups:216 logdrake:179
+#: drakdvb:85 drakfont:571 drakfont:651 drakfont:736 drakups:217 logdrake:182
 #, c-format
 msgid "Cancel"
 msgstr "Zrušiť"
@@ -488,20 +493,25 @@ msgstr "GDM (GNOME správca prihlásenia)"
 
 #: drakedm:43
 #, fuzzy, c-format
+msgid "LIGHTDM (LightDM Display Manager)"
+msgstr "GDM (GNOME správca prihlásenia)"
+
+#: drakedm:44
+#, fuzzy, c-format
 msgid "SLIM (Simple Display Manager)"
 msgstr "XDM (X grafický manažér)"
 
-#: drakedm:44
+#: drakedm:45
 #, c-format
 msgid "XDM (X Display Manager)"
 msgstr "XDM (X grafický manažér)"
 
-#: drakedm:55
+#: drakedm:56
 #, c-format
 msgid "Choosing a display manager"
 msgstr "Vyberte si grafický manažér"
 
-#: drakedm:56
+#: drakedm:57
 #, c-format
 msgid ""
 "X11 Display Manager allows you to graphically log\n"
@@ -512,12 +522,12 @@ msgstr ""
 "prostredí do vášho systému a umožňuje aj vytvorenie viacerých\n"
 "súčastných X spojení na váš počítač v jednom čase."
 
-#: drakedm:79
+#: drakedm:80
 #, c-format
 msgid "The change is done, do you want to restart the dm service?"
 msgstr "Zmeny sú vykonané, želáte si reštartovať dm servis ?"
 
-#: drakedm:80
+#: drakedm:81
 #, c-format
 msgid ""
 "You are going to close all running programs and lose your current session. "
@@ -642,7 +652,7 @@ msgstr "Po inštalácii"
 msgid "DrakFont"
 msgstr "DrakFont"
 
-#: drakfont:489 drakfont:641
+#: drakfont:491 drakfont:641
 #, c-format
 msgid "Font List"
 msgstr "Zoznam fontov"
@@ -657,12 +667,12 @@ msgstr "Získať Windows fonty"
 msgid "About"
 msgstr "O"
 
-#: drakfont:499 drakfont:540
+#: drakfont:501 drakfont:540
 #, c-format
 msgid "Options"
 msgstr "Parametre"
 
-#: drakfont:500 drakfont:720
+#: drakfont:502 drakfont:721
 #, c-format
 msgid "Uninstall"
 msgstr "Odinštalovanie"
@@ -677,24 +687,24 @@ msgstr "Import"
 msgid "Drakfont"
 msgstr "DrakFont"
 
-#: drakfont:521 harddrake2:229
-#, fuzzy, c-format
-msgid "Copyright (C) %s by OpenMandriva"
-msgstr "Copyright © 2001-2008 Mandriva"
+#: drakfont:523
+#, c-format
+msgid "Copyright (C) %s by Mandriva"
+msgstr ""
 
 #: drakfont:523
 #, fuzzy, c-format
 msgid "Font installer."
 msgstr "Nenainštalované"
 
-#: drakfont:525 logdrake:55
-#, c-format
-msgid "OpenMandriva Lx"
-msgstr "OpenMandriva Lx"
+#: drakfont:527
+#, fuzzy, c-format
+msgid "Moondrake GNU/Linux"
+msgstr "Mandriva Linux"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
-#: drakfont:532 harddrake2:238
+#: drakfont:532 harddrake2:531
 #, c-format
 msgid "_: Translator(s) name(s) & email(s)\n"
 msgstr "Tibor Pittich <Tibor.Pittich@mandriva.org>\n"
@@ -724,7 +734,7 @@ msgstr "Abiword"
 msgid "Generic Printers"
 msgstr "Tlačiarne pre všeobecné použitie"
 
-#: drakfont:561 drakfont:571 drakups:209
+#: drakfont:561 drakfont:571 drakups:210
 #, c-format
 msgid "Ok"
 msgstr "Ok"
@@ -744,17 +754,17 @@ msgstr "Výber súborov"
 msgid "Fonts"
 msgstr "Písma"
 
-#: drakfont:639 draksec:164
+#: drakfont:639 draksec:186
 #, c-format
 msgid "Import fonts"
 msgstr "Import fontov"
 
-#: drakfont:645 drakups:298 drakups:374
+#: drakfont:645 drakups:299 drakups:375
 #, c-format
 msgid "Add"
 msgstr "Pridať"
 
-#: drakfont:646 drakfont:734 drakups:300 drakups:376
+#: drakfont:646 drakfont:735 drakups:301 drakups:377
 #, c-format
 msgid "Remove"
 msgstr "Odstrániť"
@@ -764,67 +774,67 @@ msgstr "Odstrániť"
 msgid "Install"
 msgstr "Inštalácia"
 
-#: drakfont:683
+#: drakfont:684
 #, c-format
 msgid "Are you sure you want to uninstall the following fonts?"
 msgstr ""
 
-#: drakfont:687 draksec:57 harddrake2:319
+#: drakfont:688 draksec:59 harddrake2:302
 #, c-format
 msgid "Yes"
 msgstr "Áno"
 
-#: drakfont:689 draksec:56 harddrake2:320
+#: drakfont:690 draksec:58 harddrake2:303
 #, c-format
 msgid "No"
 msgstr "Nie"
 
-#: drakfont:728
+#: drakfont:729
 #, c-format
 msgid "Unselect All"
 msgstr "Odznačiť všetky"
 
-#: drakfont:731
+#: drakfont:732
 #, c-format
 msgid "Select All"
 msgstr "Vyber všetko"
 
-#: drakfont:748
+#: drakfont:749
 #, c-format
 msgid "Importing fonts"
 msgstr "Import fontov"
 
-#: drakfont:752 drakfont:772
+#: drakfont:753 drakfont:773
 #, c-format
 msgid "Initial tests"
 msgstr "Úvodné testy"
 
-#: drakfont:753
+#: drakfont:754
 #, c-format
 msgid "Copy fonts on your system"
 msgstr "Kopírovať fonty na váš systém"
 
-#: drakfont:754
+#: drakfont:755
 #, c-format
 msgid "Install & convert Fonts"
 msgstr "Inštalácia a konverzia fontov"
 
-#: drakfont:755
+#: drakfont:756
 #, c-format
 msgid "Post Install"
 msgstr "Po inštalácii"
 
-#: drakfont:767
+#: drakfont:768
 #, fuzzy, c-format
 msgid "Removing fonts"
 msgstr "Import fontov"
 
-#: drakfont:773
+#: drakfont:774
 #, c-format
 msgid "Remove fonts on your system"
 msgstr "Odstrániť fonty zo systému"
 
-#: drakfont:774
+#: drakfont:775
 #, c-format
 msgid "Post Uninstall"
 msgstr "Po odinštalovaní"
@@ -901,22 +911,22 @@ msgstr "Dediť práva"
 msgid "Editable"
 msgstr "Editovateľné"
 
-#: drakperm:48 drakperm:318
+#: drakperm:50 drakperm:318
 #, c-format
 msgid "Path"
 msgstr "Cesta"
 
-#: drakperm:48 drakperm:247
+#: drakperm:50 drakperm:247
 #, c-format
 msgid "User"
 msgstr "Používateľ"
 
-#: drakperm:48 drakperm:247
+#: drakperm:50 drakperm:247
 #, c-format
 msgid "Group"
 msgstr "Skupina"
 
-#: drakperm:48 drakperm:107 drakperm:330 draksec:179
+#: drakperm:50 drakperm:107 drakperm:330 draksec:201
 #, c-format
 msgid "Permissions"
 msgstr "Práva"
@@ -926,7 +936,7 @@ msgstr "Práva"
 msgid "Add a new rule"
 msgstr "Pridať nové pravidlo"
 
-#: drakperm:65 drakperm:100 drakperm:126
+#: drakperm:67 drakperm:102 drakperm:126
 #, c-format
 msgid "Edit current rule"
 msgstr "Edituj aktuálne pravidlo"
@@ -936,7 +946,7 @@ msgstr "Edituj aktuálne pravidlo"
 msgid ""
 "Here you can see files to use in order to fix permissions, owners, and "
 "groups via msec.\n"
-"You can also edit your own rules which will owerwrite the default rules."
+"You can also edit your own rules which will overwrite the default rules."
 msgstr ""
 "Na tomto mieste môžete vidieť súbory podľa ich prístupových práv, vlastníkov "
 "a skupín cez msec.\n"
@@ -992,7 +1002,7 @@ msgstr "Zrušiť"
 msgid "Delete selected rule"
 msgstr "Vymazať zvolené pravidlo"
 
-#: drakperm:126 drakups:299 drakups:375
+#: drakperm:126 drakups:300 drakups:376
 #, c-format
 msgid "Edit"
 msgstr "Editovať"
@@ -1119,7 +1129,7 @@ msgstr "Výber cesty"
 msgid "Property"
 msgstr "Vlastníctvo"
 
-#: drakperm:374
+#: drakperm:371
 #, c-format
 msgid ""
 "The first character of the path must be a slash (\"/\"):\n"
@@ -1128,17 +1138,17 @@ msgstr ""
 "Prvý znak z cesty musí byť  lomítko (\"/\"):\n"
 "\"%s\""
 
-#: drakperm:384
+#: drakperm:381
 #, c-format
 msgid "Both the username and the group must valid!"
 msgstr "Aj používateľské meno, aj skupina musia byť korektné!"
 
-#: drakperm:385
+#: drakperm:382
 #, c-format
 msgid "User: %s"
 msgstr "Používateľ: %s"
 
-#: drakperm:386
+#: drakperm:383
 #, c-format
 msgid "Group: %s"
 msgstr "Skupina: %s"
@@ -1158,7 +1168,7 @@ msgstr "LOKÁLNE"
 msgid "NONE"
 msgstr "NIČ"
 
-#: draksec:54
+#: draksec:56 draksec:113
 #, c-format
 msgid "Default"
 msgstr "Predvoľba"
@@ -1175,145 +1185,145 @@ msgstr "Úroveň bezpečnosti:"
 
 #: draksec:108
 #, c-format
-msgid "Configure access to OpenMandriva Lx administrative tools"
+msgid "Configure authentication required to access DrakX tools"
 msgstr ""
 
-#: draksec:111
+#: draksec:114
 #, c-format
 msgid "No password needed"
 msgstr "Bez hesla"
 
-#: draksec:112
+#: draksec:115
 #, c-format
-msgid "Root password required"
+msgid "Administrator password"
 msgstr ""
 
-#: draksec:113
+#: draksec:116
 #, c-format
 msgid "User password required"
 msgstr ""
 
-#: draksec:146 draksec:202
+#: draksec:168 draksec:223
 #, c-format
 msgid "Software Management"
 msgstr "Správa softvéru"
 
-#: draksec:147
+#: draksec:169
 #, fuzzy, c-format
-msgid "Online Update"
-msgstr "Mandriva Online"
+msgid "%s Update"
+msgstr "Moondrake Online"
 
-#: draksec:148
+#: draksec:170
 #, c-format
 msgid "Software Media Manager"
 msgstr "Manažér zdrojov softvéru"
 
-#: draksec:149
+#: draksec:171
 #, fuzzy, c-format
 msgid "Configure 3D Desktop effects"
 msgstr "Nastavenie servera newsgroup"
 
-#: draksec:150
+#: draksec:172
 #, fuzzy, c-format
 msgid "Graphical Server Configuration"
 msgstr "Nastavenie výstrahy email"
 
-#: draksec:151
+#: draksec:173
 #, fuzzy, c-format
 msgid "Mouse Configuration"
 msgstr "Ručné nastavenie"
 
-#: draksec:152
+#: draksec:174
 #, fuzzy, c-format
 msgid "Keyboard Configuration"
 msgstr "Konfigurácia siete"
 
-#: draksec:153
+#: draksec:175
 #, fuzzy, c-format
 msgid "Printer Configuration"
 msgstr "Nastavenie proxy"
 
-#: draksec:154
+#: draksec:176
 #, fuzzy, c-format
 msgid "UPS Configuration"
 msgstr "Nastavenie ovládača UPS"
 
-#: draksec:155
+#: draksec:177
 #, fuzzy, c-format
 msgid "Network Configuration"
 msgstr "Nastavenie varovaní"
 
-#: draksec:156
+#: draksec:178
 #, c-format
 msgid "Hosts definitions"
 msgstr "Definície hostiteľov"
 
-#: draksec:157
+#: draksec:179
 #, fuzzy, c-format
 msgid "Network Center"
 msgstr "Sieť a Internet"
 
-#: draksec:158
+#: draksec:180
 #, c-format
 msgid "Wireless Network Roaming"
 msgstr ""
 
-#: draksec:159
+#: draksec:181
 #, c-format
 msgid "VPN"
 msgstr ""
 
-#: draksec:160
+#: draksec:182
 #, c-format
 msgid "Proxy Configuration"
 msgstr "Nastavenie proxy"
 
-#: draksec:161
+#: draksec:183
 #, fuzzy, c-format
 msgid "Connection Sharing"
 msgstr "Pripojenie"
 
-#: draksec:163
+#: draksec:185
 #, c-format
 msgid "Backups"
 msgstr "Zálohy"
 
-#: draksec:165 logdrake:56
+#: draksec:187 logdrake:56
 #, c-format
 msgid "Logs"
 msgstr "Logy"
 
-#: draksec:166 finish-install:210 finish-install:249
+#: draksec:188 finish-install:212 finish-install:251
 #, c-format
 msgid "Services"
 msgstr "Služby"
 
-#: draksec:167
+#: draksec:189
 #, fuzzy, c-format
 msgid "Users"
 msgstr "Používateľ"
 
-#: draksec:169
+#: draksec:191
 #, fuzzy, c-format
 msgid "Boot Configuration"
 msgstr "Nastavenie varovaní"
 
-#: draksec:203
+#: draksec:224
 #, c-format
 msgid "Hardware"
 msgstr "Hardvér"
 
-#: draksec:204
+#: draksec:225
 #, fuzzy, c-format
 msgid "Network"
 msgstr "Sieťové možnosti"
 
-#: draksec:205
+#: draksec:226
 #, c-format
 msgid "System"
 msgstr "Systém"
 
-#: draksec:206
+#: draksec:227
 #, c-format
 msgid "Boot"
 msgstr "Štart"
@@ -1404,12 +1414,12 @@ msgstr ""
 msgid "Autodetection"
 msgstr "Autodetekcia"
 
-#: drakups:98 harddrake2:374
+#: drakups:99 harddrake2:358
 #, c-format
 msgid "Detection in progress"
 msgstr "Prebieha detekcia"
 
-#: drakups:117 drakups:156 logdrake:461 logdrake:467
+#: drakups:118 drakups:157 logdrake:465 logdrake:471
 #, c-format
 msgid "Congratulations"
 msgstr "Gratulujeme"
@@ -1544,7 +1554,7 @@ msgstr "Úroveň"
 msgid "ACL name"
 msgstr "Názov ACL"
 
-#: drakups:296 finish-install:258
+#: drakups:297 finish-install:260
 #, c-format
 msgid "Password"
 msgstr "Heslo"
@@ -1597,7 +1607,7 @@ msgid "Keyboard"
 msgstr "Klávesnica"
 
 #: finish-install:58
-#, fuzzy, c-format
+#, c-format
 msgid "Please choose your keyboard layout."
 msgstr "Prosím, zvoľte váš typ klávesnice"
 
@@ -1606,57 +1616,62 @@ msgstr "Prosím, zvoľte váš typ klávesnice"
 msgid "Testing your connection..."
 msgstr ""
 
-#: finish-install:185
+#: finish-install:187
 #, c-format
 msgid "Windows-compatible sharing system"
 msgstr ""
 
-#: finish-install:188
+#: finish-install:189
+#, c-format
+msgid "Virtual Private Network"
+msgstr ""
+
+#: finish-install:190
 #, fuzzy, c-format
 msgid "OpenSSH server"
 msgstr "SSH server"
 
-#: finish-install:189
+#: finish-install:191
 #, fuzzy, c-format
 msgid "Print server"
 msgstr "Ftp server"
 
-#: finish-install:209
+#: finish-install:211
 #, c-format
 msgid "Do you have any services that you want to run when starting up?"
 msgstr ""
 
-#: finish-install:241
+#: finish-install:243
 #, fuzzy, c-format
 msgid "The following services failed to start:\n"
 msgstr "Nasledovné balíky je potrebné nainštalovať:\n"
 
-#: finish-install:244
+#: finish-install:246
 #, fuzzy, c-format
 msgid "The following services failed to stop:\n"
 msgstr "Nasledovné balíky je potrebné nainštalovať:\n"
 
-#: finish-install:256 finish-install:274 finish-install:287
+#: finish-install:258 finish-install:276 finish-install:289
 #, c-format
 msgid "Encrypted home partition"
 msgstr ""
 
-#: finish-install:256
+#: finish-install:258
 #, c-format
 msgid "Please enter a password for the %s user"
 msgstr ""
 
-#: finish-install:259
+#: finish-install:261
 #, c-format
 msgid "Password (again)"
 msgstr "Heslo (znova)"
 
-#: finish-install:274
+#: finish-install:276
 #, c-format
 msgid "Creating encrypted home partition"
 msgstr ""
 
-#: finish-install:287
+#: finish-install:289
 #, c-format
 msgid "Formatting encrypted home partition"
 msgstr ""
@@ -2290,116 +2305,72 @@ msgstr "Diskové oblasti"
 msgid "Features"
 msgstr "Vylepšenia"
 
-#. -PO: please keep all "/" characters !!!
-#: harddrake2:179 logdrake:82
+#: harddrake2:179
 #, c-format
-msgid "/_Options"
-msgstr "/_Nastavenia"
+msgid "Autodetect _modems"
+msgstr "Auto-detekcia _modemov"
 
-#: harddrake2:180 harddrake2:203 logdrake:84
+#: harddrake2:180
 #, c-format
-msgid "/_Help"
-msgstr "/_Pomoc"
+msgid "Autodetect parallel _zip drives"
+msgstr "Autodetekcia paralelných _zip mechaník"
 
 #: harddrake2:184
-#, c-format
-msgid "/Autodetect _modems"
-msgstr "/Auto-detekcia _modemov"
-
-#: harddrake2:185
-#, c-format
-msgid "/Autodetect parallel _zip drives"
-msgstr "/Autodetekcia paralelných _zip mechaník"
-
-#: harddrake2:189
 #, fuzzy, c-format
 msgid "Hardware Configuration"
 msgstr "Konfigurácia siete"
 
+#: harddrake2:193
+#, c-format
+msgid "_Options"
+msgstr "_Nastavenia"
+
+#: harddrake2:194 harddrake2:195
+#, c-format
+msgid "_Help"
+msgstr "_Pomoc"
+
+#: harddrake2:195
+#, fuzzy, c-format
+msgid "<control>H"
+msgstr "<control>K"
+
 #: harddrake2:196
 #, c-format
-msgid "/_Quit"
-msgstr "/_Koniec"
+msgid "_Fields description"
+msgstr "_Popis položiek"
 
-#: harddrake2:205
+#: harddrake2:197
 #, c-format
-msgid "/_Fields description"
-msgstr "/_Popis položiek"
+msgid "_Report Bug"
+msgstr "_Ohlásiť chybu"
 
-#: harddrake2:207
+#: harddrake2:198
 #, c-format
-msgid "Harddrake help"
-msgstr "Harddrake pomoc"
+msgid "_About..."
+msgstr "_O aplikácii..."
 
-#: harddrake2:208
-#, c-format
-msgid ""
-"Description of the fields:\n"
-"\n"
-msgstr ""
-"Popis políčok:\n"
-"\n"
-
-#: harddrake2:216
-#, c-format
-msgid "Select a device!"
-msgstr "Zvoľte si zariadenie !"
-
-#: harddrake2:216
-#, c-format
-msgid ""
-"Once you've selected a device, you'll be able to see the device information "
-"in fields displayed on the right frame (\"Information\")"
-msgstr ""
-"Ak ste už vybrali zariadenie, môžete vidieť podrobnejšie informácie o tomto "
-"zariadení v pravej časti (\"Informácie\")"
-
-#: harddrake2:222
-#, c-format
-msgid "/_Report Bug"
-msgstr "/_Ohlásiť chybu"
-
-#: harddrake2:224
-#, c-format
-msgid "/_About..."
-msgstr "/_O aplikácii..."
-
-#: harddrake2:227
-#, fuzzy, c-format
-msgid "Harddrake"
-msgstr "Harddrake2"
-
-#: harddrake2:231
-#, c-format
-msgid "This is HardDrake, a %s hardware configuration tool."
-msgstr ""
-
-#: harddrake2:233
-#, fuzzy, c-format
-msgid "OpenMandriva Linux"
-msgstr "OpenMandriva Lx"
-
-#: harddrake2:264
+#: harddrake2:242
 #, c-format
 msgid "Detected hardware"
 msgstr "Nájdený hardvér"
 
-#: harddrake2:267 scannerdrake:283
+#: harddrake2:245 scannerdrake:283
 #, c-format
 msgid "Information"
 msgstr "Informácie"
 
-#: harddrake2:269
+#: harddrake2:247
 #, fuzzy, c-format
 msgid "Set current driver options"
 msgstr "Použiť ovládač klienta"
 
-#: harddrake2:276
+#: harddrake2:254
 #, c-format
 msgid "Run config tool"
 msgstr "Spustiť konfiguráciu"
 
-#: harddrake2:296
+#: harddrake2:280
 #, c-format
 msgid ""
 "Click on a device in the tree on the left in order to display its "
@@ -2408,45 +2379,93 @@ msgstr ""
 "Kliknite na zariadenie v ľavej stromovej štruktúre pre získanie informácií o "
 "ňom."
 
-#: harddrake2:317 notify-x11-free-driver-switch:13
+#: harddrake2:300 notify-x11-free-driver-switch:13
 #, c-format
 msgid "unknown"
 msgstr "neznámy"
 
-#: harddrake2:318
+#: harddrake2:301
 #, c-format
 msgid "Unknown"
 msgstr "Neznámy"
 
-#: harddrake2:338
+#: harddrake2:321
 #, c-format
 msgid "Misc"
 msgstr "Ostatné"
 
-#: harddrake2:420
+#: harddrake2:404
 #, c-format
 msgid "secondary"
 msgstr "sekundárny"
 
-#: harddrake2:420
+#: harddrake2:404
 #, c-format
 msgid "primary"
 msgstr "primárne"
 
-#: harddrake2:424
+#: harddrake2:408
 #, c-format
 msgid "burner"
 msgstr "napaľovačka"
 
-#: harddrake2:424
+#: harddrake2:408
 #, c-format
 msgid "DVD"
 msgstr "DVD"
 
-#: harddrake2:528
+#: harddrake2:504
 #, c-format
 msgid "The following packages need to be installed:\n"
 msgstr "Nasledovné balíky je potrebné nainštalovať:\n"
+
+#: harddrake2:521
+#, fuzzy, c-format
+msgid "Harddrake"
+msgstr "Harddrake2"
+
+#: harddrake2:523
+#, c-format
+msgid "Copyright (C) %s by %s"
+msgstr ""
+
+#: harddrake2:523 harddrake2:527
+#, c-format
+msgid "Mageia"
+msgstr ""
+
+#: harddrake2:525
+#, c-format
+msgid "This is HardDrake, a %s hardware configuration tool."
+msgstr ""
+
+#: harddrake2:540
+#, c-format
+msgid "Harddrake help"
+msgstr "Harddrake pomoc"
+
+#: harddrake2:541
+#, c-format
+msgid ""
+"Description of the fields:\n"
+"\n"
+msgstr ""
+"Popis políčok:\n"
+"\n"
+
+#: harddrake2:548
+#, c-format
+msgid "Select a device!"
+msgstr "Zvoľte si zariadenie !"
+
+#: harddrake2:548
+#, c-format
+msgid ""
+"Once you've selected a device, you'll be able to see the device information "
+"in fields displayed on the right frame (\"Information\")"
+msgstr ""
+"Ak ste už vybrali zariadenie, môžete vidieť podrobnejšie informácie o tomto "
+"zariadení v pravej časti (\"Informácie\")"
 
 #: localedrake:38
 #, c-format
@@ -2465,66 +2484,21 @@ msgid ", "
 msgstr ", "
 
 #: logdrake:55
-#, c-format
-msgid "%s Tools Logs"
-msgstr ""
+#, fuzzy, c-format
+msgid "DrakX Tools Logs"
+msgstr "Logy Moondrake nástrojov"
 
 #: logdrake:69
 #, c-format
 msgid "Show only for the selected day"
 msgstr "Ukázať iba pre vybraný deň"
 
-#: logdrake:76
-#, c-format
-msgid "/File/_New"
-msgstr "/Súbor/_Nový"
-
-#: logdrake:76
-#, c-format
-msgid "<control>N"
-msgstr "<control>N"
-
-#: logdrake:77
-#, c-format
-msgid "/File/_Open"
-msgstr "/Súbor/_Otvor"
-
-#: logdrake:77
-#, c-format
-msgid "<control>O"
-msgstr "<control>O"
-
-#: logdrake:78
-#, c-format
-msgid "/File/_Save"
-msgstr "/Súbor/_Ulož"
-
 #: logdrake:78
 #, c-format
 msgid "<control>S"
 msgstr "<control>U"
 
-#: logdrake:79
-#, c-format
-msgid "/File/Save _As"
-msgstr "/Súbor/Uložiť _ako"
-
-#: logdrake:80
-#, c-format
-msgid "/File/-"
-msgstr "/Súbor/-"
-
-#: logdrake:83
-#, c-format
-msgid "/Options/Test"
-msgstr "/Parametre/Test"
-
-#: logdrake:85
-#, c-format
-msgid "/Help/_About..."
-msgstr "/Pomoc/_O aplikácii..."
-
-#: logdrake:114
+#: logdrake:117
 #, c-format
 msgid ""
 "_:this is the auth.log log file\n"
@@ -2533,7 +2507,7 @@ msgstr ""
 "_:toto je auth.log log súbor\n"
 "Authentikácia"
 
-#: logdrake:115
+#: logdrake:118
 #, c-format
 msgid ""
 "_:this is the user.log log file\n"
@@ -2542,7 +2516,7 @@ msgstr ""
 "_:toto je user.log log súbor\n"
 "Používateľ"
 
-#: logdrake:116
+#: logdrake:119
 #, c-format
 msgid ""
 "_:this is the /var/log/messages log file\n"
@@ -2551,7 +2525,7 @@ msgstr ""
 "_:toto je /var/log/messages log súbor\n"
 "Messages"
 
-#: logdrake:117
+#: logdrake:120
 #, c-format
 msgid ""
 "_:this is the /var/log/syslog log file\n"
@@ -2560,132 +2534,132 @@ msgstr ""
 "_:toto je /var/log/syslog log súbor\n"
 "Syslog"
 
-#: logdrake:121
+#: logdrake:124
 #, c-format
 msgid "search"
 msgstr "hľadaj"
 
-#: logdrake:133
+#: logdrake:136
 #, c-format
 msgid "A tool to monitor your logs"
 msgstr "Nástroj na monitorovanie logov"
 
-#: logdrake:135
+#: logdrake:138
 #, c-format
 msgid "Settings"
 msgstr "Nastavenia"
 
-#: logdrake:138
+#: logdrake:141
 #, c-format
 msgid "Matching"
 msgstr "Porovnávanie"
 
-#: logdrake:139
+#: logdrake:142
 #, c-format
 msgid "but not matching"
 msgstr "nezodpovedajú"
 
-#: logdrake:142
+#: logdrake:145
 #, c-format
 msgid "Choose file"
 msgstr "Zvoľte súbor"
 
-#: logdrake:154
+#: logdrake:157
 #, c-format
 msgid "Calendar"
 msgstr "Kalendár"
 
-#: logdrake:163
+#: logdrake:166
 #, c-format
 msgid "Content of the file"
 msgstr "Obsah súboru"
 
-#: logdrake:167 logdrake:411
+#: logdrake:170 logdrake:415
 #, c-format
 msgid "Mail alert"
 msgstr "Výstraha cez Mail"
 
-#: logdrake:174
+#: logdrake:177
 #, c-format
 msgid "The alert wizard has failed unexpectedly:"
 msgstr "Sprievodca varovaní neočakávane zhavaroval:"
 
-#: logdrake:178
+#: logdrake:181
 #, c-format
 msgid "Save"
 msgstr "Uložiť"
 
-#: logdrake:226
+#: logdrake:230
 #, c-format
 msgid "please wait, parsing file: %s"
 msgstr "prosím čakajte, analyzuje sa súbor: %s"
 
-#: logdrake:248
+#: logdrake:252
 #, c-format
 msgid "Sorry, log file isn't available!"
 msgstr ""
 
-#: logdrake:296
+#: logdrake:300
 #, c-format
 msgid "Error while opening \"%s\" log file: %s\n"
 msgstr ""
 
-#: logdrake:389
+#: logdrake:393
 #, c-format
 msgid "Apache World Wide Web Server"
 msgstr "Apache WWW server"
 
-#: logdrake:390
+#: logdrake:394
 #, c-format
 msgid "Domain Name Resolver"
 msgstr "Prekladač doménových mien"
 
-#: logdrake:391
+#: logdrake:395
 #, c-format
 msgid "Ftp Server"
 msgstr "Ftp server"
 
-#: logdrake:392
+#: logdrake:396
 #, c-format
 msgid "Postfix Mail Server"
 msgstr "Postfix email server"
 
-#: logdrake:393
+#: logdrake:397
 #, c-format
 msgid "Samba Server"
 msgstr "Samba server"
 
-#: logdrake:394
+#: logdrake:398
 #, c-format
 msgid "SSH Server"
 msgstr "SSH server"
 
-#: logdrake:395
+#: logdrake:399
 #, c-format
 msgid "Webmin Service"
 msgstr "Webmin servis"
 
-#: logdrake:396
+#: logdrake:400
 #, c-format
 msgid "Xinetd Service"
 msgstr "Xinetd servis"
 
-#: logdrake:405
+#: logdrake:409
 #, c-format
 msgid "Configure the mail alert system"
 msgstr "Konfigurácia výstražného mail systému"
 
-#: logdrake:406
+#: logdrake:410
 #, c-format
 msgid "Stop the mail alert system"
 msgstr "Zastaviť zasielanie varovaní mailom"
 
-#: logdrake:414
+#: logdrake:418
 #, c-format
 msgid "Mail alert configuration"
 msgstr "Nastavenie výstrahy email"
 
-#: logdrake:415
+#: logdrake:419
 #, c-format
 msgid ""
 "Welcome to the mail configuration utility.\n"
@@ -2696,72 +2670,72 @@ msgstr ""
 "\n"
 "Tu budete môcť nastaviť výstrahy systému.\n"
 
-#: logdrake:418
+#: logdrake:422
 #, c-format
 msgid "What do you want to do?"
 msgstr "Čo si želáte vykonať?"
 
-#: logdrake:425
+#: logdrake:429
 #, c-format
 msgid "Services settings"
 msgstr "Nastavenie služieb"
 
-#: logdrake:426
+#: logdrake:430
 #, c-format
 msgid ""
 "You will receive an alert if one of the selected services is no longer "
 "running"
 msgstr "Dostanete varovanie ak niektorá z vybraných služieb už nefunguje"
 
-#: logdrake:433
+#: logdrake:437
 #, c-format
 msgid "Load setting"
 msgstr "Načítať nastavenie"
 
-#: logdrake:434
+#: logdrake:438
 #, c-format
 msgid "You will receive an alert if the load is higher than this value"
 msgstr "Ak záťaž prekročí túto hodnotu, budete upozornený"
 
-#: logdrake:435
+#: logdrake:439
 #, c-format
 msgid ""
 "_: load here is a noun, the load of the system\n"
 "Load"
 msgstr "Záťaž"
 
-#: logdrake:440
+#: logdrake:444
 #, c-format
 msgid "Alert configuration"
 msgstr "Nastavenie varovaní"
 
-#: logdrake:441
+#: logdrake:445
 #, c-format
 msgid "Please enter your email address below "
 msgstr "Vložte vašu emailovú adresu nižšie"
 
-#: logdrake:442
+#: logdrake:446
 #, c-format
 msgid "and enter the name (or the IP) of the SMTP server you wish to use"
 msgstr "vložte meno (alebo IP adresu) SMTP servera ktorý si želáte používať"
 
-#: logdrake:444
+#: logdrake:448
 #, fuzzy, c-format
 msgid "Email address"
 msgstr "IP adresa"
 
-#: logdrake:445
+#: logdrake:449
 #, fuzzy, c-format
 msgid "Email server"
 msgstr "Samba server"
 
-#: logdrake:449
+#: logdrake:453
 #, c-format
 msgid "\"%s\" neither is a valid email nor is an existing local user!"
 msgstr ""
 "\"%s\" nie je ani korektná email adresa ani existujúci lokálny používateľ!"
 
-#: logdrake:454
+#: logdrake:458
 #, c-format
 msgid ""
 "\"%s\" is a local user, but you did not select a local smtp, so you must use "
@@ -2770,23 +2744,23 @@ msgstr ""
 "\"%s\" je lokálny používateľ, ale nemusíte vybrať lokálny smtp server, potom "
 "musíte použiť kompletnú email adresu!"
 
-#: logdrake:461
+#: logdrake:465
 #, c-format
 msgid "The wizard successfully configured the mail alert."
 msgstr "Sprievodca úspešne nakonfiguroval mail varovania."
 
-#: logdrake:467
+#: logdrake:471
 #, c-format
 msgid "The wizard successfully disabled the mail alert."
 msgstr "Sprievodca úspešne zakázal mail varovania."
 
-#: logdrake:526
+#: logdrake:530
 #, c-format
 msgid "Save as.."
 msgstr "Ulož ako.."
 
-#: notify-x11-free-driver-switch:18 service_harddrake:465
-#: service_harddrake:478
+#: notify-x11-free-driver-switch:18 service_harddrake:468
+#: service_harddrake:481
 #, c-format
 msgid "Display driver setup"
 msgstr ""
@@ -3376,27 +3350,27 @@ msgstr "Niektoré zariadenia boli pridané: %s\n"
 msgid "- %s was added\n"
 msgstr "- %s bolo pridané\n"
 
-#: service_harddrake:397
+#: service_harddrake:400
 #, c-format
 msgid "Hardware changes in \"%s\" class (%s seconds to answer)"
 msgstr "Zmena hardvéru v skupine \"%s\"  (%s sekúnd na odpoveď)"
 
-#: service_harddrake:398
+#: service_harddrake:401
 #, c-format
 msgid "Do you want to run the appropriate config tool?"
 msgstr "Želáte si spustiť potrebný konfiguračný nástroj?"
 
-#: service_harddrake:423
+#: service_harddrake:426
 #, c-format
 msgid "Hardware probing in progress"
 msgstr "Prebieha detekcia hardvéru"
 
-#: service_harddrake:444 service_harddrake:449
+#: service_harddrake:447 service_harddrake:452
 #, c-format
 msgid "Display driver issue"
 msgstr ""
 
-#: service_harddrake:445
+#: service_harddrake:448
 #, c-format
 msgid ""
 "The display driver currently configured requires you to use the 'nokmsboot' "
@@ -3405,7 +3379,7 @@ msgid ""
 "specified."
 msgstr ""
 
-#: service_harddrake:450
+#: service_harddrake:453
 #, c-format
 msgid ""
 "Detected a loaded display driver kernel module which conflicts with the "
@@ -3413,23 +3387,14 @@ msgid ""
 "fail."
 msgstr ""
 
-#: service_harddrake:465 service_harddrake:478
+#: service_harddrake:468 service_harddrake:481
 #, c-format
 msgid "The system has to be rebooted due to a display driver change."
 msgstr ""
 
-#: service_harddrake:466 service_harddrake:479
+#: service_harddrake:469 service_harddrake:482
 #, c-format
 msgid "Press Cancel within %d seconds to abort."
-msgstr ""
-
-#: ../menu/localedrake-system.desktop.in.h:1
-#, fuzzy
-msgid "System Regional Settings"
-msgstr "Systémové nastavenia"
-
-#: ../menu/localedrake-system.desktop.in.h:2
-msgid "System wide language & country configurator"
 msgstr ""
 
 #: ../menu/harddrake.desktop.in.h:1
@@ -3446,6 +3411,15 @@ msgstr "Konfigurácia siete"
 msgid "Hardware Configuration Tool"
 msgstr "Konfigurácia siete"
 
+#: ../menu/localedrake-system.desktop.in.h:1
+#, fuzzy
+msgid "System Regional Settings"
+msgstr "Systémové nastavenia"
+
+#: ../menu/localedrake-system.desktop.in.h:2
+msgid "System wide language & country configurator"
+msgstr ""
+
 #: ../menu/localedrake-user.desktop.in.h:1
 #, fuzzy
 msgid "Regional Settings"
@@ -3456,14 +3430,360 @@ msgstr "Nastavenia"
 msgid "Language & country configuration"
 msgstr "Ručné nastavenie"
 
+#: ../polkit/org.moondrake.drakauth.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Authentication Configuration"
+msgstr "Automatické kroky konfigurácie"
+
+#: ../polkit/org.moondrake.drakauth.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Authentication Configuration"
+msgstr "Automatické kroky konfigurácie"
+
+#: ../polkit/org.moondrake.drakboot.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Boot Configuration"
+msgstr "Nastavenie varovaní"
+
+#: ../polkit/org.moondrake.drakboot.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Boot Configuration"
+msgstr "Nastavenie varovaní"
+
+#: ../polkit/org.moondrake.drakclock.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Date and Time Configuration"
+msgstr "Nastavenie výstrahy email"
+
+#: ../polkit/org.moondrake.drakclock.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Date and Time Configuration"
+msgstr "Nastavenie výstrahy email"
+
+#: ../polkit/org.moondrake.drakdisk.policy.in.h:1
+msgid "Run DrakX Disk Layout Editor"
+msgstr ""
+
+#: ../polkit/org.moondrake.drakdisk.policy.in.h:2
+msgid "Authentication is required to run DrakX Disk Layout Editor"
+msgstr ""
+
+#: ../polkit/org.moondrake.drakdm.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Login Manager Configuration"
+msgstr "Ručné nastavenie"
+
+#: ../polkit/org.moondrake.drakdm.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Login Manager Configuration"
+msgstr "Ručné nastavenie"
+
+#: ../polkit/org.moondrake.drakfont.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Font Configuration"
+msgstr "Ručné nastavenie"
+
+#: ../polkit/org.moondrake.drakfont.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Font Configuration"
+msgstr "Ručné nastavenie"
+
+#: ../polkit/org.moondrake.drakhardware.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Hardware Configuration"
+msgstr "Nastavenie výstrahy email"
+
+#: ../polkit/org.moondrake.drakhardware.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Hardware Configuration"
+msgstr "Nastavenie výstrahy email"
+
+#: ../polkit/org.moondrake.draklog.policy.in.h:1
+msgid "Run DrakX Log Viewer"
+msgstr ""
+
+#: ../polkit/org.moondrake.draklog.policy.in.h:2
+msgid "Authentication is required to run DrakX Log Viewer"
+msgstr ""
+
+#: ../polkit/org.moondrake.drakperm.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Security Permissions Configuration"
+msgstr "Nastavenie výstrahy email"
+
+#: ../polkit/org.moondrake.drakperm.policy.in.h:2
+#, fuzzy
+msgid ""
+"Authentication is required to run DrakX Security Permissions Configuration"
+msgstr "Nastavenie výstrahy email"
+
+#: ../polkit/org.moondrake.drakscanner.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Scanner Configuration"
+msgstr "Nastavenie výstrahy email"
+
+#: ../polkit/org.moondrake.drakscanner.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Scanner Configuration"
+msgstr "Nastavenie výstrahy email"
+
+#: ../polkit/org.moondrake.draksec.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Application Security Configuration"
+msgstr "Automatické kroky konfigurácie"
+
+#: ../polkit/org.moondrake.draksec.policy.in.h:2
+#, fuzzy
+msgid ""
+"Authentication is required to run DrakX Application Security Configuration"
+msgstr "Automatické kroky konfigurácie"
+
+#: ../polkit/org.moondrake.drakups.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX UPS Configuration"
+msgstr "Nastavenie ovládača UPS"
+
+#: ../polkit/org.moondrake.drakups.policy.in.h:2
+msgid "Authentication is required to run DrakX UPS Configuration"
+msgstr ""
+
+#: ../polkit/org.moondrake.moondrakeservices.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Service Configuration"
+msgstr "Nastavenie výstrahy email"
+
+#: ../polkit/org.moondrake.moondrakeservices.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Service Configuration"
+msgstr "Nastavenie výstrahy email"
+
+#, fuzzy
+#~ msgid "%s Bug Report Tool"
+#~ msgstr "Nástroj pre oznámenie chýb Moondrakeu"
+
+#, fuzzy
+#~ msgid "%s Tools Logs"
+#~ msgstr "Logy Moondrake nástrojov"
+
+#, fuzzy
+#~ msgid "Run Moondrake Application Security Configuration"
+#~ msgstr "Automatické kroky konfigurácie"
+
+#, fuzzy
+#~ msgid "Run Moondrake Authentication Configuration"
+#~ msgstr "Automatické kroky konfigurácie"
+
+#, fuzzy
+#~ msgid "Run Moondrake Boot Configuration"
+#~ msgstr "Nastavenie varovaní"
+
+#, fuzzy
+#~ msgid "Run Moondrake Date and Time Configuration"
+#~ msgstr "Nastavenie výstrahy email"
+
+#, fuzzy
+#~ msgid "Run Moondrake Font Configuration"
+#~ msgstr "Ručné nastavenie"
+
+#, fuzzy
+#~ msgid "Run Moondrake Hardware Configuration"
+#~ msgstr "Nastavenie výstrahy email"
+
+#, fuzzy
+#~ msgid "Run Moondrake Login Manager Configuration"
+#~ msgstr "Ručné nastavenie"
+
+#, fuzzy
+#~ msgid "Run Moondrake Scanner Configuration"
+#~ msgstr "Nastavenie výstrahy email"
+
+#, fuzzy
+#~ msgid "Run Moondrake Security Permissions Configuration"
+#~ msgstr "Nastavenie výstrahy email"
+
+#, fuzzy
+#~ msgid "Run Moondrake Service Configuration"
+#~ msgstr "Nastavenie výstrahy email"
+
+#, fuzzy
+#~ msgid "Run Moondrake UPS Configuration"
+#~ msgstr "Nastavenie ovládača UPS"
+
+#~ msgid ""
+#~ "\n"
+#~ "Welcome.\n"
+#~ "\n"
+#~ "The parameters of the auto-install are available in the sections on the "
+#~ "left"
+#~ msgstr ""
+#~ "\n"
+#~ "Vitajte.\n"
+#~ "\n"
+#~ "Parametre automatickej inštalácie sú dosiahnuteľné na lište vľavo"
+
+#, fuzzy
+#~ msgid "  --help                - display this help     \n"
+#~ msgstr " --help                - zobraziť túto pomoc\n"
+
+#, fuzzy
+#~ msgid ""
+#~ " drakhelp 0.1\n"
+#~ "Copyright (C) %s Mandriva.\n"
+#~ "Copyright (C) %s Moondrake.\n"
+#~ "This is free software and may be redistributed under the terms of the GNU "
+#~ "GPL.\n"
+#~ "\n"
+#~ "Usage: \n"
+#~ msgstr ""
+#~ " drakhelp 0.1\n"
+#~ "Copyright (C) %s Mandriva.\n"
+#~ "Toto je slobodný softvér a musí byť redistribuovaný pod licenciou GNU "
+#~ "GPL.\n"
+#~ "\n"
+#~ "Použitie: \n"
+
+#~ msgid "%s Control Center"
+#~ msgstr "Kontrolné centrum %s"
+
+#, fuzzy
+#~ msgid "%s Help Center"
+#~ msgstr "Centrum pomoci Moondrake"
+
+#~ msgid "(default value: %s)"
+#~ msgstr "(štandardná hodnota: %s)"
+
 #~ msgid "/Autodetect _jaz drives"
 #~ msgstr "/Auto-detekcia _jaz mechaník"
 
-#~ msgid "OpenMandriva Lx Tools Logs"
-#~ msgstr "Logy OpenMandriva Lx nástrojov"
+#~ msgid "/Autodetect _modems"
+#~ msgstr "/Auto-detekcia _modemov"
 
 #~ msgid "/Autodetect _printers"
 #~ msgstr "/Auto-detekcia _tlačiarní"
+
+#~ msgid "/Autodetect parallel _zip drives"
+#~ msgstr "/Autodetekcia paralelných _zip mechaník"
+
+#~ msgid "/File/-"
+#~ msgstr "/Súbor/-"
+
+#~ msgid "/File/Save _As"
+#~ msgstr "/Súbor/Uložiť _ako"
+
+#~ msgid "/File/_New"
+#~ msgstr "/Súbor/_Nový"
+
+#~ msgid "/File/_Open"
+#~ msgstr "/Súbor/_Otvor"
+
+#~ msgid "/File/_Quit"
+#~ msgstr "/Súbor/_Koniec"
+
+#~ msgid "/File/_Save"
+#~ msgstr "/Súbor/_Ulož"
+
+#~ msgid "/Help/_About..."
+#~ msgstr "/Pomoc/_O aplikácii..."
+
+#~ msgid "/Options/Test"
+#~ msgstr "/Parametre/Test"
+
+#~ msgid "/_About..."
+#~ msgstr "/_O aplikácii..."
+
+#~ msgid "/_Fields description"
+#~ msgstr "/_Popis položiek"
+
+#~ msgid "/_File"
+#~ msgstr "/_Súbory"
+
+#~ msgid "/_Help"
+#~ msgstr "/_Pomoc"
+
+#~ msgid "/_Options"
+#~ msgstr "/_Nastavenia"
+
+#~ msgid "/_Quit"
+#~ msgstr "/_Koniec"
+
+#~ msgid "/_Report Bug"
+#~ msgstr "/_Ohlásiť chybu"
+
+#~ msgid "<control>N"
+#~ msgstr "<control>N"
+
+#~ msgid "<control>O"
+#~ msgstr "<control>O"
+
+#~ msgid "Add an item"
+#~ msgstr "Pridať položku"
+
+#~ msgid "Auto Install"
+#~ msgstr "Automatická inštalácia"
+
+#~ msgid "Auto Install Configurator"
+#~ msgstr "Konfigurátor automatickej inštalácie"
+
+#~ msgid "Autodetect _jaz drives"
+#~ msgstr "Auto-detekcia _jaz mechaník"
+
+#~ msgid "Autodetect _printers"
+#~ msgstr "Auto-detekcia _tlačiarní"
+
+#~ msgid "Automatic Steps Configuration"
+#~ msgstr "Automatické kroky konfigurácie"
+
+#~ msgid "Background color"
+#~ msgstr "Farba pozadia"
+
+#~ msgid "Basic options"
+#~ msgstr "Základné nastavenia"
+
+#~ msgid "Bugs"
+#~ msgstr "Chyby"
+
+#~ msgid "Choose picture"
+#~ msgstr "Výber obrázku"
+
+#~ msgid "Choose progress bar background"
+#~ msgstr "Vyberte si pozadie ukazovateľa priebehu"
+
+#~ msgid "Choose progress bar color 1"
+#~ msgstr "Vyberte si farbu 1 ukazovateľa priebehu"
+
+#~ msgid "Choose progress bar color 2"
+#~ msgstr "Vyberte si farbu 2 ukazovateľa priebehu"
+
+#~ msgid "Choose text color"
+#~ msgstr "Vyberte si farbu textu"
+
+#~ msgid "Choose text zone color"
+#~ msgstr "Vyberte si farbu textovej zóny"
+
+#~ msgid "Color selection"
+#~ msgstr "Výber farby"
+
+#~ msgid "Coma bug"
+#~ msgstr "Coma chyba"
+
+#, fuzzy
+#~ msgid "Copyright (C) %s by Moondrake"
+#~ msgstr "Copyright © 2001-2008 Mandriva"
+
+#~ msgid "Copyright (C) 2001-2008 by Mandriva"
+#~ msgstr "Copyright © 2001-2008 Mandriva"
+
+#~ msgid "Create new theme"
+#~ msgstr "Vytvor novú tému"
+
+#~ msgid "Creating auto install floppy"
+#~ msgstr "Pripravuje sa autoinštalačná disketa"
+
+#~ msgid "Creating auto install floppy (drivers disk)"
+#~ msgstr "Vytváranie autoinštalačnej diskety (diskety s ovládačmi)"
+
+#~ msgid "Display logo on Console"
+#~ msgstr "Zobraziť logo na konzole"
 
 #~ msgid ""
 #~ "Display theme\n"
@@ -3472,133 +3792,13 @@ msgstr "Ručné nastavenie"
 #~ "Zobraziť tému\n"
 #~ "pod konzolou"
 
-#~ msgid "Create new theme"
-#~ msgstr "Vytvor novú tému"
-
-#~ msgid "X coordinate of text box"
-#~ msgstr "X súradnica textového okna"
-
-#~ msgid "Y coordinate of text box"
-#~ msgstr "Y súradnica textového okna"
-
-#~ msgid "Text box width"
-#~ msgstr "šírka textového okna"
-
-#~ msgid "Text box height"
-#~ msgstr "šírka poľa textu"
-
-#~ msgid ""
-#~ "The progress bar X coordinate\n"
-#~ "of its upper left corner"
-#~ msgstr ""
-#~ "X súradnica stavového pruhu\n"
-#~ "od horného ľavého rohu"
-
-#~ msgid ""
-#~ "The progress bar Y coordinate\n"
-#~ "of its upper left corner"
-#~ msgstr ""
-#~ "Y súradnica stavového pruhu\n"
-#~ "od horného ľavého rohu"
-
-#~ msgid "The width of the progress bar"
-#~ msgstr "Výška stavového pruhu"
-
-#~ msgid "The height of the progress bar"
-#~ msgstr "šírka stavového pruhu"
-
-#~ msgid "X coordinate of the text"
-#~ msgstr "X súradnica testu"
-
-#~ msgid "Y coordinate of the text"
-#~ msgstr "Y súradnica textu"
-
-#~ msgid "Text box transparency"
-#~ msgstr "Priehľadnosť textového okna"
-
-#~ msgid "Progress box transparency"
-#~ msgstr "Priehľadnosť ukazovateľa priebehu"
-
-#~ msgid "Text size"
-#~ msgstr "Veľkosť písma"
-
-#~ msgid "Choose progress bar color 1"
-#~ msgstr "Vyberte si farbu 1 ukazovateľa priebehu"
-
-#~ msgid "Choose progress bar color 2"
-#~ msgstr "Vyberte si farbu 2 ukazovateľa priebehu"
-
-#~ msgid "Choose progress bar background"
-#~ msgstr "Vyberte si pozadie ukazovateľa priebehu"
-
-#~ msgid "Gradient type"
-#~ msgstr "typ gradientu"
+#, fuzzy
+#~ msgid "Do you want to remove these packages?"
+#~ msgstr "Želáte si spustiť potrebný konfiguračný nástroj?"
 
 #, fuzzy
-#~ msgid "Text"
-#~ msgstr "Iba text"
-
-#~ msgid "Choose text color"
-#~ msgstr "Vyberte si farbu textu"
-
-#~ msgid "Choose picture"
-#~ msgstr "Výber obrázku"
-
-#~ msgid "Silent bootsplash"
-#~ msgstr "Úvodná obrazovka bez podrobností"
-
-#~ msgid "Choose text zone color"
-#~ msgstr "Vyberte si farbu textovej zóny"
-
-#~ msgid "Text color"
-#~ msgstr "Farba textu"
-
-#~ msgid "Background color"
-#~ msgstr "Farba pozadia"
-
-#~ msgid "Verbose bootsplash"
-#~ msgstr "Úvodná obrazovka s podrobnosťami"
-
-#~ msgid "Theme name"
-#~ msgstr "Toto meno"
-
-#~ msgid "Final resolution"
-#~ msgstr "Konečné rozlíšenie"
-
-#~ msgid "Display logo on Console"
-#~ msgstr "Zobraziť logo na konzole"
-
-#~ msgid "Save theme"
-#~ msgstr "uloženie témy"
-
-#, fuzzy
-#~ msgid "Please enter a theme name"
-#~ msgstr "Vložte priečinok ktorý chcete zdieľať."
-
-#, fuzzy
-#~ msgid "Please select a splash image"
-#~ msgstr "Zvoľte si prosím model vašej UPS."
-
-#~ msgid "saving Bootsplash theme..."
-#~ msgstr "ukladá sa téma úvodnej obrazovky..."
-
-#~ msgid "Unable to load image file %s"
-#~ msgstr "Nie je možné načítať súbor s obrazom %s"
-
-#~ msgid "choose image"
-#~ msgstr "vyberte si cd obraz"
-
-#~ msgid "Color selection"
-#~ msgstr "Výber farby"
-
-#~ msgid "Coma bug"
-#~ msgstr "Coma chyba"
-
-#~ msgid "whether this cpu has the Cyrix 6x86 Coma bug"
-#~ msgstr "toto cpu obsahuje chybu pri práci s desatinnou čiarkou"
-
-#~ msgid "Fdiv bug"
-#~ msgstr "Fdiv chyba"
+#~ msgid "DrakX Online"
+#~ msgstr "Mandriva Online"
 
 #~ msgid ""
 #~ "Early Intel Pentium chips manufactured have a bug in their floating point "
@@ -3609,44 +3809,57 @@ msgstr "Ručné nastavenie"
 #~ "delenie s pohyblivou desatinnou čiarkou (Floating point DIVision (FDIV)) "
 #~ "presné"
 
-#~ msgid "Is FPU present"
-#~ msgstr "Je prítomné FPU"
-
-#~ msgid "yes means the processor has an arithmetic coprocessor"
-#~ msgstr "znamená, že procesor obsahuje matematický koprocesor"
-
-#~ msgid "Whether the FPU has an irq vector"
-#~ msgstr "Či má FPU vektor pre irq"
-
-#~ msgid ""
-#~ "yes means the arithmetic coprocessor has an exception vector attached"
-#~ msgstr "áno znamená, že matematický koprocesor má pridelený vektor"
+#~ msgid "Error!"
+#~ msgstr "Chyba!"
 
 #~ msgid "F00f bug"
 #~ msgstr "F00f chyba"
 
-#~ msgid ""
-#~ "early pentiums were buggy and freezed when decoding the F00F bytecode"
-#~ msgstr "staršie procesory pentium obsahovali chybu pri dekódovaní F00F"
+#~ msgid "FPU"
+#~ msgstr "FPU"
+
+#~ msgid "Fdiv bug"
+#~ msgstr "Fdiv chyba"
+
+#~ msgid "File/-"
+#~ msgstr "Súbor/-"
+
+#~ msgid "File/Save _As"
+#~ msgstr "Súbor/Uložiť _ako"
+
+#~ msgid "File/_New"
+#~ msgstr "Súbor/_Nový"
+
+#~ msgid "File/_Open"
+#~ msgstr "Súbor/_Otvor"
+
+#~ msgid "File/_Quit"
+#~ msgstr "Súbor/_Koniec"
+
+#~ msgid "File/_Save"
+#~ msgstr "Súbor/_Ulož"
+
+#~ msgid "Final resolution"
+#~ msgstr "Konečné rozlíšenie"
+
+#~ msgid "Gradient type"
+#~ msgstr "typ gradientu"
 
 #~ msgid "Halt bug"
 #~ msgstr "Halt chyba"
 
+#~ msgid "Help/_About..."
+#~ msgstr "Pomoc/_O aplikácii..."
+
 #~ msgid ""
-#~ "Some of the early i486DX-100 chips cannot reliably return to operating "
-#~ "mode after the \"halt\" instruction is used"
+#~ "Here you can see files to use in order to fix permissions, owners, and "
+#~ "groups via msec.\n"
+#~ "You can also edit your own rules which will owerwrite the default rules."
 #~ msgstr ""
-#~ "Niektoré staršie i486DX-100 procesory sa nevedeli správne vrátiť do "
-#~ "funkčného stavu po použití inštrukcie \"halt\""
-
-#~ msgid "Bugs"
-#~ msgstr "Chyby"
-
-#~ msgid "FPU"
-#~ msgstr "FPU"
-
-#~ msgid "Unknown/Others"
-#~ msgstr "Neznáme/Iné"
+#~ "Na tomto mieste môžete vidieť súbory podľa ich prístupových práv, "
+#~ "vlastníkov a skupín cez msec.\n"
+#~ "Je možné tiež editovať vaše vlastné pravidlá, ktorými budú prepísané "
+#~ "prednastavené."
 
 #~ msgid ""
 #~ "Here, you can setup the security level and administrator of your "
@@ -3749,29 +3962,93 @@ msgstr "Ručné nastavenie"
 #~ "nastavenia sú prednastavené\n"
 #~ "na ich maximum."
 
-#~ msgid "(default value: %s)"
-#~ msgstr "(štandardná hodnota: %s)"
+#~ msgid "I cannot find needed image file `%s'."
+#~ msgstr "Nemôžem nájsť potrebný súbor `%s'."
 
-#~ msgid "Security Level:"
-#~ msgstr "Úroveň bezpečnosti:"
+#~ msgid "Insert a blank floppy in drive %s"
+#~ msgstr "Vložte čistú disketu do mechaniky %s"
 
-#~ msgid "Security Alerts:"
-#~ msgstr "Bezpečnostné varovania:"
+#~ msgid "Insert another blank floppy in drive %s (for drivers disk)"
+#~ msgstr ""
+#~ "Vložte ďalšiu čistú disketu do mechaniky %s (prevytvorenie diskety s "
+#~ "ovládačmi)"
 
-#~ msgid "Security Administrator:"
-#~ msgstr "Bezpečnostný administrátor:"
+#~ msgid "Is FPU present"
+#~ msgstr "Je prítomné FPU"
 
-#~ msgid "Basic options"
-#~ msgstr "Základné nastavenia"
+#~ msgid "Mandriva Linux Bug Report Tool"
+#~ msgstr "Nástroj pre oznámenie chýb Mandriva Linuxu"
+
+#~ msgid "Mandriva Linux Tools Logs"
+#~ msgstr "Logy Mandriva Linux nástrojov"
+
+#, fuzzy
+#~ msgid "Mandriva Update"
+#~ msgstr "Mandriva Online"
+
+#~ msgid "Menudrake"
+#~ msgstr "Menudrake"
+
+#~ msgid "Moondrake"
+#~ msgstr "Moondrake"
+
+#~ msgid "Msec"
+#~ msgstr "Msec"
 
 #~ msgid "Network Options"
 #~ msgstr "Sieťové možnosti"
 
-#~ msgid "System Options"
-#~ msgstr "Systémové možnosti"
+#, fuzzy
+#~ msgid ""
+#~ "No Sound Card has been detected on your machine. Please verify that a "
+#~ "Linux-supported Sound Card is correctly plugged in"
+#~ msgstr ""
+#~ "Vo vašom stroji nebola nájdena TV karta. Prosím overte si či máte Video/"
+#~ "TV kartu podporovanú Linuxom a či je správne zapojená.\n"
+#~ "\n"
+#~ "\n"
+#~ "Môžete sa pozrieť do našej databázy hardvéru:\n"
+#~ "\n"
+#~ "\n"
+#~ "http://www.mandrivalinux.com/en/hardware.php3"
+
+#, fuzzy
+#~ msgid ""
+#~ "No TV Card has been detected on your machine. Please verify that a Linux-"
+#~ "supported Video/TV Card is correctly plugged in."
+#~ msgstr ""
+#~ "Vo vašom stroji nebola nájdena TV karta. Prosím overte si či máte Video/"
+#~ "TV kartu podporovanú Linuxom a či je správne zapojená.\n"
+#~ "\n"
+#~ "\n"
+#~ "Môžete sa pozrieť do našej databázy hardvéru:\n"
+#~ "\n"
+#~ "\n"
+#~ "http://www.mandrivalinux.com/en/hardware.php3"
+
+#~ msgid "Options/Test"
+#~ msgstr "Parametre/Test"
 
 #~ msgid "Periodic Checks"
 #~ msgstr "Periodické kontroly"
+
+#~ msgid ""
+#~ "Please choose for each step whether it will replay like your install, or "
+#~ "it will be manual"
+#~ msgstr ""
+#~ "Prosím pre každý krok zvoľte či sa má zopakovať ako pri vašej inštalácii "
+#~ "alebo znovu nastaviť"
+
+#, fuzzy
+#~ msgid "Please enter a theme name"
+#~ msgstr "Vložte priečinok ktorý chcete zdieľať."
+
+#, fuzzy
+#~ msgid "Please select a splash image"
+#~ msgstr "Zvoľte si prosím model vašej UPS."
+
+#~ msgid "Please wait, adding media..."
+#~ msgstr "Prosím čakajte, pridávajú sa médiá..."
 
 #~ msgid "Please wait, setting security level..."
 #~ msgstr "Prosím čakajte, nastavuje sa úroveň bezpečnosti..."
@@ -3779,38 +4056,135 @@ msgstr "Ručné nastavenie"
 #~ msgid "Please wait, setting security options..."
 #~ msgstr "Prosím čakajte, nastavujú sa bezpečnostné parametre..."
 
-#, fuzzy
+#~ msgid "Progress box transparency"
+#~ msgstr "Priehľadnosť ukazovateľa priebehu"
+
+#~ msgid "Remove the last item"
+#~ msgstr "Odstrániť poslednú položku"
+
+#~ msgid "Restart XFS"
+#~ msgstr "Reštart XFS"
+
+#~ msgid "Save theme"
+#~ msgstr "uloženie témy"
+
+#~ msgid "Security Administrator:"
+#~ msgstr "Bezpečnostný administrátor:"
+
+#~ msgid "Security Alerts:"
+#~ msgstr "Bezpečnostné varovania:"
+
+#~ msgid "Security Level:"
+#~ msgstr "Úroveň bezpečnosti:"
+
+#~ msgid "Select Mandriva Tool:"
+#~ msgstr "Vyberte si nástroj od Mandriva:"
+
+#~ msgid "Silent bootsplash"
+#~ msgstr "Úvodná obrazovka bez podrobností"
+
 #~ msgid ""
-#~ "The following localization packages do not seem to be useful for your "
-#~ "system:"
-#~ msgstr "Nasledovné balíky je potrebné nainštalovať:\n"
+#~ "Some of the early i486DX-100 chips cannot reliably return to operating "
+#~ "mode after the \"halt\" instruction is used"
+#~ msgstr ""
+#~ "Niektoré staršie i486DX-100 procesory sa nevedeli správne vrátiť do "
+#~ "funkčného stavu po použití inštrukcie \"halt\""
+
+#~ msgid "System Options"
+#~ msgstr "Systémové možnosti"
 
 #, fuzzy
-#~ msgid "Do you want to remove these packages?"
-#~ msgstr "Želáte si spustiť potrebný konfiguračný nástroj?"
+#~ msgid "Text"
+#~ msgstr "Iba text"
+
+#~ msgid "Text box height"
+#~ msgstr "šírka poľa textu"
+
+#~ msgid "Text box transparency"
+#~ msgstr "Priehľadnosť textového okna"
+
+#~ msgid "Text box width"
+#~ msgstr "šírka textového okna"
+
+#~ msgid "Text color"
+#~ msgstr "Farba textu"
+
+#~ msgid "Text size"
+#~ msgstr "Veľkosť písma"
+
+#~ msgid "The change is done, but to be effective you must logout"
+#~ msgstr "Táto zmena je v poriadku, ale pre jej uplatnenie sa musíte odhlásiť"
+
+#~ msgid ""
+#~ "The floppy has been successfully generated.\n"
+#~ "You may now replay your installation."
+#~ msgstr ""
+#~ "Disketa bola úspešne vytvorená.\n"
+#~ "Teraz môžete zopakovať inštaláciu."
 
 #, fuzzy
 #~ msgid ""
 #~ "The following hardware packages do not seem to be useful for your system:"
 #~ msgstr "Nasledovné balíky je potrebné nainštalovať:\n"
 
-#~ msgid "Please wait, adding media..."
-#~ msgstr "Prosím čakajte, pridávajú sa médiá..."
+#, fuzzy
+#~ msgid ""
+#~ "The following localization packages do not seem to be useful for your "
+#~ "system:"
+#~ msgstr "Nasledovné balíky je potrebné nainštalovať:\n"
 
-#~ msgid "The change is done, but to be effective you must logout"
-#~ msgstr "Táto zmena je v poriadku, ale pre jej uplatnenie sa musíte odhlásiť"
+#~ msgid "The height of the progress bar"
+#~ msgstr "šírka stavového pruhu"
 
-#~ msgid "Restart XFS"
-#~ msgstr "Reštart XFS"
+#~ msgid ""
+#~ "The progress bar X coordinate\n"
+#~ "of its upper left corner"
+#~ msgstr ""
+#~ "X súradnica stavového pruhu\n"
+#~ "od horného ľavého rohu"
 
-#~ msgid "Error!"
-#~ msgstr "Chyba!"
+#~ msgid ""
+#~ "The progress bar Y coordinate\n"
+#~ "of its upper left corner"
+#~ msgstr ""
+#~ "Y súradnica stavového pruhu\n"
+#~ "od horného ľavého rohu"
 
-#~ msgid "I cannot find needed image file `%s'."
-#~ msgstr "Nemôžem nájsť potrebný súbor `%s'."
+#~ msgid "The width of the progress bar"
+#~ msgstr "Výška stavového pruhu"
 
-#~ msgid "Auto Install Configurator"
-#~ msgstr "Konfigurátor automatickej inštalácie"
+#~ msgid "Theme name"
+#~ msgstr "Toto meno"
+
+#~ msgid "Unable to load image file %s"
+#~ msgstr "Nie je možné načítať súbor s obrazom %s"
+
+#~ msgid "Unknown/Others"
+#~ msgstr "Neznáme/Iné"
+
+#~ msgid "Urpmi"
+#~ msgstr "Urpmi"
+
+#~ msgid "Userdrake"
+#~ msgstr "Userdrake"
+
+#~ msgid "Verbose bootsplash"
+#~ msgstr "Úvodná obrazovka s podrobnosťami"
+
+#~ msgid "Whether the FPU has an irq vector"
+#~ msgstr "Či má FPU vektor pre irq"
+
+#~ msgid "X coordinate of text box"
+#~ msgstr "X súradnica textového okna"
+
+#~ msgid "X coordinate of the text"
+#~ msgstr "X súradnica testu"
+
+#~ msgid "Y coordinate of text box"
+#~ msgstr "Y súradnica textového okna"
+
+#~ msgid "Y coordinate of the text"
+#~ msgstr "Y súradnica textu"
 
 #~ msgid ""
 #~ "You are about to configure an Auto Install floppy. This feature is "
@@ -3838,72 +4212,28 @@ msgstr "Ručné nastavenie"
 #~ "\n"
 #~ "Želáte si pokračovať?"
 
-#~ msgid "replay"
-#~ msgstr "zopakovať"
+#~ msgid "choose image"
+#~ msgstr "vyberte si cd obraz"
+
+#~ msgid ""
+#~ "early pentiums were buggy and freezed when decoding the F00F bytecode"
+#~ msgstr "staršie procesory pentium obsahovali chybu pri dekódovaní F00F"
 
 #~ msgid "manual"
 #~ msgstr "manualne"
 
-#~ msgid "Automatic Steps Configuration"
-#~ msgstr "Automatické kroky konfigurácie"
+#~ msgid "replay"
+#~ msgstr "zopakovať"
+
+#~ msgid "saving Bootsplash theme..."
+#~ msgstr "ukladá sa téma úvodnej obrazovky..."
+
+#~ msgid "whether this cpu has the Cyrix 6x86 Coma bug"
+#~ msgstr "toto cpu obsahuje chybu pri práci s desatinnou čiarkou"
 
 #~ msgid ""
-#~ "Please choose for each step whether it will replay like your install, or "
-#~ "it will be manual"
-#~ msgstr ""
-#~ "Prosím pre každý krok zvoľte či sa má zopakovať ako pri vašej inštalácii "
-#~ "alebo znovu nastaviť"
+#~ "yes means the arithmetic coprocessor has an exception vector attached"
+#~ msgstr "áno znamená, že matematický koprocesor má pridelený vektor"
 
-#~ msgid "Insert a blank floppy in drive %s"
-#~ msgstr "Vložte čistú disketu do mechaniky %s"
-
-#~ msgid "Creating auto install floppy"
-#~ msgstr "Pripravuje sa autoinštalačná disketa"
-
-#~ msgid "Insert another blank floppy in drive %s (for drivers disk)"
-#~ msgstr ""
-#~ "Vložte ďalšiu čistú disketu do mechaniky %s (prevytvorenie diskety s "
-#~ "ovládačmi)"
-
-#~ msgid "Creating auto install floppy (drivers disk)"
-#~ msgstr "Vytváranie autoinštalačnej diskety (diskety s ovládačmi)"
-
-#~ msgid ""
-#~ "\n"
-#~ "Welcome.\n"
-#~ "\n"
-#~ "The parameters of the auto-install are available in the sections on the "
-#~ "left"
-#~ msgstr ""
-#~ "\n"
-#~ "Vitajte.\n"
-#~ "\n"
-#~ "Parametre automatickej inštalácie sú dosiahnuteľné na lište vľavo"
-
-#~ msgid ""
-#~ "The floppy has been successfully generated.\n"
-#~ "You may now replay your installation."
-#~ msgstr ""
-#~ "Disketa bola úspešne vytvorená.\n"
-#~ "Teraz môžete zopakovať inštaláciu."
-
-#~ msgid "Auto Install"
-#~ msgstr "Automatická inštalácia"
-
-#~ msgid "Add an item"
-#~ msgstr "Pridať položku"
-
-#~ msgid "Remove the last item"
-#~ msgstr "Odstrániť poslednú položku"
-
-#~ msgid "Menudrake"
-#~ msgstr "Menudrake"
-
-#~ msgid "Msec"
-#~ msgstr "Msec"
-
-#~ msgid "Urpmi"
-#~ msgstr "Urpmi"
-
-#~ msgid "Userdrake"
-#~ msgstr "Userdrake"
+#~ msgid "yes means the processor has an arithmetic coprocessor"
+#~ msgstr "znamená, že procesor obsahuje matematický koprocesor"

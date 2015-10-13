@@ -1,4 +1,4 @@
-package devices; # $Id$
+package devices;
 
 use common;
 use run_program;
@@ -77,7 +77,6 @@ sub entry {
 	$minor = 16 * $3 + ($4 || 0);
     } elsif (my ($prefix, $nb) = /(.*?)(\d+)$/) {	
 	my $f = ${{
-		   "sr"          => sub { c::S_IFBLK(), 11, 0  },
 		   "ubd/"        => sub { c::S_IFBLK(), 98, 0  },
 	       }}{$prefix};
 	if ($f) {
@@ -89,7 +88,6 @@ sub entry {
 	($type, $major, $minor) =
 	     @{ ${{
 		   "atibm"    => [ c::S_IFCHR(), 10, 3  ],
-		   "adbmouse" => [ c::S_IFCHR(), 10, 10 ], #- PPC
 	       }}{$_} || [] };
     }
     # Lookup non listed devices in /sys

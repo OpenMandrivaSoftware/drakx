@@ -1,4 +1,4 @@
-package fs::partitioning; # $Id$
+package fs::partitioning;
 
 use common;
 use fs::format;
@@ -49,7 +49,7 @@ sub choose_partitions_to_format {
 	    ({
 	      text => partition_table::description($e), type => 'bool',
 	      val => \$e->{toFormatTmp}
-         }, if_(!isLoopback($_) && !member($_->{fs_type}, 'reiserfs', 'xfs', 'hfs', 'ntfs', 'ntfs-3g', 'btrfs'), {
+	     }, if_(!isLoopback($_) && !member($_->{fs_type}, 'reiserfs', 'xfs', 'hfs', 'ntfs', 'ntfs-3g', 'btrfs'), {
 	      text => partition_table::description($e), type => 'bool', advanced => 1, 
 	      disabled => sub { !$e->{toFormatTmp} },
 	      val => \$e->{toFormatCheck}

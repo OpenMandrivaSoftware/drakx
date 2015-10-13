@@ -1,4 +1,4 @@
-package fs::mount_point; # $Id$
+package fs::mount_point;
 
 use common;
 use any;
@@ -21,7 +21,10 @@ sub guess_mount_point {
     my $d = $handle->{dir};
     my $mnt = find { -e "$d/$l{$_}" } keys %l;
     $mnt ||= (stat("$d/.bashrc"))[4] ? '/root' : '/home/user' . ++$$user if -e "$d/.bashrc";
-    $mnt ||= (any { -d $_ && (stat($_))[4] >= 500 && -e "$_/.bashrc" } glob_($d)) ? '/home' : '';
+    $mnt ||= (any { -d $_ && (stat($_))[4] >= 1000 && -e "$_/.bashrc" } glob_($d)) ? '/home' : '';
+    # Keep uid 500 here for guesswork, but base it on .bash_history to increase
+    # changes it's a real user.
+    $mnt ||= (any { -d $_ && (stat($_))[4] >= 500 && -e "$_/.bash_history" } glob_($d)) ? '/home' : '';
     ($mnt, $handle);
 }
 
@@ -49,8 +52,7 @@ sub suggest_mount_points_always {
     my @win = grep { isFat_or_NTFS($_) && !$_->{isMounted} && maybeFormatted($_) && !$_->{is_removable} && $_->{pt_type} != 0x12 && !isRecovery($_) } @$fstab;
     log::l("win parts: ", join ",", map { $_->{device} } @win) if @win;
     if (@win == 1) {
-	#- Suggest /boot/efi on ia64.
-	$win[0]{mntpoint} = arch() =~ /ia64/ ? "/boot/efi" : "/media/windows";
+	$win[0]{mntpoint} = "/media/windows";
     } else {
 	my %w; foreach (@win) {
 	    my $v = $w{$_->{device_windobe}}++;

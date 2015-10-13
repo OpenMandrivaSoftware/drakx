@@ -1,4 +1,4 @@
-package diskdrake::dav; # $Id$
+package diskdrake::dav;
 
 use diskdrake::interactive;
 use common;

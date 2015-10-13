@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: DrakX-tl\n"
-"POT-Creation-Date: 2015-01-22 00:47+0100\n"
+"POT-Creation-Date: 2015-02-18 12:26+0100\n"
 "PO-Revision-Date: 2004-09-15 13:35+0200\n"
 "Last-Translator: Arys P. Deloso <arys@deloso.org>\n"
 "Language-Team: Filipino <salinpinoy@comitus.net>\n"
@@ -16,64 +16,47 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.3\n"
 
-#: any.pm:280 any.pm:1016 diskdrake/interactive.pm:643
-#: diskdrake/interactive.pm:867 diskdrake/interactive.pm:927
-#: diskdrake/interactive.pm:1032 diskdrake/interactive.pm:1262
-#: diskdrake/interactive.pm:1320 do_pkgs.pm:242 do_pkgs.pm:291
-#: harddrake/sound.pm:250 interactive.pm:585 pkgs.pm:257 pkgs.pm:266
+#: any.pm:284 any.pm:984 diskdrake/interactive.pm:642
+#: diskdrake/interactive.pm:866 diskdrake/interactive.pm:926
+#: diskdrake/interactive.pm:1044 diskdrake/interactive.pm:1274
+#: diskdrake/interactive.pm:1332 do_pkgs.pm:342 do_pkgs.pm:391
+#: harddrake/sound.pm:77 interactive.pm:712 pkgs.pm:260 pkgs.pm:269
 #: pkgs.pm:312
 #, c-format
 msgid "Please wait"
 msgstr "Maghintay lamang"
 
-#: any.pm:280
+#: any.pm:284
 #, c-format
 msgid "Bootloader installation in progress"
 msgstr "Tumatakbo ang pag-i-install ng bootloader"
 
-#: any.pm:291
+#: any.pm:295
 #, c-format
 msgid ""
 "LILO wants to assign a new Volume ID to drive %s.  However, changing\n"
-"the Volume ID of a Windows NT, 2000, or XP boot disk is a fatal Windows "
-"error.\n"
-"This caution does not apply to Windows 95 or 98, or to NT data disks.\n"
+"\t\t\t\t\t\t\tthe Volume ID of a Windows NT, 2000, or XP boot disk is a "
+"fatal Windows error.\n"
+"\t\t\t\t\t\t\tThis caution does not apply to Windows 95 or 98, or to NT data "
+"disks.\n"
 "\n"
-"Assign a new Volume ID?"
+"\t\t\t\t\t\t\tAssign a new Volume ID?"
 msgstr ""
 
-#: any.pm:302
+#: any.pm:306
 #, c-format
 msgid "Installation of bootloader failed. The following error occurred:"
 msgstr ""
 "Ang pag-i-install ng bootloader ay nabigo. Nangyari ang sumusunod na error:"
 
-#: any.pm:308
-#, c-format
-msgid ""
-"You may need to change your Open Firmware boot-device to\n"
-" enable the bootloader.  If you do not see the bootloader prompt at\n"
-" reboot, hold down Command-Option-O-F at reboot and enter:\n"
-" setenv boot-device %s,\\\\:tbxi\n"
-" Then type: shut-down\n"
-"At your next boot you should see the bootloader prompt."
-msgstr ""
-"Baka kailanganin ninyong baguhin ang inyong boot-device ng\n"
-"Open Firmware para mapagana ang bootloader.  Kung hindi ninyo\n"
-"makita ang prompt ng bootloader sa reboot, hawakang pababa ang\n"
-"Command-Option-O-F sa reboot at ipasok ang:\n"
-" setenv boot-device %s,\\\\:tbxi\n"
-" Tapos i-type ang: shut-down\n"
-"Sa inyong susunod na boot dapat makita ninyo ang prompt ng bootloader."
-
-#: any.pm:348
-#, c-format
+#: any.pm:346
+#, fuzzy, c-format
 msgid ""
 "You decided to install the bootloader on a partition.\n"
-"This implies you already have a bootloader on the hard disk drive you boot "
-"(eg: System Commander).\n"
+"\t\t\tThis implies you already have a bootloader on the hard disk drive you "
+"boot (eg: System Commander).\n"
 "\n"
-"On which drive are you booting?"
+"\t\t\tOn which drive are you booting?"
 msgstr ""
 "Nagpasya kayo na i-install ang bootloader sa isang partition.\n"
 "Nagpapahiwatig ito na mayroon na kayong bootloader sa \"hard disk drive"
@@ -81,254 +64,220 @@ msgstr ""
 "\n"
 "Aling \"drive\" ang inyong bino-boot?"
 
-#: any.pm:359
+#: any.pm:357
 #, fuzzy, c-format
 msgid "Bootloader Installation"
 msgstr "Tumatakbo ang pag-i-install ng bootloader"
 
-#: any.pm:363
+#: any.pm:361
 #, c-format
 msgid "Where do you want to install the bootloader?"
 msgstr "Saan ninyo gustong i-install ang bootloader?"
 
-#: any.pm:387
+#: any.pm:377
 #, fuzzy, c-format
 msgid "First sector (MBR) of drive %s"
 msgstr "Unang sector ng drive (MBR)"
 
-#: any.pm:389
+#: any.pm:379
 #, c-format
 msgid "First sector of drive (MBR)"
 msgstr "Unang sector ng drive (MBR)"
 
-#: any.pm:391
+#: any.pm:381
 #, c-format
 msgid "First sector of the root partition"
 msgstr "Unang sector ng root partition"
 
-#: any.pm:393
+#: any.pm:383
 #, c-format
 msgid "On Floppy"
 msgstr "Sa Floppy"
 
-#: any.pm:395 pkgs.pm:308 ugtk2.pm:523
+#: any.pm:385 pkgs.pm:308 ugtk2.pm:526 ugtk3.pm:602
 #, c-format
 msgid "Skip"
 msgstr "Laktawan"
 
-#: any.pm:430
+#: any.pm:413
 #, c-format
 msgid "Boot Style Configuration"
 msgstr "Configuration ng Boot Style"
 
-#: any.pm:445 any.pm:474 any.pm:475
+#: any.pm:427
 #, c-format
 msgid "Bootloader main options"
 msgstr "Mga main option ng bootloader"
 
-#: any.pm:450 diskdrake/dav.pm:76 diskdrake/hd_gtk.pm:153
-#: diskdrake/hd_gtk.pm:321 diskdrake/interactive.pm:245
-#: diskdrake/interactive.pm:258 diskdrake/interactive.pm:454
-#: diskdrake/interactive.pm:525 diskdrake/interactive.pm:543
-#: diskdrake/interactive.pm:548 diskdrake/interactive.pm:710
-#: diskdrake/interactive.pm:998 diskdrake/interactive.pm:1050
-#: diskdrake/interactive.pm:1205 diskdrake/interactive.pm:1218
-#: diskdrake/interactive.pm:1221 diskdrake/interactive.pm:1495
-#: diskdrake/smbnfs_gtk.pm:39 do_pkgs.pm:23 do_pkgs.pm:28 do_pkgs.pm:44
-#: do_pkgs.pm:60 do_pkgs.pm:65 do_pkgs.pm:83 fsedit.pm:242
-#: interactive/http.pm:113 interactive/http.pm:114 modules/interactive.pm:19
-#: scanner.pm:95 scanner.pm:106 scanner.pm:113 scanner.pm:120 wizards.pm:95
-#: wizards.pm:99 wizards.pm:121
-#, c-format
-msgid "Error"
-msgstr "Error"
-
-#: any.pm:450
-#, c-format
-msgid "Grub2 cannot be installed on a partition, only on the MBR (whole disk)"
-msgstr ""
-
-#: any.pm:457
+#: any.pm:431
 #, c-format
 msgid "Bootloader"
 msgstr "Bootloader"
 
-#: any.pm:458 any.pm:478
+#: any.pm:432
 #, c-format
 msgid "Bootloader to use"
 msgstr "Gagamiting bootloader"
 
-#: any.pm:461 any.pm:481
+#: any.pm:435
 #, c-format
 msgid "Boot device"
 msgstr "Boot device"
 
-#: any.pm:464
+#: any.pm:438
 #, c-format
 msgid "Main options"
 msgstr ""
 
-#: any.pm:465
+#: any.pm:439
 #, c-format
 msgid "Delay before booting default image"
 msgstr "Delay bago i-boot ang default na image"
 
-#: any.pm:466
+#: any.pm:440
 #, c-format
 msgid "Enable ACPI"
 msgstr "Paganahin ang ACPI"
 
-#: any.pm:467
+#: any.pm:441
 #, fuzzy, c-format
 msgid "Enable SMP"
 msgstr "Paganahin ang ACPI"
 
-#: any.pm:468
+#: any.pm:442
 #, fuzzy, c-format
 msgid "Enable APIC"
 msgstr "Paganahin ang ACPI"
 
-#: any.pm:470
+#: any.pm:444
 #, fuzzy, c-format
 msgid "Enable Local APIC"
 msgstr "Paganahin ang ACPI"
 
-#: any.pm:480
+#: any.pm:445 security/level.pm:51
 #, c-format
-msgid "Init Message"
-msgstr "Mensahe ng \"init\""
+msgid "Security"
+msgstr "Seguridad"
 
-#: any.pm:482
+#: any.pm:446 any.pm:896 any.pm:930 authentication.pm:249
+#: diskdrake/smbnfs_gtk.pm:181
 #, c-format
-msgid "Open Firmware Delay"
-msgstr "Open Firmware Delay"
+msgid "Password"
+msgstr "Password"
 
-#: any.pm:483
+#: any.pm:449 authentication.pm:260
 #, c-format
-msgid "Kernel Boot Timeout"
-msgstr "Kernel Boot Timeout"
+msgid "The passwords do not match"
+msgstr "Hindi pareho ang mga password"
 
-#: any.pm:484
+#: any.pm:449 authentication.pm:260 diskdrake/interactive.pm:1498
 #, c-format
-msgid "Enable CD Boot?"
-msgstr "Paganahin ang pag-boot sa CD?"
+msgid "Please try again"
+msgstr "Pakisubukan muli"
 
-#: any.pm:485
+#: any.pm:451
+#, fuzzy, c-format
+msgid "You cannot use a password with %s"
+msgstr ""
+"Hindi kayo maaaring gumamit ng encrypted na filesystem para sa mount point "
+"na %s"
+
+#: any.pm:455 any.pm:899 any.pm:932 authentication.pm:250
 #, c-format
-msgid "Enable OF Boot?"
-msgstr "Paganahin ang OF Boot?"
+msgid "Password (again)"
+msgstr "Password (ulit)"
 
-#: any.pm:486
-#, c-format
-msgid "Default OS?"
-msgstr "Default OS?"
-
-#: any.pm:552
+#: any.pm:520
 #, c-format
 msgid "Image"
 msgstr "Image"
 
-#: any.pm:553 any.pm:567
+#: any.pm:521 any.pm:533
 #, c-format
 msgid "Root"
 msgstr "Root"
 
-#: any.pm:554 any.pm:580
+#: any.pm:522
 #, c-format
 msgid "Append"
 msgstr "Append"
 
-#: any.pm:556
+#: any.pm:524
 #, c-format
 msgid "Xen append"
 msgstr ""
 
-#: any.pm:558
+#: any.pm:526
 #, c-format
 msgid "Requires password to boot"
 msgstr ""
 
-#: any.pm:560
+#: any.pm:527
 #, c-format
 msgid "Video mode"
 msgstr "Video mode"
 
-#: any.pm:562
+#: any.pm:528
 #, c-format
 msgid "Initrd"
 msgstr "Initrd"
 
-#: any.pm:563
+#: any.pm:529
 #, fuzzy, c-format
 msgid "Network profile"
 msgstr "Bagong profile..."
 
-#: any.pm:572 any.pm:577 any.pm:579 diskdrake/interactive.pm:409
+#: any.pm:537 diskdrake/interactive.pm:411
 #, c-format
 msgid "Label"
 msgstr "Label"
 
-#: any.pm:574 any.pm:582 harddrake/v4l.pm:436
+#: any.pm:539 harddrake/v4l.pm:438
 #, c-format
 msgid "Default"
 msgstr "Default"
 
-#: any.pm:581
-#, c-format
-msgid "NoVideo"
-msgstr "NoVideo"
-
-#: any.pm:592
+#: any.pm:547
 #, c-format
 msgid "Empty label not allowed"
 msgstr "Hindi maaaring walang label"
 
-#: any.pm:593
+#: any.pm:548
 #, c-format
 msgid "You must specify a kernel image"
 msgstr "Dapat kayong mag-specify ng \"kernel image\""
 
-#: any.pm:593
+#: any.pm:548
 #, c-format
 msgid "You must specify a root partition"
 msgstr "Dapat kayong mag-specify ng \"root partition\""
 
-#: any.pm:594
+#: any.pm:549
 #, c-format
 msgid "This label is already used"
 msgstr "Gamit na ang \"label\" na ito"
 
-#: any.pm:612
+#: any.pm:567
 #, c-format
 msgid "Which type of entry do you want to add?"
 msgstr "Anong uri ng entry ang gusto ninyong idagdag?"
 
-#: any.pm:613
+#: any.pm:568
 #, c-format
 msgid "Linux"
 msgstr "Linux"
 
-#: any.pm:613
-#, c-format
-msgid "Other OS (SunOS...)"
-msgstr "Ibang OS (SunOS...)"
-
-#: any.pm:614
-#, c-format
-msgid "Other OS (MacOS...)"
-msgstr "Ibang OS (MacOS...)"
-
-#: any.pm:614
+#: any.pm:568
 #, c-format
 msgid "Other OS (Windows...)"
 msgstr "Ibang OS (Windows...)"
 
-#: any.pm:661
+#: any.pm:615
 #, fuzzy, c-format
 msgid "Bootloader Configuration"
 msgstr "Configuration ng Boot Style"
 
-#: any.pm:662
+#: any.pm:616
 #, c-format
 msgid ""
 "Here are the entries on your boot menu so far.\n"
@@ -337,47 +286,47 @@ msgstr ""
 "Narito ang mga \"entry\" sa inyong \"boot menu\" sa ngayon.\n"
 "Maaari kayong gumawa ng bagong \"entry\" o baguhin ang alinmang \"entry\"."
 
-#: any.pm:886
+#: any.pm:852
 #, c-format
 msgid "access to X programs"
 msgstr "\"access\" sa mga \"X program\""
 
-#: any.pm:887
+#: any.pm:853
 #, c-format
 msgid "access to rpm tools"
 msgstr "\"access\" sa mga kasangkapang pang-RPM"
 
-#: any.pm:888
+#: any.pm:854
 #, c-format
 msgid "allow \"su\""
 msgstr "payagan ang \"su\""
 
-#: any.pm:889
+#: any.pm:855
 #, c-format
 msgid "access to administrative files"
 msgstr "\"access\" sa mga file na pangtagapamahala"
 
-#: any.pm:890
+#: any.pm:856
 #, c-format
 msgid "access to network tools"
 msgstr "\"access\" sa mga kasangkapang pang-network"
 
-#: any.pm:891
+#: any.pm:857
 #, c-format
 msgid "access to compilation tools"
 msgstr "\"access\" sa mga kasangkapang pang-compile"
 
-#: any.pm:897
+#: any.pm:863
 #, c-format
 msgid "(already added %s)"
 msgstr "(naidagdag na ang %s)"
 
-#: any.pm:903
+#: any.pm:869
 #, c-format
 msgid "Please give a user name"
 msgstr "Magbigay po ng \"user name\""
 
-#: any.pm:904
+#: any.pm:870
 #, fuzzy, c-format
 msgid ""
 "The user name must start with a lower case letter followed by only lower "
@@ -386,160 +335,150 @@ msgstr ""
 "Ang \"user name\" ay dapat maglaman lamang ng maliliit na titik, bilang, `-' "
 "at `_'"
 
-#: any.pm:905
+#: any.pm:871
 #, c-format
 msgid "The user name is too long"
 msgstr "Masyadong mahaba ang \"user name\""
 
-#: any.pm:906
+#: any.pm:872
 #, c-format
 msgid "This user name has already been added"
 msgstr "Naidagdag na ang \"user name\" na ito"
 
-#: any.pm:912 any.pm:966
+#: any.pm:878 any.pm:934
 #, c-format
 msgid "User ID"
 msgstr "User ID"
 
-#: any.pm:912 any.pm:967
+#: any.pm:878 any.pm:935
 #, c-format
 msgid "Group ID"
 msgstr "Group ID"
 
-#: any.pm:913
+#: any.pm:879
 #, fuzzy, c-format
 msgid "%s must be a number"
 msgstr "Ang option na %s ay dapat isang bilang!"
 
-#: any.pm:914
+#: any.pm:880
 #, c-format
-msgid "%s should be above 500. Accept anyway?"
+msgid "%s should be above 1000. Accept anyway?"
 msgstr ""
 
-#: any.pm:921 any.pm:944
+#: any.pm:887 any.pm:912
 #, fuzzy, c-format
 msgid "User management"
 msgstr "Username"
 
-#: any.pm:926
+#: any.pm:893
 #, c-format
 msgid "Enable guest account"
 msgstr ""
 
-#: any.pm:927 authentication.pm:236
+#: any.pm:895 authentication.pm:236
 #, fuzzy, c-format
 msgid "Set administrator (root) password"
 msgstr "I-set ang password ng root"
 
-#: any.pm:928 any.pm:962 authentication.pm:249 diskdrake/smbnfs_gtk.pm:178
-#, c-format
-msgid "Password"
-msgstr "Password"
-
-#: any.pm:931 any.pm:964 authentication.pm:250
-#, c-format
-msgid "Password (again)"
-msgstr "Password (ulit)"
-
-#: any.pm:948
+#: any.pm:916
 #, fuzzy, c-format
 msgid "Enter a user"
 msgstr ""
 "Magpasok \"user\"\n"
 "%s"
 
-#: any.pm:950
+#: any.pm:918
 #, c-format
 msgid "Icon"
 msgstr "Icon"
 
-#: any.pm:953
+#: any.pm:921
 #, c-format
 msgid "Real name"
 msgstr "Totoong pangalan"
 
-#: any.pm:960
+#: any.pm:928
 #, c-format
 msgid "Login name"
 msgstr "Login name"
 
-#: any.pm:965
+#: any.pm:933
 #, c-format
 msgid "Shell"
 msgstr "Shell"
 
-#: any.pm:1016
+#: any.pm:984
 #, c-format
 msgid "Please wait, adding media..."
 msgstr "Pakihintay, idinadagdag ang media..."
 
-#: any.pm:1048 security/l10n.pm:14
+#: any.pm:1017 security/l10n.pm:14
 #, c-format
 msgid "Autologin"
 msgstr "Autologin"
 
-#: any.pm:1049
+#: any.pm:1018
 #, c-format
 msgid "I can set up your computer to automatically log on one user."
 msgstr ""
 "Maaari kong i-setup ang inyong computer na kaagad mag-log ng isang \"user\"."
 
-#: any.pm:1050
+#: any.pm:1019
 #, fuzzy, c-format
 msgid "Use this feature?"
 msgstr "Gusto ninyong gamitin ang katangian na ito?"
 
-#: any.pm:1051
+#: any.pm:1020
 #, c-format
 msgid "Choose the default user:"
 msgstr "Piliin ang \"default\" na \"user\":"
 
-#: any.pm:1052
+#: any.pm:1021
 #, c-format
 msgid "Choose the window manager to run:"
 msgstr "Piliin ang \"window manager\" na patatakbuhin:"
 
-#: any.pm:1063 any.pm:1077 any.pm:1151
+#: any.pm:1032 any.pm:1046 any.pm:1121
 #, fuzzy, c-format
 msgid "Release Notes"
 msgstr "Release: "
 
-#: any.pm:1084 any.pm:1441 interactive/gtk.pm:822
+#: any.pm:1053 any.pm:1411 interactive/gtk.pm:820
 #, c-format
 msgid "Close"
 msgstr "Isara"
 
-#: any.pm:1137
+#: any.pm:1107
 #, c-format
 msgid "License agreement"
 msgstr "Kasunduang Lisensiya"
 
-#: any.pm:1139 diskdrake/dav.pm:24 mygtk2.pm:1227
+#: any.pm:1109 diskdrake/dav.pm:26 mygtk2.pm:1229 mygtk3.pm:1282
 #, c-format
 msgid "Quit"
 msgstr "Quit"
 
-#: any.pm:1146
+#: any.pm:1116
 #, fuzzy, c-format
 msgid "Do you accept this license ?"
 msgstr "Mayroon ba kayong isa pa?"
 
-#: any.pm:1147
+#: any.pm:1117
 #, c-format
 msgid "Accept"
 msgstr "Tanggapin"
 
-#: any.pm:1147
+#: any.pm:1117
 #, c-format
 msgid "Refuse"
 msgstr "Tanggihan"
 
-#: any.pm:1173 any.pm:1236
-#, fuzzy, c-format
-msgid "Please choose a language to use:"
+#: any.pm:1143 any.pm:1206
+#, c-format
+msgid "Please choose a language to use"
 msgstr "Pumili ng wika na gagamitin"
 
-#: any.pm:1201
+#: any.pm:1171
 #, fuzzy, c-format
 msgid ""
 "%s can support multiple languages. Select\n"
@@ -550,82 +489,82 @@ msgstr ""
 "ang mga wika na nais ninyong i-install. Sila ay mapapakinabangan\n"
 "kung natapos na ang inyong installation at ni-restart ang inyong sistema."
 
-#: any.pm:1204
+#: any.pm:1174
 #, fuzzy, c-format
 msgid "Multiple languages"
 msgstr "Lahat ng wika"
 
-#: any.pm:1205
+#: any.pm:1175
 #, c-format
 msgid "Select Additional Languages"
 msgstr ""
 
-#: any.pm:1214 any.pm:1245
+#: any.pm:1184 any.pm:1215
 #, c-format
 msgid "Old compatibility (non UTF-8) encoding"
 msgstr ""
 
-#: any.pm:1215
+#: any.pm:1185
 #, c-format
 msgid "All languages"
 msgstr "Lahat ng wika"
 
-#: any.pm:1237
+#: any.pm:1207
 #, fuzzy, c-format
 msgid "Language"
 msgstr "Mano-manong pili"
 
-#: any.pm:1291
+#: any.pm:1261
 #, c-format
 msgid "Country / Region"
 msgstr "Bansa / Rehiyon"
 
-#: any.pm:1292
-#, fuzzy, c-format
-msgid "Please choose your country:"
+#: any.pm:1262
+#, c-format
+msgid "Please choose your country"
 msgstr "Pakipili ang inyong bansa"
 
-#: any.pm:1294
-#, fuzzy, c-format
-msgid "Here is the full list of available countries:"
+#: any.pm:1264
+#, c-format
+msgid "Here is the full list of available countries"
 msgstr "Narito ang buong listahan ng mga \"available\" na bansa"
 
-#: any.pm:1295
+#: any.pm:1265
 #, fuzzy, c-format
 msgid "Other Countries"
 msgstr "Ibang mga port"
 
-#: any.pm:1295 interactive.pm:486 interactive/gtk.pm:446
+#: any.pm:1265 interactive.pm:491 interactive/gtk.pm:444
 #, c-format
 msgid "Advanced"
 msgstr "Advanced"
 
-#: any.pm:1301
+#: any.pm:1271
 #, fuzzy, c-format
 msgid "Input method:"
 msgstr "Net Method:"
 
-#: any.pm:1304
+#: any.pm:1274
 #, c-format
 msgid "None"
 msgstr "Wala"
 
-#: any.pm:1386
+#: any.pm:1356
 #, c-format
 msgid "No sharing"
 msgstr "Walang \"sharing\""
 
-#: any.pm:1386
+#: any.pm:1356
 #, c-format
 msgid "Allow all users"
 msgstr "Payagan lahat ng mga \"user\""
 
-#: any.pm:1386
+#: any.pm:1356
 #, c-format
 msgid "Custom"
 msgstr "Custom"
 
-#: any.pm:1390
+#: any.pm:1360
 #, c-format
 msgid ""
 "Would you like to allow users to share some of their directories?\n"
@@ -641,33 +580,33 @@ msgstr ""
 "\n"
 "Sa \"Custom\" maaaring piliin kung sinong \"user\" lamang ang papayagan.\n"
 
-#: any.pm:1402
+#: any.pm:1372
 #, c-format
 msgid ""
 "NFS: the traditional Unix file sharing system, with less support on Mac and "
 "Windows."
 msgstr ""
 
-#: any.pm:1405
+#: any.pm:1375
 #, c-format
 msgid ""
 "SMB: a file sharing system used by Windows, Mac OS X and many modern Linux "
 "systems."
 msgstr ""
 
-#: any.pm:1413
+#: any.pm:1383
 #, c-format
 msgid ""
 "You can export using NFS or SMB. Please select which you would like to use."
 msgstr ""
 "Maaaring mag-export gamit ang NFS o SMB. Pakipili kung alin ang gagamitin."
 
-#: any.pm:1441
+#: any.pm:1411
 #, c-format
 msgid "Launch userdrake"
 msgstr "I-launch ang userdrake"
 
-#: any.pm:1443
+#: any.pm:1413
 #, c-format
 msgid ""
 "The per-user sharing uses the group \"fileshare\". \n"
@@ -676,7 +615,7 @@ msgstr ""
 "Ang per-user na pag-share ay ginagamit ang group na \"fileshare\". \n"
 "Maaari ninyong gamitin ang userdrake para magdagdag ng user sa group na ito."
 
-#: any.pm:1550
+#: any.pm:1520
 #, fuzzy, c-format
 msgid ""
 "You need to logout and back in again for changes to take effect. Press OK to "
@@ -684,48 +623,48 @@ msgid ""
 msgstr ""
 "Kailangan ninyong mag-logout at login ulit para magkabisa ang mga pagbabago"
 
-#: any.pm:1554
-#, fuzzy, c-format
-msgid "You need to log out and back in again for changes to take effect."
+#: any.pm:1524
+#, c-format
+msgid "You need to log out and back in again for changes to take effect"
 msgstr ""
 "Kailangan ninyong mag-logout at login ulit para magkabisa ang mga pagbabago"
 
-#: any.pm:1589
+#: any.pm:1559
 #, c-format
 msgid "Timezone"
 msgstr "Timezone"
 
-#: any.pm:1589
-#, fuzzy, c-format
-msgid "What is your current timezone?"
+#: any.pm:1559
+#, c-format
+msgid "Which is your timezone?"
 msgstr "Alin ang inyong timezone?"
 
-#: any.pm:1612 any.pm:1614
+#: any.pm:1582 any.pm:1584
 #, c-format
 msgid "Date, Clock & Time Zone Settings"
 msgstr ""
 
-#: any.pm:1615
-#, fuzzy, c-format
-msgid "What is your current time?"
-msgstr "Alin ang inyong timezone?"
+#: any.pm:1585
+#, c-format
+msgid "What is the best time?"
+msgstr ""
 
-#: any.pm:1619
+#: any.pm:1589
 #, fuzzy, c-format
 msgid "%s (hardware clock set to UTC)"
 msgstr "Orasan ng hardware ginawang GMT"
 
-#: any.pm:1620
+#: any.pm:1590
 #, fuzzy, c-format
 msgid "%s (hardware clock set to local time)"
 msgstr "Orasan ng hardware ginawang GMT"
 
-#: any.pm:1622
+#: any.pm:1592
 #, c-format
 msgid "NTP Server"
 msgstr "NTP Server"
 
-#: any.pm:1623
+#: any.pm:1593
 #, c-format
 msgid "Automatic time synchronization (using NTP)"
 msgstr "Automatic na pagsasabaysabay ng oras (gamit ang NTP)"
@@ -819,7 +758,7 @@ msgstr ""
 
 #: authentication.pm:106 authentication.pm:140 authentication.pm:159
 #: authentication.pm:160 authentication.pm:186 authentication.pm:210
-#: authentication.pm:865
+#: authentication.pm:851
 #, c-format
 msgid " "
 msgstr ""
@@ -1033,33 +972,33 @@ msgid "This password is too short (it must be at least %d characters long)"
 msgstr ""
 "Masyadong maikli ang password na ito (dapat hindi iikli sa %d character)"
 
-#: authentication.pm:373
+#: authentication.pm:374
 #, c-format
 msgid "Cannot use broadcast with no NIS domain"
 msgstr "Hindi magagamit ang \"broadcast\" na walang NIS domain"
 
-#: authentication.pm:860
+#: authentication.pm:846
 #, c-format
 msgid "Select file"
 msgstr "Pumili ng file"
 
-#: authentication.pm:866
+#: authentication.pm:852
 #, fuzzy, c-format
 msgid "Domain Windows for authentication : "
 msgstr "Kailangan ng Domain Authentication"
 
-#: authentication.pm:868
+#: authentication.pm:854
 #, c-format
 msgid "Domain Admin User Name"
 msgstr "Domain Admin User Name"
 
-#: authentication.pm:869
+#: authentication.pm:855
 #, c-format
 msgid "Domain Admin Password"
 msgstr "Domain Admin Password"
 
 #. -PO: these messages will be displayed at boot time in the BIOS, use only ASCII (7bit)
-#: bootloader.pm:1057
+#: bootloader.pm:1119
 #, c-format
 msgid ""
 "Welcome to the operating system chooser!\n"
@@ -1074,47 +1013,37 @@ msgstr ""
 "para sa default na boot.\n"
 "\n"
 
-#: bootloader.pm:1249
+#: bootloader.pm:1283
 #, c-format
 msgid "LILO with text menu"
 msgstr "LILO na may \"text menu\""
 
-#: bootloader.pm:1250
+#: bootloader.pm:1284
 #, c-format
 msgid "GRUB2 with graphical menu"
 msgstr ""
 
-#: bootloader.pm:1251
+#: bootloader.pm:1285
 #, c-format
 msgid "GRUB with graphical menu"
 msgstr ""
 
-#: bootloader.pm:1252
+#: bootloader.pm:1286
 #, c-format
 msgid "GRUB with text menu"
 msgstr ""
 
-#: bootloader.pm:1253
-#, c-format
-msgid "Yaboot"
-msgstr "Yaboot"
-
-#: bootloader.pm:1254
-#, c-format
-msgid "SILO"
-msgstr "SILO"
-
-#: bootloader.pm:1340
+#: bootloader.pm:1341
 #, c-format
 msgid "not enough room in /boot"
 msgstr "Walang sapat na puwang sa /boot"
 
-#: bootloader.pm:2127
+#: bootloader.pm:2087
 #, c-format
 msgid "You cannot install the bootloader on a %s partition\n"
 msgstr "Hindi maaaring i-install ang bootloader sa isang partisyon ng %s\n"
 
-#: bootloader.pm:2296
+#: bootloader.pm:2262
 #, c-format
 msgid ""
 "Your bootloader configuration must be updated because partition has been "
@@ -1123,7 +1052,7 @@ msgstr ""
 "Ang configuration ng inyong bootloader ay dapat ma-update dahil nabago ang "
 "bilang ng partisyon"
 
-#: bootloader.pm:2309
+#: bootloader.pm:2275
 #, c-format
 msgid ""
 "The bootloader cannot be installed correctly. You have to boot rescue and "
@@ -1132,7 +1061,7 @@ msgstr ""
 "Hindi ma-install ng tama ang bootloader. Dapat i-boot ninyo ang rescue at "
 "piliin ang \"%s\""
 
-#: bootloader.pm:2310
+#: bootloader.pm:2276
 #, c-format
 msgid "Re-install Boot Loader"
 msgstr "I-install ulit ang Boot loader"
@@ -1186,52 +1115,47 @@ msgstr ""
 msgid "System requirements warning"
 msgstr ""
 
-#: common.pm:140
+#: common.pm:271
 #, fuzzy, c-format
 msgid "B"
 msgstr "KB"
 
-#: common.pm:140
+#: common.pm:271
 #, c-format
 msgid "KB"
 msgstr "KB"
 
-#: common.pm:140
+#: common.pm:271
 #, c-format
 msgid "MB"
 msgstr "MB"
 
-#: common.pm:140
+#: common.pm:271
 #, c-format
 msgid "GB"
 msgstr "GB"
 
-#: common.pm:140 common.pm:149
+#: common.pm:271 common.pm:280
 #, c-format
 msgid "TB"
 msgstr "TB"
 
-#: common.pm:157
+#: common.pm:288
 #, c-format
 msgid "%d minutes"
 msgstr "%d minuto"
 
-#: common.pm:159
+#: common.pm:290
 #, c-format
 msgid "1 minute"
 msgstr "1 minuto"
 
-#: common.pm:161
+#: common.pm:292
 #, c-format
 msgid "%d seconds"
 msgstr "%d segundo"
 
-#: common.pm:391
-#, c-format
-msgid "command %s missing"
-msgstr ""
-
-#: diskdrake/dav.pm:15
+#: diskdrake/dav.pm:17
 #, c-format
 msgid ""
 "WebDAV is a protocol that allows you to mount a web server's directory\n"
@@ -1264,33 +1188,49 @@ msgstr "Mount"
 msgid "Server"
 msgstr "Server"
 
-#: diskdrake/dav.pm:64 diskdrake/interactive.pm:406
-#: diskdrake/interactive.pm:720 diskdrake/interactive.pm:738
-#: diskdrake/interactive.pm:742 diskdrake/removable.pm:21
-#: diskdrake/smbnfs_gtk.pm:76
+#: diskdrake/dav.pm:66 diskdrake/interactive.pm:408
+#: diskdrake/interactive.pm:719 diskdrake/interactive.pm:737
+#: diskdrake/interactive.pm:741 diskdrake/removable.pm:23
+#: diskdrake/smbnfs_gtk.pm:79
 #, c-format
 msgid "Mount point"
 msgstr "Mount point"
 
-#: diskdrake/dav.pm:65 diskdrake/interactive.pm:408
-#: diskdrake/interactive.pm:1159 diskdrake/removable.pm:22
-#: diskdrake/smbnfs_gtk.pm:77
+#: diskdrake/dav.pm:67 diskdrake/interactive.pm:410
+#: diskdrake/interactive.pm:1171 diskdrake/removable.pm:24
+#: diskdrake/smbnfs_gtk.pm:80
 #, c-format
 msgid "Options"
 msgstr "Mga option"
 
-#: diskdrake/dav.pm:66 interactive.pm:385 interactive/gtk.pm:458
+#: diskdrake/dav.pm:68 interactive.pm:390 interactive/gtk.pm:456
 #, c-format
 msgid "Remove"
 msgstr "Tanggalin"
 
-#: diskdrake/dav.pm:67 diskdrake/hd_gtk.pm:213 diskdrake/removable.pm:24
-#: diskdrake/smbnfs_gtk.pm:79 interactive/http.pm:147
+#: diskdrake/dav.pm:69 diskdrake/hd_gtk.pm:238 diskdrake/removable.pm:26
+#: diskdrake/smbnfs_gtk.pm:82 interactive/http.pm:151
 #, c-format
 msgid "Done"
 msgstr "Tapos"
 
-#: diskdrake/dav.pm:84
+#: diskdrake/dav.pm:78 diskdrake/hd_gtk.pm:170 diskdrake/hd_gtk.pm:346
+#: diskdrake/interactive.pm:247 diskdrake/interactive.pm:260
+#: diskdrake/interactive.pm:456 diskdrake/interactive.pm:527
+#: diskdrake/interactive.pm:545 diskdrake/interactive.pm:550
+#: diskdrake/interactive.pm:709 diskdrake/interactive.pm:1010
+#: diskdrake/interactive.pm:1062 diskdrake/interactive.pm:1217
+#: diskdrake/interactive.pm:1230 diskdrake/interactive.pm:1233
+#: diskdrake/interactive.pm:1498 diskdrake/smbnfs_gtk.pm:42 do_pkgs.pm:49
+#: do_pkgs.pm:54 do_pkgs.pm:79 do_pkgs.pm:103 do_pkgs.pm:108 do_pkgs.pm:142
+#: fsedit.pm:246 interactive/http.pm:117 interactive/http.pm:118
+#: modules/interactive.pm:19 scanner.pm:94 scanner.pm:105 scanner.pm:112
+#: scanner.pm:119 wizards.pm:95 wizards.pm:99 wizards.pm:121
+#, c-format
+msgid "Error"
+msgstr "Error"
+
+#: diskdrake/dav.pm:86
 #, c-format
 msgid "Please enter the WebDAV server URL"
 msgstr "Pakipasok ang URL ng WebDAV server"
@@ -1300,14 +1240,14 @@ msgstr "Pakipasok ang URL ng WebDAV server"
 msgid "The URL must begin with http:// or https://"
 msgstr "Ang URL ay dapat magsimula sa http:// o https://"
 
-#: diskdrake/dav.pm:104 diskdrake/hd_gtk.pm:135 diskdrake/hd_gtk.pm:481
-#: diskdrake/interactive.pm:304 diskdrake/interactive.pm:389
-#: diskdrake/interactive.pm:595 diskdrake/interactive.pm:813
-#: diskdrake/interactive.pm:878 diskdrake/interactive.pm:1030
-#: diskdrake/interactive.pm:1072 diskdrake/interactive.pm:1073
-#: diskdrake/interactive.pm:1305 diskdrake/interactive.pm:1343
-#: diskdrake/interactive.pm:1494 do_pkgs.pm:19 do_pkgs.pm:39 do_pkgs.pm:57
-#: do_pkgs.pm:78 harddrake/sound.pm:371
+#: diskdrake/dav.pm:106 diskdrake/hd_gtk.pm:149 diskdrake/hd_gtk.pm:513
+#: diskdrake/interactive.pm:306 diskdrake/interactive.pm:391
+#: diskdrake/interactive.pm:597 diskdrake/interactive.pm:812
+#: diskdrake/interactive.pm:877 diskdrake/interactive.pm:1042
+#: diskdrake/interactive.pm:1084 diskdrake/interactive.pm:1085
+#: diskdrake/interactive.pm:1317 diskdrake/interactive.pm:1355
+#: diskdrake/interactive.pm:1497 do_pkgs.pm:45 do_pkgs.pm:74 do_pkgs.pm:100
+#: do_pkgs.pm:137
 #, c-format
 msgid "Warning"
 msgstr "Babala"
@@ -1322,55 +1262,55 @@ msgstr "Gusto ninyong mag-click sa pindutang ito?"
 msgid "Server: "
 msgstr "Server: "
 
-#: diskdrake/dav.pm:124 diskdrake/interactive.pm:499
-#: diskdrake/interactive.pm:1367 diskdrake/interactive.pm:1455
+#: diskdrake/dav.pm:126 diskdrake/interactive.pm:501
+#: diskdrake/interactive.pm:1379 diskdrake/interactive.pm:1458
 #, c-format
 msgid "Mount point: "
 msgstr "Mount point: "
 
-#: diskdrake/dav.pm:125 diskdrake/interactive.pm:1462
+#: diskdrake/dav.pm:127 diskdrake/interactive.pm:1465
 #, c-format
 msgid "Options: %s"
 msgstr "Mga option: %s"
 
-#: diskdrake/hd_gtk.pm:59 diskdrake/interactive.pm:299
-#: diskdrake/smbnfs_gtk.pm:19 fs/mount_point.pm:105
-#: fs/partitioning_wizard.pm:53 fs/partitioning_wizard.pm:236
-#: fs/partitioning_wizard.pm:244 fs/partitioning_wizard.pm:283
+#: diskdrake/hd_gtk.pm:64 diskdrake/interactive.pm:301
+#: diskdrake/smbnfs_gtk.pm:22 fs/mount_point.pm:110
+#: fs/partitioning_wizard.pm:59 fs/partitioning_wizard.pm:242
+#: fs/partitioning_wizard.pm:250 fs/partitioning_wizard.pm:285
 #: fs/partitioning_wizard.pm:431 fs/partitioning_wizard.pm:494
 #: fs/partitioning_wizard.pm:577 fs/partitioning_wizard.pm:580
 #, c-format
 msgid "Partitioning"
 msgstr "Pagpartisyon"
 
-#: diskdrake/hd_gtk.pm:71
+#: diskdrake/hd_gtk.pm:77
 #, c-format
 msgid "Click on a partition, choose a filesystem type then choose an action"
 msgstr ""
 
-#: diskdrake/hd_gtk.pm:135
-#, fuzzy, c-format
-msgid "Please make a backup of your data first."
+#: diskdrake/hd_gtk.pm:149
+#, c-format
+msgid "Please make a backup of your data first"
 msgstr "Paki-backup muna ang inyong data"
 
-#: diskdrake/hd_gtk.pm:136 diskdrake/interactive.pm:238
+#: diskdrake/hd_gtk.pm:150 diskdrake/interactive.pm:240
 #, c-format
 msgid "Exit"
 msgstr "Exit"
 
-#: diskdrake/hd_gtk.pm:136
+#: diskdrake/hd_gtk.pm:150
 #, c-format
 msgid "Continue"
 msgstr "Magpatuloy"
 
-#: diskdrake/hd_gtk.pm:208 fs/partitioning_wizard.pm:553 interactive.pm:651
-#: interactive/gtk.pm:814 interactive/gtk.pm:832 interactive/gtk.pm:863
-#: ugtk2.pm:933
+#: diskdrake/hd_gtk.pm:233 fs/partitioning_wizard.pm:553 interactive.pm:778
+#: interactive/gtk.pm:812 interactive/gtk.pm:830 interactive/gtk.pm:862
+#: ugtk2.pm:936 ugtk3.pm:1034
 #, c-format
 msgid "Help"
 msgstr "Tulong"
 
-#: diskdrake/hd_gtk.pm:256
+#: diskdrake/hd_gtk.pm:281
 #, c-format
 msgid ""
 "You have one big Microsoft Windows partition.\n"
@@ -1381,90 +1321,80 @@ msgstr ""
 "Iminumungkahi ko na i-resize ninyo muna ang partisyon na iyon\n"
 "(i-click iyon, tapos i-click ang \"Resize\")"
 
-#: diskdrake/hd_gtk.pm:258
+#: diskdrake/hd_gtk.pm:283
 #, c-format
 msgid "Please click on a partition"
 msgstr "Paki-click ang isang partisyon"
 
-#: diskdrake/hd_gtk.pm:272 diskdrake/smbnfs_gtk.pm:60
+#: diskdrake/hd_gtk.pm:297 diskdrake/smbnfs_gtk.pm:63
 #, c-format
 msgid "Details"
 msgstr "Mga detalye"
 
-#: diskdrake/hd_gtk.pm:321
+#: diskdrake/hd_gtk.pm:346
 #, c-format
 msgid "No hard disk drives found"
 msgstr "Walang \"hard disk drive\" na nahanap"
 
-#: diskdrake/hd_gtk.pm:387
+#: diskdrake/hd_gtk.pm:417
 #, c-format
 msgid "Unknown"
 msgstr "Hindi kilala"
 
-#: diskdrake/hd_gtk.pm:452
+#: diskdrake/hd_gtk.pm:484
 #, fuzzy, c-format
 msgid "Ext4"
 msgstr "Exit"
 
-#: diskdrake/hd_gtk.pm:452 fs/partitioning_wizard.pm:401
+#: diskdrake/hd_gtk.pm:484 fs/partitioning_wizard.pm:401
 #, fuzzy, c-format
 msgid "XFS"
 msgstr "HFS"
 
-#: diskdrake/hd_gtk.pm:452 fs/partitioning_wizard.pm:401
+#: diskdrake/hd_gtk.pm:484 fs/partitioning_wizard.pm:401
 #, c-format
 msgid "Swap"
 msgstr "Swap"
 
-#: diskdrake/hd_gtk.pm:452 fs/partitioning_wizard.pm:401
-#, c-format
-msgid "SunOS"
-msgstr "SunOS"
-
-#: diskdrake/hd_gtk.pm:452 fs/partitioning_wizard.pm:401
-#, c-format
-msgid "HFS"
-msgstr "HFS"
-
-#: diskdrake/hd_gtk.pm:452 fs/partitioning_wizard.pm:401
+#: diskdrake/hd_gtk.pm:484 fs/partitioning_wizard.pm:401
 #, c-format
 msgid "Windows"
 msgstr "Windows"
 
-#: diskdrake/hd_gtk.pm:453 fs/partitioning_wizard.pm:402 services.pm:192
+#: diskdrake/hd_gtk.pm:485 fs/partitioning_wizard.pm:402 services.pm:195
 #, c-format
 msgid "Other"
 msgstr "Ang iba"
 
-#: diskdrake/hd_gtk.pm:453 diskdrake/interactive.pm:1382
+#: diskdrake/hd_gtk.pm:485 diskdrake/interactive.pm:1385
 #: fs/partitioning_wizard.pm:402
 #, c-format
 msgid "Empty"
 msgstr "Walang laman"
 
-#: diskdrake/hd_gtk.pm:460
+#: diskdrake/hd_gtk.pm:492
 #, c-format
 msgid "Filesystem types:"
 msgstr "Mga uri ng filesystem:"
 
-#: diskdrake/hd_gtk.pm:481
+#: diskdrake/hd_gtk.pm:513
 #, fuzzy, c-format
 msgid "This partition is already empty"
 msgstr "Hindi na-re-resize ang partisyon na ito"
 
-#: diskdrake/hd_gtk.pm:490
+#: diskdrake/hd_gtk.pm:522
 #, c-format
 msgid "Use ``Unmount'' first"
 msgstr "Gamitin muna ang ``Unmount''"
 
-#: diskdrake/hd_gtk.pm:490
+#: diskdrake/hd_gtk.pm:522
 #, fuzzy, c-format
 msgid "Use ``%s'' instead (in expert mode)"
 msgstr "Sa halip ay gamitin ang ``%s''"
 
-#: diskdrake/hd_gtk.pm:490 diskdrake/interactive.pm:407
-#: diskdrake/interactive.pm:637 diskdrake/removable.pm:23
-#: diskdrake/removable.pm:46
+#: diskdrake/hd_gtk.pm:522 diskdrake/interactive.pm:409
+#: diskdrake/interactive.pm:636 diskdrake/removable.pm:25
+#: diskdrake/removable.pm:48
 #, c-format
 msgid "Type"
 msgstr "Uri"
@@ -1485,8 +1415,8 @@ msgstr "Pumili ng partisyon"
 msgid "More"
 msgstr "Marami pa"
 
-#: diskdrake/interactive.pm:279 diskdrake/interactive.pm:292
-#: diskdrake/interactive.pm:1289 mygtk2.pm:1226
+#: diskdrake/interactive.pm:281 diskdrake/interactive.pm:294
+#: diskdrake/interactive.pm:1301 mygtk2.pm:1228 mygtk3.pm:1281
 #, fuzzy, c-format
 msgid "Confirmation"
 msgstr "Configuration"
@@ -1583,9 +1513,9 @@ msgstr "Detalyadong inpormasyon"
 #: diskdrake/interactive.pm:405
 #, c-format
 msgid "View"
-msgstr ""
+msgstr "Tanawin"
 
-#: diskdrake/interactive.pm:410 diskdrake/interactive.pm:826
+#: diskdrake/interactive.pm:412 diskdrake/interactive.pm:825
 #, c-format
 msgid "Resize"
 msgstr "I-resize"
@@ -1595,12 +1525,12 @@ msgstr "I-resize"
 msgid "Format"
 msgstr "Format"
 
-#: diskdrake/interactive.pm:413 diskdrake/interactive.pm:961
+#: diskdrake/interactive.pm:415 diskdrake/interactive.pm:973
 #, c-format
 msgid "Add to RAID"
 msgstr "Idagdag sa RAID"
 
-#: diskdrake/interactive.pm:414 diskdrake/interactive.pm:980
+#: diskdrake/interactive.pm:416 diskdrake/interactive.pm:992
 #, c-format
 msgid "Add to LVM"
 msgstr "Idagdag sa LVM"
@@ -1660,12 +1590,12 @@ msgstr "Gumawa ng bagong partisyon"
 msgid "Start sector: "
 msgstr "Umpisang sector: "
 
-#: diskdrake/interactive.pm:495 diskdrake/interactive.pm:1065
+#: diskdrake/interactive.pm:497 diskdrake/interactive.pm:1077
 #, c-format
 msgid "Size in MB: "
 msgstr "Laki sa MB: "
 
-#: diskdrake/interactive.pm:497 diskdrake/interactive.pm:1066
+#: diskdrake/interactive.pm:499 diskdrake/interactive.pm:1078
 #, c-format
 msgid "Filesystem type: "
 msgstr "Uri ng filesystem: "
@@ -1690,12 +1620,12 @@ msgstr "Encryption algorithm"
 msgid "Encryption key "
 msgstr "\"Encryption key\""
 
-#: diskdrake/interactive.pm:510 diskdrake/interactive.pm:1499
+#: diskdrake/interactive.pm:512 diskdrake/interactive.pm:1502
 #, c-format
 msgid "Encryption key (again)"
 msgstr "\"Encryption key\" (ulit)"
 
-#: diskdrake/interactive.pm:522 diskdrake/interactive.pm:1495
+#: diskdrake/interactive.pm:524 diskdrake/interactive.pm:1498
 #, c-format
 msgid "The encryption keys do not match"
 msgstr "Ang mga \"encryption key\" ay hindi magkatumbas"
@@ -1721,64 +1651,64 @@ msgstr ""
 msgid "Remove the loopback file?"
 msgstr "Alisin ang \"loopback file\"?"
 
-#: diskdrake/interactive.pm:618
+#: diskdrake/interactive.pm:617
 #, c-format
 msgid ""
 "After changing type of partition %s, all data on this partition will be lost"
 msgstr ""
 "Matapos baguhin ang uri ng partisyon na %s, lahat ng data nito ay mawawala"
 
-#: diskdrake/interactive.pm:634
+#: diskdrake/interactive.pm:633
 #, c-format
 msgid "Change partition type"
 msgstr "Baguhin ang uri ng partisyon"
 
-#: diskdrake/interactive.pm:636 diskdrake/removable.pm:45
+#: diskdrake/interactive.pm:635 diskdrake/removable.pm:47
 #, c-format
 msgid "Which filesystem do you want?"
 msgstr "Aling filesystem ang gusto ninyo?"
 
-#: diskdrake/interactive.pm:643
+#: diskdrake/interactive.pm:642
 #, fuzzy, c-format
 msgid "Switching from %s to %s"
 msgstr "Lumilipat mula ext2 patungong ext3"
 
-#: diskdrake/interactive.pm:678
+#: diskdrake/interactive.pm:677
 #, c-format
 msgid "Set volume label"
 msgstr ""
 
-#: diskdrake/interactive.pm:680
+#: diskdrake/interactive.pm:679
 #, c-format
 msgid "Beware, this will be written to disk as soon as you validate!"
 msgstr ""
 
-#: diskdrake/interactive.pm:681
+#: diskdrake/interactive.pm:680
 #, c-format
 msgid "Beware, this will be written to disk only after formatting!"
 msgstr ""
 
-#: diskdrake/interactive.pm:683
+#: diskdrake/interactive.pm:682
 #, c-format
 msgid "Which volume label?"
 msgstr ""
 
-#: diskdrake/interactive.pm:684
+#: diskdrake/interactive.pm:683
 #, fuzzy, c-format
 msgid "Label:"
 msgstr "Label"
 
-#: diskdrake/interactive.pm:705
+#: diskdrake/interactive.pm:704
 #, c-format
 msgid "Where do you want to mount the loopback file %s?"
 msgstr "Saan ninyo gustong i-mount ang \"loopback file\" na %s?"
 
-#: diskdrake/interactive.pm:706
+#: diskdrake/interactive.pm:705
 #, c-format
 msgid "Where do you want to mount device %s?"
 msgstr "Saan ninyo gustong i-mount ang device na %s?"
 
-#: diskdrake/interactive.pm:711
+#: diskdrake/interactive.pm:710
 #, c-format
 msgid ""
 "Cannot unset mount point as this partition is used for loop back.\n"
@@ -1788,58 +1718,58 @@ msgstr ""
 "sa \"loopback\".\n"
 "Alisin muna ang \"loopback\""
 
-#: diskdrake/interactive.pm:741
+#: diskdrake/interactive.pm:740
 #, c-format
 msgid "Where do you want to mount %s?"
 msgstr "Saan ninyo gustong i-mount ang %s?"
 
-#: diskdrake/interactive.pm:771 diskdrake/interactive.pm:867
-#: fs/partitioning_wizard.pm:129 fs/partitioning_wizard.pm:205
+#: diskdrake/interactive.pm:770 diskdrake/interactive.pm:866
+#: fs/partitioning_wizard.pm:135 fs/partitioning_wizard.pm:211
 #, c-format
 msgid "Resizing"
 msgstr "Nag-re-resize"
 
-#: diskdrake/interactive.pm:771
+#: diskdrake/interactive.pm:770
 #, c-format
 msgid "Computing FAT filesystem bounds"
 msgstr "Kino-compute ang hangganan ng filesystem na FAT"
 
-#: diskdrake/interactive.pm:813
+#: diskdrake/interactive.pm:812
 #, c-format
 msgid "This partition is not resizeable"
 msgstr "Hindi na-re-resize ang partisyon na ito"
 
-#: diskdrake/interactive.pm:818
+#: diskdrake/interactive.pm:817
 #, c-format
 msgid "All data on this partition should be backed up"
 msgstr "Lahat ng data sa partisyon na ito ay dapat mai-backup"
 
-#: diskdrake/interactive.pm:820
+#: diskdrake/interactive.pm:819
 #, c-format
 msgid "After resizing partition %s, all data on this partition will be lost"
 msgstr "Matapos mai-resize ang partisyon na %s, lahat ng data nito ay mawawala"
 
-#: diskdrake/interactive.pm:827
+#: diskdrake/interactive.pm:826
 #, c-format
 msgid "Choose the new size"
 msgstr "Piliin ang bagong laki"
 
-#: diskdrake/interactive.pm:828
+#: diskdrake/interactive.pm:827
 #, c-format
 msgid "New size in MB: "
 msgstr "Bagong laki sa MB: "
 
-#: diskdrake/interactive.pm:829
+#: diskdrake/interactive.pm:828
 #, c-format
 msgid "Minimum size: %s MB"
 msgstr ""
 
-#: diskdrake/interactive.pm:830
+#: diskdrake/interactive.pm:829
 #, c-format
 msgid "Maximum size: %s MB"
 msgstr ""
 
-#: diskdrake/interactive.pm:878 fs/partitioning_wizard.pm:213
+#: diskdrake/interactive.pm:877 fs/partitioning_wizard.pm:219
 #, fuzzy, c-format
 msgid ""
 "To ensure data integrity after resizing the partition(s),\n"
@@ -1850,180 +1780,180 @@ msgstr ""
 "magsasagawa ng pagsusuri ng filesystem sa susunod ninyong pag-boot sa "
 "Windows(TM)"
 
-#: diskdrake/interactive.pm:942 diskdrake/interactive.pm:1490
+#: diskdrake/interactive.pm:941 diskdrake/interactive.pm:1493
 #, c-format
 msgid "Filesystem encryption key"
 msgstr "\"Encryption key\" ng filesystem"
 
-#: diskdrake/interactive.pm:943
+#: diskdrake/interactive.pm:942
 #, fuzzy, c-format
 msgid "Enter your filesystem encryption key"
 msgstr "Piliin ang \"encryption key\" ng inyong filesystem"
 
-#: diskdrake/interactive.pm:944 diskdrake/interactive.pm:1498
+#: diskdrake/interactive.pm:943 diskdrake/interactive.pm:1501
 #, c-format
 msgid "Encryption key"
 msgstr "\"Encryption key\""
 
-#: diskdrake/interactive.pm:951
+#: diskdrake/interactive.pm:950
 #, c-format
 msgid "Invalid key"
 msgstr ""
 
-#: diskdrake/interactive.pm:961
+#: diskdrake/interactive.pm:973
 #, c-format
 msgid "Choose an existing RAID to add to"
 msgstr "Pumili ng mayroon ng RAID na daragdagan"
 
-#: diskdrake/interactive.pm:963 diskdrake/interactive.pm:982
+#: diskdrake/interactive.pm:975 diskdrake/interactive.pm:994
 #, c-format
 msgid "new"
 msgstr "bago"
 
-#: diskdrake/interactive.pm:980
+#: diskdrake/interactive.pm:992
 #, c-format
 msgid "Choose an existing LVM to add to"
 msgstr "Pumili ng mayroon ng LVM na daragdagan"
 
-#: diskdrake/interactive.pm:992 diskdrake/interactive.pm:1001
+#: diskdrake/interactive.pm:1004 diskdrake/interactive.pm:1013
 #, fuzzy, c-format
 msgid "LVM name"
 msgstr "Pangalan ng LVM?"
 
-#: diskdrake/interactive.pm:993
+#: diskdrake/interactive.pm:1005
 #, c-format
 msgid "Enter a name for the new LVM volume group"
 msgstr ""
 
-#: diskdrake/interactive.pm:998
+#: diskdrake/interactive.pm:1010
 #, fuzzy, c-format
 msgid "\"%s\" already exists"
 msgstr "Mayroon ng file. Gamitin ito?"
 
-#: diskdrake/interactive.pm:1030
+#: diskdrake/interactive.pm:1042
 #, c-format
 msgid ""
 "Physical volume %s is still in use.\n"
 "Do you want to move used physical extents on this volume to other volumes?"
 msgstr ""
 
-#: diskdrake/interactive.pm:1032
+#: diskdrake/interactive.pm:1044
 #, c-format
 msgid "Moving physical extents"
 msgstr ""
 
-#: diskdrake/interactive.pm:1050
+#: diskdrake/interactive.pm:1062
 #, c-format
 msgid "This partition cannot be used for loopback"
 msgstr "Hindi magamit ang partisyon na ito para sa \"loopback\""
 
-#: diskdrake/interactive.pm:1063
+#: diskdrake/interactive.pm:1075
 #, c-format
 msgid "Loopback"
 msgstr "Loopback"
 
-#: diskdrake/interactive.pm:1064
+#: diskdrake/interactive.pm:1076
 #, c-format
 msgid "Loopback file name: "
 msgstr "Pangalan ng \"loopback file\": "
 
-#: diskdrake/interactive.pm:1069
+#: diskdrake/interactive.pm:1081
 #, c-format
 msgid "Give a file name"
 msgstr "Magbigay ng pangalan ng file"
 
-#: diskdrake/interactive.pm:1072
+#: diskdrake/interactive.pm:1084
 #, c-format
 msgid "File is already used by another loopback, choose another one"
 msgstr "Ang file ay gamit na ng ibang loopback, pumili ng iba"
 
-#: diskdrake/interactive.pm:1073
+#: diskdrake/interactive.pm:1085
 #, c-format
 msgid "File already exists. Use it?"
 msgstr "Mayroon ng file. Gamitin ito?"
 
-#: diskdrake/interactive.pm:1105 diskdrake/interactive.pm:1108
+#: diskdrake/interactive.pm:1117 diskdrake/interactive.pm:1120
 #, c-format
 msgid "Mount options"
 msgstr "Mga option ng mount"
 
-#: diskdrake/interactive.pm:1115
+#: diskdrake/interactive.pm:1127
 #, c-format
 msgid "Various"
 msgstr "Sari-sari"
 
-#: diskdrake/interactive.pm:1161
+#: diskdrake/interactive.pm:1173
 #, c-format
 msgid "device"
 msgstr "device"
 
-#: diskdrake/interactive.pm:1162
+#: diskdrake/interactive.pm:1174
 #, c-format
 msgid "level"
 msgstr "level"
 
-#: diskdrake/interactive.pm:1163
+#: diskdrake/interactive.pm:1175
 #, fuzzy, c-format
 msgid "chunk size in KiB"
 msgstr "laki ng chunk"
 
-#: diskdrake/interactive.pm:1180 diskdrake/interactive.pm:1190
-#: diskdrake/interactive.pm:1243
+#: diskdrake/interactive.pm:1192 diskdrake/interactive.pm:1202
+#: diskdrake/interactive.pm:1255
 #, c-format
 msgid "Read carefully"
 msgstr "Basahing mabuti"
 
-#: diskdrake/interactive.pm:1181
+#: diskdrake/interactive.pm:1193
 #, c-format
 msgid "Be careful: this operation is dangerous."
 msgstr "Mag-ingat: ang operasyon na ito ay mapanganib."
 
-#: diskdrake/interactive.pm:1196
+#: diskdrake/interactive.pm:1208
 #, fuzzy, c-format
 msgid "Partitioning Type"
 msgstr "Pagpartisyon"
 
-#: diskdrake/interactive.pm:1196
+#: diskdrake/interactive.pm:1208
 #, c-format
 msgid "What type of partitioning?"
 msgstr "Anong uri ng pagpapartisyon?"
 
-#: diskdrake/interactive.pm:1234
+#: diskdrake/interactive.pm:1246
 #, c-format
 msgid "You'll need to reboot before the modification can take effect"
 msgstr "Kailangan ninyong mag-reboot bago gumana ang mga pagbabago"
 
-#: diskdrake/interactive.pm:1243
+#: diskdrake/interactive.pm:1255
 #, c-format
 msgid "Partition table of drive %s is going to be written to disk"
 msgstr "Ang \"partition table\" ng drive na %s ay isusulat sa disk"
 
-#: diskdrake/interactive.pm:1262 fs/format.pm:105 fs/format.pm:112
+#: diskdrake/interactive.pm:1274 fs/format.pm:107 fs/format.pm:114
 #, c-format
 msgid "Formatting partition %s"
 msgstr "Fino-format ang partition na %s"
 
-#: diskdrake/interactive.pm:1275
+#: diskdrake/interactive.pm:1287
 #, c-format
 msgid "After formatting partition %s, all data on this partition will be lost"
 msgstr "Matapos i-format ang  partsyon nan %s,lahat ng data nito ay mawawalat"
 
-#: diskdrake/interactive.pm:1289
+#: diskdrake/interactive.pm:1301
 #, fuzzy, c-format
 msgid "Check bad blocks?"
 msgstr "Suriin ang mga sirang block?"
 
-#: diskdrake/interactive.pm:1304
+#: diskdrake/interactive.pm:1316
 #, c-format
 msgid "Move files to the new partition"
 msgstr "Ilipat ang mga file sa bagong partisyon"
 
-#: diskdrake/interactive.pm:1304
+#: diskdrake/interactive.pm:1316
 #, c-format
 msgid "Hide files"
 msgstr "Itago ang mga file"
 
-#: diskdrake/interactive.pm:1305
+#: diskdrake/interactive.pm:1317
 #, c-format
 msgid ""
 "Directory %s already contains data\n"
@@ -2034,128 +1964,122 @@ msgid ""
 "the contents of the mounted partition)"
 msgstr ""
 
-#: diskdrake/interactive.pm:1320
+#: diskdrake/interactive.pm:1332
 #, c-format
 msgid "Moving files to the new partition"
 msgstr "Naglilipat ng mga file sa bagong partisyon"
 
-#: diskdrake/interactive.pm:1324
+#: diskdrake/interactive.pm:1336
 #, c-format
 msgid "Copying %s"
 msgstr "Nagsisipi ng %s"
 
-#: diskdrake/interactive.pm:1328
+#: diskdrake/interactive.pm:1340
 #, c-format
 msgid "Removing %s"
 msgstr "Tinatanggal ang %s"
 
-#: diskdrake/interactive.pm:1342
+#: diskdrake/interactive.pm:1354
 #, c-format
 msgid "partition %s is now known as %s"
 msgstr "ang partisyon na %s ay ngayon %s na"
 
-#: diskdrake/interactive.pm:1343
+#: diskdrake/interactive.pm:1355
 #, c-format
 msgid "Partitions have been renumbered: "
 msgstr ""
 
-#: diskdrake/interactive.pm:1368 diskdrake/interactive.pm:1439
+#: diskdrake/interactive.pm:1380 diskdrake/interactive.pm:1442
 #, c-format
 msgid "Device: "
 msgstr "Device: "
 
-#: diskdrake/interactive.pm:1369
+#: diskdrake/interactive.pm:1381
 #, c-format
 msgid "Volume label: "
 msgstr ""
 
-#: diskdrake/interactive.pm:1370
+#: diskdrake/interactive.pm:1382
 #, c-format
 msgid "UUID: "
 msgstr ""
 
-#: diskdrake/interactive.pm:1371
+#: diskdrake/interactive.pm:1383
 #, c-format
 msgid "DOS drive letter: %s (just a guess)\n"
 msgstr "Titik ng DOS drive: %s (hula lamang)\n"
 
-#: diskdrake/interactive.pm:1375 diskdrake/interactive.pm:1384
-#: diskdrake/interactive.pm:1458
+#: diskdrake/interactive.pm:1387 diskdrake/interactive.pm:1461
 #, c-format
 msgid "Type: "
 msgstr "Uri: "
 
-#: diskdrake/interactive.pm:1379 diskdrake/interactive.pm:1443
-#, c-format
-msgid "Name: "
-msgstr "Pangalan: "
-
-#: diskdrake/interactive.pm:1386
+#: diskdrake/interactive.pm:1389
 #, c-format
 msgid "Start: sector %s\n"
 msgstr "Umpisa: ika-%s sector\n"
 
-#: diskdrake/interactive.pm:1387
+#: diskdrake/interactive.pm:1390
 #, c-format
 msgid "Size: %s"
 msgstr "Laki: %s"
 
-#: diskdrake/interactive.pm:1389
+#: diskdrake/interactive.pm:1392
 #, c-format
 msgid ", %s sectors"
 msgstr ", %s sector"
 
-#: diskdrake/interactive.pm:1391
+#: diskdrake/interactive.pm:1394
 #, c-format
 msgid "Cylinder %d to %d\n"
 msgstr "Cylinder bilang %d hanggang %d\n"
 
-#: diskdrake/interactive.pm:1392
+#: diskdrake/interactive.pm:1395
 #, c-format
 msgid "Number of logical extents: %d\n"
 msgstr ""
 
-#: diskdrake/interactive.pm:1393
+#: diskdrake/interactive.pm:1396
 #, c-format
 msgid "Formatted\n"
 msgstr "Na-format\n"
 
-#: diskdrake/interactive.pm:1394
+#: diskdrake/interactive.pm:1397
 #, c-format
 msgid "Not formatted\n"
 msgstr "Hindi na-format\n"
 
-#: diskdrake/interactive.pm:1395
+#: diskdrake/interactive.pm:1398
 #, c-format
 msgid "Mounted\n"
 msgstr "Na-mount\n"
 
-#: diskdrake/interactive.pm:1396
+#: diskdrake/interactive.pm:1399
 #, c-format
 msgid "RAID %s\n"
 msgstr "RAID %s\n"
 
-#: diskdrake/interactive.pm:1398
+#: diskdrake/interactive.pm:1401
 #, fuzzy, c-format
 msgid "Encrypted"
 msgstr "\"Encryption key\""
 
-#: diskdrake/interactive.pm:1400
+#: diskdrake/interactive.pm:1403
 #, c-format
 msgid " (mapped on %s)"
 msgstr ""
 
-#: diskdrake/interactive.pm:1401
+#: diskdrake/interactive.pm:1404
 #, c-format
 msgid " (to map on %s)"
 msgstr ""
 
-#: diskdrake/interactive.pm:1402
+#: diskdrake/interactive.pm:1405
 #, c-format
 msgid " (inactive)"
 msgstr ""
 
-#: diskdrake/interactive.pm:1409
+#: diskdrake/interactive.pm:1412
 #, c-format
 msgid ""
 "Loopback file(s):\n"
@@ -2164,7 +2088,7 @@ msgstr ""
 "Mga loopback file:\n"
 "   %s\n"
 
-#: diskdrake/interactive.pm:1410
+#: diskdrake/interactive.pm:1413
 #, c-format
 msgid ""
 "Partition booted by default\n"
@@ -2173,27 +2097,27 @@ msgstr ""
 "Ang partisyon na i-bu-boot bilang default\n"
 "    (para sa boot ng MS-DOS, hingi para sa LILO)\n"
 
-#: diskdrake/interactive.pm:1412
+#: diskdrake/interactive.pm:1415
 #, c-format
 msgid "Level %s\n"
 msgstr "Level %s\n"
 
-#: diskdrake/interactive.pm:1413
+#: diskdrake/interactive.pm:1416
 #, fuzzy, c-format
 msgid "Chunk size %d KiB\n"
 msgstr "Laki ng chunk %s\n"
 
-#: diskdrake/interactive.pm:1414
+#: diskdrake/interactive.pm:1417
 #, c-format
 msgid "RAID-disks %s\n"
 msgstr "Mga RAID-disk %s\n"
 
-#: diskdrake/interactive.pm:1416
+#: diskdrake/interactive.pm:1419
 #, c-format
 msgid "Loopback file name: %s"
 msgstr "Pangalan ng loopback file: %s"
 
-#: diskdrake/interactive.pm:1419
+#: diskdrake/interactive.pm:1422
 #, c-format
 msgid ""
 "\n"
@@ -2206,7 +2130,7 @@ msgstr ""
 "ang partisyon na ito. Dapat ay\n"
 "pabayaan ninyo na lang ito.\n"
 
-#: diskdrake/interactive.pm:1422
+#: diskdrake/interactive.pm:1425
 #, c-format
 msgid ""
 "\n"
@@ -2220,59 +2144,64 @@ msgstr ""
 "pangdalawahang boot ng\n"
 "inyong sistema.\n"
 
-#: diskdrake/interactive.pm:1431
+#: diskdrake/interactive.pm:1434
 #, c-format
 msgid "Free space on %s (%s)"
 msgstr ""
 
-#: diskdrake/interactive.pm:1440
+#: diskdrake/interactive.pm:1443
 #, c-format
 msgid "Read-only"
 msgstr "Read-only"
 
-#: diskdrake/interactive.pm:1441
+#: diskdrake/interactive.pm:1444
 #, c-format
 msgid "Size: %s\n"
 msgstr "Laki: %s\n"
 
-#: diskdrake/interactive.pm:1442
+#: diskdrake/interactive.pm:1445
 #, c-format
 msgid "Geometry: %s cylinders, %s heads, %s sectors\n"
 msgstr "Geometry: %s cylinder, %s head, %s sector\n"
 
-#: diskdrake/interactive.pm:1444
+#: diskdrake/interactive.pm:1446
+#, c-format
+msgid "Name: "
+msgstr "Pangalan: "
+
+#: diskdrake/interactive.pm:1447
 #, fuzzy, c-format
 msgid "Medium type: "
 msgstr "Uri ng filesystem: "
 
-#: diskdrake/interactive.pm:1445
+#: diskdrake/interactive.pm:1448
 #, c-format
 msgid "LVM-disks %s\n"
 msgstr "Mga LVM-disk %s\n"
 
-#: diskdrake/interactive.pm:1446
+#: diskdrake/interactive.pm:1449
 #, c-format
 msgid "Partition table type: %s\n"
 msgstr "Uri ng \"partition table\": %s\n"
 
-#: diskdrake/interactive.pm:1447
+#: diskdrake/interactive.pm:1450
 #, c-format
 msgid "on channel %d id %d\n"
 msgstr "sa channel %d id %d\n"
 
-#: diskdrake/interactive.pm:1491
+#: diskdrake/interactive.pm:1494
 #, c-format
 msgid "Choose your filesystem encryption key"
 msgstr "Piliin ang \"encryption key\" ng inyong filesystem"
 
-#: diskdrake/interactive.pm:1494
+#: diskdrake/interactive.pm:1497
 #, c-format
 msgid "This encryption key is too simple (must be at least %d characters long)"
 msgstr ""
 "Ang \"encryption key\" na ito ay masyadong simple (dapat hindi iikli sa %d "
 "character)"
 
-#: diskdrake/interactive.pm:1501
+#: diskdrake/interactive.pm:1504
 #, c-format
 msgid "Encryption algorithm"
 msgstr "Encryption algorithm"
@@ -2282,10 +2211,12 @@ msgstr "Encryption algorithm"
 msgid "Change type"
 msgstr "Baguhin ang uri"
 
-#: diskdrake/smbnfs_gtk.pm:78 interactive.pm:127 interactive.pm:548
-#: interactive/curses.pm:263 interactive/http.pm:100 interactive/http.pm:156
-#: interactive/stdio.pm:35 interactive/stdio.pm:144 mygtk2.pm:844
-#: mygtk2.pm:1227 ugtk2.pm:412 ugtk2.pm:514 ugtk2.pm:523 ugtk2.pm:809
+#: diskdrake/smbnfs_gtk.pm:81 interactive.pm:120 interactive.pm:675
+#: interactive/curses.pm:267 interactive/http.pm:104 interactive/http.pm:160
+#: interactive/stdio.pm:39 interactive/stdio.pm:148 mygtk2.pm:846
+#: mygtk2.pm:1229 mygtk3.pm:898 mygtk3.pm:1282 ugtk2.pm:415 ugtk2.pm:517
+#: ugtk2.pm:526 ugtk2.pm:812 ugtk3.pm:503 ugtk3.pm:593 ugtk3.pm:602
+#: ugtk3.pm:910
 #, c-format
 msgid "Cancel"
 msgstr "Cancel"
@@ -2339,33 +2270,33 @@ msgstr "Hanapan ang mga server"
 msgid "Search for new servers"
 msgstr "Hanapan ang mga bagong server"
 
-#: do_pkgs.pm:19 do_pkgs.pm:57
+#: do_pkgs.pm:45 do_pkgs.pm:100
 #, c-format
 msgid "The package %s needs to be installed. Do you want to install it?"
 msgstr ""
 "Ang package na %s ay kailangang i-install. Gusto ninyo bang i-install ito?"
 
-#: do_pkgs.pm:23 do_pkgs.pm:44 do_pkgs.pm:60 do_pkgs.pm:83
+#: do_pkgs.pm:49 do_pkgs.pm:79 do_pkgs.pm:103 do_pkgs.pm:142
 #, c-format
 msgid "Could not install the %s package!"
 msgstr "Hindi ma-install ang package na %s!"
 
-#: do_pkgs.pm:28 do_pkgs.pm:65
+#: do_pkgs.pm:54 do_pkgs.pm:108
 #, c-format
 msgid "Mandatory package %s is missing"
 msgstr "Ang kinakailangan na package na %s ay nawawala"
 
-#: do_pkgs.pm:39 do_pkgs.pm:78
+#: do_pkgs.pm:74 do_pkgs.pm:137
 #, c-format
 msgid "The following packages need to be installed:\n"
 msgstr "Kailangang i-install ang mga sumusunod na package:\n"
 
-#: do_pkgs.pm:242
+#: do_pkgs.pm:342
 #, c-format
 msgid "Installing packages..."
 msgstr "Ini-install ang mga package..."
 
-#: do_pkgs.pm:291
+#: do_pkgs.pm:391 pkgs.pm:312
 #, c-format
 msgid "Removing packages..."
 msgstr "Tinatanggal ang mga package..."
@@ -2380,9 +2311,9 @@ msgstr ""
 "bagong mga filesystem. Paki-suri ang inyong hardware para sa ugat ng "
 "problemang ito"
 
-#: fs/any.pm:72 fs/partitioning_wizard.pm:62
-#, c-format
-msgid "You must have a FAT partition mounted in /boot/efi"
+#: fs/any.pm:71 fs/partitioning_wizard.pm:68
+#, fuzzy, c-format
+msgid "You must have a ESP FAT32 partition mounted in /boot/EFI"
 msgstr "Dapat mayroon kayong partisyon ng FAT na naka-mount sa /boot/efi"
 
 #: fs/format.pm:109
@@ -2390,22 +2321,22 @@ msgstr "Dapat mayroon kayong partisyon ng FAT na naka-mount sa /boot/efi"
 msgid "Creating and formatting file %s"
 msgstr "Ginagawa at fino-format ang file na %s"
 
-#: fs/format.pm:129
+#: fs/format.pm:131
 #, fuzzy, c-format
 msgid "I do not know how to set label on %s with type %s"
 msgstr "Hindi ko alam kung paano i-format ang %s sa uring %s"
 
-#: fs/format.pm:141
+#: fs/format.pm:143
 #, fuzzy, c-format
 msgid "setting label on %s failed, is it formatted?"
 msgstr "Ang %s na pagfo-format ng %s ay nabigo"
 
-#: fs/format.pm:182
+#: fs/format.pm:184
 #, c-format
 msgid "I do not know how to format %s in type %s"
 msgstr "Hindi ko alam kung paano i-format ang %s sa uring %s"
 
-#: fs/format.pm:187 fs/format.pm:189
+#: fs/format.pm:189 fs/format.pm:191
 #, c-format
 msgid "%s formatting of %s failed"
 msgstr "Ang %s na pagfo-format ng %s ay nabigo"
@@ -2420,47 +2351,47 @@ msgstr "Mga circular mount %s\n"
 msgid "Mounting partition %s"
 msgstr "Mina-mount ang partisyon na %s"
 
-#: fs/mount.pm:84
+#: fs/mount.pm:87
 #, c-format
 msgid "mounting partition %s in directory %s failed"
 msgstr "pagma-mount ng partisyon na %s sa directory na %s ay nabigo"
 
-#: fs/mount.pm:89 fs/mount.pm:106
+#: fs/mount.pm:92 fs/mount.pm:109
 #, c-format
 msgid "Checking %s"
 msgstr "Nagsusuri %s"
 
-#: fs/mount.pm:123 partition_table.pm:419
+#: fs/mount.pm:126 partition_table.pm:397
 #, c-format
 msgid "error unmounting %s: %s"
 msgstr "may error sa pag-a-unmount ng %s: %s"
 
-#: fs/mount.pm:138
+#: fs/mount.pm:141
 #, c-format
 msgid "Enabling swap partition %s"
 msgstr "Pinapagana ang \"swap partition\" na %s"
 
-#: fs/mount_options.pm:110
+#: fs/mount_options.pm:114
 #, c-format
 msgid "Enable POSIX Access Control Lists"
 msgstr ""
 
-#: fs/mount_options.pm:112
+#: fs/mount_options.pm:116
 #, c-format
 msgid "Flush write cache on file close"
 msgstr ""
 
-#: fs/mount_options.pm:114
+#: fs/mount_options.pm:118
 #, c-format
 msgid "Enable group disk quota accounting and optionally enforce limits"
 msgstr ""
 
-#: fs/mount_options.pm:116
+#: fs/mount_options.pm:120
 #, c-format
 msgid "Enable automatic TRIM for SSD disks"
 msgstr ""
 
-#: fs/mount_options.pm:118
+#: fs/mount_options.pm:122
 #, c-format
 msgid ""
 "Do not update inode access times on this filesystem\n"
@@ -2470,7 +2401,7 @@ msgstr ""
 "(e.g. para mas mabilis ang pag-access sa \"news spool\" upang mapabilis ang "
 "mga \"news servers\")."
 
-#: fs/mount_options.pm:121
+#: fs/mount_options.pm:125
 #, fuzzy, c-format
 msgid ""
 "Update inode access times on this filesystem in a more efficient way\n"
@@ -2480,7 +2411,7 @@ msgstr ""
 "(e.g. para mas mabilis ang pag-access sa \"news spool\" upang mapabilis ang "
 "mga \"news servers\")."
 
-#: fs/mount_options.pm:124
+#: fs/mount_options.pm:128
 #, c-format
 msgid ""
 "Can only be mounted explicitly (i.e.,\n"
@@ -2489,14 +2420,14 @@ msgstr ""
 "Mai-ma-mount lang ng explicit (i.e.,\n"
 "hindi mai-ma-mount ang \"filesystem\" gamit ang -a na option)."
 
-#: fs/mount_options.pm:127
+#: fs/mount_options.pm:131
 #, c-format
 msgid "Do not interpret character or block special devices on the filesystem."
 msgstr ""
 "Huwag i-interpret ang mga \"character\" o \"block special device\" sa \"file "
 "system\"."
 
-#: fs/mount_options.pm:129
+#: fs/mount_options.pm:133
 #, c-format
 msgid ""
 "Do not allow execution of any binaries on the mounted\n"
@@ -2508,7 +2439,7 @@ msgstr ""
 "filesystem na naglalaman ng mga binaries para sa mga architecture na\n"
 "maliban sa kanya."
 
-#: fs/mount_options.pm:133
+#: fs/mount_options.pm:137
 #, c-format
 msgid ""
 "Do not allow set-user-identifier or set-group-identifier\n"
@@ -2520,62 +2451,62 @@ msgstr ""
 "hindi ligtas\n"
 "kung naka-install ang suidperl(1).)"
 
-#: fs/mount_options.pm:137
+#: fs/mount_options.pm:141
 #, c-format
 msgid "Mount the filesystem read-only."
 msgstr "I-mount ang filesystem na read-only."
 
-#: fs/mount_options.pm:139
+#: fs/mount_options.pm:143
 #, c-format
 msgid "All I/O to the filesystem should be done synchronously."
 msgstr "Lahat ng I/O sa filesystem ay dapat gawin ng pa-synchronous."
 
-#: fs/mount_options.pm:141
+#: fs/mount_options.pm:145
 #, c-format
 msgid "Allow every user to mount and umount the filesystem."
 msgstr ""
 
-#: fs/mount_options.pm:143
+#: fs/mount_options.pm:147
 #, c-format
 msgid "Allow an ordinary user to mount the filesystem."
 msgstr ""
 
-#: fs/mount_options.pm:145
+#: fs/mount_options.pm:149
 #, c-format
 msgid "Enable user disk quota accounting, and optionally enforce limits"
 msgstr ""
 
-#: fs/mount_options.pm:147
+#: fs/mount_options.pm:151
 #, c-format
 msgid "Support \"user.\" extended attributes"
 msgstr ""
 
-#: fs/mount_options.pm:149
+#: fs/mount_options.pm:153
 #, c-format
 msgid "Give write access to ordinary users"
 msgstr "Magbigay ng pahintulot magsulat sa mga ordinaryong user"
 
-#: fs/mount_options.pm:151
+#: fs/mount_options.pm:155
 #, c-format
 msgid "Give read-only access to ordinary users"
 msgstr "Magbigay ng pahintulot ma magbasa lamang sa mga ordinaryong user"
 
-#: fs/mount_point.pm:79
+#: fs/mount_point.pm:84
 #, c-format
 msgid "Duplicate mount point %s"
 msgstr "Duplicate mount point %s"
 
-#: fs/mount_point.pm:94
+#: fs/mount_point.pm:99
 #, c-format
 msgid "No partition available"
 msgstr "Walang available na partisyon"
 
-#: fs/mount_point.pm:97
+#: fs/mount_point.pm:102
 #, c-format
 msgid "Scanning partitions to find mount points"
 msgstr "Minamasdang mabuti ang mga partisyon para hanapin ang mga mount point"
 
-#: fs/mount_point.pm:104
+#: fs/mount_point.pm:109
 #, c-format
 msgid "Choose the mount points"
 msgstr "Piliin ang mga mount point"
@@ -2605,7 +2536,7 @@ msgid "Not enough swap space to fulfill installation, please add some"
 msgstr ""
 "Walang sapat na puwang ng swap para isaganap ang pag-i-install, pakidagdagan"
 
-#: fs/partitioning_wizard.pm:53
+#: fs/partitioning_wizard.pm:59
 #, c-format
 msgid ""
 "You must have a root partition.\n"
@@ -2616,7 +2547,7 @@ msgstr ""
 "Para dito, gumawa ng partisyon (o mag-click sa mayroon na).\n"
 "Tapos piliin ang aksyon na ``Mount point'' at i-set ito sa `/'"
 
-#: fs/partitioning_wizard.pm:59
+#: fs/partitioning_wizard.pm:65
 #, c-format
 msgid ""
 "You do not have a swap partition.\n"
@@ -2627,53 +2558,53 @@ msgstr ""
 "\n"
 "Magpatuloy pa rin?"
 
-#: fs/partitioning_wizard.pm:93
+#: fs/partitioning_wizard.pm:99
 #, c-format
 msgid "Use free space"
 msgstr "Gamitin ang libreng puwang"
 
-#: fs/partitioning_wizard.pm:95
+#: fs/partitioning_wizard.pm:101
 #, c-format
 msgid "Not enough free space to allocate new partitions"
 msgstr "Walang sapat na libreng puwang para maibahagi sa mga bagong partisyon"
 
-#: fs/partitioning_wizard.pm:103
+#: fs/partitioning_wizard.pm:109
 #, c-format
 msgid "Use existing partitions"
 msgstr "Gamitin ang partisyons mayroon"
 
-#: fs/partitioning_wizard.pm:105
+#: fs/partitioning_wizard.pm:111
 #, c-format
 msgid "There is no existing partition to use"
 msgstr "Walang partisyon na magagamit"
 
-#: fs/partitioning_wizard.pm:129
+#: fs/partitioning_wizard.pm:135
 #, c-format
 msgid "Computing the size of the Microsoft Windows® partition"
 msgstr "Kino-compute ang laki ng partisyon ng Microsoft Windows®"
 
-#: fs/partitioning_wizard.pm:165
+#: fs/partitioning_wizard.pm:171
 #, fuzzy, c-format
 msgid "Use the free space on a Microsoft Windows® partition"
 msgstr "Gamitin ang libreng puwang sa partisyon ng Windows"
 
-#: fs/partitioning_wizard.pm:169
+#: fs/partitioning_wizard.pm:175
 #, c-format
 msgid "Which partition do you want to resize?"
 msgstr "Aling partisyon ang gusto ninyong i-resize?"
 
-#: fs/partitioning_wizard.pm:172
+#: fs/partitioning_wizard.pm:178
 #, c-format
 msgid ""
 "Your Microsoft Windows® partition is too fragmented. Please reboot your "
 "computer under Microsoft Windows®, run the ``defrag'' utility, then restart "
-"the OpenMandriva Lx installation."
+"the %s installation."
 msgstr ""
 "Ang inyong partisyon ng Microsoft Windows® ay sobrang fragmented. Paki-"
 "reboot ang inyong computer sa Microsoft Windows®, patakbuhin ang ``defrag'', "
-"at simulan ulit ang pag-i-install ng OpenMandriva Lx."
+"at simulan ulit ang pag-i-install ng %s."
 
-#: fs/partitioning_wizard.pm:180
+#: fs/partitioning_wizard.pm:186
 #, c-format
 msgid ""
 "WARNING!\n"
@@ -2709,55 +2640,55 @@ msgstr ""
 "ang inyong data. Kung sigurado na, pindutin ang %s."
 
 #. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
-#: fs/partitioning_wizard.pm:189 fs/partitioning_wizard.pm:557
-#: interactive.pm:547 interactive/curses.pm:266 ugtk2.pm:516
+#: fs/partitioning_wizard.pm:195 fs/partitioning_wizard.pm:557
+#: interactive.pm:674 interactive/curses.pm:270 ugtk2.pm:519 ugtk3.pm:595
 #, c-format
 msgid "Next"
 msgstr "Kasunod"
 
-#: fs/partitioning_wizard.pm:195
+#: fs/partitioning_wizard.pm:201
 #, fuzzy, c-format
 msgid "Partitionning"
 msgstr "Pagpartisyon"
 
-#: fs/partitioning_wizard.pm:195
+#: fs/partitioning_wizard.pm:201
 #, c-format
 msgid "Which size do you want to keep for Microsoft Windows® on partition %s?"
 msgstr ""
 "Aling laki ang gusto ninyong itago para sa Microsoft Windows® sa partisyon "
 "na %s?"
 
-#: fs/partitioning_wizard.pm:196
+#: fs/partitioning_wizard.pm:202
 #, c-format
 msgid "Size"
 msgstr "Laki"
 
-#: fs/partitioning_wizard.pm:205
+#: fs/partitioning_wizard.pm:211
 #, c-format
 msgid "Resizing Microsoft Windows® partition"
 msgstr "Binabago ang laki ng partisyon ng Microsoft Windows®"
 
-#: fs/partitioning_wizard.pm:210
+#: fs/partitioning_wizard.pm:216
 #, c-format
 msgid "FAT resizing failed: %s"
 msgstr "Pagbago ng laki ng FAT nabigo: %s"
 
-#: fs/partitioning_wizard.pm:226
+#: fs/partitioning_wizard.pm:232
 #, c-format
 msgid "There is no FAT partition to resize (or not enough space left)"
 msgstr "Walang partisyon ng FAT para i-resize (o walang sapat na puwang)"
 
-#: fs/partitioning_wizard.pm:231
+#: fs/partitioning_wizard.pm:237
 #, c-format
 msgid "Remove Microsoft Windows®"
 msgstr "Tanggalin ang Microsoft Windows®"
 
-#: fs/partitioning_wizard.pm:231
+#: fs/partitioning_wizard.pm:237
 #, fuzzy, c-format
 msgid "Erase and use entire disk"
 msgstr "Burahin ang buong disk"
 
-#: fs/partitioning_wizard.pm:235
+#: fs/partitioning_wizard.pm:241
 #, fuzzy, c-format
 msgid ""
 "You have more than one hard disk drive, which one do you want the installer "
@@ -2766,23 +2697,23 @@ msgstr ""
 "Mayroon kayong mahigit isang hard disk drive, alin ang gusto ninyong lagyan "
 "ng linux?"
 
-#: fs/partitioning_wizard.pm:243 fsedit.pm:630
+#: fs/partitioning_wizard.pm:249 fsedit.pm:632
 #, c-format
 msgid "ALL existing partitions and their data will be lost on drive %s"
 msgstr ""
 "LAHAT ng mayroong mga partisyon at kanilang data ay mawawala sa drive %s"
 
-#: fs/partitioning_wizard.pm:253
+#: fs/partitioning_wizard.pm:259
 #, c-format
 msgid "Custom disk partitioning"
 msgstr "Custom na pagpapartisyon ng disk"
 
-#: fs/partitioning_wizard.pm:259
+#: fs/partitioning_wizard.pm:265
 #, c-format
 msgid "Use fdisk"
 msgstr "Gamitin ang fdisk"
 
-#: fs/partitioning_wizard.pm:262
+#: fs/partitioning_wizard.pm:268
 #, c-format
 msgid ""
 "You can now partition %s.\n"
@@ -2811,26 +2742,33 @@ msgstr "Nakita ng \"DrakX Partitioning wizard\" ang mga sumusunod na paglutas:"
 msgid "Here is the content of your disk drive "
 msgstr ""
 
-#: fs/partitioning_wizard.pm:594
+#: fs/partitioning_wizard.pm:595
 #, c-format
 msgid "Partitioning failed: %s"
 msgstr "Pagpapartisyon nabigo: %s"
 
-#: fs/type.pm:381
+#: fs/type.pm:365
 #, c-format
 msgid "You cannot use JFS for partitions smaller than 16MB"
 msgstr ""
 "Hindi ninyo maaaring gamitin ang JFS para sa mga partisyon na mas maliit sa "
 "16MB"
 
-#: fs/type.pm:382
+#: fs/type.pm:366
 #, c-format
 msgid "You cannot use ReiserFS for partitions smaller than 32MB"
 msgstr ""
 "Hindi ninyo maaaring gamitin ang ReiserFS para sa mga partisyon na mas "
 "maliit sa 32MB"
 
-#: fsedit.pm:20
+#: fs/type.pm:367
+#, fuzzy, c-format
+msgid "You cannot use btrfs for partitions smaller than 256MB"
+msgstr ""
+"Hindi ninyo maaaring gamitin ang JFS para sa mga partisyon na mas maliit sa "
+"16MB"
+
+#: fsedit.pm:24
 #, c-format
 msgid "simple"
 msgstr "simple"
@@ -2939,7 +2877,7 @@ msgstr ""
 "boot.\n"
 "Tiyaking magdagdag ng partisyon na /boot"
 
-#: fsedit.pm:461 fsedit.pm:481
+#: fsedit.pm:465 fsedit.pm:483
 #, c-format
 msgid "You cannot use an encrypted filesystem for mount point %s"
 msgstr ""
@@ -2972,7 +2910,7 @@ msgstr ""
 msgid "This directory should remain within the root filesystem"
 msgstr "Ang directory na ito ay dapat manatili sa loob filesystem na root"
 
-#: fsedit.pm:475 fsedit.pm:477 fsedit.pm:479
+#: fsedit.pm:479 fsedit.pm:481
 #, c-format
 msgid ""
 "You need a true filesystem (ext2/3/4, reiserfs, xfs, or jfs) for this mount "
@@ -2981,12 +2919,12 @@ msgstr ""
 "Kailangan ninyo ng tunay na filesystem (ext2/3/4, reiserfs, xfs, o jfs) para "
 "sa mount point na ito\n"
 
-#: fsedit.pm:546
+#: fsedit.pm:548
 #, c-format
 msgid "Not enough free space for auto-allocating"
 msgstr "Walang sapat na puwang para sa pag-auto-allocate"
 
-#: fsedit.pm:548
+#: fsedit.pm:550
 #, c-format
 msgid "Nothing to do"
 msgstr "Walang kailangang gawin"
@@ -3232,37 +3170,47 @@ msgstr "Hindi kilala/Iba pa"
 msgid "cpu # "
 msgstr "cpu # "
 
-#: harddrake/sound.pm:250
+#: harddrake/sound.pm:77
 #, c-format
 msgid "Please Wait... Applying the configuration"
 msgstr "Maghintay Lamang... Ina-apply ang configuration"
 
-#: harddrake/sound.pm:303
+#: harddrake/sound.pm:98
+#, c-format
+msgid "No known driver"
+msgstr "Walang kilalang driver"
+
+#: harddrake/sound.pm:99
+#, c-format
+msgid "There's no known driver for your sound card (%s)"
+msgstr "Walang kilalang driver para sa inyong sound card na (%s)"
+
+#: harddrake/sound.pm:130
 #, c-format
 msgid "Enable PulseAudio"
 msgstr ""
 
-#: harddrake/sound.pm:308
+#: harddrake/sound.pm:135
 #, c-format
 msgid "Use Glitch-Free mode"
 msgstr ""
 
-#: harddrake/sound.pm:314
+#: harddrake/sound.pm:141
 #, c-format
 msgid "Reset sound mixer to default values"
 msgstr ""
 
-#: harddrake/sound.pm:319
+#: harddrake/sound.pm:146
 #, c-format
 msgid "Troubleshooting"
 msgstr "Tino-troubleshoot"
 
-#: harddrake/sound.pm:326
+#: harddrake/sound.pm:153
 #, c-format
 msgid "No alternative driver"
 msgstr "Walang alternatibong driver"
 
-#: harddrake/sound.pm:327
+#: harddrake/sound.pm:154
 #, c-format
 msgid ""
 "There's no known OSS/ALSA alternative driver for your sound card (%s) which "
@@ -3271,24 +3219,15 @@ msgstr ""
 "Walang kilalang OSS/ALSA na alternatibong driver para sa inyong sound card "
 "na (%s) na gumagamit sa kasalukuyan ng \"%s\""
 
-#: harddrake/sound.pm:334
+#: harddrake/sound.pm:161
 #, c-format
 msgid "Sound configuration"
 msgstr "Configuration ng sound"
 
-#: harddrake/sound.pm:336
-#, c-format
-msgid ""
-"Here you can select an alternative driver (either OSS or ALSA) for your "
-"sound card (%s)."
-msgstr ""
-"Dito makakapili kayo ng alternatibong driver (OSS o ALSA) para sa inyong "
-"sound card na (%s)."
-
-#. -PO: here the first %s is either "OSS" or "ALSA", 
+#. -PO: here the first %s is either "ALSA", 
 #. -PO: the second %s is the name of the current driver
 #. -PO: and the third %s is the name of the default driver
-#: harddrake/sound.pm:341
+#: harddrake/sound.pm:167
 #, fuzzy, c-format
 msgid ""
 "\n"
@@ -3301,7 +3240,7 @@ msgstr ""
 "Sa kasalukuyan, ginagamit ng inyong card ang %s\"%s\" na driver (default na "
 "driver para sa inyong card ay \"%s\")"
 
-#: harddrake/sound.pm:343
+#: harddrake/sound.pm:169
 #, c-format
 msgid ""
 "OSS (Open Sound System) was the first sound API. It's an OS independent "
@@ -3337,67 +3276,32 @@ msgstr ""
 "- ang bagong ALSA API na may mas maraming pinabuting feature pero "
 "nangangailangang gamitin ang ALSA library.\n"
 
-#: harddrake/sound.pm:357 harddrake/sound.pm:455
+#: harddrake/sound.pm:184 harddrake/sound.pm:266
 #, c-format
 msgid "Driver:"
 msgstr "Driver:"
 
-#: harddrake/sound.pm:371
-#, c-format
-msgid ""
-"The old \"%s\" driver is blacklisted.\n"
-"\n"
-"It has been reported to oops the kernel on unloading.\n"
-"\n"
-"The new \"%s\" driver will only be used on next bootstrap."
-msgstr ""
-"Ang lumang driver na \"%s\" ay naka-blacklist.\n"
-"\n"
-"Napaulat na ito ay ino-oops ang kernel sa pag-a-unload.\n"
-"\n"
-"Ang bagong driver na \"%s\" ay magagamit lamang sa susunod na bootstrap."
-
-#: harddrake/sound.pm:379
-#, c-format
-msgid "No open source driver"
-msgstr "Walang \"open source\" na driver"
-
-#: harddrake/sound.pm:380
-#, c-format
-msgid ""
-"There's no free driver for your sound card (%s), but there's a proprietary "
-"driver at \"%s\"."
-msgstr ""
-"Walang libreng driver para sa inyong sound card na (%s), pero may "
-"proprietary na driver sa \"%s\"."
-
-#: harddrake/sound.pm:383
-#, c-format
-msgid "No known driver"
-msgstr "Walang kilalang driver"
-
-#: harddrake/sound.pm:384
-#, c-format
-msgid "There's no known driver for your sound card (%s)"
-msgstr "Walang kilalang driver para sa inyong sound card na (%s)"
-
-#: harddrake/sound.pm:399
+#: harddrake/sound.pm:206
 #, c-format
 msgid "Sound troubleshooting"
 msgstr "Pagto-troubleshoot ng sound"
 
 #. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
-#: harddrake/sound.pm:402
+#: harddrake/sound.pm:209
 #, c-format
 msgid ""
-"Below are some basic tips to help debug audio problems. For up-to-date "
-"information, visit:\n"
+"Below are some basic tips to help debug audio problems, but for accurate and "
+"up-to-date tips and tricks, please see:\n"
 "\n"
-"http://wiki.openmandriva.org/ (The OpenMandriva Wiki)\n"
+"https://wiki.mageia.org/en/Support:DebuggingSoundProblems\n"
+"\n"
+"\n"
 "\n"
 "- General Recommendation: Enable PulseAudio. If you have opted to not to use "
 "PulseAudio, we would strongly advise you enable it. For the vast majority of "
 "desktop use cases, PulseAudio is the recommended and best supported option.\n"
+"\n"
+"\n"
 "\n"
 "- \"kmix\" (KDE), \"gnome-control-center sound\" (GNOME) and \"pauvucontrol"
 "\" (generic) will launch graphical applications to allow you to view your "
@@ -3442,23 +3346,23 @@ msgid ""
 "PulseAudio)\n"
 msgstr ""
 
-#: harddrake/sound.pm:444
+#: harddrake/sound.pm:255
 #, c-format
 msgid "Let me pick any driver"
 msgstr "Hayaan akong pumili ng kahit anong driver"
 
-#: harddrake/sound.pm:447
+#: harddrake/sound.pm:258
 #, c-format
 msgid "Choosing an arbitrary driver"
 msgstr "Pumipili na lang basta ng driver"
 
 #. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
-#: harddrake/sound.pm:450
-#, c-format
+#: harddrake/sound.pm:261
+#, fuzzy, c-format
 msgid ""
 "If you really think that you know which driver is the right one for your "
 "card\n"
-"you can pick one from the above list.\n"
+"you can pick one from the list below.\n"
 "\n"
 "The current driver for your \"%s\" sound card is \"%s\" "
 msgstr ""
@@ -3512,70 +3416,73 @@ msgstr "Modelo ng Card:"
 msgid "Tuner type:"
 msgstr "Uri ng tuner:"
 
-#: interactive.pm:126 interactive.pm:547 interactive/curses.pm:266
-#: interactive/http.pm:99 interactive/http.pm:152 interactive/stdio.pm:35
-#: interactive/stdio.pm:144 interactive/stdio.pm:145 mygtk2.pm:844
-#: ugtk2.pm:418 ugtk2.pm:516 ugtk2.pm:809 ugtk2.pm:832
+#: interactive.pm:119 interactive.pm:674 interactive/curses.pm:270
+#: interactive/http.pm:103 interactive/http.pm:156 interactive/stdio.pm:39
+#: interactive/stdio.pm:148 interactive/stdio.pm:149 mygtk2.pm:846
+#: mygtk3.pm:898 ugtk2.pm:421 ugtk2.pm:519 ugtk2.pm:812 ugtk2.pm:835
+#: ugtk3.pm:509 ugtk3.pm:595 ugtk3.pm:910 ugtk3.pm:933
 #, c-format
 msgid "Ok"
 msgstr "Ok"
 
-#: interactive.pm:226 modules/interactive.pm:72 ugtk2.pm:808 wizards.pm:156
+#: interactive.pm:219 modules/interactive.pm:72 ugtk2.pm:811 ugtk3.pm:909
+#: wizards.pm:156
 #, c-format
 msgid "Yes"
 msgstr "Oo"
 
-#: interactive.pm:226 modules/interactive.pm:72 ugtk2.pm:808 wizards.pm:156
+#: interactive.pm:219 modules/interactive.pm:72 ugtk2.pm:811 ugtk3.pm:909
+#: wizards.pm:156
 #, c-format
 msgid "No"
 msgstr "Hindi"
 
-#: interactive.pm:260
+#: interactive.pm:253
 #, c-format
 msgid "Choose a file"
 msgstr "Pumili ng file"
 
-#: interactive.pm:385 interactive/gtk.pm:458
+#: interactive.pm:390 interactive/gtk.pm:456
 #, c-format
 msgid "Add"
 msgstr "Magdagdag"
 
-#: interactive.pm:385 interactive/gtk.pm:458
+#: interactive.pm:390 interactive/gtk.pm:456
 #, c-format
 msgid "Modify"
 msgstr "Baguhin"
 
-#: interactive.pm:547 interactive/curses.pm:266 ugtk2.pm:516
+#: interactive.pm:674 interactive/curses.pm:270 ugtk2.pm:519 ugtk3.pm:595
 #, c-format
 msgid "Finish"
 msgstr "Wakas"
 
-#: interactive.pm:548 interactive/curses.pm:263 ugtk2.pm:514
+#: interactive.pm:675 interactive/curses.pm:267 ugtk2.pm:517 ugtk3.pm:593
 #, c-format
 msgid "Previous"
 msgstr "Nakaraan"
 
-#: interactive/curses.pm:572 ugtk2.pm:869
+#: interactive/curses.pm:576 ugtk2.pm:872 ugtk3.pm:970
 #, fuzzy, c-format
 msgid "No file chosen"
 msgstr "Walang icon"
 
-#: interactive/curses.pm:576 ugtk2.pm:873
+#: interactive/curses.pm:580 ugtk2.pm:876 ugtk3.pm:974
 #, fuzzy, c-format
 msgid "You have chosen a directory, not a file"
 msgstr "Hindi available ang home directory."
 
-#: interactive/curses.pm:578 ugtk2.pm:875
+#: interactive/curses.pm:582 ugtk2.pm:878 ugtk3.pm:976
 #, fuzzy, c-format
 msgid "No such directory"
 msgstr "Local directory"
 
-#: interactive/curses.pm:578 ugtk2.pm:875
+#: interactive/curses.pm:582 ugtk2.pm:878 ugtk3.pm:976
 #, fuzzy, c-format
 msgid "No such file"
 msgstr "Mga file na \"local\""
 
-#: interactive/gtk.pm:597
+#: interactive/gtk.pm:596
 #, c-format
 msgid "Beware, Caps Lock is enabled"
 msgstr ""
@@ -3657,1222 +3564,1222 @@ msgstr "I-submit ulit"
 #. -PO: the string "default:LTR" can be translated *ONLY* as "default:LTR"
 #. -PO: or as "default:RTL", depending if your language is written from
 #. -PO: left to right, or from right to left; any other string is wrong.
-#: lang.pm:203
+#: lang.pm:249
 #, c-format
 msgid "default:LTR"
 msgstr "default:LTR"
 
-#: lang.pm:220
+#: lang.pm:303
 #, c-format
 msgid "Andorra"
 msgstr "Andorra"
 
-#: lang.pm:221 timezone.pm:241
+#: lang.pm:304 timezone.pm:248
 #, c-format
 msgid "United Arab Emirates"
 msgstr "United Arab Emirates"
 
-#: lang.pm:222
+#: lang.pm:305
 #, c-format
 msgid "Afghanistan"
 msgstr "Afghanistan"
 
-#: lang.pm:223
+#: lang.pm:306
 #, c-format
 msgid "Antigua and Barbuda"
 msgstr "Antigua and Barbuda"
 
-#: lang.pm:224
+#: lang.pm:307
 #, c-format
 msgid "Anguilla"
 msgstr "Anguilla"
 
-#: lang.pm:225
+#: lang.pm:308
 #, c-format
 msgid "Albania"
 msgstr "Albania"
 
-#: lang.pm:226
+#: lang.pm:309
 #, c-format
 msgid "Armenia"
 msgstr "Armenia"
 
-#: lang.pm:227
+#: lang.pm:310
 #, c-format
 msgid "Netherlands Antilles"
 msgstr "Netherlands Antilles"
 
-#: lang.pm:228
+#: lang.pm:311
 #, c-format
 msgid "Angola"
 msgstr "Angola"
 
-#: lang.pm:229
+#: lang.pm:312
 #, c-format
 msgid "Antarctica"
 msgstr "Antarctica"
 
-#: lang.pm:230 timezone.pm:286
+#: lang.pm:313 timezone.pm:293
 #, c-format
 msgid "Argentina"
 msgstr "Argentina"
 
-#: lang.pm:231
+#: lang.pm:314
 #, c-format
 msgid "American Samoa"
 msgstr "American Samoa"
 
-#: lang.pm:232 mirror.pm:10 timezone.pm:244
+#: lang.pm:315 mirror.pm:22 timezone.pm:251
 #, c-format
 msgid "Austria"
 msgstr "Austria"
 
-#: lang.pm:233 mirror.pm:9 timezone.pm:282
+#: lang.pm:316 mirror.pm:21 timezone.pm:289
 #, c-format
 msgid "Australia"
 msgstr "Australia"
 
-#: lang.pm:234
+#: lang.pm:317
 #, c-format
 msgid "Aruba"
 msgstr "Aruba"
 
-#: lang.pm:235
+#: lang.pm:318
 #, c-format
 msgid "Azerbaijan"
 msgstr "Azerbaijan"
 
-#: lang.pm:236
+#: lang.pm:319
 #, c-format
 msgid "Bosnia and Herzegovina"
 msgstr "Bosnia and Herzegovina"
 
-#: lang.pm:237
+#: lang.pm:320
 #, c-format
 msgid "Barbados"
 msgstr "Barbados"
 
-#: lang.pm:238 timezone.pm:226
+#: lang.pm:321 timezone.pm:233
 #, c-format
 msgid "Bangladesh"
 msgstr "Bangladesh"
 
-#: lang.pm:239 mirror.pm:11 timezone.pm:246
+#: lang.pm:322 mirror.pm:23 timezone.pm:253
 #, c-format
 msgid "Belgium"
 msgstr "Belgium"
 
-#: lang.pm:240
+#: lang.pm:323
 #, c-format
 msgid "Burkina Faso"
 msgstr "Burkina Faso"
 
-#: lang.pm:241 timezone.pm:247
+#: lang.pm:324 timezone.pm:254
 #, c-format
 msgid "Bulgaria"
 msgstr "Bulgaria"
 
-#: lang.pm:242
+#: lang.pm:325
 #, c-format
 msgid "Bahrain"
 msgstr "Bahrain"
 
-#: lang.pm:243
+#: lang.pm:326
 #, c-format
 msgid "Burundi"
 msgstr "Burundi"
 
-#: lang.pm:244
+#: lang.pm:327
 #, c-format
 msgid "Benin"
 msgstr "Benin"
 
-#: lang.pm:245
+#: lang.pm:328
 #, c-format
 msgid "Bermuda"
 msgstr "Bermuda"
 
-#: lang.pm:246
+#: lang.pm:329
 #, c-format
 msgid "Brunei Darussalam"
 msgstr "Brunei Darussalam"
 
-#: lang.pm:247
+#: lang.pm:330
 #, c-format
 msgid "Bolivia"
 msgstr "Bolivia"
 
-#: lang.pm:248 mirror.pm:12 timezone.pm:287
+#: lang.pm:331 mirror.pm:24 timezone.pm:294
 #, c-format
 msgid "Brazil"
 msgstr "Brazil"
 
-#: lang.pm:249
+#: lang.pm:332
 #, c-format
 msgid "Bahamas"
 msgstr "Bahamas"
 
-#: lang.pm:250
+#: lang.pm:333
 #, c-format
 msgid "Bhutan"
 msgstr "Bhutan"
 
-#: lang.pm:251
+#: lang.pm:334
 #, c-format
 msgid "Bouvet Island"
 msgstr "Bouvet Island"
 
-#: lang.pm:252
+#: lang.pm:335
 #, c-format
 msgid "Botswana"
 msgstr "Botswana"
 
-#: lang.pm:253 timezone.pm:245
+#: lang.pm:336 timezone.pm:252
 #, c-format
 msgid "Belarus"
 msgstr "Belarus"
 
-#: lang.pm:254
+#: lang.pm:337
 #, c-format
 msgid "Belize"
 msgstr "Belize"
 
-#: lang.pm:255 mirror.pm:13 timezone.pm:276
+#: lang.pm:338 mirror.pm:25 timezone.pm:283
 #, c-format
 msgid "Canada"
 msgstr "Canada"
 
-#: lang.pm:256
+#: lang.pm:339
 #, c-format
 msgid "Cocos (Keeling) Islands"
 msgstr "Cocos (Keeling) Islands"
 
-#: lang.pm:257
+#: lang.pm:340
 #, c-format
 msgid "Congo (Kinshasa)"
 msgstr "Congo (Kinshasa)"
 
-#: lang.pm:258
+#: lang.pm:341
 #, c-format
 msgid "Central African Republic"
 msgstr "Central African Republic"
 
-#: lang.pm:259
+#: lang.pm:342
 #, c-format
 msgid "Congo (Brazzaville)"
 msgstr "Congo (Brazzaville)"
 
-#: lang.pm:260 mirror.pm:37 timezone.pm:270
+#: lang.pm:343 mirror.pm:49 timezone.pm:277
 #, c-format
 msgid "Switzerland"
 msgstr "Switzerland"
 
-#: lang.pm:261
+#: lang.pm:344
 #, c-format
 msgid "Cote d'Ivoire"
 msgstr "Cote d'Ivoire"
 
-#: lang.pm:262
+#: lang.pm:345
 #, c-format
 msgid "Cook Islands"
 msgstr "Cook Islands"
 
-#: lang.pm:263 timezone.pm:288
+#: lang.pm:346 timezone.pm:295
 #, c-format
 msgid "Chile"
 msgstr "Chile"
 
-#: lang.pm:264
+#: lang.pm:347
 #, c-format
 msgid "Cameroon"
 msgstr "Cameroon"
 
-#: lang.pm:265 timezone.pm:227
+#: lang.pm:348 timezone.pm:234
 #, c-format
 msgid "China"
 msgstr "China"
 
-#: lang.pm:266
+#: lang.pm:349
 #, c-format
 msgid "Colombia"
 msgstr "Colombia"
 
-#: lang.pm:267 mirror.pm:14
+#: lang.pm:350 mirror.pm:26
 #, c-format
 msgid "Costa Rica"
 msgstr "Costa Rica"
 
-#: lang.pm:268
+#: lang.pm:351
 #, c-format
 msgid "Serbia & Montenegro"
 msgstr "Serbia & Montenegro"
 
-#: lang.pm:269
+#: lang.pm:352
 #, c-format
 msgid "Cuba"
 msgstr "Cuba"
 
-#: lang.pm:270
+#: lang.pm:353
 #, c-format
 msgid "Cape Verde"
 msgstr "Cape Verde"
 
-#: lang.pm:271
+#: lang.pm:354
 #, c-format
 msgid "Christmas Island"
 msgstr "Christmas Island"
 
-#: lang.pm:272
+#: lang.pm:355
 #, c-format
 msgid "Cyprus"
 msgstr "Cyprus"
 
-#: lang.pm:273 mirror.pm:15 timezone.pm:248
+#: lang.pm:356 mirror.pm:27 timezone.pm:255
 #, c-format
 msgid "Czech Republic"
 msgstr "Czech Republic"
 
-#: lang.pm:274 mirror.pm:20 timezone.pm:253
+#: lang.pm:357 mirror.pm:32 timezone.pm:260
 #, c-format
 msgid "Germany"
 msgstr "Germany"
 
-#: lang.pm:275
+#: lang.pm:358
 #, c-format
 msgid "Djibouti"
 msgstr "Djibouti"
 
-#: lang.pm:276 mirror.pm:16 timezone.pm:249
+#: lang.pm:359 mirror.pm:28 timezone.pm:256
 #, c-format
 msgid "Denmark"
 msgstr "Denmark"
 
-#: lang.pm:277
+#: lang.pm:360
 #, c-format
 msgid "Dominica"
 msgstr "Dominica"
 
-#: lang.pm:278
+#: lang.pm:361
 #, c-format
 msgid "Dominican Republic"
 msgstr "Dominican Republic"
 
-#: lang.pm:279
+#: lang.pm:362
 #, c-format
 msgid "Algeria"
 msgstr "Algeria"
 
-#: lang.pm:280
+#: lang.pm:363
 #, c-format
 msgid "Ecuador"
 msgstr "Ecuador"
 
-#: lang.pm:281 mirror.pm:17 timezone.pm:250
+#: lang.pm:364 mirror.pm:29 timezone.pm:257
 #, c-format
 msgid "Estonia"
 msgstr "Estonia"
 
-#: lang.pm:282
+#: lang.pm:365
 #, c-format
 msgid "Egypt"
 msgstr "Egypt"
 
-#: lang.pm:283
+#: lang.pm:366
 #, c-format
 msgid "Western Sahara"
 msgstr "Western Sahara"
 
-#: lang.pm:284
+#: lang.pm:367
 #, c-format
 msgid "Eritrea"
 msgstr "Eritrea"
 
-#: lang.pm:285 mirror.pm:35 timezone.pm:268
+#: lang.pm:368 mirror.pm:47 timezone.pm:275
 #, c-format
 msgid "Spain"
 msgstr "Spain"
 
-#: lang.pm:286
+#: lang.pm:369
 #, c-format
 msgid "Ethiopia"
 msgstr "Ethiopia"
 
-#: lang.pm:287 mirror.pm:18 timezone.pm:251
+#: lang.pm:370 mirror.pm:30 timezone.pm:258
 #, c-format
 msgid "Finland"
 msgstr "Finland"
 
-#: lang.pm:288
+#: lang.pm:371
 #, c-format
 msgid "Fiji"
 msgstr "Fiji"
 
-#: lang.pm:289
+#: lang.pm:372
 #, c-format
 msgid "Falkland Islands (Malvinas)"
 msgstr "Falkland Islands (Malvinas)"
 
-#: lang.pm:290
+#: lang.pm:373
 #, c-format
 msgid "Micronesia"
 msgstr "Micronesia"
 
-#: lang.pm:291
+#: lang.pm:374
 #, c-format
 msgid "Faroe Islands"
 msgstr "Faroe Islands"
 
-#: lang.pm:292 mirror.pm:19 timezone.pm:252
+#: lang.pm:375 mirror.pm:31 timezone.pm:259
 #, c-format
 msgid "France"
 msgstr "France"
 
-#: lang.pm:293
+#: lang.pm:376
 #, c-format
 msgid "Gabon"
 msgstr "Gabon"
 
-#: lang.pm:294 timezone.pm:272
+#: lang.pm:377 timezone.pm:279
 #, c-format
 msgid "United Kingdom"
 msgstr "United Kingdom"
 
-#: lang.pm:295
+#: lang.pm:378
 #, c-format
 msgid "Grenada"
 msgstr "Grenada"
 
-#: lang.pm:296
+#: lang.pm:379
 #, c-format
 msgid "Georgia"
 msgstr "Georgia"
 
-#: lang.pm:297
+#: lang.pm:380
 #, c-format
 msgid "French Guiana"
 msgstr "French Guiana"
 
-#: lang.pm:298
+#: lang.pm:381
 #, c-format
 msgid "Ghana"
 msgstr "Ghana"
 
-#: lang.pm:299
+#: lang.pm:382
 #, c-format
 msgid "Gibraltar"
 msgstr "Gibraltar"
 
-#: lang.pm:300
+#: lang.pm:383
 #, c-format
 msgid "Greenland"
 msgstr "Greenland"
 
-#: lang.pm:301
+#: lang.pm:384
 #, c-format
 msgid "Gambia"
 msgstr "Gambia"
 
-#: lang.pm:302
+#: lang.pm:385
 #, c-format
 msgid "Guinea"
 msgstr "Guinea"
 
-#: lang.pm:303
+#: lang.pm:386
 #, c-format
 msgid "Guadeloupe"
 msgstr "Guadeloupe"
 
-#: lang.pm:304
+#: lang.pm:387
 #, c-format
 msgid "Equatorial Guinea"
 msgstr "Equatorial Guinea"
 
-#: lang.pm:305 mirror.pm:21 timezone.pm:254
+#: lang.pm:388 mirror.pm:33 timezone.pm:261
 #, c-format
 msgid "Greece"
 msgstr "Greece"
 
-#: lang.pm:306
+#: lang.pm:389
 #, c-format
 msgid "South Georgia and the South Sandwich Islands"
 msgstr "South Georgia and the South Sandwich Islands"
 
-#: lang.pm:307 timezone.pm:277
+#: lang.pm:390 timezone.pm:284
 #, c-format
 msgid "Guatemala"
 msgstr "Guatemala"
 
-#: lang.pm:308
+#: lang.pm:391
 #, c-format
 msgid "Guam"
 msgstr "Guam"
 
-#: lang.pm:309
+#: lang.pm:392
 #, c-format
 msgid "Guinea-Bissau"
 msgstr "Guinea-Bissau"
 
-#: lang.pm:310
+#: lang.pm:393
 #, c-format
 msgid "Guyana"
 msgstr "Guyana"
 
-#: lang.pm:311
+#: lang.pm:394
 #, c-format
 msgid "Hong Kong SAR (China)"
 msgstr "Hong Kong SAR (China)"
 
-#: lang.pm:312
+#: lang.pm:395
 #, c-format
 msgid "Heard and McDonald Islands"
 msgstr "Heard and McDonald Islands"
 
-#: lang.pm:313
+#: lang.pm:396
 #, c-format
 msgid "Honduras"
 msgstr "Honduras"
 
-#: lang.pm:314
+#: lang.pm:397
 #, c-format
 msgid "Croatia"
 msgstr "Croatia"
 
-#: lang.pm:315
+#: lang.pm:398
 #, c-format
 msgid "Haiti"
 msgstr "Haiti"
 
-#: lang.pm:316 mirror.pm:22 timezone.pm:255
+#: lang.pm:399 mirror.pm:34 timezone.pm:262
 #, c-format
 msgid "Hungary"
 msgstr "Hungary"
 
-#: lang.pm:317 timezone.pm:230
+#: lang.pm:400 timezone.pm:237
 #, c-format
 msgid "Indonesia"
 msgstr "Indonesia"
 
-#: lang.pm:318 mirror.pm:23 timezone.pm:256
+#: lang.pm:401 mirror.pm:35 timezone.pm:263
 #, c-format
 msgid "Ireland"
 msgstr "Ireland"
 
-#: lang.pm:319 mirror.pm:24 timezone.pm:232
+#: lang.pm:402 mirror.pm:36 timezone.pm:239
 #, c-format
 msgid "Israel"
 msgstr "Israel"
 
-#: lang.pm:320 timezone.pm:229
+#: lang.pm:403 timezone.pm:236
 #, c-format
 msgid "India"
 msgstr "India"
 
-#: lang.pm:321
+#: lang.pm:404
 #, c-format
 msgid "British Indian Ocean Territory"
 msgstr "British Indian Ocean Territory"
 
-#: lang.pm:322
+#: lang.pm:405
 #, c-format
 msgid "Iraq"
 msgstr "Iraq"
 
-#: lang.pm:323 timezone.pm:231
+#: lang.pm:406 timezone.pm:238
 #, c-format
 msgid "Iran"
 msgstr "Iran"
 
-#: lang.pm:324
+#: lang.pm:407
 #, c-format
 msgid "Iceland"
 msgstr "Iceland"
 
-#: lang.pm:325 mirror.pm:25 timezone.pm:257
+#: lang.pm:408 mirror.pm:37 timezone.pm:264
 #, c-format
 msgid "Italy"
 msgstr "Italy"
 
-#: lang.pm:326
+#: lang.pm:409
 #, c-format
 msgid "Jamaica"
 msgstr "Jamaica"
 
-#: lang.pm:327
+#: lang.pm:410
 #, c-format
 msgid "Jordan"
 msgstr "Jordan"
 
-#: lang.pm:328 mirror.pm:26 timezone.pm:233
+#: lang.pm:411 mirror.pm:38 timezone.pm:240
 #, c-format
 msgid "Japan"
 msgstr "Japan"
 
-#: lang.pm:329
+#: lang.pm:412
 #, c-format
 msgid "Kenya"
 msgstr "Kenya"
 
-#: lang.pm:330
+#: lang.pm:413
 #, c-format
 msgid "Kyrgyzstan"
 msgstr "Kyrgyzstan"
 
-#: lang.pm:331
+#: lang.pm:414
 #, c-format
 msgid "Cambodia"
 msgstr "Cambodia"
 
-#: lang.pm:332
+#: lang.pm:415
 #, c-format
 msgid "Kiribati"
 msgstr "Kiribati"
 
-#: lang.pm:333
+#: lang.pm:416
 #, c-format
 msgid "Comoros"
 msgstr "Comoros"
 
-#: lang.pm:334
+#: lang.pm:417
 #, c-format
 msgid "Saint Kitts and Nevis"
 msgstr "Saint Kitts and Nevis"
 
-#: lang.pm:335
+#: lang.pm:418
 #, c-format
 msgid "Korea (North)"
 msgstr "Korea (North)"
 
-#: lang.pm:336 timezone.pm:234
+#: lang.pm:419 timezone.pm:241
 #, c-format
 msgid "Korea"
 msgstr "Korea"
 
-#: lang.pm:337
+#: lang.pm:420
 #, c-format
 msgid "Kuwait"
 msgstr "Kuwait"
 
-#: lang.pm:338
+#: lang.pm:421
 #, c-format
 msgid "Cayman Islands"
 msgstr "Cayman Islands"
 
-#: lang.pm:339
+#: lang.pm:422
 #, c-format
 msgid "Kazakhstan"
 msgstr "Kazakhstan"
 
-#: lang.pm:340
+#: lang.pm:423
 #, c-format
 msgid "Laos"
 msgstr "Laos"
 
-#: lang.pm:341
+#: lang.pm:424
 #, c-format
 msgid "Lebanon"
 msgstr "Lebanon"
 
-#: lang.pm:342
+#: lang.pm:425
 #, c-format
 msgid "Saint Lucia"
 msgstr "Saint Lucia"
 
-#: lang.pm:343
+#: lang.pm:426
 #, c-format
 msgid "Liechtenstein"
 msgstr "Liechtenstein"
 
-#: lang.pm:344
+#: lang.pm:427
 #, c-format
 msgid "Sri Lanka"
 msgstr "Sri Lanka"
 
-#: lang.pm:345
+#: lang.pm:428
 #, c-format
 msgid "Liberia"
 msgstr " "
 
-#: lang.pm:346
+#: lang.pm:429
 #, c-format
 msgid "Lesotho"
 msgstr "Lesotho"
 
-#: lang.pm:347 timezone.pm:258
+#: lang.pm:430 timezone.pm:265
 #, c-format
 msgid "Lithuania"
 msgstr "Lithuania"
 
-#: lang.pm:348 timezone.pm:259
+#: lang.pm:431 timezone.pm:266
 #, c-format
 msgid "Luxembourg"
 msgstr "Luxembourg"
 
-#: lang.pm:349
+#: lang.pm:432
 #, c-format
 msgid "Latvia"
 msgstr "Latvia"
 
-#: lang.pm:350
+#: lang.pm:433
 #, c-format
 msgid "Libya"
 msgstr "Libya"
 
-#: lang.pm:351
+#: lang.pm:434
 #, c-format
 msgid "Morocco"
 msgstr "Morocco"
 
-#: lang.pm:352
+#: lang.pm:435
 #, c-format
 msgid "Monaco"
 msgstr "Monaco"
 
-#: lang.pm:353
+#: lang.pm:436
 #, c-format
 msgid "Moldova"
 msgstr "Moldova"
 
-#: lang.pm:354
+#: lang.pm:437
 #, c-format
 msgid "Madagascar"
 msgstr "Madagascar"
 
-#: lang.pm:355
+#: lang.pm:438
 #, c-format
 msgid "Marshall Islands"
 msgstr "Marshall Islands"
 
-#: lang.pm:356
+#: lang.pm:439
 #, c-format
 msgid "Macedonia"
 msgstr "Macedonia"
 
-#: lang.pm:357
+#: lang.pm:440
 #, c-format
 msgid "Mali"
 msgstr "Mali"
 
-#: lang.pm:358
+#: lang.pm:441
 #, c-format
 msgid "Myanmar"
 msgstr "Myanmar"
 
-#: lang.pm:359
+#: lang.pm:442
 #, c-format
 msgid "Mongolia"
 msgstr "Mongolia"
 
-#: lang.pm:360
+#: lang.pm:443
 #, c-format
 msgid "Northern Mariana Islands"
 msgstr "Northern Mariana Islands"
 
-#: lang.pm:361
+#: lang.pm:444
 #, c-format
 msgid "Martinique"
 msgstr "Martinique"
 
-#: lang.pm:362
+#: lang.pm:445
 #, c-format
 msgid "Mauritania"
 msgstr "Mauritania"
 
-#: lang.pm:363
+#: lang.pm:446
 #, c-format
 msgid "Montserrat"
 msgstr "Montserrat"
 
-#: lang.pm:364
+#: lang.pm:447
 #, c-format
 msgid "Malta"
 msgstr "Malta"
 
-#: lang.pm:365
+#: lang.pm:448
 #, c-format
 msgid "Mauritius"
 msgstr "Mauritius"
 
-#: lang.pm:366
+#: lang.pm:449
 #, c-format
 msgid "Maldives"
 msgstr "Maldives"
 
-#: lang.pm:367
+#: lang.pm:450
 #, c-format
 msgid "Malawi"
 msgstr "Malawi"
 
-#: lang.pm:368 timezone.pm:278
+#: lang.pm:451 timezone.pm:285
 #, c-format
 msgid "Mexico"
 msgstr "Mexico"
 
-#: lang.pm:369 timezone.pm:235
+#: lang.pm:452 timezone.pm:242
 #, c-format
 msgid "Malaysia"
 msgstr "Malaysia"
 
-#: lang.pm:370
+#: lang.pm:453
 #, c-format
 msgid "Mozambique"
 msgstr "Mozambique"
 
-#: lang.pm:371
+#: lang.pm:454
 #, c-format
 msgid "Namibia"
 msgstr "Namibia"
 
-#: lang.pm:372
+#: lang.pm:455
 #, c-format
 msgid "New Caledonia"
 msgstr "New Caledonia"
 
-#: lang.pm:373
+#: lang.pm:456
 #, c-format
 msgid "Niger"
 msgstr "Niger"
 
-#: lang.pm:374
+#: lang.pm:457
 #, c-format
 msgid "Norfolk Island"
 msgstr "Norfolk Island"
 
-#: lang.pm:375
+#: lang.pm:458
 #, c-format
 msgid "Nigeria"
 msgstr "Nigeria"
 
-#: lang.pm:376
+#: lang.pm:459
 #, c-format
 msgid "Nicaragua"
 msgstr "Nicaragua"
 
-#: lang.pm:377 mirror.pm:27 timezone.pm:260
+#: lang.pm:460 mirror.pm:39 timezone.pm:267
 #, c-format
 msgid "Netherlands"
 msgstr "Netherlands"
 
-#: lang.pm:378 mirror.pm:29 timezone.pm:261
+#: lang.pm:461 mirror.pm:41 timezone.pm:268
 #, c-format
 msgid "Norway"
 msgstr "Norway"
 
-#: lang.pm:379
+#: lang.pm:462
 #, c-format
 msgid "Nepal"
 msgstr "Nepal"
 
-#: lang.pm:380
+#: lang.pm:463
 #, c-format
 msgid "Nauru"
 msgstr "Nauru"
 
-#: lang.pm:381
+#: lang.pm:464
 #, c-format
 msgid "Niue"
 msgstr "Niue"
 
-#: lang.pm:382 mirror.pm:28 timezone.pm:283
+#: lang.pm:465 mirror.pm:40 timezone.pm:290
 #, c-format
 msgid "New Zealand"
 msgstr "New Zealand"
 
-#: lang.pm:383
+#: lang.pm:466
 #, c-format
 msgid "Oman"
 msgstr "Oman"
 
-#: lang.pm:384
+#: lang.pm:467
 #, c-format
 msgid "Panama"
 msgstr "Panama"
 
-#: lang.pm:385
+#: lang.pm:468
 #, c-format
 msgid "Peru"
 msgstr "Peru"
 
-#: lang.pm:386
+#: lang.pm:469
 #, c-format
 msgid "French Polynesia"
 msgstr "French Polynesia"
 
-#: lang.pm:387
+#: lang.pm:470
 #, c-format
 msgid "Papua New Guinea"
 msgstr "Papua New Guinea"
 
-#: lang.pm:388 timezone.pm:236
+#: lang.pm:471 timezone.pm:243
 #, c-format
 msgid "Philippines"
 msgstr "Philippines"
 
-#: lang.pm:389
+#: lang.pm:472
 #, c-format
 msgid "Pakistan"
 msgstr "Pakistan"
 
-#: lang.pm:390 mirror.pm:30 timezone.pm:262
+#: lang.pm:473 mirror.pm:42 timezone.pm:269
 #, c-format
 msgid "Poland"
 msgstr "Poland"
 
-#: lang.pm:391
+#: lang.pm:474
 #, c-format
 msgid "Saint Pierre and Miquelon"
 msgstr "Saint Pierre and Miquelon"
 
-#: lang.pm:392
+#: lang.pm:475
 #, c-format
 msgid "Pitcairn"
 msgstr "Pitcairn"
 
-#: lang.pm:393
+#: lang.pm:476
 #, c-format
 msgid "Puerto Rico"
 msgstr "Puerto Rico"
 
-#: lang.pm:394
+#: lang.pm:477
 #, c-format
 msgid "Palestine"
 msgstr "Palestine"
 
-#: lang.pm:395 mirror.pm:31 timezone.pm:263
+#: lang.pm:478 mirror.pm:43 timezone.pm:270
 #, c-format
 msgid "Portugal"
 msgstr "Portugal"
 
-#: lang.pm:396
+#: lang.pm:479
 #, c-format
 msgid "Paraguay"
 msgstr "Paraguay"
 
-#: lang.pm:397
+#: lang.pm:480
 #, c-format
 msgid "Palau"
 msgstr "Palau"
 
-#: lang.pm:398
+#: lang.pm:481
 #, c-format
 msgid "Qatar"
 msgstr "Qatar"
 
-#: lang.pm:399
+#: lang.pm:482
 #, c-format
 msgid "Reunion"
 msgstr "Reunion"
 
-#: lang.pm:400 timezone.pm:264
+#: lang.pm:483 timezone.pm:271
 #, c-format
 msgid "Romania"
 msgstr "Romania"
 
-#: lang.pm:401 mirror.pm:32
+#: lang.pm:484 mirror.pm:44
 #, c-format
 msgid "Russia"
 msgstr "Russia"
 
-#: lang.pm:402
+#: lang.pm:485
 #, c-format
 msgid "Rwanda"
 msgstr "Rwanda"
 
-#: lang.pm:403
+#: lang.pm:486
 #, c-format
 msgid "Saudi Arabia"
 msgstr "Saudi Arabia"
 
-#: lang.pm:404
+#: lang.pm:487
 #, c-format
 msgid "Solomon Islands"
 msgstr "Solomon Islands"
 
-#: lang.pm:405
+#: lang.pm:488
 #, c-format
 msgid "Seychelles"
 msgstr "Seychelles"
 
-#: lang.pm:406
+#: lang.pm:489
 #, c-format
 msgid "Sudan"
 msgstr "Sudan"
 
-#: lang.pm:407 mirror.pm:36 timezone.pm:269
+#: lang.pm:490 mirror.pm:48 timezone.pm:276
 #, c-format
 msgid "Sweden"
 msgstr "Sweden"
 
-#: lang.pm:408 timezone.pm:237
+#: lang.pm:491 timezone.pm:244
 #, c-format
 msgid "Singapore"
 msgstr "Singapore"
 
-#: lang.pm:409
+#: lang.pm:492
 #, c-format
 msgid "Saint Helena"
 msgstr "Saint Helena"
 
-#: lang.pm:410 timezone.pm:267
+#: lang.pm:493 timezone.pm:274
 #, c-format
 msgid "Slovenia"
 msgstr "Slovenia"
 
-#: lang.pm:411
+#: lang.pm:494
 #, c-format
 msgid "Svalbard and Jan Mayen Islands"
 msgstr "Svalbard and Jan Mayen Islands"
 
-#: lang.pm:412 mirror.pm:33 timezone.pm:266
+#: lang.pm:495 mirror.pm:45 timezone.pm:273
 #, c-format
 msgid "Slovakia"
 msgstr "Slovakia"
 
-#: lang.pm:413
+#: lang.pm:496
 #, c-format
 msgid "Sierra Leone"
 msgstr "Sierra Leone"
 
-#: lang.pm:414
+#: lang.pm:497
 #, c-format
 msgid "San Marino"
 msgstr "San Marino"
 
-#: lang.pm:415
+#: lang.pm:498
 #, c-format
 msgid "Senegal"
 msgstr "Senegal"
 
-#: lang.pm:416
+#: lang.pm:499
 #, c-format
 msgid "Somalia"
 msgstr "Somalia"
 
-#: lang.pm:417
+#: lang.pm:500
 #, c-format
 msgid "Suriname"
 msgstr "Suriname"
 
-#: lang.pm:418
+#: lang.pm:501
 #, c-format
 msgid "Sao Tome and Principe"
 msgstr "Sao Tome and Principe"
 
-#: lang.pm:419
+#: lang.pm:502
 #, c-format
 msgid "El Salvador"
 msgstr "El Salvador"
 
-#: lang.pm:420
+#: lang.pm:503
 #, c-format
 msgid "Syria"
 msgstr "Syria"
 
-#: lang.pm:421
+#: lang.pm:504
 #, c-format
 msgid "Swaziland"
 msgstr "Swaziland"
 
-#: lang.pm:422
+#: lang.pm:505
 #, c-format
 msgid "Turks and Caicos Islands"
 msgstr "Turks and Caicos Islands"
 
-#: lang.pm:423
+#: lang.pm:506
 #, c-format
 msgid "Chad"
 msgstr "Chad"
 
-#: lang.pm:424
+#: lang.pm:507
 #, c-format
 msgid "French Southern Territories"
 msgstr "French Southern Territories"
 
-#: lang.pm:425
+#: lang.pm:508
 #, c-format
 msgid "Togo"
 msgstr "Togo"
 
-#: lang.pm:426 mirror.pm:39 timezone.pm:239
+#: lang.pm:509 mirror.pm:51 timezone.pm:246
 #, c-format
 msgid "Thailand"
 msgstr "Thailand"
 
-#: lang.pm:427
+#: lang.pm:510
 #, c-format
 msgid "Tajikistan"
 msgstr "Tajikistan"
 
-#: lang.pm:428
+#: lang.pm:511
 #, c-format
 msgid "Tokelau"
 msgstr "Tokelau"
 
-#: lang.pm:429
+#: lang.pm:512
 #, c-format
 msgid "East Timor"
 msgstr "East Timor"
 
-#: lang.pm:430
+#: lang.pm:513
 #, c-format
 msgid "Turkmenistan"
 msgstr "Turkmenistan"
 
-#: lang.pm:431
+#: lang.pm:514
 #, c-format
 msgid "Tunisia"
 msgstr "Tunisia"
 
-#: lang.pm:432
+#: lang.pm:515
 #, c-format
 msgid "Tonga"
 msgstr "Tonga"
 
-#: lang.pm:433 timezone.pm:240
+#: lang.pm:516 timezone.pm:247
 #, c-format
 msgid "Turkey"
 msgstr "Turkey"
 
-#: lang.pm:434
+#: lang.pm:517
 #, c-format
 msgid "Trinidad and Tobago"
 msgstr "Trinidad and Tobago"
 
-#: lang.pm:435
+#: lang.pm:518
 #, c-format
 msgid "Tuvalu"
 msgstr "Tuvalu"
 
-#: lang.pm:436 mirror.pm:38 timezone.pm:238
+#: lang.pm:519 mirror.pm:50 timezone.pm:245
 #, c-format
 msgid "Taiwan"
 msgstr "Taiwan"
 
-#: lang.pm:437 timezone.pm:223
+#: lang.pm:520 timezone.pm:230
 #, c-format
 msgid "Tanzania"
 msgstr "Tanzania"
 
-#: lang.pm:438 timezone.pm:271
+#: lang.pm:521 timezone.pm:278
 #, c-format
 msgid "Ukraine"
 msgstr "Ukraine"
 
-#: lang.pm:439
+#: lang.pm:522
 #, c-format
 msgid "Uganda"
 msgstr "Uganda"
 
-#: lang.pm:440
+#: lang.pm:523
 #, c-format
 msgid "United States Minor Outlying Islands"
 msgstr "United States Minor Outlying Islands"
 
-#: lang.pm:441 mirror.pm:40 timezone.pm:279
+#: lang.pm:524 mirror.pm:52 timezone.pm:286
 #, c-format
 msgid "United States"
 msgstr "United States"
 
-#: lang.pm:442
+#: lang.pm:525
 #, c-format
 msgid "Uruguay"
 msgstr "Uruguay"
 
-#: lang.pm:443
+#: lang.pm:526
 #, c-format
 msgid "Uzbekistan"
 msgstr "Uzbekistan"
 
-#: lang.pm:444
+#: lang.pm:527
 #, c-format
 msgid "Vatican"
 msgstr "Vatican"
 
-#: lang.pm:445
+#: lang.pm:528
 #, c-format
 msgid "Saint Vincent and the Grenadines"
 msgstr "Saint Vincent and the Grenadines"
 
-#: lang.pm:446
+#: lang.pm:529
 #, c-format
 msgid "Venezuela"
 msgstr "Venezuela"
 
-#: lang.pm:447
+#: lang.pm:530
 #, c-format
 msgid "Virgin Islands (British)"
 msgstr "Virgin Islands (British)"
 
-#: lang.pm:448
+#: lang.pm:531
 #, c-format
 msgid "Virgin Islands (U.S.)"
 msgstr "Virgin Islands (U.S.)"
 
-#: lang.pm:449
+#: lang.pm:532
 #, c-format
 msgid "Vietnam"
 msgstr "Vietnam"
 
-#: lang.pm:450
+#: lang.pm:533
 #, c-format
 msgid "Vanuatu"
 msgstr "Vanuatu"
 
-#: lang.pm:451
+#: lang.pm:534
 #, c-format
 msgid "Wallis and Futuna"
 msgstr "Wallis and Futuna"
 
-#: lang.pm:452
+#: lang.pm:535
 #, c-format
 msgid "Samoa"
 msgstr "Samoa"
 
-#: lang.pm:453
+#: lang.pm:536
 #, c-format
 msgid "Yemen"
 msgstr "Yemen"
 
-#: lang.pm:454
+#: lang.pm:537
 #, c-format
 msgid "Mayotte"
 msgstr "Mayotte"
 
-#: lang.pm:455 mirror.pm:34 timezone.pm:222
+#: lang.pm:538 mirror.pm:46 timezone.pm:229
 #, c-format
 msgid "South Africa"
 msgstr "South Africa"
 
-#: lang.pm:456
+#: lang.pm:539
 #, c-format
 msgid "Zambia"
 msgstr "Zambia"
 
-#: lang.pm:457
+#: lang.pm:540
 #, c-format
 msgid "Zimbabwe"
 msgstr "Zimbabwe"
 
-#: lang.pm:1226
+#: lang.pm:1548
 #, c-format
 msgid "Welcome to %s"
 msgstr "Maligayang pagdating sa %s"
 
-#: lvm.pm:89
+#: lvm.pm:108
 #, c-format
 msgid "Moving used physical extents to other physical volumes failed"
 msgstr ""
 
-#: lvm.pm:149
+#: lvm.pm:168
 #, c-format
 msgid "Physical volume %s is still in use"
 msgstr ""
 
-#: lvm.pm:159
+#: lvm.pm:178
 #, c-format
 msgid "Remove the logical volumes first\n"
 msgstr "Tanggalin muna ang mga logical volume\n"
 
-#: lvm.pm:202
+#: lvm.pm:221
 #, c-format
 msgid "The bootloader can't handle /boot on multiple physical volumes"
 msgstr ""
@@ -4882,23 +4789,23 @@ msgstr ""
 msgid ""
 "Introduction\n"
 "\n"
-"The operating system and the different components available in the "
-"OpenMandriva Lx distribution\n"
+"The operating system and the different components available in the Moondrake "
+"GNU/Linux distribution \n"
 "shall be called the \"Software Products\" hereafter. The Software Products "
 "include, but are not\n"
 "restricted to, the set of programs, methods, rules and documentation related "
-"to the operating\n"
-"system and the different components of the OpenMandriva Lx distribution, and "
-"any applications\n"
-"distributed with these products provided by OpenMandriva's licensors or "
+"to the operating \n"
+"system and the different components of the Moondrake GNU/Linux distribution, "
+"and any applications \n"
+"distributed with these products provided by Moondrake's licensors or "
 "suppliers.\n"
 "\n"
 "\n"
 "1. License Agreement\n"
 "\n"
 "Please read this document carefully. This document is a license agreement "
-"between you and\n"
-"the OpenMandriva Association which applies to the Software Products.\n"
+"between you and  \n"
+"Moondrake which applies to the Software Products.\n"
 "By installing, duplicating or using any of the Software Products in any "
 "manner, you explicitly\n"
 "accept and fully agree to conform to the terms and conditions of this "
@@ -4920,24 +4827,24 @@ msgid ""
 "The Software Products and attached documentation are provided \"as is\", "
 "with no warranty, to the\n"
 "extent permitted by law.\n"
-"Neither the OpenMandriva Association nor its licensors or suppliers will, in "
-"any circumstances\n"
-"and to the extent permitted by law, be liable for any special, incidental, "
-"direct or indirect damages\n"
-"whatsoever (including without limitation damages for loss of business, "
-"interruption of business, financial\n"
+"Neither Moondrake nor its licensors or suppliers will, in any circumstances "
+"and to the extent \n"
+"permitted by law, be liable for any special, incidental, direct or indirect "
+"damages whatsoever \n"
+"(including without limitation damages for loss of business, interruption of "
+"business, financial \n"
 "loss, legal fees and penalties resulting from a court judgment, or any other "
 "consequential loss)\n"
 "arising out of  the use or inability to use the Software Products, even if "
-"the OpenMandriva Association\n"
-"or its licensors or suppliers have been advised of the possibility or "
-"occurrence of such damages.\n"
+"Moondrake or its \n"
+"licensors or suppliers have been advised of the possibility or occurrence of "
+"such damages.\n"
 "\n"
 "LIMITED LIABILITY LINKED TO POSSESSING OR USING PROHIBITED SOFTWARE IN SOME "
 "COUNTRIES\n"
 "\n"
-"To the extent permitted by law, neither the OpenMandriva Association nor its "
-"licensors, suppliers or\n"
+"To the extent permitted by law, neither Moondrake nor its licensors, "
+"suppliers or\n"
 "distributors will, in any circumstances, be liable for any special, "
 "incidental, direct or indirect\n"
 "damages whatsoever (including without limitation damages for loss of "
@@ -4945,9 +4852,9 @@ msgid ""
 "business, financial loss, legal fees and penalties resulting from a court "
 "judgment, or any\n"
 "other consequential loss) arising out of the possession and use of software "
-"components or\n"
-"arising out of  downloading software components from one of OpenMandriva GNU/"
-"Linux sites which are\n"
+"components or \n"
+"arising out of  downloading software components from one of Moondrake GNU/"
+"Linux sites which are \n"
 "prohibited or restricted in some countries by local laws.\n"
 "This limited liability applies to, but is not restricted to, the strong "
 "cryptography components\n"
@@ -4967,12 +4874,12 @@ msgid ""
 "they cover. Please read carefully the terms and conditions of the license "
 "agreement for each component\n"
 "before using any component. Any question on a component license should be "
-"addressed to the component\n"
-"licensor or supplier and not to the OpenMandriva Association.\n"
-"The programs developed by OpenMandriva are governed by the GPL License. "
-"Documentation written\n"
-"by OpenMandriva is governed by a specific license. Please refer to the "
-"documentation for\n"
+"addressed to the component \n"
+"licensor or supplier and not to Moondrake.\n"
+"The programs developed by Moondrake are governed by the GPL License. "
+"Documentation written \n"
+"by Moondrake is governed by a specific license. Please refer to the "
+"documentation for \n"
 "further details.\n"
 "\n"
 "\n"
@@ -4982,11 +4889,11 @@ msgid ""
 "respective authors and are\n"
 "protected by intellectual property and copyright laws applicable to software "
 "programs.\n"
-"OpenMandriva and its suppliers and licensors reserves their rights to modify "
-"or adapt the Software\n"
+"Moondrake and its suppliers and licensors reserves their rights to modify or "
+"adapt the Software \n"
 "Products, as a whole or in parts, by all means and for all purposes.\n"
-"\"OpenMandriva\", \"OpenMandriva GNU/Linux\", \"OpenMandriva Lx\", and "
-"associated logos are trademarks of the OpenMandriva association.\n"
+"\"Moondrake\", \"Moondrake GNU/Linux\" and associated logos are trademarks "
+"of Moondrake  \n"
 "\n"
 "\n"
 "5. Governing Laws\n"
@@ -5002,7 +4909,7 @@ msgid ""
 "court. As a last\n"
 "resort, the dispute will be referred to the appropriate Courts of Law of "
 "Paris - France.\n"
-"For any question on this document, please contact OpenMandriva."
+"For any question on this document, please contact Moondrake"
 msgstr ""
 "Pagpapakilala\n"
 "\n"
@@ -5257,23 +5164,23 @@ msgid ""
 msgstr ""
 
 #. -PO: keep the double empty lines between sections, this is formatted a la LaTeX
-#: messages.pm:147
+#: messages.pm:150
 #, fuzzy, c-format
 msgid ""
 "Congratulations, installation is complete.\n"
 "Remove the boot media and press Enter to reboot.\n"
 "\n"
 "\n"
-"For information on fixes which are available for this release of "
-"OpenMandriva Lx,\n"
-"consult the Errata available at our wiki:\n"
+"For information on fixes which are available for this release of Moondrake "
+"GNU/Linux,\n"
+"consult the Errata available from:\n"
 "\n"
 "\n"
 "%s\n"
 "\n"
 "\n"
-"Information on configuring your newly installed OpenMandriva Lx system\n"
-"is also available at our wiki."
+"Information on configuring your system is available in the post\n"
+"install chapter of the Official Moondrake GNU/Linux User's Guide."
 msgstr ""
 "Maligayang bati, tapos na ang pag-i-install.\n"
 "Tanggalin ang boot media at pindutin ang return para mag-boot ulit.\n"
@@ -5429,37 +5336,32 @@ msgstr ""
 "Paglo-load ng module na %s nabigo.\n"
 "Gusto ninyong subukan ulit na may ibang mga parameter?"
 
-#: mygtk2.pm:1227
+#: mygtk2.pm:1229 mygtk3.pm:1282
 #, fuzzy, c-format
 msgid "Are you sure you want to quit?"
 msgstr "Gusto ninyong mag-click sa pindutang ito?"
 
-#: mygtk2.pm:1569 mygtk2.pm:1570
+#: mygtk2.pm:1571 mygtk2.pm:1572 mygtk3.pm:1650 mygtk3.pm:1651
 #, c-format
 msgid "Password is trivial to guess"
 msgstr ""
 
-#: mygtk2.pm:1571
+#: mygtk2.pm:1573 mygtk3.pm:1652
 #, c-format
 msgid "Password should be resistant to basic attacks"
 msgstr ""
 
-#: mygtk2.pm:1572 mygtk2.pm:1573
+#: mygtk2.pm:1574 mygtk2.pm:1575 mygtk3.pm:1653 mygtk3.pm:1654
 #, fuzzy, c-format
 msgid "Password seems secure"
 msgstr "Password kailangan"
 
-#: partition_table.pm:437
+#: partition_table.pm:415
 #, c-format
 msgid "mount failed: "
 msgstr "mount nabigo: "
 
-#: partition_table.pm:549
-#, c-format
-msgid "Extended partition not supported on this platform"
-msgstr "Ang extended na partisyon ay hindi suportado sa platform na ito"
-
-#: partition_table.pm:567
+#: partition_table.pm:541
 #, c-format
 msgid ""
 "You have a hole in your partition table but I cannot use it.\n"
@@ -5470,7 +5372,7 @@ msgstr ""
 "Ang paglutas ay ilipat ang inyong mga primary na partisyon para kasunod ng "
 "mga extended na partisyon ang butas."
 
-#: partition_table/raw.pm:293
+#: partition_table/raw.pm:292
 #, c-format
 msgid ""
 "Something bad is happening on your hard disk drive. \n"
@@ -5483,27 +5385,27 @@ msgstr ""
 "Nangangahulugan na ang pagsusulat ng kahit na ano sa disk ay magiging "
 "corrupted na data."
 
-#: pkgs.pm:257
+#: pkgs.pm:260
 #, c-format
 msgid "Gathering system information..."
 msgstr ""
 
-#: pkgs.pm:266
+#: pkgs.pm:269
 #, c-format
 msgid "Preparing for installation..."
 msgstr ""
 
-#: pkgs.pm:276 pkgs.pm:279 pkgs.pm:295
+#: pkgs.pm:279 pkgs.pm:282 pkgs.pm:295
 #, c-format
 msgid "Unused packages removal"
 msgstr ""
 
-#: pkgs.pm:276
+#: pkgs.pm:279
 #, c-format
 msgid "Finding unused hardware packages..."
 msgstr ""
 
-#: pkgs.pm:279
+#: pkgs.pm:282
 #, c-format
 msgid "Finding unused localization packages..."
 msgstr ""
@@ -5530,54 +5432,49 @@ msgstr "Paganahin ang suporta sa radyo"
 msgid "Unused localization"
 msgstr ""
 
-#: pkgs.pm:312
-#, fuzzy, c-format
-msgid "Removing packages (this may take some time)..."
-msgstr "Tinatanggal ang mga package..."
-
-#: raid.pm:40
+#: raid.pm:53
 #, fuzzy, c-format
 msgid "Cannot add a partition to _formatted_ RAID %s"
 msgstr "Hindi makapagdagdag ng partisyon sa _formatted_ na RAID md%d"
 
-#: raid.pm:163
+#: raid.pm:176
 #, c-format
 msgid "Not enough partitions for RAID level %d\n"
 msgstr "Walang sapat na partisyon para sa RAID level %d\n"
 
-#: scanner.pm:96
+#: scanner.pm:95
 #, c-format
 msgid "Could not create directory /usr/share/sane/firmware!"
 msgstr "Hindi malikha ang directory na /usr/share/sane/firmware!"
 
-#: scanner.pm:107
+#: scanner.pm:106
 #, c-format
 msgid "Could not create link /usr/share/sane/%s!"
 msgstr "Hindi malikha ang link na /usr/share/sane/%s!"
 
-#: scanner.pm:114
+#: scanner.pm:113
 #, c-format
 msgid "Could not copy firmware file %s to /usr/share/sane/firmware!"
 msgstr "Hindi makopya ang firmware file na %s sa /usr/share/sane/firmware!"
 
-#: scanner.pm:121
+#: scanner.pm:120
 #, c-format
 msgid "Could not set permissions of firmware file %s!"
 msgstr "Hindi ma-set ang mga pahintulot(permission) ng firmware file na %s!"
 
-#: scanner.pm:200
+#: scanner.pm:199
 #, c-format
 msgid "Scannerdrake"
 msgstr "Scannerdrake"
 
-#: scanner.pm:201
+#: scanner.pm:200
 #, c-format
 msgid "Could not install the packages needed to share your scanner(s)."
 msgstr ""
 "Hindi ma-install ang mga package na kailangan para mai-share ang inyong "
 "scanner."
 
-#: scanner.pm:202
+#: scanner.pm:201
 #, c-format
 msgid "Your scanner(s) will not be available for non-root users."
 msgstr ""
@@ -6386,6 +6283,16 @@ msgid "Set CPU powersafe mode"
 msgstr ""
 
 #: services.pm:26
+#, fuzzy, c-format
+msgid "An NTP client/server"
+msgstr "NTP Server"
+
+#: services.pm:27
+#, c-format
+msgid "Set CPU frequency settings"
+msgstr ""
+
+#: services.pm:28
 #, c-format
 msgid ""
 "cron is a standard UNIX program that runs user-specified programs\n"
@@ -6400,18 +6307,18 @@ msgstr ""
 "ilang karagdagang katangian sa basic na UNIX cron, gaya ng mas magandang\n"
 "seguridad at mas makapangyarihang mga option ng configuration."
 
-#: services.pm:29
+#: services.pm:31
 #, c-format
 msgid ""
 "Common UNIX Printing System (CUPS) is an advanced printer spooling system"
 msgstr ""
 
-#: services.pm:30
+#: services.pm:32
 #, c-format
 msgid "Launches the graphical display manager"
 msgstr ""
 
-#: services.pm:31
+#: services.pm:33
 #, c-format
 msgid ""
 "FAM is a file monitoring daemon. It is used to get reports when files "
@@ -6422,7 +6329,7 @@ msgstr ""
 "makakuha\n"
 "ng mga ulat kung nagbago ang mga file. Ginagamit ito ng GNOME at KDE"
 
-#: services.pm:33
+#: services.pm:35
 #, c-format
 msgid ""
 "G15Daemon allows users access to all extra keys by decoding them and \n"
@@ -6435,7 +6342,7 @@ msgid ""
 "scripts can access the LCD via a simple API."
 msgstr ""
 
-#: services.pm:38
+#: services.pm:40
 #, c-format
 msgid ""
 "GPM adds mouse support to text-based Linux applications such the\n"
@@ -6450,12 +6357,12 @@ msgstr ""
 "sa console gamit ang mouse, at may suporta para sa mga pop-up menu sa "
 "console."
 
-#: services.pm:41
+#: services.pm:43
 #, c-format
 msgid "HAL is a daemon that collects and maintains information about hardware"
 msgstr ""
 
-#: services.pm:42
+#: services.pm:44
 #, c-format
 msgid ""
 "HardDrake runs a hardware probe, and optionally configures\n"
@@ -6464,7 +6371,7 @@ msgstr ""
 "Ang HardDrake ay nagsasagawa ng hardware probe, at maaaring\n"
 "pang-configure ng bago/naiba na hardware."
 
-#: services.pm:44
+#: services.pm:46
 #, c-format
 msgid ""
 "Apache is a World Wide Web server. It is used to serve HTML files and CGI."
@@ -6472,7 +6379,7 @@ msgstr ""
 "Ang Apache ay isang server ng World Wide Web. Ginagamit itong pang-serve ng "
 "HTML file at CGI."
 
-#: services.pm:45
+#: services.pm:47
 #, c-format
 msgid ""
 "The internet superserver daemon (commonly called inetd) starts a\n"
@@ -6489,23 +6396,23 @@ msgstr ""
 "disables\n"
 "all of the services it is responsible for."
 
-#: services.pm:49
+#: services.pm:51
 #, c-format
 msgid "Automates a packet filtering firewall with ip6tables"
 msgstr ""
 
-#: services.pm:50
+#: services.pm:52
 #, c-format
 msgid "Automates a packet filtering firewall with iptables"
 msgstr ""
 
-#: services.pm:51
+#: services.pm:53
 #, c-format
 msgid ""
 "Evenly distributes IRQ load across multiple CPUs for enhanced performance"
 msgstr ""
 
-#: services.pm:52
+#: services.pm:54
 #, c-format
 msgid ""
 "This package loads the selected keyboard map as set in\n"
@@ -6517,7 +6424,7 @@ msgstr ""
 "kbdconfig na\n"
 "utility. Dapat ninyong iwan itong gumagana para sa karamihan ng makina."
 
-#: services.pm:55
+#: services.pm:57
 #, c-format
 msgid ""
 "Automatic regeneration of kernel header in /boot for\n"
@@ -6526,17 +6433,17 @@ msgstr ""
 "Automatic na regeneration ng kernel header sa /boot para sa\n"
 "/usr/include/linux/{autoconf,version}.h"
 
-#: services.pm:57
+#: services.pm:59
 #, c-format
 msgid "Automatic detection and configuration of hardware at boot."
 msgstr "Automatic na pagtiktik at pag-configure ng hardware pag boot."
 
-#: services.pm:58
+#: services.pm:60
 #, c-format
 msgid "Tweaks system behavior to extend battery life"
 msgstr ""
 
-#: services.pm:59
+#: services.pm:61
 #, c-format
 msgid ""
 "Linuxconf will sometimes arrange to perform various tasks\n"
@@ -6545,7 +6452,7 @@ msgstr ""
 "Ang linuxconf ay minsan magsasagawa ng sari-saring gawain\n"
 "sa panahon ng boot para ma-maintain ang configuration ng sistema."
 
-#: services.pm:61
+#: services.pm:63
 #, c-format
 msgid ""
 "lpd is the print daemon required for lpr to work properly. It is\n"
@@ -6554,7 +6461,7 @@ msgstr ""
 "Ang lpd ay ang print daemon na kailangan para gumana ang lpr.\n"
 "Ito ay isang server na naghahatol sa mga print job sa mga printer."
 
-#: services.pm:63
+#: services.pm:65
 #, c-format
 msgid ""
 "Linux Virtual Server, used to build a high-performance and highly\n"
@@ -6563,29 +6470,29 @@ msgstr ""
 "Linux Virtual Server, ginagamit para bumuo ng isang high-performance at\n"
 "highly available na server."
 
-#: services.pm:65
+#: services.pm:67
 #, c-format
 msgid "Monitors the network (Interactive Firewall and wireless"
 msgstr ""
 
-#: services.pm:66
+#: services.pm:68
 #, c-format
 msgid "Software RAID monitoring and management"
 msgstr ""
 
-#: services.pm:67
+#: services.pm:69
 #, c-format
 msgid ""
 "DBUS is a daemon which broadcasts notifications of system events and other "
 "messages"
 msgstr ""
 
-#: services.pm:68
+#: services.pm:70
 #, c-format
 msgid "Enables MSEC security policy on system startup"
 msgstr ""
 
-#: services.pm:69
+#: services.pm:71
 #, c-format
 msgid ""
 "named (BIND) is a Domain Name Server (DNS) that is used to resolve host "
@@ -6594,12 +6501,12 @@ msgstr ""
 "named (BIND) ay isang Domain Name Server (DNS) na ginagamit para iresolba "
 "ang mga pangalan ng host sa mga IP address."
 
-#: services.pm:70
+#: services.pm:72
 #, c-format
 msgid "Initializes network console logging"
 msgstr ""
 
-#: services.pm:71
+#: services.pm:73
 #, c-format
 msgid ""
 "Mounts and unmounts all Network File System (NFS), SMB (Lan\n"
@@ -6608,7 +6515,7 @@ msgstr ""
 "Nagma-mount at nag-a-unmount ng lahat ng mga mount point ng\n"
 "Network File System (NFS), SMB (Lan Manager/Windows), at NCP (NetWare)."
 
-#: services.pm:73
+#: services.pm:75
 #, c-format
 msgid ""
 "Activates/Deactivates all network interfaces configured to start\n"
@@ -6617,17 +6524,17 @@ msgstr ""
 "Ina-activate/Dine-deactivate lahat ng mga interface ng network na\n"
 "na-configure magsimula sa panahon ng boot."
 
-#: services.pm:75
+#: services.pm:77
 #, c-format
 msgid "Requires network to be up if enabled"
 msgstr ""
 
-#: services.pm:76
+#: services.pm:78
 #, c-format
 msgid "Wait for the hotplugged network to be up"
 msgstr ""
 
-#: services.pm:77
+#: services.pm:79
 #, c-format
 msgid ""
 "NFS is a popular protocol for file sharing across TCP/IP networks.\n"
@@ -6640,7 +6547,7 @@ msgstr ""
 "server na\n"
 "gamit, na mako-configure sa pamamagitan ng pag-edit ng /etc/exports na file."
 
-#: services.pm:80
+#: services.pm:82
 #, c-format
 msgid ""
 "NFS is a popular protocol for file sharing across TCP/IP\n"
@@ -6650,12 +6557,12 @@ msgstr ""
 "(\"file sharing\") sa ibayo ng mga TCP/IP network. Ang service na\n"
 "ito ay nagbibigay ng NFS file locking na gamit."
 
-#: services.pm:82
+#: services.pm:84
 #, c-format
 msgid "Synchronizes system time using the Network Time Protocol (NTP)"
 msgstr ""
 
-#: services.pm:83
+#: services.pm:85
 #, c-format
 msgid ""
 "Automatically switch on numlock key locker under console\n"
@@ -6664,17 +6571,17 @@ msgstr ""
 "I-on kaagad ang numlock key sa ilalim ng console at ng\n"
 "Xorg pag boot."
 
-#: services.pm:85
+#: services.pm:87
 #, c-format
 msgid "Support the OKI 4w and compatible winprinters."
 msgstr "Suportahan ang OKI 4w at mga compatible na winprinter."
 
-#: services.pm:86
+#: services.pm:88
 #, c-format
 msgid "Checks if a partition is close to full up"
 msgstr ""
 
-#: services.pm:87
+#: services.pm:89
 #, c-format
 msgid ""
 "PCMCIA support is usually to support things like ethernet and\n"
@@ -6686,7 +6593,7 @@ msgstr ""
 "at modem sa mga laptop.  Hindi ito magsisimula kung hindi na-configure\n"
 "kaya mas ligtas kung i-install ito sa mga makinang hindi ito kailangan."
 
-#: services.pm:90
+#: services.pm:92
 #, c-format
 msgid ""
 "The portmapper manages RPC connections, which are used by\n"
@@ -6700,12 +6607,12 @@ msgstr ""
 "gaganap bilang mga server para sa mga protocol na gagamit ng mekanismo ng "
 "RPC."
 
-#: services.pm:93
+#: services.pm:95
 #, c-format
 msgid "Reserves some TCP ports"
 msgstr ""
 
-#: services.pm:94
+#: services.pm:96
 #, c-format
 msgid ""
 "Postfix is a Mail Transport Agent, which is the program that moves mail from "
@@ -6714,7 +6621,7 @@ msgstr ""
 "Ang postfix ay isang Mail Transport Agent, na siyang program na naglilipat "
 "ng mga mail mula sa isang makina papunta sa iba."
 
-#: services.pm:95
+#: services.pm:97
 #, c-format
 msgid ""
 "Saves and restores system entropy pool for higher quality random\n"
@@ -6724,7 +6631,7 @@ msgstr ""
 "kalidad\n"
 "na paglikha ng \"random number\"."
 
-#: services.pm:97
+#: services.pm:99
 #, c-format
 msgid ""
 "Assign raw devices to block devices (such as hard disk drive\n"
@@ -6734,12 +6641,12 @@ msgstr ""
 "mga partisyon ng hard disk drive), para sa mga application gaya ng Oracle o "
 "DVD player"
 
-#: services.pm:99
+#: services.pm:101
 #, fuzzy, c-format
 msgid "Nameserver information manager"
 msgstr "Inpormasyon sa \"hard disk drive\""
 
-#: services.pm:100
+#: services.pm:102
 #, c-format
 msgid ""
 "The routed daemon allows for automatic IP router table updated via\n"
@@ -6753,7 +6660,7 @@ msgstr ""
 "protocol\n"
 "ang mga komplikadong network."
 
-#: services.pm:103
+#: services.pm:105
 #, c-format
 msgid ""
 "The rstat protocol allows users on a network to retrieve\n"
@@ -6762,7 +6669,7 @@ msgstr ""
 "Ang rstat protocol ay nagpapahintulot sa mga user sa network na\n"
 "kunin ang \"performance metrics\" para sa kahit aling makina sa network."
 
-#: services.pm:105
+#: services.pm:107
 #, fuzzy, c-format
 msgid ""
 "Syslog is the facility by which many daemons use to log messages to various "
@@ -6772,7 +6679,7 @@ msgstr ""
 "pag log ng mga mensahe sa sari-saring mga log file ng sistema.\n"
 "Magandang kaisipan na parating patakbuhin ang syslog."
 
-#: services.pm:106
+#: services.pm:108
 #, c-format
 msgid ""
 "The rusers protocol allows users on a network to identify who is\n"
@@ -6781,7 +6688,7 @@ msgstr ""
 "Ang rusers protocol ay nagpapahintulot sa mga user sa network na kilalanin\n"
 "kung sino ang mga naka-login sa mga ibang makinang sumasagot."
 
-#: services.pm:108
+#: services.pm:110
 #, c-format
 msgid ""
 "The rwho protocol lets remote users get a list of all of the users\n"
@@ -6791,42 +6698,47 @@ msgstr ""
 "talaan ng lahat ng mga user na naka-login sa makinang nagpapatakbo ng\n"
 "rwho daemon (hawig sa finger)."
 
-#: services.pm:110
+#: services.pm:112
 #, c-format
 msgid ""
 "SANE (Scanner Access Now Easy) enables to access scanners, video cameras, ..."
 msgstr ""
 
-#: services.pm:111
+#: services.pm:113
 #, c-format
 msgid "Packet filtering firewall"
 msgstr ""
 
-#: services.pm:112
+#: services.pm:114
+#, c-format
+msgid "Packet filtering firewall for IPv6"
+msgstr ""
+
+#: services.pm:115
 #, c-format
 msgid ""
 "The SMB/CIFS protocol enables to share access to files & printers and also "
 "integrates with a Windows Server domain"
 msgstr ""
 
-#: services.pm:113
+#: services.pm:116
 #, c-format
 msgid "Launch the sound system on your machine"
 msgstr "Ilunsad ang sound system sa inyong makina"
 
-#: services.pm:114
+#: services.pm:117
 #, c-format
 msgid "layer for speech analysis"
 msgstr ""
 
-#: services.pm:115
+#: services.pm:118
 #, c-format
 msgid ""
 "Secure Shell is a network protocol that allows data to be exchanged over a "
 "secure channel between two computers"
 msgstr ""
 
-#: services.pm:116
+#: services.pm:119
 #, c-format
 msgid ""
 "Syslog is the facility by which many daemons use to log messages\n"
@@ -6836,95 +6748,95 @@ msgstr ""
 "pag log ng mga mensahe sa sari-saring mga log file ng sistema.\n"
 "Magandang kaisipan na parating patakbuhin ang syslog."
 
-#: services.pm:118
+#: services.pm:121
 #, c-format
 msgid "Moves the generated persistent udev rules to /etc/udev/rules.d"
 msgstr ""
 
-#: services.pm:119
+#: services.pm:122
 #, c-format
 msgid "Load the drivers for your usb devices."
 msgstr "I-load ang mga driver para sa inyong mga USB device."
 
-#: services.pm:120
+#: services.pm:123
 #, c-format
 msgid "A lightweight network traffic monitor"
 msgstr ""
 
-#: services.pm:121
+#: services.pm:124
 #, c-format
 msgid "Starts the X Font Server."
 msgstr ""
 
-#: services.pm:122
+#: services.pm:125
 #, c-format
 msgid "Starts other deamons on demand."
 msgstr ""
 
-#: services.pm:151
+#: services.pm:154
 #, c-format
 msgid "Printing"
 msgstr "Pagpi-print"
 
-#: services.pm:154
+#: services.pm:157
 #, c-format
 msgid "Internet"
 msgstr "Internet"
 
-#: services.pm:159
+#: services.pm:162
 #, c-format
 msgid ""
 "_: Keep these entry short\n"
 "Networking"
-msgstr ""
+msgstr "Pagne-Network"
 
-#: services.pm:161
+#: services.pm:164
 #, c-format
 msgid "System"
 msgstr "Sistema"
 
-#: services.pm:167
+#: services.pm:170
 #, c-format
 msgid "Remote Administration"
 msgstr "Malayuang Pamamahala"
 
-#: services.pm:176
+#: services.pm:179
 #, c-format
 msgid "Database Server"
 msgstr "Database Server"
 
-#: services.pm:187 services.pm:224
+#: services.pm:190 services.pm:227
 #, c-format
 msgid "Services"
 msgstr "Mga serbisyo"
 
-#: services.pm:187
+#: services.pm:190
 #, c-format
 msgid "Choose which services should be automatically started at boot time"
 msgstr ""
 "Piliin kung aling mga service ang dapat simulan agad sa panahon ng boot."
 
-#: services.pm:205
+#: services.pm:208
 #, c-format
 msgid "%d activated for %d registered"
 msgstr "%d na-activate para sa %d nakarehistro"
 
-#: services.pm:240
+#: services.pm:231
 #, c-format
 msgid "running"
 msgstr "tumatakbo"
 
-#: services.pm:240
+#: services.pm:231
 #, c-format
 msgid "stopped"
 msgstr "huminto"
 
-#: services.pm:245
+#: services.pm:236
 #, c-format
 msgid "Services and daemons"
 msgstr "Mga service at daemon"
 
-#: services.pm:251
+#: services.pm:242
 #, c-format
 msgid ""
 "No additional information\n"
@@ -6933,32 +6845,27 @@ msgstr ""
 "Walang karagdagang inpormasyon\n"
 "tungkol sa service na ito, sorry."
 
-#: services.pm:256 ugtk2.pm:921
-#, c-format
-msgid "Info"
-msgstr "Info"
-
-#: services.pm:259
+#: services.pm:249
 #, c-format
 msgid "Start when requested"
 msgstr "Simulan kung hiniling"
 
-#: services.pm:259
+#: services.pm:249
 #, c-format
 msgid "On boot"
 msgstr "Sa boot"
 
-#: services.pm:277
+#: services.pm:266
 #, c-format
 msgid "Start"
 msgstr "Simulan"
 
-#: services.pm:277
+#: services.pm:266
 #, c-format
 msgid "Stop"
 msgstr "Hinto"
 
-#: standalone.pm:26
+#: standalone.pm:27
 #, c-format
 msgid ""
 "This program is free software; you can redistribute it and/or modify\n"
@@ -6992,7 +6899,7 @@ msgstr ""
 "Inc.,\n"
 "51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.\n"
 
-#: standalone.pm:45
+#: standalone.pm:46
 #, c-format
 msgid ""
 "[--config-info] [--daemon] [--debug] [--default] [--show-conf]\n"
@@ -7019,7 +6926,7 @@ msgstr ""
 "--help                : ipakita ang mensaheng ito.\n"
 "--version             : ipakita ang numero ng version.\n"
 
-#: standalone.pm:57
+#: standalone.pm:58
 #, c-format
 msgid ""
 "[--boot]\n"
@@ -7032,17 +6939,15 @@ msgstr ""
 "  --boot            - i-enable para i-configure ang boot loader\n"
 "default mode: maghandog na i-configure ang autologin na katangian"
 
-#: standalone.pm:61
+#: standalone.pm:62
 #, fuzzy, c-format
 msgid ""
 "[OPTIONS] [PROGRAM_NAME]\n"
 "\n"
 "OPTIONS:\n"
 "  --help            - print this help message.\n"
-"  --report          - program should be an OpenMandriva Lx administrative "
-"tool\n"
-"  --incident        - program should be an OpenMandriva Lx administrative "
-"tool"
+"  --report          - program should be one of %s tools\n"
+"  --incident        - program should be one of %s tools"
 msgstr ""
 "[MGA_OPTION] [PANGALAN_NG_PROGRAM]\n"
 "\n"
@@ -7051,7 +6956,7 @@ msgstr ""
 "  --report          - ang program ay dapat isa sa mga Mandriva tool\n"
 "  --incident        - ang program ay dapat isa sa mga Mandriva tool"
 
-#: standalone.pm:67
+#: standalone.pm:68
 #, c-format
 msgid ""
 "[--add]\n"
@@ -7068,7 +6973,7 @@ msgstr ""
 "  --internet        - i-configure ang internet\n"
 "  --wizard          - katulad ng --add"
 
-#: standalone.pm:73
+#: standalone.pm:74
 #, c-format
 msgid ""
 "\n"
@@ -7101,11 +7006,11 @@ msgstr ""
 "staroffice \n"
 "                 : at gs para sa ghostscript para dito lamang."
 
-#: standalone.pm:88
+#: standalone.pm:89
 #, fuzzy, c-format
 msgid ""
 "[OPTIONS]...\n"
-"Terminal Server Configurator\n"
+"%s Terminal Server Configurator\n"
 "--enable         : enable MTS\n"
 "--disable        : disable MTS\n"
 "--start          : start MTS\n"
@@ -7133,17 +7038,17 @@ msgstr ""
 "--delclient      : magtanggal ng client na makina mula sa MTS (kailangan ng "
 "MAC address, IP, nbi image name)"
 
-#: standalone.pm:100
+#: standalone.pm:101
 #, c-format
 msgid "[keyboard]"
 msgstr "[keyboard]"
 
-#: standalone.pm:101
+#: standalone.pm:102
 #, c-format
 msgid "[--file=myfile] [--word=myword] [--explain=regexp] [--alert]"
 msgstr "[--file=myfile] [--word=myword] [--explain=regexp] [--alert]"
 
-#: standalone.pm:102
+#: standalone.pm:103
 #, c-format
 msgid ""
 "[OPTIONS]\n"
@@ -7167,12 +7072,12 @@ msgstr ""
 "--status : nagbabalik ng 1 kung nakakonekta at 0 kung hindi, tapos labas.\n"
 "--quiet : huwag maging interactive. Gagamitin kasama ang (dis)connect."
 
-#: standalone.pm:112
+#: standalone.pm:113
 #, fuzzy, c-format
 msgid ""
 "[OPTION]...\n"
-"  --no-confirmation      do not ask first confirmation question in Online "
-"Update mode\n"
+"  --no-confirmation      do not ask first confirmation question in %s Update "
+"mode\n"
 "  --no-verify-rpm        do not verify packages signatures\n"
 "  --changelog-first      display changelog before filelist in the "
 "description window\n"
@@ -7187,18 +7092,18 @@ msgstr ""
 "  --merge-all-rpmnew     imungkahi na pagsamahin lahat ng mahanap na ."
 "rpmnew/.rpmsave file"
 
-#: standalone.pm:117
-#, c-format
-msgid ""
-"[--manual] [--device=dev] [--update-sane=sane_source_dir] [--update-"
-"usbtable] [--dynamic=dev]"
-msgstr ""
-"[--manual] [--device=dev] [--update-sane=sane_source_dir] [--update-"
-"usbtable] [--dynamic=dev]"
-
 #: standalone.pm:118
 #, c-format
 msgid ""
+"[--manual] [--device=dev] [--update-sane=sane_source_dir] [--update-"
+"usbtable] [--dynamic=dev]"
+msgstr ""
+"[--manual] [--device=dev] [--update-sane=sane_source_dir] [--update-"
+"usbtable] [--dynamic=dev]"
+
+#: standalone.pm:119
+#, c-format
+msgid ""
 " [everything]\n"
 "       XFdrake [--noauto] monitor\n"
 "       XFdrake resolution"
@@ -7207,7 +7112,7 @@ msgstr ""
 "       XFdrake [--noauto] monitor\n"
 "       XFdrake resolution"
 
-#: standalone.pm:155
+#: standalone.pm:156
 #, c-format
 msgid ""
 "\n"
@@ -7218,70 +7123,75 @@ msgstr ""
 "Paggamit: %s  [--auto] [--beginner] [--expert] [-h|--help] [--noauto] [--"
 "testing] [-v|--version] "
 
-#: timezone.pm:174 timezone.pm:175
+#: timezone.pm:181 timezone.pm:182
 #, fuzzy, c-format
 msgid "All servers"
 msgstr "Magdagdag ng server"
 
-#: timezone.pm:211
+#: timezone.pm:218
 #, c-format
 msgid "Global"
 msgstr ""
 
-#: timezone.pm:214
+#: timezone.pm:221
 #, fuzzy, c-format
 msgid "Africa"
 msgstr "South Africa"
 
-#: timezone.pm:215
+#: timezone.pm:222
 #, fuzzy, c-format
 msgid "Asia"
 msgstr "Austria"
 
-#: timezone.pm:216
+#: timezone.pm:223
 #, c-format
 msgid "Europe"
 msgstr ""
 
-#: timezone.pm:217
+#: timezone.pm:224
 #, fuzzy, c-format
 msgid "North America"
 msgstr "South Africa"
 
-#: timezone.pm:218
+#: timezone.pm:225
 #, fuzzy, c-format
 msgid "Oceania"
 msgstr "Macedonia"
 
-#: timezone.pm:219
+#: timezone.pm:226
 #, fuzzy, c-format
 msgid "South America"
 msgstr "South Africa"
 
-#: timezone.pm:228
+#: timezone.pm:235
 #, c-format
 msgid "Hong Kong"
 msgstr "Hong Kong"
 
-#: timezone.pm:265
+#: timezone.pm:272
 #, c-format
 msgid "Russian Federation"
 msgstr "Russian Federation"
 
-#: timezone.pm:273
+#: timezone.pm:280
 #, c-format
 msgid "Yugoslavia"
 msgstr "Yugoslavia"
 
-#: ugtk2.pm:809
+#: ugtk2.pm:812 ugtk3.pm:910
 #, c-format
 msgid "Is this correct?"
 msgstr "Tama ba ito?"
 
-#: ugtk2.pm:871
+#: ugtk2.pm:874 ugtk3.pm:972
 #, c-format
 msgid "You have chosen a file, not a directory"
 msgstr ""
+
+#: ugtk2.pm:924 ugtk3.pm:1022
+#, c-format
+msgid "Info"
+msgstr "Info"
 
 #: wizards.pm:95
 #, c-format
@@ -7354,123 +7264,20 @@ msgstr "Pag-i-install nabigo"
 #~ "gumagamit ng sound card.\n"
 
 #~ msgid ""
-#~ "Launch packet filtering for Linux kernel 2.2 series, to set\n"
-#~ "up a firewall to protect your machine from network attacks."
+#~ "You decided to install the bootloader on a partition.\n"
+#~ "This implies you already have a bootloader on the hard disk drive you "
+#~ "boot (eg: System Commander).\n"
+#~ "\n"
+#~ "On which drive are you booting?"
 #~ msgstr ""
-#~ "Ilunsad ang pagfi-filter ng packet para sa Linux kernel 2.2 series,\n"
-#~ "para mag-setup ng firewall upang protektahan ang inyong makina\n"
-#~ "laban sa mga atake sa network."
+#~ "Nagpasya kayo na i-install ang bootloader sa isang partition.\n"
+#~ "Nagpapahiwatig ito na mayroon na kayong bootloader sa \"hard disk drive"
+#~ "\"(eg: System Commander).\n"
+#~ "\n"
+#~ "Aling \"drive\" ang inyong bino-boot?"
 
-#~ msgid "File sharing"
-#~ msgstr "Pamamahagi ng file"
-
-#~ msgid "Restrict command line options"
-#~ msgstr "I-restrict ang mga option ng command line"
-
-#~ msgid "restrict"
-#~ msgstr "i-restrict"
-
-#~ msgid ""
-#~ "Option ``Restrict command line options'' is of no use without a password"
-#~ msgstr ""
-#~ "Ang option na ``I-restrict ang mga option ng command line'' ay walang "
-#~ "bisa kung walang password"
-
-#, fuzzy
-#~ msgid "Use an encrypted filesystem"
-#~ msgstr ""
-#~ "Hindi kayo maaaring gumamit ng encrypted na filesystem para sa mount "
-#~ "point na %s"
-
-#~ msgid ""
-#~ "To ensure data integrity after resizing the partition(s), \n"
-#~ "filesystem checks will be run on your next boot into Microsoft Windows®"
-#~ msgstr ""
-#~ "Para matiyak ang integridad ng inyong data matapos ma-resize ang mga "
-#~ "partisyon, \n"
-#~ "magsasagawa ng pagsusuri ng filesystem sa susunod ninyong pag-boot sa "
-#~ "Windows(TM)"
-
-#~ msgid "Use the Microsoft Windows® partition for loopback"
-#~ msgstr "Gamitin ang partisyon ng Microsoft Windows® para sa loopback"
-
-#~ msgid "Which partition do you want to use for Linux4Win?"
-#~ msgstr "Aling partisyon ang gusto ninyong gamitin para sa Linux4Win?"
-
-#~ msgid "Choose the sizes"
-#~ msgstr "Piliin ang mga laki"
-
-#~ msgid "Root partition size in MB: "
-#~ msgstr "Laki ng partisyon ng root sa MB: "
-
-#~ msgid "Swap partition size in MB: "
-#~ msgstr "Laki ng partisyon ng swap sa MB: "
-
-#~ msgid ""
-#~ "There is no FAT partition to use as loopback (or not enough space left)"
-#~ msgstr ""
-#~ "Walang partisyon ng FAT na gagamitin bilang loopback (o walang sapat na "
-#~ "puwang)"
-
-#~ msgid ""
-#~ "The FAT resizer is unable to handle your partition, \n"
-#~ "the following error occurred: %s"
-#~ msgstr ""
-#~ "Ang taga-resize ng FAT ay hindi kayang pangasiwaan ang inyong "
-#~ "partisyon, \n"
-#~ "nangyari ang sumusunod na error: %s"
-
-#~ msgid "Please log out and then use Ctrl-Alt-BackSpace"
-#~ msgstr "Mag-logout at gamitin ang Ctrl-Alt-Backspace"
-
-#~ msgid "Welcome To Crackers"
-#~ msgstr "Maligayang Pagdating sa Crackers"
-
-#~ msgid "Poor"
-#~ msgstr "Mababa"
-
-#~ msgid "High"
-#~ msgstr "Mataas"
-
-#~ msgid "Higher"
-#~ msgstr "Mas Mataas"
-
-#~ msgid "Paranoid"
-#~ msgstr "Praning"
-
-#~ msgid ""
-#~ "This level is to be used with care. It makes your system more easy to "
-#~ "use,\n"
-#~ "but very sensitive. It must not be used for a machine connected to "
-#~ "others\n"
-#~ "or to the Internet. There is no password access."
-#~ msgstr ""
-#~ "Ang level na ito ay gamitan ng ingat. Gagawin nitong madaling gamitin "
-#~ "ang\n"
-#~ "inyong sistema, pero masyadong sensitibo. Huwag itong gamitin sa "
-#~ "makinang\n"
-#~ "nakakabit sa iba o sa Internet. Walang password na access."
-
-#~ msgid ""
-#~ "Passwords are now enabled, but use as a networked computer is still not "
-#~ "recommended."
-#~ msgstr ""
-#~ "Gumagana na ngayon ang mga password, pero gamitin bilang naka-network na "
-#~ "computer ay hindi pa rin inirerekomenda."
-
-#~ msgid ""
-#~ "There are already some restrictions, and more automatic checks are run "
-#~ "every night."
-#~ msgstr ""
-#~ "Mayroon nang ilang paglilimita, at mas maraming automatic na pagsusuri ay "
-#~ "patatakbuhin gabi-gabi."
-
-#~ msgid ""
-#~ "This is similar to the previous level, but the system is entirely closed "
-#~ "and security features are at their maximum."
-#~ msgstr ""
-#~ "Ito ay katulad ng nakaraang level, pero ang sistema ay ganap na sarado at "
-#~ "ang mga katangian ng seguridad ay nasa kanilang pinakamataas."
+#~ msgid "You must have a FAT partition mounted in /boot/efi"
+#~ msgstr "Dapat mayroon kayong partisyon ng FAT na naka-mount sa /boot/efi"
 
 #~ msgid ""
 #~ "\n"
@@ -7538,8 +7345,25 @@ msgstr "Pag-i-install nabigo"
 #~ "\"software\n"
 #~ "program.\n"
 
-#~ msgid "Use libsafe for servers"
-#~ msgstr "Gamitin ang libsafe para sa mga server"
+#~ msgid " [--skiptest] [--cups] [--lprng] [--lpd] [--pdq]"
+#~ msgstr " [--skiptest] [--cups] [--lprng] [--lpd] [--pdq]"
+
+#~ msgid "1. License Agreement"
+#~ msgstr "1. Kasunduang Lisensiya"
+
+#~ msgid "2. Limited Warranty"
+#~ msgstr "2. \"Limited Warranty\" (May Hanggahang Warranty)"
+
+#~ msgid "3. The GPL License and Related Licenses"
+#~ msgstr "3. Ang GPL License at mga kaugnay na Lisensiya"
+
+#~ msgid "4. Intellectual Property Rights"
+#~ msgstr ""
+#~ "4. \"Intellectual Property Rights\" (Mga Karapatan sa Pag-aaring "
+#~ "Intelectuwal)"
+
+#~ msgid "5. Governing Laws"
+#~ msgstr "5. \"Governing Laws\" (Mga Sumasaklaw na Batas)"
 
 #~ msgid ""
 #~ "A library which defends against buffer overflow and format string attacks."
@@ -7547,45 +7371,20 @@ msgstr "Pag-i-install nabigo"
 #~ "Isang library na nagtatanggol laban sa buffer overflow at atakeng "
 #~ "\"format string\"."
 
-#~ msgid "LILO/grub Installation"
-#~ msgstr "LILO/grub Installation"
+#~ msgid "Accept user"
+#~ msgstr "Tanggapin ang \"user\""
 
-#~ msgid "Precise RAM size if needed (found %d MB)"
-#~ msgstr "Tamang laki ng RAM kung kailangan (%d MB ang nahanap)"
+#~ msgid "Accept/Refuse bogus IPv4 error messages."
+#~ msgstr "Tanggapin/Tanggihan ang mga bogus IPv4 na mensaheng error."
 
-#~ msgid "Give the ram size in MB"
-#~ msgstr "Ibigay ang laki ng RAM sa MB"
+#~ msgid "Accept/Refuse broadcasted icmp echo."
+#~ msgstr "Tanggapin/Tanggihan ang mga na-broadcast na icmp echo."
 
-#~ msgid ""
-#~ "If you plan to use aboot, be careful to leave a free space (2048 sectors "
-#~ "is enough)\n"
-#~ "at the beginning of the disk"
-#~ msgstr ""
-#~ "Kung plano ninyong gamitin ang aboot, mag-ingat na mag-iwan ng libreng "
-#~ "puwang (2048 sector ay sapat)\n"
-#~ "sa simula ng inyong disk"
-
-#~ msgid "Security level"
-#~ msgstr "Level ng Seguridad"
-
-#~ msgid "Expand Tree"
-#~ msgstr "I-expand ang tree"
-
-#~ msgid "Collapse Tree"
-#~ msgstr "I-collapse ang tree"
-
-#~ msgid "Toggle between flat and group sorted"
-#~ msgstr "Ayusing ng batay sa pangkat/grupo o flat lamang"
-
-#~ msgid "Choose action"
-#~ msgstr "Pumili ng gagawin"
+#~ msgid "Accept/Refuse icmp echo."
+#~ msgstr "Tanggapin/Tanggihan ang icmp echo."
 
 #, fuzzy
 #~ msgid "Active Directory with SFU"
-#~ msgstr "Directory na may mga backup"
-
-#, fuzzy
-#~ msgid "Active Directory with Winbind"
 #~ msgstr "Directory na may mga backup"
 
 #, fuzzy
@@ -7593,26 +7392,136 @@ msgstr "Pag-i-install nabigo"
 #~ msgstr "Directory na may mga backup"
 
 #, fuzzy
+#~ msgid "Active Directory with Winbind"
+#~ msgstr "Directory na may mga backup"
+
+#, fuzzy
 #~ msgid "Active Directory with Winbind:"
 #~ msgstr "Directory na may mga backup"
 
-#~ msgid "Authentication LDAP"
-#~ msgstr "Authentication LDAP"
+#~ msgid "Add user"
+#~ msgstr "Magdagdag ng \"user\""
 
-#, fuzzy
-#~ msgid "TLS"
-#~ msgstr "LSB"
+#~ msgid ""
+#~ "All rights to the components of the Software Products belong to their "
+#~ "respective authors and are \n"
+#~ "protected by intellectual property and copyright laws applicable to "
+#~ "software programs.\n"
+#~ "Moondrake and its suppliers and licensors reserves their rights to modify "
+#~ "or adapt the Software \n"
+#~ "Products, as a whole or in parts, by all means and for all purposes.\n"
+#~ "\"Moondrake\" and associated logos are trademarks of %s"
+#~ msgstr ""
+#~ "Lahat ng karapatan sa mga component ng Software Products ay pagmamay-aryi "
+#~ "ng kani-kanilang mga\n"
+#~ "autor at protektado by mga batas ng intellectual property at copyright na "
+#~ "nagagamit sa mga software\n"
+#~ "program. Inilalaan ng Moondrake ang mga karapatan nito na baguhin o i-"
+#~ "adapt ang mga Software\n"
+#~ "Products, sa kabuuan o bahagi, sa lahat ng paraan at para sa lahat ng "
+#~ "layunin.\n"
+#~ "Ang \"Moondrake\" at mga kasamahang logo ay mga trademark ng %s"
+
+#~ msgid "Allow/Forbid remote root login."
+#~ msgstr "Payagan/Ipagbawal ang remote na login ng root."
 
 #, fuzzy
 #~ msgid "Authentication Active Directory"
 #~ msgstr "Paraan ng authentication"
 
-#, fuzzy
-#~ msgid "LDAP users database"
-#~ msgstr "Database"
+#~ msgid "Authentication LDAP"
+#~ msgstr "Authentication LDAP"
 
 #~ msgid "Authentication NIS"
 #~ msgstr "Authentication NIS"
+
+#~ msgid "Authentication Windows Domain"
+#~ msgstr "Authentication Windows Domain"
+
+#~ msgid "Bad backup file"
+#~ msgstr "Sirang backup file"
+
+#~ msgid "Choose action"
+#~ msgstr "Pumili ng gagawin"
+
+#~ msgid "Choose the sizes"
+#~ msgstr "Piliin ang mga laki"
+
+#~ msgid "Clean /tmp at each boot"
+#~ msgstr "Linisin ang /tmp bawa boot"
+
+#~ msgid "Collapse Tree"
+#~ msgstr "I-collapse ang tree"
+
+#~ msgid ""
+#~ "Congratulations, installation is complete.\n"
+#~ "Remove the boot media and press Enter to reboot."
+#~ msgstr ""
+#~ "Maligayang bati, tapos na ang pag-i-install.\n"
+#~ "Tanggalin ang boot media at pindutin ang return para mag-boot ulit."
+
+#~ msgid "Default OS?"
+#~ msgstr "Default OS?"
+
+#, fuzzy
+#~ msgid ""
+#~ "Do not update directory inode access times on this filesystem\n"
+#~ "(e.g, for faster access on the news spool to speed up news servers)."
+#~ msgstr ""
+#~ "Huwag i-update ang mga \"access time\" ng inode dito sa filesystem\n"
+#~ "(e.g. para mas mabilis ang pag-access sa \"news spool\" upang mapabilis "
+#~ "ang mga \"news servers\")."
+
+#~ msgid "Enable CD Boot?"
+#~ msgstr "Paganahin ang pag-boot sa CD?"
+
+#~ msgid "Enable OF Boot?"
+#~ msgstr "Paganahin ang OF Boot?"
+
+#~ msgid "Enable/Disable IP spoofing protection."
+#~ msgstr "Paganahin/I-disable ang proteksiyon laban sa IP spoofing."
+
+#~ msgid "Enable/Disable libsafe if libsafe is found on the system."
+#~ msgstr "Paganahin/I-disable ang libsafe kung nahanap ito sa sistema."
+
+#~ msgid "Enable/Disable msec hourly security check."
+#~ msgstr ""
+#~ "Paganahin/I-disable ang oras-oras na pagsusuri ng seguridad ng msec."
+
+#~ msgid "Enable/Disable the logging of IPv4 strange packets."
+#~ msgstr "Paganahin/I-disable ang pagla-log ng mga IPv4 strange packet."
+
+#~ msgid "Error reading file %s"
+#~ msgstr "May error sa pagbabasa ng file na %s"
+
+#~ msgid "Error writing to file %s"
+#~ msgstr "May error sa pagsusulat sa file na %s"
+
+#~ msgid "Error: The \"%s\" driver for your sound card is unlisted"
+#~ msgstr ""
+#~ "Error: Ang driver na \"%s\" para sa inyong sound card ay hindi nakalista"
+
+#~ msgid "Expand Tree"
+#~ msgstr "I-expand ang tree"
+
+#~ msgid "Ext2"
+#~ msgstr "Ext2"
+
+#~ msgid "Extended partition not supported on this platform"
+#~ msgstr "Ang extended na partisyon ay hindi suportado sa platform na ito"
+
+#~ msgid "File sharing"
+#~ msgstr "Pamamahagi ng file"
+
+#~ msgid ""
+#~ "For information on fixes which are available for this release of "
+#~ "Moondrake,\n"
+#~ "consult the Errata available from:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Para sa inpormasyon sa mga fixes na available para sa labas ng Moondrake\n"
+#~ "na ito, konsultahin ang Errata na available mula sa:\n"
+#~ "%s"
 
 #~ msgid ""
 #~ "For this to work for a W2K PDC, you will probably need to have the admin "
@@ -7641,17 +7550,375 @@ msgstr "Pag-i-install nabigo"
 #~ "Ang command na 'wbinfo -t' ay susubukan kung mabuti ang inyong "
 #~ "authentication secrets."
 
-#~ msgid "Authentication Windows Domain"
-#~ msgstr "Authentication Windows Domain"
+#~ msgid "Give the ram size in MB"
+#~ msgstr "Ibigay ang laki ng RAM sa MB"
 
-#~ msgid "Undo"
-#~ msgstr "Undo"
+#~ msgid "HFS"
+#~ msgstr "HFS"
+
+#~ msgid ""
+#~ "Here you can select an alternative driver (either OSS or ALSA) for your "
+#~ "sound card (%s)."
+#~ msgstr ""
+#~ "Dito makakapili kayo ng alternatibong driver (OSS o ALSA) para sa inyong "
+#~ "sound card na (%s)."
+
+#~ msgid "High"
+#~ msgstr "Mataas"
+
+#~ msgid "Higher"
+#~ msgstr "Mas Mataas"
+
+#~ msgid ""
+#~ "If any portion of this agreement is held void, illegal or inapplicable by "
+#~ "a court judgment, this \n"
+#~ "portion is excluded from this contract. You remain bound by the other "
+#~ "applicable sections of the \n"
+#~ "agreement.\n"
+#~ "The terms and conditions of this License are governed by the Laws of "
+#~ "France.\n"
+#~ "All disputes on the terms of this license will preferably be settled out "
+#~ "of court. As a last \n"
+#~ "resort, the dispute will be referred to the appropriate Courts of Law of "
+#~ "Paris - France.\n"
+#~ "For any question on this document, please contact Moondrake."
+#~ msgstr ""
+#~ "Kung nahatulan ng hukuman na void, ilegal o hindi magagamit ang kahit "
+#~ "anong bahagi ng kasunduang ito,\n"
+#~ "ang bahaging ito ay maaalis sa kontratang ito. Kayo ay mananatiling "
+#~ "obligado sa ilalim ng ibang magagamit\n"
+#~ "na section ng kasunduang ito.\n"
+#~ "Ang mga nasasaad at kondisyon ng Lisensiyang ito ay nasasaklaw ng mga "
+#~ "Batas ng France.\n"
+#~ "Lahat ng pagtatalo sa mga nasasaad ng lisensiyang ito ay ninanais na "
+#~ "maayos sa labas ng hukuman. Bilang\n"
+#~ "huling gagawin, ang pagtatalo ay isasangguni sa mga naaangkop na mga "
+#~ "Hukuman ng Batas ng Paris - France.\n"
+#~ "Para sa kahit anong katanungan sa dokumentong ito, makipag-alam sa "
+#~ "Moondrake S.A."
+
+#~ msgid ""
+#~ "If you plan to use aboot, be careful to leave a free space (2048 sectors "
+#~ "is enough)\n"
+#~ "at the beginning of the disk"
+#~ msgstr ""
+#~ "Kung plano ninyong gamitin ang aboot, mag-ingat na mag-iwan ng libreng "
+#~ "puwang (2048 sector ay sapat)\n"
+#~ "sa simula ng inyong disk"
+
+#~ msgid ""
+#~ "If you really think that you know which driver is the right one for your "
+#~ "card\n"
+#~ "you can pick one from the above list.\n"
+#~ "\n"
+#~ "The current driver for your \"%s\" sound card is \"%s\" "
+#~ msgstr ""
+#~ "Kung sa palagay ninyo ay alam ninyo kung aling driver ang tama para sa "
+#~ "inyong card\n"
+#~ "maaari kayong pumili ng isa mula sa listahan sa itaas.\n"
+#~ "\n"
+#~ "Ang kasalukuyang driver para sa inyong \"%s\" na sound card ay \"%s\" "
+
+#~ msgid "Info: "
+#~ msgstr "Info: "
+
+#~ msgid ""
+#~ "Information on configuring your system is available in the post\n"
+#~ "install chapter of the Official Moondrake User's Guide."
+#~ msgstr ""
+#~ "Inpormasyon sa pagko-configure ng inyong sistema ay available sa "
+#~ "kabanata\n"
+#~ "tungkol sa \"post install\" (pagkatapos mag-install) sa \"Official "
+#~ "Moondrake Linux\n"
+#~ "User's Guide\"."
+
+#~ msgid "Init Message"
+#~ msgstr "Mensahe ng \"init\""
+
+#~ msgid "Introduction"
+#~ msgstr "Pagpapakilala"
+
+#~ msgid "Journalised FS"
+#~ msgstr "Journalised FS"
+
+#~ msgid "Kernel Boot Timeout"
+#~ msgstr "Kernel Boot Timeout"
+
+#, fuzzy
+#~ msgid "LDAP users database"
+#~ msgstr "Database"
+
+#~ msgid "LILO/grub Installation"
+#~ msgstr "LILO/grub Installation"
+
+#~ msgid ""
+#~ "Launch packet filtering for Linux kernel 2.2 series, to set\n"
+#~ "up a firewall to protect your machine from network attacks."
+#~ msgstr ""
+#~ "Ilunsad ang pagfi-filter ng packet para sa Linux kernel 2.2 series,\n"
+#~ "para mag-setup ng firewall upang protektahan ang inyong makina\n"
+#~ "laban sa mga atake sa network."
+
+#~ msgid "Moondrake"
+#~ msgstr "Moondrake"
+
+#~ msgid "No open source driver"
+#~ msgstr "Walang \"open source\" na driver"
+
+#~ msgid "NoVideo"
+#~ msgstr "NoVideo"
+
+#~ msgid "Number of capture buffers:"
+#~ msgstr "Bilang ng mga capture buffer:"
+
+#~ msgid "Open Firmware Delay"
+#~ msgstr "Open Firmware Delay"
+
+#~ msgid ""
+#~ "Option ``Restrict command line options'' is of no use without a password"
+#~ msgstr ""
+#~ "Ang option na ``I-restrict ang mga option ng command line'' ay walang "
+#~ "bisa kung walang password"
+
+#~ msgid "Other OS (MacOS...)"
+#~ msgstr "Ibang OS (MacOS...)"
+
+#~ msgid "Other OS (SunOS...)"
+#~ msgstr "Ibang OS (SunOS...)"
+
+#~ msgid "PLL setting:"
+#~ msgstr "Setting ng PLL:"
+
+#~ msgid "Paranoid"
+#~ msgstr "Praning"
+
+#~ msgid ""
+#~ "Passwords are now enabled, but use as a networked computer is still not "
+#~ "recommended."
+#~ msgstr ""
+#~ "Gumagana na ngayon ang mga password, pero gamitin bilang naka-network na "
+#~ "computer ay hindi pa rin inirerekomenda."
+
+#~ msgid "Please log out and then use Ctrl-Alt-BackSpace"
+#~ msgstr "Mag-logout at gamitin ang Ctrl-Alt-Backspace"
+
+#, fuzzy
+#~ msgid "Please make a backup of your data first."
+#~ msgstr "Paki-backup muna ang inyong data"
+
+#~ msgid ""
+#~ "Please read this document carefully. This document is a license agreement "
+#~ "between you and  \n"
+#~ "Moondrake which applies to the Software Products.\n"
+#~ "By installing, duplicating or using any of the Software Products in any "
+#~ "manner, you explicitly \n"
+#~ "accept and fully agree to conform to the terms and conditions of this "
+#~ "License. \n"
+#~ "If you disagree with any portion of the License, you are not allowed to "
+#~ "install, duplicate or use \n"
+#~ "the Software Products. \n"
+#~ "Any attempt to install, duplicate or use the Software Products in a "
+#~ "manner which does not comply \n"
+#~ "with the terms and conditions of this License is void and will terminate "
+#~ "your rights under this \n"
+#~ "License. Upon termination of the License,  you must immediately destroy "
+#~ "all copies of the \n"
+#~ "Software Products."
+#~ msgstr ""
+#~ "Pakibasa ng mabuti ang dokumentong ito. Ang dokumentong ito ay kasunduan "
+#~ "na lisensiya\n"
+#~ "sa pagitan ninyo at ng Moondrake na sumasakod sa \"Software Products\". "
+#~ "Sa\n"
+#~ "pag-i-install, pagkokopya o paggagamit ng Software Products sa ano mang "
+#~ "paraan, kayo\n"
+#~ "ay malinaw na tumatanggap at sumasang-ayon na sumunod sa mga nasasaad at "
+#~ "kondisyon\n"
+#~ "nitong Lisensiya na ito. Kung kayo ay hindi sumasang-ayon sa kahit anong "
+#~ "bahagi ng\n"
+#~ "Lisensiya, kayo ay walang pahintulot na i-install, kopyahin o gamitin ang "
+#~ "Software Products.\n"
+#~ "Kahit anong balak na mag-install, mangopya o gumamit ng Software Products "
+#~ "sa paraang\n"
+#~ "hindi ayon sa mga nasasaad at kondisyon ng Lisensiya na ito ay void "
+#~ "(walang bisa) at\n"
+#~ "tatapos sa inyong mga karapatanAny attempt to install, duplicate or use "
+#~ "the Software Products in a manner which does not comply \n"
+#~ "with the terms and conditions of this License is void and will terminate "
+#~ "your rights under this \n"
+#~ "License. Upon termination of the License,  you must immediately destroy "
+#~ "all copies of the \n"
+#~ "Software Products."
+
+#~ msgid "Poor"
+#~ msgstr "Mababa"
+
+#~ msgid "Precise RAM size if needed (found %d MB)"
+#~ msgstr "Tamang laki ng RAM kung kailangan (%d MB ang nahanap)"
+
+#~ msgid "Radio support:"
+#~ msgstr "Suporta sa Radyo:"
+
+#~ msgid "Removable media automounting"
+#~ msgstr "Nag-o-automount ng \"removable media\""
+
+#~ msgid "Rescue partition table"
+#~ msgstr "Iligtas ang \"partition table\""
+
+#~ msgid "Restore partition table"
+#~ msgstr "Ibalik ang \"partition table\""
+
+#~ msgid "Restoring from file %s failed: %s"
+#~ msgstr "Pagre-restore mula sa file na %s nabigo: %s"
+
+#~ msgid "Restrict command line options"
+#~ msgstr "I-restrict ang mga option ng command line"
+
+#~ msgid "Root partition size in MB: "
+#~ msgstr "Laki ng partisyon ng root sa MB: "
+
+#~ msgid "SILO"
+#~ msgstr "SILO"
 
 #~ msgid "Save partition table"
 #~ msgstr "I-save ang \"partition table\""
 
-#~ msgid "Restore partition table"
-#~ msgstr "Ibalik ang \"partition table\""
+#~ msgid "Security level"
+#~ msgstr "Level ng Seguridad"
+
+#~ msgid "Starts the X Font Server (this is mandatory for Xorg to run)."
+#~ msgstr "Sisimulan ang X Font Server (kinakailangan ito ng Xorg)."
+
+#~ msgid "SunOS"
+#~ msgstr "SunOS"
+
+#~ msgid "Swap partition size in MB: "
+#~ msgstr "Laki ng partisyon ng swap sa MB: "
+
+#, fuzzy
+#~ msgid "TLS"
+#~ msgstr "LSB"
+
+#~ msgid ""
+#~ "The FAT resizer is unable to handle your partition, \n"
+#~ "the following error occurred: %s"
+#~ msgstr ""
+#~ "Ang taga-resize ng FAT ay hindi kayang pangasiwaan ang inyong "
+#~ "partisyon, \n"
+#~ "nangyari ang sumusunod na error: %s"
+
+#~ msgid ""
+#~ "The Software Products and attached documentation are provided \"as is\", "
+#~ "with no warranty, to the \n"
+#~ "extent permitted by law.\n"
+#~ "Neither Moondrake nor its licensors or suppliers will, in any "
+#~ "circumstances and to the extent \n"
+#~ "permitted by law, be liable for any special, incidental, direct or "
+#~ "indirect damages whatsoever \n"
+#~ "(including without limitation damages for loss of business, interruption "
+#~ "of business, financial \n"
+#~ "loss, legal fees and penalties resulting from a court judgment, or any "
+#~ "other consequential loss) \n"
+#~ "arising out of  the use or inability to use the Software Products, even "
+#~ "if Moondrake or its \n"
+#~ "licensors or suppliers have been advised of the possibility or occurrence "
+#~ "of such damages.\n"
+#~ "\n"
+#~ "LIMITED LIABILITY LINKED TO POSSESSING OR USING PROHIBITED SOFTWARE IN "
+#~ "SOME COUNTRIES\n"
+#~ "\n"
+#~ "To the extent permitted by law, neither Moondrake nor its licensors, "
+#~ "suppliers or\n"
+#~ "distributors will, in any circumstances, be liable for any special, "
+#~ "incidental, direct or indirect \n"
+#~ "damages whatsoever (including without limitation damages for loss of "
+#~ "business, interruption of \n"
+#~ "business, financial loss, legal fees and penalties resulting from a court "
+#~ "judgment, or any \n"
+#~ "other consequential loss) arising out of the possession and use of "
+#~ "software components or \n"
+#~ "arising out of  downloading software components from one of Moondrake "
+#~ "sites which are \n"
+#~ "prohibited or restricted in some countries by local laws.\n"
+#~ "This limited liability applies to, but is not restricted to, the strong "
+#~ "cryptography components \n"
+#~ "included in the Software Products.\n"
+#~ "However, because some jurisdictions do not allow the exclusion or "
+#~ "limitation of liability for \n"
+#~ "consequential or incidental damages, the above limitation may not apply "
+#~ "to you."
+#~ msgstr ""
+#~ "Ang mga Software Product at nakakabit na dokumentasyon ay binigay na \"as "
+#~ "is\", na walang warranty,\n"
+#~ "hanggang sa pinahihintulutan ng batas. Ang Moondrake ay, sa ano mang "
+#~ "pangyayari at hanggang\n"
+#~ "sa pinahihintulutan ng batas, walang pananagutan para sa mga natatangi, "
+#~ "di-sinasadya, anumang direkta\n"
+#~ "o hindi direktang mga pinsala (kasama na walang hanggahan ang mga pinsala "
+#~ "dahil sa kawalan ng\n"
+#~ "negosyo, paggambala ng negosyo, kawalan ng pera, legal fees at penalties "
+#~ "na bunga ng hatol ng\n"
+#~ "hukuman, o kahit ano pang ibang kakalabasang kawalan) na gawa ng paggamit "
+#~ "ng o hindi magamit ang\n"
+#~ "Software Products, kahit na napayuhan ang Moondrake ng ikapangyayari o "
+#~ "pangyayari ng gayong\n"
+#~ "mga kapinsalaan.\n"
+#~ "\n"
+#~ "MAY HANGGAHANG PANANAGUTAN KAUGNAY SA PAGHAHAWAK O PAGGAGAMIT NG "
+#~ "IPINAGBABAWAL NA\n"
+#~ "SOFTWARE SA MGA IBANG BANSA\n"
+#~ "\n"
+#~ "Hanggang sa pinahihintulutan ng batas, ang Moondrake o ang mga "
+#~ "distributor nito ay, sa ano\n"
+#~ "mang pangyayari, walang pananagutan para sa mga natatangi, di-sinasadya, "
+#~ "anumang direkta\n"
+#~ "o hindi direktang mga pinsala (kasama na walang hanggahan ang mga pinsala "
+#~ "dahil sa kawalan ng\n"
+#~ "negosyo, paggambala ng negosyo, kawalan ng pera, legal fees at penalties "
+#~ "na bunga ng hatol ng\n"
+#~ "hukuman, o kahit ano pang ibang kakalabasang kawalan) na gawa ng "
+#~ "paghahawak at paggamit ng mga\n"
+#~ "software component o gawa ng  pagda-download ng mga software component "
+#~ "mula sa isa sa mga site ng\n"
+#~ "Moondrake  na ipinagbabawal ng batas sa mga ibang bansa ng mga local na "
+#~ "batas. Itong may\n"
+#~ "hanggahang pananagutan ay sumasakop, pero hindi lamang dito, sa mga "
+#~ "strong cryptography component\n"
+#~ "na kalakip sa Software Products."
+
+#, fuzzy
+#~ msgid ""
+#~ "The Software Products consist of components created by different persons "
+#~ "or entities.\n"
+#~ "Most of these licenses allow you to use, duplicate, adapt or redistribute "
+#~ "the components which \n"
+#~ "they cover. Please read carefully the terms and conditions of the license "
+#~ "agreement for each component \n"
+#~ "before using any component. Any question on a component license should be "
+#~ "addressed to the component \n"
+#~ "licensor or supplier and not to Moondrake.\n"
+#~ "The programs developed by Moondrake are governed by the GPL License. "
+#~ "Documentation written \n"
+#~ "by Moondrake is governed by \"%s\" License."
+#~ msgstr ""
+#~ "Ang Software Products ay binubuo ng mga component na gawa ng iba't-ibang "
+#~ "mga tao o entity.\n"
+#~ "Karamihan sa mga component na ito ay nasasaklaw sa ilalim ng mga nasasaad "
+#~ "at kondisyon ng\n"
+#~ "GNU General Public License, na tatawagin ngayong \"GPL\", o mga kahawig "
+#~ "na lisensiya. Karamihan sa\n"
+#~ "mga linsensiyang ito ay nagpapahintulot sa inyong i-duplicate, i-adapt o "
+#~ "muling ipamahagi ang mga\n"
+#~ "component na nasasaklawan nila. Pakibasa ng maingat ang mga nasasaad at "
+#~ "kondisyon ng kasunduang\n"
+#~ "lisensiya para sa bawat component bago gumamit ng kahit anong component. "
+#~ "Ang kahit anong tanong\n"
+#~ "sa lisensiya ng component ay dapat ipaabot sa autor ng component at hindi "
+#~ "sa Moondrake. Ang mga\n"
+#~ "program na nilinang ng Moondrake ay nasasaklaw ng GPL License. Ang "
+#~ "dokumentasyon na sinulat\n"
+#~ "ng Moondrake ay nasasaklaw ng tiyak na lisensiya. Pakisangguni ang "
+#~ "dokumentasyon para sa\n"
+#~ "karagdagang detalye."
 
 #~ msgid ""
 #~ "The backup partition table has not the same size\n"
@@ -7660,97 +7927,207 @@ msgstr "Pag-i-install nabigo"
 #~ "Iba ang laki ng backup na partition table\n"
 #~ "Magpatuloy pa rin?"
 
-#~ msgid "Info: "
-#~ msgstr "Info: "
-
-#~ msgid "Unknown driver"
-#~ msgstr "Hindi kilalang driver"
-
-#~ msgid "Error reading file %s"
-#~ msgstr "May error sa pagbabasa ng file na %s"
-
-#~ msgid "Restoring from file %s failed: %s"
-#~ msgstr "Pagre-restore mula sa file na %s nabigo: %s"
-
-#~ msgid "Bad backup file"
-#~ msgstr "Sirang backup file"
-
-#~ msgid "Error writing to file %s"
-#~ msgstr "May error sa pagsusulat sa file na %s"
-
-#~ msgid "Error: The \"%s\" driver for your sound card is unlisted"
-#~ msgstr ""
-#~ "Error: Ang driver na \"%s\" para sa inyong sound card ay hindi nakalista"
-
-#~ msgid "Ext2"
-#~ msgstr "Ext2"
-
-#~ msgid "Journalised FS"
-#~ msgstr "Journalised FS"
-
-#~ msgid "Starts the X Font Server (this is mandatory for Xorg to run)."
-#~ msgstr "Sisimulan ang X Font Server (kinakailangan ito ng Xorg)."
-
-#~ msgid "Add user"
-#~ msgstr "Magdagdag ng \"user\""
-
-#~ msgid "Accept user"
-#~ msgstr "Tanggapin ang \"user\""
-
-#, fuzzy
 #~ msgid ""
-#~ "Do not update directory inode access times on this filesystem\n"
-#~ "(e.g, for faster access on the news spool to speed up news servers)."
+#~ "The classic bug sound tester is to run the following commands:\n"
+#~ "\n"
+#~ "\n"
+#~ "- \"lspcidrake -v | fgrep -i AUDIO\" will tell you which driver your card "
+#~ "uses\n"
+#~ "by default\n"
+#~ "\n"
+#~ "- \"grep sound-slot /etc/modprobe.conf\" will tell you what driver it\n"
+#~ "currently uses\n"
+#~ "\n"
+#~ "- \"/sbin/lsmod\" will enable you to check if its module (driver) is\n"
+#~ "loaded or not\n"
+#~ "\n"
+#~ "- \"/sbin/chkconfig --list sound\" and \"/sbin/chkconfig --list alsa\" "
+#~ "will\n"
+#~ "tell you if sound and alsa services are configured to be run on\n"
+#~ "initlevel 3\n"
+#~ "\n"
+#~ "- \"aumix -q\" will tell you if the sound volume is muted or not\n"
+#~ "\n"
+#~ "- \"/sbin/fuser -v /dev/dsp\" will tell which program uses the sound "
+#~ "card.\n"
 #~ msgstr ""
-#~ "Huwag i-update ang mga \"access time\" ng inode dito sa filesystem\n"
-#~ "(e.g. para mas mabilis ang pag-access sa \"news spool\" upang mapabilis "
-#~ "ang mga \"news servers\")."
+#~ "Ang classic na tagasubok ng \"bug sound\" ay patatakbuhin ang mga\n"
+#~ "sumusunod na command:\n"
+#~ "\n"
+#~ "\n"
+#~ "- \"lspcidrake -v | fgrep -i AUDIO\" ay sasabihin kung aling driver ang "
+#~ "gamit\n"
+#~ "ng inyong card bilang default\n"
+#~ "\n"
+#~ "- \"grep sound-slot /etc/modprobe.conf\" ay sasabihin kung anong driver\n"
+#~ "ang gamit nito sa kasalukuyan\n"
+#~ "- \"/sbin/lsmod\" ay bibigyan kayo ng kakayahan na suriin kung ang "
+#~ "module\n"
+#~ "(driver) ay naka-load o hindi\n"
+#~ "\n"
+#~ "- \"/sbin/chkconfig --list sound\" at \"/sbin/chkconfig --list alsa\" ay\n"
+#~ "sasabihin kung ang mga sound at alsa service ay naka-configure\n"
+#~ "na tumakbo sa initlevel 3\n"
+#~ "\n"
+#~ "- \"aumix -q\" ay sasabihin kung ang sound volume ay naka-mute o hindi\n"
+#~ "\n"
+#~ "- \"/sbin/fuser -v /dev/dsp\" ay sasabihin kung aling mga program ang\n"
+#~ "gumagamit ng sound card.\n"
 
-#~ msgid "Rescue partition table"
-#~ msgstr "Iligtas ang \"partition table\""
+#~ msgid ""
+#~ "The old \"%s\" driver is blacklisted.\n"
+#~ "\n"
+#~ "It has been reported to oops the kernel on unloading.\n"
+#~ "\n"
+#~ "The new \"%s\" driver will only be used on next bootstrap."
+#~ msgstr ""
+#~ "Ang lumang driver na \"%s\" ay naka-blacklist.\n"
+#~ "\n"
+#~ "Napaulat na ito ay ino-oops ang kernel sa pag-a-unload.\n"
+#~ "\n"
+#~ "Ang bagong driver na \"%s\" ay magagamit lamang sa susunod na bootstrap."
 
-#~ msgid "Removable media automounting"
-#~ msgstr "Nag-o-automount ng \"removable media\""
+#~ msgid ""
+#~ "The operating system and the different components available in the "
+#~ "Moondrake distribution \n"
+#~ "shall be called the \"Software Products\" hereafter. The Software "
+#~ "Products include, but are not \n"
+#~ "restricted to, the set of programs, methods, rules and documentation "
+#~ "related to the operating \n"
+#~ "system and the different components of the Moondrake distribution, and "
+#~ "any applications \n"
+#~ "distributed with these products provided by Moondrake's licensors or "
+#~ "suppliers."
+#~ msgstr ""
+#~ "Ang \"operating system\" (OS) at ang mga iba't-ibang bahagi na available "
+#~ "sa distribusyon ng Moondrake\n"
+#~ "ay tatawaging \"Software Products\" magmula ngayon. Ang mga Software "
+#~ "Products ay\n"
+#~ "nagsasama ng, pero hindi limitado dito, mga kumpol ng mga program, "
+#~ "paraan, pamamalakad\n"
+#~ "at dokumentasyon na may kaugnayan sa \"operating system\" at iba't-ibang "
+#~ "mga bahagi ng\n"
+#~ "distribusyon ng Moondrake."
+
+#~ msgid ""
+#~ "There are already some restrictions, and more automatic checks are run "
+#~ "every night."
+#~ msgstr ""
+#~ "Mayroon nang ilang paglilimita, at mas maraming automatic na pagsusuri ay "
+#~ "patatakbuhin gabi-gabi."
+
+#~ msgid ""
+#~ "There is no FAT partition to use as loopback (or not enough space left)"
+#~ msgstr ""
+#~ "Walang partisyon ng FAT na gagamitin bilang loopback (o walang sapat na "
+#~ "puwang)"
+
+#~ msgid ""
+#~ "There's no free driver for your sound card (%s), but there's a "
+#~ "proprietary driver at \"%s\"."
+#~ msgstr ""
+#~ "Walang libreng driver para sa inyong sound card na (%s), pero may "
+#~ "proprietary na driver sa \"%s\"."
+
+#~ msgid ""
+#~ "This is similar to the previous level, but the system is entirely closed "
+#~ "and security features are at their maximum."
+#~ msgstr ""
+#~ "Ito ay katulad ng nakaraang level, pero ang sistema ay ganap na sarado at "
+#~ "ang mga katangian ng seguridad ay nasa kanilang pinakamataas."
+
+#~ msgid ""
+#~ "This level is to be used with care. It makes your system more easy to "
+#~ "use,\n"
+#~ "but very sensitive. It must not be used for a machine connected to "
+#~ "others\n"
+#~ "or to the Internet. There is no password access."
+#~ msgstr ""
+#~ "Ang level na ito ay gamitan ng ingat. Gagawin nitong madaling gamitin "
+#~ "ang\n"
+#~ "inyong sistema, pero masyadong sensitibo. Huwag itong gamitin sa "
+#~ "makinang\n"
+#~ "nakakabit sa iba o sa Internet. Walang password na access."
+
+#~ msgid ""
+#~ "To ensure data integrity after resizing the partition(s), \n"
+#~ "filesystem checks will be run on your next boot into Microsoft Windows®"
+#~ msgstr ""
+#~ "Para matiyak ang integridad ng inyong data matapos ma-resize ang mga "
+#~ "partisyon, \n"
+#~ "magsasagawa ng pagsusuri ng filesystem sa susunod ninyong pag-boot sa "
+#~ "Windows(TM)"
+
+#~ msgid "Toggle between flat and group sorted"
+#~ msgstr "Ayusing ng batay sa pangkat/grupo o flat lamang"
 
 #~ msgid "Trying to rescue partition table"
 #~ msgstr "Sinusubukang iligtas ang \"partition table\""
 
-#~ msgid "Accept/Refuse bogus IPv4 error messages."
-#~ msgstr "Tanggapin/Tanggihan ang mga bogus IPv4 na mensaheng error."
+#~ msgid "Undo"
+#~ msgstr "Undo"
 
-#~ msgid "Accept/Refuse broadcasted icmp echo."
-#~ msgstr "Tanggapin/Tanggihan ang mga na-broadcast na icmp echo."
+#~ msgid "Unknown driver"
+#~ msgstr "Hindi kilalang driver"
 
-#~ msgid "Accept/Refuse icmp echo."
-#~ msgstr "Tanggapin/Tanggihan ang icmp echo."
-
-#~ msgid "Allow/Forbid remote root login."
-#~ msgstr "Payagan/Ipagbawal ang remote na login ng root."
-
-#~ msgid "Enable/Disable IP spoofing protection."
-#~ msgstr "Paganahin/I-disable ang proteksiyon laban sa IP spoofing."
-
-#~ msgid "Enable/Disable libsafe if libsafe is found on the system."
-#~ msgstr "Paganahin/I-disable ang libsafe kung nahanap ito sa sistema."
-
-#~ msgid "Enable/Disable the logging of IPv4 strange packets."
-#~ msgstr "Paganahin/I-disable ang pagla-log ng mga IPv4 strange packet."
-
-#~ msgid "Enable/Disable msec hourly security check."
+#, fuzzy
+#~ msgid "Use an encrypted filesystem"
 #~ msgstr ""
-#~ "Paganahin/I-disable ang oras-oras na pagsusuri ng seguridad ng msec."
+#~ "Hindi kayo maaaring gumamit ng encrypted na filesystem para sa mount "
+#~ "point na %s"
 
-#~ msgid "Number of capture buffers:"
-#~ msgstr "Bilang ng mga capture buffer:"
+#~ msgid "Use libsafe for servers"
+#~ msgstr "Gamitin ang libsafe para sa mga server"
+
+#~ msgid "Use the Microsoft Windows® partition for loopback"
+#~ msgstr "Gamitin ang partisyon ng Microsoft Windows® para sa loopback"
+
+#~ msgid ""
+#~ "Warning: Free Software may not necessarily be patent free, and some Free\n"
+#~ "Software included may be covered by patents in your country. For example, "
+#~ "the\n"
+#~ "MP3 decoders included may require a license for further usage (see\n"
+#~ "http://www.mp3licensing.com for more details). If you are unsure if a "
+#~ "patent\n"
+#~ "may be applicable to you, check your local laws."
+#~ msgstr ""
+#~ "Babala: Ang \"Free Software\" ay hindi nangangahulugang walang patent, "
+#~ "at\n"
+#~ "ilang mga nilalaman na \"Free Software\" ay maaaring sakop ng mga patent\n"
+#~ "sa inyong bansa. Halimbawa, ang mga MP3 decoder na kasama ay maaaring\n"
+#~ "mangailangan ng lisensiya para ito magamit (tingnan ang site na\n"
+#~ "http://www.mp3licensing.com para sa karagdagang detalye). Kung kayo ay\n"
+#~ "hindi nakakasiguro kung ang patent ay sumasakop sa inyo, suriin ang "
+#~ "inyong\n"
+#~ "mga local na batas."
+
+#~ msgid "Welcome To Crackers"
+#~ msgstr "Maligayang Pagdating sa Crackers"
+
+#~ msgid "Which partition do you want to use for Linux4Win?"
+#~ msgstr "Aling partisyon ang gusto ninyong gamitin para sa Linux4Win?"
+
+#~ msgid "Yaboot"
+#~ msgstr "Yaboot"
+
+#~ msgid ""
+#~ "You may need to change your Open Firmware boot-device to\n"
+#~ " enable the bootloader.  If you do not see the bootloader prompt at\n"
+#~ " reboot, hold down Command-Option-O-F at reboot and enter:\n"
+#~ " setenv boot-device %s,\\\\:tbxi\n"
+#~ " Then type: shut-down\n"
+#~ "At your next boot you should see the bootloader prompt."
+#~ msgstr ""
+#~ "Baka kailanganin ninyong baguhin ang inyong boot-device ng\n"
+#~ "Open Firmware para mapagana ang bootloader.  Kung hindi ninyo\n"
+#~ "makita ang prompt ng bootloader sa reboot, hawakang pababa ang\n"
+#~ "Command-Option-O-F sa reboot at ipasok ang:\n"
+#~ " setenv boot-device %s,\\\\:tbxi\n"
+#~ " Tapos i-type ang: shut-down\n"
+#~ "Sa inyong susunod na boot dapat makita ninyo ang prompt ng bootloader."
 
 #~ msgid "number of capture buffers for mmap'ed capture"
 #~ msgstr "bilang ng mga capture buffer para sa mga na-mmap na capture"
 
-#~ msgid "PLL setting:"
-#~ msgstr "Setting ng PLL:"
-
-#~ msgid "Radio support:"
-#~ msgstr "Suporta sa Radyo:"
-
-#~ msgid " [--skiptest] [--cups] [--lprng] [--lpd] [--pdq]"
-#~ msgstr " [--skiptest] [--cups] [--lprng] [--lpd] [--pdq]"
+#~ msgid "restrict"
+#~ msgstr "i-restrict"

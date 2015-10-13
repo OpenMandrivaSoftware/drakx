@@ -1,4 +1,4 @@
-package fs::dmcrypt; # $Id: $
+package fs::dmcrypt;
 
 #-######################################################################################
 #- misc imports
@@ -7,6 +7,16 @@ use common;
 use fs::type;
 use fs::get;
 use run_program;
+
+=head1 SYNOPSYS
+
+Manage encrypted file systems using cryptsetup
+
+=head1 Functions
+
+=over
+
+=cut
 
 sub _crypttab() { "$::prefix/etc/crypttab" }
 
@@ -22,25 +32,32 @@ sub _ensure_initialized() {
     $initialized++ or init();
 }
 
-sub read_crypttab {
-    my ($all_hds) = @_;
+sub read_crypttab_ {
+    my ($all_hds, $crypttab) = @_;
 
-    -e _crypttab() or return;
+    -e $crypttab or return;
 
     my @raw_parts = grep { fs::type::isRawLUKS($_) } fs::get::really_all_fstab($all_hds);
 
-    foreach (cat_(_crypttab())) {
+    foreach (cat_($crypttab)) {
+	next if /^#/;
 	my ($dm_name, $dev) = split;
 
 	my $raw_part = fs::get::device2part($dev, \@raw_parts)
 	  or log::l("crypttab: unknown device $dev for $dm_name"), next;
 
 	$raw_part->{dm_name} = $dm_name;
+	_get_existing_one_with_state($raw_part);
     }
 }
 
-sub save_crypttab {
+sub read_crypttab {
     my ($all_hds) = @_;
+    read_crypttab_($all_hds, _crypttab());
+}
+
+sub save_crypttab_ {
+    my ($all_hds, $crypttab) = @_;
 
     my @raw_parts = grep { $_->{dm_name} } fs::get::really_all_fstab($all_hds) or return;
 
@@ -54,7 +71,12 @@ sub save_crypttab {
 	if (eof) {
 	    $_ .= join('', map { "$_ $names{$_}\n" } sort keys %names);
 	}
-    } _crypttab();
+    } $crypttab;
+}
+
+sub save_crypttab {
+    my ($all_hds) = @_;
+    save_crypttab_($all_hds, _crypttab());
 }
 
 sub format_part {
@@ -77,9 +99,15 @@ sub open_part {
     });
     run_program::run('udevadm', 'settle');
 
+    push @$dmcrypts, _get_existing_one_with_state($part);
+}
+
+
+sub _get_existing_one_with_state {
+    my ($part) = @_;
     my $active_dmcrypt = _parse_dmsetup_table($part->{dm_name}, 
 					      run_program::get_stdout('dmsetup', 'table', $part->{dm_name}));
-    push @$dmcrypts, _get_existing_one([$part], $active_dmcrypt);
+    _get_existing_one([$part], $active_dmcrypt);
 }
 
 sub close_part {

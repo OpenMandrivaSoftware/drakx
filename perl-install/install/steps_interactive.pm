@@ -1,4 +1,4 @@
-package install::steps_interactive; # $Id$
+package install::steps_interactive;
 
 
 use strict;
@@ -36,7 +36,7 @@ use log;
 #-######################################################################################
 sub errorInStep {
     my ($o, $err) = @_;
-    $err = ugtk2::escape_text_for_TextView_markup_format($err) if $o->isa('install::steps_gtk');
+    $err = ugtk3::escape_text_for_TextView_markup_format($err) if $o->isa('install::steps_gtk');
     $o->ask_warn(N("Error"), [ N("An error occurred"), formatError($err) ]);
 }
 
@@ -212,13 +212,13 @@ sub _warn_unsafe_upgrade {
     );
 
     my $choice;
-    $o->ask_from_({ messages => N("The installer has detected that your current OpenMandriva Lx system could not
+    $o->ask_from_({ messages => N("Installer has detected that your installed %s system could not
 safely be upgraded to %s.
 
 A new installation replacing your previous one is recommended.
 
 Warning : you should backup all your personal data before choosing \"New
-Installation\".", 'OpenMandriva Lx') },
+Installation\".", "Moondrake GNU/Linux", 'Mandriva Linux 2009') }, # 2009? heavily dated, but whatever, don't care about now..
 		  [ { val => \$choice, type => 'list', list => \@choices, format => \&translate } ]);
 
     log::l("_warn_unsafe_upgrade: got $choice");
@@ -258,11 +258,6 @@ sub setupSCSI {
     modules::interactive::load_category($o, $o->{modules_conf}, 'disk/card_reader|ide|scsi|hardware_raid|sata|firewire|virtual', 1, !$have_non_scsi);
     modules::interactive::load_category($o, $o->{modules_conf}, 'disk/card_reader|ide|scsi|hardware_raid|sata|firewire|virtual') if !detect_devices::hds(); #- we really want a disk!
 
-    if (-d "/proc/ide") { 
-	my $_w = $o->wait_message(N("IDE"), N("Configuring IDE"));
-	modules::load(modules::category2modules('disk/cdrom'));
-    }
-
     install::interactive::tellAboutProprietaryModules($o);
 
     install::any::getHds($o, $o);
@@ -271,34 +266,6 @@ sub setupSCSI {
 #------------------------------------------------------------------------------
 sub doPartitionDisks {
     my ($o) = @_;
-
-    if (arch() =~ /ppc/) {
-	my $generation = detect_devices::get_mac_generation();
-	if ($generation =~ /NewWorld/) {
-	    #- mac partition table
-	    if (defined $partition_table::mac::bootstrap_part) {
-    		#- do not do anything if we've got the bootstrap setup
-    		#- otherwise, go ahead and create one somewhere in the drive free space
-	    } else {
-		my $freepart = $partition_table::mac::freepart;
-		if ($freepart && $freepart->{size} >= 1) {
-		    log::l("creating bootstrap partition on drive /dev/$freepart->{hd}{device}, block $freepart->{start}");
-		    $partition_table::mac::bootstrap_part = $freepart->{part};
-		    log::l("bootstrap now at $partition_table::mac::bootstrap_part");
-		    my $p = { start => $freepart->{start}, size => MB(1), mntpoint => '' };
-		    fs::type::set_pt_type($p, 0x401);
-		    fsedit::add($freepart->{hd}, $p, $o->{all_hds}, { force => 1, primaryOrExtended => 'Primary' });
-		    $partition_table::mac::new_bootstrap = 1;
-
-    		} else {
-		    $o->ask_warn('', N("No free space for 1MB bootstrap! Install will continue, but to boot your system, you'll need to create the bootstrap partition in DiskDrake"));
-    		}
-	    }
-	} elsif ($generation =~ /IBM/) {
-	    #- dos partition table
-	    $o->ask_warn('', N("You'll need to create a PPC PReP Boot bootstrap! Install will continue, but to boot your system, you'll need to create the bootstrap partition in DiskDrake"));
-	}
-    }
 
     if (!$o->{isUpgrade}) {
         fs::partitioning_wizard::main($o, $o->{all_hds}, $o->{fstab}, $o->{manualFstab}, $o->{partitions}, $o->{partitioning}, $::local_install);
@@ -595,7 +562,7 @@ sub offer_minimal_options {
 	$o->ask_from_({ title => N("Type of install"), 
                         message => N("You have not selected any group of packages.
 Please choose the minimal installation you want:"),
-                        interactive_help_id => 'choosePackages#minimal-install'
+                        interactive_help_id => 'minimal-install'
                         },
 		     [
 		      { val => \$o->{rpmsrate_flags_chosen}{CAT_X}, type => 'bool', text => N("With X"), disabled => sub { $minimal } },
@@ -626,7 +593,7 @@ sub reallyChooseGroups {
 
     my ($path, $all);
     $o->ask_from_({ messages => N("Package Group Selection"),
-		    interactive_help_id => 'choosePackages',
+		    interactive_help_id => 'choosePackageGroups',
 		  }, [
         { val => \$size_text, type => 'label' }, {},
 	 (map { 
@@ -766,7 +733,10 @@ connection.
 
 Do you want to install the updates?")),
 			   interactive_help_id => 'installUpdates',
-					       }, 1) or return;
+					       }, 1) or do {
+	log::l("installUpdates: skipping since user say no to updates");
+	return;
+    };
 
     #- bring all interface up for installing updates packages.
     install::interactive::upNetwork($o);
@@ -877,6 +847,9 @@ sub summary {
 	label => N("User management"),
 	clicked => sub { 
 	    if (my $u = any::ask_user($o, $o->{users}, $o->{security}, needauser => 1)) {
+		#- getpwnam, getgrnam, getgrid works
+		symlinkf("$::prefix/etc/passwd", '/etc/passwd');
+		symlinkf("$::prefix/etc/group", '/etc/group');
 		any::add_users([$u], $o->{authentication});
 	    }
 	},
@@ -959,7 +932,7 @@ sub summary {
 	group => N("Network & Internet"),
 	label => N("Network"),
 	val => sub { $o->{net}{type} },
-	format => sub { s/.*:://; $_ },
+	format => sub { $_[0] =~ s/.*:://; $_[0] },
 	clicked => sub { 
 	    require network::netconnect;
 	    network::netconnect::real_main($o->{net}, $o, $o->{modules_conf});
@@ -1056,14 +1029,6 @@ sub setupBootloaderBefore {
 #------------------------------------------------------------------------------
 sub setupBootloader {
     my ($o) = @_;
-    if (arch() =~ /ppc/) {
-	if (detect_devices::get_mac_generation() !~ /NewWorld/ && 
-	    detect_devices::get_mac_model() !~ /IBM/) {
-	    $o->ask_warn('', N("You appear to have an OldWorld or Unknown machine, the yaboot bootloader will not work for you. The install will continue, but you'll need to use BootX or some other means to boot your machine. The kernel argument for the root fs is: root=%s", '/dev/' . fs::get::root_($o->{fstab})->{device}));
-	    log::l("OldWorld or Unknown Machine - no yaboot setup");
-	    return;
-	}
-    }
     {
 	any::setupBootloader_simple($o, $o->{bootloader}, $o->{all_hds}, $o->{fstab}, $o->{security}) or return;
     }

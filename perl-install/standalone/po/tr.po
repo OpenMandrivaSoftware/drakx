@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DrakX-tr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-22 00:53+0100\n"
+"POT-Creation-Date: 2015-02-18 12:28+0100\n"
 "PO-Revision-Date: 2012-06-09 04:22+0300\n"
 "Last-Translator: Atilla ÖNTAŞ <tarakbumba@gmail.com>\n"
 "Language-Team: Transifex Turkish Translation Team\n"
@@ -25,73 +25,73 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Virtaal 0.7.1\n"
 
-#: display_help:54 display_help:59 drakbug:170 drakperm:134
+#: display_help:53 display_help:58 drakbug:173 drakperm:134
 #, c-format
 msgid "Help"
 msgstr "Yardım"
 
-#: display_help:67 drakbug:175 drakfont:505
+#: display_help:66 drakbug:178 drakfont:507
 #, c-format
 msgid "Close"
 msgstr "Kapat"
 
-#: drakauth:24 drakauth:26 draksec:162
+#: drakauth:24 drakauth:26 draksec:184
 #, c-format
 msgid "Authentication"
 msgstr "Kimlik kanıtlama"
 
-#: drakauth:37 drakclock:113 drakclock:138 drakdvb:74 drakfont:211
-#: drakfont:224 drakfont:262 finish-install:131 logdrake:174 logdrake:449
-#: logdrake:454 scannerdrake:56 scannerdrake:98 scannerdrake:139
+#: drakauth:37 drakclock:117 drakclock:142 drakdvb:74 drakfont:213
+#: drakfont:226 drakfont:264 finish-install:133 logdrake:177 logdrake:453
+#: logdrake:458 scannerdrake:56 scannerdrake:98 scannerdrake:139
 #: scannerdrake:197 scannerdrake:256 scannerdrake:726 scannerdrake:737
 #: scannerdrake:876 scannerdrake:887 scannerdrake:957
 #, c-format
 msgid "Error"
 msgstr "Hata"
 
-#: drakboot:53
+#: drakboot:54
 #, c-format
 msgid "No bootloader found, creating a new configuration"
 msgstr "Önyükleyici bulunamadı. Yeni bir yapılandırma oluşturuluyor."
 
-#: drakboot:86 harddrake2:195 harddrake2:196 logdrake:75
+#: drakboot:89 harddrake2:191 logdrake:77
 #, c-format
-msgid "/_File"
-msgstr "/_Dosya"
+msgid "_File"
+msgstr "_Dosya"
 
-#: drakboot:87 logdrake:81
+#: drakboot:90 harddrake2:192 logdrake:78 logdrake:79
 #, c-format
-msgid "/File/_Quit"
-msgstr "/Dosya/Çı_kış"
+msgid "_Quit"
+msgstr "_Çık"
 
-#: drakboot:87 harddrake2:196 logdrake:81
+#: drakboot:90 harddrake2:192 logdrake:79
 #, c-format
 msgid "<control>Q"
 msgstr "<control>K"
 
-#: drakboot:127
+#: drakboot:138
 #, c-format
 msgid "Text only"
 msgstr "Sadece metin"
 
-#: drakboot:128
+#: drakboot:139
 #, c-format
 msgid "Verbose"
 msgstr "Verbose"
 
-#: drakboot:129
+#: drakboot:140
 #, c-format
 msgid "Silent"
 msgstr "Sessiz"
 
-#: drakboot:135 drakbug:247 drakdvb:57 drakfont:681 drakperm:374 drakperm:384
-#: drakups:26 harddrake2:528 localedrake:45 scannerdrake:48 scannerdrake:51
+#: drakboot:146 drakbug:250 drakdvb:57 drakfont:682 drakperm:371 drakperm:381
+#: drakups:27 harddrake2:504 localedrake:45 scannerdrake:48 scannerdrake:51
 #: scannerdrake:294 scannerdrake:299 scannerdrake:951
 #, c-format
 msgid "Warning"
 msgstr "Uyarı"
 
-#: drakboot:136
+#: drakboot:147
 #, c-format
 msgid ""
 "Your system bootloader is not in framebuffer mode. To activate graphical "
@@ -101,72 +101,72 @@ msgstr ""
 "açılışı  etkinleştirmek için, önyükleyici yapılandırma aracını kullanarak grafik "
 "ekran kipi  seçin."
 
-#: drakboot:137
+#: drakboot:148
 #, c-format
 msgid "Do you want to configure it now?"
 msgstr "Şimdi yapılandırmak ister misiniz?"
 
-#: drakboot:146
+#: drakboot:157
 #, c-format
 msgid "Install themes"
 msgstr "Temaları Kur"
 
-#: drakboot:148
+#: drakboot:159
 #, c-format
 msgid "Graphical boot theme selection"
 msgstr "Grafiksel açılış tema seçimi"
 
-#: drakboot:151
+#: drakboot:162
 #, c-format
 msgid "Graphical boot mode:"
 msgstr "Grafiksel açılış kipi:"
 
-#: drakboot:153
+#: drakboot:164
 #, c-format
 msgid "Theme"
 msgstr "Tema"
 
-#: drakboot:187
+#: drakboot:198
 #, c-format
 msgid "Default user"
 msgstr "Öntanımlı kullanıcı"
 
-#: drakboot:188
+#: drakboot:199
 #, c-format
 msgid "Default desktop"
 msgstr "Öntanımlı masaüstü"
 
-#: drakboot:191
+#: drakboot:202
 #, c-format
 msgid "No, I do not want autologin"
 msgstr "Hayır, Otomatik giriş istemiyorum"
 
-#: drakboot:192
+#: drakboot:203
 #, c-format
 msgid "Yes, I want autologin with this (user, desktop)"
 msgstr "Evet, otomatik girişi bu özelliklerle istiyorum (kullanıcı, masaüstü)"
 
-#: drakboot:199
+#: drakboot:210
 #, c-format
 msgid "System mode"
 msgstr "Sistem Kipi"
 
-#: drakboot:202
+#: drakboot:213
 #, c-format
 msgid "Launch the graphical environment when your system starts"
 msgstr "Grafiksel ortam açılışta çalıştırılsın"
 
-#: drakboot:257
+#: drakboot:268
 #, c-format
 msgid "Boot Style Configuration"
 msgstr "Önyükleme Yapılandırması"
 
-#: drakboot:259 drakboot:263
+#: drakboot:270 drakboot:274
 #, c-format
 msgid "Video mode"
 msgstr "Ekran kipi"
 
-#: drakboot:260
+#: drakboot:271
 #, c-format
 msgid ""
 "Please choose a video mode, it will be applied to each of the boot entries "
@@ -181,15 +181,15 @@ msgstr ""
 msgid "The \"%s\" program has crashed with the following error:"
 msgstr "\"%s\" uygulaması şu hatayı vererek çöktü:"
 
-#: drakbug:60
+#: drakbug:62
 #, fuzzy, c-format
-msgid "OpenMandriva Lx Bug Reporting"
-msgstr "OpenMandriva Lx Hata Bildirme Aracı"
+msgid "DrakX Bug Report Tool"
+msgstr "%s Hata Bildirme Aracı"
 
-#: drakbug:65
-#, c-format
-msgid "OpenMandriva Lx Control Center"
-msgstr "OpenMandriva Lx Denetim Merkezi"
+#: drakbug:67
+#, fuzzy, c-format
+msgid "DrakX Linux Control Center"
+msgstr "Mandriva Linux Denetim Merkezi"
 
 #: drakbug:66
 #, c-format
@@ -206,10 +206,15 @@ msgstr "Eşleştirme aracı"
 msgid "Standalone Tools"
 msgstr "Tekli Araçlar"
 
-#: drakbug:70 drakbug:71
+#: drakbug:72 drakbug:73
+#, c-format
+msgid "%s Online"
+msgstr "%s Çevrimiçi"
+
+#: drakbug:72 drakbug:73 drakbug:99 draksec:169
 #, fuzzy, c-format
-msgid "OpenMandriva Online"
-msgstr "Mandriva Online"
+msgid "DrakX"
+msgstr "DrakUPS"
 
 #: drakbug:72
 #, c-format
@@ -231,10 +236,10 @@ msgstr "Windows Geçiş Aracı"
 msgid "Configuration Wizards"
 msgstr "Yapılandırma Sihirbazı"
 
-#: drakbug:97
-#, fuzzy, c-format
-msgid "Select Tool:"
-msgstr "Mandriva Aracı seçin:"
+#: drakbug:99
+#, c-format
+msgid "Select %s Tool:"
+msgstr "%s Aracını Seçin:"
 
 #: drakbug:98
 #, c-format
@@ -339,27 +344,27 @@ msgstr "Bizim yeniden bu hatayı oluşturabilmemiz ve düzeltebilmemiz için, �
 msgid "Thanks."
 msgstr "Teşekkürler."
 
-#: drakclock:28 draksec:168
+#: drakclock:29 draksec:190
 #, c-format
 msgid "Date, Clock & Time Zone Settings"
 msgstr "Tarih, Saat & Zaman Dilimi Ayarları"
 
-#: drakclock:37
+#: drakclock:38
 #, c-format
 msgid "not defined"
 msgstr "belirtilmemiş"
 
-#: drakclock:39
+#: drakclock:40
 #, c-format
 msgid "Change Time Zone"
 msgstr "Zaman Dilimini Değiştir"
 
-#: drakclock:44
+#: drakclock:45
 #, c-format
 msgid "Timezone - DrakClock"
 msgstr "Zaman Dilimi - DrakClock"
 
-#: drakclock:44
+#: drakclock:45
 #, c-format
 msgid "Which is your timezone?"
 msgstr "Bulunduğunuz zaman dilimi hangisi?"
@@ -374,12 +379,12 @@ msgstr "GMT - DrakClock"
 msgid "Is your hardware clock set to GMT?"
 msgstr "Donanım saatiniz GMT'ye göre mi ayarlı?"
 
-#: drakclock:72
+#: drakclock:75
 #, c-format
 msgid "Network Time Protocol"
 msgstr "Ağ Zaman Protokolü"
 
-#: drakclock:74
+#: drakclock:77
 #, c-format
 msgid ""
 "Your computer can synchronize its clock\n"
@@ -388,42 +393,42 @@ msgstr ""
 "Bilgisayarınız saatini NTP kullanarak\n"
 " bir uzak zaman sunucusya eşleştirebilir."
 
-#: drakclock:75
+#: drakclock:78
 #, c-format
 msgid "Enable Network Time Protocol"
 msgstr "Ağ Zaman Protokolünü etkinleştir"
 
-#: drakclock:83
+#: drakclock:86
 #, c-format
 msgid "Server:"
 msgstr "Sunucu:"
 
-#: drakclock:97
+#: drakclock:100
 #, c-format
 msgid "Timezone"
 msgstr "Zaman Dilimi"
 
-#: drakclock:113
+#: drakclock:117
 #, c-format
 msgid "Please enter a valid NTP server address."
 msgstr "Lütfen geçerli bir NTP sunucu adresi girin."
 
-#: drakclock:139
+#: drakclock:143
 #, c-format
 msgid "Could not synchronize with %s."
 msgstr "%s ile eşleştirilemiyor."
 
-#: drakclock:140 drakdvb:149 logdrake:179 scannerdrake:488
+#: drakclock:144 drakdvb:149 logdrake:182 scannerdrake:488
 #, c-format
 msgid "Quit"
 msgstr "Çık"
 
-#: drakclock:141
+#: drakclock:145
 #, c-format
 msgid "Retry"
 msgstr "Yeniden dene"
 
-#: drakclock:166 drakclock:176
+#: drakclock:168 drakclock:178
 #, c-format
 msgid "Reset"
 msgstr "Sıfırla"
@@ -448,10 +453,10 @@ msgstr "%s zaten var ve tüm içeriği kaybedilecektir."
 msgid "Could not get the list of available channels"
 msgstr "Erişilebilir kanalların listesi alınamıyor."
 
-#: drakdvb:80 draksec:67 drakups:98 finish-install:106 harddrake2:374
+#: drakdvb:80 draksec:69 drakups:99 finish-install:106 harddrake2:358
 #: scannerdrake:63 scannerdrake:67 scannerdrake:75 scannerdrake:316
 #: scannerdrake:365 scannerdrake:501 scannerdrake:505 scannerdrake:527
-#: service_harddrake:423
+#: service_harddrake:426
 #, c-format
 msgid "Please wait"
 msgstr "Lütfen bekleyin"
@@ -461,7 +466,7 @@ msgstr "Lütfen bekleyin"
 msgid "Detecting DVB channels, this will take a few minutes"
 msgstr "DVB kanalları algılanıyor. Bu işlem zaman alabilir."
 
-#: drakdvb:85 drakfont:571 drakfont:651 drakfont:735 drakups:216 logdrake:179
+#: drakdvb:85 drakfont:571 drakfont:651 drakfont:736 drakups:217 logdrake:182
 #, c-format
 msgid "Cancel"
 msgstr "İptal"
@@ -493,20 +498,25 @@ msgstr "GDM (GNOME Ekran Yöneticisi)"
 
 #: drakedm:43
 #, fuzzy, c-format
+msgid "LIGHTDM (LightDM Display Manager)"
+msgstr "GDM (GNOME Ekran Yöneticisi)"
+
+#: drakedm:44
+#, fuzzy, c-format
 msgid "SLIM (Simple Display Manager)"
 msgstr "XDM (X Ekran Yöneticisi)"
 
-#: drakedm:44
+#: drakedm:45
 #, c-format
 msgid "XDM (X Display Manager)"
 msgstr "XDM (X Ekran Yöneticisi)"
 
-#: drakedm:55
+#: drakedm:56
 #, c-format
 msgid "Choosing a display manager"
 msgstr "Bir görüntü yönetici seçin"
 
-#: drakedm:56
+#: drakedm:57
 #, c-format
 msgid ""
 "X11 Display Manager allows you to graphically log\n"
@@ -517,12 +527,12 @@ msgstr ""
 "grafiksel giriş yapmanızı ve birden çok X oturumunu\n"
 "aynı anda çalıştırabilmenizi sağlar."
 
-#: drakedm:79
+#: drakedm:80
 #, c-format
 msgid "The change is done, do you want to restart the dm service?"
 msgstr "Değişiklik tamamlandı, dm hizmetini yeniden başlatmak ister misiniz?"
 
-#: drakedm:80
+#: drakedm:81
 #, c-format
 msgid ""
 "You are going to close all running programs and lose your current session. "
@@ -647,7 +657,7 @@ msgstr "Yazı Tipi Kurulumu"
 msgid "DrakFont"
 msgstr "DrakFont"
 
-#: drakfont:489 drakfont:641
+#: drakfont:491 drakfont:641
 #, c-format
 msgid "Font List"
 msgstr "Yazı tipi Listesi"
@@ -662,12 +672,12 @@ msgstr "Windows Yazı Tiplerini Al"
 msgid "About"
 msgstr "Hakkında"
 
-#: drakfont:499 drakfont:540
+#: drakfont:501 drakfont:540
 #, c-format
 msgid "Options"
 msgstr "Seçenekler"
 
-#: drakfont:500 drakfont:720
+#: drakfont:502 drakfont:721
 #, c-format
 msgid "Uninstall"
 msgstr "Kaldır"
@@ -682,9 +692,9 @@ msgstr "Al"
 msgid "Drakfont"
 msgstr "Drakfont"
 
-#: drakfont:521 harddrake2:229
-#, fuzzy, c-format
-msgid "Copyright (C) %s by OpenMandriva"
+#: drakfont:523
+#, c-format
+msgid "Copyright (C) %s by Mandriva"
 msgstr "Copyright (C) %s bir Mandriva ürünüdür"
 
 #: drakfont:523
@@ -692,14 +702,14 @@ msgstr "Copyright (C) %s bir Mandriva ürünüdür"
 msgid "Font installer."
 msgstr "Yazı tipi kurucusu."
 
-#: drakfont:525 logdrake:55
-#, c-format
-msgid "OpenMandriva Lx"
-msgstr "OpenMandriva Lx"
+#: drakfont:527
+#, fuzzy, c-format
+msgid "Moondrake GNU/Linux"
+msgstr "Mandriva Linux"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
-#: drakfont:532 harddrake2:238
+#: drakfont:532 harddrake2:531
 #, c-format
 msgid "_: Translator(s) name(s) & email(s)\n"
 msgstr ""
@@ -736,7 +746,7 @@ msgstr "Abiword"
 msgid "Generic Printers"
 msgstr "Temel Yazıcı"
 
-#: drakfont:561 drakfont:571 drakups:209
+#: drakfont:561 drakfont:571 drakups:210
 #, c-format
 msgid "Ok"
 msgstr "Tamam"
@@ -757,17 +767,17 @@ msgstr "Dosya Seçimi"
 msgid "Fonts"
 msgstr "Yazı tipleri"
 
-#: drakfont:639 draksec:164
+#: drakfont:639 draksec:186
 #, c-format
 msgid "Import fonts"
 msgstr "Yazı tipi al"
 
-#: drakfont:645 drakups:298 drakups:374
+#: drakfont:645 drakups:299 drakups:375
 #, c-format
 msgid "Add"
 msgstr "Ekle"
 
-#: drakfont:646 drakfont:734 drakups:300 drakups:376
+#: drakfont:646 drakfont:735 drakups:301 drakups:377
 #, c-format
 msgid "Remove"
 msgstr "Kaldır"
@@ -777,67 +787,67 @@ msgstr "Kaldır"
 msgid "Install"
 msgstr "Kur"
 
-#: drakfont:683
+#: drakfont:684
 #, c-format
 msgid "Are you sure you want to uninstall the following fonts?"
 msgstr "Aşağıdaki yazı tiplerini kaldırmak istediğinizden emin misiniz?"
 
-#: drakfont:687 draksec:57 harddrake2:319
+#: drakfont:688 draksec:59 harddrake2:302
 #, c-format
 msgid "Yes"
 msgstr "Evet"
 
-#: drakfont:689 draksec:56 harddrake2:320
+#: drakfont:690 draksec:58 harddrake2:303
 #, c-format
 msgid "No"
 msgstr "Hayır"
 
-#: drakfont:728
+#: drakfont:729
 #, c-format
 msgid "Unselect All"
 msgstr "Tümünü Seçimden Çıkar"
 
-#: drakfont:731
+#: drakfont:732
 #, c-format
 msgid "Select All"
 msgstr "Tümünü Seç"
 
-#: drakfont:748
+#: drakfont:749
 #, c-format
 msgid "Importing fonts"
 msgstr "Yazı tipi alınıyor"
 
-#: drakfont:752 drakfont:772
+#: drakfont:753 drakfont:773
 #, c-format
 msgid "Initial tests"
 msgstr "Denetimler başlıyor"
 
-#: drakfont:753
+#: drakfont:754
 #, c-format
 msgid "Copy fonts on your system"
 msgstr "Yazı tipleri sisteminize kopyalanıyor"
 
-#: drakfont:754
+#: drakfont:755
 #, c-format
 msgid "Install & convert Fonts"
 msgstr "Yazı tiplerini kur ve dönüştür"
 
-#: drakfont:755
+#: drakfont:756
 #, c-format
 msgid "Post Install"
 msgstr "Kurulum Sonrası"
 
-#: drakfont:767
+#: drakfont:768
 #, c-format
 msgid "Removing fonts"
 msgstr "Yazı tipi kaldırılıyor"
 
-#: drakfont:773
+#: drakfont:774
 #, c-format
 msgid "Remove fonts on your system"
 msgstr "Yazı tipleri siseminizden kaldırılıyor"
 
-#: drakfont:774
+#: drakfont:775
 #, c-format
 msgid "Post Uninstall"
 msgstr "Kurulumun kaldırılması Sonrası"
@@ -914,22 +924,22 @@ msgstr "Güvenlik İzinleri"
 msgid "Editable"
 msgstr "Düzenlenebilir"
 
-#: drakperm:48 drakperm:318
+#: drakperm:50 drakperm:318
 #, c-format
 msgid "Path"
 msgstr "Yol"
 
-#: drakperm:48 drakperm:247
+#: drakperm:50 drakperm:247
 #, c-format
 msgid "User"
 msgstr "Kullanıcı"
 
-#: drakperm:48 drakperm:247
+#: drakperm:50 drakperm:247
 #, c-format
 msgid "Group"
 msgstr "Grup"
 
-#: drakperm:48 drakperm:107 drakperm:330 draksec:179
+#: drakperm:50 drakperm:107 drakperm:330 draksec:201
 #, c-format
 msgid "Permissions"
 msgstr "Yetkiler"
@@ -939,7 +949,7 @@ msgstr "Yetkiler"
 msgid "Add a new rule"
 msgstr "Yeni bir kural ekle"
 
-#: drakperm:65 drakperm:100 drakperm:126
+#: drakperm:67 drakperm:102 drakperm:126
 #, c-format
 msgid "Edit current rule"
 msgstr "Geçerli kuralı düzenle"
@@ -949,7 +959,7 @@ msgstr "Geçerli kuralı düzenle"
 msgid ""
 "Here you can see files to use in order to fix permissions, owners, and "
 "groups via msec.\n"
-"You can also edit your own rules which will owerwrite the default rules."
+"You can also edit your own rules which will overwrite the default rules."
 msgstr ""
 "Burada, msec yoluyla yetkileri, sahipleri ve grupları düzeltmek amacıyla "
 "kullanılacak dosyaları görebilirsiniz.\n"
@@ -1005,7 +1015,7 @@ msgstr "Sil"
 msgid "Delete selected rule"
 msgstr "Seçili kuralı sil"
 
-#: drakperm:126 drakups:299 drakups:375
+#: drakperm:126 drakups:300 drakups:376
 #, c-format
 msgid "Edit"
 msgstr "Düzenle"
@@ -1132,7 +1142,7 @@ msgstr "Yol seçimi"
 msgid "Property"
 msgstr "Özellik"
 
-#: drakperm:374
+#: drakperm:371
 #, c-format
 msgid ""
 "The first character of the path must be a slash (\"/\"):\n"
@@ -1141,17 +1151,17 @@ msgstr ""
 "Konumun ilk karakteri bir eğik çizgi olmalıdır (\"/\"):\n"
 "\"%s\""
 
-#: drakperm:384
+#: drakperm:381
 #, c-format
 msgid "Both the username and the group must valid!"
 msgstr "Hem kullanıcı adı hem de grup geçerli olmalıdır!"
 
-#: drakperm:385
+#: drakperm:382
 #, c-format
 msgid "User: %s"
 msgstr "Kullanıcı: %s"
 
-#: drakperm:386
+#: drakperm:383
 #, c-format
 msgid "Group: %s"
 msgstr "Grup: %s"
@@ -1171,7 +1181,7 @@ msgstr "YEREL"
 msgid "NONE"
 msgstr "HİÇBİRİ"
 
-#: draksec:54
+#: draksec:56 draksec:113
 #, c-format
 msgid "Default"
 msgstr "Öntanımlı"
@@ -1186,147 +1196,147 @@ msgstr "Yoksay"
 msgid "Security Level and Checks"
 msgstr "Güvenlik Seviyesi ve Denetlemeler"
 
-#: draksec:108
-#, c-format
-msgid "Configure access to OpenMandriva Lx administrative tools"
-msgstr ""
+#: draksec:110
+#, fuzzy, c-format
+msgid "Configure authentication required to access DrakX tools"
+msgstr "%s araçlarına erişim için gereken kimlik doğrulamayı yapılandırın"
 
-#: draksec:111
+#: draksec:114
 #, c-format
 msgid "No password needed"
 msgstr "Parola yok"
 
-#: draksec:112
+#: draksec:115
 #, c-format
-msgid "Root password required"
+msgid "Administrator password"
 msgstr "Kök parolası"
 
-#: draksec:113
+#: draksec:116
 #, c-format
 msgid "User password required"
 msgstr "Kullanıcı parolası"
 
-#: draksec:146 draksec:202
+#: draksec:168 draksec:223
 #, c-format
 msgid "Software Management"
 msgstr "Yazılım Yöneticisi"
 
-#: draksec:147
-#, fuzzy, c-format
-msgid "Online Update"
-msgstr "Mandriva Güncelleme"
+#: draksec:169
+#, c-format
+msgid "%s Update"
+msgstr "%s Güncellemesi"
 
-#: draksec:148
+#: draksec:170
 #, c-format
 msgid "Software Media Manager"
 msgstr "Yazılım Kaynak Yöneticisi"
 
-#: draksec:149
+#: draksec:171
 #, c-format
 msgid "Configure 3D Desktop effects"
 msgstr "3 Boyutlu masaüstü özelliklerini yapılandır."
 
-#: draksec:150
+#: draksec:172
 #, c-format
 msgid "Graphical Server Configuration"
 msgstr "Grafiksel Sunucu Yapılandırması"
 
-#: draksec:151
+#: draksec:173
 #, c-format
 msgid "Mouse Configuration"
 msgstr "Fare Yapılandırması"
 
-#: draksec:152
+#: draksec:174
 #, c-format
 msgid "Keyboard Configuration"
 msgstr "Klavye Yapılandırması"
 
-#: draksec:153
+#: draksec:175
 #, fuzzy, c-format
 msgid "Printer Configuration"
 msgstr "Vekil Sunucu Yapılandırması"
 
-#: draksec:154
+#: draksec:176
 #, c-format
 msgid "UPS Configuration"
 msgstr "UPS Yapılandırması"
 
-#: draksec:155
+#: draksec:177
 #, c-format
 msgid "Network Configuration"
 msgstr "Ağ Yapılandırması"
 
-#: draksec:156
+#: draksec:178
 #, c-format
 msgid "Hosts definitions"
 msgstr "Makine adları"
 
-#: draksec:157
+#: draksec:179
 #, c-format
 msgid "Network Center"
 msgstr "Ağ & İnternet "
 
-#: draksec:158
+#: draksec:180
 #, c-format
 msgid "Wireless Network Roaming"
 msgstr "Kablosuz Ağ Dolaşımı"
 
-#: draksec:159
+#: draksec:181
 #, c-format
 msgid "VPN"
 msgstr "VPN"
 
-#: draksec:160
+#: draksec:182
 #, c-format
 msgid "Proxy Configuration"
 msgstr "Vekil Sunucu Yapılandırması"
 
-#: draksec:161
+#: draksec:183
 #, c-format
 msgid "Connection Sharing"
 msgstr "Bağlantı Paylaşımı"
 
-#: draksec:163
+#: draksec:185
 #, c-format
 msgid "Backups"
 msgstr "Yedekler"
 
-#: draksec:165 logdrake:56
+#: draksec:187 logdrake:56
 #, c-format
 msgid "Logs"
 msgstr "Kayıtlar"
 
-#: draksec:166 finish-install:210 finish-install:249
+#: draksec:188 finish-install:212 finish-install:251
 #, c-format
 msgid "Services"
 msgstr "Servisler"
 
-#: draksec:167
+#: draksec:189
 #, c-format
 msgid "Users"
 msgstr "Kullanıcılar"
 
-#: draksec:169
+#: draksec:191
 #, c-format
 msgid "Boot Configuration"
 msgstr "Önyükleme Yapılandırması"
 
-#: draksec:203
+#: draksec:224
 #, c-format
 msgid "Hardware"
 msgstr "Donanım"
 
-#: draksec:204
+#: draksec:225
 #, c-format
 msgid "Network"
 msgstr "Ağ"
 
-#: draksec:205
+#: draksec:226
 #, c-format
 msgid "System"
 msgstr "Sistem"
 
-#: draksec:206
+#: draksec:227
 #, c-format
 msgid "Boot"
 msgstr "Önyükleme"
@@ -1417,12 +1427,12 @@ msgstr ""
 msgid "Autodetection"
 msgstr "Otomatik algıla"
 
-#: drakups:98 harddrake2:374
+#: drakups:99 harddrake2:358
 #, c-format
 msgid "Detection in progress"
 msgstr "Algılama sürüyor"
 
-#: drakups:117 drakups:156 logdrake:461 logdrake:467
+#: drakups:118 drakups:157 logdrake:465 logdrake:471
 #, c-format
 msgid "Congratulations"
 msgstr "Tebrikler"
@@ -1557,7 +1567,7 @@ msgstr "Seviye"
 msgid "ACL name"
 msgstr "ACL ismi"
 
-#: drakups:296 finish-install:258
+#: drakups:297 finish-install:260
 #, c-format
 msgid "Password"
 msgstr "Parola"
@@ -1610,7 +1620,7 @@ msgid "Keyboard"
 msgstr "Klavye"
 
 #: finish-install:58
-#, fuzzy, c-format
+#, c-format
 msgid "Please choose your keyboard layout."
 msgstr "Lütfen, klavye yerleşimini seçiniz."
 
@@ -1619,57 +1629,62 @@ msgstr "Lütfen, klavye yerleşimini seçiniz."
 msgid "Testing your connection..."
 msgstr "Bağlantınız test ediliyor..."
 
-#: finish-install:185
+#: finish-install:187
 #, c-format
 msgid "Windows-compatible sharing system"
 msgstr ""
 
-#: finish-install:188
+#: finish-install:189
+#, c-format
+msgid "Virtual Private Network"
+msgstr ""
+
+#: finish-install:190
 #, fuzzy, c-format
 msgid "OpenSSH server"
 msgstr "SSH Sunucu"
 
-#: finish-install:189
+#: finish-install:191
 #, fuzzy, c-format
 msgid "Print server"
 msgstr "Ftp Sunucu"
 
-#: finish-install:209
+#: finish-install:211
 #, c-format
 msgid "Do you have any services that you want to run when starting up?"
 msgstr ""
 
-#: finish-install:241
+#: finish-install:243
 #, fuzzy, c-format
 msgid "The following services failed to start:\n"
 msgstr "Bu paketlerinde kurulu olması gerekiyor:\n"
 
-#: finish-install:244
+#: finish-install:246
 #, fuzzy, c-format
 msgid "The following services failed to stop:\n"
 msgstr "Bu paketlerinde kurulu olması gerekiyor:\n"
 
-#: finish-install:256 finish-install:274 finish-install:287
+#: finish-install:258 finish-install:276 finish-install:289
 #, c-format
 msgid "Encrypted home partition"
 msgstr "Şifrelenmiş ev bölümü"
 
-#: finish-install:256
+#: finish-install:258
 #, c-format
 msgid "Please enter a password for the %s user"
 msgstr "Lütfen, %s kullanıcısı için parolayı girin"
 
-#: finish-install:259
+#: finish-install:261
 #, c-format
 msgid "Password (again)"
 msgstr "Parola (tekrar)"
 
-#: finish-install:274
+#: finish-install:276
 #, c-format
 msgid "Creating encrypted home partition"
 msgstr "Şifrelenmiş ev bölümü oluşturuluyor"
 
-#: finish-install:287
+#: finish-install:289
 #, c-format
 msgid "Formatting encrypted home partition"
 msgstr "Şifrelenmiş ev bölümü biçimlendiriliyor"
@@ -2301,48 +2316,144 @@ msgstr "Bölümlemeler"
 msgid "Features"
 msgstr "Özellikler"
 
-#. -PO: please keep all "/" characters !!!
-#: harddrake2:179 logdrake:82
+#: harddrake2:179
 #, c-format
-msgid "/_Options"
-msgstr "/_Ayarlar"
+msgid "Autodetect _modems"
+msgstr "_Modemleri otomatik algıla"
 
-#: harddrake2:180 harddrake2:203 logdrake:84
+#: harddrake2:180
 #, c-format
-msgid "/_Help"
-msgstr "/_Yardım"
+msgid "Autodetect parallel _zip drives"
+msgstr "paralel _zip sürücüleri otomatik algıla"
 
 #: harddrake2:184
-#, c-format
-msgid "/Autodetect _modems"
-msgstr "/_Modemleri otomatik algıla"
-
-#: harddrake2:185
-#, c-format
-msgid "/Autodetect parallel _zip drives"
-msgstr "/paralelsıkıştırılmış _zip sürücüleri otomatik algıla"
-
-#: harddrake2:189
 #, c-format
 msgid "Hardware Configuration"
 msgstr "Donanım Yapılandırması"
 
+#: harddrake2:193
+#, c-format
+msgid "_Options"
+msgstr "_Seçenekler"
+
+#: harddrake2:194 harddrake2:195
+#, c-format
+msgid "_Help"
+msgstr "_Yardım"
+
+#: harddrake2:195
+#, c-format
+msgid "<control>H"
+msgstr "<control>H"
+
 #: harddrake2:196
 #, c-format
-msgid "/_Quit"
-msgstr "/_Çık"
+msgid "_Fields description"
+msgstr "_Alan açıklamaları"
 
-#: harddrake2:205
+#: harddrake2:197
 #, c-format
-msgid "/_Fields description"
-msgstr "/_Alan tanımlaması"
+msgid "_Report Bug"
+msgstr "_Hata Bildir"
 
-#: harddrake2:207
+#: harddrake2:198
+#, c-format
+msgid "_About..."
+msgstr "_Hakkında..."
+
+#: harddrake2:242
+#, c-format
+msgid "Detected hardware"
+msgstr "Bulunan donanımlar"
+
+#: harddrake2:245 scannerdrake:283
+#, c-format
+msgid "Information"
+msgstr "Bilgiler"
+
+#: harddrake2:247
+#, c-format
+msgid "Set current driver options"
+msgstr "Şu anki sürücü seçeneklerini ayarla"
+
+#: harddrake2:254
+#, c-format
+msgid "Run config tool"
+msgstr "Yapılandırma aracını çalıştır"
+
+#: harddrake2:280
+#, c-format
+msgid ""
+"Click on a device in the tree on the left in order to display its "
+"information here."
+msgstr "Hakkında bilgi edinmek istediğiniz aygıtı sol ağaçtan tıklayınız."
+
+#: harddrake2:300 notify-x11-free-driver-switch:13
+#, c-format
+msgid "unknown"
+msgstr "bilinmeyen"
+
+#: harddrake2:301
+#, c-format
+msgid "Unknown"
+msgstr "Bilinmeyen"
+
+#: harddrake2:321
+#, c-format
+msgid "Misc"
+msgstr "Çeşitli"
+
+#: harddrake2:404
+#, c-format
+msgid "secondary"
+msgstr "ikincil"
+
+#: harddrake2:404
+#, c-format
+msgid "primary"
+msgstr "birincil"
+
+#: harddrake2:408
+#, c-format
+msgid "burner"
+msgstr "cdyazıcı"
+
+#: harddrake2:408
+#, c-format
+msgid "DVD"
+msgstr "DVD"
+
+#: harddrake2:504
+#, c-format
+msgid "The following packages need to be installed:\n"
+msgstr "Bu paketlerinde kurulu olması gerekiyor:\n"
+
+#: harddrake2:521
+#, c-format
+msgid "Harddrake"
+msgstr "HardDrake"
+
+#: harddrake2:523
+#, c-format
+msgid "Copyright (C) %s by %s"
+msgstr "Copyright (C) %s bir %s ürünüdür"
+
+#: harddrake2:523 harddrake2:527
+#, c-format
+msgid "Mageia"
+msgstr ""
+
+#: harddrake2:525
+#, c-format
+msgid "This is HardDrake, a %s hardware configuration tool."
+msgstr "Bu HardDrake' tir. Bir %s donanım yapılandırma aracıdır."
+
+#: harddrake2:540
 #, c-format
 msgid "Harddrake help"
 msgstr "Harddrake yardım"
 
-#: harddrake2:208
+#: harddrake2:541
 #, c-format
 msgid ""
 "Description of the fields:\n"
@@ -2351,12 +2462,12 @@ msgstr ""
 "Alanların tanımları:\n"
 "\n"
 
-#: harddrake2:216
+#: harddrake2:548
 #, c-format
 msgid "Select a device!"
 msgstr "Bir aygıt seçiniz"
 
-#: harddrake2:216
+#: harddrake2:548
 #, c-format
 msgid ""
 "Once you've selected a device, you'll be able to see the device information "
@@ -2364,98 +2475,6 @@ msgid ""
 msgstr ""
 "Bir aygıt seçtiğinizde, sağ yandaki tablada (\"Bilgi\") aygıt hakkındaki "
 "bilgileri görebilirsiniz."
-
-#: harddrake2:222
-#, c-format
-msgid "/_Report Bug"
-msgstr "/_Hata raporla"
-
-#: harddrake2:224
-#, c-format
-msgid "/_About..."
-msgstr "/_Hakkında..."
-
-#: harddrake2:227
-#, c-format
-msgid "Harddrake"
-msgstr "HardDrake"
-
-#: harddrake2:231
-#, c-format
-msgid "This is HardDrake, a %s hardware configuration tool."
-msgstr "Bu HardDrake' tir. Bir %s donanım yapılandırma aracıdır."
-
-#: harddrake2:233
-#, fuzzy, c-format
-msgid "OpenMandriva Linux"
-msgstr "OpenMandriva Lx"
-
-#: harddrake2:264
-#, c-format
-msgid "Detected hardware"
-msgstr "Bulunan donanımlar"
-
-#: harddrake2:267 scannerdrake:283
-#, c-format
-msgid "Information"
-msgstr "Bilgiler"
-
-#: harddrake2:269
-#, c-format
-msgid "Set current driver options"
-msgstr "Şu anki sürücü seçeneklerini ayarla"
-
-#: harddrake2:276
-#, c-format
-msgid "Run config tool"
-msgstr "Yapılandırma aracını çalıştır"
-
-#: harddrake2:296
-#, c-format
-msgid ""
-"Click on a device in the tree on the left in order to display its "
-"information here."
-msgstr "Hakkında bilgi edinmek istediğiniz aygıtı sol ağaçtan tıklayınız."
-
-#: harddrake2:317 notify-x11-free-driver-switch:13
-#, c-format
-msgid "unknown"
-msgstr "bilinmeyen"
-
-#: harddrake2:318
-#, c-format
-msgid "Unknown"
-msgstr "Bilinmeyen"
-
-#: harddrake2:338
-#, c-format
-msgid "Misc"
-msgstr "Çeşitli"
-
-#: harddrake2:420
-#, c-format
-msgid "secondary"
-msgstr "ikincil"
-
-#: harddrake2:420
-#, c-format
-msgid "primary"
-msgstr "birincil"
-
-#: harddrake2:424
-#, c-format
-msgid "burner"
-msgstr "cdyazıcı"
-
-#: harddrake2:424
-#, c-format
-msgid "DVD"
-msgstr "DVD"
-
-#: harddrake2:528
-#, c-format
-msgid "The following packages need to be installed:\n"
-msgstr "Bu paketlerinde kurulu olması gerekiyor:\n"
 
 #: localedrake:38
 #, c-format
@@ -2474,219 +2493,174 @@ msgid ", "
 msgstr ", "
 
 #: logdrake:55
-#, c-format
-msgid "%s Tools Logs"
-msgstr ""
+#, fuzzy, c-format
+msgid "DrakX Tools Logs"
+msgstr "%s Araçları Günlük Kayıtları"
 
 #: logdrake:69
 #, c-format
 msgid "Show only for the selected day"
 msgstr "Sadece bugünlük olanları göster"
 
-#: logdrake:76
-#, c-format
-msgid "/File/_New"
-msgstr "/Dosya/_Yeni"
-
-#: logdrake:76
-#, c-format
-msgid "<control>N"
-msgstr "<control>Y"
-
-#: logdrake:77
-#, c-format
-msgid "/File/_Open"
-msgstr "/Dosya/_Aç"
-
-#: logdrake:77
-#, c-format
-msgid "<control>O"
-msgstr "<control>A"
-
-#: logdrake:78
-#, c-format
-msgid "/File/_Save"
-msgstr "/Dosya/_Kaydet"
-
 #: logdrake:78
 #, c-format
 msgid "<control>S"
 msgstr "<control>K"
 
-#: logdrake:79
-#, c-format
-msgid "/File/Save _As"
-msgstr "/Dosya/_Farklı kaydet"
-
-#: logdrake:80
-#, c-format
-msgid "/File/-"
-msgstr "/Dosya/-"
-
-#: logdrake:83
-#, c-format
-msgid "/Options/Test"
-msgstr "/Ayarlar/Test"
-
-#: logdrake:85
-#, c-format
-msgid "/Help/_About..."
-msgstr "/Yardım/_Hakkında..."
-
-#: logdrake:114
+#: logdrake:117
 #, c-format
 msgid ""
 "_:this is the auth.log log file\n"
 "Authentication"
 msgstr "Kimlik Kanıtlama"
 
-#: logdrake:115
+#: logdrake:118
 #, c-format
 msgid ""
 "_:this is the user.log log file\n"
 "User"
 msgstr "Kullanıcı"
 
-#: logdrake:116
+#: logdrake:119
 #, c-format
 msgid ""
 "_:this is the /var/log/messages log file\n"
 "Messages"
 msgstr "İletiler"
 
-#: logdrake:117
+#: logdrake:120
 #, c-format
 msgid ""
 "_:this is the /var/log/syslog log file\n"
 "Syslog"
 msgstr "Syslog"
 
-#: logdrake:121
+#: logdrake:124
 #, c-format
 msgid "search"
 msgstr "ara"
 
-#: logdrake:133
+#: logdrake:136
 #, c-format
 msgid "A tool to monitor your logs"
 msgstr "Günlük kayıtlarınızı görüntüleyen bir araç"
 
-#: logdrake:135
+#: logdrake:138
 #, c-format
 msgid "Settings"
 msgstr "Ayarlar"
 
-#: logdrake:138
+#: logdrake:141
 #, c-format
 msgid "Matching"
 msgstr "Karşılaştırılıyor"
 
-#: logdrake:139
+#: logdrake:142
 #, c-format
 msgid "but not matching"
 msgstr "fakat uymuyor"
 
-#: logdrake:142
+#: logdrake:145
 #, c-format
 msgid "Choose file"
 msgstr "Dosya seçin"
 
-#: logdrake:154
+#: logdrake:157
 #, c-format
 msgid "Calendar"
 msgstr "Takvim"
 
-#: logdrake:163
+#: logdrake:166
 #, c-format
 msgid "Content of the file"
 msgstr "Dosya içeriği"
 
-#: logdrake:167 logdrake:411
+#: logdrake:170 logdrake:415
 #, c-format
 msgid "Mail alert"
 msgstr "Posta uyarısı"
 
-#: logdrake:174
+#: logdrake:177
 #, c-format
 msgid "The alert wizard has failed unexpectedly:"
 msgstr "Uyarı sihirbazı beklenmeyen biçimde başarısız oldu:"
 
-#: logdrake:178
+#: logdrake:181
 #, c-format
 msgid "Save"
 msgstr "Kaydet"
 
-#: logdrake:226
+#: logdrake:230
 #, c-format
 msgid "please wait, parsing file: %s"
 msgstr "Lütfen dosya ayrıştırılırken bekleyiniz: %s"
 
-#: logdrake:248
+#: logdrake:252
 #, c-format
 msgid "Sorry, log file isn't available!"
 msgstr "Üzgünüm, günlük kaydına erişilemez!"
 
-#: logdrake:296
+#: logdrake:300
 #, c-format
 msgid "Error while opening \"%s\" log file: %s\n"
 msgstr "\"%s\" günlük kaydı açılırken hata oluştu: %s\n"
 
-#: logdrake:389
+#: logdrake:393
 #, c-format
 msgid "Apache World Wide Web Server"
 msgstr "Apache WWW Sunucusu"
 
-#: logdrake:390
+#: logdrake:394
 #, c-format
 msgid "Domain Name Resolver"
 msgstr "Alan Adı Çözücüsü"
 
-#: logdrake:391
+#: logdrake:395
 #, c-format
 msgid "Ftp Server"
 msgstr "Ftp Sunucu"
 
-#: logdrake:392
+#: logdrake:396
 #, c-format
 msgid "Postfix Mail Server"
 msgstr "Postfix Post Sunucu"
 
-#: logdrake:393
+#: logdrake:397
 #, c-format
 msgid "Samba Server"
 msgstr "Samba Sunucu"
 
-#: logdrake:394
+#: logdrake:398
 #, c-format
 msgid "SSH Server"
 msgstr "SSH Sunucu"
 
-#: logdrake:395
+#: logdrake:399
 #, c-format
 msgid "Webmin Service"
 msgstr "Webmin Servisi"
 
-#: logdrake:396
+#: logdrake:400
 #, c-format
 msgid "Xinetd Service"
 msgstr "Xinetd Servisi"
 
-#: logdrake:405
+#: logdrake:409
 #, c-format
 msgid "Configure the mail alert system"
 msgstr "E-posta uyarı sistemini yapılandır"
 
-#: logdrake:406
+#: logdrake:410
 #, c-format
 msgid "Stop the mail alert system"
 msgstr "E-posta uyarı sistemini durdur."
 
-#: logdrake:414
+#: logdrake:418
 #, c-format
 msgid "Mail alert configuration"
 msgstr "Posta uyarı yapılandırması"
 
-#: logdrake:415
+#: logdrake:419
 #, c-format
 msgid ""
 "Welcome to the mail configuration utility.\n"
@@ -2697,72 +2671,72 @@ msgstr ""
 "\n"
 "Burada, uyarı sistemini yapılandırabilirsiniz\n"
 
-#: logdrake:418
+#: logdrake:422
 #, c-format
 msgid "What do you want to do?"
 msgstr "Ne Yapmak istersiniz ?"
 
-#: logdrake:425
+#: logdrake:429
 #, c-format
 msgid "Services settings"
 msgstr "Hizmet ayarları"
 
-#: logdrake:426
+#: logdrake:430
 #, c-format
 msgid ""
 "You will receive an alert if one of the selected services is no longer "
 "running"
 msgstr "Eğer seçili servislerden biri artık çalışmıyorsa bir uyarı alacaksınız"
 
-#: logdrake:433
+#: logdrake:437
 #, c-format
 msgid "Load setting"
 msgstr "Ayarları yükle"
 
-#: logdrake:434
+#: logdrake:438
 #, c-format
 msgid "You will receive an alert if the load is higher than this value"
 msgstr "Yükleme bu değerden fazlaysa bir uyarı alacaksınız"
 
-#: logdrake:435
+#: logdrake:439
 #, c-format
 msgid ""
 "_: load here is a noun, the load of the system\n"
 "Load"
 msgstr "Yük"
 
-#: logdrake:440
+#: logdrake:444
 #, c-format
 msgid "Alert configuration"
 msgstr "Uyarı yapılandırması"
 
-#: logdrake:441
+#: logdrake:445
 #, c-format
 msgid "Please enter your email address below "
 msgstr "Lütfen e-posta adresinizi aşağıya giriniz "
 
-#: logdrake:442
+#: logdrake:446
 #, c-format
 msgid "and enter the name (or the IP) of the SMTP server you wish to use"
 msgstr "ve kullanmak istediğiniz SMTP sunucu adını (veya IP) girin"
 
-#: logdrake:444
-#, fuzzy, c-format
+#: logdrake:448
+#, c-format
 msgid "Email address"
-msgstr "IP adresi:"
-
-#: logdrake:445
-#, fuzzy, c-format
-msgid "Email server"
-msgstr "Samba Sunucu"
+msgstr "E-posta adresi:"
 
 #: logdrake:449
+#, c-format
+msgid "Email server"
+msgstr "E-posta Sunucusu"
+
+#: logdrake:453
 #, c-format
 msgid "\"%s\" neither is a valid email nor is an existing local user!"
 msgstr ""
 "\"%s\" ne geçerli bir e-posta adresi ne de varolan bir yerel kullanıcı!"
 
-#: logdrake:454
+#: logdrake:458
 #, c-format
 msgid ""
 "\"%s\" is a local user, but you did not select a local smtp, so you must use "
@@ -2771,23 +2745,23 @@ msgstr ""
 "\"%s\" bir yerel kullanıcı; ancak bir yerel smtp seçmemiştiniz. Yani, tam "
 "bir e-posta adresi kullanmak durumundasınız!"
 
-#: logdrake:461
+#: logdrake:465
 #, c-format
 msgid "The wizard successfully configured the mail alert."
 msgstr "Sihirbaz başarıyla posta uyarısını yapılandırdı."
 
-#: logdrake:467
+#: logdrake:471
 #, c-format
 msgid "The wizard successfully disabled the mail alert."
 msgstr "Sihirbaz başarıyla e-posta uyarısını devredışı bıraktı."
 
-#: logdrake:526
+#: logdrake:530
 #, c-format
 msgid "Save as.."
 msgstr "Farklı Kaydet..."
 
-#: notify-x11-free-driver-switch:18 service_harddrake:465
-#: service_harddrake:478
+#: notify-x11-free-driver-switch:18 service_harddrake:468
+#: service_harddrake:481
 #, c-format
 msgid "Display driver setup"
 msgstr "Ekran kartı sürücüsü kurulumu"
@@ -3376,27 +3350,27 @@ msgstr "Bazı aygıtlar eklendi: %s\n"
 msgid "- %s was added\n"
 msgstr "- %s eklendi.\n"
 
-#: service_harddrake:397
+#: service_harddrake:400
 #, c-format
 msgid "Hardware changes in \"%s\" class (%s seconds to answer)"
 msgstr "\"%s\" sınıfında donanım değişikliği (%s saniyede cevap veriyor)"
 
-#: service_harddrake:398
+#: service_harddrake:401
 #, c-format
 msgid "Do you want to run the appropriate config tool?"
 msgstr "Buna uygun yapılandırma aracını çalıştırmak ister misiniz?"
 
-#: service_harddrake:423
+#: service_harddrake:426
 #, c-format
 msgid "Hardware probing in progress"
 msgstr "Donanım Algılama sürüyor"
 
-#: service_harddrake:444 service_harddrake:449
+#: service_harddrake:447 service_harddrake:452
 #, c-format
 msgid "Display driver issue"
 msgstr "Ekran kartı sürücüsü sorunu"
 
-#: service_harddrake:445
+#: service_harddrake:448
 #, c-format
 msgid ""
 "The display driver currently configured requires you to use the 'nokmsboot' "
@@ -3409,7 +3383,7 @@ msgstr ""
 "kullanılmasını gerektiriyor. Bu seçenek etkinleştirilmediği için X sunucusu "
 "başlatılamayabilir."
 
-#: service_harddrake:450
+#: service_harddrake:453
 #, c-format
 msgid ""
 "Detected a loaded display driver kernel module which conflicts with the "
@@ -3420,24 +3394,16 @@ msgstr ""
 "çekirdek sürücüsünün yüklendiği algılandı. X sunucusunun başlatılması "
 "başarısız olabilir."
 
-#: service_harddrake:465 service_harddrake:478
+#: service_harddrake:468 service_harddrake:481
 #, c-format
 msgid "The system has to be rebooted due to a display driver change."
 msgstr ""
 "Ekran kartı sürücüsü değişikliği nedeniyle sistem yeniden başlatılmalı."
 
-#: service_harddrake:466 service_harddrake:479
+#: service_harddrake:469 service_harddrake:482
 #, c-format
 msgid "Press Cancel within %d seconds to abort."
 msgstr "Sonlandırmak için %d saniye içinde İptal tuşuna basın."
-
-#: ../menu/localedrake-system.desktop.in.h:1
-msgid "System Regional Settings"
-msgstr "Sistem Bölgesel Ayarları"
-
-#: ../menu/localedrake-system.desktop.in.h:2
-msgid "System wide language & country configurator"
-msgstr "Sistem geneli dil ve ülke yapılandırıcı"
 
 #: ../menu/harddrake.desktop.in.h:1
 msgid "HardDrake"
@@ -3451,6 +3417,14 @@ msgstr "Donanım Merkezi Yapılandırma/Bilgilendirme aracı"
 msgid "Hardware Configuration Tool"
 msgstr "Donanım Yapılandırma Aracı"
 
+#: ../menu/localedrake-system.desktop.in.h:1
+msgid "System Regional Settings"
+msgstr "Sistem Bölgesel Ayarları"
+
+#: ../menu/localedrake-system.desktop.in.h:2
+msgid "System wide language & country configurator"
+msgstr "Sistem geneli dil ve ülke yapılandırıcı"
+
 #: ../menu/localedrake-user.desktop.in.h:1
 msgid "Regional Settings"
 msgstr "Bölgesel Ayarlar"
@@ -3459,31 +3433,409 @@ msgstr "Bölgesel Ayarlar"
 msgid "Language & country configuration"
 msgstr "Dil ve Ülke yapılandırması"
 
-#~ msgid "Configure authentication required to access OpenMandriva tools"
+#: ../polkit/org.moondrake.drakauth.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Authentication Configuration"
+msgstr "Moondrake Kimlik Doğrulama Yapılandırması Çalıştır"
+
+#: ../polkit/org.moondrake.drakauth.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Authentication Configuration"
+msgstr ""
+"Moondrake Kimlik Doğrulama Yapılandırması çalıştırmak için kimlik doğrulama "
+"gerekli"
+
+#: ../polkit/org.moondrake.drakboot.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Boot Configuration"
+msgstr "Moondrake Önyükleme Yapılandırması Çalıştır"
+
+#: ../polkit/org.moondrake.drakboot.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Boot Configuration"
+msgstr ""
+"Moondrake Önyükleme Yapılandırması çalıştırmak için kimlik doğrulaması "
+"gerekli"
+
+#: ../polkit/org.moondrake.drakclock.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Date and Time Configuration"
+msgstr "Moondrake Tarih ve Saat Yapılandırma Çalıştır"
+
+#: ../polkit/org.moondrake.drakclock.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Date and Time Configuration"
+msgstr ""
+"Moondrake Tarih ve Saat Yapılandırması çalıştırmak için kimlik doğrulama "
+"gerekli"
+
+#: ../polkit/org.moondrake.drakdisk.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Disk Layout Editor"
+msgstr "Moondrake Disk Yerleşimi Düzenleyici Çalıştır"
+
+#: ../polkit/org.moondrake.drakdisk.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Disk Layout Editor"
+msgstr ""
+"Moondrake Disk Yerleşimi Düzenleyici' yi çalıştırmak için kimlik doğrulama "
+"gerekli"
+
+#: ../polkit/org.moondrake.drakdm.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Login Manager Configuration"
+msgstr "Moondrake Giriş Yöneticisi Yapılandırma Çalıştır"
+
+#: ../polkit/org.moondrake.drakdm.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Login Manager Configuration"
+msgstr ""
+"Moondrake Giriş Yöneticisi Yapılandırması çalıştırmak için kimlik "
+"doğrulaması gerekli"
+
+#: ../polkit/org.moondrake.drakfont.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Font Configuration"
+msgstr "Moondrake Yazıtipi Yapılandırması Çalıştır"
+
+#: ../polkit/org.moondrake.drakfont.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Font Configuration"
+msgstr ""
+"Moondrake Yazıtipi Yapılandırması çalıştırmak için kimlik doğrulaması gerekli"
+
+#: ../polkit/org.moondrake.drakhardware.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Hardware Configuration"
+msgstr "Moondrake Donanım Yapılandırması Çalıştır"
+
+#: ../polkit/org.moondrake.drakhardware.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Hardware Configuration"
+msgstr ""
+"Moondrake Donanım Yapılandırması çalıştırmak için kimlik doğrulaması gerekli"
+
+#: ../polkit/org.moondrake.draklog.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Log Viewer"
+msgstr "Moondrake Günlük Kaydı Görüntüleyici Çalıştır"
+
+#: ../polkit/org.moondrake.draklog.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Log Viewer"
+msgstr ""
+"Moondrake Günlük Kaydı Görüntüleyici' yi çalıştırmak için kimlik doğrulama "
+"gerekli"
+
+#: ../polkit/org.moondrake.drakperm.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Security Permissions Configuration"
+msgstr "Moondrake Güvenlik İzinleri Yapılandırması Çalıştır"
+
+#: ../polkit/org.moondrake.drakperm.policy.in.h:2
+#, fuzzy
+msgid ""
+"Authentication is required to run DrakX Security Permissions Configuration"
+msgstr ""
+"Moondrake Güvenlik İzinleri Yapılandırması çalıştırmak için kimlik doğrulama "
+"gerekli"
+
+#: ../polkit/org.moondrake.drakscanner.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Scanner Configuration"
+msgstr "Moondrake Tarayıcı Yapılandırması Çalıştır"
+
+#: ../polkit/org.moondrake.drakscanner.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Scanner Configuration"
+msgstr ""
+"Moondrake Tarayıcı Yapılandırması çalıştırmak için kimlik doğrulaması gerekli"
+
+#: ../polkit/org.moondrake.draksec.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Application Security Configuration"
+msgstr "Moondrake Uygulama Güvenliği Yapılandırması Çalıştır"
+
+#: ../polkit/org.moondrake.draksec.policy.in.h:2
+#, fuzzy
+msgid ""
+"Authentication is required to run DrakX Application Security Configuration"
+msgstr ""
+"Moondrake Uygulama Güvenliği Yapılandırması çalıştırmak için kimlik "
+"doğrulaması gerekli"
+
+#: ../polkit/org.moondrake.drakups.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX UPS Configuration"
+msgstr "Moondrake UPS Yapılandırması Çalıştır"
+
+#: ../polkit/org.moondrake.drakups.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX UPS Configuration"
+msgstr ""
+"Moondrake UPS Yapılandırması çalıştırmak için kimlik doğrulaması gerekli"
+
+#: ../polkit/org.moondrake.moondrakeservices.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Service Configuration"
+msgstr "Moondrake Hizmet Yapılandırması Çalıştır"
+
+#: ../polkit/org.moondrake.moondrakeservices.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Service Configuration"
+msgstr ""
+"Moondrake Hizmet Yapılandırması çalıştırmak için kimlik doğrulaması gerekli"
+
+#~ msgid "%s Bug Report Tool"
+#~ msgstr "%s Hata Bildirme Aracı"
+
+#~ msgid "%s Tools Logs"
+#~ msgstr "%s Araçları Günlük Kayıtları"
+
+#~ msgid ""
+#~ "Authentication is required to run Moondrake Application Security "
+#~ "Configuration"
 #~ msgstr ""
-#~ "Mandriva araçlarına erişebilmek için gerekli doğrulamayı yapılandırın"
+#~ "Moondrake Uygulama Güvenliği Yapılandırması çalıştırmak için kimlik "
+#~ "doğrulaması gerekli"
+
+#~ msgid ""
+#~ "Authentication is required to run Moondrake Authentication Configuration"
+#~ msgstr ""
+#~ "Moondrake Kimlik Doğrulama Yapılandırması çalıştırmak için kimlik "
+#~ "doğrulama gerekli"
+
+#~ msgid "Authentication is required to run Moondrake Boot Configuration"
+#~ msgstr ""
+#~ "Moondrake Önyükleme Yapılandırması çalıştırmak için kimlik doğrulaması "
+#~ "gerekli"
+
+#~ msgid ""
+#~ "Authentication is required to run Moondrake Date and Time Configuration"
+#~ msgstr ""
+#~ "Moondrake Tarih ve Saat Yapılandırması çalıştırmak için kimlik doğrulama "
+#~ "gerekli"
+
+#~ msgid "Authentication is required to run Moondrake Disk Layout Editor"
+#~ msgstr ""
+#~ "Moondrake Disk Yerleşimi Düzenleyici' yi çalıştırmak için kimlik "
+#~ "doğrulama gerekli"
+
+#~ msgid "Authentication is required to run Moondrake Font Configuration"
+#~ msgstr ""
+#~ "Moondrake Yazıtipi Yapılandırması çalıştırmak için kimlik doğrulaması "
+#~ "gerekli"
+
+#~ msgid "Authentication is required to run Moondrake Hardware Configuration"
+#~ msgstr ""
+#~ "Moondrake Donanım Yapılandırması çalıştırmak için kimlik doğrulaması "
+#~ "gerekli"
+
+#~ msgid "Authentication is required to run Moondrake Log Viewer"
+#~ msgstr ""
+#~ "Moondrake Günlük Kaydı Görüntüleyici' yi çalıştırmak için kimlik "
+#~ "doğrulama gerekli"
+
+#~ msgid ""
+#~ "Authentication is required to run Moondrake Login Manager Configuration"
+#~ msgstr ""
+#~ "Moondrake Giriş Yöneticisi Yapılandırması çalıştırmak için kimlik "
+#~ "doğrulaması gerekli"
+
+#~ msgid "Authentication is required to run Moondrake Scanner Configuration"
+#~ msgstr ""
+#~ "Moondrake Tarayıcı Yapılandırması çalıştırmak için kimlik doğrulaması "
+#~ "gerekli"
+
+#~ msgid ""
+#~ "Authentication is required to run Moondrake Security Permissions "
+#~ "Configuration"
+#~ msgstr ""
+#~ "Moondrake Güvenlik İzinleri Yapılandırması çalıştırmak için kimlik "
+#~ "doğrulama gerekli"
+
+#~ msgid "Authentication is required to run Moondrake Service Configuration"
+#~ msgstr ""
+#~ "Moondrake Hizmet Yapılandırması çalıştırmak için kimlik doğrulaması "
+#~ "gerekli"
+
+#~ msgid "Authentication is required to run Moondrake UPS Configuration"
+#~ msgstr ""
+#~ "Moondrake UPS Yapılandırması çalıştırmak için kimlik doğrulaması gerekli"
+
+#~ msgid "Configure authentication required to access %s tools"
+#~ msgstr "%s araçlarına erişim için gereken kimlik doğrulamayı yapılandırın"
+
+#~ msgid "Run Moondrake Application Security Configuration"
+#~ msgstr "Moondrake Uygulama Güvenliği Yapılandırması Çalıştır"
+
+#~ msgid "Run Moondrake Authentication Configuration"
+#~ msgstr "Moondrake Kimlik Doğrulama Yapılandırması Çalıştır"
+
+#~ msgid "Run Moondrake Boot Configuration"
+#~ msgstr "Moondrake Önyükleme Yapılandırması Çalıştır"
+
+#~ msgid "Run Moondrake Date and Time Configuration"
+#~ msgstr "Moondrake Tarih ve Saat Yapılandırma Çalıştır"
+
+#~ msgid "Run Moondrake Disk Layout Editor"
+#~ msgstr "Moondrake Disk Yerleşimi Düzenleyici Çalıştır"
+
+#~ msgid "Run Moondrake Font Configuration"
+#~ msgstr "Moondrake Yazıtipi Yapılandırması Çalıştır"
+
+#~ msgid "Run Moondrake Hardware Configuration"
+#~ msgstr "Moondrake Donanım Yapılandırması Çalıştır"
+
+#~ msgid "Run Moondrake Log Viewer"
+#~ msgstr "Moondrake Günlük Kaydı Görüntüleyici Çalıştır"
+
+#~ msgid "Run Moondrake Login Manager Configuration"
+#~ msgstr "Moondrake Giriş Yöneticisi Yapılandırma Çalıştır"
+
+#~ msgid "Run Moondrake Scanner Configuration"
+#~ msgstr "Moondrake Tarayıcı Yapılandırması Çalıştır"
+
+#~ msgid "Run Moondrake Security Permissions Configuration"
+#~ msgstr "Moondrake Güvenlik İzinleri Yapılandırması Çalıştır"
+
+#~ msgid "Run Moondrake Service Configuration"
+#~ msgstr "Moondrake Hizmet Yapılandırması Çalıştır"
+
+#~ msgid "Run Moondrake UPS Configuration"
+#~ msgstr "Moondrake UPS Yapılandırması Çalıştır"
+
+#~ msgid "  --help                - display this help     \n"
+#~ msgstr "  --help                - bu yardımı görüntüle   \n"
+
+#~ msgid ""
+#~ " drakhelp 0.1\n"
+#~ "Copyright (C) %s Mandriva.\n"
+#~ "Copyright (C) %s Moondrake.\n"
+#~ "This is free software and may be redistributed under the terms of the GNU "
+#~ "GPL.\n"
+#~ "\n"
+#~ "Usage: \n"
+#~ msgstr ""
+#~ "drakhelp 0.1\n"
+#~ "Copyright (C) %s Mandriva.\n"
+#~ "Copyright (C) %s Moondrake.\n"
+#~ "Bu bir özgür yazılım olup GNU GPL koşulları altında yeniden "
+#~ "dağıtılabilirL.\n"
+#~ "\n"
+#~ "Kullanımı: \n"
+
+#~ msgid "%s Control Center"
+#~ msgstr "%s Denetim Merkezi"
+
+#~ msgid "%s Help Center"
+#~ msgstr "%s Yardım Merkezi"
 
 #~ msgid "/Autodetect _jaz drives"
 #~ msgstr "/_jaz sürücülerini otomatik algıla"
 
-#~ msgid "OpenMandriva Lx Tools Logs"
-#~ msgstr "OpenMandriva Lx Araçları Kayıtları"
+#~ msgid "/Autodetect _modems"
+#~ msgstr "/_Modemleri otomatik algıla"
 
 #~ msgid "/Autodetect _printers"
 #~ msgstr "/_Yazıcıları otomatik algıla"
 
-#~ msgid "Its GDB trace is:"
-#~ msgstr "GDB izi :"
+#~ msgid "/Autodetect parallel _zip drives"
+#~ msgstr "/paralelsıkıştırılmış _zip sürücüleri otomatik algıla"
 
-#~ msgid "OpenOffice.org"
-#~ msgstr "OpenOffice.org"
+#~ msgid "/File/-"
+#~ msgstr "/Dosya/-"
 
-#~ msgid ""
-#~ "The proprietary driver for your graphic card can not be found, the system "
-#~ "is now using the free software driver (%s)."
+#~ msgid "/File/Save _As"
+#~ msgstr "/Dosya/_Farklı kaydet"
+
+#~ msgid "/File/_New"
+#~ msgstr "/Dosya/_Yeni"
+
+#~ msgid "/File/_Open"
+#~ msgstr "/Dosya/_Aç"
+
+#~ msgid "/File/_Quit"
+#~ msgstr "/Dosya/Çı_kış"
+
+#~ msgid "/File/_Save"
+#~ msgstr "/Dosya/_Kaydet"
+
+#~ msgid "/Help/_About..."
+#~ msgstr "/Yardım/_Hakkında..."
+
+#~ msgid "/Options/Test"
+#~ msgstr "/Ayarlar/Test"
+
+#~ msgid "/_About..."
+#~ msgstr "/_Hakkında..."
+
+#~ msgid "/_Fields description"
+#~ msgstr "/_Alan tanımlaması"
+
+#~ msgid "/_File"
+#~ msgstr "/_Dosya"
+
+#~ msgid "/_Help"
+#~ msgstr "/_Yardım"
+
+#~ msgid "/_Options"
+#~ msgstr "/_Ayarlar"
+
+#~ msgid "/_Quit"
+#~ msgstr "/_Çık"
+
+#~ msgid "/_Report Bug"
+#~ msgstr "/_Hata raporla"
+
+#~ msgid "<control>N"
+#~ msgstr "<control>Y"
+
+#~ msgid "<control>O"
+#~ msgstr "<control>A"
+
+#~ msgid "Autodetect _jaz drives"
+#~ msgstr "_jaz sürücülerini otomatik algıla"
+
+#~ msgid "Background color"
+#~ msgstr "Arkaplan rengi"
+
+#~ msgid "Bugs"
+#~ msgstr "Hatalar"
+
+#~ msgid "Choose picture"
+#~ msgstr "Resim seçin"
+
+#~ msgid "Choose progress bar background"
+#~ msgstr "İlerleme çubuğu arka planını seçin"
+
+#~ msgid "Choose progress bar color 1"
+#~ msgstr "İlerleme çubuğu 1. rengini seçin"
+
+#~ msgid "Choose progress bar color 2"
+#~ msgstr "İlerleme çubuğu 2. rengini seçin"
+
+#~ msgid "Choose text color"
+#~ msgstr "Metin rengini seçin"
+
+#~ msgid "Choose text zone color"
+#~ msgstr "Metin bölgesi rengini seçin"
+
+#~ msgid "Color selection"
+#~ msgstr "Renk seçimi"
+
+#~ msgid "Coma bug"
+#~ msgstr "Virgül hatası"
+
+#~ msgid "Configure authentication required to access Mandriva tools"
 #~ msgstr ""
-#~ "Ekran kartınız için tescilli bir sürücü bulunamadı. Sistem şu anda özgür "
-#~ "yazılım sürücüsü(%s) kullanıyor."
+#~ "Mandriva araçlarına erişebilmek için gerekli doğrulamayı yapılandırın"
+
+#~ msgid "Create new theme"
+#~ msgstr "Yeni tema oluştur"
+
+#~ msgid "Display logo on Console"
+#~ msgstr "Konsolda logoyu göster"
 
 #~ msgid ""
 #~ "Display theme\n"
@@ -3492,20 +3844,154 @@ msgstr "Dil ve Ülke yapılandırması"
 #~ "Konsol altında\n"
 #~ "temaları göster"
 
-#~ msgid "Create new theme"
-#~ msgstr "Yeni tema oluştur"
+#, fuzzy
+#~ msgid "DrakX Online"
+#~ msgstr "Mandriva Online"
 
-#~ msgid "X coordinate of text box"
-#~ msgstr "Metin kutusunun X koordinasyonu"
+#~ msgid ""
+#~ "Early Intel Pentium chips manufactured have a bug in their floating point "
+#~ "processor which did not achieve the required precision when performing a "
+#~ "Floating point DIVision (FDIV)"
+#~ msgstr ""
+#~ "Eski Intel Pentium çipler Floating point DIVision (FDIV) özelliğini "
+#~ "kullanırken gerekli işlemleri yapmaya engel olan bir hata ile "
+#~ "üretilmişlerdir."
 
-#~ msgid "Y coordinate of text box"
-#~ msgstr "Metim kutusunun Y koordinasyonu"
+#~ msgid "F00f bug"
+#~ msgstr "F00f hatası"
+
+#~ msgid "FPU"
+#~ msgstr "FPU"
+
+#~ msgid "Fdiv bug"
+#~ msgstr "Fdiv hatası"
+
+#~ msgid "File/-"
+#~ msgstr "Dosya/-"
+
+#~ msgid "File/Save _As"
+#~ msgstr "Dosya/_Farklı kaydet"
+
+#~ msgid "File/_New"
+#~ msgstr "Dosya/_Yeni"
+
+#~ msgid "File/_Open"
+#~ msgstr "Dosya/_Aç"
+
+#~ msgid "File/_Quit"
+#~ msgstr "Dosya/Çı_kış"
+
+#~ msgid "File/_Save"
+#~ msgstr "Dosya/_Kaydet"
+
+#~ msgid "Final resolution"
+#~ msgstr "Son çözünürlük"
+
+#~ msgid "Gradient type"
+#~ msgstr "Eğim türü"
+
+#~ msgid "Halt bug"
+#~ msgstr "Kapanma hatası"
+
+#~ msgid "Help/_About..."
+#~ msgstr "Yardım/_Hakkında..."
+
+#~ msgid ""
+#~ "Here you can see files to use in order to fix permissions, owners, and "
+#~ "groups via msec.\n"
+#~ "You can also edit your own rules which will owerwrite the default rules."
+#~ msgstr ""
+#~ "Burada, msec yoluyla yetkileri, sahipleri ve grupları düzeltmek amacıyla "
+#~ "kullanılacak dosyaları görebilirsiniz.\n"
+#~ "Ayrıca ön tanımlı kuralları değiştirerek kendi kurallarınızı da "
+#~ "düzenleyebilirsiniz."
+
+#~ msgid "Is FPU present"
+#~ msgstr "FPU mevcut mu ?"
+
+#~ msgid "Its GDB trace is:"
+#~ msgstr "GDB izi :"
+
+#~ msgid "Mandriva Linux Bug Report Tool"
+#~ msgstr "Mandriva Linux Hata Bildirme Aracı"
+
+#~ msgid "Mandriva Linux Tools Logs"
+#~ msgstr "Mandriva Linux Araçları Kayıtları"
+
+#~ msgid "Mandriva Update"
+#~ msgstr "Mandriva Güncelleme"
+
+#~ msgid "Moondrake"
+#~ msgstr "Moondrake"
+
+#~ msgid ""
+#~ "No Sound Card has been detected on your machine. Please verify that a "
+#~ "Linux-supported Sound Card is correctly plugged in"
+#~ msgstr ""
+#~ "Makinenizde hiçbir Ses Kartı algılanamadı. Lütfen, bilgisayarınıza Linux "
+#~ "destekli bir Ses Kartı takılı olduğundan emin olun."
+
+#~ msgid ""
+#~ "No TV Card has been detected on your machine. Please verify that a Linux-"
+#~ "supported Video/TV Card is correctly plugged in."
+#~ msgstr ""
+#~ "Makinenizde hiçbir TV Kartı algılanamadı. Lütfen, bilgisayarınıza Linux "
+#~ "destekli bir Video/TV Kartı takılı olduğundan emin olun."
+
+#~ msgid "OpenOffice.org"
+#~ msgstr "OpenOffice.org"
+
+#~ msgid "Options/Test"
+#~ msgstr "Ayarlar/Test"
+
+#~ msgid "Please enter a theme name"
+#~ msgstr "Lütfen bir tema ismi giriniz."
+
+#~ msgid "Please select a splash image"
+#~ msgstr "Lütfen bir açılış resmi seçin"
+
+#~ msgid "Progress Bar"
+#~ msgstr "İlerleme Çubuğu"
+
+#~ msgid "Progress box transparency"
+#~ msgstr "İlerleme çubuğu şeffaflığı"
+
+#~ msgid "Save theme"
+#~ msgstr "temayı kaydet"
+
+#~ msgid "Select Mandriva Tool:"
+#~ msgstr "Mandriva Aracı seçin:"
+
+#~ msgid "Silent bootsplash"
+#~ msgstr "Sessiz Başlangıç Ekranı"
+
+#~ msgid ""
+#~ "Some of the early i486DX-100 chips cannot reliably return to operating "
+#~ "mode after the \"halt\" instruction is used"
+#~ msgstr ""
+#~ "\"Durdur\" komutu kullanıldıktan sonra bazı eski i486DX-100 çipler tam "
+#~ "anlamıyla işleme kipine dönememektedirler."
+
+#~ msgid "Text"
+#~ msgstr "Metin"
+
+#~ msgid "Text box height"
+#~ msgstr "Metin kutusunun boyu"
+
+#~ msgid "Text box transparency"
+#~ msgstr "Metin kutusu şeffaflığı"
 
 #~ msgid "Text box width"
 #~ msgstr "Metin kutusu eni"
 
-#~ msgid "Text box height"
-#~ msgstr "Metin kutusunun boyu"
+#~ msgid "Text color"
+#~ msgstr "Metin rengi"
+
+#~ msgid "Text size"
+#~ msgstr "Metin boyutu"
+
+#~ msgid "The height of the progress bar"
+#~ msgstr "Gösterge çubuğunun boyu"
 
 #~ msgid ""
 #~ "The progress bar X coordinate\n"
@@ -3521,132 +4007,45 @@ msgstr "Dil ve Ülke yapılandırması"
 #~ "Gösterge çubuğunun sol\n"
 #~ "üst köşesinin y koordinatı"
 
+#~ msgid ""
+#~ "The proprietary driver for your graphic card can not be found, the system "
+#~ "is now using the free software driver (%s)."
+#~ msgstr ""
+#~ "Ekran kartınız için tescilli bir sürücü bulunamadı. Sistem şu anda özgür "
+#~ "yazılım sürücüsü(%s) kullanıyor."
+
 #~ msgid "The width of the progress bar"
 #~ msgstr "Gösterge çubuğunun genişliği"
-
-#~ msgid "The height of the progress bar"
-#~ msgstr "Gösterge çubuğunun boyu"
-
-#~ msgid "X coordinate of the text"
-#~ msgstr "Metnin X koordinasyonu"
-
-#~ msgid "Y coordinate of the text"
-#~ msgstr "Metnin Y koordinasyonu"
-
-#~ msgid "Text box transparency"
-#~ msgstr "Metin kutusu şeffaflığı"
-
-#~ msgid "Progress box transparency"
-#~ msgstr "İlerleme çubuğu şeffaflığı"
-
-#~ msgid "Text size"
-#~ msgstr "Metin boyutu"
-
-#~ msgid "Progress Bar"
-#~ msgstr "İlerleme Çubuğu"
-
-#~ msgid "Choose progress bar color 1"
-#~ msgstr "İlerleme çubuğu 1. rengini seçin"
-
-#~ msgid "Choose progress bar color 2"
-#~ msgstr "İlerleme çubuğu 2. rengini seçin"
-
-#~ msgid "Choose progress bar background"
-#~ msgstr "İlerleme çubuğu arka planını seçin"
-
-#~ msgid "Gradient type"
-#~ msgstr "Eğim türü"
-
-#~ msgid "Text"
-#~ msgstr "Metin"
-
-#~ msgid "Choose text color"
-#~ msgstr "Metin rengini seçin"
-
-#~ msgid "Choose picture"
-#~ msgstr "Resim seçin"
-
-#~ msgid "Silent bootsplash"
-#~ msgstr "Sessiz Başlangıç Ekranı"
-
-#~ msgid "Choose text zone color"
-#~ msgstr "Metin bölgesi rengini seçin"
-
-#~ msgid "Text color"
-#~ msgstr "Metin rengi"
-
-#~ msgid "Background color"
-#~ msgstr "Arkaplan rengi"
-
-#~ msgid "Verbose bootsplash"
-#~ msgstr "Kalabalık kip başlangıç ekranı"
 
 #~ msgid "Theme name"
 #~ msgstr "Tema adı"
 
-#~ msgid "Final resolution"
-#~ msgstr "Son çözünürlük"
-
-#~ msgid "Display logo on Console"
-#~ msgstr "Konsolda logoyu göster"
-
-#~ msgid "Save theme"
-#~ msgstr "temayı kaydet"
-
-#~ msgid "Please enter a theme name"
-#~ msgstr "Lütfen bir tema ismi giriniz."
-
-#~ msgid "Please select a splash image"
-#~ msgstr "Lütfen bir açılış resmi seçin"
-
-#~ msgid "saving Bootsplash theme..."
-#~ msgstr "Başlangıç ekranı teması kaydediliyor..."
-
 #~ msgid "Unable to load image file %s"
 #~ msgstr "%s resim dosyası yüklenemiyor"
 
-#~ msgid "choose image"
-#~ msgstr "görüntü seçin"
+#~ msgid "Unknown/Others"
+#~ msgstr "Bilinmeyen/Diğerleri"
 
-#~ msgid "Color selection"
-#~ msgstr "Renk seçimi"
-
-#~ msgid "Coma bug"
-#~ msgstr "Virgül hatası"
-
-#~ msgid "whether this cpu has the Cyrix 6x86 Coma bug"
-#~ msgstr "Eğer bu işlemci Cyrix 6x86 Virgül hatasını içermekteyse"
-
-#~ msgid "Fdiv bug"
-#~ msgstr "Fdiv hatası"
-
-#~ msgid ""
-#~ "Early Intel Pentium chips manufactured have a bug in their floating point "
-#~ "processor which did not achieve the required precision when performing a "
-#~ "Floating point DIVision (FDIV)"
-#~ msgstr ""
-#~ "Eski Intel Pentium çipler Floating point DIVision (FDIV) özelliğini "
-#~ "kullanırken gerekli işlemleri yapmaya engel olan bir hata ile "
-#~ "üretilmişlerdir."
-
-#~ msgid "Is FPU present"
-#~ msgstr "FPU mevcut mu ?"
-
-#~ msgid "yes means the processor has an arithmetic coprocessor"
-#~ msgstr ""
-#~ "evet, işlemcinin bir aritmetik yardımcı işlemcisi olduğu manasına gelir"
+#~ msgid "Verbose bootsplash"
+#~ msgstr "Kalabalık kip başlangıç ekranı"
 
 #~ msgid "Whether the FPU has an irq vector"
 #~ msgstr "FPU'da bir irq vektörü mevcut"
 
-#~ msgid ""
-#~ "yes means the arithmetic coprocessor has an exception vector attached"
-#~ msgstr ""
-#~ "evetin anlamı aritmetik yardımcı işlemcinin ekli vektör istisnasına sahip "
-#~ "olmasıdır."
+#~ msgid "X coordinate of text box"
+#~ msgstr "Metin kutusunun X koordinasyonu"
 
-#~ msgid "F00f bug"
-#~ msgstr "F00f hatası"
+#~ msgid "X coordinate of the text"
+#~ msgstr "Metnin X koordinasyonu"
+
+#~ msgid "Y coordinate of text box"
+#~ msgstr "Metim kutusunun Y koordinasyonu"
+
+#~ msgid "Y coordinate of the text"
+#~ msgstr "Metnin Y koordinasyonu"
+
+#~ msgid "choose image"
+#~ msgstr "görüntü seçin"
 
 #~ msgid ""
 #~ "early pentiums were buggy and freezed when decoding the F00F bytecode"
@@ -3654,21 +4053,18 @@ msgstr "Dil ve Ülke yapılandırması"
 #~ "eski pentium'larda birçok hatacıklar vardı ve F00F byte kodunu çözerken "
 #~ "kitleniyorlardı"
 
-#~ msgid "Halt bug"
-#~ msgstr "Kapanma hatası"
+#~ msgid "saving Bootsplash theme..."
+#~ msgstr "Başlangıç ekranı teması kaydediliyor..."
+
+#~ msgid "whether this cpu has the Cyrix 6x86 Coma bug"
+#~ msgstr "Eğer bu işlemci Cyrix 6x86 Virgül hatasını içermekteyse"
 
 #~ msgid ""
-#~ "Some of the early i486DX-100 chips cannot reliably return to operating "
-#~ "mode after the \"halt\" instruction is used"
+#~ "yes means the arithmetic coprocessor has an exception vector attached"
 #~ msgstr ""
-#~ "\"Durdur\" komutu kullanıldıktan sonra bazı eski i486DX-100 çipler tam "
-#~ "anlamıyla işleme kipine dönememektedirler."
+#~ "evetin anlamı aritmetik yardımcı işlemcinin ekli vektör istisnasına sahip "
+#~ "olmasıdır."
 
-#~ msgid "Bugs"
-#~ msgstr "Hatalar"
-
-#~ msgid "FPU"
-#~ msgstr "FPU"
-
-#~ msgid "Unknown/Others"
-#~ msgstr "Bilinmeyen/Diğerleri"
+#~ msgid "yes means the processor has an arithmetic coprocessor"
+#~ msgstr ""
+#~ "evet, işlemcinin bir aritmetik yardımcı işlemcisi olduğu manasına gelir"

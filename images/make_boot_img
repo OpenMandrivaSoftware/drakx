@@ -7,20 +7,18 @@ else
 fi
 
 initrd() {
-    if [ -n "$USE_LOCAL_STAGE1" ]; then
+    if [ "$USE_LOCAL_STAGE1" = "1" ]; then
 	stage1_root=../mdk-stage1
     else
 	stage1_root=/usr/$lib/drakx-installer/binaries
     fi
 
 
-    for dir in /dev /etc/sysconfig/network-scripts /etc/X11 /firmware /lib /media/cdrom \
+    for dir in /dev /etc/sysconfig/network-scripts /etc/X11 /lib /media/cdrom \
 	/media/floppy /mnt /proc /run /sbin /sys /tmp /var/lock/subsys /var/log /var/run \
 	/var/tmp /tmp/newroot /tmp/stage2; do
 	mkdir -p "$tmp_initrd$dir"
     done
-    ln -s ../modules "$tmp_initrd/lib/modules"
-    ln -s ../firmware "$tmp_initrd/lib/firmware"
     ln -s /proc/mounts "$tmp_initrd/etc/mtab"
     # XXX: drop
     ln -s ../tmp "$tmp_initrd/var/run/"
@@ -32,16 +30,17 @@ initrd() {
 	zcat /usr/share/ldetect-lst/$table.gz > "$tmp_initrd/usr/share/ldetect-lst/$table"
     done
     install /usr/share/pci.ids -D "$tmp_initrd/usr/share/pci.ids"
+    install /usr/share/usb.ids -D "$tmp_initrd/usr/share/usb.ids"
+
 
     for alias in /usr/share/ldetect-lst/{dkms-modules,fallback-modules}.alias /lib/module-init-tools/ldetect-lst-modules.alias; do
 	file="`basename $alias`"
 	install $alias -D "$tmp_initrd/usr/share/ldetect-lst/$file"
     done
 
-    for firm in all.kernels$I/$img/firmware/*; do
-	file="`basename $firm`"
-	cp -a "$firm" "$tmp_initrd/firmware/$file"
-    done
+
+    # Make it available for use as ~bootsplash as well :o)
+    linux_logo -l > $tmp_initrd/usr/share/moondrake.logo
 
     cat > "$tmp_initrd/etc/issue" <<EOF
 `linux_logo -l`
@@ -50,12 +49,14 @@ initrd() {
 
     $DISTRIB_DESCR
 
-    Use [1;33;40mloadkeys[0m to change your keyboard layout (eg: loadkeys fr)
-    Use [1;33;40mmodprobe[0m to load modules (eg: modprobe snd-card-fm801)
+    Use [1;33;40mloadkeys[0m to change your keyboard layout (eg: loadkeys no-latin1)
+    Use [1;33;40mmodprobe[0m to load modules (eg: modprobe e1000)
     Use [1;33;40mdrvinst[0m to install drivers according to detected devices
     Use [1;33;40mblkid[0m to list your partitions with types
     Use [1;33;40mstartssh[0m to start an ssh daemon
     Use [1;33;40mrescue-gui[0m to go back to the rescue menu
+    Use [1;33;40mgrabjournallogs[0m to grab the last 24 hours of journal logs
+
 
 EOF
 
@@ -76,16 +77,18 @@ EOF
 	    install -m755 tree/lib/mdev/usbdisk_link	-D $tmp_initrd/lib/mdev/usbdisk_link
 	fi
 
-	for bin in `$tmp_initrd/usr/bin/busybox --list-full`; do
+	ln -s rc.d/init.d $tmp_initrd/etc/init.d
+
+	for bin in `$tmp_initrd/bin/busybox --list-full`; do
 	    dir="`dirname \"$tmp_initrd/$bin\"`"
 	    if [ ! -d "$dir" ]; then
 		mkdir -p $dir
 	    fi
-	    ln -v "$tmp_initrd/usr/bin/busybox" "$tmp_initrd/$bin";
+	    ln -v "$tmp_initrd/bin/busybox" "$tmp_initrd/$bin";
 	done
 	install -m755 "$stage1_root/stage1" -D "$tmp_initrd/sbin/stage1"
 
-	for hardlink in /bin/lspcidrake /bin/rescue-gui /sbin/drvinst \
+	for hardlink in /bin/lspcidrake /bin/rescue-gui /sbin/drvinst /sbin/reboot \
 	    /sbin/probe-modules /usr/bin/serial_probe /sbin/consoletype; do
 	ln -v "$tmp_initrd/sbin/stage1" "$tmp_initrd$hardlink"
     done
@@ -101,12 +104,19 @@ EOF
 
     # XXX: prevent this from being added to begin with
     rm -rf "$tmp_initrd/usr/share/locale/"
+    rm -rf "$tmp_initrd/usr/lib/locale"
 
     for f in `find "$tmp_initrd"`; do
 	if [ -n "`file \"$f\"|grep 'not stripped'`" ]; then
 	    strip "$f"
 	fi
     done
+    
+    echo "Prelinking files"
+    sed -e "s# /# $tmp_initrd/#g" /etc/prelink.conf > ucdrakx-prelink.conf
+    /usr/sbin/prelink -a -N -c ucdrakx-prelink.conf
+    rm ucdrakx-prelink.conf
+
 
     # ka deploy need some files in all.rdz 
 
@@ -122,17 +132,16 @@ EOF
     #	}
     #    }
     if [ -z "$COMPRESS" ]; then
-	COMPRESS="xz --x86 --lzma2 -v9e --check=crc32"
+	COMPRESS="xz -T0 --x86 --lzma2 -v9e --check=crc32"
     fi
 
     mkdir -p "`dirname \"$img\"`"
-    (cd "$tmp_initrd"; find . | cpio -o -H newc --quiet) | $COMPRESS > "$img"
+    (cd "$tmp_initrd"; find . | gcpio -o -H newc --quiet --owner=root:root) | $COMPRESS > "$img"
 }
 
 modules() {
     out=$1
     I=$2
-    mkdir -p "$tmp_initrd/modules"
     modz="all.kernels/$I";
     mkdir -p "$tmp_initrd/lib/modules/$I"
     tar xC "$tmp_initrd/lib/modules/$I" -f "$modz/all_modules.tar"
@@ -145,21 +154,41 @@ modules() {
     cp -f $modz/modules.alias "$tmp_initrd/lib/modules/$I";
 
     if [ -z "$COMPRESS" ]; then
-	    COMPRESS="xz --lzma2 -v9e --check=crc32"
+	    COMPRESS="xz -T0 --lzma2 -v9e --check=crc32"
     fi
 
     mkdir -p "`dirname \"$out\"`"
-    (cd "$tmp_initrd"; find . | cpio -o -H newc --quiet) | $COMPRESS > "$out"
+    (cd "$tmp_initrd"; find . | gcpio -o -H newc --quiet --owner=root:root) | $COMPRESS > "$out"
+    rm -rf "$tmp_initrd"
+}
+
+firmware() {
+    out="$1"
+    rm -rf "$tmp_initrd"
+    kernel=`head all.kernels/.list`
+
+    mkdir -p "$tmp_initrd/lib/firmware"
+    for firm in all.kernels/$kernel/firmware/*; do
+	file="`basename $firm`"
+	cp -a "$firm" "$tmp_initrd/lib/firmware/$file"
+    done
+
+    if [ -z "$COMPRESS" ]; then
+	COMPRESS="xz -T0 --lzma2 -v9e --check=crc32"
+    fi
+
+    (cd "$tmp_initrd"; find . | gcpio -o -H newc --quiet --owner=root:root) | $COMPRESS > "$out"
     rm -rf "$tmp_initrd"
 }
 
 grub() {
     dir=$1
     install -m644 grub_data/grub.cfg -D "$dir/boot/grub/grub.cfg"
-    install -d "$dir/boot/grub/themes"
-    cp -a /boot/grub2/themes/OpenMandriva "$dir/boot/grub/themes/OpenMandriva"
-    mkdir -p "$dir/boot/grub/fonts/"
-    grub2-mkfont --verbose -b --size=18 -o "$dir/boot/grub/fonts/dejavu.pf2" /usr/share/fonts/TTF/liberation/LiberationSans-Bold.ttf
+    install -d "$dir/boot/grub/themes/Moondrake"
+    cp -a /boot/grub2/themes/Moondrake/*png "$dir/boot/grub/themes/Moondrake"
+    cp -a /boot/grub2/themes/Moondrake/*pf2 "$dir/boot/grub/themes/Moondrake"
+    CODENAME="$(cat /etc/os-release|grep VERSION=|sed -e 's#.*(\(.*\)).*#\1#g')"
+    sed -e "s#\(title-text: \"\)#\1$CODENAME#g" /boot/grub2/themes/Moondrake/theme.txt > "$dir/boot/grub/themes/Moondrake/theme.txt"
 
     if [ ! -s all.kernels/.list ]; then
 	    echo grub: no kernel >&2
@@ -176,7 +205,7 @@ grub() {
 	fi
     done
 
-    install -m644 /boot/memtest.bin -D $dir/boot/memtest.bin
+    install -m644 /boot/memtest86+.elf -D $dir/boot/memtest
 }
 
 boot_iso() {
@@ -184,7 +213,7 @@ boot_iso() {
     LC_ALL=C date -u > grub/VERSION
     cat all.kernels/.list >> grub/VERSION
    
-    grub2-mkrescue -o $out grub
+    grub2-mkrescue --compress=xz --themes='' -o $out grub
 }
 
 img="$1"
@@ -200,6 +229,8 @@ elif [ "$filename" = "modules.cpio.xz" ]; then
     for I in `cat all.kernels/.list`; do
     	modules $1 $I
     done
+elif [ "$filename" = "firmware.cpio.xz" ]; then
+    firmware "$1"
 elif [ "$filename" = "grub" ]; then
     grub $1
 elif [ "$filename" = "boot.iso" ]; then

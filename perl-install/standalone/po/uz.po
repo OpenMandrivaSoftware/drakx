@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: uz\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-22 00:53+0100\n"
+"POT-Creation-Date: 2015-02-18 12:28+0100\n"
 "PO-Revision-Date: 2007-09-26 23:16+0200\n"
 "Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
 "Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
@@ -18,145 +18,145 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: display_help:54 display_help:59 drakbug:170 drakperm:134
+#: display_help:53 display_help:58 drakbug:173 drakperm:134
 #, c-format
 msgid "Help"
 msgstr "Yordam"
 
-#: display_help:67 drakbug:175 drakfont:505
+#: display_help:66 drakbug:178 drakfont:507
 #, c-format
 msgid "Close"
 msgstr "Yopish"
 
-#: drakauth:24 drakauth:26 draksec:162
+#: drakauth:24 drakauth:26 draksec:184
 #, c-format
 msgid "Authentication"
 msgstr "Tasdiqlash"
 
-#: drakauth:37 drakclock:113 drakclock:138 drakdvb:74 drakfont:211
-#: drakfont:224 drakfont:262 finish-install:131 logdrake:174 logdrake:449
-#: logdrake:454 scannerdrake:56 scannerdrake:98 scannerdrake:139
+#: drakauth:37 drakclock:117 drakclock:142 drakdvb:74 drakfont:213
+#: drakfont:226 drakfont:264 finish-install:133 logdrake:177 logdrake:453
+#: logdrake:458 scannerdrake:56 scannerdrake:98 scannerdrake:139
 #: scannerdrake:197 scannerdrake:256 scannerdrake:726 scannerdrake:737
 #: scannerdrake:876 scannerdrake:887 scannerdrake:957
 #, c-format
 msgid "Error"
 msgstr "Xato"
 
-#: drakboot:53
+#: drakboot:54
 #, c-format
 msgid "No bootloader found, creating a new configuration"
 msgstr ""
 
-#: drakboot:86 harddrake2:195 harddrake2:196 logdrake:75
+#: drakboot:89 harddrake2:191 logdrake:77
 #, c-format
-msgid "/_File"
-msgstr "/_Fayl"
+msgid "_File"
+msgstr "_Fayl"
 
-#: drakboot:87 logdrake:81
+#: drakboot:90 harddrake2:192 logdrake:78 logdrake:79
 #, c-format
-msgid "/File/_Quit"
-msgstr "/Fayl/Chi_qish"
+msgid "_Quit"
+msgstr "Chi_qish"
 
-#: drakboot:87 harddrake2:196 logdrake:81
+#: drakboot:90 harddrake2:192 logdrake:79
 #, c-format
 msgid "<control>Q"
 msgstr "<control>Cyrillic_CHE"
 
-#: drakboot:127
+#: drakboot:138
 #, c-format
 msgid "Text only"
 msgstr "Faqat matn"
 
-#: drakboot:128
+#: drakboot:139
 #, c-format
 msgid "Verbose"
 msgstr "Batafsil maʼlumot bilan"
 
-#: drakboot:129
+#: drakboot:140
 #, c-format
 msgid "Silent"
 msgstr "Batafsil maʼlumotsiz"
 
-#: drakboot:135 drakbug:247 drakdvb:57 drakfont:681 drakperm:374 drakperm:384
-#: drakups:26 harddrake2:528 localedrake:45 scannerdrake:48 scannerdrake:51
+#: drakboot:146 drakbug:250 drakdvb:57 drakfont:682 drakperm:371 drakperm:381
+#: drakups:27 harddrake2:504 localedrake:45 scannerdrake:48 scannerdrake:51
 #: scannerdrake:294 scannerdrake:299 scannerdrake:951
 #, c-format
 msgid "Warning"
 msgstr "Diqqat"
 
-#: drakboot:136
+#: drakboot:147
 #, c-format
 msgid ""
 "Your system bootloader is not in framebuffer mode. To activate graphical "
 "boot, select a graphic video mode from the bootloader configuration tool."
 msgstr ""
 
-#: drakboot:137
+#: drakboot:148
 #, c-format
 msgid "Do you want to configure it now?"
 msgstr "Uni moslashni istaysizmi?"
 
-#: drakboot:146
+#: drakboot:157
 #, c-format
 msgid "Install themes"
 msgstr "Mavzularni oʻrnatish"
 
-#: drakboot:148
+#: drakboot:159
 #, c-format
 msgid "Graphical boot theme selection"
 msgstr ""
 
-#: drakboot:151
+#: drakboot:162
 #, c-format
 msgid "Graphical boot mode:"
 msgstr "Grafik usulda yuklash:"
 
-#: drakboot:153
+#: drakboot:164
 #, c-format
 msgid "Theme"
 msgstr "Mavzu"
 
-#: drakboot:187
+#: drakboot:198
 #, c-format
 msgid "Default user"
 msgstr "Andoza foydalanuvchi"
 
-#: drakboot:188
+#: drakboot:199
 #, c-format
 msgid "Default desktop"
 msgstr "Andoza ish stoli"
 
-#: drakboot:191
+#: drakboot:202
 #, c-format
 msgid "No, I do not want autologin"
 msgstr "Yoʻq, tizimga avtomatik ravishda kirishni istamayman"
 
-#: drakboot:192
+#: drakboot:203
 #, c-format
 msgid "Yes, I want autologin with this (user, desktop)"
 msgstr "Ha, tizimga avtomatik ravishda kirishni istayman"
 
-#: drakboot:199
+#: drakboot:210
 #, c-format
 msgid "System mode"
 msgstr "Tizimning usuli"
 
-#: drakboot:202
+#: drakboot:213
 #, c-format
 msgid "Launch the graphical environment when your system starts"
 msgstr "Tizim yuklanayotganda grafik muhitini ishga tushirish"
 
-#: drakboot:257
+#: drakboot:268
 #, c-format
 msgid "Boot Style Configuration"
 msgstr "Tizimni yukash uslubini moslash"
 
-#: drakboot:259 drakboot:263
+#: drakboot:270 drakboot:274
 #, c-format
 msgid "Video mode"
 msgstr "Video usuli"
 
-#: drakboot:260
+#: drakboot:271
 #, c-format
 msgid ""
 "Please choose a video mode, it will be applied to each of the boot entries "
@@ -169,15 +169,15 @@ msgstr ""
 msgid "The \"%s\" program has crashed with the following error:"
 msgstr ""
 
-#: drakbug:60
+#: drakbug:62
 #, fuzzy, c-format
-msgid "OpenMandriva Lx Bug Reporting"
-msgstr "OpenMandriva Lx uchun xato haqida xabar qiluvchi vosita"
+msgid "DrakX Bug Report Tool"
+msgstr "Moondrake uchun xato haqida xabar qiluvchi vosita"
 
-#: drakbug:65
-#, c-format
-msgid "OpenMandriva Lx Control Center"
-msgstr "OpenMandriva Lx boshqaruv markazi"
+#: drakbug:67
+#, fuzzy, c-format
+msgid "DrakX Linux Control Center"
+msgstr "Mandriva Linux boshqaruv markazi"
 
 #: drakbug:66
 #, c-format
@@ -194,10 +194,15 @@ msgstr "Tenglashtirish asbobi"
 msgid "Standalone Tools"
 msgstr ""
 
-#: drakbug:70 drakbug:71
+#: drakbug:72 drakbug:73
 #, fuzzy, c-format
-msgid "OpenMandriva Online"
-msgstr "Mandriva Online"
+msgid "%s Online"
+msgstr "Moondrake Online"
+
+#: drakbug:72 drakbug:73 drakbug:99 draksec:169
+#, fuzzy, c-format
+msgid "DrakX"
+msgstr "DrakUPS"
 
 #: drakbug:72
 #, c-format
@@ -219,9 +224,9 @@ msgstr ""
 msgid "Configuration Wizards"
 msgstr "Moslash yordamchilari"
 
-#: drakbug:97
+#: drakbug:99
 #, fuzzy, c-format
-msgid "Select Tool:"
+msgid "Select %s Tool:"
 msgstr "Hammasini tanlash"
 
 #: drakbug:98
@@ -322,27 +327,27 @@ msgstr ""
 msgid "Thanks."
 msgstr ""
 
-#: drakclock:28 draksec:168
+#: drakclock:29 draksec:190
 #, c-format
 msgid "Date, Clock & Time Zone Settings"
 msgstr "Sana va soat moslamalari"
 
-#: drakclock:37
+#: drakclock:38
 #, c-format
 msgid "not defined"
 msgstr "aniqlanmagan"
 
-#: drakclock:39
+#: drakclock:40
 #, c-format
 msgid "Change Time Zone"
 msgstr "Vaqt zonasini oʻzgartirish"
 
-#: drakclock:44
+#: drakclock:45
 #, c-format
 msgid "Timezone - DrakClock"
 msgstr "Vaqt zonasi - DrakClock"
 
-#: drakclock:44
+#: drakclock:45
 #, c-format
 msgid "Which is your timezone?"
 msgstr "Vaqt zonangizni tanlang?"
@@ -357,54 +362,54 @@ msgstr "GMT - DrakClock"
 msgid "Is your hardware clock set to GMT?"
 msgstr ""
 
-#: drakclock:72
+#: drakclock:75
 #, c-format
 msgid "Network Time Protocol"
 msgstr ""
 
-#: drakclock:74
+#: drakclock:77
 #, c-format
 msgid ""
 "Your computer can synchronize its clock\n"
 " with a remote time server using NTP"
 msgstr ""
 
-#: drakclock:75
+#: drakclock:78
 #, c-format
 msgid "Enable Network Time Protocol"
 msgstr ""
 
-#: drakclock:83
+#: drakclock:86
 #, c-format
 msgid "Server:"
 msgstr "Server:"
 
-#: drakclock:97
+#: drakclock:100
 #, c-format
 msgid "Timezone"
 msgstr "Vaqt zonasi"
 
-#: drakclock:113
+#: drakclock:117
 #, c-format
 msgid "Please enter a valid NTP server address."
 msgstr "Iltimos mavjud NTP server manzilini kiriting."
 
-#: drakclock:139
+#: drakclock:143
 #, c-format
 msgid "Could not synchronize with %s."
 msgstr ""
 
-#: drakclock:140 drakdvb:149 logdrake:179 scannerdrake:488
+#: drakclock:144 drakdvb:149 logdrake:182 scannerdrake:488
 #, c-format
 msgid "Quit"
 msgstr "Chiqish"
 
-#: drakclock:141
+#: drakclock:145
 #, c-format
 msgid "Retry"
 msgstr "Qaytadan urinish"
 
-#: drakclock:166 drakclock:176
+#: drakclock:168 drakclock:178
 #, c-format
 msgid "Reset"
 msgstr "Tiklash"
@@ -429,10 +434,10 @@ msgstr ""
 msgid "Could not get the list of available channels"
 msgstr ""
 
-#: drakdvb:80 draksec:67 drakups:98 finish-install:106 harddrake2:374
+#: drakdvb:80 draksec:69 drakups:99 finish-install:106 harddrake2:358
 #: scannerdrake:63 scannerdrake:67 scannerdrake:75 scannerdrake:316
 #: scannerdrake:365 scannerdrake:501 scannerdrake:505 scannerdrake:527
-#: service_harddrake:423
+#: service_harddrake:426
 #, c-format
 msgid "Please wait"
 msgstr "Iltimos kutib turing"
@@ -442,7 +447,7 @@ msgstr "Iltimos kutib turing"
 msgid "Detecting DVB channels, this will take a few minutes"
 msgstr ""
 
-#: drakdvb:85 drakfont:571 drakfont:651 drakfont:735 drakups:216 logdrake:179
+#: drakdvb:85 drakfont:571 drakfont:651 drakfont:736 drakups:217 logdrake:182
 #, c-format
 msgid "Cancel"
 msgstr "Bekor qilish"
@@ -474,20 +479,25 @@ msgstr "GDM (GNOME grafik kirish boshqaruvchisi)"
 
 #: drakedm:43
 #, fuzzy, c-format
+msgid "LIGHTDM (LightDM Display Manager)"
+msgstr "GDM (GNOME grafik kirish boshqaruvchisi)"
+
+#: drakedm:44
+#, fuzzy, c-format
 msgid "SLIM (Simple Display Manager)"
 msgstr "XDM (X Display Manager)"
 
-#: drakedm:44
+#: drakedm:45
 #, c-format
 msgid "XDM (X Display Manager)"
 msgstr "XDM (X Display Manager)"
 
-#: drakedm:55
+#: drakedm:56
 #, c-format
 msgid "Choosing a display manager"
 msgstr "Displey boshqaruvchisini tanlash"
 
-#: drakedm:56
+#: drakedm:57
 #, c-format
 msgid ""
 "X11 Display Manager allows you to graphically log\n"
@@ -495,13 +505,13 @@ msgid ""
 "several different X sessions on your local machine at the same time."
 msgstr ""
 
-#: drakedm:79
+#: drakedm:80
 #, c-format
 msgid "The change is done, do you want to restart the dm service?"
 msgstr ""
 "Oʻzgarishlar qoʻllandi, dm xizmatini boshqadan ishga tushirishni istaysizmi?"
 
-#: drakedm:80
+#: drakedm:81
 #, c-format
 msgid ""
 "You are going to close all running programs and lose your current session. "
@@ -619,7 +629,7 @@ msgstr "Shriftlarni oʻrnatish"
 msgid "DrakFont"
 msgstr "DrakFont"
 
-#: drakfont:489 drakfont:641
+#: drakfont:491 drakfont:641
 #, c-format
 msgid "Font List"
 msgstr "Shriftlarning roʻyxati"
@@ -634,12 +644,12 @@ msgstr ""
 msgid "About"
 msgstr "Haqida"
 
-#: drakfont:499 drakfont:540
+#: drakfont:501 drakfont:540
 #, c-format
 msgid "Options"
 msgstr "Parametrlar"
 
-#: drakfont:500 drakfont:720
+#: drakfont:502 drakfont:721
 #, c-format
 msgid "Uninstall"
 msgstr "Oʻchirish"
@@ -654,9 +664,9 @@ msgstr "Import qilish"
 msgid "Drakfont"
 msgstr "Drakfont"
 
-#: drakfont:521 harddrake2:229
-#, fuzzy, c-format
-msgid "Copyright (C) %s by OpenMandriva"
+#: drakfont:523
+#, c-format
+msgid "Copyright (C) %s by Mandriva"
 msgstr "Copyright (C) %s by Mandriva"
 
 #: drakfont:523
@@ -664,14 +674,14 @@ msgstr "Copyright (C) %s by Mandriva"
 msgid "Font installer."
 msgstr "Shrift oʻrnatgich."
 
-#: drakfont:525 logdrake:55
-#, c-format
-msgid "OpenMandriva Lx"
-msgstr "OpenMandriva Lx"
+#: drakfont:527
+#, fuzzy, c-format
+msgid "Moondrake GNU/Linux"
+msgstr "Mandriva Linux"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
-#: drakfont:532 harddrake2:238
+#: drakfont:532 harddrake2:531
 #, c-format
 msgid "_: Translator(s) name(s) & email(s)\n"
 msgstr "Mashrab Quvatov <kmashrab@uni-bremen.de>\n"
@@ -701,7 +711,7 @@ msgstr "Abiword"
 msgid "Generic Printers"
 msgstr "Andoza printerlar"
 
-#: drakfont:561 drakfont:571 drakups:209
+#: drakfont:561 drakfont:571 drakups:210
 #, c-format
 msgid "Ok"
 msgstr "Ok"
@@ -722,17 +732,17 @@ msgstr "Faylni tanlash"
 msgid "Fonts"
 msgstr "Shriftlar"
 
-#: drakfont:639 draksec:164
+#: drakfont:639 draksec:186
 #, c-format
 msgid "Import fonts"
 msgstr "Shriftlarni import qilish"
 
-#: drakfont:645 drakups:298 drakups:374
+#: drakfont:645 drakups:299 drakups:375
 #, c-format
 msgid "Add"
 msgstr "Qoʻshish"
 
-#: drakfont:646 drakfont:734 drakups:300 drakups:376
+#: drakfont:646 drakfont:735 drakups:301 drakups:377
 #, c-format
 msgid "Remove"
 msgstr "Olib tashlash"
@@ -742,67 +752,67 @@ msgstr "Olib tashlash"
 msgid "Install"
 msgstr "Oʻrnatish"
 
-#: drakfont:683
+#: drakfont:684
 #, c-format
 msgid "Are you sure you want to uninstall the following fonts?"
 msgstr ""
 
-#: drakfont:687 draksec:57 harddrake2:319
+#: drakfont:688 draksec:59 harddrake2:302
 #, c-format
 msgid "Yes"
 msgstr "Ha"
 
-#: drakfont:689 draksec:56 harddrake2:320
+#: drakfont:690 draksec:58 harddrake2:303
 #, c-format
 msgid "No"
 msgstr "Yoʻq"
 
-#: drakfont:728
+#: drakfont:729
 #, c-format
 msgid "Unselect All"
 msgstr "Hech qaysi tanlanmasin"
 
-#: drakfont:731
+#: drakfont:732
 #, c-format
 msgid "Select All"
 msgstr "Hammasini tanlash"
 
-#: drakfont:748
+#: drakfont:749
 #, c-format
 msgid "Importing fonts"
 msgstr "Shriftlar import qilinmoqda"
 
-#: drakfont:752 drakfont:772
+#: drakfont:753 drakfont:773
 #, c-format
 msgid "Initial tests"
 msgstr "Boshlangʻich sinovlar"
 
-#: drakfont:753
+#: drakfont:754
 #, c-format
 msgid "Copy fonts on your system"
 msgstr "Tizimga shriftlardan nusxa koʻchirish"
 
-#: drakfont:754
+#: drakfont:755
 #, c-format
 msgid "Install & convert Fonts"
 msgstr "Shriftlarni oʻrnatish va aylantirish"
 
-#: drakfont:755
+#: drakfont:756
 #, c-format
 msgid "Post Install"
 msgstr "Oʻrnatishdan keyin amallar"
 
-#: drakfont:767
+#: drakfont:768
 #, fuzzy, c-format
 msgid "Removing fonts"
 msgstr "Shriftlar import qilinmoqda"
 
-#: drakfont:773
+#: drakfont:774
 #, c-format
 msgid "Remove fonts on your system"
 msgstr "Tizimdan shriftlarni olib tashlash"
 
-#: drakfont:774
+#: drakfont:775
 #, c-format
 msgid "Post Uninstall"
 msgstr ""
@@ -876,22 +886,22 @@ msgstr "Xavfsizlik huquqlari"
 msgid "Editable"
 msgstr "Tahrirlab boʻladi"
 
-#: drakperm:48 drakperm:318
+#: drakperm:50 drakperm:318
 #, c-format
 msgid "Path"
 msgstr "Yoʻl"
 
-#: drakperm:48 drakperm:247
+#: drakperm:50 drakperm:247
 #, c-format
 msgid "User"
 msgstr "Foydalanuvchi"
 
-#: drakperm:48 drakperm:247
+#: drakperm:50 drakperm:247
 #, c-format
 msgid "Group"
 msgstr "Guruh"
 
-#: drakperm:48 drakperm:107 drakperm:330 draksec:179
+#: drakperm:50 drakperm:107 drakperm:330 draksec:201
 #, c-format
 msgid "Permissions"
 msgstr "Huquqlar"
@@ -901,7 +911,7 @@ msgstr "Huquqlar"
 msgid "Add a new rule"
 msgstr "Qoidani qoʻshish"
 
-#: drakperm:65 drakperm:100 drakperm:126
+#: drakperm:67 drakperm:102 drakperm:126
 #, c-format
 msgid "Edit current rule"
 msgstr "Joriy qoidani tuzatish"
@@ -911,7 +921,7 @@ msgstr "Joriy qoidani tuzatish"
 msgid ""
 "Here you can see files to use in order to fix permissions, owners, and "
 "groups via msec.\n"
-"You can also edit your own rules which will owerwrite the default rules."
+"You can also edit your own rules which will overwrite the default rules."
 msgstr ""
 
 #: drakperm:110
@@ -963,7 +973,7 @@ msgstr "Oʻchirish"
 msgid "Delete selected rule"
 msgstr "Belgilangan qoidani oʻchirish"
 
-#: drakperm:126 drakups:299 drakups:375
+#: drakperm:126 drakups:300 drakups:376
 #, c-format
 msgid "Edit"
 msgstr "Tahrirlash"
@@ -1091,24 +1101,24 @@ msgstr "Yoʻlni tanlash"
 msgid "Property"
 msgstr "Egalik"
 
-#: drakperm:374
+#: drakperm:371
 #, c-format
 msgid ""
 "The first character of the path must be a slash (\"/\"):\n"
 "\"%s\""
 msgstr ""
 
-#: drakperm:384
+#: drakperm:381
 #, c-format
 msgid "Both the username and the group must valid!"
 msgstr ""
 
-#: drakperm:385
+#: drakperm:382
 #, c-format
 msgid "User: %s"
 msgstr "Foydalanuvchi: %s"
 
-#: drakperm:386
+#: drakperm:383
 #, c-format
 msgid "Group: %s"
 msgstr "Guruh: %s"
@@ -1128,7 +1138,7 @@ msgstr "LOKAL"
 msgid "NONE"
 msgstr "YOʻQ"
 
-#: draksec:54
+#: draksec:56 draksec:113
 #, c-format
 msgid "Default"
 msgstr "Andoza"
@@ -1145,145 +1155,145 @@ msgstr "Tekshirish va xavfsizlik darajasi"
 
 #: draksec:108
 #, c-format
-msgid "Configure access to OpenMandriva Lx administrative tools"
+msgid "Configure authentication required to access DrakX tools"
 msgstr ""
 
-#: draksec:111
+#: draksec:114
 #, c-format
 msgid "No password needed"
 msgstr "Maxfiy soʻzsiz"
 
-#: draksec:112
+#: draksec:115
 #, c-format
-msgid "Root password required"
+msgid "Administrator password"
 msgstr "Administratorning maxfiy soʻzi"
 
-#: draksec:113
+#: draksec:116
 #, c-format
 msgid "User password required"
 msgstr "Foydalanuvchining maxfiy soʻzi"
 
-#: draksec:146 draksec:202
+#: draksec:168 draksec:223
 #, c-format
 msgid "Software Management"
 msgstr "Dasturlar boshqaruvi"
 
-#: draksec:147
+#: draksec:169
 #, fuzzy, c-format
-msgid "Online Update"
-msgstr "Mandriva tizimini yangilash"
+msgid "%s Update"
+msgstr "Moondrake tizimini yangilash"
 
-#: draksec:148
+#: draksec:170
 #, c-format
 msgid "Software Media Manager"
 msgstr "Dasturlar toʻplamini boshqaruvchi"
 
-#: draksec:149
+#: draksec:171
 #, c-format
 msgid "Configure 3D Desktop effects"
 msgstr "3D ish stoli effektlarini moslash"
 
-#: draksec:150
+#: draksec:172
 #, c-format
 msgid "Graphical Server Configuration"
 msgstr "Grafik serverini moslash"
 
-#: draksec:151
+#: draksec:173
 #, c-format
 msgid "Mouse Configuration"
 msgstr "Sichqonchani moslash"
 
-#: draksec:152
+#: draksec:174
 #, c-format
 msgid "Keyboard Configuration"
 msgstr "Tugmatagni moslash"
 
-#: draksec:153
+#: draksec:175
 #, fuzzy, c-format
 msgid "Printer Configuration"
 msgstr "Proksining moslamalari"
 
-#: draksec:154
+#: draksec:176
 #, c-format
 msgid "UPS Configuration"
 msgstr "UPS tizimini moslash"
 
-#: draksec:155
+#: draksec:177
 #, c-format
 msgid "Network Configuration"
 msgstr "Tarmoqni moslash"
 
-#: draksec:156
+#: draksec:178
 #, c-format
 msgid "Hosts definitions"
 msgstr "Shu kompyuterga maʼlum boʻlgan xost nomlarini moslash"
 
-#: draksec:157
+#: draksec:179
 #, c-format
 msgid "Network Center"
 msgstr "Tarmoq markazi"
 
-#: draksec:158
+#: draksec:180
 #, c-format
 msgid "Wireless Network Roaming"
 msgstr ""
 
-#: draksec:159
+#: draksec:181
 #, c-format
 msgid "VPN"
 msgstr "VPN"
 
-#: draksec:160
+#: draksec:182
 #, c-format
 msgid "Proxy Configuration"
 msgstr "Proksining moslamalari"
 
-#: draksec:161
+#: draksec:183
 #, c-format
 msgid "Connection Sharing"
 msgstr "Aloqa bilan boʻlishish"
 
-#: draksec:163
+#: draksec:185
 #, c-format
 msgid "Backups"
 msgstr "Zahira"
 
-#: draksec:165 logdrake:56
+#: draksec:187 logdrake:56
 #, c-format
 msgid "Logs"
 msgstr "Loglar"
 
-#: draksec:166 finish-install:210 finish-install:249
+#: draksec:188 finish-install:212 finish-install:251
 #, c-format
 msgid "Services"
 msgstr "Xizmatlar"
 
-#: draksec:167
+#: draksec:189
 #, c-format
 msgid "Users"
 msgstr "Foydalanuvchilar"
 
-#: draksec:169
+#: draksec:191
 #, c-format
 msgid "Boot Configuration"
 msgstr "Yuklanishni moslash"
 
-#: draksec:203
+#: draksec:224
 #, c-format
 msgid "Hardware"
 msgstr "Asbob-uskunalar"
 
-#: draksec:204
+#: draksec:225
 #, c-format
 msgid "Network"
 msgstr "Tarmoq"
 
-#: draksec:205
+#: draksec:226
 #, c-format
 msgid "System"
 msgstr "Tizim"
 
-#: draksec:206
+#: draksec:227
 #, c-format
 msgid "Boot"
 msgstr "Tizimni yuklash"
@@ -1360,12 +1370,12 @@ msgstr ""
 msgid "Autodetection"
 msgstr "Avto-aniqlash"
 
-#: drakups:98 harddrake2:374
+#: drakups:99 harddrake2:358
 #, c-format
 msgid "Detection in progress"
 msgstr "Aniqlash ketayapti"
 
-#: drakups:117 drakups:156 logdrake:461 logdrake:467
+#: drakups:118 drakups:157 logdrake:465 logdrake:471
 #, c-format
 msgid "Congratulations"
 msgstr "Tabriklaymiz!"
@@ -1498,7 +1508,7 @@ msgstr "Daraja"
 msgid "ACL name"
 msgstr "ACL nomi"
 
-#: drakups:296 finish-install:258
+#: drakups:297 finish-install:260
 #, c-format
 msgid "Password"
 msgstr "Maxfiy soʻz"
@@ -1543,7 +1553,7 @@ msgid "Keyboard"
 msgstr "Tugmatagni oʻrnatish va moslash"
 
 #: finish-install:58
-#, fuzzy, c-format
+#, c-format
 msgid "Please choose your keyboard layout."
 msgstr "Iltimos tugmalar tartibini tanlang."
 
@@ -1552,57 +1562,62 @@ msgstr "Iltimos tugmalar tartibini tanlang."
 msgid "Testing your connection..."
 msgstr ""
 
-#: finish-install:185
+#: finish-install:187
 #, c-format
 msgid "Windows-compatible sharing system"
 msgstr ""
 
-#: finish-install:188
+#: finish-install:189
+#, c-format
+msgid "Virtual Private Network"
+msgstr ""
+
+#: finish-install:190
 #, fuzzy, c-format
 msgid "OpenSSH server"
 msgstr "SSH serveri"
 
-#: finish-install:189
+#: finish-install:191
 #, fuzzy, c-format
 msgid "Print server"
 msgstr "FTP serveri"
 
-#: finish-install:209
+#: finish-install:211
 #, c-format
 msgid "Do you have any services that you want to run when starting up?"
 msgstr ""
 
-#: finish-install:241
+#: finish-install:243
 #, fuzzy, c-format
 msgid "The following services failed to start:\n"
 msgstr "Quyidagi paketlarni oʻrnatish kerak:\n"
 
-#: finish-install:244
+#: finish-install:246
 #, fuzzy, c-format
 msgid "The following services failed to stop:\n"
 msgstr "Quyidagi paketlarni oʻrnatish kerak:\n"
 
-#: finish-install:256 finish-install:274 finish-install:287
+#: finish-install:258 finish-install:276 finish-install:289
 #, c-format
 msgid "Encrypted home partition"
 msgstr ""
 
-#: finish-install:256
+#: finish-install:258
 #, c-format
 msgid "Please enter a password for the %s user"
 msgstr "Iltimos foydalanuvchi %s uchun maxfiy soʻzni kiriting"
 
-#: finish-install:259
+#: finish-install:261
 #, c-format
 msgid "Password (again)"
 msgstr "Maxfiy soʻz (yana)"
 
-#: finish-install:274
+#: finish-install:276
 #, c-format
 msgid "Creating encrypted home partition"
 msgstr ""
 
-#: finish-install:287
+#: finish-install:289
 #, c-format
 msgid "Formatting encrypted home partition"
 msgstr ""
@@ -2218,116 +2233,72 @@ msgstr "Diskning qismlari"
 msgid "Features"
 msgstr "Qulayliklar"
 
-#. -PO: please keep all "/" characters !!!
-#: harddrake2:179 logdrake:82
+#: harddrake2:179
 #, c-format
-msgid "/_Options"
-msgstr "/_Moslamalar"
+msgid "Autodetect _modems"
+msgstr "_Modemlarni avto-aniqlash"
 
-#: harddrake2:180 harddrake2:203 logdrake:84
+#: harddrake2:180
 #, c-format
-msgid "/_Help"
-msgstr "/_Yordam"
-
-#: harddrake2:184
-#, c-format
-msgid "/Autodetect _modems"
-msgstr "/_Modemlarni avto-aniqlash"
-
-#: harddrake2:185
-#, c-format
-msgid "/Autodetect parallel _zip drives"
+msgid "Autodetect parallel _zip drives"
 msgstr ""
 
-#: harddrake2:189
+#: harddrake2:184
 #, c-format
 msgid "Hardware Configuration"
 msgstr "Asbob-uskunalarni moslash"
 
+#: harddrake2:193
+#, c-format
+msgid "_Options"
+msgstr "_Moslamalar"
+
+#: harddrake2:194 harddrake2:195
+#, c-format
+msgid "_Help"
+msgstr "_Yordam"
+
+#: harddrake2:195
+#, fuzzy, c-format
+msgid "<control>H"
+msgstr "<control>Cyrillic_CHE"
+
 #: harddrake2:196
 #, c-format
-msgid "/_Quit"
-msgstr "/Chi_qish"
+msgid "_Fields description"
+msgstr "_Maydonlar taʼrifi"
 
-#: harddrake2:205
+#: harddrake2:197
 #, c-format
-msgid "/_Fields description"
-msgstr "/_Maydonlar taʼrifi"
+msgid "_Report Bug"
+msgstr "_Xato haqida xabar qilish"
 
-#: harddrake2:207
+#: harddrake2:198
 #, c-format
-msgid "Harddrake help"
-msgstr "Harddrake yordam"
+msgid "_About..."
+msgstr "_Haqida"
 
-#: harddrake2:208
-#, c-format
-msgid ""
-"Description of the fields:\n"
-"\n"
-msgstr ""
-"Maydonlarning taʼrifi:\n"
-"\n"
-
-#: harddrake2:216
-#, c-format
-msgid "Select a device!"
-msgstr "Uskunani tanlang!"
-
-#: harddrake2:216
-#, c-format
-msgid ""
-"Once you've selected a device, you'll be able to see the device information "
-"in fields displayed on the right frame (\"Information\")"
-msgstr ""
-"Uskunani tanlasangiz, oʻng tarafdagi \"Maʼlumot\" freymida u haqida "
-"maʼlumotni koʻrishingiz mumkin"
-
-#: harddrake2:222
-#, c-format
-msgid "/_Report Bug"
-msgstr "/_Xato haqida xabar qilish"
-
-#: harddrake2:224
-#, c-format
-msgid "/_About..."
-msgstr "/_Haqida"
-
-#: harddrake2:227
-#, c-format
-msgid "Harddrake"
-msgstr "Harddrake"
-
-#: harddrake2:231
-#, c-format
-msgid "This is HardDrake, a %s hardware configuration tool."
-msgstr ""
-
-#: harddrake2:233
-#, fuzzy, c-format
-msgid "OpenMandriva Linux"
-msgstr "OpenMandriva Lx"
-
-#: harddrake2:264
+#: harddrake2:242
 #, c-format
 msgid "Detected hardware"
 msgstr "Aniqlangan asbob-uskunalar"
 
-#: harddrake2:267 scannerdrake:283
+#: harddrake2:245 scannerdrake:283
 #, c-format
 msgid "Information"
 msgstr "Maʼlumot"
 
-#: harddrake2:269
+#: harddrake2:247
 #, c-format
 msgid "Set current driver options"
 msgstr ""
 
-#: harddrake2:276
+#: harddrake2:254
 #, c-format
 msgid "Run config tool"
 msgstr "Moslash vositasini ishga tushirish"
 
-#: harddrake2:296
+#: harddrake2:280
 #, c-format
 msgid ""
 "Click on a device in the tree on the left in order to display its "
@@ -2336,45 +2307,93 @@ msgstr ""
 "Uskuna haqida maʼlumotni bu yerda koʻrish uchun uni chap tarafdagi "
 "roʻyxatdan tanlang."
 
-#: harddrake2:317 notify-x11-free-driver-switch:13
+#: harddrake2:300 notify-x11-free-driver-switch:13
 #, c-format
 msgid "unknown"
 msgstr "nomaʼlum"
 
-#: harddrake2:318
+#: harddrake2:301
 #, c-format
 msgid "Unknown"
 msgstr "Nomaʼlum"
 
-#: harddrake2:338
+#: harddrake2:321
 #, c-format
 msgid "Misc"
 msgstr "Xar hil"
 
-#: harddrake2:420
+#: harddrake2:404
 #, c-format
 msgid "secondary"
 msgstr "Ikkilamchi"
 
-#: harddrake2:420
+#: harddrake2:404
 #, c-format
 msgid "primary"
 msgstr "Asosiy"
 
-#: harddrake2:424
+#: harddrake2:408
 #, c-format
 msgid "burner"
 msgstr ""
 
-#: harddrake2:424
+#: harddrake2:408
 #, c-format
 msgid "DVD"
 msgstr "DVD"
 
-#: harddrake2:528
+#: harddrake2:504
 #, c-format
 msgid "The following packages need to be installed:\n"
 msgstr "Quyidagi paketlarni oʻrnatish kerak:\n"
+
+#: harddrake2:521
+#, c-format
+msgid "Harddrake"
+msgstr "Harddrake"
+
+#: harddrake2:523
+#, c-format
+msgid "Copyright (C) %s by %s"
+msgstr "Copyright (C) %s by %s"
+
+#: harddrake2:523 harddrake2:527
+#, c-format
+msgid "Mageia"
+msgstr ""
+
+#: harddrake2:525
+#, c-format
+msgid "This is HardDrake, a %s hardware configuration tool."
+msgstr ""
+
+#: harddrake2:540
+#, c-format
+msgid "Harddrake help"
+msgstr "Harddrake yordam"
+
+#: harddrake2:541
+#, c-format
+msgid ""
+"Description of the fields:\n"
+"\n"
+msgstr ""
+"Maydonlarning taʼrifi:\n"
+"\n"
+
+#: harddrake2:548
+#, c-format
+msgid "Select a device!"
+msgstr "Uskunani tanlang!"
+
+#: harddrake2:548
+#, c-format
+msgid ""
+"Once you've selected a device, you'll be able to see the device information "
+"in fields displayed on the right frame (\"Information\")"
+msgstr ""
+"Uskunani tanlasangiz, oʻng tarafdagi \"Maʼlumot\" freymida u haqida "
+"maʼlumotni koʻrishingiz mumkin"
 
 #: localedrake:38
 #, c-format
@@ -2393,219 +2412,174 @@ msgid ", "
 msgstr ", "
 
 #: logdrake:55
-#, c-format
-msgid "%s Tools Logs"
-msgstr ""
+#, fuzzy, c-format
+msgid "DrakX Tools Logs"
+msgstr "Moondrake vositalarining logi"
 
 #: logdrake:69
 #, c-format
 msgid "Show only for the selected day"
 msgstr "Faqat tanlangan kun uchun koʻrsatish"
 
-#: logdrake:76
-#, c-format
-msgid "/File/_New"
-msgstr "/Fayl/_Yangi"
-
-#: logdrake:76
-#, c-format
-msgid "<control>N"
-msgstr "<control>Cyrillic_EN"
-
-#: logdrake:77
-#, c-format
-msgid "/File/_Open"
-msgstr "/Fayl/_Ochish"
-
-#: logdrake:77
-#, c-format
-msgid "<control>O"
-msgstr "<control>Cyrillic_O"
-
-#: logdrake:78
-#, c-format
-msgid "/File/_Save"
-msgstr "/Fayl/_Saqlash"
-
 #: logdrake:78
 #, c-format
 msgid "<control>S"
 msgstr "<control>Cyrillic_ES"
 
-#: logdrake:79
-#, c-format
-msgid "/File/Save _As"
-msgstr "/Fayl/...sifatida s_aqlash"
-
-#: logdrake:80
-#, c-format
-msgid "/File/-"
-msgstr "/Fayl/-"
-
-#: logdrake:83
-#, c-format
-msgid "/Options/Test"
-msgstr "/Parametrlar/Sinash"
-
-#: logdrake:85
-#, c-format
-msgid "/Help/_About..."
-msgstr "/Yordam/_Haqida"
-
-#: logdrake:114
+#: logdrake:117
 #, c-format
 msgid ""
 "_:this is the auth.log log file\n"
 "Authentication"
 msgstr "Tasdiqlash"
 
-#: logdrake:115
+#: logdrake:118
 #, c-format
 msgid ""
 "_:this is the user.log log file\n"
 "User"
 msgstr "Foydalanuvchi"
 
-#: logdrake:116
+#: logdrake:119
 #, c-format
 msgid ""
 "_:this is the /var/log/messages log file\n"
 "Messages"
 msgstr "Xabarlar"
 
-#: logdrake:117
+#: logdrake:120
 #, c-format
 msgid ""
 "_:this is the /var/log/syslog log file\n"
 "Syslog"
 msgstr "Xabarlar"
 
-#: logdrake:121
+#: logdrake:124
 #, c-format
 msgid "search"
 msgstr "Qidirish"
 
-#: logdrake:133
+#: logdrake:136
 #, c-format
 msgid "A tool to monitor your logs"
 msgstr "Loglarni nazorat qilish uchun vosita"
 
-#: logdrake:135
+#: logdrake:138
 #, c-format
 msgid "Settings"
 msgstr "Moslamalar"
 
-#: logdrake:138
+#: logdrake:141
 #, c-format
 msgid "Matching"
 msgstr "Mos keladigan"
 
-#: logdrake:139
+#: logdrake:142
 #, c-format
 msgid "but not matching"
 msgstr "mos kelmaydigan"
 
-#: logdrake:142
+#: logdrake:145
 #, c-format
 msgid "Choose file"
 msgstr "Faylni tanlash"
 
-#: logdrake:154
+#: logdrake:157
 #, c-format
 msgid "Calendar"
 msgstr "Kalendar"
 
-#: logdrake:163
+#: logdrake:166
 #, c-format
 msgid "Content of the file"
 msgstr "Faylning tarkibi"
 
-#: logdrake:167 logdrake:411
+#: logdrake:170 logdrake:415
 #, c-format
 msgid "Mail alert"
 msgstr "Xat orqali xabar berish"
 
-#: logdrake:174
+#: logdrake:177
 #, c-format
 msgid "The alert wizard has failed unexpectedly:"
 msgstr ""
 
-#: logdrake:178
+#: logdrake:181
 #, c-format
 msgid "Save"
 msgstr "Saqlash"
 
-#: logdrake:226
+#: logdrake:230
 #, c-format
 msgid "please wait, parsing file: %s"
 msgstr ""
 
-#: logdrake:248
+#: logdrake:252
 #, c-format
 msgid "Sorry, log file isn't available!"
 msgstr ""
 
-#: logdrake:296
+#: logdrake:300
 #, c-format
 msgid "Error while opening \"%s\" log file: %s\n"
 msgstr ""
 
-#: logdrake:389
+#: logdrake:393
 #, c-format
 msgid "Apache World Wide Web Server"
 msgstr "Apache veb-serveri"
 
-#: logdrake:390
+#: logdrake:394
 #, c-format
 msgid "Domain Name Resolver"
 msgstr ""
 
-#: logdrake:391
+#: logdrake:395
 #, c-format
 msgid "Ftp Server"
 msgstr "FTP serveri"
 
-#: logdrake:392
+#: logdrake:396
 #, c-format
 msgid "Postfix Mail Server"
 msgstr "Postfix xat-xabar serveri"
 
-#: logdrake:393
+#: logdrake:397
 #, c-format
 msgid "Samba Server"
 msgstr "Samba serveri"
 
-#: logdrake:394
+#: logdrake:398
 #, c-format
 msgid "SSH Server"
 msgstr "SSH serveri"
 
-#: logdrake:395
+#: logdrake:399
 #, c-format
 msgid "Webmin Service"
 msgstr "Webmin xizmati"
 
-#: logdrake:396
+#: logdrake:400
 #, c-format
 msgid "Xinetd Service"
 msgstr "Xinetd xizmati"
 
-#: logdrake:405
+#: logdrake:409
 #, c-format
 msgid "Configure the mail alert system"
 msgstr ""
 
-#: logdrake:406
+#: logdrake:410
 #, c-format
 msgid "Stop the mail alert system"
 msgstr ""
 
-#: logdrake:414
+#: logdrake:418
 #, c-format
 msgid "Mail alert configuration"
 msgstr "Xat orqali xabar berishni moslash"
 
-#: logdrake:415
+#: logdrake:419
 #, c-format
 msgid ""
 "Welcome to the mail configuration utility.\n"
@@ -2613,94 +2587,94 @@ msgid ""
 "Here, you'll be able to set up the alert system.\n"
 msgstr ""
 
-#: logdrake:418
+#: logdrake:422
 #, c-format
 msgid "What do you want to do?"
 msgstr "Siz nima qilmoqchisiz?"
 
-#: logdrake:425
+#: logdrake:429
 #, c-format
 msgid "Services settings"
 msgstr "Xizmatlarning moslamasi"
 
-#: logdrake:426
+#: logdrake:430
 #, c-format
 msgid ""
 "You will receive an alert if one of the selected services is no longer "
 "running"
 msgstr "Agar tanlangan xizmatlarning ishi toʻxtasa sizga xabar joʻnatiladi"
 
-#: logdrake:433
+#: logdrake:437
 #, c-format
 msgid "Load setting"
 msgstr "Moslamalarni yukash"
 
-#: logdrake:434
+#: logdrake:438
 #, c-format
 msgid "You will receive an alert if the load is higher than this value"
 msgstr ""
 
-#: logdrake:435
+#: logdrake:439
 #, c-format
 msgid ""
 "_: load here is a noun, the load of the system\n"
 "Load"
 msgstr "Yuklanganligi"
 
-#: logdrake:440
+#: logdrake:444
 #, c-format
 msgid "Alert configuration"
 msgstr ""
 
-#: logdrake:441
+#: logdrake:445
 #, c-format
 msgid "Please enter your email address below "
 msgstr "Iltimos elektron pochtangizni kiriting"
 
-#: logdrake:442
+#: logdrake:446
 #, c-format
 msgid "and enter the name (or the IP) of the SMTP server you wish to use"
 msgstr ""
 
-#: logdrake:444
+#: logdrake:448
 #, fuzzy, c-format
 msgid "Email address"
 msgstr "IP raqami"
 
-#: logdrake:445
+#: logdrake:449
 #, fuzzy, c-format
 msgid "Email server"
 msgstr "Samba serveri"
 
-#: logdrake:449
+#: logdrake:453
 #, c-format
 msgid "\"%s\" neither is a valid email nor is an existing local user!"
 msgstr "\"%s\" na haqiqiy elektron pochta na mavjud lokal foydalanuvchi!"
 
-#: logdrake:454
+#: logdrake:458
 #, c-format
 msgid ""
 "\"%s\" is a local user, but you did not select a local smtp, so you must use "
 "a complete email address!"
 msgstr ""
 
-#: logdrake:461
+#: logdrake:465
 #, c-format
 msgid "The wizard successfully configured the mail alert."
 msgstr ""
 
-#: logdrake:467
+#: logdrake:471
 #, c-format
 msgid "The wizard successfully disabled the mail alert."
 msgstr ""
 
-#: logdrake:526
+#: logdrake:530
 #, c-format
 msgid "Save as.."
 msgstr "...sifatida saqlash"
 
-#: notify-x11-free-driver-switch:18 service_harddrake:465
-#: service_harddrake:478
+#: notify-x11-free-driver-switch:18 service_harddrake:468
+#: service_harddrake:481
 #, c-format
 msgid "Display driver setup"
 msgstr ""
@@ -3265,27 +3239,27 @@ msgstr "Baʼzi bir uskunalar qoʻshildi: %s\n"
 msgid "- %s was added\n"
 msgstr "- %s qoʻshildi\n"
 
-#: service_harddrake:397
+#: service_harddrake:400
 #, c-format
 msgid "Hardware changes in \"%s\" class (%s seconds to answer)"
 msgstr ""
 
-#: service_harddrake:398
+#: service_harddrake:401
 #, c-format
 msgid "Do you want to run the appropriate config tool?"
 msgstr "Moslash vositasini ishga tushirishni istaysizmi?"
 
-#: service_harddrake:423
+#: service_harddrake:426
 #, c-format
 msgid "Hardware probing in progress"
 msgstr "Asbob-uskunalarni aniqlash ketayapti"
 
-#: service_harddrake:444 service_harddrake:449
+#: service_harddrake:447 service_harddrake:452
 #, c-format
 msgid "Display driver issue"
 msgstr ""
 
-#: service_harddrake:445
+#: service_harddrake:448
 #, c-format
 msgid ""
 "The display driver currently configured requires you to use the 'nokmsboot' "
@@ -3294,7 +3268,7 @@ msgid ""
 "specified."
 msgstr ""
 
-#: service_harddrake:450
+#: service_harddrake:453
 #, c-format
 msgid ""
 "Detected a loaded display driver kernel module which conflicts with the "
@@ -3302,23 +3276,15 @@ msgid ""
 "fail."
 msgstr ""
 
-#: service_harddrake:465 service_harddrake:478
+#: service_harddrake:468 service_harddrake:481
 #, c-format
 msgid "The system has to be rebooted due to a display driver change."
 msgstr ""
 
-#: service_harddrake:466 service_harddrake:479
+#: service_harddrake:469 service_harddrake:482
 #, c-format
 msgid "Press Cancel within %d seconds to abort."
 msgstr ""
-
-#: ../menu/localedrake-system.desktop.in.h:1
-msgid "System Regional Settings"
-msgstr "Tizimning mahalliy moslamalari"
-
-#: ../menu/localedrake-system.desktop.in.h:2
-msgid "System wide language & country configurator"
-msgstr "Butun tizim uchun til va davlatni moslash"
 
 #: ../menu/harddrake.desktop.in.h:1
 msgid "HardDrake"
@@ -3333,6 +3299,14 @@ msgstr "Asbob-uskunalarni moslash vositasi"
 msgid "Hardware Configuration Tool"
 msgstr "Asbob-uskunalarni moslash"
 
+#: ../menu/localedrake-system.desktop.in.h:1
+msgid "System Regional Settings"
+msgstr "Tizimning mahalliy moslamalari"
+
+#: ../menu/localedrake-system.desktop.in.h:2
+msgid "System wide language & country configurator"
+msgstr "Butun tizim uchun til va davlatni moslash"
+
 #: ../menu/localedrake-user.desktop.in.h:1
 msgid "Regional Settings"
 msgstr "Foydalanuvchining mahalliy moslamalari"
@@ -3341,17 +3315,308 @@ msgstr "Foydalanuvchining mahalliy moslamalari"
 msgid "Language & country configuration"
 msgstr "Joriy foydalanuvchi uchun til va davlatni moslash"
 
+#: ../polkit/org.moondrake.drakauth.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Authentication Configuration"
+msgstr "Xat orqali xabar berishni moslash"
+
+#: ../polkit/org.moondrake.drakauth.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Authentication Configuration"
+msgstr "Xat orqali xabar berishni moslash"
+
+#: ../polkit/org.moondrake.drakboot.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Boot Configuration"
+msgstr "Yuklanishni moslash"
+
+#: ../polkit/org.moondrake.drakboot.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Boot Configuration"
+msgstr "Yuklanishni moslash"
+
+#: ../polkit/org.moondrake.drakclock.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Date and Time Configuration"
+msgstr "Xat orqali xabar berishni moslash"
+
+#: ../polkit/org.moondrake.drakclock.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Date and Time Configuration"
+msgstr "Xat orqali xabar berishni moslash"
+
+#: ../polkit/org.moondrake.drakdisk.policy.in.h:1
+msgid "Run DrakX Disk Layout Editor"
+msgstr ""
+
+#: ../polkit/org.moondrake.drakdisk.policy.in.h:2
+msgid "Authentication is required to run DrakX Disk Layout Editor"
+msgstr ""
+
+#: ../polkit/org.moondrake.drakdm.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Login Manager Configuration"
+msgstr "Joriy foydalanuvchi uchun til va davlatni moslash"
+
+#: ../polkit/org.moondrake.drakdm.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Login Manager Configuration"
+msgstr "Joriy foydalanuvchi uchun til va davlatni moslash"
+
+#: ../polkit/org.moondrake.drakfont.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Font Configuration"
+msgstr "Joriy foydalanuvchi uchun til va davlatni moslash"
+
+#: ../polkit/org.moondrake.drakfont.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Font Configuration"
+msgstr "Joriy foydalanuvchi uchun til va davlatni moslash"
+
+#: ../polkit/org.moondrake.drakhardware.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Hardware Configuration"
+msgstr "Grafik serverini moslash"
+
+#: ../polkit/org.moondrake.drakhardware.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Hardware Configuration"
+msgstr "Grafik serverini moslash"
+
+#: ../polkit/org.moondrake.draklog.policy.in.h:1
+msgid "Run DrakX Log Viewer"
+msgstr ""
+
+#: ../polkit/org.moondrake.draklog.policy.in.h:2
+msgid "Authentication is required to run DrakX Log Viewer"
+msgstr ""
+
+#: ../polkit/org.moondrake.drakperm.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Security Permissions Configuration"
+msgstr "Grafik serverini moslash"
+
+#: ../polkit/org.moondrake.drakperm.policy.in.h:2
+#, fuzzy
+msgid ""
+"Authentication is required to run DrakX Security Permissions Configuration"
+msgstr "Grafik serverini moslash"
+
+#: ../polkit/org.moondrake.drakscanner.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Scanner Configuration"
+msgstr "Grafik serverini moslash"
+
+#: ../polkit/org.moondrake.drakscanner.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Scanner Configuration"
+msgstr "Grafik serverini moslash"
+
+#: ../polkit/org.moondrake.draksec.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Application Security Configuration"
+msgstr "Xat orqali xabar berishni moslash"
+
+#: ../polkit/org.moondrake.draksec.policy.in.h:2
+#, fuzzy
+msgid ""
+"Authentication is required to run DrakX Application Security Configuration"
+msgstr "Xat orqali xabar berishni moslash"
+
+#: ../polkit/org.moondrake.drakups.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX UPS Configuration"
+msgstr "UPS tizimini moslash"
+
+#: ../polkit/org.moondrake.drakups.policy.in.h:2
+msgid "Authentication is required to run DrakX UPS Configuration"
+msgstr ""
+
+#: ../polkit/org.moondrake.moondrakeservices.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Service Configuration"
+msgstr "Grafik serverini moslash"
+
+#: ../polkit/org.moondrake.moondrakeservices.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Service Configuration"
+msgstr "Grafik serverini moslash"
+
+#, fuzzy
+#~ msgid "%s Bug Report Tool"
+#~ msgstr "Moondrake uchun xato haqida xabar qiluvchi vosita"
+
+#, fuzzy
+#~ msgid "%s Tools Logs"
+#~ msgstr "Moondrake vositalarining logi"
+
+#, fuzzy
+#~ msgid "Run Moondrake Application Security Configuration"
+#~ msgstr "Xat orqali xabar berishni moslash"
+
+#, fuzzy
+#~ msgid "Run Moondrake Authentication Configuration"
+#~ msgstr "Xat orqali xabar berishni moslash"
+
+#, fuzzy
+#~ msgid "Run Moondrake Boot Configuration"
+#~ msgstr "Yuklanishni moslash"
+
+#, fuzzy
+#~ msgid "Run Moondrake Date and Time Configuration"
+#~ msgstr "Xat orqali xabar berishni moslash"
+
+#, fuzzy
+#~ msgid "Run Moondrake Font Configuration"
+#~ msgstr "Joriy foydalanuvchi uchun til va davlatni moslash"
+
+#, fuzzy
+#~ msgid "Run Moondrake Hardware Configuration"
+#~ msgstr "Grafik serverini moslash"
+
+#, fuzzy
+#~ msgid "Run Moondrake Login Manager Configuration"
+#~ msgstr "Joriy foydalanuvchi uchun til va davlatni moslash"
+
+#, fuzzy
+#~ msgid "Run Moondrake Scanner Configuration"
+#~ msgstr "Grafik serverini moslash"
+
+#, fuzzy
+#~ msgid "Run Moondrake Security Permissions Configuration"
+#~ msgstr "Grafik serverini moslash"
+
+#, fuzzy
+#~ msgid "Run Moondrake Service Configuration"
+#~ msgstr "Grafik serverini moslash"
+
+#, fuzzy
+#~ msgid "Run Moondrake UPS Configuration"
+#~ msgstr "UPS tizimini moslash"
+
+#, fuzzy
+#~ msgid "  --help                - display this help     \n"
+#~ msgstr " --help                - shu yordamni koʻrsatish\n"
+
+#, fuzzy
+#~ msgid ""
+#~ " drakhelp 0.1\n"
+#~ "Copyright (C) %s Mandriva.\n"
+#~ "Copyright (C) %s Moondrake.\n"
+#~ "This is free software and may be redistributed under the terms of the GNU "
+#~ "GPL.\n"
+#~ "\n"
+#~ "Usage: \n"
+#~ msgstr ""
+#~ " drakhelp 0.1\n"
+#~ "Copyright (C) %s Mandriva.\n"
+#~ "Bu erkin dastur va GNU GPL shartlari asosida tarqatilishi mumkin.\n"
+#~ "\n"
+#~ "Foydalanish:\n"
+
+#~ msgid "%s Control Center"
+#~ msgstr "%s boshqaruv markazi"
+
+#, fuzzy
+#~ msgid "%s Help Center"
+#~ msgstr "Moondrake yordam markazi"
+
+#~ msgid "(default value: %s)"
+#~ msgstr "(andoza qiymati: %s)"
+
 #~ msgid "/Autodetect _jaz drives"
 #~ msgstr "/_Jaz uskunalarini avto-aniqlash"
 
-#~ msgid "OpenMandriva Lx Tools Logs"
-#~ msgstr "OpenMandriva Lx vositalarining logi"
+#~ msgid "/Autodetect _modems"
+#~ msgstr "/_Modemlarni avto-aniqlash"
 
 #~ msgid "/Autodetect _printers"
 #~ msgstr "/Printerlarni _avto-aniqlash"
 
-#~ msgid "OpenOffice.org"
-#~ msgstr "OpenOffice.org"
+#~ msgid "/File/-"
+#~ msgstr "/Fayl/-"
+
+#~ msgid "/File/Save _As"
+#~ msgstr "/Fayl/...sifatida s_aqlash"
+
+#~ msgid "/File/_New"
+#~ msgstr "/Fayl/_Yangi"
+
+#~ msgid "/File/_Open"
+#~ msgstr "/Fayl/_Ochish"
+
+#~ msgid "/File/_Quit"
+#~ msgstr "/Fayl/Chi_qish"
+
+#~ msgid "/File/_Save"
+#~ msgstr "/Fayl/_Saqlash"
+
+#~ msgid "/Help/_About..."
+#~ msgstr "/Yordam/_Haqida"
+
+#~ msgid "/Options/Test"
+#~ msgstr "/Parametrlar/Sinash"
+
+#~ msgid "/_About..."
+#~ msgstr "/_Haqida"
+
+#~ msgid "/_Fields description"
+#~ msgstr "/_Maydonlar taʼrifi"
+
+#~ msgid "/_File"
+#~ msgstr "/_Fayl"
+
+#~ msgid "/_Help"
+#~ msgstr "/_Yordam"
+
+#~ msgid "/_Options"
+#~ msgstr "/_Moslamalar"
+
+#~ msgid "/_Quit"
+#~ msgstr "/Chi_qish"
+
+#~ msgid "/_Report Bug"
+#~ msgstr "/_Xato haqida xabar qilish"
+
+#~ msgid "<control>N"
+#~ msgstr "<control>Cyrillic_EN"
+
+#~ msgid "<control>O"
+#~ msgstr "<control>Cyrillic_O"
+
+#~ msgid "Autodetect _jaz drives"
+#~ msgstr "_Jaz uskunalarini avto-aniqlash"
+
+#~ msgid "Autodetect _printers"
+#~ msgstr "Printerlarni _avto-aniqlash"
+
+#~ msgid "Background color"
+#~ msgstr "Orqa fon rangi"
+
+#~ msgid "Basic options"
+#~ msgstr "Asosiy moslamalar"
+
+#~ msgid "Bugs"
+#~ msgstr "Xatolar"
+
+#~ msgid "Coma bug"
+#~ msgstr "Vergul xatosi"
+
+#, fuzzy
+#~ msgid "Copyright (C) %s by Moondrake"
+#~ msgstr "Copyright (C) %s by %s"
+
+#~ msgid "Copyright (C) 2001-2008 by %s"
+#~ msgstr "Copyright © 2001-2008 %s"
+
+#~ msgid "Copyright (C) 2001-2008 by Mandriva"
+#~ msgstr "Copyright © 2001-2008 Mandriva"
+
+#~ msgid "Create new theme"
+#~ msgstr "Yangi mavzuni yaratish"
+
+#~ msgid "Display logo on Console"
+#~ msgstr "Konsolda belgini koʻrsatish"
 
 #~ msgid ""
 #~ "Display theme\n"
@@ -3360,8 +3625,132 @@ msgstr "Joriy foydalanuvchi uchun til va davlatni moslash"
 #~ "Mavzularni\n"
 #~ "konsolda koʻrsatish"
 
-#~ msgid "Create new theme"
-#~ msgstr "Yangi mavzuni yaratish"
+#, fuzzy
+#~ msgid "Do you want to remove these packages?"
+#~ msgstr "Moslash vositasini ishga tushirishni istaysizmi?"
+
+#, fuzzy
+#~ msgid "DrakX Online"
+#~ msgstr "Mandriva Online"
+
+#~ msgid "F00f bug"
+#~ msgstr "F00f xatosi"
+
+#~ msgid "FPU"
+#~ msgstr "FPU"
+
+#~ msgid "Fdiv bug"
+#~ msgstr "Fdiv xatosi"
+
+#~ msgid "File/-"
+#~ msgstr "Fayl/-"
+
+#~ msgid "File/Save _As"
+#~ msgstr "Fayl/...sifatida s_aqlash"
+
+#~ msgid "File/_New"
+#~ msgstr "Fayl/_Yangi"
+
+#~ msgid "File/_Open"
+#~ msgstr "Fayl/_Ochish"
+
+#~ msgid "File/_Quit"
+#~ msgstr "Fayl/Chi_qish"
+
+#~ msgid "File/_Save"
+#~ msgstr "Fayl/_Saqlash"
+
+#~ msgid "Halt bug"
+#~ msgstr "Halt xatosi"
+
+#~ msgid "Help/_About..."
+#~ msgstr "Yordam/_Haqida"
+
+#~ msgid "Is FPU present"
+#~ msgstr "FPU mavjudmi"
+
+#~ msgid "Mandriva Linux Bug Report Tool"
+#~ msgstr "Mandriva Linux uchun xato haqida xabar qiluvchi vosita"
+
+#~ msgid "Mandriva Linux Tools Logs"
+#~ msgstr "Mandriva Linux vositalarining logi"
+
+#~ msgid "Mandriva Update"
+#~ msgstr "Mandriva tizimini yangilash"
+
+#~ msgid "Moondrake"
+#~ msgstr "Moondrake"
+
+#~ msgid "Network Options"
+#~ msgstr "Tarmoqning moslamalari"
+
+#~ msgid "OpenOffice.org"
+#~ msgstr "OpenOffice.org"
+
+#~ msgid "Options/Test"
+#~ msgstr "Parametrlar/Sinash"
+
+#~ msgid "Periodic Checks"
+#~ msgstr "Davriy tekshiruvlar"
+
+#~ msgid "Please enter a theme name"
+#~ msgstr "Mavzu nomini kiriting"
+
+#~ msgid "Please select a splash image"
+#~ msgstr "Splesh rasmini tanlang"
+
+#~ msgid "Please wait, adding media..."
+#~ msgstr "Toʻplam qoʻshilmoqda, iltimos kutib turing..."
+
+#~ msgid "Please wait, setting security level..."
+#~ msgstr "Iltimos kutib turing, xavfsizlik darajasi oʻrnatilmoqda"
+
+#~ msgid "Please wait, setting security options..."
+#~ msgstr "Iltimos kutib turing, xavfsizlik darajasi oʻrnatilmoqda..."
+
+#~ msgid "Restart XFS"
+#~ msgstr "XFS-ni boshqadan ishga tushirish"
+
+#~ msgid "Save theme"
+#~ msgstr "Mavzuni saqlash"
+
+#~ msgid "Security Administrator:"
+#~ msgstr "Xavfsizlik boshqaruvchisi:"
+
+#~ msgid "Security Alerts:"
+#~ msgstr "Xavfsizlik xabarnomasi:"
+
+#~ msgid "Security Level:"
+#~ msgstr "Xavfsizlik darajasi:"
+
+#~ msgid "System Options"
+#~ msgstr "Tizimning moslamalari"
+
+#, fuzzy
+#~ msgid "Text"
+#~ msgstr "Faqat matn"
+
+#~ msgid "Text color"
+#~ msgstr "Matnning rangi"
+
+#~ msgid "The change is done, but to be effective you must logout"
+#~ msgstr ""
+#~ "Oʻzgarishlar bajarildi, ammo amalda toʻliq qoʻllanilishi uchun siz "
+#~ "chiqishingiz kerak."
+
+#, fuzzy
+#~ msgid ""
+#~ "The following hardware packages do not seem to be useful for your system:"
+#~ msgstr "Quyidagi paketlarni oʻrnatish kerak:\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "The following localization packages do not seem to be useful for your "
+#~ "system:"
+#~ msgstr "Quyidagi paketlarni oʻrnatish kerak:\n"
+
+#~ msgid "The height of the progress bar"
+#~ msgstr "bajarish koʻrsatgichining balandligi"
 
 #~ msgid ""
 #~ "The progress bar X coordinate\n"
@@ -3380,119 +3769,14 @@ msgstr "Joriy foydalanuvchi uchun til va davlatni moslash"
 #~ msgid "The width of the progress bar"
 #~ msgstr "bajarish koʻrsatgichining eni"
 
-#~ msgid "The height of the progress bar"
-#~ msgstr "bajarish koʻrsatgichining balandligi"
-
-#, fuzzy
-#~ msgid "Text"
-#~ msgstr "Faqat matn"
-
-#~ msgid "Text color"
-#~ msgstr "Matnning rangi"
-
-#~ msgid "Background color"
-#~ msgstr "Orqa fon rangi"
-
 #~ msgid "Theme name"
 #~ msgstr "Mavzuning nomi"
-
-#~ msgid "Display logo on Console"
-#~ msgstr "Konsolda belgini koʻrsatish"
-
-#~ msgid "Save theme"
-#~ msgstr "Mavzuni saqlash"
-
-#~ msgid "Please enter a theme name"
-#~ msgstr "Mavzu nomini kiriting"
-
-#~ msgid "Please select a splash image"
-#~ msgstr "Splesh rasmini tanlang"
-
-#~ msgid "saving Bootsplash theme..."
-#~ msgstr "Bootsplash mavzusi saqlanmoqda..."
-
-#~ msgid "choose image"
-#~ msgstr "Rasmni tanlash"
-
-#~ msgid "Coma bug"
-#~ msgstr "Vergul xatosi"
-
-#~ msgid "Fdiv bug"
-#~ msgstr "Fdiv xatosi"
-
-#~ msgid "Is FPU present"
-#~ msgstr "FPU mavjudmi"
-
-#~ msgid "F00f bug"
-#~ msgstr "F00f xatosi"
-
-#~ msgid "Halt bug"
-#~ msgstr "Halt xatosi"
-
-#~ msgid "Bugs"
-#~ msgstr "Xatolar"
-
-#~ msgid "FPU"
-#~ msgstr "FPU"
 
 #~ msgid "Unknown/Others"
 #~ msgstr "Nomaʼlum/Boshqalar"
 
-#~ msgid "(default value: %s)"
-#~ msgstr "(andoza qiymati: %s)"
+#~ msgid "choose image"
+#~ msgstr "Rasmni tanlash"
 
-#~ msgid "Security Level:"
-#~ msgstr "Xavfsizlik darajasi:"
-
-#~ msgid "Security Alerts:"
-#~ msgstr "Xavfsizlik xabarnomasi:"
-
-#~ msgid "Security Administrator:"
-#~ msgstr "Xavfsizlik boshqaruvchisi:"
-
-#~ msgid "Basic options"
-#~ msgstr "Asosiy moslamalar"
-
-#~ msgid "Network Options"
-#~ msgstr "Tarmoqning moslamalari"
-
-#~ msgid "System Options"
-#~ msgstr "Tizimning moslamalari"
-
-#~ msgid "Periodic Checks"
-#~ msgstr "Davriy tekshiruvlar"
-
-#~ msgid "Please wait, setting security level..."
-#~ msgstr "Iltimos kutib turing, xavfsizlik darajasi oʻrnatilmoqda"
-
-#~ msgid "Please wait, setting security options..."
-#~ msgstr "Iltimos kutib turing, xavfsizlik darajasi oʻrnatilmoqda..."
-
-#, fuzzy
-#~ msgid ""
-#~ "The following localization packages do not seem to be useful for your "
-#~ "system:"
-#~ msgstr "Quyidagi paketlarni oʻrnatish kerak:\n"
-
-#, fuzzy
-#~ msgid "Do you want to remove these packages?"
-#~ msgstr "Moslash vositasini ishga tushirishni istaysizmi?"
-
-#, fuzzy
-#~ msgid ""
-#~ "The following hardware packages do not seem to be useful for your system:"
-#~ msgstr "Quyidagi paketlarni oʻrnatish kerak:\n"
-
-#~ msgid "Please wait, adding media..."
-#~ msgstr "Toʻplam qoʻshilmoqda, iltimos kutib turing..."
-
-#~ msgid "The change is done, but to be effective you must logout"
-#~ msgstr ""
-#~ "Oʻzgarishlar bajarildi, ammo amalda toʻliq qoʻllanilishi uchun siz "
-#~ "chiqishingiz kerak."
-
-#~ msgid "Restart XFS"
-#~ msgstr "XFS-ni boshqadan ishga tushirish"
-
-#~ msgid "Copyright (C) 2001-2008 by Mandriva"
-#~ msgstr "Copyright © 2001-2008 Mandriva"
+#~ msgid "saving Bootsplash theme..."
+#~ msgstr "Bootsplash mavzusi saqlanmoqda..."

@@ -1,4 +1,4 @@
-package install::media; # $Id$
+package install::media;
 
 use strict;
 
@@ -41,11 +41,6 @@ use urpm::media;
 
 our $postinstall_rpms = '';
 my %mounted_media;
-
-sub _free_medium_id {
-    my ($media) = @_;
-    int(@$media);
-}
 
 sub allMediums {
     my ($packages) = @_;
@@ -172,7 +167,7 @@ sub stage2_phys_medium {
 	my $user = $ENV{LOGIN} && ($ENV{LOGIN} . ($ENV{PASSWORD} && ":$ENV{PASSWORD}") . '@');
 	$ENV{URLPREFIX} = "ftp://$user$ENV{HOST}/$ENV{PREFIX}";
     }
-    if ($method eq 'http' || $method eq 'ftp') {
+    if (member($method, qw(http ftp))) {
 	{ method => $method, url => $ENV{URLPREFIX} };
     } elsif ($method =~ /(.*)-iso$/) {
 	my $dir_method = $1;
@@ -839,7 +834,7 @@ sub copy_rpms_on_disk {
 
 sub _get_medium_dir {
     my ($phys_m) = @_;
-    if ($phys_m->{method} eq 'ftp' || $phys_m->{method} eq 'http' || $phys_m->{method} eq 'cdrom') {
+    if (member($phys_m->{method}, qw(ftp http cdrom))) {
         $phys_m->{url};
     } else {
         "$phys_m->{mntpoint}$phys_m->{rel_path}";

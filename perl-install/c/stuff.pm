@@ -1,5 +1,5 @@
-package c::stuff; # $Id$
- 
+package c::stuff;
+
 use strict;
 use vars qw($VERSION @ISA);
 

@@ -1,4 +1,4 @@
-package common; # $Id$
+package common;
 
 use MDK::Common;
 BEGIN { eval { require Locale::gettext } } #- allow common.pm to be used in drakxtools-backend without perl-Locale-gettext
@@ -8,11 +8,16 @@ use run_program;
 
 use Exporter;
 our @ISA = qw(Exporter);
-our @EXPORT = qw($SECTORSIZE N P N_ check_for_xserver files_exist formatTime MB formatXiB get_parent_uid is_running makedev mandrake_release mandrake_release_info removeXiBSuffix require_root_capability setVirtual set_alternative set_l10n_sort set_permissions to_utf8  translate unmakedev);
+our @EXPORT = qw($SECTORSIZE N P N_ check_for_xserver files_exist formatTime MB formatXiB get_parent_uid is_mgalive is_running is_uefi makedev distro_release distro_release_info removeXiBSuffix require_root_capability setVirtual set_alternative set_l10n_sort set_permissions to_utf8  translate unmakedev);
 
 # perl_checker: RE-EXPORT-ALL
 push @EXPORT, @MDK::Common::EXPORT;
 
+=head1 SYNOPSYS
+
+B<common> re-export L<MDK::Common> and offers a couple widely used functions.
+
+=cut
 
 $::prefix ||= ""; # no warning
 
@@ -21,24 +26,55 @@ $::prefix ||= ""; # no warning
 #-#####################################################################################
 our $SECTORSIZE  = 512;
 
-#-#####################################################################################
-#- Functions
-#-#####################################################################################
+=head1 Functions
 
-sub P {
-    my ($s_singular, $s_plural, $nb, @para) = @_; 
-    sprintf(translate($s_singular, $s_plural, $nb), @para);
-}
+=head2 Translating
+
+=over
+
+=item N($format, ...)
+
+translate a message by calling gettext(). eg:
+
+  N("Summary")
+  N("File %s is on %s", "/etc/passwd", "/dev/sda2")
+
+It must B<not> be used called before L<ugtk3> is initialized, otherwise the gettext is not forced to UTF-8.
+
+=cut
 
 sub N {
     my ($s, @para) = @_; 
     sprintf(translate($s), @para);
 }
+
+=item N_($format, @param)
+
+Similar to C<N()>, but message is not actually translated.
+It tags the message as translatable so that it will end in the
+translation catalogs.
+
+In order for the message to be translated, C<translate()> must be called
+before using the message.
+
+=cut
+
 sub N_ { $_[0] }
 
+=item P($s_singular, $s_plural, $nb, @extra_para)
 
-sub makedev { ($_[0] << 8) | $_[1] }
-sub unmakedev { $_[0] >> 8, $_[0] & 0xff }
+Similar to C<N()>, but two messages are provided: one for the singular case, one for the
+plural case. At runtime, a number is provided in order to choose the message to use.
+eg:
+
+  P("%d package", "%d packages", $nb, $nb)
+
+=cut
+
+sub P {
+    my ($s_singular, $s_plural, $nb, @para) = @_;
+    sprintf(translate($s_singular, $s_plural, $nb), @para);
+}
 
 sub translate_real {
     my ($s, $o_plural, $o_nb) = @_;
@@ -52,11 +88,20 @@ sub translate_real {
      }
 	# when utf8 pragma is in use, Locale::gettext() returns an utf8 string not tagged as such:
 	c::set_tagged_utf8($s2) if !utf8::is_utf8($s2) && utf8::is_utf8($s);
-	return $s2 if $s ne $s2 && $s2 ne $o_plural;
+	return $s2 if !member($s2, $s, $o_plural);
     }
     # didn't lookup anything or locale is "C":
     $s2;
 }
+
+=item remove_translate_context($string)
+
+Remove an ala-KDE context message. eg:
+
+  "_: this is verb\nOpen"
+  "_: Keep these entry short\nNetworking"
+
+=cut
 
 sub remove_translate_context {
     my ($s) = @_;
@@ -65,16 +110,46 @@ sub remove_translate_context {
     $s;
 }
 
+=item translate($string)
+
+Translate the message according to the current locale.
+The string is B<not> tagged as translatable and will B<not> end in
+translations catalogs.
+
+perl_checker only extracts strings tagged by C<N()>, C<N_()> or C<P()>.
+
+=cut
+
 sub translate {
     my $s = translate_real(@_);
-    $::one_message_has_been_translated ||= join(':', (caller(1))[1,2]); #- see mygtk2.pm
+    $::one_message_has_been_translated ||= join(':', (caller(1))[1,2]); #- see mygtk3.pm
     remove_translate_context($s);
 }
+
+=back
+
+=head2 Conversion
+
+=over
+
+=item from_utf8($s)
+
+Convert an UTF-8 string into current locale's encoding.
+
+=cut
 
 sub from_utf8 {
     my ($s) = @_;
     Locale::gettext::iconv($s, "utf-8", undef); #- undef = locale charmap = nl_langinfo(CODESET)
 }
+
+=item to_utf8($s)
+
+The reverse of C<from_utf8()>: convert a string from current locale's encoding to UTF-8.
+Also make sure the string is properly tagged as UTF-8 as concerning Perl
+
+=cut
+
 sub to_utf8 { 
     my ($s) = @_;
     my $str = Locale::gettext::iconv($s, undef, "utf-8"); #- undef = locale charmap = nl_langinfo(CODESET)
@@ -82,10 +157,15 @@ sub to_utf8 {
     $str;
 }
 
-#- This is needed because text printed by Gtk2 will always be encoded
-#- in UTF-8;
-#- we first check if LC_ALL is defined, because if it is, changing
-#- only LC_COLLATE will have no effect.
+=item set_l10n_sort()
+
+This is needed because text printed by L<Gtk3> will always be encoded
+in UTF-8;
+we first check if LC_ALL is defined, because if it is, changing
+only LC_COLLATE will have no effect.
+
+=cut
+
 sub set_l10n_sort() {
     my $collation_locale = $ENV{LC_ALL};
     if (!$collation_locale) {
@@ -110,12 +190,47 @@ sub nonblock {
     fcntl($F, c::F_SETFL(), fcntl($F, c::F_GETFL(), 0) | c::O_NONBLOCK()) or die "cannot fcntl F_SETFL: $!";
 }
 
-#- return a size in sector
-#- ie MB(1) is 2048 sectors, which is 1MB
+=item makedev($major, $minor)
+
+Given major and minor device IDs, makedev() combines these to return a device ID
+(eg for mknod())
+
+=cut
+
+sub makedev { ($_[0] << 8) | $_[1] }
+
+=item unmakedev($device_id)
+
+The reverse of C<makedev()>: given a device ID, it will return both major and minor device IDs.
+
+=cut
+
+sub unmakedev { $_[0] >> 8, $_[0] & 0xff }
+
+=item MB($suffixed_number)
+
+return a size in sector
+ie C<MB(1)> is 2048 sectors, which is 1MB
+
+eg:
+
+  MB("10") => 20480
+
+=cut
+
 sub MB {
     my ($nb_MB) = @_;
     $nb_MB * 2048;
 }
+
+=item removeXiBSuffix($string)
+
+Remove the XiB suffix and return the number. eg:
+
+  "10k" =>   10240
+  "2M"  => 2097152
+
+=cut
 
 sub removeXiBSuffix {
     local $_ = shift;
@@ -126,6 +241,20 @@ sub removeXiBSuffix {
     /(\d+)\s*TB?$/i and return $1 * 1024 * 1024 * 1024 * 1024;
     $_;
 }
+
+=item formatXiB($number [, $base])
+
+The reverse of C<removeXiBSuffix()>, returns a nicely human size. eg:
+
+  2097152 => "2MB"
+
+The optional parameter enables to provide the unit size (default is one).
+eg for a 2000 512 sized sectors:
+
+  formatXiB(2000, 512)
+
+=cut
+
 sub formatXiB {
     my ($newnb, $o_newbase) = @_;
     my $newbase = $o_newbase || 1;
@@ -198,6 +327,12 @@ sub formatError {
     &MDK::Common::String::formatError($err);
 }
 
+=item group_by($f, @list)
+
+Group the elements of @list in array references according to the $f comparison function.
+
+=cut
+
 sub group_by(&@) {
     my $f = shift;
     @_ or return;
@@ -214,13 +349,26 @@ sub group_by(&@) {
     @l;
 }
 
-# Group the list by n. Returns a reference of lists of length n
+=item group_n_lm($n, @list)
+
+Group the list by n. Returns a reference of lists of length n
+
+See also C<group_by2(LIST)> from L<MDK::Common::DataStructure>
+
+=cut
+
 sub group_n_lm {
     my $n = shift;
     my @l;
     push @l, [ splice(@_, 0, $n) ] while @_;
     @l;
 }
+
+=item join_lines(@strings)
+
+Concatenate adjacent strings if laters begin with spaces.
+
+=cut
 
 sub join_lines {
     my @l;
@@ -246,7 +394,7 @@ sub read_alternative {
 sub set_alternative {
     my ($command, $executable) = @_;
 
-    #- check the existance of $executable as an alternative for $command
+    #- check the existence of $executable as an alternative for $command
     #- (is this needed???)
     run_program::rooted_get_stdout($::prefix, 'update-alternatives', '--display', $command) =~ /^\Q$executable /m or return;
 
@@ -262,8 +410,16 @@ sub open_file {
     open($F, $file) ? $F : do { log::l("Cannot open $file: $!"); undef };
 }
 
+=item secured_file($f)
+
+A wrapper around c::is_secure_file().
+
+Callers should probably just use C<mkstemp()> in /tmp.
+
+=cut
+
 # FIXME: callers should just use mkstemp in /tmp instead of relying on $TMPDIR || $ENV{HOME}/tmp
-# or we should just move the choice of directoyr from callers to here:
+# or we should just move the choice of directory from callers to here:
 # my $tmpdir = find { -d $_ } $ENV{TMPDIR}, "$ENV{HOME}/tmp", "$::prefix/tmp";
 sub secured_file {
     my ($f) = @_;
@@ -340,6 +496,20 @@ sub is_running {
     }
 }
 
+=back
+
+=head2 Release files
+
+=over
+
+=item parse_release_file($prefix, $f, $part)
+
+Parses the $f release file in $prefix from the $part device.
+
+Returns a hash containing C<release>, C<version>, C<release_file>, C<part> & C<arch> fields.
+
+=cut
+
 sub parse_release_file {
     my ($prefix, $f, $part) = @_;
     chomp(my $s = cat_("$prefix$f"));
@@ -350,16 +520,28 @@ sub parse_release_file {
       release_file => $f, part => $part, arch => $arch };
 }
 
+=item release_file($o_dir)
+
+Returns the release file name.
+
+=cut
+
 sub release_file {
     my ($o_dir) = @_;
-    my @names = ('mandrakelinux-release', 'mandrake-release', 'conectiva-release', 'release', 'redhat-release', 'fedora-release', 'SuSE-release');
+    my @names = ('mandrakelinux-release', 'mandrake-release', 'conectiva-release', 'release', 'redhat-release', 'fedora-release', 'SuSE-release', 'mageia-release', 'distro-release');
     find { -r "$o_dir$_" } (
 	(map { "/root/drakx/$_.upgrading" } @names), 
 	(map { "/etc/$_" } @names),
     );
 }
 
-sub mandrake_release_info() {
+=item distro_release_info()
+
+Parses C</etc/product.id> and returns a hash.
+
+=cut
+
+sub distro_release_info() {
     parse_LDAP_namespace_structure(cat_('/etc/product.id'));
 }
 
@@ -369,30 +551,54 @@ sub parse_LDAP_namespace_structure {
     \%h;
 }
 
-sub mandrake_release {
+=item distro_release($o_dir)
+
+returns the content of distro release file from given directory (optional).
+
+=cut
+
+sub distro_release {
     my ($o_dir) = @_;
     my $f = release_file($o_dir);
     $f && chomp_(cat_("$o_dir$f"));
 }
 
+=back
+
+=head2 Misc
+
+=over
+
+
+=item get_parent_uid()
+
+Returns UID of the parent process.
+
+=cut
+
 sub get_parent_uid() {
     cat_('/proc/' . getppid() . '/status') =~ /Uid:\s*(\d+)/ ? $1 : undef;
 }
 
-sub wrap_command_for_root {
-    my ($name, @args) = @_;
-    ([ 'consolehelper', $name ], @args);
-}
+=item require_root_capability()
+
+Ensure we are running as root.
+
+=cut
 
 sub require_root_capability() {
     return if $::testing || !$>; # we're already root
 
-    my ($command, @args) = wrap_command_for_root($0, @ARGV);
-    exec { $command->[0] } $command->[1], @args or die N("command %s missing", $command->[0]);
-
-    # still not root ?
-    die "you must be root to run this program" if $>;
+    die "you must be root to run this program";
 }
+
+=item check_for_xserver()
+
+Test if we have access to X11.
+This eg enables interactive to use the proper backend (either text mode or
+GUI)
+
+=cut
 
 sub check_for_xserver() {
     if (!defined $::xtest) {
@@ -405,9 +611,20 @@ sub check_for_xserver() {
     return $::xtest;
 }
 
-#- special unpack
-#- - returning an array refs for each element like "s10"
-#- - handling things like s10* at the end of the format
+=item unpack_with_refs($format, $s)
+
+special unpack:
+
+=over 4
+
+=item * returning an array refs for each element like "C<s10>"
+
+=item * handling things like C<s10*> at the end of the format
+
+=back
+
+=cut
+
 sub unpack_with_refs {
     my ($format, $s) = @_;
     my $initial_format = $format;
@@ -426,6 +643,12 @@ sub unpack_with_refs {
     }
     @r;
 }
+
+=item md5file(@files)
+
+Returns the MD5 signatures of @files in list context or signature of the first one in scalar context.
+
+=cut
 
 #- used in userdrake and mdkonline
 sub md5file {
@@ -486,6 +709,28 @@ sub update_gnomekderc_no_create {
     }
 }
 
+=item is_mgalive()
+
+Checks if we are in mga live mode
+
+=cut
+
+sub is_mgalive { -e "/run/mgalive" }
+
+=item is_uefi()
+
+Checks if we are on an uefi system
+
+=cut
+
+sub is_uefi { -e "/sys/firmware/efi" }
+
+=item cmp_kernel_versions($va, $vb)
+
+Compare two kernel versions
+
+=cut
+
 sub cmp_kernel_versions {
     my ($va, $vb) = @_;
     my $rel_a = $va =~ s/-(.*)$// && $1;
@@ -497,5 +742,9 @@ sub cmp_kernel_versions {
     } $va, $vb;
     $r || $rel_a <=> $rel_b || $rel_a cmp $rel_b;
 }
+
+=back
+
+=cut
 
 1;

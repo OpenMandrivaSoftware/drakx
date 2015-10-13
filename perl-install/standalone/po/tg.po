@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DrakX-tg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-22 00:53+0100\n"
+"POT-Creation-Date: 2015-02-18 12:28+0100\n"
 "PO-Revision-Date: 2005-09-17 16:03+0500\n"
 "Last-Translator: Victor Ibragimov <youth_opportunities@tajikngo.org>\n"
 "Language-Team: Tajik\n"
@@ -26,73 +26,73 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.10\n"
 
-#: display_help:54 display_help:59 drakbug:170 drakperm:134
+#: display_help:53 display_help:58 drakbug:173 drakperm:134
 #, c-format
 msgid "Help"
 msgstr "Ёрӣ"
 
-#: display_help:67 drakbug:175 drakfont:505
+#: display_help:66 drakbug:178 drakfont:507
 #, c-format
 msgid "Close"
 msgstr "Пӯшидан"
 
-#: drakauth:24 drakauth:26 draksec:162
+#: drakauth:24 drakauth:26 draksec:184
 #, c-format
 msgid "Authentication"
 msgstr "Аслшиносӣ"
 
-#: drakauth:37 drakclock:113 drakclock:138 drakdvb:74 drakfont:211
-#: drakfont:224 drakfont:262 finish-install:131 logdrake:174 logdrake:449
-#: logdrake:454 scannerdrake:56 scannerdrake:98 scannerdrake:139
+#: drakauth:37 drakclock:117 drakclock:142 drakdvb:74 drakfont:213
+#: drakfont:226 drakfont:264 finish-install:133 logdrake:177 logdrake:453
+#: logdrake:458 scannerdrake:56 scannerdrake:98 scannerdrake:139
 #: scannerdrake:197 scannerdrake:256 scannerdrake:726 scannerdrake:737
 #: scannerdrake:876 scannerdrake:887 scannerdrake:957
 #, c-format
 msgid "Error"
 msgstr "Хатогӣ"
 
-#: drakboot:53
+#: drakboot:54
 #, c-format
 msgid "No bootloader found, creating a new configuration"
 msgstr ""
 
-#: drakboot:86 harddrake2:195 harddrake2:196 logdrake:75
+#: drakboot:89 harddrake2:191 logdrake:77
 #, c-format
-msgid "/_File"
-msgstr "/_Файл"
+msgid "_File"
+msgstr "_Файл"
 
-#: drakboot:87 logdrake:81
+#: drakboot:90 harddrake2:192 logdrake:78 logdrake:79
 #, c-format
-msgid "/File/_Quit"
-msgstr "/Файл/_Баромадан"
+msgid "_Quit"
+msgstr "_Баромадан"
 
-#: drakboot:87 harddrake2:196 logdrake:81
+#: drakboot:90 harddrake2:192 logdrake:79
 #, c-format
 msgid "<control>Q"
 msgstr "<control>Cyrillic_BE"
 
-#: drakboot:127
+#: drakboot:138
 #, c-format
 msgid "Text only"
 msgstr ""
 
-#: drakboot:128
+#: drakboot:139
 #, c-format
 msgid "Verbose"
 msgstr ""
 
-#: drakboot:129
+#: drakboot:140
 #, c-format
 msgid "Silent"
 msgstr "Хомӯшӣ"
 
-#: drakboot:135 drakbug:247 drakdvb:57 drakfont:681 drakperm:374 drakperm:384
-#: drakups:26 harddrake2:528 localedrake:45 scannerdrake:48 scannerdrake:51
+#: drakboot:146 drakbug:250 drakdvb:57 drakfont:682 drakperm:371 drakperm:381
+#: drakups:27 harddrake2:504 localedrake:45 scannerdrake:48 scannerdrake:51
 #: scannerdrake:294 scannerdrake:299 scannerdrake:951
 #, c-format
 msgid "Warning"
 msgstr "Огоҳӣ"
 
-#: drakboot:136
+#: drakboot:147
 #, c-format
 msgid ""
 "Your system bootloader is not in framebuffer mode. To activate graphical "
@@ -102,72 +102,72 @@ msgstr ""
 "фаъолсозии боркунии графикӣ, усули графикии видеои боркуниро аз асбоби "
 "танзимкунии боркунанда интихоб кунед."
 
-#: drakboot:137
+#: drakboot:148
 #, c-format
 msgid "Do you want to configure it now?"
 msgstr "Оё дар айни замон инро танзим кардан мехоҳед ?"
 
-#: drakboot:146
+#: drakboot:157
 #, c-format
 msgid "Install themes"
 msgstr "Мавзӯъҳоро коргузорӣ кунед"
 
-#: drakboot:148
+#: drakboot:159
 #, c-format
 msgid "Graphical boot theme selection"
 msgstr "Интихоби мавзӯъи худборкунии графикӣ"
 
-#: drakboot:151
+#: drakboot:162
 #, fuzzy, c-format
 msgid "Graphical boot mode:"
 msgstr "Худборкунии графикиро истифода баред"
 
-#: drakboot:153
+#: drakboot:164
 #, c-format
 msgid "Theme"
 msgstr "Мавзӯъ"
 
-#: drakboot:187
+#: drakboot:198
 #, c-format
 msgid "Default user"
 msgstr "Корванди пешфарз"
 
-#: drakboot:188
+#: drakboot:199
 #, c-format
 msgid "Default desktop"
 msgstr "Мизи кории пешфарз"
 
-#: drakboot:191
+#: drakboot:202
 #, c-format
 msgid "No, I do not want autologin"
 msgstr "Не, ман худдохилшавиро намехоҳам"
 
-#: drakboot:192
+#: drakboot:203
 #, c-format
 msgid "Yes, I want autologin with this (user, desktop)"
 msgstr "Ҳа, ман худдохилшавиро бо ин (корванд, мизи корӣ) мехоҳам"
 
-#: drakboot:199
+#: drakboot:210
 #, c-format
 msgid "System mode"
 msgstr "Усули системи"
 
-#: drakboot:202
+#: drakboot:213
 #, c-format
 msgid "Launch the graphical environment when your system starts"
 msgstr "Сардиҳии вазъияти графикӣ ҳангоми оғози системи худ"
 
-#: drakboot:257
+#: drakboot:268
 #, c-format
 msgid "Boot Style Configuration"
 msgstr "Танзимдарории Навъи Худборшавӣ"
 
-#: drakboot:259 drakboot:263
+#: drakboot:270 drakboot:274
 #, c-format
 msgid "Video mode"
 msgstr "Усули видео"
 
-#: drakboot:260
+#: drakboot:271
 #, c-format
 msgid ""
 "Please choose a video mode, it will be applied to each of the boot entries "
@@ -184,15 +184,15 @@ msgstr ""
 msgid "The \"%s\" program has crashed with the following error:"
 msgstr ""
 
-#: drakbug:60
+#: drakbug:62
 #, fuzzy, c-format
-msgid "OpenMandriva Lx Bug Reporting"
-msgstr "OpenMandriva Lx Асбоби Сохтани Маърӯза оиди Хатогӣ"
+msgid "DrakX Bug Report Tool"
+msgstr "Moondrake Асбоби Сохтани Маърӯза оиди Хатогӣ"
 
-#: drakbug:65
-#, c-format
-msgid "OpenMandriva Lx Control Center"
-msgstr "Маркази Идораи OpenMandriva Lx"
+#: drakbug:67
+#, fuzzy, c-format
+msgid "DrakX Linux Control Center"
+msgstr "Маркази Идораи Mandriva Linux"
 
 #: drakbug:66
 #, c-format
@@ -209,10 +209,15 @@ msgstr "Асбоби ҳангомашавӣ"
 msgid "Standalone Tools"
 msgstr "Асбобҳои Standalone"
 
-#: drakbug:70 drakbug:71
+#: drakbug:72 drakbug:73
 #, fuzzy, c-format
-msgid "OpenMandriva Online"
-msgstr "Mandriva Ғайрихудмухтор"
+msgid "%s Online"
+msgstr "Moondrake Ғайрихудмухтор"
+
+#: drakbug:72 drakbug:73 drakbug:99 draksec:169
+#, fuzzy, c-format
+msgid "DrakX"
+msgstr "DrakUPS"
 
 #: drakbug:72
 #, c-format
@@ -234,9 +239,9 @@ msgstr "Асбоби Миграсияи Windows"
 msgid "Configuration Wizards"
 msgstr "Устоди Танзимдарорӣ"
 
-#: drakbug:97
+#: drakbug:99
 #, fuzzy, c-format
-msgid "Select Tool:"
+msgid "Select %s Tool:"
 msgstr "Интихоби Ҳама"
 
 #: drakbug:98
@@ -344,27 +349,27 @@ msgstr ""
 msgid "Thanks."
 msgstr ""
 
-#: drakclock:28 draksec:168
+#: drakclock:29 draksec:190
 #, c-format
 msgid "Date, Clock & Time Zone Settings"
 msgstr ""
 
-#: drakclock:37
+#: drakclock:38
 #, c-format
 msgid "not defined"
 msgstr "танзим нашуда"
 
-#: drakclock:39
+#: drakclock:40
 #, c-format
 msgid "Change Time Zone"
 msgstr "Ивази Минтақаи Соат"
 
-#: drakclock:44
+#: drakclock:45
 #, c-format
 msgid "Timezone - DrakClock"
 msgstr "Минтақаи соат - DrakСоат"
 
-#: drakclock:44
+#: drakclock:45
 #, c-format
 msgid "Which is your timezone?"
 msgstr "Вақти соати шумо чӣ гуна аст?"
@@ -379,12 +384,12 @@ msgstr "GMT - DrakСоат"
 msgid "Is your hardware clock set to GMT?"
 msgstr "Соати сахтафзори шумо зери GMT барпо шудааст?"
 
-#: drakclock:72
+#: drakclock:75
 #, c-format
 msgid "Network Time Protocol"
 msgstr "Қарордоди Шабакавии Вақт"
 
-#: drakclock:74
+#: drakclock:77
 #, c-format
 msgid ""
 "Your computer can synchronize its clock\n"
@@ -393,42 +398,42 @@ msgstr ""
 "Компютери шумо соати худро бо хидматрасони дурдасти вақт\n"
 " ба воситаи NTP ҳамзамон карда метавонад"
 
-#: drakclock:75
+#: drakclock:78
 #, c-format
 msgid "Enable Network Time Protocol"
 msgstr "Даргиронидани Қарордоди Шабакавии Вақт"
 
-#: drakclock:83
+#: drakclock:86
 #, c-format
 msgid "Server:"
 msgstr "Хидматрасон:"
 
-#: drakclock:97
+#: drakclock:100
 #, c-format
 msgid "Timezone"
 msgstr "Минтақаи соатӣ"
 
-#: drakclock:113
+#: drakclock:117
 #, fuzzy, c-format
 msgid "Please enter a valid NTP server address."
 msgstr "Марҳамат карда IP суроғаи дурустро ворид кунед."
 
-#: drakclock:139
+#: drakclock:143
 #, c-format
 msgid "Could not synchronize with %s."
 msgstr "Ҳамзамонсозӣ бо %s намешавад."
 
-#: drakclock:140 drakdvb:149 logdrake:179 scannerdrake:488
+#: drakclock:144 drakdvb:149 logdrake:182 scannerdrake:488
 #, c-format
 msgid "Quit"
 msgstr "Баромадан"
 
-#: drakclock:141
+#: drakclock:145
 #, fuzzy, c-format
 msgid "Retry"
 msgstr "Барқарор"
 
-#: drakclock:166 drakclock:176
+#: drakclock:168 drakclock:178
 #, c-format
 msgid "Reset"
 msgstr "Бознишондан"
@@ -453,10 +458,10 @@ msgstr ""
 msgid "Could not get the list of available channels"
 msgstr ""
 
-#: drakdvb:80 draksec:67 drakups:98 finish-install:106 harddrake2:374
+#: drakdvb:80 draksec:69 drakups:99 finish-install:106 harddrake2:358
 #: scannerdrake:63 scannerdrake:67 scannerdrake:75 scannerdrake:316
 #: scannerdrake:365 scannerdrake:501 scannerdrake:505 scannerdrake:527
-#: service_harddrake:423
+#: service_harddrake:426
 #, c-format
 msgid "Please wait"
 msgstr "Лутфан интизор шавед"
@@ -466,7 +471,7 @@ msgstr "Лутфан интизор шавед"
 msgid "Detecting DVB channels, this will take a few minutes"
 msgstr ""
 
-#: drakdvb:85 drakfont:571 drakfont:651 drakfont:735 drakups:216 logdrake:179
+#: drakdvb:85 drakfont:571 drakfont:651 drakfont:736 drakups:217 logdrake:182
 #, c-format
 msgid "Cancel"
 msgstr "Бекор кардан"
@@ -498,20 +503,25 @@ msgstr "GDM (GNOME Мудири Намоиш)"
 
 #: drakedm:43
 #, fuzzy, c-format
+msgid "LIGHTDM (LightDM Display Manager)"
+msgstr "GDM (GNOME Мудири Намоиш)"
+
+#: drakedm:44
+#, fuzzy, c-format
 msgid "SLIM (Simple Display Manager)"
 msgstr "XDM (X Мудири Намоиш)"
 
-#: drakedm:44
+#: drakedm:45
 #, c-format
 msgid "XDM (X Display Manager)"
 msgstr "XDM (X Мудири Намоиш)"
 
-#: drakedm:55
+#: drakedm:56
 #, c-format
 msgid "Choosing a display manager"
 msgstr "Интихоби мудири намоиш"
 
-#: drakedm:56
+#: drakedm:57
 #, c-format
 msgid ""
 "X11 Display Manager allows you to graphically log\n"
@@ -523,12 +533,12 @@ msgstr ""
 "медиҳад ва коргузории якчанд X - сеансҳои мухталифро дар як вақт дар мошинаи "
 "маҳалли шуморо пуштибонӣ мекунад."
 
-#: drakedm:79
+#: drakedm:80
 #, c-format
 msgid "The change is done, do you want to restart the dm service?"
 msgstr "Тағирот дароварда шуд, шумо dm хадамотро аз нав оғоз кардан мехоҳед ?"
 
-#: drakedm:80
+#: drakedm:81
 #, c-format
 msgid ""
 "You are going to close all running programs and lose your current session. "
@@ -654,7 +664,7 @@ msgstr "Коргузорӣ ба итмом расид"
 msgid "DrakFont"
 msgstr "DrakҲуруф"
 
-#: drakfont:489 drakfont:641
+#: drakfont:491 drakfont:641
 #, c-format
 msgid "Font List"
 msgstr "Рӯйхати Ҳуруф"
@@ -669,12 +679,12 @@ msgstr ""
 msgid "About"
 msgstr "Дар бораи"
 
-#: drakfont:499 drakfont:540
+#: drakfont:501 drakfont:540
 #, c-format
 msgid "Options"
 msgstr "Хосиятҳо"
 
-#: drakfont:500 drakfont:720
+#: drakfont:502 drakfont:721
 #, c-format
 msgid "Uninstall"
 msgstr "Хориҷ кардан"
@@ -689,24 +699,24 @@ msgstr "Воридот"
 msgid "Drakfont"
 msgstr "DrakҲуруф"
 
-#: drakfont:521 harddrake2:229
-#, fuzzy, c-format
-msgid "Copyright (C) %s by OpenMandriva"
-msgstr "Ҳуқуқи муаллифӣ (C) 2001-2008 Mandriva"
+#: drakfont:523
+#, c-format
+msgid "Copyright (C) %s by Mandriva"
+msgstr ""
 
 #: drakfont:523
 #, fuzzy, c-format
 msgid "Font installer."
 msgstr "Коргузорӣ нашудааст"
 
-#: drakfont:525 logdrake:55
-#, c-format
-msgid "OpenMandriva Lx"
-msgstr "OpenMandriva Lx"
+#: drakfont:527
+#, fuzzy, c-format
+msgid "Moondrake GNU/Linux"
+msgstr "Mandriva Linux"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
-#: drakfont:532 harddrake2:238
+#: drakfont:532 harddrake2:531
 #, c-format
 msgid "_: Translator(s) name(s) & email(s)\n"
 msgstr "Victor Ibragimov <youth_opportunities@tajikngo.org>\n"
@@ -736,7 +746,7 @@ msgstr "Abiword"
 msgid "Generic Printers"
 msgstr "Чопгарҳои намунавӣ"
 
-#: drakfont:561 drakfont:571 drakups:209
+#: drakfont:561 drakfont:571 drakups:210
 #, c-format
 msgid "Ok"
 msgstr "Ok"
@@ -758,17 +768,17 @@ msgstr "Интихоби Файл"
 msgid "Fonts"
 msgstr "Ҳуруфҳо"
 
-#: drakfont:639 draksec:164
+#: drakfont:639 draksec:186
 #, c-format
 msgid "Import fonts"
 msgstr "Ҳуруфҳоро ворид кунед"
 
-#: drakfont:645 drakups:298 drakups:374
+#: drakfont:645 drakups:299 drakups:375
 #, c-format
 msgid "Add"
 msgstr "Илова"
 
-#: drakfont:646 drakfont:734 drakups:300 drakups:376
+#: drakfont:646 drakfont:735 drakups:301 drakups:377
 #, c-format
 msgid "Remove"
 msgstr "Хориҷкунӣ"
@@ -778,67 +788,67 @@ msgstr "Хориҷкунӣ"
 msgid "Install"
 msgstr "Коргузорӣ"
 
-#: drakfont:683
+#: drakfont:684
 #, c-format
 msgid "Are you sure you want to uninstall the following fonts?"
 msgstr ""
 
-#: drakfont:687 draksec:57 harddrake2:319
+#: drakfont:688 draksec:59 harddrake2:302
 #, c-format
 msgid "Yes"
 msgstr "Ҳа"
 
-#: drakfont:689 draksec:56 harddrake2:320
+#: drakfont:690 draksec:58 harddrake2:303
 #, c-format
 msgid "No"
 msgstr "Не"
 
-#: drakfont:728
+#: drakfont:729
 #, c-format
 msgid "Unselect All"
 msgstr "Ноинтихоби Ҳама"
 
-#: drakfont:731
+#: drakfont:732
 #, c-format
 msgid "Select All"
 msgstr "Интихоби Ҳама"
 
-#: drakfont:748
+#: drakfont:749
 #, c-format
 msgid "Importing fonts"
 msgstr "Воридкунии ҳуруфҳо"
 
-#: drakfont:752 drakfont:772
+#: drakfont:753 drakfont:773
 #, c-format
 msgid "Initial tests"
 msgstr "Санҷишҳои шиносоӣ"
 
-#: drakfont:753
+#: drakfont:754
 #, c-format
 msgid "Copy fonts on your system"
 msgstr "Нусхабардории ҳуруфҳо ба системаи шумо"
 
-#: drakfont:754
+#: drakfont:755
 #, c-format
 msgid "Install & convert Fonts"
 msgstr "Коргузорӣ ва тағироти ҳуруфот"
 
-#: drakfont:755
+#: drakfont:756
 #, c-format
 msgid "Post Install"
 msgstr "Коргузорӣ ба итмом расид"
 
-#: drakfont:767
+#: drakfont:768
 #, fuzzy, c-format
 msgid "Removing fonts"
 msgstr "Воридкунии ҳуруфҳо"
 
-#: drakfont:773
+#: drakfont:774
 #, c-format
 msgid "Remove fonts on your system"
 msgstr "Хориҷкунии ҳуруфҳо ба системаи шумо"
 
-#: drakfont:774
+#: drakfont:775
 #, c-format
 msgid "Post Uninstall"
 msgstr "Почтаро кор нагузоштан"
@@ -917,22 +927,22 @@ msgstr "Иҷозатҳо "
 msgid "Editable"
 msgstr "Таҳриршаванда"
 
-#: drakperm:48 drakperm:318
+#: drakperm:50 drakperm:318
 #, c-format
 msgid "Path"
 msgstr "Роҳ"
 
-#: drakperm:48 drakperm:247
+#: drakperm:50 drakperm:247
 #, c-format
 msgid "User"
 msgstr "Корванд"
 
-#: drakperm:48 drakperm:247
+#: drakperm:50 drakperm:247
 #, c-format
 msgid "Group"
 msgstr "Гурӯҳ"
 
-#: drakperm:48 drakperm:107 drakperm:330 draksec:179
+#: drakperm:50 drakperm:107 drakperm:330 draksec:201
 #, c-format
 msgid "Permissions"
 msgstr "Иҷозатҳо "
@@ -942,7 +952,7 @@ msgstr "Иҷозатҳо "
 msgid "Add a new rule"
 msgstr ""
 
-#: drakperm:65 drakperm:100 drakperm:126
+#: drakperm:67 drakperm:102 drakperm:126
 #, c-format
 msgid "Edit current rule"
 msgstr "Таҳрири қоидаи равона"
@@ -952,7 +962,7 @@ msgstr "Таҳрири қоидаи равона"
 msgid ""
 "Here you can see files to use in order to fix permissions, owners, and "
 "groups via msec.\n"
-"You can also edit your own rules which will owerwrite the default rules."
+"You can also edit your own rules which will overwrite the default rules."
 msgstr ""
 "Дар ин ҷо шумо файлҳоеро, ки бо мақсади ислоҳи рухсатҳо, соҳибон ва гурӯҳҳо "
 "ба воситаи msec истифода мешаванд, дида метавонед.\n"
@@ -1008,7 +1018,7 @@ msgstr "Нобуд кардан"
 msgid "Delete selected rule"
 msgstr "Қоидаи интихобшударо нобуд созед"
 
-#: drakperm:126 drakups:299 drakups:375
+#: drakperm:126 drakups:300 drakups:376
 #, c-format
 msgid "Edit"
 msgstr "Таҳрир кардан"
@@ -1135,24 +1145,24 @@ msgstr "Интихоби роҳ"
 msgid "Property"
 msgstr "Моликият"
 
-#: drakperm:374
+#: drakperm:371
 #, c-format
 msgid ""
 "The first character of the path must be a slash (\"/\"):\n"
 "\"%s\""
 msgstr ""
 
-#: drakperm:384
+#: drakperm:381
 #, c-format
 msgid "Both the username and the group must valid!"
 msgstr ""
 
-#: drakperm:385
+#: drakperm:382
 #, c-format
 msgid "User: %s"
 msgstr ""
 
-#: drakperm:386
+#: drakperm:383
 #, c-format
 msgid "Group: %s"
 msgstr ""
@@ -1172,7 +1182,7 @@ msgstr "МАҲАЛЛӢ"
 msgid "NONE"
 msgstr "Ҳеҷ"
 
-#: draksec:54
+#: draksec:56 draksec:113
 #, c-format
 msgid "Default"
 msgstr "Пешфарз"
@@ -1189,145 +1199,145 @@ msgstr "Сатҳи Бехатарӣ:"
 
 #: draksec:108
 #, c-format
-msgid "Configure access to OpenMandriva Lx administrative tools"
+msgid "Configure authentication required to access DrakX tools"
 msgstr ""
 
-#: draksec:111
+#: draksec:114
 #, c-format
 msgid "No password needed"
 msgstr "Гузарвожа нест"
 
-#: draksec:112
+#: draksec:115
 #, c-format
-msgid "Root password required"
+msgid "Administrator password"
 msgstr ""
 
-#: draksec:113
+#: draksec:116
 #, c-format
 msgid "User password required"
 msgstr ""
 
-#: draksec:146 draksec:202
+#: draksec:168 draksec:223
 #, c-format
 msgid "Software Management"
 msgstr "Идоракунии Нармафзор"
 
-#: draksec:147
+#: draksec:169
 #, fuzzy, c-format
-msgid "Online Update"
-msgstr "Mandriva Ғайрихудмухтор"
+msgid "%s Update"
+msgstr "Moondrake Ғайрихудмухтор"
 
-#: draksec:148
+#: draksec:170
 #, c-format
 msgid "Software Media Manager"
 msgstr "Мудири Сарчашмаҳои Нармафзор"
 
-#: draksec:149
+#: draksec:171
 #, fuzzy, c-format
 msgid "Configure 3D Desktop effects"
 msgstr "Танзими хидматрасони гурӯҳии ахборӣ"
 
-#: draksec:150
+#: draksec:172
 #, fuzzy, c-format
 msgid "Graphical Server Configuration"
 msgstr "Танзимдарории огоҳиномаи пост"
 
-#: draksec:151
+#: draksec:173
 #, fuzzy, c-format
 msgid "Mouse Configuration"
 msgstr "Танзимдарории дастӣПайкарабандии Раҳнамо"
 
-#: draksec:152
+#: draksec:174
 #, fuzzy, c-format
 msgid "Keyboard Configuration"
 msgstr "Танзимдарории Шабака"
 
-#: draksec:153
+#: draksec:175
 #, fuzzy, c-format
 msgid "Printer Configuration"
 msgstr "Танзимдарории Пурборкунӣ"
 
-#: draksec:154
+#: draksec:176
 #, fuzzy, c-format
 msgid "UPS Configuration"
 msgstr "Танзими гардонандаи UPS"
 
-#: draksec:155
+#: draksec:177
 #, fuzzy, c-format
 msgid "Network Configuration"
 msgstr "Батанзимдарории огоҳкунӣ"
 
-#: draksec:156
+#: draksec:178
 #, c-format
 msgid "Hosts definitions"
 msgstr ""
 
-#: draksec:157
+#: draksec:179
 #, fuzzy, c-format
 msgid "Network Center"
 msgstr "Шабака ва Интернет"
 
-#: draksec:158
+#: draksec:180
 #, c-format
 msgid "Wireless Network Roaming"
 msgstr ""
 
-#: draksec:159
+#: draksec:181
 #, c-format
 msgid "VPN"
 msgstr ""
 
-#: draksec:160
+#: draksec:182
 #, c-format
 msgid "Proxy Configuration"
 msgstr "Танзимдарории Пурборкунӣ"
 
-#: draksec:161
+#: draksec:183
 #, fuzzy, c-format
 msgid "Connection Sharing"
 msgstr "Пайвастшавӣ"
 
-#: draksec:163
+#: draksec:185
 #, c-format
 msgid "Backups"
 msgstr "Нусхаҳои захирашавӣ"
 
-#: draksec:165 logdrake:56
+#: draksec:187 logdrake:56
 #, c-format
 msgid "Logs"
 msgstr "Воридҳо"
 
-#: draksec:166 finish-install:210 finish-install:249
+#: draksec:188 finish-install:212 finish-install:251
 #, c-format
 msgid "Services"
 msgstr "Хидматҳо"
 
-#: draksec:167
+#: draksec:189
 #, fuzzy, c-format
 msgid "Users"
 msgstr "Корванд"
 
-#: draksec:169
+#: draksec:191
 #, fuzzy, c-format
 msgid "Boot Configuration"
 msgstr "Батанзимдарории огоҳкунӣ"
 
-#: draksec:203
+#: draksec:224
 #, c-format
 msgid "Hardware"
 msgstr "Сахтафзор"
 
-#: draksec:204
+#: draksec:225
 #, fuzzy, c-format
 msgid "Network"
 msgstr "Хосиятҳои Шабака"
 
-#: draksec:205
+#: draksec:226
 #, c-format
 msgid "System"
 msgstr "Систем"
 
-#: draksec:206
+#: draksec:227
 #, c-format
 msgid "Boot"
 msgstr "Пурборкунӣ"
@@ -1419,12 +1429,12 @@ msgstr ""
 msgid "Autodetection"
 msgstr "Худмуайянкунӣ"
 
-#: drakups:98 harddrake2:374
+#: drakups:99 harddrake2:358
 #, c-format
 msgid "Detection in progress"
 msgstr "Муаяйнкунӣ дар раванди иҷроиш қарор дорад"
 
-#: drakups:117 drakups:156 logdrake:461 logdrake:467
+#: drakups:118 drakups:157 logdrake:465 logdrake:471
 #, c-format
 msgid "Congratulations"
 msgstr "Табрикот"
@@ -1559,7 +1569,7 @@ msgstr "Савия"
 msgid "ACL name"
 msgstr "Номи ACL"
 
-#: drakups:296 finish-install:258
+#: drakups:297 finish-install:260
 #, c-format
 msgid "Password"
 msgstr "Гузарвожа"
@@ -1612,7 +1622,7 @@ msgid "Keyboard"
 msgstr "Забонак"
 
 #: finish-install:58
-#, fuzzy, c-format
+#, c-format
 msgid "Please choose your keyboard layout."
 msgstr "Лутфан, ороиши забонаки худро интихоб намоед."
 
@@ -1621,57 +1631,62 @@ msgstr "Лутфан, ороиши забонаки худро интихоб н
 msgid "Testing your connection..."
 msgstr ""
 
-#: finish-install:185
+#: finish-install:187
 #, c-format
 msgid "Windows-compatible sharing system"
 msgstr ""
 
-#: finish-install:188
+#: finish-install:189
+#, c-format
+msgid "Virtual Private Network"
+msgstr ""
+
+#: finish-install:190
 #, fuzzy, c-format
 msgid "OpenSSH server"
 msgstr "Хидматгори SSH"
 
-#: finish-install:189
+#: finish-install:191
 #, fuzzy, c-format
 msgid "Print server"
 msgstr "Хидматгори Ftp"
 
-#: finish-install:209
+#: finish-install:211
 #, c-format
 msgid "Do you have any services that you want to run when starting up?"
 msgstr ""
 
-#: finish-install:241
+#: finish-install:243
 #, fuzzy, c-format
 msgid "The following services failed to start:\n"
 msgstr "Қуттиҳои зерин бояд коргузорӣ гардад:\n"
 
-#: finish-install:244
+#: finish-install:246
 #, fuzzy, c-format
 msgid "The following services failed to stop:\n"
 msgstr "Қуттиҳои зерин бояд коргузорӣ гардад:\n"
 
-#: finish-install:256 finish-install:274 finish-install:287
+#: finish-install:258 finish-install:276 finish-install:289
 #, c-format
 msgid "Encrypted home partition"
 msgstr ""
 
-#: finish-install:256
+#: finish-install:258
 #, c-format
 msgid "Please enter a password for the %s user"
 msgstr ""
 
-#: finish-install:259
+#: finish-install:261
 #, c-format
 msgid "Password (again)"
 msgstr "Гузарвожа (боз)"
 
-#: finish-install:274
+#: finish-install:276
 #, c-format
 msgid "Creating encrypted home partition"
 msgstr ""
 
-#: finish-install:287
+#: finish-install:289
 #, c-format
 msgid "Formatting encrypted home partition"
 msgstr ""
@@ -2308,116 +2323,72 @@ msgstr "Бахшҳо"
 msgid "Features"
 msgstr "Хусусиятҳо"
 
-#. -PO: please keep all "/" characters !!!
-#: harddrake2:179 logdrake:82
+#: harddrake2:179
 #, c-format
-msgid "/_Options"
-msgstr "/_Хосиятҳо"
+msgid "Autodetect _modems"
+msgstr "Худмуаяйнкунии _модемҳо"
 
-#: harddrake2:180 harddrake2:203 logdrake:84
+#: harddrake2:180
 #, c-format
-msgid "/_Help"
-msgstr "/_Ёрӣ"
-
-#: harddrake2:184
-#, c-format
-msgid "/Autodetect _modems"
-msgstr "/Худмуаяйнкунии _модемҳо"
-
-#: harddrake2:185
-#, c-format
-msgid "/Autodetect parallel _zip drives"
+msgid "Autodetect parallel _zip drives"
 msgstr ""
 
-#: harddrake2:189
+#: harddrake2:184
 #, fuzzy, c-format
 msgid "Hardware Configuration"
 msgstr "Танзимдарории Шабака"
 
+#: harddrake2:193
+#, c-format
+msgid "_Options"
+msgstr "_Хосиятҳо"
+
+#: harddrake2:194 harddrake2:195
+#, c-format
+msgid "_Help"
+msgstr "_Ёрӣ"
+
+#: harddrake2:195
+#, fuzzy, c-format
+msgid "<control>H"
+msgstr "<control>Cyrillic_BE"
+
 #: harddrake2:196
 #, c-format
-msgid "/_Quit"
-msgstr "/_Баромадан"
+msgid "_Fields description"
+msgstr "_Майдонҳо бо тавсифот"
 
-#: harddrake2:205
+#: harddrake2:197
 #, c-format
-msgid "/_Fields description"
-msgstr "/_Майдонҳо бо тавсифот"
+msgid "_Report Bug"
+msgstr "_Ҳисобот оиди хатогӣ"
 
-#: harddrake2:207
+#: harddrake2:198
 #, c-format
-msgid "Harddrake help"
-msgstr "Ёри Harddrake"
+msgid "_About..."
+msgstr "_Оиди..."
 
-#: harddrake2:208
-#, c-format
-msgid ""
-"Description of the fields:\n"
-"\n"
-msgstr ""
-"Тавсифи майдонҳо:\n"
-"\n"
-
-#: harddrake2:216
-#, c-format
-msgid "Select a device!"
-msgstr "Интихоби дастгоҳ !"
-
-#: harddrake2:216
-#, c-format
-msgid ""
-"Once you've selected a device, you'll be able to see the device information "
-"in fields displayed on the right frame (\"Information\")"
-msgstr ""
-"Баъди он ки шумо дастгоҳро интихоб намудед, шумо метавонед маълумотро оиди "
-"майдонҳо, ки дар чаҳорчӯбаи рости (\"Маълумот\") намоиш дода мешавад, бинед"
-
-#: harddrake2:222
-#, c-format
-msgid "/_Report Bug"
-msgstr "/_Ҳисобот оиди хатогӣ"
-
-#: harddrake2:224
-#, c-format
-msgid "/_About..."
-msgstr "/_Оиди..."
-
-#: harddrake2:227
-#, fuzzy, c-format
-msgid "Harddrake"
-msgstr "Harddrake2"
-
-#: harddrake2:231
-#, c-format
-msgid "This is HardDrake, a %s hardware configuration tool."
-msgstr ""
-
-#: harddrake2:233
-#, fuzzy, c-format
-msgid "OpenMandriva Linux"
-msgstr "OpenMandriva Lx"
-
-#: harddrake2:264
+#: harddrake2:242
 #, c-format
 msgid "Detected hardware"
 msgstr "Сахтафзори муайяншуда"
 
-#: harddrake2:267 scannerdrake:283
+#: harddrake2:245 scannerdrake:283
 #, c-format
 msgid "Information"
 msgstr "Маълумот"
 
-#: harddrake2:269
+#: harddrake2:247
 #, c-format
 msgid "Set current driver options"
 msgstr ""
 
-#: harddrake2:276
+#: harddrake2:254
 #, c-format
 msgid "Run config tool"
 msgstr "Воситаи танзимдарориро оғоз намоед"
 
-#: harddrake2:296
+#: harddrake2:280
 #, c-format
 msgid ""
 "Click on a device in the tree on the left in order to display its "
@@ -2426,45 +2397,93 @@ msgstr ""
 "Дар дарахти чап ба дастгоҳ ангушт занед, барои дар ин ҷо маълумотро нишон "
 "додан."
 
-#: harddrake2:317 notify-x11-free-driver-switch:13
+#: harddrake2:300 notify-x11-free-driver-switch:13
 #, c-format
 msgid "unknown"
 msgstr "номаълум"
 
-#: harddrake2:318
+#: harddrake2:301
 #, c-format
 msgid "Unknown"
 msgstr "Номаълум"
 
-#: harddrake2:338
+#: harddrake2:321
 #, c-format
 msgid "Misc"
 msgstr "Misc"
 
-#: harddrake2:420
+#: harddrake2:404
 #, c-format
 msgid "secondary"
 msgstr "дуюмдараҷа"
 
-#: harddrake2:420
+#: harddrake2:404
 #, c-format
 msgid "primary"
 msgstr "асосӣ"
 
-#: harddrake2:424
+#: harddrake2:408
 #, c-format
 msgid "burner"
 msgstr "сабткунанда"
 
-#: harddrake2:424
+#: harddrake2:408
 #, c-format
 msgid "DVD"
 msgstr "DVD"
 
-#: harddrake2:528
+#: harddrake2:504
 #, c-format
 msgid "The following packages need to be installed:\n"
 msgstr "Қуттиҳои зерин бояд коргузорӣ гардад:\n"
+
+#: harddrake2:521
+#, fuzzy, c-format
+msgid "Harddrake"
+msgstr "Harddrake2"
+
+#: harddrake2:523
+#, c-format
+msgid "Copyright (C) %s by %s"
+msgstr ""
+
+#: harddrake2:523 harddrake2:527
+#, c-format
+msgid "Mageia"
+msgstr ""
+
+#: harddrake2:525
+#, c-format
+msgid "This is HardDrake, a %s hardware configuration tool."
+msgstr ""
+
+#: harddrake2:540
+#, c-format
+msgid "Harddrake help"
+msgstr "Ёри Harddrake"
+
+#: harddrake2:541
+#, c-format
+msgid ""
+"Description of the fields:\n"
+"\n"
+msgstr ""
+"Тавсифи майдонҳо:\n"
+"\n"
+
+#: harddrake2:548
+#, c-format
+msgid "Select a device!"
+msgstr "Интихоби дастгоҳ !"
+
+#: harddrake2:548
+#, c-format
+msgid ""
+"Once you've selected a device, you'll be able to see the device information "
+"in fields displayed on the right frame (\"Information\")"
+msgstr ""
+"Баъди он ки шумо дастгоҳро интихоб намудед, шумо метавонед маълумотро оиди "
+"майдонҳо, ки дар чаҳорчӯбаи рости (\"Маълумот\") намоиш дода мешавад, бинед"
 
 #: localedrake:38
 #, c-format
@@ -2483,219 +2502,174 @@ msgid ", "
 msgstr ", "
 
 #: logdrake:55
-#, c-format
-msgid "%s Tools Logs"
-msgstr ""
+#, fuzzy, c-format
+msgid "DrakX Tools Logs"
+msgstr "Шарҳдиҳандаҳои Асбобҳои Moondrake"
 
 #: logdrake:69
 #, c-format
 msgid "Show only for the selected day"
 msgstr "Танҳо барои рӯзи интихобшуда нишон диҳед"
 
-#: logdrake:76
-#, c-format
-msgid "/File/_New"
-msgstr "/Файл/_Нав"
-
-#: logdrake:76
-#, c-format
-msgid "<control>N"
-msgstr "<control>N"
-
-#: logdrake:77
-#, c-format
-msgid "/File/_Open"
-msgstr "/Файл/_Кушодан"
-
-#: logdrake:77
-#, c-format
-msgid "<control>O"
-msgstr "<control>O"
-
-#: logdrake:78
-#, c-format
-msgid "/File/_Save"
-msgstr "/Файл/_Нигоҳ доштан"
-
 #: logdrake:78
 #, c-format
 msgid "<control>S"
 msgstr "<control>S"
 
-#: logdrake:79
-#, c-format
-msgid "/File/Save _As"
-msgstr "/Файл/нигоҳ доред _ҳамчун"
-
-#: logdrake:80
-#, c-format
-msgid "/File/-"
-msgstr "/Файл/-"
-
-#: logdrake:83
-#, c-format
-msgid "/Options/Test"
-msgstr "/Хосиятҳо/Санҷиш"
-
-#: logdrake:85
-#, c-format
-msgid "/Help/_About..."
-msgstr "/Ёрӣ/_Дар бораи..."
-
-#: logdrake:114
+#: logdrake:117
 #, c-format
 msgid ""
 "_:this is the auth.log log file\n"
 "Authentication"
 msgstr "Аслшиносӣ"
 
-#: logdrake:115
+#: logdrake:118
 #, c-format
 msgid ""
 "_:this is the user.log log file\n"
 "User"
 msgstr "Корванд"
 
-#: logdrake:116
+#: logdrake:119
 #, c-format
 msgid ""
 "_:this is the /var/log/messages log file\n"
 "Messages"
 msgstr "Паёмҳо"
 
-#: logdrake:117
+#: logdrake:120
 #, c-format
 msgid ""
 "_:this is the /var/log/syslog log file\n"
 "Syslog"
 msgstr "Номнависи системавӣ"
 
-#: logdrake:121
+#: logdrake:124
 #, c-format
 msgid "search"
 msgstr "ҷустуҷӯ"
 
-#: logdrake:133
+#: logdrake:136
 #, c-format
 msgid "A tool to monitor your logs"
 msgstr "Асбоб барои назорати номнависии шумо"
 
-#: logdrake:135
+#: logdrake:138
 #, c-format
 msgid "Settings"
 msgstr "Танзимдарориҳо"
 
-#: logdrake:138
+#: logdrake:141
 #, c-format
 msgid "Matching"
 msgstr "Мувофиқкунӣ"
 
-#: logdrake:139
+#: logdrake:142
 #, c-format
 msgid "but not matching"
 msgstr "лекин мувофиқат намекунад"
 
-#: logdrake:142
+#: logdrake:145
 #, c-format
 msgid "Choose file"
 msgstr "Файл интихоб кунед"
 
-#: logdrake:154
+#: logdrake:157
 #, c-format
 msgid "Calendar"
 msgstr "Тақвим"
 
-#: logdrake:163
+#: logdrake:166
 #, c-format
 msgid "Content of the file"
 msgstr "Мундариҷаи файл"
 
-#: logdrake:167 logdrake:411
+#: logdrake:170 logdrake:415
 #, c-format
 msgid "Mail alert"
 msgstr "Огоҳиномаи почтавӣ"
 
-#: logdrake:174
+#: logdrake:177
 #, c-format
 msgid "The alert wizard has failed unexpectedly:"
 msgstr "Устоди огоҳонӣ ногаҳон хомӯш шуд:"
 
-#: logdrake:178
+#: logdrake:181
 #, c-format
 msgid "Save"
 msgstr "Нигоҳ доштан"
 
-#: logdrake:226
+#: logdrake:230
 #, c-format
 msgid "please wait, parsing file: %s"
 msgstr "Лутфан мунтазир шавед, файл таҷзия мегардад: %s"
 
-#: logdrake:248
+#: logdrake:252
 #, c-format
 msgid "Sorry, log file isn't available!"
 msgstr ""
 
-#: logdrake:296
+#: logdrake:300
 #, c-format
 msgid "Error while opening \"%s\" log file: %s\n"
 msgstr ""
 
-#: logdrake:389
+#: logdrake:393
 #, c-format
 msgid "Apache World Wide Web Server"
 msgstr "Хидматрасони WWW Apache"
 
-#: logdrake:390
+#: logdrake:394
 #, c-format
 msgid "Domain Name Resolver"
 msgstr "Ҳалкунандаи Номи Соҳибӣ"
 
-#: logdrake:391
+#: logdrake:395
 #, c-format
 msgid "Ftp Server"
 msgstr "Хидматгори Ftp"
 
-#: logdrake:392
+#: logdrake:396
 #, c-format
 msgid "Postfix Mail Server"
 msgstr "Хизматрасони Почтавии Postfix"
 
-#: logdrake:393
+#: logdrake:397
 #, c-format
 msgid "Samba Server"
 msgstr "Хидматгори Samba"
 
-#: logdrake:394
+#: logdrake:398
 #, c-format
 msgid "SSH Server"
 msgstr "Хидматгори SSH"
 
-#: logdrake:395
+#: logdrake:399
 #, c-format
 msgid "Webmin Service"
 msgstr "Хизматрасони Webmin"
 
-#: logdrake:396
+#: logdrake:400
 #, c-format
 msgid "Xinetd Service"
 msgstr "Хадамоти Xinetd"
 
-#: logdrake:405
+#: logdrake:409
 #, c-format
 msgid "Configure the mail alert system"
 msgstr "Танзими системаи огоҳонии постӣ"
 
-#: logdrake:406
+#: logdrake:410
 #, c-format
 msgid "Stop the mail alert system"
 msgstr "Системаи огоҳкунии постиро боздоред"
 
-#: logdrake:414
+#: logdrake:418
 #, c-format
 msgid "Mail alert configuration"
 msgstr "Танзимдарории огоҳиномаи пост"
 
-#: logdrake:415
+#: logdrake:419
 #, c-format
 msgid ""
 "Welcome to the mail configuration utility.\n"
@@ -2706,17 +2680,17 @@ msgstr ""
 "\n"
 "Дар ин ҷо шумо метавонед системи огоҳиро барпо созед.\n"
 
-#: logdrake:418
+#: logdrake:422
 #, c-format
 msgid "What do you want to do?"
 msgstr "Шумо чӣ кор кардан мехоҳед?"
 
-#: logdrake:425
+#: logdrake:429
 #, c-format
 msgid "Services settings"
 msgstr "Гузоришҳои хизматрасониҳо"
 
-#: logdrake:426
+#: logdrake:430
 #, c-format
 msgid ""
 "You will receive an alert if one of the selected services is no longer "
@@ -2725,59 +2699,59 @@ msgstr ""
 "Агар яке аз хидматрасонҳои интихобшуда корандозӣ карда шуда набошад, онгоҳ "
 "шумо огоҳномаеро хоҳед гирифт"
 
-#: logdrake:433
+#: logdrake:437
 #, c-format
 msgid "Load setting"
 msgstr "Гузоришҳоро бор кунед"
 
-#: logdrake:434
+#: logdrake:438
 #, c-format
 msgid "You will receive an alert if the load is higher than this value"
 msgstr ""
 "Агар корандозӣ аз ин қимат баландтар бошад, онгоҳ шумо огоҳномаеро мегиред"
 
-#: logdrake:435
+#: logdrake:439
 #, c-format
 msgid ""
 "_: load here is a noun, the load of the system\n"
 "Load"
 msgstr "Кор андохтан"
 
-#: logdrake:440
+#: logdrake:444
 #, c-format
 msgid "Alert configuration"
 msgstr "Батанзимдарории огоҳкунӣ"
 
-#: logdrake:441
+#: logdrake:445
 #, c-format
 msgid "Please enter your email address below "
 msgstr "Лутфан. дар поён суроғаи электронии худро дохил намоед "
 
-#: logdrake:442
+#: logdrake:446
 #, c-format
 msgid "and enter the name (or the IP) of the SMTP server you wish to use"
 msgstr ""
 "ва номро дохил кунед (ё Шиносаи) хидматрасони SMTP-ро, ки шумо истифода "
 "бурдан мехоҳед"
 
-#: logdrake:444
+#: logdrake:448
 #, fuzzy, c-format
 msgid "Email address"
 msgstr "Суроғаи IP"
 
-#: logdrake:445
+#: logdrake:449
 #, fuzzy, c-format
 msgid "Email server"
 msgstr "Хидматгори Samba"
 
-#: logdrake:449
+#: logdrake:453
 #, c-format
 msgid "\"%s\" neither is a valid email nor is an existing local user!"
 msgstr ""
 "\"%s\" на дигар суроғаи пости электронӣ ва на корванди маҳаллии мавҷуда "
 "мебошад!"
 
-#: logdrake:454
+#: logdrake:458
 #, c-format
 msgid ""
 "\"%s\" is a local user, but you did not select a local smtp, so you must use "
@@ -2786,23 +2760,23 @@ msgstr ""
 "\"%s\" корванди маҳаллӣ аст, лекин шумо smtp-и маҳаллиро интихоб накардед, "
 "бинобар ин шумо суроғаи пости электронии пурраро истифода баред!"
 
-#: logdrake:461
+#: logdrake:465
 #, c-format
 msgid "The wizard successfully configured the mail alert."
 msgstr "Устод бо муваффақият огоҳонии постиро танзим кард."
 
-#: logdrake:467
+#: logdrake:471
 #, c-format
 msgid "The wizard successfully disabled the mail alert."
 msgstr "Устод бо муваффақият огоҳонии постиро хомӯш кард."
 
-#: logdrake:526
+#: logdrake:530
 #, c-format
 msgid "Save as.."
 msgstr "Нигоҳ доред ҳамчун..."
 
-#: notify-x11-free-driver-switch:18 service_harddrake:465
-#: service_harddrake:478
+#: notify-x11-free-driver-switch:18 service_harddrake:468
+#: service_harddrake:481
 #, c-format
 msgid "Display driver setup"
 msgstr ""
@@ -3390,27 +3364,27 @@ msgstr "Даъзе дастгоҳҳо илова карда шуданд: %s\n"
 msgid "- %s was added\n"
 msgstr "- %s илова карда шуд\n"
 
-#: service_harddrake:397
+#: service_harddrake:400
 #, c-format
 msgid "Hardware changes in \"%s\" class (%s seconds to answer)"
 msgstr "Тағиротҳои сахтафзор дар синфи \"%s\" (%s сония барои ҷавоб)"
 
-#: service_harddrake:398
+#: service_harddrake:401
 #, c-format
 msgid "Do you want to run the appropriate config tool?"
 msgstr "Шумо гузоришҳоро санҷидан мехоҳед ?"
 
-#: service_harddrake:423
+#: service_harddrake:426
 #, c-format
 msgid "Hardware probing in progress"
 msgstr "Санҷиши сахтафзор иҷро шуда истодааст"
 
-#: service_harddrake:444 service_harddrake:449
+#: service_harddrake:447 service_harddrake:452
 #, c-format
 msgid "Display driver issue"
 msgstr ""
 
-#: service_harddrake:445
+#: service_harddrake:448
 #, c-format
 msgid ""
 "The display driver currently configured requires you to use the 'nokmsboot' "
@@ -3419,7 +3393,7 @@ msgid ""
 "specified."
 msgstr ""
 
-#: service_harddrake:450
+#: service_harddrake:453
 #, c-format
 msgid ""
 "Detected a loaded display driver kernel module which conflicts with the "
@@ -3427,23 +3401,14 @@ msgid ""
 "fail."
 msgstr ""
 
-#: service_harddrake:465 service_harddrake:478
+#: service_harddrake:468 service_harddrake:481
 #, c-format
 msgid "The system has to be rebooted due to a display driver change."
 msgstr ""
 
-#: service_harddrake:466 service_harddrake:479
+#: service_harddrake:469 service_harddrake:482
 #, c-format
 msgid "Press Cancel within %d seconds to abort."
-msgstr ""
-
-#: ../menu/localedrake-system.desktop.in.h:1
-#, fuzzy
-msgid "System Regional Settings"
-msgstr "Гузоришҳои систем"
-
-#: ../menu/localedrake-system.desktop.in.h:2
-msgid "System wide language & country configurator"
 msgstr ""
 
 #: ../menu/harddrake.desktop.in.h:1
@@ -3460,6 +3425,15 @@ msgstr "Танзимдарории Шабака"
 msgid "Hardware Configuration Tool"
 msgstr "Танзимдарории Шабака"
 
+#: ../menu/localedrake-system.desktop.in.h:1
+#, fuzzy
+msgid "System Regional Settings"
+msgstr "Гузоришҳои систем"
+
+#: ../menu/localedrake-system.desktop.in.h:2
+msgid "System wide language & country configurator"
+msgstr ""
+
 #: ../menu/localedrake-user.desktop.in.h:1
 #, fuzzy
 msgid "Regional Settings"
@@ -3470,14 +3444,336 @@ msgstr "Танзимдарориҳо"
 msgid "Language & country configuration"
 msgstr "Танзимдарории дастӣПайкарабандии Раҳнамо"
 
+#: ../polkit/org.moondrake.drakauth.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Authentication Configuration"
+msgstr "Ба танзимдарории автоматии марҳилаҳо"
+
+#: ../polkit/org.moondrake.drakauth.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Authentication Configuration"
+msgstr "Ба танзимдарории автоматии марҳилаҳо"
+
+#: ../polkit/org.moondrake.drakboot.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Boot Configuration"
+msgstr "Батанзимдарории огоҳкунӣ"
+
+#: ../polkit/org.moondrake.drakboot.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Boot Configuration"
+msgstr "Батанзимдарории огоҳкунӣ"
+
+#: ../polkit/org.moondrake.drakclock.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Date and Time Configuration"
+msgstr "Танзимдарории огоҳиномаи пост"
+
+#: ../polkit/org.moondrake.drakclock.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Date and Time Configuration"
+msgstr "Танзимдарории огоҳиномаи пост"
+
+#: ../polkit/org.moondrake.drakdisk.policy.in.h:1
+msgid "Run DrakX Disk Layout Editor"
+msgstr ""
+
+#: ../polkit/org.moondrake.drakdisk.policy.in.h:2
+msgid "Authentication is required to run DrakX Disk Layout Editor"
+msgstr ""
+
+#: ../polkit/org.moondrake.drakdm.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Login Manager Configuration"
+msgstr "Танзимдарории дастӣПайкарабандии Раҳнамо"
+
+#: ../polkit/org.moondrake.drakdm.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Login Manager Configuration"
+msgstr "Танзимдарории дастӣПайкарабандии Раҳнамо"
+
+#: ../polkit/org.moondrake.drakfont.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Font Configuration"
+msgstr "Танзимдарории дастӣПайкарабандии Раҳнамо"
+
+#: ../polkit/org.moondrake.drakfont.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Font Configuration"
+msgstr "Танзимдарории дастӣПайкарабандии Раҳнамо"
+
+#: ../polkit/org.moondrake.drakhardware.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Hardware Configuration"
+msgstr "Танзимдарории огоҳиномаи пост"
+
+#: ../polkit/org.moondrake.drakhardware.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Hardware Configuration"
+msgstr "Танзимдарории огоҳиномаи пост"
+
+#: ../polkit/org.moondrake.draklog.policy.in.h:1
+msgid "Run DrakX Log Viewer"
+msgstr ""
+
+#: ../polkit/org.moondrake.draklog.policy.in.h:2
+msgid "Authentication is required to run DrakX Log Viewer"
+msgstr ""
+
+#: ../polkit/org.moondrake.drakperm.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Security Permissions Configuration"
+msgstr "Танзимдарории огоҳиномаи пост"
+
+#: ../polkit/org.moondrake.drakperm.policy.in.h:2
+#, fuzzy
+msgid ""
+"Authentication is required to run DrakX Security Permissions Configuration"
+msgstr "Танзимдарории огоҳиномаи пост"
+
+#: ../polkit/org.moondrake.drakscanner.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Scanner Configuration"
+msgstr "Танзимдарории огоҳиномаи пост"
+
+#: ../polkit/org.moondrake.drakscanner.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Scanner Configuration"
+msgstr "Танзимдарории огоҳиномаи пост"
+
+#: ../polkit/org.moondrake.draksec.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Application Security Configuration"
+msgstr "Ба танзимдарории автоматии марҳилаҳо"
+
+#: ../polkit/org.moondrake.draksec.policy.in.h:2
+#, fuzzy
+msgid ""
+"Authentication is required to run DrakX Application Security Configuration"
+msgstr "Ба танзимдарории автоматии марҳилаҳо"
+
+#: ../polkit/org.moondrake.drakups.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX UPS Configuration"
+msgstr "Танзими гардонандаи UPS"
+
+#: ../polkit/org.moondrake.drakups.policy.in.h:2
+msgid "Authentication is required to run DrakX UPS Configuration"
+msgstr ""
+
+#: ../polkit/org.moondrake.moondrakeservices.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Service Configuration"
+msgstr "Танзимдарории огоҳиномаи пост"
+
+#: ../polkit/org.moondrake.moondrakeservices.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Service Configuration"
+msgstr "Танзимдарории огоҳиномаи пост"
+
+#, fuzzy
+#~ msgid "%s Bug Report Tool"
+#~ msgstr "Moondrake Асбоби Сохтани Маърӯза оиди Хатогӣ"
+
+#, fuzzy
+#~ msgid "%s Tools Logs"
+#~ msgstr "Шарҳдиҳандаҳои Асбобҳои Moondrake"
+
+#, fuzzy
+#~ msgid "Run Moondrake Application Security Configuration"
+#~ msgstr "Ба танзимдарории автоматии марҳилаҳо"
+
+#, fuzzy
+#~ msgid "Run Moondrake Authentication Configuration"
+#~ msgstr "Ба танзимдарории автоматии марҳилаҳо"
+
+#, fuzzy
+#~ msgid "Run Moondrake Boot Configuration"
+#~ msgstr "Батанзимдарории огоҳкунӣ"
+
+#, fuzzy
+#~ msgid "Run Moondrake Date and Time Configuration"
+#~ msgstr "Танзимдарории огоҳиномаи пост"
+
+#, fuzzy
+#~ msgid "Run Moondrake Font Configuration"
+#~ msgstr "Танзимдарории дастӣПайкарабандии Раҳнамо"
+
+#, fuzzy
+#~ msgid "Run Moondrake Hardware Configuration"
+#~ msgstr "Танзимдарории огоҳиномаи пост"
+
+#, fuzzy
+#~ msgid "Run Moondrake Login Manager Configuration"
+#~ msgstr "Танзимдарории дастӣПайкарабандии Раҳнамо"
+
+#, fuzzy
+#~ msgid "Run Moondrake Scanner Configuration"
+#~ msgstr "Танзимдарории огоҳиномаи пост"
+
+#, fuzzy
+#~ msgid "Run Moondrake Security Permissions Configuration"
+#~ msgstr "Танзимдарории огоҳиномаи пост"
+
+#, fuzzy
+#~ msgid "Run Moondrake Service Configuration"
+#~ msgstr "Танзимдарории огоҳиномаи пост"
+
+#, fuzzy
+#~ msgid "Run Moondrake UPS Configuration"
+#~ msgstr "Танзими гардонандаи UPS"
+
+#~ msgid ""
+#~ "\n"
+#~ "Welcome.\n"
+#~ "\n"
+#~ "The parameters of the auto-install are available in the sections on the "
+#~ "left"
+#~ msgstr ""
+#~ "\n"
+#~ "Марҳамат намоед.\n"
+#~ "\n"
+#~ "Параметрҳои худроҳандозӣ дар қисматҳои дар чоп буда дастрасанд"
+
+#, fuzzy
+#~ msgid "  --help                - display this help     \n"
+#~ msgstr " --help                - ин маълумотро баровардан     \n"
+
+#, fuzzy
+#~ msgid ""
+#~ " drakhelp 0.1\n"
+#~ "Copyright (C) %s Mandriva.\n"
+#~ "Copyright (C) %s Moondrake.\n"
+#~ "This is free software and may be redistributed under the terms of the GNU "
+#~ "GPL.\n"
+#~ "\n"
+#~ "Usage: \n"
+#~ msgstr ""
+#~ " drakhelp 0.1\n"
+#~ "Copyright (C) %s Mandriva.\n"
+#~ "Ин таъминоти барномавии озод ва он метавонад мутобиқи шартҳои литсензияи "
+#~ "GNU GPL паҳн гардад.\n"
+#~ "\n"
+#~ "Фоиданокӣ: \n"
+
+#~ msgid "%s Control Center"
+#~ msgstr "Маркази Идоракунии %s"
+
+#, fuzzy
+#~ msgid "%s Help Center"
+#~ msgstr "Маркази Идораи Moondrake"
+
+#~ msgid "(default value: %s)"
+#~ msgstr "(арзиши пешфарз: %s)"
+
 #~ msgid "/Autodetect _jaz drives"
 #~ msgstr "/Худмуайянкунии гардонандаҳои _jaz"
 
-#~ msgid "OpenMandriva Lx Tools Logs"
-#~ msgstr "Шарҳдиҳандаҳои Асбобҳои OpenMandriva Lx"
+#~ msgid "/Autodetect _modems"
+#~ msgstr "/Худмуаяйнкунии _модемҳо"
 
 #~ msgid "/Autodetect _printers"
 #~ msgstr "/Ба таври автоматӣ муаяйн кардани _чопгарҳоро"
+
+#~ msgid "/File/-"
+#~ msgstr "/Файл/-"
+
+#~ msgid "/File/Save _As"
+#~ msgstr "/Файл/нигоҳ доред _ҳамчун"
+
+#~ msgid "/File/_New"
+#~ msgstr "/Файл/_Нав"
+
+#~ msgid "/File/_Open"
+#~ msgstr "/Файл/_Кушодан"
+
+#~ msgid "/File/_Quit"
+#~ msgstr "/Файл/_Баромадан"
+
+#~ msgid "/File/_Save"
+#~ msgstr "/Файл/_Нигоҳ доштан"
+
+#~ msgid "/Help/_About..."
+#~ msgstr "/Ёрӣ/_Дар бораи..."
+
+#~ msgid "/Options/Test"
+#~ msgstr "/Хосиятҳо/Санҷиш"
+
+#~ msgid "/_About..."
+#~ msgstr "/_Оиди..."
+
+#~ msgid "/_Fields description"
+#~ msgstr "/_Майдонҳо бо тавсифот"
+
+#~ msgid "/_File"
+#~ msgstr "/_Файл"
+
+#~ msgid "/_Help"
+#~ msgstr "/_Ёрӣ"
+
+#~ msgid "/_Options"
+#~ msgstr "/_Хосиятҳо"
+
+#~ msgid "/_Quit"
+#~ msgstr "/_Баромадан"
+
+#~ msgid "/_Report Bug"
+#~ msgstr "/_Ҳисобот оиди хатогӣ"
+
+#~ msgid "<control>N"
+#~ msgstr "<control>N"
+
+#~ msgid "<control>O"
+#~ msgstr "<control>O"
+
+#~ msgid "Add an item"
+#~ msgstr "Пунктро илова кунед"
+
+#~ msgid "Auto Install"
+#~ msgstr "Худ Коргузориш"
+
+#~ msgid "Auto Install Configurator"
+#~ msgstr "Танзимгари Худроҳандозӣ"
+
+#~ msgid "Autodetect _jaz drives"
+#~ msgstr "Худмуайянкунии гардонандаҳои _jaz"
+
+#~ msgid "Autodetect _printers"
+#~ msgstr "Ба таври автоматӣ муаяйн кардани _чопгарҳоро"
+
+#~ msgid "Automatic Steps Configuration"
+#~ msgstr "Ба танзимдарории автоматии марҳилаҳо"
+
+#~ msgid "Background color"
+#~ msgstr "Ранги замина"
+
+#~ msgid "Basic options"
+#~ msgstr "Хосиятҳои асосӣ"
+
+#~ msgid "Bugs"
+#~ msgstr "Хатогиҳо"
+
+#~ msgid "Coma bug"
+#~ msgstr "Coma хатогӣ"
+
+#, fuzzy
+#~ msgid "Copyright (C) %s by Moondrake"
+#~ msgstr "Ҳуқуқи муаллифӣ (C) 2001-2008 Mandriva"
+
+#~ msgid "Copyright (C) 2001-2008 by Mandriva"
+#~ msgstr "Ҳуқуқи муаллифӣ (C) 2001-2008 Mandriva"
+
+#~ msgid "Create new theme"
+#~ msgstr "Мавзӯи нав офаред"
+
+#~ msgid "Creating auto install floppy"
+#~ msgstr "Офаридани дискети коргузории автоматӣ"
+
+#~ msgid "Creating auto install floppy (drivers disk)"
+#~ msgstr "Офаридани дискети коргузории автоматӣ (диски гардонандаҳо)"
+
+#~ msgid "Display logo on Console"
+#~ msgstr "Тамғаро дар Нозиргоҳ намоиш диҳед"
 
 #~ msgid ""
 #~ "Display theme\n"
@@ -3486,11 +3782,327 @@ msgstr "Танзимдарории дастӣПайкарабандии Раҳн
 #~ "Мавзӯъро дар зери\n"
 #~ "нозиргоҳ нишон диҳед"
 
-#~ msgid "Create new theme"
-#~ msgstr "Мавзӯи нав офаред"
+#, fuzzy
+#~ msgid "Do you want to remove these packages?"
+#~ msgstr "Шумо гузоришҳоро санҷидан мехоҳед ?"
+
+#, fuzzy
+#~ msgid "DrakX Online"
+#~ msgstr "Mandriva Ғайрихудмухтор"
+
+#~ msgid ""
+#~ "Early Intel Pentium chips manufactured have a bug in their floating point "
+#~ "processor which did not achieve the required precision when performing a "
+#~ "Floating point DIVision (FDIV)"
+#~ msgstr ""
+#~ "Чипҳои пештар истеҳсолшудаи Intel Pentium хатогӣ дар ҷараёни нуқтаи "
+#~ "ивазшаванда доштанд, ки дақиқияти талабшударо ҳангоми иҷрои тақсимот ба "
+#~ "нуқтаи ивазшавӣ нарасиданд (FDIV)"
+
+#~ msgid "Error!"
+#~ msgstr "Хатогӣ!"
+
+#~ msgid "F00f bug"
+#~ msgstr "F00f bug"
+
+#~ msgid "FPU"
+#~ msgstr "FPU"
+
+#~ msgid "Fdiv bug"
+#~ msgstr "Хатогии Fdiv"
+
+#~ msgid "File/-"
+#~ msgstr "Файл/-"
+
+#~ msgid "File/Save _As"
+#~ msgstr "Файл/нигоҳ доред _ҳамчун"
+
+#~ msgid "File/_New"
+#~ msgstr "Файл/_Нав"
+
+#~ msgid "File/_Open"
+#~ msgstr "Файл/_Кушодан"
+
+#~ msgid "File/_Quit"
+#~ msgstr "Файл/_Баромадан"
+
+#~ msgid "File/_Save"
+#~ msgstr "Файл/_Нигоҳ доштан"
+
+#~ msgid "Final resolution"
+#~ msgstr "ҳалнокии хотимавӣ"
+
+#~ msgid "Halt bug"
+#~ msgstr "Хатогии Halt"
+
+#~ msgid "Help/_About..."
+#~ msgstr "Ёрӣ/_Дар бораи..."
+
+#~ msgid ""
+#~ "Here you can see files to use in order to fix permissions, owners, and "
+#~ "groups via msec.\n"
+#~ "You can also edit your own rules which will owerwrite the default rules."
+#~ msgstr ""
+#~ "Дар ин ҷо шумо файлҳоеро, ки бо мақсади ислоҳи рухсатҳо, соҳибон ва "
+#~ "гурӯҳҳо ба воситаи msec истифода мешаванд, дида метавонед.\n"
+#~ "Инчунин шумо метавонед қоидаҳои худро таҳрир диҳед, ки қоидаҳои бо "
+#~ "нобаёниро рӯиҳам менависад."
+
+#~ msgid ""
+#~ "Here, you can setup the security level and administrator of your "
+#~ "machine.\n"
+#~ "\n"
+#~ "\n"
+#~ "The '<span weight=\"bold\">Security Administrator</span>' is the one who "
+#~ "will receive security alerts if the\n"
+#~ "'<span weight=\"bold\">Security Alerts</span>' option is set. It can be a "
+#~ "username or an email.\n"
+#~ "\n"
+#~ "\n"
+#~ "The '<span weight=\"bold\">Security Level</span>' menu allows you to "
+#~ "select one of the six preconfigured security levels\n"
+#~ "provided with msec. These levels range from '<span weight=\"bold\">poor</"
+#~ "span>' security and ease of use, to\n"
+#~ "'<span weight=\"bold\">paranoid</span>' config, suitable for very "
+#~ "sensitive server applications:\n"
+#~ "\n"
+#~ "\n"
+#~ "<span foreground=\"royalblue3\">Poor</span>: This is a totally unsafe but "
+#~ "very\n"
+#~ "easy to use security level. It should only be used for machines not "
+#~ "connected to\n"
+#~ "any network and that are not accessible to everybody.\n"
+#~ "\n"
+#~ "\n"
+#~ "<span foreground=\"royalblue3\">Standard</span>: This is the standard "
+#~ "security\n"
+#~ "recommended for a computer that will be used to connect to the Internet "
+#~ "as a\n"
+#~ "client.\n"
+#~ "\n"
+#~ "\n"
+#~ "<span foreground=\"royalblue3\">High</span>: There are already some\n"
+#~ "restrictions, and more automatic checks are run every night.\n"
+#~ "\n"
+#~ "\n"
+#~ "<span foreground=\"royalblue3\">Higher</span>: The security is now high "
+#~ "enough\n"
+#~ "to use the system as a server which can accept connections from many "
+#~ "clients. If\n"
+#~ "your machine is only a client on the Internet, you should choose a lower "
+#~ "level.\n"
+#~ "\n"
+#~ "\n"
+#~ "<span foreground=\"royalblue3\">Paranoid</span>: This is similar to the "
+#~ "previous\n"
+#~ "level, but the system is entirely closed and security features are at "
+#~ "their\n"
+#~ "maximum"
+#~ msgstr ""
+#~ "Here, you can setup the security level and administrator of your "
+#~ "machine.\n"
+#~ "\n"
+#~ "\n"
+#~ "The '<span weight=\"bold\">Security Administrator</span>' is the one who "
+#~ "will receive security alerts if the\n"
+#~ "'<span weight=\"bold\">Security Alerts</span>' option is set. It can be a "
+#~ "username or an email.\n"
+#~ "\n"
+#~ "\n"
+#~ "The '<span weight=\"bold\">Security Level</span>' menu allows you to "
+#~ "select one of the six preconfigured security levels\n"
+#~ "provided with msec. These levels range from '<span weight=\"bold\">poor</"
+#~ "span>' security and ease of use, to\n"
+#~ "'<span weight=\"bold\">paranoid</span>' config, suitable for very "
+#~ "sensitive server applications:\n"
+#~ "\n"
+#~ "\n"
+#~ "<span foreground=\"royalblue3\">Poor</span>: This is a totally unsafe but "
+#~ "very\n"
+#~ "easy to use security level. It should only be used for machines not "
+#~ "connected to\n"
+#~ "any network and that are not accessible to everybody.\n"
+#~ "\n"
+#~ "\n"
+#~ "<span foreground=\"royalblue3\">Standard</span>: This is the standard "
+#~ "security\n"
+#~ "recommended for a computer that will be used to connect to the Internet "
+#~ "as a\n"
+#~ "client.\n"
+#~ "\n"
+#~ "\n"
+#~ "<span foreground=\"royalblue3\">High</span>: There are already some\n"
+#~ "restrictions, and more automatic checks are run every night.\n"
+#~ "\n"
+#~ "\n"
+#~ "<span foreground=\"royalblue3\">Higher</span>: The security is now high "
+#~ "enough\n"
+#~ "to use the system as a server which can accept connections from many "
+#~ "clients. If\n"
+#~ "your machine is only a client on the Internet, you should choose a lower "
+#~ "level.\n"
+#~ "\n"
+#~ "\n"
+#~ "<span foreground=\"royalblue3\">Paranoid</span>: This is similar to the "
+#~ "previous\n"
+#~ "level, but the system is entirely closed and security features are at "
+#~ "their\n"
+#~ "maximum"
+
+#~ msgid "I cannot find needed image file `%s'."
+#~ msgstr "Файли симоҳои `%s'-и заруриро пайдо карда натавонистам."
+
+#~ msgid "Insert a blank floppy in drive %s"
+#~ msgstr "Дискети холиро ба гардон дохил намоед %s"
+
+#~ msgid "Insert another blank floppy in drive %s (for drivers disk)"
+#~ msgstr ""
+#~ "Дигар диски нармро ба гардонанда дохил кунед %s (барои диски гардонандаҳо)"
+
+#~ msgid "Is FPU present"
+#~ msgstr "Оё FPU ҳузур дорад"
+
+#~ msgid "Mandriva Linux Bug Report Tool"
+#~ msgstr "Mandriva Linux Асбоби Сохтани Маърӯза оиди Хатогӣ"
+
+#~ msgid "Mandriva Linux Tools Logs"
+#~ msgstr "Шарҳдиҳандаҳои Асбобҳои Mandriva Linux"
+
+#, fuzzy
+#~ msgid "Mandriva Update"
+#~ msgstr "Mandriva Ғайрихудмухтор"
+
+#~ msgid "Menudrake"
+#~ msgstr "Menudrake"
+
+#~ msgid "Moondrake"
+#~ msgstr "Moondrake"
+
+#~ msgid "Msec"
+#~ msgstr "Msec"
+
+#~ msgid "Network Options"
+#~ msgstr "Хосиятҳои Шабака"
+
+#, fuzzy
+#~ msgid ""
+#~ "No Sound Card has been detected on your machine. Please verify that a "
+#~ "Linux-supported Sound Card is correctly plugged in"
+#~ msgstr ""
+#~ "Дар мошинаи шумо ТВ - кортҳо муайян карда нашудаанд. Марҳамат карда "
+#~ "санҷед, ки оё Linux-пуштибонӣ Видео/ТВ Кортҳо дуруст ворид шудаанд.\n"
+#~ "\n"
+#~ "\n"
+#~ "Шумо метавонед ба манбаи додаҳои сахтафзори мо ташриф оред:\n"
+#~ "\n"
+#~ "\n"
+#~ "http://www.mandrivalinux.com/en/hardware.php3"
+
+#, fuzzy
+#~ msgid ""
+#~ "No TV Card has been detected on your machine. Please verify that a Linux-"
+#~ "supported Video/TV Card is correctly plugged in."
+#~ msgstr ""
+#~ "Дар мошинаи шумо ТВ - кортҳо муайян карда нашудаанд. Марҳамат карда "
+#~ "санҷед, ки оё Linux-пуштибонӣ Видео/ТВ Кортҳо дуруст ворид шудаанд.\n"
+#~ "\n"
+#~ "\n"
+#~ "Шумо метавонед ба манбаи додаҳои сахтафзори мо ташриф оред:\n"
+#~ "\n"
+#~ "\n"
+#~ "http://www.mandrivalinux.com/en/hardware.php3"
+
+#~ msgid "Options/Test"
+#~ msgstr "Хосиятҳо/Санҷиш"
+
+#~ msgid "Periodic Checks"
+#~ msgstr "Тафтишҳои Даврӣ"
+
+#~ msgid ""
+#~ "Please choose for each step whether it will replay like your install, or "
+#~ "it will be manual"
+#~ msgstr ""
+#~ "Лутфан барои ҳар як марҳила интихоб намоед оё он дар вақти коргузорӣ иҷро "
+#~ "мегардад ё ин ки дастӣ мавриди иҷроиш қарор меёбад"
+
+#, fuzzy
+#~ msgid "Please enter a theme name"
+#~ msgstr "Марҳамат карда, параметрҳои беноқилро барои ин корт ворид кунед"
+
+#, fuzzy
+#~ msgid "Please select a splash image"
+#~ msgstr "Марҳамат карда модели UPS-и худро интихоб кунед."
+
+#, fuzzy
+#~ msgid "Please wait, adding media..."
+#~ msgstr "марҳамат карда таи иҷроиши ttmkfdir... мунтазир шавед"
+
+#~ msgid "Please wait, setting security level..."
+#~ msgstr "Лутфан мунтазир шавед, дараҷаи бехатарӣ барпо мешавад..."
+
+#~ msgid "Please wait, setting security options..."
+#~ msgstr ""
+#~ "Лутфан, мунтазир шавед, ки интихобҳои бехатарӣ ба роҳ монда мешавад..."
+
+#~ msgid "Remove the last item"
+#~ msgstr "Хориҷи пункти охирон"
+
+#~ msgid "Restart XFS"
+#~ msgstr "Бозоғозёбии XFS"
+
+#~ msgid "Save theme"
+#~ msgstr "Мавзӯъро нигоҳ доред"
+
+#~ msgid "Security Administrator:"
+#~ msgstr "Идоракунандаи Бехатарӣ:"
+
+#~ msgid "Security Alerts:"
+#~ msgstr "Огоҳӣ оиди Бехатарӣ:"
+
+#~ msgid "Security Level:"
+#~ msgstr "Сатҳи Бехатарӣ:"
+
+#~ msgid ""
+#~ "Some of the early i486DX-100 chips cannot reliably return to operating "
+#~ "mode after the \"halt\" instruction is used"
+#~ msgstr ""
+#~ "Баъд аз истифодаи дастурамали \"halt\" якчанд аз чипҳои пештараи "
+#~ "i486DX-100-ро боэътимод ба усули корӣ баргардонида намешавад"
+
+#~ msgid "System Options"
+#~ msgstr "Хосиятҳои Систем"
 
 #~ msgid "Text box height"
 #~ msgstr "баландии оинаи матнӣ"
+
+#~ msgid "Text color"
+#~ msgstr "Ранги матн"
+
+#~ msgid "The change is done, but to be effective you must logout"
+#~ msgstr ""
+#~ "Тағирот иҷро шудааст, лекин барои самаранок гардидани он шумо бояд аз "
+#~ "систем бароед"
+
+#~ msgid ""
+#~ "The floppy has been successfully generated.\n"
+#~ "You may now replay your installation."
+#~ msgstr ""
+#~ "Дискет бомуваффақият эҷод карда шуд.\n"
+#~ "Акнун шумо метавонед коргузории худро такрор намоед."
+
+#, fuzzy
+#~ msgid ""
+#~ "The following hardware packages do not seem to be useful for your system:"
+#~ msgstr "Қуттиҳои зерин бояд коргузорӣ гардад:\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "The following localization packages do not seem to be useful for your "
+#~ "system:"
+#~ msgstr "Қуттиҳои зерин бояд коргузорӣ гардад:\n"
+
+#~ msgid "The height of the progress bar"
+#~ msgstr "Баландии панели иҷроиш"
 
 #~ msgid ""
 #~ "The progress bar X coordinate\n"
@@ -3509,268 +4121,20 @@ msgstr "Танзимдарории дастӣПайкарабандии Раҳн
 #~ msgid "The width of the progress bar"
 #~ msgstr "бари панели иҷроиш"
 
-#~ msgid "The height of the progress bar"
-#~ msgstr "Баландии панели иҷроиш"
-
-#~ msgid "Text color"
-#~ msgstr "Ранги матн"
-
-#~ msgid "Background color"
-#~ msgstr "Ранги замина"
-
 #~ msgid "Theme name"
 #~ msgstr "Номи мавзӯъ"
-
-#~ msgid "Final resolution"
-#~ msgstr "ҳалнокии хотимавӣ"
-
-#~ msgid "Display logo on Console"
-#~ msgstr "Тамғаро дар Нозиргоҳ намоиш диҳед"
-
-#~ msgid "Save theme"
-#~ msgstr "Мавзӯъро нигоҳ доред"
-
-#, fuzzy
-#~ msgid "Please enter a theme name"
-#~ msgstr "Марҳамат карда, параметрҳои беноқилро барои ин корт ворид кунед"
-
-#, fuzzy
-#~ msgid "Please select a splash image"
-#~ msgstr "Марҳамат карда модели UPS-и худро интихоб кунед."
-
-#~ msgid "saving Bootsplash theme..."
-#~ msgstr "мавзӯъи Bootsplash захира шуда истодааст..."
-
-#~ msgid "choose image"
-#~ msgstr "тасвир интихоб кунед"
-
-#~ msgid "Coma bug"
-#~ msgstr "Coma хатогӣ"
-
-#~ msgid "whether this cpu has the Cyrix 6x86 Coma bug"
-#~ msgstr "оё ин cpu хатогиро бо вергули Cyrix 6x86 дорад"
-
-#~ msgid "Fdiv bug"
-#~ msgstr "Хатогии Fdiv"
-
-#~ msgid ""
-#~ "Early Intel Pentium chips manufactured have a bug in their floating point "
-#~ "processor which did not achieve the required precision when performing a "
-#~ "Floating point DIVision (FDIV)"
-#~ msgstr ""
-#~ "Чипҳои пештар истеҳсолшудаи Intel Pentium хатогӣ дар ҷараёни нуқтаи "
-#~ "ивазшаванда доштанд, ки дақиқияти талабшударо ҳангоми иҷрои тақсимот ба "
-#~ "нуқтаи ивазшавӣ нарасиданд (FDIV)"
-
-#~ msgid "Is FPU present"
-#~ msgstr "Оё FPU ҳузур дорад"
-
-#~ msgid "yes means the processor has an arithmetic coprocessor"
-#~ msgstr "ҳа маънои онро дорад, ки пардозанда ҳампардози арифметикӣ дорд"
-
-#~ msgid "Whether the FPU has an irq vector"
-#~ msgstr "Оё FPU вектори irq-ро дорост"
-
-#~ msgid ""
-#~ "yes means the arithmetic coprocessor has an exception vector attached"
-#~ msgstr ""
-#~ "ҳа маънои онро дорад, ки ҳампардоз вектори овардашудаи фавқуллодаро дорост"
-
-#~ msgid "F00f bug"
-#~ msgstr "F00f bug"
-
-#~ msgid ""
-#~ "early pentiums were buggy and freezed when decoding the F00F bytecode"
-#~ msgstr ""
-#~ "пештар дар Pentium-ҳо хатогиҳо мавҷуд буд ва ҳангоми рамзкушоии байт-"
-#~ "рамзи F00Fба муаммо дучор мегардид"
-
-#~ msgid "Halt bug"
-#~ msgstr "Хатогии Halt"
-
-#~ msgid ""
-#~ "Some of the early i486DX-100 chips cannot reliably return to operating "
-#~ "mode after the \"halt\" instruction is used"
-#~ msgstr ""
-#~ "Баъд аз истифодаи дастурамали \"halt\" якчанд аз чипҳои пештараи "
-#~ "i486DX-100-ро боэътимод ба усули корӣ баргардонида намешавад"
-
-#~ msgid "Bugs"
-#~ msgstr "Хатогиҳо"
-
-#~ msgid "FPU"
-#~ msgstr "FPU"
 
 #~ msgid "Unknown/Others"
 #~ msgstr "Номаълум/Дигарон"
 
-#~ msgid ""
-#~ "Here, you can setup the security level and administrator of your "
-#~ "machine.\n"
-#~ "\n"
-#~ "\n"
-#~ "The '<span weight=\"bold\">Security Administrator</span>' is the one who "
-#~ "will receive security alerts if the\n"
-#~ "'<span weight=\"bold\">Security Alerts</span>' option is set. It can be a "
-#~ "username or an email.\n"
-#~ "\n"
-#~ "\n"
-#~ "The '<span weight=\"bold\">Security Level</span>' menu allows you to "
-#~ "select one of the six preconfigured security levels\n"
-#~ "provided with msec. These levels range from '<span weight=\"bold\">poor</"
-#~ "span>' security and ease of use, to\n"
-#~ "'<span weight=\"bold\">paranoid</span>' config, suitable for very "
-#~ "sensitive server applications:\n"
-#~ "\n"
-#~ "\n"
-#~ "<span foreground=\"royalblue3\">Poor</span>: This is a totally unsafe but "
-#~ "very\n"
-#~ "easy to use security level. It should only be used for machines not "
-#~ "connected to\n"
-#~ "any network and that are not accessible to everybody.\n"
-#~ "\n"
-#~ "\n"
-#~ "<span foreground=\"royalblue3\">Standard</span>: This is the standard "
-#~ "security\n"
-#~ "recommended for a computer that will be used to connect to the Internet "
-#~ "as a\n"
-#~ "client.\n"
-#~ "\n"
-#~ "\n"
-#~ "<span foreground=\"royalblue3\">High</span>: There are already some\n"
-#~ "restrictions, and more automatic checks are run every night.\n"
-#~ "\n"
-#~ "\n"
-#~ "<span foreground=\"royalblue3\">Higher</span>: The security is now high "
-#~ "enough\n"
-#~ "to use the system as a server which can accept connections from many "
-#~ "clients. If\n"
-#~ "your machine is only a client on the Internet, you should choose a lower "
-#~ "level.\n"
-#~ "\n"
-#~ "\n"
-#~ "<span foreground=\"royalblue3\">Paranoid</span>: This is similar to the "
-#~ "previous\n"
-#~ "level, but the system is entirely closed and security features are at "
-#~ "their\n"
-#~ "maximum"
-#~ msgstr ""
-#~ "Here, you can setup the security level and administrator of your "
-#~ "machine.\n"
-#~ "\n"
-#~ "\n"
-#~ "The '<span weight=\"bold\">Security Administrator</span>' is the one who "
-#~ "will receive security alerts if the\n"
-#~ "'<span weight=\"bold\">Security Alerts</span>' option is set. It can be a "
-#~ "username or an email.\n"
-#~ "\n"
-#~ "\n"
-#~ "The '<span weight=\"bold\">Security Level</span>' menu allows you to "
-#~ "select one of the six preconfigured security levels\n"
-#~ "provided with msec. These levels range from '<span weight=\"bold\">poor</"
-#~ "span>' security and ease of use, to\n"
-#~ "'<span weight=\"bold\">paranoid</span>' config, suitable for very "
-#~ "sensitive server applications:\n"
-#~ "\n"
-#~ "\n"
-#~ "<span foreground=\"royalblue3\">Poor</span>: This is a totally unsafe but "
-#~ "very\n"
-#~ "easy to use security level. It should only be used for machines not "
-#~ "connected to\n"
-#~ "any network and that are not accessible to everybody.\n"
-#~ "\n"
-#~ "\n"
-#~ "<span foreground=\"royalblue3\">Standard</span>: This is the standard "
-#~ "security\n"
-#~ "recommended for a computer that will be used to connect to the Internet "
-#~ "as a\n"
-#~ "client.\n"
-#~ "\n"
-#~ "\n"
-#~ "<span foreground=\"royalblue3\">High</span>: There are already some\n"
-#~ "restrictions, and more automatic checks are run every night.\n"
-#~ "\n"
-#~ "\n"
-#~ "<span foreground=\"royalblue3\">Higher</span>: The security is now high "
-#~ "enough\n"
-#~ "to use the system as a server which can accept connections from many "
-#~ "clients. If\n"
-#~ "your machine is only a client on the Internet, you should choose a lower "
-#~ "level.\n"
-#~ "\n"
-#~ "\n"
-#~ "<span foreground=\"royalblue3\">Paranoid</span>: This is similar to the "
-#~ "previous\n"
-#~ "level, but the system is entirely closed and security features are at "
-#~ "their\n"
-#~ "maximum"
+#~ msgid "Urpmi"
+#~ msgstr "Urpmi"
 
-#~ msgid "(default value: %s)"
-#~ msgstr "(арзиши пешфарз: %s)"
+#~ msgid "Userdrake"
+#~ msgstr "Userdrake"
 
-#~ msgid "Security Level:"
-#~ msgstr "Сатҳи Бехатарӣ:"
-
-#~ msgid "Security Alerts:"
-#~ msgstr "Огоҳӣ оиди Бехатарӣ:"
-
-#~ msgid "Security Administrator:"
-#~ msgstr "Идоракунандаи Бехатарӣ:"
-
-#~ msgid "Basic options"
-#~ msgstr "Хосиятҳои асосӣ"
-
-#~ msgid "Network Options"
-#~ msgstr "Хосиятҳои Шабака"
-
-#~ msgid "System Options"
-#~ msgstr "Хосиятҳои Систем"
-
-#~ msgid "Periodic Checks"
-#~ msgstr "Тафтишҳои Даврӣ"
-
-#~ msgid "Please wait, setting security level..."
-#~ msgstr "Лутфан мунтазир шавед, дараҷаи бехатарӣ барпо мешавад..."
-
-#~ msgid "Please wait, setting security options..."
-#~ msgstr ""
-#~ "Лутфан, мунтазир шавед, ки интихобҳои бехатарӣ ба роҳ монда мешавад..."
-
-#, fuzzy
-#~ msgid ""
-#~ "The following localization packages do not seem to be useful for your "
-#~ "system:"
-#~ msgstr "Қуттиҳои зерин бояд коргузорӣ гардад:\n"
-
-#, fuzzy
-#~ msgid "Do you want to remove these packages?"
-#~ msgstr "Шумо гузоришҳоро санҷидан мехоҳед ?"
-
-#, fuzzy
-#~ msgid ""
-#~ "The following hardware packages do not seem to be useful for your system:"
-#~ msgstr "Қуттиҳои зерин бояд коргузорӣ гардад:\n"
-
-#, fuzzy
-#~ msgid "Please wait, adding media..."
-#~ msgstr "марҳамат карда таи иҷроиши ttmkfdir... мунтазир шавед"
-
-#~ msgid "The change is done, but to be effective you must logout"
-#~ msgstr ""
-#~ "Тағирот иҷро шудааст, лекин барои самаранок гардидани он шумо бояд аз "
-#~ "систем бароед"
-
-#~ msgid "Restart XFS"
-#~ msgstr "Бозоғозёбии XFS"
-
-#~ msgid "Error!"
-#~ msgstr "Хатогӣ!"
-
-#~ msgid "I cannot find needed image file `%s'."
-#~ msgstr "Файли симоҳои `%s'-и заруриро пайдо карда натавонистам."
-
-#~ msgid "Auto Install Configurator"
-#~ msgstr "Танзимгари Худроҳандозӣ"
+#~ msgid "Whether the FPU has an irq vector"
+#~ msgstr "Оё FPU вектори irq-ро дорост"
 
 #~ msgid ""
 #~ "You are about to configure an Auto Install floppy. This feature is "
@@ -3799,71 +4163,31 @@ msgstr "Танзимдарории дастӣПайкарабандии Раҳн
 #~ "\n"
 #~ "Барои идомадодон OK-ро пахш кунед."
 
-#~ msgid "replay"
-#~ msgstr "такрор кардан"
+#~ msgid "choose image"
+#~ msgstr "тасвир интихоб кунед"
+
+#~ msgid ""
+#~ "early pentiums were buggy and freezed when decoding the F00F bytecode"
+#~ msgstr ""
+#~ "пештар дар Pentium-ҳо хатогиҳо мавҷуд буд ва ҳангоми рамзкушоии байт-"
+#~ "рамзи F00Fба муаммо дучор мегардид"
 
 #~ msgid "manual"
 #~ msgstr "дастӣ"
 
-#~ msgid "Automatic Steps Configuration"
-#~ msgstr "Ба танзимдарории автоматии марҳилаҳо"
+#~ msgid "replay"
+#~ msgstr "такрор кардан"
+
+#~ msgid "saving Bootsplash theme..."
+#~ msgstr "мавзӯъи Bootsplash захира шуда истодааст..."
+
+#~ msgid "whether this cpu has the Cyrix 6x86 Coma bug"
+#~ msgstr "оё ин cpu хатогиро бо вергули Cyrix 6x86 дорад"
 
 #~ msgid ""
-#~ "Please choose for each step whether it will replay like your install, or "
-#~ "it will be manual"
+#~ "yes means the arithmetic coprocessor has an exception vector attached"
 #~ msgstr ""
-#~ "Лутфан барои ҳар як марҳила интихоб намоед оё он дар вақти коргузорӣ иҷро "
-#~ "мегардад ё ин ки дастӣ мавриди иҷроиш қарор меёбад"
+#~ "ҳа маънои онро дорад, ки ҳампардоз вектори овардашудаи фавқуллодаро дорост"
 
-#~ msgid "Insert a blank floppy in drive %s"
-#~ msgstr "Дискети холиро ба гардон дохил намоед %s"
-
-#~ msgid "Creating auto install floppy"
-#~ msgstr "Офаридани дискети коргузории автоматӣ"
-
-#~ msgid "Insert another blank floppy in drive %s (for drivers disk)"
-#~ msgstr ""
-#~ "Дигар диски нармро ба гардонанда дохил кунед %s (барои диски гардонандаҳо)"
-
-#~ msgid "Creating auto install floppy (drivers disk)"
-#~ msgstr "Офаридани дискети коргузории автоматӣ (диски гардонандаҳо)"
-
-#~ msgid ""
-#~ "\n"
-#~ "Welcome.\n"
-#~ "\n"
-#~ "The parameters of the auto-install are available in the sections on the "
-#~ "left"
-#~ msgstr ""
-#~ "\n"
-#~ "Марҳамат намоед.\n"
-#~ "\n"
-#~ "Параметрҳои худроҳандозӣ дар қисматҳои дар чоп буда дастрасанд"
-
-#~ msgid ""
-#~ "The floppy has been successfully generated.\n"
-#~ "You may now replay your installation."
-#~ msgstr ""
-#~ "Дискет бомуваффақият эҷод карда шуд.\n"
-#~ "Акнун шумо метавонед коргузории худро такрор намоед."
-
-#~ msgid "Auto Install"
-#~ msgstr "Худ Коргузориш"
-
-#~ msgid "Add an item"
-#~ msgstr "Пунктро илова кунед"
-
-#~ msgid "Remove the last item"
-#~ msgstr "Хориҷи пункти охирон"
-
-#~ msgid "Menudrake"
-#~ msgstr "Menudrake"
-
-#~ msgid "Msec"
-#~ msgstr "Msec"
-
-#~ msgid "Urpmi"
-#~ msgstr "Urpmi"
-
-#~ msgid "Userdrake"
-#~ msgstr "Userdrake"
+#~ msgid "yes means the processor has an arithmetic coprocessor"
+#~ msgstr "ҳа маънои онро дорад, ки пардозанда ҳампардози арифметикӣ дорд"

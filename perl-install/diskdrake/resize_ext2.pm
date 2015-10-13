@@ -1,4 +1,4 @@
-package diskdrake::resize_ext2; # $Id$
+package diskdrake::resize_ext2;
 
 use run_program;
 use common;

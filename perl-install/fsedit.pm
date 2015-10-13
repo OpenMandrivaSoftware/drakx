@@ -1,4 +1,4 @@
-package fsedit; # $Id$
+package fsedit;
 
 #-######################################################################################
 #- misc imports
@@ -18,9 +18,9 @@ use fs;
 # min_hd_size: only suggest this partition if the hd size is bigger than that
 %suggestions = (
   N_("simple") => [
-    { mntpoint => "/",     size => MB(300), fs_type => defaultFS(), ratio => 10, maxsize => MB(12300) },
-    { mntpoint => "swap",  size => MB(128), fs_type => 'swap', ratio => 1,  maxsize => MB(4000) },
-    { mntpoint => "/home", size => MB(300), fs_type => defaultFS(), ratio => 8,  min_hd_size => MB(12000) },
+    { mntpoint => "/",     size => MB(300), fs_type => defaultFS(), ratio => 6, maxsize => MB(51500) },
+    { mntpoint => "swap",  size => MB(256), fs_type => 'swap', ratio => 1, maxsize => MB(4096) },
+    { mntpoint => "/home", size => MB(300), fs_type => defaultFS(), ratio => 12, min_hd_size => MB(51200) },
   ], N_("with /usr") => [
     { mntpoint => "/",     size => MB(250), fs_type => defaultFS(), ratio => 1, maxsize => MB(8000) },
     { mntpoint => "swap",  size =>  MB(64), fs_type => 'swap', ratio => 1, maxsize => MB(4000) },
@@ -36,14 +36,14 @@ use fs;
   ],
 );
 foreach (values %suggestions) {
-    if (arch() =~ /ia64/) {
-	@$_ = ({ mntpoint => "/boot/efi", size => MB(50), pt_type => 0xef, ratio => 1, maxsize => MB(150) }, @$_);
+    if ( is_uefi() ) {
+	@$_ = ({ mntpoint => "/boot/EFI", size => MB(100), pt_type => 0xef, ratio => 1, maxsize => MB(300) }, @$_);
     }
 }
 
 my @suggestions_mntpoints = (
     "/var/ftp", "/var/www", "/boot", '/usr/local', '/opt',
-    arch() =~ /sparc/ ? "/mnt/sunos" : arch() =~ /ppc/ ? "/mnt/macos" : "/mnt/windows",
+   "/mnt/windows",
 );
 
 #-######################################################################################
@@ -222,7 +222,7 @@ sub get_hds {
 				die sprintf(q(bad dmraid (missing partition %s), you may try rebooting install with option "nodmraid"), $p->{device});
 			    }
 			} else {
-			    fs::proc_partitions::compare($hd) if !detect_devices::is_xbox() && arch() ne 'ppc';
+			    fs::proc_partitions::compare($hd) if !detect_devices::is_xbox();
 			}
 		    }
 		} sub {
@@ -474,8 +474,6 @@ You should create a separate /boot partition first") if $mntpoint eq "/" && isLV
       if member($mntpoint, qw(/bin /dev /etc /lib /sbin /mnt /media));
     die N("You need a true filesystem (ext2/3/4, reiserfs, xfs, or jfs) for this mount point\n")
       if !isTrueLocalFS($part) && $mntpoint eq '/';
-    die N("You need a true filesystem (ext2/3/4, reiserfs, xfs, or jfs) for this mount point\n")
-      if $part->{fs_type} eq 'btrfs' && $mntpoint eq '/boot';
     die N("You need a true filesystem (ext2/3/4, reiserfs, xfs, or jfs) for this mount point\n")
       if !isTrueFS($part) && member($mntpoint, '/home', fs::type::directories_needed_to_boot());
     die N("You cannot use an encrypted filesystem for mount point %s", $mntpoint)

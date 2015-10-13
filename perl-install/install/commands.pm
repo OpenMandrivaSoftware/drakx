@@ -1,4 +1,4 @@
-package install::commands; # $Id$
+package install::commands;
 
 #-########################################################################
 #- This file implements a few shell commands...
@@ -12,11 +12,6 @@ use vars qw($printable_chars *ROUTE *DF *PS);
 #- misc imports
 #-######################################################################################
 use common;
-
-sub lspcidrake {
-    require detect_devices;
-    print join "\n", detect_devices::stringlist($_[0] eq '-v'), '';
-}
 
 sub bug {
     my ($h) = getopts(\@_, "h");
@@ -35,8 +30,11 @@ sub bug {
 	my $in = interactive::stdio->new;
 
 	require install::any;
+	my @devs = install::any::removable_media__early_in_install();
+	@devs or die "You need to plug a removable medium (USB key, floppy, ...)\n";
+
 	$part = $in->ask_from_listf('', "Which device?", \&partition_table::description, 
-				    [ install::any::removable_media__early_in_install() ]) or return;
+				    \@devs) or return;
     }
 
     warn "putting file report.bug on $part->{device}\n";

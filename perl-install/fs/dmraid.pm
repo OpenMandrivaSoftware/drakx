@@ -1,4 +1,4 @@
-package fs::dmraid; # $Id$
+package fs::dmraid;
 
 #-######################################################################################
 #- misc imports
@@ -11,6 +11,20 @@ use fs::wild_device;
 use run_program;
 
 
+=head1 SYNOPSYS
+
+Manage fake RAIDs using dmraid
+
+=head1 Functions
+
+=over
+
+=item init()
+
+Load kernel modules, init device mapper then scan for fake RAIDs.
+
+=cut
+
 sub init() {
     whereis_binary('dmraid') or die "dmraid not installed";
 
@@ -22,11 +36,23 @@ sub init() {
     1;
 }
 
-#- call_dmraid is overloaded when debugging, see the end of this file
+=item call_dmraid($option, @args)
+
+Runs dmraid with $option & @args.
+It is overloaded when debugging, see the end of this file.
+
+=cut
+
 sub call_dmraid {
     my ($option, @args) = @_;
     run_program::get_stdout('dmraid', $option, @args);
 }
+
+=item check($in)
+
+Ensures dmraid is installed. If yes, calls init().
+
+=cut
 
 sub check {
     my ($in) = @_;
@@ -36,8 +62,13 @@ sub check {
     1;
 }
 
+=item _raid_devices_raw()
+
+Get the real VG names, needed for ddf1, and safer than begins_with for raid10
+
+=cut
+
 sub _raid_devices_raw() {
-    # get the real vg names, needed for ddf1, and safer than begins_with for raid10
     log::l("_raid_devices_raw");
     my %vgs;
     my %pv2vg = map {
@@ -50,6 +81,7 @@ sub _raid_devices_raw() {
 	    { $2 => $1 }
         }
     } call_dmraid(qw(-d -s -c -c));
+
     map {
 	chomp;
 	log::l("got: $_");
@@ -106,6 +138,12 @@ sub _sets() {
     @sets;
 }
 
+=item vgs()
+
+Returns the list of VGs corresponding to dmraid
+
+=cut
+
 sub vgs() {
     map {
 	my $dev = "mapper/$_->{name}";
@@ -115,10 +153,10 @@ sub vgs() {
 	#- device should exist, created by dmraid(8) using libdevmapper
 	#- if it doesn't, we suppose it's not in use
 	if (-e "/dev/$dev") {
-	  $vg;
+	    $vg; 
 	} else {
-	  log::l("ignoring $dev as /dev/$dev doesn't exist");
-	  ();
+	    log::l("ignoring $dev as /dev/$dev doesn't exist");
+	    ();
 	}
 
     } grep { 
@@ -131,11 +169,15 @@ sub vgs() {
     } _sets();
 }
 
-# the goal is to handle migration from /dev/mapper/xxx1 to /dev/mapper/xxxp1,
-# as used by initrd/nash.
-# dmraid has been patched to follow xxxp1 device names.
-# so until the box has rebooted on new initrd/dmraid, we must cope with /dev/mapper/xxx1 device names
-# (cf #44182)
+=item migrate_device_names ($vg)
+
+Handles migration from /dev/mapper/xxx1 to /dev/mapper/xxxp1, as used by initrd/nash.
+dmraid has been patched to follow xxxp1 device names.
+So until the box has rebooted on new initrd/dmraid, we must cope with /dev/mapper/xxx1 device names
+(cf mdk#44182)
+
+=cut
+
 sub migrate_device_names {
     my ($vg) = @_;
 
@@ -150,6 +192,14 @@ sub migrate_device_names {
 	}
     }
 }
+
+=back
+
+=head1 Debugging
+
+If $ENV{DRAKX_DEBUG_DMRAID} is set, debugging dmraid is done.
+The C<call_dmraid()> function is overloaded and will spit out warnings.
+=cut
 
 if ($ENV{DRAKX_DEBUG_DMRAID}) {
     eval(<<'EOF');

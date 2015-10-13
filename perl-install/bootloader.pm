@@ -1,4 +1,4 @@
-package bootloader; # $Id$
+package bootloader;
 
 #-######################################################################################
 #- misc imports
@@ -16,9 +16,26 @@ use partition_table::raw;
 use run_program;
 use modules;
 
-#-#####################################################################################
-#- Functions
-#-#####################################################################################
+=head1 SYNOPSYS
+
+B<bootloader> enables to configure various boot loaders (LILO, GRUB Legacy, GRUB2, ...)
+
+Example of usage:
+
+    $all_hds = fsedit::get_hds();
+    fs::get_raw_hds('', $all_hds);
+    fs::get_info_from_fstab($all_hds);
+    $fstab = [ fs::get::fstab($all_hds) ];
+    $bootloader = bootloader::read($all_hds);
+    (...)
+    bootloader::action($bootloader, 'write', $all_hds);
+
+=head1 Functions
+
+=over
+
+=cut
+
 my $vmlinuz_regexp = 'vmlinu[xz]|win4lin|uImage';
 my $decompose_vmlinuz_name = qr/((?:$vmlinuz_regexp).*?)-(\d+\.\d+.*)/;
 
@@ -54,7 +71,7 @@ sub kernel_str2short_name {
 
 sub basename2initrd_basename {
     my ($basename) = @_;
-    $basename =~ s!(vmlinu[zx]|uImage)-?!!; #- here we do not use $vmlinuz_regexp since we explictly want to keep all that is not "vmlinuz"
+    $basename =~ s!(vmlinu[zx]|uImage)-?!!; #- here we do not use $vmlinuz_regexp since we explicitly want to keep all that is not "vmlinuz"
     'initrd' . ($basename ? "-$basename" : '');    
 }
 sub kernel_str2vmlinuz_long {
@@ -103,6 +120,12 @@ sub get_label {
     undef;
 }
 
+=item mkinitrd($kernel_version, $bootloader, $entry, $initrd)
+
+Regenerates kernel's initrd.
+
+=cut
+
 sub mkinitrd {
     my ($kernel_version, $bootloader, $entry, $initrd) = @_;
 
@@ -130,6 +153,13 @@ sub mkinitrd {
 
     -e "$::prefix/$initrd" && $initrd;
 }
+
+=item rebuild_initrd($kernel_version, $bootloader, $entry, $initrd)
+
+Saves the old initrd then regenerate it.
+If it fails, restore the old initrd.
+
+=cut
 
 sub rebuild_initrd {
 #    my ($kernel_version, $bootloader, $entry, $initrd) = @_;
@@ -175,6 +205,12 @@ sub update_splash {
     }
 }
 
+=item read($all_hds)
+
+Reads bootloader config by calling the proper read_XYZ function.
+
+=cut
+
 sub read {
     my ($all_hds) = @_;
     my $fstab = [ fs::get::fstab($all_hds) ];
@@ -197,7 +233,7 @@ sub read {
 	    if (m!/fd\d+$!) {
 		warn "not checking the method on floppy, assuming $main_method is right\n";
 		$main_method;
-	    } elsif (member($main_method, qw(yaboot cromwell silo pmon2000 uboot))) {
+	    } elsif (member($main_method, qw(cromwell pmon2000 uboot))) {
 		#- not checking, there's only one bootloader anyway :)
 		$main_method;
 	    } elsif (my $type = partition_table::raw::typeOfMBR($_)) {
@@ -221,7 +257,13 @@ sub read {
     }
 }
 
-sub read_grub2 {
+=item read_grub2 ($o_fstab)
+
+Read back GRUB2 config + C</boot/grub2/drakboot.conf>
+
+=cut
+
+sub read_grub2() {
     my %bootloader = getVarsFromSh("$::prefix/boot/grub2/drakboot.conf");
     my %h = getVarsFromSh("$::prefix/etc/default/grub");
     $bootloader{timeout} = $h{GRUB_TIMEOUT};
@@ -233,7 +275,7 @@ sub read_grub2 {
 	    push @{$bootloader{entries}}, $entry if $entry;
 	    $entry = { label => $1 };
 	} elsif (/linux\s+(\S+)\s+(.*)?/ || /module\s+(\S+vmlinu\S+)\s+(.*)?/) {
-        $entry->{type} = 'image';
+	    $entry->{type} = 'image';
 	    @$entry{qw(kernel_or_dev append)} = ($1, $2);
 	} elsif (/initrd\s+(\S+)/ || /module\s+(\S+initrd\S+)\s+(.*)?/) {
 	    $entry->{initrd} = $1;
@@ -260,6 +302,8 @@ sub set_default_grub_var {
 
 	# Update the kernel command line with KMS option
 	my $cmdline_found = 0;
+	my $kms_ok = 0;
+	my $value;
 	foreach my $line (@lines) {
 		# Skip comments
 		next if ($line =~ m/^\s*#/);
@@ -268,7 +312,7 @@ sub set_default_grub_var {
 		if ($line =~ m/^\s*GRUB_CMDLINE_LINUX_DEFAULT\s*=\s*(.*)/) {
 			$cmdline_found = 1;
 			# Strip the value from surrounding quotes (if any)
-			my $value = $1;
+			$value = $1;
 			$value =~ s/^['"]//;
 			$value =~ s/['"]$//;
 			# To avoid messing with starting/trailing spaces, just split the list of parameters
@@ -295,6 +339,12 @@ sub set_default_grub_var {
 	system('grub2-mkconfig -o /boot/grub2/grub.cfg');
 }
 
+=item read_grub($fstab)
+
+Reads back Grub Legacy config.
+
+=cut
+
 sub read_grub {
     my ($fstab) = @_;
 
@@ -311,10 +361,22 @@ sub read_grub {
     $bootloader;
 }
 
-# adapts device.map (aka $grub2dev) when for example hda is now sda
-# nb: 
-# - $boot_part comes from /boot/grub/install.sh "root (hd...)" line
-# - $grub2dev is /boot/grub/device.map
+
+=item _may_fix_grub2dev($fstab, $grub2dev, $boot_part)
+
+Adapts device.map (aka $grub2dev) when for example hda is now sda.
+nb:
+
+=over 4
+
+=item * $boot_part comes from C</boot/grub/install.sh> "C<root (hd...)>" line
+
+=item * $grub2dev is C</boot/grub/device.map>
+
+=back
+
+=cut
+
 sub _may_fix_grub2dev {
     my ($fstab, $grub2dev, $boot_part) = @_;
 
@@ -340,6 +402,12 @@ sub _may_fix_grub2dev {
     }
     $grub2dev->{$hd_grub} = $real_boot_dev;
 }
+
+=item read_grub_install_sh() {
+
+Reads "config" from /boot/grub/install.sh (mainly used partitions)
+
+=cut
 
 sub read_grub_install_sh() {
     my $s = cat_("$::prefix/boot/grub/install.sh");
@@ -406,10 +474,23 @@ sub _parse_grub_menu_lst() {
     %b;
 }
 
+
+=item is_already_crypted($password)
+
+Returns whether grub password is already encrypted or not
+
+=cut
+
 sub is_already_crypted {
     my ($password) = @_;
     $password =~ /^--md5 (.*)/;
 }
+
+=item read_grub_menu_lst($fstab, $grub2dev)
+
+Read config from /boot/grub/menu.lst
+
+=cut
 
 sub read_grub_menu_lst {
     my ($fstab, $grub2dev) = @_;
@@ -466,33 +547,6 @@ sub read_grub_menu_lst {
     \%b;
 }
 
-sub yaboot2dev {
-    my ($of_path) = @_;
-    find { dev2yaboot($_) eq $of_path } map { "/dev/$_->{dev}" } fs::proc_partitions::read_raw();
-}
-
-# assumes file is in /boot
-# to do: use yaboot2dev for files as well
-#- example of of_path: /pci@f4000000/ata-6@d/disk@0:3,/initrd-2.6.8.1-8mdk.img
-sub yaboot2file {
-    my ($of_path) = @_;
-    
-    if ($of_path =~ /,/) {
-	"$::prefix/boot/" . basename($of_path);
-    } else {
-	yaboot2dev($of_path);
-    }
-}
-
-sub read_silo() {
-    my $bootloader = read_lilo_like("/boot/silo.conf", sub {
-					my ($f) = @_;
-					"/boot$f";
-				    });
-    $bootloader->{method} = 'silo';
-    $bootloader;
-}
-
 # FIXME: actually read back previous conf
 sub read_pmon2000() {
     +{ method => 'pmon2000' };
@@ -505,11 +559,6 @@ sub read_cromwell() {
 }
 
 
-sub read_yaboot() { 
-    my $bootloader = read_lilo_like("/etc/yaboot.conf", \&yaboot2file);
-    $bootloader->{method} = 'yaboot';
-    $bootloader;
-}
 sub read_lilo() {
     my $bootloader = read_lilo_like("/etc/lilo.conf", sub { $_[0] });
 
@@ -622,7 +671,13 @@ sub suggest_onmbr {
     ($onmbr, $unsafe);
 }
 
-# list of places where we can install the bootloader
+
+=item allowed_boot_parts($bootloader, $all_hds)
+
+Returns list of places where we can install the bootloader
+
+=cut
+
 sub allowed_boot_parts {
     my ($bootloader, $all_hds) = @_;
     (
@@ -663,7 +718,7 @@ sub add_entry {
 
     my $to_add = $v;
     my $label = $v->{label};
-    for (my $i = 0; $i < 10;) {
+    for (my $i = 0; $i < 100;) {
 	my $conflicting = get_label($label, $bootloader);
 
 	$to_add->{label} = $label;
@@ -797,8 +852,6 @@ sub add_kernel {
 	$v->{append} = pack_append($simple, $dict);
     }
 
-    #- new versions of yaboot do not handle symlinks
-    $b_nolink ||= arch() =~ /ppc/;
     $b_no_initrd //= arch() =~ /mips|arm/ && !detect_devices::is_mips_gdium();
 
     $b_nolink ||= $kernel_str->{use_long_name};
@@ -846,6 +899,12 @@ sub add_kernel {
 
     add_entry($bootloader, $v);
 }
+
+=item rebuild_initrds($bootloader)
+
+Rebuilds all initrds
+
+=cut
 
 sub rebuild_initrds {
     my ($bootloader) = @_;
@@ -962,7 +1021,12 @@ sub set_append_netprofile {
     $e->{append} = pack_append($simple, $dict);
 }
 
-# used when a bootloader $entry has been modified (eg: $entry->{vga})
+=item configure_entry($bootloader, $entry)
+
+Used when a bootloader $entry has been modified (eg: $entry->{vga})
+
+=cut
+
 sub configure_entry {
     my ($bootloader, $entry) = @_;
     $entry->{type} eq 'image' or return;
@@ -1018,12 +1082,6 @@ sub short_ext {
     $short_ext || $kernel_str->{ext};
 }
 
-# deprecated, only for compatibility (nov 2007)
-sub sanitize_ver {    
-    my ($_name, $kernel_str) = @_;
-    _sanitize_ver($kernel_str);
-}
-
 sub _sanitize_ver {
     my ($kernel_str) = @_;
 
@@ -1047,11 +1105,16 @@ sub _sanitize_ver {
     $return;
 }
 
-# for lilo
+=item suggest_message_text($bootloader)
+
+Provides a description text for Lilo
+
+=cut
+
 sub suggest_message_text {
     my ($bootloader) = @_;
 
-    if (!$bootloader->{message} && !$bootloader->{message_text} && arch() !~ /ia64/) {
+    if (!$bootloader->{message} && !$bootloader->{message_text}) {
 	my $msg_en =
 #-PO: these messages will be displayed at boot time in the BIOS, use only ASCII (7bit)
 N_("Welcome to the operating system chooser!
@@ -1061,7 +1124,7 @@ wait for default boot.
 
 ");
 	my $msg = translate($msg_en);
-	#- use the english version if more than 40% of 8bits chars
+	#- use the English version if more than 40% of 8bits chars
 	#- else, use the translation but force a conversion to ascii
 	#- to be sure there won't be undisplayable characters
 	if (int(grep { $_ & 0x80 } unpack "c*", $msg) / length($msg) > 0.4) {
@@ -1079,11 +1142,9 @@ sub suggest {
     my $root_part = fs::get::root($fstab);
     my $root = isLoopback($root_part) ? '/dev/loop7' : fs::wild_device::from_part('', $root_part);
     my $boot = fs::get::root($fstab, 'boot')->{device};
-    #- PPC xfs module requires enlarged initrd
-    my $xfsroot = $root_part->{fs_type} eq 'xfs';
     my $mbr;
     
-    # If installing onto an USB drive, put the mbr there, else on the first non removable drive
+    # If installing onto an USB drive, put the MBR there, else on the first non removable drive
     if ($root_part->{is_removable}) {
         $mbr = fs::get::part2hd($root_part, $all_hds);
     } else {
@@ -1091,33 +1152,18 @@ sub suggest {
     }
 
     my ($onmbr, $unsafe) = $bootloader->{crushMbr} ? (1, 0) : suggest_onmbr($mbr);
-    add2hash_($bootloader, arch() =~ /ppc/ ?
-	{
-	 defaultos => "linux",
-	 entries => [],
-	 'init-message' => "Welcome to OpenMandriva Lx!",
-	 delay => 30,	#- OpenFirmware delay
-	 timeout => 50,
-	 enableofboot => 1,
-	 enablecdboot => 1,
-	   if_(detect_devices::get_mac_model() =~ /IBM/,
-	 boot => "/dev/sda1",
-           ),
-	 xfsroot => $xfsroot,
-	} :
+    add2hash_($bootloader,
 	{
 	 bootUnsafe => $unsafe,
 	 entries => [],
 	 timeout => $onmbr && 10,
 	 nowarn => 1,
-	   if_(arch() !~ /ia64/,
 	 boot => "/dev/" . ($onmbr ? $mbr->{device} : $boot),
 	 map => "/boot/map",
 	 compact => 1,
     	 'large-memory' => 1,
 	 color => 'black/cyan yellow/cyan',
 	 'menu-scheme' => 'wb:bw:wb:bw'
-         ),
 	});
 
     suggest_message_text($bootloader);
@@ -1155,16 +1201,6 @@ sub suggest {
 	       { root => $root, label => 'failsafe', append => 'failsafe' }, "", 1)
       if @kernels;
 
-    if (arch() =~ /ppc/) {
-	#- if we identified a MacOS partition earlier - add it
-	if (defined $partition_table::mac::macos_part) {
-	    add_entry($bootloader,
-		      {
-		       type => "macos",
-		       kernel_or_dev => $partition_table::mac::macos_part
-		      });
-	}
-    } elsif (arch() !~ /ia64/) {
 	#- search for dos (or windows) boot partition. Do not look in extended partitions!
 	my @windows_boot_parts =
 	  grep { $_->{active}
@@ -1183,7 +1219,6 @@ sub suggest {
 		       makeactive => 1,
 		      });
 	} @windows_boot_parts;
-    }
 
     my @preferred = map { "linux-$_" } 'p3-smp-64GB', 'secure', 'enterprise', 'smp', 'i686-up-4GB';
     if (my $preferred = find { get_label($_, $bootloader) } @preferred) {
@@ -1250,27 +1285,22 @@ sub method2text {
 	'grub2'        => N("GRUB2 with graphical menu"),
 	'grub-graphic' => N("GRUB with graphical menu"),
 	'grub-menu'    => N("GRUB with text menu"),
-	'yaboot'       => N("Yaboot"),
-	'silo'         => N("SILO"),
     }->{$method};
 }
 
 sub method_choices_raw {
     my ($b_prefix_mounted) = @_;
     detect_devices::is_xbox() ? 'cromwell' :
-    arch() =~ /ppc/ ? 'yaboot' : 
-    arch() =~ /ia64/ ? 'lilo' : 
-    arch() =~ /sparc/ ? 'silo' : 
     arch() =~ /mips/ ? 'pmon2000' : 
     arch() =~ /arm/ ? 'uboot' :
-      (
-       if_(!$b_prefix_mounted || whereis_binary('lilo', $::prefix),
-	   'lilo-menu'),
-       if_(!$b_prefix_mounted || whereis_binary('grub', $::prefix),
-	   'grub-graphic', 'grub-menu'),
-       if_(!$b_prefix_mounted || whereis_binary('grub2-reboot', $::prefix),
+       if_(!$b_prefix_mounted || whereis_binary('grub2-reboot', $::prefix), 
 	   'grub2'),
-      );
+      if_(!is_uefi(), (
+       if_(!$b_prefix_mounted || whereis_binary('grub', $::prefix), 
+	   'grub-graphic', 'grub-menu'),
+       if_(!$b_prefix_mounted || whereis_binary('lilo', $::prefix), 
+	   'lilo-menu'),
+      ));
 }
 sub method_choices {
     my ($all_hds, $b_prefix_mounted) = @_;
@@ -1281,7 +1311,7 @@ sub method_choices {
 
     grep {
 	!(/lilo/ && (isLoopback($root_part) || $have_dmraid))
-	  && !(/grub/ && isRAID($boot_part))
+	  && (/grub2/ || $boot_part->{fs_type} ne 'btrfs')
 	  && !(/grub-graphic/ && cat_("/proc/cmdline") =~ /console=ttyS/);
     } method_choices_raw($b_prefix_mounted);
 }
@@ -1307,125 +1337,10 @@ sub keytable {
     -r "$::prefix/$f" && $f;
 }
 
-
-sub create_link_source() {
-    #- we simply do it for all kernels :)
-    #- so this can be used in %post of kernel and also of kernel-source
-    foreach (all("$::prefix/usr/src")) {
-	my ($version) = /^linux-(\d+\.\d+.*)/ or next;
-	foreach (glob("$::prefix/lib/modules/$version*")) {
-	    -d $_ or next;
-	    log::l("creating symlink $_/build");
-	    symlink "/usr/src/linux-$version", "$_/build";
-	    log::l("creating symlink $_/source");
-	    symlink "/usr/src/linux-$version", "$_/source";
-	}
-    }
-}
-
-sub dev2yaboot {
-    my ($dev) = @_;
-
-    devices::make("$::prefix$dev"); #- create it in the chroot
-
-    my $of_dev;
-    run_program::rooted_or_die($::prefix, "/usr/sbin/ofpath", ">", \$of_dev, $dev);
-    chomp($of_dev);
-    log::l("OF Device: $of_dev");
-    $of_dev;
-}
-
 sub check_enough_space() {
     my $e = "$::prefix/boot/.enough_space";
     output $e, 1; -s $e or die N("not enough room in /boot");
     unlink $e;
-}
-
-sub write_yaboot {
-    my ($bootloader, $all_hds) = @_;
-
-    my $fstab = [ fs::get::fstab($all_hds) ]; 
-
-    my $file2yaboot = sub {
-	my ($part, $file) = fs::get::file2part($fstab, $_[0]);
-	dev2yaboot('/dev/' . $part->{device}) . "," . $file;
-    };
-
-    #- do not write yaboot.conf for old-world macs
-    my $mac_type = detect_devices::get_mac_model();
-    return if $mac_type =~ /Power Macintosh/;
-
-    $bootloader->{prompt} ||= $bootloader->{timeout};
-
-    if ($bootloader->{message_text}) {
-	eval { output("$::prefix/boot/message", $bootloader->{message_text}) }
-	  and $bootloader->{message} = '/boot/message';
-    }
-
-    my @conf;
-
-    if (!get_label($bootloader->{default}, $bootloader)) {
-	log::l("default bootloader entry $bootloader->{default} is invalid, choosing another one");
-	$bootloader->{default} = $bootloader->{entries}[0]{label};
-    }
-    push @conf, "# yaboot.conf - generated by DrakX/drakboot";
-    push @conf, "# WARNING: do not forget to run ybin after modifying this file\n";
-    push @conf, "default=" . make_label_lilo_compatible($bootloader->{default}) if $bootloader->{default};
-    push @conf, sprintf('init-message="\n%s\n"', $bootloader->{'init-message'}) if $bootloader->{'init-message'};
-
-    if ($bootloader->{boot}) {
-	push @conf, "boot=$bootloader->{boot}";
-	push @conf, "ofboot=" . dev2yaboot($bootloader->{boot}) if $mac_type !~ /IBM/;
-    } else {
-	die "no bootstrap partition defined.";
-    }
-
-    push @conf, map { "$_=$bootloader->{$_}" } grep { $bootloader->{$_} } (qw(delay timeout), if_($mac_type !~ /IBM/, 'defaultos'));
-    push @conf, "install=/usr/lib/yaboot/yaboot";
-    if ($mac_type =~ /IBM/) {
-	push @conf, 'nonvram';
-    } else {
-	push @conf, 'magicboot=/usr/lib/yaboot/ofboot';
-	push @conf, grep { $bootloader->{$_} } qw(enablecdboot enableofboot);
-    }
-    foreach my $entry (@{$bootloader->{entries}}) {
-
-	if ($entry->{type} eq "image") {
-	    push @conf, "$entry->{type}=" . $file2yaboot->($entry->{kernel_or_dev});
-	    my @entry_conf;
-	    push @entry_conf, "label=" . make_label_lilo_compatible($entry->{label});
-	    push @entry_conf, "root=$entry->{root}";
-	    push @entry_conf, "initrd=" . $file2yaboot->($entry->{initrd}) if $entry->{initrd};
-	    #- xfs module on PPC requires larger initrd - say 6MB?
-	    push @entry_conf, "initrd-size=6144" if $bootloader->{xfsroot};
-	    push @entry_conf, qq(append=" $entry->{append}") if $entry->{append};
-	    push @entry_conf, grep { $entry->{$_} } qw(read-write read-only);
-	    push @conf, map { "\t$_" } @entry_conf;
-	} else {
-	    my $of_dev = dev2yaboot($entry->{kernel_or_dev});
-	    push @conf, "$entry->{type}=$of_dev";
-	}
-    }
-    my $f = "$::prefix/etc/yaboot.conf";
-    log::l("writing yaboot config to $f");
-    renamef($f, "$f.old");
-    output($f, map { "$_\n" } @conf);
-}
-
-sub install_yaboot {
-    my ($bootloader, $all_hds) = @_;
-    log::l("Installing boot loader...");
-    write_yaboot($bootloader, $all_hds);
-    when_config_changed_yaboot($bootloader);
-}
-sub when_config_changed_yaboot {
-    my ($bootloader) = @_;
-    $::testing and return;
-    if (defined $partition_table::mac::new_bootstrap) {
-	run_program::run("hformat", $bootloader->{boot}) or die "hformat failed";
-    }	
-    my $error;
-    run_program::rooted($::prefix, "/usr/sbin/ybin", "2>", \$error) or die "ybin failed: $error";
 }
 
 sub install_pmon2000 { 
@@ -1438,7 +1353,7 @@ sub write_pmon2000 {
 }
 sub when_config_changed_pmon2000 {
     my ($_bootloader) = @_;
-    log::l("Mips/pmon2000 - nothing to do...");
+    #- do not do anything
 }
 
 sub install_uboot { 
@@ -1451,7 +1366,7 @@ sub write_uboot {
 }
 sub when_config_changed_uboot {
     my ($_bootloader) = @_;
-    log::l("uboot - nothing to do...");
+    #- do not do anything
 }
 
 sub install_cromwell { 
@@ -1464,7 +1379,7 @@ sub write_cromwell {
 }
 sub when_config_changed_cromwell {
     my ($_bootloader) = @_;
-    log::l("XBox/Cromwell - nothing to do...");
+    #- do not do anything
 }
 
 sub simplify_label {
@@ -1653,7 +1568,7 @@ sub install_raw_lilo {
 
 sub when_config_changed_lilo {
     my ($bootloader) = @_;
-    if (!$::testing && arch() !~ /ia64/ && $bootloader->{method} =~ /lilo/) {
+    if (!$::testing && $bootloader->{method} =~ /lilo/) {
 	log::l("Installing boot loader on $bootloader->{boot}...");
 	install_raw_lilo($bootloader->{force_lilo_answer});
     }
@@ -1736,8 +1651,14 @@ sub write_grub_device_map {
 	   (map_index { "(hd$::i) /dev/$_->{device}\n" } @$sorted_hds));
 }
 
-# parses things like "(hd0,4)/boot/vmlinuz"
-# returns: ("hd0", 4, "boot/vmlinuz")
+=item parse_grub_file($grub_file)
+
+Parses things like "C<(hd0,4)/boot/vmlinuz>"
+
+Returns: ("hd0", 4, "boot/vmlinuz")
+
+=cut
+
 sub parse_grub_file {
     my ($grub_file) = @_;
     my ($grub_dev, $rel_file) = $grub_file =~ m!\((.*?)\)/?(.*)! or return;
@@ -1745,8 +1666,14 @@ sub parse_grub_file {
     ($hd, $part, $rel_file);
 }
 
-# takes things like "(hd0,4)/boot/vmlinuz"
-# returns: ("/dev/sda5", "boot/vmlinuz")
+=item grub2dev_and_file($grub_file, $grub2dev, $o_block_device)
+
+Takes things like "C<(hd0,4)/boot/vmlinuz>"
+
+Returns: ("/dev/sda5", "boot/vmlinuz")
+
+=cut
+
 sub grub2dev_and_file {
     my ($grub_file, $grub2dev, $o_block_device) = @_;
     my ($hd, $part, $rel_file) = parse_grub_file($grub_file) or return;
@@ -1755,16 +1682,34 @@ sub grub2dev_and_file {
     my $device = '/dev/' . ($part eq '' ? $grub2dev->{$hd} : devices::prefix_for_dev($grub2dev->{$hd}) . $part);
     $device, $rel_file;
 }
-# takes things like "(hd0,4)/boot/vmlinuz"
-# returns: "/dev/sda5"
+
+=item grub2devd($grub_file, $grub2dev, $o_block_device)
+
+Takes things like "C<(hd0,4)/boot/vmlinuz>"
+
+Returns: "/dev/sda5"
+
+=cut
+
 sub grub2dev {
     my ($grub_file, $grub2dev, $o_block_device) = @_;
     first(grub2dev_and_file($grub_file, $grub2dev, $o_block_device));
 }
 
-# replaces
-# - "/vmlinuz" with "/boot/vmlinuz" when "root" or "rootnoverify" is set for the entry
-# - "(hdX,Y)" in "(hdX,Y)/boot/vmlinuz..." by appropriate path if possible/needed
+=item grub2file($grub_file, $grub2dev, $fstab, $o_entry)
+
+Replaces
+
+=over 4
+
+=item * "C</vmlinuz>" with "C</boot/vmlinuz>" when "root" or "rootnoverify" is set for the entry
+
+=item * "C<(hdX,Y)>" in "C<(hdX,Y)/boot/vmlinuz...>" by appropriate path if possible/needed
+
+=back
+
+=cut
+
 sub grub2file {
     my ($grub_file, $grub2dev, $fstab, $o_entry) = @_;
 
@@ -2112,6 +2057,16 @@ sub when_config_changed_grub {
     update_copy_in_boot($_) foreach glob($::prefix . boot_copies_dir() . '/*.link');
 }
 
+=item action($bootloader, $action, @para)
+
+Calls the C<$action> function with @para parameters:
+
+   $actions->($bootloader, @para)
+
+If needed, the function name will be resolved to call a boot loader specific function (eg: for LILO/GRUB/...)
+
+=cut
+
 sub action {
     my ($bootloader, $action, @para) = @_;
 
@@ -2119,6 +2074,12 @@ sub action {
     my $f = $bootloader::{$action . '_' . $main_method} or die "unknown bootloader method $bootloader->{method} ($action)";
     $f->($bootloader, @para);
 }
+
+=item install($bootloader, $all_hds)
+
+Writes back the boot loader config. Calls the proper write_XYZ() function.
+
+=cut
 
 sub install {
     my ($bootloader, $all_hds) = @_;
@@ -2140,7 +2101,7 @@ sub ensure_pkg_is_installed {
     if (member($main_method, qw(grub grub2 lilo))) {
 	$do_pkgs->ensure_binary_is_installed($pkg{$main_method} || $main_method, $h{$main_method} || $main_method, 1) or return 0;
 	if ($bootloader->{method} eq 'grub-graphic') {
-	    $do_pkgs->ensure_is_installed('OpenMandriva-gfxboot-theme', '/usr/share/gfxboot/themes/OpenMandriva/boot/message', 1) or return 0;
+	    $do_pkgs->ensure_is_installed('mandriva-gfxboot-theme', '/usr/share/gfxboot/themes/Moondrake/boot/message', 1) or return 0;
 	}
     }
     1;
@@ -2182,6 +2143,12 @@ sub parse_grub2_config {
 	}
     }
 }
+
+=item find_other_distros_grub_conf($fstab)
+
+Returns a list of other distros' grub.conf
+
+=cut
 
 sub find_other_distros_grub_conf {
     my ($fstab) = @_;
@@ -2251,7 +2218,7 @@ sub find_other_distros_grub_conf {
 	    } else {
 		log::l("could not recognise the distribution for $e->{grub_conf} in $e->{bootpart}{device}");
 	    }
-	    $e->{name} || "Linux $e->{bootpart}{device}";
+	    $e->{name} ||= "Linux $e->{bootpart}{device}";
 	    push @found, $e;
 	}
     }
@@ -2311,5 +2278,9 @@ sub update_for_renumbered_partitions {
     }
     1;
 }
+
+=back
+
+=cut
 
 1;

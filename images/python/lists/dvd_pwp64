@@ -21,12 +21,12 @@ wireless-tools
 msec
 wpa_supplicant
 
-mandriva-theme-Powerpack
-mandriva-gfxboot-theme
-mandriva-release-common
-mandriva-lxde-config-Powerpack
-mandriva-release-Powerpack
-polkit-gnome
+#mandriva-theme-Moondrake
+#mandriva-gfxboot-theme
+#mandriva-release-common
+#mandriva-lxde-config-Powerpack
+#mandriva-release-Moondrake
+#polkit-gnome
 INSTALL 1
 
 
@@ -37,7 +37,7 @@ dracut
 task-kde4-minimal
 task-lxde
 choqok
-mandriva-kde4-config-common
+#mandriva-kde4-config-common
 libjpeg62
 libcap-ng
 libffi
@@ -58,7 +58,7 @@ acpid
 hwreport
 aumix
 mandi-ifw
-dhcp-client
+dhcp-client-daemon
 openssh-server
 openssh-clients
 traceroute
@@ -96,7 +96,6 @@ xarchiver
 #icewm
 pptp-linux
 ppp
-nfs-utils-clients
 nfs-utils
 ppp-pppoe
 rp-pppoe

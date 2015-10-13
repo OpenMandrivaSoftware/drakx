@@ -1,4 +1,4 @@
-package fs::mount_options; # $Id$
+package fs::mount_options;
 
 use common;
 use fs::type;
@@ -9,7 +9,7 @@ sub list() {
     my %non_defaults = (
 			sync => 'async', noatime => 'atime', noauto => 'auto', ro => 'rw', 
 			user => 'nouser', nodev => 'dev', noexec => 'exec', nosuid => 'suid',
-			user_xattr => 'nouser_xattr', acl => 'noacl',
+			user_xattr => 'nouser_xattr',
 		       );
     my @user_implies = qw(noexec nodev nosuid);
     \%non_defaults, \@user_implies;
@@ -32,9 +32,10 @@ sub unpack {
 		  reiserfs => [ 'notail' ],
 		 );
     push @{$per_fs{$_}}, 'usrquota', 'grpquota' foreach 'ext2', 'ext3', 'ext4', 'xfs';
+    push @{$per_fs{$_}}, 'acl' foreach 'ext2', 'ext3', 'ext4', 'reiserfs';
 
     while (my ($fs, $l) = each %per_fs) {
-	$part->{fs_type} eq $fs || $part->{fs_type} eq 'auto' && member($fs, @auto_fs) or next;
+	member($part->{fs_type}, $fs, 'auto') && member($fs, @auto_fs) or next;
 	$non_defaults->{$_} = 1 foreach @$l;
     }
 

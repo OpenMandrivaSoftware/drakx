@@ -1,4 +1,4 @@
-package fs::any; # $Id$
+package fs::any;
 
 use common;
 use fsedit;
@@ -64,12 +64,8 @@ sub check_hds_boot_and_root {
     my ($all_hds, $fstab) = @_;
     fs::get::root_($fstab) or die "Oops, no root partition";
 
-    if (arch() =~ /ppc/ && detect_devices::get_mac_generation() =~ /NewWorld/) {
-	die "Need bootstrap partition to boot system!" if !(defined $partition_table::mac::bootstrap_part);
-    }
-
-    if (arch() =~ /ia64/ && !fs::get::has_mntpoint("/boot/efi", $all_hds)) {
-	die N("You must have a FAT partition mounted in /boot/efi");
+    if ( is_uefi() && !fs::get::has_mntpoint("/boot/EFI", $all_hds)) {
+	die N("You must have a ESP FAT32 partition mounted in /boot/EFI");
     }
 }
 
@@ -80,13 +76,13 @@ sub create_minimal_files() {
 	etc/sysconfig/console/consoletrans
 	home mnt run tmp var var/tmp var/lib var/lib/rpm var/lib/urpmi);
     mkdir "$::prefix/$_", 0700 foreach qw(root root/tmp root/drakx);
-
 }
 
 sub prepare_minimal_root() {
 
-    fs::any::create_minimal_files();
+    create_minimal_files();
 
+    # ensure we've all needed devices, for bootloader install and mkinitrd:
     run_program::run('mount', '--bind', '/dev', "$::prefix/dev");
     run_program::run('mount', '--bind', '/run', "$::prefix/run");
     eval { fs::mount::mount('none', "$::prefix/proc", 'proc') };

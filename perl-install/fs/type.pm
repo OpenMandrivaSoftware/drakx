@@ -1,4 +1,4 @@
-package fs::type; # $Id$
+package fs::type;
 
 use common;
 use devices;
@@ -6,7 +6,7 @@ use devices;
 
 our @ISA = qw(Exporter);
 our @EXPORT = qw(
-   isEmpty isExtended isTrueLocalFS isTrueFS isDos isSwap isOtherAvailableFS isRawLVM isRawRAID isRawLUKS isRAID isLVM isLUKS isMountableRW isNonMountable isPartOfLVM isPartOfRAID isPartOfLoopback isLoopback isMounted isBusy isSpecial isApple isAppleBootstrap isWholedisk isFat_or_NTFS isRecovery
+   isEmpty isExtended isTrueLocalFS isTrueFS isDos isSwap isOtherAvailableFS isRawLVM isRawRAID isRawLUKS isRAID isLVM isLUKS isMountableRW isNonMountable isPartOfLVM isPartOfRAID isPartOfLoopback isLoopback isMounted isBusy isSpecial isApple isAppleBootstrap isFat_or_NTFS isRecovery
    maybeFormatted set_isFormatted defaultFS
 );
 
@@ -21,17 +21,14 @@ my (%type_name2pt_type, %type_name2fs_type, %fs_type2pt_type, %pt_type2fs_type, 
   0x83 => 'ext3',     'Journalised FS: ext3',
   0x83 => 'ext4',     'Journalised FS: ext4',
   0x83 => 'btrfs',    'Journalised FS: Btrfs',
-  0x83 => 'reiserfs', 'Journalised FS: ReiserFS',
+if_( is_uefi(),
+  0xef => 'vfat',     'EFI System Partition',
+),
   0x83 => 'xfs',      'Journalised FS: XFS',
   0x83 => 'jfs',      'Journalised FS: JFS',
   0x0b => 'vfat',     'FAT32',
   0x07 => 'ntfs-3g',  'NTFS-3G',
   0x07 => 'ntfs',     'NTFS',
-if_(arch() =~ /ppc/,
-  0x401	=> '',         'Apple Bootstrap',
-  0x402	=> 'hfs',      'Apple HFS Partition',
-  0x41  => '',         'PPC PReP Boot',
-),
 	],
 
         non_fs_type => [
@@ -48,20 +45,7 @@ if_(arch() =~ /ppc/,
 	],
 
 	other => [
- if_(arch() =~ /^ia64/,
-  0x100 => '',         'Various',
-), if_(arch() =~ /^ppc/,
-  0x401	=> 'apple',    'Apple Partition',
-), if_(arch() =~ /^sparc/,
-  0x01 => 'ufs',      'SunOS boot',
-  0x02 => 'ufs',      'SunOS root',
-  0x03 => '',      'SunOS swap',
-  0x04 => 'ufs',      'SunOS usr',
-  0x05 => '',      'Whole disk',
-  0x06 => 'ufs',      'SunOS stand',
-  0x07 => 'ufs',      'SunOS var',
-  0x08 => 'ufs',      'SunOS home',
-), if_(arch() =~ /^i.86|x86_64/,
+ if_(arch() =~ /^i.86|x86_64/,
   0x01 => 'vfat',     'FAT12',
   0x02 => '',         'XENIX root',
   0x03 => '',         'XENIX usr',
@@ -88,9 +72,7 @@ if_(arch() =~ /ppc/,
   0x39 => '',         'Plan 9',
   0x3c => '',         'PartitionMagic recovery',
   0x40 => '',         'Venix 80286',
-if_(arch() !~ /ppc/,
   0x41 => '',         'PPC PReP Boot',
-),
   0x42 => '',         'SFS',
   0x4d => '',         'QNX4.x',
   0x4e => '',         'QNX4.x 2nd part',
@@ -111,6 +93,7 @@ if_(arch() !~ /ppc/,
   0x75 => '',         'PC/IX',
   0x80 => '',         'Old Minix',
   0x81 => '',         'Minix / old Linux',
+  0x83 => 'reiserfs', 'Journalised FS: ReiserFS',
   0x83 => 'nilfs2',   'Journalised FS: NILFS2',
   0x84 => '',         'OS/2 hidden C: drive',
   0x86 => '',         'NTFS volume set (0x86)',
@@ -143,7 +126,6 @@ if_(arch() !~ /ppc/,
   0xe4 => '',         'SpeedStor (FAT-16)',
   0xeb => 'befs',     'BeOS fs',
   0xee => '',         'EFI GPT',
-  0xef => 'vfat',     'EFI (FAT-12/16/32)',
   0xf0 => '',         'Linux/PA-RISC boot',
   0xf4 => '',         'SpeedStor (large part.)',
   0xf2 => '',         'DOS secondary',
@@ -305,13 +287,12 @@ sub true_local_fs_types() { qw(btrfs ext3 ext2 ext4 reiserfs xfs jfs) }
 
 sub isEmpty { !$_[0]{fs_type} && $_[0]{pt_type} == 0 }
 sub isEfi { arch() =~ /ia64/ && $_[0]{pt_type} == 0xef }
-sub isWholedisk { arch() =~ /^sparc/ && $_[0]{pt_type} == 5 }
-sub isExtended { arch() !~ /^sparc/ && ($_[0]{pt_type} == 5 || $_[0]{pt_type} == 0xf || $_[0]{pt_type} == 0x85) }
+sub isExtended { $_[0]{pt_type} == 5 || $_[0]{pt_type} == 0xf || $_[0]{pt_type} == 0x85 }
 sub isRawLVM { $_[0]{pt_type} == 0x8e || $_[0]{type_name} eq 'Linux Logical Volume Manager' }
 sub isRawRAID { $_[0]{pt_type} == 0xfd || $_[0]{type_name} eq 'Linux RAID' }
 sub isRawLUKS { $_[0]{type_name} eq 'Encrypted' }
 sub isSwap { $_[0]{fs_type} eq 'swap' }
-sub isDos { arch() !~ /^sparc/ && ${{ 1 => 1, 4 => 1, 6 => 1 }}{$_[0]{pt_type}} }
+sub isDos { ${{ 1 => 1, 4 => 1, 6 => 1 }}{$_[0]{pt_type}} }
 sub isFat_or_NTFS { member($_[0]{fs_type}, 'vfat', 'ntfs', 'ntfs-3g') }
 sub isApple { $_[0]{pt_type} == 0x401 && defined $_[0]{isDriver} }
 sub isAppleBootstrap { $_[0]{pt_type} == 0x401 && defined $_[0]{isBoot} }
@@ -380,6 +361,7 @@ sub check {
     my ($fs_type, $_hd, $part) = @_;
     $fs_type eq "jfs" && $part->{size} < MB(16) and die N("You cannot use JFS for partitions smaller than 16MB");
     $fs_type eq "reiserfs" && $part->{size} < MB(32) and die N("You cannot use ReiserFS for partitions smaller than 32MB");
+    $fs_type eq "btrfs" && $part->{size} < MB(256) and die N("You cannot use btrfs for partitions smaller than 256MB");
 }
 
 sub guessed_by_mount() {

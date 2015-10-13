@@ -4,9 +4,9 @@
 /etc/protocols
 /etc/services
 /etc/group
+/etc/machine-id
 /etc/passwd
 /etc/pki
-/etc/termcap
 /etc/urpmi
 /lib
 /lib64

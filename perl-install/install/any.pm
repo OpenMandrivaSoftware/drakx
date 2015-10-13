@@ -1,6 +1,7 @@
-package install::any; # $Id$
+package install::any;
 
 use strict;
+use feature 'state';
 
 our @ISA = qw(Exporter);
 our @EXPORT_OK = qw(addToBeDone);
@@ -22,12 +23,28 @@ use lang;
 use any;
 use log;
 
+=head1 SYNOPSYS
+
+Misc installer specific functions
+
+=head1 Functions
+
+=over
+
+=cut
+
 our @advertising_images;
+
+=item drakx_version($o)
+
+Returns DrakX version as stored in C<install/stage2/VERSION> file
+
+=cut
 
 sub drakx_version { 
     my ($o) = @_;
 
-	my $version = cat__(getFile_($o->{stage2_phys_medium}, "install/stage2/VERSION"));
+	my $version = cat__(getFile_($o->{stage2_phys_medium}, arch() . "/install/stage2/VERSION"));
 	sprintf "DrakX v%s", chomp_($version);
 }
 
@@ -38,10 +55,22 @@ sub dont_run_directly_stage2() {
     readlink("/usr/bin/runinstall2") eq "runinstall2.sh";
 }
 
+=item is_network_install($o)
+
+Is it a network install?
+
+=cut
+
 sub is_network_install {
     my ($o) = @_;
     member($o->{method}, qw(ftp http nfs));
 }
+
+=item spawnShell()
+
+Starts a shell on tty2
+
+=cut
 
 sub spawnShell() {
     return if $::local_install || $::testing;
@@ -83,6 +112,12 @@ cant_spawn:
     c::_exit(1);
 }
 
+=item getAvailableSpace($o)
+
+Returns available space
+
+=cut
+
 sub getAvailableSpace {
     my ($o) = @_;
     fs::any::getAvailableSpace($o->{fstab});
@@ -101,6 +136,12 @@ sub preConfigureTimezone {
     my $ntp = timezone::ntp_server();
     add2hash_($o->{timezone}, { UTC => $utc, ntp => $ntp });
 }
+
+=item ask_suppl_media_method($o)
+
+Enables to add supplementary media
+
+=cut
 
 sub ask_suppl_media_method {
     my ($o) = @_;
@@ -124,8 +165,9 @@ Do you have a supplementary installation medium to configure?",
 	'nfs'   => N("Network (NFS)"),
     );
 
-    $o->ask_from(
-	'', $msg,
+    $o->ask_from_({ messages => $msg,
+		    interactive_help_id => 'add_supplemental_media',
+		  },
 	[ {
 	    val => \my $suppl,
 	    list => [ map { $_->[0] } group_by2(@l) ],
@@ -138,8 +180,13 @@ Do you have a supplementary installation medium to configure?",
     $suppl;
 }
 
-#- if the supplementary media is networked, but not the main one, network
-#- support must be installed and network started.
+=item prep_net_suppl_media($o)
+
+If the supplementary media is networked, but not the main one, network
+support must be installed and network started.
+
+=cut
+
 sub prep_net_suppl_media {
     my ($o) = @_;
 
@@ -164,6 +211,12 @@ sub prep_net_suppl_media {
     sleep(3);
 }
 
+=item ask_url($in, $o_url)
+
+Asks URL of the mirror
+
+=cut
+
 sub ask_url {
     my ($in, $o_url) = @_;
 
@@ -179,18 +232,25 @@ sub ask_url {
 	      }
 	  } } ]) && $url;
 }
+
+=item ask_mirror($o, $type, $o_url)
+
+Retrieves list of mirrors and offers to pick one
+
+=cut
+
 sub ask_mirror {
     my ($o, $type, $o_url) = @_;
     
     require mirror;
 
     my $mirrors = eval {
-	my $_w = $o->wait_message('', N("Connecting to OpenMandriva to get the list of available mirrors..."));
+	my $_w = $o->wait_message('', N("Contacting %s web site to get the list of available mirrors...", "Moondrake GNU/Linux"));
 	mirror::list($o->{product_id}, $type);
     };
     my $err = $@;
     if (!$mirrors) {
-	$o->ask_warn('', N("Failed to get the list of available mirrors.") . "\n$err");
+	$o->ask_warn('', N("Failed contacting %s web site to get the list of available mirrors", "Moondrake GNU/Linux") . "\n$err");
 	return ask_url($o, $o_url);
     }
 
@@ -223,7 +283,7 @@ sub ask_mirror {
 sub ask_suppl_media_url {
     my ($o, $method, $o_url) = @_;
 
-    if ($method eq 'ftp' || $method eq 'http') {
+    if (member($method, qw(ftp http))) {
 	install::any::ask_mirror($o, 'distrib', $o_url);
     } elsif ($method eq 'cdrom') {
 	'cdrom://';
@@ -248,6 +308,14 @@ sub ask_suppl_media_url {
 	"nfs://$host$dir";
     } else { internal_error("bad method $method") }
 }
+
+
+=item selectSupplMedia($o)
+
+Offers to add a supplementary media. If yes, ask which mirror to use, ...
+
+=cut
+
 sub selectSupplMedia {
     my ($o) = @_;
     my $url;
@@ -302,6 +370,15 @@ sub selectSupplMedia {
     goto ask_url;
 }
 
+=item load_rate_files($o)
+
+Loads the package rates file (C<rpmsrate>) as well as the C<compssUsers.pl>
+file which contains the package groups GUI.
+
+Both files came from the C<meta-task> package.
+
+=cut
+
 sub load_rate_files {
     my ($o) = @_;
     #- must be done after getProvides
@@ -321,10 +398,34 @@ sub _contrib_medium() { N("Contrib Release") }
 sub _nonfree_medium() { N("Non-free Release") }
 
 # FIXME: move me in ../any.pm or in harddrake::*, might be needed by rpmdrake/harddrake:
+sub is_firmware_needed_ {
+    my ($o) = @_;
+    require list_firmwares;
+    my @l = map { $_->{driver} } detect_devices::probeall();
+    my @need = intersection(\@l, \@list_firmwares::modules_with_nonfree_firmware);
+    log::l("the following driver(s) need nonfree firmware(s): " . join(', ', @need)) if @need;
+
+    require pkgs;
+    my @xpkgs = pkgs::detect_graphical_drivers($o->do_pkgs);
+    log::l("the following nonfree firmware(s) are needed for X.org: " . join(', ', @xpkgs)) if @xpkgs;
+
+    my $need_microcode = detect_devices::hasCPUMicrocode();
+    log::l("nonfree firmware is needed for the CPU (microcode)") if $need_microcode;
+
+    @need || @xpkgs || $need_microcode;
+}
+
+=item is_firmware_needed($o)
+
+Is a firmware needed by some HW?
+
+=cut
+
 sub is_firmware_needed {
     my ($o) = @_;
-    require pkgs;
-    pkgs::detect_graphical_drivers($o->do_pkgs);
+    state $res;
+    $res = is_firmware_needed_($o) if !defined $res;
+    $res;
 }
 
 sub msg_if_firmware_needed {
@@ -336,6 +437,26 @@ sub msg_if_firmware_needed {
          N("You should enable \"%s\"", _nonfree_medium()),
      );
 }
+
+=item enable_nonfree_media($medium)
+
+Enable a disabled Nonfree medium.
+
+=cut
+
+sub enable_nonfree_media {
+    my ($medium) = @_;
+    return if $medium->{name} !~ /Nonfree/ || !$medium->{ignore};
+    log::l("preselecting $medium->{name}");
+    $medium->{temp_enabled} = 1;
+}
+
+=item media_screen($o)
+
+Lists available media with their status (enabled/disabled).
+Suggests to enable Nonfree media if needed.
+
+=cut
 
 sub media_screen {
     my ($o) = @_;
@@ -362,6 +483,7 @@ sub media_screen {
                                       N("Here you can enable more media if you want."),
                                       msg_if_firmware_needed($o)
                                   ),
+		    interactive_help_id => 'media_selection',
                      focus_first => sub { 1 } }, [ 
         map {
             my $medium = $_;
@@ -395,6 +517,28 @@ sub media_screen {
 			      callback => \&urpm::download::sync_logger
 			     );
 }
+
+=item setPackages($o)
+
+=over 4
+
+=item * Initialize urpmi
+
+=item * Retrieves media.cfg
+
+=item * Offers to add supplementary media (according to the install method)
+
+=item * Offers to enable some disabled media
+
+=item * Ensure we have a kernel and basesystem
+
+=item * Flags package rates
+
+=item * Select default packages according to the computer
+
+=back
+
+=cut
 
 sub setPackages {
     my ($o) = @_;
@@ -482,6 +626,12 @@ sub setPackages {
     }
 }
 
+=item remove_package_for_upgrade($o)
+
+Removes packages that must be uninstalled prior to upgrade
+
+=cut
+
 sub remove_package_for_upgrade {
     my ($o) = @_;
     my $extension = $o->{upgrade_by_removing_pkgs_matching};
@@ -503,6 +653,12 @@ sub remove_package_for_upgrade {
     push @{$o->{default_packages}}, install::pkgs::upgrade_by_removing_pkgs($o->{packages}, $callback, $extension, $o->{isUpgrade});
     log::l("Removing packages took: ", formatTimeRaw(time() - $time));
 }
+
+=item count_files($dir)
+
+Returns the number of files in $dir
+
+=cut
 
 sub count_files {
     my ($dir) = @_;
@@ -630,6 +786,12 @@ sub rpmsrate_always_flags {
     $rpmsrate_flags_chosen;
 }
 
+=item default_packages($o)
+
+Selects default packages to install according to configuration (FS, HW, ...)
+
+=cut
+
 sub default_packages {
     my ($o) = @_;
     my @l;
@@ -648,7 +810,8 @@ sub default_packages {
     add_n_log("have crypted DM", "cryptsetup") if !is_empty_array_ref($o->{all_hds}{dmcrypts});
     add_n_log("some disks are fake RAID", qw(mdadm dmraid)) if any { fs::type::is_dmraid($_) } @{$o->{all_hds}{hds}};
     add_n_log("CPU needs microcode", "microcode_ctl") if detect_devices::hasCPUMicrocode();
-    add_n_log("CPU needs cpufreq", 'cpupower') if detect_devices::hasCPUFreq();
+    add_n_log("either CPU or GFX needs firmware", qw(kernel-firmware-nonfree radeon-firmware)) if is_firmware_needed();
+    add_n_log("CPU needs cpupower", 'cpupower') if detect_devices::hasCPUFreq();
     add_n_log("APM support needed", 'apmd') if -e "/proc/apm";
     add_n_log("needed by hardware", detect_devices::probe_name('Pkg'));
     my @ltmp = map { $_->{BOOTPROTO} eq 'dhcp' ? $_->{DHCP_CLIENT} || 'dhcpcd' : () } values %{$o->{net}{ifcfg}};
@@ -656,9 +819,10 @@ sub default_packages {
     # will get auto selected at summary stage for bootloader:
     add_n_log("needed later at summary stage", qw(acpi acpid mandriva-gfxboot-theme));
     # will get auto selected at summary stage for firewall:
-    add_n_log("needed for firewall/security", qw(shorewall mandi-ifw));
+    add_n_log("needed for firewall/security", qw(shorewall shorewall-ipv6 mandi-ifw));
     # only needed for CDs/DVDs installations:
     add_n_log("method='cdrom'", 'perl-Hal-Cdroms') if $o->{method} eq 'cdrom';
+    add_n_log("needed for VMware hypervisor", 'open-vm-tools') if detect_devices::is_vmware();
 
     my $dmi_BIOS = detect_devices::dmidecode_category('BIOS');
     my $dmi_Base_Board = detect_devices::dmidecode_category('Base Board');
@@ -769,7 +933,7 @@ sub g_auto_install {
     require install::pkgs;
     $o->{default_packages} = install::pkgs::selected_leaves($::o->{packages});
 
-    my @fields = qw(mntpoint fs_type size);
+    my @fields = qw(fs_type hd level mntpoint options parts size VG_name);
     $o->{partitions} = [ map { 
 	my %l; @l{@fields} = @$_{@fields}; \%l;
     } grep { 
@@ -819,9 +983,6 @@ sub getAndSaveAutoInstallFloppies {
 
     eval { modules::load('loop') };
 
-    if (arch() =~ /ia64/) {
-	#- nothing yet
-    } else {
 	my $mountdir = "$::prefix/root/aif-mount"; -d $mountdir or mkdir $mountdir, 0755;
 	my $param = 'kickstart=floppy ' . generate_automatic_stage1_params($o);
 
@@ -864,7 +1025,6 @@ sub getAndSaveAutoInstallFloppies {
 	}
 	rmdir $mountdir;
 	$img;
-    }
 }
 
 
@@ -894,7 +1054,7 @@ sub loadO {
 	my $o;
 	foreach (removable_media__early_in_install()) {
             my $dev = devices::make($_->{device});
-            foreach my $fs (arch() =~ /sparc/ ? 'romfs' : ('ext2', 'vfat')) {
+            foreach my $fs (qw(ext2 vfat)) {
                 eval { fs::mount::mount($dev, '/mnt', $fs, 'readonly'); 1 } or next;
 		if (my $abs_f = find { -e $_ } "/mnt/$f", "/mnt/$f.pl") {
 		    $o = loadO_($O, $abs_f);
@@ -1037,7 +1197,7 @@ sub generate_automatic_stage1_params {
 sub find_root_parts {
     my ($fstab, $prefix) = @_;
 
-    grep { $_->{release} =~ /\b(mandrake|mandrakelinux|openmandriva|mandriva|conectiva)\b/i } 
+    grep { $_->{release} =~ /\b(mandrake|mandrakelinux|mandriva|conectiva|mageia)\b/i } 
       _find_root_parts($fstab, $prefix);
 }
 
@@ -1350,7 +1510,10 @@ sub take_screenshot {
     }
     my $nb = 1;
     $nb++ while -e "$dir/$nb.png";
-    system('fb2png', '/dev/fb0', "$dir/$nb.png", '0');
+    run_program::run('fb2png', '-p', "$dir/$nb.png");
+
+    # help doesn't remember warning has been shown (one shot processes):
+    $warned ||= -e "$dir/2.png";
 
     if (!$warned && !$nowarn) {
 	$warned = 1;
@@ -1403,14 +1566,25 @@ sub set_security {
 
 sub write_fstab {
     my ($o) = @_;
-    fs::write_fstab($o->{all_hds}, $::prefix) 
-	if $::local_install || $o->{isUpgrade} && $o->{isUpgrade} !~ /redhat|conectiva/ && !$o->{migrate_device_names};
+    return if $::local_install || $o->{isUpgrade} && $o->{isUpgrade} !~ /redhat|conectiva/ && !$o->{migrate_device_names};
+    fs::write_fstab($o->{all_hds}, $::prefix);
 }
 
-sub adjust_files_mtime_to_timezone() {
-    #- to ensure linuxconf does not cry against those files being in the future
-    #- to ensure fc-cache works correctly on fonts installed after reboot
+=item adjust_files_mtime_to_timezone() {
 
+Fixes mtime of a couple important files according to timezone in order to:
+
+=over 4
+
+=item * to ensure linuxconf does not cry against those files being in the future
+
+=item * to ensure fc-cache works correctly on fonts installed after reboot
+
+=back
+
+=cut
+
+sub adjust_files_mtime_to_timezone() {
     my $timezone_shift = run_program::rooted_get_stdout($::prefix, 'date', '+%z');
     my ($h, $m) = $timezone_shift =~ /\+(..)(..)/ or return;
     my $now = time() - ($h * 60 + $m * 60) * 60;
@@ -1505,5 +1679,9 @@ sub configure_pcmcia {
     eval { modules::load($o->{pcmcia}, 'pcmcia') };
     run_program::run("/lib/udev/pcmcia-socket-startup");
 }
+
+=back
+
+=cut
 
 1;

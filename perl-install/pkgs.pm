@@ -1,4 +1,4 @@
-package pkgs; # $Id$
+package pkgs;
 
 use common;
 use run_program;
@@ -245,9 +245,29 @@ sub detect_unselected_locale_packages {
     require lang;
     my $locales_prefix = 'locales-';
     my $locale = lang::read();
-    my $selected_locale = $locales_prefix . lang::locale_to_main_locale($locale->{lang});
+    my @selected_locales = map { $locales_prefix . $_ } lang::locale_to_main_locale($locale->{lang}), lang::c2locale($locale->{country});
     my @available_locales = $do_pkgs->are_installed($locales_prefix . '*');
-    member($selected_locale, @available_locales) ? difference2(\@available_locales, [ $selected_locale ]) : ();
+    my @unneeded_locales = difference2(\@available_locales, \@selected_locales);
+    $do_pkgs->are_installed(@unneeded_locales);
+}
+
+sub remove_unused_locale_packages {
+    my ($in, $do_pkgs, $o_prefix) = @_;
+
+    my $wait;
+    $wait = $in->wait_message(N("Please wait"), N("Gathering system information..."));
+    my @unselected_locales = detect_unselected_locale_packages($do_pkgs);
+    undef $wait;
+
+    # Packages to not remove even if they seem unused
+    my @wanted_locale_packages = qw(locales-en);
+    @unselected_locales = difference2(\@unselected_locales, \@wanted_locale_packages);
+
+    #- we should have some gurpme
+    $wait = $in->wait_message(N("Please wait"), N("Preparing for installation..."));
+    run_program::rooted($o_prefix, 'urpme', '--auto', @unselected_locales,
+        );
+    #- use script from One to list language files (/usr/share/locale mainly) and remove them?
 }
 
 sub remove_unused_locale_packages {
@@ -281,7 +301,7 @@ sub remove_unused_packages {
     undef $wait;
 
     # Packages to not remove even if they seem unused
-    my @wanted_hardware_packages = qw(gnome-bluetooth pulseaudio-module-bluetooth gnome-phone-manager kbluetooth kppp ppp wireless-tools wpa_supplicant networkmanager kernel-firmware-extra cpupower upower x11-driver-video-vesa radeon-firmware ralink-firmware rtlwifi-firmware ipw2100-firmware ipw2200-firmware iwlwifi-3945-ucode iwlwifi-4965-ucode iwlwifi-agn-ucode b43-fwcutter b43-openfwwf atmel-firmware speedtouch-firmware zd1211-firmware isdn4k-utils rfkill x11-driver-input-wacom);
+    my @wanted_hardware_packages = qw(gnome-bluetooth pulseaudio-module-bluetooth gnome-phone-manager bluedevil kppp ppp wireless-tools wpa_supplicant networkmanager kernel-firmware-nonfree radeon-firmware ralink-firmware rtlwifi-firmware ipw2100-firmware ipw2200-firmware iwlwifi-3945-ucode iwlwifi-4965-ucode iwlwifi-agn-ucode b43-fwcutter b43-openfwwf atmel-firmware speedtouch-firmware zd1211-firmware isdn4k-utils rfkill x11-driver-input-wacom kernel-firmware-extra cpupower upower x11-driver-video-vesa);
     @unused_hardware_packages = difference2(\@unused_hardware_packages, \@wanted_hardware_packages);
     
     my @wanted_locale_packages = qw(locales-en);

@@ -1,4 +1,4 @@
-package services; # $Id$
+package services;
 
 
 
@@ -23,6 +23,8 @@ at was run, and runs batch commands when the load average is low enough."),
 'avahi-deamon' => N_("Avahi is a ZeroConf daemon which implements an mDNS stack"),
 chronyd => N_("An NTP client/server"),
 cpupower => N_("Set CPU powersafe mode"),
+chronyd => N_("An NTP client/server"),
+cpufreq => N_("Set CPU frequency settings"),
 crond => N_("cron is a standard UNIX program that runs user-specified programs
 at periodic scheduled times. vixie cron adds a number of features to the basic
 UNIX cron, including better security and more powerful configuration options."),
@@ -109,6 +111,7 @@ rwhod => N_("The rwho protocol lets remote users get a list of all of the users
 logged into a machine running the rwho daemon (similar to finger)."),
 saned => N_("SANE (Scanner Access Now Easy) enables to access scanners, video cameras, ..."),
 shorewall => N_("Packet filtering firewall"),
+shorewall6 => N_("Packet filtering firewall for IPv6"),
 smb => N_("The SMB/CIFS protocol enables to share access to files & printers and also integrates with a Windows Server domain"),
 sound => N_("Launch the sound system on your machine"),
 'speech-dispatcherd' => N_("layer for speech analysis"),
@@ -153,7 +156,7 @@ sub ask_ {
 			 # FIXME: split part of 'Internet' into 'Security' or 'Firewall'?
 			 N("Internet") => [ qw(adsl boa cddbp ftp httpd ibod ip6tables ippl iptables iptoip ipvsadm
                                                isdn4linux jabber jabber-icq jail.init junkbuster mandi nessusd pftp portsentry 
-                                               prelude proftpd proftpd-xinetd pure-ftpd ipsec radvd roxen shorewall squid
+                                               prelude proftpd proftpd-xinetd pure-ftpd ipsec radvd roxen shorewall shorewall6 squid
                                                tftp) ],
 
 			 N("_: Keep these entry short\nNetworking") => [ qw(network network-auth network-up resolvconf) ],
@@ -218,45 +221,32 @@ sub ask_standalone_gtk {
     my ($l, $on_services) = services();
     my @xinetd_services = map { $_->[0] } xinetd_services();
 
-    require ugtk2;
-    ugtk2->import(qw(:wrappers :create));
+    require ugtk3;
+    ugtk3->import(qw(:wrappers :create));
 
-    my $W = ugtk2->new(N("Services"));
-    my ($x, $y, $w_popup);
-    my $nopop = sub { $w_popup and $w_popup->destroy; undef $w_popup };
-    my $display = sub { 
-	my ($text) = @_;
-	$nopop->(); 
-	gtkshow(gtkadd($w_popup = Gtk2::Window->new('popup'),
-		       gtksignal_connect(gtkadd(Gtk2::EventBox->new,
-						gtkadd(gtkset_shadow_type(Gtk2::Frame->new, 'etched_out'),
-						       gtkset_justify(Gtk2::Label->new($text), 'left'))),
-					 button_press_event => sub { $nopop->() }
-					)))->move($x, $y) if $text;
-    };
+    my $W = ugtk3->new(N("Services"));
     my $update_service = sub {
 	my ($service, $label) = @_;
 	my $started = is_service_running($service);
 	$label->set_label($started ? N("running") : N("stopped"));
     };
-    my $b = Gtk2::EventBox->new;
-    $b->set_events('pointer_motion_mask');
+    my $b = Gtk3::EventBox->new;
+    $b->set_events(${ Gtk3::Gdk::EventMask->new("pointer_motion_mask") });
     gtkadd($W->{window}, gtkadd($b, gtkpack_($W->create_box_with_title,
-	0, mygtk2::gtknew('Title1', label => N("Services and daemons")),
+	0, mygtk3::gtknew('Title1', label => N("Services and daemons")),
 	1, gtkset_size_request(create_scrolled_window(create_packtable({ col_spacings => 10, row_spacings => 3 },
 	    map {
                 my $service = $_;
 		my $is_xinetd_service = member($service, @xinetd_services);
         	my $infos = warp_text(description($_), 40);
                 $infos ||= N("No additional information\nabout this service, sorry.");
-		my $label = gtkset_justify(Gtk2::Label->new, 'left');
+		my $label = gtkset_justify(Gtk3::Label->new, 'left');
                 $update_service->($service, $label) if !$is_xinetd_service;
-		[ gtkpack__(Gtk2::HBox->new(0,0), $_),
-		  gtkpack__(Gtk2::HBox->new(0,0), $label),
-		  gtkpack__(Gtk2::HBox->new(0,0), gtksignal_connect(Gtk2::Button->new(N("Info")), clicked => sub { $display->($infos) })),
+		[ gtkpack__(Gtk3::HBox->new(0,0), gtkset_tip(Gtk3::Label->new($_), $infos)),
+		  gtkpack__(Gtk3::HBox->new(0,0), $label),
 
-                  gtkpack__(Gtk2::HBox->new(0,0), gtkset_active(gtksignal_connect(
-                          Gtk2::CheckButton->new($is_xinetd_service ? N("Start when requested") : N("On boot")),
+                  gtkpack__(Gtk3::HBox->new(0,0), gtkset_active(gtksignal_connect(
+                          Gtk3::CheckButton->new($is_xinetd_service ? N("Start when requested") : N("On boot")),
                           clicked => sub { if ($_[0]->get_active) {
                                                push @$on_services, $service if !member($service, @$on_services);
                                            } else {
@@ -264,7 +254,7 @@ sub ask_standalone_gtk {
                                         } }), member($service, @$on_services))),
 		  map { 
 		      my $a = $_;
-		      gtkpack__(Gtk2::HBox->new(0,0), gtksignal_connect(Gtk2::Button->new(translate($a)),
+		      gtkpack__(Gtk3::HBox->new(0,0), gtksignal_connect(Gtk3::Button->new(translate($a)),
                           clicked => sub { 
 			      my $action = $a eq "Start" ? 'restart' : 'stop'; 
 			      log::explanations(qq(GP_LANG="UTF-8" service $service $action));
@@ -272,19 +262,14 @@ sub ask_standalone_gtk {
 			      local $_ = `GP_LANG="UTF-8" service $service $action 2>&1`; s/\033\[[^mG]*[mG]//g;
 			      c::set_tagged_utf8($_);
 			      $update_service->($service, $label);
-			      $display->($_);
 			  })) if !$is_xinetd_service;
 		  } (N_("Start"), N_("Stop"))
 		];
 	    }
             @$l), [ $::isEmbedded ? 'automatic' : 'never', 'automatic' ]), -1, $::isEmbedded ? -1 : 400),
-            0, gtkpack(gtkset_border_width(Gtk2::HBox->new(0,0),5), $W->create_okcancel)
+            0, gtkpack(gtkset_border_width(Gtk3::HBox->new(0,0),5), $W->create_okcancel)
             ))
 	  );
-    $b->signal_connect(motion_notify_event => sub { my ($w, $e) = @_;
-						    my ($ox, $oy) = $w->window->get_origin;
-						    $x = $e->x+$ox; $y = $e->y+$oy });
-    $b->signal_connect(button_press_event => sub { $nopop->() });
     $::isEmbedded and gtkflush();
     $W->main or return;
     $on_services;
@@ -299,12 +284,12 @@ sub _set_service {
     my ($service, $enable) = @_;
     
     my @xinetd_services = map { $_->[0] } xinetd_services();
-    
+
     # General Note: We use --no-reload here as this code is sometimes triggered
     # from code at boot and reloading systemd during boot is generally a bit
     # racy just now it seems.
     if (member($service, @xinetd_services)) {
-        run_program::rooted($::prefix, "chkconfig", "--no-reload", $enable ? "--add" : "--del", $service); # Probably still a bug here as xinet support
+        run_program::rooted($::prefix, "chkconfig", "--no-reload", $enable ? "--add" : "--del", $service); # Probably still a bug here as xinet support in chkconfig shells out to /sbin/service....
     } elsif (running_systemd() || has_systemd()) {
         # systemctl rejects any symlinked units. You have to enabled the real file
         if (-l "/lib/systemd/system/$service.service") {
@@ -375,7 +360,7 @@ sub _systemd_services() {
     my %loaded;
     # Running system using systemd
     log::explanations("Detected systemd running. Using systemctl introspection.");
-    foreach (run_program::rooted_get_stdout($::prefix, '/bin/systemctl', '--full', '--all', 'list-units')) {
+    foreach (run_program::rooted_get_stdout($::prefix, '/bin/systemctl', '--no-legend', '--no-pager', '--full', '--all', 'list-units')) {
         if (my ($name) = m!^(\S+)\.service\s+loaded!) {
             # We only look at non-template, non-linked service files in /lib
             # We also check for any non-masked sysvinit files as these are
@@ -387,7 +372,7 @@ sub _systemd_services() {
         }
     }
     # list-units will not list disabled units that can be enabled
-    foreach (run_program::rooted_get_stdout($::prefix, '/bin/systemctl', '--full', 'list-unit-files')) {
+    foreach (run_program::rooted_get_stdout($::prefix, '/bin/systemctl', '--no-legend', '--no-pager', '--full', 'list-unit-files')) {
         if (my ($name) = m!^(\S+)\.service\s+disabled!) {
             # We only look at non-template, non-linked service files in /lib
             # We also check for any non-masked sysvinit files as these are

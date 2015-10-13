@@ -1,7 +1,7 @@
 #!/bin/bash
 
-TITLE="OpenMandriva Installer"
-BACKTITLE="OpenMandriva"
+TITLE="Moondrake Installer"
+BACKTITLE="Moondrake"
 MIN_DISKSIZE=5000000
 
 debug="/dev/null"

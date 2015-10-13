@@ -1,4 +1,7 @@
-package detect_devices; # $Id$
+package detect_devices;
+
+use diagnostics;
+use strict;
 use vars qw($pcitable_addons $usbtable_addons);
 
 #-######################################################################################
@@ -13,6 +16,39 @@ use modules;
 use c;
 use LDetect;
 use feature 'state';
+
+
+=head1 SYNOPSYS
+
+The B<detect_devices> modules offers a high level API for detecting devices.*
+It mostly relies on the L<c> modules for gluing  libldetect back into the Perl world, and thus
+being able to enumerate DMI/HID/PCI/USB devices.
+
+Other devices are mostly detected through C</proc> & C</sys>.
+
+Then the L<list_modules> enables to map modules into categories such as:
+
+=over 4
+
+=item * C<network/ethernet,>
+
+=item * C<network/wireless,>
+
+=item * C<network/wifi,>
+
+=item * C<disk/sata,>
+
+=item * C<disk/scsi,>
+
+=item * ...
+
+=back
+
+This enables to detect a category by mapping drivers to categories.
+
+=head1 Listing block devices
+
+=cut
 
 #-#####################################################################################
 #- Globals
@@ -57,10 +93,10 @@ sub floppies {
 
     if (!$o_not_detect_legacy_floppies && !$legacy_already_detected) {
         $legacy_already_detected = 1;
-	if ($::isInstall) {
-	    eval { modules::load("floppy") };
-	    system(qw(udevadm settle)) if !$@;
-	}
+        if ($::isInstall) {
+            eval { modules::load("floppy") };
+            system(qw(udevadm settle)) if !$@;
+        }
         #- do not bother probing /dev/fd0 and loading floppy device uselessly,
         #- it takes time and it is already done by boot process (if not in install):
         #-   /dev/fd0 is created by udev (/etc/udev/devices.d/default.nodes)
@@ -231,7 +267,7 @@ sub getSCSI() {
 	    $s;
 	};
 
-	# Old hp scanners report themselves as "Processor"s
+	# Old HP scanners report themselves as "Processor"s
 	# (see linux/include/scsi/scsi.h and sans-find-scanner.1)
 	my $raw_type = $scsi_types[$get->('type')];
 
@@ -274,6 +310,7 @@ my %hd_vendors = (
     "Compaq" => "Compaq",
     "CONNER" => "Conner Peripherals",
     "IBM" => "IBM",
+    "INTEL" => "Intel",
     "FUJITSU" => "Fujitsu",
     "HITACHI" => "Hitachi",
     "Lite-On" => "Lite-On Technology Corp.",
@@ -338,6 +375,12 @@ sub block_devices() {
       : map { $_->{dev} } do { require fs::proc_partitions; fs::proc_partitions::read_raw() };
 }
 
+=item getCompaqSmartArray()
+
+Returns a list of all CCISS devices (Compaq Smart Array).
+
+=cut
+
 sub getCompaqSmartArray() {
     my (@idi, $f);
 
@@ -376,6 +419,12 @@ sub getDAC960() {
     values %idi;
 }
 
+=item getXenBlk()
+
+Returns a list of all Xen block devices (C</dev/xvd*>).
+
+=cut
+
 sub getXenBlk() {
     -d '/sys/bus/xen/devices' or return;
     map {   
@@ -383,6 +432,12 @@ sub getXenBlk() {
             { device => basename($_), info => "Xen block device", media_type => 'hd', bus => 'xen' };
     } glob("/sys/block/xvd*");
 }
+
+=item getVirtIO()
+
+Returns a list of all VirtIO block devices (/dev/C<vd*>).
+
+=cut
 
 sub getVirtIO() {
     -d '/sys/bus/virtio/devices' or return;
@@ -395,19 +450,16 @@ sub getVirtIO() {
 sub getMmcBlk() {
     -d '/sys/bus/mmc/devices' or return;
     map {
-	    { device => basename($_), info => "MMC block device", media_type => 'hd', bus => 'mmc' };
+            { device => basename($_), info => "MMC block device", media_type => 'hd', bus => 'mmc' };
     }
     glob("/sys/bus/mmc/devices/*/block/*");
 }
 
-# cpu_name : arch() =~ /^alpha/ ? "cpu	" :
-# arch() =~ /^ppc/ ? "processor" : "vendor_id"
+=item getCPUs()
 
-# cpu_model : arch() =~ /^alpha/ ? "cpu model" :
-# arch() =~ /^ppc/ ? "cpu  " : "model name"
+Returns a list of all CPUs.
 
-# cpu_freq = arch() =~ /^alpha/ ? "cycle frequency [Hz]" :
-# arch() =~ /^ppc/ ? "clock" : "cpu MHz"
+=cut
 
 sub getCPUs() { 
     my (@cpus, $cpu);
@@ -427,15 +479,20 @@ sub ix86_cpu_frequency() {
     cat_('/proc/cpuinfo') =~ /cpu MHz\s*:\s*(\d+)/ && $1;
 }
 
+=item probe_category($category)
+
+Returns a list of devices which drivers are in the asked category. eg:
+
+   my @eth_cards = probe_category('network/ethernet');
+
+=cut
+
 sub probe_category {
     my ($category) = @_;
 
     require list_modules;
     my @modules = list_modules::category2modules($category);
 
-    if_($category =~ /sound/ && arch() =~ /ppc/ && get_mac_model() !~ /IBM/,
-	{ driver => 'snd_powermac', description => 'Macintosh built-in' },
-    ),
     grep {
 	if ($category eq 'network/isdn') {
 	    my $b = $_->{driver} =~ /ISDN:([^,]*),?([^,]*)(?:,firmware=(.*))?/;
@@ -592,11 +649,19 @@ sub serialPort2text {
     $_[0] =~ /ttyS(\d+)/ ? "$_[0] / COM" . ($1 + 1) : $_[0];
 }
 
+=back
+
+=head1 Network
+
+=over
+
+=cut
+
 sub getSerialModem {
     my ($modules_conf, $o_mouse) = @_;
     my $mouse = $o_mouse || {};
     $mouse->{device} = readlink "/dev/mouse";
-    my $serdev = arch() =~ /ppc/ ? "macserial" : arch() =~ /mips/ ? "8250" : "serial";
+    my $serdev = arch() =~ /mips/ ? "8250" : "serial";
 
     eval { modules::load($serdev) };
 
@@ -612,8 +677,6 @@ sub getSerialModem {
     }
     my @devs = pcmcia_probe();
     foreach my $modem (@modems) {
-        #- add an alias for macserial on PPC
-        $modules_conf->set_alias('serial', $serdev) if arch() =~ /ppc/ && $modem->{device};
         foreach (@devs) { $_->{device} and $modem->{device} = $_->{device} }
     }
     @modems;
@@ -723,6 +786,13 @@ sub get_all_net_devices() {
 }
 
 sub get_lan_interfaces() { grep { is_lan_interface($_) } get_all_net_devices() }
+
+=item get_net_interfaces()
+
+Returns list of all useful network devices
+
+=cut
+
 sub get_net_interfaces() { grep { is_useful_interface($_) } get_all_net_devices() }
 sub get_wireless_interface() { find { is_wireless_interface($_) } get_lan_interfaces() }
 
@@ -730,6 +800,14 @@ sub is_bridge_interface {
     my ($interface) = @_;
     -f "/sys/class/net/$interface/bridge/bridge_id";
 }
+
+=back
+
+=head1 Enumerating devices
+
+=over
+
+=cut
 
 sub get_ids_from_sysfs_device {
     my ($dev_path) = @_;
@@ -858,6 +936,13 @@ sub pci_probe__real() {
 	$l;
     } LDetect::pci_probe());
 }
+
+=item pci_probe()
+
+Cache the result of C<c::pci_probe()> and return the list of items in the PCI devices.
+
+=cut
+
 sub pci_probe() {
     state $done;
     if (!$done) {
@@ -880,6 +965,13 @@ sub usb_probe__real() {
 	$l;
     } LDetect::usb_probe());
 }
+
+=item usb_probe()
+
+Cache the result of C<c::usb_probe()> and return the list of items in the USB devices.
+
+=cut
+
 sub usb_probe() {
     if ($::isStandalone && @usb) {
 	    @usb;
@@ -936,6 +1028,12 @@ sub pcmcia_controller_probe() {
     $controller;
 }
 
+=item pcmcia_probe()
+
+Return list of PCMCIA devices (eg: Ethernet PCMCIA cards, ...)
+
+=cut
+
 sub pcmcia_probe() {
     require modalias;
     require modules;
@@ -962,6 +1060,12 @@ sub pcmcia_probe() {
         };
     } all($dev_dir);
 }
+
+=item dmi_probe()
+
+Cache the result of c::dmi_probe() (aka C<dmidecode>) and return the list of items in the DMI table
+
+=cut
 
 sub dmi_probe() {
     state $dmi_probe;
@@ -1077,23 +1181,17 @@ sub dmidecode() {
     return if $>;
     my ($ver, @l) = arch() =~ /86/ ? run_program::get_stdout('dmidecode') : ();
 
-    my $tab = "\t";
-
     my ($major, $minor) = $ver =~ /(\d+)\.(\d+)/;
 
-    if ($major > 2 || $major == 2 && $minor > 7) {
-	#- new dmidecode output is less indented
-	$tab = '';
-	#- drop header
-	shift @l while @l && $l[0] ne "\n";
-    }
+    #- drop header
+    shift @l while @l && $l[0] ne "\n";
 
     foreach (@l) {
 	next if /TRUNCATED/;
-	if (/^$tab\t(.*)/) {
+	if (/^\t(.*)/) {
 	    $dmis[-1]{string} .= "$1\n";
-	    $dmis[-1]{$1} = $2 if /^$tab\t(.*): (.*)$/;
-	} elsif (my ($s) = /^$tab(.*)/) {
+	    $dmis[-1]{$1} = $2 if /^\t(.*): (.*)$/;
+	} elsif (my ($s) = /^(.*)/) {
 	    next if $s =~ /^$/ || $s =~ /\bDMI type \d+/;
 	    $s =~ s/ Information$//;
 	    push @dmis, { name => $s };
@@ -1117,6 +1215,18 @@ sub dmi_detect_memory() {
     max(sum(@l1), sum(@l2));
 }
 
+=back
+
+=head1 Test helpers
+
+=over
+
+=item computer_info()
+
+Analyse "Chassis" & "Bios" in dmidecode output and return a hash of flags/values (isLaptop, isServer, BIOS_Year)
+
+=cut
+
 sub computer_info() {
      my $Chassis = dmidecode_category('Chassis')->{Type} =~ /(\S+)/ && $1;
 
@@ -1131,11 +1241,45 @@ sub computer_info() {
      };
 }
 
-#- try to detect a laptop, we assume pcmcia service is an indication of a laptop or
-#- the following regexp to match graphics card apparently only used for such systems.
+=item isLaptop()
+
+try to detect a laptop. We assume the following is an indication of a laptop:
+
+=over 4
+
+=item *
+
+pcmcia service
+
+=item *
+
+C<computer_info()> (really C<dmidecode>) telling us it's a laptop
+
+=item *
+
+ACPI lid button
+
+=item *
+
+a regexp to match graphics card apparently only used for such systems.
+
+=item *
+
+Mobility CPU
+
+=item *
+
+having Type as Laptop in some device
+
+=item *
+
+Intel ipw2100/2200/3945 Wireless
+
+=back
+
+=cut
+
 sub isLaptop() {
-    arch() =~ /ppc/ ? 
-      get_mac_model() =~ /Book/ :
       computer_info()->{isLaptop}
 	|| glob_("/sys/bus/acpi/devices/PNP0C0D:*") #- ACPI lid button
 	|| (matching_desc__regexp('C&T.*655[45]\d') || matching_desc__regexp('C&T.*68554') ||
@@ -1166,7 +1310,7 @@ sub isHyperv() {
 }
 
 sub BIGMEM() {
-    arch() !~ /x86_64|ia64/ && $> == 0 && dmi_detect_memory() > 4 * 1024;
+    arch() !~ /x86_64/ && $> == 0 && dmi_detect_memory() > 4 * 1024;
 }
 
 sub is_i586() {
@@ -1223,9 +1367,21 @@ sub is_netbook_nettop() {
     (any { $_->{'model name'} =~ /(\bIntel\(R\) Celeron\(R\) M processor\b|\bVIA C7-M Processor\b|\bGeode\(TM\)\B)/i && $_->{'cpu MHz'} < 1500 } @cpus);
 }
 
+=item has_low_resources()
+
+Is it a low resource machine?
+
+=cut
+
 sub has_low_resources() {
     availableRamMB() < 100 || arch() =~ /i.86/ && ix86_cpu_frequency() < 350;
 }
+
+=item need_light_desktop()
+
+Does it need a light desktop (netbook or low resources machine)?
+
+=cut
 
 sub need_light_desktop() {
     has_low_resources() || is_netbook_nettop();
@@ -1390,6 +1546,14 @@ sub suggest_mount_point {
     }
     $name;
 }
+
+=back
+
+=head1 SEE ALSO
+
+See L<hardware_detection> for the overall view.
+
+=cut
 
 1;
 
