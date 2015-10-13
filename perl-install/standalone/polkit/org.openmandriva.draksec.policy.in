@@ -7,7 +7,7 @@
  <vendor>Openmandriva Lx</vendor>
  <vendor_url>http://www.openmandriva.org/</vendor_url>
 
- <action id="org.moondrake.draksec.pkexec.run">
+ <action id="org.openmandriva.draksec.pkexec.run">
     <_description>Run DrakX Application Security Configuration</_description>
     <_message>Authentication is required to run DrakX Application Security Configuration</_message>
     <icon_name>drakconf</icon_name>
