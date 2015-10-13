@@ -30,7 +30,7 @@ else
 FRONTEND = newt
 endif
 
-LIBC=uclibc
+LIBC=clibc
 
 ifeq (uclibc, $(LIBC))
 CC=uclibc-gcc
