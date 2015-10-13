@@ -98,7 +98,7 @@ INCLUDES += -Ilibsysfs
 
 else
 FRONTEND_LIBS += -lnewt
-INCLUDES += $(pkg-config --cflags libkmod libpci)
+INCLUDES += $(shell pkg-config --cflags libkmod libpci)
 
 endif
 #else
