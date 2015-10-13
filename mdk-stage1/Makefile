@@ -98,6 +98,8 @@ INCLUDES += -Ilibsysfs
 
 else
 FRONTEND_LIBS += -lnewt
+INCLUDES += $(pkg-config --cflags libkmod libpci)
+
 endif
 #else
 #FRONTEND_SRC += stdio-frontend.cpp
