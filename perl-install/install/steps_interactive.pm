@@ -218,7 +218,7 @@ safely be upgraded to %s.
 A new installation replacing your previous one is recommended.
 
 Warning : you should backup all your personal data before choosing \"New
-Installation\".", "Moondrake GNU/Linux", 'Mandriva Linux 2009') }, # 2009? heavily dated, but whatever, don't care about now..
+Installation\".", "Openmandriva Lx GNU/Linux", 'Mandriva Linux 2009') }, # 2009? heavily dated, but whatever, don't care about now..
 		  [ { val => \$choice, type => 'list', list => \@choices, format => \&translate } ]);
 
     log::l("_warn_unsafe_upgrade: got $choice");

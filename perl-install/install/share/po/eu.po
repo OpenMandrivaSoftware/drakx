@@ -28,7 +28,7 @@ msgstr ""
 #: ../../advertising/MandrivaOne-advert-7.pl:1
 #: ../../advertising/MandrivaOne-advert-8.pl:1
 #, c-format
-msgid "Moondrake GNU/Linux 2013 Beta (Twelve Angry Penguins)"
+msgid "Openmandriva Lx GNU/Linux 2013 Beta (Twelve Angry Penguins)"
 msgstr ""
 
 #: ../../advertising/MandrivaOne-advert-9.pl:1
@@ -786,7 +786,7 @@ msgstr "Gainbegiraketa tresnak, prozesuen kotabilitatea, tcpdump, nmap, ..."
 #: share/meta-task/compssUsers.pl:235
 #, fuzzy, c-format
 msgid "DrakX Wizards"
-msgstr "Moondrake Morroiak"
+msgstr "Openmandriva Lx Morroiak"
 
 #: share/meta-task/compssUsers.pl:236
 #, c-format
@@ -1931,8 +1931,8 @@ msgstr "Irten"
 #~ msgid "Make it yours!"
 #~ msgstr "Zurea egin ezazu!"
 
-#~ msgid "Moondrake Wizards"
-#~ msgstr "Moondrake Morroiak"
+#~ msgid "Openmandriva Lx Wizards"
+#~ msgstr "Openmandriva Lx Morroiak"
 
 #~ msgid "Nonfree Release"
 #~ msgstr "Nonfree Release"
@@ -1974,8 +1974,8 @@ msgstr "Irten"
 #~ msgid "A full OpenMandriva Lx desktop, with support"
 #~ msgstr "OpenMandriva Lx idaztegi oso bat, eukarriarekin"
 
-#~ msgid "A full Moondrake desktop, with support"
-#~ msgstr "Moondrake idaztegi oso bat, eukarriarekin"
+#~ msgid "A full Openmandriva Lx desktop, with support"
+#~ msgstr "Openmandriva Lx idaztegi oso bat, eukarriarekin"
 
 #~ msgid "Amusement programs: arcade, boards, strategy, etc"
 #~ msgstr ""
@@ -1994,8 +1994,8 @@ msgstr "Irten"
 #~ msgid "Explore Linux easily with Mandriva One"
 #~ msgstr "Esploratu Linux era errazean Mandriva One-kin"
 
-#~ msgid "Explore Linux easily with Moondrake One"
-#~ msgstr "Esploratu Linux era errazean Moondrake One-kin"
+#~ msgid "Explore Linux easily with Openmandriva Lx One"
+#~ msgstr "Esploratu Linux era errazean Openmandriva Lx One-kin"
 
 #~ msgid "IDE"
 #~ msgstr "IDE"
@@ -2012,8 +2012,8 @@ msgstr "Irten"
 #~ msgid "Mandriva: distributions for everybody's needs"
 #~ msgstr "Mandriva: guztientzako beharrak asetzeko banaketak"
 
-#~ msgid "Moondrake: distributions for everybody's needs"
-#~ msgstr "Moondrake: guztientzako beharrak asetzeko banaketak"
+#~ msgid "Openmandriva Lx: distributions for everybody's needs"
+#~ msgstr "Openmandriva Lx: guztientzako beharrak asetzeko banaketak"
 
 #~ msgid ""
 #~ "No free space for 1MB bootstrap! Install will continue, but to boot your "
@@ -2061,8 +2061,8 @@ msgstr "Irten"
 #~ msgid "The 100%% open source Mandriva Linux distribution"
 #~ msgstr "100%% iturburu irekia duen Mandriva Linux banaketa"
 
-#~ msgid "The 100%% open source Moondrake distribution"
-#~ msgstr "100%% iturburu irekia duen Moondrake banaketa"
+#~ msgid "The 100%% open source Openmandriva Lx distribution"
+#~ msgstr "100%% iturburu irekia duen Openmandriva Lx banaketa"
 
 #~ msgid "Upgrade from a 32bit to a 64bit distribution is not supported"
 #~ msgstr ""

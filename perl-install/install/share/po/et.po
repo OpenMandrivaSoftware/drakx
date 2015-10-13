@@ -27,7 +27,7 @@ msgstr ""
 #: ../../advertising/MandrivaOne-advert-7.pl:1
 #: ../../advertising/MandrivaOne-advert-8.pl:1
 #, c-format
-msgid "Moondrake GNU/Linux 2013 Beta (Twelve Angry Penguins)"
+msgid "Openmandriva Lx GNU/Linux 2013 Beta (Twelve Angry Penguins)"
 msgstr ""
 
 #: ../../advertising/MandrivaOne-advert-9.pl:1
@@ -780,7 +780,7 @@ msgstr "Jälgimistööriistad, protsesside jälgimine, tcpdump, nmap..."
 #: share/meta-task/compssUsers.pl:235
 #, fuzzy, c-format
 msgid "DrakX Wizards"
-msgstr "Moondrake nõustajad"
+msgstr "Openmandriva Lx nõustajad"
 
 #: share/meta-task/compssUsers.pl:236
 #, c-format
@@ -1627,8 +1627,8 @@ msgstr "Välju"
 #~ msgid "LXQT Desktop"
 #~ msgstr "LXQT töölaud"
 
-#~ msgid "Moondrake Wizards"
-#~ msgstr "Moondrake nõustajad"
+#~ msgid "Openmandriva Lx Wizards"
+#~ msgstr "Openmandriva Lx nõustajad"
 
 #~ msgid "Plasma Desktop"
 #~ msgstr "Plasma töölaud"
@@ -1773,7 +1773,7 @@ msgstr "Välju"
 #~ "Warning : you should backup all your personal data before choosing \"New\n"
 #~ "Installation\"."
 #~ msgstr ""
-#~ "Paigaldusprogramm leidis, et Teie olemasolevat Moondrake Linuxi süsteemi\n"
+#~ "Paigaldusprogramm leidis, et Teie olemasolevat Openmandriva Lx Linuxi süsteemi\n"
 #~ "ei saa turvaliselt uuendada versioonile %s.\n"
 #~ "\n"
 #~ "Soovitatav on valida uus paigaldus, mis asendab senise.\n"
@@ -1818,8 +1818,8 @@ msgstr "Välju"
 #~ msgid "Mandriva: distributions for everybody's needs"
 #~ msgstr "Mandriva: distributsioone igale maitsele ja kõigiks vajadusteks"
 
-#~ msgid "Moondrake, the new Linux distribution"
-#~ msgstr "Moondrake, uus Linuxi distributsioon"
+#~ msgid "Openmandriva Lx, the new Linux distribution"
+#~ msgstr "Openmandriva Lx, uus Linuxi distributsioon"
 
 #~ msgid "Networking"
 #~ msgstr "Võrk"

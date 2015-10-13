@@ -171,7 +171,7 @@ msgstr ""
 #: drakbug:60
 #, fuzzy, c-format
 msgid "DrakX Bug Report Tool"
-msgstr "Vegël Sinjalizuese bug në Moondrake"
+msgstr "Vegël Sinjalizuese bug në Openmandriva Lx"
 
 #: drakbug:67
 #, fuzzy, c-format
@@ -196,7 +196,7 @@ msgstr "Vegël Autonome"
 #: drakbug:72 drakbug:73
 #, fuzzy, c-format
 msgid "%s Online"
-msgstr "Moondrake Online"
+msgstr "Openmandriva Lx Online"
 
 #: drakbug:72 drakbug:73 drakbug:99 draksec:169
 #, fuzzy, c-format
@@ -693,7 +693,7 @@ msgstr "I pa instaluar"
 
 #: drakfont:527
 #, fuzzy, c-format
-msgid "Moondrake GNU/Linux"
+msgid "Openmandriva Lx GNU/Linux"
 msgstr "Mandriva Online"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
@@ -1205,7 +1205,7 @@ msgstr "Menagjuesi Softver"
 #: draksec:169
 #, fuzzy, c-format
 msgid "%s Update"
-msgstr "Moondrake Online"
+msgstr "Openmandriva Lx Online"
 
 #: draksec:170
 #, c-format
@@ -2477,7 +2477,7 @@ msgstr ", "
 #: logdrake:55
 #, fuzzy, c-format
 msgid "DrakX Tools Logs"
-msgstr "Shpjegimet e Veglave Moondrake"
+msgstr "Shpjegimet e Veglave Openmandriva Lx"
 
 #: logdrake:69
 #, c-format
@@ -3519,54 +3519,54 @@ msgstr "Konfigurimi i lajmit alarmues"
 
 #, fuzzy
 #~ msgid "%s Bug Report Tool"
-#~ msgstr "Vegël Sinjalizuese bug në Moondrake"
+#~ msgstr "Vegël Sinjalizuese bug në Openmandriva Lx"
 
 #, fuzzy
 #~ msgid "%s Tools Logs"
-#~ msgstr "Shpjegimet e Veglave Moondrake"
+#~ msgstr "Shpjegimet e Veglave Openmandriva Lx"
 
 #, fuzzy
-#~ msgid "Run Moondrake Application Security Configuration"
+#~ msgid "Run Openmandriva Lx Application Security Configuration"
 #~ msgstr "Konfigurimi i Etapave Automatike"
 
 #, fuzzy
-#~ msgid "Run Moondrake Authentication Configuration"
+#~ msgid "Run Openmandriva Lx Authentication Configuration"
 #~ msgstr "Konfigurimi i Etapave Automatike"
 
 #, fuzzy
-#~ msgid "Run Moondrake Boot Configuration"
+#~ msgid "Run Openmandriva Lx Boot Configuration"
 #~ msgstr "konfigurimi i alertës"
 
 #, fuzzy
-#~ msgid "Run Moondrake Date and Time Configuration"
+#~ msgid "Run Openmandriva Lx Date and Time Configuration"
 #~ msgstr "Konfigurimi i lajmit alarmues"
 
 #, fuzzy
-#~ msgid "Run Moondrake Font Configuration"
+#~ msgid "Run Openmandriva Lx Font Configuration"
 #~ msgstr "Konfigurimi manuel"
 
 #, fuzzy
-#~ msgid "Run Moondrake Hardware Configuration"
+#~ msgid "Run Openmandriva Lx Hardware Configuration"
 #~ msgstr "Konfigurimi i lajmit alarmues"
 
 #, fuzzy
-#~ msgid "Run Moondrake Login Manager Configuration"
+#~ msgid "Run Openmandriva Lx Login Manager Configuration"
 #~ msgstr "Konfigurimi manuel"
 
 #, fuzzy
-#~ msgid "Run Moondrake Scanner Configuration"
+#~ msgid "Run Openmandriva Lx Scanner Configuration"
 #~ msgstr "Konfigurimi i lajmit alarmues"
 
 #, fuzzy
-#~ msgid "Run Moondrake Security Permissions Configuration"
+#~ msgid "Run Openmandriva Lx Security Permissions Configuration"
 #~ msgstr "Konfigurimi i lajmit alarmues"
 
 #, fuzzy
-#~ msgid "Run Moondrake Service Configuration"
+#~ msgid "Run Openmandriva Lx Service Configuration"
 #~ msgstr "Konfigurimi i lajmit alarmues"
 
 #, fuzzy
-#~ msgid "Run Moondrake UPS Configuration"
+#~ msgid "Run Openmandriva Lx UPS Configuration"
 #~ msgstr "Konfigurimi i stampuesit CUPS"
 
 #~ msgid ""
@@ -3589,14 +3589,14 @@ msgstr "Konfigurimi i lajmit alarmues"
 #~ msgid ""
 #~ " drakhelp 0.1\n"
 #~ "Copyright (C) %s Mandriva.\n"
-#~ "Copyright (C) %s Moondrake.\n"
+#~ "Copyright (C) %s Openmandriva Lx.\n"
 #~ "This is free software and may be redistributed under the terms of the GNU "
 #~ "GPL.\n"
 #~ "\n"
 #~ "Usage: \n"
 #~ msgstr ""
 #~ " drakhelp 0.1\n"
-#~ "E drejtë e autorit (C) %s Moondrake.\n"
+#~ "E drejtë e autorit (C) %s Openmandriva Lx.\n"
 #~ "Ky është një software gratis dhe mund të shpërndahet ndër termet e GNU "
 #~ "GPL.\n"
 #~ "\n"
@@ -3607,7 +3607,7 @@ msgstr "Konfigurimi i lajmit alarmues"
 
 #, fuzzy
 #~ msgid "%s Help Center"
-#~ msgstr "Qendra Kontrolluese Moondrake"
+#~ msgstr "Qendra Kontrolluese Openmandriva Lx"
 
 #~ msgid "(default value: %s)"
 #~ msgstr "(vlerë me marrëveshje: %s)"
@@ -3914,8 +3914,8 @@ msgstr "Konfigurimi i lajmit alarmues"
 #~ msgstr "Menudrake"
 
 #, fuzzy
-#~ msgid "Moondrake"
-#~ msgstr "Moondrake Online"
+#~ msgid "Openmandriva Lx"
+#~ msgstr "Openmandriva Lx Online"
 
 #~ msgid "Msec"
 #~ msgstr "Msec"

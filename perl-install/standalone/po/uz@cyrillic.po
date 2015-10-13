@@ -172,7 +172,7 @@ msgstr ""
 #: drakbug:62
 #, fuzzy, c-format
 msgid "DrakX Bug Report Tool"
-msgstr "Moondrake учун хато ҳақида хабар қилувчи восита"
+msgstr "Openmandriva Lx учун хато ҳақида хабар қилувчи восита"
 
 #: drakbug:67
 #, fuzzy, c-format
@@ -197,7 +197,7 @@ msgstr ""
 #: drakbug:72 drakbug:73
 #, fuzzy, c-format
 msgid "%s Online"
-msgstr "Moondrake Online"
+msgstr "Openmandriva Lx Online"
 
 #: drakbug:72 drakbug:73 drakbug:99 draksec:169
 #, fuzzy, c-format
@@ -675,7 +675,7 @@ msgstr "Шрифт ўрнатгич."
 
 #: drakfont:527
 #, fuzzy, c-format
-msgid "Moondrake GNU/Linux"
+msgid "Openmandriva Lx GNU/Linux"
 msgstr "Mandriva Linux"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
@@ -1178,7 +1178,7 @@ msgstr "Дастурлар бошқаруви"
 #: draksec:169
 #, fuzzy, c-format
 msgid "%s Update"
-msgstr "Moondrake тизимини янгилаш"
+msgstr "Openmandriva Lx тизимини янгилаш"
 
 #: draksec:170
 #, c-format
@@ -2411,7 +2411,7 @@ msgstr ", "
 #: logdrake:55
 #, fuzzy, c-format
 msgid "DrakX Tools Logs"
-msgstr "Moondrake воситаларининг логи"
+msgstr "Openmandriva Lx воситаларининг логи"
 
 #: logdrake:69
 #, c-format
@@ -3440,54 +3440,54 @@ msgstr "График серверини мослаш"
 
 #, fuzzy
 #~ msgid "%s Bug Report Tool"
-#~ msgstr "Moondrake учун хато ҳақида хабар қилувчи восита"
+#~ msgstr "Openmandriva Lx учун хато ҳақида хабар қилувчи восита"
 
 #, fuzzy
 #~ msgid "%s Tools Logs"
-#~ msgstr "Moondrake воситаларининг логи"
+#~ msgstr "Openmandriva Lx воситаларининг логи"
 
 #, fuzzy
-#~ msgid "Run Moondrake Application Security Configuration"
+#~ msgid "Run Openmandriva Lx Application Security Configuration"
 #~ msgstr "Хат орқали хабар беришни мослаш"
 
 #, fuzzy
-#~ msgid "Run Moondrake Authentication Configuration"
+#~ msgid "Run Openmandriva Lx Authentication Configuration"
 #~ msgstr "Хат орқали хабар беришни мослаш"
 
 #, fuzzy
-#~ msgid "Run Moondrake Boot Configuration"
+#~ msgid "Run Openmandriva Lx Boot Configuration"
 #~ msgstr "Юкланишни мослаш"
 
 #, fuzzy
-#~ msgid "Run Moondrake Date and Time Configuration"
+#~ msgid "Run Openmandriva Lx Date and Time Configuration"
 #~ msgstr "Хат орқали хабар беришни мослаш"
 
 #, fuzzy
-#~ msgid "Run Moondrake Font Configuration"
+#~ msgid "Run Openmandriva Lx Font Configuration"
 #~ msgstr "Жорий фойдаланувчи учун тил ва давлатни мослаш"
 
 #, fuzzy
-#~ msgid "Run Moondrake Hardware Configuration"
+#~ msgid "Run Openmandriva Lx Hardware Configuration"
 #~ msgstr "График серверини мослаш"
 
 #, fuzzy
-#~ msgid "Run Moondrake Login Manager Configuration"
+#~ msgid "Run Openmandriva Lx Login Manager Configuration"
 #~ msgstr "Жорий фойдаланувчи учун тил ва давлатни мослаш"
 
 #, fuzzy
-#~ msgid "Run Moondrake Scanner Configuration"
+#~ msgid "Run Openmandriva Lx Scanner Configuration"
 #~ msgstr "График серверини мослаш"
 
 #, fuzzy
-#~ msgid "Run Moondrake Security Permissions Configuration"
+#~ msgid "Run Openmandriva Lx Security Permissions Configuration"
 #~ msgstr "График серверини мослаш"
 
 #, fuzzy
-#~ msgid "Run Moondrake Service Configuration"
+#~ msgid "Run Openmandriva Lx Service Configuration"
 #~ msgstr "График серверини мослаш"
 
 #, fuzzy
-#~ msgid "Run Moondrake UPS Configuration"
+#~ msgid "Run Openmandriva Lx UPS Configuration"
 #~ msgstr "UPS тизимини мослаш"
 
 #, fuzzy
@@ -3498,7 +3498,7 @@ msgstr "График серверини мослаш"
 #~ msgid ""
 #~ " drakhelp 0.1\n"
 #~ "Copyright (C) %s Mandriva.\n"
-#~ "Copyright (C) %s Moondrake.\n"
+#~ "Copyright (C) %s Openmandriva Lx.\n"
 #~ "This is free software and may be redistributed under the terms of the GNU "
 #~ "GPL.\n"
 #~ "\n"
@@ -3515,7 +3515,7 @@ msgstr "График серверини мослаш"
 
 #, fuzzy
 #~ msgid "%s Help Center"
-#~ msgstr "Moondrake ёрдам маркази"
+#~ msgstr "Openmandriva Lx ёрдам маркази"
 
 #~ msgid "(default value: %s)"
 #~ msgstr "(андоза қиймати: %s)"
@@ -3599,7 +3599,7 @@ msgstr "График серверини мослаш"
 #~ msgstr "Вергул хатоси"
 
 #, fuzzy
-#~ msgid "Copyright (C) %s by Moondrake"
+#~ msgid "Copyright (C) %s by Openmandriva Lx"
 #~ msgstr "Copyright (C) %s by %s"
 
 #~ msgid "Copyright (C) 2001-2008 by %s"
@@ -3674,8 +3674,8 @@ msgstr "График серверини мослаш"
 #~ msgid "Mandriva Update"
 #~ msgstr "Mandriva тизимини янгилаш"
 
-#~ msgid "Moondrake"
-#~ msgstr "Moondrake"
+#~ msgid "Openmandriva Lx"
+#~ msgstr "Openmandriva Lx"
 
 #~ msgid "Network Options"
 #~ msgstr "Тармоқнинг мосламалари"

@@ -39,7 +39,7 @@ msgstr ""
 #: ../../advertising/MandrivaOne-advert-7.pl:1
 #: ../../advertising/MandrivaOne-advert-8.pl:1
 #, c-format
-msgid "Moondrake GNU/Linux 2013 Beta (Twelve Angry Penguins)"
+msgid "Openmandriva Lx GNU/Linux 2013 Beta (Twelve Angry Penguins)"
 msgstr ""
 
 #: ../../advertising/MandrivaOne-advert-9.pl:1
@@ -796,7 +796,7 @@ msgstr "Narzędzia do monitorowania, księgowania procesów, tcpdump, nmap, ..."
 #: share/meta-task/compssUsers.pl:235
 #, fuzzy, c-format
 msgid "DrakX Wizards"
-msgstr "Druidy Moondrake"
+msgstr "Druidy Openmandriva Lx"
 
 #: share/meta-task/compssUsers.pl:236
 #, c-format
@@ -1652,8 +1652,8 @@ msgstr "Wyjdź"
 #~ msgid "LXQT Desktop"
 #~ msgstr "Pulpit LXDE"
 
-#~ msgid "Moondrake Wizards"
-#~ msgstr "Druidy Moondrake"
+#~ msgid "Openmandriva Lx Wizards"
+#~ msgstr "Druidy Openmandriva Lx"
 
 #, fuzzy
 #~ msgid "Plasma Desktop"
@@ -1681,8 +1681,8 @@ msgstr "Wyjdź"
 #~ msgid "A full Mandriva Linux desktop, with support"
 #~ msgstr "System Mandriva Linux, ze wsparciem"
 
-#~ msgid "A full Moondrake desktop, with support"
-#~ msgstr "System Moondrake, ze wsparciem"
+#~ msgid "A full Openmandriva Lx desktop, with support"
+#~ msgstr "System Openmandriva Lx, ze wsparciem"
 
 #~ msgid "A graphical environment based on GNOME"
 #~ msgstr "Środowisko graficzne bazujące na Gnome"
@@ -1719,8 +1719,8 @@ msgstr "Wyjdź"
 #~ msgid "Explore Linux easily with Mandriva One"
 #~ msgstr "W łatwy sposób poznasz Linuksa z Mandriva One"
 
-#~ msgid "Explore Linux easily with Moondrake One"
-#~ msgstr "W łatwy sposób poznasz Linuksa z Moondrake One"
+#~ msgid "Explore Linux easily with Openmandriva Lx One"
+#~ msgstr "W łatwy sposób poznasz Linuksa z Openmandriva Lx One"
 
 #~ msgid "For developers!"
 #~ msgstr "Dla developerów!"
@@ -1746,7 +1746,7 @@ msgstr "Wyjdź"
 #~ "Warning : you should backup all your personal data before choosing \"New\n"
 #~ "Installation\"."
 #~ msgstr ""
-#~ "Instalator wykrył, że obecna instalacja systemu Moondrake nie może\n"
+#~ "Instalator wykrył, że obecna instalacja systemu Openmandriva Lx nie może\n"
 #~ "zostać bezpiecznie zaktualizowana do wersji %s.\n"
 #~ "\n"
 #~ "Zalecana jest nowa instalacja, która zastąpi poprzednią.\n"
@@ -1784,8 +1784,8 @@ msgstr "Wyjdź"
 #~ msgid "Mandriva: distributions for everybody's needs"
 #~ msgstr "Mandriva: dystrybucja dla wszystkich potrzeb"
 
-#~ msgid "Moondrake: distributions for everybody's needs"
-#~ msgstr "Moondrake: dystrybucja dla wszystkich potrzeb"
+#~ msgid "Openmandriva Lx: distributions for everybody's needs"
+#~ msgstr "Openmandriva Lx: dystrybucja dla wszystkich potrzeb"
 
 #~ msgid ""
 #~ "No free space for 1MB bootstrap! Install will continue, but to boot your "
@@ -1846,8 +1846,8 @@ msgstr "Wyjdź"
 #~ msgid "The 100%% open source Mandriva Linux distribution"
 #~ msgstr "100%% dystrybucja Mandriva Linux oparta na open source"
 
-#~ msgid "The 100%% open source Moondrake distribution"
-#~ msgstr "100%% dystrybucja Moondrake oparta na open source"
+#~ msgid "The 100%% open source Openmandriva Lx distribution"
+#~ msgstr "100%% dystrybucja Openmandriva Lx oparta na open source"
 
 #~ msgid "This medium provides package updates for medium \"%s\""
 #~ msgstr "Ten nośnik zawiera aktualizacje pakietów dla nośnika \"%s\""

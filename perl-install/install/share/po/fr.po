@@ -95,7 +95,7 @@ msgstr ""
 #: ../../advertising/MandrivaOne-advert-7.pl:1
 #: ../../advertising/MandrivaOne-advert-8.pl:1
 #, c-format
-msgid "Moondrake GNU/Linux 2013 Beta (Twelve Angry Penguins)"
+msgid "Openmandriva Lx GNU/Linux 2013 Beta (Twelve Angry Penguins)"
 msgstr ""
 
 #: ../../advertising/MandrivaOne-advert-9.pl:1
@@ -859,7 +859,7 @@ msgstr "Outils de surveillance, gestion de processus, tcpdump, nmap, ..."
 #: share/meta-task/compssUsers.pl:235
 #, fuzzy, c-format
 msgid "DrakX Wizards"
-msgstr "Assistants Moondrake"
+msgstr "Assistants Openmandriva Lx"
 
 #: share/meta-task/compssUsers.pl:236
 #, c-format
@@ -1723,8 +1723,8 @@ msgstr "Quitter"
 #~ msgid "LXQT Desktop"
 #~ msgstr "Bureau LXQT"
 
-#~ msgid "Moondrake Wizards"
-#~ msgstr "Assistants Moondrake"
+#~ msgid "Openmandriva Lx Wizards"
+#~ msgstr "Assistants Openmandriva Lx"
 
 #~ msgid "Plasma Desktop"
 #~ msgstr "Bureau Plasma"

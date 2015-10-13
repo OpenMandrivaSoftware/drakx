@@ -32,7 +32,7 @@ msgstr ""
 #: ../../advertising/MandrivaOne-advert-7.pl:1
 #: ../../advertising/MandrivaOne-advert-8.pl:1
 #, c-format
-msgid "Moondrake GNU/Linux 2013 Beta (Twelve Angry Penguins)"
+msgid "Openmandriva Lx GNU/Linux 2013 Beta (Twelve Angry Penguins)"
 msgstr ""
 
 #: ../../advertising/MandrivaOne-advert-9.pl:1
@@ -792,7 +792,7 @@ msgstr "Figyelőeszközök, folyamatszámlázás, tcpdump, nmap, ..."
 #: share/meta-task/compssUsers.pl:235
 #, fuzzy, c-format
 msgid "DrakX Wizards"
-msgstr "Moondrake varázslók"
+msgstr "Openmandriva Lx varázslók"
 
 #: share/meta-task/compssUsers.pl:236
 #, c-format
@@ -1663,8 +1663,8 @@ msgstr "Kilépés"
 #~ msgid "LXQT Desktop"
 #~ msgstr "LXDE munkaasztal"
 
-#~ msgid "Moondrake Wizards"
-#~ msgstr "Moondrake varázslók"
+#~ msgid "Openmandriva Lx Wizards"
+#~ msgstr "Openmandriva Lx varázslók"
 
 #, fuzzy
 #~ msgid "Plasma Desktop"
@@ -1681,8 +1681,8 @@ msgstr "Kilépés"
 #~ msgid "A full Mandriva Linux desktop, with support"
 #~ msgstr "Egy teljes Mandriva Linux munkaasztal, támogatással"
 
-#~ msgid "A full Moondrake desktop, with support"
-#~ msgstr "Egy teljes Moondrake munkaasztal, támogatással"
+#~ msgid "A full Openmandriva Lx desktop, with support"
+#~ msgstr "Egy teljes Openmandriva Lx munkaasztal, támogatással"
 
 #, fuzzy
 #~ msgid "A graphical environment based on GNOME"
@@ -1732,8 +1732,8 @@ msgstr "Kilépés"
 #~ msgid "Explore Linux easily with Mandriva One"
 #~ msgstr "A Linux könnyed kipróbálása: Mandriva One"
 
-#~ msgid "Explore Linux easily with Moondrake One"
-#~ msgstr "A Linux könnyed kipróbálása: Moondrake One"
+#~ msgid "Explore Linux easily with Openmandriva Lx One"
+#~ msgstr "A Linux könnyed kipróbálása: Openmandriva Lx One"
 
 #~ msgid "Generate auto install floppy"
 #~ msgstr "Automatikus telepítőfloppy készítése"
@@ -1754,7 +1754,7 @@ msgstr "Kilépés"
 #~ "Warning : you should backup all your personal data before choosing \"New\n"
 #~ "Installation\"."
 #~ msgstr ""
-#~ "A Telepítő olyan előzőleg telepített Moondrake rendszert talált, \n"
+#~ "A Telepítő olyan előzőleg telepített Openmandriva Lx rendszert talált, \n"
 #~ "melyet nem biztonságos frissíteni %s-re.\n"
 #~ "\n"
 #~ "Ajánlott egy új telepítéssel lecserélni a régi rendszert.\n"
@@ -1775,8 +1775,8 @@ msgstr "Kilépés"
 #~ msgid "Mandriva: distributions for everybody's needs"
 #~ msgstr "Mandriva: disztribúciók minden igényre"
 
-#~ msgid "Moondrake: distributions for everybody's needs"
-#~ msgstr "Moondrake: disztribúciók minden igényre"
+#~ msgid "Openmandriva Lx: distributions for everybody's needs"
+#~ msgstr "Openmandriva Lx: disztribúciók minden igényre"
 
 #~ msgid ""
 #~ "No free space for 1MB bootstrap! Install will continue, but to boot your "
@@ -1838,8 +1838,8 @@ msgstr "Kilépés"
 #~ msgid "The 100%% open source Mandriva Linux distribution"
 #~ msgstr "A 100%%-ban nyílt forráskódú Mandriva Linux disztribúció"
 
-#~ msgid "The 100%% open source Moondrake distribution"
-#~ msgstr "A 100%%-ban nyílt forráskódú Moondrake disztribúció"
+#~ msgid "The 100%% open source Openmandriva Lx distribution"
+#~ msgstr "A 100%%-ban nyílt forráskódú Openmandriva Lx disztribúció"
 
 #~ msgid ""
 #~ "The auto install can be fully automated if wanted,\n"

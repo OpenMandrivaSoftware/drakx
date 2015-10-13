@@ -715,7 +715,7 @@ msgstr "Instalador de fontes"
 
 #: drakfont:527
 #, fuzzy, c-format
-msgid "Moondrake GNU/Linux"
+msgid "Openmandriva Lx GNU/Linux"
 msgstr "Mandriva Linux"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
@@ -3457,98 +3457,98 @@ msgstr "Configuração de Idioma e País"
 #: ../polkit/org.moondrake.drakauth.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Authentication Configuration"
-msgstr "Executar Configuração de Autenticação Moondrake"
+msgstr "Executar Configuração de Autenticação Openmandriva Lx"
 
 #: ../polkit/org.moondrake.drakauth.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Authentication Configuration"
 msgstr ""
 "A autenticação é necessária para executar a Configuração de autenticação "
-"Moondrake"
+"Openmandriva Lx"
 
 #: ../polkit/org.moondrake.drakboot.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Boot Configuration"
-msgstr "Executar Boot de Configuração Moondrake"
+msgstr "Executar Boot de Configuração Openmandriva Lx"
 
 #: ../polkit/org.moondrake.drakboot.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Boot Configuration"
 msgstr ""
-"A autenticação é necessária para executar o Boot de Configuração Moondrake"
+"A autenticação é necessária para executar o Boot de Configuração Openmandriva Lx"
 
 #: ../polkit/org.moondrake.drakclock.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Date and Time Configuration"
-msgstr "Execultar Configuração Data e Hora Moondrake"
+msgstr "Execultar Configuração Data e Hora Openmandriva Lx"
 
 #: ../polkit/org.moondrake.drakclock.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Date and Time Configuration"
 msgstr ""
 "A autenticação é necessária para executar a configuração Data e Hora "
-"Moondrake"
+"Openmandriva Lx"
 
 #: ../polkit/org.moondrake.drakdisk.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Disk Layout Editor"
-msgstr "Execultar o leiaute do Disco Editor Moondrake"
+msgstr "Execultar o leiaute do Disco Editor Openmandriva Lx"
 
 #: ../polkit/org.moondrake.drakdisk.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Disk Layout Editor"
 msgstr ""
-"A autenticação é necessária para executar o leiaute do Disco Editor Moondrake"
+"A autenticação é necessária para executar o leiaute do Disco Editor Openmandriva Lx"
 
 #: ../polkit/org.moondrake.drakdm.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Login Manager Configuration"
-msgstr "Execultar Configuração do Gerenciador de Login Moondrake"
+msgstr "Execultar Configuração do Gerenciador de Login Openmandriva Lx"
 
 #: ../polkit/org.moondrake.drakdm.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Login Manager Configuration"
 msgstr ""
 "A autenticação é necessária para executar a Configuração do Gerenciador de "
-"Login Moondrake"
+"Login Openmandriva Lx"
 
 #: ../polkit/org.moondrake.drakfont.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Font Configuration"
-msgstr "Execultar Configuração de Fonte Moondrake"
+msgstr "Execultar Configuração de Fonte Openmandriva Lx"
 
 #: ../polkit/org.moondrake.drakfont.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Font Configuration"
 msgstr ""
-"A autenticação é necessária para executar a Configuração de Fonte Moondrake"
+"A autenticação é necessária para executar a Configuração de Fonte Openmandriva Lx"
 
 #: ../polkit/org.moondrake.drakhardware.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Hardware Configuration"
-msgstr "Execultar Configuração de Hardware Moondrake"
+msgstr "Execultar Configuração de Hardware Openmandriva Lx"
 
 #: ../polkit/org.moondrake.drakhardware.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Hardware Configuration"
 msgstr ""
 "A autenticação é necessária para executar a Configuração de hardware "
-"Moondrake"
+"Openmandriva Lx"
 
 #: ../polkit/org.moondrake.draklog.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Log Viewer"
-msgstr "Execultar Leitor de Log Moondrake"
+msgstr "Execultar Leitor de Log Openmandriva Lx"
 
 #: ../polkit/org.moondrake.draklog.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Log Viewer"
-msgstr "A autenticação é necessária para executar o leitor de Log Moondrake"
+msgstr "A autenticação é necessária para executar o leitor de Log Openmandriva Lx"
 
 #: ../polkit/org.moondrake.drakperm.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Security Permissions Configuration"
-msgstr "Execultar a Configuração de Permissões de Segurança Moondrake"
+msgstr "Execultar a Configuração de Permissões de Segurança Openmandriva Lx"
 
 #: ../polkit/org.moondrake.drakperm.policy.in.h:2
 #, fuzzy
@@ -3556,23 +3556,23 @@ msgid ""
 "Authentication is required to run DrakX Security Permissions Configuration"
 msgstr ""
 "A autenticação é necessária para executar a Configuração de Permissões de "
-"Segurança Moondrake"
+"Segurança Openmandriva Lx"
 
 #: ../polkit/org.moondrake.drakscanner.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Scanner Configuration"
-msgstr "execultar Configuração de Scanner Moondrake"
+msgstr "execultar Configuração de Scanner Openmandriva Lx"
 
 #: ../polkit/org.moondrake.drakscanner.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Scanner Configuration"
 msgstr ""
-"A Autenticação é necessaria para executar a Configuração de Scanner Moondrake"
+"A Autenticação é necessaria para executar a Configuração de Scanner Openmandriva Lx"
 
 #: ../polkit/org.moondrake.draksec.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Application Security Configuration"
-msgstr "Execultar Aplicativo de Configuração de Seguraça Moondrake"
+msgstr "Execultar Aplicativo de Configuração de Seguraça Openmandriva Lx"
 
 #: ../polkit/org.moondrake.draksec.policy.in.h:2
 #, fuzzy
@@ -3580,28 +3580,28 @@ msgid ""
 "Authentication is required to run DrakX Application Security Configuration"
 msgstr ""
 "A autenticação é necessária para execução do Aplicativo de Configuração de "
-"Segurança Moondrake"
+"Segurança Openmandriva Lx"
 
 #: ../polkit/org.moondrake.drakups.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX UPS Configuration"
-msgstr "Execultar Configuração UPS Moondrake"
+msgstr "Execultar Configuração UPS Openmandriva Lx"
 
 #: ../polkit/org.moondrake.drakups.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX UPS Configuration"
-msgstr "A autenticação é necessária para executar a Configuração UPS Moondrake"
+msgstr "A autenticação é necessária para executar a Configuração UPS Openmandriva Lx"
 
 #: ../polkit/org.moondrake.moondrakeservices.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Service Configuration"
-msgstr "Execultar Configuração de Serviço Moondrake"
+msgstr "Execultar Configuração de Serviço Openmandriva Lx"
 
 #: ../polkit/org.moondrake.moondrakeservices.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Service Configuration"
 msgstr ""
-"A autenticação é necessária para executar o Configuração de Serviço Moondrake"
+"A autenticação é necessária para executar o Configuração de Serviço Openmandriva Lx"
 
 #~ msgid "%s Bug Report Tool"
 #~ msgstr "%s Ferramenta de Relatório de Erros"
@@ -3610,114 +3610,114 @@ msgstr ""
 #~ msgstr "Logs das ferramentas %s"
 
 #~ msgid ""
-#~ "Authentication is required to run Moondrake Application Security "
+#~ "Authentication is required to run Openmandriva Lx Application Security "
 #~ "Configuration"
 #~ msgstr ""
 #~ "A autenticação é necessária para execução do Aplicativo de Configuração "
-#~ "de Segurança Moondrake"
+#~ "de Segurança Openmandriva Lx"
 
 #~ msgid ""
-#~ "Authentication is required to run Moondrake Authentication Configuration"
+#~ "Authentication is required to run Openmandriva Lx Authentication Configuration"
 #~ msgstr ""
 #~ "A autenticação é necessária para executar a Configuração de autenticação "
-#~ "Moondrake"
+#~ "Openmandriva Lx"
 
-#~ msgid "Authentication is required to run Moondrake Boot Configuration"
+#~ msgid "Authentication is required to run Openmandriva Lx Boot Configuration"
 #~ msgstr ""
-#~ "A autenticação é necessária para executar o Boot de Configuração Moondrake"
+#~ "A autenticação é necessária para executar o Boot de Configuração Openmandriva Lx"
 
 #~ msgid ""
-#~ "Authentication is required to run Moondrake Date and Time Configuration"
+#~ "Authentication is required to run Openmandriva Lx Date and Time Configuration"
 #~ msgstr ""
 #~ "A autenticação é necessária para executar a configuração Data e Hora "
-#~ "Moondrake"
+#~ "Openmandriva Lx"
 
-#~ msgid "Authentication is required to run Moondrake Disk Layout Editor"
+#~ msgid "Authentication is required to run Openmandriva Lx Disk Layout Editor"
 #~ msgstr ""
 #~ "A autenticação é necessária para executar o leiaute do Disco Editor "
-#~ "Moondrake"
+#~ "Openmandriva Lx"
 
-#~ msgid "Authentication is required to run Moondrake Font Configuration"
+#~ msgid "Authentication is required to run Openmandriva Lx Font Configuration"
 #~ msgstr ""
 #~ "A autenticação é necessária para executar a Configuração de Fonte "
-#~ "Moondrake"
+#~ "Openmandriva Lx"
 
-#~ msgid "Authentication is required to run Moondrake Hardware Configuration"
+#~ msgid "Authentication is required to run Openmandriva Lx Hardware Configuration"
 #~ msgstr ""
 #~ "A autenticação é necessária para executar a Configuração de hardware "
-#~ "Moondrake"
+#~ "Openmandriva Lx"
 
-#~ msgid "Authentication is required to run Moondrake Log Viewer"
-#~ msgstr "A autenticação é necessária para executar o leitor de Log Moondrake"
+#~ msgid "Authentication is required to run Openmandriva Lx Log Viewer"
+#~ msgstr "A autenticação é necessária para executar o leitor de Log Openmandriva Lx"
 
 #~ msgid ""
-#~ "Authentication is required to run Moondrake Login Manager Configuration"
+#~ "Authentication is required to run Openmandriva Lx Login Manager Configuration"
 #~ msgstr ""
 #~ "A autenticação é necessária para executar a Configuração do Gerenciador "
-#~ "de Login Moondrake"
+#~ "de Login Openmandriva Lx"
 
-#~ msgid "Authentication is required to run Moondrake Scanner Configuration"
+#~ msgid "Authentication is required to run Openmandriva Lx Scanner Configuration"
 #~ msgstr ""
 #~ "A Autenticação é necessaria para executar a Configuração de Scanner "
-#~ "Moondrake"
+#~ "Openmandriva Lx"
 
 #~ msgid ""
-#~ "Authentication is required to run Moondrake Security Permissions "
+#~ "Authentication is required to run Openmandriva Lx Security Permissions "
 #~ "Configuration"
 #~ msgstr ""
 #~ "A autenticação é necessária para executar a Configuração de Permissões de "
-#~ "Segurança Moondrake"
+#~ "Segurança Openmandriva Lx"
 
-#~ msgid "Authentication is required to run Moondrake Service Configuration"
+#~ msgid "Authentication is required to run Openmandriva Lx Service Configuration"
 #~ msgstr ""
 #~ "A autenticação é necessária para executar o Configuração de Serviço "
-#~ "Moondrake"
+#~ "Openmandriva Lx"
 
-#~ msgid "Authentication is required to run Moondrake UPS Configuration"
+#~ msgid "Authentication is required to run Openmandriva Lx UPS Configuration"
 #~ msgstr ""
-#~ "A autenticação é necessária para executar a Configuração UPS Moondrake"
+#~ "A autenticação é necessária para executar a Configuração UPS Openmandriva Lx"
 
 #~ msgid "Configure authentication required to access %s tools"
 #~ msgstr "Configure a autenticação necessária para acessar as ferramentas %s"
 
-#~ msgid "Run Moondrake Application Security Configuration"
-#~ msgstr "Execultar Aplicativo de Configuração de Seguraça Moondrake"
+#~ msgid "Run Openmandriva Lx Application Security Configuration"
+#~ msgstr "Execultar Aplicativo de Configuração de Seguraça Openmandriva Lx"
 
-#~ msgid "Run Moondrake Authentication Configuration"
-#~ msgstr "Executar Configuração de Autenticação Moondrake"
+#~ msgid "Run Openmandriva Lx Authentication Configuration"
+#~ msgstr "Executar Configuração de Autenticação Openmandriva Lx"
 
-#~ msgid "Run Moondrake Boot Configuration"
-#~ msgstr "Executar Boot de Configuração Moondrake"
+#~ msgid "Run Openmandriva Lx Boot Configuration"
+#~ msgstr "Executar Boot de Configuração Openmandriva Lx"
 
-#~ msgid "Run Moondrake Date and Time Configuration"
-#~ msgstr "Execultar Configuração Data e Hora Moondrake"
+#~ msgid "Run Openmandriva Lx Date and Time Configuration"
+#~ msgstr "Execultar Configuração Data e Hora Openmandriva Lx"
 
-#~ msgid "Run Moondrake Disk Layout Editor"
-#~ msgstr "Execultar o leiaute do Disco Editor Moondrake"
+#~ msgid "Run Openmandriva Lx Disk Layout Editor"
+#~ msgstr "Execultar o leiaute do Disco Editor Openmandriva Lx"
 
-#~ msgid "Run Moondrake Font Configuration"
-#~ msgstr "Execultar Configuração de Fonte Moondrake"
+#~ msgid "Run Openmandriva Lx Font Configuration"
+#~ msgstr "Execultar Configuração de Fonte Openmandriva Lx"
 
-#~ msgid "Run Moondrake Hardware Configuration"
-#~ msgstr "Execultar Configuração de Hardware Moondrake"
+#~ msgid "Run Openmandriva Lx Hardware Configuration"
+#~ msgstr "Execultar Configuração de Hardware Openmandriva Lx"
 
-#~ msgid "Run Moondrake Log Viewer"
-#~ msgstr "Execultar Leitor de Log Moondrake"
+#~ msgid "Run Openmandriva Lx Log Viewer"
+#~ msgstr "Execultar Leitor de Log Openmandriva Lx"
 
-#~ msgid "Run Moondrake Login Manager Configuration"
-#~ msgstr "Execultar Configuração do Gerenciador de Login Moondrake"
+#~ msgid "Run Openmandriva Lx Login Manager Configuration"
+#~ msgstr "Execultar Configuração do Gerenciador de Login Openmandriva Lx"
 
-#~ msgid "Run Moondrake Scanner Configuration"
-#~ msgstr "execultar Configuração de Scanner Moondrake"
+#~ msgid "Run Openmandriva Lx Scanner Configuration"
+#~ msgstr "execultar Configuração de Scanner Openmandriva Lx"
 
-#~ msgid "Run Moondrake Security Permissions Configuration"
-#~ msgstr "Execultar a Configuração de Permissões de Segurança Moondrake"
+#~ msgid "Run Openmandriva Lx Security Permissions Configuration"
+#~ msgstr "Execultar a Configuração de Permissões de Segurança Openmandriva Lx"
 
-#~ msgid "Run Moondrake Service Configuration"
-#~ msgstr "Execultar Configuração de Serviço Moondrake"
+#~ msgid "Run Openmandriva Lx Service Configuration"
+#~ msgstr "Execultar Configuração de Serviço Openmandriva Lx"
 
-#~ msgid "Run Moondrake UPS Configuration"
-#~ msgstr "Execultar Configuração UPS Moondrake"
+#~ msgid "Run Openmandriva Lx UPS Configuration"
+#~ msgstr "Execultar Configuração UPS Openmandriva Lx"
 
 #~ msgid "  --help                - display this help     \n"
 #~ msgstr " --help                - exibe esta ajuda    \n"
@@ -3725,7 +3725,7 @@ msgstr ""
 #~ msgid ""
 #~ " drakhelp 0.1\n"
 #~ "Copyright (C) %s Mandriva.\n"
-#~ "Copyright (C) %s Moondrake.\n"
+#~ "Copyright (C) %s Openmandriva Lx.\n"
 #~ "This is free software and may be redistributed under the terms of the GNU "
 #~ "GPL.\n"
 #~ "\n"
@@ -3733,7 +3733,7 @@ msgstr ""
 #~ msgstr ""
 #~ " drakhelp 0.1\n"
 #~ "Copyright © %s Mandriva.\n"
-#~ "Copyright (C) %s Moondrake.\n"
+#~ "Copyright (C) %s Openmandriva Lx.\n"
 #~ "Este é um software livre e pode ser redistribuído sob os termos da GNU "
 #~ "GPL.\n"
 #~ "\n"
@@ -4038,8 +4038,8 @@ msgstr ""
 #~ msgid "Mandriva Update"
 #~ msgstr "Mandriva Update"
 
-#~ msgid "Moondrake"
-#~ msgstr "Moondrake"
+#~ msgid "Openmandriva Lx"
+#~ msgstr "Openmandriva Lx"
 
 #~ msgid "Network Options"
 #~ msgstr "Opções da rede"

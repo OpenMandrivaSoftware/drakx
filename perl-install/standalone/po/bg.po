@@ -183,7 +183,7 @@ msgstr "Програмата \"%s\" спря работа поради след�
 #: drakbug:62
 #, fuzzy, c-format
 msgid "DrakX Bug Report Tool"
-msgstr "Инструмент за докладване на грешки на Moondrake"
+msgstr "Инструмент за докладване на грешки на Openmandriva Lx"
 
 #: drakbug:67
 #, fuzzy, c-format
@@ -208,7 +208,7 @@ msgstr "Самостоятелни инструменти"
 #: drakbug:72 drakbug:73
 #, fuzzy, c-format
 msgid "%s Online"
-msgstr "Moondrake Online"
+msgstr "Openmandriva Lx Online"
 
 #: drakbug:72 drakbug:73 drakbug:99 draksec:169
 #, fuzzy, c-format
@@ -238,7 +238,7 @@ msgstr "Помощници за настройки"
 #: drakbug:99
 #, fuzzy, c-format
 msgid "Select %s Tool:"
-msgstr "Изберете Moondrake инструмент:"
+msgstr "Изберете Openmandriva Lx инструмент:"
 
 #: drakbug:98
 #, c-format
@@ -702,7 +702,7 @@ msgstr "Не е инсталиран"
 
 #: drakfont:527
 #, fuzzy, c-format
-msgid "Moondrake GNU/Linux"
+msgid "Openmandriva Lx GNU/Linux"
 msgstr "Mandriva Linux"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
@@ -1198,7 +1198,7 @@ msgstr "Управление на софтуера"
 #: draksec:169
 #, fuzzy, c-format
 msgid "%s Update"
-msgstr "Moondrake Online"
+msgstr "Openmandriva Lx Online"
 
 #: draksec:170
 #, c-format
@@ -3456,54 +3456,54 @@ msgstr "Конфигурация за подредба на поща"
 
 #, fuzzy
 #~ msgid "%s Bug Report Tool"
-#~ msgstr "Инструмент за докладване на грешки на Moondrake"
+#~ msgstr "Инструмент за докладване на грешки на Openmandriva Lx"
 
 #, fuzzy
 #~ msgid "%s Tools Logs"
 #~ msgstr "Самостоятелни инструменти"
 
 #, fuzzy
-#~ msgid "Run Moondrake Application Security Configuration"
+#~ msgid "Run Openmandriva Lx Application Security Configuration"
 #~ msgstr "Настройка на автоматичните стъпки"
 
 #, fuzzy
-#~ msgid "Run Moondrake Authentication Configuration"
+#~ msgid "Run Openmandriva Lx Authentication Configuration"
 #~ msgstr "Настройка на автоматичните стъпки"
 
 #, fuzzy
-#~ msgid "Run Moondrake Boot Configuration"
+#~ msgid "Run Openmandriva Lx Boot Configuration"
 #~ msgstr "конфигурация на тревога"
 
 #, fuzzy
-#~ msgid "Run Moondrake Date and Time Configuration"
+#~ msgid "Run Openmandriva Lx Date and Time Configuration"
 #~ msgstr "Конфигурация за подредба на поща"
 
 #, fuzzy
-#~ msgid "Run Moondrake Font Configuration"
+#~ msgid "Run Openmandriva Lx Font Configuration"
 #~ msgstr "Ръчна настройка"
 
 #, fuzzy
-#~ msgid "Run Moondrake Hardware Configuration"
+#~ msgid "Run Openmandriva Lx Hardware Configuration"
 #~ msgstr "Конфигурация за подредба на поща"
 
 #, fuzzy
-#~ msgid "Run Moondrake Login Manager Configuration"
+#~ msgid "Run Openmandriva Lx Login Manager Configuration"
 #~ msgstr "Ръчна настройка"
 
 #, fuzzy
-#~ msgid "Run Moondrake Scanner Configuration"
+#~ msgid "Run Openmandriva Lx Scanner Configuration"
 #~ msgstr "Конфигурация за подредба на поща"
 
 #, fuzzy
-#~ msgid "Run Moondrake Security Permissions Configuration"
+#~ msgid "Run Openmandriva Lx Security Permissions Configuration"
 #~ msgstr "Конфигурация за подредба на поща"
 
 #, fuzzy
-#~ msgid "Run Moondrake Service Configuration"
+#~ msgid "Run Openmandriva Lx Service Configuration"
 #~ msgstr "Конфигурация за подредба на поща"
 
 #, fuzzy
-#~ msgid "Run Moondrake UPS Configuration"
+#~ msgid "Run Openmandriva Lx UPS Configuration"
 #~ msgstr "Настройка на CUPS принтер"
 
 #~ msgid ""
@@ -3523,7 +3523,7 @@ msgstr "Конфигурация за подредба на поща"
 
 #, fuzzy
 #~ msgid "%s Help Center"
-#~ msgstr "Контролен център на Moondrake"
+#~ msgstr "Контролен център на Openmandriva Lx"
 
 #~ msgid "(default value: %s)"
 #~ msgstr "(подразбираща стойност: %s)"
@@ -3617,7 +3617,7 @@ msgstr "Конфигурация за подредба на поща"
 #~ msgstr "Шина"
 
 #, fuzzy
-#~ msgid "Copyright (C) %s by Moondrake"
+#~ msgid "Copyright (C) %s by Openmandriva Lx"
 #~ msgstr "Copyright © 2001-2008 Mandriva"
 
 #~ msgid "Copyright (C) 2001-2008 by Mandriva"
@@ -3702,8 +3702,8 @@ msgstr "Конфигурация за подредба на поща"
 #~ msgid "Menudrake"
 #~ msgstr "Menudrake"
 
-#~ msgid "Moondrake"
-#~ msgstr "Moondrake"
+#~ msgid "Openmandriva Lx"
+#~ msgstr "Openmandriva Lx"
 
 #~ msgid "Msec"
 #~ msgstr "Мсек"

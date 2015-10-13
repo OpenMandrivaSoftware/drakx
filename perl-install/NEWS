@@ -27,7 +27,7 @@ Version 16.52 - 5 February 2015
   o create separate /home only when more than 50G are available
   o in such case, / is 6/19th of the available space up to 50G,
     swap is 1/19th up to 4G and /home is the rest (12/19th)
-  o https://ml.mageia.org/l/arc/dev/2014-12/msg00330.html
+  o https://ml.openmandriva.org/l/arc/dev/2014-12/msg00330.html
 - recognize new kernel-3.19 drivers
 - fix GPT initialization on empty disk
 
@@ -427,7 +427,7 @@ Version 14.42, 18 April 2013, by Per Øyvind Karlsen
 
 Version 14.41,  9 April 2013, by Per Øyvind Karlsen
 
-- rebrand to Moondrake
+- rebrand to Openmandriva Lx
 
 Version 14.40,  6 April 2013, by Per Øyvind Karlsen
 

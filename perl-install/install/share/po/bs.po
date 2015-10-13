@@ -31,7 +31,7 @@ msgstr ""
 #: ../../advertising/MandrivaOne-advert-7.pl:1
 #: ../../advertising/MandrivaOne-advert-8.pl:1
 #, c-format
-msgid "Moondrake GNU/Linux 2013 Beta (Twelve Angry Penguins)"
+msgid "Openmandriva Lx GNU/Linux 2013 Beta (Twelve Angry Penguins)"
 msgstr ""
 
 #: ../../advertising/MandrivaOne-advert-9.pl:1
@@ -782,7 +782,7 @@ msgstr "Alati za nadzor, praćenje procesa, tcpdump, nmap..."
 #: share/meta-task/compssUsers.pl:235
 #, fuzzy, c-format
 msgid "DrakX Wizards"
-msgstr "Moondrake čarobnjaci"
+msgstr "Openmandriva Lx čarobnjaci"
 
 #: share/meta-task/compssUsers.pl:236
 #, c-format
@@ -1626,8 +1626,8 @@ msgstr "Izlaz"
 #~ msgid "LXQT Desktop"
 #~ msgstr "IceWm okruženje"
 
-#~ msgid "Moondrake Wizards"
-#~ msgstr "Moondrake čarobnjaci"
+#~ msgid "Openmandriva Lx Wizards"
+#~ msgstr "Openmandriva Lx čarobnjaci"
 
 #, fuzzy
 #~ msgid "Plasma Desktop"

@@ -674,7 +674,7 @@ msgstr "설치되지 않았습니다."
 
 #: drakfont:527
 #, fuzzy, c-format
-msgid "Moondrake GNU/Linux"
+msgid "Openmandriva Lx GNU/Linux"
 msgstr "맨드리바 온라인"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
@@ -3408,47 +3408,47 @@ msgstr "메일 경고 설정"
 #~ msgstr "맨드리바 도구 설명"
 
 #, fuzzy
-#~ msgid "Run Moondrake Application Security Configuration"
+#~ msgid "Run Openmandriva Lx Application Security Configuration"
 #~ msgstr "자동 과정 설정기"
 
 #, fuzzy
-#~ msgid "Run Moondrake Authentication Configuration"
+#~ msgid "Run Openmandriva Lx Authentication Configuration"
 #~ msgstr "자동 과정 설정기"
 
 #, fuzzy
-#~ msgid "Run Moondrake Boot Configuration"
+#~ msgid "Run Openmandriva Lx Boot Configuration"
 #~ msgstr "경고 설정"
 
 #, fuzzy
-#~ msgid "Run Moondrake Date and Time Configuration"
+#~ msgid "Run Openmandriva Lx Date and Time Configuration"
 #~ msgstr "메일 경고 설정"
 
 #, fuzzy
-#~ msgid "Run Moondrake Font Configuration"
+#~ msgid "Run Openmandriva Lx Font Configuration"
 #~ msgstr "수동 설정"
 
 #, fuzzy
-#~ msgid "Run Moondrake Hardware Configuration"
+#~ msgid "Run Openmandriva Lx Hardware Configuration"
 #~ msgstr "메일 경고 설정"
 
 #, fuzzy
-#~ msgid "Run Moondrake Login Manager Configuration"
+#~ msgid "Run Openmandriva Lx Login Manager Configuration"
 #~ msgstr "수동 설정"
 
 #, fuzzy
-#~ msgid "Run Moondrake Scanner Configuration"
+#~ msgid "Run Openmandriva Lx Scanner Configuration"
 #~ msgstr "메일 경고 설정"
 
 #, fuzzy
-#~ msgid "Run Moondrake Security Permissions Configuration"
+#~ msgid "Run Openmandriva Lx Security Permissions Configuration"
 #~ msgstr "메일 경고 설정"
 
 #, fuzzy
-#~ msgid "Run Moondrake Service Configuration"
+#~ msgid "Run Openmandriva Lx Service Configuration"
 #~ msgstr "메일 경고 설정"
 
 #, fuzzy
-#~ msgid "Run Moondrake UPS Configuration"
+#~ msgid "Run Openmandriva Lx UPS Configuration"
 #~ msgstr "OKI 윈프린터 설정"
 
 #, fuzzy
@@ -3639,7 +3639,7 @@ msgstr "메일 경고 설정"
 #~ msgstr "메뉴 드레이크"
 
 #, fuzzy
-#~ msgid "Moondrake"
+#~ msgid "Openmandriva Lx"
 #~ msgstr "맨드리바 온라인"
 
 #~ msgid "Msec"

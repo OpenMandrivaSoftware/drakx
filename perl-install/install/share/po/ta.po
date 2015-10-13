@@ -29,7 +29,7 @@ msgstr ""
 #: ../../advertising/MandrivaOne-advert-7.pl:1
 #: ../../advertising/MandrivaOne-advert-8.pl:1
 #, c-format
-msgid "Moondrake GNU/Linux 2013 Beta (Twelve Angry Penguins)"
+msgid "Openmandriva Lx GNU/Linux 2013 Beta (Twelve Angry Penguins)"
 msgstr ""
 
 #: ../../advertising/MandrivaOne-advert-9.pl:1
@@ -1590,7 +1590,7 @@ msgstr "வெளிச்ெசல்"
 #~ msgstr "மேசைசெயலி"
 
 #, fuzzy
-#~ msgid "Moondrake Wizards"
+#~ msgid "Openmandriva Lx Wizards"
 #~ msgstr "மாண்ட்ேரக் கட்டுப்பட்டு மையம்"
 
 #, fuzzy

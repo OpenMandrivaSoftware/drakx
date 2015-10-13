@@ -29,7 +29,7 @@ msgstr ""
 #: ../../advertising/MandrivaOne-advert-7.pl:1
 #: ../../advertising/MandrivaOne-advert-8.pl:1
 #, c-format
-msgid "Moondrake GNU/Linux 2013 Beta (Twelve Angry Penguins)"
+msgid "Openmandriva Lx GNU/Linux 2013 Beta (Twelve Angry Penguins)"
 msgstr ""
 
 #: ../../advertising/MandrivaOne-advert-9.pl:1
@@ -784,7 +784,7 @@ msgstr "Назорат қилиш воситалари, вазифалар ҳи�
 #: share/meta-task/compssUsers.pl:235
 #, fuzzy, c-format
 msgid "DrakX Wizards"
-msgstr "Moondrake ёрдамчилари"
+msgstr "Openmandriva Lx ёрдамчилари"
 
 #: share/meta-task/compssUsers.pl:236
 #, c-format
@@ -1628,8 +1628,8 @@ msgstr "Чиқиш"
 #~ msgid "LXQT Desktop"
 #~ msgstr "LXDE иш столи"
 
-#~ msgid "Moondrake Wizards"
-#~ msgstr "Moondrake ёрдамчилари"
+#~ msgid "Openmandriva Lx Wizards"
+#~ msgstr "Openmandriva Lx ёрдамчилари"
 
 #, fuzzy
 #~ msgid "Plasma Desktop"
@@ -1644,8 +1644,8 @@ msgstr "Чиқиш"
 #~ msgid "A full Mandriva Linux desktop, with support"
 #~ msgstr "Тўлиқ Mandriva Linux иш столи, қўллаб-қувватлаш билан"
 
-#~ msgid "A full Moondrake desktop, with support"
-#~ msgstr "Тўлиқ Moondrake иш столи, қўллаб-қувватлаш билан"
+#~ msgid "A full Openmandriva Lx desktop, with support"
+#~ msgstr "Тўлиқ Openmandriva Lx иш столи, қўллаб-қувватлаш билан"
 
 #, fuzzy
 #~ msgid "A graphical environment based on GNOME"
@@ -1687,8 +1687,8 @@ msgstr "Чиқиш"
 #~ msgid "Explore Linux easily with Mandriva One"
 #~ msgstr "Mandriva One ёрдамида Linux'ни осонгина кашф этинг"
 
-#~ msgid "Explore Linux easily with Moondrake One"
-#~ msgstr "Moondrake One ёрдамида Linux'ни осонгина кашф этинг"
+#~ msgid "Explore Linux easily with Openmandriva Lx One"
+#~ msgstr "Openmandriva Lx One ёрдамида Linux'ни осонгина кашф этинг"
 
 #~ msgid "Generate auto install floppy"
 #~ msgstr "Авто-ўрнатиш дискетни яратиш"
@@ -1712,8 +1712,8 @@ msgstr "Чиқиш"
 #~ msgid "Mandriva: distributions for everybody's needs"
 #~ msgstr "Mandriva: барчага мўлжалланган дистрибутив"
 
-#~ msgid "Moondrake: distributions for everybody's needs"
-#~ msgstr "Moondrake: барчага мўлжалланган дистрибутив"
+#~ msgid "Openmandriva Lx: distributions for everybody's needs"
+#~ msgstr "Openmandriva Lx: барчага мўлжалланган дистрибутив"
 
 #~ msgid ""
 #~ "No free space for 1MB bootstrap! Install will continue, but to boot your "
@@ -1771,8 +1771,8 @@ msgstr "Чиқиш"
 #~ msgid "The 100%% open source Mandriva Linux distribution"
 #~ msgstr "100%% очиқ кодли Mandriva Linux дистрибутиви"
 
-#~ msgid "The 100%% open source Moondrake distribution"
-#~ msgstr "100%% очиқ кодли Moondrake дистрибутиви"
+#~ msgid "The 100%% open source Openmandriva Lx distribution"
+#~ msgstr "100%% очиқ кодли Openmandriva Lx дистрибутиви"
 
 #, fuzzy
 #~ msgid "This medium provides package updates for medium \"%s\""

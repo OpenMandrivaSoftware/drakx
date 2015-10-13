@@ -41,7 +41,7 @@ msgstr ""
 #: ../../advertising/MandrivaOne-advert-7.pl:1
 #: ../../advertising/MandrivaOne-advert-8.pl:1
 #, c-format
-msgid "Moondrake GNU/Linux 2013 Beta (Twelve Angry Penguins)"
+msgid "Openmandriva Lx GNU/Linux 2013 Beta (Twelve Angry Penguins)"
 msgstr ""
 
 #: ../../advertising/MandrivaOne-advert-9.pl:1
@@ -797,7 +797,7 @@ msgstr "Overvårkningsverktøy, prosessbokføring, tcpdump, nmap,  … "
 #: share/meta-task/compssUsers.pl:235
 #, fuzzy, c-format
 msgid "DrakX Wizards"
-msgstr "Moondrake-veivisere"
+msgstr "Openmandriva Lx-veivisere"
 
 #: share/meta-task/compssUsers.pl:236
 #, c-format
@@ -1653,8 +1653,8 @@ msgstr "Avslutt"
 #~ msgid "LXQT Desktop"
 #~ msgstr "LXDE-skrivebord"
 
-#~ msgid "Moondrake Wizards"
-#~ msgstr "Moondrake-veivisere"
+#~ msgid "Openmandriva Lx Wizards"
+#~ msgstr "Openmandriva Lx-veivisere"
 
 #, fuzzy
 #~ msgid "Plasma Desktop"
@@ -1671,8 +1671,8 @@ msgstr "Avslutt"
 #~ msgid "A full Mandriva Linux desktop, with support"
 #~ msgstr "Et fullt Mandriva Linux-skrivebord – med brukerstøtte"
 
-#~ msgid "A full Moondrake desktop, with support"
-#~ msgstr "Et fullt Moondrake-skrivebord – med brukerstøtte"
+#~ msgid "A full Openmandriva Lx desktop, with support"
+#~ msgstr "Et fullt Openmandriva Lx-skrivebord – med brukerstøtte"
 
 #, fuzzy
 #~ msgid "A graphical environment based on GNOME"
@@ -1700,8 +1700,8 @@ msgstr "Avslutt"
 #~ msgid "Explore Linux easily with Mandriva One"
 #~ msgstr "Utforsk Linux med Mandriva One"
 
-#~ msgid "Explore Linux easily with Moondrake One"
-#~ msgstr "Utforsk Linux med Moondrake One"
+#~ msgid "Explore Linux easily with Openmandriva Lx One"
+#~ msgstr "Utforsk Linux med Openmandriva Lx One"
 
 #~ msgid "IDE"
 #~ msgstr "IDE"
@@ -1716,7 +1716,7 @@ msgstr "Avslutt"
 #~ "Warning : you should backup all your personal data before choosing \"New\n"
 #~ "Installation\"."
 #~ msgstr ""
-#~ "Installasjonsprogrammet har oppdaga at den gamle utgava av Moondrake som "
+#~ "Installasjonsprogrammet har oppdaga at den gamle utgava av Openmandriva Lx som "
 #~ "du har installert ikke kan trygt oppgraderes til %s.\n"
 #~ "\n"
 #~ "Du bør velge en nyinstallering, som da vil erstatta den gamle versjonen.\n"
@@ -1737,8 +1737,8 @@ msgstr "Avslutt"
 #~ msgid "Mandriva: distributions for everybody's needs"
 #~ msgstr "Mandriva: Distribusjoner for alle behov"
 
-#~ msgid "Moondrake: distributions for everybody's needs"
-#~ msgstr "Moondrake: Distribusjoner for alle behov"
+#~ msgid "Openmandriva Lx: distributions for everybody's needs"
+#~ msgstr "Openmandriva Lx: Distribusjoner for alle behov"
 
 #~ msgid ""
 #~ "No free space for 1MB bootstrap! Install will continue, but to boot your "
@@ -1790,8 +1790,8 @@ msgstr "Avslutt"
 #~ msgid "The 100%% open source Mandriva Linux distribution"
 #~ msgstr "Mandriva Linux-distribusjonen med 100 %% åpen kildekode"
 
-#~ msgid "The 100%% open source Moondrake distribution"
-#~ msgstr "Moondrake-distribusjonen med 100 %% åpen kildekode"
+#~ msgid "The 100%% open source Openmandriva Lx distribution"
+#~ msgstr "Openmandriva Lx-distribusjonen med 100 %% åpen kildekode"
 
 #, fuzzy
 #~ msgid "This medium provides package updates for medium \"%s\""

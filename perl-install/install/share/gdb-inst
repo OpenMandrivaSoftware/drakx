@@ -12,7 +12,7 @@ If it segfaults, you can:
     you can later retrieve it from another OS (dual boot) or using guestfish if
     it's a virtual machine
 
-On a real Moondrake system, you can then install the needed debuginfo packages and
+On a real Openmandriva Lx system, you can then install the needed debuginfo packages and
 get a proper stack trace with GDB. You would probably need at least the
 following packages:
   urpmi {glibc,perl{,-Glib,-Gtk2},glib2.0,gtk+2.0}-debuginfo

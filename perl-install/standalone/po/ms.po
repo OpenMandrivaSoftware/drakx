@@ -169,7 +169,7 @@ msgstr ""
 #: drakbug:60
 #, fuzzy, c-format
 msgid "DrakX Bug Report Tool"
-msgstr "Alatan Mengurus Pengguna Moondrake"
+msgstr "Alatan Mengurus Pengguna Openmandriva Lx"
 
 #: drakbug:67
 #, fuzzy, c-format
@@ -194,7 +194,7 @@ msgstr "Alatan Pentadbiran"
 #: drakbug:72 drakbug:73
 #, fuzzy, c-format
 msgid "%s Online"
-msgstr "Moondrake Online"
+msgstr "Openmandriva Lx Online"
 
 #: drakbug:72 drakbug:73 drakbug:99 draksec:169
 #, fuzzy, c-format
@@ -674,7 +674,7 @@ msgstr "Pemasang Fon"
 
 #: drakfont:527
 #, fuzzy, c-format
-msgid "Moondrake GNU/Linux"
+msgid "Openmandriva Lx GNU/Linux"
 msgstr "Mandriva Linux"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
@@ -1175,7 +1175,7 @@ msgstr "Pengurusan Perisian"
 #: draksec:169
 #, fuzzy, c-format
 msgid "%s Update"
-msgstr "Moondrake Update"
+msgstr "Openmandriva Lx Update"
 
 #: draksec:170
 #, c-format
@@ -2400,7 +2400,7 @@ msgstr ", "
 #: logdrake:55
 #, fuzzy, c-format
 msgid "DrakX Tools Logs"
-msgstr "Selamat datang ke Moondrake"
+msgstr "Selamat datang ke Openmandriva Lx"
 
 #: logdrake:69
 #, fuzzy, c-format
@@ -3405,54 +3405,54 @@ msgstr "Alatan Konfigurasi Pelayan"
 
 #, fuzzy
 #~ msgid "%s Bug Report Tool"
-#~ msgstr "Alatan Mengurus Pengguna Moondrake"
+#~ msgstr "Alatan Mengurus Pengguna Openmandriva Lx"
 
 #, fuzzy
 #~ msgid "%s Tools Logs"
-#~ msgstr "Selamat datang ke Moondrake"
+#~ msgstr "Selamat datang ke Openmandriva Lx"
 
 #, fuzzy
-#~ msgid "Run Moondrake Application Security Configuration"
+#~ msgid "Run Openmandriva Lx Application Security Configuration"
 #~ msgstr "Alatan Konfigurasi Pelayan"
 
 #, fuzzy
-#~ msgid "Run Moondrake Authentication Configuration"
+#~ msgid "Run Openmandriva Lx Authentication Configuration"
 #~ msgstr "Alatan Konfigurasi Pelayan"
 
 #, fuzzy
-#~ msgid "Run Moondrake Boot Configuration"
+#~ msgid "Run Openmandriva Lx Boot Configuration"
 #~ msgstr "Pemuat but"
 
 #, fuzzy
-#~ msgid "Run Moondrake Date and Time Configuration"
+#~ msgid "Run Openmandriva Lx Date and Time Configuration"
 #~ msgstr "Alatan Konfigurasi Pelayan"
 
 #, fuzzy
-#~ msgid "Run Moondrake Font Configuration"
+#~ msgid "Run Openmandriva Lx Font Configuration"
 #~ msgstr "Tetapan negara & bahasa"
 
 #, fuzzy
-#~ msgid "Run Moondrake Hardware Configuration"
+#~ msgid "Run Openmandriva Lx Hardware Configuration"
 #~ msgstr "Alatan Konfigurasi Pelayan"
 
 #, fuzzy
-#~ msgid "Run Moondrake Login Manager Configuration"
+#~ msgid "Run Openmandriva Lx Login Manager Configuration"
 #~ msgstr "Tetapan negara & bahasa"
 
 #, fuzzy
-#~ msgid "Run Moondrake Scanner Configuration"
+#~ msgid "Run Openmandriva Lx Scanner Configuration"
 #~ msgstr "Alatan Konfigurasi Pelayan"
 
 #, fuzzy
-#~ msgid "Run Moondrake Security Permissions Configuration"
+#~ msgid "Run Openmandriva Lx Security Permissions Configuration"
 #~ msgstr "Alatan Konfigurasi Pelayan"
 
 #, fuzzy
-#~ msgid "Run Moondrake Service Configuration"
+#~ msgid "Run Openmandriva Lx Service Configuration"
 #~ msgstr "Alatan Konfigurasi Pelayan"
 
 #, fuzzy
-#~ msgid "Run Moondrake UPS Configuration"
+#~ msgid "Run Openmandriva Lx UPS Configuration"
 #~ msgstr "Tetapan KFish"
 
 #, fuzzy
@@ -3463,14 +3463,14 @@ msgstr "Alatan Konfigurasi Pelayan"
 #~ msgid ""
 #~ " drakhelp 0.1\n"
 #~ "Copyright (C) %s Mandriva.\n"
-#~ "Copyright (C) %s Moondrake.\n"
+#~ "Copyright (C) %s Openmandriva Lx.\n"
 #~ "This is free software and may be redistributed under the terms of the GNU "
 #~ "GPL.\n"
 #~ "\n"
 #~ "Usage: \n"
 #~ msgstr ""
 #~ " drakhelp 0.1\n"
-#~ "Hakmilik © %s Moondrake.\n"
+#~ "Hakmilik © %s Openmandriva Lx.\n"
 #~ "Ini adalah perisian percuma dan boleh disebarkan dibawah akta GNU GPL.\n"
 #~ "\n"
 #~ "penggunaan:\n"
@@ -3480,7 +3480,7 @@ msgstr "Alatan Konfigurasi Pelayan"
 
 #, fuzzy
 #~ msgid "%s Help Center"
-#~ msgstr "Selamat datang ke Moondrake"
+#~ msgstr "Selamat datang ke Openmandriva Lx"
 
 #, fuzzy
 #~ msgid "(default value: %s)"
@@ -3597,8 +3597,8 @@ msgstr "Alatan Konfigurasi Pelayan"
 #~ msgstr "&Lapor Pepijat"
 
 #, fuzzy
-#~ msgid "Copyright (C) %s by Moondrake"
-#~ msgstr "Hakcipta (C) %s Moondrake"
+#~ msgid "Copyright (C) %s by Openmandriva Lx"
+#~ msgstr "Hakcipta (C) %s Openmandriva Lx"
 
 #, fuzzy
 #~ msgid "Create new theme"
@@ -3755,8 +3755,8 @@ msgstr "Alatan Konfigurasi Pelayan"
 #~ msgid "Mandriva Update"
 #~ msgstr "Mandriva Linux Update"
 
-#~ msgid "Moondrake"
-#~ msgstr "Moondrake"
+#~ msgid "Openmandriva Lx"
+#~ msgstr "Openmandriva Lx"
 
 #, fuzzy
 #~ msgid "Network Options"

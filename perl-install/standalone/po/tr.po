@@ -704,7 +704,7 @@ msgstr "Yazı tipi kurucusu."
 
 #: drakfont:527
 #, fuzzy, c-format
-msgid "Moondrake GNU/Linux"
+msgid "Openmandriva Lx GNU/Linux"
 msgstr "Mandriva Linux"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
@@ -3436,155 +3436,155 @@ msgstr "Dil ve Ülke yapılandırması"
 #: ../polkit/org.moondrake.drakauth.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Authentication Configuration"
-msgstr "Moondrake Kimlik Doğrulama Yapılandırması Çalıştır"
+msgstr "Openmandriva Lx Kimlik Doğrulama Yapılandırması Çalıştır"
 
 #: ../polkit/org.moondrake.drakauth.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Authentication Configuration"
 msgstr ""
-"Moondrake Kimlik Doğrulama Yapılandırması çalıştırmak için kimlik doğrulama "
+"Openmandriva Lx Kimlik Doğrulama Yapılandırması çalıştırmak için kimlik doğrulama "
 "gerekli"
 
 #: ../polkit/org.moondrake.drakboot.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Boot Configuration"
-msgstr "Moondrake Önyükleme Yapılandırması Çalıştır"
+msgstr "Openmandriva Lx Önyükleme Yapılandırması Çalıştır"
 
 #: ../polkit/org.moondrake.drakboot.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Boot Configuration"
 msgstr ""
-"Moondrake Önyükleme Yapılandırması çalıştırmak için kimlik doğrulaması "
+"Openmandriva Lx Önyükleme Yapılandırması çalıştırmak için kimlik doğrulaması "
 "gerekli"
 
 #: ../polkit/org.moondrake.drakclock.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Date and Time Configuration"
-msgstr "Moondrake Tarih ve Saat Yapılandırma Çalıştır"
+msgstr "Openmandriva Lx Tarih ve Saat Yapılandırma Çalıştır"
 
 #: ../polkit/org.moondrake.drakclock.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Date and Time Configuration"
 msgstr ""
-"Moondrake Tarih ve Saat Yapılandırması çalıştırmak için kimlik doğrulama "
+"Openmandriva Lx Tarih ve Saat Yapılandırması çalıştırmak için kimlik doğrulama "
 "gerekli"
 
 #: ../polkit/org.moondrake.drakdisk.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Disk Layout Editor"
-msgstr "Moondrake Disk Yerleşimi Düzenleyici Çalıştır"
+msgstr "Openmandriva Lx Disk Yerleşimi Düzenleyici Çalıştır"
 
 #: ../polkit/org.moondrake.drakdisk.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Disk Layout Editor"
 msgstr ""
-"Moondrake Disk Yerleşimi Düzenleyici' yi çalıştırmak için kimlik doğrulama "
+"Openmandriva Lx Disk Yerleşimi Düzenleyici' yi çalıştırmak için kimlik doğrulama "
 "gerekli"
 
 #: ../polkit/org.moondrake.drakdm.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Login Manager Configuration"
-msgstr "Moondrake Giriş Yöneticisi Yapılandırma Çalıştır"
+msgstr "Openmandriva Lx Giriş Yöneticisi Yapılandırma Çalıştır"
 
 #: ../polkit/org.moondrake.drakdm.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Login Manager Configuration"
 msgstr ""
-"Moondrake Giriş Yöneticisi Yapılandırması çalıştırmak için kimlik "
+"Openmandriva Lx Giriş Yöneticisi Yapılandırması çalıştırmak için kimlik "
 "doğrulaması gerekli"
 
 #: ../polkit/org.moondrake.drakfont.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Font Configuration"
-msgstr "Moondrake Yazıtipi Yapılandırması Çalıştır"
+msgstr "Openmandriva Lx Yazıtipi Yapılandırması Çalıştır"
 
 #: ../polkit/org.moondrake.drakfont.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Font Configuration"
 msgstr ""
-"Moondrake Yazıtipi Yapılandırması çalıştırmak için kimlik doğrulaması gerekli"
+"Openmandriva Lx Yazıtipi Yapılandırması çalıştırmak için kimlik doğrulaması gerekli"
 
 #: ../polkit/org.moondrake.drakhardware.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Hardware Configuration"
-msgstr "Moondrake Donanım Yapılandırması Çalıştır"
+msgstr "Openmandriva Lx Donanım Yapılandırması Çalıştır"
 
 #: ../polkit/org.moondrake.drakhardware.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Hardware Configuration"
 msgstr ""
-"Moondrake Donanım Yapılandırması çalıştırmak için kimlik doğrulaması gerekli"
+"Openmandriva Lx Donanım Yapılandırması çalıştırmak için kimlik doğrulaması gerekli"
 
 #: ../polkit/org.moondrake.draklog.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Log Viewer"
-msgstr "Moondrake Günlük Kaydı Görüntüleyici Çalıştır"
+msgstr "Openmandriva Lx Günlük Kaydı Görüntüleyici Çalıştır"
 
 #: ../polkit/org.moondrake.draklog.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Log Viewer"
 msgstr ""
-"Moondrake Günlük Kaydı Görüntüleyici' yi çalıştırmak için kimlik doğrulama "
+"Openmandriva Lx Günlük Kaydı Görüntüleyici' yi çalıştırmak için kimlik doğrulama "
 "gerekli"
 
 #: ../polkit/org.moondrake.drakperm.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Security Permissions Configuration"
-msgstr "Moondrake Güvenlik İzinleri Yapılandırması Çalıştır"
+msgstr "Openmandriva Lx Güvenlik İzinleri Yapılandırması Çalıştır"
 
 #: ../polkit/org.moondrake.drakperm.policy.in.h:2
 #, fuzzy
 msgid ""
 "Authentication is required to run DrakX Security Permissions Configuration"
 msgstr ""
-"Moondrake Güvenlik İzinleri Yapılandırması çalıştırmak için kimlik doğrulama "
+"Openmandriva Lx Güvenlik İzinleri Yapılandırması çalıştırmak için kimlik doğrulama "
 "gerekli"
 
 #: ../polkit/org.moondrake.drakscanner.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Scanner Configuration"
-msgstr "Moondrake Tarayıcı Yapılandırması Çalıştır"
+msgstr "Openmandriva Lx Tarayıcı Yapılandırması Çalıştır"
 
 #: ../polkit/org.moondrake.drakscanner.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Scanner Configuration"
 msgstr ""
-"Moondrake Tarayıcı Yapılandırması çalıştırmak için kimlik doğrulaması gerekli"
+"Openmandriva Lx Tarayıcı Yapılandırması çalıştırmak için kimlik doğrulaması gerekli"
 
 #: ../polkit/org.moondrake.draksec.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Application Security Configuration"
-msgstr "Moondrake Uygulama Güvenliği Yapılandırması Çalıştır"
+msgstr "Openmandriva Lx Uygulama Güvenliği Yapılandırması Çalıştır"
 
 #: ../polkit/org.moondrake.draksec.policy.in.h:2
 #, fuzzy
 msgid ""
 "Authentication is required to run DrakX Application Security Configuration"
 msgstr ""
-"Moondrake Uygulama Güvenliği Yapılandırması çalıştırmak için kimlik "
+"Openmandriva Lx Uygulama Güvenliği Yapılandırması çalıştırmak için kimlik "
 "doğrulaması gerekli"
 
 #: ../polkit/org.moondrake.drakups.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX UPS Configuration"
-msgstr "Moondrake UPS Yapılandırması Çalıştır"
+msgstr "Openmandriva Lx UPS Yapılandırması Çalıştır"
 
 #: ../polkit/org.moondrake.drakups.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX UPS Configuration"
 msgstr ""
-"Moondrake UPS Yapılandırması çalıştırmak için kimlik doğrulaması gerekli"
+"Openmandriva Lx UPS Yapılandırması çalıştırmak için kimlik doğrulaması gerekli"
 
 #: ../polkit/org.moondrake.moondrakeservices.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Service Configuration"
-msgstr "Moondrake Hizmet Yapılandırması Çalıştır"
+msgstr "Openmandriva Lx Hizmet Yapılandırması Çalıştır"
 
 #: ../polkit/org.moondrake.moondrakeservices.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Service Configuration"
 msgstr ""
-"Moondrake Hizmet Yapılandırması çalıştırmak için kimlik doğrulaması gerekli"
+"Openmandriva Lx Hizmet Yapılandırması çalıştırmak için kimlik doğrulaması gerekli"
 
 #~ msgid "%s Bug Report Tool"
 #~ msgstr "%s Hata Bildirme Aracı"
@@ -3593,117 +3593,117 @@ msgstr ""
 #~ msgstr "%s Araçları Günlük Kayıtları"
 
 #~ msgid ""
-#~ "Authentication is required to run Moondrake Application Security "
+#~ "Authentication is required to run Openmandriva Lx Application Security "
 #~ "Configuration"
 #~ msgstr ""
-#~ "Moondrake Uygulama Güvenliği Yapılandırması çalıştırmak için kimlik "
+#~ "Openmandriva Lx Uygulama Güvenliği Yapılandırması çalıştırmak için kimlik "
 #~ "doğrulaması gerekli"
 
 #~ msgid ""
-#~ "Authentication is required to run Moondrake Authentication Configuration"
+#~ "Authentication is required to run Openmandriva Lx Authentication Configuration"
 #~ msgstr ""
-#~ "Moondrake Kimlik Doğrulama Yapılandırması çalıştırmak için kimlik "
+#~ "Openmandriva Lx Kimlik Doğrulama Yapılandırması çalıştırmak için kimlik "
 #~ "doğrulama gerekli"
 
-#~ msgid "Authentication is required to run Moondrake Boot Configuration"
+#~ msgid "Authentication is required to run Openmandriva Lx Boot Configuration"
 #~ msgstr ""
-#~ "Moondrake Önyükleme Yapılandırması çalıştırmak için kimlik doğrulaması "
+#~ "Openmandriva Lx Önyükleme Yapılandırması çalıştırmak için kimlik doğrulaması "
 #~ "gerekli"
 
 #~ msgid ""
-#~ "Authentication is required to run Moondrake Date and Time Configuration"
+#~ "Authentication is required to run Openmandriva Lx Date and Time Configuration"
 #~ msgstr ""
-#~ "Moondrake Tarih ve Saat Yapılandırması çalıştırmak için kimlik doğrulama "
+#~ "Openmandriva Lx Tarih ve Saat Yapılandırması çalıştırmak için kimlik doğrulama "
 #~ "gerekli"
 
-#~ msgid "Authentication is required to run Moondrake Disk Layout Editor"
+#~ msgid "Authentication is required to run Openmandriva Lx Disk Layout Editor"
 #~ msgstr ""
-#~ "Moondrake Disk Yerleşimi Düzenleyici' yi çalıştırmak için kimlik "
+#~ "Openmandriva Lx Disk Yerleşimi Düzenleyici' yi çalıştırmak için kimlik "
 #~ "doğrulama gerekli"
 
-#~ msgid "Authentication is required to run Moondrake Font Configuration"
+#~ msgid "Authentication is required to run Openmandriva Lx Font Configuration"
 #~ msgstr ""
-#~ "Moondrake Yazıtipi Yapılandırması çalıştırmak için kimlik doğrulaması "
+#~ "Openmandriva Lx Yazıtipi Yapılandırması çalıştırmak için kimlik doğrulaması "
 #~ "gerekli"
 
-#~ msgid "Authentication is required to run Moondrake Hardware Configuration"
+#~ msgid "Authentication is required to run Openmandriva Lx Hardware Configuration"
 #~ msgstr ""
-#~ "Moondrake Donanım Yapılandırması çalıştırmak için kimlik doğrulaması "
+#~ "Openmandriva Lx Donanım Yapılandırması çalıştırmak için kimlik doğrulaması "
 #~ "gerekli"
 
-#~ msgid "Authentication is required to run Moondrake Log Viewer"
+#~ msgid "Authentication is required to run Openmandriva Lx Log Viewer"
 #~ msgstr ""
-#~ "Moondrake Günlük Kaydı Görüntüleyici' yi çalıştırmak için kimlik "
+#~ "Openmandriva Lx Günlük Kaydı Görüntüleyici' yi çalıştırmak için kimlik "
 #~ "doğrulama gerekli"
 
 #~ msgid ""
-#~ "Authentication is required to run Moondrake Login Manager Configuration"
+#~ "Authentication is required to run Openmandriva Lx Login Manager Configuration"
 #~ msgstr ""
-#~ "Moondrake Giriş Yöneticisi Yapılandırması çalıştırmak için kimlik "
+#~ "Openmandriva Lx Giriş Yöneticisi Yapılandırması çalıştırmak için kimlik "
 #~ "doğrulaması gerekli"
 
-#~ msgid "Authentication is required to run Moondrake Scanner Configuration"
+#~ msgid "Authentication is required to run Openmandriva Lx Scanner Configuration"
 #~ msgstr ""
-#~ "Moondrake Tarayıcı Yapılandırması çalıştırmak için kimlik doğrulaması "
+#~ "Openmandriva Lx Tarayıcı Yapılandırması çalıştırmak için kimlik doğrulaması "
 #~ "gerekli"
 
 #~ msgid ""
-#~ "Authentication is required to run Moondrake Security Permissions "
+#~ "Authentication is required to run Openmandriva Lx Security Permissions "
 #~ "Configuration"
 #~ msgstr ""
-#~ "Moondrake Güvenlik İzinleri Yapılandırması çalıştırmak için kimlik "
+#~ "Openmandriva Lx Güvenlik İzinleri Yapılandırması çalıştırmak için kimlik "
 #~ "doğrulama gerekli"
 
-#~ msgid "Authentication is required to run Moondrake Service Configuration"
+#~ msgid "Authentication is required to run Openmandriva Lx Service Configuration"
 #~ msgstr ""
-#~ "Moondrake Hizmet Yapılandırması çalıştırmak için kimlik doğrulaması "
+#~ "Openmandriva Lx Hizmet Yapılandırması çalıştırmak için kimlik doğrulaması "
 #~ "gerekli"
 
-#~ msgid "Authentication is required to run Moondrake UPS Configuration"
+#~ msgid "Authentication is required to run Openmandriva Lx UPS Configuration"
 #~ msgstr ""
-#~ "Moondrake UPS Yapılandırması çalıştırmak için kimlik doğrulaması gerekli"
+#~ "Openmandriva Lx UPS Yapılandırması çalıştırmak için kimlik doğrulaması gerekli"
 
 #~ msgid "Configure authentication required to access %s tools"
 #~ msgstr "%s araçlarına erişim için gereken kimlik doğrulamayı yapılandırın"
 
-#~ msgid "Run Moondrake Application Security Configuration"
-#~ msgstr "Moondrake Uygulama Güvenliği Yapılandırması Çalıştır"
+#~ msgid "Run Openmandriva Lx Application Security Configuration"
+#~ msgstr "Openmandriva Lx Uygulama Güvenliği Yapılandırması Çalıştır"
 
-#~ msgid "Run Moondrake Authentication Configuration"
-#~ msgstr "Moondrake Kimlik Doğrulama Yapılandırması Çalıştır"
+#~ msgid "Run Openmandriva Lx Authentication Configuration"
+#~ msgstr "Openmandriva Lx Kimlik Doğrulama Yapılandırması Çalıştır"
 
-#~ msgid "Run Moondrake Boot Configuration"
-#~ msgstr "Moondrake Önyükleme Yapılandırması Çalıştır"
+#~ msgid "Run Openmandriva Lx Boot Configuration"
+#~ msgstr "Openmandriva Lx Önyükleme Yapılandırması Çalıştır"
 
-#~ msgid "Run Moondrake Date and Time Configuration"
-#~ msgstr "Moondrake Tarih ve Saat Yapılandırma Çalıştır"
+#~ msgid "Run Openmandriva Lx Date and Time Configuration"
+#~ msgstr "Openmandriva Lx Tarih ve Saat Yapılandırma Çalıştır"
 
-#~ msgid "Run Moondrake Disk Layout Editor"
-#~ msgstr "Moondrake Disk Yerleşimi Düzenleyici Çalıştır"
+#~ msgid "Run Openmandriva Lx Disk Layout Editor"
+#~ msgstr "Openmandriva Lx Disk Yerleşimi Düzenleyici Çalıştır"
 
-#~ msgid "Run Moondrake Font Configuration"
-#~ msgstr "Moondrake Yazıtipi Yapılandırması Çalıştır"
+#~ msgid "Run Openmandriva Lx Font Configuration"
+#~ msgstr "Openmandriva Lx Yazıtipi Yapılandırması Çalıştır"
 
-#~ msgid "Run Moondrake Hardware Configuration"
-#~ msgstr "Moondrake Donanım Yapılandırması Çalıştır"
+#~ msgid "Run Openmandriva Lx Hardware Configuration"
+#~ msgstr "Openmandriva Lx Donanım Yapılandırması Çalıştır"
 
-#~ msgid "Run Moondrake Log Viewer"
-#~ msgstr "Moondrake Günlük Kaydı Görüntüleyici Çalıştır"
+#~ msgid "Run Openmandriva Lx Log Viewer"
+#~ msgstr "Openmandriva Lx Günlük Kaydı Görüntüleyici Çalıştır"
 
-#~ msgid "Run Moondrake Login Manager Configuration"
-#~ msgstr "Moondrake Giriş Yöneticisi Yapılandırma Çalıştır"
+#~ msgid "Run Openmandriva Lx Login Manager Configuration"
+#~ msgstr "Openmandriva Lx Giriş Yöneticisi Yapılandırma Çalıştır"
 
-#~ msgid "Run Moondrake Scanner Configuration"
-#~ msgstr "Moondrake Tarayıcı Yapılandırması Çalıştır"
+#~ msgid "Run Openmandriva Lx Scanner Configuration"
+#~ msgstr "Openmandriva Lx Tarayıcı Yapılandırması Çalıştır"
 
-#~ msgid "Run Moondrake Security Permissions Configuration"
-#~ msgstr "Moondrake Güvenlik İzinleri Yapılandırması Çalıştır"
+#~ msgid "Run Openmandriva Lx Security Permissions Configuration"
+#~ msgstr "Openmandriva Lx Güvenlik İzinleri Yapılandırması Çalıştır"
 
-#~ msgid "Run Moondrake Service Configuration"
-#~ msgstr "Moondrake Hizmet Yapılandırması Çalıştır"
+#~ msgid "Run Openmandriva Lx Service Configuration"
+#~ msgstr "Openmandriva Lx Hizmet Yapılandırması Çalıştır"
 
-#~ msgid "Run Moondrake UPS Configuration"
-#~ msgstr "Moondrake UPS Yapılandırması Çalıştır"
+#~ msgid "Run Openmandriva Lx UPS Configuration"
+#~ msgstr "Openmandriva Lx UPS Yapılandırması Çalıştır"
 
 #~ msgid "  --help                - display this help     \n"
 #~ msgstr "  --help                - bu yardımı görüntüle   \n"
@@ -3711,7 +3711,7 @@ msgstr ""
 #~ msgid ""
 #~ " drakhelp 0.1\n"
 #~ "Copyright (C) %s Mandriva.\n"
-#~ "Copyright (C) %s Moondrake.\n"
+#~ "Copyright (C) %s Openmandriva Lx.\n"
 #~ "This is free software and may be redistributed under the terms of the GNU "
 #~ "GPL.\n"
 #~ "\n"
@@ -3719,7 +3719,7 @@ msgstr ""
 #~ msgstr ""
 #~ "drakhelp 0.1\n"
 #~ "Copyright (C) %s Mandriva.\n"
-#~ "Copyright (C) %s Moondrake.\n"
+#~ "Copyright (C) %s Openmandriva Lx.\n"
 #~ "Bu bir özgür yazılım olup GNU GPL koşulları altında yeniden "
 #~ "dağıtılabilirL.\n"
 #~ "\n"
@@ -3921,8 +3921,8 @@ msgstr ""
 #~ msgid "Mandriva Update"
 #~ msgstr "Mandriva Güncelleme"
 
-#~ msgid "Moondrake"
-#~ msgstr "Moondrake"
+#~ msgid "Openmandriva Lx"
+#~ msgstr "Openmandriva Lx"
 
 #~ msgid ""
 #~ "No Sound Card has been detected on your machine. Please verify that a "

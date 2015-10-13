@@ -2101,7 +2101,7 @@ sub ensure_pkg_is_installed {
     if (member($main_method, qw(grub grub2 lilo))) {
 	$do_pkgs->ensure_binary_is_installed($pkg{$main_method} || $main_method, $h{$main_method} || $main_method, 1) or return 0;
 	if ($bootloader->{method} eq 'grub-graphic') {
-	    $do_pkgs->ensure_is_installed('mandriva-gfxboot-theme', '/usr/share/gfxboot/themes/Moondrake/boot/message', 1) or return 0;
+	    $do_pkgs->ensure_is_installed('mandriva-gfxboot-theme', '/usr/share/gfxboot/themes/Openmandriva Lx/boot/message', 1) or return 0;
 	}
     }
     1;

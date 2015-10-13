@@ -67,7 +67,7 @@ msgstr ""
 #: ../../advertising/MandrivaOne-advert-7.pl:1
 #: ../../advertising/MandrivaOne-advert-8.pl:1
 #, c-format
-msgid "Moondrake GNU/Linux 2013 Beta (Twelve Angry Penguins)"
+msgid "Openmandriva Lx GNU/Linux 2013 Beta (Twelve Angry Penguins)"
 msgstr ""
 
 #: ../../advertising/MandrivaOne-advert-9.pl:1
@@ -827,7 +827,7 @@ msgstr "Unelte de supraveghere, evidența proceselor, tcpdump, nmap, ..."
 #: share/meta-task/compssUsers.pl:235
 #, fuzzy, c-format
 msgid "DrakX Wizards"
-msgstr "Asistenții Moondrake"
+msgstr "Asistenții Openmandriva Lx"
 
 #: share/meta-task/compssUsers.pl:236
 #, c-format
@@ -1683,8 +1683,8 @@ msgstr "Ieșire"
 #~ msgid "LXQT Desktop"
 #~ msgstr "Birou LXQT"
 
-#~ msgid "Moondrake Wizards"
-#~ msgstr "Asistenții Moondrake"
+#~ msgid "Openmandriva Lx Wizards"
+#~ msgstr "Asistenții Openmandriva Lx"
 
 #~ msgid "Plasma Desktop"
 #~ msgstr "Birou Plasma"
@@ -1769,7 +1769,7 @@ msgstr "Ieșire"
 #~ "Warning : you should backup all your personal data before choosing \"New\n"
 #~ "Installation\"."
 #~ msgstr ""
-#~ "Instalatorul a detectat că sistemul Moondrake Linux instalat actual nu va "
+#~ "Instalatorul a detectat că sistemul Openmandriva Lx Linux instalat actual nu va "
 #~ "putea\n"
 #~ "fi actualizat în siguranță la %s.\n"
 #~ "\n"

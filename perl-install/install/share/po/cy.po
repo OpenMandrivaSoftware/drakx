@@ -30,7 +30,7 @@ msgstr ""
 #: ../../advertising/MandrivaOne-advert-7.pl:1
 #: ../../advertising/MandrivaOne-advert-8.pl:1
 #, c-format
-msgid "Moondrake GNU/Linux 2013 Beta (Twelve Angry Penguins)"
+msgid "Openmandriva Lx GNU/Linux 2013 Beta (Twelve Angry Penguins)"
 msgstr ""
 
 #: ../../advertising/MandrivaOne-advert-9.pl:1
@@ -786,7 +786,7 @@ msgstr "Offer monitro, cyfrifo prosesau, tcpdunp, nmap..."
 #: share/meta-task/compssUsers.pl:235
 #, fuzzy, c-format
 msgid "DrakX Wizards"
-msgstr "Dewiniaid Moondrake"
+msgstr "Dewiniaid Openmandriva Lx"
 
 #: share/meta-task/compssUsers.pl:236
 #, c-format
@@ -1637,8 +1637,8 @@ msgstr "Gorffen"
 #~ msgid "LXQT Desktop"
 #~ msgstr "Bwrdd Gwaith LXDE"
 
-#~ msgid "Moondrake Wizards"
-#~ msgstr "Dewiniaid Moondrake"
+#~ msgid "Openmandriva Lx Wizards"
+#~ msgstr "Dewiniaid Openmandriva Lx"
 
 #, fuzzy
 #~ msgid "Plasma Desktop"
@@ -1669,8 +1669,8 @@ msgstr "Gorffen"
 #~ msgid "A full OpenMandriva Lx desktop, with support"
 #~ msgstr "Bwrdd gwaith OpenMandriva Lx llawn, gyda chefnogaeth"
 
-#~ msgid "A full Moondrake desktop, with support"
-#~ msgstr "Bwrdd gwaith Moondrake llawn, gyda chefnogaeth"
+#~ msgid "A full Openmandriva Lx desktop, with support"
+#~ msgstr "Bwrdd gwaith Openmandriva Lx llawn, gyda chefnogaeth"
 
 #, fuzzy
 #~ msgid "A graphical environment based on GNOME"
@@ -1755,8 +1755,8 @@ msgstr "Gorffen"
 #~ msgid "Explore Linux easily with Mandriva One"
 #~ msgstr "Arbrofi rhwydd gyda Mandriva One"
 
-#~ msgid "Explore Linux easily with Moondrake One"
-#~ msgstr "Arbrofi rhwydd gyda Moondrake One"
+#~ msgid "Explore Linux easily with Openmandriva Lx One"
+#~ msgstr "Arbrofi rhwydd gyda Openmandriva Lx One"
 
 #~ msgid "Flatout"
 #~ msgstr "Flatout"
@@ -1793,7 +1793,7 @@ msgstr "Gorffen"
 #~ "Installation\"."
 #~ msgstr ""
 #~ "Mae'r gosodwr wedi canfod nad yw hi'n ddiogel diweddaru eich system \n"
-#~ "Moondrake i %s.\n"
+#~ "Openmandriva Lx i %s.\n"
 #~ "\n"
 #~ "Mae gosod o'r newydd yn cael ei argymell.\n"
 #~ "\n"
@@ -1832,8 +1832,8 @@ msgstr "Gorffen"
 #~ msgid "Mandriva: distributions for everybody's needs"
 #~ msgstr "Mandriva: dosbarthiad ar gyfer angen pawb"
 
-#~ msgid "Moondrake: distributions for everybody's needs"
-#~ msgstr "Moondrake: dosbarthiad ar gyfer angen pawb"
+#~ msgid "Openmandriva Lx: distributions for everybody's needs"
+#~ msgstr "Openmandriva Lx: dosbarthiad ar gyfer angen pawb"
 
 #~ msgid "Networking"
 #~ msgstr "Rhwydweithio"
@@ -1909,8 +1909,8 @@ msgstr "Gorffen"
 #~ msgid "The 100%% open source Mandriva Linux distribution"
 #~ msgstr "Mandriva Linux - y dosbarthiad cod agored 100%%"
 
-#~ msgid "The 100%% open source Moondrake distribution"
-#~ msgstr "Moondrake - y dosbarthiad cod agored 100%%"
+#~ msgid "The 100%% open source Openmandriva Lx distribution"
+#~ msgstr "Openmandriva Lx - y dosbarthiad cod agored 100%%"
 
 #~ msgid ""
 #~ "The auto install can be fully automated if wanted,\n"

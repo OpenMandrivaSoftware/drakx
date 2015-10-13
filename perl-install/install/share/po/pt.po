@@ -17,7 +17,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-18 12:31+0100\n"
 "PO-Revision-Date: 2011-06-16 14:59+0100\n"
-"Last-Translator: Zé <ze@mageia.org>\n"
+"Last-Translator: Zé <ze@openmandriva.org>\n"
 "Language-Team: Portuguese <>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
@@ -35,7 +35,7 @@ msgstr ""
 #: ../../advertising/MandrivaOne-advert-7.pl:1
 #: ../../advertising/MandrivaOne-advert-8.pl:1
 #, c-format
-msgid "Moondrake GNU/Linux 2013 Beta (Twelve Angry Penguins)"
+msgid "Openmandriva Lx GNU/Linux 2013 Beta (Twelve Angry Penguins)"
 msgstr ""
 
 #: ../../advertising/MandrivaOne-advert-9.pl:1
@@ -794,7 +794,7 @@ msgstr ""
 #: share/meta-task/compssUsers.pl:235
 #, fuzzy, c-format
 msgid "DrakX Wizards"
-msgstr "Assistentes Moondrake"
+msgstr "Assistentes Openmandriva Lx"
 
 #: share/meta-task/compssUsers.pl:236
 #, c-format
@@ -1646,8 +1646,8 @@ msgstr "Sair"
 #~ msgid "LXQT Desktop"
 #~ msgstr "Ecrâ LXDE"
 
-#~ msgid "Moondrake Wizards"
-#~ msgstr "Assistentes Moondrake"
+#~ msgid "Openmandriva Lx Wizards"
+#~ msgstr "Assistentes Openmandriva Lx"
 
 #, fuzzy
 #~ msgid "Plasma Desktop"
@@ -1664,8 +1664,8 @@ msgstr "Sair"
 #~ msgid "A full Mandriva Linux desktop, with support"
 #~ msgstr "Um ecrã Mandriva Linux completo, com suporte"
 
-#~ msgid "A full Moondrake desktop, with support"
-#~ msgstr "Um ecrã Moondrake completo, com suporte"
+#~ msgid "A full Openmandriva Lx desktop, with support"
+#~ msgstr "Um ecrã Openmandriva Lx completo, com suporte"
 
 #, fuzzy
 #~ msgid "A graphical environment based on GNOME"
@@ -1696,8 +1696,8 @@ msgstr "Sair"
 #~ msgid "Explore Linux easily with Mandriva One"
 #~ msgstr "Explore o Linux facilmente com o Mandriva One"
 
-#~ msgid "Explore Linux easily with Moondrake One"
-#~ msgstr "Explore o Linux facilmente com o Moondrake One"
+#~ msgid "Explore Linux easily with Openmandriva Lx One"
+#~ msgstr "Explore o Linux facilmente com o Openmandriva Lx One"
 
 #~ msgid "For contributors"
 #~ msgstr "Para contribuidores"
@@ -1749,12 +1749,12 @@ msgstr "Sair"
 #~ msgstr ""
 #~ "Mandriva: distribuições para as necessidades de todos os utilizadores"
 
-#~ msgid "Moondrake, the new Linux distribution"
-#~ msgstr "Moondrake, a nova distribuição Linux"
+#~ msgid "Openmandriva Lx, the new Linux distribution"
+#~ msgstr "Openmandriva Lx, a nova distribuição Linux"
 
-#~ msgid "Moondrake: distributions for everybody's needs"
+#~ msgid "Openmandriva Lx: distributions for everybody's needs"
 #~ msgstr ""
-#~ "Moondrake: distribuições para as necessidades de todos os utilizadores"
+#~ "Openmandriva Lx: distribuições para as necessidades de todos os utilizadores"
 
 #~ msgid ""
 #~ "No free space for 1MB bootstrap! Install will continue, but to boot your "
@@ -1810,8 +1810,8 @@ msgstr "Sair"
 #~ msgid "The 100%% open source Mandriva Linux distribution"
 #~ msgstr "A distribuição Mandriva Linux 100%% código livre"
 
-#~ msgid "The 100%% open source Moondrake distribution"
-#~ msgstr "A distribuição Moondrake 100%% código livre"
+#~ msgid "The 100%% open source Openmandriva Lx distribution"
+#~ msgstr "A distribuição Openmandriva Lx 100%% código livre"
 
 #, fuzzy
 #~ msgid "This medium provides package updates for medium \"%s\""

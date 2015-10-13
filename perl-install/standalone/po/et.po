@@ -702,7 +702,7 @@ msgstr "Fondipaigaldaja."
 
 #: drakfont:527
 #, fuzzy, c-format
-msgid "Moondrake GNU/Linux"
+msgid "Openmandriva Lx GNU/Linux"
 msgstr "Mandriva Linux"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
@@ -3422,134 +3422,134 @@ msgstr "Keele ja riigi seadistamine"
 #: ../polkit/org.moondrake.drakauth.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Authentication Configuration"
-msgstr "Moondrake autentimise seadistamise käivitamine"
+msgstr "Openmandriva Lx autentimise seadistamise käivitamine"
 
 #: ../polkit/org.moondrake.drakauth.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Authentication Configuration"
-msgstr "Moondrake autentimise seadistamine nõuab autentimist"
+msgstr "Openmandriva Lx autentimise seadistamine nõuab autentimist"
 
 #: ../polkit/org.moondrake.drakboot.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Boot Configuration"
-msgstr "Moondrake alglaadimise seadistamise käivitamine"
+msgstr "Openmandriva Lx alglaadimise seadistamise käivitamine"
 
 #: ../polkit/org.moondrake.drakboot.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Boot Configuration"
-msgstr "Moondrake alglaadimise seadistamine nõuab autentimist"
+msgstr "Openmandriva Lx alglaadimise seadistamine nõuab autentimist"
 
 #: ../polkit/org.moondrake.drakclock.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Date and Time Configuration"
-msgstr "Moondrake kuupäeva ja kellaaja seadistamise käivitamine"
+msgstr "Openmandriva Lx kuupäeva ja kellaaja seadistamise käivitamine"
 
 #: ../polkit/org.moondrake.drakclock.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Date and Time Configuration"
-msgstr "Moondrake kuupäeva ja kellaaja seadistamine nõuab autentimist"
+msgstr "Openmandriva Lx kuupäeva ja kellaaja seadistamine nõuab autentimist"
 
 #: ../polkit/org.moondrake.drakdisk.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Disk Layout Editor"
-msgstr "Moondrake kettajagamise programmi käivitamine"
+msgstr "Openmandriva Lx kettajagamise programmi käivitamine"
 
 #: ../polkit/org.moondrake.drakdisk.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Disk Layout Editor"
-msgstr "Moondrake kettajagamise programm nõuab autentimist"
+msgstr "Openmandriva Lx kettajagamise programm nõuab autentimist"
 
 #: ../polkit/org.moondrake.drakdm.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Login Manager Configuration"
-msgstr "Moondrake sisselogimishalduri seadistamise käivitamine"
+msgstr "Openmandriva Lx sisselogimishalduri seadistamise käivitamine"
 
 #: ../polkit/org.moondrake.drakdm.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Login Manager Configuration"
-msgstr "Moondrake sisselogimishalduri seadistamine nõuab autentimist"
+msgstr "Openmandriva Lx sisselogimishalduri seadistamine nõuab autentimist"
 
 #: ../polkit/org.moondrake.drakfont.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Font Configuration"
-msgstr "Moondrake fontide seadistamise käivitamine"
+msgstr "Openmandriva Lx fontide seadistamise käivitamine"
 
 #: ../polkit/org.moondrake.drakfont.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Font Configuration"
-msgstr "Moondrake fontide seadistamine nõuab autentimist"
+msgstr "Openmandriva Lx fontide seadistamine nõuab autentimist"
 
 #: ../polkit/org.moondrake.drakhardware.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Hardware Configuration"
-msgstr "Moondrake riistvara seadistamise käivitamine"
+msgstr "Openmandriva Lx riistvara seadistamise käivitamine"
 
 #: ../polkit/org.moondrake.drakhardware.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Hardware Configuration"
-msgstr "Moondrake riistvara seadistamine nõuab autentimist"
+msgstr "Openmandriva Lx riistvara seadistamine nõuab autentimist"
 
 #: ../polkit/org.moondrake.draklog.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Log Viewer"
-msgstr "Moondrake loginäitaja käivitamine"
+msgstr "Openmandriva Lx loginäitaja käivitamine"
 
 #: ../polkit/org.moondrake.draklog.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Log Viewer"
-msgstr "Moondrake loginäitaja käivitamine nõuab autentimist"
+msgstr "Openmandriva Lx loginäitaja käivitamine nõuab autentimist"
 
 #: ../polkit/org.moondrake.drakperm.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Security Permissions Configuration"
-msgstr "Moondrake turbeõiguste seadistamise käivitamine"
+msgstr "Openmandriva Lx turbeõiguste seadistamise käivitamine"
 
 #: ../polkit/org.moondrake.drakperm.policy.in.h:2
 #, fuzzy
 msgid ""
 "Authentication is required to run DrakX Security Permissions Configuration"
-msgstr "Moondrake turbeõiguste seadistamine nõuab autentimist"
+msgstr "Openmandriva Lx turbeõiguste seadistamine nõuab autentimist"
 
 #: ../polkit/org.moondrake.drakscanner.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Scanner Configuration"
-msgstr "Moondrake skanneri seadistamise käivitamine"
+msgstr "Openmandriva Lx skanneri seadistamise käivitamine"
 
 #: ../polkit/org.moondrake.drakscanner.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Scanner Configuration"
-msgstr "Moondrake skanneri seadistamine nõuab autentimist"
+msgstr "Openmandriva Lx skanneri seadistamine nõuab autentimist"
 
 #: ../polkit/org.moondrake.draksec.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Application Security Configuration"
-msgstr "Moondrake rakenduste turbe seadistamise käivitamine"
+msgstr "Openmandriva Lx rakenduste turbe seadistamise käivitamine"
 
 #: ../polkit/org.moondrake.draksec.policy.in.h:2
 #, fuzzy
 msgid ""
 "Authentication is required to run DrakX Application Security Configuration"
-msgstr "Moondrake rakenduste turbe seadistamine nõuab autentimist"
+msgstr "Openmandriva Lx rakenduste turbe seadistamine nõuab autentimist"
 
 #: ../polkit/org.moondrake.drakups.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX UPS Configuration"
-msgstr "Moondrake UPS-i seadistamise käivitamine"
+msgstr "Openmandriva Lx UPS-i seadistamise käivitamine"
 
 #: ../polkit/org.moondrake.drakups.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX UPS Configuration"
-msgstr "Moondrake UPS-i seadistamine nõuab autentimist"
+msgstr "Openmandriva Lx UPS-i seadistamine nõuab autentimist"
 
 #: ../polkit/org.moondrake.moondrakeservices.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Service Configuration"
-msgstr "Moondrake teenuste seadistamise käivitamine"
+msgstr "Openmandriva Lx teenuste seadistamise käivitamine"
 
 #: ../polkit/org.moondrake.moondrakeservices.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Service Configuration"
-msgstr "Moondrake teenuste seadistamine nõuab autentimist"
+msgstr "Openmandriva Lx teenuste seadistamine nõuab autentimist"
 
 #~ msgid "%s Bug Report Tool"
 #~ msgstr "%s vigadest teatamise tööriist"
@@ -3558,92 +3558,92 @@ msgstr "Moondrake teenuste seadistamine nõuab autentimist"
 #~ msgstr "%s tööriistade logid"
 
 #~ msgid ""
-#~ "Authentication is required to run Moondrake Application Security "
+#~ "Authentication is required to run Openmandriva Lx Application Security "
 #~ "Configuration"
-#~ msgstr "Moondrake rakenduste turbe seadistamine nõuab autentimist"
+#~ msgstr "Openmandriva Lx rakenduste turbe seadistamine nõuab autentimist"
 
 #~ msgid ""
-#~ "Authentication is required to run Moondrake Authentication Configuration"
-#~ msgstr "Moondrake autentimise seadistamine nõuab autentimist"
+#~ "Authentication is required to run Openmandriva Lx Authentication Configuration"
+#~ msgstr "Openmandriva Lx autentimise seadistamine nõuab autentimist"
 
-#~ msgid "Authentication is required to run Moondrake Boot Configuration"
-#~ msgstr "Moondrake alglaadimise seadistamine nõuab autentimist"
-
-#~ msgid ""
-#~ "Authentication is required to run Moondrake Date and Time Configuration"
-#~ msgstr "Moondrake kuupäeva ja kellaaja seadistamine nõuab autentimist"
-
-#~ msgid "Authentication is required to run Moondrake Disk Layout Editor"
-#~ msgstr "Moondrake kettajagamise programm nõuab autentimist"
-
-#~ msgid "Authentication is required to run Moondrake Font Configuration"
-#~ msgstr "Moondrake fontide seadistamine nõuab autentimist"
-
-#~ msgid "Authentication is required to run Moondrake Hardware Configuration"
-#~ msgstr "Moondrake riistvara seadistamine nõuab autentimist"
-
-#~ msgid "Authentication is required to run Moondrake Log Viewer"
-#~ msgstr "Moondrake loginäitaja käivitamine nõuab autentimist"
+#~ msgid "Authentication is required to run Openmandriva Lx Boot Configuration"
+#~ msgstr "Openmandriva Lx alglaadimise seadistamine nõuab autentimist"
 
 #~ msgid ""
-#~ "Authentication is required to run Moondrake Login Manager Configuration"
-#~ msgstr "Moondrake sisselogimishalduri seadistamine nõuab autentimist"
+#~ "Authentication is required to run Openmandriva Lx Date and Time Configuration"
+#~ msgstr "Openmandriva Lx kuupäeva ja kellaaja seadistamine nõuab autentimist"
 
-#~ msgid "Authentication is required to run Moondrake Scanner Configuration"
-#~ msgstr "Moondrake skanneri seadistamine nõuab autentimist"
+#~ msgid "Authentication is required to run Openmandriva Lx Disk Layout Editor"
+#~ msgstr "Openmandriva Lx kettajagamise programm nõuab autentimist"
+
+#~ msgid "Authentication is required to run Openmandriva Lx Font Configuration"
+#~ msgstr "Openmandriva Lx fontide seadistamine nõuab autentimist"
+
+#~ msgid "Authentication is required to run Openmandriva Lx Hardware Configuration"
+#~ msgstr "Openmandriva Lx riistvara seadistamine nõuab autentimist"
+
+#~ msgid "Authentication is required to run Openmandriva Lx Log Viewer"
+#~ msgstr "Openmandriva Lx loginäitaja käivitamine nõuab autentimist"
 
 #~ msgid ""
-#~ "Authentication is required to run Moondrake Security Permissions "
+#~ "Authentication is required to run Openmandriva Lx Login Manager Configuration"
+#~ msgstr "Openmandriva Lx sisselogimishalduri seadistamine nõuab autentimist"
+
+#~ msgid "Authentication is required to run Openmandriva Lx Scanner Configuration"
+#~ msgstr "Openmandriva Lx skanneri seadistamine nõuab autentimist"
+
+#~ msgid ""
+#~ "Authentication is required to run Openmandriva Lx Security Permissions "
 #~ "Configuration"
-#~ msgstr "Moondrake turbeõiguste seadistamine nõuab autentimist"
+#~ msgstr "Openmandriva Lx turbeõiguste seadistamine nõuab autentimist"
 
-#~ msgid "Authentication is required to run Moondrake Service Configuration"
-#~ msgstr "Moondrake teenuste seadistamine nõuab autentimist"
+#~ msgid "Authentication is required to run Openmandriva Lx Service Configuration"
+#~ msgstr "Openmandriva Lx teenuste seadistamine nõuab autentimist"
 
-#~ msgid "Authentication is required to run Moondrake UPS Configuration"
-#~ msgstr "Moondrake UPS-i seadistamine nõuab autentimist"
+#~ msgid "Authentication is required to run Openmandriva Lx UPS Configuration"
+#~ msgstr "Openmandriva Lx UPS-i seadistamine nõuab autentimist"
 
 #~ msgid "Configure authentication required to access %s tools"
 #~ msgstr "Autentimise seadistamine %s tööriistade kasutamiseks"
 
-#~ msgid "Run Moondrake Application Security Configuration"
-#~ msgstr "Moondrake rakenduste turbe seadistamise käivitamine"
+#~ msgid "Run Openmandriva Lx Application Security Configuration"
+#~ msgstr "Openmandriva Lx rakenduste turbe seadistamise käivitamine"
 
-#~ msgid "Run Moondrake Authentication Configuration"
-#~ msgstr "Moondrake autentimise seadistamise käivitamine"
+#~ msgid "Run Openmandriva Lx Authentication Configuration"
+#~ msgstr "Openmandriva Lx autentimise seadistamise käivitamine"
 
-#~ msgid "Run Moondrake Boot Configuration"
-#~ msgstr "Moondrake alglaadimise seadistamise käivitamine"
+#~ msgid "Run Openmandriva Lx Boot Configuration"
+#~ msgstr "Openmandriva Lx alglaadimise seadistamise käivitamine"
 
-#~ msgid "Run Moondrake Date and Time Configuration"
-#~ msgstr "Moondrake kuupäeva ja kellaaja seadistamise käivitamine"
+#~ msgid "Run Openmandriva Lx Date and Time Configuration"
+#~ msgstr "Openmandriva Lx kuupäeva ja kellaaja seadistamise käivitamine"
 
-#~ msgid "Run Moondrake Disk Layout Editor"
-#~ msgstr "Moondrake kettajagamise programmi käivitamine"
+#~ msgid "Run Openmandriva Lx Disk Layout Editor"
+#~ msgstr "Openmandriva Lx kettajagamise programmi käivitamine"
 
-#~ msgid "Run Moondrake Font Configuration"
-#~ msgstr "Moondrake fontide seadistamise käivitamine"
+#~ msgid "Run Openmandriva Lx Font Configuration"
+#~ msgstr "Openmandriva Lx fontide seadistamise käivitamine"
 
-#~ msgid "Run Moondrake Hardware Configuration"
-#~ msgstr "Moondrake riistvara seadistamise käivitamine"
+#~ msgid "Run Openmandriva Lx Hardware Configuration"
+#~ msgstr "Openmandriva Lx riistvara seadistamise käivitamine"
 
-#~ msgid "Run Moondrake Log Viewer"
-#~ msgstr "Moondrake loginäitaja käivitamine"
+#~ msgid "Run Openmandriva Lx Log Viewer"
+#~ msgstr "Openmandriva Lx loginäitaja käivitamine"
 
-#~ msgid "Run Moondrake Login Manager Configuration"
-#~ msgstr "Moondrake sisselogimishalduri seadistamise käivitamine"
+#~ msgid "Run Openmandriva Lx Login Manager Configuration"
+#~ msgstr "Openmandriva Lx sisselogimishalduri seadistamise käivitamine"
 
-#~ msgid "Run Moondrake Scanner Configuration"
-#~ msgstr "Moondrake skanneri seadistamise käivitamine"
+#~ msgid "Run Openmandriva Lx Scanner Configuration"
+#~ msgstr "Openmandriva Lx skanneri seadistamise käivitamine"
 
-#~ msgid "Run Moondrake Security Permissions Configuration"
-#~ msgstr "Moondrake turbeõiguste seadistamise käivitamine"
+#~ msgid "Run Openmandriva Lx Security Permissions Configuration"
+#~ msgstr "Openmandriva Lx turbeõiguste seadistamise käivitamine"
 
-#~ msgid "Run Moondrake Service Configuration"
-#~ msgstr "Moondrake teenuste seadistamise käivitamine"
+#~ msgid "Run Openmandriva Lx Service Configuration"
+#~ msgstr "Openmandriva Lx teenuste seadistamise käivitamine"
 
-#~ msgid "Run Moondrake UPS Configuration"
-#~ msgstr "Moondrake UPS-i seadistamise käivitamine"
+#~ msgid "Run Openmandriva Lx UPS Configuration"
+#~ msgstr "Openmandriva Lx UPS-i seadistamise käivitamine"
 
 #~ msgid ""
 #~ "\n"
@@ -3663,7 +3663,7 @@ msgstr "Moondrake teenuste seadistamine nõuab autentimist"
 #~ msgid ""
 #~ " drakhelp 0.1\n"
 #~ "Copyright (C) %s Mandriva.\n"
-#~ "Copyright (C) %s Moondrake.\n"
+#~ "Copyright (C) %s Openmandriva Lx.\n"
 #~ "This is free software and may be redistributed under the terms of the GNU "
 #~ "GPL.\n"
 #~ "\n"
@@ -3671,7 +3671,7 @@ msgstr "Moondrake teenuste seadistamine nõuab autentimist"
 #~ msgstr ""
 #~ " drakhelp 0.1\n"
 #~ "Autoriõigus © %s: Mandriva.\n"
-#~ "Autoriõigus © %s: Moondrake.\n"
+#~ "Autoriõigus © %s: Openmandriva Lx.\n"
 #~ "See on vaba tarkvara, mida võib levitada vastavalt GNU Üldise Avaliku "
 #~ "Litsentsi tingimustele.\n"
 #~ "\n"
@@ -4020,8 +4020,8 @@ msgstr "Moondrake teenuste seadistamine nõuab autentimist"
 #~ msgid "Mandriva Update"
 #~ msgstr "Mandriva Update"
 
-#~ msgid "Moondrake"
-#~ msgstr "Moondrake"
+#~ msgid "Openmandriva Lx"
+#~ msgstr "Openmandriva Lx"
 
 #~ msgid "Network Options"
 #~ msgstr "Võrguparameetrid"

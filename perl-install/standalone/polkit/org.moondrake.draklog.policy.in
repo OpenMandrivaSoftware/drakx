@@ -4,8 +4,8 @@
 "http://www.freedesktop.org/standards/PolicyKit/1/policyconfig.dtd">
 <policyconfig>
 
- <vendor>Moondrake</vendor>
- <vendor_url>http://www.moondrake.org/</vendor_url>
+ <vendor>Openmandriva Lx</vendor>
+ <vendor_url>http://www.openmandriva.org/</vendor_url>
 
  <action id="org.moondrake.draklog.pkexec.run">
     <_description>Run DrakX Log Viewer</_description>

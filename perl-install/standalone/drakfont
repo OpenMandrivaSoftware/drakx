@@ -521,8 +521,8 @@ sub help() {
                         copyright => N("Copyright (C) %s by OpenMandriva", '2013'),
                         license => $license, wrap_license => 1,
                         comments => N("Font installer."),
-                        website => 'http://moondrake.org',
-                        website_label => N("Moondrake GNU/Linux"),
+                        website => 'http://openmandriva.org',
+                        website_label => N("Openmandriva Lx GNU/Linux"),
                         authors => [ 'Sébastien Dupont', 'Damien Chaumette', 'Thierry Vignaud <thierry.vignaud.com>' ],
                         artists => 'Hélène Durosini <ln@mandriva.com>',
                         translator_credits =>

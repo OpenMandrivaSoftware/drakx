@@ -31,7 +31,7 @@ msgstr ""
 #: ../../advertising/MandrivaOne-advert-7.pl:1
 #: ../../advertising/MandrivaOne-advert-8.pl:1
 #, c-format
-msgid "Moondrake GNU/Linux 2013 Beta (Twelve Angry Penguins)"
+msgid "Openmandriva Lx GNU/Linux 2013 Beta (Twelve Angry Penguins)"
 msgstr ""
 
 #: ../../advertising/MandrivaOne-advert-9.pl:1
@@ -1643,7 +1643,7 @@ msgstr "Izhod"
 #~ msgid "LXQT Desktop"
 #~ msgstr "Namizje LXQT"
 
-#~ msgid "Moondrake Wizards"
+#~ msgid "Openmandriva Lx Wizards"
 #~ msgstr "Magejini čarovniki"
 
 #~ msgid "Plasma Desktop"
@@ -1803,8 +1803,8 @@ msgstr "Izhod"
 #~ msgid "Mandriva: distributions for everybody's needs"
 #~ msgstr "Mandriva: distribucije za potrebe vsakogar"
 
-#~ msgid "Moondrake, the new Linux distribution"
-#~ msgstr "Moondrake, nova distribucija Linuxa"
+#~ msgid "Openmandriva Lx, the new Linux distribution"
+#~ msgstr "Openmandriva Lx, nova distribucija Linuxa"
 
 #~ msgid ""
 #~ "No free space for 1MB bootstrap! Install will continue, but to boot your "

@@ -30,7 +30,7 @@ msgstr ""
 #: ../../advertising/MandrivaOne-advert-7.pl:1
 #: ../../advertising/MandrivaOne-advert-8.pl:1
 #, c-format
-msgid "Moondrake GNU/Linux 2013 Beta (Twelve Angry Penguins)"
+msgid "Openmandriva Lx GNU/Linux 2013 Beta (Twelve Angry Penguins)"
 msgstr ""
 
 #: ../../advertising/MandrivaOne-advert-9.pl:1
@@ -779,7 +779,7 @@ msgstr "Eftirlitstól, vinna með notendur, tcpdump, nmap, ..."
 #: share/meta-task/compssUsers.pl:235
 #, fuzzy, c-format
 msgid "DrakX Wizards"
-msgstr "Moondrake Ráðgjafar"
+msgstr "Openmandriva Lx Ráðgjafar"
 
 #: share/meta-task/compssUsers.pl:236
 #, c-format
@@ -1632,8 +1632,8 @@ msgstr "Hætta"
 #~ msgid "LXQT Desktop"
 #~ msgstr "LXDE Skjáborð"
 
-#~ msgid "Moondrake Wizards"
-#~ msgstr "Moondrake Ráðgjafar"
+#~ msgid "Openmandriva Lx Wizards"
+#~ msgstr "Openmandriva Lx Ráðgjafar"
 
 #, fuzzy
 #~ msgid "Plasma Desktop"
@@ -1648,8 +1648,8 @@ msgstr "Hætta"
 #~ msgid "A full Mandriva Linux desktop, with support"
 #~ msgstr "Full Mandriva Linux vinnustöð, með þjónustu"
 
-#~ msgid "A full Moondrake desktop, with support"
-#~ msgstr "Full Moondrake vinnustöð, með þjónustu"
+#~ msgid "A full Openmandriva Lx desktop, with support"
+#~ msgstr "Full Openmandriva Lx vinnustöð, með þjónustu"
 
 #, fuzzy
 #~ msgid "A graphical environment based on GNOME"
@@ -1679,8 +1679,8 @@ msgstr "Hætta"
 #~ msgid "Explore Linux easily with Mandriva One"
 #~ msgstr "Kannaðu Linux með Mandriva One"
 
-#~ msgid "Explore Linux easily with Moondrake One"
-#~ msgstr "Kannaðu Linux með Moondrake One"
+#~ msgid "Explore Linux easily with Openmandriva Lx One"
+#~ msgstr "Kannaðu Linux með Openmandriva Lx One"
 
 #~ msgid "IDE"
 #~ msgstr "IDE"
@@ -1696,7 +1696,7 @@ msgstr "Hætta"
 #~ "Installation\"."
 #~ msgstr ""
 #~ "Uppsetningarforritið hefur ályktað að ekki sé hægt með öryggi að uppfæra "
-#~ "Moondrake kerfið þitt í %s.\n"
+#~ "Openmandriva Lx kerfið þitt í %s.\n"
 #~ "\n"
 #~ "Mælt er með að setja inn nýja uppsetningu sem kemur í stað þeirrar "
 #~ "fyrri.\n"
@@ -1717,8 +1717,8 @@ msgstr "Hætta"
 #~ msgid "Mandriva: distributions for everybody's needs"
 #~ msgstr "Mandriva: dreifingar við allra hæfi"
 
-#~ msgid "Moondrake: distributions for everybody's needs"
-#~ msgstr "Moondrake: dreifingar við allra hæfi"
+#~ msgid "Openmandriva Lx: distributions for everybody's needs"
+#~ msgstr "Openmandriva Lx: dreifingar við allra hæfi"
 
 #~ msgid ""
 #~ "No free space for 1MB bootstrap! Install will continue, but to boot your "
@@ -1773,8 +1773,8 @@ msgstr "Hætta"
 #~ msgid "The 100%% open source Mandriva Linux distribution"
 #~ msgstr "Mandriva uppsetningin með 100%% frjálsum, opnum hugbúnaði"
 
-#~ msgid "The 100%% open source Moondrake distribution"
-#~ msgstr "Moondrake uppsetningin með 100%% frjálsum, opnum hugbúnaði"
+#~ msgid "The 100%% open source Openmandriva Lx distribution"
+#~ msgstr "Openmandriva Lx uppsetningin með 100%% frjálsum, opnum hugbúnaði"
 
 #, fuzzy
 #~ msgid "This medium provides package updates for medium \"%s\""

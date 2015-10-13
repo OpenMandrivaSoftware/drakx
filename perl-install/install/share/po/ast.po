@@ -27,7 +27,7 @@ msgstr ""
 #: ../../advertising/MandrivaOne-advert-7.pl:1
 #: ../../advertising/MandrivaOne-advert-8.pl:1
 #, c-format
-msgid "Moondrake GNU/Linux 2013 Beta (Twelve Angry Penguins)"
+msgid "Openmandriva Lx GNU/Linux 2013 Beta (Twelve Angry Penguins)"
 msgstr ""
 
 #: ../../advertising/MandrivaOne-advert-9.pl:1
@@ -788,7 +788,7 @@ msgstr "Ferramientes de supervisión, control de procesos, tcpdump, nmap, ..."
 #: share/meta-task/compssUsers.pl:235
 #, fuzzy, c-format
 msgid "DrakX Wizards"
-msgstr "Asistentes de Moondrake"
+msgstr "Asistentes de Openmandriva Lx"
 
 #: share/meta-task/compssUsers.pl:236
 #, c-format
@@ -1645,8 +1645,8 @@ msgstr "Colar"
 #~ msgid "LXQT Desktop"
 #~ msgstr "Escritoriu LXDE"
 
-#~ msgid "Moondrake Wizards"
-#~ msgstr "Asistentes de Moondrake"
+#~ msgid "Openmandriva Lx Wizards"
+#~ msgstr "Asistentes de Openmandriva Lx"
 
 #, fuzzy
 #~ msgid "Plasma Desktop"
@@ -1663,8 +1663,8 @@ msgstr "Colar"
 #~ msgid "A full Mandriva Linux desktop, with support"
 #~ msgstr "Un escritoriu Mandriva Linux completu, con sofitu"
 
-#~ msgid "A full Moondrake desktop, with support"
-#~ msgstr "Un escritoriu Moondrake completu, con sofitu"
+#~ msgid "A full Openmandriva Lx desktop, with support"
+#~ msgstr "Un escritoriu Openmandriva Lx completu, con sofitu"
 
 #, fuzzy
 #~ msgid "A graphical environment based on GNOME"
@@ -1714,8 +1714,8 @@ msgstr "Colar"
 #~ msgid "Explore Linux easily with Mandriva One"
 #~ msgstr "Restola Linux con facilidá per aciu de Mandriva One"
 
-#~ msgid "Explore Linux easily with Moondrake One"
-#~ msgstr "Restola Linux con facilidá per aciu de Moondrake One"
+#~ msgid "Explore Linux easily with Openmandriva Lx One"
+#~ msgstr "Restola Linux con facilidá per aciu de Openmandriva Lx One"
 
 #~ msgid "Generate auto install floppy"
 #~ msgstr "Generar un disquete de instalación automática"
@@ -1737,7 +1737,7 @@ msgstr "Colar"
 #~ "Installation\"."
 #~ msgstr ""
 #~ "L'instalador deteutó que nun puede anovase con seguridá'l to\n"
-#~ "sistema Moondrake ya instaláu a la versión %s.\n"
+#~ "sistema Openmandriva Lx ya instaláu a la versión %s.\n"
 #~ "\n"
 #~ "Encamiéntase una instalación nueva que camude a la anterior.\n"
 #~ "\n"
@@ -1757,8 +1757,8 @@ msgstr "Colar"
 #~ msgid "Mandriva: distributions for everybody's needs"
 #~ msgstr "Mandriva: distribuciones pa les necesidaes de toos"
 
-#~ msgid "Moondrake: distributions for everybody's needs"
-#~ msgstr "Moondrake: distribuciones pa les necesidaes de toos"
+#~ msgid "Openmandriva Lx: distributions for everybody's needs"
+#~ msgstr "Openmandriva Lx: distribuciones pa les necesidaes de toos"
 
 #~ msgid ""
 #~ "No free space for 1MB bootstrap! Install will continue, but to boot your "
@@ -1817,8 +1817,8 @@ msgstr "Colar"
 #~ msgid "The 100%% open source Mandriva Linux distribution"
 #~ msgstr "La distribución Mandriva Linux 100%% códigu llibre"
 
-#~ msgid "The 100%% open source Moondrake distribution"
-#~ msgstr "La distribución Moondrake 100%% códigu llibre"
+#~ msgid "The 100%% open source Openmandriva Lx distribution"
+#~ msgstr "La distribución Openmandriva Lx 100%% códigu llibre"
 
 #~ msgid ""
 #~ "The auto install can be fully automated if wanted,\n"

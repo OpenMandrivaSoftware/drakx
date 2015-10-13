@@ -35,7 +35,7 @@ msgstr ""
 #: ../../advertising/MandrivaOne-advert-7.pl:1
 #: ../../advertising/MandrivaOne-advert-8.pl:1
 #, c-format
-msgid "Moondrake GNU/Linux 2013 Beta (Twelve Angry Penguins)"
+msgid "Openmandriva Lx GNU/Linux 2013 Beta (Twelve Angry Penguins)"
 msgstr ""
 
 #: ../../advertising/MandrivaOne-advert-9.pl:1
@@ -789,7 +789,7 @@ msgstr "Valvontatyökalut, prosessienhallinta, tcpdump, nmap, ..."
 #: share/meta-task/compssUsers.pl:235
 #, fuzzy, c-format
 msgid "DrakX Wizards"
-msgstr "Moondraken asetusvelhot"
+msgstr "Openmandriva Lxn asetusvelhot"
 
 #: share/meta-task/compssUsers.pl:236
 #, c-format
@@ -1656,8 +1656,8 @@ msgstr "Lopetus"
 #~ msgid "LXQT Desktop"
 #~ msgstr "LXDE-työpöytä"
 
-#~ msgid "Moondrake Wizards"
-#~ msgstr "Moondraken asetusvelhot"
+#~ msgid "Openmandriva Lx Wizards"
+#~ msgstr "Openmandriva Lxn asetusvelhot"
 
 #, fuzzy
 #~ msgid "Plasma Desktop"
@@ -1674,8 +1674,8 @@ msgstr "Lopetus"
 #~ msgid "A full Mandriva Linux desktop, with support"
 #~ msgstr "Käyttäjätuella varustettu täysi Mandriva Linux -jakelu"
 
-#~ msgid "A full Moondrake desktop, with support"
-#~ msgstr "Käyttäjätuella varustettu täysi Moondrake -jakelu"
+#~ msgid "A full Openmandriva Lx desktop, with support"
+#~ msgstr "Käyttäjätuella varustettu täysi Openmandriva Lx -jakelu"
 
 #, fuzzy
 #~ msgid "A graphical environment based on GNOME"
@@ -1712,8 +1712,8 @@ msgstr "Lopetus"
 #~ msgid "Explore Linux easily with Mandriva One"
 #~ msgstr "Tutustu Linuxiin helposti Mandriva One:n avulla"
 
-#~ msgid "Explore Linux easily with Moondrake One"
-#~ msgstr "Tutustu Linuxiin helposti Moondrake One:n avulla"
+#~ msgid "Explore Linux easily with Openmandriva Lx One"
+#~ msgstr "Tutustu Linuxiin helposti Openmandriva Lx One:n avulla"
 
 #~ msgid "Generate auto install floppy"
 #~ msgstr "Luo automaattinen asennuslevyke"
@@ -1754,11 +1754,11 @@ msgstr "Lopetus"
 #~ msgid "Mandriva: distributions for everybody's needs"
 #~ msgstr "Mandriva: jakeluja jokaisen tarpeisiin"
 
-#~ msgid "Moondrake, the new Linux distribution"
-#~ msgstr "Moondrake, uusi Linux-jakelu"
+#~ msgid "Openmandriva Lx, the new Linux distribution"
+#~ msgstr "Openmandriva Lx, uusi Linux-jakelu"
 
-#~ msgid "Moondrake: distributions for everybody's needs"
-#~ msgstr "Moondrake: jakeluja jokaisen tarpeisiin"
+#~ msgid "Openmandriva Lx: distributions for everybody's needs"
+#~ msgstr "Openmandriva Lx: jakeluja jokaisen tarpeisiin"
 
 #~ msgid ""
 #~ "No free space for 1MB bootstrap! Install will continue, but to boot your "
@@ -1820,8 +1820,8 @@ msgstr "Lopetus"
 #~ msgid "The 100%% open source Mandriva Linux distribution"
 #~ msgstr "Mandriva Linux - 100%% vapaan lähdekoodin jakelu"
 
-#~ msgid "The 100%% open source Moondrake distribution"
-#~ msgstr "Moondrake - 100%% vapaan lähdekoodin jakelu"
+#~ msgid "The 100%% open source Openmandriva Lx distribution"
+#~ msgstr "Openmandriva Lx - 100%% vapaan lähdekoodin jakelu"
 
 #~ msgid ""
 #~ "The auto install can be fully automated if wanted,\n"

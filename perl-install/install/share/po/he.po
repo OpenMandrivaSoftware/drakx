@@ -34,7 +34,7 @@ msgstr ""
 #: ../../advertising/MandrivaOne-advert-7.pl:1
 #: ../../advertising/MandrivaOne-advert-8.pl:1
 #, c-format
-msgid "Moondrake GNU/Linux 2013 Beta (Twelve Angry Penguins)"
+msgid "Openmandriva Lx GNU/Linux 2013 Beta (Twelve Angry Penguins)"
 msgstr ""
 
 #: ../../advertising/MandrivaOne-advert-9.pl:1
@@ -1612,7 +1612,7 @@ msgstr "יציאה"
 #~ msgid "LXQT Desktop"
 #~ msgstr "שולחן עבודה IceWm"
 
-#~ msgid "Moondrake Wizards"
+#~ msgid "Openmandriva Lx Wizards"
 #~ msgstr "אשפי מנדריבה"
 
 #, fuzzy
@@ -1628,7 +1628,7 @@ msgstr "יציאה"
 #~ msgid "A full Mandriva Linux desktop, with support"
 #~ msgstr "שולחן עבודה מלא של מנדריבה לינוקס, עם תמיכה"
 
-#~ msgid "A full Moondrake desktop, with support"
+#~ msgid "A full Openmandriva Lx desktop, with support"
 #~ msgstr "שולחן עבודה מלא של מנדריבה לינוקס, עם תמיכה"
 
 #, fuzzy
@@ -1674,7 +1674,7 @@ msgstr "יציאה"
 #~ msgid "Explore Linux easily with Mandriva One"
 #~ msgstr "בדוק את לינוקס בקלות עם מנדריבה One"
 
-#~ msgid "Explore Linux easily with Moondrake One"
+#~ msgid "Explore Linux easily with Openmandriva Lx One"
 #~ msgstr "בדוק את לינוקס בקלות עם מנדריבה One"
 
 #~ msgid "Generate auto install floppy"
@@ -1699,7 +1699,7 @@ msgstr "יציאה"
 #~ msgid "Mandriva: distributions for everybody's needs"
 #~ msgstr "מנדריבה: הפצות לצרכים של כל אחד"
 
-#~ msgid "Moondrake: distributions for everybody's needs"
+#~ msgid "Openmandriva Lx: distributions for everybody's needs"
 #~ msgstr "מנדריבה: הפצות לצרכים של כל אחד"
 
 #~ msgid ""
@@ -1758,7 +1758,7 @@ msgstr "יציאה"
 #~ msgid "The 100%% open source Mandriva Linux distribution"
 #~ msgstr "הפצת מנדריבה לינוקס שהיא 100%% קוד פתוח"
 
-#~ msgid "The 100%% open source Moondrake distribution"
+#~ msgid "The 100%% open source Openmandriva Lx distribution"
 #~ msgstr "הפצת מנדריבה לינוקס שהיא 100%% קוד פתוח"
 
 #~ msgid ""

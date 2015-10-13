@@ -64,7 +64,7 @@ default mode: offer to configure autologin feature"),
 OPTIONS:
   --help            - print this help message.
   --report          - program should be one of %s tools
-  --incident        - program should be one of %s tools", "Moondrake GNU/Linux", "Moondrake GNU/Linux"),
+  --incident        - program should be one of %s tools", "Openmandriva Lx GNU/Linux", "Openmandriva Lx GNU/Linux"),
            'drakconnect' => N_("[--add]
   --add             - \"add a network interface\" wizard
   --del             - \"delete a network interface\" wizard
@@ -95,7 +95,7 @@ OPTIONS:
 --adduser        : add an existing system user to MTS (requires username)
 --deluser        : delete an existing system user from MTS (requires username)
 --addclient      : add a client machine to MTS (requires MAC address, IP, nbi image name)
---delclient      : delete a client machine from MTS (requires MAC address, IP, nbi image name)", "Moondrake GNU/Linux"),
+--delclient      : delete a client machine from MTS (requires MAC address, IP, nbi image name)", "Openmandriva Lx GNU/Linux"),
 	      'drakxtv' => "[--no-guess]",
 	      'drakupdate_fstab' => " [--add | --del] <device>\n",
 	      'keyboardrake' => N_("[keyboard]"),
@@ -114,7 +114,7 @@ Network & Internet connection and monitoring application
   --no-confirmation      do not ask first confirmation question in %s Update mode
   --no-verify-rpm        do not verify packages signatures
   --changelog-first      display changelog before filelist in the description window
-  --merge-all-rpmnew     propose to merge all .rpmnew/.rpmsave files found", "Moondrake"),
+  --merge-all-rpmnew     propose to merge all .rpmnew/.rpmsave files found", "Openmandriva Lx"),
            'scannerdrake' => N_("[--manual] [--device=dev] [--update-sane=sane_source_dir] [--update-usbtable] [--dynamic=dev]"),
 	      'XFdrake' => N_(" [everything]
        XFdrake [--noauto] monitor

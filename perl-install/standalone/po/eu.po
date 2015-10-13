@@ -180,7 +180,7 @@ msgstr "\"%s\" programa kraskatu egin da ondorengo akatsarekin:"
 #: drakbug:62
 #, fuzzy, c-format
 msgid "DrakX Bug Report Tool"
-msgstr "Moondrake-en programa-erroreen berri emateko tresna"
+msgstr "Openmandriva Lx-en programa-erroreen berri emateko tresna"
 
 #: drakbug:67
 #, fuzzy, c-format
@@ -707,7 +707,7 @@ msgstr "Letra-tipo instalatzailea."
 
 #: drakfont:527
 #, fuzzy, c-format
-msgid "Moondrake GNU/Linux"
+msgid "Openmandriva Lx GNU/Linux"
 msgstr "Mandriva Linux"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
@@ -1194,7 +1194,7 @@ msgstr "Segurtasun maila eta egiaztapenak"
 #: draksec:110
 #, fuzzy, c-format
 msgid "Configure authentication required to access DrakX tools"
-msgstr "Konfiguratu Moondrake tresnak atzitzeko beharrezko autentikazioa"
+msgstr "Konfiguratu Openmandriva Lx tresnak atzitzeko beharrezko autentikazioa"
 
 #: draksec:114
 #, c-format
@@ -2495,7 +2495,7 @@ msgstr ", "
 #: logdrake:55
 #, fuzzy, c-format
 msgid "DrakX Tools Logs"
-msgstr "Moondrake Tresnen Erregistroak"
+msgstr "Openmandriva Lx Tresnen Erregistroak"
 
 #: logdrake:69
 #, c-format
@@ -3566,7 +3566,7 @@ msgstr "Zerbitzari grafikoaren konfiguraketa"
 #~ msgid ""
 #~ " drakhelp 0.1\n"
 #~ "Copyright (C) %s Mandriva.\n"
-#~ "Copyright (C) %s Moondrake.\n"
+#~ "Copyright (C) %s Openmandriva Lx.\n"
 #~ "This is free software and may be redistributed under the terms of the GNU "
 #~ "GPL.\n"
 #~ "\n"
@@ -3574,7 +3574,7 @@ msgstr "Zerbitzari grafikoaren konfiguraketa"
 #~ msgstr ""
 #~ " drakhelp 0.1\n"
 #~ "Copyright (C) %s Mandriva.\n"
-#~ "Copyright (C) %s Moondrake.\n"
+#~ "Copyright (C) %s Openmandriva Lx.\n"
 #~ "Software librea da, eta baliteke GNU GPL baldintzapean banatzea.\n"
 #~ "\n"
 #~ "Erabilera: \n"
@@ -3589,66 +3589,66 @@ msgstr "Zerbitzari grafikoaren konfiguraketa"
 #~ msgstr "%s Log Tresnak"
 
 #~ msgid ""
-#~ "Authentication is required to run Moondrake Application Security "
+#~ "Authentication is required to run Openmandriva Lx Application Security "
 #~ "Configuration"
 #~ msgstr ""
-#~ "Egiaztapena beharrezkoa da Moondrake Segurtasun Aplikazio Konfigurazioa "
+#~ "Egiaztapena beharrezkoa da Openmandriva Lx Segurtasun Aplikazio Konfigurazioa "
 #~ "exekutatzeko"
 
 #~ msgid ""
-#~ "Authentication is required to run Moondrake Authentication Configuration"
+#~ "Authentication is required to run Openmandriva Lx Authentication Configuration"
 #~ msgstr ""
-#~ "Egiaztapena beharrezkoa da Moondrake Autentifikazio konfigurazioa "
+#~ "Egiaztapena beharrezkoa da Openmandriva Lx Autentifikazio konfigurazioa "
 #~ "exekutatzeko"
 
-#~ msgid "Authentication is required to run Moondrake Boot Configuration"
+#~ msgid "Authentication is required to run Openmandriva Lx Boot Configuration"
 #~ msgstr ""
-#~ "Egiaztapena beharrezkoa da Moondrake Abio Konfigurazioa exekutatzeko"
+#~ "Egiaztapena beharrezkoa da Openmandriva Lx Abio Konfigurazioa exekutatzeko"
 
 #~ msgid ""
-#~ "Authentication is required to run Moondrake Date and Time Configuration"
+#~ "Authentication is required to run Openmandriva Lx Date and Time Configuration"
 #~ msgstr ""
-#~ "Egiaztapena beharrezkoa da Moondrake Data eta Ordua Konfigurazioa "
+#~ "Egiaztapena beharrezkoa da Openmandriva Lx Data eta Ordua Konfigurazioa "
 #~ "exekutatzeko"
 
-#~ msgid "Authentication is required to run Moondrake Disk Layout Editor"
+#~ msgid "Authentication is required to run Openmandriva Lx Disk Layout Editor"
 #~ msgstr ""
-#~ "Egiaztapena beharrezkoa da Moondrake Disko Maketatzailea exekutatzeko"
+#~ "Egiaztapena beharrezkoa da Openmandriva Lx Disko Maketatzailea exekutatzeko"
 
-#~ msgid "Authentication is required to run Moondrake Font Configuration"
+#~ msgid "Authentication is required to run Openmandriva Lx Font Configuration"
 #~ msgstr ""
-#~ "Egiaztapena beharrezkoa da Moondrake Letra Konfigurazioa exekutatzeko"
+#~ "Egiaztapena beharrezkoa da Openmandriva Lx Letra Konfigurazioa exekutatzeko"
 
-#~ msgid "Authentication is required to run Moondrake Hardware Configuration"
+#~ msgid "Authentication is required to run Openmandriva Lx Hardware Configuration"
 #~ msgstr ""
-#~ "Egiaztapena beharrezkoa da Moondrake Hardware Konfigurazioa exekutatzeko"
+#~ "Egiaztapena beharrezkoa da Openmandriva Lx Hardware Konfigurazioa exekutatzeko"
 
-#~ msgid "Authentication is required to run Moondrake Log Viewer"
-#~ msgstr "Egiaztapena beharrezkoa da Moondrake Log ikustailea exekutatzeko"
+#~ msgid "Authentication is required to run Openmandriva Lx Log Viewer"
+#~ msgstr "Egiaztapena beharrezkoa da Openmandriva Lx Log ikustailea exekutatzeko"
 
 #~ msgid ""
-#~ "Authentication is required to run Moondrake Login Manager Configuration"
+#~ "Authentication is required to run Openmandriva Lx Login Manager Configuration"
 #~ msgstr ""
-#~ "Egiaztapena beharrezkoa da Moondrake Saioa hasteko Kudeatzaileren "
+#~ "Egiaztapena beharrezkoa da Openmandriva Lx Saioa hasteko Kudeatzaileren "
 #~ "Konfigurazioa exekutatzeko"
 
-#~ msgid "Authentication is required to run Moondrake Scanner Configuration"
+#~ msgid "Authentication is required to run Openmandriva Lx Scanner Configuration"
 #~ msgstr ""
-#~ "Egiaztapena beharrezkoa da Moondrake Eskaner Konfigurazioa exekutatzeko"
+#~ "Egiaztapena beharrezkoa da Openmandriva Lx Eskaner Konfigurazioa exekutatzeko"
 
 #~ msgid ""
-#~ "Authentication is required to run Moondrake Security Permissions "
+#~ "Authentication is required to run Openmandriva Lx Security Permissions "
 #~ "Configuration"
 #~ msgstr ""
-#~ "Egiaztapena beharrezkoa da Moondrake Segurtasun Baimenen Konfigurazioa "
+#~ "Egiaztapena beharrezkoa da Openmandriva Lx Segurtasun Baimenen Konfigurazioa "
 #~ "exekutatzeko"
 
-#~ msgid "Authentication is required to run Moondrake Service Configuration"
+#~ msgid "Authentication is required to run Openmandriva Lx Service Configuration"
 #~ msgstr ""
-#~ "Egiaztapena beharrezkoa da Moondrake Zerbitzu Konfigurazioa exekutatzeko"
+#~ "Egiaztapena beharrezkoa da Openmandriva Lx Zerbitzu Konfigurazioa exekutatzeko"
 
-#~ msgid "Authentication is required to run Moondrake UPS Configuration"
-#~ msgstr "Egiaztapena beharrezkoa da Moondrake UPS konfigurazioa exekutatzeko"
+#~ msgid "Authentication is required to run Openmandriva Lx UPS Configuration"
+#~ msgstr "Egiaztapena beharrezkoa da Openmandriva Lx UPS konfigurazioa exekutatzeko"
 
 #~ msgid "Configure authentication required to access %s tools"
 #~ msgstr "Konfiguratzeko egiaztapena behar da %s tresnak eskuratzeko"
@@ -3667,44 +3667,44 @@ msgstr "Zerbitzari grafikoaren konfiguraketa"
 #~ "TB txartelik ez da detektatu zure makinan. Egiaztatu Linux-onartutako "
 #~ "bideo/telebista-txartela behar bezala konektaturik dagoela."
 
-#~ msgid "Run Moondrake Application Security Configuration"
-#~ msgstr "Exekutatu Moondrake Segurtasun Aplikazio Konfigurazioa"
+#~ msgid "Run Openmandriva Lx Application Security Configuration"
+#~ msgstr "Exekutatu Openmandriva Lx Segurtasun Aplikazio Konfigurazioa"
 
-#~ msgid "Run Moondrake Authentication Configuration"
-#~ msgstr "Exekutatu Moondrake Autentifikazio Konfigurazioa"
+#~ msgid "Run Openmandriva Lx Authentication Configuration"
+#~ msgstr "Exekutatu Openmandriva Lx Autentifikazio Konfigurazioa"
 
-#~ msgid "Run Moondrake Boot Configuration"
-#~ msgstr "Exekutatu Moondrake Abio Konfigurazioa"
+#~ msgid "Run Openmandriva Lx Boot Configuration"
+#~ msgstr "Exekutatu Openmandriva Lx Abio Konfigurazioa"
 
-#~ msgid "Run Moondrake Date and Time Configuration"
-#~ msgstr "Exekutatu Moondrake Data eta Ordua Konfigurazioa"
+#~ msgid "Run Openmandriva Lx Date and Time Configuration"
+#~ msgstr "Exekutatu Openmandriva Lx Data eta Ordua Konfigurazioa"
 
-#~ msgid "Run Moondrake Disk Layout Editor"
-#~ msgstr "Exekutatu Moondrake Disko Maketatzailea"
+#~ msgid "Run Openmandriva Lx Disk Layout Editor"
+#~ msgstr "Exekutatu Openmandriva Lx Disko Maketatzailea"
 
-#~ msgid "Run Moondrake Font Configuration"
-#~ msgstr "Exekutatu Moondrake Letra Konfigurazioa"
+#~ msgid "Run Openmandriva Lx Font Configuration"
+#~ msgstr "Exekutatu Openmandriva Lx Letra Konfigurazioa"
 
-#~ msgid "Run Moondrake Hardware Configuration"
-#~ msgstr "Exekutatu Moondrake Hardware Konfigurazioa"
+#~ msgid "Run Openmandriva Lx Hardware Configuration"
+#~ msgstr "Exekutatu Openmandriva Lx Hardware Konfigurazioa"
 
-#~ msgid "Run Moondrake Log Viewer"
-#~ msgstr "Exekutatu Moondrake Log ikustailea"
+#~ msgid "Run Openmandriva Lx Log Viewer"
+#~ msgstr "Exekutatu Openmandriva Lx Log ikustailea"
 
-#~ msgid "Run Moondrake Login Manager Configuration"
-#~ msgstr "Exekutatu Moondrake Saioa hasteko Kudeatzaileren Konfigurazioa"
+#~ msgid "Run Openmandriva Lx Login Manager Configuration"
+#~ msgstr "Exekutatu Openmandriva Lx Saioa hasteko Kudeatzaileren Konfigurazioa"
 
-#~ msgid "Run Moondrake Scanner Configuration"
-#~ msgstr "Exekutatu Moondrake Eskaner Konfigurazioa"
+#~ msgid "Run Openmandriva Lx Scanner Configuration"
+#~ msgstr "Exekutatu Openmandriva Lx Eskaner Konfigurazioa"
 
-#~ msgid "Run Moondrake Security Permissions Configuration"
-#~ msgstr "Exekutatu Moondrake Segurtasun Baimenen Konfigurazioa"
+#~ msgid "Run Openmandriva Lx Security Permissions Configuration"
+#~ msgstr "Exekutatu Openmandriva Lx Segurtasun Baimenen Konfigurazioa"
 
-#~ msgid "Run Moondrake Service Configuration"
-#~ msgstr "Exekutatu Moondrake Zerbitzu Konfigurazioa"
+#~ msgid "Run Openmandriva Lx Service Configuration"
+#~ msgstr "Exekutatu Openmandriva Lx Zerbitzu Konfigurazioa"
 
-#~ msgid "Run Moondrake UPS Configuration"
-#~ msgstr "Exekutatu Moondrake UPS Konfigurazioa"
+#~ msgid "Run Openmandriva Lx UPS Configuration"
+#~ msgstr "Exekutatu Openmandriva Lx UPS Konfigurazioa"
 
 #~ msgid "%s Control Center"
 #~ msgstr "%s Aginte Gunea"
@@ -3818,7 +3818,7 @@ msgstr "Zerbitzari grafikoaren konfiguraketa"
 #~ msgstr "Konfiguratu Mandriva tresnak atzitzeko beharrezko autentikazioa"
 
 #, fuzzy
-#~ msgid "Copyright (C) %s by Moondrake"
+#~ msgid "Copyright (C) %s by Openmandriva Lx"
 #~ msgstr "Copyright (C) %s Mandriva"
 
 #~ msgid "Create new theme"
@@ -4010,8 +4010,8 @@ msgstr "Zerbitzari grafikoaren konfiguraketa"
 #~ msgid "Mandriva Update"
 #~ msgstr "Mandriva Eguneratu"
 
-#~ msgid "Moondrake"
-#~ msgstr "Moondrake"
+#~ msgid "Openmandriva Lx"
+#~ msgstr "Openmandriva Lx"
 
 #~ msgid "Network Options"
 #~ msgstr "Sare-aukerak"

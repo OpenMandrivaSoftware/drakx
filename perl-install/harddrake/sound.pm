@@ -207,7 +207,7 @@ sub trouble {
                                #-PO: keep the double empty lines between sections, this is formatted a la LaTeX
                                N("Below are some basic tips to help debug audio problems, but for accurate and up-to-date tips and tricks, please see:
 
-https://wiki.mageia.org/en/Support:DebuggingSoundProblems
+https://wiki.openmandriva.org/en/Support:DebuggingSoundProblems
 
 
 

@@ -245,12 +245,12 @@ sub ask_mirror {
     require mirror;
 
     my $mirrors = eval {
-	my $_w = $o->wait_message('', N("Contacting %s web site to get the list of available mirrors...", "Moondrake GNU/Linux"));
+	my $_w = $o->wait_message('', N("Contacting %s web site to get the list of available mirrors...", "Openmandriva Lx GNU/Linux"));
 	mirror::list($o->{product_id}, $type);
     };
     my $err = $@;
     if (!$mirrors) {
-	$o->ask_warn('', N("Failed contacting %s web site to get the list of available mirrors", "Moondrake GNU/Linux") . "\n$err");
+	$o->ask_warn('', N("Failed contacting %s web site to get the list of available mirrors", "Openmandriva Lx GNU/Linux") . "\n$err");
 	return ask_url($o, $o_url);
     }
 

@@ -28,7 +28,7 @@ msgstr ""
 #: ../../advertising/MandrivaOne-advert-7.pl:1
 #: ../../advertising/MandrivaOne-advert-8.pl:1
 #, c-format
-msgid "Moondrake GNU/Linux 2013 Beta (Twelve Angry Penguins)"
+msgid "Openmandriva Lx GNU/Linux 2013 Beta (Twelve Angry Penguins)"
 msgstr ""
 
 #: ../../advertising/MandrivaOne-advert-9.pl:1
@@ -784,7 +784,7 @@ msgstr "Nástroje pro sledování, evidenci procesů, tcpdump, nmap, ..."
 #: share/meta-task/compssUsers.pl:235
 #, fuzzy, c-format
 msgid "DrakX Wizards"
-msgstr "Průvodce nastavením Moondrake"
+msgstr "Průvodce nastavením Openmandriva Lx"
 
 #: share/meta-task/compssUsers.pl:236
 #, c-format
@@ -1914,7 +1914,7 @@ msgstr "Konec"
 #~ msgid "Make it yours!"
 #~ msgstr "Učiňte systém svým!"
 
-#~ msgid "Moondrake Wizards"
+#~ msgid "Openmandriva Lx Wizards"
 #~ msgstr "Průvodci nastavením Mageii"
 
 #~ msgid "Nonfree Release"
@@ -1990,7 +1990,7 @@ msgstr "Konec"
 #~ "Warning : you should backup all your personal data before choosing \"New\n"
 #~ "Installation\"."
 #~ msgstr ""
-#~ "Instalátor zjistil, že nainstalovaný systém Moondrake Linux nemůže \n"
+#~ "Instalátor zjistil, že nainstalovaný systém Openmandriva Lx Linux nemůže \n"
 #~ "být bezpečně povýšen na %s.\n"
 #~ "\n"
 #~ "Proto doporučujeme provést novou instalaci a nahradit tak zcela \n"
@@ -2008,8 +2008,8 @@ msgstr "Konec"
 #~ msgid "Mandriva: distributions for everybody's needs"
 #~ msgstr "Mandriva: distribuce pro potřeby všech"
 
-#~ msgid "Moondrake, the new Linux distribution"
-#~ msgstr "Nová linuxová distribuce Moondrake"
+#~ msgid "Openmandriva Lx, the new Linux distribution"
+#~ msgstr "Nová linuxová distribuce Openmandriva Lx"
 
 #~ msgid ""
 #~ "No free space for 1MB bootstrap! Install will continue, but to boot your "

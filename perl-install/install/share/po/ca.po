@@ -29,7 +29,7 @@ msgstr ""
 #: ../../advertising/MandrivaOne-advert-7.pl:1
 #: ../../advertising/MandrivaOne-advert-8.pl:1
 #, c-format
-msgid "Moondrake GNU/Linux 2013 Beta (Twelve Angry Penguins)"
+msgid "Openmandriva Lx GNU/Linux 2013 Beta (Twelve Angry Penguins)"
 msgstr ""
 
 #: ../../advertising/MandrivaOne-advert-9.pl:1
@@ -788,7 +788,7 @@ msgstr "Eines de monitoratge, comptabilitat de processos, tcpdump, nmap..."
 #: share/meta-task/compssUsers.pl:235
 #, fuzzy, c-format
 msgid "DrakX Wizards"
-msgstr "Auxiliars de Moondrake"
+msgstr "Auxiliars de Openmandriva Lx"
 
 #: share/meta-task/compssUsers.pl:236
 #, c-format
@@ -1641,8 +1641,8 @@ msgstr "Surt"
 #~ msgid "LXQT Desktop"
 #~ msgstr "Escriptori LXDE"
 
-#~ msgid "Moondrake Wizards"
-#~ msgstr "Auxiliars de Moondrake"
+#~ msgid "Openmandriva Lx Wizards"
+#~ msgstr "Auxiliars de Openmandriva Lx"
 
 #, fuzzy
 #~ msgid "Plasma Desktop"
@@ -1851,8 +1851,8 @@ msgstr "Surt"
 #~ msgid "Mandriva Wizards"
 #~ msgstr "Auxiliars de Mandriva"
 
-#~ msgid "Moondrake, the new Linux distribution"
-#~ msgstr "Moondrake, la nova distribució Linux"
+#~ msgid "Openmandriva Lx, the new Linux distribution"
+#~ msgstr "Openmandriva Lx, la nova distribució Linux"
 
 #~ msgid "Networking"
 #~ msgstr "Xarxa"

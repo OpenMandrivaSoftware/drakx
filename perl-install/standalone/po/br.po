@@ -678,7 +678,7 @@ msgstr "Stalier fontoù."
 
 #: drakfont:527
 #, fuzzy, c-format
-msgid "Moondrake GNU/Linux"
+msgid "Openmandriva Lx GNU/Linux"
 msgstr "Mandriva Linux"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
@@ -3415,47 +3415,47 @@ msgid "Authentication is required to run DrakX Service Configuration"
 msgstr "Kefluniadur ar servijer graphek"
 
 #, fuzzy
-#~ msgid "Run Moondrake Application Security Configuration"
+#~ msgid "Run Openmandriva Lx Application Security Configuration"
 #~ msgstr "Kefluniadur staliañ emgefreek"
 
 #, fuzzy
-#~ msgid "Run Moondrake Authentication Configuration"
+#~ msgid "Run Openmandriva Lx Authentication Configuration"
 #~ msgstr "Kefluniadur staliañ emgefreek"
 
 #, fuzzy
-#~ msgid "Run Moondrake Boot Configuration"
+#~ msgid "Run Openmandriva Lx Boot Configuration"
 #~ msgstr "Kefluniadur loc'hañ"
 
 #, fuzzy
-#~ msgid "Run Moondrake Date and Time Configuration"
+#~ msgid "Run Openmandriva Lx Date and Time Configuration"
 #~ msgstr "Kefluniadur an diwall dre bost"
 
 #, fuzzy
-#~ msgid "Run Moondrake Font Configuration"
+#~ msgid "Run Openmandriva Lx Font Configuration"
 #~ msgstr "Kefluniadur ar yezh hag ar vro"
 
 #, fuzzy
-#~ msgid "Run Moondrake Hardware Configuration"
+#~ msgid "Run Openmandriva Lx Hardware Configuration"
 #~ msgstr "Kefluniadur ar servijer graphek"
 
 #, fuzzy
-#~ msgid "Run Moondrake Login Manager Configuration"
+#~ msgid "Run Openmandriva Lx Login Manager Configuration"
 #~ msgstr "Kefluniadur ar yezh hag ar vro"
 
 #, fuzzy
-#~ msgid "Run Moondrake Scanner Configuration"
+#~ msgid "Run Openmandriva Lx Scanner Configuration"
 #~ msgstr "Kefluniadur ar servijer graphek"
 
 #, fuzzy
-#~ msgid "Run Moondrake Security Permissions Configuration"
+#~ msgid "Run Openmandriva Lx Security Permissions Configuration"
 #~ msgstr "Kefluniadur ar servijer graphek"
 
 #, fuzzy
-#~ msgid "Run Moondrake Service Configuration"
+#~ msgid "Run Openmandriva Lx Service Configuration"
 #~ msgstr "Kefluniadur ar servijer graphek"
 
 #, fuzzy
-#~ msgid "Run Moondrake UPS Configuration"
+#~ msgid "Run Openmandriva Lx UPS Configuration"
 #~ msgstr "Kefluniadur UPS"
 
 #~ msgid "  --help                - display this help     \n"
@@ -3464,7 +3464,7 @@ msgstr "Kefluniadur ar servijer graphek"
 #~ msgid ""
 #~ " drakhelp 0.1\n"
 #~ "Copyright (C) %s Mandriva.\n"
-#~ "Copyright (C) %s Moondrake.\n"
+#~ "Copyright (C) %s Openmandriva Lx.\n"
 #~ "This is free software and may be redistributed under the terms of the GNU "
 #~ "GPL.\n"
 #~ "\n"
@@ -3472,7 +3472,7 @@ msgstr "Kefluniadur ar servijer graphek"
 #~ msgstr ""
 #~ "drakhelp 0.1\n"
 #~ "Copyright (C) %s Mandriva.\n"
-#~ "Copyright (C) %s Moondrake.\n"
+#~ "Copyright (C) %s Openmandriva Lx.\n"
 #~ "Ur meziant frank eo an hini-mañ ha moien zo da zal'ch anezhañ hervez GNU "
 #~ "GPL.\n"
 #~ "\n"
@@ -3595,8 +3595,8 @@ msgstr "Kefluniadur ar servijer graphek"
 #~ msgid "Color selection"
 #~ msgstr "Choazh al liv"
 
-#~ msgid "Copyright (C) %s by Moondrake"
-#~ msgstr "Copyright (C) %s gant Moondrake"
+#~ msgid "Copyright (C) %s by Openmandriva Lx"
+#~ msgstr "Copyright (C) %s gant Openmandriva Lx"
 
 #~ msgid "Copyright (C) 2001-2008 by %s"
 #~ msgstr "Copyright (C) 2001-2008 gant %s"
@@ -3784,8 +3784,8 @@ msgstr "Kefluniadur ar servijer graphek"
 #~ msgid "Menudrake"
 #~ msgstr "Menudrake"
 
-#~ msgid "Moondrake"
-#~ msgstr "Moondrake"
+#~ msgid "Openmandriva Lx"
+#~ msgstr "Openmandriva Lx"
 
 #~ msgid "Msec"
 #~ msgstr "Msec"

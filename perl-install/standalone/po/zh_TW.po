@@ -707,7 +707,7 @@ msgstr "字型安裝程式"
 
 #: drakfont:527
 #, fuzzy, c-format
-msgid "Moondrake GNU/Linux"
+msgid "Openmandriva Lx GNU/Linux"
 msgstr "Mandriva Linux"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
@@ -3393,134 +3393,134 @@ msgstr "語言與國家設定"
 #: ../polkit/org.moondrake.drakauth.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Authentication Configuration"
-msgstr "執行 Moondrake 認證設定"
+msgstr "執行 Openmandriva Lx 認證設定"
 
 #: ../polkit/org.moondrake.drakauth.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Authentication Configuration"
-msgstr "執行 Moondrake 認證設定需要認證"
+msgstr "執行 Openmandriva Lx 認證設定需要認證"
 
 #: ../polkit/org.moondrake.drakboot.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Boot Configuration"
-msgstr "執行 Moondrake 開機設定"
+msgstr "執行 Openmandriva Lx 開機設定"
 
 #: ../polkit/org.moondrake.drakboot.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Boot Configuration"
-msgstr "執行 Moondrake 開機設定需要認證"
+msgstr "執行 Openmandriva Lx 開機設定需要認證"
 
 #: ../polkit/org.moondrake.drakclock.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Date and Time Configuration"
-msgstr "執行 Moondrake 時間和日期設定"
+msgstr "執行 Openmandriva Lx 時間和日期設定"
 
 #: ../polkit/org.moondrake.drakclock.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Date and Time Configuration"
-msgstr "執行 Moondrake 時間和日期設定需要認證"
+msgstr "執行 Openmandriva Lx 時間和日期設定需要認證"
 
 #: ../polkit/org.moondrake.drakdisk.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Disk Layout Editor"
-msgstr "執行 Moondrake 磁碟分割設定"
+msgstr "執行 Openmandriva Lx 磁碟分割設定"
 
 #: ../polkit/org.moondrake.drakdisk.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Disk Layout Editor"
-msgstr "執行 Moondrake 磁碟分割設定需要認證"
+msgstr "執行 Openmandriva Lx 磁碟分割設定需要認證"
 
 #: ../polkit/org.moondrake.drakdm.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Login Manager Configuration"
-msgstr "執行 Moondrake 登入管理員設定"
+msgstr "執行 Openmandriva Lx 登入管理員設定"
 
 #: ../polkit/org.moondrake.drakdm.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Login Manager Configuration"
-msgstr "執行 Moondrake 登入管理員設定需要認證"
+msgstr "執行 Openmandriva Lx 登入管理員設定需要認證"
 
 #: ../polkit/org.moondrake.drakfont.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Font Configuration"
-msgstr "執行 Moondrake 字型設定"
+msgstr "執行 Openmandriva Lx 字型設定"
 
 #: ../polkit/org.moondrake.drakfont.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Font Configuration"
-msgstr "執行 Moondrake 字型設定需要認證"
+msgstr "執行 Openmandriva Lx 字型設定需要認證"
 
 #: ../polkit/org.moondrake.drakhardware.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Hardware Configuration"
-msgstr "執行 Moondrake 硬體設定"
+msgstr "執行 Openmandriva Lx 硬體設定"
 
 #: ../polkit/org.moondrake.drakhardware.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Hardware Configuration"
-msgstr "執行 Moondrake 硬體設定需要認證"
+msgstr "執行 Openmandriva Lx 硬體設定需要認證"
 
 #: ../polkit/org.moondrake.draklog.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Log Viewer"
-msgstr "執行 Moondrake 記錄檔檢視器"
+msgstr "執行 Openmandriva Lx 記錄檔檢視器"
 
 #: ../polkit/org.moondrake.draklog.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Log Viewer"
-msgstr "執行 Moondrake 記錄檔檢視器需要認證"
+msgstr "執行 Openmandriva Lx 記錄檔檢視器需要認證"
 
 #: ../polkit/org.moondrake.drakperm.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Security Permissions Configuration"
-msgstr "執行 Moondrake 安全權限設定"
+msgstr "執行 Openmandriva Lx 安全權限設定"
 
 #: ../polkit/org.moondrake.drakperm.policy.in.h:2
 #, fuzzy
 msgid ""
 "Authentication is required to run DrakX Security Permissions Configuration"
-msgstr "執行 Moondrake 安全權限設定需要認證"
+msgstr "執行 Openmandriva Lx 安全權限設定需要認證"
 
 #: ../polkit/org.moondrake.drakscanner.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Scanner Configuration"
-msgstr "執行 Moondrake 掃描器設定"
+msgstr "執行 Openmandriva Lx 掃描器設定"
 
 #: ../polkit/org.moondrake.drakscanner.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Scanner Configuration"
-msgstr "執行 Moondrake 掃描器設定需要認證"
+msgstr "執行 Openmandriva Lx 掃描器設定需要認證"
 
 #: ../polkit/org.moondrake.draksec.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Application Security Configuration"
-msgstr "執行 Moondrake 應用程式安全設定"
+msgstr "執行 Openmandriva Lx 應用程式安全設定"
 
 #: ../polkit/org.moondrake.draksec.policy.in.h:2
 #, fuzzy
 msgid ""
 "Authentication is required to run DrakX Application Security Configuration"
-msgstr "執行 Moondrake 應用程式安全設定需要認證"
+msgstr "執行 Openmandriva Lx 應用程式安全設定需要認證"
 
 #: ../polkit/org.moondrake.drakups.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX UPS Configuration"
-msgstr "執行 Moondrake UPS 設定"
+msgstr "執行 Openmandriva Lx UPS 設定"
 
 #: ../polkit/org.moondrake.drakups.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX UPS Configuration"
-msgstr "執行 Moondrake UPS 設定需要認證"
+msgstr "執行 Openmandriva Lx UPS 設定需要認證"
 
 #: ../polkit/org.moondrake.moondrakeservices.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Service Configuration"
-msgstr "執行 Moondrake 服務設定"
+msgstr "執行 Openmandriva Lx 服務設定"
 
 #: ../polkit/org.moondrake.moondrakeservices.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Service Configuration"
-msgstr "執行 Moondrake 服務設定需要認證"
+msgstr "執行 Openmandriva Lx 服務設定需要認證"
 
 #~ msgid "%s Bug Report Tool"
 #~ msgstr "%s 錯誤回報工具"
@@ -3529,92 +3529,92 @@ msgstr "執行 Moondrake 服務設定需要認證"
 #~ msgstr "%s 工具紀錄"
 
 #~ msgid ""
-#~ "Authentication is required to run Moondrake Application Security "
+#~ "Authentication is required to run Openmandriva Lx Application Security "
 #~ "Configuration"
-#~ msgstr "執行 Moondrake 應用程式安全設定需要認證"
+#~ msgstr "執行 Openmandriva Lx 應用程式安全設定需要認證"
 
 #~ msgid ""
-#~ "Authentication is required to run Moondrake Authentication Configuration"
-#~ msgstr "執行 Moondrake 認證設定需要認證"
+#~ "Authentication is required to run Openmandriva Lx Authentication Configuration"
+#~ msgstr "執行 Openmandriva Lx 認證設定需要認證"
 
-#~ msgid "Authentication is required to run Moondrake Boot Configuration"
-#~ msgstr "執行 Moondrake 開機設定需要認證"
-
-#~ msgid ""
-#~ "Authentication is required to run Moondrake Date and Time Configuration"
-#~ msgstr "執行 Moondrake 時間和日期設定需要認證"
-
-#~ msgid "Authentication is required to run Moondrake Disk Layout Editor"
-#~ msgstr "執行 Moondrake 磁碟分割設定需要認證"
-
-#~ msgid "Authentication is required to run Moondrake Font Configuration"
-#~ msgstr "執行 Moondrake 字型設定需要認證"
-
-#~ msgid "Authentication is required to run Moondrake Hardware Configuration"
-#~ msgstr "執行 Moondrake 硬體設定需要認證"
-
-#~ msgid "Authentication is required to run Moondrake Log Viewer"
-#~ msgstr "執行 Moondrake 記錄檔檢視器需要認證"
+#~ msgid "Authentication is required to run Openmandriva Lx Boot Configuration"
+#~ msgstr "執行 Openmandriva Lx 開機設定需要認證"
 
 #~ msgid ""
-#~ "Authentication is required to run Moondrake Login Manager Configuration"
-#~ msgstr "執行 Moondrake 登入管理員設定需要認證"
+#~ "Authentication is required to run Openmandriva Lx Date and Time Configuration"
+#~ msgstr "執行 Openmandriva Lx 時間和日期設定需要認證"
 
-#~ msgid "Authentication is required to run Moondrake Scanner Configuration"
-#~ msgstr "執行 Moondrake 掃描器設定需要認證"
+#~ msgid "Authentication is required to run Openmandriva Lx Disk Layout Editor"
+#~ msgstr "執行 Openmandriva Lx 磁碟分割設定需要認證"
+
+#~ msgid "Authentication is required to run Openmandriva Lx Font Configuration"
+#~ msgstr "執行 Openmandriva Lx 字型設定需要認證"
+
+#~ msgid "Authentication is required to run Openmandriva Lx Hardware Configuration"
+#~ msgstr "執行 Openmandriva Lx 硬體設定需要認證"
+
+#~ msgid "Authentication is required to run Openmandriva Lx Log Viewer"
+#~ msgstr "執行 Openmandriva Lx 記錄檔檢視器需要認證"
 
 #~ msgid ""
-#~ "Authentication is required to run Moondrake Security Permissions "
+#~ "Authentication is required to run Openmandriva Lx Login Manager Configuration"
+#~ msgstr "執行 Openmandriva Lx 登入管理員設定需要認證"
+
+#~ msgid "Authentication is required to run Openmandriva Lx Scanner Configuration"
+#~ msgstr "執行 Openmandriva Lx 掃描器設定需要認證"
+
+#~ msgid ""
+#~ "Authentication is required to run Openmandriva Lx Security Permissions "
 #~ "Configuration"
-#~ msgstr "執行 Moondrake 安全權限設定需要認證"
+#~ msgstr "執行 Openmandriva Lx 安全權限設定需要認證"
 
-#~ msgid "Authentication is required to run Moondrake Service Configuration"
-#~ msgstr "執行 Moondrake 服務設定需要認證"
+#~ msgid "Authentication is required to run Openmandriva Lx Service Configuration"
+#~ msgstr "執行 Openmandriva Lx 服務設定需要認證"
 
-#~ msgid "Authentication is required to run Moondrake UPS Configuration"
-#~ msgstr "執行 Moondrake UPS 設定需要認證"
+#~ msgid "Authentication is required to run Openmandriva Lx UPS Configuration"
+#~ msgstr "執行 Openmandriva Lx UPS 設定需要認證"
 
 #~ msgid "Configure authentication required to access %s tools"
 #~ msgstr "設定存取 %s 工具時所需要的認證"
 
-#~ msgid "Run Moondrake Application Security Configuration"
-#~ msgstr "執行 Moondrake 應用程式安全設定"
+#~ msgid "Run Openmandriva Lx Application Security Configuration"
+#~ msgstr "執行 Openmandriva Lx 應用程式安全設定"
 
-#~ msgid "Run Moondrake Authentication Configuration"
-#~ msgstr "執行 Moondrake 認證設定"
+#~ msgid "Run Openmandriva Lx Authentication Configuration"
+#~ msgstr "執行 Openmandriva Lx 認證設定"
 
-#~ msgid "Run Moondrake Boot Configuration"
-#~ msgstr "執行 Moondrake 開機設定"
+#~ msgid "Run Openmandriva Lx Boot Configuration"
+#~ msgstr "執行 Openmandriva Lx 開機設定"
 
-#~ msgid "Run Moondrake Date and Time Configuration"
-#~ msgstr "執行 Moondrake 時間和日期設定"
+#~ msgid "Run Openmandriva Lx Date and Time Configuration"
+#~ msgstr "執行 Openmandriva Lx 時間和日期設定"
 
-#~ msgid "Run Moondrake Disk Layout Editor"
-#~ msgstr "執行 Moondrake 磁碟分割設定"
+#~ msgid "Run Openmandriva Lx Disk Layout Editor"
+#~ msgstr "執行 Openmandriva Lx 磁碟分割設定"
 
-#~ msgid "Run Moondrake Font Configuration"
-#~ msgstr "執行 Moondrake 字型設定"
+#~ msgid "Run Openmandriva Lx Font Configuration"
+#~ msgstr "執行 Openmandriva Lx 字型設定"
 
-#~ msgid "Run Moondrake Hardware Configuration"
-#~ msgstr "執行 Moondrake 硬體設定"
+#~ msgid "Run Openmandriva Lx Hardware Configuration"
+#~ msgstr "執行 Openmandriva Lx 硬體設定"
 
-#~ msgid "Run Moondrake Log Viewer"
-#~ msgstr "執行 Moondrake 記錄檔檢視器"
+#~ msgid "Run Openmandriva Lx Log Viewer"
+#~ msgstr "執行 Openmandriva Lx 記錄檔檢視器"
 
-#~ msgid "Run Moondrake Login Manager Configuration"
-#~ msgstr "執行 Moondrake 登入管理員設定"
+#~ msgid "Run Openmandriva Lx Login Manager Configuration"
+#~ msgstr "執行 Openmandriva Lx 登入管理員設定"
 
-#~ msgid "Run Moondrake Scanner Configuration"
-#~ msgstr "執行 Moondrake 掃描器設定"
+#~ msgid "Run Openmandriva Lx Scanner Configuration"
+#~ msgstr "執行 Openmandriva Lx 掃描器設定"
 
-#~ msgid "Run Moondrake Security Permissions Configuration"
-#~ msgstr "執行 Moondrake 安全權限設定"
+#~ msgid "Run Openmandriva Lx Security Permissions Configuration"
+#~ msgstr "執行 Openmandriva Lx 安全權限設定"
 
-#~ msgid "Run Moondrake Service Configuration"
-#~ msgstr "執行 Moondrake 服務設定"
+#~ msgid "Run Openmandriva Lx Service Configuration"
+#~ msgstr "執行 Openmandriva Lx 服務設定"
 
-#~ msgid "Run Moondrake UPS Configuration"
-#~ msgstr "執行 Moondrake UPS 設定"
+#~ msgid "Run Openmandriva Lx UPS Configuration"
+#~ msgstr "執行 Openmandriva Lx UPS 設定"
 
 #~ msgid "  --help                - display this help     \n"
 #~ msgstr " --help                - 顯示本說明\n"
@@ -3622,7 +3622,7 @@ msgstr "執行 Moondrake 服務設定需要認證"
 #~ msgid ""
 #~ " drakhelp 0.1\n"
 #~ "Copyright (C) %s Mandriva.\n"
-#~ "Copyright (C) %s Moondrake.\n"
+#~ "Copyright (C) %s Openmandriva Lx.\n"
 #~ "This is free software and may be redistributed under the terms of the GNU "
 #~ "GPL.\n"
 #~ "\n"
@@ -3630,7 +3630,7 @@ msgstr "執行 Moondrake 服務設定需要認證"
 #~ msgstr ""
 #~ " drakhelp 0.1\n"
 #~ "Copyright (C) %s Mandriva.\n"
-#~ "Copyright (C) %s Moondrake.\n"
+#~ "Copyright (C) %s Openmandriva Lx.\n"
 #~ "這是自由軟體並可於 GNU GPL 條款下重新散佈。\n"
 #~ "\n"
 #~ "用法：\n"
@@ -3755,8 +3755,8 @@ msgstr "執行 Moondrake 服務設定需要認證"
 #~ msgid "Mandriva Update"
 #~ msgstr "Mandriva 更新"
 
-#~ msgid "Moondrake"
-#~ msgstr "Moondrake"
+#~ msgid "Openmandriva Lx"
+#~ msgstr "Openmandriva Lx"
 
 #~ msgid ""
 #~ "No Sound Card has been detected on your machine. Please verify that a "

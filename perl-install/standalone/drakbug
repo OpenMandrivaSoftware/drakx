@@ -77,7 +77,7 @@ my $mdk_app = {
 
 my @generic_tool = keys %$mdk_app; 
 my @all_drakxtools = qw(adduserdrake diskdrake drakautoinst drakboot drakbug drakclock drakfloppy drakfont draksec drakxservices drakxtools drakxtv logdrake scannerdrake);
-push @generic_tool, @all_drakxtools, qw(MoondrakeUpdate drakbackup drakconnect drakfirewall drakhosts drakmenustyle draknfs draksambashare drakgw drakroam drakvpn keyboarddrake msec mousedrake net_monitor printerdrake urpmi userdrake XFdrake);
+push @generic_tool, @all_drakxtools, qw(Openmandriva LxUpdate drakbackup drakconnect drakfirewall drakhosts drakmenustyle draknfs draksambashare drakgw drakroam drakvpn keyboarddrake msec mousedrake net_monitor printerdrake urpmi userdrake XFdrake);
 
 my $kernel_release = chomp_(`uname -r`);
 my $distro_release = chomp_(cat_('/etc/release'));
@@ -262,7 +262,7 @@ sub report_bug_to_bugzilla() {
                        ($product || $version ? 'cf_rpmpkg=' . join('-', $product, $version) : ()),
                        'version=' . ($rel_data->{branch} eq 'Devel' ? 'Cooker' : $rel_data->{version}),
                        'component=Core%20Packages',
-                       'classification=Moondrake%20GNU/Linux',
+                       'classification=Openmandriva Lx%20GNU/Linux',
                        "rep_platform=$arch",
                        if_($incident,
                            join('', "short_desc=$prog%20",

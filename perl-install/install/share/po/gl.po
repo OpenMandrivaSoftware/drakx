@@ -30,7 +30,7 @@ msgstr ""
 #: ../../advertising/MandrivaOne-advert-7.pl:1
 #: ../../advertising/MandrivaOne-advert-8.pl:1
 #, c-format
-msgid "Moondrake GNU/Linux 2013 Beta (Twelve Angry Penguins)"
+msgid "Openmandriva Lx GNU/Linux 2013 Beta (Twelve Angry Penguins)"
 msgstr ""
 
 #: ../../advertising/MandrivaOne-advert-9.pl:1
@@ -791,7 +791,7 @@ msgstr ""
 #: share/meta-task/compssUsers.pl:235
 #, fuzzy, c-format
 msgid "DrakX Wizards"
-msgstr "Asistentes de Moondrake"
+msgstr "Asistentes de Openmandriva Lx"
 
 #: share/meta-task/compssUsers.pl:236
 #, c-format
@@ -1647,8 +1647,8 @@ msgstr "Sair"
 #~ msgid "LXQT Desktop"
 #~ msgstr "Escritorio LXDE"
 
-#~ msgid "Moondrake Wizards"
-#~ msgstr "Asistentes de Moondrake"
+#~ msgid "Openmandriva Lx Wizards"
+#~ msgstr "Asistentes de Openmandriva Lx"
 
 #, fuzzy
 #~ msgid "Plasma Desktop"
@@ -1673,8 +1673,8 @@ msgstr "Sair"
 #~ msgid "A full Mandriva Linux desktop, with support"
 #~ msgstr "Un escritorio Mandriva Linux completo, con soporte"
 
-#~ msgid "A full Moondrake desktop, with support"
-#~ msgstr "Un escritorio Moondrake completo, con soporte"
+#~ msgid "A full Openmandriva Lx desktop, with support"
+#~ msgstr "Un escritorio Openmandriva Lx completo, con soporte"
 
 #, fuzzy
 #~ msgid "A graphical environment based on GNOME"
@@ -1749,8 +1749,8 @@ msgstr "Sair"
 #~ msgid "Explore Linux easily with Mandriva One"
 #~ msgstr "Explore Linux de forma sinxela con Mandriva One"
 
-#~ msgid "Explore Linux easily with Moondrake One"
-#~ msgstr "Explore Linux de forma sinxela con Moondrake One"
+#~ msgid "Explore Linux easily with Openmandriva Lx One"
+#~ msgstr "Explore Linux de forma sinxela con Openmandriva Lx One"
 
 #, fuzzy
 #~ msgid "Formatting"
@@ -1781,7 +1781,7 @@ msgstr "Sair"
 #~ "Warning : you should backup all your personal data before choosing \"New\n"
 #~ "Installation\"."
 #~ msgstr ""
-#~ "O instalador detectou que o sistema Moondrake que ten instalado non\n"
+#~ "O instalador detectou que o sistema Openmandriva Lx que ten instalado non\n"
 #~ "pode ser actualizado de maneira segura a %s\n"
 #~ "\n"
 #~ "Recoméndase unha nova instalación que reemprace a anterior.\n"
@@ -1812,8 +1812,8 @@ msgstr "Sair"
 #~ msgid "Mandriva: distributions for everybody's needs"
 #~ msgstr "Mandriva: distribucións para as necesidades de cada un"
 
-#~ msgid "Moondrake: distributions for everybody's needs"
-#~ msgstr "Moondrake: distribucións para as necesidades de cada un"
+#~ msgid "Openmandriva Lx: distributions for everybody's needs"
+#~ msgstr "Openmandriva Lx: distribucións para as necesidades de cada un"
 
 #~ msgid "Networking"
 #~ msgstr "Rede"
@@ -1882,8 +1882,8 @@ msgstr "Sair"
 #~ msgid "The 100%% open source Mandriva Linux distribution"
 #~ msgstr "A distribución de Mandriva Linux 100%% código aberto"
 
-#~ msgid "The 100%% open source Moondrake distribution"
-#~ msgstr "A distribución de Moondrake 100%% código aberto"
+#~ msgid "The 100%% open source Openmandriva Lx distribution"
+#~ msgstr "A distribución de Openmandriva Lx 100%% código aberto"
 
 #~ msgid ""
 #~ "The auto install can be fully automated if wanted,\n"

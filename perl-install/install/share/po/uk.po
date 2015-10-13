@@ -35,7 +35,7 @@ msgstr ""
 #: ../../advertising/MandrivaOne-advert-7.pl:1
 #: ../../advertising/MandrivaOne-advert-8.pl:1
 #, c-format
-msgid "Moondrake GNU/Linux 2013 Beta (Twelve Angry Penguins)"
+msgid "Openmandriva Lx GNU/Linux 2013 Beta (Twelve Angry Penguins)"
 msgstr ""
 
 #: ../../advertising/MandrivaOne-advert-9.pl:1
@@ -799,7 +799,7 @@ msgstr "Інструменти для слідкування, облік про�
 #: share/meta-task/compssUsers.pl:235
 #, fuzzy, c-format
 msgid "DrakX Wizards"
-msgstr "Помічники Moondrake"
+msgstr "Помічники Openmandriva Lx"
 
 #: share/meta-task/compssUsers.pl:236
 #, c-format
@@ -1655,8 +1655,8 @@ msgstr "Вийти"
 #~ msgid "LXQT Desktop"
 #~ msgstr "Стільниця LXQT"
 
-#~ msgid "Moondrake Wizards"
-#~ msgstr "Помічники Moondrake"
+#~ msgid "Openmandriva Lx Wizards"
+#~ msgstr "Помічники Openmandriva Lx"
 
 #~ msgid "Plasma Desktop"
 #~ msgstr "Стільниця Плазми"
@@ -1756,7 +1756,7 @@ msgstr "Вийти"
 #~ "Installation\"."
 #~ msgstr ""
 #~ "Програма для встановлення виявила, що раніше встановлена система\n"
-#~ "Moondrake Linux не може бути безпечно поновлена до %s.\n"
+#~ "Openmandriva Lx Linux не може бути безпечно поновлена до %s.\n"
 #~ "\n"
 #~ "Рекомендується виконати нове встановлення системи, яке замінить "
 #~ "попереднє.\n"
@@ -1797,8 +1797,8 @@ msgstr "Вийти"
 #~ msgid "Mandriva: distributions for everybody's needs"
 #~ msgstr "Mandriva: дистрибутиви для будь-яких потреб"
 
-#~ msgid "Moondrake, the new Linux distribution"
-#~ msgstr "Moondrake, новий дистрибутив Linux"
+#~ msgid "Openmandriva Lx, the new Linux distribution"
+#~ msgstr "Openmandriva Lx, новий дистрибутив Linux"
 
 #~ msgid ""
 #~ "No free space for 1MB bootstrap! Install will continue, but to boot your "

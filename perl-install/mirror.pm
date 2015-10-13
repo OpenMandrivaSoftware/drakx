@@ -100,7 +100,7 @@ sub _mirrors_raw_standalone {
 
 =item mirrors_raw($product_id)
 
-Returns a list of mirrors hash refs from http://mirrors.mageia.org
+Returns a list of mirrors hash refs from http://mirrors.openmandriva.org
 
 Note that in standalone mode, one has to actually use register_downloader()
 first in order to provide a downloader callback.

@@ -521,7 +521,7 @@ sub about() {
                    copyright => N("Copyright (C) %s by %s", '2001-2008', 'Mandriva') . "\n" . N("Copyright (C) %s by %s", '2011', N("Mageia")),
                    license => $license, wrap_license => 1,
                    comments => N("This is HardDrake, a %s hardware configuration tool.", $distro_name),
-                   website => 'http://www.mageia.org',
+                   website => 'http://www.openmandriva.org',
                    website_label => N("Mageia"),
                    authors => [ 'Thierry Vignaud <thierry.vignaud.com>' ],
                    translator_credits =>

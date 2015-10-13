@@ -39,7 +39,7 @@ msgstr ""
 #: ../../advertising/MandrivaOne-advert-7.pl:1
 #: ../../advertising/MandrivaOne-advert-8.pl:1
 #, c-format
-msgid "Moondrake GNU/Linux 2013 Beta (Twelve Angry Penguins)"
+msgid "Openmandriva Lx GNU/Linux 2013 Beta (Twelve Angry Penguins)"
 msgstr ""
 
 #: ../../advertising/MandrivaOne-advert-9.pl:1
@@ -799,7 +799,7 @@ msgstr "Überwachungswerkzeuge, Prozessverwaltung, tcpdump, nmap, ..."
 #: share/meta-task/compssUsers.pl:235
 #, fuzzy, c-format
 msgid "DrakX Wizards"
-msgstr "Moondrake-Assistenten"
+msgstr "Openmandriva Lx-Assistenten"
 
 #: share/meta-task/compssUsers.pl:236
 #, c-format
@@ -1701,8 +1701,8 @@ msgstr "Verlassen"
 #~ msgid "Make it yours!"
 #~ msgstr "Passen Sie es Ihren Wünschen an!"
 
-#~ msgid "Moondrake Wizards"
-#~ msgstr "Moondrake-Assistenten"
+#~ msgid "Openmandriva Lx Wizards"
+#~ msgstr "Openmandriva Lx-Assistenten"
 
 #~ msgid "Office tools"
 #~ msgstr "Arbeitsplatz werkzeuge"
@@ -1814,8 +1814,8 @@ msgstr "Verlassen"
 #~ msgid "Mandriva Wizards"
 #~ msgstr "Mandriva-Assistenten"
 
-#~ msgid "Moondrake, the new Linux distribution"
-#~ msgstr "Moondrake, die neue Linux-Distribution"
+#~ msgid "Openmandriva Lx, the new Linux distribution"
+#~ msgstr "Openmandriva Lx, die neue Linux-Distribution"
 
 #~ msgid ""
 #~ "No free space for 1MB bootstrap! Install will continue, but to boot your "

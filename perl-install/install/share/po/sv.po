@@ -35,7 +35,7 @@ msgstr ""
 #: ../../advertising/MandrivaOne-advert-7.pl:1
 #: ../../advertising/MandrivaOne-advert-8.pl:1
 #, c-format
-msgid "Moondrake GNU/Linux 2013 Beta (Twelve Angry Penguins)"
+msgid "Openmandriva Lx GNU/Linux 2013 Beta (Twelve Angry Penguins)"
 msgstr ""
 
 #: ../../advertising/MandrivaOne-advert-9.pl:1
@@ -788,7 +788,7 @@ msgstr "Övervakningsverkty, processhantering, tcpdump, nmap, ..."
 #: share/meta-task/compssUsers.pl:235
 #, fuzzy, c-format
 msgid "DrakX Wizards"
-msgstr "Moondrake Guider"
+msgstr "Openmandriva Lx Guider"
 
 #: share/meta-task/compssUsers.pl:236
 #, c-format
@@ -1643,8 +1643,8 @@ msgstr "Avsluta"
 #~ msgid "LXQT Desktop"
 #~ msgstr "LXDE Skrivborsmiljö"
 
-#~ msgid "Moondrake Wizards"
-#~ msgstr "Moondrake Guider"
+#~ msgid "Openmandriva Lx Wizards"
+#~ msgstr "Openmandriva Lx Guider"
 
 #, fuzzy
 #~ msgid "Plasma Desktop"
@@ -1661,8 +1661,8 @@ msgstr "Avsluta"
 #~ msgid "A full Mandriva Linux desktop, with support"
 #~ msgstr "En komplett Mandriva Linux skrivbordsmiljö, med support"
 
-#~ msgid "A full Moondrake desktop, with support"
-#~ msgstr "En komplett Moondrake skrivbordsmiljö, med support"
+#~ msgid "A full Openmandriva Lx desktop, with support"
+#~ msgstr "En komplett Openmandriva Lx skrivbordsmiljö, med support"
 
 #, fuzzy
 #~ msgid "A graphical environment based on GNOME"
@@ -1710,8 +1710,8 @@ msgstr "Avsluta"
 #~ msgid "Explore Linux easily with Mandriva One"
 #~ msgstr "Utforska Linux enkelt med Mandriva One"
 
-#~ msgid "Explore Linux easily with Moondrake One"
-#~ msgstr "Utforska Linux enkelt med Moondrake One"
+#~ msgid "Explore Linux easily with Openmandriva Lx One"
+#~ msgstr "Utforska Linux enkelt med Openmandriva Lx One"
 
 #~ msgid "Generate auto install floppy"
 #~ msgstr "Genererar automatisk installationsdiskett"
@@ -1752,11 +1752,11 @@ msgstr "Avsluta"
 #~ msgid "Mandriva: distributions for everybody's needs"
 #~ msgstr "Mandriva: distributioner för allas behov"
 
-#~ msgid "Moondrake, the new Linux distribution"
-#~ msgstr "Moondrake, den nya Linuxdistributionen"
+#~ msgid "Openmandriva Lx, the new Linux distribution"
+#~ msgstr "Openmandriva Lx, den nya Linuxdistributionen"
 
-#~ msgid "Moondrake: distributions for everybody's needs"
-#~ msgstr "Moondrake: distributioner för allas behov"
+#~ msgid "Openmandriva Lx: distributions for everybody's needs"
+#~ msgstr "Openmandriva Lx: distributioner för allas behov"
 
 #~ msgid ""
 #~ "No free space for 1MB bootstrap! Install will continue, but to boot your "
@@ -1815,8 +1815,8 @@ msgstr "Avsluta"
 #~ msgid "The 100%% open source Mandriva Linux distribution"
 #~ msgstr "Den 100%% öppen källkod baserade Mandriva Linux distributionen"
 
-#~ msgid "The 100%% open source Moondrake distribution"
-#~ msgstr "Den 100%% öppen källkod baserade Moondrake distributionen"
+#~ msgid "The 100%% open source Openmandriva Lx distribution"
+#~ msgstr "Den 100%% öppen källkod baserade Openmandriva Lx distributionen"
 
 #~ msgid ""
 #~ "The auto install can be fully automated if wanted,\n"

@@ -500,7 +500,7 @@ Consoles 1,3,4,7 may also contain interesting information";
 	}
     }
     log::l("fix hostname");
-    system("echo Moondrake &> $::prefix/etc/hostname");
+    system("echo Openmandriva Lx &> $::prefix/etc/hostname");
     
     log::l("fix missing /media/cdrom");
     run_program::rooted($::prefix, "mkdir", "/media/cdrom");
@@ -871,7 +871,7 @@ mostly log files (very useful if you ever report a bug!).
 Beware that some %s tools rely on the contents of some
 of these files... so remove any file from here at your own
 risk!
-", "Moondrake GNU/Linux") };
+", "Openmandriva Lx GNU/Linux") };
     #- wait for remaining processes.
     foreach (@{$o->{waitpids}}) {
 	waitpid $_, 0;

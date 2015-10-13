@@ -180,7 +180,7 @@ msgstr "プログラム \"%s\" が以下のエラーでクラッシュしまし�
 #: drakbug:62
 #, fuzzy, c-format
 msgid "DrakX Bug Report Tool"
-msgstr "Moondrake バグ報告ツール"
+msgstr "Openmandriva Lx バグ報告ツール"
 
 #: drakbug:67
 #, fuzzy, c-format
@@ -205,7 +205,7 @@ msgstr "独立型ツール"
 #: drakbug:72 drakbug:73
 #, fuzzy, c-format
 msgid "%s Online"
-msgstr "Moondrake オンライン"
+msgstr "Openmandriva Lx オンライン"
 
 #: drakbug:72 drakbug:73 drakbug:99 draksec:169
 #, fuzzy, c-format
@@ -235,7 +235,7 @@ msgstr "設定ウィザード"
 #: drakbug:99
 #, fuzzy, c-format
 msgid "Select %s Tool:"
-msgstr "Moondrake のツールを選択:"
+msgstr "Openmandriva Lx のツールを選択:"
 
 #: drakbug:98
 #, c-format
@@ -703,7 +703,7 @@ msgstr "フォントインストーラ"
 
 #: drakfont:527
 #, fuzzy, c-format
-msgid "Moondrake GNU/Linux"
+msgid "Openmandriva Lx GNU/Linux"
 msgstr "Mandriva Linux"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
@@ -1192,7 +1192,7 @@ msgstr "セキュリティレベルとチェック"
 #: draksec:110
 #, fuzzy, c-format
 msgid "Configure authentication required to access DrakX tools"
-msgstr "Moondrake ツールにアクセスするための認証方法を設定"
+msgstr "Openmandriva Lx ツールにアクセスするための認証方法を設定"
 
 #: draksec:114
 #, c-format
@@ -1217,7 +1217,7 @@ msgstr "ソフトウェアの管理"
 #: draksec:169
 #, fuzzy, c-format
 msgid "%s Update"
-msgstr "Moondrake アップデート"
+msgstr "Openmandriva Lx アップデート"
 
 #: draksec:170
 #, c-format
@@ -2485,7 +2485,7 @@ msgstr ", "
 #: logdrake:55
 #, fuzzy, c-format
 msgid "DrakX Tools Logs"
-msgstr "Moondrake ツールのログ"
+msgstr "Openmandriva Lx ツールのログ"
 
 #: logdrake:69
 #, c-format
@@ -3542,58 +3542,58 @@ msgstr "グラフィカルサーバの設定"
 
 #, fuzzy
 #~ msgid "%s Bug Report Tool"
-#~ msgstr "Moondrake バグ報告ツール"
+#~ msgstr "Openmandriva Lx バグ報告ツール"
 
 #, fuzzy
 #~ msgid "%s Tools Logs"
-#~ msgstr "Moondrake ツールのログ"
+#~ msgstr "Openmandriva Lx ツールのログ"
 
 #, fuzzy
 #~ msgid "Configure authentication required to access %s tools"
-#~ msgstr "Moondrake ツールにアクセスするための認証方法を設定"
+#~ msgstr "Openmandriva Lx ツールにアクセスするための認証方法を設定"
 
 #, fuzzy
-#~ msgid "Run Moondrake Application Security Configuration"
+#~ msgid "Run Openmandriva Lx Application Security Configuration"
 #~ msgstr "メール警告を設定"
 
 #, fuzzy
-#~ msgid "Run Moondrake Authentication Configuration"
+#~ msgid "Run Openmandriva Lx Authentication Configuration"
 #~ msgstr "メール警告を設定"
 
 #, fuzzy
-#~ msgid "Run Moondrake Boot Configuration"
+#~ msgid "Run Openmandriva Lx Boot Configuration"
 #~ msgstr "起動の設定"
 
 #, fuzzy
-#~ msgid "Run Moondrake Date and Time Configuration"
+#~ msgid "Run Openmandriva Lx Date and Time Configuration"
 #~ msgstr "メール警告を設定"
 
 #, fuzzy
-#~ msgid "Run Moondrake Font Configuration"
+#~ msgid "Run Openmandriva Lx Font Configuration"
 #~ msgstr "言語と国の設定"
 
 #, fuzzy
-#~ msgid "Run Moondrake Hardware Configuration"
+#~ msgid "Run Openmandriva Lx Hardware Configuration"
 #~ msgstr "グラフィカルサーバの設定"
 
 #, fuzzy
-#~ msgid "Run Moondrake Login Manager Configuration"
+#~ msgid "Run Openmandriva Lx Login Manager Configuration"
 #~ msgstr "言語と国の設定"
 
 #, fuzzy
-#~ msgid "Run Moondrake Scanner Configuration"
+#~ msgid "Run Openmandriva Lx Scanner Configuration"
 #~ msgstr "グラフィカルサーバの設定"
 
 #, fuzzy
-#~ msgid "Run Moondrake Security Permissions Configuration"
+#~ msgid "Run Openmandriva Lx Security Permissions Configuration"
 #~ msgstr "グラフィカルサーバの設定"
 
 #, fuzzy
-#~ msgid "Run Moondrake Service Configuration"
+#~ msgid "Run Openmandriva Lx Service Configuration"
 #~ msgstr "グラフィカルサーバの設定"
 
 #, fuzzy
-#~ msgid "Run Moondrake UPS Configuration"
+#~ msgid "Run Openmandriva Lx UPS Configuration"
 #~ msgstr "UPS の設定"
 
 #, fuzzy
@@ -3604,7 +3604,7 @@ msgstr "グラフィカルサーバの設定"
 #~ msgid ""
 #~ " drakhelp 0.1\n"
 #~ "Copyright (C) %s Mandriva.\n"
-#~ "Copyright (C) %s Moondrake.\n"
+#~ "Copyright (C) %s Openmandriva Lx.\n"
 #~ "This is free software and may be redistributed under the terms of the GNU "
 #~ "GPL.\n"
 #~ "\n"
@@ -3622,7 +3622,7 @@ msgstr "グラフィカルサーバの設定"
 
 #, fuzzy
 #~ msgid "%s Help Center"
-#~ msgstr "Moondrake ヘルプセンター"
+#~ msgstr "Openmandriva Lx ヘルプセンター"
 
 #~ msgid "(default value: %s)"
 #~ msgstr "(デフォルトの設定: %s)"
@@ -3733,7 +3733,7 @@ msgstr "グラフィカルサーバの設定"
 #~ msgstr "Mandriva ツールにアクセスするための認証方法を設定"
 
 #, fuzzy
-#~ msgid "Copyright (C) %s by Moondrake"
+#~ msgid "Copyright (C) %s by Openmandriva Lx"
 #~ msgstr "Copyright (C) %s by %s"
 
 #~ msgid "Create new theme"
@@ -3915,8 +3915,8 @@ msgstr "グラフィカルサーバの設定"
 #~ msgid "Mandriva Update"
 #~ msgstr "Mandriva アップデート"
 
-#~ msgid "Moondrake"
-#~ msgstr "Moondrake"
+#~ msgid "Openmandriva Lx"
+#~ msgstr "Openmandriva Lx"
 
 #~ msgid "Network Options"
 #~ msgstr "ネットワークオプション"

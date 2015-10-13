@@ -37,7 +37,7 @@ msgstr ""
 #: ../../advertising/MandrivaOne-advert-7.pl:1
 #: ../../advertising/MandrivaOne-advert-8.pl:1
 #, c-format
-msgid "Moondrake GNU/Linux 2013 Beta (Twelve Angry Penguins)"
+msgid "Openmandriva Lx GNU/Linux 2013 Beta (Twelve Angry Penguins)"
 msgstr ""
 
 #: ../../advertising/MandrivaOne-advert-9.pl:1
@@ -789,7 +789,7 @@ msgstr "İzleme araçları, işlem sayımı, tcpdump, nmap, ..."
 #: share/meta-task/compssUsers.pl:235
 #, fuzzy, c-format
 msgid "DrakX Wizards"
-msgstr "Moondrake Sihirbazları"
+msgstr "Openmandriva Lx Sihirbazları"
 
 #: share/meta-task/compssUsers.pl:236
 #, c-format
@@ -1641,8 +1641,8 @@ msgstr "Çıkış"
 #~ msgid "LXQT Desktop"
 #~ msgstr "LXQT Masaüstü"
 
-#~ msgid "Moondrake Wizards"
-#~ msgstr "Moondrake Sihirbazları"
+#~ msgid "Openmandriva Lx Wizards"
+#~ msgstr "Openmandriva Lx Sihirbazları"
 
 #~ msgid "Plasma Desktop"
 #~ msgstr "Plasma Masaüstü"
@@ -1733,7 +1733,7 @@ msgstr "Çıkış"
 #~ "Warning : you should backup all your personal data before choosing \"New\n"
 #~ "Installation\"."
 #~ msgstr ""
-#~ "Kurulum aracı, halihazırda kurulu olan Moondrake sisteminizin güvenli "
+#~ "Kurulum aracı, halihazırda kurulu olan Openmandriva Lx sisteminizin güvenli "
 #~ "bir\n"
 #~ "biçimde %s sistemine yükseltilemeyeceğini algıladı.\n"
 #~ "\n"

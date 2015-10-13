@@ -222,7 +222,7 @@ sub selectLanguage {
     $o->ask_warn('',
 formatAlaTeX(N("Your system is low on resources. You may have some problem installing
 %s. If that occurs, you can try a text install instead. For this,
-press `F1' when booting on CDROM, then enter `text'.", "Moondrake GNU/Linux"))) if availableRamMB() < 70; # 70MB
+press `F1' when booting on CDROM, then enter `text'.", "Openmandriva Lx GNU/Linux"))) if availableRamMB() < 70; # 70MB
 
 }
 
@@ -261,8 +261,8 @@ sub reallyChooseDesktop {
     my $w = ugtk3->new($title);
 
     my %tips = (
-        KDE    => N("Install %s KDE Desktop", "Moondrake"),
-        GNOME  => N("Install %s GNOME Desktop", "Moondrake"),
+        KDE    => N("Install %s KDE Desktop", "Openmandriva Lx"),
+        GNOME  => N("Install %s GNOME Desktop", "Openmandriva Lx"),
         Custom => N("Custom install"),
     );
     my $prev;

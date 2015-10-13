@@ -711,7 +711,7 @@ msgstr "Встановлювач шрифтів."
 
 #: drakfont:527
 #, fuzzy, c-format
-msgid "Moondrake GNU/Linux"
+msgid "Openmandriva Lx GNU/Linux"
 msgstr "Mandriva Linux"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
@@ -3448,156 +3448,156 @@ msgstr "Налаштування мови і країни"
 #: ../polkit/org.moondrake.drakauth.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Authentication Configuration"
-msgstr "Запуск засобу налаштовування розпізнавання у Moondrake"
+msgstr "Запуск засобу налаштовування розпізнавання у Openmandriva Lx"
 
 #: ../polkit/org.moondrake.drakauth.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Authentication Configuration"
 msgstr ""
-"Щоб запустити засіб налаштовування розпізнавання у Moondrake, слід пройти "
+"Щоб запустити засіб налаштовування розпізнавання у Openmandriva Lx, слід пройти "
 "розпізнавання"
 
 #: ../polkit/org.moondrake.drakboot.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Boot Configuration"
-msgstr "Запуск засобу налаштовування завантаження Moondrake"
+msgstr "Запуск засобу налаштовування завантаження Openmandriva Lx"
 
 #: ../polkit/org.moondrake.drakboot.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Boot Configuration"
 msgstr ""
-"Щоб запустити засіб налаштовування завантаження Moondrake, слід пройти "
+"Щоб запустити засіб налаштовування завантаження Openmandriva Lx, слід пройти "
 "розпізнавання"
 
 #: ../polkit/org.moondrake.drakclock.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Date and Time Configuration"
-msgstr "Запуск засобу налаштовування дати і часу у Moondrake"
+msgstr "Запуск засобу налаштовування дати і часу у Openmandriva Lx"
 
 #: ../polkit/org.moondrake.drakclock.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Date and Time Configuration"
 msgstr ""
-"Щоб запустити засіб налаштовування дати і часу у Moondrake, слід пройти "
+"Щоб запустити засіб налаштовування дати і часу у Openmandriva Lx, слід пройти "
 "розпізнавання"
 
 #: ../polkit/org.moondrake.drakdisk.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Disk Layout Editor"
-msgstr "Запуск редактора компонування диска Moondrake"
+msgstr "Запуск редактора компонування диска Openmandriva Lx"
 
 #: ../polkit/org.moondrake.drakdisk.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Disk Layout Editor"
 msgstr ""
-"Щоб запустити редактор компонування диска Moondrake, слід пройти "
+"Щоб запустити редактор компонування диска Openmandriva Lx, слід пройти "
 "розпізнавання"
 
 #: ../polkit/org.moondrake.drakdm.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Login Manager Configuration"
-msgstr "Запуск засобу керування входом до Moondrake"
+msgstr "Запуск засобу керування входом до Openmandriva Lx"
 
 #: ../polkit/org.moondrake.drakdm.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Login Manager Configuration"
 msgstr ""
-"Щоб запустити засіб керування входом до Moondrake, слід пройти розпізнавання"
+"Щоб запустити засіб керування входом до Openmandriva Lx, слід пройти розпізнавання"
 
 #: ../polkit/org.moondrake.drakfont.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Font Configuration"
-msgstr "Запуск засобу налаштовування шрифтів Moondrake"
+msgstr "Запуск засобу налаштовування шрифтів Openmandriva Lx"
 
 #: ../polkit/org.moondrake.drakfont.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Font Configuration"
 msgstr ""
-"Щоб запустити засіб налаштовування шрифтів Moondrake, слід пройти "
+"Щоб запустити засіб налаштовування шрифтів Openmandriva Lx, слід пройти "
 "розпізнавання"
 
 #: ../polkit/org.moondrake.drakhardware.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Hardware Configuration"
-msgstr "Запуск засобу налаштовування обладнання Moondrake"
+msgstr "Запуск засобу налаштовування обладнання Openmandriva Lx"
 
 #: ../polkit/org.moondrake.drakhardware.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Hardware Configuration"
 msgstr ""
-"Щоб запустити засіб налаштовування обладнання Moondrake, слід пройти "
+"Щоб запустити засіб налаштовування обладнання Openmandriva Lx, слід пройти "
 "розпізнавання"
 
 #: ../polkit/org.moondrake.draklog.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Log Viewer"
-msgstr "Запуск засобу перегляду журналу Moondrake"
+msgstr "Запуск засобу перегляду журналу Openmandriva Lx"
 
 #: ../polkit/org.moondrake.draklog.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Log Viewer"
 msgstr ""
-"Щоб запустити засіб перегляду журналу Moondrake, слід пройти розпізнавання"
+"Щоб запустити засіб перегляду журналу Openmandriva Lx, слід пройти розпізнавання"
 
 #: ../polkit/org.moondrake.drakperm.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Security Permissions Configuration"
-msgstr "Запуск засобу налаштовування захисних правил доступу Moondrake"
+msgstr "Запуск засобу налаштовування захисних правил доступу Openmandriva Lx"
 
 #: ../polkit/org.moondrake.drakperm.policy.in.h:2
 #, fuzzy
 msgid ""
 "Authentication is required to run DrakX Security Permissions Configuration"
 msgstr ""
-"Щоб запустити засіб налаштовування захисних правил доступу Moondrake, слід "
+"Щоб запустити засіб налаштовування захисних правил доступу Openmandriva Lx, слід "
 "пройти розпізнавання"
 
 #: ../polkit/org.moondrake.drakscanner.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Scanner Configuration"
-msgstr "Запуск засобу налаштовування сканера Moondrake"
+msgstr "Запуск засобу налаштовування сканера Openmandriva Lx"
 
 #: ../polkit/org.moondrake.drakscanner.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Scanner Configuration"
 msgstr ""
-"Щоб запустити засіб налаштовування сканера Moondrake, слід пройти "
+"Щоб запустити засіб налаштовування сканера Openmandriva Lx, слід пройти "
 "розпізнавання"
 
 #: ../polkit/org.moondrake.draksec.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Application Security Configuration"
-msgstr "Запуск засобу налаштовування захисту програм Moondrake"
+msgstr "Запуск засобу налаштовування захисту програм Openmandriva Lx"
 
 #: ../polkit/org.moondrake.draksec.policy.in.h:2
 #, fuzzy
 msgid ""
 "Authentication is required to run DrakX Application Security Configuration"
 msgstr ""
-"Щоб запустити засіб налаштовування захисту програм Moondrake, слід пройти "
+"Щоб запустити засіб налаштовування захисту програм Openmandriva Lx, слід пройти "
 "розпізнавання"
 
 #: ../polkit/org.moondrake.drakups.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX UPS Configuration"
-msgstr "Запуск засобу налаштовування UPS Moondrake"
+msgstr "Запуск засобу налаштовування UPS Openmandriva Lx"
 
 #: ../polkit/org.moondrake.drakups.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX UPS Configuration"
 msgstr ""
-"Щоб запустити засіб налаштовування UPS Moondrake, слід пройти розпізнавання"
+"Щоб запустити засіб налаштовування UPS Openmandriva Lx, слід пройти розпізнавання"
 
 #: ../polkit/org.moondrake.moondrakeservices.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Service Configuration"
-msgstr "Запуск засобу налаштовування служб Moondrake"
+msgstr "Запуск засобу налаштовування служб Openmandriva Lx"
 
 #: ../polkit/org.moondrake.moondrakeservices.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Service Configuration"
 msgstr ""
-"Щоб запустити засіб налаштовування служб Moondrake, слід пройти розпізнавання"
+"Щоб запустити засіб налаштовування служб Openmandriva Lx, слід пройти розпізнавання"
 
 #~ msgid "%s Bug Report Tool"
 #~ msgstr "Програма для створення звітів щодо помилок у %s"
@@ -3606,117 +3606,117 @@ msgstr ""
 #~ msgstr "Журнал інструментів %s"
 
 #~ msgid ""
-#~ "Authentication is required to run Moondrake Application Security "
+#~ "Authentication is required to run Openmandriva Lx Application Security "
 #~ "Configuration"
 #~ msgstr ""
-#~ "Щоб запустити засіб налаштовування захисту програм Moondrake, слід пройти "
+#~ "Щоб запустити засіб налаштовування захисту програм Openmandriva Lx, слід пройти "
 #~ "розпізнавання"
 
 #~ msgid ""
-#~ "Authentication is required to run Moondrake Authentication Configuration"
+#~ "Authentication is required to run Openmandriva Lx Authentication Configuration"
 #~ msgstr ""
-#~ "Щоб запустити засіб налаштовування розпізнавання у Moondrake, слід пройти "
+#~ "Щоб запустити засіб налаштовування розпізнавання у Openmandriva Lx, слід пройти "
 #~ "розпізнавання"
 
-#~ msgid "Authentication is required to run Moondrake Boot Configuration"
+#~ msgid "Authentication is required to run Openmandriva Lx Boot Configuration"
 #~ msgstr ""
-#~ "Щоб запустити засіб налаштовування завантаження Moondrake, слід пройти "
-#~ "розпізнавання"
-
-#~ msgid ""
-#~ "Authentication is required to run Moondrake Date and Time Configuration"
-#~ msgstr ""
-#~ "Щоб запустити засіб налаштовування дати і часу у Moondrake, слід пройти "
-#~ "розпізнавання"
-
-#~ msgid "Authentication is required to run Moondrake Disk Layout Editor"
-#~ msgstr ""
-#~ "Щоб запустити редактор компонування диска Moondrake, слід пройти "
-#~ "розпізнавання"
-
-#~ msgid "Authentication is required to run Moondrake Font Configuration"
-#~ msgstr ""
-#~ "Щоб запустити засіб налаштовування шрифтів Moondrake, слід пройти "
-#~ "розпізнавання"
-
-#~ msgid "Authentication is required to run Moondrake Hardware Configuration"
-#~ msgstr ""
-#~ "Щоб запустити засіб налаштовування обладнання Moondrake, слід пройти "
-#~ "розпізнавання"
-
-#~ msgid "Authentication is required to run Moondrake Log Viewer"
-#~ msgstr ""
-#~ "Щоб запустити засіб перегляду журналу Moondrake, слід пройти розпізнавання"
-
-#~ msgid ""
-#~ "Authentication is required to run Moondrake Login Manager Configuration"
-#~ msgstr ""
-#~ "Щоб запустити засіб керування входом до Moondrake, слід пройти "
-#~ "розпізнавання"
-
-#~ msgid "Authentication is required to run Moondrake Scanner Configuration"
-#~ msgstr ""
-#~ "Щоб запустити засіб налаштовування сканера Moondrake, слід пройти "
+#~ "Щоб запустити засіб налаштовування завантаження Openmandriva Lx, слід пройти "
 #~ "розпізнавання"
 
 #~ msgid ""
-#~ "Authentication is required to run Moondrake Security Permissions "
+#~ "Authentication is required to run Openmandriva Lx Date and Time Configuration"
+#~ msgstr ""
+#~ "Щоб запустити засіб налаштовування дати і часу у Openmandriva Lx, слід пройти "
+#~ "розпізнавання"
+
+#~ msgid "Authentication is required to run Openmandriva Lx Disk Layout Editor"
+#~ msgstr ""
+#~ "Щоб запустити редактор компонування диска Openmandriva Lx, слід пройти "
+#~ "розпізнавання"
+
+#~ msgid "Authentication is required to run Openmandriva Lx Font Configuration"
+#~ msgstr ""
+#~ "Щоб запустити засіб налаштовування шрифтів Openmandriva Lx, слід пройти "
+#~ "розпізнавання"
+
+#~ msgid "Authentication is required to run Openmandriva Lx Hardware Configuration"
+#~ msgstr ""
+#~ "Щоб запустити засіб налаштовування обладнання Openmandriva Lx, слід пройти "
+#~ "розпізнавання"
+
+#~ msgid "Authentication is required to run Openmandriva Lx Log Viewer"
+#~ msgstr ""
+#~ "Щоб запустити засіб перегляду журналу Openmandriva Lx, слід пройти розпізнавання"
+
+#~ msgid ""
+#~ "Authentication is required to run Openmandriva Lx Login Manager Configuration"
+#~ msgstr ""
+#~ "Щоб запустити засіб керування входом до Openmandriva Lx, слід пройти "
+#~ "розпізнавання"
+
+#~ msgid "Authentication is required to run Openmandriva Lx Scanner Configuration"
+#~ msgstr ""
+#~ "Щоб запустити засіб налаштовування сканера Openmandriva Lx, слід пройти "
+#~ "розпізнавання"
+
+#~ msgid ""
+#~ "Authentication is required to run Openmandriva Lx Security Permissions "
 #~ "Configuration"
 #~ msgstr ""
-#~ "Щоб запустити засіб налаштовування захисних правил доступу Moondrake, "
+#~ "Щоб запустити засіб налаштовування захисних правил доступу Openmandriva Lx, "
 #~ "слід пройти розпізнавання"
 
-#~ msgid "Authentication is required to run Moondrake Service Configuration"
+#~ msgid "Authentication is required to run Openmandriva Lx Service Configuration"
 #~ msgstr ""
-#~ "Щоб запустити засіб налаштовування служб Moondrake, слід пройти "
+#~ "Щоб запустити засіб налаштовування служб Openmandriva Lx, слід пройти "
 #~ "розпізнавання"
 
-#~ msgid "Authentication is required to run Moondrake UPS Configuration"
+#~ msgid "Authentication is required to run Openmandriva Lx UPS Configuration"
 #~ msgstr ""
-#~ "Щоб запустити засіб налаштовування UPS Moondrake, слід пройти "
+#~ "Щоб запустити засіб налаштовування UPS Openmandriva Lx, слід пройти "
 #~ "розпізнавання"
 
 #~ msgid "Configure authentication required to access %s tools"
 #~ msgstr "Налаштувати запити розпізнавання для доступу до інструментів %s"
 
-#~ msgid "Run Moondrake Application Security Configuration"
-#~ msgstr "Запуск засобу налаштовування захисту програм Moondrake"
+#~ msgid "Run Openmandriva Lx Application Security Configuration"
+#~ msgstr "Запуск засобу налаштовування захисту програм Openmandriva Lx"
 
-#~ msgid "Run Moondrake Authentication Configuration"
-#~ msgstr "Запуск засобу налаштовування розпізнавання у Moondrake"
+#~ msgid "Run Openmandriva Lx Authentication Configuration"
+#~ msgstr "Запуск засобу налаштовування розпізнавання у Openmandriva Lx"
 
-#~ msgid "Run Moondrake Boot Configuration"
-#~ msgstr "Запуск засобу налаштовування завантаження Moondrake"
+#~ msgid "Run Openmandriva Lx Boot Configuration"
+#~ msgstr "Запуск засобу налаштовування завантаження Openmandriva Lx"
 
-#~ msgid "Run Moondrake Date and Time Configuration"
-#~ msgstr "Запуск засобу налаштовування дати і часу у Moondrake"
+#~ msgid "Run Openmandriva Lx Date and Time Configuration"
+#~ msgstr "Запуск засобу налаштовування дати і часу у Openmandriva Lx"
 
-#~ msgid "Run Moondrake Disk Layout Editor"
-#~ msgstr "Запуск редактора компонування диска Moondrake"
+#~ msgid "Run Openmandriva Lx Disk Layout Editor"
+#~ msgstr "Запуск редактора компонування диска Openmandriva Lx"
 
-#~ msgid "Run Moondrake Font Configuration"
-#~ msgstr "Запуск засобу налаштовування шрифтів Moondrake"
+#~ msgid "Run Openmandriva Lx Font Configuration"
+#~ msgstr "Запуск засобу налаштовування шрифтів Openmandriva Lx"
 
-#~ msgid "Run Moondrake Hardware Configuration"
-#~ msgstr "Запуск засобу налаштовування обладнання Moondrake"
+#~ msgid "Run Openmandriva Lx Hardware Configuration"
+#~ msgstr "Запуск засобу налаштовування обладнання Openmandriva Lx"
 
-#~ msgid "Run Moondrake Log Viewer"
-#~ msgstr "Запуск засобу перегляду журналу Moondrake"
+#~ msgid "Run Openmandriva Lx Log Viewer"
+#~ msgstr "Запуск засобу перегляду журналу Openmandriva Lx"
 
-#~ msgid "Run Moondrake Login Manager Configuration"
-#~ msgstr "Запуск засобу керування входом до Moondrake"
+#~ msgid "Run Openmandriva Lx Login Manager Configuration"
+#~ msgstr "Запуск засобу керування входом до Openmandriva Lx"
 
-#~ msgid "Run Moondrake Scanner Configuration"
-#~ msgstr "Запуск засобу налаштовування сканера Moondrake"
+#~ msgid "Run Openmandriva Lx Scanner Configuration"
+#~ msgstr "Запуск засобу налаштовування сканера Openmandriva Lx"
 
-#~ msgid "Run Moondrake Security Permissions Configuration"
-#~ msgstr "Запуск засобу налаштовування захисних правил доступу Moondrake"
+#~ msgid "Run Openmandriva Lx Security Permissions Configuration"
+#~ msgstr "Запуск засобу налаштовування захисних правил доступу Openmandriva Lx"
 
-#~ msgid "Run Moondrake Service Configuration"
-#~ msgstr "Запуск засобу налаштовування служб Moondrake"
+#~ msgid "Run Openmandriva Lx Service Configuration"
+#~ msgstr "Запуск засобу налаштовування служб Openmandriva Lx"
 
-#~ msgid "Run Moondrake UPS Configuration"
-#~ msgstr "Запуск засобу налаштовування UPS Moondrake"
+#~ msgid "Run Openmandriva Lx UPS Configuration"
+#~ msgstr "Запуск засобу налаштовування UPS Openmandriva Lx"
 
 #~ msgid "  --help                - display this help     \n"
 #~ msgstr " --help                — вивести цю довідку     \n"
@@ -3724,7 +3724,7 @@ msgstr ""
 #~ msgid ""
 #~ " drakhelp 0.1\n"
 #~ "Copyright (C) %s Mandriva.\n"
-#~ "Copyright (C) %s Moondrake.\n"
+#~ "Copyright (C) %s Openmandriva Lx.\n"
 #~ "This is free software and may be redistributed under the terms of the GNU "
 #~ "GPL.\n"
 #~ "\n"
@@ -3732,7 +3732,7 @@ msgstr ""
 #~ msgstr ""
 #~ " drakhelp 0.1\n"
 #~ "©Mandriva, %s.\n"
-#~ "©Moondrake, %s.\n"
+#~ "©Openmandriva Lx, %s.\n"
 #~ "Ця програма безкоштовна і може розповсюджуватися згідно умов Загальної "
 #~ "публічної ліцензії GNU GPL\n"
 #~ "\n"
@@ -3937,8 +3937,8 @@ msgstr ""
 #~ msgid "Mandriva Update"
 #~ msgstr "Mandriva Update"
 
-#~ msgid "Moondrake"
-#~ msgstr "Moondrake"
+#~ msgid "Openmandriva Lx"
+#~ msgstr "Openmandriva Lx"
 
 #~ msgid ""
 #~ "No Sound Card has been detected on your machine. Please verify that a "
