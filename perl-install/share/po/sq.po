@@ -153,7 +153,7 @@ msgstr "Autorizoje ACPI"
 msgid "Enable Local APIC"
 msgstr "Autorizoje ACPI"
 
-#: any.pm:445 security/level.pm:51
+#: any.pm:445 security/level.pm:51 security/level.pm:50
 #, c-format
 msgid "Security"
 msgstr "Siguria"
@@ -170,6 +170,7 @@ msgid "The passwords do not match"
 msgstr "Parullat nuk përputhen"
 
 #: any.pm:449 authentication.pm:260 diskdrake/interactive.pm:1498
+#: diskdrake/interactive.pm:1495
 #, c-format
 msgid "Please try again"
 msgstr "Ju lutemi provoni edhe një herë"
@@ -957,16 +958,6 @@ msgstr "vërtetësim"
 #, c-format
 msgid "No password"
 msgstr "Asnjë parullë"
-
-#: authentication.pm:260
-#, c-format
-msgid "The passwords do not match"
-msgstr "Parullat nuk përputhen"
-
-#: authentication.pm:260 diskdrake/interactive.pm:1495
-#, c-format
-msgid "Please try again"
-msgstr "Ju lutemi provoni edhe një herë"
 
 #: authentication.pm:263
 #, c-format
@@ -6144,11 +6135,6 @@ msgstr ""
 
 #: security/level.pm:50
 #, c-format
-msgid "Security"
-msgstr "Siguria"
-
-#: security/level.pm:50
-#, c-format
 msgid "DrakSec Basic Options"
 msgstr "Opcionet Bazë të DrakSec"
 
@@ -6212,7 +6198,7 @@ msgstr ""
 msgid "Avahi is a ZeroConf daemon which implements an mDNS stack"
 msgstr ""
 
-#: services.pm:24
+#: services.pm:24 services.pm:26
 #, fuzzy, c-format
 msgid "An NTP client/server"
 msgstr "Server NTP"
@@ -6221,11 +6207,6 @@ msgstr "Server NTP"
 #, c-format
 msgid "Set CPU powersafe mode"
 msgstr ""
-
-#: services.pm:26
-#, fuzzy, c-format
-msgid "An NTP client/server"
-msgstr "Server NTP"
 
 #: services.pm:27
 #, c-format
@@ -7118,12 +7099,6 @@ msgstr ""
 msgid "Installation failed"
 msgstr "Instalimi dështio"
 
-#, fuzzy
-#~ msgid "You cannot use a password with %s"
-#~ msgstr ""
-#~ "Ju nuk mund ta përdorni sistemin e skedareve të kriptuara për këtë pikë "
-#~ "montuese %s"
-
 #~ msgid "Clean /tmp at each boot"
 #~ msgstr "Zbraze repertorin /tmp në çdo nisje"
 
@@ -7352,9 +7327,6 @@ msgstr "Instalimi dështio"
 
 #~ msgid "Choose the sizes"
 #~ msgstr "Zgjedhi madhësitë"
-
-#~ msgid "Clean /tmp at each boot"
-#~ msgstr "Zbraze repertorin /tmp në çdo nisje"
 
 #~ msgid "Collapse Tree"
 #~ msgstr "Zvogëloje Drurin Gjinealogjik"
@@ -7809,53 +7781,6 @@ msgstr "Instalimi dështio"
 #~ msgstr ""
 #~ "Përmbajtja e tabelave ndarëse nuk posedon madhësi të njëjtë\n"
 #~ "A dëshironi të vazhdoni?"
-
-#~ msgid ""
-#~ "The classic bug sound tester is to run the following commands:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" will tell you which driver your card "
-#~ "uses\n"
-#~ "by default\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" will tell you what driver it\n"
-#~ "currently uses\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\" will enable you to check if its module (driver) is\n"
-#~ "loaded or not\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" and \"/sbin/chkconfig --list alsa\" "
-#~ "will\n"
-#~ "tell you if sound and alsa services are configured to be run on\n"
-#~ "initlevel 3\n"
-#~ "\n"
-#~ "- \"aumix -q\" will tell you if the sound volume is muted or not\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" will tell which program uses the sound "
-#~ "card.\n"
-#~ msgstr ""
-#~ "Një bug klasik me tingull testues i cili nisë urdhërat vijues:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" do të ju tregoj se cili pilot "
-#~ "përdore kartelën tuaj me marrëveshje\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" do të ju tregoj se cili pilot "
-#~ "përdoret aktualisht\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\" do të ju mudësoj verifikimin e modulit se a është "
-#~ "piloti \n"
-#~ "i ngarkuar apo jo\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" dhe \"/sbin/chkconfig --list alsa\" do "
-#~ "të tregoj nëse kartela e zërit dhe serviset alsa janë konfiguruar që të "
-#~ "nisen\n"
-#~ "në initlevel 3\n"
-#~ "\n"
-#~ "- \"aumix -q\" do të ju tregoj nëse zëri mund të heshtohet apo jo\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" do të ju tregoj se cili program është duke "
-#~ "përdorur kartelën e zërit.\n"
 
 #~ msgid ""
 #~ "The old \"%s\" driver is blacklisted.\n"

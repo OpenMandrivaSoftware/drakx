@@ -154,7 +154,7 @@ msgstr "Paganahin ang ACPI"
 msgid "Enable Local APIC"
 msgstr "Paganahin ang ACPI"
 
-#: any.pm:445 security/level.pm:51
+#: any.pm:445 security/level.pm:51 security/level.pm:50
 #, c-format
 msgid "Security"
 msgstr "Seguridad"
@@ -171,6 +171,7 @@ msgid "The passwords do not match"
 msgstr "Hindi pareho ang mga password"
 
 #: any.pm:449 authentication.pm:260 diskdrake/interactive.pm:1498
+#: diskdrake/interactive.pm:1495
 #, c-format
 msgid "Please try again"
 msgstr "Pakisubukan muli"
@@ -955,16 +956,6 @@ msgstr "Paraan ng authentication"
 #, c-format
 msgid "No password"
 msgstr "Walang password"
-
-#: authentication.pm:260
-#, c-format
-msgid "The passwords do not match"
-msgstr "Hindi pareho ang mga password"
-
-#: authentication.pm:260 diskdrake/interactive.pm:1495
-#, c-format
-msgid "Please try again"
-msgstr "Pakisubukan muli"
 
 #: authentication.pm:263
 #, c-format
@@ -6200,11 +6191,6 @@ msgstr ""
 
 #: security/level.pm:50
 #, c-format
-msgid "Security"
-msgstr "Seguridad"
-
-#: security/level.pm:50
-#, c-format
 msgid "DrakSec Basic Options"
 msgstr "Mga Basic Option ng DrakSec"
 
@@ -6272,7 +6258,7 @@ msgstr ""
 msgid "Avahi is a ZeroConf daemon which implements an mDNS stack"
 msgstr ""
 
-#: services.pm:24
+#: services.pm:24 services.pm:26
 #, fuzzy, c-format
 msgid "An NTP client/server"
 msgstr "NTP Server"
@@ -6281,11 +6267,6 @@ msgstr "NTP Server"
 #, c-format
 msgid "Set CPU powersafe mode"
 msgstr ""
-
-#: services.pm:26
-#, fuzzy, c-format
-msgid "An NTP client/server"
-msgstr "NTP Server"
 
 #: services.pm:27
 #, c-format
@@ -7207,12 +7188,6 @@ msgstr ""
 msgid "Installation failed"
 msgstr "Pag-i-install nabigo"
 
-#, fuzzy
-#~ msgid "You cannot use a password with %s"
-#~ msgstr ""
-#~ "Hindi kayo maaaring gumamit ng encrypted na filesystem para sa mount "
-#~ "point na %s"
-
 #~ msgid "Clean /tmp at each boot"
 #~ msgstr "Linisin ang /tmp bawa boot"
 
@@ -7446,9 +7421,6 @@ msgstr "Pag-i-install nabigo"
 
 #~ msgid "Choose the sizes"
 #~ msgstr "Piliin ang mga laki"
-
-#~ msgid "Clean /tmp at each boot"
-#~ msgstr "Linisin ang /tmp bawa boot"
 
 #~ msgid "Collapse Tree"
 #~ msgstr "I-collapse ang tree"
@@ -7926,53 +7898,6 @@ msgstr "Pag-i-install nabigo"
 #~ msgstr ""
 #~ "Iba ang laki ng backup na partition table\n"
 #~ "Magpatuloy pa rin?"
-
-#~ msgid ""
-#~ "The classic bug sound tester is to run the following commands:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" will tell you which driver your card "
-#~ "uses\n"
-#~ "by default\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" will tell you what driver it\n"
-#~ "currently uses\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\" will enable you to check if its module (driver) is\n"
-#~ "loaded or not\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" and \"/sbin/chkconfig --list alsa\" "
-#~ "will\n"
-#~ "tell you if sound and alsa services are configured to be run on\n"
-#~ "initlevel 3\n"
-#~ "\n"
-#~ "- \"aumix -q\" will tell you if the sound volume is muted or not\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" will tell which program uses the sound "
-#~ "card.\n"
-#~ msgstr ""
-#~ "Ang classic na tagasubok ng \"bug sound\" ay patatakbuhin ang mga\n"
-#~ "sumusunod na command:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" ay sasabihin kung aling driver ang "
-#~ "gamit\n"
-#~ "ng inyong card bilang default\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" ay sasabihin kung anong driver\n"
-#~ "ang gamit nito sa kasalukuyan\n"
-#~ "- \"/sbin/lsmod\" ay bibigyan kayo ng kakayahan na suriin kung ang "
-#~ "module\n"
-#~ "(driver) ay naka-load o hindi\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" at \"/sbin/chkconfig --list alsa\" ay\n"
-#~ "sasabihin kung ang mga sound at alsa service ay naka-configure\n"
-#~ "na tumakbo sa initlevel 3\n"
-#~ "\n"
-#~ "- \"aumix -q\" ay sasabihin kung ang sound volume ay naka-mute o hindi\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" ay sasabihin kung aling mga program ang\n"
-#~ "gumagamit ng sound card.\n"
 
 #~ msgid ""
 #~ "The old \"%s\" driver is blacklisted.\n"

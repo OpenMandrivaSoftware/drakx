@@ -932,16 +932,6 @@ msgstr "การตรวจสอบสิทธิ์การใช้งา
 msgid "No password"
 msgstr "ไม่มีรหัสผ่าน"
 
-#: authentication.pm:260
-#, c-format
-msgid "The passwords do not match"
-msgstr "รหัสผ่านไม่เหมือนกัน"
-
-#: authentication.pm:260 diskdrake/interactive.pm:1495
-#, c-format
-msgid "Please try again"
-msgstr "โปรดลองอีกครั้ง"
-
 #: authentication.pm:263
 #, c-format
 msgid "This password is too short (it must be at least %d characters long)"
@@ -5925,11 +5915,6 @@ msgstr ""
 
 #: security/level.pm:50
 #, c-format
-msgid "Security"
-msgstr "ระบบความป้องกัน"
-
-#: security/level.pm:50
-#, c-format
 msgid "DrakSec Basic Options"
 msgstr ""
 
@@ -5999,11 +5984,6 @@ msgstr "เซิร์ฟเวอร์ NIS"
 #, c-format
 msgid "Set CPU powersafe mode"
 msgstr ""
-
-#: services.pm:26
-#, fuzzy, c-format
-msgid "An NTP client/server"
-msgstr "เซิร์ฟเวอร์ NIS"
 
 #: services.pm:27
 #, c-format

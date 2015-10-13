@@ -172,7 +172,7 @@ msgstr "啟用 APIC"
 msgid "Enable Local APIC"
 msgstr "啟用本地 APIC"
 
-#: any.pm:445 security/level.pm:51
+#: any.pm:445 security/level.pm:51 security/level.pm:50
 #, c-format
 msgid "Security"
 msgstr "安全性"
@@ -189,6 +189,7 @@ msgid "The passwords do not match"
 msgstr "密碼不符合"
 
 #: any.pm:449 authentication.pm:260 diskdrake/interactive.pm:1498
+#: diskdrake/interactive.pm:1495
 #, c-format
 msgid "Please try again"
 msgstr "請再試一次"
@@ -963,16 +964,6 @@ msgstr "認證方式"
 #, c-format
 msgid "No password"
 msgstr "沒有密碼"
-
-#: authentication.pm:260
-#, c-format
-msgid "The passwords do not match"
-msgstr "密碼不符合"
-
-#: authentication.pm:260 diskdrake/interactive.pm:1495
-#, c-format
-msgid "Please try again"
-msgstr "請再試一次"
 
 #: authentication.pm:263
 #, c-format
@@ -5948,11 +5939,6 @@ msgstr ""
 
 #: security/level.pm:50
 #, c-format
-msgid "Security"
-msgstr "安全性"
-
-#: security/level.pm:50
-#, c-format
 msgid "DrakSec Basic Options"
 msgstr "DrakSec 基本參數選項"
 
@@ -6013,20 +5999,15 @@ msgstr "atd 服務程式, 能夠讓您在在命令列指定某個時間執行某
 msgid "Avahi is a ZeroConf daemon which implements an mDNS stack"
 msgstr "Avahi 是一個實作 mDNS 堆疊的 ZeroConf 伺服程式"
 
-#: services.pm:24
-#, fuzzy, c-format
+#: services.pm:26
+#, c-format
 msgid "An NTP client/server"
-msgstr "NTP 伺服器"
+msgstr "一個 NTP 用戶端/伺服器"
 
 #: services.pm:25
 #, c-format
 msgid "Set CPU powersafe mode"
 msgstr ""
-
-#: services.pm:26
-#, c-format
-msgid "An NTP client/server"
-msgstr "一個 NTP 用戶端/伺服器"
 
 #: services.pm:27
 #, c-format
@@ -6905,9 +6886,6 @@ msgstr ""
 msgid "Installation failed"
 msgstr "安裝失敗"
 
-#~ msgid "You cannot use a password with %s"
-#~ msgstr "您不能使用 %s 作為密碼"
-
 #~ msgid "Clean /tmp at each boot"
 #~ msgstr "每次開機時清理 /tmp"
 
@@ -6951,9 +6929,6 @@ msgstr "安裝失敗"
 #~ "- \"aumix -q\" 會告訴您音量是否設為靜音\n"
 #~ "\n"
 #~ "- \"/sbin/fuser -v /dev/dsp\" 將指出哪個程式在使用音效卡。\n"
-
-#~ msgid "Set CPU frequency settings"
-#~ msgstr "設定 CPU 頻率選項"
 
 #~ msgid ""
 #~ "LILO wants to assign a new Volume ID to drive %s.  However, changing\n"
@@ -7091,9 +7066,6 @@ msgstr "安裝失敗"
 #~ "- \"/usr/sbin/fuser -v /dev/snd/pcm* /dev/dsp\" 會告訴您哪個程式正在直接使"
 #~ "用音效卡 (通常這應該只會顯示 PulseAudio)。\n"
 
-#~ msgid "Clean /tmp at each boot"
-#~ msgstr "每次開機時清理 /tmp"
-
 #~ msgid ""
 #~ "Congratulations, installation is complete.\n"
 #~ "Remove the boot media and press Enter to reboot."
@@ -7198,47 +7170,6 @@ msgstr "安裝失敗"
 
 #~ msgid "SunOS"
 #~ msgstr "SunOS"
-
-#~ msgid ""
-#~ "The classic bug sound tester is to run the following commands:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" will tell you which driver your card "
-#~ "uses\n"
-#~ "by default\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" will tell you what driver it\n"
-#~ "currently uses\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\" will enable you to check if its module (driver) is\n"
-#~ "loaded or not\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" and \"/sbin/chkconfig --list alsa\" "
-#~ "will\n"
-#~ "tell you if sound and alsa services are configured to be run on\n"
-#~ "initlevel 3\n"
-#~ "\n"
-#~ "- \"aumix -q\" will tell you if the sound volume is muted or not\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" will tell which program uses the sound "
-#~ "card.\n"
-#~ msgstr ""
-#~ "傳統的音效除錯與測試是執行以下指令：\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" 會告訴您您的音效卡預設使用何種驅動程"
-#~ "式。\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" 將告訴您正在使用何種驅動程式。\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\" 讓您可以檢查音效模組 (驅動程式) 是否已經載入。\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" 與 \"/sbin/chkconfig --list alsa\" 將\n"
-#~ "告訴您音效與 ALSA 服務是否被設定為在 initlevel 3 執行。\n"
-#~ "\n"
-#~ "- \"aumix -q\" 會告訴您音量是否設為靜音\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" 將指出哪個程式在使用音效卡。\n"
 
 #~ msgid ""
 #~ "The old \"%s\" driver is blacklisted.\n"

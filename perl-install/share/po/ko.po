@@ -159,7 +159,7 @@ msgstr "APIC 허용"
 msgid "Enable Local APIC"
 msgstr "지역 APIC 허용"
 
-#: any.pm:445 security/level.pm:51
+#: any.pm:445 security/level.pm:51 security/level.pm:50
 #, c-format
 msgid "Security"
 msgstr "보안"
@@ -176,6 +176,7 @@ msgid "The passwords do not match"
 msgstr "암호가 일치하지 않습니다."
 
 #: any.pm:449 authentication.pm:260 diskdrake/interactive.pm:1498
+#: diskdrake/interactive.pm:1495
 #, c-format
 msgid "Please try again"
 msgstr "다시 시도하세요."
@@ -961,16 +962,6 @@ msgstr "인증 방법"
 #, c-format
 msgid "No password"
 msgstr "암호 없음"
-
-#: authentication.pm:260
-#, c-format
-msgid "The passwords do not match"
-msgstr "암호가 일치하지 않습니다."
-
-#: authentication.pm:260 diskdrake/interactive.pm:1495
-#, c-format
-msgid "Please try again"
-msgstr "다시 시도하세요."
 
 #: authentication.pm:263
 #, c-format
@@ -5873,11 +5864,6 @@ msgstr ""
 
 #: security/level.pm:50
 #, c-format
-msgid "Security"
-msgstr "보안"
-
-#: security/level.pm:50
-#, c-format
 msgid "DrakSec Basic Options"
 msgstr "DrakSec 기본 옵션"
 
@@ -5940,7 +5926,7 @@ msgstr ""
 msgid "Avahi is a ZeroConf daemon which implements an mDNS stack"
 msgstr ""
 
-#: services.pm:24
+#: services.pm:24 services.pm:26
 #, fuzzy, c-format
 msgid "An NTP client/server"
 msgstr "NTP 서버"
@@ -5949,11 +5935,6 @@ msgstr "NTP 서버"
 #, c-format
 msgid "Set CPU powersafe mode"
 msgstr ""
-
-#: services.pm:26
-#, fuzzy, c-format
-msgid "An NTP client/server"
-msgstr "NTP 서버"
 
 #: services.pm:27
 #, c-format
@@ -6759,10 +6740,6 @@ msgstr ""
 msgid "Installation failed"
 msgstr "설치 실패."
 
-#, fuzzy
-#~ msgid "You cannot use a password with %s"
-#~ msgstr " %s 마운트 위치에는 암호를 사용할 수 없습니다.다. "
-
 #~ msgid "Clean /tmp at each boot"
 #~ msgstr "부팅시 /tmp 디렉토리 자동 청소"
 
@@ -6848,9 +6825,6 @@ msgstr "설치 실패."
 
 #~ msgid "Choose the sizes"
 #~ msgstr "크기 선택"
-
-#~ msgid "Clean /tmp at each boot"
-#~ msgstr "부팅시 /tmp 디렉토리 자동 청소"
 
 #~ msgid "Collapse Tree"
 #~ msgstr "트리 접기"

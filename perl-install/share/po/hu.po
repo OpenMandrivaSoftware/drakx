@@ -167,7 +167,7 @@ msgstr "APIC bekapcsolása"
 msgid "Enable Local APIC"
 msgstr "Helyi APIC bekapcsolása"
 
-#: any.pm:445 security/level.pm:51
+#: any.pm:445 security/level.pm:51 security/level.pm:50
 #, c-format
 msgid "Security"
 msgstr "Biztonság"
@@ -184,6 +184,7 @@ msgid "The passwords do not match"
 msgstr "A jelszavak nem egyeznek"
 
 #: any.pm:449 authentication.pm:260 diskdrake/interactive.pm:1498
+#: diskdrake/interactive.pm:1495
 #, c-format
 msgid "Please try again"
 msgstr "Próbálja meg újra"
@@ -985,16 +986,6 @@ msgstr "Azonosítási módszer"
 #, c-format
 msgid "No password"
 msgstr "Nincs jelszó"
-
-#: authentication.pm:260
-#, c-format
-msgid "The passwords do not match"
-msgstr "A jelszavak nem egyeznek"
-
-#: authentication.pm:260 diskdrake/interactive.pm:1495
-#, c-format
-msgid "Please try again"
-msgstr "Próbálja meg újra"
 
 #: authentication.pm:263
 #, c-format
@@ -6347,11 +6338,6 @@ msgstr ""
 
 #: security/level.pm:50
 #, c-format
-msgid "Security"
-msgstr "Biztonság"
-
-#: security/level.pm:50
-#, c-format
 msgid "DrakSec Basic Options"
 msgstr "DrakSec - alapvető beállítások"
 
@@ -6415,7 +6401,7 @@ msgstr ""
 msgid "Avahi is a ZeroConf daemon which implements an mDNS stack"
 msgstr "Az Avahi egy ZeroConf démon, ami egy mDNS implementáció"
 
-#: services.pm:24
+#: services.pm:24 services.pm:26
 #, fuzzy, c-format
 msgid "An NTP client/server"
 msgstr "NTP kiszolgáló"
@@ -6424,11 +6410,6 @@ msgstr "NTP kiszolgáló"
 #, c-format
 msgid "Set CPU powersafe mode"
 msgstr ""
-
-#: services.pm:26
-#, fuzzy, c-format
-msgid "An NTP client/server"
-msgstr "NTP kiszolgáló"
 
 #: services.pm:27
 #, c-format
@@ -7357,9 +7338,6 @@ msgstr ""
 msgid "Installation failed"
 msgstr "A telepítés hibával ért véget."
 
-#~ msgid "You cannot use a password with %s"
-#~ msgstr "Nem használható jelszó ezzel: %s"
-
 #~ msgid "Clean /tmp at each boot"
 #~ msgstr "A /tmp törlése minden újraindulásnál"
 
@@ -7408,9 +7386,6 @@ msgstr "A telepítés hibával ért véget."
 #~ "\n"
 #~ "- \"/sbin/fuser -v /dev/dsp\": kiírja, hogy melyik program használja a\n"
 #~ "hangkártyát\n"
-
-#~ msgid "Set CPU frequency settings"
-#~ msgstr "CPU frekvencia beállítása"
 
 #~ msgid ""
 #~ "LILO wants to assign a new Volume ID to drive %s.  However, changing\n"
@@ -7584,9 +7559,6 @@ msgstr "A telepítés hibával ért véget."
 
 #~ msgid "Choose the sizes"
 #~ msgstr "Adja meg a méreteket"
-
-#~ msgid "Clean /tmp at each boot"
-#~ msgstr "A /tmp törlése minden újraindulásnál"
 
 #~ msgid "Collapse Tree"
 #~ msgstr "A fa összecsukása"
@@ -8024,52 +7996,6 @@ msgstr "A telepítés hibával ért véget."
 #~ msgstr ""
 #~ "A partíciós tábla két példányának mérete eltér.\n"
 #~ "Mégis kívánja folytatni a műveletet?"
-
-#~ msgid ""
-#~ "The classic bug sound tester is to run the following commands:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" will tell you which driver your card "
-#~ "uses\n"
-#~ "by default\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" will tell you what driver it\n"
-#~ "currently uses\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\" will enable you to check if its module (driver) is\n"
-#~ "loaded or not\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" and \"/sbin/chkconfig --list alsa\" "
-#~ "will\n"
-#~ "tell you if sound and alsa services are configured to be run on\n"
-#~ "initlevel 3\n"
-#~ "\n"
-#~ "- \"aumix -q\" will tell you if the sound volume is muted or not\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" will tell which program uses the sound "
-#~ "card.\n"
-#~ msgstr ""
-#~ "Hangprobléma esetén a következő parancsokat érdemes használni:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\": kiírja, melyik meghajtót használja\n"
-#~ "alapértelmezésben a hangkártya\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\": kiírja, milyen meghajtó "
-#~ "használata\n"
-#~ "van jelenleg beállítva\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\": ezzel ellenőrizhető, hogy be van-e töltve a megfelelő\n"
-#~ "modul (meghajtó)\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" és \"/sbin/chkconfig --list alsa\":\n"
-#~ "kiírják, hogy a hangszolgáltatások futtatva vannak-e bizonyos futási\n"
-#~ "szinteken\n"
-#~ "\n"
-#~ "- \"aumix -q\": kiírja, hogy a hangerő le van-e véve vagy sem\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\": kiírja, hogy melyik program használja a\n"
-#~ "hangkártyát\n"
 
 #~ msgid ""
 #~ "The old \"%s\" driver is blacklisted.\n"

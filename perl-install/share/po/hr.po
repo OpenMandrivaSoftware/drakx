@@ -154,7 +154,7 @@ msgstr "Omogući CD podizanje?"
 msgid "Enable Local APIC"
 msgstr "Omogući CD podizanje?"
 
-#: any.pm:445 security/level.pm:51
+#: any.pm:445 security/level.pm:51 security/level.pm:50
 #, c-format
 msgid "Security"
 msgstr "Sigurnost"
@@ -171,6 +171,7 @@ msgid "The passwords do not match"
 msgstr "Lozinke se ne podudaraju"
 
 #: any.pm:449 authentication.pm:260 diskdrake/interactive.pm:1498
+#: diskdrake/interactive.pm:1495
 #, c-format
 msgid "Please try again"
 msgstr "Molim pokušajte ponovo"
@@ -950,16 +951,6 @@ msgstr "Provjera autentičnosti"
 #, c-format
 msgid "No password"
 msgstr "Bez lozinke"
-
-#: authentication.pm:260
-#, c-format
-msgid "The passwords do not match"
-msgstr "Lozinke se ne podudaraju"
-
-#: authentication.pm:260 diskdrake/interactive.pm:1495
-#, c-format
-msgid "Please try again"
-msgstr "Molim pokušajte ponovo"
 
 #: authentication.pm:263
 #, c-format
@@ -6049,11 +6040,6 @@ msgstr ""
 "samo klijent na Internetu, bolje da izaberete nižu razinu."
 
 #: security/level.pm:50
-#, c-format
-msgid "Security"
-msgstr "Sigurnost"
-
-#: security/level.pm:50
 #, fuzzy, c-format
 msgid "DrakSec Basic Options"
 msgstr "Opcije"
@@ -6119,7 +6105,7 @@ msgstr ""
 msgid "Avahi is a ZeroConf daemon which implements an mDNS stack"
 msgstr ""
 
-#: services.pm:24
+#: services.pm:24 services.pm:26
 #, fuzzy, c-format
 msgid "An NTP client/server"
 msgstr "NTP Poslužitelj"
@@ -6128,11 +6114,6 @@ msgstr "NTP Poslužitelj"
 #, c-format
 msgid "Set CPU powersafe mode"
 msgstr ""
-
-#: services.pm:26
-#, fuzzy, c-format
-msgid "An NTP client/server"
-msgstr "NTP Poslužitelj"
 
 #: services.pm:27
 #, c-format
@@ -6965,11 +6946,6 @@ msgstr ""
 msgid "Installation failed"
 msgstr "Instalacija nije uspjela"
 
-#, fuzzy
-#~ msgid "You cannot use a password with %s"
-#~ msgstr ""
-#~ "Ne možete koristiti enkriptirani datotečni sustav za točku montiranja %s"
-
 #~ msgid "Clean /tmp at each boot"
 #~ msgstr "Očisti /tmp na svakom podizanju"
 
@@ -7150,9 +7126,6 @@ msgstr "Instalacija nije uspjela"
 
 #~ msgid "Choose the sizes"
 #~ msgstr "Odaberite veličinu"
-
-#~ msgid "Clean /tmp at each boot"
-#~ msgstr "Očisti /tmp na svakom podizanju"
 
 #~ msgid "Collapse Tree"
 #~ msgstr "Sažmi stablo"

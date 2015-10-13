@@ -159,7 +159,7 @@ msgstr "Galluogi APIC"
 msgid "Enable Local APIC"
 msgstr "Galluogi APIC Lleol"
 
-#: any.pm:445 security/level.pm:51
+#: any.pm:445 security/level.pm:51 security/level.pm:50
 #, c-format
 msgid "Security"
 msgstr "Diogelwch"
@@ -176,6 +176,7 @@ msgid "The passwords do not match"
 msgstr "Nid yw'r cyfrineiriau'n cyd-fynd"
 
 #: any.pm:449 authentication.pm:260 diskdrake/interactive.pm:1498
+#: diskdrake/interactive.pm:1495
 #, c-format
 msgid "Please try again"
 msgstr "Ceisiwch eto"
@@ -969,16 +970,6 @@ msgstr "Dull dilysu"
 #, c-format
 msgid "No password"
 msgstr "Dim cyfrinair"
-
-#: authentication.pm:260
-#, c-format
-msgid "The passwords do not match"
-msgstr "Nid yw'r cyfrineiriau'n cyd-fynd"
-
-#: authentication.pm:260 diskdrake/interactive.pm:1495
-#, c-format
-msgid "Please try again"
-msgstr "Ceisiwch eto"
 
 #: authentication.pm:263
 #, c-format
@@ -6239,11 +6230,6 @@ msgstr ""
 
 #: security/level.pm:50
 #, c-format
-msgid "Security"
-msgstr "Diogelwch"
-
-#: security/level.pm:50
-#, c-format
 msgid "DrakSec Basic Options"
 msgstr "Dewisiadau Sylfaenol DrakSec"
 
@@ -6307,7 +6293,7 @@ msgstr ""
 msgid "Avahi is a ZeroConf daemon which implements an mDNS stack"
 msgstr ""
 
-#: services.pm:24
+#: services.pm:24 services.pm:26
 #, fuzzy, c-format
 msgid "An NTP client/server"
 msgstr "Gweinydd NTP"
@@ -6316,11 +6302,6 @@ msgstr "Gweinydd NTP"
 #, c-format
 msgid "Set CPU powersafe mode"
 msgstr ""
-
-#: services.pm:26
-#, fuzzy, c-format
-msgid "An NTP client/server"
-msgstr "Gweinydd NTP"
 
 #: services.pm:27
 #, c-format
@@ -7234,9 +7215,6 @@ msgstr ""
 msgid "Installation failed"
 msgstr "Methodd y gosod"
 
-#~ msgid "You cannot use a password with %s"
-#~ msgstr "Nid oes modd defnyddio cyfrinair gyda %s"
-
 #~ msgid "Clean /tmp at each boot"
 #~ msgstr "Glanhau /tmp bob tro fyddwch yn cychwyn"
 
@@ -7482,9 +7460,6 @@ msgstr "Methodd y gosod"
 
 #~ msgid "Choose the sizes"
 #~ msgstr "Dewis maint"
-
-#~ msgid "Clean /tmp at each boot"
-#~ msgstr "Glanhau /tmp bob tro fyddwch yn cychwyn"
 
 #~ msgid "Collapse Tree"
 #~ msgstr "Cau'r goeden"
@@ -7963,53 +7938,6 @@ msgstr "Methodd y gosod"
 #~ msgstr ""
 #~ "Nid yw'r tabl rhaniad wrth gefn yr un maint\n"
 #~ "Parhau?"
-
-#~ msgid ""
-#~ "The classic bug sound tester is to run the following commands:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" will tell you which driver your card "
-#~ "uses\n"
-#~ "by default\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" will tell you what driver it\n"
-#~ "currently uses\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\" will enable you to check if its module (driver) is\n"
-#~ "loaded or not\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" and \"/sbin/chkconfig --list alsa\" "
-#~ "will\n"
-#~ "tell you if sound and alsa services are configured to be run on\n"
-#~ "initlevel 3\n"
-#~ "\n"
-#~ "- \"aumix -q\" will tell you if the sound volume is muted or not\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" will tell which program uses the sound "
-#~ "card.\n"
-#~ msgstr ""
-#~ "Prawf gwall sain - rhedeg y gorchmynion canlynol:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" pa yrwyr i'w defnyddio\n"
-#~ "drwy ragosodiad\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" pa yrwyr mae'n defnyddio\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" pa raglen sy'n defnyddio'r cerdyn sain.\n"
-#~ "ar hyn o bryd\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\" gwirio os yw ei yrrwr wedi ei lwytho\n"
-#~ "a'i peidio\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" a \"/sbin/chkconfig --list alsa\" "
-#~ "dangos\n"
-#~ "os yw sain a gwasanaethau alsa services sydd wedi eu ffurfweddu yn "
-#~ "rhedeg\n"
-#~ "ar initlevel 3\n"
-#~ "\n"
-#~ "- \"aumix -q\" a yw'r sain wedi ei ddistewi a'i peidio\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" pa rhaglen sy'n defnyddio'r cerdyn sain.\n"
 
 #~ msgid ""
 #~ "The old \"%s\" driver is blacklisted.\n"

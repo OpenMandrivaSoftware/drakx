@@ -172,7 +172,7 @@ msgstr "Ενεργοποίηση του ACPI"
 msgid "Enable Local APIC"
 msgstr "Ενεργοποίηση του Τοπικού ACPI"
 
-#: any.pm:445 security/level.pm:51
+#: any.pm:445 security/level.pm:51 security/level.pm:50
 #, c-format
 msgid "Security"
 msgstr "Ασφάλεια"
@@ -189,6 +189,7 @@ msgid "The passwords do not match"
 msgstr "Οι κωδικοί πρόσβασης είναι ανόμοιοι"
 
 #: any.pm:449 authentication.pm:260 diskdrake/interactive.pm:1498
+#: diskdrake/interactive.pm:1495
 #, c-format
 msgid "Please try again"
 msgstr "Παρακαλώ προσπαθήστε ξανά"
@@ -997,16 +998,6 @@ msgstr "Μέθοδος πιστοποίησης"
 #, c-format
 msgid "No password"
 msgstr "Χωρίς κωδικό πρόσβασης"
-
-#: authentication.pm:260
-#, c-format
-msgid "The passwords do not match"
-msgstr "Οι κωδικοί πρόσβασης είναι ανόμοιοι"
-
-#: authentication.pm:260 diskdrake/interactive.pm:1495
-#, c-format
-msgid "Please try again"
-msgstr "Παρακαλώ προσπαθήστε ξανά"
 
 #: authentication.pm:263
 #, c-format
@@ -6369,11 +6360,6 @@ msgstr ""
 
 #: security/level.pm:50
 #, c-format
-msgid "Security"
-msgstr "Ασφάλεια"
-
-#: security/level.pm:50
-#, c-format
 msgid "DrakSec Basic Options"
 msgstr "Βασικές Επιλογές DrakSec"
 
@@ -6438,20 +6424,15 @@ msgid "Avahi is a ZeroConf daemon which implements an mDNS stack"
 msgstr ""
 "Το avahi είναι ένας ZeroConf δαίμονας ο οποίος ενσωματώνει ένα στρώμα mDNS"
 
-#: services.pm:24
-#, fuzzy, c-format
+#: services.pm:26
+#, c-format
 msgid "An NTP client/server"
-msgstr "Εξυπηρετητής NTP"
+msgstr "Ένας εξυπηρετητής/πελάτης NTP"
 
 #: services.pm:25
 #, c-format
 msgid "Set CPU powersafe mode"
 msgstr ""
-
-#: services.pm:26
-#, c-format
-msgid "An NTP client/server"
-msgstr "Ένας εξυπηρετητής/πελάτης NTP"
 
 #: services.pm:27
 #, c-format
@@ -7401,9 +7382,6 @@ msgstr ""
 msgid "Installation failed"
 msgstr "Η εγκατάσταση απέτυχε"
 
-#~ msgid "You cannot use a password with %s"
-#~ msgstr "Δεν μπορείς να χρησιμοποιήσεις ένα κωδικό πρόσβασης με το %s"
-
 #~ msgid "Clean /tmp at each boot"
 #~ msgstr "Καθαρισμός /tmp σε κάθε εκκίνηση"
 
@@ -7456,9 +7434,6 @@ msgstr "Η εγκατάσταση απέτυχε"
 #~ "\n"
 #~ "- \"/sbin/fuser -v /dev/dsp\" θα σου πει ποιο πρόγραμμα χρησιμοποιεί την "
 #~ "κάρτα ήχου.\n"
-
-#~ msgid "Set CPU frequency settings"
-#~ msgstr "Καθορισμός ρυθμίσεων της συχνότητας του επεξεργαστή"
 
 #~ msgid ""
 #~ "After rebooting and logging into Moondrake, you will see the "
@@ -7783,9 +7758,6 @@ msgstr "Η εγκατάσταση απέτυχε"
 
 #~ msgid "Choose the sizes"
 #~ msgstr "Επιλέξτε τα μεγέθη"
-
-#~ msgid "Clean /tmp at each boot"
-#~ msgstr "Καθαρισμός /tmp σε κάθε εκκίνηση"
 
 #~ msgid "Collapse Tree"
 #~ msgstr "Σύμπτυξη δέντρου"
@@ -8243,56 +8215,6 @@ msgstr "Η εγκατάσταση απέτυχε"
 #~ msgstr ""
 #~ "Ο εφεδρικός πίνακας κατατμήσεων έχει διαφορετικό μέγεθος\n"
 #~ "Να συνεχίσω;"
-
-#~ msgid ""
-#~ "The classic bug sound tester is to run the following commands:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" will tell you which driver your card "
-#~ "uses\n"
-#~ "by default\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" will tell you what driver it\n"
-#~ "currently uses\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\" will enable you to check if its module (driver) is\n"
-#~ "loaded or not\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" and \"/sbin/chkconfig --list alsa\" "
-#~ "will\n"
-#~ "tell you if sound and alsa services are configured to be run on\n"
-#~ "initlevel 3\n"
-#~ "\n"
-#~ "- \"aumix -q\" will tell you if the sound volume is muted or not\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" will tell which program uses the sound "
-#~ "card.\n"
-#~ msgstr ""
-#~ "Ο κλασικός τρόπος ελέγχου του ήχου για δυσλειτουργίες, είναι ή εκτέλεση "
-#~ "των παρακάτω εντολών:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" θα σου πει ποιον οδηγό συσκευής "
-#~ "χρησιμοποιεί η κάρτα σου,\n"
-#~ " από προεπιλογή\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" θα σου πει ποιον οδηγό συσκευής "
-#~ "χρησιμοποιεί η κάρτα σου,\n"
-#~ " τώρα\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\" θα σου επιτρέψει να ελέγξεις αν το άρθρωμά της (module)"
-#~ "(οδηγός συσκευής - driver)\n"
-#~ " έχει φορτωθεί ή όχι\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" και \"/sbin/chkconfig --list alsa\" \n"
-#~ " θα σου πει αν οι υπηρεσίες ήχου και alsa έχουν ρυθμιστεί να τρέχουν σε\n"
-#~ " initlevel 3\n"
-#~ "\n"
-#~ "- \"aumix -q\" θα σου πει αν η ένταση του ήχου είναι σε κατάσταση σιγής ή "
-#~ "όχι\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" θα σου πει ποιο πρόγραμμα χρησιμοποιεί την "
-#~ "κάρτα ήχου.\n"
 
 #~ msgid ""
 #~ "The old \"%s\" driver is blacklisted.\n"

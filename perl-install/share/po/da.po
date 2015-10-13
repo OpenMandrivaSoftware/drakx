@@ -164,7 +164,7 @@ msgstr "Aktivér APIC"
 msgid "Enable Local APIC"
 msgstr "Aktivér lokal APIC"
 
-#: any.pm:445 security/level.pm:51
+#: any.pm:445 security/level.pm:51 security/level.pm:50
 #, c-format
 msgid "Security"
 msgstr "Sikkerhed"
@@ -181,6 +181,7 @@ msgid "The passwords do not match"
 msgstr "Adgangskoderne stemmer ikke overens"
 
 #: any.pm:449 authentication.pm:260 diskdrake/interactive.pm:1498
+#: diskdrake/interactive.pm:1495
 #, c-format
 msgid "Please try again"
 msgstr "Prøv igen"
@@ -977,16 +978,6 @@ msgstr "Autentifikationsmetode"
 #, c-format
 msgid "No password"
 msgstr "Ingen adgangskode"
-
-#: authentication.pm:260
-#, c-format
-msgid "The passwords do not match"
-msgstr "Adgangskoderne stemmer ikke overens"
-
-#: authentication.pm:260 diskdrake/interactive.pm:1495
-#, c-format
-msgid "Please try again"
-msgstr "Prøv igen"
 
 #: authentication.pm:263
 #, c-format
@@ -6221,11 +6212,6 @@ msgstr ""
 
 #: security/level.pm:50
 #, c-format
-msgid "Security"
-msgstr "Sikkerhed"
-
-#: security/level.pm:50
-#, c-format
 msgid "DrakSec Basic Options"
 msgstr "Basale valgmuligheder for DrakSec"
 
@@ -6289,7 +6275,7 @@ msgstr ""
 msgid "Avahi is a ZeroConf daemon which implements an mDNS stack"
 msgstr "Avahi er en ZeroConf-dæmon som implementerer en mDNS-stak"
 
-#: services.pm:24
+#: services.pm:24 services.pm:26
 #, fuzzy, c-format
 msgid "An NTP client/server"
 msgstr "NTP-server"
@@ -6298,11 +6284,6 @@ msgstr "NTP-server"
 #, c-format
 msgid "Set CPU powersafe mode"
 msgstr ""
-
-#: services.pm:26
-#, fuzzy, c-format
-msgid "An NTP client/server"
-msgstr "NTP-server"
 
 #: services.pm:27
 #, c-format
@@ -7216,9 +7197,6 @@ msgstr ""
 msgid "Installation failed"
 msgstr "Installation mislykkedes"
 
-#~ msgid "You cannot use a password with %s"
-#~ msgstr "Du kan ikke bruge en adgangskode med %s"
-
 #~ msgid "Clean /tmp at each boot"
 #~ msgstr "Rens /tmp ved hver systemopstart"
 
@@ -7265,9 +7243,6 @@ msgstr "Installation mislykkedes"
 #~ "\n"
 #~ "- \"/sbin/fuser -v /dev/dsp\" vil vise hvilke programmer som bruger "
 #~ "lydkortet\n"
-
-#~ msgid "Set CPU frequency settings"
-#~ msgstr "Opsæt indstillinger for CPU-frekvens"
 
 #~ msgid ""
 #~ "LILO wants to assign a new Volume ID to drive %s.  However, changing\n"
@@ -7332,9 +7307,6 @@ msgstr "Installation mislykkedes"
 #~ "rettigheder til at ændre eller tilpasse programmelprodukterne, helt eller "
 #~ "delvist, med alle midler og til alle formål. \"Moondrake\" samt de "
 #~ "tilhørende logoer er varemærker for %s  "
-
-#~ msgid "Clean /tmp at each boot"
-#~ msgstr "Rens /tmp ved hver systemopstart"
 
 #~ msgid ""
 #~ "Congratulations, installation is complete.\n"
@@ -7608,50 +7580,6 @@ msgstr "Installation mislykkedes"
 #~ "udviklet af Moondrake bliver reguleret efter GPL-licensen. "
 #~ "Dokumentationen skrevet af Moondrake bliver reguleret efter en specifik "
 #~ "licens. Referér venligst til dokumentationen for yderligere detaljer."
-
-#~ msgid ""
-#~ "The classic bug sound tester is to run the following commands:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" will tell you which driver your card "
-#~ "uses\n"
-#~ "by default\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" will tell you what driver it\n"
-#~ "currently uses\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\" will enable you to check if its module (driver) is\n"
-#~ "loaded or not\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" and \"/sbin/chkconfig --list alsa\" "
-#~ "will\n"
-#~ "tell you if sound and alsa services are configured to be run on\n"
-#~ "initlevel 3\n"
-#~ "\n"
-#~ "- \"aumix -q\" will tell you if the sound volume is muted or not\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" will tell which program uses the sound "
-#~ "card.\n"
-#~ msgstr ""
-#~ "Den klassiske metode for at fejlsøge lydopsætningten er at køre følgende\n"
-#~ "kommandoer:\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" vil vise hvilken driver lydkortet "
-#~ "bruger \n"
-#~ "som standard\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" vil vise hvilken driver som er i "
-#~ "brug\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\" lader dig se om denne driver er indlæst\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" og \"/sbin/chkconfig --list alsa\" "
-#~ "vil\n"
-#~ "vise om disse tjenester er sat op til at startes.\n"
-#~ "\n"
-#~ "- \"aumix -q\" vil vise om lyden er slukket ned eller ikke\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" vil vise hvilke programmer som bruger "
-#~ "lydkortet\n"
 
 #~ msgid ""
 #~ "The old \"%s\" driver is blacklisted.\n"

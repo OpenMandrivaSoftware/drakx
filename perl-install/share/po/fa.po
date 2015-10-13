@@ -158,7 +158,7 @@ msgstr "بکار انداختن ACPI"
 msgid "Enable Local APIC"
 msgstr "بکار انداختن ACPI"
 
-#: any.pm:445 security/level.pm:51
+#: any.pm:445 security/level.pm:51 security/level.pm:50
 #, c-format
 msgid "Security"
 msgstr "امنیت"
@@ -175,6 +175,7 @@ msgid "The passwords do not match"
 msgstr "گذرواژه‌ها مطابقت نمی‌کنند"
 
 #: any.pm:449 authentication.pm:260 diskdrake/interactive.pm:1498
+#: diskdrake/interactive.pm:1495
 #, c-format
 msgid "Please try again"
 msgstr "لطفاً دوباره امتحان کنید"
@@ -964,16 +965,6 @@ msgstr "روش تأیید هویت"
 #, c-format
 msgid "No password"
 msgstr "بدون گذرواژه"
-
-#: authentication.pm:260
-#, c-format
-msgid "The passwords do not match"
-msgstr "گذرواژه‌ها مطابقت نمی‌کنند"
-
-#: authentication.pm:260 diskdrake/interactive.pm:1495
-#, c-format
-msgid "Please try again"
-msgstr "لطفاً دوباره امتحان کنید"
 
 #: authentication.pm:263
 #, c-format
@@ -6104,11 +6095,6 @@ msgstr ""
 
 #: security/level.pm:50
 #, c-format
-msgid "Security"
-msgstr "امنیت"
-
-#: security/level.pm:50
-#, c-format
 msgid "DrakSec Basic Options"
 msgstr "گزینه‌های پایه‌ی DrakSec"
 
@@ -6172,7 +6158,7 @@ msgstr ""
 msgid "Avahi is a ZeroConf daemon which implements an mDNS stack"
 msgstr ""
 
-#: services.pm:24
+#: services.pm:24 services.pm:26
 #, fuzzy, c-format
 msgid "An NTP client/server"
 msgstr "کارگزار NTP"
@@ -6181,11 +6167,6 @@ msgstr "کارگزار NTP"
 #, c-format
 msgid "Set CPU powersafe mode"
 msgstr ""
-
-#: services.pm:26
-#, fuzzy, c-format
-msgid "An NTP client/server"
-msgstr "کارگزار NTP"
 
 #: services.pm:27
 #, c-format
@@ -7083,11 +7064,6 @@ msgstr ""
 msgid "Installation failed"
 msgstr "نصب شکست خورد"
 
-#, fuzzy
-#~ msgid "You cannot use a password with %s"
-#~ msgstr ""
-#~ "نمی‌توانید از سیستم پرونده‌ی رمزگذاری شده برای نقطه سوارسازی %s استفاده کنید"
-
 #~ msgid "Clean /tmp at each boot"
 #~ msgstr "پاک کردن شاخه‌ی /tmp در هر آغازگری"
 
@@ -7321,9 +7297,6 @@ msgstr "نصب شکست خورد"
 
 #~ msgid "Choose the sizes"
 #~ msgstr "انتخاب اندازه‌ها"
-
-#~ msgid "Clean /tmp at each boot"
-#~ msgstr "پاک کردن شاخه‌ی /tmp در هر آغازگری"
 
 #~ msgid "Collapse Tree"
 #~ msgstr "فرو ریختن درخت"
@@ -7762,54 +7735,6 @@ msgstr "نصب شکست خورد"
 #~ msgstr ""
 #~ "ذخیره‌ی پشتیبان جدول قسمت‌بندی با اصل جدول هم‌اندازه نیست\n"
 #~ "با این حال ادامه می‌دهید؟"
-
-#~ msgid ""
-#~ "The classic bug sound tester is to run the following commands:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" will tell you which driver your card "
-#~ "uses\n"
-#~ "by default\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" will tell you what driver it\n"
-#~ "currently uses\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\" will enable you to check if its module (driver) is\n"
-#~ "loaded or not\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" and \"/sbin/chkconfig --list alsa\" "
-#~ "will\n"
-#~ "tell you if sound and alsa services are configured to be run on\n"
-#~ "initlevel 3\n"
-#~ "\n"
-#~ "- \"aumix -q\" will tell you if the sound volume is muted or not\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" will tell which program uses the sound "
-#~ "card.\n"
-#~ msgstr ""
-#~ "آزمایش‌گر اشکال صوت کلاسیک فرمان‌های بدنبال آمده را برای اجرا دارد:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" به شما می‌گوید که کارت شما از چه "
-#~ "راه‌اندازی\n"
-#~ "توسط پیش‌فرض استفاده می‌کند.\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" به شما می‌گوید از چه راه‌اندازی "
-#~ "در\n"
-#~ "حال حاضر استفاده می‌شود\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\" شما را برای بررسی این که آیا راه‌انداز بارگذاری شده یا "
-#~ "نه\n"
-#~ "قادر می‌سازد\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" و \"/sbin/chkconfig --list alsa\" به \n"
-#~ "شما می‌گوید که آیا صوت و سرویس‌های alsa برای اجرا در initlevel 3 \n"
-#~ "پیکربندی شده‌اند\n"
-#~ "\n"
-#~ "- \"aumix -q\" به شما می‌کوید که آیا حجم صدا خاموش است یا نه\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" به شما می‌گوید کدام برنامه از کارت صوت "
-#~ "استفاده می‌کند.\n"
 
 #~ msgid ""
 #~ "The old \"%s\" driver is blacklisted.\n"

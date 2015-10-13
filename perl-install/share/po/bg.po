@@ -162,7 +162,7 @@ msgstr "Включи APIC"
 msgid "Enable Local APIC"
 msgstr "Включи Local APIC"
 
-#: any.pm:445 security/level.pm:51
+#: any.pm:445 security/level.pm:51 security/level.pm:50
 #, c-format
 msgid "Security"
 msgstr "Сигурност"
@@ -179,6 +179,7 @@ msgid "The passwords do not match"
 msgstr "Паролите не съвпадат"
 
 #: any.pm:449 authentication.pm:260 diskdrake/interactive.pm:1498
+#: diskdrake/interactive.pm:1495
 #, c-format
 msgid "Please try again"
 msgstr "Моля, опитайте отново"
@@ -969,16 +970,6 @@ msgstr "Метод за идентификация"
 #, c-format
 msgid "No password"
 msgstr "Без парола"
-
-#: authentication.pm:260
-#, c-format
-msgid "The passwords do not match"
-msgstr "Паролите не съвпадат"
-
-#: authentication.pm:260 diskdrake/interactive.pm:1495
-#, c-format
-msgid "Please try again"
-msgstr "Моля, опитайте отново"
 
 #: authentication.pm:263
 #, c-format
@@ -6093,11 +6084,6 @@ msgstr ""
 
 #: security/level.pm:50
 #, c-format
-msgid "Security"
-msgstr "Сигурност"
-
-#: security/level.pm:50
-#, c-format
 msgid "DrakSec Basic Options"
 msgstr "Основни опции на DrakSec "
 
@@ -6161,7 +6147,7 @@ msgstr ""
 msgid "Avahi is a ZeroConf daemon which implements an mDNS stack"
 msgstr ""
 
-#: services.pm:24
+#: services.pm:24 services.pm:26
 #, fuzzy, c-format
 msgid "An NTP client/server"
 msgstr "NTP сървър"
@@ -6170,11 +6156,6 @@ msgstr "NTP сървър"
 #, c-format
 msgid "Set CPU powersafe mode"
 msgstr ""
-
-#: services.pm:26
-#, fuzzy, c-format
-msgid "An NTP client/server"
-msgstr "NTP сървър"
 
 #: services.pm:27
 #, c-format
@@ -6979,9 +6960,6 @@ msgstr ""
 msgid "Installation failed"
 msgstr "Инсталацията провалена"
 
-#~ msgid "You cannot use a password with %s"
-#~ msgstr "Вие не можете да използвате парола включваща %s"
-
 #~ msgid "Clean /tmp at each boot"
 #~ msgstr "Почистване на директория /tmp при всяко зареждане"
 
@@ -7147,9 +7125,6 @@ msgstr "Инсталацията провалена"
 
 #~ msgid "Choose the sizes"
 #~ msgstr "Изберете големините"
-
-#~ msgid "Clean /tmp at each boot"
-#~ msgstr "Почистване на директория /tmp при всяко зареждане"
 
 #~ msgid "Collapse Tree"
 #~ msgstr "Изчисти дървото"

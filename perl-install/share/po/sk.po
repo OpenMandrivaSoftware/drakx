@@ -159,7 +159,7 @@ msgstr "Povoliť ACPI"
 msgid "Enable Local APIC"
 msgstr "Povoliť ACPI"
 
-#: any.pm:445 security/level.pm:51
+#: any.pm:445 security/level.pm:51 security/level.pm:50
 #, c-format
 msgid "Security"
 msgstr "Bezpečnosť"
@@ -176,6 +176,7 @@ msgid "The passwords do not match"
 msgstr "Zadané heslá nie sú rovnaké"
 
 #: any.pm:449 authentication.pm:260 diskdrake/interactive.pm:1498
+#: diskdrake/interactive.pm:1495
 #, c-format
 msgid "Please try again"
 msgstr "Prosím skúste znovu"
@@ -963,16 +964,6 @@ msgstr "Authentikačná metóda"
 #, c-format
 msgid "No password"
 msgstr "Bez hesla"
-
-#: authentication.pm:260
-#, c-format
-msgid "The passwords do not match"
-msgstr "Zadané heslá nie sú rovnaké"
-
-#: authentication.pm:260 diskdrake/interactive.pm:1495
-#, c-format
-msgid "Please try again"
-msgstr "Prosím skúste znovu"
 
 #: authentication.pm:263
 #, c-format
@@ -6161,11 +6152,6 @@ msgstr ""
 
 #: security/level.pm:50
 #, c-format
-msgid "Security"
-msgstr "Bezpečnosť"
-
-#: security/level.pm:50
-#, c-format
 msgid "DrakSec Basic Options"
 msgstr "DrakSec základné nastavenia"
 
@@ -6226,7 +6212,7 @@ msgstr "Spúšťa príkazy nastavené cez príkaz at v stanovenom čase."
 msgid "Avahi is a ZeroConf daemon which implements an mDNS stack"
 msgstr ""
 
-#: services.pm:24
+#: services.pm:24 services.pm:26
 #, fuzzy, c-format
 msgid "An NTP client/server"
 msgstr "NTP server"
@@ -6235,11 +6221,6 @@ msgstr "NTP server"
 #, c-format
 msgid "Set CPU powersafe mode"
 msgstr ""
-
-#: services.pm:26
-#, fuzzy, c-format
-msgid "An NTP client/server"
-msgstr "NTP server"
 
 #: services.pm:27
 #, c-format
@@ -7132,10 +7113,6 @@ msgstr ""
 msgid "Installation failed"
 msgstr "Inštalácia zlyhala"
 
-#, fuzzy
-#~ msgid "You cannot use a password with %s"
-#~ msgstr "Nemôžete použiť kryptovaný súborový systém pre bod pripojenia %s"
-
 #~ msgid "Clean /tmp at each boot"
 #~ msgstr "Vyčistiť /tmp pri každom štarte"
 
@@ -7378,9 +7355,6 @@ msgstr "Inštalácia zlyhala"
 
 #~ msgid "Choose the sizes"
 #~ msgstr "Zvoľte veľkosti"
-
-#~ msgid "Clean /tmp at each boot"
-#~ msgstr "Vyčistiť /tmp pri každom štarte"
 
 #~ msgid "Collapse Tree"
 #~ msgstr "Zbaliť stromovú štruktúru"
@@ -7848,53 +7822,6 @@ msgstr "Inštalácia zlyhala"
 #~ msgstr ""
 #~ "Záložná tabuľka rozdelenia disku nemá rovnakú veľkosť\n"
 #~ "Naozaj chcete pokračovať?"
-
-#~ msgid ""
-#~ "The classic bug sound tester is to run the following commands:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" will tell you which driver your card "
-#~ "uses\n"
-#~ "by default\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" will tell you what driver it\n"
-#~ "currently uses\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\" will enable you to check if its module (driver) is\n"
-#~ "loaded or not\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" and \"/sbin/chkconfig --list alsa\" "
-#~ "will\n"
-#~ "tell you if sound and alsa services are configured to be run on\n"
-#~ "initlevel 3\n"
-#~ "\n"
-#~ "- \"aumix -q\" will tell you if the sound volume is muted or not\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" will tell which program uses the sound "
-#~ "card.\n"
-#~ msgstr ""
-#~ "Šikovný tester chýb v zvukovom systéme by použil nasledovné príkazy:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" vám napíše aký ovldádač vaša karta\n"
-#~ "štandardne používa\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" vám napíše aký ovládač je "
-#~ "aktuálne\n"
-#~ "použitý\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\" vám umožní skontrolovať či je modul (ovládač) aktívny,\n"
-#~ "alebo nie\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" a \"/sbin/chkconfig --list alsa\" vám "
-#~ "napíše\n"
-#~ "či sú nastavené zvukové služby a alsa tak, aby sa spustili v runleveli 3\n"
-#~ "\n"
-#~ "- \"aumix -q\" vám pomôže zistiť, či je váš zvukový výstup stíšený alebo "
-#~ "nie\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" vám napíše, ktorý program používa zvukovú\n"
-#~ "kartu.\n"
 
 #~ msgid ""
 #~ "The old \"%s\" driver is blacklisted.\n"

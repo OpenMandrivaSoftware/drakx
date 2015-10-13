@@ -152,7 +152,7 @@ msgstr "Ebligu ACPI"
 msgid "Enable Local APIC"
 msgstr "Ebligu ACPI"
 
-#: any.pm:445 security/level.pm:51
+#: any.pm:445 security/level.pm:51 security/level.pm:50
 #, c-format
 msgid "Security"
 msgstr "Sekureco"
@@ -169,6 +169,7 @@ msgid "The passwords do not match"
 msgstr "La pasvortoj ne egalas"
 
 #: any.pm:449 authentication.pm:260 diskdrake/interactive.pm:1498
+#: diskdrake/interactive.pm:1495
 #, c-format
 msgid "Please try again"
 msgstr "Bonvole provu denove"
@@ -941,16 +942,6 @@ msgstr "Aŭtentikigado"
 #, c-format
 msgid "No password"
 msgstr "Neniu pasvorto"
-
-#: authentication.pm:260
-#, c-format
-msgid "The passwords do not match"
-msgstr "La pasvortoj ne egalas"
-
-#: authentication.pm:260 diskdrake/interactive.pm:1495
-#, c-format
-msgid "Please try again"
-msgstr "Bonvole provu denove"
 
 #: authentication.pm:263
 #, c-format
@@ -5875,11 +5866,6 @@ msgstr ""
 "akceptas konektojn de multaj klientoj."
 
 #: security/level.pm:50
-#, c-format
-msgid "Security"
-msgstr "Sekureco"
-
-#: security/level.pm:50
 #, fuzzy, c-format
 msgid "DrakSec Basic Options"
 msgstr "Opcioj"
@@ -5947,7 +5933,7 @@ msgstr ""
 msgid "Avahi is a ZeroConf daemon which implements an mDNS stack"
 msgstr ""
 
-#: services.pm:24
+#: services.pm:24 services.pm:26
 #, fuzzy, c-format
 msgid "An NTP client/server"
 msgstr "NTP Servilo"
@@ -5956,11 +5942,6 @@ msgstr "NTP Servilo"
 #, c-format
 msgid "Set CPU powersafe mode"
 msgstr ""
-
-#: services.pm:26
-#, fuzzy, c-format
-msgid "An NTP client/server"
-msgstr "NTP Servilo"
 
 #: services.pm:27
 #, c-format
@@ -6837,10 +6818,6 @@ msgstr ""
 msgid "Installation failed"
 msgstr "Instalado malsukcesis"
 
-#, fuzzy
-#~ msgid "You cannot use a password with %s"
-#~ msgstr "Vi ne povas uzi kriptan dosiersistemon por surmetingo %s"
-
 #~ msgid "Clean /tmp at each boot"
 #~ msgstr "Purigu /tmp dum ĉiuj startadoj"
 
@@ -6971,9 +6948,6 @@ msgstr "Instalado malsukcesis"
 
 #~ msgid "Choose the sizes"
 #~ msgstr "Elektu la grandecojn"
-
-#~ msgid "Clean /tmp at each boot"
-#~ msgstr "Purigu /tmp dum ĉiuj startadoj"
 
 #~ msgid "Collapse Tree"
 #~ msgstr "Maletendu Arbon"

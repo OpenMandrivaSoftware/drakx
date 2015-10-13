@@ -149,7 +149,7 @@ msgstr "Bevaat APIC"
 msgid "Enable Local APIC"
 msgstr "Bevaat APIC lec'hel"
 
-#: any.pm:445 security/level.pm:51
+#: any.pm:445 security/level.pm:51 security/level.pm:50
 #, c-format
 msgid "Security"
 msgstr "Diogelroez"
@@ -166,6 +166,7 @@ msgid "The passwords do not match"
 msgstr "An tremegerioù ne glot ket"
 
 #: any.pm:449 authentication.pm:260 diskdrake/interactive.pm:1498
+#: diskdrake/interactive.pm:1495
 #, c-format
 msgid "Please try again"
 msgstr "Klaskit adarre mar plij"
@@ -936,16 +937,6 @@ msgstr "Hentenn dilesadur"
 #, c-format
 msgid "No password"
 msgstr "Tremenger ebet"
-
-#: authentication.pm:260
-#, c-format
-msgid "The passwords do not match"
-msgstr "An tremegerioù ne glot ket"
-
-#: authentication.pm:260 diskdrake/interactive.pm:1495
-#, c-format
-msgid "Please try again"
-msgstr "Klaskit adarre mar plij"
 
 #: authentication.pm:263
 #, c-format
@@ -5850,11 +5841,6 @@ msgstr ""
 
 #: security/level.pm:50
 #, c-format
-msgid "Security"
-msgstr "Diogelroez"
-
-#: security/level.pm:50
-#, c-format
 msgid "DrakSec Basic Options"
 msgstr "Dibarzhoù DrakSec diazeg"
 
@@ -5918,7 +5904,7 @@ msgstr ""
 msgid "Avahi is a ZeroConf daemon which implements an mDNS stack"
 msgstr ""
 
-#: services.pm:24
+#: services.pm:24 services.pm:26
 #, fuzzy, c-format
 msgid "An NTP client/server"
 msgstr "Servijer NTP"
@@ -5927,11 +5913,6 @@ msgstr "Servijer NTP"
 #, c-format
 msgid "Set CPU powersafe mode"
 msgstr ""
-
-#: services.pm:26
-#, fuzzy, c-format
-msgid "An NTP client/server"
-msgstr "Servijer NTP"
 
 #: services.pm:27
 #, c-format

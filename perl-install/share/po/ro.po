@@ -202,7 +202,7 @@ msgstr "Activează APIC"
 msgid "Enable Local APIC"
 msgstr "Activează APIC local"
 
-#: any.pm:445 security/level.pm:51
+#: any.pm:445 security/level.pm:51 security/level.pm:50
 #, c-format
 msgid "Security"
 msgstr "Securitate"
@@ -219,6 +219,7 @@ msgid "The passwords do not match"
 msgstr "Parolele nu sînt identice"
 
 #: any.pm:449 authentication.pm:260 diskdrake/interactive.pm:1498
+#: diskdrake/interactive.pm:1495
 #, c-format
 msgid "Please try again"
 msgstr "Încercați din nou"
@@ -1022,16 +1023,6 @@ msgstr "Metoda de autentificare"
 #, c-format
 msgid "No password"
 msgstr "Fără parolă"
-
-#: authentication.pm:260
-#, c-format
-msgid "The passwords do not match"
-msgstr "Parolele nu sînt identice"
-
-#: authentication.pm:260 diskdrake/interactive.pm:1495
-#, c-format
-msgid "Please try again"
-msgstr "Încercați din nou"
 
 #: authentication.pm:263
 #, c-format
@@ -6325,11 +6316,6 @@ msgstr ""
 
 #: security/level.pm:50
 #, c-format
-msgid "Security"
-msgstr "Securitate"
-
-#: security/level.pm:50
-#, c-format
 msgid "DrakSec Basic Options"
 msgstr "Opțiuni de bază DrakSec"
 
@@ -6399,20 +6385,15 @@ msgstr ""
 msgid "Avahi is a ZeroConf daemon which implements an mDNS stack"
 msgstr "Avahi este un demon ZeroConf ce implementează o stivă mDNS"
 
-#: services.pm:24
-#, fuzzy, c-format
+#: services.pm:26
+#, c-format
 msgid "An NTP client/server"
-msgstr "Server NTP"
+msgstr "Un client/server NTP"
 
 #: services.pm:25
 #, c-format
 msgid "Set CPU powersafe mode"
 msgstr ""
-
-#: services.pm:26
-#, c-format
-msgid "An NTP client/server"
-msgstr "Un client/server NTP"
 
 #: services.pm:27
 #, c-format
@@ -7339,10 +7320,6 @@ msgstr ""
 msgid "Installation failed"
 msgstr "Instalarea a eșuat"
 
-#, fuzzy
-#~ msgid "You cannot use a password with %s"
-#~ msgstr "Nu puteți utiliza o parolă cu %s"
-
 #~ msgid "Clean /tmp at each boot"
 #~ msgstr "Curăță /tmp la fiecare pornire"
 
@@ -7391,9 +7368,6 @@ msgstr "Instalarea a eșuat"
 #~ "\n"
 #~ "- „/sbin/fuser -v /dev/dsp” va afișa care din programe utilizează placa\n"
 #~ "de sunet.\n"
-
-#~ msgid "Set CPU frequency settings"
-#~ msgstr "Configurează parametrii de frecvență ai procesorului"
 
 #~ msgid ""
 #~ "After rebooting and logging into Moondrake, you will see the "
@@ -7585,9 +7559,6 @@ msgstr "Instalarea a eșuat"
 #~ "- \"/usr/sbin/fuser -v /dev/snd/pcm* /dev/dsp\" vă va spune care "
 #~ "aplicații utilizează placa de sunet în mod direct (în mod normal al "
 #~ "trebui să afișeze numai PulseAudio)\n"
-
-#~ msgid "Clean /tmp at each boot"
-#~ msgstr "Curăță /tmp la fiecare pornire"
 
 #~ msgid ""
 #~ "Congratulations, installation is complete.\n"
@@ -7875,52 +7846,6 @@ msgstr "Instalarea a eșuat"
 #~ "Programele dezvoltate de Moondrake sînt reglementate de licența GPL. "
 #~ "Documentația scrisă \n"
 #~ "de Moondrake este reglementată de licența „%s”."
-
-#~ msgid ""
-#~ "The classic bug sound tester is to run the following commands:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" will tell you which driver your card "
-#~ "uses\n"
-#~ "by default\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" will tell you what driver it\n"
-#~ "currently uses\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\" will enable you to check if its module (driver) is\n"
-#~ "loaded or not\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" and \"/sbin/chkconfig --list alsa\" "
-#~ "will\n"
-#~ "tell you if sound and alsa services are configured to be run on\n"
-#~ "initlevel 3\n"
-#~ "\n"
-#~ "- \"aumix -q\" will tell you if the sound volume is muted or not\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" will tell which program uses the sound "
-#~ "card.\n"
-#~ msgstr ""
-#~ "Pentru a testa clasica hibă de sunet, trebuiesc lansate comenzile "
-#~ "următoare:\n"
-#~ "\n"
-#~ "\n"
-#~ "- „lspcidrake -v | fgrep -i AUDIO” vă va afișa numele pilotului implicit\n"
-#~ "utilizat de placa de sunet\n"
-#~ "\n"
-#~ "- „grep sound-slot /etc/modprobe.conf” va afișa numele pilotului\n"
-#~ "utilizat actualmente\n"
-#~ "\n"
-#~ "- „/sbin/lsmod” vă permite să verificați dacă modulul (pilotului) său\n"
-#~ "este încărcat sau nu\n"
-#~ "\n"
-#~ "- „/sbin/chkconfig --list sound” și „/sbin/chkconfig --list alsa” vor\n"
-#~ "afișa dacă serviciile sound și alsa sînt configurate să fie lansate în\n"
-#~ "initlevel 3\n"
-#~ "\n"
-#~ "- „aumix -q” va afișa dacă sunetul este tăcut sau nu\n"
-#~ "\n"
-#~ "- „/sbin/fuser -v /dev/dsp” va afișa care din programe utilizează placa\n"
-#~ "de sunet.\n"
 
 #~ msgid ""
 #~ "The old \"%s\" driver is blacklisted.\n"

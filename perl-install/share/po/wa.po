@@ -164,7 +164,7 @@ msgstr "Mete en alaedje APIC"
 msgid "Enable Local APIC"
 msgstr "Mete en alaedje APIC locå"
 
-#: any.pm:445 security/level.pm:51
+#: any.pm:445 security/level.pm:51 security/level.pm:50
 #, c-format
 msgid "Security"
 msgstr "Såvrité"
@@ -181,6 +181,7 @@ msgid "The passwords do not match"
 msgstr "Les mots di passe sont nén les minmes"
 
 #: any.pm:449 authentication.pm:260 diskdrake/interactive.pm:1498
+#: diskdrake/interactive.pm:1495
 #, c-format
 msgid "Please try again"
 msgstr "Sayîz co ene feye"
@@ -972,16 +973,6 @@ msgstr "Metôde d' otintifiaedje"
 #, c-format
 msgid "No password"
 msgstr "Nou scret"
-
-#: authentication.pm:260
-#, c-format
-msgid "The passwords do not match"
-msgstr "Les mots di passe sont nén les minmes"
-
-#: authentication.pm:260 diskdrake/interactive.pm:1495
-#, c-format
-msgid "Please try again"
-msgstr "Sayîz co ene feye"
 
 #: authentication.pm:263
 #, c-format
@@ -6068,11 +6059,6 @@ msgstr ""
 
 #: security/level.pm:50
 #, c-format
-msgid "Security"
-msgstr "Såvrité"
-
-#: security/level.pm:50
-#, c-format
 msgid "DrakSec Basic Options"
 msgstr "Tchuzes di båze di DrakSec"
 
@@ -6143,7 +6129,7 @@ msgstr ""
 msgid "Avahi is a ZeroConf daemon which implements an mDNS stack"
 msgstr ""
 
-#: services.pm:24
+#: services.pm:24 services.pm:26
 #, fuzzy, c-format
 msgid "An NTP client/server"
 msgstr "Sierveu NTP"
@@ -6152,11 +6138,6 @@ msgstr "Sierveu NTP"
 #, c-format
 msgid "Set CPU powersafe mode"
 msgstr ""
-
-#: services.pm:26
-#, fuzzy, c-format
-msgid "An NTP client/server"
-msgstr "Sierveu NTP"
 
 #: services.pm:27
 #, c-format
@@ -7075,9 +7056,6 @@ msgstr ""
 msgid "Installation failed"
 msgstr "L' astalaedje a fwait berwete"
 
-#~ msgid "You cannot use a password with %s"
-#~ msgstr "Vos n' poloz nén eployî on scret avou %s"
-
 #~ msgid "Clean /tmp at each boot"
 #~ msgstr "Netyî «/tmp» a tchaeke renondaedje"
 
@@ -7207,9 +7185,6 @@ msgstr "L' astalaedje a fwait berwete"
 
 #~ msgid "Choose the sizes"
 #~ msgstr "Tchoezixhoz les grandeus"
-
-#~ msgid "Clean /tmp at each boot"
-#~ msgstr "Netyî «/tmp» a tchaeke renondaedje"
 
 #~ msgid "Collapse Tree"
 #~ msgstr "Raptiti l' coxhlaedje"
@@ -7514,52 +7489,6 @@ msgstr "L' astalaedje a fwait berwete"
 #~ "Li copeye di såvrité del tåvlea di pårtixhaedje n' a nén li minme "
 #~ "grandeu.\n"
 #~ "Doe dju continouwer tot l' minme?"
-
-#~ msgid ""
-#~ "The classic bug sound tester is to run the following commands:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" will tell you which driver your card "
-#~ "uses\n"
-#~ "by default\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" will tell you what driver it\n"
-#~ "currently uses\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\" will enable you to check if its module (driver) is\n"
-#~ "loaded or not\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" and \"/sbin/chkconfig --list alsa\" "
-#~ "will\n"
-#~ "tell you if sound and alsa services are configured to be run on\n"
-#~ "initlevel 3\n"
-#~ "\n"
-#~ "- \"aumix -q\" will tell you if the sound volume is muted or not\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" will tell which program uses the sound "
-#~ "card.\n"
-#~ msgstr ""
-#~ "Li saye classike po vey s' i gn a des problinmes avou l' son, c' est "
-#~ "d' enonder les cmandes ki shuvèt:\n"
-#~ "\n"
-#~ "\n"
-#~ "- « lspcidrake -v | fgrep -i AUDIO » ki vs dirè li ké prémetou mineu ki "
-#~ "vosse cåte son eploye\n"
-#~ "\n"
-#~ "- « grep sound-slot /etc/modprobe.conf » ki vs dirè li mineu k' ele "
-#~ "eploye pol moumint\n"
-#~ "\n"
-#~ "- « /sbin/lsmod » ki vs permete di verifyî si l' module do mineu del cåte "
-#~ "son est tcherdjî ou nén\n"
-#~ "\n"
-#~ "- « /sbin/chkconfig --list sound » eyet « /sbin/chkconfig --list alsa » "
-#~ "ki vs diront si les siervices do son et do sistinme di son ALSA sont-st "
-#~ "apontyîs po-z esse enondés dins l' livea d' enondaedje 3\n"
-#~ "\n"
-#~ "- « aumix -q » ki vs dirè si l' volume do son est dismetou ou nén\n"
-#~ "\n"
-#~ "- « /sbin/fuser -v /dev/dsp » ki vs dirè li ké programe k' eploye li cåte "
-#~ "son.\n"
 
 #~ msgid ""
 #~ "The old \"%s\" driver is blacklisted.\n"

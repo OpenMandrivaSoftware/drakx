@@ -171,7 +171,7 @@ msgstr "Даргиронидани ACPI"
 msgid "Enable Local APIC"
 msgstr "Даргиронидани ACPI"
 
-#: any.pm:445 security/level.pm:51
+#: any.pm:445 security/level.pm:51 security/level.pm:50
 #, c-format
 msgid "Security"
 msgstr "Амният"
@@ -188,6 +188,7 @@ msgid "The passwords do not match"
 msgstr "Гузарвожаҳо мувофиқ нестанд"
 
 #: any.pm:449 authentication.pm:260 diskdrake/interactive.pm:1498
+#: diskdrake/interactive.pm:1495
 #, c-format
 msgid "Please try again"
 msgstr "Лутфан, аз нав кӯшиш кунед"
@@ -984,16 +985,6 @@ msgstr "Усули аслшиносӣ"
 #, c-format
 msgid "No password"
 msgstr "Гузарвожа нест"
-
-#: authentication.pm:260
-#, c-format
-msgid "The passwords do not match"
-msgstr "Гузарвожаҳо мувофиқ нестанд"
-
-#: authentication.pm:260 diskdrake/interactive.pm:1495
-#, c-format
-msgid "Please try again"
-msgstr "Лутфан, аз нав кӯшиш кунед"
 
 #: authentication.pm:263
 #, c-format
@@ -6205,11 +6196,6 @@ msgstr ""
 
 #: security/level.pm:50
 #, c-format
-msgid "Security"
-msgstr "Амният"
-
-#: security/level.pm:50
-#, c-format
 msgid "DrakSec Basic Options"
 msgstr "Хосиятҳои Асосии DrakSec"
 
@@ -6276,7 +6262,7 @@ msgstr ""
 msgid "Avahi is a ZeroConf daemon which implements an mDNS stack"
 msgstr ""
 
-#: services.pm:24
+#: services.pm:24 services.pm:26
 #, fuzzy, c-format
 msgid "An NTP client/server"
 msgstr "NTP Хидматрасон"
@@ -6285,11 +6271,6 @@ msgstr "NTP Хидматрасон"
 #, c-format
 msgid "Set CPU powersafe mode"
 msgstr ""
-
-#: services.pm:26
-#, fuzzy, c-format
-msgid "An NTP client/server"
-msgstr "NTP Хидматрасон"
 
 #: services.pm:27
 #, c-format
@@ -7215,12 +7196,6 @@ msgstr ""
 msgid "Installation failed"
 msgstr "Коргузорӣ бо нокомӣ анҷомид"
 
-#, fuzzy
-#~ msgid "You cannot use a password with %s"
-#~ msgstr ""
-#~ "Шумо файл системи рамздоштаро барои нуқтаи васли %s истифода бурда "
-#~ "наметавонед"
-
 #~ msgid "Clean /tmp at each boot"
 #~ msgstr "Дар ҳар худборшавӣ /tmp-ро тоза кунед"
 
@@ -7474,9 +7449,6 @@ msgstr "Коргузорӣ бо нокомӣ анҷомид"
 
 #~ msgid "Choose the sizes"
 #~ msgstr "Андозаҳоро интихоб намоед"
-
-#~ msgid "Clean /tmp at each boot"
-#~ msgstr "Дар ҳар худборшавӣ /tmp-ро тоза кунед"
 
 #~ msgid "Collapse Tree"
 #~ msgstr "Печонидани Дарахт"
@@ -7931,55 +7903,6 @@ msgstr "Коргузорӣ бо нокомӣ анҷомид"
 #~ msgstr ""
 #~ "Ҷадвали бахши ёвар ҳаҷми якхела надорад\n"
 #~ "Ҳоло ҳам давом диҳем?"
-
-#~ msgid ""
-#~ "The classic bug sound tester is to run the following commands:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" will tell you which driver your card "
-#~ "uses\n"
-#~ "by default\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" will tell you what driver it\n"
-#~ "currently uses\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\" will enable you to check if its module (driver) is\n"
-#~ "loaded or not\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" and \"/sbin/chkconfig --list alsa\" "
-#~ "will\n"
-#~ "tell you if sound and alsa services are configured to be run on\n"
-#~ "initlevel 3\n"
-#~ "\n"
-#~ "- \"aumix -q\" will tell you if the sound volume is muted or not\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" will tell which program uses the sound "
-#~ "card.\n"
-#~ msgstr ""
-#~ "Санҷиши классикии хатогиҳои овоз ба воситаи сар додани фармонои зерин "
-#~ "иҷромешавад:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" ба шумо хабар медиҳад, ки кадом "
-#~ "ронанда харитаишуморо аз рӯи пешфарз истифода мебарад\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" ба шумо хабар медиҳад, ки кадом "
-#~ "ронанда\n"
-#~ "ҳоло истифода мегардад\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\" ба шумо имкон медиҳад санҷед, ки оё модул (ронанда) ба "
-#~ "кор андохташудааст\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" и \"/sbin/chkconfig --list alsa\"\n"
-#~ "ба шумо хабар медиҳад хидматрасонҳои sound мавҷуд буданд ва alsa барои "
-#~ "оғоз\n"
-#~ "намудан дар initlevel 3 ба танзим дароварда шудааст ё ин ки не\n"
-#~ "\n"
-#~ "- \"aumix -q\" ба шумо хабар медиҳад, ки баландии садо ба роҳ монда "
-#~ "шудааст ё не\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" ба шумо хабар медиҳад, ки кадом барнома "
-#~ "харитаиовоздорро мавриди истифода қарор додааст.\n"
 
 #~ msgid ""
 #~ "The old \"%s\" driver is blacklisted.\n"

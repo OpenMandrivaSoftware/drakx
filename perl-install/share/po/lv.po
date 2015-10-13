@@ -151,7 +151,7 @@ msgstr "Atļaut CD ielādi?"
 msgid "Enable Local APIC"
 msgstr "Atļaut CD ielādi?"
 
-#: any.pm:445 security/level.pm:51
+#: any.pm:445 security/level.pm:51 security/level.pm:50
 #, c-format
 msgid "Security"
 msgstr "Drošība"
@@ -168,6 +168,7 @@ msgid "The passwords do not match"
 msgstr "Paroles nesakrīt"
 
 #: any.pm:449 authentication.pm:260 diskdrake/interactive.pm:1498
+#: diskdrake/interactive.pm:1495
 #, c-format
 msgid "Please try again"
 msgstr "Lūdzu mēģiniet vēlreiz"
@@ -946,16 +947,6 @@ msgstr "Autentifikācija"
 #, c-format
 msgid "No password"
 msgstr "Bez paroles"
-
-#: authentication.pm:260
-#, c-format
-msgid "The passwords do not match"
-msgstr "Paroles nesakrīt"
-
-#: authentication.pm:260 diskdrake/interactive.pm:1495
-#, c-format
-msgid "Please try again"
-msgstr "Lūdzu mēģiniet vēlreiz"
 
 #: authentication.pm:263
 #, c-format
@@ -5880,11 +5871,6 @@ msgstr ""
 
 #: security/level.pm:50
 #, c-format
-msgid "Security"
-msgstr "Drošība"
-
-#: security/level.pm:50
-#, c-format
 msgid "DrakSec Basic Options"
 msgstr "DrakSec pamata opcijas"
 
@@ -5948,7 +5934,7 @@ msgstr ""
 msgid "Avahi is a ZeroConf daemon which implements an mDNS stack"
 msgstr ""
 
-#: services.pm:24
+#: services.pm:24 services.pm:26
 #, fuzzy, c-format
 msgid "An NTP client/server"
 msgstr "NTP serveris"
@@ -5957,11 +5943,6 @@ msgstr "NTP serveris"
 #, c-format
 msgid "Set CPU powersafe mode"
 msgstr ""
-
-#: services.pm:26
-#, fuzzy, c-format
-msgid "An NTP client/server"
-msgstr "NTP serveris"
 
 #: services.pm:27
 #, c-format

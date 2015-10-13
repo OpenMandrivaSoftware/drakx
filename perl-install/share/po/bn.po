@@ -159,7 +159,7 @@ msgstr "ACPI এনেবল করো"
 msgid "Enable Local APIC"
 msgstr "ACPI এনেবল করো"
 
-#: any.pm:445 security/level.pm:51
+#: any.pm:445 security/level.pm:51 security/level.pm:50
 #, c-format
 msgid "Security"
 msgstr "সিকিউরিটি"
@@ -176,6 +176,7 @@ msgid "The passwords do not match"
 msgstr "পাসওয়ার্ডটি মিলছে না"
 
 #: any.pm:449 authentication.pm:260 diskdrake/interactive.pm:1498
+#: diskdrake/interactive.pm:1495
 #, c-format
 msgid "Please try again"
 msgstr "অনুগ্রহ করে আবার চেষ্ট করুন"
@@ -960,16 +961,6 @@ msgstr "নির্ভরযোগ্য নিয়ম"
 #, c-format
 msgid "No password"
 msgstr "পাসওয়ার্ড ছাড়া"
-
-#: authentication.pm:260
-#, c-format
-msgid "The passwords do not match"
-msgstr "পাসওয়ার্ডটি মিলছে না"
-
-#: authentication.pm:260 diskdrake/interactive.pm:1495
-#, c-format
-msgid "Please try again"
-msgstr "অনুগ্রহ করে আবার চেষ্ট করুন"
 
 #: authentication.pm:263
 #, c-format
@@ -6054,11 +6045,6 @@ msgstr ""
 
 #: security/level.pm:50
 #, c-format
-msgid "Security"
-msgstr "সিকিউরিটি"
-
-#: security/level.pm:50
-#, c-format
 msgid "DrakSec Basic Options"
 msgstr "ড্রেকসেক-এর প্রাথমিক অপশন"
 
@@ -6123,7 +6109,7 @@ msgstr ""
 msgid "Avahi is a ZeroConf daemon which implements an mDNS stack"
 msgstr ""
 
-#: services.pm:24
+#: services.pm:24 services.pm:26
 #, fuzzy, c-format
 msgid "An NTP client/server"
 msgstr "NTP সার্ভার"
@@ -6132,11 +6118,6 @@ msgstr "NTP সার্ভার"
 #, c-format
 msgid "Set CPU powersafe mode"
 msgstr ""
-
-#: services.pm:26
-#, fuzzy, c-format
-msgid "An NTP client/server"
-msgstr "NTP সার্ভার"
 
 #: services.pm:27
 #, c-format

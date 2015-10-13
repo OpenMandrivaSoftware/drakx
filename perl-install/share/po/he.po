@@ -165,7 +165,7 @@ msgstr "הפעלת APIC"
 msgid "Enable Local APIC"
 msgstr "הפעלת APIC מקומי"
 
-#: any.pm:445 security/level.pm:51
+#: any.pm:445 security/level.pm:51 security/level.pm:50
 #, c-format
 msgid "Security"
 msgstr "הגדרות אבטחה"
@@ -182,6 +182,7 @@ msgid "The passwords do not match"
 msgstr "הסיסמאות לא זהות"
 
 #: any.pm:449 authentication.pm:260 diskdrake/interactive.pm:1498
+#: diskdrake/interactive.pm:1495
 #, c-format
 msgid "Please try again"
 msgstr "יש לנסות שנית"
@@ -962,16 +963,6 @@ msgstr "שיטת אימות"
 #, c-format
 msgid "No password"
 msgstr "בלי סיסמה"
-
-#: authentication.pm:260
-#, c-format
-msgid "The passwords do not match"
-msgstr "הסיסמאות לא זהות"
-
-#: authentication.pm:260 diskdrake/interactive.pm:1495
-#, c-format
-msgid "Please try again"
-msgstr "יש לנסות שנית"
 
 #: authentication.pm:263
 #, c-format
@@ -6086,11 +6077,6 @@ msgstr ""
 
 #: security/level.pm:50
 #, c-format
-msgid "Security"
-msgstr "הגדרות אבטחה"
-
-#: security/level.pm:50
-#, c-format
 msgid "DrakSec Basic Options"
 msgstr "אפשרויות בסיסיות של DrakSec"
 
@@ -6156,7 +6142,7 @@ msgstr ""
 msgid "Avahi is a ZeroConf daemon which implements an mDNS stack"
 msgstr ""
 
-#: services.pm:24
+#: services.pm:24 services.pm:26
 #, fuzzy, c-format
 msgid "An NTP client/server"
 msgstr "שרת NTP"
@@ -6165,11 +6151,6 @@ msgstr "שרת NTP"
 #, c-format
 msgid "Set CPU powersafe mode"
 msgstr ""
-
-#: services.pm:26
-#, fuzzy, c-format
-msgid "An NTP client/server"
-msgstr "שרת NTP"
 
 #: services.pm:27
 #, c-format
@@ -7066,9 +7047,6 @@ msgstr ""
 msgid "Installation failed"
 msgstr "ההתקנה נכשלה"
 
-#~ msgid "You cannot use a password with %s"
-#~ msgstr "אסור להשתמש בסיסמה עם %s"
-
 #~ msgid "Clean /tmp at each boot"
 #~ msgstr "ניקוי קבצים זמניים בספריית tmp/ בכל אתחול"
 
@@ -7276,9 +7254,6 @@ msgstr "ההתקנה נכשלה"
 
 #~ msgid "Choose the sizes"
 #~ msgstr "בחירת גדלים"
-
-#~ msgid "Clean /tmp at each boot"
-#~ msgstr "ניקוי קבצים זמניים בספריית tmp/ בכל אתחול"
 
 #~ msgid "Collapse Tree"
 #~ msgstr "כווץ עץ"
@@ -7659,50 +7634,6 @@ msgstr "ההתקנה נכשלה"
 #~ "  התכנות שפותחו ע\"י חברת Moondrake כפופות לרישיון ה GPL. תיעוד שנכתב על "
 #~ "ידי חברת Moondrake\n"
 #~ "כפוף לרישיון מיוחד. עליך לעיין בתיעוד למידע נוסף בנידון."
-
-#~ msgid ""
-#~ "The classic bug sound tester is to run the following commands:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" will tell you which driver your card "
-#~ "uses\n"
-#~ "by default\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" will tell you what driver it\n"
-#~ "currently uses\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\" will enable you to check if its module (driver) is\n"
-#~ "loaded or not\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" and \"/sbin/chkconfig --list alsa\" "
-#~ "will\n"
-#~ "tell you if sound and alsa services are configured to be run on\n"
-#~ "initlevel 3\n"
-#~ "\n"
-#~ "- \"aumix -q\" will tell you if the sound volume is muted or not\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" will tell which program uses the sound "
-#~ "card.\n"
-#~ msgstr ""
-#~ "הבדיקה הקלאסית לבעיות במערכת הקול היא הרצת הפקודות הבאות:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" יאמר מה הוא התקן ההינע בו משתמש "
-#~ "הכרטיס\n"
-#~ "שלך כברירת מחדל\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" יאמר מה הוא ההתקן ההינע שכרגע\n"
-#~ "נעשה בו שימוש\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\" יאפשר לך לבדוק אם התקן ההינע טעון או לא\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" ו- \"/sbin/chkconfig --list alsa\" "
-#~ "יאמרו\n"
-#~ "אם שירותי הקול ו-alsa מוגדרים לריצה ברמת אתחול 3\n"
-#~ "\n"
-#~ "- \"aumix -q\" יאמר לך אם הקול מושתק או לא\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" יאמר לך איזו תוכנה משתמשת בכרטיס הקול.\n"
 
 #~ msgid ""
 #~ "The old \"%s\" driver is blacklisted.\n"

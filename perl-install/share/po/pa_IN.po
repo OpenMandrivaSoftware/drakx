@@ -159,7 +159,7 @@ msgstr "ACPI ਯੋਗ ਕਰੋ"
 msgid "Enable Local APIC"
 msgstr "ACPI ਯੋਗ ਕਰੋ"
 
-#: any.pm:445 security/level.pm:51
+#: any.pm:445 security/level.pm:51 security/level.pm:50
 #, c-format
 msgid "Security"
 msgstr "ਸੁਰੱਖਿਆ"
@@ -176,6 +176,7 @@ msgid "The passwords do not match"
 msgstr "ਗੁਪਤ-ਕੋਡ ਮੇਲ ਨਹੀਂ ਖਾਂਦਾ"
 
 #: any.pm:449 authentication.pm:260 diskdrake/interactive.pm:1498
+#: diskdrake/interactive.pm:1495
 #, c-format
 msgid "Please try again"
 msgstr "ਕਿਰਪਾ ਕਰਕੇ ਫਿਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ"
@@ -959,16 +960,6 @@ msgstr "ਪ੍ਰਮਾਣਿਕਤਾ ਵਿਧੀ"
 #, c-format
 msgid "No password"
 msgstr "ਕੋਈ ਗੁਪਤ-ਕੋਡ ਨਹੀਂ"
-
-#: authentication.pm:260
-#, c-format
-msgid "The passwords do not match"
-msgstr "ਗੁਪਤ-ਕੋਡ ਮੇਲ ਨਹੀਂ ਖਾਂਦਾ"
-
-#: authentication.pm:260 diskdrake/interactive.pm:1495
-#, c-format
-msgid "Please try again"
-msgstr "ਕਿਰਪਾ ਕਰਕੇ ਫਿਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ"
 
 #: authentication.pm:263
 #, c-format
@@ -5935,11 +5926,6 @@ msgstr ""
 
 #: security/level.pm:50
 #, c-format
-msgid "Security"
-msgstr "ਸੁਰੱਖਿਆ"
-
-#: security/level.pm:50
-#, c-format
 msgid "DrakSec Basic Options"
 msgstr "DrakSec ਮੁੱਢਲੀ ਚੋਣ"
 
@@ -6002,7 +5988,7 @@ msgstr ""
 msgid "Avahi is a ZeroConf daemon which implements an mDNS stack"
 msgstr ""
 
-#: services.pm:24
+#: services.pm:24 services.pm:26
 #, fuzzy, c-format
 msgid "An NTP client/server"
 msgstr "NTP ਸਰਵਰ"
@@ -6011,11 +5997,6 @@ msgstr "NTP ਸਰਵਰ"
 #, c-format
 msgid "Set CPU powersafe mode"
 msgstr ""
-
-#: services.pm:26
-#, fuzzy, c-format
-msgid "An NTP client/server"
-msgstr "NTP ਸਰਵਰ"
 
 #: services.pm:27
 #, c-format
@@ -6826,10 +6807,6 @@ msgstr ""
 msgid "Installation failed"
 msgstr "ਇੰਸਟਾਲੇਸ਼ਨ ਅਸਫਲ"
 
-#, fuzzy
-#~ msgid "You cannot use a password with %s"
-#~ msgstr "ਤੁਸੀਂ ਮਾਊਂਟ %s ਸਥਿਤੀ ਲਈ ਇਨਕ੍ਰਿਪਡ ਫਾਇਲ ਸਿਸਟਮ ਨਹੀਂ ਵਰਤ ਸਕਦੇ"
-
 #~ msgid "Clean /tmp at each boot"
 #~ msgstr "ਹਰੇਕ ਬੂਟ ਦੌਰਾਨ /tmp ਸਾਫ ਕਰੋ"
 
@@ -6965,9 +6942,6 @@ msgstr "ਇੰਸਟਾਲੇਸ਼ਨ ਅਸਫਲ"
 
 #~ msgid "Choose the sizes"
 #~ msgstr "ਅਕਾਰ ਚੁਣੋ"
-
-#~ msgid "Clean /tmp at each boot"
-#~ msgstr "ਹਰੇਕ ਬੂਟ ਦੌਰਾਨ /tmp ਸਾਫ ਕਰੋ"
 
 #~ msgid "Collapse Tree"
 #~ msgstr "ਲੜੀ ਸਮੇਟੋ"
@@ -7212,51 +7186,6 @@ msgstr "ਇੰਸਟਾਲੇਸ਼ਨ ਅਸਫਲ"
 #~ msgstr ""
 #~ "ਬੈਕਅੱਪ ਭਾਗ ਸਾਰਣੀ ਦਾ ਸਮਾਨ ਅਕਾਰ ਨਹੀਂ ਹੈ\n"
 #~ "ਹਾਲੇ ਜਾਰੀ ਕਰੋ?"
-
-#~ msgid ""
-#~ "The classic bug sound tester is to run the following commands:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" will tell you which driver your card "
-#~ "uses\n"
-#~ "by default\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" will tell you what driver it\n"
-#~ "currently uses\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\" will enable you to check if its module (driver) is\n"
-#~ "loaded or not\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" and \"/sbin/chkconfig --list alsa\" "
-#~ "will\n"
-#~ "tell you if sound and alsa services are configured to be run on\n"
-#~ "initlevel 3\n"
-#~ "\n"
-#~ "- \"aumix -q\" will tell you if the sound volume is muted or not\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" will tell which program uses the sound "
-#~ "card.\n"
-#~ msgstr ""
-#~ "ਪੁਰਾਣਾ ਬੱਗ ਸਾਊਂਡ ਜਾਂਚਕਾਰ ਹੇਠਲੀਆਂ ਕਮਾਂਡਾਂ ਚਲਾਉਣ ਲਈ ਹੈ:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" ਇਹ ਤੁਹਾਨੂੰ ਦੱਸੇਗੀ ਕਿ ਤੁਹਾਡਾ ਕਾਰਡ ਕਿਹੜਾ ਮੂਲ\n"
-#~ "ਡਰਾਇਵਰ ਵਰਤ ਰਿਹਾ ਹੈ\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" ਤੁਹਾਨੂੰ ਦੱਸੇਗੀ ਕਿ ਇਹ ਹੁਣ ਕਿਹੜਾ\n"
-#~ "ਡਰਾਈਵਰ ਵਰਤਦੀ ਹੈ\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\" ਤੁਹਾਨੂੰ ਜਾਂਚ ਕਰਨ ਦੇਵੇਗੀ ਕਿ ਇਸ ਦਾ ਮੈਡਿਊਲ (ਡਰਾਈਵਰ) ਲੋਡ\n"
-#~ "ਹੈ ਜਾਂ ਨਹੀਂ\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" ਅਤੇ \"/sbin/chkconfig --list alsa\" "
-#~ "ਤੁਹਾਨੂੰ\n"
-#~ "ਦੱਸੇਗੀ ਕਿ ਸਾਊਂਡ ਅਤੇ alsa ਸੇਵਾਵਾਂ initlevel 3 ਤੇ ਚੱਲਣ ਲਈ ਸੰਰਚਿਤ ਹਨ ਜਾਂ\n"
-#~ "ਨਹੀਂ\n"
-#~ "\n"
-#~ "- \"aumix -q\" ਤੁਹਾਨੂੰ ਦੱਸੇਗੀ ਕਿ ਸਾਊਂਡ ਵਾਲਿਅਮ ਬੰਸ ਹੈ ਜਾਂ ਨਹੀਂ\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" ਦੱਸੇਗੀ ਕਿ ਸਾਊਂਡ ਕਾਰਡ ਕਿਹੜਾ ਪ੍ਰੋਗਰਾਮ ਵਰਤ ਰਿਹਾ ਹੈ\n"
 
 #~ msgid ""
 #~ "The old \"%s\" driver is blacklisted.\n"

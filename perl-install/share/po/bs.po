@@ -163,7 +163,7 @@ msgstr "Uključi APIC"
 msgid "Enable Local APIC"
 msgstr "Uključi Local APIC"
 
-#: any.pm:445 security/level.pm:51
+#: any.pm:445 security/level.pm:51 security/level.pm:50
 #, c-format
 msgid "Security"
 msgstr "Sigurnost"
@@ -180,6 +180,7 @@ msgid "The passwords do not match"
 msgstr "Šifre se ne poklapaju"
 
 #: any.pm:449 authentication.pm:260 diskdrake/interactive.pm:1498
+#: diskdrake/interactive.pm:1495
 #, c-format
 msgid "Please try again"
 msgstr "Molim pokušajte ponovo"
@@ -977,16 +978,6 @@ msgstr "Authentication method"
 #, c-format
 msgid "No password"
 msgstr "Bez šifre"
-
-#: authentication.pm:260
-#, c-format
-msgid "The passwords do not match"
-msgstr "Šifre se ne poklapaju"
-
-#: authentication.pm:260 diskdrake/interactive.pm:1495
-#, c-format
-msgid "Please try again"
-msgstr "Molim pokušajte ponovo"
 
 #: authentication.pm:263
 #, c-format
@@ -6175,11 +6166,6 @@ msgstr ""
 
 #: security/level.pm:50
 #, c-format
-msgid "Security"
-msgstr "Sigurnost"
-
-#: security/level.pm:50
-#, c-format
 msgid "DrakSec Basic Options"
 msgstr "DrakSec osnovne opcije"
 
@@ -6243,7 +6229,7 @@ msgstr ""
 msgid "Avahi is a ZeroConf daemon which implements an mDNS stack"
 msgstr ""
 
-#: services.pm:24
+#: services.pm:24 services.pm:26
 #, fuzzy, c-format
 msgid "An NTP client/server"
 msgstr "NTP server"
@@ -6252,11 +6238,6 @@ msgstr "NTP server"
 #, c-format
 msgid "Set CPU powersafe mode"
 msgstr ""
-
-#: services.pm:26
-#, fuzzy, c-format
-msgid "An NTP client/server"
-msgstr "NTP server"
 
 #: services.pm:27
 #, c-format
@@ -7155,11 +7136,6 @@ msgstr ""
 msgid "Installation failed"
 msgstr "Instalacija nije uspjela"
 
-#, fuzzy
-#~ msgid "You cannot use a password with %s"
-#~ msgstr ""
-#~ "Ne možete koristiti šifrovani datotečni sistem za tačku montiranja %s"
-
 #~ msgid "Clean /tmp at each boot"
 #~ msgstr "Očisti /tmp prilikom svakog starta"
 
@@ -7399,9 +7375,6 @@ msgstr "Instalacija nije uspjela"
 
 #~ msgid "Choose the sizes"
 #~ msgstr "Izaberite veličine"
-
-#~ msgid "Clean /tmp at each boot"
-#~ msgstr "Očisti /tmp prilikom svakog starta"
 
 #~ msgid "Collapse Tree"
 #~ msgstr "Smanji stablo"
@@ -7867,53 +7840,6 @@ msgstr "Instalacija nije uspjela"
 #~ msgstr ""
 #~ "Backup tabela particija nema istu veličinu\n"
 #~ "Da svejedno nastavim?"
-
-#~ msgid ""
-#~ "The classic bug sound tester is to run the following commands:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" will tell you which driver your card "
-#~ "uses\n"
-#~ "by default\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" will tell you what driver it\n"
-#~ "currently uses\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\" will enable you to check if its module (driver) is\n"
-#~ "loaded or not\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" and \"/sbin/chkconfig --list alsa\" "
-#~ "will\n"
-#~ "tell you if sound and alsa services are configured to be run on\n"
-#~ "initlevel 3\n"
-#~ "\n"
-#~ "- \"aumix -q\" will tell you if the sound volume is muted or not\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" will tell which program uses the sound "
-#~ "card.\n"
-#~ msgstr ""
-#~ "Klasični način utvrđivanja bugova u zvučnom sistemu je izvršavanje\n"
-#~ "sljedećih naredbi:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" će vam reći koji drajver inače "
-#~ "koristi\n"
-#~ "vaša kartica\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" će vam reći koji drajver je\n"
-#~ "trenutno u upotrebi\n"
-#~ "\n"
-#~ "- sa \"/sbin/lsmod\" možete provjeriti da li je modul (drajver) učitan\n"
-#~ "ili ne\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" i \"/sbin/chkconfig --list alsa\" vam\n"
-#~ "govore da li su servisi sound i alsa podešeni da se pokreću na\n"
-#~ "initlevel 3\n"
-#~ "\n"
-#~ "- \"aumix -q\" će vam reći da li je zvuk utišan (muted) ili ne\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" vam govori koji program koristi zvučnu "
-#~ "karticu.\n"
 
 #~ msgid ""
 #~ "The old \"%s\" driver is blacklisted.\n"

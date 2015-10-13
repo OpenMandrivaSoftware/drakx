@@ -230,7 +230,7 @@ msgstr "Activer l'APIC"
 msgid "Enable Local APIC"
 msgstr "Activer l'APIC local"
 
-#: any.pm:445 security/level.pm:51
+#: any.pm:445 security/level.pm:51 security/level.pm:50
 #, c-format
 msgid "Security"
 msgstr "Sécurité"
@@ -247,6 +247,7 @@ msgid "The passwords do not match"
 msgstr "Les mots de passe ne sont pas identiques"
 
 #: any.pm:449 authentication.pm:260 diskdrake/interactive.pm:1498
+#: diskdrake/interactive.pm:1495
 #, c-format
 msgid "Please try again"
 msgstr "Veuillez réessayer"
@@ -1053,16 +1054,6 @@ msgstr "Méthode d'authentification"
 #, c-format
 msgid "No password"
 msgstr "Aucun"
-
-#: authentication.pm:260
-#, c-format
-msgid "The passwords do not match"
-msgstr "Les mots de passe ne sont pas identiques"
-
-#: authentication.pm:260 diskdrake/interactive.pm:1495
-#, c-format
-msgid "Please try again"
-msgstr "Veuillez réessayer"
 
 #: authentication.pm:263
 #, c-format
@@ -6402,11 +6393,6 @@ msgstr ""
 
 #: security/level.pm:50
 #, c-format
-msgid "Security"
-msgstr "Sécurité"
-
-#: security/level.pm:50
-#, c-format
 msgid "DrakSec Basic Options"
 msgstr "Options de base de DrakSec"
 
@@ -6481,20 +6467,15 @@ msgstr ""
 msgid "Avahi is a ZeroConf daemon which implements an mDNS stack"
 msgstr "Avahi est un service ZeroConf qui implémente une pile mDNS"
 
-#: services.pm:24
-#, fuzzy, c-format
+#: services.pm:26
+#, c-format
 msgid "An NTP client/server"
-msgstr "Serveur NTP"
+msgstr "Un client/serveur NTP"
 
 #: services.pm:25
 #, c-format
 msgid "Set CPU powersafe mode"
 msgstr ""
-
-#: services.pm:26
-#, c-format
-msgid "An NTP client/server"
-msgstr "Un client/serveur NTP"
 
 #: services.pm:27
 #, c-format
@@ -7441,9 +7422,6 @@ msgstr ""
 msgid "Installation failed"
 msgstr "Échec de l'installation"
 
-#~ msgid "You cannot use a password with %s"
-#~ msgstr "Vous ne pouvez pas utiliser de mot de passe avec %s"
-
 #~ msgid "Clean /tmp at each boot"
 #~ msgstr "Vider le dossier /tmp à chaque démarrage"
 
@@ -7492,9 +7470,6 @@ msgstr "Échec de l'installation"
 #~ "\n"
 #~ "- « /sbin/fuser -v /dev/dsp » dénoncera quel programme est en train\n"
 #~ "d'utiliser ou de bloquer la carte son.\n"
-
-#~ msgid "Set CPU frequency settings"
-#~ msgstr "Définir les paramètres de fréquence CPU"
 
 #~ msgid ""
 #~ "After rebooting and logging into Moondrake, you will see the "
@@ -7685,9 +7660,6 @@ msgstr "Échec de l'installation"
 #~ "- « /usr/sbin/fuser -v /dev/snd/pcm* /dev/dsp » indiquera les programmes "
 #~ "utilisant actuellement la carte son directement (normalement cela devrait "
 #~ "afficher uniquement PulseAudio).\n"
-
-#~ msgid "Clean /tmp at each boot"
-#~ msgstr "Vider le dossier /tmp à chaque démarrage"
 
 #~ msgid ""
 #~ "Congratulations, installation is complete.\n"
@@ -7962,52 +7934,6 @@ msgstr "Échec de l'installation"
 #~ "Moondrake. Les programmes développés par Moondrake sont régis par la "
 #~ "Licence GPL. La documentation écrite par Moondrake est régie par la "
 #~ "licence « %s » "
-
-#~ msgid ""
-#~ "The classic bug sound tester is to run the following commands:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" will tell you which driver your card "
-#~ "uses\n"
-#~ "by default\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" will tell you what driver it\n"
-#~ "currently uses\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\" will enable you to check if its module (driver) is\n"
-#~ "loaded or not\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" and \"/sbin/chkconfig --list alsa\" "
-#~ "will\n"
-#~ "tell you if sound and alsa services are configured to be run on\n"
-#~ "initlevel 3\n"
-#~ "\n"
-#~ "- \"aumix -q\" will tell you if the sound volume is muted or not\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" will tell which program uses the sound "
-#~ "card.\n"
-#~ msgstr ""
-#~ "Pour résoudre un problème de son,\n"
-#~ "veuillez lancer les commandes suivantes dans une console :\n"
-#~ "\n"
-#~ "- « lspcidrake -v | fgrep -i AUDIO » vous indique quel pilote votre "
-#~ "carte\n"
-#~ " utilise par défaut\n"
-#~ "\n"
-#~ "- « grep sound-slot /etc/modprobe.conf » vous affiche quel pilote\n"
-#~ "(module) est actuellement utilisé.\n"
-#~ "\n"
-#~ "- « /sbin/lsmod » vous permet de vérifier si ce module est chargé\n"
-#~ "\n"
-#~ "- « /sbin/chkconfig --list sound » et « /sbin/chkconfig --list alsa »\n"
-#~ "vous diront si les services « sound » et « alsa » sont configurés pour\n"
-#~ "être démarrés dès le niveau d'exécution 3 (init runlevel 3)\n"
-#~ "\n"
-#~ "- « aumix -q » vous permettra de voir si le volume sonore est coupé ou "
-#~ "non...\n"
-#~ "\n"
-#~ "- « /sbin/fuser -v /dev/dsp » dénoncera quel programme est en train\n"
-#~ "d'utiliser ou de bloquer la carte son.\n"
 
 #~ msgid ""
 #~ "The old \"%s\" driver is blacklisted.\n"

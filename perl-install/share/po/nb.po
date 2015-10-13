@@ -173,7 +173,7 @@ msgstr "Bruk APIC"
 msgid "Enable Local APIC"
 msgstr "Bruk lokal APIC"
 
-#: any.pm:445 security/level.pm:51
+#: any.pm:445 security/level.pm:51 security/level.pm:50
 #, c-format
 msgid "Security"
 msgstr "Sikkerhet"
@@ -190,6 +190,7 @@ msgid "The passwords do not match"
 msgstr "Passordene er ikke like"
 
 #: any.pm:449 authentication.pm:260 diskdrake/interactive.pm:1498
+#: diskdrake/interactive.pm:1495
 #, c-format
 msgid "Please try again"
 msgstr "Prøv igjen"
@@ -981,16 +982,6 @@ msgstr "Autentiseringsmetode"
 #, c-format
 msgid "No password"
 msgstr "Ingen passord"
-
-#: authentication.pm:260
-#, c-format
-msgid "The passwords do not match"
-msgstr "Passordene er ikke like"
-
-#: authentication.pm:260 diskdrake/interactive.pm:1495
-#, c-format
-msgid "Please try again"
-msgstr "Prøv igjen"
 
 #: authentication.pm:263
 #, c-format
@@ -6221,11 +6212,6 @@ msgstr ""
 
 #: security/level.pm:50
 #, c-format
-msgid "Security"
-msgstr "Sikkerhet"
-
-#: security/level.pm:50
-#, c-format
 msgid "DrakSec Basic Options"
 msgstr "Standardvalg"
 
@@ -6288,7 +6274,7 @@ msgstr ""
 msgid "Avahi is a ZeroConf daemon which implements an mDNS stack"
 msgstr "Avahi er en ZeroConf-tjeneste som implementerer en mDNS-stabel"
 
-#: services.pm:24
+#: services.pm:24 services.pm:26
 #, fuzzy, c-format
 msgid "An NTP client/server"
 msgstr "NTP-tjener"
@@ -6297,11 +6283,6 @@ msgstr "NTP-tjener"
 #, c-format
 msgid "Set CPU powersafe mode"
 msgstr ""
-
-#: services.pm:26
-#, fuzzy, c-format
-msgid "An NTP client/server"
-msgstr "NTP-tjener"
 
 #: services.pm:27
 #, c-format
@@ -7208,10 +7189,6 @@ msgstr ""
 msgid "Installation failed"
 msgstr "Feil ved installering."
 
-#, fuzzy
-#~ msgid "You cannot use a password with %s"
-#~ msgstr "Du kan ikke bruke et passord med «%s»"
-
 #~ msgid "Clean /tmp at each boot"
 #~ msgstr "Tøm «/tmp» ved hver oppstart"
 
@@ -7257,9 +7234,6 @@ msgstr "Feil ved installering."
 #~ "\n"
 #~ "– «/sbin/fuser -v /dev/dsp» forteller deg hvilke programmer som bruker "
 #~ "lydkortet.\n"
-
-#~ msgid "Set CPU frequency settings"
-#~ msgstr "Frekvensinnstillinger for CPU"
 
 #~ msgid ""
 #~ "LILO wants to assign a new Volume ID to drive %s.  However, changing\n"
@@ -7323,9 +7297,6 @@ msgstr "Feil ved installering."
 #~ "endre på eller tilpasse programvareproduktene helt eller delvis, på alle "
 #~ "måter og for alle formål.\n"
 #~ "\"Moondrake\" og tilhørende logoer er varemerker tilhørende %s"
-
-#~ msgid "Clean /tmp at each boot"
-#~ msgstr "Tøm «/tmp» ved hver oppstart"
 
 #~ msgid ""
 #~ "Congratulations, installation is complete.\n"
@@ -7613,49 +7584,6 @@ msgstr "Feil ved installering."
 #~ "Dokumentasjon skrevet av Moondrakeer regulert av en spesifikk lisens. "
 #~ "Referer\n"
 #~ "til dokumentasjonen for detaljer."
-
-#~ msgid ""
-#~ "The classic bug sound tester is to run the following commands:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" will tell you which driver your card "
-#~ "uses\n"
-#~ "by default\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" will tell you what driver it\n"
-#~ "currently uses\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\" will enable you to check if its module (driver) is\n"
-#~ "loaded or not\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" and \"/sbin/chkconfig --list alsa\" "
-#~ "will\n"
-#~ "tell you if sound and alsa services are configured to be run on\n"
-#~ "initlevel 3\n"
-#~ "\n"
-#~ "- \"aumix -q\" will tell you if the sound volume is muted or not\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" will tell which program uses the sound "
-#~ "card.\n"
-#~ msgstr ""
-#~ "Dette er den vanlige måten feilsøke lydoppsett på:\n"
-#~ "\n"
-#~ "\n"
-#~ "– «lspcidrake -v | fgrep -i AUDIO» forteller deg hvilken driver kortet "
-#~ "bruker som standard.\n"
-#~ "\n"
-#~ "– «grep sound-slot /etc/modprobe.conf» forteller deg hvilken driver "
-#~ "kortet bruker nå.\n"
-#~ "\n"
-#~ "– «/sbin/lsmod» lar deg se om driveren er lasta.\n"
-#~ "– «/sbin/chkconfig --list sound» and «/sbin/chkconfig --list alsa» "
-#~ "forteller\n"
-#~ "deg om lyd- og ALSA-tjenestene er satt opp til å kjøre på initlevel 3.\n"
-#~ "\n"
-#~ "– «aumix -q» forteller deg om lydvolumet er skrudd ned.\n"
-#~ "\n"
-#~ "– «/sbin/fuser -v /dev/dsp» forteller deg hvilke programmer som bruker "
-#~ "lydkortet.\n"
 
 #~ msgid ""
 #~ "The old \"%s\" driver is blacklisted.\n"

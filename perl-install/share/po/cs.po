@@ -162,7 +162,7 @@ msgstr "Povolit APIC"
 msgid "Enable Local APIC"
 msgstr "Povolit lokální APIC"
 
-#: any.pm:445 security/level.pm:51
+#: any.pm:445 security/level.pm:51 security/level.pm:50
 #, c-format
 msgid "Security"
 msgstr "Bezpečnost"
@@ -179,6 +179,7 @@ msgid "The passwords do not match"
 msgstr "Hesla nejsou shodná"
 
 #: any.pm:449 authentication.pm:260 diskdrake/interactive.pm:1498
+#: diskdrake/interactive.pm:1495
 #, c-format
 msgid "Please try again"
 msgstr "Zkuste to znovu, prosím"
@@ -980,16 +981,6 @@ msgstr "Metoda ověření"
 #, c-format
 msgid "No password"
 msgstr "Bez hesla"
-
-#: authentication.pm:260
-#, c-format
-msgid "The passwords do not match"
-msgstr "Hesla nejsou shodná"
-
-#: authentication.pm:260 diskdrake/interactive.pm:1495
-#, c-format
-msgid "Please try again"
-msgstr "Zkuste to znovu, prosím"
 
 #: authentication.pm:263
 #, c-format
@@ -6245,11 +6236,6 @@ msgstr ""
 
 #: security/level.pm:50
 #, c-format
-msgid "Security"
-msgstr "Bezpečnost"
-
-#: security/level.pm:50
-#, c-format
 msgid "DrakSec Basic Options"
 msgstr "Základní volby programu DrakSec"
 
@@ -6312,20 +6298,15 @@ msgstr ""
 msgid "Avahi is a ZeroConf daemon which implements an mDNS stack"
 msgstr "Avahi je démon ZeroConf implementující vrstvu mDNS"
 
-#: services.pm:24
-#, fuzzy, c-format
+#: services.pm:26
+#, c-format
 msgid "An NTP client/server"
-msgstr "NTP Server"
+msgstr "NTP klient/server"
 
 #: services.pm:25
 #, c-format
 msgid "Set CPU powersafe mode"
 msgstr ""
-
-#: services.pm:26
-#, c-format
-msgid "An NTP client/server"
-msgstr "NTP klient/server"
 
 #: services.pm:27
 #, c-format
@@ -7236,9 +7217,6 @@ msgstr ""
 msgid "Installation failed"
 msgstr "Instalace selhala"
 
-#~ msgid "You cannot use a password with %s"
-#~ msgstr "Nelze použít heslo s %s"
-
 #~ msgid "Clean /tmp at each boot"
 #~ msgstr "Vyčistit adresář /tmp při každém startu"
 
@@ -7288,9 +7266,6 @@ msgstr "Instalace selhala"
 #~ "\n"
 #~ "- \"/sbin/fuser -v /dev/dsp\" vám řekne, který program používá zvukovou "
 #~ "kartu.\n"
-
-#~ msgid "Set CPU frequency settings"
-#~ msgstr "Nastavit volby frekvence CPU"
 
 #~ msgid ""
 #~ "After rebooting and logging into Moondrake, you will see the "
@@ -7513,9 +7488,6 @@ msgstr "Instalace selhala"
 
 #~ msgid "Choose the sizes"
 #~ msgstr "Zvolte velikosti"
-
-#~ msgid "Clean /tmp at each boot"
-#~ msgstr "Vyčistit adresář /tmp při každém startu"
 
 #~ msgid ""
 #~ "Congratulations, installation is complete.\n"
@@ -7758,53 +7730,6 @@ msgstr "Instalace selhala"
 #~ "další náklady spojené se soudním řízením, která může užíváním či držbou "
 #~ "Software vzniknout je 1,-- Kč. Toto omezení se vztahuje též na "
 #~ "kryptografické knihovny obsažené v Software."
-
-#~ msgid ""
-#~ "The classic bug sound tester is to run the following commands:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" will tell you which driver your card "
-#~ "uses\n"
-#~ "by default\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" will tell you what driver it\n"
-#~ "currently uses\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\" will enable you to check if its module (driver) is\n"
-#~ "loaded or not\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" and \"/sbin/chkconfig --list alsa\" "
-#~ "will\n"
-#~ "tell you if sound and alsa services are configured to be run on\n"
-#~ "initlevel 3\n"
-#~ "\n"
-#~ "- \"aumix -q\" will tell you if the sound volume is muted or not\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" will tell which program uses the sound "
-#~ "card.\n"
-#~ msgstr ""
-#~ "Klasický postup při řešení problémů se zvukem je pomocí těchto příkazů:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" vám řekne, jaký ovladač je výchozí "
-#~ "pro\n"
-#~ "danou zvukovou kartu\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" vám řekne, který ovladač se "
-#~ "nyní\n"
-#~ "používá\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\" provede kontrolu toho, zda modul (ovladač) je nahrán "
-#~ "nebo ne\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" a \"/sbin/chkconfig --list alsa\" vám "
-#~ "sdělí\n"
-#~ "zda je pro initlevel nastaveny služby alsa a sound\n"
-#~ "\n"
-#~ "- \"aumix -q\" vám řekne, zda je zvuk ztlumen nebo ne\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" vám řekne, který program používá zvukovou "
-#~ "kartu.\n"
 
 #~ msgid ""
 #~ "The old \"%s\" driver is blacklisted.\n"

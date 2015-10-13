@@ -160,7 +160,7 @@ msgstr "APIC özelliğini etkinleştir"
 msgid "Enable Local APIC"
 msgstr "Yerel APIC özelliğini etkinleştir"
 
-#: any.pm:445 security/level.pm:51
+#: any.pm:445 security/level.pm:51 security/level.pm:50
 #, c-format
 msgid "Security"
 msgstr "Güvenlik"
@@ -177,6 +177,7 @@ msgid "The passwords do not match"
 msgstr "Parolalar uyuşmuyor"
 
 #: any.pm:449 authentication.pm:260 diskdrake/interactive.pm:1498
+#: diskdrake/interactive.pm:1495
 #, c-format
 msgid "Please try again"
 msgstr "Lütfen tekrar deneyin"
@@ -983,16 +984,6 @@ msgstr "Kimlik doğrulama yöntemi"
 #, c-format
 msgid "No password"
 msgstr "Parola yok"
-
-#: authentication.pm:260
-#, c-format
-msgid "The passwords do not match"
-msgstr "Parolalar uyuşmuyor"
-
-#: authentication.pm:260 diskdrake/interactive.pm:1495
-#, c-format
-msgid "Please try again"
-msgstr "Lütfen tekrar deneyin"
 
 #: authentication.pm:263
 #, c-format
@@ -6241,11 +6232,6 @@ msgstr ""
 
 #: security/level.pm:50
 #, c-format
-msgid "Security"
-msgstr "Güvenlik"
-
-#: security/level.pm:50
-#, c-format
 msgid "DrakSec Basic Options"
 msgstr "DrakSec Temel Seçenekler"
 
@@ -6311,20 +6297,15 @@ msgstr ""
 "Avahi, bir mDNS yığınını uygulayan bir Kablosuz Sıfır Yapılandırma "
 "artsürecidir."
 
-#: services.pm:24
-#, fuzzy, c-format
+#: services.pm:26
+#, c-format
 msgid "An NTP client/server"
-msgstr "Zaman sunucusu"
+msgstr "Bir NTP istemcisi/sunucusu"
 
 #: services.pm:25
 #, c-format
 msgid "Set CPU powersafe mode"
 msgstr ""
-
-#: services.pm:26
-#, c-format
-msgid "An NTP client/server"
-msgstr "Bir NTP istemcisi/sunucusu"
 
 #: services.pm:27
 #, c-format
@@ -7243,9 +7224,6 @@ msgstr ""
 msgid "Installation failed"
 msgstr "Kurulum başarısız!"
 
-#~ msgid "You cannot use a password with %s"
-#~ msgstr "%s ile bir parola kullanamazsınız"
-
 #~ msgid "Clean /tmp at each boot"
 #~ msgstr "/tmp dizinini her açılışta temizle"
 
@@ -7297,9 +7275,6 @@ msgstr "Kurulum başarısız!"
 #~ "\n"
 #~ "- \"/sbin/fuser -v /dev/dsp\" ses kartını hangi uygulamanın kullandığını "
 #~ "söyler.\n"
-
-#~ msgid "Set CPU frequency settings"
-#~ msgstr "CPU frekanslarını ayarla"
 
 #~ msgid ""
 #~ "After rebooting and logging into Moondrake, you will see the "
@@ -7490,9 +7465,6 @@ msgstr "Kurulum başarısız!"
 #~ "-\"/usr/sbin/fuser -v /dev/snd/pcm* /dev/dsp\" hangi uygulamanın doğrudan "
 #~ "ses kartını kullanmakta olduğunu söyleyecektir. (normalde bu, yalnızca "
 #~ "PulseAudio göstermelidir)\n"
-
-#~ msgid "Clean /tmp at each boot"
-#~ msgstr "/tmp dizinini her açılışta temizle"
 
 #~ msgid ""
 #~ "Congratulations, installation is complete.\n"
@@ -7752,55 +7724,6 @@ msgstr "Kurulum başarısız!"
 #~ "yöneltilmelidir. Moondrake tarafından geliştirilmiş yazılımlar GPL\n"
 #~ "lisansıyla korunmaktadır. Moondrake tarafından hazırlanan belgeler \"%s\" "
 #~ "Lisansa tabidir."
-
-#~ msgid ""
-#~ "The classic bug sound tester is to run the following commands:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" will tell you which driver your card "
-#~ "uses\n"
-#~ "by default\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" will tell you what driver it\n"
-#~ "currently uses\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\" will enable you to check if its module (driver) is\n"
-#~ "loaded or not\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" and \"/sbin/chkconfig --list alsa\" "
-#~ "will\n"
-#~ "tell you if sound and alsa services are configured to be run on\n"
-#~ "initlevel 3\n"
-#~ "\n"
-#~ "- \"aumix -q\" will tell you if the sound volume is muted or not\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" will tell which program uses the sound "
-#~ "card.\n"
-#~ msgstr ""
-#~ "Klasik hata ses deneyicisi aşağıdaki komutları yürütecektir:\n"
-#~ "\n"
-#~ "\n"
-#~ " - \"lspcidrake -v | fgrep -i AUDIO\" kartınızın ön tanımlı olarak hangi "
-#~ "sürücüyü  kullandığını\n"
-#~ "söyler.\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" şu anda kullandığı sürücüyü\n"
-#~ " söyler.\n"
-#~ "\n"
-#~ " \"/sbin/lsmod\" gerekli modülün (sürücü) yüklenmiş olup olmadığını "
-#~ "denetlemenizi\n"
-#~ " sağlar.\n"
-#~ "\n"
-#~ " - \"/sbin/chkconfig --list sound\" ve \"/sbin/chkconfig --list alsa\" "
-#~ "ses ve\n"
-#~ " alsa hizmetlerinin initlevel 3 seviyesinde çalışmaya ayarlanıp "
-#~ "ayarlanmadığını\n"
-#~ " söyler.\n"
-#~ "\n"
-#~ " - \"aumix -q\" sesin kapalı veya açık olduğunu söyler.\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" ses kartını hangi uygulamanın kullandığını "
-#~ "söyler.\n"
 
 #~ msgid ""
 #~ "The old \"%s\" driver is blacklisted.\n"

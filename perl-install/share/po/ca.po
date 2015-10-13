@@ -157,7 +157,7 @@ msgstr "Habilita APIC"
 msgid "Enable Local APIC"
 msgstr "Habilita APIC local"
 
-#: any.pm:445 security/level.pm:51
+#: any.pm:445 security/level.pm:51 security/level.pm:50
 #, c-format
 msgid "Security"
 msgstr "Seguretat"
@@ -174,6 +174,7 @@ msgid "The passwords do not match"
 msgstr "Les contrasenyes no coincideixen"
 
 #: any.pm:449 authentication.pm:260 diskdrake/interactive.pm:1498
+#: diskdrake/interactive.pm:1495
 #, c-format
 msgid "Please try again"
 msgstr "Si us plau, torneu-ho a intentar"
@@ -970,16 +971,6 @@ msgstr "Mètode d'autenticació"
 #, c-format
 msgid "No password"
 msgstr "Sense contrasenya"
-
-#: authentication.pm:260
-#, c-format
-msgid "The passwords do not match"
-msgstr "Les contrasenyes no coincideixen"
-
-#: authentication.pm:260 diskdrake/interactive.pm:1495
-#, c-format
-msgid "Please try again"
-msgstr "Si us plau, torneu-ho a intentar"
 
 #: authentication.pm:263
 #, c-format
@@ -6173,11 +6164,6 @@ msgstr ""
 
 #: security/level.pm:50
 #, c-format
-msgid "Security"
-msgstr "Seguretat"
-
-#: security/level.pm:50
-#, c-format
 msgid "DrakSec Basic Options"
 msgstr "Opcions bàsiques del DrakSec"
 
@@ -6242,20 +6228,15 @@ msgstr ""
 msgid "Avahi is a ZeroConf daemon which implements an mDNS stack"
 msgstr ""
 
-#: services.pm:24
-#, fuzzy, c-format
+#: services.pm:26
+#, c-format
 msgid "An NTP client/server"
-msgstr "Servidor NTP"
+msgstr "Un servidor/client NTP"
 
 #: services.pm:25
 #, c-format
 msgid "Set CPU powersafe mode"
 msgstr ""
-
-#: services.pm:26
-#, c-format
-msgid "An NTP client/server"
-msgstr "Un servidor/client NTP"
 
 #: services.pm:27
 #, c-format
@@ -7176,11 +7157,6 @@ msgstr ""
 msgid "Installation failed"
 msgstr "La instal·lació ha fallat"
 
-#, fuzzy
-#~ msgid "You cannot use a password with %s"
-#~ msgstr ""
-#~ "No podeu utilitzar un sistema d'arxius xifrat per al punt de muntatge %s"
-
 #~ msgid "Clean /tmp at each boot"
 #~ msgstr "Buida /tmp en cada arrencada"
 
@@ -7381,9 +7357,6 @@ msgstr "La instal·lació ha fallat"
 
 #~ msgid "Choose the sizes"
 #~ msgstr "Escolliu les mides"
-
-#~ msgid "Clean /tmp at each boot"
-#~ msgstr "Buida /tmp en cada arrencada"
 
 #~ msgid "Collapse Tree"
 #~ msgstr "Redueix l'arbre"
@@ -7683,52 +7656,6 @@ msgstr "La instal·lació ha fallat"
 #~ msgstr ""
 #~ "La còpia de seguretat de la taula de particions no té la mateixa mida\n"
 #~ "Voleu continuar igualment?"
-
-#~ msgid ""
-#~ "The classic bug sound tester is to run the following commands:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" will tell you which driver your card "
-#~ "uses\n"
-#~ "by default\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" will tell you what driver it\n"
-#~ "currently uses\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\" will enable you to check if its module (driver) is\n"
-#~ "loaded or not\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" and \"/sbin/chkconfig --list alsa\" "
-#~ "will\n"
-#~ "tell you if sound and alsa services are configured to be run on\n"
-#~ "initlevel 3\n"
-#~ "\n"
-#~ "- \"aumix -q\" will tell you if the sound volume is muted or not\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" will tell which program uses the sound "
-#~ "card.\n"
-#~ msgstr ""
-#~ "El comprovador de sons d'error clàssic pot executar les ordres següents:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" us dirà el programa de control que "
-#~ "la\n"
-#~ "vostra targeta utilitza per defecte\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" us dirà el programa de control\n"
-#~ "que està utilitzant actualment\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\" us permetrà comprovar si el seu mòdul (programa de\n"
-#~ "control) està carregat o no\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" i \"/sbin/chkconfig --list alsa\" us\n"
-#~ "diran si els serveis de so i alsa estan configurats per executar-se en\n"
-#~ "initlevel 3\n"
-#~ "\n"
-#~ "- \"aumix -q\" us dirà si el so està silenciat o no\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" us dirà quin programa utilitza la targeta "
-#~ "de so.\n"
 
 #~ msgid ""
 #~ "The old \"%s\" driver is blacklisted.\n"

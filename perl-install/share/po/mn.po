@@ -149,7 +149,7 @@ msgstr "Нээх"
 msgid "Enable Local APIC"
 msgstr "Нээх"
 
-#: any.pm:445 security/level.pm:51
+#: any.pm:445 security/level.pm:51 security/level.pm:50
 #, c-format
 msgid "Security"
 msgstr "Нууцлал"
@@ -166,6 +166,7 @@ msgid "The passwords do not match"
 msgstr ""
 
 #: any.pm:449 authentication.pm:260 diskdrake/interactive.pm:1498
+#: diskdrake/interactive.pm:1495
 #, c-format
 msgid "Please try again"
 msgstr "Дахин оролдоно уу"
@@ -927,16 +928,6 @@ msgstr "Баталгаажуулалт"
 #, c-format
 msgid "No password"
 msgstr "Нууц үг байхгүй"
-
-#: authentication.pm:260
-#, c-format
-msgid "The passwords do not match"
-msgstr ""
-
-#: authentication.pm:260 diskdrake/interactive.pm:1495
-#, c-format
-msgid "Please try again"
-msgstr "Дахин оролдоно уу"
 
 #: authentication.pm:263
 #, c-format
@@ -5752,11 +5743,6 @@ msgid ""
 msgstr ""
 
 #: security/level.pm:50
-#, c-format
-msgid "Security"
-msgstr "Нууцлал"
-
-#: security/level.pm:50
 #, fuzzy, c-format
 msgid "DrakSec Basic Options"
 msgstr "Үндсэн"
@@ -5819,7 +5805,7 @@ msgstr "ачаалах бол."
 msgid "Avahi is a ZeroConf daemon which implements an mDNS stack"
 msgstr ""
 
-#: services.pm:24
+#: services.pm:24 services.pm:26
 #, fuzzy, c-format
 msgid "An NTP client/server"
 msgstr "NTP Сервер"
@@ -5828,11 +5814,6 @@ msgstr "NTP Сервер"
 #, c-format
 msgid "Set CPU powersafe mode"
 msgstr ""
-
-#: services.pm:26
-#, fuzzy, c-format
-msgid "An NTP client/server"
-msgstr "NTP Сервер"
 
 #: services.pm:27
 #, c-format

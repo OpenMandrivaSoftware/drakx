@@ -156,7 +156,7 @@ msgstr "ACPI-ni Fəallaşdır"
 msgid "Enable Local APIC"
 msgstr "ACPI-ni Fəallaşdır"
 
-#: any.pm:445 security/level.pm:51
+#: any.pm:445 security/level.pm:51 security/level.pm:50
 #, c-format
 msgid "Security"
 msgstr "Təhlükəsizlik"
@@ -173,6 +173,7 @@ msgid "The passwords do not match"
 msgstr "Şifrələr uyğun gəlmir"
 
 #: any.pm:449 authentication.pm:260 diskdrake/interactive.pm:1498
+#: diskdrake/interactive.pm:1495
 #, c-format
 msgid "Please try again"
 msgstr "Xahiş edirik, təkrar sınayın"
@@ -959,16 +960,6 @@ msgstr "Tanıtma yöntəmi"
 #, c-format
 msgid "No password"
 msgstr "Şifrə olmasın"
-
-#: authentication.pm:260
-#, c-format
-msgid "The passwords do not match"
-msgstr "Şifrələr uyğun gəlmir"
-
-#: authentication.pm:260 diskdrake/interactive.pm:1495
-#, c-format
-msgid "Please try again"
-msgstr "Xahiş edirik, təkrar sınayın"
 
 #: authentication.pm:263
 #, c-format
@@ -6120,11 +6111,6 @@ msgstr ""
 
 #: security/level.pm:50
 #, c-format
-msgid "Security"
-msgstr "Təhlükəsizlik"
-
-#: security/level.pm:50
-#, c-format
 msgid "DrakSec Basic Options"
 msgstr "DrakSec Əsas Seçimləri"
 
@@ -6188,7 +6174,7 @@ msgstr ""
 msgid "Avahi is a ZeroConf daemon which implements an mDNS stack"
 msgstr ""
 
-#: services.pm:24
+#: services.pm:24 services.pm:26
 #, fuzzy, c-format
 msgid "An NTP client/server"
 msgstr "NTP Verici"
@@ -6197,11 +6183,6 @@ msgstr "NTP Verici"
 #, c-format
 msgid "Set CPU powersafe mode"
 msgstr ""
-
-#: services.pm:26
-#, fuzzy, c-format
-msgid "An NTP client/server"
-msgstr "NTP Verici"
 
 #: services.pm:27
 #, c-format
@@ -7090,11 +7071,6 @@ msgstr ""
 msgid "Installation failed"
 msgstr "Qurulum bacarılmadı"
 
-#, fuzzy
-#~ msgid "You cannot use a password with %s"
-#~ msgstr ""
-#~ "%s bağlama nöqtəsi üçün şifrələnmiş fayl sistemi istifadə edə bilməzsiniz"
-
 #~ msgid "Clean /tmp at each boot"
 #~ msgstr "/tmp-i hər açılışda təmizlə"
 
@@ -7318,9 +7294,6 @@ msgstr "Qurulum bacarılmadı"
 
 #~ msgid "Choose the sizes"
 #~ msgstr "Böyüklükləri seçin"
-
-#~ msgid "Clean /tmp at each boot"
-#~ msgstr "/tmp-i hər açılışda təmizlə"
 
 #~ msgid "Collapse Tree"
 #~ msgstr "Ağacı Bağla"
@@ -7781,52 +7754,6 @@ msgstr "Qurulum bacarılmadı"
 #~ msgstr ""
 #~ "Ehtiyat bölmə cədvəli eyni böyüklüyə sahib deyil\n"
 #~ "Davam etmək istəyirsiniz?"
-
-#~ msgid ""
-#~ "The classic bug sound tester is to run the following commands:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" will tell you which driver your card "
-#~ "uses\n"
-#~ "by default\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" will tell you what driver it\n"
-#~ "currently uses\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\" will enable you to check if its module (driver) is\n"
-#~ "loaded or not\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" and \"/sbin/chkconfig --list alsa\" "
-#~ "will\n"
-#~ "tell you if sound and alsa services are configured to be run on\n"
-#~ "initlevel 3\n"
-#~ "\n"
-#~ "- \"aumix -q\" will tell you if the sound volume is muted or not\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" will tell which program uses the sound "
-#~ "card.\n"
-#~ msgstr ""
-#~ "Klasik xəta səs sınaqı aşağıdakı əmrləri icra edir:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" səs kartınızın əsas olaraq hansı\n"
-#~ "sürücünü işlətdiyini bildirir\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" hazırda işlədilən sürücünü\n"
-#~ "bildirir\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\" modulun (sürücünün) yüklü olub olmadığını yoxlamaq\n"
-#~ "üçün sizə imkan verir\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" və \"/sbin/chkconfig --list alsa\" səs "
-#~ "və\n"
-#~ "alsa xidmətlərinin initsəviyyəsi3'də işə salınıb salınmayacağını "
-#~ "bildirir\n"
-#~ "\n"
-#~ "- \"aumix -q\" səs həcminin bağlı (mute) olub olmadığını bildirir\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" hansı proqramın səs kartını işlətdiyini "
-#~ "bildirir.\n"
 
 #~ msgid ""
 #~ "The old \"%s\" driver is blacklisted.\n"

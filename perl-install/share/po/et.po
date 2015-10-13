@@ -159,7 +159,7 @@ msgstr "APIC lubamine"
 msgid "Enable Local APIC"
 msgstr "Kohaliku APIC lubamine"
 
-#: any.pm:445 security/level.pm:51
+#: any.pm:445 security/level.pm:51 security/level.pm:50
 #, c-format
 msgid "Security"
 msgstr "Turvalisus"
@@ -176,6 +176,7 @@ msgid "The passwords do not match"
 msgstr "Paroolid ei klapi"
 
 #: any.pm:449 authentication.pm:260 diskdrake/interactive.pm:1498
+#: diskdrake/interactive.pm:1495
 #, c-format
 msgid "Please try again"
 msgstr "Palun proovige veel"
@@ -973,16 +974,6 @@ msgstr "Autentimisviis"
 #, c-format
 msgid "No password"
 msgstr "Parool puudub"
-
-#: authentication.pm:260
-#, c-format
-msgid "The passwords do not match"
-msgstr "Paroolid ei klapi"
-
-#: authentication.pm:260 diskdrake/interactive.pm:1495
-#, c-format
-msgid "Please try again"
-msgstr "Palun proovige veel"
 
 #: authentication.pm:263
 #, c-format
@@ -6230,11 +6221,6 @@ msgstr ""
 
 #: security/level.pm:50
 #, c-format
-msgid "Security"
-msgstr "Turvalisus"
-
-#: security/level.pm:50
-#, c-format
 msgid "DrakSec Basic Options"
 msgstr "DrakSeci põhiseadistused"
 
@@ -6299,20 +6285,15 @@ msgstr ""
 msgid "Avahi is a ZeroConf daemon which implements an mDNS stack"
 msgstr "Avahi on Zeroconfi deemon, mis teostab mDNS protokollistikku"
 
-#: services.pm:24
-#, fuzzy, c-format
+#: services.pm:26
+#, c-format
 msgid "An NTP client/server"
-msgstr "NTP server"
+msgstr "NTP klient/server"
 
 #: services.pm:25
 #, c-format
 msgid "Set CPU powersafe mode"
 msgstr ""
-
-#: services.pm:26
-#, c-format
-msgid "An NTP client/server"
-msgstr "NTP klient/server"
 
 #: services.pm:27
 #, c-format
@@ -7213,9 +7194,6 @@ msgstr ""
 msgid "Installation failed"
 msgstr "Paigaldamine nurjus"
 
-#~ msgid "You cannot use a password with %s"
-#~ msgstr "Te ei saa %s korral kasutada parooli"
-
 #~ msgid "Clean /tmp at each boot"
 #~ msgstr "/tmp puhastatakse igal käivitumisel"
 
@@ -7262,9 +7240,6 @@ msgstr "Paigaldamine nurjus"
 #~ "\n"
 #~ "- \"/sbin/fuser -v /dev/dsp\" näitab, milline programm hetkel\n"
 #~ "helikaarti kasutab.\n"
-
-#~ msgid "Set CPU frequency settings"
-#~ msgstr "Protsessori sageduse kindlaks määramine"
 
 #~ msgid ""
 #~ "After rebooting and logging into Moondrake, you will see the "
@@ -7547,9 +7522,6 @@ msgstr "Paigaldamine nurjus"
 
 #~ msgid "Choose the sizes"
 #~ msgstr "Valige suurused"
-
-#~ msgid "Clean /tmp at each boot"
-#~ msgstr "/tmp puhastatakse igal käivitumisel"
 
 #~ msgid "Collapse Tree"
 #~ msgstr "Sulge puu"
@@ -7953,50 +7925,6 @@ msgstr "Paigaldamine nurjus"
 #~ msgstr ""
 #~ "Tabeli varukoopia ei ole sama suurusega\n"
 #~ "Kas ikkagi jätkata?"
-
-#~ msgid ""
-#~ "The classic bug sound tester is to run the following commands:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" will tell you which driver your card "
-#~ "uses\n"
-#~ "by default\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" will tell you what driver it\n"
-#~ "currently uses\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\" will enable you to check if its module (driver) is\n"
-#~ "loaded or not\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" and \"/sbin/chkconfig --list alsa\" "
-#~ "will\n"
-#~ "tell you if sound and alsa services are configured to be run on\n"
-#~ "initlevel 3\n"
-#~ "\n"
-#~ "- \"aumix -q\" will tell you if the sound volume is muted or not\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" will tell which program uses the sound "
-#~ "card.\n"
-#~ msgstr ""
-#~ "Klassikaline võimalus Teie arvuti heliprobleeme kindlaks teha on "
-#~ "käivitada järgmised käsud:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" näitab, millist draiverit Teie\n"
-#~ "helikaart vaikimisi kasutab\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" näitab, millist draiverit\n"
-#~ "praegu kasutatakse\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\" näitab, kas vastav moodul (draiver) on hetkel laetud\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" ja \"/sbin/chkconfig --list alsa\"\n"
-#~ "näitavad, kas teenused \"sound\" ja \"alsa\" käivituvad.\n"
-#~ "\n"
-#~ "- \"aumix -q\" näitab, kas heli pole mitte summutatud (M - mute)\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" näitab, milline programm hetkel\n"
-#~ "helikaarti kasutab.\n"
 
 #~ msgid ""
 #~ "The old \"%s\" driver is blacklisted.\n"

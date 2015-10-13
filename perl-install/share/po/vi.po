@@ -158,7 +158,7 @@ msgstr "Bật chạy ACPI"
 msgid "Enable Local APIC"
 msgstr "Bật chạy ACPI"
 
-#: any.pm:445 security/level.pm:51
+#: any.pm:445 security/level.pm:51 security/level.pm:50
 #, c-format
 msgid "Security"
 msgstr "Bảo mật"
@@ -175,6 +175,7 @@ msgid "The passwords do not match"
 msgstr "Mật khẩu không khớp nhau"
 
 #: any.pm:449 authentication.pm:260 diskdrake/interactive.pm:1498
+#: diskdrake/interactive.pm:1495
 #, c-format
 msgid "Please try again"
 msgstr "Hãy thử lại"
@@ -961,16 +962,6 @@ msgstr "phương thức chứng thực"
 #, c-format
 msgid "No password"
 msgstr "Không có mật khẩu"
-
-#: authentication.pm:260
-#, c-format
-msgid "The passwords do not match"
-msgstr "Mật khẩu không khớp nhau"
-
-#: authentication.pm:260 diskdrake/interactive.pm:1495
-#, c-format
-msgid "Please try again"
-msgstr "Hãy thử lại"
 
 #: authentication.pm:263
 #, c-format
@@ -6088,11 +6079,6 @@ msgstr ""
 
 #: security/level.pm:50
 #, c-format
-msgid "Security"
-msgstr "Bảo mật"
-
-#: security/level.pm:50
-#, c-format
 msgid "DrakSec Basic Options"
 msgstr "Tùy Chọn Cơ Bản Của DrakSec"
 
@@ -6155,7 +6141,7 @@ msgstr ""
 msgid "Avahi is a ZeroConf daemon which implements an mDNS stack"
 msgstr ""
 
-#: services.pm:24
+#: services.pm:24 services.pm:26
 #, fuzzy, c-format
 msgid "An NTP client/server"
 msgstr "Máy chủ NTP"
@@ -6164,11 +6150,6 @@ msgstr "Máy chủ NTP"
 #, c-format
 msgid "Set CPU powersafe mode"
 msgstr ""
-
-#: services.pm:26
-#, fuzzy, c-format
-msgid "An NTP client/server"
-msgstr "Máy chủ NTP"
 
 #: services.pm:27
 #, c-format
@@ -7062,10 +7043,6 @@ msgstr ""
 msgid "Installation failed"
 msgstr "Không cài đặt được"
 
-#, fuzzy
-#~ msgid "You cannot use a password with %s"
-#~ msgstr "Không thể dùng một hệ thống file đã mã hóa cho điểm gắn kết %s"
-
 #~ msgid "Clean /tmp at each boot"
 #~ msgstr "Làm sạch /tmp mỗi khi khởi động"
 
@@ -7301,9 +7278,6 @@ msgstr "Không cài đặt được"
 
 #~ msgid "Choose the sizes"
 #~ msgstr "Chọn kích thước"
-
-#~ msgid "Clean /tmp at each boot"
-#~ msgstr "Làm sạch /tmp mỗi khi khởi động"
 
 #~ msgid "Collapse Tree"
 #~ msgstr "Thu gọn Cây"
@@ -7741,52 +7715,6 @@ msgstr "Không cài đặt được"
 #~ msgstr ""
 #~ "Bảng phân vùng sao lưu không có cùng kích thước\n"
 #~ "Vẫn tiếp tục?"
-
-#~ msgid ""
-#~ "The classic bug sound tester is to run the following commands:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" will tell you which driver your card "
-#~ "uses\n"
-#~ "by default\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" will tell you what driver it\n"
-#~ "currently uses\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\" will enable you to check if its module (driver) is\n"
-#~ "loaded or not\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" and \"/sbin/chkconfig --list alsa\" "
-#~ "will\n"
-#~ "tell you if sound and alsa services are configured to be run on\n"
-#~ "initlevel 3\n"
-#~ "\n"
-#~ "- \"aumix -q\" will tell you if the sound volume is muted or not\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" will tell which program uses the sound "
-#~ "card.\n"
-#~ msgstr ""
-#~ "Trình kiểm tra lỗi âm thanh cổ điển cần chạy những lệnh sau:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" cho bạn biết driver nào card dùng\n"
-#~ "làm mặc định\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" cho bạn biết driver nào hiện\n"
-#~ "thời nó đang dùng\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\" cho phép bạn kiểm tra xem module của nó (driver)\n"
-#~ "có được nạp hay không\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" and \"/sbin/chkconfig --list alsa\" "
-#~ "cho\n"
-#~ "bạn biết âm thanh và những dịch vụ alsa được cấu hình để chạy với\n"
-#~ "initlevel 3\n"
-#~ "\n"
-#~ "- \"aumix -q\" cho bạn biết âm lượng có bị tắt hay không\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" cho bạn biết chương trình nào sử dụng card "
-#~ "âm thanh.\n"
 
 #~ msgid ""
 #~ "The old \"%s\" driver is blacklisted.\n"

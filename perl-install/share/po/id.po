@@ -169,7 +169,7 @@ msgstr "Aktifkan APIC"
 msgid "Enable Local APIC"
 msgstr "Aktifkan APIC Lokal"
 
-#: any.pm:445 security/level.pm:51
+#: any.pm:445 security/level.pm:51 security/level.pm:50
 #, c-format
 msgid "Security"
 msgstr "Keamanan"
@@ -186,6 +186,7 @@ msgid "The passwords do not match"
 msgstr "Kata sandi tidak cocok"
 
 #: any.pm:449 authentication.pm:260 diskdrake/interactive.pm:1498
+#: diskdrake/interactive.pm:1495
 #, c-format
 msgid "Please try again"
 msgstr "Silahkan coba lagi"
@@ -985,16 +986,6 @@ msgstr "Metode otentikasi"
 #, c-format
 msgid "No password"
 msgstr "Tanpa kata sandi"
-
-#: authentication.pm:260
-#, c-format
-msgid "The passwords do not match"
-msgstr "Kata sandi tidak cocok"
-
-#: authentication.pm:260 diskdrake/interactive.pm:1495
-#, c-format
-msgid "Please try again"
-msgstr "Silahkan coba lagi"
 
 #: authentication.pm:263
 #, c-format
@@ -6168,11 +6159,6 @@ msgstr ""
 
 #: security/level.pm:50
 #, c-format
-msgid "Security"
-msgstr "Keamanan"
-
-#: security/level.pm:50
-#, c-format
 msgid "DrakSec Basic Options"
 msgstr "Opsi Dasar DrakSec"
 
@@ -6236,20 +6222,15 @@ msgstr ""
 msgid "Avahi is a ZeroConf daemon which implements an mDNS stack"
 msgstr "Avahi adalah daemon ZeroConf yang mengimplementasikan susunan mDNS"
 
-#: services.pm:24
-#, fuzzy, c-format
+#: services.pm:26
+#, c-format
 msgid "An NTP client/server"
-msgstr "Server NTP"
+msgstr "Klien/server NTP"
 
 #: services.pm:25
 #, c-format
 msgid "Set CPU powersafe mode"
 msgstr ""
-
-#: services.pm:26
-#, c-format
-msgid "An NTP client/server"
-msgstr "Klien/server NTP"
 
 #: services.pm:27
 #, c-format
@@ -7166,9 +7147,6 @@ msgstr ""
 msgid "Installation failed"
 msgstr "Installasi gagal"
 
-#~ msgid "You cannot use a password with %s"
-#~ msgstr "Anda tidak dapat menggunakan sebuah kata sandi dengan %s"
-
 #~ msgid "Clean /tmp at each boot"
 #~ msgstr "Hapus /tmp setiap boot"
 
@@ -7528,9 +7506,6 @@ msgstr "Installasi gagal"
 
 #~ msgid "Choose the sizes"
 #~ msgstr "Pilih ukuran"
-
-#~ msgid "Clean /tmp at each boot"
-#~ msgstr "Hapus /tmp setiap boot"
 
 #~ msgid "Collapse Tree"
 #~ msgstr "Tutup Tree"
@@ -7986,54 +7961,6 @@ msgstr "Installasi gagal"
 #~ msgstr ""
 #~ "Backup tabel partisi tidak memiliki ukuran yang sama\n"
 #~ "Lanjutkan?"
-
-#~ msgid ""
-#~ "The classic bug sound tester is to run the following commands:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" will tell you which driver your card "
-#~ "uses\n"
-#~ "by default\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" will tell you what driver it\n"
-#~ "currently uses\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\" will enable you to check if its module (driver) is\n"
-#~ "loaded or not\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" and \"/sbin/chkconfig --list alsa\" "
-#~ "will\n"
-#~ "tell you if sound and alsa services are configured to be run on\n"
-#~ "initlevel 3\n"
-#~ "\n"
-#~ "- \"aumix -q\" will tell you if the sound volume is muted or not\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" will tell which program uses the sound "
-#~ "card.\n"
-#~ msgstr ""
-#~ "Penguji kesalahan suara klasik akan menjalankan perintah berikut:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" akan memberitahu Anda driver mana "
-#~ "yang\n"
-#~ "dipakai oleh kartu Anda secara default\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" memberitahu driver apa yang "
-#~ "dipakai\n"
-#~ "sekarang\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\" menguji apakah modul (driver) dimuat atau tidak\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" dan \"/sbin/chkconfig --list alsa\" "
-#~ "akan\n"
-#~ "memberitahu Anda apakah layanan suara dan alsa terkonfigurasi untuk "
-#~ "dijalankan\n"
-#~ "pada initlevel 3\n"
-#~ "\n"
-#~ "- \"aumix -q\" memberitahu apakah volume suara dipadamkan atau tidak\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" akan memberitahu program mana yang memakai\n"
-#~ "kartu suara.\n"
 
 #~ msgid ""
 #~ "The old \"%s\" driver is blacklisted.\n"

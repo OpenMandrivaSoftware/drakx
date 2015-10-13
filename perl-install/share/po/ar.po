@@ -163,7 +163,7 @@ msgstr "تمكين ACPI"
 msgid "Enable Local APIC"
 msgstr "تمكين ACPI"
 
-#: any.pm:445 security/level.pm:51
+#: any.pm:445 security/level.pm:51 security/level.pm:50
 #, c-format
 msgid "Security"
 msgstr "الأمن"
@@ -180,6 +180,7 @@ msgid "The passwords do not match"
 msgstr "كلمات المرور غير متطابقة"
 
 #: any.pm:449 authentication.pm:260 diskdrake/interactive.pm:1498
+#: diskdrake/interactive.pm:1495
 #, c-format
 msgid "Please try again"
 msgstr "الرجاء المحاولة مجدداً"
@@ -963,16 +964,6 @@ msgstr "طريقة المواثقة"
 #, c-format
 msgid "No password"
 msgstr "بدون كلمة مرور"
-
-#: authentication.pm:260
-#, c-format
-msgid "The passwords do not match"
-msgstr "كلمات المرور غير متطابقة"
-
-#: authentication.pm:260 diskdrake/interactive.pm:1495
-#, c-format
-msgid "Please try again"
-msgstr "الرجاء المحاولة مجدداً"
 
 #: authentication.pm:263
 #, c-format
@@ -6070,11 +6061,6 @@ msgstr ""
 
 #: security/level.pm:50
 #, c-format
-msgid "Security"
-msgstr "الأمن"
-
-#: security/level.pm:50
-#, c-format
 msgid "DrakSec Basic Options"
 msgstr "خيارات DrakSec الأساسية"
 
@@ -6137,7 +6123,7 @@ msgstr ""
 msgid "Avahi is a ZeroConf daemon which implements an mDNS stack"
 msgstr ""
 
-#: services.pm:24
+#: services.pm:24 services.pm:26
 #, fuzzy, c-format
 msgid "An NTP client/server"
 msgstr "خادم NTP"
@@ -6146,11 +6132,6 @@ msgstr "خادم NTP"
 #, c-format
 msgid "Set CPU powersafe mode"
 msgstr ""
-
-#: services.pm:26
-#, fuzzy, c-format
-msgid "An NTP client/server"
-msgstr "خادم NTP"
 
 #: services.pm:27
 #, c-format
@@ -7040,10 +7021,6 @@ msgstr ""
 msgid "Installation failed"
 msgstr "فشل التّثبيت"
 
-#, fuzzy
-#~ msgid "You cannot use a password with %s"
-#~ msgstr "لا يمكنك استخدام نظام ملفات مرمّز لمكان التركيب %s"
-
 #~ msgid "Clean /tmp at each boot"
 #~ msgstr "تنظيف /tmp عند كل إقلاع"
 
@@ -7239,9 +7216,6 @@ msgstr "فشل التّثبيت"
 
 #~ msgid "Choose the sizes"
 #~ msgstr "اختيار الأحجام"
-
-#~ msgid "Clean /tmp at each boot"
-#~ msgstr "تنظيف /tmp عند كل إقلاع"
 
 #~ msgid "Collapse Tree"
 #~ msgstr "ضمّ الفروع"
@@ -7491,50 +7465,6 @@ msgstr "فشل التّثبيت"
 #~ msgstr ""
 #~ "جدول التجزئة المحفوظ ليس بنفس الحجم\n"
 #~ "لا زلت تريد الاستمرار؟"
-
-#~ msgid ""
-#~ "The classic bug sound tester is to run the following commands:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" will tell you which driver your card "
-#~ "uses\n"
-#~ "by default\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" will tell you what driver it\n"
-#~ "currently uses\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\" will enable you to check if its module (driver) is\n"
-#~ "loaded or not\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" and \"/sbin/chkconfig --list alsa\" "
-#~ "will\n"
-#~ "tell you if sound and alsa services are configured to be run on\n"
-#~ "initlevel 3\n"
-#~ "\n"
-#~ "- \"aumix -q\" will tell you if the sound volume is muted or not\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" will tell which program uses the sound "
-#~ "card.\n"
-#~ msgstr ""
-#~ "الاختبار الكلاسيكي لعلّة الصوت هو تشغيل الأوامر التّالية:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" سيخبرك باسم مشغّل الذي تستخدمه بطاقتك "
-#~ "الصّوتيّة بشكل افتراضي\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" سيخبرك باسم مشغّل\n"
-#~ "المستخدم حاليّاً\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\" سيمكّنك من التحقّق من أن وحدته (مشغّل) هي\n"
-#~ "مُحمّلة أم لا\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" و \"/sbin/chkconfig --list alsa\" سوف\n"
-#~ "يخبرك إن كانت خدمات الصّوت وalsa مُهيّئة للعمل على\n"
-#~ "initlevel 3\n"
-#~ "\n"
-#~ "- \"aumix -q\" سيخبرك ما إذا كان الصّوت مكتوماً أم لا\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" سيخبرك عن أيّ برنامج يستخدم بطاقة الصّوت.\n"
 
 #~ msgid ""
 #~ "The old \"%s\" driver is blacklisted.\n"

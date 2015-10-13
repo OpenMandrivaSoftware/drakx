@@ -146,7 +146,7 @@ msgstr "Hidupkan animasi"
 msgid "Enable Local APIC"
 msgstr "Pemasangan--APIC Tempatan Dimatikan"
 
-#: any.pm:445 security/level.pm:51
+#: any.pm:445 security/level.pm:51 security/level.pm:50
 #, c-format
 msgid "Security"
 msgstr "Keselamatan"
@@ -163,6 +163,7 @@ msgid "The passwords do not match"
 msgstr "Katalaluan tidak sepadan"
 
 #: any.pm:449 authentication.pm:260 diskdrake/interactive.pm:1498
+#: diskdrake/interactive.pm:1495
 #, c-format
 msgid "Please try again"
 msgstr "Sila cuba lagi"
@@ -925,16 +926,6 @@ msgstr "Kaedah Penyelamatan"
 #, c-format
 msgid "No password"
 msgstr "Tiada katalaluan"
-
-#: authentication.pm:260
-#, c-format
-msgid "The passwords do not match"
-msgstr "Katalaluan tidak sepadan"
-
-#: authentication.pm:260 diskdrake/interactive.pm:1495
-#, c-format
-msgid "Please try again"
-msgstr "Sila cuba lagi"
 
 #: authentication.pm:263
 #, c-format
@@ -5721,11 +5712,6 @@ msgid ""
 msgstr "terima on Internet."
 
 #: security/level.pm:50
-#, c-format
-msgid "Security"
-msgstr "Keselamatan"
-
-#: security/level.pm:50
 #, fuzzy, c-format
 msgid "DrakSec Basic Options"
 msgstr "Pilihan Dua-Arah"
@@ -5785,7 +5771,7 @@ msgstr "dan."
 msgid "Avahi is a ZeroConf daemon which implements an mDNS stack"
 msgstr ""
 
-#: services.pm:24
+#: services.pm:24 services.pm:26
 #, fuzzy, c-format
 msgid "An NTP client/server"
 msgstr "Pelayan FTP"
@@ -5794,11 +5780,6 @@ msgstr "Pelayan FTP"
 #, c-format
 msgid "Set CPU powersafe mode"
 msgstr ""
-
-#: services.pm:26
-#, fuzzy, c-format
-msgid "An NTP client/server"
-msgstr "Pelayan FTP"
 
 #: services.pm:27
 #, c-format

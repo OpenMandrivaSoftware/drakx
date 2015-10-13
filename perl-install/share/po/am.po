@@ -146,7 +146,7 @@ msgstr "ACPI አስቻል"
 msgid "Enable Local APIC"
 msgstr "ACPI አስቻል"
 
-#: any.pm:445 security/level.pm:51
+#: any.pm:445 security/level.pm:51 security/level.pm:50
 #, c-format
 msgid "Security"
 msgstr "ደህንነት"
@@ -163,6 +163,7 @@ msgid "The passwords do not match"
 msgstr "ሚስጢራዊ ቃላቱ አይመሳሰሉም"
 
 #: any.pm:449 authentication.pm:260 diskdrake/interactive.pm:1498
+#: diskdrake/interactive.pm:1495
 #, c-format
 msgid "Please try again"
 msgstr "እባክዎ እንደገና ይሞክሩ"
@@ -926,16 +927,6 @@ msgstr "የX ዘገባ የማስትገባት ዘዴ"
 #, c-format
 msgid "No password"
 msgstr "ሚስጢራዊ ቃል የለም"
-
-#: authentication.pm:260
-#, c-format
-msgid "The passwords do not match"
-msgstr "ሚስጢራዊ ቃላቱ አይመሳሰሉም"
-
-#: authentication.pm:260 diskdrake/interactive.pm:1495
-#, c-format
-msgid "Please try again"
-msgstr "እባክዎ እንደገና ይሞክሩ"
 
 #: authentication.pm:263
 #, c-format
@@ -5714,11 +5705,6 @@ msgid ""
 msgstr ""
 
 #: security/level.pm:50
-#, c-format
-msgid "Security"
-msgstr "ደህንነት"
-
-#: security/level.pm:50
 #, fuzzy, c-format
 msgid "DrakSec Basic Options"
 msgstr "ባለሁለት አቅጣጫ ምርጫዎች"
@@ -5778,7 +5764,7 @@ msgstr ""
 msgid "Avahi is a ZeroConf daemon which implements an mDNS stack"
 msgstr ""
 
-#: services.pm:24
+#: services.pm:24 services.pm:26
 #, fuzzy, c-format
 msgid "An NTP client/server"
 msgstr "NTP ሰርቨር"
@@ -5787,11 +5773,6 @@ msgstr "NTP ሰርቨር"
 #, c-format
 msgid "Set CPU powersafe mode"
 msgstr ""
-
-#: services.pm:26
-#, fuzzy, c-format
-msgid "An NTP client/server"
-msgstr "NTP ሰርቨር"
 
 #: services.pm:27
 #, c-format

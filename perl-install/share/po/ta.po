@@ -154,7 +154,7 @@ msgstr "சிடியில் இருந்து தொடங்கலா�
 msgid "Enable Local APIC"
 msgstr "சிடியில் இருந்து தொடங்கலாமா?"
 
-#: any.pm:445 security/level.pm:51
+#: any.pm:445 security/level.pm:51 security/level.pm:50
 #, c-format
 msgid "Security"
 msgstr "பாதுகாப்பு"
@@ -171,6 +171,7 @@ msgid "The passwords do not match"
 msgstr "கடவுச்ெசாற்கள் இரண்டும் பொருந்தவில்ைல"
 
 #: any.pm:449 authentication.pm:260 diskdrake/interactive.pm:1498
+#: diskdrake/interactive.pm:1495
 #, c-format
 msgid "Please try again"
 msgstr "மீண்டும் முயற்சித்து பார்க்கவும்"
@@ -947,16 +948,6 @@ msgstr "நல்குாிமை"
 #, c-format
 msgid "No password"
 msgstr "கடவுச்ெசால் ஏதுமில்ைல"
-
-#: authentication.pm:260
-#, c-format
-msgid "The passwords do not match"
-msgstr "கடவுச்ெசாற்கள் இரண்டும் பொருந்தவில்ைல"
-
-#: authentication.pm:260 diskdrake/interactive.pm:1495
-#, c-format
-msgid "Please try again"
-msgstr "மீண்டும் முயற்சித்து பார்க்கவும்"
 
 #: authentication.pm:263
 #, c-format
@@ -5957,11 +5948,6 @@ msgstr ""
 
 #: security/level.pm:50
 #, c-format
-msgid "Security"
-msgstr "பாதுகாப்பு"
-
-#: security/level.pm:50
-#, c-format
 msgid "DrakSec Basic Options"
 msgstr "டிரேக்பாதுகாப்பு அடிப்படை விருப்பத்ேதர்வுகள்"
 
@@ -6020,7 +6006,7 @@ msgstr ""
 msgid "Avahi is a ZeroConf daemon which implements an mDNS stack"
 msgstr ""
 
-#: services.pm:24
+#: services.pm:24 services.pm:26
 #, fuzzy, c-format
 msgid "An NTP client/server"
 msgstr "NTP சேவையகம்"
@@ -6029,11 +6015,6 @@ msgstr "NTP சேவையகம்"
 #, c-format
 msgid "Set CPU powersafe mode"
 msgstr ""
-
-#: services.pm:26
-#, fuzzy, c-format
-msgid "An NTP client/server"
-msgstr "NTP சேவையகம்"
 
 #: services.pm:27
 #, c-format

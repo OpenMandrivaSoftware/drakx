@@ -179,7 +179,7 @@ msgstr "APIC aktivieren"
 msgid "Enable Local APIC"
 msgstr "Lokales APIC aktivieren"
 
-#: any.pm:445 security/level.pm:51
+#: any.pm:445 security/level.pm:51 security/level.pm:50
 #, c-format
 msgid "Security"
 msgstr "Sicherheit"
@@ -196,6 +196,7 @@ msgid "The passwords do not match"
 msgstr "Die Passwörter stimmen nicht überein"
 
 #: any.pm:449 authentication.pm:260 diskdrake/interactive.pm:1498
+#: diskdrake/interactive.pm:1495
 #, c-format
 msgid "Please try again"
 msgstr "Bitte versuchen Sie es erneut"
@@ -1004,16 +1005,6 @@ msgstr "Authentifizierungsmethode"
 #, c-format
 msgid "No password"
 msgstr "Kein Passwort"
-
-#: authentication.pm:260
-#, c-format
-msgid "The passwords do not match"
-msgstr "Die Passwörter stimmen nicht überein"
-
-#: authentication.pm:260 diskdrake/interactive.pm:1495
-#, c-format
-msgid "Please try again"
-msgstr "Bitte versuchen Sie es erneut"
 
 #: authentication.pm:263
 #, c-format
@@ -6330,11 +6321,6 @@ msgstr ""
 
 #: security/level.pm:50
 #, c-format
-msgid "Security"
-msgstr "Sicherheit"
-
-#: security/level.pm:50
-#, c-format
 msgid "DrakSec Basic Options"
 msgstr "DrakSec-Grundeinstellungen"
 
@@ -6405,20 +6391,15 @@ msgstr ""
 msgid "Avahi is a ZeroConf daemon which implements an mDNS stack"
 msgstr "Avahi ist ein ZeroConf Dämon, der einen mDNS-Stack implementiert. "
 
-#: services.pm:24
-#, fuzzy, c-format
+#: services.pm:26
+#, c-format
 msgid "An NTP client/server"
-msgstr "NTP-Server"
+msgstr "Ein NTP Klient/Server"
 
 #: services.pm:25
 #, c-format
 msgid "Set CPU powersafe mode"
 msgstr ""
-
-#: services.pm:26
-#, c-format
-msgid "An NTP client/server"
-msgstr "Ein NTP Klient/Server"
 
 #: services.pm:27
 #, c-format
@@ -7373,9 +7354,6 @@ msgstr ""
 msgid "Installation failed"
 msgstr "Die Installation schlug fehl!"
 
-#~ msgid "You cannot use a password with %s"
-#~ msgstr "Sie können kein Passwort welches %s enthält verwenden"
-
 #~ msgid "Clean /tmp at each boot"
 #~ msgstr " „/tmp“ bei jedem Systemstart säubern"
 
@@ -7417,9 +7395,6 @@ msgstr "Die Installation schlug fehl!"
 #~ "\n"
 #~ "- „/sbin/fuser -v /dev/dsp“ verrät das Programm, das die Soundkarte "
 #~ "benutzt.\n"
-
-#~ msgid "Set CPU frequency settings"
-#~ msgstr "Richte die CPU-Frequenz-Einstellungen ein"
 
 #~ msgid ""
 #~ "Below are some basic tips to help debug audio problems, but for accurate "
@@ -7607,9 +7582,6 @@ msgstr "Die Installation schlug fehl!"
 
 #~ msgid "Choose the sizes"
 #~ msgstr "Wählen Sie die Größe"
-
-#~ msgid "Clean /tmp at each boot"
-#~ msgstr " „/tmp“ bei jedem Systemstart säubern"
 
 #~ msgid ""
 #~ "Congratulations, installation is complete.\n"
@@ -7925,45 +7897,6 @@ msgstr "Die Installation schlug fehl!"
 #~ "Vertreiber der Komponente und nicht an Moondrake zu richten.\n"
 #~ "Die von Moondrake erstellten Programme unterliegen der GPL.\n"
 #~ "Von Moondrake geschriebene Dokumentation unterliegt einer \"%s\" Lizenz."
-
-#~ msgid ""
-#~ "The classic bug sound tester is to run the following commands:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" will tell you which driver your card "
-#~ "uses\n"
-#~ "by default\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" will tell you what driver it\n"
-#~ "currently uses\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\" will enable you to check if its module (driver) is\n"
-#~ "loaded or not\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" and \"/sbin/chkconfig --list alsa\" "
-#~ "will\n"
-#~ "tell you if sound and alsa services are configured to be run on\n"
-#~ "initlevel 3\n"
-#~ "\n"
-#~ "- \"aumix -q\" will tell you if the sound volume is muted or not\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" will tell which program uses the sound "
-#~ "card.\n"
-#~ msgstr ""
-#~ "Der klassische Test, um Fehler im Sound-System zu finden:\n"
-#~ "\n"
-#~ "\n"
-#~ "- „lspcidrake -v | fgrep -i AUDIO“ verrät Ihnen, welcher Treiber Ihre "
-#~ "Soundkarte \n"
-#~ "  standardmäßig verwendet.\n"
-#~ "\n"
-#~ "- „/sbin/chkconfig --list sound“ und „/sbin/chkconfig --list alsa“ "
-#~ "verraten\n"
-#~ "  Ihnen, ob die Sound- und ALSA-Dienste konfiguriert sind, um im\n"
-#~ "  Initlevel 3 zu laufen.\n"
-#~ "\n"
-#~ "- „/sbin/fuser -v /dev/dsp“ verrät das Programm, das die Soundkarte "
-#~ "benutzt.\n"
 
 #~ msgid ""
 #~ "The old \"%s\" driver is blacklisted.\n"

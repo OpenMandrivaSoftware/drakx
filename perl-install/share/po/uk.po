@@ -166,7 +166,7 @@ msgstr "Увімкнути APIC"
 msgid "Enable Local APIC"
 msgstr "Увімкнути локальний APIC"
 
-#: any.pm:445 security/level.pm:51
+#: any.pm:445 security/level.pm:51 security/level.pm:50
 #, c-format
 msgid "Security"
 msgstr "Безпека"
@@ -183,6 +183,7 @@ msgid "The passwords do not match"
 msgstr "Паролі не збігаються"
 
 #: any.pm:449 authentication.pm:260 diskdrake/interactive.pm:1498
+#: diskdrake/interactive.pm:1495
 #, c-format
 msgid "Please try again"
 msgstr "Будь ласка, спробуйте ще раз"
@@ -987,16 +988,6 @@ msgstr "Метод розпізнавання"
 #, c-format
 msgid "No password"
 msgstr "Без паролю"
-
-#: authentication.pm:260
-#, c-format
-msgid "The passwords do not match"
-msgstr "Паролі не збігаються"
-
-#: authentication.pm:260 diskdrake/interactive.pm:1495
-#, c-format
-msgid "Please try again"
-msgstr "Будь ласка, спробуйте ще раз"
 
 #: authentication.pm:263
 #, c-format
@@ -6256,11 +6247,6 @@ msgstr ""
 
 #: security/level.pm:50
 #, c-format
-msgid "Security"
-msgstr "Безпека"
-
-#: security/level.pm:50
-#, c-format
 msgid "DrakSec Basic Options"
 msgstr "Основні параметри DrakSec"
 
@@ -6325,20 +6311,15 @@ msgstr ""
 msgid "Avahi is a ZeroConf daemon which implements an mDNS stack"
 msgstr "Avahi — це фонова служба ZeroConf, яка реалізує стек mDNS"
 
-#: services.pm:24
-#, fuzzy, c-format
+#: services.pm:26
+#, c-format
 msgid "An NTP client/server"
-msgstr "Сервер NTP"
+msgstr "Сервер і сервер NTP"
 
 #: services.pm:25
 #, c-format
 msgid "Set CPU powersafe mode"
 msgstr ""
-
-#: services.pm:26
-#, c-format
-msgid "An NTP client/server"
-msgstr "Сервер і сервер NTP"
 
 #: services.pm:27
 #, c-format
@@ -7273,9 +7254,6 @@ msgstr ""
 msgid "Installation failed"
 msgstr "Встановлення завершилося невдало"
 
-#~ msgid "You cannot use a password with %s"
-#~ msgstr "Ви не можете використовувати пароль разом з %s"
-
 #~ msgid "Clean /tmp at each boot"
 #~ msgstr "Очищати /tmp при кожному перезавантаженні"
 
@@ -7326,9 +7304,6 @@ msgstr "Встановлення завершилося невдало"
 #~ "- \"/sbin/fuser -v /dev/dsp\" повідомить Вам, яка програма використовує "
 #~ "звукову\n"
 #~ "карту.\n"
-
-#~ msgid "Set CPU frequency settings"
-#~ msgstr "Встановити параметри керування частотою процесора"
 
 #~ msgid ""
 #~ "After rebooting and logging into Moondrake, you will see the "
@@ -7528,9 +7503,6 @@ msgstr "Встановлення завершилося невдало"
 
 #~ msgid "Choose the sizes"
 #~ msgstr "Виберіть розміри"
-
-#~ msgid "Clean /tmp at each boot"
-#~ msgstr "Очищати /tmp при кожному перезавантаженні"
 
 #~ msgid ""
 #~ "Congratulations, installation is complete.\n"
@@ -7829,54 +7801,6 @@ msgstr "Встановлення завершилося невдало"
 #~ "умов GPL. Документація, розроблена Moondrake, розповсюджується "
 #~ "відповідно\n"
 #~ "до умов «%s»."
-
-#~ msgid ""
-#~ "The classic bug sound tester is to run the following commands:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" will tell you which driver your card "
-#~ "uses\n"
-#~ "by default\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" will tell you what driver it\n"
-#~ "currently uses\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\" will enable you to check if its module (driver) is\n"
-#~ "loaded or not\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" and \"/sbin/chkconfig --list alsa\" "
-#~ "will\n"
-#~ "tell you if sound and alsa services are configured to be run on\n"
-#~ "initlevel 3\n"
-#~ "\n"
-#~ "- \"aumix -q\" will tell you if the sound volume is muted or not\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" will tell which program uses the sound "
-#~ "card.\n"
-#~ msgstr ""
-#~ "Класична програма тестування звуку виконується з наступними командами:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" повідомить Вам, який драйвер типово\n"
-#~ "використовує Ваша карта\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" повідомить Вам, який драйвер\n"
-#~ "використовується зараз\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\" зробить можливою перевірку, чи драйвер карти "
-#~ "завантажений,\n"
-#~ "чи ні\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" and \"/sbin/chkconfig --list alsa\" "
-#~ "повідомить\n"
-#~ "Вам, чи звук і служби alsa налаштовані для роботи в режимі\n"
-#~ "initlevel 3\n"
-#~ "\n"
-#~ "- \"aumix -q\" повідомить Вам, чи відключена гучність звуку\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" повідомить Вам, яка програма використовує "
-#~ "звукову\n"
-#~ "карту.\n"
 
 #~ msgid ""
 #~ "The old \"%s\" driver is blacklisted.\n"

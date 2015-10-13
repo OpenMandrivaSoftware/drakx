@@ -162,7 +162,7 @@ msgstr "ACPI жандыруу"
 msgid "Enable Local APIC"
 msgstr "ACPI жандыруу"
 
-#: any.pm:445 security/level.pm:51
+#: any.pm:445 security/level.pm:51 security/level.pm:50
 #, c-format
 msgid "Security"
 msgstr "Коопсуздук"
@@ -179,6 +179,7 @@ msgid "The passwords do not match"
 msgstr "Паролдор дал келбейт"
 
 #: any.pm:449 authentication.pm:260 diskdrake/interactive.pm:1498
+#: diskdrake/interactive.pm:1495
 #, c-format
 msgid "Please try again"
 msgstr "Дагы бир кайталап көрүңүз"
@@ -973,16 +974,6 @@ msgstr "Аутентификация ыкмасы"
 #, c-format
 msgid "No password"
 msgstr "Паролсуз"
-
-#: authentication.pm:260
-#, c-format
-msgid "The passwords do not match"
-msgstr "Паролдор дал келбейт"
-
-#: authentication.pm:260 diskdrake/interactive.pm:1495
-#, c-format
-msgid "Please try again"
-msgstr "Дагы бир кайталап көрүңүз"
 
 #: authentication.pm:263
 #, c-format
@@ -5889,11 +5880,6 @@ msgstr ""
 
 #: security/level.pm:50
 #, c-format
-msgid "Security"
-msgstr "Коопсуздук"
-
-#: security/level.pm:50
-#, c-format
 msgid "DrakSec Basic Options"
 msgstr ""
 
@@ -5952,7 +5938,7 @@ msgstr ""
 msgid "Avahi is a ZeroConf daemon which implements an mDNS stack"
 msgstr ""
 
-#: services.pm:24
+#: services.pm:24 services.pm:26
 #, fuzzy, c-format
 msgid "An NTP client/server"
 msgstr "NIS сервери"
@@ -5961,11 +5947,6 @@ msgstr "NIS сервери"
 #, c-format
 msgid "Set CPU powersafe mode"
 msgstr ""
-
-#: services.pm:26
-#, fuzzy, c-format
-msgid "An NTP client/server"
-msgstr "NIS сервери"
 
 #: services.pm:27
 #, c-format

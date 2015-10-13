@@ -162,7 +162,7 @@ msgstr "Gaitu APIC"
 msgid "Enable Local APIC"
 msgstr "Gaitu bertako APIC"
 
-#: any.pm:445 security/level.pm:51
+#: any.pm:445 security/level.pm:51 security/level.pm:50
 #, c-format
 msgid "Security"
 msgstr "Segurtasuna"
@@ -179,6 +179,7 @@ msgid "The passwords do not match"
 msgstr "Pasahitzak ez datoz bat"
 
 #: any.pm:449 authentication.pm:260 diskdrake/interactive.pm:1498
+#: diskdrake/interactive.pm:1495
 #, c-format
 msgid "Please try again"
 msgstr "Saiatu berriro"
@@ -983,16 +984,6 @@ msgstr "Egiaztatze-metodoa"
 #, c-format
 msgid "No password"
 msgstr "Pasahitzik ez"
-
-#: authentication.pm:260
-#, c-format
-msgid "The passwords do not match"
-msgstr "Pasahitzak ez datoz bat"
-
-#: authentication.pm:260 diskdrake/interactive.pm:1495
-#, c-format
-msgid "Please try again"
-msgstr "Saiatu berriro"
 
 #: authentication.pm:263
 #, c-format
@@ -6272,11 +6263,6 @@ msgstr ""
 
 #: security/level.pm:50
 #, c-format
-msgid "Security"
-msgstr "Segurtasuna"
-
-#: security/level.pm:50
-#, c-format
 msgid "DrakSec Basic Options"
 msgstr "DrakSec-en Oinarrizko Aukerak"
 
@@ -6340,20 +6326,15 @@ msgstr ""
 msgid "Avahi is a ZeroConf daemon which implements an mDNS stack"
 msgstr "Avahi mDNS pila bat inplementatzen duen ZeroConf deabru bat da"
 
-#: services.pm:24
-#, fuzzy, c-format
+#: services.pm:26
+#, c-format
 msgid "An NTP client/server"
-msgstr "NTP Zerbitzaria"
+msgstr "NTP bezero/zerbitzari bat"
 
 #: services.pm:25
 #, c-format
 msgid "Set CPU powersafe mode"
 msgstr ""
-
-#: services.pm:26
-#, c-format
-msgid "An NTP client/server"
-msgstr "NTP bezero/zerbitzari bat"
 
 #: services.pm:27
 #, c-format
@@ -7279,9 +7260,6 @@ msgstr ""
 msgid "Installation failed"
 msgstr "Instalazioak huts egin du"
 
-#~ msgid "You cannot use a password with %s"
-#~ msgstr "Ezin duzu %s-rekin pasahitz bat erabili"
-
 #~ msgid "Clean /tmp at each boot"
 #~ msgstr "Garbitu /tmp abiatzen den bakoitzean"
 
@@ -7330,9 +7308,6 @@ msgstr "Instalazioak huts egin du"
 #~ "- \"/sbin/fuser -v /dev/dsp\" : soinu-txartela erabiltzen duten "
 #~ "programak\n"
 #~ "adierazten ditu.\n"
-
-#~ msgid "Set CPU frequency settings"
-#~ msgstr "Ezarri PUZ maiztasunaren ezarpenak"
 
 #~ msgid ""
 #~ "After rebooting and logging into Moondrake, you will see the "
@@ -7559,9 +7534,6 @@ msgstr "Instalazioak huts egin du"
 
 #~ msgid "Choose the sizes"
 #~ msgstr "Aukeratu tamainak"
-
-#~ msgid "Clean /tmp at each boot"
-#~ msgstr "Garbitu /tmp abiatzen den bakoitzean"
 
 #~ msgid ""
 #~ "Congratulations, installation is complete.\n"
@@ -7853,52 +7825,6 @@ msgstr "Instalazioak huts egin du"
 #~ "Erantzukizun mugatu hau Software Produktuetan sartzen diren kriptografia "
 #~ "handiko osagaiei aplikatzen \n"
 #~ "zaie, baina ez da horietara mugatzen."
-
-#~ msgid ""
-#~ "The classic bug sound tester is to run the following commands:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" will tell you which driver your card "
-#~ "uses\n"
-#~ "by default\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" will tell you what driver it\n"
-#~ "currently uses\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\" will enable you to check if its module (driver) is\n"
-#~ "loaded or not\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" and \"/sbin/chkconfig --list alsa\" "
-#~ "will\n"
-#~ "tell you if sound and alsa services are configured to be run on\n"
-#~ "initlevel 3\n"
-#~ "\n"
-#~ "- \"aumix -q\" will tell you if the sound volume is muted or not\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" will tell which program uses the sound "
-#~ "card.\n"
-#~ msgstr ""
-#~ "Soinu-probatzaileak ondorengo komandoak exekutatzen ditu:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" : zure txartelaren kontrolatzaile \n"
-#~ "lehenetsia zein den adierazten du\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" : unean zein kontrolatzaile\n"
-#~ "darabilen adierazten du\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\" : bere modulua (kontrolatzailea) kargatuta dagoen ala\n"
-#~ "ez begiratzeko aukera emango dizu\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" eta \"/sbin/chkconfig --list alsa\" :\n"
-#~ "soinu- eta alsa-zerbitzuak 3. mailan (initlevel 3) exekutatzeko \n"
-#~ "konfiguratuta dauden adierazten du\n"
-#~ "\n"
-#~ "- \"aumix -q\" : soinuaren bolumena mutututa dagoen edo ez adierazten du\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" : soinu-txartela erabiltzen duten "
-#~ "programak\n"
-#~ "adierazten ditu.\n"
 
 # unloading : deskargatu ???? zama????
 #~ msgid ""

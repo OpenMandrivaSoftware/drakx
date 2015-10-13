@@ -167,7 +167,7 @@ msgstr "Aktivera APIC"
 msgid "Enable Local APIC"
 msgstr "Aktivera Lokal APIC"
 
-#: any.pm:445 security/level.pm:51
+#: any.pm:445 security/level.pm:51 security/level.pm:50
 #, c-format
 msgid "Security"
 msgstr "Säkerhet"
@@ -184,6 +184,7 @@ msgid "The passwords do not match"
 msgstr "Du angav inte samma lösenord"
 
 #: any.pm:449 authentication.pm:260 diskdrake/interactive.pm:1498
+#: diskdrake/interactive.pm:1495
 #, c-format
 msgid "Please try again"
 msgstr "Försök igen"
@@ -979,16 +980,6 @@ msgstr "Autentiseringsmetod"
 #, c-format
 msgid "No password"
 msgstr "Inget lösenord"
-
-#: authentication.pm:260
-#, c-format
-msgid "The passwords do not match"
-msgstr "Du angav inte samma lösenord"
-
-#: authentication.pm:260 diskdrake/interactive.pm:1495
-#, c-format
-msgid "Please try again"
-msgstr "Försök igen"
 
 #: authentication.pm:263
 #, c-format
@@ -6243,11 +6234,6 @@ msgstr ""
 
 #: security/level.pm:50
 #, c-format
-msgid "Security"
-msgstr "Säkerhet"
-
-#: security/level.pm:50
-#, c-format
 msgid "DrakSec Basic Options"
 msgstr "Draksec-grundinställningar"
 
@@ -6312,20 +6298,15 @@ msgstr ""
 msgid "Avahi is a ZeroConf daemon which implements an mDNS stack"
 msgstr "Avahi är en ZeroConf demon som implementerar en mDNS stack"
 
-#: services.pm:24
-#, fuzzy, c-format
+#: services.pm:26
+#, c-format
 msgid "An NTP client/server"
-msgstr "NTP-server"
+msgstr "En NTP-klient/server"
 
 #: services.pm:25
 #, c-format
 msgid "Set CPU powersafe mode"
 msgstr ""
-
-#: services.pm:26
-#, c-format
-msgid "An NTP client/server"
-msgstr "En NTP-klient/server"
 
 #: services.pm:27
 #, c-format
@@ -7243,9 +7224,6 @@ msgstr ""
 msgid "Installation failed"
 msgstr "Installationen misslyckades"
 
-#~ msgid "You cannot use a password with %s"
-#~ msgstr "Du kan inte använda ett lösenord med %s"
-
 #~ msgid "Clean /tmp at each boot"
 #~ msgstr "Rensa /tmp vid varje start"
 
@@ -7296,9 +7274,6 @@ msgstr "Installationen misslyckades"
 #~ "\n"
 #~ "- \"/sbin/fuser -v /dev/dsp\" talar om för dig vilka program som använder "
 #~ "ljudkortet.\n"
-
-#~ msgid "Set CPU frequency settings"
-#~ msgstr "Ange CPU frekvensinställningar"
 
 #~ msgid ""
 #~ "After rebooting and logging into Moondrake, you will see the "
@@ -7609,9 +7584,6 @@ msgstr "Installationen misslyckades"
 
 #~ msgid "Choose the sizes"
 #~ msgstr "Välj storlekar"
-
-#~ msgid "Clean /tmp at each boot"
-#~ msgstr "Rensa /tmp vid varje start"
 
 #~ msgid "Collapse Tree"
 #~ msgstr "Komprimera träd"
@@ -7968,54 +7940,6 @@ msgstr "Installationen misslyckades"
 #~ "begränsning\n"
 #~ "av ansvar över påföljande eller av misstag uppkomna skador, kan ovan\n"
 #~ "nämda begränsning beröra dig eller ej."
-
-#~ msgid ""
-#~ "The classic bug sound tester is to run the following commands:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" will tell you which driver your card "
-#~ "uses\n"
-#~ "by default\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" will tell you what driver it\n"
-#~ "currently uses\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\" will enable you to check if its module (driver) is\n"
-#~ "loaded or not\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" and \"/sbin/chkconfig --list alsa\" "
-#~ "will\n"
-#~ "tell you if sound and alsa services are configured to be run on\n"
-#~ "initlevel 3\n"
-#~ "\n"
-#~ "- \"aumix -q\" will tell you if the sound volume is muted or not\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" will tell which program uses the sound "
-#~ "card.\n"
-#~ msgstr ""
-#~ "Den klassiska feltestaren för ljud kör följande kommandon:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" talar om för dig vilken drivrutin\n"
-#~ "ljudkortet använder som standard\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" talar om för dig vilken "
-#~ "drivrutin\n"
-#~ "som används för tillfället\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\" kan användas för att kontrollera om dess modul "
-#~ "(drivrutin) är\n"
-#~ "laddad eller inte\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" och \"/sbin/chkconfig --list alsa\" "
-#~ "talar om\n"
-#~ "för dig om ljud- och Alsa-tjänsterna är inställda för att köras i\n"
-#~ "körnivå 3\n"
-#~ "\n"
-#~ "- \"aumix -q\" talar om för dig om ljudet är avstängt eller inte\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" talar om för dig vilka program som använder "
-#~ "ljudkortet.\n"
 
 #~ msgid ""
 #~ "The old \"%s\" driver is blacklisted.\n"

@@ -161,7 +161,7 @@ msgstr "Ippermetti ACPI"
 msgid "Enable Local APIC"
 msgstr "Ippermetti ACPI"
 
-#: any.pm:445 security/level.pm:51
+#: any.pm:445 security/level.pm:51 security/level.pm:50
 #, c-format
 msgid "Security"
 msgstr "Sigurtà"
@@ -178,6 +178,7 @@ msgid "The passwords do not match"
 msgstr "Il-passwords ma jaqblux"
 
 #: any.pm:449 authentication.pm:260 diskdrake/interactive.pm:1498
+#: diskdrake/interactive.pm:1495
 #, c-format
 msgid "Please try again"
 msgstr "Erġa' pprova"
@@ -969,16 +970,6 @@ msgstr "Metodu ta' awtentikazzjoni"
 #, c-format
 msgid "No password"
 msgstr "Ebda password"
-
-#: authentication.pm:260
-#, c-format
-msgid "The passwords do not match"
-msgstr "Il-passwords ma jaqblux"
-
-#: authentication.pm:260 diskdrake/interactive.pm:1495
-#, c-format
-msgid "Please try again"
-msgstr "Erġa' pprova"
 
 #: authentication.pm:263
 #, c-format
@@ -6025,11 +6016,6 @@ msgstr ""
 
 #: security/level.pm:50
 #, c-format
-msgid "Security"
-msgstr "Sigurtà"
-
-#: security/level.pm:50
-#, c-format
 msgid "DrakSec Basic Options"
 msgstr "Għażliet bażiċi DrakSec"
 
@@ -6094,7 +6080,7 @@ msgstr ""
 msgid "Avahi is a ZeroConf daemon which implements an mDNS stack"
 msgstr ""
 
-#: services.pm:24
+#: services.pm:24 services.pm:26
 #, fuzzy, c-format
 msgid "An NTP client/server"
 msgstr "Server NTP"
@@ -6103,11 +6089,6 @@ msgstr "Server NTP"
 #, c-format
 msgid "Set CPU powersafe mode"
 msgstr ""
-
-#: services.pm:26
-#, fuzzy, c-format
-msgid "An NTP client/server"
-msgstr "Server NTP"
 
 #: services.pm:27
 #, c-format
@@ -6925,10 +6906,6 @@ msgstr ""
 msgid "Installation failed"
 msgstr "Installazzjoni falliet"
 
-#, fuzzy
-#~ msgid "You cannot use a password with %s"
-#~ msgstr "Ma tistax tuża filesystem iċċifrat għall-punt ta' mmuntar %s"
-
 #~ msgid "Clean /tmp at each boot"
 #~ msgstr "Naddaf /tmp kull meta tixgħel"
 
@@ -7135,9 +7112,6 @@ msgstr "Installazzjoni falliet"
 
 #~ msgid "Choose the sizes"
 #~ msgstr "Agħżel id-daqsijiet"
-
-#~ msgid "Clean /tmp at each boot"
-#~ msgstr "Naddaf /tmp kull meta tixgħel"
 
 #~ msgid "Collapse Tree"
 #~ msgstr "Agħlaq friegħi"
@@ -7422,51 +7396,6 @@ msgstr "Installazzjoni falliet"
 #~ msgstr ""
 #~ "Il-kopja tat-tabella tal-partizzjonijiet m'għandiex l-istess daqs.\n"
 #~ "Tkompli xorta?"
-
-#~ msgid ""
-#~ "The classic bug sound tester is to run the following commands:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" will tell you which driver your card "
-#~ "uses\n"
-#~ "by default\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" will tell you what driver it\n"
-#~ "currently uses\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\" will enable you to check if its module (driver) is\n"
-#~ "loaded or not\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" and \"/sbin/chkconfig --list alsa\" "
-#~ "will\n"
-#~ "tell you if sound and alsa services are configured to be run on\n"
-#~ "initlevel 3\n"
-#~ "\n"
-#~ "- \"aumix -q\" will tell you if the sound volume is muted or not\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" will tell which program uses the sound "
-#~ "card.\n"
-#~ msgstr ""
-#~ "It-tester klassiku ta' bugs ta' l-awdjo se jħaddem dawn il-kmandijiet:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" jgħidlek liema drajver juża "
-#~ "impliċitament\n"
-#~ "il-kard tiegħek.\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" jgħidlek liema drajver juża "
-#~ "bħalissa\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\" jippermettilek tiċċekkja jekk il-modulu (drajver) hux\n"
-#~ "imtella' jew le.\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" u \"/sbin/chkconfig --list alsa\" \n"
-#~ "jgħidulek jekk is-servizzi sound u alsa humiex konfigurati biex jitilgħu\n"
-#~ "f'initlevel 3\n"
-#~ "\n"
-#~ "- \"aumix -q\" jgħidlek jekk il-volum tal-awdjo hux mitfu jew le\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" jgħidlek liema programm qed juża l-kard\n"
-#~ "tal-awdjo.\n"
 
 #~ msgid ""
 #~ "The old \"%s\" driver is blacklisted.\n"

@@ -158,7 +158,7 @@ msgstr "启用 APIC"
 msgid "Enable Local APIC"
 msgstr "启用本地 APIC"
 
-#: any.pm:445 security/level.pm:51
+#: any.pm:445 security/level.pm:51 security/level.pm:50
 #, c-format
 msgid "Security"
 msgstr "安全"
@@ -175,6 +175,7 @@ msgid "The passwords do not match"
 msgstr "两次密码不符"
 
 #: any.pm:449 authentication.pm:260 diskdrake/interactive.pm:1498
+#: diskdrake/interactive.pm:1495
 #, c-format
 msgid "Please try again"
 msgstr "请再试一次"
@@ -948,16 +949,6 @@ msgstr "身份验证方式"
 #, c-format
 msgid "No password"
 msgstr "无密码"
-
-#: authentication.pm:260
-#, c-format
-msgid "The passwords do not match"
-msgstr "两次密码不符"
-
-#: authentication.pm:260 diskdrake/interactive.pm:1495
-#, c-format
-msgid "Please try again"
-msgstr "请再试一次"
 
 #: authentication.pm:263
 #, c-format
@@ -5997,11 +5988,6 @@ msgstr ""
 
 #: security/level.pm:50
 #, c-format
-msgid "Security"
-msgstr "安全"
-
-#: security/level.pm:50
-#, c-format
 msgid "DrakSec Basic Options"
 msgstr "“Drak 安全管理”基本选项"
 
@@ -6064,7 +6050,7 @@ msgstr ""
 msgid "Avahi is a ZeroConf daemon which implements an mDNS stack"
 msgstr ""
 
-#: services.pm:24
+#: services.pm:24 services.pm:26
 #, fuzzy, c-format
 msgid "An NTP client/server"
 msgstr "NTP 服务器"
@@ -6073,11 +6059,6 @@ msgstr "NTP 服务器"
 #, c-format
 msgid "Set CPU powersafe mode"
 msgstr ""
-
-#: services.pm:26
-#, fuzzy, c-format
-msgid "An NTP client/server"
-msgstr "NTP 服务器"
 
 #: services.pm:27
 #, c-format
@@ -6933,9 +6914,6 @@ msgstr ""
 msgid "Installation failed"
 msgstr "安装失败"
 
-#~ msgid "You cannot use a password with %s"
-#~ msgstr "您在 %s 时不能使用密码"
-
 #~ msgid "Clean /tmp at each boot"
 #~ msgstr "每次启动时清除 /tmp"
 
@@ -7038,9 +7016,6 @@ msgstr "安装失败"
 #~ "序的知识产权和版权法律的保护。Moondrake 保留对本软件产品进行全面或部分的更"
 #~ "改或调整的权利, 不论采用任何方法, 不论出于任何目的。\n"
 #~ "“Moondrake”和相关的标志是 %s 的商标。"
-
-#~ msgid "Clean /tmp at each boot"
-#~ msgstr "每次启动时清除 /tmp"
 
 #~ msgid ""
 #~ "Congratulations, installation is complete.\n"
@@ -7275,46 +7250,6 @@ msgstr "安装失败"
 #~ "协议的条款和条件。如果对任何部分的许可协议有疑问, 应该与该部分的作者联系, "
 #~ "Moondrake 无法解答这些问题。由 Moondrake 开发的各个程序受 GPL 许可协议保"
 #~ "护。由 Moondrake 创作的文档采用一个特别的许可协议。详情见有关的文档。"
-
-#~ msgid ""
-#~ "The classic bug sound tester is to run the following commands:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" will tell you which driver your card "
-#~ "uses\n"
-#~ "by default\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" will tell you what driver it\n"
-#~ "currently uses\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\" will enable you to check if its module (driver) is\n"
-#~ "loaded or not\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" and \"/sbin/chkconfig --list alsa\" "
-#~ "will\n"
-#~ "tell you if sound and alsa services are configured to be run on\n"
-#~ "initlevel 3\n"
-#~ "\n"
-#~ "- \"aumix -q\" will tell you if the sound volume is muted or not\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" will tell which program uses the sound "
-#~ "card.\n"
-#~ msgstr ""
-#~ "经典 bug 声音测试程序将要运行下列命令: \n"
-#~ "\n"
-#~ "\n"
-#~ "-“lspcidrake -v | fgrep -i AUDIO”将会告诉您您的声卡默认使用哪种驱动程序\n"
-#~ "\n"
-#~ "-“grep snd-slot /etc/modprobe.conf”将会告诉您声卡目前使用的驱动程序\n"
-#~ "\n"
-#~ "-“/sbin/lsmod”允许您检查该驱动程序是否已经装入\n"
-#~ "\n"
-#~ "-“/sbin/chkconfig --list sound”和“/sbin/chkconfig --list alsa”将会告诉\n"
-#~ "您声音和 alsa 服务是否已配置为可以 initlevel 3 运行\n"
-#~ "\n"
-#~ "- “aumix -q”将告诉您音量是否为静音\n"
-#~ "\n"
-#~ "- “/sbin/fuser -v /dev/dsp”将会告诉您哪个程序使用声卡。\n"
 
 #~ msgid ""
 #~ "The old \"%s\" driver is blacklisted.\n"

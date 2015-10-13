@@ -961,16 +961,6 @@ msgstr "認証方法"
 msgid "No password"
 msgstr "パスワードなし"
 
-#: authentication.pm:260
-#, c-format
-msgid "The passwords do not match"
-msgstr "パスワードが一致しません"
-
-#: authentication.pm:260 diskdrake/interactive.pm:1495
-#, c-format
-msgid "Please try again"
-msgstr "やり直してください"
-
 #: authentication.pm:263
 #, c-format
 msgid "This password is too short (it must be at least %d characters long)"
@@ -6085,11 +6075,6 @@ msgstr ""
 
 #: security/level.pm:50
 #, c-format
-msgid "Security"
-msgstr "セキュリティ"
-
-#: security/level.pm:50
-#, c-format
 msgid "DrakSec Basic Options"
 msgstr "DrakSec の基本的なオプション"
 
@@ -6163,11 +6148,6 @@ msgstr "NTP サーバ"
 #, c-format
 msgid "Set CPU powersafe mode"
 msgstr ""
-
-#: services.pm:26
-#, fuzzy, c-format
-msgid "An NTP client/server"
-msgstr "NTP サーバ"
 
 #: services.pm:27
 #, c-format
@@ -7067,9 +7047,6 @@ msgstr ""
 msgid "Installation failed"
 msgstr "インストール失敗"
 
-#~ msgid "You cannot use a password with %s"
-#~ msgstr "%s にはパスワードは使えません"
-
 #~ msgid "Clean /tmp at each boot"
 #~ msgstr "起動するたびに /tmp 以下を消す"
 
@@ -7247,9 +7224,6 @@ msgstr "インストール失敗"
 
 #~ msgid "Choose the sizes"
 #~ msgstr "サイズを選択"
-
-#~ msgid "Clean /tmp at each boot"
-#~ msgstr "起動するたびに /tmp 以下を消す"
 
 #~ msgid ""
 #~ "Congratulations, installation is complete.\n"
@@ -7556,51 +7530,6 @@ msgstr "インストール失敗"
 #~ "合わせください。Moondrake が開発したプログラムは GPL ライセンスに\n"
 #~ "準拠します。Moondrake が作成したドキュメントについては、特別な\n"
 #~ "ライセンスに準拠します。詳しくはドキュメントをご参照ください。"
-
-#~ msgid ""
-#~ "The classic bug sound tester is to run the following commands:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" will tell you which driver your card "
-#~ "uses\n"
-#~ "by default\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" will tell you what driver it\n"
-#~ "currently uses\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\" will enable you to check if its module (driver) is\n"
-#~ "loaded or not\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" and \"/sbin/chkconfig --list alsa\" "
-#~ "will\n"
-#~ "tell you if sound and alsa services are configured to be run on\n"
-#~ "initlevel 3\n"
-#~ "\n"
-#~ "- \"aumix -q\" will tell you if the sound volume is muted or not\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" will tell which program uses the sound "
-#~ "card.\n"
-#~ msgstr ""
-#~ "サウンドのバグを調べるには以下のコマンドを実行してください:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" はお使いのカードのデフォルトドライバ"
-#~ "を\n"
-#~ "表示\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" は現在使用されているドライバを\n"
-#~ "表示\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\" はドライバのモジュールがロードされているかどうかを\n"
-#~ "表示\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" と \"/sbin/chkconfig --list alsa\" は\n"
-#~ "サウンドと ALSA サービスが 'initlevel 3' で有効になっているかどうかを\n"
-#~ "表示\n"
-#~ "\n"
-#~ "- \"aumix -q\" はボリュームがミュートになっているかどうかを表示\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" は現在カードを使用しているプログラムを表示\n"
 
 #~ msgid ""
 #~ "The old \"%s\" driver is blacklisted.\n"

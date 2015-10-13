@@ -163,7 +163,7 @@ msgstr "Habilitar APIC"
 msgid "Enable Local APIC"
 msgstr "Habilitar APIC Local"
 
-#: any.pm:445 security/level.pm:51
+#: any.pm:445 security/level.pm:51 security/level.pm:50
 #, c-format
 msgid "Security"
 msgstr "Seguridade"
@@ -180,6 +180,7 @@ msgid "The passwords do not match"
 msgstr "Os contrasinais non coinciden"
 
 #: any.pm:449 authentication.pm:260 diskdrake/interactive.pm:1498
+#: diskdrake/interactive.pm:1495
 #, c-format
 msgid "Please try again"
 msgstr "Por favor, inténteo de novo"
@@ -971,16 +972,6 @@ msgstr "Método de autenticación"
 #, c-format
 msgid "No password"
 msgstr "Sen contrasinal"
-
-#: authentication.pm:260
-#, c-format
-msgid "The passwords do not match"
-msgstr "Os contrasinais non coinciden"
-
-#: authentication.pm:260 diskdrake/interactive.pm:1495
-#, c-format
-msgid "Please try again"
-msgstr "Por favor, inténteo de novo"
 
 #: authentication.pm:263
 #, c-format
@@ -6205,11 +6196,6 @@ msgstr ""
 
 #: security/level.pm:50
 #, c-format
-msgid "Security"
-msgstr "Seguridade"
-
-#: security/level.pm:50
-#, c-format
 msgid "DrakSec Basic Options"
 msgstr "Opcións Básicas de DrakSec"
 
@@ -6273,7 +6259,7 @@ msgstr ""
 msgid "Avahi is a ZeroConf daemon which implements an mDNS stack"
 msgstr ""
 
-#: services.pm:24
+#: services.pm:24 services.pm:26
 #, fuzzy, c-format
 msgid "An NTP client/server"
 msgstr "Servidor NTP"
@@ -6282,11 +6268,6 @@ msgstr "Servidor NTP"
 #, c-format
 msgid "Set CPU powersafe mode"
 msgstr ""
-
-#: services.pm:26
-#, fuzzy, c-format
-msgid "An NTP client/server"
-msgstr "Servidor NTP"
 
 #: services.pm:27
 #, c-format
@@ -7191,9 +7172,6 @@ msgstr ""
 msgid "Installation failed"
 msgstr "Fallou a instalación"
 
-#~ msgid "You cannot use a password with %s"
-#~ msgstr "Non pode usar un contrasinal con %s"
-
 #~ msgid "Clean /tmp at each boot"
 #~ msgstr "Baleirar /tmp en cada arrinque"
 
@@ -7425,9 +7403,6 @@ msgstr "Fallou a instalación"
 
 #~ msgid "Choose the sizes"
 #~ msgstr "Escolla os tamaños"
-
-#~ msgid "Clean /tmp at each boot"
-#~ msgstr "Baleirar /tmp en cada arrinque"
 
 #~ msgid "Collapse Tree"
 #~ msgstr "Recolle-la árbore"
@@ -7904,53 +7879,6 @@ msgstr "Fallou a instalación"
 #~ msgstr ""
 #~ "A táboa de particións de rescate non ten o\n"
 #~ "mesmo tamaño.  ¿Continuar de tódolos xeitos?"
-
-#~ msgid ""
-#~ "The classic bug sound tester is to run the following commands:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" will tell you which driver your card "
-#~ "uses\n"
-#~ "by default\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" will tell you what driver it\n"
-#~ "currently uses\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\" will enable you to check if its module (driver) is\n"
-#~ "loaded or not\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" and \"/sbin/chkconfig --list alsa\" "
-#~ "will\n"
-#~ "tell you if sound and alsa services are configured to be run on\n"
-#~ "initlevel 3\n"
-#~ "\n"
-#~ "- \"aumix -q\" will tell you if the sound volume is muted or not\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" will tell which program uses the sound "
-#~ "card.\n"
-#~ msgstr ""
-#~ "A maneira clásica de comprobación de erros do son é executar os seguintes "
-#~ "comandos:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" diralle que driver usa a súa "
-#~ "tarxeta\n"
-#~ "de forma predeterminada\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" diralle que driver está\n"
-#~ "usando agora mesmo\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\" permitiralle comprobar se o seu módulo (driver)\n"
-#~ "está cargado ou non\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" e \"/sbin/chkconfig --list alsa\"\n"
-#~ "diranlle se os servicios sound e alsa están configurados para\n"
-#~ "executarse no nivel de execución 3\n"
-#~ "\n"
-#~ "- \"aumix -q\" diralle se o volume do son está silenciado ou non\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" diralle que programa está usando a\n"
-#~ "tarxeta de son.\n"
 
 #~ msgid ""
 #~ "The old \"%s\" driver is blacklisted.\n"

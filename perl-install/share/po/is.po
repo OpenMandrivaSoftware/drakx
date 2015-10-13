@@ -165,7 +165,7 @@ msgstr "Virkja APIC"
 msgid "Enable Local APIC"
 msgstr "Virkja staðbundið APIC"
 
-#: any.pm:445 security/level.pm:51
+#: any.pm:445 security/level.pm:51 security/level.pm:50
 #, c-format
 msgid "Security"
 msgstr "Öryggi"
@@ -182,6 +182,7 @@ msgid "The passwords do not match"
 msgstr "Mismunandi lykilorð"
 
 #: any.pm:449 authentication.pm:260 diskdrake/interactive.pm:1498
+#: diskdrake/interactive.pm:1495
 #, c-format
 msgid "Please try again"
 msgstr "Reyndu aftur"
@@ -972,16 +973,6 @@ msgstr "Auðkenningarregla"
 #, c-format
 msgid "No password"
 msgstr "Ekkert lykilorð"
-
-#: authentication.pm:260
-#, c-format
-msgid "The passwords do not match"
-msgstr "Mismunandi lykilorð"
-
-#: authentication.pm:260 diskdrake/interactive.pm:1495
-#, c-format
-msgid "Please try again"
-msgstr "Reyndu aftur"
 
 #: authentication.pm:263
 #, c-format
@@ -6134,11 +6125,6 @@ msgstr ""
 
 #: security/level.pm:50
 #, c-format
-msgid "Security"
-msgstr "Öryggi"
-
-#: security/level.pm:50
-#, c-format
 msgid "DrakSec Basic Options"
 msgstr "DrakSec grunnvalkostir"
 
@@ -6202,7 +6188,7 @@ msgstr ""
 msgid "Avahi is a ZeroConf daemon which implements an mDNS stack"
 msgstr ""
 
-#: services.pm:24
+#: services.pm:24 services.pm:26
 #, fuzzy, c-format
 msgid "An NTP client/server"
 msgstr "NTP þjónn"
@@ -6211,11 +6197,6 @@ msgstr "NTP þjónn"
 #, c-format
 msgid "Set CPU powersafe mode"
 msgstr ""
-
-#: services.pm:26
-#, fuzzy, c-format
-msgid "An NTP client/server"
-msgstr "NTP þjónn"
 
 #: services.pm:27
 #, c-format
@@ -7107,9 +7088,6 @@ msgstr ""
 msgid "Installation failed"
 msgstr "Innsetning mistókst"
 
-#~ msgid "You cannot use a password with %s"
-#~ msgstr "Þú getur ekki notað lykilorð með %s"
-
 #~ msgid "Clean /tmp at each boot"
 #~ msgstr "Hreinsa /tmp við hverja ræsingu"
 
@@ -7228,9 +7206,6 @@ msgstr "Innsetning mistókst"
 
 #~ msgid "Choose the sizes"
 #~ msgstr "Veldu stærðir"
-
-#~ msgid "Clean /tmp at each boot"
-#~ msgstr "Hreinsa /tmp við hverja ræsingu"
 
 #~ msgid ""
 #~ "Congratulations, installation is complete.\n"
@@ -7530,52 +7505,6 @@ msgstr "Innsetning mistókst"
 #~ "Forrit sem eru hönnuð af Moondrake fylgja GPL leyfi. Handbækur sem "
 #~ "skrifaðar eru af \n"
 #~ "fylgja sérstöku leyfi. Vinsamlega lesið vandlega þau leyfi."
-
-#~ msgid ""
-#~ "The classic bug sound tester is to run the following commands:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" will tell you which driver your card "
-#~ "uses\n"
-#~ "by default\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" will tell you what driver it\n"
-#~ "currently uses\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\" will enable you to check if its module (driver) is\n"
-#~ "loaded or not\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" and \"/sbin/chkconfig --list alsa\" "
-#~ "will\n"
-#~ "tell you if sound and alsa services are configured to be run on\n"
-#~ "initlevel 3\n"
-#~ "\n"
-#~ "- \"aumix -q\" will tell you if the sound volume is muted or not\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" will tell which program uses the sound "
-#~ "card.\n"
-#~ msgstr ""
-#~ "Klassísk hljóðvilluprófun er að keyra eftirfarandi skipanir:\n"
-#~ "\n"
-#~ "\n"
-#~ "- \"lspcidrake -v | fgrep -i AUDIO\" segir þér hvaða rekill hljóðkortið\n"
-#~ "notar sjálfgefið\n"
-#~ "\n"
-#~ "- \"grep sound-slot /etc/modprobe.conf\" segir þér hvaða rekill er nú í\n"
-#~ "notkun af hljóðkerfinu\n"
-#~ "\n"
-#~ "- \"/sbin/lsmod\" sýnir þér hvor þessum rekli hefur þegar verið hlaðið\n"
-#~ "inn eða ekki\n"
-#~ "\n"
-#~ "- \"/sbin/chkconfig --list sound\" og \"/sbin/chkconfig --list alsa\" "
-#~ "segir\n"
-#~ "þér hvort hljóð og ALSA þjónustur séu stilltar til að ræsa á vinnslustigi "
-#~ "3\n"
-#~ "\n"
-#~ "- \"aumix -q\" segir þér hvort slökkt sé hljóði í hljóðblandara\n"
-#~ "\n"
-#~ "- \"/sbin/fuser -v /dev/dsp\" segir þér hvaða forrit er að nota "
-#~ "hljóðkortið.\n"
 
 #~ msgid ""
 #~ "The old \"%s\" driver is blacklisted.\n"
