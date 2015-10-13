@@ -5818,11 +5818,6 @@ msgstr ""
 "prisijungimus iš daugybės klientų."
 
 #: security/level.pm:50
-#, c-format
-msgid "Security"
-msgstr "Saugumas"
-
-#: security/level.pm:50
 #, fuzzy, c-format
 msgid "DrakSec Basic Options"
 msgstr "Pasirinktys"
@@ -5896,11 +5891,6 @@ msgstr "NIS serveris"
 #, c-format
 msgid "Set CPU powersafe mode"
 msgstr ""
-
-#: services.pm:26
-#, fuzzy, c-format
-msgid "An NTP client/server"
-msgstr "NIS serveris"
 
 #: services.pm:27
 #, c-format
