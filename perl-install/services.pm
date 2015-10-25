@@ -74,7 +74,6 @@ netfs => N_("Mounts and unmounts all Network File System (NFS), SMB (Lan
 Manager/Windows), and NCP (NetWare) mount points."),
 network => N_("Activates/Deactivates all network interfaces configured to start
 at boot time."),
-'network-auth' => N_("Requires network to be up if enabled"),
 'network-up' => N_("Wait for the hotplugged network to be up"),
 nfs => N_("NFS is a popular protocol for file sharing across TCP/IP networks.
 This service provides NFS server functionality, which is configured via the
@@ -152,14 +151,14 @@ sub ask_ {
     my ($in) = @_;
     my %root_services = (
 			 N("Printing") => [ qw(cups cupslpd cups-lpd hpoj lpd lpr oki4daemon) ],
-                         
+
 			 # FIXME: split part of 'Internet' into 'Security' or 'Firewall'?
 			 N("Internet") => [ qw(adsl boa cddbp ftp httpd ibod ip6tables ippl iptables iptoip ipvsadm
                                                isdn4linux jabber jabber-icq jail.init junkbuster mandi nessusd pftp portsentry 
                                                prelude proftpd proftpd-xinetd pure-ftpd ipsec radvd roxen shorewall shorewall6 squid
                                                tftp) ],
 
-			 N("_: Keep these entry short\nNetworking") => [ qw(network network-auth network-up resolvconf) ],
+			 N("_: Keep these entry short\nNetworking") => [ qw(network network-up resolvconf) ],
 
 			 N("System") => [ qw(acon acpid alsa anacron apcupsd apmd atd bpowerd bpowerfail crond cvs dm fcron functions
                                              gpm halt harddrake inetd irda jserver keytable kheader killall mandrake_everytime

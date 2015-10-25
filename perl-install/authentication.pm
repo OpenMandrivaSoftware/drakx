@@ -308,8 +308,6 @@ sub set {
     install_needed_packages($in->do_pkgs, to_kind($authentication), $authentication->{ccreds}) or return;
     set_raw($net, $authentication, $o_when_network_is_up);
 
-    require services;
-    services::set_status('network-auth', to_kind($authentication) ne 'local', 'dont_apply');
 }
 
 sub set_raw {
