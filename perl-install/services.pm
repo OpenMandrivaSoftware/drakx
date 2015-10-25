@@ -51,9 +51,6 @@ all of the services it is responsible for."),
 ip6tables => N_("Automates a packet filtering firewall with ip6tables"),
 iptables => N_("Automates a packet filtering firewall with iptables"),
 irqbalance => N_("Evenly distributes IRQ load across multiple CPUs for enhanced performance"),
-keytable => N_("This package loads the selected keyboard map as set in
-/etc/sysconfig/keyboard.  This can be selected using the kbdconfig utility.
-You should leave this enabled for most machines."),
 kheader => N_("Automatic regeneration of kernel header in /boot for
 /usr/include/linux/{autoconf,version}.h"),
 kudzu => N_("Automatic detection and configuration of hardware at boot."),
