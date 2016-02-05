@@ -19,14 +19,15 @@
 # Oliver Burger <oliver@mandrivauser.de>, 2008, 2010.
 # Wolfgang Bornath <wbo@mandriva.com>, 2009.
 # Oliver Burger <oliver.burger@wizard-fire.de>, 2009.
+# Maik Wagner <maiktapwagner@aol.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: de\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-18 12:26+0100\n"
 "PO-Revision-Date: 2010-04-18 16:06+0200\n"
-"Last-Translator: Oliver Burger <oliver@mandrivauser.de>\n"
-"Language-Team: German <cooker-i18n@mandrivalinux.org>\n"
+"Last-Translator: Maik Wagner <maiktapwagner@aol.com>\n"
+"Language-Team: German <www.transifex.com/OpenMandrivaAssociation>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -47,7 +48,7 @@ msgstr "Bitte warten"
 #: any.pm:284
 #, c-format
 msgid "Bootloader installation in progress"
-msgstr "Installation des Bootloaders ..."
+msgstr "Installation des Bootloaders läuft"
 
 #: any.pm:295
 #, fuzzy, c-format
@@ -97,7 +98,7 @@ msgstr "Installation des Bootloaders"
 #: any.pm:361
 #, c-format
 msgid "Where do you want to install the bootloader?"
-msgstr "Wo soll der Bootloader installiert werden?"
+msgstr "Wohin soll der Bootloader installiert werden?"
 
 #: any.pm:377
 #, c-format
@@ -152,7 +153,7 @@ msgstr "Boot-Gerät"
 #: any.pm:438
 #, c-format
 msgid "Main options"
-msgstr "Haupt Optionen"
+msgstr "Hauptoptionen"
 
 #: any.pm:439
 #, c-format
@@ -239,7 +240,7 @@ msgstr "Benötigt Passwort zum Booten"
 #: any.pm:527
 #, c-format
 msgid "Video mode"
-msgstr "Video-Modus"
+msgstr "Videomodus"
 
 #: any.pm:528
 #, c-format
@@ -294,7 +295,7 @@ msgstr "Linux"
 #: any.pm:568
 #, c-format
 msgid "Other OS (Windows...)"
-msgstr "Anderes OS (Windows ...)"
+msgstr "Anderes Betriebssystem (Windows ...)"
 
 #: any.pm:615
 #, c-format
@@ -333,12 +334,12 @@ msgstr "Zugriff auf Verwaltungsdateien"
 #: any.pm:856
 #, c-format
 msgid "access to network tools"
-msgstr "Zugriff auf Netzwerk-Werkzeuge"
+msgstr "Zugriff auf Netzwerkwerkzeuge"
 
 #: any.pm:857
 #, c-format
 msgid "access to compilation tools"
-msgstr "Zugriff auf Compilier-Werkzeuge"
+msgstr "Zugriff auf Compilerwerkzeuge"
 
 #: any.pm:863
 #, c-format
@@ -499,7 +500,7 @@ msgstr "Ablehnen"
 #: any.pm:1143 any.pm:1206
 #, c-format
 msgid "Please choose a language to use"
-msgstr "Bitte wählen Sie die zu verwendende Sprache"
+msgstr "Bitte wählen Sie eine zu verwendende Sprache"
 
 #: any.pm:1171
 #, c-format
@@ -541,17 +542,17 @@ msgstr "Sprachauswahl"
 #: any.pm:1261
 #, c-format
 msgid "Country / Region"
-msgstr "Staat / Region"
+msgstr "Land / Region"
 
 #: any.pm:1262
 #, c-format
 msgid "Please choose your country"
-msgstr "Bitte wählen Sie Ihren Staat"
+msgstr "Bitte wählen Sie Ihr Land"
 
 #: any.pm:1264
 #, c-format
 msgid "Here is the full list of available countries"
-msgstr "Hier ist die komplette Liste aller Staaten"
+msgstr "Hier ist die komplette Liste aller Länder"
 
 #: any.pm:1265
 #, c-format
@@ -566,7 +567,7 @@ msgstr "Fortgeschritten"
 #: any.pm:1271
 #, c-format
 msgid "Input method:"
-msgstr "Einagbe-Methode:"
+msgstr "Eingabe-Methode:"
 
 #: any.pm:1274
 #, c-format
@@ -597,7 +598,7 @@ msgid ""
 "\n"
 "\"Custom\" permit a per-user granularity.\n"
 msgstr ""
-"Wollen Sie Benutzern erlaubern, Verzeichnisse freizugeben?\n"
+"Möchten Sie Benutzern erlaubern, Verzeichnisse freizugeben?\n"
 "Wenn Sie das erlauben, können die Anwender Verzeichnisse in Konqueror oder "
 "Nautilus im Kontextmenü des entsprechenden Verzeichnisses freigeben.\n"
 "\n"
@@ -619,7 +620,7 @@ msgid ""
 "systems."
 msgstr ""
 "SMB: ein Dateisystem für Freigaben im Netz von Windows, Mac OS X und vielen "
-"modernen Linux-Systemen verwendet"
+"modernen Linuxsystemen verwendet"
 
 #: any.pm:1383
 #, c-format
@@ -656,7 +657,7 @@ msgstr ""
 #, c-format
 msgid "You need to log out and back in again for changes to take effect"
 msgstr ""
-"Sie müssen sich abmelden und wieder anmelden, damit die Änderungen  wirksam "
+"Sie müssen sich abmelden und wieder anmelden, damit die Änderungen wirksam "
 "werden"
 
 #: any.pm:1559
@@ -682,12 +683,12 @@ msgstr "Was ist die beste Zeit?"
 #: any.pm:1589
 #, c-format
 msgid "%s (hardware clock set to UTC)"
-msgstr "%s (Hardware Uhr gestellt auf GMT)"
+msgstr "%s (Hardwareuhr gestellt auf GMT)"
 
 #: any.pm:1590
 #, c-format
 msgid "%s (hardware clock set to local time)"
-msgstr "%s (Hardware Uhr gestellt auf Ortszeit)"
+msgstr "%s (Hardwareuhr gestellt auf Ortszeit)"
 
 #: any.pm:1592
 #, c-format
@@ -831,7 +832,7 @@ msgstr "Base dn"
 #: authentication.pm:113
 #, c-format
 msgid "Fetch base Dn "
-msgstr "Hole die Base Dn"
+msgstr "Holen der Base Dn "
 
 #: authentication.pm:115 authentication.pm:170
 #, c-format
@@ -851,7 +852,7 @@ msgstr "Verwende den Offline-Modus"
 #: authentication.pm:119 authentication.pm:172
 #, c-format
 msgid "Use anonymous BIND "
-msgstr "anonymes BIND verwenden"
+msgstr "Anonymes BIND verwenden"
 
 #: authentication.pm:120 authentication.pm:123 authentication.pm:125
 #: authentication.pm:129
@@ -1067,12 +1068,12 @@ msgstr "LILO mit Textmenü"
 #: bootloader.pm:1284
 #, c-format
 msgid "GRUB2 with graphical menu"
-msgstr "GRUB2 mit grafischem Menü"
+msgstr "GRUB2 mit grafischen Menü"
 
 #: bootloader.pm:1285
 #, c-format
 msgid "GRUB with graphical menu"
-msgstr "GRUB mit grafischem Menü"
+msgstr "GRUB mit grafischen Menü"
 
 #: bootloader.pm:1286
 #, c-format
@@ -1112,37 +1113,37 @@ msgstr ""
 #: bootloader.pm:2276
 #, c-format
 msgid "Re-install Boot Loader"
-msgstr "BS-Starter neu installieren"
+msgstr "Bootloader neu installieren"
 
 #: check_min_sys_requirements.pm:90
 #, c-format
 msgid "System requirements warning\n"
-msgstr ""
+msgstr "Systemanforderungswarnung\n"
 
 #: check_min_sys_requirements.pm:91
 #, c-format
 msgid "Recommended system parameters:\n"
-msgstr ""
+msgstr "Empfohlene Systemparameter:"
 
 #: check_min_sys_requirements.pm:92 check_min_sys_requirements.pm:97
 #, c-format
 msgid "  RAM = "
-msgstr ""
+msgstr " RAM = "
 
 #: check_min_sys_requirements.pm:92 check_min_sys_requirements.pm:97
 #, c-format
 msgid " Mb\n"
-msgstr ""
+msgstr "MB\n"
 
 #: check_min_sys_requirements.pm:93
 #, c-format
 msgid "  HDD = "
-msgstr ""
+msgstr " HDD = "
 
 #: check_min_sys_requirements.pm:93
 #, c-format
 msgid " Gb\n"
-msgstr ""
+msgstr " GB\n"
 
 #: check_min_sys_requirements.pm:94
 #, c-format
@@ -1156,12 +1157,12 @@ msgstr ""
 msgid ""
 "\n"
 "Your system resources are too low\n"
-msgstr ""
+msgstr "Ihre Systemresourcen sind zu niedrig\n"
 
 #: check_min_sys_requirements.pm:111
 #, c-format
 msgid "System requirements warning"
-msgstr ""
+msgstr "Systemanforderungswarnung"
 
 #: common.pm:271
 #, c-format
@@ -1368,7 +1369,7 @@ msgid ""
 "I suggest you first resize that partition\n"
 "(click on it, then click on \"Resize\")"
 msgstr ""
-"Sie haben nur eine große FAT-Partition \n"
+"Sie haben nur eine große Microsoft Windows-Partition \n"
 "(diese enthält häufig nur Microsoft DOS/Windows).\n"
 "Ich rate Ihnen, diese Partition erst zu verkleinern\n"
 "(Wählen Sie sie an und drücken Sie dann „Größe ändern“)"
@@ -1427,12 +1428,12 @@ msgstr "Leer"
 #: diskdrake/hd_gtk.pm:492
 #, c-format
 msgid "Filesystem types:"
-msgstr "Dateisystemtypen:"
+msgstr "Dateisystemarten:"
 
 #: diskdrake/hd_gtk.pm:513
 #, c-format
 msgid "This partition is already empty"
-msgstr "Diese Partition ist leer"
+msgstr "Diese Partition ist bereits leer"
 
 #: diskdrake/hd_gtk.pm:522
 #, c-format
@@ -1593,7 +1594,7 @@ msgstr "Zum LVM hinzufügen"
 #: diskdrake/interactive.pm:415
 #, c-format
 msgid "Use"
-msgstr "Nutze"
+msgstr "Nutzen"
 
 #: diskdrake/interactive.pm:417
 #, c-format
@@ -1648,7 +1649,7 @@ msgstr "Anfangssektor: "
 #: diskdrake/interactive.pm:497 diskdrake/interactive.pm:1077
 #, c-format
 msgid "Size in MB: "
-msgstr "Größe in MB:"
+msgstr "Größe in MB: "
 
 #: diskdrake/interactive.pm:499 diskdrake/interactive.pm:1078
 #, c-format
@@ -1971,7 +1972,7 @@ msgstr "Lesen Sie bitte aufmerksam"
 #: diskdrake/interactive.pm:1193
 #, c-format
 msgid "Be careful: this operation is dangerous."
-msgstr "Vorsicht:!! Diese Aktion ist gefährlich."
+msgstr "Vorsicht: Diese Aktion ist gefährlich."
 
 #: diskdrake/interactive.pm:1208
 #, c-format
@@ -2298,7 +2299,7 @@ msgstr "Abbrechen"
 #: diskdrake/smbnfs_gtk.pm:161
 #, c-format
 msgid "Cannot login using username %s (bad password?)"
-msgstr "Ich kann mich unter „%s“ nicht anmelden! Stimmt das Passwort?"
+msgstr "Ich kann mich unter „%s“ nicht anmelden! (Stimmt das Passwort?)"
 
 #: diskdrake/smbnfs_gtk.pm:165 diskdrake/smbnfs_gtk.pm:174
 #, c-format
@@ -2465,7 +2466,7 @@ msgstr ""
 #: fs/mount_options.pm:120
 #, c-format
 msgid "Enable automatic TRIM for SSD disks"
-msgstr ""
+msgstr "Automatischen TRIM für SSD Platten aktivieren"
 
 #: fs/mount_options.pm:122
 #, c-format
@@ -2528,7 +2529,7 @@ msgstr ""
 #: fs/mount_options.pm:141
 #, c-format
 msgid "Mount the filesystem read-only."
-msgstr "Das Dateisystem read only einhängen/mounten"
+msgstr "Das Dateisystem im Modus nur-lesen einhängen"
 
 #: fs/mount_options.pm:143
 #, c-format
@@ -2601,8 +2602,8 @@ msgid ""
 "Failed to check filesystem %s. Do you want to repair the errors? (beware, "
 "you can lose data)"
 msgstr ""
-"Fehler beim Checken des %s Dateisystem. Wollen Sie die Fehler beheben? "
-"(Beachte. Sie können Daten verliehren)"
+"Fehler bei der Überprüfung des %s Dateisystem. Wollen Sie die Fehler beheben? "
+"(Beachte. Sie können Daten verlieren)"
 
 #: fs/partitioning.pm:75
 #, c-format
@@ -2666,7 +2667,7 @@ msgstr "Verwende den freien Speicherplatz auf der Microsoft Windows® Partition"
 #: fs/partitioning_wizard.pm:175
 #, c-format
 msgid "Which partition do you want to resize?"
-msgstr "Bei welcher Partition wollen Sie die Größe ändern?"
+msgstr "Bei welcher Partition wollen Sie die Größe anpassen?"
 
 #: fs/partitioning_wizard.pm:178
 #, c-format
@@ -2850,7 +2851,7 @@ msgstr ""
 #: fsedit.pm:24
 #, c-format
 msgid "simple"
-msgstr "Einfach"
+msgstr "einfach"
 
 #: fsedit.pm:24
 #, c-format
@@ -3145,7 +3146,7 @@ msgstr "ISDN Karten"
 #: harddrake/data.pm:347
 #, c-format
 msgid "USB sound devices"
-msgstr "USB-Sound-Geräte"
+msgstr "USB-Soundgeräte"
 
 #: harddrake/data.pm:356
 #, c-format
@@ -3165,7 +3166,7 @@ msgstr "WAN-Netzwerkkarten"
 #: harddrake/data.pm:383
 #, c-format
 msgid "Bluetooth devices"
-msgstr "Bluetooth-Geräte"
+msgstr "Bluetoothgeräte"
 
 #: harddrake/data.pm:392
 #, c-format
@@ -3246,7 +3247,7 @@ msgstr "CPU #"
 #: harddrake/sound.pm:77
 #, c-format
 msgid "Please Wait... Applying the configuration"
-msgstr "Einen Moment ... Ich richte die Konfiguration ein"
+msgstr "Einen Moment ... Ich wende die Konfiguration an"
 
 #: harddrake/sound.pm:98
 #, c-format
@@ -3446,7 +3447,7 @@ msgstr ""
 #: harddrake/v4l.pm:10
 #, c-format
 msgid "Auto-detect"
-msgstr "Autoerkennung"
+msgstr "Automatische Erkennung"
 
 #: harddrake/v4l.pm:95 harddrake/v4l.pm:283 harddrake/v4l.pm:335
 #, c-format
@@ -3479,7 +3480,7 @@ msgstr ""
 #: harddrake/v4l.pm:476
 #, c-format
 msgid "Card model:"
-msgstr "Kartentyp:"
+msgstr "Modell der Karte:"
 
 #: harddrake/v4l.pm:477
 #, c-format
@@ -3493,7 +3494,7 @@ msgstr "Tunertyp:"
 #: ugtk3.pm:509 ugtk3.pm:595 ugtk3.pm:910 ugtk3.pm:933
 #, c-format
 msgid "Ok"
-msgstr "OK"
+msgstr "Ok"
 
 #: interactive.pm:219 modules/interactive.pm:72 ugtk2.pm:811 ugtk3.pm:909
 #: wizards.pm:156
@@ -3525,7 +3526,7 @@ msgstr "Ändern"
 #: interactive.pm:674 interactive/curses.pm:270 ugtk2.pm:519 ugtk3.pm:595
 #, c-format
 msgid "Finish"
-msgstr "Assistent beenden"
+msgstr "Beenden"
 
 #: interactive.pm:675 interactive/curses.pm:267 ugtk2.pm:517 ugtk3.pm:593
 #, c-format
@@ -3550,7 +3551,7 @@ msgstr "Das Verzeichnis existiert nicht"
 #: interactive/curses.pm:582 ugtk2.pm:878 ugtk3.pm:976
 #, c-format
 msgid "No such file"
-msgstr "Die Datei existiert nicht"
+msgstr "Keine solche Datei"
 
 #: interactive/gtk.pm:596
 #, c-format
@@ -3628,7 +3629,7 @@ msgstr ""
 #: interactive/stdio.pm:147
 #, c-format
 msgid "Re-submit"
-msgstr "Erneut verschicken"
+msgstr "Erneut absenden"
 
 #. -PO: the string "default:LTR" can be translated *ONLY* as "default:LTR"
 #. -PO: or as "default:RTL", depending if your language is written from
@@ -4843,7 +4844,7 @@ msgstr ""
 #: lvm.pm:168
 #, c-format
 msgid "Physical volume %s is still in use"
-msgstr "Der physische datenträger %s wird noch verwendet"
+msgstr "Der physische Datenträger %s wird noch verwendet"
 
 #: lvm.pm:178
 #, c-format
@@ -5331,7 +5332,7 @@ msgstr "Dieser Treiber hat keine Konfigurations-Parameter!"
 #: modules/interactive.pm:22
 #, c-format
 msgid "Module configuration"
-msgstr "Modul-Konfiguration"
+msgstr "Modulkonfiguration"
 
 #: modules/interactive.pm:22
 #, c-format
@@ -5346,7 +5347,7 @@ msgstr "Schnittstelle(n) %s gefunden"
 #: modules/interactive.pm:65
 #, c-format
 msgid "Do you have another one?"
-msgstr "Verfügen Sie über weitere?"
+msgstr "Verfügen Sie über einen weiteren?"
 
 #: modules/interactive.pm:66
 #, c-format
@@ -5356,7 +5357,7 @@ msgstr "Verfügen Sie über %s Schnittstellen?"
 #: modules/interactive.pm:72
 #, c-format
 msgid "See hardware info"
-msgstr "Hardware-Informationen anzeigen"
+msgstr "Hardwareinformationen anzeigen"
 
 #: modules/interactive.pm:83
 #, c-format
@@ -5651,7 +5652,7 @@ msgstr "Den Neustart des Rechners durch den Konsolen Benutzer erlauben."
 #: security/help.pm:28
 #, c-format
 msgid "Allow remote root login."
-msgstr "Remote-Root-Login erlauben."
+msgstr "Entfernten Login als Administrator erlauben."
 
 #: security/help.pm:30
 #, c-format
@@ -5825,7 +5826,7 @@ msgstr "Benutzer müssen sich mit einem Passwort authentifizieren."
 #: security/help.pm:94
 #, c-format
 msgid "Activate Ethernet cards promiscuity check."
-msgstr "Offenheits-Überprüfung der aktiven Netzwerkkarten"
+msgstr "Promiskuitätsüberprüfung der Netzwerkkarten aktivieren"
 
 #: security/help.pm:95
 #, c-format
@@ -6035,7 +6036,7 @@ msgstr "Neustart durch den Konsolen Benutzer"
 #: security/l10n.pm:17
 #, c-format
 msgid "Allow remote root login"
-msgstr "Remote-Root-Login erlauben"
+msgstr "Enternten Login als Administrator erlauben"
 
 #: security/l10n.pm:18
 #, c-format
@@ -6060,7 +6061,7 @@ msgstr "X Window Verbindungen erlauben"
 #: security/l10n.pm:22
 #, c-format
 msgid "Authorize TCP connections to X Window"
-msgstr "Erlaube TCP Verbindungen zum X Windows System"
+msgstr "Erlaube TCP Verbindungen zum X Window System"
 
 #: security/l10n.pm:23
 #, c-format
