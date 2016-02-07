@@ -1123,7 +1123,7 @@ msgstr "Systemanforderungswarnung\n"
 #: check_min_sys_requirements.pm:91
 #, c-format
 msgid "Recommended system parameters:\n"
-msgstr "Empfohlene Systemparameter:"
+msgstr "Empfohlene Systemparameter:\n"
 
 #: check_min_sys_requirements.pm:92 check_min_sys_requirements.pm:97
 #, c-format
@@ -1157,7 +1157,9 @@ msgstr ""
 msgid ""
 "\n"
 "Your system resources are too low\n"
-msgstr "Ihre Systemresourcen sind zu niedrig\n"
+msgstr ""
+"\n"
+"Ihre Systemresourcen sind zu niedrig\n"
 
 #: check_min_sys_requirements.pm:111
 #, c-format
