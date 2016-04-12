@@ -28,9 +28,9 @@ sub facesnames() {
 	map { if_(/$dir\/(.*)\.png/, $1) } (@l ? @l : all_files_rec($dir));
 }
 
-sub addKdmIcon {
+sub addSddmIcon {
 	my ($user, $icon) = @_;
-	my $dest = "$::prefix/usr/share/faces/$user.png";
+	my $dest = "$::prefix/usr/share/faces/$user.face.icon";
 	eval { cp_af(facesdir() . $icon . ".png", $dest) } if $icon;
 }
 
@@ -121,7 +121,7 @@ sub add_users {
 			addGdmIcon($_->{name}, $icon);
 		}
 		else {
-			addKdmIcon($_->{name}, $icon);
+			addSddmIcon($_->{name}, $icon);
 			addUserFaceIcon($_->{name}, $icon);
 		}
 	}
