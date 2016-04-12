@@ -250,7 +250,7 @@ sub report_bug_to_bugzilla() {
             return;
         }
     }
-    my $rel_data = mandrake_release_info();
+    my $rel_data = distro_release_info();
     my $rel = standalone::real_version();
     my $cpuinfo;
     if (cat_('/proc/cpuinfo') =~ /model name\s*:\s*(.*)$/m) {
