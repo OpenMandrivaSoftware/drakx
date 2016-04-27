@@ -803,6 +803,12 @@ sub Resize {
 	        $nice_resize{btrfs} = 1;
 		$min = max($min, $part->{size} - $free);
 	    }
+	} elsif ($part->{fs_type} eq 'f2fs') {
+	    write_partitions($in, $hd) or return;
+	    if (defined(my $free = fs::df($part))) {
+	        $nice_resize{f2fs} = 1;
+		$min = max($min, $part->{size} - $free);
+	    }
 	}
 	#- make sure that even after normalizing the size to cylinder boundaries, the minimun will be saved,
 	#- this save at least a cylinder (less than 8Mb).
@@ -1295,7 +1301,7 @@ sub format_ {
 
 sub _format_raw {
     my ($in, $part, $all_hds, $o_skip) = @_;
-    if ($::expert && !member($part->{fs_type}, 'reiserfs', 'xfs', 'hfs', 'ntfs', 'ntfs-3g', 'btrfs')) {
+    if ($::expert && !member($part->{fs_type}, 'reiserfs', 'xfs', 'hfs', 'ntfs', 'ntfs-3g', 'btrfs', 'f2fs' )) {
 	$part->{toFormatCheck} = $in->ask_yesorno(N("Confirmation"), N("Check bad blocks?"));
     }
     $part->{isFormatted} = 0; #- force format;

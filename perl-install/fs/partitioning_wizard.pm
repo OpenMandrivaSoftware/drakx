@@ -308,7 +308,7 @@ sub create_display_box {
 
     foreach my $entry (@parts) {
 	my $part_info = Gtk3::Label->new($entry->{device_LABEL});
-	my @colorized_fs_types = qw(ext2 ext3 ext4 xfs swap vfat ntfs ntfs-3g);
+	my @colorized_fs_types = qw(ext2 ext3 ext4 f2fs xfs swap vfat ntfs ntfs-3g);
         my $part_widget = Gtk3::EventBox->new;
         $entry->{width} = int($entry->{size} * $initial_ratio) + $minwidth;
         if ($last && $last->{device} eq $entry->{device}) {
@@ -350,7 +350,7 @@ sub create_display_box {
 
             my $update_size_labels = sub {
                 $win_size_label->set_label(" Windows (" . formatXiB($entry->{req_size}, 512) . ")");
-                $mdv_size_label->set_label(" Openmandriva Lx (" . formatXiB($entry->{size} - $entry->{req_size}, 512) . ")");
+                $mdv_size_label->set_label(" Openmandriva (" . formatXiB($entry->{size} - $entry->{req_size}, 512) . ")");
                 0;
             };
             my $update_req_size = sub {
@@ -396,9 +396,9 @@ sub create_display_box {
     }
     $display_box->remove($part_sep) if $part_sep;
     unless ($resize || $fill_empty) {
-        my @types = (N_("Ext2/3/4"), N_("XFS"), N_("Swap"), N_("Windows"),
+        my @types = (N_("Ext2/3/4"), N_("F2FS"), N_("Swap"), N_("Windows"),
                     N_("Other"), N_("Empty"));
-        my %name2fs_type = ('Ext2/3/4' => 'ext3', 'XFS' => 'xfs', Swap => 'swap', Other => 'other', "Windows" => 'vfat', HFS => 'hfs');
+        my %name2fs_type = ('Ext2/3/4' => 'ext3', 'F2FS' => 'f2fs', Swap => 'swap', Other => 'other', "Windows" => 'vfat', HFS => 'hfs');
         $desc = ugtk3::gtkpack(Gtk3::HBox->new,
                 map {
                      my $t = $name2fs_type{$_};
@@ -537,7 +537,7 @@ sub main {
         $mainw->{kind} = $kind;
         display_choices($o, $contentbox, $mainw, %solutions);
 
-        $combobox->signal_connect("changed", sub {        
+        $combobox->signal_connect("changed", sub {
             $mainw->{kind} = $kinds[$combobox->get_active];
             my %solutions = partitionWizardSolutions($o, $all_hds, $fstab, $manual_fstab, $partitions, $partitioning_flags, $skip_mtab, diskdrake::hd_gtk::kind2hd($mainw->{kind}));
             delete $solutions{diskdrake} if $b_nodiskdrake;
