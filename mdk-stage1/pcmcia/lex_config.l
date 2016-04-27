@@ -32,7 +32,7 @@
 
 #define src 1
 
-#include "yacc_config.h"
+#include "pcmcia/yacc_config.h"
 
 extern int yyparse(void); /* mdk-stage1 */
 
