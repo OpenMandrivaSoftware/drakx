@@ -808,11 +808,18 @@ my %IM_config =
 #	       packages => { generic => sub { 'miniChinput' } },
 #              },
    fcitx => {
-             GTK_IM_MODULE => 'xim',
+             GTK_IM_MODULE => 'fcitx',
+             QT_IM_MODULE => 'fcitx',
              XIM => 'fcitx',
              XIM_PROGRAM => 'fcitx',
              XMODIFIERS => '@im=fcitx',
-	     langs => 'zh',
+	     default_for_lang => 'am ja ko th vi zh_CN zh_TW',
+	     packages => {
+		generic => sub { qw(fcitx-table-extra fcitx-table-other ibus-m17n), if_($is_kde4, 'fcitx-qt5') },
+		ja => sub { qw(fcitx-anthy) },
+		zh => sub { qw(fcitx-libpinyin ibus-chewing) },
+		ko => sub { qw(fcitx-hangul) },
+		},
             },
    gcin => {
              GTK_IM_MODULE => 'gcin',
@@ -905,7 +912,7 @@ my %IM_config =
 	QT_IM_MODULE => 'ibus',
 	XIM_PROGRAM => 'ibus-daemon -d -x',
 	XMODIFIERS => '@im=ibus',
-	default_for_lang => 'am ja ko th vi zh_CN zh_TW',
+	langs => 'zh',
 	packages => {
 		generic => sub { qw(ibus-table ibus-m17n), if_($is_kde4, 'ibus-qt4') },
 		ja => sub { qw(ibus-mozc) },
