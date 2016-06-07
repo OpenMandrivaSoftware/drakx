@@ -23,7 +23,6 @@ my $its_reset = 0;
 $ugtk3::wm_icon = "/usr/share/mcc/themes/default/time-mdk.png";
 
 my $ntpd = $timezone::ntp . 'd';
-my $ntpfile = '/etc/' . $timezone::ntp . '.conf';
 
 my $my_win = ugtk3->new(N("Date, Clock & Time Zone Settings"));
 
@@ -77,7 +76,7 @@ $my_win->{window}->add(
 					0, gtksignal_connect(gtkset_active($check_ntp = gtknew('CheckButton', text => N("Enable Network Time Protocol")), $mode),  clicked => sub { 
 					    $mode = !$mode; 
 					    $hb_ntp->set_sensitive($mode);
-					    if ($mode == 1 && !$in->do_pkgs->is_installed('ntp') && !$in->do_pkgs->is_installed('chrony')) {
+					    if ($mode == 1 && $ntpd ne 'systemd-timesyncd' && !$in->do_pkgs->is_installed('chrony')) {
 						install_ntp();
 					    }
 							     }),
@@ -128,8 +127,11 @@ $my_win->{window}->add(
 				# Wait up to 30s for sync
 				$sync_ok = !system('chronyc', 'waitsync', '30', '0.1');
 				system('systemctl', 'stop', "$ntpd.service") if !$sync_ok;
+                            } elsif($ntpd eq "ntpd") {
+                                $sync_ok = !system('/usr/sbin/ntpdate', $choosed_serv);
+                                system('systemctl', 'start', "$ntpd.service") if $sync_ok; 
 			    } else {
-				$sync_ok = !system('/usr/sbin/ntpdate', $choosed_serv);
+                                $sync_ok = !system('timedatectl', 'set-ntp', 'true');
 				system('systemctl', 'start', "$ntpd.service") if $sync_ok;
 			    }
 			    if ($sync_ok) {
@@ -179,18 +181,33 @@ $button_reset = $w->{buttons}{N("Reset")};
 $time_box->set_direction('ltr');
 
 my $servers = get_server();
-$combo_ntpserver->set_popdown_strings(@$servers);
-if (-e $ntpfile && is_ntp_daemon_running()) {
+
+if($ntpd eq 'systemd-timesyncd')
+{
+  $combo_ntpserver->set_popdown_strings(("Automatic"));
+}
+else
+{
+  $combo_ntpserver->set_popdown_strings(@$servers);
+}
+if (-e $timezone::ntpfile && is_ntp_daemon_running()) {
     $ntp = timezone::ntp_server();
-    $ntp and ntp_widget_state(1);
-    my $fullntp = $ntp;
-    my $short_ntp = $ntp;
-    #- strip digits from \d+.foo.pool.ntp.org
-    $short_ntp =~ s/^\d+\.//;
-    foreach (@$servers) {
-	/^[^:]+: \Q$short_ntp\E$/ and $fullntp = $_, last;
+    ($ntp or $ntpd eq 'systemd-timesyncd') and ntp_widget_state(1);
+
+    if($ntp) {
+      my $fullntp = $ntp;
+      my $short_ntp = $ntp;
+      #- strip digits from \d+.foo.pool.ntp.org
+      $short_ntp =~ s/^\d+\.//;
+      foreach (@$servers) {
+  	/^[^:]+: \Q$short_ntp\E$/ and $fullntp = $_, last;
+      }
+      $combo_ntpserver->entry->set_text($fullntp);
     }
-    $combo_ntpserver->entry->set_text($fullntp);
+    else
+    {
+      $combo_ntpserver->entry->set_text("Automatic");
+    }
 } else { ntp_widget_state(0) }
   
 my $pressed;

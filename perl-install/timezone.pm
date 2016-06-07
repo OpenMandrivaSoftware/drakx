@@ -31,20 +31,23 @@ sub read() {
     return ($@) ? {} : { timezone => $tz, UTC => $lrtc ? 0 : 1 };
 }
 
-our $ntp = "ntp";
+our $ntp = "systemd-timesync";
 my $servername_config_suffix = "";
+our $ntpfile = $::prefix . "/etc/systemd/timesyncd.conf";
+
 if (-f $::prefix . "/etc/chrony.conf") {
     $ntp = "chrony";
     $servername_config_suffix = " iburst";
+    $ntpfile = $::prefix . "/etc/chrony.conf";
 }
 
 sub ntp_server() {
-    find { $_ ne '127.127.1.0' } map { if_(/^\s*server\s+(\S*)/, $1) } cat_($::prefix . "/etc/" . $ntp . ".conf");
+    find { $_ ne '127.127.1.0' } map { if_(/^\s*server\s+(\S*)/, $1) } cat_($ntpfile);
 }
 
 sub set_ntp_server {
     my ($server) = @_;
-    my $f = $::prefix . "/etc/" . $ntp . ".conf";
+    my $f = $ntpfile;
     -f $f or return;
 
     my $pool_match = qr/\.pool\.ntp\.org$/;
