@@ -184,7 +184,7 @@ my $servers = get_server();
 
 if($ntpd eq 'systemd-timesyncd')
 {
-  $combo_ntpserver->set_popdown_strings(("Automatic"));
+  $combo_ntpserver->set_popdown_strings((N("Automatic")));
 }
 else
 {
@@ -206,7 +206,7 @@ if (-e $timezone::ntpfile && is_ntp_daemon_running()) {
     }
     else
     {
-      $combo_ntpserver->entry->set_text("Automatic");
+      $combo_ntpserver->entry->set_text(N("Automatic"));
     }
 } else { ntp_widget_state(0) }
   
