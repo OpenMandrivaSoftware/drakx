@@ -817,7 +817,7 @@ my %IM_config =
 	     packages => {
 		generic => sub { qw(fcitx-table-extra fcitx-table-other fcitx-m17n), if_($is_kde4, 'fcitx-qt5') },
 		ja => sub { qw(fcitx-anthy) },
-		zh => sub { qw(fcitx-libpinyin ibus-chewing) },
+		zh => sub { qw(fcitx-libpinyin fcitx-chewing) },
 		ko => sub { qw(fcitx-hangul) },
 		},
             },
