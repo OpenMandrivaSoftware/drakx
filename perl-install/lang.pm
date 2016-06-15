@@ -740,7 +740,7 @@ XIM server; or a Qt plugin if exists)
 
 my @IM_i18n_fields = qw(XMODIFIERS XIM GTK_IM_MODULE XIM_PROGRAM QT_IM_MODULE);
 
-my ($is_kde4);
+my $is_plasma;
 
 =item my %IM_config;
 
@@ -815,7 +815,7 @@ my %IM_config =
              XMODIFIERS => '@im=fcitx',
 	     default_for_lang => 'am ja ko th vi zh_CN zh_TW',
 	     packages => {
-		generic => sub { qw(fcitx-table-extra fcitx-table-other fcitx-m17n), if_($is_kde4, 'fcitx-qt5') },
+		generic => sub { qw(fcitx-table-extra fcitx-table-other fcitx-m17n), if_($is_plasma, 'fcitx-qt5') },
 		ja => sub { qw(fcitx-anthy) },
 		zh => sub { qw(fcitx-libpinyin fcitx-chewing) },
 		ko => sub { qw(fcitx-hangul) },
@@ -828,7 +828,7 @@ my %IM_config =
              XMODIFIERS => '@im=gcin',
 	     langs => 'zh',
 	     packages => {
-		     common => sub { if_($is_kde4, 'gcin-qt4') },
+		     common => sub { if_($is_plasma, 'gcin-qt4') },
 		     generic => sub { qw(gcin) },
 	     },
             },
@@ -839,7 +839,7 @@ my %IM_config =
              XMODIFIERS => '@im=hime',
 	     langs => 'zh',
 	     packages => {
-		     common => sub { if_($is_kde4, 'hime-qt4') },
+		     common => sub { if_($is_plasma, 'hime-qt4') },
 		     generic => sub { qw(hime) },
 	     },
             },
@@ -888,7 +888,7 @@ my %IM_config =
 		ko => sub { qw(scim-hangul) },
 		th => sub { qw(scim-thai) },
 		vi => sub { qw(scim-m17n) },
-		zh => sub { qw(scim-googlepinyin scim-tables-zh scim-chewing) },
+		zh => sub { qw(scim-tables-zh scim-chewing) },
 	    },
            },
 
@@ -897,14 +897,14 @@ my %IM_config =
        XIM_PROGRAM => 'scim-bridge',
        XMODIFIERS => '@im=SCIM',
        packages => {
-	   common => sub { if_($is_kde4, 'scim-bridge-qt4') },
+	   common => sub { if_($is_plasma, 'scim-bridge-qt4') },
            generic => sub { qw(scim-m17n scim-tables) },
            am => sub { qw(scim-tables) },
            ja => sub { qw(scim-anthy) },
            ko => sub { qw(scim-hangul) },
 	   th => sub { qw(scim-thai) },
            vi => sub { qw(scim-m17n) },
-           zh => sub { qw(scim-googlepinyin scim-tables-zh scim-chewing) },
+           zh => sub { qw(scim-tables-zh scim-chewing) },
        },
    },
    'ibus' => {
@@ -913,7 +913,7 @@ my %IM_config =
 	XIM_PROGRAM => 'ibus-daemon -d -x',
 	XMODIFIERS => '@im=ibus',
 	packages => {
-		generic => sub { qw(ibus-table ibus-m17n), if_($is_kde4, 'ibus-qt4') },
+		generic => sub { qw(ibus-table ibus-m17n), if_($is_plasma, 'ibus-qt4') },
 		ja => sub { qw(ibus-mozc) },
 		zh => sub { qw(ibus-pinyin ibus-chewing) },
 		ko => sub { qw(ibus-hangul) },
@@ -926,7 +926,7 @@ my %IM_config =
            XMODIFIERS => '@im=uim',
 	   langs => 'ja',
 	   packages => {
-		  common => sub { if_($is_kde4, 'uim-qt4immodule') },
+		  common => sub { if_($is_plasma, 'uim-qt4immodule') },
 		  generic => sub { qw(uim-gtk uim) },
 	  },
           },
@@ -985,7 +985,7 @@ sub get_ims {
 	!$langs || intersection([ $lang, $main_lang ], 
 				[ split(' ', $langs) ]);
     } keys %IM_config;
-}          
+}
 
 =item get_default_im ($lang)
 
@@ -1011,7 +1011,7 @@ sub IM2packages {
     if ($locale->{IM}) {
 	require any;
 	my @sessions = any::sessions();
-	$is_kde4 = member('KDE4', @sessions);
+	$is_plasma = any { /plasma/ } @sessions;
 	my $per_lang = $IM_config{$locale->{IM}}{packages} || {};
 	my $main_lang = analyse_locale_name($locale->{lang})->{main};
 	my $packages = $per_lang->{$main_lang} || $per_lang->{generic};
@@ -1387,9 +1387,9 @@ sub read {
     $f2 = "$::prefix/etc/sysconfig/i18n" if ! -e $f2 && -e "$::prefix/etc/sysconfig/i18n";
     my %h = getVarsFromSh($b_user_only && -e $f1 ? $f1 : $f2);
     # Fill in defaults (from LANG= variable)
-    %h = map { $_ => $h{$_} || $h{'LANG'} || 'en_US' } @locale_conf_fields;
+    $h{$_} ||= $h{LANG} || 'en_US' foreach @locale_conf_fields;
     my $locale = system_locales_to_ourlocale($h{LC_MESSAGES}, $h{LC_MONETARY});
-    
+
     if (find { $h{$_} } @IM_i18n_fields) {
         my $current_IM = find {
             my $i = $IM_config{$_};
@@ -1509,16 +1509,16 @@ sub write {
         log::explanations(qq(Setting locale configuration in "$file"));
         # Only include valid fields and ommit any that are the same as LANG to make it cleaner
         # (cleanup logic copied from systemd)
-        my @filtered_keys = grep { exists $h->{$_} && ($_ eq 'LANG' || !exists $h->{'LANG'} || $h->{$_} ne $h->{'LANG'}) } @locale_conf_fields;
+        my @filtered_keys = grep { exists $h->{$_} && ($_ eq 'LANG' || !exists $h->{LANG} || $h->{$_} ne $h->{LANG}) } @locale_conf_fields;
         my @filtered_input = grep { exists $h->{$_} } @IM_i18n_fields;
-        push (@filtered_keys, @filtered_input);
+        push @filtered_keys, @filtered_input;
         my $h2 = { map { $_ => $h->{$_} } @filtered_keys };
         setVarsInShMode($::prefix . $file, 0644, $h2);
 
-        if ($h->{'SYSFONT'}) {
+        if ($h->{SYSFONT}) {
              $file = '/etc/vconsole.conf';
-             $h2 = { 'FONT' => $h->{'SYSFONT'} };
-             $h2->{'FONT_UNIMAP'} = $h->{'SYSFONTACM'} if ($h->{'SYSFONTACM'});
+             $h2 = { 'FONT' => $h->{SYSFONT} };
+             $h2->{FONT_UNIMAP} = $h->{SYSFONTACM} if $h->{SYSFONTACM};
              addVarsInShMode($::prefix . $file, 0644, $h2);
         }
     }
