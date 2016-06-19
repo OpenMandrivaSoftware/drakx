@@ -654,8 +654,8 @@ msgstr "Fuso orario"
 
 #: any.pm:1559
 #, c-format
-msgid "Which is your timezone?"
-msgstr "Qual è il fuso orario locale?"
+msgid "What is your current timezone?"
+msgstr "Qual è il tuo fuso orario?"
 
 #: any.pm:1582 any.pm:1584
 #, c-format
@@ -664,8 +664,8 @@ msgstr "Impostazione di data, ora e fuso orario"
 
 #: any.pm:1585
 #, c-format
-msgid "What is the best time?"
-msgstr "Qual è l'orario migliore?"
+msgid "What is your current time?"
+msgstr "Qual è l'ora corretta?"
 
 #: any.pm:1589
 #, c-format
