@@ -33,7 +33,7 @@ merge_mageia_translations: $(NAME).pot
 		sed -e '/^$$/q' "$$n" > "$$n.header"; \
 		mv "$$n" "$$n.orig"; \
 		git checkout --theirs mageia/master "$$n"; \
-		sed -e 's#ageia#oondrake#g' -i "$$n"; \
+		sed -e 's#mageia#openmandriva#g' -i "$$n"; \
 		msgcat --use-first -o "$$n.temp" -t utf-8 -s "$$n.orig" "$$n"; \
 		git checkout --theirs origin/master "$$n"; \
 		msgcat --use-first -o "$$n.orig" -t utf-8 -s "$$n.header" "$$n.temp"; \

@@ -3461,103 +3461,103 @@ msgstr "Regionale instellingen"
 msgid "Language & country configuration"
 msgstr "Taal- & landconfiguratie"
 
-#: ../polkit/org.moondrake.drakauth.policy.in.h:1
+#: ../polkit/org.openmandriva.drakauth.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Authentication Configuration"
 msgstr "Start Openmandriva Lx's Aunthenticatieconfiguratie"
 
-#: ../polkit/org.moondrake.drakauth.policy.in.h:2
+#: ../polkit/org.openmandriva.drakauth.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Authentication Configuration"
 msgstr ""
 "Authenticatie is nodig om Openmandriva Lx's Authenticatieconfiguratie te "
 "starten"
 
-#: ../polkit/org.moondrake.drakboot.policy.in.h:1
+#: ../polkit/org.openmandriva.drakboot.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Boot Configuration"
 msgstr "Start Openmandriva Lx's Opstartconfiguratie"
 
-#: ../polkit/org.moondrake.drakboot.policy.in.h:2
+#: ../polkit/org.openmandriva.drakboot.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Boot Configuration"
 msgstr ""
 "Authenticatie is nodig om Openmandriva Lx's Opstartconfiguratie te starten"
 
-#: ../polkit/org.moondrake.drakclock.policy.in.h:1
+#: ../polkit/org.openmandriva.drakclock.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Date and Time Configuration"
 msgstr "Start Openmandriva Lx's Datum- en Tijdconfiguratie"
 
-#: ../polkit/org.moondrake.drakclock.policy.in.h:2
+#: ../polkit/org.openmandriva.drakclock.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Date and Time Configuration"
 msgstr ""
 "Authenticatie is nodig om Openmandriva Lx's Datum- en Tijdconfiguratie te "
 "starten"
 
-#: ../polkit/org.moondrake.drakdisk.policy.in.h:1
+#: ../polkit/org.openmandriva.drakdisk.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Disk Layout Editor"
 msgstr "Start Openmandriva Lx's Schijfindelingsbewerker"
 
-#: ../polkit/org.moondrake.drakdisk.policy.in.h:2
+#: ../polkit/org.openmandriva.drakdisk.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Disk Layout Editor"
 msgstr ""
 "Authenticatie is nodig om Openmandriva Lx's Schijfindelingsbewerker te "
 "starten"
 
-#: ../polkit/org.moondrake.drakdm.policy.in.h:1
+#: ../polkit/org.openmandriva.drakdm.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Login Manager Configuration"
 msgstr "Start Openmandriva Lx's Login-beheerderconfiguratie"
 
-#: ../polkit/org.moondrake.drakdm.policy.in.h:2
+#: ../polkit/org.openmandriva.drakdm.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Login Manager Configuration"
 msgstr ""
 "Authenticatie is nodig om Openmandriva Lx's Login-beheerderconfiguratie te "
 "starten"
 
-#: ../polkit/org.moondrake.drakfont.policy.in.h:1
+#: ../polkit/org.openmandriva.drakfont.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Font Configuration"
 msgstr "Start Openmandriva Lx's Fontconfiguratie"
 
-#: ../polkit/org.moondrake.drakfont.policy.in.h:2
+#: ../polkit/org.openmandriva.drakfont.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Font Configuration"
 msgstr ""
 "Authenticatie is nodig om Openmandriva Lx's Fontconfiguratie te starten"
 
-#: ../polkit/org.moondrake.drakhardware.policy.in.h:1
+#: ../polkit/org.openmandriva.drakhardware.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Hardware Configuration"
 msgstr "Start Openmandriva Lx's Apparaatconfiguratie"
 
-#: ../polkit/org.moondrake.drakhardware.policy.in.h:2
+#: ../polkit/org.openmandriva.drakhardware.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Hardware Configuration"
 msgstr ""
 "Authenticatie is nodig om Openmandriva Lx's Apparaatconfiguratie te starten"
 
-#: ../polkit/org.moondrake.draklog.policy.in.h:1
+#: ../polkit/org.openmandriva.draklog.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Log Viewer"
 msgstr "Start Openmandriva Lx's Logviewer"
 
-#: ../polkit/org.moondrake.draklog.policy.in.h:2
+#: ../polkit/org.openmandriva.draklog.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Log Viewer"
 msgstr "Authenticatie is nodig om Openmandriva Lx's Logviewer te starten"
 
-#: ../polkit/org.moondrake.drakperm.policy.in.h:1
+#: ../polkit/org.openmandriva.drakperm.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Security Permissions Configuration"
 msgstr "Start Openmandriva Lx's Veiligheidsrechten-configuratie"
 
-#: ../polkit/org.moondrake.drakperm.policy.in.h:2
+#: ../polkit/org.openmandriva.drakperm.policy.in.h:2
 #, fuzzy
 msgid ""
 "Authentication is required to run DrakX Security Permissions Configuration"
@@ -3565,23 +3565,23 @@ msgstr ""
 "Authenticatie is nodig om Openmandriva Lx's Veiligheidsrechten-configuratie "
 "te starten"
 
-#: ../polkit/org.moondrake.drakscanner.policy.in.h:1
+#: ../polkit/org.openmandriva.drakscanner.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Scanner Configuration"
 msgstr "Start Openmandriva Lx's Scannerconfiguratie"
 
-#: ../polkit/org.moondrake.drakscanner.policy.in.h:2
+#: ../polkit/org.openmandriva.drakscanner.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Scanner Configuration"
 msgstr ""
 "Authenticatie is nodig om Openmandriva Lx's Scannerconfiguratie te starten"
 
-#: ../polkit/org.moondrake.draksec.policy.in.h:1
+#: ../polkit/org.openmandriva.draksec.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Application Security Configuration"
 msgstr "Start Openmandriva Lx's Programma-veiligheidsconfiguratie"
 
-#: ../polkit/org.moondrake.draksec.policy.in.h:2
+#: ../polkit/org.openmandriva.draksec.policy.in.h:2
 #, fuzzy
 msgid ""
 "Authentication is required to run DrakX Application Security Configuration"
@@ -3589,23 +3589,23 @@ msgstr ""
 "Authenticatie is nodig om Openmandriva Lx's Programma-"
 "veiligheidsconfiguratie te starten"
 
-#: ../polkit/org.moondrake.drakups.policy.in.h:1
+#: ../polkit/org.openmandriva.drakups.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX UPS Configuration"
 msgstr "Start Openmandriva Lx's UPS-configuratie"
 
-#: ../polkit/org.moondrake.drakups.policy.in.h:2
+#: ../polkit/org.openmandriva.drakups.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX UPS Configuration"
 msgstr ""
 "Authenticatie is nodig om Openmandriva Lx's UPS-configuratie te starten"
 
-#: ../polkit/org.moondrake.moondrakeservices.policy.in.h:1
+#: ../polkit/org.openmandriva.openmandrivaservices.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Service Configuration"
 msgstr "Start Openmandriva Lx's Dienstenconfiguratie"
 
-#: ../polkit/org.moondrake.moondrakeservices.policy.in.h:2
+#: ../polkit/org.openmandriva.openmandrivaservices.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Service Configuration"
 msgstr ""

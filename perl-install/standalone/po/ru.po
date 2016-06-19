@@ -3440,134 +3440,134 @@ msgstr "Региональные настройки"
 msgid "Language & country configuration"
 msgstr "Настройка языковых и региональных параметров"
 
-#: ../polkit/org.moondrake.drakauth.policy.in.h:1
+#: ../polkit/org.openmandriva.drakauth.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Authentication Configuration"
 msgstr "Запуск настройки аутентификации"
 
-#: ../polkit/org.moondrake.drakauth.policy.in.h:2
+#: ../polkit/org.openmandriva.drakauth.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Authentication Configuration"
 msgstr "Необходима аутентификация для запуска настройки аутентификации"
 
-#: ../polkit/org.moondrake.drakboot.policy.in.h:1
+#: ../polkit/org.openmandriva.drakboot.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Boot Configuration"
 msgstr "Запуск настройки загрузки"
 
-#: ../polkit/org.moondrake.drakboot.policy.in.h:2
+#: ../polkit/org.openmandriva.drakboot.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Boot Configuration"
 msgstr "Необходима аутентификация для запуска настройки загрузки"
 
-#: ../polkit/org.moondrake.drakclock.policy.in.h:1
+#: ../polkit/org.openmandriva.drakclock.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Date and Time Configuration"
 msgstr "Запуск настройки даты и времени"
 
-#: ../polkit/org.moondrake.drakclock.policy.in.h:2
+#: ../polkit/org.openmandriva.drakclock.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Date and Time Configuration"
 msgstr "Необходима аутентификация для запуска настройки даты и времени"
 
-#: ../polkit/org.moondrake.drakdisk.policy.in.h:1
+#: ../polkit/org.openmandriva.drakdisk.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Disk Layout Editor"
 msgstr "Запуск редактора компоновки диска"
 
-#: ../polkit/org.moondrake.drakdisk.policy.in.h:2
+#: ../polkit/org.openmandriva.drakdisk.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Disk Layout Editor"
 msgstr "Необходима аутентификация для запуска редактора компоновки диска"
 
-#: ../polkit/org.moondrake.drakdm.policy.in.h:1
+#: ../polkit/org.openmandriva.drakdm.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Login Manager Configuration"
 msgstr "Запуск настройки управления входом"
 
-#: ../polkit/org.moondrake.drakdm.policy.in.h:2
+#: ../polkit/org.openmandriva.drakdm.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Login Manager Configuration"
 msgstr "Необходима аутентификация для запуска настройки управления входом"
 
-#: ../polkit/org.moondrake.drakfont.policy.in.h:1
+#: ../polkit/org.openmandriva.drakfont.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Font Configuration"
 msgstr "Запуск настройки шрифтов"
 
-#: ../polkit/org.moondrake.drakfont.policy.in.h:2
+#: ../polkit/org.openmandriva.drakfont.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Font Configuration"
 msgstr "Необходима аутентификация для запуска настройки шрифтов"
 
-#: ../polkit/org.moondrake.drakhardware.policy.in.h:1
+#: ../polkit/org.openmandriva.drakhardware.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Hardware Configuration"
 msgstr "Запуск настройки оборудования"
 
-#: ../polkit/org.moondrake.drakhardware.policy.in.h:2
+#: ../polkit/org.openmandriva.drakhardware.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Hardware Configuration"
 msgstr "Необходима аутентификация для запуска настройки оборудования"
 
-#: ../polkit/org.moondrake.draklog.policy.in.h:1
+#: ../polkit/org.openmandriva.draklog.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Log Viewer"
 msgstr "Запуск просмотра журналов"
 
-#: ../polkit/org.moondrake.draklog.policy.in.h:2
+#: ../polkit/org.openmandriva.draklog.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Log Viewer"
 msgstr "Необходима аутентификация для запуска просмотра журналов"
 
-#: ../polkit/org.moondrake.drakperm.policy.in.h:1
+#: ../polkit/org.openmandriva.drakperm.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Security Permissions Configuration"
 msgstr "Запуск настройки прав доступа"
 
-#: ../polkit/org.moondrake.drakperm.policy.in.h:2
+#: ../polkit/org.openmandriva.drakperm.policy.in.h:2
 #, fuzzy
 msgid ""
 "Authentication is required to run DrakX Security Permissions Configuration"
 msgstr "Необходима аутентификация для запуска настройки прав доступа"
 
-#: ../polkit/org.moondrake.drakscanner.policy.in.h:1
+#: ../polkit/org.openmandriva.drakscanner.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Scanner Configuration"
 msgstr "Запуск настройки сканеров"
 
-#: ../polkit/org.moondrake.drakscanner.policy.in.h:2
+#: ../polkit/org.openmandriva.drakscanner.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Scanner Configuration"
 msgstr "Необходима аутентификация для запуска настройки сканеров"
 
-#: ../polkit/org.moondrake.draksec.policy.in.h:1
+#: ../polkit/org.openmandriva.draksec.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Application Security Configuration"
 msgstr "Запуск настройки защиты программ"
 
-#: ../polkit/org.moondrake.draksec.policy.in.h:2
+#: ../polkit/org.openmandriva.draksec.policy.in.h:2
 #, fuzzy
 msgid ""
 "Authentication is required to run DrakX Application Security Configuration"
 msgstr "Необходима аутентификация для запуска настройки защиты программ"
 
-#: ../polkit/org.moondrake.drakups.policy.in.h:1
+#: ../polkit/org.openmandriva.drakups.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX UPS Configuration"
 msgstr "Запуск настройки ИБП"
 
-#: ../polkit/org.moondrake.drakups.policy.in.h:2
+#: ../polkit/org.openmandriva.drakups.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX UPS Configuration"
 msgstr "Необходима аутентификация для запуска настройки ИБП"
 
-#: ../polkit/org.moondrake.moondrakeservices.policy.in.h:1
+#: ../polkit/org.openmandriva.openmandrivaservices.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Service Configuration"
 msgstr "Запуск настройки сервисов"
 
-#: ../polkit/org.moondrake.moondrakeservices.policy.in.h:2
+#: ../polkit/org.openmandriva.openmandrivaservices.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Service Configuration"
 msgstr "Необходима аутентификация для запуска настройки сервисов"

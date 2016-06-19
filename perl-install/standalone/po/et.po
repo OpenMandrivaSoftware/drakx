@@ -3414,134 +3414,134 @@ msgstr "Asukohaseadistused"
 msgid "Language & country configuration"
 msgstr "Keele ja riigi seadistamine"
 
-#: ../polkit/org.moondrake.drakauth.policy.in.h:1
+#: ../polkit/org.openmandriva.drakauth.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Authentication Configuration"
 msgstr "Openmandriva Lx autentimise seadistamise käivitamine"
 
-#: ../polkit/org.moondrake.drakauth.policy.in.h:2
+#: ../polkit/org.openmandriva.drakauth.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Authentication Configuration"
 msgstr "Openmandriva Lx autentimise seadistamine nõuab autentimist"
 
-#: ../polkit/org.moondrake.drakboot.policy.in.h:1
+#: ../polkit/org.openmandriva.drakboot.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Boot Configuration"
 msgstr "Openmandriva Lx alglaadimise seadistamise käivitamine"
 
-#: ../polkit/org.moondrake.drakboot.policy.in.h:2
+#: ../polkit/org.openmandriva.drakboot.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Boot Configuration"
 msgstr "Openmandriva Lx alglaadimise seadistamine nõuab autentimist"
 
-#: ../polkit/org.moondrake.drakclock.policy.in.h:1
+#: ../polkit/org.openmandriva.drakclock.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Date and Time Configuration"
 msgstr "Openmandriva Lx kuupäeva ja kellaaja seadistamise käivitamine"
 
-#: ../polkit/org.moondrake.drakclock.policy.in.h:2
+#: ../polkit/org.openmandriva.drakclock.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Date and Time Configuration"
 msgstr "Openmandriva Lx kuupäeva ja kellaaja seadistamine nõuab autentimist"
 
-#: ../polkit/org.moondrake.drakdisk.policy.in.h:1
+#: ../polkit/org.openmandriva.drakdisk.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Disk Layout Editor"
 msgstr "Openmandriva Lx kettajagamise programmi käivitamine"
 
-#: ../polkit/org.moondrake.drakdisk.policy.in.h:2
+#: ../polkit/org.openmandriva.drakdisk.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Disk Layout Editor"
 msgstr "Openmandriva Lx kettajagamise programm nõuab autentimist"
 
-#: ../polkit/org.moondrake.drakdm.policy.in.h:1
+#: ../polkit/org.openmandriva.drakdm.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Login Manager Configuration"
 msgstr "Openmandriva Lx sisselogimishalduri seadistamise käivitamine"
 
-#: ../polkit/org.moondrake.drakdm.policy.in.h:2
+#: ../polkit/org.openmandriva.drakdm.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Login Manager Configuration"
 msgstr "Openmandriva Lx sisselogimishalduri seadistamine nõuab autentimist"
 
-#: ../polkit/org.moondrake.drakfont.policy.in.h:1
+#: ../polkit/org.openmandriva.drakfont.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Font Configuration"
 msgstr "Openmandriva Lx fontide seadistamise käivitamine"
 
-#: ../polkit/org.moondrake.drakfont.policy.in.h:2
+#: ../polkit/org.openmandriva.drakfont.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Font Configuration"
 msgstr "Openmandriva Lx fontide seadistamine nõuab autentimist"
 
-#: ../polkit/org.moondrake.drakhardware.policy.in.h:1
+#: ../polkit/org.openmandriva.drakhardware.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Hardware Configuration"
 msgstr "Openmandriva Lx riistvara seadistamise käivitamine"
 
-#: ../polkit/org.moondrake.drakhardware.policy.in.h:2
+#: ../polkit/org.openmandriva.drakhardware.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Hardware Configuration"
 msgstr "Openmandriva Lx riistvara seadistamine nõuab autentimist"
 
-#: ../polkit/org.moondrake.draklog.policy.in.h:1
+#: ../polkit/org.openmandriva.draklog.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Log Viewer"
 msgstr "Openmandriva Lx loginäitaja käivitamine"
 
-#: ../polkit/org.moondrake.draklog.policy.in.h:2
+#: ../polkit/org.openmandriva.draklog.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Log Viewer"
 msgstr "Openmandriva Lx loginäitaja käivitamine nõuab autentimist"
 
-#: ../polkit/org.moondrake.drakperm.policy.in.h:1
+#: ../polkit/org.openmandriva.drakperm.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Security Permissions Configuration"
 msgstr "Openmandriva Lx turbeõiguste seadistamise käivitamine"
 
-#: ../polkit/org.moondrake.drakperm.policy.in.h:2
+#: ../polkit/org.openmandriva.drakperm.policy.in.h:2
 #, fuzzy
 msgid ""
 "Authentication is required to run DrakX Security Permissions Configuration"
 msgstr "Openmandriva Lx turbeõiguste seadistamine nõuab autentimist"
 
-#: ../polkit/org.moondrake.drakscanner.policy.in.h:1
+#: ../polkit/org.openmandriva.drakscanner.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Scanner Configuration"
 msgstr "Openmandriva Lx skanneri seadistamise käivitamine"
 
-#: ../polkit/org.moondrake.drakscanner.policy.in.h:2
+#: ../polkit/org.openmandriva.drakscanner.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Scanner Configuration"
 msgstr "Openmandriva Lx skanneri seadistamine nõuab autentimist"
 
-#: ../polkit/org.moondrake.draksec.policy.in.h:1
+#: ../polkit/org.openmandriva.draksec.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Application Security Configuration"
 msgstr "Openmandriva Lx rakenduste turbe seadistamise käivitamine"
 
-#: ../polkit/org.moondrake.draksec.policy.in.h:2
+#: ../polkit/org.openmandriva.draksec.policy.in.h:2
 #, fuzzy
 msgid ""
 "Authentication is required to run DrakX Application Security Configuration"
 msgstr "Openmandriva Lx rakenduste turbe seadistamine nõuab autentimist"
 
-#: ../polkit/org.moondrake.drakups.policy.in.h:1
+#: ../polkit/org.openmandriva.drakups.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX UPS Configuration"
 msgstr "Openmandriva Lx UPS-i seadistamise käivitamine"
 
-#: ../polkit/org.moondrake.drakups.policy.in.h:2
+#: ../polkit/org.openmandriva.drakups.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX UPS Configuration"
 msgstr "Openmandriva Lx UPS-i seadistamine nõuab autentimist"
 
-#: ../polkit/org.moondrake.moondrakeservices.policy.in.h:1
+#: ../polkit/org.openmandriva.openmandrivaservices.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Service Configuration"
 msgstr "Openmandriva Lx teenuste seadistamise käivitamine"
 
-#: ../polkit/org.moondrake.moondrakeservices.policy.in.h:2
+#: ../polkit/org.openmandriva.openmandrivaservices.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Service Configuration"
 msgstr "Openmandriva Lx teenuste seadistamine nõuab autentimist"

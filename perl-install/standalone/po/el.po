@@ -3476,108 +3476,108 @@ msgstr "Τοπικές ρυθμίσεις"
 msgid "Language & country configuration"
 msgstr "Ρύθμιση της γλώσσας και της χώρας"
 
-#: ../polkit/org.moondrake.drakauth.policy.in.h:1
+#: ../polkit/org.openmandriva.drakauth.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Authentication Configuration"
 msgstr "Εκτέλεση της Διαμόρφωσης Πιστοποίησης Openmandriva Lx"
 
-#: ../polkit/org.moondrake.drakauth.policy.in.h:2
+#: ../polkit/org.openmandriva.drakauth.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Authentication Configuration"
 msgstr ""
 "Απαιτείται πιστοποίηση για την εκτέλεση της Διαμόρφωσης Πιστοποίησης "
 "Openmandriva Lx"
 
-#: ../polkit/org.moondrake.drakboot.policy.in.h:1
+#: ../polkit/org.openmandriva.drakboot.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Boot Configuration"
 msgstr "Εκτέλεση της Διαμόρφωσης Εκκίνησης Openmandriva Lx"
 
-#: ../polkit/org.moondrake.drakboot.policy.in.h:2
+#: ../polkit/org.openmandriva.drakboot.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Boot Configuration"
 msgstr ""
 "Απαιτείται πιστοποίηση για την εκτέλεση της Διαμόρφωσης Εκκίνησης "
 "Openmandriva Lx"
 
-#: ../polkit/org.moondrake.drakclock.policy.in.h:1
+#: ../polkit/org.openmandriva.drakclock.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Date and Time Configuration"
 msgstr "Εκτέλεση της Διαμόρφωσης Ημερομηνίας και Ώρας Openmandriva Lx"
 
-#: ../polkit/org.moondrake.drakclock.policy.in.h:2
+#: ../polkit/org.openmandriva.drakclock.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Date and Time Configuration"
 msgstr ""
 "Απαιτείται πιστοποίηση για την εκτέλεση της Διαμόρφωσης Ημερομηνίας και Ώρας "
 "Openmandriva Lx"
 
-#: ../polkit/org.moondrake.drakdisk.policy.in.h:1
+#: ../polkit/org.openmandriva.drakdisk.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Disk Layout Editor"
 msgstr "Εκτέλεση του Επεξεργαστή Διάταξης Δίσκων Openmandriva Lx"
 
-#: ../polkit/org.moondrake.drakdisk.policy.in.h:2
+#: ../polkit/org.openmandriva.drakdisk.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Disk Layout Editor"
 msgstr ""
 "Απαιτείται πιστοποίηση για την εκτέλεση του Επεξεργαστή Διάταξης Δίσκων "
 "Openmandriva Lx"
 
-#: ../polkit/org.moondrake.drakdm.policy.in.h:1
+#: ../polkit/org.openmandriva.drakdm.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Login Manager Configuration"
 msgstr "Εκτέλεση της Διαμόρφωσης του Διαχειριστή Σύνδεσης Openmandriva Lx"
 
-#: ../polkit/org.moondrake.drakdm.policy.in.h:2
+#: ../polkit/org.openmandriva.drakdm.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Login Manager Configuration"
 msgstr ""
 "Απαιτείται πιστοποίηση για την εκτέλεση της Διαμόρφωσης του Διαχειριστή "
 "Σύνδεσης Openmandriva Lx"
 
-#: ../polkit/org.moondrake.drakfont.policy.in.h:1
+#: ../polkit/org.openmandriva.drakfont.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Font Configuration"
 msgstr "Εκτέλεση της Διαμόρφωσης Γραμματοσειρών Openmandriva Lx"
 
-#: ../polkit/org.moondrake.drakfont.policy.in.h:2
+#: ../polkit/org.openmandriva.drakfont.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Font Configuration"
 msgstr ""
 "Απαιτείται πιστοποίηση για την εκτέλεση της Διαμόρφωσης Γραμματοσειρών "
 "Openmandriva Lx"
 
-#: ../polkit/org.moondrake.drakhardware.policy.in.h:1
+#: ../polkit/org.openmandriva.drakhardware.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Hardware Configuration"
 msgstr "Εκτέλεση της Διαμόρφωσης Υλικού Openmandriva Lx"
 
-#: ../polkit/org.moondrake.drakhardware.policy.in.h:2
+#: ../polkit/org.openmandriva.drakhardware.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Hardware Configuration"
 msgstr ""
 "Απαιτείται πιστοποίηση για την εκτέλεση της Διαμόρφωσης Υλικού Openmandriva "
 "Lx"
 
-#: ../polkit/org.moondrake.draklog.policy.in.h:1
+#: ../polkit/org.openmandriva.draklog.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Log Viewer"
 msgstr "Εκτέλεση του Προβολέα Καταγραφών Openmandriva Lx"
 
-#: ../polkit/org.moondrake.draklog.policy.in.h:2
+#: ../polkit/org.openmandriva.draklog.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Log Viewer"
 msgstr ""
 "Απαιτείται πιστοποίηση για την εκτέλεση του Προβολέα Καταγραφών Openmandriva "
 "Lx"
 
-#: ../polkit/org.moondrake.drakperm.policy.in.h:1
+#: ../polkit/org.openmandriva.drakperm.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Security Permissions Configuration"
 msgstr "Εκτέλεση της Διαμόρφωσης Αδειών Ασφαλείας Openmandriva Lx"
 
-#: ../polkit/org.moondrake.drakperm.policy.in.h:2
+#: ../polkit/org.openmandriva.drakperm.policy.in.h:2
 #, fuzzy
 msgid ""
 "Authentication is required to run DrakX Security Permissions Configuration"
@@ -3585,24 +3585,24 @@ msgstr ""
 "Απαιτείται πιστοποίηση για την εκτέλεση της Διαμόρφωσης Αδειών Ασφαλείας "
 "Openmandriva Lx"
 
-#: ../polkit/org.moondrake.drakscanner.policy.in.h:1
+#: ../polkit/org.openmandriva.drakscanner.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Scanner Configuration"
 msgstr "Εκτέλεση της Διαμόρφωσης Σαρωτή Openmandriva Lx"
 
-#: ../polkit/org.moondrake.drakscanner.policy.in.h:2
+#: ../polkit/org.openmandriva.drakscanner.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Scanner Configuration"
 msgstr ""
 "Απαιτείται πιστοποίηση για την εκτέλεση της Διαμόρφωσης Σαρωτή Openmandriva "
 "Lx"
 
-#: ../polkit/org.moondrake.draksec.policy.in.h:1
+#: ../polkit/org.openmandriva.draksec.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Application Security Configuration"
 msgstr "Εκτέλεση της Διαμόρφωσης Ασφαλείας Εφαρμογών Openmandriva Lx"
 
-#: ../polkit/org.moondrake.draksec.policy.in.h:2
+#: ../polkit/org.openmandriva.draksec.policy.in.h:2
 #, fuzzy
 msgid ""
 "Authentication is required to run DrakX Application Security Configuration"
@@ -3610,23 +3610,23 @@ msgstr ""
 "Απαιτείται πιστοποίηση για την εκτέλεση της Διαμόρφωσης Ασφαλείας Εφαρμογών "
 "Openmandriva Lx"
 
-#: ../polkit/org.moondrake.drakups.policy.in.h:1
+#: ../polkit/org.openmandriva.drakups.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX UPS Configuration"
 msgstr "Εκτέλεση της Διαμόρφωσης UPS Openmandriva Lx"
 
-#: ../polkit/org.moondrake.drakups.policy.in.h:2
+#: ../polkit/org.openmandriva.drakups.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX UPS Configuration"
 msgstr ""
 "Απαιτείται πιστοποίηση για την εκτέλεση της Διαμόρφωσης UPS Openmandriva Lx"
 
-#: ../polkit/org.moondrake.moondrakeservices.policy.in.h:1
+#: ../polkit/org.openmandriva.openmandrivaservices.policy.in.h:1
 #, fuzzy
 msgid "Run DrakX Service Configuration"
 msgstr "Εκτέλεση της Διαμόρφωσης Υπηρεσιών Openmandriva Lx"
 
-#: ../polkit/org.moondrake.moondrakeservices.policy.in.h:2
+#: ../polkit/org.openmandriva.openmandrivaservices.policy.in.h:2
 #, fuzzy
 msgid "Authentication is required to run DrakX Service Configuration"
 msgstr ""
