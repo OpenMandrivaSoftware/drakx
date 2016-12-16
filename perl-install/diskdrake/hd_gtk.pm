@@ -112,35 +112,23 @@ sub main {
     });
     # ensure partitions bar is properly sized on first display:
     $notebook_widget->signal_connect(realize => $update_all);
-    $notebook_widget->signal_connect(expose_event => sub {
-        # Intercept redrawing the widget to fix auto-resizing of partition buttons
-        # when user resizes the dialog: GTK's resizing is lame, it's not proportional,
-        # so the buttons receive widths different from what would be calculated for the
-        # new dialog width, and e.g. toggling normal/expert mode causes them to suddenly
-        # change sizes.
-
-        # Avoid redrawing when nothing really changed.
-        my $mainWindowWidth = first($w->{window}->window->get_size);
-        return 0 if ($mainWindowWidth == $lastWindowWidth);
-        $lastWindowWidth = $mainWindowWidth;
-
-        # Calculate partition button sizes
-        my @parts = kind2parts($current_kind);
-        calc_buttons4partitions_lengths(\@parts);
-        # Assign the widths to the buttons
-        my @buttons = $current_kind->{display_box}->get_children();
-        for (my $i = 0; $i < scalar(@parts); ++$i) {
-            $buttons[$i]->set_size_request(delete $parts[$i]->{button_width}, 0);
-        }
-        return 0;
-    });
     $w->sync;
+    # add a bogus tab so that gtk+ displayed everything when there's only one disk:
+    $notebook_widget->prepend_page(Gtk3::Label->new, Gtk3::Label->new);
+    $notebook_widget->set_current_page(0);
+    # there's always at least one child (at least a button for create a new part on empty discs):
+    my @children = $current_kind->{display_box} ? $current_kind->{display_box}->get_children : ();
     # workaround for $notebook_widget being realized too early:
-    if (!$done_button) {
+    if (!@children || !$done_button) {
 	$notebook_widget->set_current_page(-1);
 	$notebook_widget->set_current_page(0);
 	$update_all->(2);
     }
+    undef $initializing;
+    # remove bogus tab we added just to be sure gtk+ displayed everything:
+    $notebook_widget->remove_page(0);
+    # restore position when there's several disks:
+    $notebook_widget->set_current_page(0);
     $done_button->grab_focus;
     if (!$::testing) {
       $in->ask_from_list_(N("Warning"), N("Please make a backup of your data first"), 
@@ -148,7 +136,6 @@ sub main {
         if $::isStandalone;
     }
 
-    undef $initializing;
     $w->main;
 }
 
@@ -299,6 +286,7 @@ sub per_entry_info_box {
 sub current_kind_changed {
     my ($_in, $kind) = @_;
 
+    return if !$kind->{display_box};
     $_->destroy foreach $kind->{display_box}->get_children;
     my @parts = kind2parts($kind);
     my $totalsectors = kind2sectors($kind, @parts);
