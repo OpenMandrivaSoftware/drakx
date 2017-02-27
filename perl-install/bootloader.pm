@@ -1188,8 +1188,8 @@ sub suggest {
 	       {
 		root => $root,
 		if_($options{vga_fb}, vga => $options{vga_fb}), #- using framebuffer
-		if_($options{vga_fb} && $options{splash}, append => "splash"),
-		if_($options{quiet}, append => "splash quiet"),
+		if_($options{vga_fb} && $options{splash}, append => "splash audit=0"),
+		if_($options{quiet}, append => "splash quiet audit=0"),
 	       }, "", 1);
 
 	if ($options{vga_fb} && $e->{label} eq 'linux') {
@@ -1198,7 +1198,7 @@ sub suggest {
     }
 
     add_kernel($bootloader, $kernels[0],
-	       { root => $root, label => 'failsafe', append => 'failsafe' }, "", 1)
+	       { root => $root, label => 'failsafe', append => 'failsafe audit=0' }, "", 1)
       if @kernels;
 
 	#- search for dos (or windows) boot partition. Do not look in extended partitions!
@@ -1230,7 +1230,7 @@ sub suggest {
 
     if (main_method($bootloader->{method}) eq 'grub') {
 	my %processed_entries = {};
-	foreach my $c (find_other_distros_grub_conf($fstab)) {	    
+	foreach my $c (find_other_distros_grub_conf($fstab)) {
 	    my %h = (
 		     type => 'grub_configfile',
 		     label => $c->{name},
@@ -1291,14 +1291,14 @@ sub method2text {
 sub method_choices_raw {
     my ($b_prefix_mounted) = @_;
     detect_devices::is_xbox() ? 'cromwell' :
-    arch() =~ /mips/ ? 'pmon2000' : 
+    arch() =~ /mips/ ? 'pmon2000' :
     arch() =~ /arm/ ? 'uboot' :
-       if_(!$b_prefix_mounted || whereis_binary('grub2-reboot', $::prefix), 
+       if_(!$b_prefix_mounted || whereis_binary('grub2-reboot', $::prefix),
 	   'grub2'),
       if_(!is_uefi(), (
-       if_(!$b_prefix_mounted || whereis_binary('grub', $::prefix), 
+       if_(!$b_prefix_mounted || whereis_binary('grub', $::prefix),
 	   'grub-graphic', 'grub-menu'),
-       if_(!$b_prefix_mounted || whereis_binary('lilo', $::prefix), 
+       if_(!$b_prefix_mounted || whereis_binary('lilo', $::prefix),
 	   'lilo-menu'),
       ));
 }
@@ -1427,7 +1427,6 @@ sub write_lilo {
 	my ($s) = @_;
 	$s =~ /["=\s]/ ? $quotes->($s) : $s;
     };
-    
 
     my @sorted_hds = sort_hds_according_to_bios($bootloader, $all_hds);
 
@@ -1467,7 +1466,7 @@ sub write_lilo {
     push @conf, "append=" . $quotes->($bootloader->{append}) if $bootloader->{append};
     push @conf, "password=" . $bootloader->{password} if $bootloader->{password}; #- also done by msec
     push @conf, "timeout=" . round(10 * $bootloader->{timeout}) if $bootloader->{timeout};
-    
+
     push @conf, "message=$bootloader->{message}" if $bootloader->{message};
 
     push @conf, "ignore-table" if any { $_->{unsafe} && $_->{table} } @{$bootloader->{entries}};
@@ -1488,7 +1487,7 @@ sub write_lilo {
 	my @entry_conf;
 	push @entry_conf, "label=" . make_label_lilo_compatible($entry->{label}) if $entry->{label};
 
-	if ($entry->{type} eq "image") {		
+	if ($entry->{type} eq "image") {
 	    push @entry_conf, 'root=' . $quotes_if_needed->($entry->{root}) if $entry->{root} && !$entry->{xen};
 	    push @entry_conf, "initrd=" . $file2fullname->($entry->{initrd}) if $entry->{initrd} && !$mbootpack_file;
 	    my $append = join(' ', if_($entry->{xen_append}, $entry->{xen_append}),
@@ -1502,12 +1501,12 @@ sub write_lilo {
 	    delete $entry->{unsafe} if $entry->{table}; #- we can't have both
 	    push @entry_conf, map { "$_=$entry->{$_}" } grep { $entry->{$_} } qw(table boot-as);
 	    push @entry_conf, grep { $entry->{$_} } qw(unsafe master-boot);
-		
+
 	    if ($entry->{table}) {
 		#- hum, things like table=c: are needed for some os2 cases,
 		#- in that case $hd below is undef
 		my $hd = fs::get::device2part($entry->{table}, $all_hds->{hds});
-		if ($hd && $hd != $sorted_hds[0]) {		       
+		if ($hd && $hd != $sorted_hds[0]) {
 		    #- boot off the nth drive, so reverse the BIOS maps
 		    my $nb = sprintf("0x%x", 0x80 + (find_index { $hd == $_ } @sorted_hds));
 		    $entry->{mapdrive} ||= { '0x80' => $nb, $nb => '0x80' }; 
@@ -1631,7 +1630,7 @@ sub device2grub {
 	$device;
     my $bios = eval { find_index { $hd eq $_ } @$sorted_hds };
     if (defined $bios) {
-	my $part_string = defined $part_nb ? ',' . ($part_nb - 1) : '';    
+	my $part_string = defined $part_nb ? ',' . ($part_nb - 1) : '';
 	"(hd$bios$part_string)";
     } else {
 	undef;
@@ -1718,7 +1717,7 @@ sub grub2file {
 	$root and $grub_file = "$root$grub_file";
     }
 
-    if (my ($device, $rel_file) = grub2dev_and_file($grub_file, $grub2dev)) {	
+    if (my ($device, $rel_file) = grub2dev_and_file($grub_file, $grub2dev)) {
 	my $part = fs::get::device2part($device, $fstab);
 	if (my $mntpoint = $part && $part->{mntpoint})  {
 	    ($mntpoint eq '/' ? '' : $mntpoint) . '/' . $rel_file;
@@ -1777,7 +1776,7 @@ sub crypt_grub_password {
         }
     }
     waitpid($pid, 0);
-    my $status = $? >> 8;           
+    my $status = $? >> 8;
     die "failed to encrypt password (status=$status)" if $status != 0;
     chomp_($res);
 }
