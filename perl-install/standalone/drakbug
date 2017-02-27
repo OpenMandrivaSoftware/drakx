@@ -260,9 +260,9 @@ sub report_bug_to_bugzilla() {
     $arch = 'i586' if arch() =~ /^i.86/;
     my $options = join('&',
                        ($product || $version ? 'cf_rpmpkg=' . join('-', $product, $version) : ()),
-                       'version=' . ($rel_data->{branch} eq 'Devel' ? 'Cooker' : $rel_data->{version}),
-                       'component=Core%20Packages',
-                       'classification=Openmandriva Lx%20GNU/Linux',
+                       'version=' . ($rel_data->{branch} eq 'Devel' ? 'Cooker' : "Lx " . $rel_data->{version}),
+                       'component=Software',
+		       'product='.$rel_data->{distribution}." ".$rel_data->{version},
                        "rep_platform=$arch",
                        if_($incident,
                            join('', "short_desc=$prog%20",

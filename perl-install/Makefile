@@ -68,7 +68,7 @@ dist-svn: localcopy
 
 dist dist-git:
 	rm -rf $(PACKAGE)-$(PKGVERSION)*
-	for i in perl-install $(OTHERS); do git archive --format=tar --remote=.. --prefix=$(PACKAGE)-$(PKGVERSION)/ HEAD $$i | tar -x; done
+	for i in perl-install $(OTHERS); do git archive --format=tar --remote=.. --prefix=$(PACKAGE)-$(PKGVERSION)/ HEAD $$i | tar -xf -; done
 	rm -rf $(PACKAGE)-$(PKGVERSION)/perl-install/{install,unused,list_modules.pm}
 	cp -f ../kernel/list_modules.pm $(PACKAGE)-$(PKGVERSION)/perl-install
 	cd $(PACKAGE)-$(PKGVERSION)/perl-install ; mv -f Makefile.drakxtools Makefile
