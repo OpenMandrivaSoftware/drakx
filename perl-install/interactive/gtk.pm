@@ -779,7 +779,7 @@ sub is_help_file_exist {
 
 sub load_from_uri {
     my ($view, $url) = @_;
-    $view->open(get_html_file($::o, $url));
+    $view->load_uri(get_html_file($::o, $url), 'file:///');
 }
 
 sub get_html_file {
@@ -800,8 +800,8 @@ sub get_html_file {
 sub display_help_window {
     my ($o, $common) = @_;
     if (my $file = $common->{interactive_help_id}) {
-        require Gtk3::WebKit;
-        my $view = gtknew('WebKit_View');
+        require Gtk3::WebKit2;
+        my $view = gtknew('WebKit2_WebView');
 
         load_from_uri($view, $file);
 
